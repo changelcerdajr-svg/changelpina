@@ -11,7 +11,8 @@ Cada corrida (pensada para ejecutarse cada hora):
 
 Solo lee APIs publicas de Polymarket (Gamma y CLOB).
 """
-import json, os, sys, re, math, hashlib, datetime as dt
+import json, os, sys, re, math, hashlib, csv, datetime as dt
+from concurrent.futures import ThreadPoolExecutor
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__))))
 from fetch_backtest import get, category, G, C
 
@@ -19,6 +20,8 @@ DIR = "data/paper"
 STATE = f"{DIR}/state.json"
 LOG = f"{DIR}/log.jsonl"
 REPORT = f"{DIR}/REPORT.md"
+SHADOW_CSV = f"{DIR}/shadow_closed.csv"   # todas las oportunidades ya resueltas (sin limite de capital)
+SHADOW_HDR = ["id", "rule", "cat", "px", "touched", "result", "ts", "end_ts", "closed_ts", "q"]
 
 CAPITAL0 = 1000.0          # capital virtual
 MAX_MARKET = 0.05          # 5% del capital por mercado
@@ -253,6 +256,100 @@ def place(st, now, markets):
     return len(cands), n
 
 
+def shadow_rows():
+    if not os.path.exists(SHADOW_CSV):
+        return []
+    with open(SHADOW_CSV, newline="") as f:
+        return list(csv.DictReader(f))
+
+
+def shadow_add(st, now, markets):
+    """Registro sombra: cada oportunidad que detecta el escaner, una vez por mercado, sin limite de
+    capital. Sirve para medir el edge con muestra grande; no mueve el capital virtual."""
+    seen = {r["id"] for r in shadow_rows()} | {x["id"] for x in st["shadow"]}
+    n = 0
+    for m in markets:
+        if m["id"] in seen:
+            continue
+        r = match_rule(m, now)
+        if not r:
+            continue
+        st["shadow"].append(dict(id=m["id"], rule=r["rule"], cat=r["cat"], side=r["side"], token=json.loads(m["clobTokenIds"])[r["side"]],
+                                 px=r["px"], tick=r["tick"], ts=int(now), end_ts=int(parse_ts(m["endDate"])), q=m["question"][:90], touched=None))
+        n += 1
+    return n
+
+
+def shadow_update(st, now):
+    # a) cuando la orden habria expirado, ver si el precio llego a tocarla
+    due = [x for x in st["shadow"] if x["touched"] is None and now - x["ts"] >= ORDER_TTL_H * 3600]
+
+    def touch(x):
+        h = get(f"{C}/prices-history?market={x['token']}&startTs={x['ts']}&endTs={x['ts'] + ORDER_TTL_H * 3600}&fidelity=1", tries=2)
+        if h is None:
+            return x, None
+        pts = [p["p"] for p in (h.get("history") or []) if p["t"] > x["ts"]]
+        return x, int(any(p <= x["px"] - x["tick"] + 1e-9 for p in pts))
+
+    with ThreadPoolExecutor(8) as ex:
+        for x, t in ex.map(touch, due):
+            x["touched"] = t
+    # b) liquidar las que ya cerraron
+    ready = [x for x in st["shadow"] if x["touched"] is not None and now > x["end_ts"] - 3600]
+    closed = {}
+    for i in range(0, len(ready), 50):
+        ms = get(f"{G}/markets?limit=100&closed=true&" + "&".join(f"id={x['id']}" for x in ready[i:i + 50]), tries=2) or []
+        for m in ms:
+            try:
+                pr = [float(v) for v in json.loads(m["outcomePrices"])]
+                if len(pr) == 2:
+                    closed[m["id"]] = (pr, parse_ts(m.get("closedTime")) or now)
+            except Exception:
+                pass
+    if closed:
+        new = not os.path.exists(SHADOW_CSV)
+        with open(SHADOW_CSV, "a", newline="") as f:
+            w = csv.writer(f)
+            if new:
+                w.writerow(SHADOW_HDR)
+            for x in st["shadow"]:
+                if x["id"] in closed:
+                    pr, ct = closed[x["id"]]
+                    w.writerow([x["id"], x["rule"], x["cat"], x["px"], x["touched"], pr[x["side"]], x["ts"], x["end_ts"], int(ct), x["q"]])
+        st["shadow"] = [x for x in st["shadow"] if x["id"] not in closed]
+    return len(closed)
+
+
+def shadow_report(st, L, now):
+    rows = shadow_rows()
+    L.append("\n## Registro sombra: todas las oportunidades detectadas, sin limite de capital\n")
+    L.append("Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "
+             "\"Tocadas\" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).\n")
+    stuck = [x for x in st["shadow"] if now > x["end_ts"] + STUCK_DAYS * 86400]
+    L.append(f"- Resueltas: {len(rows)} | abiertas: {len(st['shadow'])} | abiertas mas de {STUCK_DAYS} dias despues de su fecha de fin: {len(stuck)}")
+    if not rows:
+        return
+    L.append("\n| Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |")
+    L.append("|---|---|---|---|---|---|---|---|")
+    for g in sorted({r["rule"] for r in rows}) + ["TOTAL"]:
+        for label, f in (("todas", lambda r: True), ("tocadas", lambda r: r["touched"] == "1")):
+            ss = [r for r in rows if (g == "TOTAL" or r["rule"] == g) and f(r)]
+            n = len(ss)
+            if not n:
+                continue
+            e = [float(r["result"]) - float(r["px"]) for r in ss]
+            mean = sum(e) / n
+            sd = math.sqrt(sum((v - mean) ** 2 for v in e) / (n - 1)) if n > 1 else 0
+            se = sd / math.sqrt(n)
+            px = sum(float(r["px"]) for r in ss) / n
+            L.append(f"| {g} | {label} | {n} | {px*100:.2f}c | {(px+mean)*100:.2f}% | {mean*100:+.2f} pts | {(mean-1.96*se)*100:+.2f} a {(mean+1.96*se)*100:+.2f} | {sum(float(r['result']) < 1 for r in ss)} |")
+    bad = sorted([r for r in rows if float(r["result"]) < 1], key=lambda r: float(r["result"]) - float(r["px"]))[:10]
+    if bad:
+        L.append("\nPeores casos del registro sombra:\n")
+        for r in bad:
+            L.append(f"- {float(r['px'])*100:.1f}c -> pago {r['result']} | {r['rule']} | {'tocada' if r['touched']=='1' else 'no tocada'} | {r['q']}")
+
+
 def wilson(k, n, z=1.96):
     if n == 0:
         return (0, 0)
@@ -306,6 +403,7 @@ def report(st):
         L.append("|---|---|---|---|---|---|")
         for p in sorted(st["positions"], key=lambda p: p["end_ts"])[:40]:
             L.append(f"| ${p['cost']:.2f} | {p['px']*100:.1f}c | {p.get('mark', p['px'])*100:.1f}c | {p['rule']} | {'si' if p.get('stuck') else ''} | {p['q'][:80]} |")
+    shadow_report(st, L, now_utc().timestamp())
     L.append("\n## Veredicto\n")
     if n < 100 or days < PAPER_WEEKS * 7:
         L.append(f"Aun no hay veredicto: van {n} operaciones cerradas en {days:.1f} dias. El plan pide {PAPER_WEEKS} semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.")
@@ -323,7 +421,9 @@ def report(st):
 def main():
     os.makedirs(DIR, exist_ok=True)
     st = load_state()
+    st.setdefault("shadow", [])
     now = now_utc().timestamp()
+    nsh = shadow_update(st, now)
     settle(st, now)
     check_orders(st, now)
     eq = equity(st)
@@ -340,13 +440,15 @@ def main():
         markets = scan(now)
         nm = len(markets)
         nc, npl = place(st, now, markets)
+        shadow_add(st, now, markets)
     st["cash"] = round(st["cash"], 4)
     st["runs"].append(dict(ts=iso(now_utc()), equity=round(equity(st), 2), cash=round(st["cash"], 2), orders=len(st["orders"]),
-                           positions=len(st["positions"]), closed=len(st["closed"]), scanned=nm, candidates=nc, placed=npl))
+                           positions=len(st["positions"]), closed=len(st["closed"]), scanned=nm, candidates=nc, placed=npl,
+                           shadow_open=len(st["shadow"]), shadow_closed=nsh))
     json.dump(st, open(STATE, "w"), ensure_ascii=False, indent=1)
     report(st)
     r = st["runs"][-1]
-    print(f"corrida {len(st['runs'])}: escaneados {nm}, candidatos {nc}, ordenes nuevas {npl} | abiertas {r['orders']}, posiciones {r['positions']}, cerradas {r['closed']} | valor ${r['equity']}"
+    print(f"corrida {len(st['runs'])}: escaneados {nm}, candidatos {nc}, ordenes nuevas {npl} | abiertas {r['orders']}, posiciones {r['positions']}, cerradas {r['closed']} | sombra abiertas {r['shadow_open']} | valor ${r['equity']}"
           + (" | DETENIDA por perdida" if st["halted"] else "") + (" | periodo de papel terminado" if finished else ""))
 
 
