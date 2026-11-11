@@ -51,4 +51,4 @@ def main(weeks=36, per_week=300):
             if h is not None: db.execute("insert or replace into hist values(?,?)",(mid,json.dumps(h)))
             if i%300==0: db.commit(); print('hist',i,flush=True)
     db.commit()
-if __name__=='__main__': main(int(sys.argv[1]) if len(sys.argv)>1 else 36)
+if __name__=="__main__": main(int(sys.argv[1]) if len(sys.argv)>1 else 36, int(sys.argv[2]) if len(sys.argv)>2 else 300)
