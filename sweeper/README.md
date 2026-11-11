@@ -81,6 +81,12 @@ límite virtuales al punto medio (nunca al ask). Estado en `data/paper/state.jso
 - Una orden se llena solo si el precio bajó al menos 1 tick por debajo del límite después de ponerla
   **y** gana un sorteo del 30% (supuesto del plan). Vive 12 horas como máximo.
 - Se detiene si la pérdida acumulada llega al 15%, y deja de abrir órdenes a las 4 semanas.
+- **Registro sombra**: con $1,000 solo caben unas 11 órdenes a la vez, muy pocas para medir una
+  ventaja de medio punto. Por eso además se anota cada oportunidad detectada (una vez por mercado,
+  sin límite de capital) con su precio límite, si el precio llegó a tocarla y cómo pagó
+  (`data/paper/shadow_closed.csv`). El edge de las "tocadas" es el número que decide el veredicto.
+- Programado como tarea de Claude Code en la nube cada hora. Una sesión nueva no puede subir
+  cambios a este repo, así que la tarea despierta la sesión que construyó el proyecto.
 
 Corrida manual:
 
