@@ -51,7 +51,7 @@ paginación de la API; volumen >= $5,000), 19,993 observaciones con el favorito 
 
 Detalle: `data/backtest_results.csv` y `data/backtest_verdict.csv` (`src/verdict_backtest.py`).
 Los archivos `*_top300.csv` son la primera corrida, con solo los 300 mercados de mayor volumen por
-semana; daba un edge aún peor (-2 a -4.7 pts) porque esa muestra sobre-representa sorpresas.
+semana; daba un edge aún peor (-2 a -4.7 pts) probablemente porque los mercados con sorpresas acumulan más volumen.
 
 Limitaciones: el historial es horario (precio medio/último, no el bid real); la muestra sigue siendo
 la de mayor volumen de cada semana; muchos mercados son del mismo partido/evento, así que los IC
