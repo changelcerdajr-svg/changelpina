@@ -1,6 +1,6 @@
 {
  "capital0": 1000.0,
- "cash": 400.806,
+ "cash": 400.6966,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
   {
@@ -67,48 +67,6 @@
    "liq": 35813
   },
   {
-   "oid": "6716492-1794496609",
-   "id": "6716492",
-   "q": "Will the price of Bitcoin be between $74,000 and $76,000 on November 12?",
-   "cat": "cripto",
-   "rule": "cripto_cierre",
-   "event": "1320603",
-   "side": 1,
-   "token": "41621030513674046466433010574348964145767225384093140966196079330874012678119",
-   "px": 0.996,
-   "tick": 0.001,
-   "mid": 0.996,
-   "bid": 0.994,
-   "ask": 0.998,
-   "shares": 50.0453,
-   "cost": 49.8451,
-   "ts": 1794496609.392952,
-   "end_ts": 1794502800.0,
-   "hours": 1.72,
-   "liq": 35594
-  },
-  {
-   "oid": "6961454-1794496609",
-   "id": "6961454",
-   "q": "Will Apple (AAPL) close above $350 on November 12?",
-   "cat": "otros",
-   "rule": "otros_cierre",
-   "event": "1363899",
-   "side": 0,
-   "token": "52386640492759463916675757405449872172944793458796484025507424498094080043155",
-   "px": 0.983,
-   "tick": 0.001,
-   "mid": 0.9835,
-   "bid": 0.977,
-   "ask": 0.99,
-   "shares": 50.8259,
-   "cost": 49.9619,
-   "ts": 1794496609.392952,
-   "end_ts": 1794517200.0,
-   "hours": 5.72,
-   "liq": 2922
-  },
-  {
    "oid": "6961460-1794496609",
    "id": "6961460",
    "q": "Will Microsoft (MSFT) close above $540 on November 12?",
@@ -149,6 +107,27 @@
    "end_ts": 1794520800.0,
    "hours": 6.72,
    "liq": 1314
+  },
+  {
+   "oid": "6961451-1794500163",
+   "id": "6961451",
+   "q": "Will Apple (AAPL) close above $335 on November 12?",
+   "cat": "otros",
+   "rule": "otros_cierre",
+   "event": "1363899",
+   "side": 0,
+   "token": "56507983640222974658301342876373811294800502530572451159256431096269731738359",
+   "px": 0.99,
+   "tick": 0.001,
+   "mid": 0.99,
+   "bid": 0.981,
+   "ask": 0.999,
+   "shares": 50.5771,
+   "cost": 50.0713,
+   "ts": 1794500163.127508,
+   "end_ts": 1794517200.0,
+   "hours": 4.73,
+   "liq": 1391
   }
  ],
  "positions": [
@@ -173,7 +152,7 @@
    "hours": 16.91,
    "liq": 12794,
    "fill_ts": 1794449680.382756,
-   "mark": 0.975,
+   "mark": 0.996,
    "stuck": false,
    "disputed": false
   },
@@ -223,7 +202,7 @@
    "hours": 6.75,
    "liq": 26984,
    "fill_ts": 1794485864.854753,
-   "mark": 0.9715,
+   "mark": 0.9965,
    "stuck": false,
    "disputed": false
   },
@@ -248,7 +227,7 @@
    "hours": 6.75,
    "liq": 23819,
    "fill_ts": 1794489528.878361,
-   "mark": 0.994,
+   "mark": 0.998,
    "stuck": false,
    "disputed": false
   },
@@ -273,7 +252,32 @@
    "hours": 7.72,
    "liq": 1069,
    "fill_ts": 1794496609.392952,
-   "mark": 0.977
+   "mark": 0.97,
+   "stuck": false,
+   "disputed": false
+  },
+  {
+   "oid": "6716492-1794496609",
+   "id": "6716492",
+   "q": "Will the price of Bitcoin be between $74,000 and $76,000 on November 12?",
+   "cat": "cripto",
+   "rule": "cripto_cierre",
+   "event": "1320603",
+   "side": 1,
+   "token": "41621030513674046466433010574348964145767225384093140966196079330874012678119",
+   "px": 0.996,
+   "tick": 0.001,
+   "mid": 0.996,
+   "bid": 0.994,
+   "ask": 0.998,
+   "shares": 50.0453,
+   "cost": 49.8451,
+   "ts": 1794496609.392952,
+   "end_ts": 1794502800.0,
+   "hours": 1.72,
+   "liq": 35594,
+   "fill_ts": 1794500163.127508,
+   "mark": 0.996
   }
  ],
  "closed": [
@@ -525,14 +529,27 @@
    "placed": 5,
    "shadow_open": 326,
    "shadow_closed": 2
+  },
+  {
+   "ts": "2026-11-12T16:16:52Z",
+   "equity": 1001.43,
+   "cash": 400.7,
+   "orders": 6,
+   "positions": 6,
+   "closed": 1,
+   "scanned": 10628,
+   "candidates": 134,
+   "placed": 1,
+   "shadow_open": 333,
+   "shadow_closed": 3
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 34,
-  "filled": 6,
+  "placed": 35,
+  "filled": 7,
   "expired": 5,
-  "touched_not_filled": 16
+  "touched_not_filled": 17
  },
  "shadow": [
   {
@@ -1849,45 +1866,6 @@
    "touched": 1
   },
   {
-   "id": "6952375",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "87646467797824707848281963254650675477479325819084547133800440969820062430690",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1794456899,
-   "end_ts": 1794456900,
-   "q": "Gold Up or Down - November 11, 11:00PM-11:15PM ET",
-   "touched": null
-  },
-  {
-   "id": "6953474",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "88945043570036569736397899352060743939418049808161932137678274387510319772867",
-   "px": 0.992,
-   "tick": 0.001,
-   "ts": 1794456899,
-   "end_ts": 1794459600,
-   "q": "Will Bitcoin dip to $73,000 on November 11?",
-   "touched": null
-  },
-  {
-   "id": "6953559",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "105439559654015266430558450729596184427348543921767299293654019029918344695733",
-   "px": 0.985,
-   "tick": 0.001,
-   "ts": 1794456899,
-   "end_ts": 1794459600,
-   "q": "Will XRP reach $1.10 on November 11?",
-   "touched": null
-  },
-  {
    "id": "6414512",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -1898,7 +1876,7 @@
    "ts": 1794456899,
    "end_ts": 1794499200,
    "q": "Spread: Guinea-Bissau (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6414522",
@@ -1911,7 +1889,7 @@
    "ts": 1794456899,
    "end_ts": 1794499200,
    "q": "Madagascar vs. Guinea-Bissau: O/U 5.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6414602",
@@ -1924,7 +1902,7 @@
    "ts": 1794456899,
    "end_ts": 1794499200,
    "q": "Spread: Sierra Leone (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6414604",
@@ -1937,7 +1915,7 @@
    "ts": 1794456899,
    "end_ts": 1794499200,
    "q": "Spread: Sierra Leone (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6414646",
@@ -1950,7 +1928,7 @@
    "ts": 1794456899,
    "end_ts": 1794499200,
    "q": "Spread: Eritrea (-1.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6414648",
@@ -1963,7 +1941,7 @@
    "ts": 1794456899,
    "end_ts": 1794499200,
    "q": "Spread: Eritrea (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6414650",
@@ -1976,7 +1954,7 @@
    "ts": 1794456899,
    "end_ts": 1794499200,
    "q": "Spread: Eritrea (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6414661",
@@ -1989,7 +1967,7 @@
    "ts": 1794456899,
    "end_ts": 1794499200,
    "q": "Guinea vs. Eritrea: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6414692",
@@ -2002,7 +1980,7 @@
    "ts": 1794456899,
    "end_ts": 1794495600,
    "q": "Spread: Somalia (-1.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6414694",
@@ -2015,7 +1993,7 @@
    "ts": 1794456899,
    "end_ts": 1794495600,
    "q": "Spread: Somalia (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6414696",
@@ -2028,7 +2006,7 @@
    "ts": 1794456899,
    "end_ts": 1794495600,
    "q": "Spread: Somalia (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6695604",
@@ -2041,7 +2019,7 @@
    "ts": 1794456899,
    "end_ts": 1794495600,
    "q": "Spread: Uzbekistan (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6695608",
@@ -2054,7 +2032,7 @@
    "ts": 1794456899,
    "end_ts": 1794495600,
    "q": "Spread: Russia (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6408797",
@@ -2067,7 +2045,7 @@
    "ts": 1794456899,
    "end_ts": 1794505500,
    "q": "Spread: Arsenal WFC (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6408811",
@@ -2080,7 +2058,7 @@
    "ts": 1794456899,
    "end_ts": 1794505500,
    "q": "FC Barcelona vs. Arsenal WFC: O/U 8.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6414371",
@@ -2093,7 +2071,7 @@
    "ts": 1794456899,
    "end_ts": 1794510000,
    "q": "Spread: Sudan (-2.5)",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6414373",
@@ -2106,7 +2084,7 @@
    "ts": 1794456899,
    "end_ts": 1794510000,
    "q": "Spread: Sudan (-3.5)",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6414385",
@@ -2119,7 +2097,7 @@
    "ts": 1794456899,
    "end_ts": 1794510000,
    "q": "Senegal vs. Sudan: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6414418",
@@ -2132,7 +2110,7 @@
    "ts": 1794456899,
    "end_ts": 1794510000,
    "q": "Spread: Namibia (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6414420",
@@ -2145,7 +2123,7 @@
    "ts": 1794456899,
    "end_ts": 1794510000,
    "q": "Spread: Namibia (-3.5)",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6414462",
@@ -2158,7 +2136,7 @@
    "ts": 1794456899,
    "end_ts": 1794510000,
    "q": "Spread: Gambia (-1.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6414464",
@@ -2171,7 +2149,7 @@
    "ts": 1794456899,
    "end_ts": 1794510000,
    "q": "Spread: Gambia (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6414466",
@@ -2184,7 +2162,7 @@
    "ts": 1794456899,
    "end_ts": 1794510000,
    "q": "Spread: Gambia (-3.5)",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6414477",
@@ -2197,7 +2175,7 @@
    "ts": 1794456899,
    "end_ts": 1794510000,
    "q": "Ivory Coast vs. Gambia: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6415967",
@@ -2210,7 +2188,7 @@
    "ts": 1794456899,
    "end_ts": 1794502800,
    "q": "Spread: Armenia (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6415971",
@@ -2223,7 +2201,7 @@
    "ts": 1794456899,
    "end_ts": 1794502800,
    "q": "Spread: Cyprus (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6416134",
@@ -2236,7 +2214,7 @@
    "ts": 1794456899,
    "end_ts": 1794502800,
    "q": "Spread: Türkiye (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6689454",
@@ -2249,7 +2227,7 @@
    "ts": 1794456899,
    "end_ts": 1794502800,
    "q": "Spread: Sparta Prague (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6689456",
@@ -2262,7 +2240,7 @@
    "ts": 1794456899,
    "end_ts": 1794502800,
    "q": "Spread: Sparta Prague (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6689467",
@@ -2275,7 +2253,7 @@
    "ts": 1794456899,
    "end_ts": 1794502800,
    "q": "SCU Torreense vs. Sparta Prague: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6695541",
@@ -2288,7 +2266,7 @@
    "ts": 1794456899,
    "end_ts": 1794502800,
    "q": "Lithuania vs. Suriname: O/U 5.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6749969",
@@ -2301,7 +2279,7 @@
    "ts": 1794456899,
    "end_ts": 1794510000,
    "q": "Charleston Cougars vs. California Golden Bears (W)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6414298",
@@ -2314,7 +2292,7 @@
    "ts": 1794456899,
    "end_ts": 1794513600,
    "q": "Spread: Central African Republic (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6415588",
@@ -2327,7 +2305,7 @@
    "ts": 1794456899,
    "end_ts": 1794512700,
    "q": "Spread: Italy (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6415651",
@@ -2340,7 +2318,7 @@
    "ts": 1794456899,
    "end_ts": 1794512700,
    "q": "Spread: Croatia (-3.5)",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6415711",
@@ -2353,7 +2331,7 @@
    "ts": 1794456899,
    "end_ts": 1794512700,
    "q": "Spread: Latvia (-3.5)",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6415770",
@@ -2366,7 +2344,7 @@
    "ts": 1794456899,
    "end_ts": 1794512700,
    "q": "Spread: Albania (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6415771",
@@ -2379,7 +2357,7 @@
    "ts": 1794456899,
    "end_ts": 1794512700,
    "q": "Spread: Finland (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6471511",
@@ -2392,7 +2370,7 @@
    "ts": 1794456899,
    "end_ts": 1794529800,
    "q": "Spread: Panama (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6737021",
@@ -2405,7 +2383,7 @@
    "ts": 1794456899,
    "end_ts": 1794531600,
    "q": "Southern Jaguars vs. Minnesota Golden Gophers",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6749976",
@@ -2418,7 +2396,7 @@
    "ts": 1794456899,
    "end_ts": 1794526200,
    "q": "Middle Tennessee Blue Raiders vs. Tennessee Volunteers (W)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6749996",
@@ -2431,7 +2409,7 @@
    "ts": 1794456899,
    "end_ts": 1794528000,
    "q": "South Carolina Gamecocks vs. Clemson Tigers (W)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6795654",
@@ -2444,7 +2422,7 @@
    "ts": 1794456899,
    "end_ts": 1794524400,
    "q": "Spread: CA Progreso (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6795656",
@@ -2457,7 +2435,7 @@
    "ts": 1794456899,
    "end_ts": 1794524400,
    "q": "Spread: CA Progreso (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6917489",
@@ -2470,7 +2448,7 @@
    "ts": 1794456899,
    "end_ts": 1794535200,
    "q": "Spread: Leones Negros UDEG (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6917491",
@@ -2483,7 +2461,7 @@
    "ts": 1794456899,
    "end_ts": 1794535200,
    "q": "Spread: Leones Negros UDEG (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6978568",
@@ -2496,7 +2474,7 @@
    "ts": 1794456899,
    "end_ts": 1794535200,
    "q": "Spread: Hornets (-15.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6820159",
@@ -2509,7 +2487,7 @@
    "ts": 1794456899,
    "end_ts": 1794564000,
    "q": "Will Mlada Boleslav win on 2026-11-13?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6820160",
@@ -2522,7 +2500,7 @@
    "ts": 1794456899,
    "end_ts": 1794564000,
    "q": "Will Mlada Boleslav vs. Vysocina Jihlava end in a draw?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6820161",
@@ -2535,7 +2513,7 @@
    "ts": 1794456899,
    "end_ts": 1794564000,
    "q": "Will Vysocina Jihlava win on 2026-11-13?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6414600",
@@ -4771,6 +4749,136 @@
    "ts": 1794496609,
    "end_ts": 1794581100,
    "q": "Spread: Qatar (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "6961455",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "82626069524821200469293917369733138292207731854963603279690368572151243422333",
+   "px": 0.975,
+   "tick": 0.001,
+   "ts": 1794500163,
+   "end_ts": 1794517200,
+   "q": "Google (GOOGL) Up or Down on November 12?",
+   "touched": null
+  },
+  {
+   "id": "6961458",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "39939183473111119681513000909479811153449775312093647526906464634832887615567",
+   "px": 0.974,
+   "tick": 0.001,
+   "ts": 1794500163,
+   "end_ts": 1794517200,
+   "q": "Will Microsoft (MSFT) close above $520 on November 12?",
+   "touched": null
+  },
+  {
+   "id": "6961464",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "77163371957116683354023405694254694463818309074283792960666435035522427572274",
+   "px": 0.992,
+   "tick": 0.001,
+   "ts": 1794500163,
+   "end_ts": 1794517200,
+   "q": "Will Amazon (AMZN) close above $260 on November 12?",
+   "touched": null
+  },
+  {
+   "id": "6961472",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "74100933553552650590513145777241051656263796290368367872645730956720637853927",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1794500163,
+   "end_ts": 1794517200,
+   "q": "Will Google (GOOGL) close above $285 on November 12?",
+   "touched": null
+  },
+  {
+   "id": "6961473",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "99563059807571248990505269213754963158643578476268595887350498994204471148312",
+   "px": 0.987,
+   "tick": 0.001,
+   "ts": 1794500163,
+   "end_ts": 1794517200,
+   "q": "Will Google (GOOGL) close above $290 on November 12?",
+   "touched": null
+  },
+  {
+   "id": "6961479",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "82453784788061020651760912574254360736325385558594099613033163740377475855654",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1794500163,
+   "end_ts": 1794517200,
+   "q": "Will Meta (META) close above $640 on November 12?",
+   "touched": null
+  },
+  {
+   "id": "6961485",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "50481777652691359264662605744752497134447977545281843208037690128608421590453",
+   "px": 0.988,
+   "tick": 0.001,
+   "ts": 1794500163,
+   "end_ts": 1794517200,
+   "q": "Will Tesla (TSLA) close above $370 on November 12?",
+   "touched": null
+  },
+  {
+   "id": "6961486",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "23841509770894477482300016554110838035066324784931036292169589584065522719401",
+   "px": 0.978,
+   "tick": 0.001,
+   "ts": 1794500163,
+   "end_ts": 1794517200,
+   "q": "Will Tesla (TSLA) close above $380 on November 12?",
+   "touched": null
+  },
+  {
+   "id": "6979999",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "57152910205863965858513918153578730483659029504307852009713231463966966548818",
+   "px": 0.993,
+   "tick": 0.001,
+   "ts": 1794500163,
+   "end_ts": 1794546000,
+   "q": "Will XRP reach $1.10 on November 12?",
+   "touched": null
+  },
+  {
+   "id": "6764157",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "7031994735064842506869275765408896048531873592082511607585714532043112107165",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1794500163,
+   "end_ts": 1794603600,
+   "q": "Will Netflix (NFLX) finish week of November 9 above $10?",
    "touched": null
   }
  ]
