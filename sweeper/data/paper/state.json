@@ -1,29 +1,8 @@
 {
  "capital0": 1000.0,
- "cash": 450.0,
+ "cash": 500.0,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
-  {
-   "oid": "6364946-1794434726",
-   "id": "6364946",
-   "q": "Will the next Grok model (4.8+) be released on November 11, 2026?",
-   "cat": "otros",
-   "rule": "otros_cierre",
-   "event": "1274171",
-   "side": 1,
-   "token": "86278155393822417635699448782673225768485202950176261687680454900217315157539",
-   "px": 0.986,
-   "tick": 0.001,
-   "mid": 0.9865,
-   "bid": 0.975,
-   "ask": 0.998,
-   "shares": 50.7099,
-   "cost": 50.0,
-   "ts": 1794434726.135973,
-   "end_ts": 1794459540.0,
-   "hours": 6.89,
-   "liq": 1581
-  },
   {
    "oid": "6625205-1794434726",
    "id": "6625205",
@@ -193,27 +172,6 @@
    "liq": 2299
   },
   {
-   "oid": "6413393-1794434726",
-   "id": "6413393",
-   "q": "Will Somalia win on 2026-11-12?",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1282285",
-   "side": 1,
-   "token": "54493709920868537603069327705081645200019189444392633457146073440469465847135",
-   "px": 0.977,
-   "tick": 0.001,
-   "mid": 0.977,
-   "bid": 0.976,
-   "ask": 0.978,
-   "shares": 51.1771,
-   "cost": 50.0,
-   "ts": 1794434726.135973,
-   "end_ts": 1794495600.0,
-   "hours": 16.91,
-   "liq": 12794
-  },
-  {
    "oid": "6912753-1794434726",
    "id": "6912753",
    "q": "Will BK Hacken win on 2026-11-12?",
@@ -235,7 +193,31 @@
    "liq": 22759
   }
  ],
- "positions": [],
+ "positions": [
+  {
+   "oid": "6413393-1794434726",
+   "id": "6413393",
+   "q": "Will Somalia win on 2026-11-12?",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1282285",
+   "side": 1,
+   "token": "54493709920868537603069327705081645200019189444392633457146073440469465847135",
+   "px": 0.977,
+   "tick": 0.001,
+   "mid": 0.977,
+   "bid": 0.976,
+   "ask": 0.978,
+   "shares": 51.1771,
+   "cost": 50.0,
+   "ts": 1794434726.135973,
+   "end_ts": 1794495600.0,
+   "hours": 16.91,
+   "liq": 12794,
+   "fill_ts": 1794449680.382756,
+   "mark": 0.977
+  }
+ ],
  "closed": [],
  "runs": [
   {
@@ -272,14 +254,27 @@
    "placed": 0,
    "shadow_open": 121,
    "shadow_closed": 0
+  },
+  {
+   "ts": "2026-11-12T02:15:15Z",
+   "equity": 1000.0,
+   "cash": 500.0,
+   "orders": 9,
+   "positions": 1,
+   "closed": 0,
+   "scanned": 8667,
+   "candidates": 100,
+   "placed": 0,
+   "shadow_open": 136,
+   "shadow_closed": 0
   }
  ],
  "halted": false,
  "stats": {
   "placed": 11,
-  "filled": 0,
+  "filled": 1,
   "expired": 0,
-  "touched_not_filled": 0
+  "touched_not_filled": 1
  },
  "shadow": [
   {
@@ -1853,6 +1848,201 @@
    "ts": 1794435369,
    "end_ts": 1794533400,
    "q": "Northern Iowa Panthers vs. Iowa Hawkeyes (W)",
+   "touched": null
+  },
+  {
+   "id": "6950587",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "90953854475058299202213697408492751489204338324740619330208205447371240936524",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1794449680,
+   "end_ts": 1794449700,
+   "q": "Ethereum Up or Down - November 11, 9:10PM-9:15PM ET",
+   "touched": null
+  },
+  {
+   "id": "6950589",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "14607712891734036099927956350018941422392616171775602881078095216473426229005",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1794449680,
+   "end_ts": 1794449700,
+   "q": "BNB Up or Down - November 11, 9:10PM-9:15PM ET",
+   "touched": null
+  },
+  {
+   "id": "6950593",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "59911102712128183867463566107308417250398836536138607636146821956420893129114",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1794449680,
+   "end_ts": 1794449700,
+   "q": "Bitcoin Up or Down - November 11, 9:10PM-9:15PM ET",
+   "touched": null
+  },
+  {
+   "id": "6953472",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "10212294613541265423263593548795076756797037950877722226663864868977866375109",
+   "px": 0.978,
+   "tick": 0.001,
+   "ts": 1794449680,
+   "end_ts": 1794459600,
+   "q": "Will Bitcoin reach $75,000 on November 11?",
+   "touched": null
+  },
+  {
+   "id": "6953562",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "62522834172175981080835844051920459176659801756206384255820382099756057242075",
+   "px": 0.99,
+   "tick": 0.001,
+   "ts": 1794449680,
+   "end_ts": 1794459600,
+   "q": "Will XRP dip to $1.00 on November 11?",
+   "touched": null
+  },
+  {
+   "id": "6416168",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "25036583000143989824566130265382434295753476999317884034128012275072371287644",
+   "px": 0.986,
+   "tick": 0.001,
+   "ts": 1794449680,
+   "end_ts": 1794502800,
+   "q": "Türkiye vs. Belgium: Belgium O/U 5.5",
+   "touched": null
+  },
+  {
+   "id": "6416171",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "32432290069901490357909812487417473993558812436464580142671487903397423096608",
+   "px": 0.977,
+   "tick": 0.001,
+   "ts": 1794449680,
+   "end_ts": 1794502800,
+   "q": "Türkiye vs. Belgium: Türkiye 1st Half O/U 2.5",
+   "touched": null
+  },
+  {
+   "id": "6716565",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "111679679249869326190522436920329951970905280586928546076504499940092454765333",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1794449680,
+   "end_ts": 1794502800,
+   "q": "Will the price of Bitcoin be above $66,000 on November 12?",
+   "touched": null
+  },
+  {
+   "id": "6716648",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "59411292897241287661772224427516737826635975031649615562908998869490960744470",
+   "px": 0.979,
+   "tick": 0.001,
+   "ts": 1794449680,
+   "end_ts": 1794502800,
+   "q": "Will the price of Solana be between $90 and $100 on November 12?",
+   "touched": null
+  },
+  {
+   "id": "6716695",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "106532818094167247110743137465068773450849871812711052642096175213289899764873",
+   "px": 0.99,
+   "tick": 0.001,
+   "ts": 1794449680,
+   "end_ts": 1794502800,
+   "q": "Will the price of XRP be above $1.30 on November 12?",
+   "touched": null
+  },
+  {
+   "id": "5748077",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "45927614412812452410734060330206062258203175561573086327100883428098124952131",
+   "px": 0.975,
+   "tick": 0.001,
+   "ts": 1794449680,
+   "end_ts": 1794506400,
+   "q": "CD Tarancón vs. Levante UD: O/U 0.5",
+   "touched": null
+  },
+  {
+   "id": "6415280",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "3266590884116567306162821584681844232001370096567239736226524271017550654502",
+   "px": 0.976,
+   "tick": 0.001,
+   "ts": 1794449680,
+   "end_ts": 1794512700,
+   "q": "England vs. Croatia: Neither team to score first?",
+   "touched": null
+  },
+  {
+   "id": "6736447",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "27921455033660382979989599840245449998324548015554410848982457578591417141626",
+   "px": 0.978,
+   "tick": 0.001,
+   "ts": 1794449680,
+   "end_ts": 1794526200,
+   "q": "Tennessee Tech Golden Eagles vs. Indiana Hoosiers",
+   "touched": null
+  },
+  {
+   "id": "6736458",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "36795120928064584293742592787280137611535987643388814462705545023244290529896",
+   "px": 0.984,
+   "tick": 0.001,
+   "ts": 1794449680,
+   "end_ts": 1794528000,
+   "q": "Mercer Bears vs. West Virginia Mountaineers",
+   "touched": null
+  },
+  {
+   "id": "6750008",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "76602368671686602541203109922372035952340704595368720986092487294697280704870",
+   "px": 0.986,
+   "tick": 0.001,
+   "ts": 1794449680,
+   "end_ts": 1794529800,
+   "q": "Arkansas-Pine Bluff Golden Lions vs. Arkansas Razorbacks (W)",
    "touched": null
   }
  ]
