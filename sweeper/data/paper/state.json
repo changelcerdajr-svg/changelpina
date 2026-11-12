@@ -1,6 +1,6 @@
 {
  "capital0": 1000.0,
- "cash": 400.1607,
+ "cash": 400.6739,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
   {
@@ -109,27 +109,6 @@
    "liq": 11051
   },
   {
-   "oid": "6716469-1794478505",
-   "id": "6716469",
-   "q": "Will the price of Ethereum be above $1,800 on November 12?",
-   "cat": "cripto",
-   "rule": "cripto_cierre",
-   "event": "1320602",
-   "side": 0,
-   "token": "16716131014902731542747585989536600779627287608537408415696242120532475326337",
-   "px": 0.998,
-   "tick": 0.001,
-   "mid": 0.9985,
-   "bid": 0.998,
-   "ask": 0.999,
-   "shares": 50.1205,
-   "cost": 50.0203,
-   "ts": 1794478505.1551,
-   "end_ts": 1794502800.0,
-   "hours": 6.75,
-   "liq": 23819
-  },
-  {
    "oid": "6961452-1794478505",
    "id": "6961452",
    "q": "Will Apple (AAPL) close above $340 on November 12?",
@@ -172,25 +151,25 @@
    "liq": 1011
   },
   {
-   "oid": "6957972-1794485864",
-   "id": "6957972",
-   "q": "Bitcoin Up or Down - November 12, 4:00AM-8:00AM ET",
+   "oid": "6716470-1794489528",
+   "id": "6716470",
+   "q": "Will the price of Bitcoin be less than $68,000 on November 12?",
    "cat": "cripto",
    "rule": "cripto_cierre",
-   "event": "1362820",
+   "event": "1320603",
    "side": 1,
-   "token": "37111909362220520675679444198347468863585879704545735986585248997073837217201",
-   "px": 0.97,
+   "token": "31829589776913087931071920787014137927685563404475430586100112505974322356408",
+   "px": 0.992,
    "tick": 0.001,
-   "mid": 0.97,
-   "bid": 0.962,
-   "ask": 0.978,
-   "shares": 51.562,
-   "cost": 50.0151,
-   "ts": 1794485864.854753,
-   "end_ts": 1794488400.0,
-   "hours": 0.7,
-   "liq": 4610
+   "mid": 0.9925,
+   "bid": 0.988,
+   "ask": 0.997,
+   "shares": 49.9011,
+   "cost": 49.5019,
+   "ts": 1794489528.878361,
+   "end_ts": 1794502800.0,
+   "hours": 3.69,
+   "liq": 37459
   }
  ],
  "positions": [
@@ -215,7 +194,7 @@
    "hours": 16.91,
    "liq": 12794,
    "fill_ts": 1794449680.382756,
-   "mark": 0.9785,
+   "mark": 0.9745,
    "stuck": false,
    "disputed": false
   },
@@ -265,9 +244,32 @@
    "hours": 6.75,
    "liq": 26984,
    "fill_ts": 1794485864.854753,
-   "mark": 0.9785,
+   "mark": 0.9355,
    "stuck": false,
    "disputed": false
+  },
+  {
+   "oid": "6716469-1794478505",
+   "id": "6716469",
+   "q": "Will the price of Ethereum be above $1,800 on November 12?",
+   "cat": "cripto",
+   "rule": "cripto_cierre",
+   "event": "1320602",
+   "side": 0,
+   "token": "16716131014902731542747585989536600779627287608537408415696242120532475326337",
+   "px": 0.998,
+   "tick": 0.001,
+   "mid": 0.9985,
+   "bid": 0.998,
+   "ask": 0.999,
+   "shares": 50.1205,
+   "cost": 50.0203,
+   "ts": 1794478505.1551,
+   "end_ts": 1794502800.0,
+   "hours": 6.75,
+   "liq": 23819,
+   "fill_ts": 1794489528.878361,
+   "mark": 0.998
   }
  ],
  "closed": [
@@ -480,14 +482,27 @@
    "placed": 0,
    "shadow_open": 288,
    "shadow_closed": 0
+  },
+  {
+   "ts": "2026-11-12T13:19:24Z",
+   "equity": 997.58,
+   "cash": 400.67,
+   "orders": 8,
+   "positions": 4,
+   "closed": 1,
+   "scanned": 9072,
+   "candidates": 153,
+   "placed": 1,
+   "shadow_open": 300,
+   "shadow_closed": 0
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 26,
-  "filled": 4,
+  "placed": 27,
+  "filled": 5,
   "expired": 4,
-  "touched_not_filled": 9
+  "touched_not_filled": 10
  },
  "shadow": [
   {
@@ -4232,6 +4247,162 @@
    "ts": 1794485864,
    "end_ts": 1794587400,
    "q": "Oral Roberts Golden Eagles vs. Oklahoma Sooners (W)",
+   "touched": null
+  },
+  {
+   "id": "6415542",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "7899495059747653309847569344878419324238302949329580562327904700062476858796",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1794489528,
+   "end_ts": 1794512700,
+   "q": "Czechia vs. Spain: O/U 8.5",
+   "touched": null
+  },
+  {
+   "id": "6415834",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "66665767482466266549918727069060836567698338553396138064396556542156155381377",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1794489528,
+   "end_ts": 1794512700,
+   "q": "Spread: San Marino (-5.5)",
+   "touched": null
+  },
+  {
+   "id": "6471648",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "2357421097168950709007187417051614909469741811781416694333935372227715692470",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1794489528,
+   "end_ts": 1794520800,
+   "q": "Spread: Aruba (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "6961494",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "69819067508461734335026963148245087558651536425692910820599566288621130237141",
+   "px": 0.977,
+   "tick": 0.001,
+   "ts": 1794489528,
+   "end_ts": 1794517200,
+   "q": "Will NVIDIA (NVDA) close above $170 on November 12?",
+   "touched": null
+  },
+  {
+   "id": "6961519",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "57333238948038015261657937708303023399651613388709254912919717631435328204678",
+   "px": 0.988,
+   "tick": 0.001,
+   "ts": 1794489528,
+   "end_ts": 1794517200,
+   "q": "S&P 500 (SPX) Opens Up or Down on November 12?",
+   "touched": null
+  },
+  {
+   "id": "6471508",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "91510077189814762098108647339021741785421309101293762554896570738773923458536",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1794489528,
+   "end_ts": 1794529800,
+   "q": "Spread: Curaçao (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "6970728",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "109998156662766684452086370635036726073443971829782264583441285296314536975055",
+   "px": 0.972,
+   "tick": 0.001,
+   "ts": 1794489528,
+   "end_ts": 1794528000,
+   "q": "Spread: 76ers (-35.5)",
+   "touched": null
+  },
+  {
+   "id": "6979971",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "34345739682342626986981480740105067660114785090961049273400358249615656561927",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1794489528,
+   "end_ts": 1794546000,
+   "q": "Will Ethereum dip to $2,000 on November 12?",
+   "touched": null
+  },
+  {
+   "id": "6459825",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "38704358759907469524191641525865000012513217262534107120471694885869227843711",
+   "px": 0.993,
+   "tick": 0.001,
+   "ts": 1794489528,
+   "end_ts": 1794589200,
+   "q": "Jordan leading at halftime?",
+   "touched": null
+  },
+  {
+   "id": "6540199",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "34706360713660201121302047131365001382421398033165157230020526226324055886064",
+   "px": 0.996,
+   "tick": 0.001,
+   "ts": 1794489528,
+   "end_ts": 1794596400,
+   "q": "Will USPF Saint-Philbert-de-Grand-Lieu win on 2026-11-13?",
+   "touched": null
+  },
+  {
+   "id": "6540200",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "1271501528216922502583080646790691891435728832935758400161585602959882434017",
+   "px": 0.977,
+   "tick": 0.001,
+   "ts": 1794489528,
+   "end_ts": 1794596400,
+   "q": "Will USPF Saint-Philbert-de-Grand-Lieu vs. Vendée Fontenay Foot end in a draw?",
+   "touched": null
+  },
+  {
+   "id": "6540201",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "49706511918196384165502104389921938060344886415558426091623223319028898750823",
+   "px": 0.98,
+   "tick": 0.001,
+   "ts": 1794489528,
+   "end_ts": 1794596400,
+   "q": "Will Vendée Fontenay Foot win on 2026-11-13?",
    "touched": null
   }
  ]
