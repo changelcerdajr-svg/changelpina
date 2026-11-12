@@ -1,6 +1,6 @@
 {
  "capital0": 1000.0,
- "cash": 401.0906,
+ "cash": 401.2794,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
   {
@@ -151,25 +151,25 @@
    "liq": 1375
   },
   {
-   "oid": "6961458-1794507281",
-   "id": "6961458",
-   "q": "Will Microsoft (MSFT) close above $520 on November 12?",
-   "cat": "otros",
-   "rule": "otros_cierre",
-   "event": "1363902",
-   "side": 0,
-   "token": "39939183473111119681513000909479811153449775312093647526906464634832887615567",
-   "px": 0.992,
+   "oid": "6750015-1794511022",
+   "id": "6750015",
+   "q": "Northern Iowa Panthers vs. Iowa Hawkeyes (W)",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1325457",
+   "side": 1,
+   "token": "56506361047360849084205475141888502561726775110654690692495572972328458938479",
+   "px": 0.986,
    "tick": 0.001,
-   "mid": 0.992,
-   "bid": 0.985,
-   "ask": 0.999,
-   "shares": 50.5107,
-   "cost": 50.1067,
-   "ts": 1794507281.245379,
-   "end_ts": 1794517200.0,
-   "hours": 2.76,
-   "liq": 3142
+   "mid": 0.9865,
+   "bid": 0.983,
+   "ask": 0.99,
+   "shares": 50.8334,
+   "cost": 50.1218,
+   "ts": 1794511022.543509,
+   "end_ts": 1794533400.0,
+   "hours": 6.22,
+   "liq": 2163
   }
  ],
  "positions": [
@@ -199,31 +199,6 @@
    "disputed": false
   },
   {
-   "oid": "6414692-1794468102",
-   "id": "6414692",
-   "q": "Spread: Somalia (-1.5)",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1282401",
-   "side": 1,
-   "token": "11674154812249631208376658446639897351631292226107615932529145410911422901531",
-   "px": 0.994,
-   "tick": 0.001,
-   "mid": 0.9945,
-   "bid": 0.99,
-   "ask": 0.999,
-   "shares": 50.3106,
-   "cost": 50.0088,
-   "ts": 1794468102.610942,
-   "end_ts": 1794495600.0,
-   "hours": 7.64,
-   "liq": 4907,
-   "fill_ts": 1794474883.316695,
-   "mark": 0.9945,
-   "stuck": false,
-   "disputed": false
-  },
-  {
    "oid": "6453642-1794493024",
    "id": "6453642",
    "q": "Spread: CSD Mixco (-2.5)",
@@ -244,7 +219,7 @@
    "hours": 7.72,
    "liq": 1069,
    "fill_ts": 1794496609.392952,
-   "mark": 0.9745,
+   "mark": 0.975,
    "stuck": false,
    "disputed": false
   },
@@ -269,6 +244,31 @@
    "hours": 6.72,
    "liq": 1314,
    "fill_ts": 1794507281.245379,
+   "mark": 0.992,
+   "stuck": false,
+   "disputed": false
+  },
+  {
+   "oid": "6961458-1794507281",
+   "id": "6961458",
+   "q": "Will Microsoft (MSFT) close above $520 on November 12?",
+   "cat": "otros",
+   "rule": "otros_cierre",
+   "event": "1363902",
+   "side": 0,
+   "token": "39939183473111119681513000909479811153449775312093647526906464634832887615567",
+   "px": 0.992,
+   "tick": 0.001,
+   "mid": 0.992,
+   "bid": 0.985,
+   "ask": 0.999,
+   "shares": 50.5107,
+   "cost": 50.1067,
+   "ts": 1794507281.245379,
+   "end_ts": 1794517200.0,
+   "hours": 2.76,
+   "liq": 3142,
+   "fill_ts": 1794511022.543509,
    "mark": 0.992
   }
  ],
@@ -392,6 +392,36 @@
    "result": 1.0,
    "closed_ts": "2026-11-12T18:14:44Z",
    "days": 0.08
+  },
+  {
+   "oid": "6414692-1794468102",
+   "id": "6414692",
+   "q": "Spread: Somalia (-1.5)",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1282401",
+   "side": 1,
+   "token": "11674154812249631208376658446639897351631292226107615932529145410911422901531",
+   "px": 0.994,
+   "tick": 0.001,
+   "mid": 0.9945,
+   "bid": 0.99,
+   "ask": 0.999,
+   "shares": 50.3106,
+   "cost": 50.0088,
+   "ts": 1794468102.610942,
+   "end_ts": 1794495600.0,
+   "hours": 7.64,
+   "liq": 4907,
+   "fill_ts": 1794474883.316695,
+   "mark": 0.9945,
+   "stuck": false,
+   "disputed": false,
+   "payout": 50.3106,
+   "pnl": 0.3018,
+   "result": 1.0,
+   "closed_ts": "2026-11-12T19:17:04Z",
+   "days": 0.42
   }
  ],
  "runs": [
@@ -650,12 +680,25 @@
    "placed": 5,
    "shadow_open": 384,
    "shadow_closed": 2
+  },
+  {
+   "ts": "2026-11-12T19:17:47Z",
+   "equity": 1002.44,
+   "cash": 401.28,
+   "orders": 8,
+   "positions": 4,
+   "closed": 5,
+   "scanned": 10989,
+   "candidates": 146,
+   "placed": 1,
+   "shadow_open": 369,
+   "shadow_closed": 21
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 40,
-  "filled": 8,
+  "placed": 41,
+  "filled": 9,
   "expired": 7,
   "touched_not_filled": 17
  },
@@ -684,32 +727,6 @@
    "ts": 1794435369,
    "end_ts": 1794499200,
    "q": "Equatorial Guinea vs. Zimbabwe: O/U 5.5",
-   "touched": 1
-  },
-  {
-   "id": "6912753",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "106947436761864052582463460787569999493771500500679492638427627761993955385044",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1794435369,
-   "end_ts": 1794495600,
-   "q": "Will BK Hacken win on 2026-11-12?",
-   "touched": 1
-  },
-  {
-   "id": "6912754",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "83580561447668812266945989818196117303505453141613997540914297999724153185262",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1794435369,
-   "end_ts": 1794495600,
-   "q": "Will BK Hacken vs. Fredrikstad FK end in a draw?",
    "touched": 1
   },
   {
@@ -749,84 +766,6 @@
    "ts": 1794435369,
    "end_ts": 1794505500,
    "q": "FC Barcelona vs. Arsenal WFC: O/U 0.5",
-   "touched": 1
-  },
-  {
-   "id": "6416012",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "46349313101330457397780415448609119967734692026911952911193446842800693928496",
-   "px": 0.986,
-   "tick": 0.001,
-   "ts": 1794435369,
-   "end_ts": 1794502800,
-   "q": "Armenia vs. Cyprus: O/U 6.5",
-   "touched": 0
-  },
-  {
-   "id": "6416016",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "109591532232330166184735289231646766975491148082758671145987350308461720483630",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1794435369,
-   "end_ts": 1794502800,
-   "q": "Armenia vs. Cyprus: O/U 7.5",
-   "touched": 1
-  },
-  {
-   "id": "6416020",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "87164984791566045521451755570655156617407652723494556087964430600031772778936",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1794435369,
-   "end_ts": 1794502800,
-   "q": "Armenia vs. Cyprus: O/U 8.5",
-   "touched": 1
-  },
-  {
-   "id": "6416148",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "113470145658250447780477382679636216439912587428193028025488295551943307888833",
-   "px": 0.981,
-   "tick": 0.001,
-   "ts": 1794435369,
-   "end_ts": 1794502800,
-   "q": "Türkiye vs. Belgium: O/U 7.5",
-   "touched": 0
-  },
-  {
-   "id": "6416149",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "41671227801707824301057916317549287969490041905726388144749483339775127651126",
-   "px": 0.993,
-   "tick": 0.001,
-   "ts": 1794435369,
-   "end_ts": 1794502800,
-   "q": "Türkiye vs. Belgium: O/U 8.5",
-   "touched": 0
-  },
-  {
-   "id": "6416161",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "27223902724454750440856818291956374103207038096335978497558919866751763320752",
-   "px": 0.986,
-   "tick": 0.001,
-   "ts": 1794435369,
-   "end_ts": 1794502800,
-   "q": "Türkiye vs. Belgium: Türkiye O/U 4.5",
    "touched": 1
   },
   {
@@ -1324,32 +1263,6 @@
    "touched": 1
   },
   {
-   "id": "6416168",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "25036583000143989824566130265382434295753476999317884034128012275072371287644",
-   "px": 0.986,
-   "tick": 0.001,
-   "ts": 1794449680,
-   "end_ts": 1794502800,
-   "q": "Türkiye vs. Belgium: Belgium O/U 5.5",
-   "touched": 1
-  },
-  {
-   "id": "6416171",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "32432290069901490357909812487417473993558812436464580142671487903397423096608",
-   "px": 0.977,
-   "tick": 0.001,
-   "ts": 1794449680,
-   "end_ts": 1794502800,
-   "q": "Türkiye vs. Belgium: Türkiye 1st Half O/U 2.5",
-   "touched": 1
-  },
-  {
    "id": "5748077",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -1545,71 +1458,6 @@
    "touched": 1
   },
   {
-   "id": "6414692",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "11674154812249631208376658446639897351631292226107615932529145410911422901531",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1794456899,
-   "end_ts": 1794495600,
-   "q": "Spread: Somalia (-1.5)",
-   "touched": 1
-  },
-  {
-   "id": "6414694",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "88258560233769962289314461648962081701171325304936625061629428224390504571641",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1794456899,
-   "end_ts": 1794495600,
-   "q": "Spread: Somalia (-2.5)",
-   "touched": 1
-  },
-  {
-   "id": "6414696",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "82145743579263300661541492114078944779480553915622243658920939192547113622484",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1794456899,
-   "end_ts": 1794495600,
-   "q": "Spread: Somalia (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "6695604",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "108280016900404115797994656661681099604227466047519496344959322281458572527689",
-   "px": 0.983,
-   "tick": 0.001,
-   "ts": 1794456899,
-   "end_ts": 1794495600,
-   "q": "Spread: Uzbekistan (-2.5)",
-   "touched": 1
-  },
-  {
-   "id": "6695608",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "5111983912083532529049697559017443859995493561761228940548301539190462082909",
-   "px": 0.971,
-   "tick": 0.001,
-   "ts": 1794456899,
-   "end_ts": 1794495600,
-   "q": "Spread: Russia (-3.5)",
-   "touched": 1
-  },
-  {
    "id": "6408797",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -1750,45 +1598,6 @@
    "ts": 1794456899,
    "end_ts": 1794510000,
    "q": "Ivory Coast vs. Gambia: O/U 6.5",
-   "touched": 1
-  },
-  {
-   "id": "6415967",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "33899121687951195690102590337713596887538017683952907689594274854815079518303",
-   "px": 0.981,
-   "tick": 0.001,
-   "ts": 1794456899,
-   "end_ts": 1794502800,
-   "q": "Spread: Armenia (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "6415971",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "81591149039938730064763060758990413570436250223318533227835297423411146755053",
-   "px": 0.99,
-   "tick": 0.001,
-   "ts": 1794456899,
-   "end_ts": 1794502800,
-   "q": "Spread: Cyprus (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "6416134",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "92869530950907431952535403449291769467453452249612389760062923605534652497387",
-   "px": 0.992,
-   "tick": 0.001,
-   "ts": 1794456899,
-   "end_ts": 1794502800,
-   "q": "Spread: Türkiye (-3.5)",
    "touched": 1
   },
   {
@@ -2114,19 +1923,6 @@
    "ts": 1794460496,
    "end_ts": 1794499200,
    "q": "DR Congo vs. Sierra Leone: O/U 6.5",
-   "touched": 1
-  },
-  {
-   "id": "6414708",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "96488321797684679719897081001807098670587983708082611246962495051752510888924",
-   "px": 0.987,
-   "tick": 0.001,
-   "ts": 1794460496,
-   "end_ts": 1794495600,
-   "q": "Ghana vs. Somalia: O/U 7.5",
    "touched": 1
   },
   {
@@ -2465,7 +2261,7 @@
    "ts": 1794464361,
    "end_ts": 1794499200,
    "q": "Spread: Madagascar (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6414557",
@@ -2478,33 +2274,7 @@
    "ts": 1794464361,
    "end_ts": 1794499200,
    "q": "Spread: Equatorial Guinea (-3.5)",
-   "touched": null
-  },
-  {
-   "id": "6716580",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "29113929269330229300104002389236948998758653846656479648411600731149352030216",
-   "px": 0.972,
-   "tick": 0.001,
-   "ts": 1794464361,
-   "end_ts": 1794502800,
-   "q": "Will the price of Bitcoin be above $76,000 on November 12?",
-   "touched": null
-  },
-  {
-   "id": "6716630",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 0,
-   "token": "93887596936776286640725091133494181092767203234011987843328355741576424109408",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1794464361,
-   "end_ts": 1794502800,
-   "q": "Will the price of Solana be above $80 on November 12?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6749988",
@@ -2517,7 +2287,7 @@
    "ts": 1794464361,
    "end_ts": 1794502800,
    "q": "Morehead State Eagles vs. Murray State Racers (W)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6415586",
@@ -2530,7 +2300,7 @@
    "ts": 1794464361,
    "end_ts": 1794512700,
    "q": "Spread: Italy (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6415626",
@@ -2543,7 +2313,7 @@
    "ts": 1794464361,
    "end_ts": 1794512700,
    "q": "Italy vs. France: Italy 1st Half O/U 2.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6415671",
@@ -2556,7 +2326,7 @@
    "ts": 1794464361,
    "end_ts": 1794512700,
    "q": "England vs. Croatia: 1st Half O/U 4.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6471743",
@@ -2569,7 +2339,7 @@
    "ts": 1794464361,
    "end_ts": 1794510000,
    "q": "Spread: Guadeloupe (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6453642",
@@ -2582,7 +2352,7 @@
    "ts": 1794464361,
    "end_ts": 1794520800,
    "q": "Spread: CSD Mixco (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6453644",
@@ -2595,7 +2365,7 @@
    "ts": 1794464361,
    "end_ts": 1794520800,
    "q": "Spread: CSD Mixco (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6471552",
@@ -2608,7 +2378,7 @@
    "ts": 1794464361,
    "end_ts": 1794524400,
    "q": "Spread: Antigua and Barbuda (-1.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6736453",
@@ -2621,7 +2391,7 @@
    "ts": 1794464361,
    "end_ts": 1794528000,
    "q": "Maryland Eastern Shore Hawks vs. Rhode Island Rams",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6364915",
@@ -2634,7 +2404,7 @@
    "ts": 1794464361,
    "end_ts": 1794545940,
    "q": "Will the next Gemini Flash-Lite model (3.6+) be released on November 12, 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6979956",
@@ -2647,7 +2417,7 @@
    "ts": 1794464361,
    "end_ts": 1794546000,
    "q": "Will Bitcoin dip to $70,000 on November 12?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6979962",
@@ -2660,7 +2430,7 @@
    "ts": 1794464361,
    "end_ts": 1794546000,
    "q": "Will Ethereum reach $2,400 on November 12?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6979979",
@@ -2673,7 +2443,7 @@
    "ts": 1794464361,
    "end_ts": 1794546000,
    "q": "Will Solana reach $105 on November 12?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6979980",
@@ -2686,7 +2456,7 @@
    "ts": 1794464361,
    "end_ts": 1794546000,
    "q": "Will Solana reach $100 on November 12?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6432485",
@@ -2699,7 +2469,7 @@
    "ts": 1794464361,
    "end_ts": 1794571200,
    "q": "Singapore vs. Paraguay: O/U 0.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6380036",
@@ -5650,6 +5420,84 @@
    "ts": 1794507281,
    "end_ts": 1794614400,
    "q": "Samford Bulldogs vs. Indiana Hoosiers (W)",
+   "touched": null
+  },
+  {
+   "id": "6979951",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "45674460434201322025462607517191533407042176576810831514630960971484775503100",
+   "px": 0.978,
+   "tick": 0.001,
+   "ts": 1794511022,
+   "end_ts": 1794546000,
+   "q": "Will Bitcoin reach $74,000 on November 12?",
+   "touched": null
+  },
+  {
+   "id": "6979969",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "2013035484295488025737110373811326290529254083964391638581445110931541002795",
+   "px": 0.976,
+   "tick": 0.001,
+   "ts": 1794511022,
+   "end_ts": 1794546000,
+   "q": "Will Ethereum reach $2,100 on November 12?",
+   "touched": null
+  },
+  {
+   "id": "6459827",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "10035327426305048511944715740356302530002945796766133203392850673952905246874",
+   "px": 0.99,
+   "tick": 0.001,
+   "ts": 1794511022,
+   "end_ts": 1794589200,
+   "q": "Indonesia leading at halftime?",
+   "touched": null
+  },
+  {
+   "id": "6753179",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "105979154693756167797558795873271293181396521169391612072973989855786560120352",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1794511022,
+   "end_ts": 1794589200,
+   "q": "Will the price of Solana be between $50 and $60 on November 13?",
+   "touched": null
+  },
+  {
+   "id": "6753181",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "60547428192351153182297426509574719266368740940118896751847001294858406390637",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1794511022,
+   "end_ts": 1794589200,
+   "q": "Will the price of Solana be between $60 and $70 on November 13?",
+   "touched": null
+  },
+  {
+   "id": "6450272",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "15933958959425803367892867634090163651631212158454252786603127191577763831907",
+   "px": 0.973,
+   "tick": 0.001,
+   "ts": 1794511022,
+   "end_ts": 1794600000,
+   "q": "Will Malawi win on 2026-11-13?",
    "touched": null
   }
  ]
