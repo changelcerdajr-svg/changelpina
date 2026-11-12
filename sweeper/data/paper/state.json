@@ -1,6 +1,6 @@
 {
  "capital0": 1000.0,
- "cash": 400.0711,
+ "cash": 400.248,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
   {
@@ -151,27 +151,6 @@
    "liq": 1107
   },
   {
-   "oid": "6414692-1794464361",
-   "id": "6414692",
-   "q": "Spread: Somalia (-1.5)",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1282401",
-   "side": 1,
-   "token": "11674154812249631208376658446639897351631292226107615932529145410911422901531",
-   "px": 0.994,
-   "tick": 0.001,
-   "mid": 0.9945,
-   "bid": 0.99,
-   "ask": 0.999,
-   "shares": 50.2954,
-   "cost": 49.9937,
-   "ts": 1794464361.520864,
-   "end_ts": 1794495600.0,
-   "hours": 8.68,
-   "liq": 9758
-  },
-  {
    "oid": "6414694-1794464361",
    "id": "6414694",
    "q": "Spread: Somalia (-2.5)",
@@ -212,6 +191,48 @@
    "end_ts": 1794495600.0,
    "hours": 8.68,
    "liq": 11051
+  },
+  {
+   "oid": "6414692-1794468102",
+   "id": "6414692",
+   "q": "Spread: Somalia (-1.5)",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1282401",
+   "side": 1,
+   "token": "11674154812249631208376658446639897351631292226107615932529145410911422901531",
+   "px": 0.994,
+   "tick": 0.001,
+   "mid": 0.9945,
+   "bid": 0.99,
+   "ask": 0.999,
+   "shares": 50.3106,
+   "cost": 50.0088,
+   "ts": 1794468102.610942,
+   "end_ts": 1794495600.0,
+   "hours": 7.64,
+   "liq": 4907
+  },
+  {
+   "oid": "6364882-1794468102",
+   "id": "6364882",
+   "q": "Will the next Claude Opus model (5.6+) be released on November 12, 2026?",
+   "cat": "otros",
+   "rule": "otros_cierre",
+   "event": "1274168",
+   "side": 1,
+   "token": "61691586718830500379442526191610481052336509322090807491194023980294198421868",
+   "px": 0.985,
+   "tick": 0.001,
+   "mid": 0.9855,
+   "bid": 0.977,
+   "ask": 0.994,
+   "shares": 50.7703,
+   "cost": 50.0088,
+   "ts": 1794468102.610942,
+   "end_ts": 1794545940.0,
+   "hours": 21.62,
+   "liq": 1032
   }
  ],
  "positions": [
@@ -236,10 +257,12 @@
    "hours": 16.91,
    "liq": 12794,
    "fill_ts": 1794449680.382756,
-   "mark": 0.976,
+   "mark": 0.9765,
    "stuck": false,
    "disputed": false
-  },
+  }
+ ],
+ "closed": [
   {
    "oid": "6638351-1794434726",
    "id": "6638351",
@@ -263,10 +286,14 @@
    "fill_ts": 1794453283.54652,
    "mark": 0.9945,
    "stuck": false,
-   "disputed": false
+   "disputed": false,
+   "payout": 50.2008,
+   "pnl": 0.2008,
+   "result": 1.0,
+   "closed_ts": "2026-11-12T07:21:42Z",
+   "days": 0.17
   }
  ],
- "closed": [],
  "runs": [
   {
    "ts": "2026-11-11T22:06:03Z",
@@ -367,14 +394,27 @@
    "placed": 3,
    "shadow_open": 242,
    "shadow_closed": 0
+  },
+  {
+   "ts": "2026-11-12T07:22:12Z",
+   "equity": 1000.18,
+   "cash": 400.25,
+   "orders": 11,
+   "positions": 1,
+   "closed": 1,
+   "scanned": 7337,
+   "candidates": 175,
+   "placed": 2,
+   "shadow_open": 255,
+   "shadow_closed": 0
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 17,
+  "placed": 19,
   "filled": 2,
   "expired": 0,
-  "touched_not_filled": 5
+  "touched_not_filled": 6
  },
  "shadow": [
   {
@@ -3521,6 +3561,175 @@
    "ts": 1794464361,
    "end_ts": 1794571200,
    "q": "Singapore vs. Paraguay: O/U 0.5",
+   "touched": null
+  },
+  {
+   "id": "6380036",
+   "rule": "post_fin_95_97",
+   "cat": "deportes",
+   "side": 1,
+   "token": "67339415386597059116564764807085865124443928598390954857088534756245051131637",
+   "px": 0.95,
+   "tick": 0.001,
+   "ts": 1794468102,
+   "end_ts": 1794427200,
+   "q": "Spread: FK Austria Wien (-1.5)",
+   "touched": null
+  },
+  {
+   "id": "6414606",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "13147254295334494833913643384280869849536828094319696424659297899768754646596",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1794468102,
+   "end_ts": 1794499200,
+   "q": "Spread: Sierra Leone (-4.5)",
+   "touched": null
+  },
+  {
+   "id": "6471710",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "94981060112940629795315401338041309636884536550864050646510809763184345679888",
+   "px": 0.979,
+   "tick": 0.001,
+   "ts": 1794468102,
+   "end_ts": 1794510000,
+   "q": "Cayman Islands vs. Guyana: O/U 8.5",
+   "touched": null
+  },
+  {
+   "id": "6716686",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "78325473883694247977545603619272430682722881733462419219334047072816658464049",
+   "px": 0.974,
+   "tick": 0.001,
+   "ts": 1794468102,
+   "end_ts": 1794502800,
+   "q": "Will the price of XRP be above $1.00 on November 12?",
+   "touched": null
+  },
+  {
+   "id": "6415687",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "31477470298413303576081596532044082181551228089110763034137342271635083431558",
+   "px": 0.972,
+   "tick": 0.001,
+   "ts": 1794468102,
+   "end_ts": 1794512700,
+   "q": "England vs. Croatia: England 1st Half O/U 3.5",
+   "touched": null
+  },
+  {
+   "id": "6301322",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "98565229681276902201391095390036050872226286487338355432864497175478560257212",
+   "px": 0.975,
+   "tick": 0.001,
+   "ts": 1794468102,
+   "end_ts": 1794532500,
+   "q": "Spread: Commanders (-20.5)",
+   "touched": null
+  },
+  {
+   "id": "6749998",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "98701732520478587690605901609658871833131165556879107117628870338858160017023",
+   "px": 0.974,
+   "tick": 0.001,
+   "ts": 1794468102,
+   "end_ts": 1794528000,
+   "q": "Michigan Wolverines vs. Columbia Lions (W)",
+   "touched": null
+  },
+  {
+   "id": "6969682",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "57357032118938863905337228526812112190931277725090692332483183017325117027441",
+   "px": 0.973,
+   "tick": 0.001,
+   "ts": 1794468102,
+   "end_ts": 1794528000,
+   "q": "Spread: Raptors (-14.5)",
+   "touched": null
+  },
+  {
+   "id": "6969692",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "109988852971470010153760115128460732585064578679083465458438478122551581803014",
+   "px": 0.976,
+   "tick": 0.001,
+   "ts": 1794468102,
+   "end_ts": 1794528000,
+   "q": "Spread: Pistons (-35.5)",
+   "touched": null
+  },
+  {
+   "id": "6970737",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "4113991815630903756847392271214181326972116912056385604030129390356335233871",
+   "px": 0.976,
+   "tick": 0.001,
+   "ts": 1794468102,
+   "end_ts": 1794531600,
+   "q": "Spread: Mavericks (-21.5)",
+   "touched": null
+  },
+  {
+   "id": "6364882",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "61691586718830500379442526191610481052336509322090807491194023980294198421868",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1794468102,
+   "end_ts": 1794545940,
+   "q": "Will the next Claude Opus model (5.6+) be released on November 12, 2026?",
+   "touched": null
+  },
+  {
+   "id": "6364947",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "83399365357375545689033995192470966898253380331432385566958914192919905584710",
+   "px": 0.992,
+   "tick": 0.001,
+   "ts": 1794468102,
+   "end_ts": 1794545940,
+   "q": "Will the next Grok model (4.8+) be released on November 12, 2026?",
+   "touched": null
+  },
+  {
+   "id": "6979982",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "39368093034849382799605379674491649777812973379442508324665592818486027019456",
+   "px": 0.984,
+   "tick": 0.001,
+   "ts": 1794468102,
+   "end_ts": 1794546000,
+   "q": "Will Solana reach $90 on November 12?",
    "touched": null
   }
  ]
