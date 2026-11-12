@@ -1,6 +1,6 @@
 {
  "capital0": 1000.0,
- "cash": 400.6739,
+ "cash": 400.7301,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
   {
@@ -67,27 +67,6 @@
    "liq": 1107
   },
   {
-   "oid": "6414694-1794464361",
-   "id": "6414694",
-   "q": "Spread: Somalia (-2.5)",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1282401",
-   "side": 1,
-   "token": "88258560233769962289314461648962081701171325304936625061629428224390504571641",
-   "px": 0.997,
-   "tick": 0.001,
-   "mid": 0.997,
-   "bid": 0.995,
-   "ask": 0.999,
-   "shares": 50.1441,
-   "cost": 49.9937,
-   "ts": 1794464361.520864,
-   "end_ts": 1794495600.0,
-   "hours": 8.68,
-   "liq": 2263
-  },
-  {
    "oid": "6695604-1794464361",
    "id": "6695604",
    "q": "Spread: Uzbekistan (-2.5)",
@@ -151,7 +130,7 @@
    "liq": 1011
   },
   {
-   "oid": "6716470-1794489528",
+   "oid": "6716470-1794493024",
    "id": "6716470",
    "q": "Will the price of Bitcoin be less than $68,000 on November 12?",
    "cat": "cripto",
@@ -159,17 +138,38 @@
    "event": "1320603",
    "side": 1,
    "token": "31829589776913087931071920787014137927685563404475430586100112505974322356408",
-   "px": 0.992,
+   "px": 0.991,
    "tick": 0.001,
-   "mid": 0.9925,
-   "bid": 0.988,
+   "mid": 0.991,
+   "bid": 0.985,
    "ask": 0.997,
-   "shares": 49.9011,
-   "cost": 49.5019,
-   "ts": 1794489528.878361,
+   "shares": 50.1618,
+   "cost": 49.7103,
+   "ts": 1794493024.736944,
    "end_ts": 1794502800.0,
-   "hours": 3.69,
-   "liq": 37459
+   "hours": 2.72,
+   "liq": 20567
+  },
+  {
+   "oid": "6453642-1794493024",
+   "id": "6453642",
+   "q": "Spread: CSD Mixco (-2.5)",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1287871",
+   "side": 1,
+   "token": "106782260366108998847676869899199527712724091001352564241192193292675491517072",
+   "px": 0.977,
+   "tick": 0.001,
+   "mid": 0.9775,
+   "bid": 0.965,
+   "ask": 0.99,
+   "shares": 50.8998,
+   "cost": 49.7291,
+   "ts": 1794493024.736944,
+   "end_ts": 1794520800.0,
+   "hours": 7.72,
+   "liq": 1069
   }
  ],
  "positions": [
@@ -194,7 +194,7 @@
    "hours": 16.91,
    "liq": 12794,
    "fill_ts": 1794449680.382756,
-   "mark": 0.9745,
+   "mark": 0.9735,
    "stuck": false,
    "disputed": false
   },
@@ -244,7 +244,7 @@
    "hours": 6.75,
    "liq": 26984,
    "fill_ts": 1794485864.854753,
-   "mark": 0.9355,
+   "mark": 0.959,
    "stuck": false,
    "disputed": false
   },
@@ -269,7 +269,9 @@
    "hours": 6.75,
    "liq": 23819,
    "fill_ts": 1794489528.878361,
-   "mark": 0.998
+   "mark": 0.996,
+   "stuck": false,
+   "disputed": false
   }
  ],
  "closed": [
@@ -495,14 +497,27 @@
    "placed": 1,
    "shadow_open": 300,
    "shadow_closed": 0
+  },
+  {
+   "ts": "2026-11-12T14:17:49Z",
+   "equity": 998.63,
+   "cash": 400.73,
+   "orders": 8,
+   "positions": 4,
+   "closed": 1,
+   "scanned": 9745,
+   "candidates": 126,
+   "placed": 2,
+   "shadow_open": 312,
+   "shadow_closed": 5
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 27,
+  "placed": 29,
   "filled": 5,
   "expired": 4,
-  "touched_not_filled": 10
+  "touched_not_filled": 12
  },
  "shadow": [
   {
@@ -1663,71 +1678,6 @@
    "touched": 1
   },
   {
-   "id": "6950587",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 0,
-   "token": "90953854475058299202213697408492751489204338324740619330208205447371240936524",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1794449680,
-   "end_ts": 1794449700,
-   "q": "Ethereum Up or Down - November 11, 9:10PM-9:15PM ET",
-   "touched": null
-  },
-  {
-   "id": "6950589",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 0,
-   "token": "14607712891734036099927956350018941422392616171775602881078095216473426229005",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1794449680,
-   "end_ts": 1794449700,
-   "q": "BNB Up or Down - November 11, 9:10PM-9:15PM ET",
-   "touched": null
-  },
-  {
-   "id": "6950593",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 0,
-   "token": "59911102712128183867463566107308417250398836536138607636146821956420893129114",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1794449680,
-   "end_ts": 1794449700,
-   "q": "Bitcoin Up or Down - November 11, 9:10PM-9:15PM ET",
-   "touched": null
-  },
-  {
-   "id": "6953472",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "10212294613541265423263593548795076756797037950877722226663864868977866375109",
-   "px": 0.978,
-   "tick": 0.001,
-   "ts": 1794449680,
-   "end_ts": 1794459600,
-   "q": "Will Bitcoin reach $75,000 on November 11?",
-   "touched": null
-  },
-  {
-   "id": "6953562",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "62522834172175981080835844051920459176659801756206384255820382099756057242075",
-   "px": 0.99,
-   "tick": 0.001,
-   "ts": 1794449680,
-   "end_ts": 1794459600,
-   "q": "Will XRP dip to $1.00 on November 11?",
-   "touched": null
-  },
-  {
    "id": "6416168",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -1738,7 +1688,7 @@
    "ts": 1794449680,
    "end_ts": 1794502800,
    "q": "Türkiye vs. Belgium: Belgium O/U 5.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6416171",
@@ -1751,7 +1701,7 @@
    "ts": 1794449680,
    "end_ts": 1794502800,
    "q": "Türkiye vs. Belgium: Türkiye 1st Half O/U 2.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6716565",
@@ -1764,7 +1714,7 @@
    "ts": 1794449680,
    "end_ts": 1794502800,
    "q": "Will the price of Bitcoin be above $66,000 on November 12?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6716648",
@@ -1777,7 +1727,7 @@
    "ts": 1794449680,
    "end_ts": 1794502800,
    "q": "Will the price of Solana be between $90 and $100 on November 12?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6716695",
@@ -1790,7 +1740,7 @@
    "ts": 1794449680,
    "end_ts": 1794502800,
    "q": "Will the price of XRP be above $1.30 on November 12?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "5748077",
@@ -1803,7 +1753,7 @@
    "ts": 1794449680,
    "end_ts": 1794506400,
    "q": "CD Tarancón vs. Levante UD: O/U 0.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6415280",
@@ -1816,7 +1766,7 @@
    "ts": 1794449680,
    "end_ts": 1794512700,
    "q": "England vs. Croatia: Neither team to score first?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6736447",
@@ -1829,7 +1779,7 @@
    "ts": 1794449680,
    "end_ts": 1794526200,
    "q": "Tennessee Tech Golden Eagles vs. Indiana Hoosiers",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6736458",
@@ -1842,7 +1792,7 @@
    "ts": 1794449680,
    "end_ts": 1794528000,
    "q": "Mercer Bears vs. West Virginia Mountaineers",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6750008",
@@ -1855,7 +1805,7 @@
    "ts": 1794449680,
    "end_ts": 1794529800,
    "q": "Arkansas-Pine Bluff Golden Lions vs. Arkansas Razorbacks (W)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6951620",
@@ -4403,6 +4353,227 @@
    "ts": 1794489528,
    "end_ts": 1794596400,
    "q": "Will Vendée Fontenay Foot win on 2026-11-13?",
+   "touched": null
+  },
+  {
+   "id": "6716635",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "82534139557647174228181653775510944369289426969342609325600953880286191452701",
+   "px": 0.983,
+   "tick": 0.001,
+   "ts": 1794493024,
+   "end_ts": 1794502800,
+   "q": "Will the price of Solana be above $85 on November 12?",
+   "touched": null
+  },
+  {
+   "id": "6937707",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "65676298623913264940155150887481610319444504876209904779619421796761534210345",
+   "px": 0.972,
+   "tick": 0.001,
+   "ts": 1794493024,
+   "end_ts": 1794502800,
+   "q": "Solana Up or Down on November 12?",
+   "touched": null
+  },
+  {
+   "id": "6961560",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "36606288799482167716132880187713263652554775332944454677528568745661664532108",
+   "px": 0.986,
+   "tick": 0.001,
+   "ts": 1794493024,
+   "end_ts": 1794520800,
+   "q": "Gold (XAUUSD) Up or Down on November 12?",
+   "touched": null
+  },
+  {
+   "id": "6987105",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "104866146614967045636965389305188345088458886888074798931911882996824278700576",
+   "px": 0.979,
+   "tick": 0.001,
+   "ts": 1794493024,
+   "end_ts": 1794520800,
+   "q": "Spread: AD Pasto (-1.5)",
+   "touched": null
+  },
+  {
+   "id": "6987115",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "25406961358100570382167228318955894712674102889297931378394479924238463237825",
+   "px": 0.973,
+   "tick": 0.001,
+   "ts": 1794493024,
+   "end_ts": 1794520800,
+   "q": "AD Pasto vs. CDP Junior FC: O/U 0.5",
+   "touched": null
+  },
+  {
+   "id": "6749968",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "27301821286759990961575186876071567874348325979902745306804512885702048944326",
+   "px": 0.98,
+   "tick": 0.001,
+   "ts": 1794493024,
+   "end_ts": 1794531600,
+   "q": "Louisville Cardinals vs. Ball State Cardinals (W)",
+   "touched": null
+  },
+  {
+   "id": "6987061",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "21837481323719640338546364795445360299199161797910817552237011578299362768077",
+   "px": 0.992,
+   "tick": 0.001,
+   "ts": 1794493024,
+   "end_ts": 1794528000,
+   "q": "Spread: Boyacá Chicó FC (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "6987063",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "4279916921248613986798378829414434681167473164107415646717510654155692135633",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1794493024,
+   "end_ts": 1794528000,
+   "q": "Spread: Boyacá Chicó FC (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "6987074",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "36795849643632676575084791893869174661585584699097047435191155938711672647692",
+   "px": 0.982,
+   "tick": 0.001,
+   "ts": 1794493024,
+   "end_ts": 1794528000,
+   "q": "Llaneros FC vs. Boyacá Chicó FC: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "6987075",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "74817159076570746645899133090465791078293447863546116587042256954060286205847",
+   "px": 0.992,
+   "tick": 0.001,
+   "ts": 1794493024,
+   "end_ts": 1794528000,
+   "q": "Llaneros FC vs. Boyacá Chicó FC: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6979949",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "113716429312064307453927729756226178006513659099956617734722041739529956967998",
+   "px": 0.974,
+   "tick": 0.001,
+   "ts": 1794493024,
+   "end_ts": 1794546000,
+   "q": "Will Bitcoin reach $76,000 on November 12?",
+   "touched": null
+  },
+  {
+   "id": "6453211",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "63290470668942548106225414945046087625102953280569487019593100083326646962155",
+   "px": 0.991,
+   "tick": 0.001,
+   "ts": 1794493024,
+   "end_ts": 1794589200,
+   "q": "Moldova vs. Kazakhstan: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "6453212",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "57158401516062422276143061059655605977586908337668972094594872113061547001511",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1794493024,
+   "end_ts": 1794589200,
+   "q": "Moldova vs. Kazakhstan: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6453213",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "95922238325211501888424065697669717934825036997232327644361529916675363988104",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1794493024,
+   "end_ts": 1794589200,
+   "q": "Moldova vs. Kazakhstan: O/U 8.5",
+   "touched": null
+  },
+  {
+   "id": "6450229",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "41693830980189963552273363942272615050359014642775711133730106558810344725955",
+   "px": 0.983,
+   "tick": 0.001,
+   "ts": 1794493024,
+   "end_ts": 1794600000,
+   "q": "Will Niger win on 2026-11-13?",
+   "touched": null
+  },
+  {
+   "id": "6452759",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "79510229107485549764866145311396860796669264012666143708384468874851191091341",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1794493024,
+   "end_ts": 1794599100,
+   "q": "Spread: Serbia (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "6452767",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "112443668969179918723826639221468258840107916511596912659744015382823892668371",
+   "px": 0.972,
+   "tick": 0.001,
+   "ts": 1794493024,
+   "end_ts": 1794599100,
+   "q": "Serbia vs. Germany: O/U 0.5",
    "touched": null
   }
  ]
