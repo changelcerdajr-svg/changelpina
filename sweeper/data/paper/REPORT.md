@@ -2,8 +2,8 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-11T22:05:26Z | dias corridos: 0.6 de 28 | corridas: 13
-- Capital inicial: $1,000.00 | valor actual: $1,000.30 | P&L: $+0.30 (+0.03%)
+- Inicio: 2026-11-11T22:05:26Z | dias corridos: 0.6 de 28 | corridas: 14
+- Capital inicial: $1,000.00 | valor actual: $999.97 | P&L: $-0.03 (-0.00%)
 - Efectivo libre: $400.16 | en ordenes abiertas: $450.01 (9) | en posiciones: $150.03 (3)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
 - Ordenes virtuales: 26 colocadas, 4 llenadas, 9 tocadas sin llenarse (sorteo 30%), 4 expiradas
@@ -26,7 +26,7 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 |---|---|---|---|---|---|
 | $50.00 | 97.7c | 97.9c | deportes_previo |  | Will Somalia win on 2026-11-12? |
 | $50.01 | 99.4c | 99.5c | deportes_previo |  | Spread: Somalia (-1.5) |
-| $50.02 | 98.5c | 98.5c | cripto_cierre |  | Will the price of Ethereum be above $1,900 on November 12? |
+| $50.02 | 98.5c | 97.9c | cripto_cierre |  | Will the price of Ethereum be above $1,900 on November 12? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
