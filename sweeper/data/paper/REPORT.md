@@ -2,8 +2,8 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-11T22:05:26Z | dias corridos: 1.0 de 28 | corridas: 24
-- Capital inicial: $1,000.00 | valor actual: $1,003.73 | P&L: $+3.73 (+0.37%)
+- Inicio: 2026-11-11T22:05:26Z | dias corridos: 1.0 de 28 | corridas: 25
+- Capital inicial: $1,000.00 | valor actual: $1,003.58 | P&L: $+3.58 (+0.36%)
 - Efectivo libre: $402.60 | en ordenes abiertas: $451.14 (9) | en posiciones: $149.81 (3)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
 - Ordenes virtuales: 47 colocadas, 11 llenadas, 20 tocadas sin llenarse (sorteo 30%), 7 expiradas
@@ -28,24 +28,24 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 |---|---|---|---|---|---|
 | $49.73 | 97.7c | 98.0c | deportes_previo |  | Spread: CSD Mixco (-2.5) |
 | $49.96 | 99.2c | 99.2c | deportes_previo |  | Spread: CSD Mixco (-3.5) |
-| $50.12 | 98.6c | 98.7c | deportes_previo |  | Northern Iowa Panthers vs. Iowa Hawkeyes (W) |
+| $50.12 | 98.6c | 98.4c | deportes_previo |  | Northern Iowa Panthers vs. Iowa Hawkeyes (W) |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 179 | abiertas: 338 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 203 | abiertas: 325 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
-| cripto_cierre | todas | 85 | 98.90c | 97.65% | -1.25 pts | -4.45 a +1.95 | 2 |
-| cripto_cierre | tocadas | 54 | 98.85c | 96.30% | -2.55 pts | -7.57 a +2.46 | 2 |
-| deportes_previo | todas | 85 | 98.56c | 100.00% | +1.44 pts | +1.24 a +1.64 | 0 |
-| deportes_previo | tocadas | 70 | 98.43c | 100.00% | +1.57 pts | +1.35 a +1.78 | 0 |
-| otros_cierre | todas | 9 | 98.66c | 100.00% | +1.34 pts | +1.07 a +1.61 | 0 |
-| otros_cierre | tocadas | 9 | 98.66c | 100.00% | +1.34 pts | +1.07 a +1.61 | 0 |
-| TOTAL | todas | 179 | 98.73c | 98.88% | +0.16 pts | -1.37 a +1.69 | 2 |
-| TOTAL | tocadas | 133 | 98.62c | 98.50% | -0.12 pts | -2.18 a +1.94 | 2 |
+| cripto_cierre | todas | 86 | 98.88c | 97.67% | -1.21 pts | -4.37 a +1.95 | 2 |
+| cripto_cierre | tocadas | 55 | 98.82c | 96.36% | -2.46 pts | -7.39 a +2.47 | 2 |
+| deportes_previo | todas | 107 | 98.60c | 100.00% | +1.40 pts | +1.22 a +1.58 | 0 |
+| deportes_previo | tocadas | 88 | 98.46c | 100.00% | +1.54 pts | +1.35 a +1.73 | 0 |
+| otros_cierre | todas | 10 | 98.59c | 100.00% | +1.41 pts | +1.14 a +1.68 | 0 |
+| otros_cierre | tocadas | 10 | 98.59c | 100.00% | +1.41 pts | +1.14 a +1.68 | 0 |
+| TOTAL | todas | 203 | 98.72c | 99.01% | +0.30 pts | -1.06 a +1.65 | 2 |
+| TOTAL | tocadas | 153 | 98.60c | 98.69% | +0.09 pts | -1.70 a +1.89 | 2 |
 
 Peores casos del registro sombra:
 
