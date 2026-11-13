@@ -1,29 +1,8 @@
 {
  "capital0": 1000.0,
- "cash": 403.5901,
+ "cash": 403.4008,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
-  {
-   "oid": "6418939-1794536108",
-   "id": "6418939",
-   "q": "Will Singapore win on 2026-11-13?",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1283106",
-   "side": 1,
-   "token": "78476413996516263914815774376537798402292966092527455507607604984782405455521",
-   "px": 0.972,
-   "tick": 0.001,
-   "mid": 0.972,
-   "bid": 0.97,
-   "ask": 0.974,
-   "shares": 51.7104,
-   "cost": 50.2626,
-   "ts": 1794536108.927968,
-   "end_ts": 1794571200.0,
-   "hours": 9.75,
-   "liq": 21950
-  },
   {
    "oid": "6753081-1794550534",
    "id": "6753081",
@@ -107,6 +86,27 @@
    "end_ts": 1794603600.0,
    "hours": 9.74,
    "liq": 1007
+  },
+  {
+   "oid": "6450757-1794572284",
+   "id": "6450757",
+   "q": "Spread: Rwanda (-1.5)",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1287599",
+   "side": 1,
+   "token": "67182629756800821330459474403427165668255037500154737918524005141598290697294",
+   "px": 0.987,
+   "tick": 0.001,
+   "mid": 0.987,
+   "bid": 0.98,
+   "ask": 0.994,
+   "shares": 51.1164,
+   "cost": 50.4519,
+   "ts": 1794572284.21674,
+   "end_ts": 1794596400.0,
+   "hours": 6.7,
+   "liq": 2482
   }
  ],
  "positions": [
@@ -131,7 +131,7 @@
    "hours": 7.75,
    "liq": 5597,
    "fill_ts": 1794539695.434543,
-   "mark": 0.99,
+   "mark": 0.9995,
    "stuck": false,
    "disputed": false
   },
@@ -156,7 +156,7 @@
    "hours": 10.74,
    "liq": 36254,
    "fill_ts": 1794554161.983876,
-   "mark": 0.976,
+   "mark": 0.979,
    "stuck": false,
    "disputed": false
   },
@@ -181,7 +181,7 @@
    "hours": 9.73,
    "liq": 44659,
    "fill_ts": 1794557732.631671,
-   "mark": 0.9925,
+   "mark": 0.993,
    "stuck": false,
    "disputed": false
   },
@@ -206,7 +206,7 @@
    "hours": 6.74,
    "liq": 3177,
    "fill_ts": 1794565521.765773,
-   "mark": 0.9945,
+   "mark": 0.997,
    "stuck": false,
    "disputed": false
   },
@@ -256,7 +256,7 @@
    "hours": 11.76,
    "liq": 1078,
    "fill_ts": 1794565521.765773,
-   "mark": 0.985,
+   "mark": 0.98,
    "stuck": false,
    "disputed": false
   },
@@ -281,7 +281,9 @@
    "hours": 6.74,
    "liq": 2384,
    "fill_ts": 1794568520.943793,
-   "mark": 0.992
+   "mark": 0.9915,
+   "stuck": false,
+   "disputed": false
   }
  ],
  "closed": [
@@ -1149,14 +1151,27 @@
    "placed": 1,
    "shadow_open": 463,
    "shadow_closed": 0
+  },
+  {
+   "ts": "2026-11-13T12:18:55Z",
+   "equity": 1009.04,
+   "cash": 403.4,
+   "orders": 5,
+   "positions": 7,
+   "closed": 13,
+   "scanned": 13174,
+   "candidates": 283,
+   "placed": 1,
+   "shadow_open": 488,
+   "shadow_closed": 0
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 66,
+  "placed": 67,
   "filled": 20,
   "expired": 14,
-  "touched_not_filled": 27
+  "touched_not_filled": 28
  },
  "shadow": [
   {
@@ -3055,7 +3070,7 @@
    "ts": 1794525405,
    "end_ts": 1794589200,
    "q": "Will the price of XRP be above $0.80 on November 13?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6452516",
@@ -3068,7 +3083,7 @@
    "ts": 1794525405,
    "end_ts": 1794599100,
    "q": "Spread: Gibraltar (-1.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6452592",
@@ -3081,7 +3096,7 @@
    "ts": 1794525405,
    "end_ts": 1794599100,
    "q": "Liechtenstein vs. Azerbaijan: O/U 5.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6487871",
@@ -3094,7 +3109,7 @@
    "ts": 1794525405,
    "end_ts": 1794598200,
    "q": "CD Leganés vs. Burgos CF: O/U 5.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6487874",
@@ -3107,7 +3122,7 @@
    "ts": 1794525405,
    "end_ts": 1794598200,
    "q": "CD Leganés vs. Burgos CF: O/U 8.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6540206",
@@ -3120,7 +3135,7 @@
    "ts": 1794525405,
    "end_ts": 1794596400,
    "q": "USPF Saint-Philbert-de-Grand-Lieu leading at halftime?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6540208",
@@ -3133,7 +3148,7 @@
    "ts": 1794525405,
    "end_ts": 1794596400,
    "q": "Vendée Fontenay Foot leading at halftime?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6694291",
@@ -3146,7 +3161,7 @@
    "ts": 1794525405,
    "end_ts": 1794592800,
    "q": "CU Técnica de Cajamarca leading at halftime?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6764061",
@@ -3159,7 +3174,7 @@
    "ts": 1794525405,
    "end_ts": 1794603600,
    "q": "Will Meta Platforms, Inc. (META) hit (HIGH) $680 Week of November 9 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6764469",
@@ -3172,7 +3187,7 @@
    "ts": 1794525405,
    "end_ts": 1794607200,
    "q": "Will Gold (XAUUSD) hit (HIGH) $4,350 Week of November 9 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6764495",
@@ -3185,7 +3200,7 @@
    "ts": 1794525405,
    "end_ts": 1794607200,
    "q": "Will Silver (XAGUSD) hit (LOW) $45 Week of November 9 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6753095",
@@ -7176,6 +7191,331 @@
    "ts": 1794568520,
    "end_ts": 1794675600,
    "q": "Georgia vs. Hungary: O/U 5.5",
+   "touched": null
+  },
+  {
+   "id": "6984161",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "112877464967151331228897730869968900909088687511245863322704337855479794958888",
+   "px": 0.991,
+   "tick": 0.001,
+   "ts": 1794572284,
+   "end_ts": 1794574800,
+   "q": "Bitcoin Up or Down - November 13, 4:00AM-8:00AM ET",
+   "touched": null
+  },
+  {
+   "id": "6984169",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "90406867541611791187611535566776794344302650278510133776276445814370982232119",
+   "px": 0.993,
+   "tick": 0.001,
+   "ts": 1794572284,
+   "end_ts": 1794574800,
+   "q": "Ethereum Up or Down - November 13, 4:00AM-8:00AM ET",
+   "touched": null
+  },
+  {
+   "id": "6450773",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "3338819042205500363385023870342439196865606640917302031098834334251206846248",
+   "px": 0.992,
+   "tick": 0.001,
+   "ts": 1794572284,
+   "end_ts": 1794596400,
+   "q": "Mali vs. Rwanda: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "6453099",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "43119975359267902888441822214398420845086022971810726239120536388684113168122",
+   "px": 0.972,
+   "tick": 0.001,
+   "ts": 1794572284,
+   "end_ts": 1794599100,
+   "q": "Slovakia vs. Faroe Islands: 1st Half O/U 3.5",
+   "touched": null
+  },
+  {
+   "id": "6532606",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "57287704932766261130027148720652585520812583263346255173234085466959838121372",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1794572284,
+   "end_ts": 1794596400,
+   "q": "Bermuda vs. St. Lucia: Bermuda O/U 3.5",
+   "touched": null
+  },
+  {
+   "id": "6764005",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "87854784681014515014341557845844473215853471130958693851842182271147780761380",
+   "px": 0.984,
+   "tick": 0.001,
+   "ts": 1794572284,
+   "end_ts": 1794603600,
+   "q": "Will Google (GOOGL) finish week of November 9 above $280?",
+   "touched": null
+  },
+  {
+   "id": "6764380",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "78549291212144097764364780638409108815989620108956196783893157865129811811241",
+   "px": 0.991,
+   "tick": 0.001,
+   "ts": 1794572284,
+   "end_ts": 1794603600,
+   "q": "Will Micron Technology, Inc. (MU) hit (LOW) $600 Week of November 9 2026?",
+   "touched": null
+  },
+  {
+   "id": "6934484",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "113275692022220413433149933839252969428144983242895112723185364917190724988515",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1794572284,
+   "end_ts": 1794600900,
+   "q": "Spread: Gimnastic de Tarragona (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "6986447",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "16826208477799060023996563029901881380684511713635186291406968025859688129952",
+   "px": 0.976,
+   "tick": 0.001,
+   "ts": 1794572284,
+   "end_ts": 1794603600,
+   "q": "Will Amazon (AMZN) close above $260 on November 13?",
+   "touched": null
+  },
+  {
+   "id": "6986467",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "15933720087243389949522907822089843335294980724176491599255310360437852206281",
+   "px": 0.975,
+   "tick": 0.001,
+   "ts": 1794572284,
+   "end_ts": 1794603600,
+   "q": "Will Tesla (TSLA) close above $380 on November 13?",
+   "touched": null
+  },
+  {
+   "id": "6532487",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "6393445405866513642064228972961322413504220492141867644318497211765417608180",
+   "px": 0.983,
+   "tick": 0.001,
+   "ts": 1794572284,
+   "end_ts": 1794610800,
+   "q": "Spread: Saint-Martin (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "6764505",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "55823029442164066055558974884706236338413979254979170495542732458391165507201",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1794572284,
+   "end_ts": 1794610800,
+   "q": "Will WTI Crude Oil (WTI) hit (LOW) $80 Week of November 9 2026?",
+   "touched": null
+  },
+  {
+   "id": "6910061",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "1614877532409946788039371990887265764136659371035040888507444247001616591955",
+   "px": 0.987,
+   "tick": 0.001,
+   "ts": 1794572284,
+   "end_ts": 1794607200,
+   "q": "Spread: Racing Club (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "7001640",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "706071090561469832153163744691200688988805036213161908415980841868078279762",
+   "px": 0.976,
+   "tick": 0.001,
+   "ts": 1794572284,
+   "end_ts": 1794618000,
+   "q": "Spread: Bulls (-21.5)",
+   "touched": null
+  },
+  {
+   "id": "7006275",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "8085690798253777131509312770529099849587269979809476093088808983990581852095",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1794572284,
+   "end_ts": 1794632400,
+   "q": "Will Bitcoin dip to $65,000 on November 13?",
+   "touched": null
+  },
+  {
+   "id": "6512769",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "15590069968628136944041584829956850994927916845501227195544221746140971764536",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1794572284,
+   "end_ts": 1794668400,
+   "q": "Leyton Orient FC to score first vs. Doncaster Rovers FC?",
+   "touched": null
+  },
+  {
+   "id": "6603368",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "113621355140836644675224891641694659930992663418863817498283475280553879648452",
+   "px": 0.974,
+   "tick": 0.001,
+   "ts": 1794572284,
+   "end_ts": 1794677400,
+   "q": "Spread: Georgia Tech (-13.5)",
+   "touched": null
+  },
+  {
+   "id": "6802308",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "82636540771080014715601858079476071867316312705727672900708903469463206694244",
+   "px": 0.991,
+   "tick": 0.001,
+   "ts": 1794572284,
+   "end_ts": 1794673800,
+   "q": "Will Atalanta BC U23 win on 2026-11-14?",
+   "touched": null
+  },
+  {
+   "id": "6802310",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "105350097516940161459566058931313496476923754466785435508921456638451145790303",
+   "px": 0.991,
+   "tick": 0.001,
+   "ts": 1794572284,
+   "end_ts": 1794673800,
+   "q": "Will Atalanta BC U23 vs. ASD Pineto Calcio end in a draw?",
+   "touched": null
+  },
+  {
+   "id": "6802319",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "20285134388514288371153875354987486614109062228376173441067392649336517529994",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1794572284,
+   "end_ts": 1794673800,
+   "q": "Atalanta BC U23 vs. ASD Pineto Calcio: Draw at halftime?",
+   "touched": null
+  },
+  {
+   "id": "6802321",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "58849020406462100154172737128312218541995929909679023807283873136941356705467",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1794572284,
+   "end_ts": 1794673800,
+   "q": "ASD Pineto Calcio leading at halftime?",
+   "touched": null
+  },
+  {
+   "id": "6802493",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "79728920917712542683946823057373599290325334264612394169917714354971638941264",
+   "px": 0.986,
+   "tick": 0.001,
+   "ts": 1794572284,
+   "end_ts": 1794673800,
+   "q": "Will Audace Cerignola win on 2026-11-14?",
+   "touched": null
+  },
+  {
+   "id": "6802494",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "2087204255071940023682458351699590873016206362640826888983672708198154295717",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1794572284,
+   "end_ts": 1794673800,
+   "q": "Will Audace Cerignola vs. Inter Milano U23 end in a draw?",
+   "touched": null
+  },
+  {
+   "id": "6802495",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "33766168816921223398742233778473526294095244069437293849667967784691885197834",
+   "px": 0.987,
+   "tick": 0.001,
+   "ts": 1794572284,
+   "end_ts": 1794673800,
+   "q": "Will Inter Milano U23 win on 2026-11-14?",
+   "touched": null
+  },
+  {
+   "id": "6802499",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "86499773260932436541624442088326858558698745687421813664173342519164807323560",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1794572284,
+   "end_ts": 1794673800,
+   "q": "Audace Cerignola vs. Inter Milano U23: Draw at halftime?",
    "touched": null
   }
  ]
