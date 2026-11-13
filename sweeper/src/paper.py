@@ -100,13 +100,13 @@ def parse_ts(s):
 
 def load_state():
     if os.path.exists(STATE):
-        return json.load(open(STATE))
+        return json.load(open(STATE, encoding="utf-8"))
     return dict(capital0=CAPITAL0, cash=CAPITAL0, started=iso(now_utc()), orders=[], positions=[], closed=[],
                 runs=[], halted=False, stats=dict(placed=0, filled=0, expired=0, touched_not_filled=0))
 
 
 def log(ev, **kw):
-    with open(LOG, "a") as f:
+    with open(LOG, "a", encoding="utf-8") as f:
         f.write(json.dumps(dict(ts=iso(now_utc()), ev=ev, **kw), ensure_ascii=False) + "\n")
 
 
@@ -280,7 +280,7 @@ def place(st, now, markets):
 def shadow_rows():
     if not os.path.exists(SHADOW_CSV):
         return []
-    with open(SHADOW_CSV, newline="") as f:
+    with open(SHADOW_CSV, newline="", encoding="utf-8") as f:
         return list(csv.DictReader(f))
 
 
@@ -329,7 +329,7 @@ def shadow_update(st, now):
                 pass
     if closed:
         new = not os.path.exists(SHADOW_CSV)
-        with open(SHADOW_CSV, "a", newline="") as f:
+        with open(SHADOW_CSV, "a", newline="", encoding="utf-8") as f:
             w = csv.writer(f)
             if new:
                 w.writerow(SHADOW_HDR)
@@ -436,7 +436,7 @@ def report(st):
             L.append(f"Positivo en papel: edge {edge:+.2f} pts por dolar invertido y {ret:+.2f}% sobre el capital, ya con el supuesto de 30% de llenado. Ojo: es simulacion; el llenado real, la profundidad del libro y los mercados que se quedan sin resolver pueden cambiar el resultado.")
         else:
             L.append(f"Sin ventaja en papel: edge {edge:+.2f} pts por dolar invertido y {ret:+.2f}% sobre el capital. No pasar a dinero real.")
-    open(REPORT, "w").write("\n".join(L) + "\n")
+    open(REPORT, "w", encoding="utf-8").write("\n".join(L) + "\n")
 
 
 def main():
@@ -466,7 +466,7 @@ def main():
     st["runs"].append(dict(ts=iso(now_utc()), equity=round(equity(st), 2), cash=round(st["cash"], 2), orders=len(st["orders"]),
                            positions=len(st["positions"]), closed=len(st["closed"]), scanned=nm, candidates=nc, placed=npl,
                            shadow_open=len(st["shadow"]), shadow_closed=nsh))
-    json.dump(st, open(STATE, "w"), ensure_ascii=False, indent=1)
+    json.dump(st, open(STATE, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     report(st)
     r = st["runs"][-1]
     print(f"{PROFILE} corrida {len(st['runs'])}: escaneados {nm}, candidatos {nc}, ordenes nuevas {npl} | abiertas {r['orders']}, posiciones {r['positions']}, cerradas {r['closed']} | sombra abiertas {r['shadow_open']} | valor ${r['equity']}"

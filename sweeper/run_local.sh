@@ -5,6 +5,7 @@
 # Para correrlo cada hora (Linux/macOS), agrega esta linea con `crontab -e`:
 #   0 * * * * /ruta/a/changelpina/sweeper/run_local.sh >> /ruta/a/changelpina/sweeper/data/local.log 2>&1
 set -euo pipefail
+export PYTHONUTF8=1   # evita errores de codificacion en Windows (cp1252)
 cd "$(dirname "$0")"
 # Si el repo esta limpio, trae el ultimo estado; si tienes cambios locales, sigue sin tocarlos.
 if git diff --quiet 2>/dev/null && git diff --cached --quiet 2>/dev/null; then

@@ -9,12 +9,12 @@ OUT = "dashboard.html"
 def build(DIR, now):
     if not os.path.exists(f"{DIR}/state.json"):
         return None
-    st = json.load(open(f"{DIR}/state.json"))
+    st = json.load(open(f"{DIR}/state.json", encoding="utf-8"))
     started = dt.datetime.fromisoformat(st["started"].replace("Z", "+00:00"))
     # bitacora: ultimos eventos, con el nombre del mercado aunque el evento no lo traiga
     names, events = {}, []
     if os.path.exists(f"{DIR}/log.jsonl"):
-        for line in open(f"{DIR}/log.jsonl"):
+        for line in open(f"{DIR}/log.jsonl", encoding="utf-8"):
             try:
                 e = json.loads(line)
             except Exception:
@@ -27,7 +27,7 @@ def build(DIR, now):
     shadow = None
     p = f"{DIR}/shadow_closed.csv"
     if os.path.exists(p):
-        rows = list(csv.DictReader(open(p, newline="")))
+        rows = list(csv.DictReader(open(p, newline="", encoding="utf-8")))
         tt = [float(r["result"]) - float(r["px"]) for r in rows if r["touched"] == "1"]
         if tt:
             n = len(tt); mean = sum(tt) / n
@@ -53,8 +53,8 @@ def main():
     now = dt.datetime.now(dt.timezone.utc)
     profiles = {k: d for k, d in ((k, build(p, now)) for k, p in PROFILES) if d}
     data = dict(updated=now.strftime("%Y-%m-%dT%H:%M:%SZ"), profiles=profiles)
-    html = open(TEMPLATE).read().replace("__DATA__", json.dumps(data, ensure_ascii=False).replace("</", "<\\/"))
-    open(OUT, "w").write(html)
+    html = open(TEMPLATE, encoding="utf-8").read().replace("__DATA__", json.dumps(data, ensure_ascii=False).replace("</", "<\\/"))
+    open(OUT, "w", encoding="utf-8").write(html)
     print("dashboard.html actualizado")
 
 
