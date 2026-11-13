@@ -6,7 +6,7 @@
 :root {
   --bg: #e9f1f0; --surface: #f7fbfa; --ink: #12262d; --muted: #577079; --line: #c9d9d8;
   --crab: #d9603b; --crab-dark: #9c3b20; --sand: #dcc9a3; --water: #bfe0de;
-  --good: #1d7a54; --bad: #b3261e;
+  --good: #1d7a54; --bad: #b3261e; --hot: #6a3fd0;
   --display: "Silkscreen", "Courier New", monospace;
   --body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
   --mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
@@ -14,16 +14,17 @@
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
   --bg: #0b171c; --surface: #12232a; --ink: #e4efee; --muted: #8aa4ab; --line: #24404a;
   --crab: #f07a52; --crab-dark: #b24a2a; --sand: #4a4130; --water: #173b44;
-  --good: #57c795; --bad: #ff8a80; color-scheme: dark } }
+  --good: #57c795; --bad: #ff8a80; --hot: #ac90ff; color-scheme: dark } }
 :root[data-theme="dark"] {
   --bg: #0b171c; --surface: #12232a; --ink: #e4efee; --muted: #8aa4ab; --line: #24404a;
   --crab: #f07a52; --crab-dark: #b24a2a; --sand: #4a4130; --water: #173b44;
-  --good: #57c795; --bad: #ff8a80; color-scheme: dark }
+  --good: #57c795; --bad: #ff8a80; --hot: #ac90ff; color-scheme: dark }
 
 body { background: var(--bg); color: var(--ink); font-family: var(--body); font-size: 15px; line-height: 1.5; }
-.wrap { max-width: 920px; margin: 0 auto; padding-block: 28px 56px;
+.wrap { --me: var(--crab); max-width: 920px; margin: 0 auto; padding-block: 28px 56px;
   padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
   display: flex; flex-direction: column; gap: 28px; }
+.wrap[data-p="agresivo"] { --me: var(--hot); }
 h1 { font-family: var(--display); font-weight: 700; font-size: clamp(22px, 5vw, 34px); margin: 0; letter-spacing: .01em; text-wrap: balance; }
 h2 { font-family: var(--display); font-weight: 400; font-size: 13px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin: 0 0 10px; }
 .top { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 6px 20px; }
@@ -37,7 +38,7 @@ h2 { font-family: var(--display); font-weight: 400; font-size: 13px; letter-spac
 .station + .station { border-left: 2px dashed color-mix(in srgb, var(--ink) 25%, transparent); }
 .station b { display: block; font-family: var(--display); font-weight: 400; font-size: clamp(10px, 2.6vw, 13px); letter-spacing: .06em; }
 .station span { font-family: var(--mono); font-size: clamp(20px, 5vw, 30px); font-weight: 500; font-variant-numeric: tabular-nums; }
-.station.on b { color: var(--crab-dark); }
+.station.on b { color: var(--me); }
 .floor { height: 84px; position: relative; }
 .floor::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 18px; background: var(--sand); border-top: 2px solid var(--ink); }
 #crab { position: absolute; bottom: 12px; left: 16.66%; width: 100px; height: 60px; margin-left: -50px; image-rendering: pixelated; z-index: 1;
@@ -52,6 +53,12 @@ h2 { font-family: var(--display); font-weight: 400; font-size: 13px; letter-spac
 .say .when { font-family: var(--mono); font-size: 12px; color: var(--muted); white-space: nowrap; }
 button { font: inherit; font-family: var(--display); font-size: 11px; background: var(--surface); color: var(--ink); border: 2px solid var(--ink); padding: 6px 10px; cursor: pointer; }
 button:hover { background: var(--ink); color: var(--surface); }
+button.tab[aria-pressed="true"] { background: var(--ink); color: var(--surface); }
+.tabs { display: flex; }
+.tabs .tab + .tab { border-left: 0; }
+.cmp td, .cmp th { padding-right: 14px; }
+.cmp td.n, .cmp th.n { padding-left: 0; padding-right: 14px; }
+.dot { display: inline-block; width: 9px; height: 9px; margin-right: 7px; }
 button:focus-visible { outline: 3px solid var(--crab); outline-offset: 2px; }
 
 /* numeros */
@@ -88,6 +95,14 @@ footer { color: var(--muted); font-size: 12.5px; border-top: 1px solid var(--lin
     <span class="tag" id="updated"></span>
   </header>
 
+  <div class="top">
+    <div class="tabs" role="group" aria-label="Perfil">
+      <button class="tab" id="tab-base" type="button" aria-pressed="true">Base</button>
+      <button class="tab" id="tab-agresivo" type="button" aria-pressed="false">Agresivo</button>
+    </div>
+    <p id="pdesc"></p>
+  </div>
+
   <section class="stage" aria-label="El cangrejo repasando sus últimas jugadas">
     <div class="stations">
       <div class="station" id="st0"><b>Órdenes</b><span id="c0"></span></div>
@@ -104,6 +119,11 @@ footer { color: var(--muted); font-size: 12.5px; border-top: 1px solid var(--lin
 
   <section>
     <div class="nums" id="nums"></div>
+  </section>
+
+  <section>
+    <h2>Base contra agresivo</h2>
+    <div class="scroll" id="cmp"></div>
   </section>
 
   <section class="two">
@@ -133,16 +153,22 @@ footer { color: var(--muted); font-size: 12.5px; border-top: 1px solid var(--lin
 </div>
 
 <script>
-const D = __DATA__;
+const ALL = __DATA__;
+let D = ALL.profiles.base, KEY = "base";
+const WRAP = document.querySelector(".wrap");
 const $ = id => document.getElementById(id);
-const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const css = n => getComputedStyle(WRAP).getPropertyValue(n).trim();
 const money = (v, sign) => (sign && v > 0 ? "+" : v < 0 ? "−" : "") + "$" + Math.abs(v).toLocaleString("es-MX", {minimumFractionDigits: 2, maximumFractionDigits: 2});
 const cents = p => (p * 100).toFixed(1) + "c";
 const esc = s => String(s).replace(/[&<>"]/g, c => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;"}[c]));
 const when = t => new Date(t).toLocaleString("es-MX", {day: "numeric", month: "short", hour: "2-digit", minute: "2-digit"});
-const RULE = {cripto_cierre: "cripto", deportes_previo: "deportes", otros_cierre: "otros", post_fin_95_97: "fin pasado"};
+const RULE = {cripto_cierre: "cripto", deportes_previo: "deportes", otros_cierre: "otros", clima_cierre: "clima", post_fin_95_97: "fin pasado", post_fin_90_97: "fin pasado"};
+const DESC = {base: "Las reglas del plan: $50 por jugada, favoritos de 97c o más, puja al precio medio.", agresivo: "Experimento: $100 por jugada, favoritos desde 95c, más categorías y puja más alto para que le llenen."};
+const PCOL = {base: "--crab", agresivo: "--hot"};
 
-$("updated").textContent = "Actualizado " + when(D.updated);
+function render() {
+$("updated").textContent = "Actualizado " + when(ALL.updated);
+$("pdesc").textContent = DESC[KEY];
 $("c0").textContent = D.n_orders; $("c1").textContent = D.n_pos; $("c2").textContent = D.n_closed;
 
 /* ---- numeros ---- */
@@ -154,28 +180,40 @@ $("nums").innerHTML = [
   ["Día de la prueba", Math.min(28, Math.floor(D.days) + 1) + " de 28", D.runs.length + " corridas", ""],
 ].map(([a, b, c, k]) => `<div class="num"><small>${a}</small><strong class="${k}">${b}</strong><em>${c}</em></div>`).join("");
 
-/* ---- valor en el tiempo ---- */
+/* ---- valor en el tiempo: los dos perfiles con la misma escala ---- */
 (function () {
-  const W = 420, H = 170, L = 52, R = 10, T = 12, B = 26, r = D.runs;
-  if (r.length < 2) { $("eq").outerHTML = '<p class="empty">Aún no hay suficientes corridas para dibujar.</p>'; return; }
-  const xs = r.map(p => new Date(p[0]).getTime()), ys = r.map(p => p[1]);
-  let lo = Math.min(D.capital0, ...ys), hi = Math.max(D.capital0, ...ys);
+  const W = 420, H = 170, L = 52, R = 10, T = 12, B = 26;
+  const S = Object.entries(ALL.profiles).map(([k, d]) => ({k, xs: d.runs.map(p => new Date(p[0]).getTime()), ys: d.runs.map(p => p[1])})).filter(s => s.xs.length);
+  const ax = [].concat(...S.map(s => s.xs)), ay = [].concat(...S.map(s => s.ys));
+  if (ax.length < 2) { $("eq").innerHTML = ""; return; }
+  const cap = D.capital0, x0 = Math.min(...ax), x1 = Math.max(...ax);
+  let lo = Math.min(cap, ...ay), hi = Math.max(cap, ...ay);
   const pad = Math.max(1, (hi - lo) * 0.15); lo = Math.floor(lo - pad); hi = Math.ceil(hi + pad);
-  const X = t => L + (t - xs[0]) / (xs[xs.length - 1] - xs[0]) * (W - L - R), Y = v => T + (hi - v) / (hi - lo) * (H - T - B);
-  const pts = r.map((p, i) => X(xs[i]).toFixed(1) + "," + Y(ys[i]).toFixed(1)).join(" ");
-  const last = ys[ys.length - 1], ticks = [lo, D.capital0, hi].filter((v, i, a) => a.indexOf(v) === i);
-  $("eq").innerHTML =
-    ticks.map(v => `<line x1="${L}" x2="${W - R}" y1="${Y(v)}" y2="${Y(v)}" stroke="${css("--line")}" stroke-dasharray="${v === D.capital0 ? "0" : "2 3"}"/><text x="${L - 6}" y="${Y(v) + 4}" text-anchor="end">$${v.toLocaleString("es-MX")}</text>`).join("") +
-    `<polygon points="${L},${Y(lo)} ${pts} ${W - R},${Y(lo)}" fill="${css("--crab")}" fill-opacity=".14"/>` +
-    `<polyline points="${pts}" fill="none" stroke="${css("--crab")}" stroke-width="2" stroke-linejoin="round"/>` +
-    `<rect x="${X(xs[xs.length - 1]) - 3}" y="${Y(last) - 3}" width="6" height="6" fill="${css("--crab")}"/>` +
-    `<text x="${L}" y="${H - 6}">${when(xs[0])}</text><text x="${W - R}" y="${H - 6}" text-anchor="end">${when(xs[xs.length - 1])}</text>`;
+  const X = t => L + (x1 === x0 ? 1 : (t - x0) / (x1 - x0)) * (W - L - R), Y = v => T + (hi - v) / (hi - lo) * (H - T - B);
+  const ticks = [lo, cap, hi].filter((v, i, a) => a.indexOf(v) === i);
+  let g = ticks.map(v => `<line x1="${L}" x2="${W - R}" y1="${Y(v)}" y2="${Y(v)}" stroke="${css("--line")}" stroke-dasharray="${v === cap ? "0" : "2 3"}"/><text x="${L - 6}" y="${Y(v) + 4}" text-anchor="end">$${v.toLocaleString("es-MX")}</text>`).join("");
+  S.sort((a, b) => (a.k === KEY) - (b.k === KEY)).forEach(s => {
+    const c = css(PCOL[s.k]), me = s.k === KEY, pts = s.xs.map((x, i) => X(x).toFixed(1) + "," + Y(s.ys[i]).toFixed(1)).join(" ");
+    const lx = X(s.xs[s.xs.length - 1]), ly = Y(s.ys[s.ys.length - 1]);
+    if (me && s.xs.length > 1) g += `<polygon points="${X(s.xs[0])},${Y(lo)} ${pts} ${lx},${Y(lo)}" fill="${c}" fill-opacity=".12"/>`;
+    g += (s.xs.length > 1 ? `<polyline points="${pts}" fill="none" stroke="${c}" stroke-width="${me ? 2.2 : 1.4}" stroke-opacity="${me ? 1 : .7}" stroke-linejoin="round"/>` : "") + `<rect x="${lx - 3}" y="${ly - 3}" width="6" height="6" fill="${c}"/>`;
+  });
+  $("eq").innerHTML = g + `<text x="${L}" y="${H - 6}">${when(x0)}</text><text x="${W - R}" y="${H - 6}" text-anchor="end">${when(x1)}</text>`;
+})();
+
+/* ---- comparacion ---- */
+(function () {
+  const f = v => (v > 0 ? "+" : v < 0 ? "−" : "") + Math.abs(v).toFixed(2);
+  const row = (k, d) => { const pl = d.equity - d.capital0, s = d.shadow;
+    return `<tr><td><span class="dot" style="background:${css(PCOL[k])}"></span>${k === "base" ? "Base" : "Agresivo"}</td><td class="n">${money(d.equity)}</td><td class="n ${pl >= 0 ? "good" : "bad"}">${money(pl, true)}</td><td class="n">${d.n_closed}</td><td class="n">${d.wins} / ${d.losses}</td><td class="n">${s && s.n_t ? f(s.edge_t) + " pts" : "sin datos"}</td><td class="n">${Math.floor(d.days) + 1}</td></tr>`; };
+  $("cmp").innerHTML = `<table class="cmp"><thead><tr><th>Perfil</th><th class="n">Valor</th><th class="n">Ganancia</th><th class="n">Cobradas</th><th class="n">Ganó / perdió</th><th class="n">Ventaja medida</th><th class="n">Día</th></tr></thead><tbody>` +
+    Object.entries(ALL.profiles).map(([k, d]) => row(k, d)).join("") + "</tbody></table>";
 })();
 
 /* ---- ventaja: registro sombra ---- */
 (function () {
   const s = D.shadow, W = 420, L = 14, R = 14, y = 44;
-  if (!s || !s.n_t) { $("edge").outerHTML = '<p class="empty">Aún no hay oportunidades resueltas.</p>'; return; }
+  if (!s || !s.n_t) { $("edge").innerHTML = ""; $("edgenote").textContent = "Aún no hay oportunidades resueltas en este perfil."; return; }
   const span = Math.max(2, Math.ceil(Math.max(Math.abs(s.lo_t), Math.abs(s.hi_t))));
   const X = v => L + (v + span) / (2 * span) * (W - L - R), cl = v => Math.max(-span, Math.min(span, v));
   const col = s.lo_t > 0 ? css("--good") : s.hi_t < 0 ? css("--bad") : css("--muted");
@@ -200,8 +238,10 @@ $("nums").innerHTML = [
   $("closed").innerHTML = D.closed.length ? `<table><thead><tr><th>Mercado</th><th class="n">Compró a</th><th class="n">Resultado</th></tr></thead><tbody>` +
     D.closed.map(c => `<tr><td class="m">${esc(c.q)} <span class="pill">${RULE[c.rule] || c.rule}</span></td><td class="n">${cents(c.px)}</td><td class="n ${c.pnl >= 0 ? "good" : "bad"}">${money(c.pnl, true)}</td></tr>`).join("") + "</tbody></table>"
     : '<p class="empty">Todavía no ha cobrado ninguna.</p>';
-  $("foot").textContent = "Simulación en papel (empezó el " + when(D.started) + "). No hay cuentas, llaves ni órdenes reales: solo se leen los precios públicos de Polymarket. Una orden cuenta como llenada si el precio bajó hasta ella y además gana un sorteo del 30%. Se actualiza cada hora." + (D.halted ? " La simulación está detenida porque la pérdida llegó al 15%." : "");
+  $("foot").textContent = "Simulación en papel (empezó el " + when(D.started) + "). No hay cuentas, llaves ni órdenes reales: solo se leen los precios públicos de Polymarket. Una orden cuenta como llenada si el precio bajó hasta ella y además gana un sorteo del 30%. Se actualiza cada hora." + (D.halted ? " Este perfil está detenido porque llegó a su límite de pérdida." : "");
 })();
+
+}
 
 /* ---- el cangrejo ---- */
 const OPEN = ["C.C..............C.C", "C.C..............C.C", "CCC...E......E...CCC", ".C....C......C....C.", ".CC..CCCCCCCCCC..CC.", "..CCCCCCCCCCCCCCCC..", "....CCCCCCCCCCCC....", "....CCCCCCCCCCCC...."];
@@ -210,7 +250,7 @@ const LEGS = [["...C.CCCCCCCCCC.C...", "..C..C.C....C.C..C..", "..C..C.C....C.C.
               ["...C.CCCCCCCCCC.C...", "..C.C..C....C..C.C..", ".C..C..C....C..C..C.", "....C..........C...."]];
 const cv = $("crab"), cx = cv.getContext("2d");
 function draw(claw, leg) {
-  const rows = (claw ? OPEN : SHUT).concat(LEGS[leg]), c = css("--crab"), e = css("--ink");
+  const rows = (claw ? OPEN : SHUT).concat(LEGS[leg]), c = css("--me"), e = css("--ink");
   cx.clearRect(0, 0, 20, 12);
   rows.forEach((r, y) => { for (let x = 0; x < 20; x++) { const ch = r[x]; if (ch === "C" || ch === "E") { cx.fillStyle = ch === "E" ? e : c; cx.fillRect(x, y, 1, 1); } } });
 }
@@ -230,9 +270,9 @@ function describe(e) {
   if (e.ev === "halt") return "Se detiene: la pérdida llegó al 15%";
   return e.ev;
 }
-let i = Math.max(0, D.events.length - 1), paused = still, timer = null;
+let i = 0, paused = still, timer = null;
 function show() {
-  if (!D.events.length) { $("what").textContent = "El cangrejo todavía no ha hecho nada."; return; }
+  if (!D.events.length) { $("what").textContent = "El cangrejo todavía no ha hecho nada."; $("q").textContent = ""; $("when").textContent = ""; return; }
   const e = D.events[i], s = SPOT[e.ev] ?? 1;
   cv.style.left = LEFT[s]; walking = 8; snap = 16;
   [0, 1, 2].forEach(k => $("st" + k).classList.toggle("on", k === s));
@@ -242,10 +282,18 @@ function show() {
     document.querySelector(".floor").appendChild(p); setTimeout(() => p.remove(), 1700);
   }
 }
-function next() { i = (i + 1) % D.events.length; show(); }
+function next() { if (D.events.length) { i = (i + 1) % D.events.length; show(); } }
 function run() { clearInterval(timer); if (!paused && D.events.length > 1) timer = setInterval(next, 3400); }
 $("pause").addEventListener("click", () => { paused = !paused; $("pause").textContent = paused ? "Seguir" : "Pausa"; $("pause").setAttribute("aria-pressed", paused); run(); });
 if (still) { $("pause").textContent = "Seguir"; $("pause").setAttribute("aria-pressed", "true"); }
-if (!still && D.events.length > 1) i = 0;
-show(); run();
+function pick(k) {
+  if (!ALL.profiles[k]) return;
+  KEY = k; D = ALL.profiles[k]; WRAP.dataset.p = k;
+  ["base", "agresivo"].forEach(n => { const b = $("tab-" + n); b.setAttribute("aria-pressed", n === k); b.hidden = !ALL.profiles[n]; });
+  render(); i = still ? Math.max(0, D.events.length - 1) : 0; draw(1, 0); show(); run();
+  try { localStorage.setItem("perfil", k); } catch (e) {}
+}
+["base", "agresivo"].forEach(n => $("tab-" + n).addEventListener("click", () => pick(n)));
+let first = "base"; try { first = localStorage.getItem("perfil") || "base"; } catch (e) {}
+pick(ALL.profiles[first] ? first : "base");
 </script>

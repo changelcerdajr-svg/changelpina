@@ -16,12 +16,7 @@ from concurrent.futures import ThreadPoolExecutor
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__))))
 from fetch_backtest import get, category, G, C
 
-DIR = "data/paper"
-STATE = f"{DIR}/state.json"
-LOG = f"{DIR}/log.jsonl"
-REPORT = f"{DIR}/REPORT.md"
-SHADOW_CSV = f"{DIR}/shadow_closed.csv"   # todas las oportunidades ya resueltas (sin limite de capital)
-SHADOW_HDR = ["id", "rule", "cat", "px", "touched", "result", "ts", "end_ts", "closed_ts", "q"]
+PROFILE = os.environ.get("PROFILE", "base")   # "base" (el del plan) o "agresivo" (experimento de comparacion)
 
 CAPITAL0 = 1000.0          # capital virtual
 MAX_MARKET = 0.05          # 5% del capital por mercado
@@ -35,6 +30,9 @@ MAX_SPREAD = 0.03
 ORDER_TTL_H = 12           # una orden virtual vive como maximo 12h
 STUCK_DAYS = 7             # posicion "inmovilizada": mercado abierto > 7 dias despues de su fecha de fin
 PAPER_WEEKS = 4
+SCAN_AHEAD_H = 30          # hasta cuantas horas antes del fin se buscan mercados
+BID_AT_ASK = False         # False: orden al punto medio. True: 1 tick por debajo del ask (primero en la fila)
+DIR = "data/paper"
 
 # Reglas: (nombre, categorias, horas hasta la fecha de fin [min, max], banda de precio [min, max))
 # Vienen de data/universe_rules.csv: pasan en entrena y prueba, con seleccion adversa y en el peor caso.
@@ -44,6 +42,29 @@ RULES = [
     ("otros_cierre", {"otros"}, (0.0, 24.0), (0.97, 0.9995)),
     ("post_fin_95_97", {"clima", "deportes", "otros", "cripto"}, (-12.0, -3.0), (0.95, 0.97)),
 ]
+
+if PROFILE == "agresivo":
+    # Mismo capital, el doble de tamano por jugada y por categoria, bandas mas anchas (desde 95c y,
+    # con la fecha de fin ya pasada, desde 90c), ventanas mas largas (hasta 72h antes del fin), entra
+    # tambien a clima, acepta mercados menos liquidos y puja mas alto para que le llenen mas seguido.
+    # Varias de estas reglas NO pasaron todas las pruebas del backtest: es un experimento, no una mejora.
+    MAX_MARKET, MAX_EVENT, MAX_CAT, STOP_LOSS = 0.10, 0.20, 0.40, 0.30
+    FILL_PROB, MIN_LIQ, MAX_SPREAD, ORDER_TTL_H = 0.50, 500, 0.05, 24
+    SCAN_AHEAD_H, BID_AT_ASK = 72, True
+    DIR = "data/paper_agresivo"
+    RULES = [
+        ("cripto_cierre", {"cripto"}, (0.0, 72.0), (0.95, 0.9995)),
+        ("deportes_previo", {"deportes"}, (1.0, 72.0), (0.95, 0.9995)),
+        ("otros_cierre", {"otros"}, (0.0, 72.0), (0.95, 0.9995)),
+        ("clima_cierre", {"clima"}, (6.0, 48.0), (0.95, 0.9995)),
+        ("post_fin_90_97", {"clima", "deportes", "otros", "cripto"}, (-24.0, -3.0), (0.90, 0.97)),
+    ]
+
+STATE = f"{DIR}/state.json"
+LOG = f"{DIR}/log.jsonl"
+REPORT = f"{DIR}/REPORT.md"
+SHADOW_CSV = f"{DIR}/shadow_closed.csv"   # todas las oportunidades ya resueltas (sin limite de capital)
+SHADOW_HDR = ["id", "rule", "cat", "px", "touched", "result", "ts", "end_ts", "closed_ts", "q"]
 
 
 def cat2(cat, q):
@@ -130,7 +151,7 @@ def match_rule(m, now):
     for name, cats, (h0, h1), (p0, p1) in RULES:
         if cat in cats and h0 < h <= h1 and p0 <= mid < p1:
             tick = float(m.get("orderPriceMinTickSize") or 0.001)
-            px = math.floor(mid / tick + 1e-9) * tick
+            px = math.floor((ask - tick if BID_AT_ASK else mid) / tick + 1e-9) * tick
             if px >= ask:
                 px = ask - tick
             px = round(max(px, bid), 4)
@@ -143,7 +164,7 @@ def match_rule(m, now):
 def scan(now):
     out = {}
     t0 = dt.datetime.fromtimestamp(now, dt.timezone.utc) - dt.timedelta(hours=12)
-    for k in range(0, 42, 3):
+    for k in range(0, 12 + SCAN_AHEAD_H, 3):
         a, b = t0 + dt.timedelta(hours=k), t0 + dt.timedelta(hours=k + 3)
         for off in range(0, 2100, 100):
             ms = get(f"{G}/markets?limit=100&offset={off}&closed=false&end_date_min={iso(a)}&end_date_max={iso(b)}&liquidity_num_min={MIN_LIQ}")
@@ -365,7 +386,7 @@ def report(st):
     started = dt.datetime.fromisoformat(st["started"].replace("Z", "+00:00"))
     days = (now_utc() - started).total_seconds() / 86400
     L = []
-    L.append("# Sweeper de Polymarket: reporte del simulador de papel\n")
+    L.append(f"# Sweeper de Polymarket: reporte del simulador de papel (perfil {PROFILE})\n")
     L.append("Dinero virtual. Ninguna orden real. Se regenera en cada corrida.\n")
     L.append(f"- Inicio: {st['started']} | dias corridos: {days:.1f} de {PAPER_WEEKS*7} | corridas: {len(st['runs'])}")
     L.append(f"- Capital inicial: ${cap:,.2f} | valor actual: ${eq:,.2f} | P&L: ${eq-cap:+,.2f} ({(eq/cap-1)*100:+.2f}%)")
@@ -448,7 +469,7 @@ def main():
     json.dump(st, open(STATE, "w"), ensure_ascii=False, indent=1)
     report(st)
     r = st["runs"][-1]
-    print(f"corrida {len(st['runs'])}: escaneados {nm}, candidatos {nc}, ordenes nuevas {npl} | abiertas {r['orders']}, posiciones {r['positions']}, cerradas {r['closed']} | sombra abiertas {r['shadow_open']} | valor ${r['equity']}"
+    print(f"{PROFILE} corrida {len(st['runs'])}: escaneados {nm}, candidatos {nc}, ordenes nuevas {npl} | abiertas {r['orders']}, posiciones {r['positions']}, cerradas {r['closed']} | sombra abiertas {r['shadow_open']} | valor ${r['equity']}"
           + (" | DETENIDA por perdida" if st["halted"] else "") + (" | periodo de papel terminado" if finished else ""))
 
 

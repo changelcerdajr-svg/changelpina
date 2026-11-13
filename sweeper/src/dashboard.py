@@ -1,14 +1,15 @@
 """Genera sweeper/dashboard.html: una pagina sola (se abre con doble clic) con el estado del simulador."""
 import json, os, csv, math, datetime as dt
 
-DIR = "data/paper"
+PROFILES = [("base", "data/paper"), ("agresivo", "data/paper_agresivo")]
 TEMPLATE = "src/dashboard_template.html"
 OUT = "dashboard.html"
 
 
-def main():
+def build(DIR, now):
+    if not os.path.exists(f"{DIR}/state.json"):
+        return None
     st = json.load(open(f"{DIR}/state.json"))
-    now = dt.datetime.now(dt.timezone.utc)
     started = dt.datetime.fromisoformat(st["started"].replace("Z", "+00:00"))
     # bitacora: ultimos eventos, con el nombre del mercado aunque el evento no lo traiga
     names, events = {}, []
@@ -37,7 +38,7 @@ def main():
     eq = st["cash"] + sum(o["cost"] for o in st["orders"]) + sum(x["shares"] * x.get("mark", x["px"]) for x in st["positions"])
     slim = lambda x: dict(q=x["q"], px=x["px"], cost=x["cost"], rule=x["rule"])
     data = dict(
-        updated=now.strftime("%Y-%m-%dT%H:%M:%SZ"), started=st["started"], capital0=st["capital0"], equity=round(eq, 2),
+        started=st["started"], capital0=st["capital0"], equity=round(eq, 2),
         days=(now - started).total_seconds() / 86400, halted=st["halted"],
         n_orders=len(st["orders"]), n_pos=len(st["positions"]), n_closed=len(st["closed"]),
         wins=sum(1 for c in st["closed"] if c["pnl"] >= 0), losses=sum(1 for c in st["closed"] if c["pnl"] < 0),
@@ -45,6 +46,13 @@ def main():
         positions=[slim(x) for x in st["positions"]], orders=[slim(x) for x in st["orders"]],
         closed=[dict(q=c["q"], px=c["px"], pnl=c["pnl"], rule=c["rule"]) for c in st["closed"][-12:][::-1]],
         events=events[-60:], shadow=shadow)
+    return data
+
+
+def main():
+    now = dt.datetime.now(dt.timezone.utc)
+    profiles = {k: d for k, d in ((k, build(p, now)) for k, p in PROFILES) if d}
+    data = dict(updated=now.strftime("%Y-%m-%dT%H:%M:%SZ"), profiles=profiles)
     html = open(TEMPLATE).read().replace("__DATA__", json.dumps(data, ensure_ascii=False).replace("</", "<\\/"))
     open(OUT, "w").write(html)
     print("dashboard.html actualizado")

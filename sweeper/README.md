@@ -121,3 +121,25 @@ python3 src/explore_universe.py
 `src/bias_check.py` muestra el sesgo de volumen. `src/fetch_backtest.py`, `src/analyze_backtest.py`,
 `src/verdict_backtest.py` y los CSV `backtest_*` son el primer backtest (sesgado), que se conserva
 como referencia. `src/stuck_markets.py` lista mercados abiertos pasada su fecha de fin.
+
+## Perfil agresivo (experimento de comparación)
+
+`PROFILE=agresivo python3 src/paper.py` corre un segundo simulador con su propio capital virtual
+($1,000) y sus propios registros en `data/paper_agresivo/`. El perfil base no cambia.
+
+| | Base | Agresivo |
+|---|---|---|
+| Por mercado / evento / categoría | 5% / 10% / 20% | 10% / 20% / 40% |
+| Banda de precio | 97-99.95c | 95-99.95c |
+| Ventana antes del fin | hasta 24-30h | hasta 72h |
+| Fecha de fin ya pasada | 95-97c, hasta 12h | 90-97c, hasta 24h |
+| Categorías | cripto, deportes, otros | las mismas más clima |
+| Precio de la orden | punto medio | 1 tick por debajo del ask |
+| Llenado supuesto | 30% | 50% |
+| Liquidez mínima / diferencial máximo | $1,000 / 3c | $500 / 5c |
+| Paro por pérdida | 15% | 30% |
+
+Varias reglas del agresivo no pasaron todas las pruebas del backtest (la banda 95-97c antes del fin
+está bien calibrada, sin ventaja; clima sufre selección adversa) y pagar casi el ask se come el
+margen. Está para comparar desempeño, no porque se espere que gane. `run_paper.sh` corre los dos y
+`dashboard.html` los muestra lado a lado.
