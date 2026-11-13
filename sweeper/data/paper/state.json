@@ -1,6 +1,6 @@
 {
  "capital0": 1000.0,
- "cash": 403.5712,
+ "cash": 403.5901,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
   {
@@ -23,27 +23,6 @@
    "end_ts": 1794571200.0,
    "hours": 9.75,
    "liq": 21950
-  },
-  {
-   "oid": "6451128-1794550534",
-   "id": "6451128",
-   "q": "Spread: Burundi (-2.5)",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1287608",
-   "side": 1,
-   "token": "93412631658433930647522431694834891874462979155352247231918874692480447356962",
-   "px": 0.992,
-   "tick": 0.001,
-   "mid": 0.992,
-   "bid": 0.985,
-   "ask": 0.999,
-   "shares": 50.8069,
-   "cost": 50.4004,
-   "ts": 1794550534.285516,
-   "end_ts": 1794574800.0,
-   "hours": 6.74,
-   "liq": 2384
   },
   {
    "oid": "6753081-1794550534",
@@ -109,25 +88,25 @@
    "liq": 1783
   },
   {
-   "oid": "6763910-1794565521",
-   "id": "6763910",
-   "q": "Will Apple (AAPL) finish week of November 9 above $375?",
+   "oid": "6763990-1794568520",
+   "id": "6763990",
+   "q": "Will Amazon.com, Inc. (AMZN) hit (LOW) $252 Week of November 9 2026?",
    "cat": "otros",
    "rule": "otros_cierre",
-   "event": "1327939",
+   "event": "1327951",
    "side": 1,
-   "token": "58782200126663665678730947127457594670534674152848837784706136009677486446711",
-   "px": 0.985,
+   "token": "31938385136648020495979463955663601305376349894724066080255780646067043877788",
+   "px": 0.975,
    "tick": 0.001,
-   "mid": 0.985,
-   "bid": 0.971,
-   "ask": 0.999,
-   "shares": 51.2133,
-   "cost": 50.4451,
-   "ts": 1794565521.765773,
+   "mid": 0.9755,
+   "bid": 0.961,
+   "ask": 0.99,
+   "shares": 51.7192,
+   "cost": 50.4262,
+   "ts": 1794568520.943793,
    "end_ts": 1794603600.0,
-   "hours": 10.58,
-   "liq": 1013
+   "hours": 9.74,
+   "liq": 1007
   }
  ],
  "positions": [
@@ -152,7 +131,7 @@
    "hours": 7.75,
    "liq": 5597,
    "fill_ts": 1794539695.434543,
-   "mark": 0.989,
+   "mark": 0.99,
    "stuck": false,
    "disputed": false
   },
@@ -177,7 +156,7 @@
    "hours": 10.74,
    "liq": 36254,
    "fill_ts": 1794554161.983876,
-   "mark": 0.979,
+   "mark": 0.976,
    "stuck": false,
    "disputed": false
   },
@@ -227,7 +206,9 @@
    "hours": 6.74,
    "liq": 3177,
    "fill_ts": 1794565521.765773,
-   "mark": 0.997
+   "mark": 0.9945,
+   "stuck": false,
+   "disputed": false
   },
   {
    "oid": "6988985-1794554161",
@@ -250,7 +231,9 @@
    "hours": 7.73,
    "liq": 1225,
    "fill_ts": 1794565521.765773,
-   "mark": 0.987
+   "mark": 0.993,
+   "stuck": false,
+   "disputed": false
   },
   {
    "oid": "6763924-1794561278",
@@ -273,7 +256,32 @@
    "hours": 11.76,
    "liq": 1078,
    "fill_ts": 1794565521.765773,
-   "mark": 0.994
+   "mark": 0.985,
+   "stuck": false,
+   "disputed": false
+  },
+  {
+   "oid": "6451128-1794550534",
+   "id": "6451128",
+   "q": "Spread: Burundi (-2.5)",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1287608",
+   "side": 1,
+   "token": "93412631658433930647522431694834891874462979155352247231918874692480447356962",
+   "px": 0.992,
+   "tick": 0.001,
+   "mid": 0.992,
+   "bid": 0.985,
+   "ask": 0.999,
+   "shares": 50.8069,
+   "cost": 50.4004,
+   "ts": 1794550534.285516,
+   "end_ts": 1794574800.0,
+   "hours": 6.74,
+   "liq": 2384,
+   "fill_ts": 1794568520.943793,
+   "mark": 0.992
   }
  ],
  "closed": [
@@ -1128,14 +1136,27 @@
    "placed": 1,
    "shadow_open": 447,
    "shadow_closed": 1
+  },
+  {
+   "ts": "2026-11-13T11:16:12Z",
+   "equity": 1008.52,
+   "cash": 403.59,
+   "orders": 5,
+   "positions": 7,
+   "closed": 13,
+   "scanned": 11968,
+   "candidates": 278,
+   "placed": 1,
+   "shadow_open": 463,
+   "shadow_closed": 0
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 65,
-  "filled": 19,
+  "placed": 66,
+  "filled": 20,
   "expired": 14,
-  "touched_not_filled": 26
+  "touched_not_filled": 27
  },
  "shadow": [
   {
@@ -6947,6 +6968,214 @@
    "ts": 1794565521,
    "end_ts": 1794668400,
    "q": "Luton Town FC leading at halftime?",
+   "touched": null
+  },
+  {
+   "id": "6753199",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "4642321257874361471956903042822646604596572334731288861359928878197772749568",
+   "px": 0.988,
+   "tick": 0.001,
+   "ts": 1794568520,
+   "end_ts": 1794589200,
+   "q": "Will the price of XRP be above $1.10 on November 13?",
+   "touched": null
+  },
+  {
+   "id": "6452725",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "47002449613161314853008161584874863395521598169465130869172082963754273355132",
+   "px": 0.973,
+   "tick": 0.001,
+   "ts": 1794568520,
+   "end_ts": 1794599100,
+   "q": "Slovenia vs. Switzerland: Slovenia O/U 2.5",
+   "touched": null
+  },
+  {
+   "id": "6453093",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "102606420248541096608866560237903064270465410709358348405517653836401281891491",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1794568520,
+   "end_ts": 1794599100,
+   "q": "Slovakia vs. Faroe Islands: O/U 8.5",
+   "touched": null
+  },
+  {
+   "id": "6453164",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "56048579942848687310620618783347171117606024536664118716286714991455046318912",
+   "px": 0.972,
+   "tick": 0.001,
+   "ts": 1794568520,
+   "end_ts": 1794599100,
+   "q": "Luxembourg vs. Estonia: Luxembourg O/U 3.5",
+   "touched": null
+  },
+  {
+   "id": "6764378",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "844029647500598647817052406623700278752980438384085511553225856791505029356",
+   "px": 0.975,
+   "tick": 0.001,
+   "ts": 1794568520,
+   "end_ts": 1794603600,
+   "q": "Will Micron Technology, Inc. (MU) hit (LOW) $660 Week of November 9 2026?",
+   "touched": null
+  },
+  {
+   "id": "6986455",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "88746763480836985802619849198663535159053551988997628804356146395514697006406",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1794568520,
+   "end_ts": 1794603600,
+   "q": "Will Google (GOOGL) close above $290 on November 13?",
+   "touched": null
+  },
+  {
+   "id": "6766265",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "40636716227071206379760373331888707262055513456464734210392105100352773727136",
+   "px": 0.98,
+   "tick": 0.001,
+   "ts": 1794568520,
+   "end_ts": 1794614400,
+   "q": "Mount St. Mary's Mountaineers vs. Virginia Tech Hokies",
+   "touched": null
+  },
+  {
+   "id": "7003756",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "27928322760387008606576748807019892598987650020703527908318490081060280085611",
+   "px": 0.976,
+   "tick": 0.001,
+   "ts": 1794568520,
+   "end_ts": 1794619800,
+   "q": "Spread: Rockets (-43.5)",
+   "touched": null
+  },
+  {
+   "id": "5765616",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "39231247331469469207040564122949105579066289276617935300969323294887253238476",
+   "px": 0.987,
+   "tick": 0.001,
+   "ts": 1794568520,
+   "end_ts": 1794632340,
+   "q": "Will PPI YoY be 5.9% or less in October?",
+   "touched": null
+  },
+  {
+   "id": "6759454",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "61007402072126246845708725352191666811596707462273241064345364114385067125641",
+   "px": 0.993,
+   "tick": 0.001,
+   "ts": 1794568520,
+   "end_ts": 1794632340,
+   "q": "Will ChatGPT be #2 Free App in the US Apple App Store on November 13?",
+   "touched": null
+  },
+  {
+   "id": "6517928",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "52865528548280268206307088506262089533743698819885358175478252361349540813681",
+   "px": 0.977,
+   "tick": 0.001,
+   "ts": 1794568520,
+   "end_ts": 1794664800,
+   "q": "Spread: Israel (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "6517941",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "109831160896726542947535391585934356445218098829258819305299797901383383485096",
+   "px": 0.977,
+   "tick": 0.001,
+   "ts": 1794568520,
+   "end_ts": 1794664800,
+   "q": "Kosovo vs. Israel: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "6517942",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "56222509453816362299788003931548974416450241634350906352106590169885455753202",
+   "px": 0.992,
+   "tick": 0.001,
+   "ts": 1794568520,
+   "end_ts": 1794664800,
+   "q": "Kosovo vs. Israel: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6512636",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "25978800359742786992655107717674691743525249698925775212567795039131466518330",
+   "px": 0.984,
+   "tick": 0.001,
+   "ts": 1794568520,
+   "end_ts": 1794668400,
+   "q": "Bromley FC leading at halftime?",
+   "touched": null
+  },
+  {
+   "id": "6517815",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "29949346748930121607782236571973486950005258683712785225892796519032410256366",
+   "px": 0.971,
+   "tick": 0.001,
+   "ts": 1794568520,
+   "end_ts": 1794675600,
+   "q": "Norway vs. Wales: O/U 0.5",
+   "touched": null
+  },
+  {
+   "id": "6517880",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "1508900313202789099995996910873183224307074815443474191497510497741211334523",
+   "px": 0.971,
+   "tick": 0.001,
+   "ts": 1794568520,
+   "end_ts": 1794675600,
+   "q": "Georgia vs. Hungary: O/U 5.5",
    "touched": null
   }
  ]
