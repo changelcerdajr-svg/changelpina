@@ -244,7 +244,7 @@
    "hours": 6.22,
    "liq": 2163,
    "fill_ts": 1794514491.734544,
-   "mark": 0.9845,
+   "mark": 0.983,
    "stuck": false,
    "disputed": false
   },
@@ -269,7 +269,9 @@
    "hours": 6.73,
    "liq": 4018,
    "fill_ts": 1794529238.155948,
-   "mark": 0.985
+   "mark": 0.978,
+   "stuck": false,
+   "disputed": false
   }
  ],
  "closed": [
@@ -846,6 +848,19 @@
    "placed": 0,
    "shadow_open": 323,
    "shadow_closed": 18
+  },
+  {
+   "ts": "2026-11-13T01:15:30Z",
+   "equity": 1003.19,
+   "cash": 402.6,
+   "orders": 8,
+   "positions": 4,
+   "closed": 8,
+   "scanned": 9350,
+   "candidates": 145,
+   "placed": 0,
+   "shadow_open": 336,
+   "shadow_closed": 1
   }
  ],
  "halted": false,
@@ -1920,19 +1935,6 @@
    "ts": 1794474883,
    "end_ts": 1794531600,
    "q": "Sabres vs. Blackhawks: O/U 2.5",
-   "touched": 1
-  },
-  {
-   "id": "6961544",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "20045592946855405037753321509221920884288456047694581975773292064895385984631",
-   "px": 0.971,
-   "tick": 0.001,
-   "ts": 1794478505,
-   "end_ts": 1794524400,
-   "q": "WTI Crude Oil (WTI) closes above $89 on November 12?",
    "touched": 1
   },
   {
@@ -5053,6 +5055,188 @@
    "ts": 1794529238,
    "end_ts": 1794621600,
    "q": "Rangers vs. Canucks: O/U 2.5",
+   "touched": null
+  },
+  {
+   "id": "6988985",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "63247923765486302271889512141067062662085012989221902520529858309530030226420",
+   "px": 0.983,
+   "tick": 0.001,
+   "ts": 1794532493,
+   "end_ts": 1794582000,
+   "q": "Will the US national average gas price be less than $3.8900 on November 13?",
+   "touched": null
+  },
+  {
+   "id": "6988986",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "6232050559768591871635034557883170348955332630811959834574118864673170850594",
+   "px": 0.987,
+   "tick": 0.001,
+   "ts": 1794532493,
+   "end_ts": 1794582000,
+   "q": "Will the US national average gas price be between $3.8900 and $3.8999 on November 13?",
+   "touched": null
+  },
+  {
+   "id": "6988987",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "106199859157044059660637177132325345226198058453894135825838953633198456569580",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1794532493,
+   "end_ts": 1794582000,
+   "q": "Will the US national average gas price be between $3.9000 and $3.9099 on November 13?",
+   "touched": null
+  },
+  {
+   "id": "6988988",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "76654643222382085066948797429985539863186769507265504618621633745926492030969",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1794532493,
+   "end_ts": 1794582000,
+   "q": "Will the US national average gas price be between $3.9100 and $3.9199 on November 13?",
+   "touched": null
+  },
+  {
+   "id": "6988989",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "80325679617615138385375527669764535374998459855357366548336199394356978730824",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1794532493,
+   "end_ts": 1794582000,
+   "q": "Will the US national average gas price be between $3.9200 and $3.9299 on November 13?",
+   "touched": null
+  },
+  {
+   "id": "6988990",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "55758074111573731726460801647274217953393531988371982758964513027231062295400",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1794532493,
+   "end_ts": 1794582000,
+   "q": "Will the US national average gas price be $3.9300+ on November 13?",
+   "touched": null
+  },
+  {
+   "id": "6753107",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "12118780223782475190471849499585123495125935372544056096526562508793750180598",
+   "px": 0.979,
+   "tick": 0.001,
+   "ts": 1794532493,
+   "end_ts": 1794589200,
+   "q": "Will the price of Bitcoin be between $74,000 and $76,000 on November 13?",
+   "touched": null
+  },
+  {
+   "id": "6753154",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "19912787741533230418320737733195363027373648481219100775138712481856956599904",
+   "px": 0.976,
+   "tick": 0.001,
+   "ts": 1794532493,
+   "end_ts": 1794589200,
+   "q": "Will the price of Bitcoin be above $74,000 on November 13?",
+   "touched": null
+  },
+  {
+   "id": "6753157",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "3435595073513727715646943873907893310507241265869827085001715639465715066333",
+   "px": 0.972,
+   "tick": 0.001,
+   "ts": 1794532493,
+   "end_ts": 1794589200,
+   "q": "Will the price of Ethereum be between $2,100 and $2,200 on November 13?",
+   "touched": null
+  },
+  {
+   "id": "6764081",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "89110788802863180846737792273075228713642895496340121718059405504467030211442",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1794532493,
+   "end_ts": 1794603600,
+   "q": "Will Meta Platforms, Inc. (META) hit (LOW) $560 Week of November 9 2026?",
+   "touched": null
+  },
+  {
+   "id": "6764453",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "59196501947206922119321323593368055779494147008671006700613421400635331791965",
+   "px": 0.988,
+   "tick": 0.001,
+   "ts": 1794532493,
+   "end_ts": 1794603600,
+   "q": "Will South Korea ETF (EWY) hit (LOW) $131 Week of November 9 2026?",
+   "touched": null
+  },
+  {
+   "id": "6764468",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "72305216738958426615294392653161296622263882649513584136152983348629968665892",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1794532493,
+   "end_ts": 1794607200,
+   "q": "Will Gold (XAUUSD) hit (HIGH) $4,400 Week of November 9 2026?",
+   "touched": null
+  },
+  {
+   "id": "6764471",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "47406358669362174977071627476048489769614831650111642209273575476452959142996",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1794532493,
+   "end_ts": 1794607200,
+   "q": "Will Gold (XAUUSD) hit (HIGH) $4,250 Week of November 9 2026?",
+   "touched": null
+  },
+  {
+   "id": "6767027",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "24803979198955091691770105607116881919746288353713995738371750101452584102135",
+   "px": 0.975,
+   "tick": 0.001,
+   "ts": 1794532493,
+   "end_ts": 1794618000,
+   "q": "Central Arkansas Bears vs. Arkansas Razorbacks",
    "touched": null
   }
  ]
