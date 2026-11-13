@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 0.2 de 28 | corridas: 6
-- Capital inicial: $1,000.00 | valor actual: $979.90 | P&L: $-20.10 (-2.01%)
-- Efectivo libre: $0.00 | en ordenes abiertas: $503.96 (6) | en posiciones: $497.86 (5)
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 0.2 de 28 | corridas: 7
+- Capital inicial: $1,000.00 | valor actual: $914.37 | P&L: $-85.63 (-8.56%)
+- Efectivo libre: $0.00 | en ordenes abiertas: $396.32 (5) | en posiciones: $605.50 (7)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 23 colocadas, 9 llenadas, 8 tocadas sin llenarse (sorteo 30%), 0 expiradas
+- Ordenes virtuales: 25 colocadas, 11 llenadas, 9 tocadas sin llenarse (sorteo 30%), 0 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -28,14 +28,16 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 | $100.00 | 98.9c | 96.0c | deportes_previo |  | Spread: Saudi Arabia (-2.5) |
 | $100.00 | 98.4c | 97.8c | deportes_previo |  | Spread: Qatar (-2.5) |
 | $98.93 | 97.6c | 97.6c | deportes_previo |  | Spread: Australia (-3.5) |
-| $98.93 | 97.3c | 81.3c | deportes_previo |  | Spread: Kuwait (-2.5) |
-| $100.00 | 99.7c | 97.6c | clima_cierre |  | Exact Score: Coleraine FC 0 - 0 Portadown FC? |
+| $98.93 | 97.3c | 17.0c | deportes_previo |  | Spread: Kuwait (-2.5) |
+| $100.00 | 99.7c | 97.5c | clima_cierre |  | Exact Score: Coleraine FC 0 - 0 Portadown FC? |
+| $97.99 | 99.8c | 99.8c | otros_cierre |  | Will Apple (AAPL) finish week of November 9 above $370? |
+| $9.65 | 99.8c | 99.8c | otros_cierre |  | Will Apple (AAPL) finish week of November 9 above $375? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 0 | abiertas: 1850 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 0 | abiertas: 1909 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 ## Veredicto
 
