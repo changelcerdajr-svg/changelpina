@@ -1,6 +1,6 @@
 {
  "capital0": 1000.0,
- "cash": 402.6016,
+ "cash": 403.341,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
   {
@@ -170,59 +170,51 @@
    "end_ts": 1794564000.0,
    "hours": 11.75,
    "liq": 16121
+  },
+  {
+   "oid": "6820160-1794536108",
+   "id": "6820160",
+   "q": "Will Mlada Boleslav vs. Vysocina Jihlava end in a draw?",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1335786",
+   "side": 0,
+   "token": "81627836255038237157989148684608870654601675070824133239062316457892655532459",
+   "px": 0.979,
+   "tick": 0.001,
+   "mid": 0.9795,
+   "bid": 0.972,
+   "ask": 0.987,
+   "shares": 51.3407,
+   "cost": 50.2626,
+   "ts": 1794536108.927968,
+   "end_ts": 1794564000.0,
+   "hours": 7.75,
+   "liq": 5597
+  },
+  {
+   "oid": "6418939-1794536108",
+   "id": "6418939",
+   "q": "Will Singapore win on 2026-11-13?",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1283106",
+   "side": 1,
+   "token": "78476413996516263914815774376537798402292966092527455507607604984782405455521",
+   "px": 0.972,
+   "tick": 0.001,
+   "mid": 0.972,
+   "bid": 0.97,
+   "ask": 0.974,
+   "shares": 51.7104,
+   "cost": 50.2626,
+   "ts": 1794536108.927968,
+   "end_ts": 1794571200.0,
+   "hours": 9.75,
+   "liq": 21950
   }
  ],
  "positions": [
-  {
-   "oid": "6453642-1794493024",
-   "id": "6453642",
-   "q": "Spread: CSD Mixco (-2.5)",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1287871",
-   "side": 1,
-   "token": "106782260366108998847676869899199527712724091001352564241192193292675491517072",
-   "px": 0.977,
-   "tick": 0.001,
-   "mid": 0.9775,
-   "bid": 0.965,
-   "ask": 0.99,
-   "shares": 50.8998,
-   "cost": 49.7291,
-   "ts": 1794493024.736944,
-   "end_ts": 1794520800.0,
-   "hours": 7.72,
-   "liq": 1069,
-   "fill_ts": 1794496609.392952,
-   "mark": 0.98,
-   "stuck": false,
-   "disputed": false
-  },
-  {
-   "oid": "6453644-1794496609",
-   "id": "6453644",
-   "q": "Spread: CSD Mixco (-3.5)",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1287871",
-   "side": 1,
-   "token": "53341333240104515051288835929403964711756585776814911973286898804384315019954",
-   "px": 0.992,
-   "tick": 0.001,
-   "mid": 0.992,
-   "bid": 0.985,
-   "ask": 0.999,
-   "shares": 50.3648,
-   "cost": 49.9619,
-   "ts": 1794496609.392952,
-   "end_ts": 1794520800.0,
-   "hours": 6.72,
-   "liq": 1314,
-   "fill_ts": 1794507281.245379,
-   "mark": 0.992,
-   "stuck": false,
-   "disputed": false
-  },
   {
    "oid": "6750015-1794511022",
    "id": "6750015",
@@ -269,7 +261,7 @@
    "hours": 6.73,
    "liq": 4018,
    "fill_ts": 1794529238.155948,
-   "mark": 0.978,
+   "mark": 0.9905,
    "stuck": false,
    "disputed": false
   }
@@ -512,6 +504,66 @@
    "result": 1.0,
    "closed_ts": "2026-11-12T22:15:02Z",
    "days": 0.04
+  },
+  {
+   "oid": "6453642-1794493024",
+   "id": "6453642",
+   "q": "Spread: CSD Mixco (-2.5)",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1287871",
+   "side": 1,
+   "token": "106782260366108998847676869899199527712724091001352564241192193292675491517072",
+   "px": 0.977,
+   "tick": 0.001,
+   "mid": 0.9775,
+   "bid": 0.965,
+   "ask": 0.99,
+   "shares": 50.8998,
+   "cost": 49.7291,
+   "ts": 1794493024.736944,
+   "end_ts": 1794520800.0,
+   "hours": 7.72,
+   "liq": 1069,
+   "fill_ts": 1794496609.392952,
+   "mark": 0.98,
+   "stuck": false,
+   "disputed": false,
+   "payout": 50.8998,
+   "pnl": 1.1707,
+   "result": 1.0,
+   "closed_ts": "2026-11-13T02:15:10Z",
+   "days": 0.46
+  },
+  {
+   "oid": "6453644-1794496609",
+   "id": "6453644",
+   "q": "Spread: CSD Mixco (-3.5)",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1287871",
+   "side": 1,
+   "token": "53341333240104515051288835929403964711756585776814911973286898804384315019954",
+   "px": 0.992,
+   "tick": 0.001,
+   "mid": 0.992,
+   "bid": 0.985,
+   "ask": 0.999,
+   "shares": 50.3648,
+   "cost": 49.9619,
+   "ts": 1794496609.392952,
+   "end_ts": 1794520800.0,
+   "hours": 6.72,
+   "liq": 1314,
+   "fill_ts": 1794507281.245379,
+   "mark": 0.992,
+   "stuck": false,
+   "disputed": false,
+   "payout": 50.3648,
+   "pnl": 0.4029,
+   "result": 1.0,
+   "closed_ts": "2026-11-13T02:15:10Z",
+   "days": 0.33
   }
  ],
  "runs": [
@@ -861,11 +913,24 @@
    "placed": 0,
    "shadow_open": 336,
    "shadow_closed": 1
+  },
+  {
+   "ts": "2026-11-13T02:15:45Z",
+   "equity": 1005.25,
+   "cash": 403.34,
+   "orders": 10,
+   "positions": 2,
+   "closed": 10,
+   "scanned": 8836,
+   "candidates": 144,
+   "placed": 2,
+   "shadow_open": 329,
+   "shadow_closed": 14
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 47,
+  "placed": 49,
   "filled": 12,
   "expired": 7,
   "touched_not_filled": 20
@@ -934,58 +999,6 @@
    "ts": 1794435369,
    "end_ts": 1794531600,
    "q": "Prairie View A&M Panthers vs. Baylor Bears (W)",
-   "touched": 1
-  },
-  {
-   "id": "6965724",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "17932264870979596299493143068579947682799423136967411751095069994485705019139",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1794435369,
-   "end_ts": 1794528000,
-   "q": "Canadiens vs. Bruins: O/U 2.5",
-   "touched": 1
-  },
-  {
-   "id": "6965734",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "32979039946352205922730152889509849267603836904769491316431040367120646922687",
-   "px": 0.972,
-   "tick": 0.001,
-   "ts": 1794435369,
-   "end_ts": 1794528000,
-   "q": "Capitals vs. Devils: O/U 2.5",
-   "touched": 1
-  },
-  {
-   "id": "6965744",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "70453851856017910617555067528845650296710215343271059624853506840594376211742",
-   "px": 0.971,
-   "tick": 0.001,
-   "ts": 1794435369,
-   "end_ts": 1794528000,
-   "q": "Avalanche vs. Senators: O/U 2.5",
-   "touched": 1
-  },
-  {
-   "id": "6965754",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "46297658358238780083196325709737635415213467501314436766754083916370966115167",
-   "px": 0.971,
-   "tick": 0.001,
-   "ts": 1794435369,
-   "end_ts": 1794528000,
-   "q": "Wild vs. Maple Leafs: O/U 2.5",
    "touched": 1
   },
   {
@@ -1522,32 +1535,6 @@
    "touched": 1
   },
   {
-   "id": "6453642",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "106782260366108998847676869899199527712724091001352564241192193292675491517072",
-   "px": 0.977,
-   "tick": 0.001,
-   "ts": 1794464361,
-   "end_ts": 1794520800,
-   "q": "Spread: CSD Mixco (-2.5)",
-   "touched": 1
-  },
-  {
-   "id": "6453644",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "53341333240104515051288835929403964711756585776814911973286898804384315019954",
-   "px": 0.992,
-   "tick": 0.001,
-   "ts": 1794464361,
-   "end_ts": 1794520800,
-   "q": "Spread: CSD Mixco (-3.5)",
-   "touched": 1
-  },
-  {
    "id": "6471552",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -1756,19 +1743,6 @@
    "touched": 0
   },
   {
-   "id": "6965774",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "109125338049508271460009111027058527338273608074293606683427141752269135155518",
-   "px": 0.971,
-   "tick": 0.001,
-   "ts": 1794471306,
-   "end_ts": 1794528000,
-   "q": "Lightning vs. Blue Jackets: O/U 2.5",
-   "touched": 1
-  },
-  {
    "id": "6979981",
    "rule": "cripto_cierre",
    "cat": "cripto",
@@ -1925,19 +1899,6 @@
    "touched": 0
   },
   {
-   "id": "6965704",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "100357393320830685142801089789036049116102833644843834671549423119794671636019",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1794474883,
-   "end_ts": 1794531600,
-   "q": "Sabres vs. Blackhawks: O/U 2.5",
-   "touched": 1
-  },
-  {
    "id": "6969691",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -1974,19 +1935,6 @@
    "ts": 1794478505,
    "end_ts": 1794535200,
    "q": "Spread: Hornets (-21.5)",
-   "touched": 1
-  },
-  {
-   "id": "6471646",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "96213303520097986771211135223884603588000457114501336133121349833559939835331",
-   "px": 0.972,
-   "tick": 0.001,
-   "ts": 1794485864,
-   "end_ts": 1794520800,
-   "q": "Spread: Aruba (-1.5)",
    "touched": 1
   },
   {
@@ -2146,71 +2094,6 @@
    "touched": 0
   },
   {
-   "id": "6415542",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "7899495059747653309847569344878419324238302949329580562327904700062476858796",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1794489528,
-   "end_ts": 1794512700,
-   "q": "Czechia vs. Spain: O/U 8.5",
-   "touched": null
-  },
-  {
-   "id": "6415834",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "66665767482466266549918727069060836567698338553396138064396556542156155381377",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1794489528,
-   "end_ts": 1794512700,
-   "q": "Spread: San Marino (-5.5)",
-   "touched": null
-  },
-  {
-   "id": "6471648",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "2357421097168950709007187417051614909469741811781416694333935372227715692470",
-   "px": 0.985,
-   "tick": 0.001,
-   "ts": 1794489528,
-   "end_ts": 1794520800,
-   "q": "Spread: Aruba (-2.5)",
-   "touched": null
-  },
-  {
-   "id": "6961494",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "69819067508461734335026963148245087558651536425692910820599566288621130237141",
-   "px": 0.977,
-   "tick": 0.001,
-   "ts": 1794489528,
-   "end_ts": 1794517200,
-   "q": "Will NVIDIA (NVDA) close above $170 on November 12?",
-   "touched": null
-  },
-  {
-   "id": "6961519",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "57333238948038015261657937708303023399651613388709254912919717631435328204678",
-   "px": 0.988,
-   "tick": 0.001,
-   "ts": 1794489528,
-   "end_ts": 1794517200,
-   "q": "S&P 500 (SPX) Opens Up or Down on November 12?",
-   "touched": null
-  },
-  {
    "id": "6471508",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -2221,7 +2104,7 @@
    "ts": 1794489528,
    "end_ts": 1794529800,
    "q": "Spread: Curaçao (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6970728",
@@ -2234,7 +2117,7 @@
    "ts": 1794489528,
    "end_ts": 1794528000,
    "q": "Spread: 76ers (-35.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6979971",
@@ -2247,7 +2130,7 @@
    "ts": 1794489528,
    "end_ts": 1794546000,
    "q": "Will Ethereum dip to $2,000 on November 12?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6459825",
@@ -2260,7 +2143,7 @@
    "ts": 1794489528,
    "end_ts": 1794589200,
    "q": "Jordan leading at halftime?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6540199",
@@ -2273,7 +2156,7 @@
    "ts": 1794489528,
    "end_ts": 1794596400,
    "q": "Will USPF Saint-Philbert-de-Grand-Lieu win on 2026-11-13?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6540200",
@@ -2286,7 +2169,7 @@
    "ts": 1794489528,
    "end_ts": 1794596400,
    "q": "Will USPF Saint-Philbert-de-Grand-Lieu vs. Vendée Fontenay Foot end in a draw?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6540201",
@@ -2299,7 +2182,7 @@
    "ts": 1794489528,
    "end_ts": 1794596400,
    "q": "Will Vendée Fontenay Foot win on 2026-11-13?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6716635",
@@ -5237,6 +5120,97 @@
    "ts": 1794532493,
    "end_ts": 1794618000,
    "q": "Central Arkansas Bears vs. Arkansas Razorbacks",
+   "touched": null
+  },
+  {
+   "id": "6753109",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "32791049324018694107515379757066256519482969362311097019723218970224020842079",
+   "px": 0.971,
+   "tick": 0.001,
+   "ts": 1794536108,
+   "end_ts": 1794589200,
+   "q": "Will the price of Ethereum be above $2,100 on November 13?",
+   "touched": null
+  },
+  {
+   "id": "6763911",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "76912742953855456961787189974055755440507400015125729868096453001095919765652",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1794536108,
+   "end_ts": 1794603600,
+   "q": "Will Apple (AAPL) hit (LOW) $324 Week of November 9 2026?",
+   "touched": null
+  },
+  {
+   "id": "6764040",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "41807632062579736502533975699983478594614598276218945740941355325553840733193",
+   "px": 0.975,
+   "tick": 0.001,
+   "ts": 1794536108,
+   "end_ts": 1794603600,
+   "q": "Will Alphabet Inc. (GOOGL) hit (LOW) $275 Week of November 9 2026?",
+   "touched": null
+  },
+  {
+   "id": "6764129",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "36880324769818121318746514199827154837391944530215593896309934130775129440484",
+   "px": 0.974,
+   "tick": 0.001,
+   "ts": 1794536108,
+   "end_ts": 1794603600,
+   "q": "Will NVIDIA (NVDA) close at $180-$185 on the final day of trading of the week of Nov 9 – N",
+   "touched": null
+  },
+  {
+   "id": "6767037",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "85832471305153959839574102034203110884776711783786500731935609832451807489534",
+   "px": 0.975,
+   "tick": 0.001,
+   "ts": 1794536108,
+   "end_ts": 1794618000,
+   "q": "Texas Southern Tigers vs. Murray State Racers",
+   "touched": null
+  },
+  {
+   "id": "6987029",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "674626890640807971210865116831756612228685766237065608331972449560323438069",
+   "px": 0.973,
+   "tick": 0.001,
+   "ts": 1794536108,
+   "end_ts": 1794619800,
+   "q": "Internacional de Bogotá vs. Independiente Santa Fe: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "7001675",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "68655270339964649510610371113129868294624859987516694924389093564736667184542",
+   "px": 0.974,
+   "tick": 0.001,
+   "ts": 1794536108,
+   "end_ts": 1794614400,
+   "q": "Spread: Knicks (-33.5)",
    "touched": null
   }
  ]
