@@ -69,7 +69,7 @@ SHADOW_HDR = ["id", "rule", "cat", "px", "touched", "result", "ts", "end_ts", "c
 
 def cat2(cat, q):
     ql = q.lower()
-    if re.search(r"temperature|°c|°f|rain|snow|precipitation|hurricane", ql):
+    if re.search(r"temperature|°c|°f|\brain\b|\bsnow\b|precipitation|hurricane", ql):
         return "clima"
     if re.search(r"tweets?|posts? \d|truth social", ql):
         return "tuits"

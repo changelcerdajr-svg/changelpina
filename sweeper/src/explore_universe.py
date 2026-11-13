@@ -28,7 +28,7 @@ def cat2(cat, q):
     """Reclasifica con el texto de la pregunta: los mercados de clima y de tuits traen hora de
     'partido' y caian en deportes; los marcadores exactos se separan por ser de cotizacion muy fina."""
     ql = q.lower()
-    if re.search(r"temperature|°c|°f|rain|snow|precipitation|hurricane", ql):
+    if re.search(r"temperature|°c|°f|\brain\b|\bsnow\b|precipitation|hurricane", ql):
         return "clima"
     if re.search(r"tweets?|posts? \d|truth social", ql):
         return "tuits"
