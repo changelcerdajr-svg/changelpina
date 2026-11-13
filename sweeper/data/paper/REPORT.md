@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-11T22:05:26Z | dias corridos: 1.3 de 28 | corridas: 30
-- Capital inicial: $1,000.00 | valor actual: $1,005.33 | P&L: $+5.33 (+0.53%)
-- Efectivo libre: $402.96 | en ordenes abiertas: $451.60 (9) | en posiciones: $150.57 (3)
+- Inicio: 2026-11-11T22:05:26Z | dias corridos: 1.3 de 28 | corridas: 31
+- Capital inicial: $1,000.00 | valor actual: $1,005.51 | P&L: $+5.51 (+0.55%)
+- Efectivo libre: $402.95 | en ordenes abiertas: $401.34 (8) | en posiciones: $200.84 (4)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 51 colocadas, 13 llenadas, 21 tocadas sin llenarse (sorteo 30%), 8 expiradas
+- Ordenes virtuales: 52 colocadas, 14 llenadas, 22 tocadas sin llenarse (sorteo 30%), 8 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -26,28 +26,29 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
+| $50.27 | 96.8c | 96.8c | post_fin_95_97 |  | Spread: Commanders (-6.5) |
 | $50.12 | 98.6c | 98.3c | deportes_previo |  | Northern Iowa Panthers vs. Iowa Hawkeyes (W) |
 | $50.19 | 98.5c | 99.0c | otros_cierre |  | Will GPT Astra 6.1+ be released on November 12, 2026? |
-| $50.26 | 97.9c | 98.2c | deportes_previo |  | Will Mlada Boleslav vs. Vysocina Jihlava end in a draw? |
+| $50.26 | 97.9c | 98.5c | deportes_previo |  | Will Mlada Boleslav vs. Vysocina Jihlava end in a draw? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 286 | abiertas: 342 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 344 | abiertas: 341 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
-| cripto_cierre | todas | 100 | 98.82c | 96.00% | -2.82 pts | -6.65 a +1.01 | 4 |
-| cripto_cierre | tocadas | 67 | 98.72c | 94.03% | -4.69 pts | -10.36 a +0.98 | 4 |
-| deportes_previo | todas | 163 | 98.40c | 100.00% | +1.60 pts | +1.45 a +1.75 | 0 |
-| deportes_previo | tocadas | 143 | 98.29c | 100.00% | +1.71 pts | +1.56 a +1.86 | 0 |
-| otros_cierre | todas | 22 | 98.52c | 100.00% | +1.48 pts | +1.23 a +1.73 | 0 |
-| otros_cierre | tocadas | 21 | 98.48c | 100.00% | +1.52 pts | +1.28 a +1.77 | 0 |
+| cripto_cierre | todas | 137 | 98.86c | 97.08% | -1.78 pts | -4.58 a +1.03 | 4 |
+| cripto_cierre | tocadas | 92 | 98.76c | 95.65% | -3.11 pts | -7.27 a +1.05 | 4 |
+| deportes_previo | todas | 174 | 98.37c | 100.00% | +1.63 pts | +1.49 a +1.77 | 0 |
+| deportes_previo | tocadas | 154 | 98.26c | 100.00% | +1.74 pts | +1.60 a +1.88 | 0 |
+| otros_cierre | todas | 32 | 98.42c | 100.00% | +1.58 pts | +1.35 a +1.81 | 0 |
+| otros_cierre | tocadas | 30 | 98.40c | 100.00% | +1.60 pts | +1.37 a +1.83 | 0 |
 | post_fin_95_97 | todas | 1 | 95.00c | 100.00% | +5.00 pts | +5.00 a +5.00 | 0 |
 | post_fin_95_97 | tocadas | 1 | 95.00c | 100.00% | +5.00 pts | +5.00 a +5.00 | 0 |
-| TOTAL | todas | 286 | 98.54c | 98.60% | +0.06 pts | -1.30 a +1.42 | 4 |
-| TOTAL | tocadas | 232 | 98.42c | 98.28% | -0.14 pts | -1.82 a +1.53 | 4 |
+| TOTAL | todas | 344 | 98.56c | 98.84% | +0.28 pts | -0.85 a +1.41 | 4 |
+| TOTAL | tocadas | 277 | 98.43c | 98.56% | +0.13 pts | -1.28 a +1.53 | 4 |
 
 Peores casos del registro sombra:
 
