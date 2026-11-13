@@ -143,3 +143,15 @@ Varias reglas del agresivo no pasaron todas las pruebas del backtest (la banda 9
 está bien calibrada, sin ventaja; clima sufre selección adversa) y pagar casi el ask se come el
 margen. Está para comparar desempeño, no porque se espere que gane. `run_paper.sh` corre los dos y
 `dashboard.html` los muestra lado a lado.
+
+## Correr sin Claude (sin créditos)
+
+`run_local.sh` corre los dos perfiles y regenera `dashboard.html` con solo Python 3, sin mensajes.
+Para que corra cada hora, agrega con `crontab -e` (Linux/macOS):
+
+```
+0 * * * * /ruta/a/changelpina/sweeper/run_local.sh >> /ruta/a/changelpina/sweeper/data/local.log 2>&1
+```
+
+En Windows, el Programador de tareas puede llamar al mismo script con Git Bash o WSL. El panel se
+abre con doble clic en `dashboard.html`. La tarea horaria en la nube de Claude está apagada.
