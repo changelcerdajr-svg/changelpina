@@ -2,8 +2,8 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-11T22:05:26Z | dias corridos: 1.6 de 28 | corridas: 39
-- Capital inicial: $1,000.00 | valor actual: $1,004.11 | P&L: $+4.11 (+0.41%)
+- Inicio: 2026-11-11T22:05:26Z | dias corridos: 1.7 de 28 | corridas: 40
+- Capital inicial: $1,000.00 | valor actual: $1,008.68 | P&L: $+8.68 (+0.87%)
 - Efectivo libre: $403.40 | en ordenes abiertas: $252.13 (5) | en posiciones: $352.74 (7)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
 - Ordenes virtuales: 67 colocadas, 20 llenadas, 28 tocadas sin llenarse (sorteo 30%), 14 expiradas
@@ -29,9 +29,9 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 |---|---|---|---|---|---|
 | $50.26 | 97.9c | 100.0c | deportes_previo |  | Will Mlada Boleslav vs. Vysocina Jihlava end in a draw? |
 | $50.40 | 99.7c | 99.7c | deportes_previo |  | Spread: Ethiopia (-3.5) |
-| $50.40 | 99.2c | 88.3c | deportes_previo |  | Spread: Burundi (-2.5) |
+| $50.40 | 99.2c | 99.2c | deportes_previo |  | Spread: Burundi (-2.5) |
 | $50.43 | 98.7c | 99.4c | otros_cierre |  | Will the US national average gas price be less than $3.8900 on November 13? |
-| $50.40 | 98.4c | 98.0c | cripto_cierre |  | Will the price of Bitcoin be between $72,000 and $74,000 on November 13? |
+| $50.40 | 98.4c | 96.2c | cripto_cierre |  | Will the price of Bitcoin be between $72,000 and $74,000 on November 13? |
 | $50.43 | 98.5c | 99.6c | cripto_cierre |  | Will the price of Ethereum be above $1,800 on November 13? |
 | $50.42 | 99.4c | 98.6c | otros_cierre |  | Will Microsoft Corporation (MSFT) hit (HIGH) $577.50 Week of November 9 2026? |
 
@@ -39,7 +39,7 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 372 | abiertas: 502 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 372 | abiertas: 514 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
@@ -64,4 +64,4 @@ Peores casos del registro sombra:
 
 ## Veredicto
 
-Aun no hay veredicto: van 13 operaciones cerradas en 1.6 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
+Aun no hay veredicto: van 13 operaciones cerradas en 1.7 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
