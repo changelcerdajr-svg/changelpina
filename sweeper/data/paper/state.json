@@ -191,27 +191,6 @@
    "end_ts": 1794805200.0,
    "hours": 10.98,
    "liq": 46227
-  },
-  {
-   "oid": "5997211-1794769267",
-   "id": "5997211",
-   "q": "Next Astra Model (6.1+) released by November 15, 2026?",
-   "cat": "otros",
-   "rule": "otros_cierre",
-   "event": "965173",
-   "side": 1,
-   "token": "18866750412005984876431378185477049269743085037974956969302421935937443613365",
-   "px": 0.98,
-   "tick": 0.001,
-   "mid": 0.98,
-   "bid": 0.971,
-   "ask": 0.989,
-   "shares": 51.9071,
-   "cost": 50.8689,
-   "ts": 1794769267.216417,
-   "end_ts": 1794805140.0,
-   "hours": 9.96,
-   "liq": 7401
   }
  ],
  "positions": [
@@ -261,7 +240,32 @@
    "hours": 6.98,
    "liq": 4528,
    "fill_ts": 1794769267.216417,
-   "mark": 0.99
+   "mark": 0.988,
+   "stuck": false,
+   "disputed": false
+  },
+  {
+   "oid": "5997211-1794769267",
+   "id": "5997211",
+   "q": "Next Astra Model (6.1+) released by November 15, 2026?",
+   "cat": "otros",
+   "rule": "otros_cierre",
+   "event": "965173",
+   "side": 1,
+   "token": "18866750412005984876431378185477049269743085037974956969302421935937443613365",
+   "px": 0.98,
+   "tick": 0.001,
+   "mid": 0.98,
+   "bid": 0.971,
+   "ask": 0.989,
+   "shares": 51.9071,
+   "cost": 50.8689,
+   "ts": 1794769267.216417,
+   "end_ts": 1794805140.0,
+   "hours": 9.96,
+   "liq": 7401,
+   "fill_ts": 1794772863.3365,
+   "mark": 0.98
   }
  ],
  "closed": [
@@ -1652,12 +1656,25 @@
    "placed": 1,
    "shadow_open": 375,
    "shadow_closed": 0
+  },
+  {
+   "ts": "2026-11-15T20:01:43Z",
+   "equity": 1017.28,
+   "cash": 407.67,
+   "orders": 9,
+   "positions": 3,
+   "closed": 25,
+   "scanned": 11660,
+   "candidates": 117,
+   "placed": 0,
+   "shadow_open": 380,
+   "shadow_closed": 0
   }
  ],
  "halted": false,
  "stats": {
   "placed": 103,
-  "filled": 27,
+  "filled": 28,
   "expired": 19,
   "touched_not_filled": 47
  },
@@ -6535,6 +6552,71 @@
    "ts": 1794769267,
    "end_ts": 1794877200,
    "q": "Michigan Wolverines vs. Central Michigan Chippewas (W)",
+   "touched": null
+  },
+  {
+   "id": "6891218",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "57661649920432843358871843038268736649986232975697284691946255059330926417903",
+   "px": 0.971,
+   "tick": 0.001,
+   "ts": 1794772863,
+   "end_ts": 1794805200,
+   "q": "Will Bitcoin dip to $60,000 November 9-15?",
+   "touched": null
+  },
+  {
+   "id": "7057692",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "109274725637220435709034032210380744403322449171487811095381197088711842909096",
+   "px": 0.974,
+   "tick": 0.001,
+   "ts": 1794772863,
+   "end_ts": 1794805200,
+   "q": "Will Bitcoin dip to $60,000 on November 15?",
+   "touched": null
+  },
+  {
+   "id": "7057709",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "32334933349907689413056358313902476359171260045687354580839580967061248335833",
+   "px": 0.973,
+   "tick": 0.001,
+   "ts": 1794772863,
+   "end_ts": 1794805200,
+   "q": "Will Ethereum dip to $1,650 on November 15?",
+   "touched": null
+  },
+  {
+   "id": "6632125",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "70003164658422290037479572932227986774425473927914140010407680416524671712131",
+   "px": 0.992,
+   "tick": 0.001,
+   "ts": 1794772863,
+   "end_ts": 1794848400,
+   "q": "Lithuania vs. Liechtenstein: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "7071348",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "76547061608891263725642372990175738544712074817841309943652483452592999372208",
+   "px": 0.982,
+   "tick": 0.001,
+   "ts": 1794772863,
+   "end_ts": 1794841200,
+   "q": "Will the US national average gas price be $3.8400+ on November 16?",
    "touched": null
   }
  ]

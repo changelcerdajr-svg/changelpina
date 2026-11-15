@@ -2,8 +2,8 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 2.2 de 28 | corridas: 13
-- Capital inicial: $1,000.00 | valor actual: $913.61 | P&L: $-86.39 (-8.64%)
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 2.3 de 28 | corridas: 14
+- Capital inicial: $1,000.00 | valor actual: $905.48 | P&L: $-94.52 (-9.45%)
 - Efectivo libre: $2.75 | en ordenes abiertas: $636.52 (8) | en posiciones: $273.45 (3)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
 - Ordenes virtuales: 43 colocadas, 18 llenadas, 14 tocadas sin llenarse (sorteo 30%), 3 expiradas
@@ -30,28 +30,28 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 |---|---|---|---|---|---|
 | $90.86 | 99.7c | 99.2c | otros_cierre |  | Will "Ghost Soldier" Opening Weekend Box Office be between 3m and 4m? |
 | $91.23 | 97.8c | 99.2c | deportes_previo |  | Spread: CE Sabadell FC (-2.5) |
-| $91.36 | 98.4c | 98.4c | deportes_previo |  | Spread: Danubio FC (-2.5) |
+| $91.36 | 98.4c | 89.6c | deportes_previo |  | Spread: Danubio FC (-2.5) |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 1443 | abiertas: 1853 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 1450 | abiertas: 1900 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
-| clima_cierre | todas | 330 | 99.06c | 99.39% | +0.34 pts | -0.49 a +1.16 | 2 |
-| clima_cierre | tocadas | 300 | 99.00c | 99.33% | +0.33 pts | -0.58 a +1.24 | 2 |
+| clima_cierre | todas | 333 | 99.06c | 99.40% | +0.34 pts | -0.48 a +1.16 | 2 |
+| clima_cierre | tocadas | 303 | 99.01c | 99.34% | +0.33 pts | -0.57 a +1.23 | 2 |
 | cripto_cierre | todas | 246 | 99.06c | 96.34% | -2.71 pts | -5.03 a -0.40 | 9 |
 | cripto_cierre | tocadas | 221 | 99.09c | 95.93% | -3.16 pts | -5.73 a -0.59 | 9 |
-| deportes_previo | todas | 584 | 97.98c | 95.38% | -2.61 pts | -4.30 a -0.91 | 27 |
-| deportes_previo | tocadas | 571 | 98.03c | 95.27% | -2.76 pts | -4.49 a -1.02 | 27 |
+| deportes_previo | todas | 588 | 97.97c | 95.41% | -2.57 pts | -4.25 a -0.88 | 27 |
+| deportes_previo | tocadas | 573 | 98.03c | 95.29% | -2.74 pts | -4.47 a -1.01 | 27 |
 | otros_cierre | todas | 275 | 99.44c | 99.64% | +0.20 pts | -0.51 a +0.92 | 1 |
 | otros_cierre | tocadas | 265 | 99.43c | 99.62% | +0.19 pts | -0.55 a +0.94 | 1 |
 | post_fin_90_97 | todas | 8 | 94.79c | 100.00% | +5.21 pts | +4.59 a +5.84 | 0 |
 | post_fin_90_97 | tocadas | 8 | 94.79c | 100.00% | +5.21 pts | +4.59 a +5.84 | 0 |
-| TOTAL | todas | 1443 | 98.67c | 97.30% | -1.37 pts | -2.20 a -0.54 | 39 |
-| TOTAL | tocadas | 1365 | 98.67c | 97.14% | -1.52 pts | -2.40 a -0.65 | 39 |
+| TOTAL | todas | 1450 | 98.67c | 97.31% | -1.36 pts | -2.18 a -0.53 | 39 |
+| TOTAL | tocadas | 1370 | 98.67c | 97.15% | -1.52 pts | -2.39 a -0.64 | 39 |
 
 Peores casos del registro sombra:
 
@@ -68,4 +68,4 @@ Peores casos del registro sombra:
 
 ## Veredicto
 
-Aun no hay veredicto: van 15 operaciones cerradas en 2.2 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
+Aun no hay veredicto: van 15 operaciones cerradas en 2.3 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
