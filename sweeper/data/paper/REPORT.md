@@ -2,21 +2,21 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-11T22:05:26Z | dias corridos: 3.5 de 28 | corridas: 45
-- Capital inicial: $1,000.00 | valor actual: $1,015.58 | P&L: $+15.58 (+1.56%)
-- Efectivo libre: $406.59 | en ordenes abiertas: $507.79 (10) | en posiciones: $101.20 (2)
+- Inicio: 2026-11-11T22:05:26Z | dias corridos: 3.7 de 28 | corridas: 46
+- Capital inicial: $1,000.00 | valor actual: $1,016.55 | P&L: $+16.55 (+1.66%)
+- Efectivo libre: $356.09 | en ordenes abiertas: $609.69 (12) | en posiciones: $50.78 (1)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 91 colocadas, 24 llenadas, 38 tocadas sin llenarse (sorteo 30%), 19 expiradas
+- Ordenes virtuales: 98 colocadas, 25 llenadas, 42 tocadas sin llenarse (sorteo 30%), 19 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
 | Regla | n | Precio medio | Pago real | IC95 del pago | Edge | P&L | Dias medios |
 |---|---|---|---|---|---|---|---|
 | cripto_cierre | 5 | 98.96c | 100.00% | 56.6-100.0% | +1.04 pts | $+2.65 | 0.27 |
-| deportes_previo | 8 | 98.68c | 100.00% | 67.6-100.0% | +1.32 pts | $+5.40 | 0.43 |
+| deportes_previo | 10 | 98.75c | 100.00% | 72.2-100.0% | +1.25 pts | $+6.37 | 0.39 |
 | otros_cierre | 7 | 98.87c | 100.00% | 64.6-100.0% | +1.13 pts | $+4.03 | 0.67 |
 | post_fin_95_97 | 2 | 96.65c | 100.00% | 34.2-100.0% | +3.35 pts | $+3.50 | 0.85 |
-| TOTAL | 22 | 98.62c | 100.00% | 85.1-100.0% | +1.38 pts | $+15.58 | 0.51 |
+| TOTAL | 24 | 98.65c | 100.00% | 86.2-100.0% | +1.35 pts | $+16.55 | 0.49 |
 
 ## Peores casos
 
@@ -27,14 +27,13 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
-| $50.60 | 98.7c | 98.7c | deportes_previo |  | Spread: Bolivia (-2.5) |
-| $50.60 | 99.4c | 99.4c | deportes_previo |  | Spread: Bolivia (-3.5) |
+| $50.78 | 98.4c | 98.4c | cripto_cierre |  | Will the price of Ethereum be above $1,700 on November 15? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 944 | abiertas: 232 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 944 | abiertas: 309 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
@@ -64,4 +63,4 @@ Peores casos del registro sombra:
 
 ## Veredicto
 
-Aun no hay veredicto: van 22 operaciones cerradas en 3.5 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
+Aun no hay veredicto: van 24 operaciones cerradas en 3.7 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.

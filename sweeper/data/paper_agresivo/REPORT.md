@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 1.9 de 28 | corridas: 8
-- Capital inicial: $1,000.00 | valor actual: $908.58 | P&L: $-91.42 (-9.14%)
-- Efectivo libre: $-0.00 | en ordenes abiertas: $902.02 (10) | en posiciones: $6.55 (1)
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 2.1 de 28 | corridas: 9
+- Capital inicial: $1,000.00 | valor actual: $908.72 | P&L: $-91.28 (-9.13%)
+- Efectivo libre: $-0.00 | en ordenes abiertas: $545.29 (7) | en posiciones: $363.43 (4)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 35 colocadas, 12 llenadas, 10 tocadas sin llenarse (sorteo 30%), 3 expiradas
+- Ordenes virtuales: 38 colocadas, 16 llenadas, 12 tocadas sin llenarse (sorteo 30%), 3 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -15,8 +15,8 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 | clima_cierre | 1 | 99.70c | 100.00% | 20.7-100.0% | +0.30 pts | $+0.30 | 1.87 |
 | cripto_cierre | 3 | 99.43c | 100.00% | 43.8-100.0% | +0.57 pts | $+1.72 | 0.11 |
 | deportes_previo | 4 | 98.05c | 75.13% | 30.1-95.4% | -22.92 pts | $-93.76 | 1.83 |
-| otros_cierre | 3 | 99.85c | 100.00% | 43.8-100.0% | +0.15 pts | $+0.32 | 1.16 |
-| TOTAL | 11 | 99.00c | 90.16% | 62.3-98.4% | -8.84 pts | $-91.42 | 1.18 |
+| otros_cierre | 4 | 99.79c | 100.00% | 51.0-100.0% | +0.21 pts | $+0.46 | 0.93 |
+| TOTAL | 12 | 98.99c | 90.22% | 64.6-98.5% | -8.77 pts | $-91.28 | 1.10 |
 
 ## Peores casos
 
@@ -28,28 +28,31 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
-| $6.55 | 97.9c | 97.9c | otros_cierre |  | Will Apple (AAPL) hit (HIGH) $364 Week of November 9 2026? |
+| $90.86 | 99.8c | 99.8c | cripto_cierre |  | Bitcoin above 67,400 on November 15, 6AM ET? |
+| $90.86 | 97.3c | 97.3c | deportes_previo |  | Spread: Novara FC (-2.5) |
+| $90.86 | 98.6c | 98.6c | deportes_previo |  | Spread: Calcio Lecco 1912 (-3.5) |
+| $90.86 | 99.7c | 99.7c | otros_cierre |  | Will "Ghost Soldier" Opening Weekend Box Office be between 3m and 4m? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 1288 | abiertas: 1405 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 1309 | abiertas: 1713 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
-| clima_cierre | todas | 254 | 98.97c | 99.21% | +0.24 pts | -0.83 a +1.32 | 2 |
-| clima_cierre | tocadas | 227 | 98.89c | 99.12% | +0.23 pts | -0.97 a +1.43 | 2 |
+| clima_cierre | todas | 273 | 98.98c | 99.27% | +0.29 pts | -0.71 a +1.29 | 2 |
+| clima_cierre | tocadas | 245 | 98.90c | 99.18% | +0.28 pts | -0.83 a +1.39 | 2 |
 | cripto_cierre | todas | 174 | 98.91c | 96.55% | -2.36 pts | -5.03 a +0.32 | 6 |
 | cripto_cierre | tocadas | 155 | 98.96c | 96.13% | -2.83 pts | -5.83 a +0.16 | 6 |
-| deportes_previo | todas | 580 | 97.99c | 95.34% | -2.65 pts | -4.36 a -0.94 | 27 |
-| deportes_previo | tocadas | 567 | 98.04c | 95.24% | -2.80 pts | -4.55 a -1.06 | 27 |
-| otros_cierre | todas | 272 | 99.43c | 99.63% | +0.20 pts | -0.52 a +0.92 | 1 |
-| otros_cierre | tocadas | 262 | 99.42c | 99.62% | +0.19 pts | -0.56 a +0.94 | 1 |
+| deportes_previo | todas | 581 | 97.99c | 95.35% | -2.63 pts | -4.34 a -0.93 | 27 |
+| deportes_previo | tocadas | 568 | 98.04c | 95.25% | -2.79 pts | -4.53 a -1.04 | 27 |
+| otros_cierre | todas | 273 | 99.43c | 99.63% | +0.20 pts | -0.52 a +0.92 | 1 |
+| otros_cierre | tocadas | 263 | 99.43c | 99.62% | +0.19 pts | -0.55 a +0.94 | 1 |
 | post_fin_90_97 | todas | 8 | 94.79c | 100.00% | +5.21 pts | +4.59 a +5.84 | 0 |
 | post_fin_90_97 | tocadas | 8 | 94.79c | 100.00% | +5.21 pts | +4.59 a +5.84 | 0 |
-| TOTAL | todas | 1288 | 98.59c | 97.20% | -1.39 pts | -2.28 a -0.50 | 36 |
-| TOTAL | tocadas | 1219 | 98.59c | 97.05% | -1.55 pts | -2.49 a -0.60 | 36 |
+| TOTAL | todas | 1309 | 98.60c | 97.25% | -1.35 pts | -2.23 a -0.47 | 36 |
+| TOTAL | tocadas | 1239 | 98.60c | 97.09% | -1.50 pts | -2.43 a -0.58 | 36 |
 
 Peores casos del registro sombra:
 
@@ -66,4 +69,4 @@ Peores casos del registro sombra:
 
 ## Veredicto
 
-Aun no hay veredicto: van 11 operaciones cerradas en 1.9 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
+Aun no hay veredicto: van 12 operaciones cerradas en 2.1 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
