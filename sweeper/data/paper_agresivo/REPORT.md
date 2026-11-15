@@ -2,8 +2,8 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 2.3 de 28 | corridas: 15
-- Capital inicial: $1,000.00 | valor actual: $911.56 | P&L: $-88.44 (-8.84%)
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 2.3 de 28 | corridas: 16
+- Capital inicial: $1,000.00 | valor actual: $897.64 | P&L: $-102.36 (-10.24%)
 - Efectivo libre: $2.75 | en ordenes abiertas: $636.52 (8) | en posiciones: $273.45 (3)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
 - Ordenes virtuales: 43 colocadas, 18 llenadas, 14 tocadas sin llenarse (sorteo 30%), 3 expiradas
@@ -30,13 +30,13 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 |---|---|---|---|---|---|
 | $90.86 | 99.7c | 99.2c | otros_cierre |  | Will "Ghost Soldier" Opening Weekend Box Office be between 3m and 4m? |
 | $91.23 | 97.8c | 99.2c | deportes_previo |  | Spread: CE Sabadell FC (-2.5) |
-| $91.36 | 98.4c | 96.2c | deportes_previo |  | Spread: Danubio FC (-2.5) |
+| $91.36 | 98.4c | 81.2c | deportes_previo |  | Spread: Danubio FC (-2.5) |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 1451 | abiertas: 1918 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 1453 | abiertas: 1944 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
@@ -44,14 +44,14 @@ Cada mercado que cumple una regla se anota una vez al precio limite que se habri
 | clima_cierre | tocadas | 303 | 99.01c | 99.34% | +0.33 pts | -0.57 a +1.23 | 2 |
 | cripto_cierre | todas | 246 | 99.06c | 96.34% | -2.71 pts | -5.03 a -0.40 | 9 |
 | cripto_cierre | tocadas | 221 | 99.09c | 95.93% | -3.16 pts | -5.73 a -0.59 | 9 |
-| deportes_previo | todas | 589 | 97.97c | 95.42% | -2.55 pts | -4.24 a -0.87 | 27 |
-| deportes_previo | tocadas | 574 | 98.03c | 95.30% | -2.73 pts | -4.46 a -1.01 | 27 |
+| deportes_previo | todas | 591 | 97.97c | 95.43% | -2.54 pts | -4.22 a -0.86 | 27 |
+| deportes_previo | tocadas | 576 | 98.03c | 95.31% | -2.71 pts | -4.44 a -0.99 | 27 |
 | otros_cierre | todas | 275 | 99.44c | 99.64% | +0.20 pts | -0.51 a +0.92 | 1 |
 | otros_cierre | tocadas | 265 | 99.43c | 99.62% | +0.19 pts | -0.55 a +0.94 | 1 |
 | post_fin_90_97 | todas | 8 | 94.79c | 100.00% | +5.21 pts | +4.59 a +5.84 | 0 |
 | post_fin_90_97 | tocadas | 8 | 94.79c | 100.00% | +5.21 pts | +4.59 a +5.84 | 0 |
-| TOTAL | todas | 1451 | 98.66c | 97.31% | -1.35 pts | -2.18 a -0.53 | 39 |
-| TOTAL | tocadas | 1371 | 98.67c | 97.16% | -1.51 pts | -2.38 a -0.64 | 39 |
+| TOTAL | todas | 1453 | 98.66c | 97.32% | -1.35 pts | -2.17 a -0.52 | 39 |
+| TOTAL | tocadas | 1373 | 98.67c | 97.16% | -1.51 pts | -2.38 a -0.64 | 39 |
 
 Peores casos del registro sombra:
 
