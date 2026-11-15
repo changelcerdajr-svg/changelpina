@@ -172,48 +172,6 @@
    "liq": 5616
   },
   {
-   "oid": "6638438-1794758463",
-   "id": "6638438",
-   "q": "Spread: Curaçao (-2.5)",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1308439",
-   "side": 1,
-   "token": "71115860037266744098051649144858185545871394596463078718504098561326931570062",
-   "px": 0.99,
-   "tick": 0.001,
-   "mid": 0.9905,
-   "bid": 0.986,
-   "ask": 0.995,
-   "shares": 51.2828,
-   "cost": 50.77,
-   "ts": 1794758463.258939,
-   "end_ts": 1794783600.0,
-   "hours": 6.98,
-   "liq": 4528
-  },
-  {
-   "oid": "6976217-1794765665",
-   "id": "6976217",
-   "q": "Will \"Godzilla Minus Zero\" 2nd Weekend Box Office be less than 8m?",
-   "cat": "otros",
-   "rule": "post_fin_95_97",
-   "event": "1367474",
-   "side": 1,
-   "token": "114028025618794277940670455651599587474143180486097203170276009133246466936076",
-   "px": 0.959,
-   "tick": 0.001,
-   "mid": 0.959,
-   "bid": 0.945,
-   "ask": 0.973,
-   "shares": 53.0437,
-   "cost": 50.8689,
-   "ts": 1794765665.335451,
-   "end_ts": 1794744000.0,
-   "hours": -6.02,
-   "liq": 3455
-  },
-  {
    "oid": "6891261-1794765665",
    "id": "6891261",
    "q": "Will Ethereum reach $2,200 November 9-15?",
@@ -233,6 +191,27 @@
    "end_ts": 1794805200.0,
    "hours": 10.98,
    "liq": 46227
+  },
+  {
+   "oid": "5997211-1794769267",
+   "id": "5997211",
+   "q": "Next Astra Model (6.1+) released by November 15, 2026?",
+   "cat": "otros",
+   "rule": "otros_cierre",
+   "event": "965173",
+   "side": 1,
+   "token": "18866750412005984876431378185477049269743085037974956969302421935937443613365",
+   "px": 0.98,
+   "tick": 0.001,
+   "mid": 0.98,
+   "bid": 0.971,
+   "ask": 0.989,
+   "shares": 51.9071,
+   "cost": 50.8689,
+   "ts": 1794769267.216417,
+   "end_ts": 1794805140.0,
+   "hours": 9.96,
+   "liq": 7401
   }
  ],
  "positions": [
@@ -260,6 +239,29 @@
    "mark": 0.981,
    "stuck": false,
    "disputed": false
+  },
+  {
+   "oid": "6638438-1794758463",
+   "id": "6638438",
+   "q": "Spread: Curaçao (-2.5)",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1308439",
+   "side": 1,
+   "token": "71115860037266744098051649144858185545871394596463078718504098561326931570062",
+   "px": 0.99,
+   "tick": 0.001,
+   "mid": 0.9905,
+   "bid": 0.986,
+   "ask": 0.995,
+   "shares": 51.2828,
+   "cost": 50.77,
+   "ts": 1794758463.258939,
+   "end_ts": 1794783600.0,
+   "hours": 6.98,
+   "liq": 4528,
+   "fill_ts": 1794769267.216417,
+   "mark": 0.99
   }
  ],
  "closed": [
@@ -1637,14 +1639,27 @@
    "placed": 2,
    "shadow_open": 371,
    "shadow_closed": 0
+  },
+  {
+   "ts": "2026-11-15T19:02:14Z",
+   "equity": 1017.38,
+   "cash": 407.67,
+   "orders": 10,
+   "positions": 2,
+   "closed": 25,
+   "scanned": 11915,
+   "candidates": 112,
+   "placed": 1,
+   "shadow_open": 375,
+   "shadow_closed": 0
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 102,
-  "filled": 26,
+  "placed": 103,
+  "filled": 27,
   "expired": 19,
-  "touched_not_filled": 46
+  "touched_not_filled": 47
  },
  "shadow": [
   {
@@ -6468,6 +6483,58 @@
    "ts": 1794765665,
    "end_ts": 1794873600,
    "q": "Houston Christian Huskies vs. Utah Utes (W)",
+   "touched": null
+  },
+  {
+   "id": "6630888",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "53488240017710734485177038941239005240725071669327484237556638379896577215889",
+   "px": 0.972,
+   "tick": 0.001,
+   "ts": 1794769267,
+   "end_ts": 1794834000,
+   "q": "Spread: Namibia (-1.5)",
+   "touched": null
+  },
+  {
+   "id": "6632050",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "46059200499587029850902914788969226801730925592208513201219933417726775985969",
+   "px": 0.996,
+   "tick": 0.001,
+   "ts": 1794769267,
+   "end_ts": 1794858300,
+   "q": "Spread: Gibraltar (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "6933134",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "37734965720423023602940767584521211597186064022553406487037916439708711278705",
+   "px": 0.987,
+   "tick": 0.001,
+   "ts": 1794769267,
+   "end_ts": 1794877200,
+   "q": "Troy Trojans vs. LSU Tigers (W)",
+   "touched": null
+  },
+  {
+   "id": "6933154",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "66268461873559227098524387100472551051248357433664172002720009092631181549001",
+   "px": 0.987,
+   "tick": 0.001,
+   "ts": 1794769267,
+   "end_ts": 1794877200,
+   "q": "Michigan Wolverines vs. Central Michigan Chippewas (W)",
    "touched": null
   }
  ]
