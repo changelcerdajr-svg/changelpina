@@ -2,21 +2,21 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 2.1 de 28 | corridas: 9
-- Capital inicial: $1,000.00 | valor actual: $908.72 | P&L: $-91.28 (-9.13%)
-- Efectivo libre: $-0.00 | en ordenes abiertas: $545.29 (7) | en posiciones: $363.43 (4)
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 2.1 de 28 | corridas: 10
+- Capital inicial: $1,000.00 | valor actual: $912.30 | P&L: $-87.70 (-8.77%)
+- Efectivo libre: $2.88 | en ordenes abiertas: $818.98 (10) | en posiciones: $90.86 (1)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 38 colocadas, 16 llenadas, 12 tocadas sin llenarse (sorteo 30%), 3 expiradas
+- Ordenes virtuales: 41 colocadas, 16 llenadas, 12 tocadas sin llenarse (sorteo 30%), 3 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
 | Regla | n | Precio medio | Pago real | IC95 del pago | Edge | P&L | Dias medios |
 |---|---|---|---|---|---|---|---|
 | clima_cierre | 1 | 99.70c | 100.00% | 20.7-100.0% | +0.30 pts | $+0.30 | 1.87 |
-| cripto_cierre | 3 | 99.43c | 100.00% | 43.8-100.0% | +0.57 pts | $+1.72 | 0.11 |
-| deportes_previo | 4 | 98.05c | 75.13% | 30.1-95.4% | -22.92 pts | $-93.76 | 1.83 |
+| cripto_cierre | 4 | 99.52c | 100.00% | 51.0-100.0% | +0.48 pts | $+1.90 | 0.08 |
+| deportes_previo | 6 | 98.02c | 82.93% | 43.6-97.0% | -15.09 pts | $-89.95 | 1.22 |
 | otros_cierre | 4 | 99.79c | 100.00% | 51.0-100.0% | +0.21 pts | $+0.46 | 0.93 |
-| TOTAL | 12 | 98.99c | 90.22% | 64.6-98.5% | -8.77 pts | $-91.28 | 1.10 |
+| TOTAL | 15 | 98.90c | 92.30% | 70.2-98.8% | -6.60 pts | $-87.29 | 0.88 |
 
 ## Peores casos
 
@@ -28,16 +28,13 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
-| $90.86 | 99.8c | 99.8c | cripto_cierre |  | Bitcoin above 67,400 on November 15, 6AM ET? |
-| $90.86 | 97.3c | 97.3c | deportes_previo |  | Spread: Novara FC (-2.5) |
-| $90.86 | 98.6c | 98.6c | deportes_previo |  | Spread: Calcio Lecco 1912 (-3.5) |
-| $90.86 | 99.7c | 99.7c | otros_cierre |  | Will "Ghost Soldier" Opening Weekend Box Office be between 3m and 4m? |
+| $90.86 | 99.7c | 99.2c | otros_cierre |  | Will "Ghost Soldier" Opening Weekend Box Office be between 3m and 4m? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 1309 | abiertas: 1713 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 1309 | abiertas: 1734 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
@@ -69,4 +66,4 @@ Peores casos del registro sombra:
 
 ## Veredicto
 
-Aun no hay veredicto: van 12 operaciones cerradas en 2.1 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
+Aun no hay veredicto: van 15 operaciones cerradas en 2.1 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.

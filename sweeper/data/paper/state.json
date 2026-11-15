@@ -1,6 +1,6 @@
 {
  "capital0": 1000.0,
- "cash": 356.0854,
+ "cash": 356.1817,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
   {
@@ -151,27 +151,6 @@
    "liq": 28489
   },
   {
-   "oid": "7009973-1794757512",
-   "id": "7009973",
-   "q": "Will the highest temperature in Chicago be between 54-55°F on November 15?",
-   "cat": "clima",
-   "rule": "post_fin_95_97",
-   "event": "1377832",
-   "side": 1,
-   "token": "32774497172301030913791973761751902405210256606457136817717045657451353717411",
-   "px": 0.963,
-   "tick": 0.001,
-   "mid": 0.9635,
-   "bid": 0.952,
-   "ask": 0.975,
-   "shares": 52.7805,
-   "cost": 50.8276,
-   "ts": 1794757512.557533,
-   "end_ts": 1794744000.0,
-   "hours": -3.75,
-   "liq": 1344
-  },
-  {
    "oid": "6906599-1794757512",
    "id": "6906599",
    "q": "Stetson Hatters vs. Clemson Tigers (W)",
@@ -191,27 +170,6 @@
    "end_ts": 1794780000.0,
    "hours": 6.25,
    "liq": 2395
-  },
-  {
-   "oid": "6638438-1794757512",
-   "id": "6638438",
-   "q": "Spread: Curaçao (-2.5)",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1308439",
-   "side": 1,
-   "token": "71115860037266744098051649144858185545871394596463078718504098561326931570062",
-   "px": 0.992,
-   "tick": 0.001,
-   "mid": 0.9925,
-   "bid": 0.986,
-   "ask": 0.999,
-   "shares": 51.2375,
-   "cost": 50.8276,
-   "ts": 1794757512.557533,
-   "end_ts": 1794783600.0,
-   "hours": 7.25,
-   "liq": 2432
   },
   {
    "oid": "5997211-1794757512",
@@ -254,6 +212,48 @@
    "end_ts": 1794805140.0,
    "hours": 13.23,
    "liq": 5616
+  },
+  {
+   "oid": "7009973-1794758463",
+   "id": "7009973",
+   "q": "Will the highest temperature in Chicago be between 54-55°F on November 15?",
+   "cat": "clima",
+   "rule": "post_fin_95_97",
+   "event": "1377832",
+   "side": 1,
+   "token": "32774497172301030913791973761751902405210256606457136817717045657451353717411",
+   "px": 0.957,
+   "tick": 0.001,
+   "mid": 0.9575,
+   "bid": 0.944,
+   "ask": 0.971,
+   "shares": 53.071,
+   "cost": 50.7889,
+   "ts": 1794758463.258939,
+   "end_ts": 1794744000.0,
+   "hours": -4.02,
+   "liq": 1251
+  },
+  {
+   "oid": "6638438-1794758463",
+   "id": "6638438",
+   "q": "Spread: Curaçao (-2.5)",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1308439",
+   "side": 1,
+   "token": "71115860037266744098051649144858185545871394596463078718504098561326931570062",
+   "px": 0.99,
+   "tick": 0.001,
+   "mid": 0.9905,
+   "bid": 0.986,
+   "ask": 0.995,
+   "shares": 51.2828,
+   "cost": 50.77,
+   "ts": 1794758463.258939,
+   "end_ts": 1794783600.0,
+   "hours": 6.98,
+   "liq": 4528
   }
  ],
  "positions": [
@@ -278,7 +278,9 @@
    "hours": 6.7,
    "liq": 41764,
    "fill_ts": 1794757512.557533,
-   "mark": 0.984
+   "mark": 0.969,
+   "stuck": false,
+   "disputed": false
   }
  ],
  "closed": [
@@ -1587,14 +1589,27 @@
    "placed": 7,
    "shadow_open": 309,
    "shadow_closed": 0
+  },
+  {
+   "ts": "2026-11-15T16:01:38Z",
+   "equity": 1015.78,
+   "cash": 356.18,
+   "orders": 12,
+   "positions": 1,
+   "closed": 24,
+   "scanned": 13796,
+   "candidates": 107,
+   "placed": 2,
+   "shadow_open": 311,
+   "shadow_closed": 0
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 98,
+  "placed": 100,
   "filled": 25,
   "expired": 19,
-  "touched_not_filled": 42
+  "touched_not_filled": 44
  },
  "shadow": [
   {
@@ -5612,6 +5627,32 @@
    "ts": 1794757512,
    "end_ts": 1794857400,
    "q": "Albacete Balompié vs. Celta Fortuna: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "5401165",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "69161334463540443003691437628570536680491802371599728751365286264692298757996",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1794758463,
+   "end_ts": 1794805140,
+   "q": "Pakistan military action against Afghanistan by November 15, 2026?",
+   "touched": null
+  },
+  {
+   "id": "6891302",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "169548084541211174751546252392220942249099754109972910386608718275740429002",
+   "px": 0.974,
+   "tick": 0.001,
+   "ts": 1794758463,
+   "end_ts": 1794805200,
+   "q": "Will Ethereum dip to $1,600 November 9-15?",
    "touched": null
   }
  ]
