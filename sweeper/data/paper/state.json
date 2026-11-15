@@ -240,7 +240,7 @@
    "hours": 6.98,
    "liq": 4528,
    "fill_ts": 1794769267.216417,
-   "mark": 0.988,
+   "mark": 0.9905,
    "stuck": false,
    "disputed": false
   },
@@ -265,7 +265,9 @@
    "hours": 9.96,
    "liq": 7401,
    "fill_ts": 1794772863.3365,
-   "mark": 0.98
+   "mark": 0.987,
+   "stuck": false,
+   "disputed": false
   }
  ],
  "closed": [
@@ -1668,6 +1670,19 @@
    "candidates": 117,
    "placed": 0,
    "shadow_open": 380,
+   "shadow_closed": 0
+  },
+  {
+   "ts": "2026-11-15T20:25:39Z",
+   "equity": 1017.77,
+   "cash": 407.67,
+   "orders": 9,
+   "positions": 3,
+   "closed": 25,
+   "scanned": 11877,
+   "candidates": 125,
+   "placed": 0,
+   "shadow_open": 383,
    "shadow_closed": 0
   }
  ],
@@ -6617,6 +6632,45 @@
    "ts": 1794772863,
    "end_ts": 1794841200,
    "q": "Will the US national average gas price be $3.8400+ on November 16?",
+   "touched": null
+  },
+  {
+   "id": "6976226",
+   "rule": "post_fin_95_97",
+   "cat": "otros",
+   "side": 1,
+   "token": "26472167779235528743970961159422708418852351764197488439817403560021277136401",
+   "px": 0.969,
+   "tick": 0.001,
+   "ts": 1794774310,
+   "end_ts": 1794744000,
+   "q": "Will \"The Cat in the Hat\" 2nd Weekend Box Office be at least 12m?",
+   "touched": null
+  },
+  {
+   "id": "7047114",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "49090902306295656969060693848943364991463412703921386499771459305547684065970",
+   "px": 0.98,
+   "tick": 0.001,
+   "ts": 1794774310,
+   "end_ts": 1794774600,
+   "q": "XRP Up or Down - November 15, 3:15PM-3:30PM ET",
+   "touched": null
+  },
+  {
+   "id": "6918225",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "5404827983306967705304374072723044954016887791092640435755035608217405352129",
+   "px": 0.984,
+   "tick": 0.001,
+   "ts": 1794774310,
+   "end_ts": 1794848400,
+   "q": "Fisk Bulldogs vs. North Alabama Lions",
    "touched": null
   }
  ]
