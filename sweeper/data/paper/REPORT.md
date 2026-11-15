@@ -2,21 +2,21 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-11T22:05:26Z | dias corridos: 3.8 de 28 | corridas: 48
-- Capital inicial: $1,000.00 | valor actual: $1,017.35 | P&L: $+17.35 (+1.74%)
-- Efectivo libre: $406.97 | en ordenes abiertas: $508.02 (10) | en posiciones: $101.56 (2)
+- Inicio: 2026-11-11T22:05:26Z | dias corridos: 3.8 de 28 | corridas: 49
+- Capital inicial: $1,000.00 | valor actual: $1,017.38 | P&L: $+17.38 (+1.74%)
+- Efectivo libre: $407.67 | en ordenes abiertas: $558.93 (11) | en posiciones: $50.78 (1)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 100 colocadas, 26 llenadas, 45 tocadas sin llenarse (sorteo 30%), 19 expiradas
+- Ordenes virtuales: 102 colocadas, 26 llenadas, 46 tocadas sin llenarse (sorteo 30%), 19 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
 | Regla | n | Precio medio | Pago real | IC95 del pago | Edge | P&L | Dias medios |
 |---|---|---|---|---|---|---|---|
-| cripto_cierre | 5 | 98.96c | 100.00% | 56.6-100.0% | +1.04 pts | $+2.65 | 0.27 |
+| cripto_cierre | 6 | 98.86c | 100.00% | 61.0-100.0% | +1.14 pts | $+3.48 | 0.24 |
 | deportes_previo | 10 | 98.75c | 100.00% | 72.2-100.0% | +1.25 pts | $+6.37 | 0.39 |
 | otros_cierre | 7 | 98.87c | 100.00% | 64.6-100.0% | +1.13 pts | $+4.03 | 0.67 |
 | post_fin_95_97 | 2 | 96.65c | 100.00% | 34.2-100.0% | +3.35 pts | $+3.50 | 0.85 |
-| TOTAL | 24 | 98.65c | 100.00% | 86.2-100.0% | +1.35 pts | $+16.55 | 0.49 |
+| TOTAL | 25 | 98.64c | 100.00% | 86.7-100.0% | +1.36 pts | $+17.38 | 0.47 |
 
 ## Peores casos
 
@@ -28,13 +28,12 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
 | $50.78 | 98.1c | 98.1c | deportes_previo |  | Spread: Casertana FC (-3.5) |
-| $50.78 | 98.4c | 100.0c | cripto_cierre |  | Will the price of Ethereum be above $1,700 on November 15? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 944 | abiertas: 340 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 944 | abiertas: 371 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
@@ -64,4 +63,4 @@ Peores casos del registro sombra:
 
 ## Veredicto
 
-Aun no hay veredicto: van 24 operaciones cerradas en 3.8 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
+Aun no hay veredicto: van 25 operaciones cerradas en 3.8 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
