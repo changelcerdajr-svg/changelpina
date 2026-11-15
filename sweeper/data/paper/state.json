@@ -130,27 +130,6 @@
    "liq": 28489
   },
   {
-   "oid": "6906599-1794757512",
-   "id": "6906599",
-   "q": "Stetson Hatters vs. Clemson Tigers (W)",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1349550",
-   "side": 1,
-   "token": "25964539881652679720189078610277692568478214919888599965877081484007397568229",
-   "px": 0.988,
-   "tick": 0.001,
-   "mid": 0.988,
-   "bid": 0.986,
-   "ask": 0.99,
-   "shares": 51.445,
-   "cost": 50.8276,
-   "ts": 1794757512.557533,
-   "end_ts": 1794780000.0,
-   "hours": 6.25,
-   "liq": 2395
-  },
-  {
    "oid": "6017456-1794757512",
    "id": "6017456",
    "q": "Will GPT Astra 6.1+ be released between November 9 and November 15, 2026?",
@@ -236,7 +215,7 @@
    "hours": 6.98,
    "liq": 4528,
    "fill_ts": 1794769267.216417,
-   "mark": 0.9905,
+   "mark": 0.9885,
    "stuck": false,
    "disputed": false
   },
@@ -261,9 +240,32 @@
    "hours": 9.96,
    "liq": 7401,
    "fill_ts": 1794772863.3365,
-   "mark": 0.988,
+   "mark": 0.99,
    "stuck": false,
    "disputed": false
+  },
+  {
+   "oid": "6906599-1794757512",
+   "id": "6906599",
+   "q": "Stetson Hatters vs. Clemson Tigers (W)",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1349550",
+   "side": 1,
+   "token": "25964539881652679720189078610277692568478214919888599965877081484007397568229",
+   "px": 0.988,
+   "tick": 0.001,
+   "mid": 0.988,
+   "bid": 0.986,
+   "ask": 0.99,
+   "shares": 51.445,
+   "cost": 50.8276,
+   "ts": 1794757512.557533,
+   "end_ts": 1794780000.0,
+   "hours": 6.25,
+   "liq": 2395,
+   "fill_ts": 1794780063.409948,
+   "mark": 0.988
   }
  ],
  "closed": [
@@ -1723,12 +1725,25 @@
    "placed": 1,
    "shadow_open": 391,
    "shadow_closed": 0
+  },
+  {
+   "ts": "2026-11-15T22:01:32Z",
+   "equity": 1018.8,
+   "cash": 408.49,
+   "orders": 9,
+   "positions": 3,
+   "closed": 26,
+   "scanned": 9969,
+   "candidates": 130,
+   "placed": 0,
+   "shadow_open": 396,
+   "shadow_closed": 0
   }
  ],
  "halted": false,
  "stats": {
   "placed": 104,
-  "filled": 28,
+  "filled": 29,
   "expired": 19,
   "touched_not_filled": 47
  },
@@ -6814,6 +6829,71 @@
    "ts": 1794776470,
    "end_ts": 1794841200,
    "q": "Will the US national average gas price be between $3.8300 and $3.8399 on November 16?",
+   "touched": null
+  },
+  {
+   "id": "7057691",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "53782760716301098255184585919456839449114494400592448498310340602927019022020",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1794780063,
+   "end_ts": 1794805200,
+   "q": "Will Bitcoin dip to $61,000 on November 15?",
+   "touched": null
+  },
+  {
+   "id": "7057718",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "112288687708801988245936523223383155489699468872826826211657536874089482557110",
+   "px": 0.984,
+   "tick": 0.001,
+   "ts": 1794780063,
+   "end_ts": 1794805200,
+   "q": "Will Solana reach $80 on November 15?",
+   "touched": null
+  },
+  {
+   "id": "7057727",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "35592459927953476505698023413167219125781088423800532899896484802924433044073",
+   "px": 0.984,
+   "tick": 0.001,
+   "ts": 1794780063,
+   "end_ts": 1794805200,
+   "q": "Will XRP reach $1.10 on November 15?",
+   "touched": null
+  },
+  {
+   "id": "7071343",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "106349314353884592883319392957705536786511966503477515573398696746819189857324",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1794780063,
+   "end_ts": 1794841200,
+   "q": "Will the US national average gas price be less than $3.8000 on November 16?",
+   "touched": null
+  },
+  {
+   "id": "7071346",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "44023132228623426911102765164020793022392921889573993508687836250425851456156",
+   "px": 0.979,
+   "tick": 0.001,
+   "ts": 1794780063,
+   "end_ts": 1794841200,
+   "q": "Will the US national average gas price be between $3.8200 and $3.8299 on November 16?",
    "touched": null
   }
  ]
