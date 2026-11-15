@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-11T22:05:26Z | dias corridos: 3.7 de 28 | corridas: 47
-- Capital inicial: $1,000.00 | valor actual: $1,015.78 | P&L: $+15.78 (+1.58%)
-- Efectivo libre: $356.18 | en ordenes abiertas: $609.59 (12) | en posiciones: $50.78 (1)
+- Inicio: 2026-11-11T22:05:26Z | dias corridos: 3.8 de 28 | corridas: 48
+- Capital inicial: $1,000.00 | valor actual: $1,017.35 | P&L: $+17.35 (+1.74%)
+- Efectivo libre: $406.97 | en ordenes abiertas: $508.02 (10) | en posiciones: $101.56 (2)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 100 colocadas, 25 llenadas, 44 tocadas sin llenarse (sorteo 30%), 19 expiradas
+- Ordenes virtuales: 100 colocadas, 26 llenadas, 45 tocadas sin llenarse (sorteo 30%), 19 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -27,13 +27,14 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
-| $50.78 | 98.4c | 96.9c | cripto_cierre |  | Will the price of Ethereum be above $1,700 on November 15? |
+| $50.78 | 98.1c | 98.1c | deportes_previo |  | Spread: Casertana FC (-3.5) |
+| $50.78 | 98.4c | 100.0c | cripto_cierre |  | Will the price of Ethereum be above $1,700 on November 15? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 944 | abiertas: 311 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 944 | abiertas: 340 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
@@ -63,4 +64,4 @@ Peores casos del registro sombra:
 
 ## Veredicto
 
-Aun no hay veredicto: van 24 operaciones cerradas en 3.7 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
+Aun no hay veredicto: van 24 operaciones cerradas en 3.8 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
