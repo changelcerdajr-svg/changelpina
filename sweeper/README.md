@@ -155,3 +155,15 @@ Para que corra cada hora, agrega con `crontab -e` (Linux/macOS):
 
 En Windows, el Programador de tareas puede llamar al mismo script con Git Bash o WSL. El panel se
 abre con doble clic en `dashboard.html`. La tarea horaria en la nube de Claude está apagada.
+
+## Correr en GitHub (sin Claude, sin créditos)
+
+`.github/workflows/sweeper-paper.yml` corre los dos perfiles cada hora en los servidores de GitHub,
+guarda el estado en el repo y publica el panel en GitHub Pages. No usa secretos ni cuentas.
+Para que funcione, en Settings del repo:
+
+1. **Actions → General → Workflow permissions:** "Read and write permissions".
+2. **Pages → Build and deployment → Source:** "GitHub Actions".
+
+Se puede correr a mano desde la pestaña Actions con "Run workflow". Para apagarlo:
+Actions → Sweeper papel → "..." → Disable workflow.
