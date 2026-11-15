@@ -1,0 +1,71 @@
+# Simulador de papel del sweeper (dinero virtual): corre cada hora en GitHub, sin Claude.
+# No usa cuentas, llaves ni secretos; solo lee precios publicos de Polymarket.
+name: Sweeper papel
+
+on:
+  schedule:
+    - cron: "17 * * * *"   # cada hora (GitHub puede atrasarlo unos minutos)
+  workflow_dispatch: {}     # boton "Run workflow" para correrlo a mano
+
+concurrency:
+  group: sweeper-paper
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Correr los dos perfiles y regenerar el panel
+        working-directory: sweeper
+        env:
+          PYTHONUTF8: "1"
+        run: |
+          python src/paper.py
+          PROFILE=agresivo python src/paper.py
+          python src/dashboard.py
+
+      - name: Guardar el estado en el repo
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add sweeper/data/paper sweeper/data/paper_agresivo sweeper/dashboard.html
+          if git diff --cached --quiet; then echo "sin cambios"; exit 0; fi
+          git commit -qm "papel: corrida automatica $(date -u +%FT%TZ)"
+          for i in 1 2 3 4; do
+            git push && exit 0
+            sleep $((2**i)); git pull -q --rebase
+          done
+          echo "no se pudo subir el estado"; exit 1
+
+      - name: Preparar el panel para Pages
+        run: |
+          mkdir -p _site
+          cp sweeper/dashboard.html _site/index.html
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  # Publica el panel en GitHub Pages. Va en un trabajo aparte para que, si Pages no esta
+  # activado, el simulador siga corriendo y guardando su estado igual.
+  pages:
+    needs: run
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - id: deploy
+        uses: actions/deploy-pages@v4
