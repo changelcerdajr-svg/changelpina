@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 2.6 de 28 | corridas: 24
-- Capital inicial: $1,000.00 | valor actual: $918.73 | P&L: $-81.27 (-8.13%)
-- Efectivo libre: $0.00 | en ordenes abiertas: $534.01 (7) | en posiciones: $385.53 (6)
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 2.7 de 28 | corridas: 25
+- Capital inicial: $1,000.00 | valor actual: $918.63 | P&L: $-81.37 (-8.14%)
+- Efectivo libre: $0.00 | en ordenes abiertas: $526.12 (6) | en posiciones: $393.42 (7)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 64 colocadas, 27 llenadas, 22 tocadas sin llenarse (sorteo 30%), 8 expiradas
+- Ordenes virtuales: 68 colocadas, 28 llenadas, 23 tocadas sin llenarse (sorteo 30%), 11 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -30,16 +30,17 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 |---|---|---|---|---|---|
 | $90.86 | 99.7c | 99.2c | otros_cierre |  | Will "Ghost Soldier" Opening Weekend Box Office be between 3m and 4m? |
 | $91.58 | 98.6c | 97.8c | deportes_previo |  | Spread: Deportes Quindio (-3.5) |
-| $14.23 | 97.7c | 97.0c | otros_cierre |  | Will the USS George Washington depart CENTCOM by November 15, 2026? |
-| $91.77 | 99.8c | 98.8c | otros_cierre |  | Pakistan military action against Afghanistan by November 15, 2026? |
-| $7.32 | 99.6c | 98.3c | otros_cierre |  | Will GPT Astra 6.1+ be released between November 9 and November 15, 2026? |
+| $14.23 | 97.7c | 96.9c | otros_cierre |  | Will the USS George Washington depart CENTCOM by November 15, 2026? |
+| $91.77 | 99.8c | 98.7c | otros_cierre |  | Pakistan military action against Afghanistan by November 15, 2026? |
+| $7.32 | 99.6c | 98.2c | otros_cierre |  | Will GPT Astra 6.1+ be released between November 9 and November 15, 2026? |
 | $89.77 | 97.8c | 99.5c | cripto_cierre |  | Will Bitcoin dip to $62,000 November 9-15? |
+| $7.88 | 99.7c | 99.7c | cripto_cierre |  | Will Ethereum dip to $1,700 November 9-15? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 1583 | abiertas: 2030 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 1583 | abiertas: 2109 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
@@ -71,4 +72,4 @@ Peores casos del registro sombra:
 
 ## Veredicto
 
-Aun no hay veredicto: van 21 operaciones cerradas en 2.6 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
+Aun no hay veredicto: van 21 operaciones cerradas en 2.7 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
