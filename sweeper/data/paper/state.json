@@ -194,7 +194,7 @@
    "hours": 5.97,
    "liq": 2756,
    "fill_ts": 1794787264.139777,
-   "mark": 0.994,
+   "mark": 0.9925,
    "stuck": false,
    "disputed": false
   },
@@ -219,7 +219,7 @@
    "hours": 9.98,
    "liq": 2093,
    "fill_ts": 1794823267.6055,
-   "mark": 0.972,
+   "mark": 0.971,
    "stuck": false,
    "disputed": false
   },
@@ -244,7 +244,7 @@
    "hours": 10.98,
    "liq": 41907,
    "fill_ts": 1794823267.6055,
-   "mark": 0.995,
+   "mark": 0.9975,
    "stuck": false,
    "disputed": false
   },
@@ -269,7 +269,9 @@
    "hours": 15.98,
    "liq": 2889,
    "fill_ts": 1794826874.860577,
-   "mark": 0.988
+   "mark": 0.985,
+   "stuck": false,
+   "disputed": false
   }
  ],
  "closed": [
@@ -2013,6 +2015,19 @@
    "candidates": 145,
    "placed": 3,
    "shadow_open": 379,
+   "shadow_closed": 3
+  },
+  {
+   "ts": "2026-11-16T12:02:01Z",
+   "equity": 1020.48,
+   "cash": 408.92,
+   "orders": 8,
+   "positions": 4,
+   "closed": 29,
+   "scanned": 9212,
+   "candidates": 148,
+   "placed": 0,
+   "shadow_open": 381,
    "shadow_closed": 3
   }
  ],
@@ -4820,45 +4835,6 @@
    "touched": 1
   },
   {
-   "id": "6891215",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "34390734464051072739982582429240365446783011824219890733124876477094820569456",
-   "px": 0.974,
-   "tick": 0.001,
-   "ts": 1794787264,
-   "end_ts": 1794805200,
-   "q": "Will Bitcoin dip to $62,000 November 9-15?",
-   "touched": null
-  },
-  {
-   "id": "6891291",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "14206901594498430916601371238019026271542605871409402748183453279794482965726",
-   "px": 0.977,
-   "tick": 0.001,
-   "ts": 1794787264,
-   "end_ts": 1794805200,
-   "q": "Will Ethereum dip to $1,700 November 9-15?",
-   "touched": null
-  },
-  {
-   "id": "7057690",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "74429101260194537960802545353408715402586987577287659287907345107727594733102",
-   "px": 0.974,
-   "tick": 0.001,
-   "ts": 1794787264,
-   "end_ts": 1794805200,
-   "q": "Will Bitcoin dip to $62,000 on November 15?",
-   "touched": null
-  },
-  {
    "id": "6941894",
    "rule": "cripto_cierre",
    "cat": "cripto",
@@ -6949,6 +6925,71 @@
    "ts": 1794826874,
    "end_ts": 1794934800,
    "q": "Alabama State Hornets vs. Mississippi State Bulldogs (W)",
+   "touched": null
+  },
+  {
+   "id": "6888346",
+   "rule": "post_fin_95_97",
+   "cat": "deportes",
+   "side": 1,
+   "token": "51373176527957709892977443933375008671627801110679710058170231543997840288439",
+   "px": 0.96,
+   "tick": 0.01,
+   "ts": 1794830472,
+   "end_ts": 1794790800,
+   "q": "Florida A&M Rattlers vs. UTEP Miners",
+   "touched": null
+  },
+  {
+   "id": "6909348",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "5914117368009503662786274874959481432199315181471428185314832552923754895356",
+   "px": 0.975,
+   "tick": 0.001,
+   "ts": 1794830472,
+   "end_ts": 1794848400,
+   "q": "Will the price of XRP be between $0.80 and $0.90 on November 16?",
+   "touched": null
+  },
+  {
+   "id": "6919151",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "39176386836977777512353263030827742116329390837670618037199443639986094935575",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1794830472,
+   "end_ts": 1794877200,
+   "q": "Western Illinois Leathernecks vs. Minnesota Golden Gophers",
+   "touched": null
+  },
+  {
+   "id": "6920013",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "46970065396435198349927896496180666155177446561712391904437402252535714739560",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1794830472,
+   "end_ts": 1794879000,
+   "q": "Southeastern Louisiana Lions vs. Texas A&M Aggies",
+   "touched": null
+  },
+  {
+   "id": "6921141",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "57254925928633347919342365240842808716977886358807523216025778927569286658168",
+   "px": 0.99,
+   "tick": 0.001,
+   "ts": 1794830472,
+   "end_ts": 1794884400,
+   "q": "Long Beach State Beach vs. UCLA Bruins",
    "touched": null
   }
  ]
