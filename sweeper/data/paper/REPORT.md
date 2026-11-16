@@ -2,21 +2,21 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-11T22:05:26Z | dias corridos: 4.2 de 28 | corridas: 59
-- Capital inicial: $1,000.00 | valor actual: $1,016.96 | P&L: $+16.96 (+1.70%)
-- Efectivo libre: $408.62 | en ordenes abiertas: $457.81 (9) | en posiciones: $152.55 (3)
+- Inicio: 2026-11-11T22:05:26Z | dias corridos: 4.2 de 28 | corridas: 60
+- Capital inicial: $1,000.00 | valor actual: $1,018.21 | P&L: $+18.21 (+1.82%)
+- Efectivo libre: $408.99 | en ordenes abiertas: $508.72 (10) | en posiciones: $101.78 (2)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 109 colocadas, 30 llenadas, 47 tocadas sin llenarse (sorteo 30%), 23 expiradas
+- Ordenes virtuales: 110 colocadas, 30 llenadas, 47 tocadas sin llenarse (sorteo 30%), 23 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
 | Regla | n | Precio medio | Pago real | IC95 del pago | Edge | P&L | Dias medios |
 |---|---|---|---|---|---|---|---|
 | cripto_cierre | 6 | 98.86c | 100.00% | 61.0-100.0% | +1.14 pts | $+3.48 | 0.24 |
-| deportes_previo | 12 | 98.70c | 100.00% | 75.7-100.0% | +1.30 pts | $+7.97 | 0.35 |
+| deportes_previo | 13 | 98.72c | 100.00% | 77.2-100.0% | +1.28 pts | $+8.49 | 0.35 |
 | otros_cierre | 7 | 98.87c | 100.00% | 64.6-100.0% | +1.13 pts | $+4.03 | 0.67 |
 | post_fin_95_97 | 2 | 96.65c | 100.00% | 34.2-100.0% | +3.35 pts | $+3.50 | 0.85 |
-| TOTAL | 27 | 98.63c | 100.00% | 87.5-100.0% | +1.37 pts | $+18.98 | 0.45 |
+| TOTAL | 28 | 98.64c | 100.00% | 87.9-100.0% | +1.36 pts | $+19.49 | 0.44 |
 
 ## Peores casos
 
@@ -27,28 +27,27 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
-| $50.77 | 99.0c | 97.9c | deportes_previo |  | Spread: Curaçao (-2.5) |
 | $50.87 | 98.0c | 99.0c | otros_cierre |  | Next Astra Model (6.1+) released by November 15, 2026? |
-| $50.92 | 99.2c | 95.3c | otros_cierre |  | Will the USS Theodore Roosevelt arrive in CENTCOM by November 15, 2026? |
+| $50.92 | 99.2c | 95.7c | otros_cierre |  | Will the USS Theodore Roosevelt arrive in CENTCOM by November 15, 2026? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 1017 | abiertas: 343 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 1021 | abiertas: 350 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
 | cripto_cierre | todas | 313 | 98.80c | 97.76% | -1.03 pts | -2.66 a +0.60 | 7 |
 | cripto_cierre | tocadas | 221 | 98.71c | 96.83% | -1.88 pts | -4.18 a +0.43 | 7 |
-| deportes_previo | todas | 528 | 98.45c | 98.48% | +0.03 pts | -1.01 a +1.07 | 8 |
-| deportes_previo | tocadas | 441 | 98.39c | 98.64% | +0.25 pts | -0.83 a +1.32 | 6 |
+| deportes_previo | todas | 532 | 98.45c | 98.50% | +0.04 pts | -0.99 a +1.08 | 8 |
+| deportes_previo | tocadas | 445 | 98.40c | 98.65% | +0.25 pts | -0.82 a +1.32 | 6 |
 | otros_cierre | todas | 169 | 98.56c | 100.00% | +1.44 pts | +1.33 a +1.55 | 0 |
 | otros_cierre | tocadas | 122 | 98.46c | 100.00% | +1.54 pts | +1.41 a +1.66 | 0 |
 | post_fin_95_97 | todas | 7 | 95.91c | 71.43% | -24.49 pts | -60.55 a +11.58 | 2 |
 | post_fin_95_97 | tocadas | 7 | 95.91c | 71.43% | -24.49 pts | -60.55 a +11.58 | 2 |
-| TOTAL | todas | 1017 | 98.56c | 98.33% | -0.23 pts | -1.01 a +0.55 | 17 |
-| TOTAL | tocadas | 791 | 98.47c | 98.10% | -0.37 pts | -1.31 a +0.58 | 15 |
+| TOTAL | todas | 1021 | 98.56c | 98.33% | -0.22 pts | -1.00 a +0.56 | 17 |
+| TOTAL | tocadas | 795 | 98.47c | 98.11% | -0.36 pts | -1.30 a +0.58 | 15 |
 
 Peores casos del registro sombra:
 
@@ -65,4 +64,4 @@ Peores casos del registro sombra:
 
 ## Veredicto
 
-Aun no hay veredicto: van 27 operaciones cerradas en 4.2 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
+Aun no hay veredicto: van 28 operaciones cerradas en 4.2 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
