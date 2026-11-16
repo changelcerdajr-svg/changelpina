@@ -1,6 +1,6 @@
 {
  "capital0": 1000.0,
- "cash": 408.3034,
+ "cash": 409.1724,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
   {
@@ -212,34 +212,30 @@
    "end_ts": 1794841200.0,
    "hours": 7.98,
    "liq": 4186
+  },
+  {
+   "oid": "6279936-1794816069",
+   "id": "6279936",
+   "q": "Will \"Ebenezer\" score at least 30 on the Rotten Tomatoes Tomatometer?",
+   "cat": "otros",
+   "rule": "otros_cierre",
+   "event": "1262408",
+   "side": 0,
+   "token": "56471147919099807094045720429034353650735828807284369381142235326261407507786",
+   "px": 0.999,
+   "tick": 0.001,
+   "mid": 0.999,
+   "bid": 0.998,
+   "ask": 1,
+   "shares": 51.0892,
+   "cost": 51.0381,
+   "ts": 1794816069.589273,
+   "end_ts": 1794841200.0,
+   "hours": 6.98,
+   "liq": 2085
   }
  ],
  "positions": [
-  {
-   "oid": "5997211-1794769267",
-   "id": "5997211",
-   "q": "Next Astra Model (6.1+) released by November 15, 2026?",
-   "cat": "otros",
-   "rule": "otros_cierre",
-   "event": "965173",
-   "side": 1,
-   "token": "18866750412005984876431378185477049269743085037974956969302421935937443613365",
-   "px": 0.98,
-   "tick": 0.001,
-   "mid": 0.98,
-   "bid": 0.971,
-   "ask": 0.989,
-   "shares": 51.9071,
-   "cost": 50.8689,
-   "ts": 1794769267.216417,
-   "end_ts": 1794805140.0,
-   "hours": 9.96,
-   "liq": 7401,
-   "fill_ts": 1794772863.3365,
-   "mark": 0.99,
-   "stuck": false,
-   "disputed": false
-  },
   {
    "oid": "5238397-1794783664",
    "id": "5238397",
@@ -261,7 +257,7 @@
    "hours": 5.97,
    "liq": 2756,
    "fill_ts": 1794787264.139777,
-   "mark": 0.995,
+   "mark": 0.9965,
    "stuck": false,
    "disputed": false
   }
@@ -1096,6 +1092,36 @@
    "result": 1.0,
    "closed_ts": "2026-11-16T03:01:06Z",
    "days": 0.33
+  },
+  {
+   "oid": "5997211-1794769267",
+   "id": "5997211",
+   "q": "Next Astra Model (6.1+) released by November 15, 2026?",
+   "cat": "otros",
+   "rule": "otros_cierre",
+   "event": "965173",
+   "side": 1,
+   "token": "18866750412005984876431378185477049269743085037974956969302421935937443613365",
+   "px": 0.98,
+   "tick": 0.001,
+   "mid": 0.98,
+   "bid": 0.971,
+   "ask": 0.989,
+   "shares": 51.9071,
+   "cost": 50.8689,
+   "ts": 1794769267.216417,
+   "end_ts": 1794805140.0,
+   "hours": 9.96,
+   "liq": 7401,
+   "fill_ts": 1794772863.3365,
+   "mark": 0.99,
+   "stuck": false,
+   "disputed": false,
+   "payout": 51.9071,
+   "pnl": 1.0382,
+   "result": 1.0,
+   "closed_ts": "2026-11-16T08:01:11Z",
+   "days": 0.5
   }
  ],
  "runs": [
@@ -1926,11 +1952,24 @@
    "placed": 1,
    "shadow_open": 370,
    "shadow_closed": 0
+  },
+  {
+   "ts": "2026-11-16T08:01:57Z",
+   "equity": 1020.76,
+   "cash": 409.17,
+   "orders": 11,
+   "positions": 1,
+   "closed": 29,
+   "scanned": 8008,
+   "candidates": 155,
+   "placed": 1,
+   "shadow_open": 365,
+   "shadow_closed": 20
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 116,
+  "placed": 117,
   "filled": 30,
   "expired": 28,
   "touched_not_filled": 48
@@ -1948,45 +1987,6 @@
    "end_ts": 1794545940,
    "q": "Will the USS Theodore Roosevelt arrive in CENTCOM by November 12, 2026?",
    "touched": 0
-  },
-  {
-   "id": "6694287",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "87184469626825691168870654533375270961681899243355153848454246480232417748703",
-   "px": 0.987,
-   "tick": 0.001,
-   "ts": 1794485864,
-   "end_ts": 1794592800,
-   "q": "Will CU Técnica de Cajamarca win on 2026-11-13?",
-   "touched": 0
-  },
-  {
-   "id": "6694288",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "11842278485615484753086794584987922011059410266768742782237243406117125742445",
-   "px": 0.985,
-   "tick": 0.001,
-   "ts": 1794485864,
-   "end_ts": 1794592800,
-   "q": "Will CU Técnica de Cajamarca vs. CD Los Chankas end in a draw?",
-   "touched": 1
-  },
-  {
-   "id": "6694289",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "44001564040084943286687965721518673168799098671163898745784070332210313973891",
-   "px": 0.991,
-   "tick": 0.001,
-   "ts": 1794485864,
-   "end_ts": 1794592800,
-   "q": "Will CD Los Chankas win on 2026-11-13?",
-   "touched": 1
   },
   {
    "id": "6694293",
@@ -3302,71 +3302,6 @@
    "touched": 1
   },
   {
-   "id": "5880852",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "3934373954042727000670992896412955497312423957746188198398645944802862077041",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1794737886,
-   "end_ts": 1794805140,
-   "q": "France declares state of siege (martial law) by November 15, 2026?",
-   "touched": 0
-  },
-  {
-   "id": "6253456",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "51053791904274415849547538702562381201900924106895424422051101996898222782637",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1794737886,
-   "end_ts": 1794805140,
-   "q": "Will Predict.fun launch a token by November 15, 2026?",
-   "touched": 0
-  },
-  {
-   "id": "6279780",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "72923223124063338417913700898893875506362833541463828155882479452113300232975",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1794737886,
-   "end_ts": 1794805140,
-   "q": "Trump declassifies new UFO files by November 15?",
-   "touched": 1
-  },
-  {
-   "id": "6364918",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "58360635994110639087420073681161252961102560667302784429206526689377981617979",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1794737886,
-   "end_ts": 1794805140,
-   "q": "Will the next Gemini Flash-Lite model (3.6+) be released on November 15, 2026?",
-   "touched": 1
-  },
-  {
-   "id": "6723099",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "66563268389219960546583443669418279415495585716537629245417407276519810272036",
-   "px": 0.996,
-   "tick": 0.001,
-   "ts": 1794737886,
-   "end_ts": 1794805140,
-   "q": "Marco Rubio out as Secretary of State by November 15, 2026?",
-   "touched": 0
-  },
-  {
    "id": "6760886",
    "rule": "otros_cierre",
    "cat": "otros",
@@ -3471,32 +3406,6 @@
    "touched": 1
   },
   {
-   "id": "6999865",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "71952021727321480980954830548349972584741247417267623276259344096238328352432",
-   "px": 0.975,
-   "tick": 0.001,
-   "ts": 1794737886,
-   "end_ts": 1794805140,
-   "q": "Will Jensen Huang post again on X by November 15?",
-   "touched": 1
-  },
-  {
-   "id": "7029424",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "9164550472684040199498106925252207754416713024093636854668378946372128955011",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1794737886,
-   "end_ts": 1794805140,
-   "q": "Will the next Gemini Carbon model (4.1+) be released on November 15, 2026?",
-   "touched": 0
-  },
-  {
    "id": "6632291",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -3575,19 +3484,6 @@
    "touched": 1
   },
   {
-   "id": "7009973",
-   "rule": "post_fin_95_97",
-   "cat": "clima",
-   "side": 1,
-   "token": "32774497172301030913791973761751902405210256606457136817717045657451353717411",
-   "px": 0.963,
-   "tick": 0.001,
-   "ts": 1794757512,
-   "end_ts": 1794744000,
-   "q": "Will the highest temperature in Chicago be between 54-55°F on November 15?",
-   "touched": 1
-  },
-  {
    "id": "6929811",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -3624,45 +3520,6 @@
    "ts": 1794757512,
    "end_ts": 1794791400,
    "q": "Spread: Deportes Quindio (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "5997211",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "18866750412005984876431378185477049269743085037974956969302421935937443613365",
-   "px": 0.982,
-   "tick": 0.001,
-   "ts": 1794757512,
-   "end_ts": 1794805140,
-   "q": "Next Astra Model (6.1+) released by November 15, 2026?",
-   "touched": 1
-  },
-  {
-   "id": "6017456",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "51837090637542756067213338850685617920063204749420831806381084595229862511034",
-   "px": 0.976,
-   "tick": 0.001,
-   "ts": 1794757512,
-   "end_ts": 1794805140,
-   "q": "Will GPT Astra 6.1+ be released between November 9 and November 15, 2026?",
-   "touched": 0
-  },
-  {
-   "id": "6698733",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "35423537805227329585609264865780724601647579245231991567084045046450848666028",
-   "px": 0.987,
-   "tick": 0.001,
-   "ts": 1794757512,
-   "end_ts": 1794805140,
-   "q": "Next James Bond announced by November 15, 2026?",
    "touched": 1
   },
   {
@@ -4160,19 +4017,6 @@
    "touched": 1
   },
   {
-   "id": "6625209",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "27696635463759399407647778648416296529588934350818787371093561887385401272654",
-   "px": 0.982,
-   "tick": 0.001,
-   "ts": 1794762066,
-   "end_ts": 1794805140,
-   "q": "Will GPT Astra 6.1+ be released on November 15, 2026?",
-   "touched": 0
-  },
-  {
    "id": "6279938",
    "rule": "otros_cierre",
    "cat": "otros",
@@ -4524,32 +4368,6 @@
    "touched": 1
   },
   {
-   "id": "6364885",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "2007656405375942652658810843171714472412947216129100115424441140270466527851",
-   "px": 0.989,
-   "tick": 0.001,
-   "ts": 1794765665,
-   "end_ts": 1794805140,
-   "q": "Will the next Claude Opus model (5.6+) be released on November 15, 2026?",
-   "touched": 1
-  },
-  {
-   "id": "6364950",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "7372873746770562315806654139443026277243903497290288537008624356586482290992",
-   "px": 0.984,
-   "tick": 0.001,
-   "ts": 1794765665,
-   "end_ts": 1794805140,
-   "q": "Will the next Grok model (4.8+) be released on November 15, 2026?",
-   "touched": 0
-  },
-  {
    "id": "6632126",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -4875,45 +4693,6 @@
    "touched": 0
   },
   {
-   "id": "6891218",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "57661649920432843358871843038268736649986232975697284691946255059330926417903",
-   "px": 0.971,
-   "tick": 0.001,
-   "ts": 1794772863,
-   "end_ts": 1794805200,
-   "q": "Will Bitcoin dip to $60,000 November 9-15?",
-   "touched": null
-  },
-  {
-   "id": "7057692",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "109274725637220435709034032210380744403322449171487811095381197088711842909096",
-   "px": 0.974,
-   "tick": 0.001,
-   "ts": 1794772863,
-   "end_ts": 1794805200,
-   "q": "Will Bitcoin dip to $60,000 on November 15?",
-   "touched": null
-  },
-  {
-   "id": "7057709",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "32334933349907689413056358313902476359171260045687354580839580967061248335833",
-   "px": 0.973,
-   "tick": 0.001,
-   "ts": 1794772863,
-   "end_ts": 1794805200,
-   "q": "Will Ethereum dip to $1,650 on November 15?",
-   "touched": null
-  },
-  {
    "id": "6632125",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -4924,7 +4703,7 @@
    "ts": 1794772863,
    "end_ts": 1794848400,
    "q": "Lithuania vs. Liechtenstein: O/U 7.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7071348",
@@ -4937,7 +4716,7 @@
    "ts": 1794772863,
    "end_ts": 1794841200,
    "q": "Will the US national average gas price be $3.8400+ on November 16?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6976226",
@@ -6744,6 +6523,201 @@
    "ts": 1794812467,
    "end_ts": 1794891600,
    "q": "Will XRP dip to $0.75 on November 16?",
+   "touched": null
+  },
+  {
+   "id": "6632262",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "110524399107162875332366181903765054074434045969496351586861466892569125837370",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1794816069,
+   "end_ts": 1794848400,
+   "q": "Iceland vs. Luxembourg: Luxembourg O/U 2.5",
+   "touched": null
+  },
+  {
+   "id": "6631988",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "75925130906979269010631388036266909292052000878040759891048046348693316574927",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1794816069,
+   "end_ts": 1794858300,
+   "q": "Spread: North Macedonia (-1.5)",
+   "touched": null
+  },
+  {
+   "id": "6679146",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "76268759434350488161606835335747996772548872898297760819235324026179010887133",
+   "px": 0.975,
+   "tick": 0.001,
+   "ts": 1794816069,
+   "end_ts": 1794855600,
+   "q": "Cuba vs. Grenada: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6957443",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "40682109630364279984755264984005109363418684388105682692862056818972481606020",
+   "px": 0.976,
+   "tick": 0.001,
+   "ts": 1794816069,
+   "end_ts": 1794870000,
+   "q": "Spread: Montevideo Wanderers (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "6679036",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "9666913598628544540646646592470667615828744866298312133812456771779253060794",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1794816069,
+   "end_ts": 1794873600,
+   "q": "Spread: Aruba (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "6679038",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "46211438115549279687837004831899961931572150477330074547036657869550124615607",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1794816069,
+   "end_ts": 1794873600,
+   "q": "Spread: Aruba (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "6679043",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "76541080773201611020779433759217398974865310150536348648619024800813355892484",
+   "px": 0.975,
+   "tick": 0.001,
+   "ts": 1794816069,
+   "end_ts": 1794873600,
+   "q": "Martinique vs. Aruba: O/U 0.5",
+   "touched": null
+  },
+  {
+   "id": "6679050",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "28112839082965878600969552121542145291854713683942056196240223602191314518159",
+   "px": 0.973,
+   "tick": 0.001,
+   "ts": 1794816069,
+   "end_ts": 1794873600,
+   "q": "Martinique vs. Aruba: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6679093",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "107537491042756108701990155473127255520901614664517286666238958314961196800620",
+   "px": 0.974,
+   "tick": 0.001,
+   "ts": 1794816069,
+   "end_ts": 1794873600,
+   "q": "Trinidad and Tobago vs. Antigua and Barbuda: O/U 0.5",
+   "touched": null
+  },
+  {
+   "id": "6679100",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "79258092293444652872270992965163201271294033634228972204694670841726836327611",
+   "px": 0.973,
+   "tick": 0.001,
+   "ts": 1794816069,
+   "end_ts": 1794873600,
+   "q": "Trinidad and Tobago vs. Antigua and Barbuda: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6918220",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "74475179841760314125699534118981292415664275026215040934688742614572364662871",
+   "px": 0.983,
+   "tick": 0.001,
+   "ts": 1794816069,
+   "end_ts": 1794873600,
+   "q": "Grambling State Tigers vs. Kentucky Wildcats",
+   "touched": null
+  },
+  {
+   "id": "7081997",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "10791034787299460819319532663264959898280155127224629316646275305976068625135",
+   "px": 0.975,
+   "tick": 0.001,
+   "ts": 1794816069,
+   "end_ts": 1794873600,
+   "q": "Spread: Grizzlies (-29.5)",
+   "touched": null
+  },
+  {
+   "id": "7085182",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "111796246813784069849722391525331011954830565434917381196912286391562019850846",
+   "px": 0.971,
+   "tick": 0.001,
+   "ts": 1794816069,
+   "end_ts": 1794891600,
+   "q": "Will Bitcoin dip to $60,000 on November 16?",
+   "touched": null
+  },
+  {
+   "id": "6635051",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "77422435104620535026403250386404639623074604064724536805070904960825749242366",
+   "px": 0.982,
+   "tick": 0.001,
+   "ts": 1794816069,
+   "end_ts": 1794924000,
+   "q": "Will Indonesia vs. Kuwait end in a draw?",
+   "touched": null
+  },
+  {
+   "id": "6635052",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "112401518498700656996556889200904961435867205517645985180077983025331377512104",
+   "px": 0.983,
+   "tick": 0.001,
+   "ts": 1794816069,
+   "end_ts": 1794924000,
+   "q": "Will Kuwait win on 2026-11-17?",
    "touched": null
   }
  ]
