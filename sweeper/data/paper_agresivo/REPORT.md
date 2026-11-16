@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 3.2 de 28 | corridas: 37
-- Capital inicial: $1,000.00 | valor actual: $833.62 | P&L: $-166.38 (-16.64%)
-- Efectivo libre: $0.00 | en ordenes abiertas: $462.64 (9) | en posiciones: $370.96 (5)
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 3.2 de 28 | corridas: 38
+- Capital inicial: $1,000.00 | valor actual: $832.45 | P&L: $-167.55 (-16.75%)
+- Efectivo libre: $0.00 | en ordenes abiertas: $439.94 (9) | en posiciones: $393.66 (6)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 83 colocadas, 33 llenadas, 28 tocadas sin llenarse (sorteo 30%), 13 expiradas
+- Ordenes virtuales: 87 colocadas, 34 llenadas, 31 tocadas sin llenarse (sorteo 30%), 13 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -30,16 +30,17 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
 | $90.86 | 99.7c | 96.7c | otros_cierre |  | Will "Ghost Soldier" Opening Weekend Box Office be between 3m and 4m? |
-| $91.86 | 96.0c | 97.5c | post_fin_90_97 |  | Florida A&M Rattlers vs. UTEP Miners |
+| $91.86 | 96.0c | 97.0c | post_fin_90_97 |  | Florida A&M Rattlers vs. UTEP Miners |
 | $14.23 | 97.7c | 97.0c | otros_cierre |  | Will the USS George Washington depart CENTCOM by November 15, 2026? |
-| $91.77 | 99.8c | 97.1c | otros_cierre |  | Pakistan military action against Afghanistan by November 15, 2026? |
+| $91.77 | 99.8c | 96.5c | otros_cierre |  | Pakistan military action against Afghanistan by November 15, 2026? |
 | $82.24 | 95.0c | 99.5c | clima_cierre |  | Will the highest temperature in Paris be 14°C on November 16? |
+| $22.70 | 99.8c | 99.8c | cripto_cierre |  | Amazon (AMZN) Up or Down on November 16? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 2394 | abiertas: 1953 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 2398 | abiertas: 1990 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
@@ -49,12 +50,12 @@ Cada mercado que cumple una regla se anota una vez al precio limite que se habri
 | cripto_cierre | tocadas | 388 | 99.11c | 96.91% | -2.20 pts | -3.90 a -0.50 | 12 |
 | deportes_previo | todas | 1076 | 97.93c | 96.56% | -1.37 pts | -2.46 a -0.29 | 37 |
 | deportes_previo | tocadas | 1058 | 97.97c | 96.50% | -1.47 pts | -2.57 a -0.37 | 37 |
-| otros_cierre | todas | 321 | 99.37c | 99.69% | +0.31 pts | -0.30 a +0.93 | 1 |
-| otros_cierre | tocadas | 308 | 99.37c | 99.68% | +0.30 pts | -0.34 a +0.94 | 1 |
-| post_fin_90_97 | todas | 15 | 95.00c | 100.00% | +5.00 pts | +4.48 a +5.52 | 0 |
-| post_fin_90_97 | tocadas | 14 | 95.00c | 100.00% | +5.00 pts | +4.44 a +5.56 | 0 |
-| TOTAL | todas | 2394 | 98.59c | 97.79% | -0.80 pts | -1.39 a -0.22 | 53 |
-| TOTAL | tocadas | 2283 | 98.58c | 97.68% | -0.91 pts | -1.52 a -0.29 | 53 |
+| otros_cierre | todas | 324 | 99.36c | 99.69% | +0.34 pts | -0.27 a +0.95 | 1 |
+| otros_cierre | tocadas | 311 | 99.35c | 99.68% | +0.33 pts | -0.31 a +0.96 | 1 |
+| post_fin_90_97 | todas | 16 | 95.11c | 100.00% | +4.89 pts | +4.36 a +5.42 | 0 |
+| post_fin_90_97 | tocadas | 15 | 95.11c | 100.00% | +4.89 pts | +4.32 a +5.45 | 0 |
+| TOTAL | todas | 2398 | 98.59c | 97.79% | -0.80 pts | -1.38 a -0.21 | 53 |
+| TOTAL | tocadas | 2287 | 98.58c | 97.68% | -0.90 pts | -1.51 a -0.29 | 53 |
 
 Peores casos del registro sombra:
 

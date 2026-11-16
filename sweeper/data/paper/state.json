@@ -109,27 +109,6 @@
    "liq": 3364
   },
   {
-   "oid": "7013443-1794852072",
-   "id": "7013443",
-   "q": "Amazon (AMZN) Up or Down on November 16?",
-   "cat": "cripto",
-   "rule": "cripto_cierre",
-   "event": "1379155",
-   "side": 1,
-   "token": "29240757745032627284380008503335424211836451023889877679837209180588707439648",
-   "px": 0.987,
-   "tick": 0.001,
-   "mid": 0.9875,
-   "bid": 0.976,
-   "ask": 0.999,
-   "shares": 51.3096,
-   "cost": 50.6425,
-   "ts": 1794852072.879199,
-   "end_ts": 1794862800.0,
-   "hours": 2.98,
-   "liq": 1938
-  },
-  {
    "oid": "7013458-1794852072",
    "id": "7013458",
    "q": "Will Apple (AAPL) close above $345 on November 16?",
@@ -215,7 +194,7 @@
    "hours": 5.97,
    "liq": 2756,
    "fill_ts": 1794787264.139777,
-   "mark": 0.9905,
+   "mark": 0.963,
    "stuck": false,
    "disputed": false
   },
@@ -265,9 +244,32 @@
    "hours": 6.48,
    "liq": 12931,
    "fill_ts": 1794837685.269892,
-   "mark": 0.984,
+   "mark": 0.9845,
    "stuck": false,
    "disputed": false
+  },
+  {
+   "oid": "7013443-1794852072",
+   "id": "7013443",
+   "q": "Amazon (AMZN) Up or Down on November 16?",
+   "cat": "cripto",
+   "rule": "cripto_cierre",
+   "event": "1379155",
+   "side": 1,
+   "token": "29240757745032627284380008503335424211836451023889877679837209180588707439648",
+   "px": 0.987,
+   "tick": 0.001,
+   "mid": 0.9875,
+   "bid": 0.976,
+   "ask": 0.999,
+   "shares": 51.3096,
+   "cost": 50.6425,
+   "ts": 1794852072.879199,
+   "end_ts": 1794862800.0,
+   "hours": 2.98,
+   "liq": 1938,
+   "fill_ts": 1794854306.913107,
+   "mark": 0.987
   }
  ],
  "closed": [
@@ -2208,12 +2210,25 @@
    "placed": 4,
    "shadow_open": 423,
    "shadow_closed": 70
+  },
+  {
+   "ts": "2026-11-16T18:39:26Z",
+   "equity": 1011.46,
+   "cash": 419.38,
+   "orders": 8,
+   "positions": 4,
+   "closed": 33,
+   "scanned": 11167,
+   "candidates": 136,
+   "placed": 0,
+   "shadow_open": 423,
+   "shadow_closed": 6
   }
  ],
  "halted": false,
  "stats": {
   "placed": 130,
-  "filled": 36,
+  "filled": 37,
   "expired": 33,
   "touched_not_filled": 52
  },
@@ -3480,19 +3495,6 @@
    "touched": 1
   },
   {
-   "id": "6976220",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "95598463265794213494636049926574760020854510929713649013896209451478824221338",
-   "px": 0.989,
-   "tick": 0.001,
-   "ts": 1794737886,
-   "end_ts": 1794744000,
-   "q": "Will \"Godzilla Minus Zero\" 2nd Weekend Box Office be between 10m and 11m?",
-   "touched": 0
-  },
-  {
    "id": "6976221",
    "rule": "otros_cierre",
    "cat": "otros",
@@ -4117,19 +4119,6 @@
    "touched": 1
   },
   {
-   "id": "6976217",
-   "rule": "post_fin_95_97",
-   "cat": "otros",
-   "side": 1,
-   "token": "114028025618794277940670455651599587474143180486097203170276009133246466936076",
-   "px": 0.959,
-   "tick": 0.001,
-   "ts": 1794765665,
-   "end_ts": 1794744000,
-   "q": "Will \"Godzilla Minus Zero\" 2nd Weekend Box Office be less than 8m?",
-   "touched": 1
-  },
-  {
    "id": "6632126",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -4414,58 +4403,6 @@
    "end_ts": 1794909600,
    "q": "Singapore vs. Brazil: O/U 0.5",
    "touched": 0
-  },
-  {
-   "id": "6630937",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "46916421237201335055278413087900417744301529087254846936067987297869924189922",
-   "px": 0.98,
-   "tick": 0.001,
-   "ts": 1794805267,
-   "end_ts": 1794834000,
-   "q": "Spread: Equatorial Guinea (-2.5)",
-   "touched": 1
-  },
-  {
-   "id": "6630938",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "16073520554468373324517717528416144726423986704062636565562433491903918476018",
-   "px": 0.98,
-   "tick": 0.001,
-   "ts": 1794805267,
-   "end_ts": 1794834000,
-   "q": "Spread: Zimbabwe (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "6630939",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "53642133824128236136552301343932860712727949056835890560775813946853099123922",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1794805267,
-   "end_ts": 1794834000,
-   "q": "Spread: Equatorial Guinea (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "6630949",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "48618872585787732942994723588084832635123392303264752167050819497697979563058",
-   "px": 0.98,
-   "tick": 0.001,
-   "ts": 1794805267,
-   "end_ts": 1794834000,
-   "q": "Zimbabwe vs. Equatorial Guinea: O/U 5.5",
-   "touched": 1
   },
   {
    "id": "6630749",
@@ -7715,6 +7652,84 @@
    "ts": 1794852072,
    "end_ts": 1794960000,
    "q": "Mount St. Mary's Mountaineers vs. Nebraska Cornhuskers (W)",
+   "touched": null
+  },
+  {
+   "id": "7013468",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "25309040680022904589819472869299076643155302719150956111458569426596041523767",
+   "px": 0.982,
+   "tick": 0.001,
+   "ts": 1794854306,
+   "end_ts": 1794862800,
+   "q": "Will Microsoft (MSFT) close above $530 on November 16?",
+   "touched": null
+  },
+  {
+   "id": "7013549",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "56908270105935775193805332806428499266003961556887941371806866005355825545655",
+   "px": 0.975,
+   "tick": 0.001,
+   "ts": 1794854306,
+   "end_ts": 1794866400,
+   "q": "Gold (XAUUSD) Up or Down on November 16?",
+   "touched": null
+  },
+  {
+   "id": "6929810",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "73859886257099509091255944730728030471602448857384508177728947572715184278385",
+   "px": 0.977,
+   "tick": 0.001,
+   "ts": 1794854306,
+   "end_ts": 1794880800,
+   "q": "Spread: New Mexico United (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "6672357",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "81350355256749081262192785940997496053287101679662133892647818345848871044710",
+   "px": 0.972,
+   "tick": 0.001,
+   "ts": 1794854306,
+   "end_ts": 1794931200,
+   "q": "Kenya vs. South Africa: O/U 5.5",
+   "touched": null
+  },
+  {
+   "id": "6935838",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "8459046142200769103800319445241013660323307982816025403984281659798370267773",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1794854306,
+   "end_ts": 1794934800,
+   "q": "Will the price of Bitcoin be between $68,000 and $70,000 on November 17?",
+   "touched": null
+  },
+  {
+   "id": "7097647",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "91506374837535356452097918098906982024464965812338572062342676601983744639051",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1794854306,
+   "end_ts": 1794960000,
+   "q": "Sabres vs. Flyers: O/U 2.5",
    "touched": null
   }
  ]
