@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 2.9 de 28 | corridas: 32
-- Capital inicial: $1,000.00 | valor actual: $918.81 | P&L: $-81.19 (-8.12%)
-- Efectivo libre: $-0.00 | en ordenes abiertas: $368.01 (7) | en posiciones: $554.91 (7)
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 3.0 de 28 | corridas: 33
+- Capital inicial: $1,000.00 | valor actual: $917.52 | P&L: $-82.48 (-8.25%)
+- Efectivo libre: $1.24 | en ordenes abiertas: $366.77 (7) | en posiciones: $554.91 (7)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 75 colocadas, 32 llenadas, 24 tocadas sin llenarse (sorteo 30%), 12 expiradas
+- Ordenes virtuales: 77 colocadas, 32 llenadas, 26 tocadas sin llenarse (sorteo 30%), 12 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -28,19 +28,19 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
-| $90.86 | 99.7c | 98.3c | otros_cierre |  | Will "Ghost Soldier" Opening Weekend Box Office be between 3m and 4m? |
+| $90.86 | 99.7c | 98.0c | otros_cierre |  | Will "Ghost Soldier" Opening Weekend Box Office be between 3m and 4m? |
 | $91.86 | 96.0c | 96.0c | post_fin_90_97 |  | Florida A&M Rattlers vs. UTEP Miners |
 | $14.23 | 97.7c | 97.0c | otros_cierre |  | Will the USS George Washington depart CENTCOM by November 15, 2026? |
-| $91.77 | 99.8c | 97.0c | otros_cierre |  | Pakistan military action against Afghanistan by November 15, 2026? |
-| $82.24 | 95.0c | 96.9c | clima_cierre |  | Will the highest temperature in Paris be 14°C on November 16? |
-| $91.92 | 95.0c | 94.0c | deportes_previo |  | Sudan vs. Senegal: O/U 5.5 |
+| $91.77 | 99.8c | 96.5c | otros_cierre |  | Pakistan military action against Afghanistan by November 15, 2026? |
+| $82.24 | 95.0c | 99.0c | clima_cierre |  | Will the highest temperature in Paris be 14°C on November 16? |
+| $91.92 | 95.0c | 91.5c | deportes_previo |  | Sudan vs. Senegal: O/U 5.5 |
 | $92.03 | 98.4c | 97.5c | deportes_previo |  | Sudan vs. Senegal: O/U 6.5 |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 2052 | abiertas: 1948 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 2052 | abiertas: 1990 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
@@ -72,4 +72,4 @@ Peores casos del registro sombra:
 
 ## Veredicto
 
-Aun no hay veredicto: van 25 operaciones cerradas en 2.9 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
+Aun no hay veredicto: van 25 operaciones cerradas en 3.0 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.

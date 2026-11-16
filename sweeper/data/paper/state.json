@@ -1,29 +1,8 @@
 {
  "capital0": 1000.0,
- "cash": 408.9238,
+ "cash": 414.569,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
-  {
-   "oid": "6630888-1794794465",
-   "id": "6630888",
-   "q": "Spread: Namibia (-1.5)",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1307117",
-   "side": 1,
-   "token": "53488240017710734485177038941239005240725071669327484237556638379896577215889",
-   "px": 0.972,
-   "tick": 0.001,
-   "mid": 0.9725,
-   "bid": 0.961,
-   "ask": 0.984,
-   "shares": 52.228,
-   "cost": 50.7657,
-   "ts": 1794794465.442707,
-   "end_ts": 1794834000.0,
-   "hours": 10.98,
-   "liq": 1054
-  },
   {
    "oid": "6017456-1794801665",
    "id": "6017456",
@@ -130,7 +109,7 @@
    "liq": 1091
   },
   {
-   "oid": "6909146-1794826874",
+   "oid": "6909146-1794834077",
    "id": "6909146",
    "q": "Will the price of Ethereum be above $1,700 on November 16?",
    "cat": "cripto",
@@ -138,38 +117,38 @@
    "event": "1350188",
    "side": 0,
    "token": "107647777952428710899094433473656345286964580038824191443043027927035611304007",
-   "px": 0.979,
+   "px": 0.973,
    "tick": 0.001,
-   "mid": 0.9795,
-   "bid": 0.979,
-   "ask": 0.98,
-   "shares": 52.1264,
-   "cost": 51.0317,
-   "ts": 1794826874.860577,
+   "mid": 0.9735,
+   "bid": 0.969,
+   "ask": 0.978,
+   "shares": 49.345,
+   "cost": 48.0127,
+   "ts": 1794834077.303687,
    "end_ts": 1794848400.0,
-   "hours": 5.98,
-   "liq": 26375
+   "hours": 3.98,
+   "liq": 43054
   },
   {
-   "oid": "6630489-1794826874",
-   "id": "6630489",
-   "q": "Will Somalia win on 2026-11-16?",
+   "oid": "6653453-1794834077",
+   "id": "6653453",
+   "q": "Spread: Celta Fortuna (-2.5)",
    "cat": "deportes",
    "rule": "deportes_previo",
-   "event": "1307028",
+   "event": "1309761",
    "side": 1,
-   "token": "27268541307629909886866550660559618326321348344697589200672975116943055333260",
-   "px": 0.979,
+   "token": "31658897444099326609067315581199243463598784752274163289179654968199966941961",
+   "px": 0.98,
    "tick": 0.001,
-   "mid": 0.979,
-   "bid": 0.978,
-   "ask": 0.98,
-   "shares": 52.1264,
-   "cost": 51.0317,
-   "ts": 1794826874.860577,
-   "end_ts": 1794852000.0,
-   "hours": 6.98,
-   "liq": 17006
+   "mid": 0.9805,
+   "bid": 0.975,
+   "ask": 0.986,
+   "shares": 49.1219,
+   "cost": 48.1395,
+   "ts": 1794834077.303687,
+   "end_ts": 1794857400.0,
+   "hours": 6.48,
+   "liq": 12931
   }
  ],
  "positions": [
@@ -194,7 +173,7 @@
    "hours": 5.97,
    "liq": 2756,
    "fill_ts": 1794787264.139777,
-   "mark": 0.9925,
+   "mark": 0.964,
    "stuck": false,
    "disputed": false
   },
@@ -219,7 +198,7 @@
    "hours": 9.98,
    "liq": 2093,
    "fill_ts": 1794823267.6055,
-   "mark": 0.971,
+   "mark": 0.7025,
    "stuck": false,
    "disputed": false
   },
@@ -244,7 +223,7 @@
    "hours": 10.98,
    "liq": 41907,
    "fill_ts": 1794823267.6055,
-   "mark": 0.9975,
+   "mark": 0.9985,
    "stuck": false,
    "disputed": false
   },
@@ -272,6 +251,29 @@
    "mark": 0.985,
    "stuck": false,
    "disputed": false
+  },
+  {
+   "oid": "6630489-1794826874",
+   "id": "6630489",
+   "q": "Will Somalia win on 2026-11-16?",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1307028",
+   "side": 1,
+   "token": "27268541307629909886866550660559618326321348344697589200672975116943055333260",
+   "px": 0.979,
+   "tick": 0.001,
+   "mid": 0.979,
+   "bid": 0.978,
+   "ask": 0.98,
+   "shares": 52.1264,
+   "cost": 51.0317,
+   "ts": 1794826874.860577,
+   "end_ts": 1794852000.0,
+   "hours": 6.98,
+   "liq": 17006,
+   "fill_ts": 1794834077.303687,
+   "mark": 0.979
   }
  ],
  "closed": [
@@ -2029,14 +2031,27 @@
    "placed": 0,
    "shadow_open": 381,
    "shadow_closed": 3
+  },
+  {
+   "ts": "2026-11-16T13:02:06Z",
+   "equity": 1004.99,
+   "cash": 414.57,
+   "orders": 7,
+   "positions": 5,
+   "closed": 29,
+   "scanned": 9436,
+   "candidates": 124,
+   "placed": 2,
+   "shadow_open": 381,
+   "shadow_closed": 4
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 121,
-  "filled": 33,
+  "placed": 123,
+  "filled": 34,
   "expired": 30,
-  "touched_not_filled": 50
+  "touched_not_filled": 52
  },
  "shadow": [
   {
@@ -4835,58 +4850,6 @@
    "touched": 1
   },
   {
-   "id": "6941894",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "4168407467703137754202092290850837581193253476896128679591945899087819613495",
-   "px": 0.984,
-   "tick": 0.001,
-   "ts": 1794790864,
-   "end_ts": 1794805200,
-   "q": "Will XRP reach $1.10 November 9-15?",
-   "touched": null
-  },
-  {
-   "id": "7044108",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "85315990957150794884586310080296293521364586493082609649774872830369968034965",
-   "px": 0.987,
-   "tick": 0.001,
-   "ts": 1794790864,
-   "end_ts": 1794805200,
-   "q": "Will Ethereum reach $1,900 November 9-15?",
-   "touched": null
-  },
-  {
-   "id": "7057684",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "82931227660011449577514015430050891402726827649500925309361335647324624056291",
-   "px": 0.977,
-   "tick": 0.001,
-   "ts": 1794790864,
-   "end_ts": 1794805200,
-   "q": "Will Bitcoin reach $67,000 on November 15?",
-   "touched": null
-  },
-  {
-   "id": "7057703",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "112639682679075843895552176441478604183714969472295393423293868135029983545724",
-   "px": 0.984,
-   "tick": 0.001,
-   "ts": 1794790864,
-   "end_ts": 1794805200,
-   "q": "Will Ethereum reach $1,900 on November 15?",
-   "touched": null
-  },
-  {
    "id": "6654554",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -4897,7 +4860,7 @@
    "ts": 1794790864,
    "end_ts": 1794852000,
    "q": "Andorra vs. Azerbaijan: O/U 5.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6909294",
@@ -4910,7 +4873,7 @@
    "ts": 1794790864,
    "end_ts": 1794848400,
    "q": "Will the price of Solana be above $65 on November 16?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6909398",
@@ -4923,7 +4886,7 @@
    "ts": 1794790864,
    "end_ts": 1794848400,
    "q": "Will the price of XRP be above $0.90 on November 16?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6632066",
@@ -4936,7 +4899,7 @@
    "ts": 1794790864,
    "end_ts": 1794858300,
    "q": "Gibraltar vs. Malta: O/U 8.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6914543",
@@ -6990,6 +6953,58 @@
    "ts": 1794830472,
    "end_ts": 1794884400,
    "q": "Long Beach State Beach vs. UCLA Bruins",
+   "touched": null
+  },
+  {
+   "id": "7013510",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "50091112248194012622614459972321830395764446818922451216946155442784865386214",
+   "px": 0.983,
+   "tick": 0.001,
+   "ts": 1794834077,
+   "end_ts": 1794862800,
+   "q": "S&P 500 (SPX) Opens Up or Down on November 16?",
+   "touched": null
+  },
+  {
+   "id": "7082171",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "84018937721031060153862950541772499215201456095172600245040682487086620233111",
+   "px": 0.977,
+   "tick": 0.001,
+   "ts": 1794834077,
+   "end_ts": 1794880800,
+   "q": "Spread: Suns (-15.5)",
+   "touched": null
+  },
+  {
+   "id": "7085156",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "19303349107912195610316049474572906942540101971988473735947317636361791637894",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1794834077,
+   "end_ts": 1794891600,
+   "q": "Will Bitcoin reach $68,000 on November 16?",
+   "touched": null
+  },
+  {
+   "id": "6695396",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "109308895859563123508753985991203910209243870062302940282053984483582651795412",
+   "px": 0.982,
+   "tick": 0.001,
+   "ts": 1794834077,
+   "end_ts": 1794931200,
+   "q": "Jordan vs. Australia: O/U 6.5",
    "touched": null
   }
  ]
