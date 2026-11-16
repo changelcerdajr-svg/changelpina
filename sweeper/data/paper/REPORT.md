@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-11T22:05:26Z | dias corridos: 4.2 de 28 | corridas: 60
-- Capital inicial: $1,000.00 | valor actual: $1,018.21 | P&L: $+18.21 (+1.82%)
-- Efectivo libre: $408.99 | en ordenes abiertas: $508.72 (10) | en posiciones: $101.78 (2)
+- Inicio: 2026-11-11T22:05:26Z | dias corridos: 4.2 de 28 | corridas: 61
+- Capital inicial: $1,000.00 | valor actual: $1,019.73 | P&L: $+19.73 (+1.97%)
+- Efectivo libre: $408.51 | en ordenes abiertas: $509.19 (10) | en posiciones: $101.78 (2)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 110 colocadas, 30 llenadas, 47 tocadas sin llenarse (sorteo 30%), 23 expiradas
+- Ordenes virtuales: 113 colocadas, 30 llenadas, 47 tocadas sin llenarse (sorteo 30%), 26 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -28,26 +28,26 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
 | $50.87 | 98.0c | 99.0c | otros_cierre |  | Next Astra Model (6.1+) released by November 15, 2026? |
-| $50.92 | 99.2c | 95.7c | otros_cierre |  | Will the USS Theodore Roosevelt arrive in CENTCOM by November 15, 2026? |
+| $50.92 | 99.2c | 98.7c | otros_cierre |  | Will the USS Theodore Roosevelt arrive in CENTCOM by November 15, 2026? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 1021 | abiertas: 350 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 1045 | abiertas: 332 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
-| cripto_cierre | todas | 313 | 98.80c | 97.76% | -1.03 pts | -2.66 a +0.60 | 7 |
-| cripto_cierre | tocadas | 221 | 98.71c | 96.83% | -1.88 pts | -4.18 a +0.43 | 7 |
-| deportes_previo | todas | 532 | 98.45c | 98.50% | +0.04 pts | -0.99 a +1.08 | 8 |
-| deportes_previo | tocadas | 445 | 98.40c | 98.65% | +0.25 pts | -0.82 a +1.32 | 6 |
-| otros_cierre | todas | 169 | 98.56c | 100.00% | +1.44 pts | +1.33 a +1.55 | 0 |
+| cripto_cierre | todas | 323 | 98.80c | 97.83% | -0.96 pts | -2.54 a +0.62 | 7 |
+| cripto_cierre | tocadas | 225 | 98.71c | 96.89% | -1.82 pts | -4.08 a +0.44 | 7 |
+| deportes_previo | todas | 545 | 98.45c | 98.53% | +0.09 pts | -0.92 a +1.09 | 8 |
+| deportes_previo | tocadas | 458 | 98.39c | 98.69% | +0.30 pts | -0.74 a +1.34 | 6 |
+| otros_cierre | todas | 170 | 98.57c | 100.00% | +1.43 pts | +1.32 a +1.54 | 0 |
 | otros_cierre | tocadas | 122 | 98.46c | 100.00% | +1.54 pts | +1.41 a +1.66 | 0 |
 | post_fin_95_97 | todas | 7 | 95.91c | 71.43% | -24.49 pts | -60.55 a +11.58 | 2 |
 | post_fin_95_97 | tocadas | 7 | 95.91c | 71.43% | -24.49 pts | -60.55 a +11.58 | 2 |
-| TOTAL | todas | 1021 | 98.56c | 98.33% | -0.22 pts | -1.00 a +0.56 | 17 |
-| TOTAL | tocadas | 795 | 98.47c | 98.11% | -0.36 pts | -1.30 a +0.58 | 15 |
+| TOTAL | todas | 1045 | 98.56c | 98.37% | -0.18 pts | -0.95 a +0.58 | 17 |
+| TOTAL | tocadas | 812 | 98.47c | 98.15% | -0.32 pts | -1.24 a +0.60 | 15 |
 
 Peores casos del registro sombra:
 

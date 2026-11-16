@@ -1,71 +1,8 @@
 {
  "capital0": 1000.0,
- "cash": 408.9915,
+ "cash": 408.5148,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
-  {
-   "oid": "6873118-1794757512",
-   "id": "6873118",
-   "q": "Will the price of Bitcoin be less than $66,000 on November 15?",
-   "cat": "cripto",
-   "rule": "cripto_cierre",
-   "event": "1342175",
-   "side": 0,
-   "token": "39562200654577743089115324600490758780774716221662800687513887980659784757618",
-   "px": 0.98,
-   "tick": 0.001,
-   "mid": 0.98,
-   "bid": 0.971,
-   "ask": 0.989,
-   "shares": 51.8649,
-   "cost": 50.8276,
-   "ts": 1794757512.557533,
-   "end_ts": 1794762000.0,
-   "hours": 1.25,
-   "liq": 24018
-  },
-  {
-   "oid": "6873121-1794757512",
-   "id": "6873121",
-   "q": "Will the price of Bitcoin be between $66,000 and $68,000 on November 15?",
-   "cat": "cripto",
-   "rule": "cripto_cierre",
-   "event": "1342175",
-   "side": 1,
-   "token": "113319293491925672951493737318796571206495802812504476289793032053522491467142",
-   "px": 0.978,
-   "tick": 0.001,
-   "mid": 0.9785,
-   "bid": 0.97,
-   "ask": 0.987,
-   "shares": 51.971,
-   "cost": 50.8276,
-   "ts": 1794757512.557533,
-   "end_ts": 1794762000.0,
-   "hours": 1.25,
-   "liq": 28489
-  },
-  {
-   "oid": "6017456-1794757512",
-   "id": "6017456",
-   "q": "Will GPT Astra 6.1+ be released between November 9 and November 15, 2026?",
-   "cat": "otros",
-   "rule": "otros_cierre",
-   "event": "1230571",
-   "side": 1,
-   "token": "51837090637542756067213338850685617920063204749420831806381084595229862511034",
-   "px": 0.976,
-   "tick": 0.001,
-   "mid": 0.976,
-   "bid": 0.965,
-   "ask": 0.987,
-   "shares": 52.0775,
-   "cost": 50.8276,
-   "ts": 1794757512.557533,
-   "end_ts": 1794805140.0,
-   "hours": 13.23,
-   "liq": 5616
-  },
   {
    "oid": "6891261-1794765665",
    "id": "6891261",
@@ -212,6 +149,69 @@
    "end_ts": 1794834000.0,
    "hours": 9.98,
    "liq": 2093
+  },
+  {
+   "oid": "6017456-1794801665",
+   "id": "6017456",
+   "q": "Will GPT Astra 6.1+ be released between November 9 and November 15, 2026?",
+   "cat": "otros",
+   "rule": "otros_cierre",
+   "event": "1230571",
+   "side": 1,
+   "token": "51837090637542756067213338850685617920063204749420831806381084595229862511034",
+   "px": 0.983,
+   "tick": 0.001,
+   "mid": 0.983,
+   "bid": 0.969,
+   "ask": 0.997,
+   "shares": 51.8682,
+   "cost": 50.9865,
+   "ts": 1794801665.735346,
+   "end_ts": 1794805140.0,
+   "hours": 0.97,
+   "liq": 4133
+  },
+  {
+   "oid": "6891215-1794801665",
+   "id": "6891215",
+   "q": "Will Bitcoin dip to $62,000 November 9-15?",
+   "cat": "cripto",
+   "rule": "cripto_cierre",
+   "event": "1346285",
+   "side": 1,
+   "token": "34390734464051072739982582429240365446783011824219890733124876477094820569456",
+   "px": 0.994,
+   "tick": 0.001,
+   "mid": 0.9945,
+   "bid": 0.993,
+   "ask": 0.996,
+   "shares": 51.2942,
+   "cost": 50.9865,
+   "ts": 1794801665.735346,
+   "end_ts": 1794805200.0,
+   "hours": 0.98,
+   "liq": 34906
+  },
+  {
+   "oid": "6891291-1794801665",
+   "id": "6891291",
+   "q": "Will Ethereum dip to $1,700 November 9-15?",
+   "cat": "cripto",
+   "rule": "cripto_cierre",
+   "event": "1346293",
+   "side": 1,
+   "token": "14206901594498430916601371238019026271542605871409402748183453279794482965726",
+   "px": 0.995,
+   "tick": 0.001,
+   "mid": 0.9955,
+   "bid": 0.993,
+   "ask": 0.998,
+   "shares": 51.2427,
+   "cost": 50.9865,
+   "ts": 1794801665.735346,
+   "end_ts": 1794805200.0,
+   "hours": 0.98,
+   "liq": 29221
   }
  ],
  "positions": [
@@ -261,7 +261,7 @@
    "hours": 5.97,
    "liq": 2756,
    "fill_ts": 1794787264.139777,
-   "mark": 0.957,
+   "mark": 0.9865,
    "stuck": false,
    "disputed": false
   }
@@ -1874,13 +1874,26 @@
    "placed": 1,
    "shadow_open": 350,
    "shadow_closed": 4
+  },
+  {
+   "ts": "2026-11-16T04:01:43Z",
+   "equity": 1019.73,
+   "cash": 408.51,
+   "orders": 10,
+   "positions": 2,
+   "closed": 28,
+   "scanned": 6678,
+   "candidates": 120,
+   "placed": 3,
+   "shadow_open": 332,
+   "shadow_closed": 24
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 110,
+  "placed": 113,
   "filled": 30,
-  "expired": 23,
+  "expired": 26,
   "touched_not_filled": 47
  },
  "shadow": [
@@ -3250,58 +3263,6 @@
    "touched": 1
   },
   {
-   "id": "6966388",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "61072068492543014055903048817705374573848566393606304670824560711289734466394",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1794737886,
-   "end_ts": 1794785400,
-   "q": "Spread: Gimnasia Y Tiro de Salta (-2.5)",
-   "touched": 1
-  },
-  {
-   "id": "6966389",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "47019164289532929483898894345793977779722431051860060004028792609506663164794",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1794737886,
-   "end_ts": 1794785400,
-   "q": "Spread: Ferro Carril Oeste (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "6966390",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "95703214545253300682173310548433910493976731776671604167563952474684781139318",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1794737886,
-   "end_ts": 1794785400,
-   "q": "Spread: Gimnasia Y Tiro de Salta (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "6966400",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "105616906295855232145193006758292428610561402782447409141172683636194499419532",
-   "px": 0.987,
-   "tick": 0.001,
-   "ts": 1794737886,
-   "end_ts": 1794785400,
-   "q": "Ferro Carril Oeste vs. Gimnasia Y Tiro de Salta: O/U 5.5",
-   "touched": 1
-  },
-  {
    "id": "7034949",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -3312,32 +3273,6 @@
    "ts": 1794737886,
    "end_ts": 1794791400,
    "q": "Spread: Real Cartagena FC (-2.5)",
-   "touched": 1
-  },
-  {
-   "id": "7042397",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "7167968301484795516257045370892695455914513154796979596674138095915480300320",
-   "px": 0.971,
-   "tick": 0.001,
-   "ts": 1794737886,
-   "end_ts": 1794790800,
-   "q": "Flames vs. Ducks: O/U 2.5",
-   "touched": 1
-  },
-  {
-   "id": "7042377",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "53840797559586268560561740023614238632131229295132900823235343863278899596427",
-   "px": 0.972,
-   "tick": 0.001,
-   "ts": 1794737886,
-   "end_ts": 1794794400,
-   "q": "Canucks vs. Golden Knights: O/U 2.5",
    "touched": 1
   },
   {
@@ -3585,19 +3520,6 @@
    "ts": 1794737886,
    "end_ts": 1794805200,
    "q": "Will Ethereum dip to $1,500 November 9-15?",
-   "touched": 1
-  },
-  {
-   "id": "6908101",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "59370327203351529208853012983412337075269659950466145749794018177826639480324",
-   "px": 0.989,
-   "tick": 0.001,
-   "ts": 1794737886,
-   "end_ts": 1794805140,
-   "q": "Will Kristoffer Reitan win the 2026 DP World Tour Championship?",
    "touched": 1
   },
   {
@@ -3910,137 +3832,7 @@
    "ts": 1794757512,
    "end_ts": 1794744000,
    "q": "Will the highest temperature in Chicago be between 54-55°F on November 15?",
-   "touched": null
-  },
-  {
-   "id": "6873118",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 0,
-   "token": "39562200654577743089115324600490758780774716221662800687513887980659784757618",
-   "px": 0.98,
-   "tick": 0.001,
-   "ts": 1794757512,
-   "end_ts": 1794762000,
-   "q": "Will the price of Bitcoin be less than $66,000 on November 15?",
-   "touched": null
-  },
-  {
-   "id": "6873121",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "113319293491925672951493737318796571206495802812504476289793032053522491467142",
-   "px": 0.978,
-   "tick": 0.001,
-   "ts": 1794757512,
-   "end_ts": 1794762000,
-   "q": "Will the price of Bitcoin be between $66,000 and $68,000 on November 15?",
-   "touched": null
-  },
-  {
-   "id": "6873123",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "55047122014466473190379111076741862104289469069681705254972719343019933329226",
-   "px": 0.992,
-   "tick": 0.001,
-   "ts": 1794757512,
-   "end_ts": 1794762000,
-   "q": "Will the price of Ethereum be above $1,900 on November 15?",
-   "touched": null
-  },
-  {
-   "id": "6873184",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "105090688142833298727152699857156043630978627162611428579669764993338761167076",
-   "px": 0.979,
-   "tick": 0.001,
-   "ts": 1794757512,
-   "end_ts": 1794762000,
-   "q": "Will the price of Bitcoin be above $66,000 on November 15?",
-   "touched": null
-  },
-  {
-   "id": "6873186",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "115788046920454574815568981456515981172424832050259338559608277614458673268821",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1794757512,
-   "end_ts": 1794762000,
-   "q": "Will the price of Bitcoin be above $68,000 on November 15?",
-   "touched": null
-  },
-  {
-   "id": "6873229",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 0,
-   "token": "14783393387221723311204707716598891655450058821207152787827301847690856223233",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1794757512,
-   "end_ts": 1794762000,
-   "q": "Will the price of Solana be above $65 on November 15?",
-   "touched": null
-  },
-  {
-   "id": "6873232",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "90266361513068268248209666546633408197764696069886906052364967403231181723496",
-   "px": 0.989,
-   "tick": 0.001,
-   "ts": 1794757512,
-   "end_ts": 1794762000,
-   "q": "Will the price of Solana be above $75 on November 15?",
-   "touched": null
-  },
-  {
-   "id": "6873272",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 0,
-   "token": "15078390957766520120048393371648356656016940908260840455661407776640298381560",
-   "px": 0.99,
-   "tick": 0.001,
-   "ts": 1794757512,
-   "end_ts": 1794762000,
-   "q": "Will the price of XRP be above $0.70 on November 15?",
-   "touched": null
-  },
-  {
-   "id": "6873275",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 0,
-   "token": "14545631180418058261720670873965611862228208240458765761273926782304698043762",
-   "px": 0.991,
-   "tick": 0.001,
-   "ts": 1794757512,
-   "end_ts": 1794762000,
-   "q": "Will the price of XRP be above $0.90 on November 15?",
-   "touched": null
-  },
-  {
-   "id": "6873276",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "85377435054276737734274798944191693944296848488736420206631262914746953477146",
-   "px": 0.989,
-   "tick": 0.001,
-   "ts": 1794757512,
-   "end_ts": 1794762000,
-   "q": "Will the price of XRP be above $1.00 on November 15?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6906585",
@@ -4053,7 +3845,7 @@
    "ts": 1794757512,
    "end_ts": 1794787200,
    "q": "Canisius Golden Griffins vs. Syracuse Orange (W)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6929811",
@@ -4066,7 +3858,7 @@
    "ts": 1794757512,
    "end_ts": 1794787200,
    "q": "Spread: Sacramento Republic FC (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6929822",
@@ -4079,72 +3871,7 @@
    "ts": 1794757512,
    "end_ts": 1794787200,
    "q": "New Mexico United vs. Sacramento Republic FC: O/U 6.5",
-   "touched": null
-  },
-  {
-   "id": "6966386",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "47924023167145966153111961934730589515922419921832651513293820163888150210950",
-   "px": 0.973,
-   "tick": 0.001,
-   "ts": 1794757512,
-   "end_ts": 1794785400,
-   "q": "Spread: Gimnasia Y Tiro de Salta (-1.5)",
-   "touched": null
-  },
-  {
-   "id": "7027165",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "29239103126798852954029686005011099882216147417397951483566208227711194661597",
-   "px": 0.977,
-   "tick": 0.001,
-   "ts": 1794757512,
-   "end_ts": 1794785400,
-   "q": "Spread: Deportes Iquique (-3.5)",
-   "touched": null
-  },
-  {
-   "id": "7042484",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "51751382470192750594420438033423898754264233905340928825870546368791499337458",
-   "px": 0.982,
-   "tick": 0.001,
-   "ts": 1794757512,
-   "end_ts": 1794783900,
-   "q": "Spread: Real Cundinamarca (-2.5)",
-   "touched": null
-  },
-  {
-   "id": "7042485",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "92813688744688873880147473710288832563812071727261119368511640987542337806628",
-   "px": 0.98,
-   "tick": 0.001,
-   "ts": 1794757512,
-   "end_ts": 1794783900,
-   "q": "Spread: Tigres FC (-3.5)",
-   "touched": null
-  },
-  {
-   "id": "7042486",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "62271693609472531893330234120122471197233670341748124262264928601831975522626",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1794757512,
-   "end_ts": 1794783900,
-   "q": "Spread: Real Cundinamarca (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7034950",
@@ -4157,20 +3884,7 @@
    "ts": 1794757512,
    "end_ts": 1794791400,
    "q": "Spread: Deportes Quindio (-3.5)",
-   "touched": null
-  },
-  {
-   "id": "7042477",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "49424201565450563209400733452229990944288498480026604752393651677930762745666",
-   "px": 0.971,
-   "tick": 0.001,
-   "ts": 1794757512,
-   "end_ts": 1794794400,
-   "q": "Predators vs. Sharks: O/U 2.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "5997211",
@@ -4183,7 +3897,7 @@
    "ts": 1794757512,
    "end_ts": 1794805140,
    "q": "Next Astra Model (6.1+) released by November 15, 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6017456",
@@ -4196,7 +3910,7 @@
    "ts": 1794757512,
    "end_ts": 1794805140,
    "q": "Will GPT Astra 6.1+ be released between November 9 and November 15, 2026?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6698733",
@@ -4209,7 +3923,7 @@
    "ts": 1794757512,
    "end_ts": 1794805140,
    "q": "Next James Bond announced by November 15, 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6891239",
@@ -4222,7 +3936,7 @@
    "ts": 1794757512,
    "end_ts": 1794805200,
    "q": "Will Ethereum reach $2,600 November 9-15?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6891253",
@@ -4235,7 +3949,7 @@
    "ts": 1794757512,
    "end_ts": 1794805200,
    "q": "Will Ethereum reach $2,400 November 9-15?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7019142",
@@ -4248,20 +3962,7 @@
    "ts": 1794757512,
    "end_ts": 1794805200,
    "q": "Will Bitcoin dip to $58,000 November 9-15?",
-   "touched": null
-  },
-  {
-   "id": "7048822",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 0,
-   "token": "83305239603134261136408120110845475090513586599371552900992789241100209032628",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1794757512,
-   "end_ts": 1794805140,
-   "q": "Will MrBeast's next video get less than 55 million views on day 1?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7057682",
@@ -4274,7 +3975,7 @@
    "ts": 1794757512,
    "end_ts": 1794805200,
    "q": "Will Bitcoin reach $69,000 on November 15?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7057693",
@@ -4287,7 +3988,7 @@
    "ts": 1794757512,
    "end_ts": 1794805200,
    "q": "Will Bitcoin dip to $59,000 on November 15?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7057694",
@@ -4300,7 +4001,7 @@
    "ts": 1794757512,
    "end_ts": 1794805200,
    "q": "Will Bitcoin dip to $58,000 on November 15?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7057701",
@@ -4313,7 +4014,7 @@
    "ts": 1794757512,
    "end_ts": 1794805200,
    "q": "Will Ethereum reach $2,000 on November 15?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7057702",
@@ -4326,7 +4027,7 @@
    "ts": 1794757512,
    "end_ts": 1794805200,
    "q": "Will Ethereum reach $1,950 on November 15?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7057710",
@@ -4339,7 +4040,7 @@
    "ts": 1794757512,
    "end_ts": 1794805200,
    "q": "Will Ethereum dip to $1,600 on November 15?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7057711",
@@ -4352,7 +4053,7 @@
    "ts": 1794757512,
    "end_ts": 1794805200,
    "q": "Will Ethereum dip to $1,550 on November 15?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7057716",
@@ -4365,7 +4066,7 @@
    "ts": 1794757512,
    "end_ts": 1794805200,
    "q": "Will Solana reach $85 on November 15?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7057722",
@@ -4378,7 +4079,7 @@
    "ts": 1794757512,
    "end_ts": 1794805200,
    "q": "Will Solana dip to $60 on November 15?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7057723",
@@ -4391,7 +4092,7 @@
    "ts": 1794757512,
    "end_ts": 1794805200,
    "q": "Will Solana dip to $55 on November 15?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7057733",
@@ -4404,7 +4105,7 @@
    "ts": 1794757512,
    "end_ts": 1794805200,
    "q": "Will XRP dip to $0.80 on November 15?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7057734",
@@ -4417,7 +4118,7 @@
    "ts": 1794757512,
    "end_ts": 1794805200,
    "q": "Will XRP dip to $0.75 on November 15?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6279936",
@@ -4430,7 +4131,7 @@
    "ts": 1794757512,
    "end_ts": 1794841200,
    "q": "Will \"Ebenezer\" score at least 30 on the Rotten Tomatoes Tomatometer?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6279937",
@@ -4443,7 +4144,7 @@
    "ts": 1794757512,
    "end_ts": 1794841200,
    "q": "Will \"Ebenezer\" score at least 40 on the Rotten Tomatoes Tomatometer?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6279939",
@@ -4456,7 +4157,7 @@
    "ts": 1794757512,
    "end_ts": 1794841200,
    "q": "Will \"Ebenezer\" score at least 60 on the Rotten Tomatoes Tomatometer?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6991669",
@@ -4469,7 +4170,7 @@
    "ts": 1794757512,
    "end_ts": 1794841200,
    "q": "Will \"Ebenezer\" score at least 45 on the Rotten Tomatoes Tomatometer?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6630489",
@@ -4482,7 +4183,7 @@
    "ts": 1794757512,
    "end_ts": 1794852000,
    "q": "Will Somalia win on 2026-11-16?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6631330",
@@ -4495,7 +4196,7 @@
    "ts": 1794757512,
    "end_ts": 1794848400,
    "q": "Will Liechtenstein win on 2026-11-16?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6632109",
@@ -4508,7 +4209,7 @@
    "ts": 1794757512,
    "end_ts": 1794848400,
    "q": "Spread: Liechtenstein (-1.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6632111",
@@ -4521,7 +4222,7 @@
    "ts": 1794757512,
    "end_ts": 1794848400,
    "q": "Spread: Liechtenstein (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6632124",
@@ -4534,7 +4235,7 @@
    "ts": 1794757512,
    "end_ts": 1794848400,
    "q": "Lithuania vs. Liechtenstein: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6632171",
@@ -4547,7 +4248,7 @@
    "ts": 1794757512,
    "end_ts": 1794848400,
    "q": "Spread: Bulgaria (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6632183",
@@ -4560,7 +4261,7 @@
    "ts": 1794757512,
    "end_ts": 1794848400,
    "q": "Estonia vs. Bulgaria: O/U 5.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6632184",
@@ -4573,7 +4274,7 @@
    "ts": 1794757512,
    "end_ts": 1794848400,
    "q": "Estonia vs. Bulgaria: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6632185",
@@ -4586,7 +4287,7 @@
    "ts": 1794757512,
    "end_ts": 1794848400,
    "q": "Estonia vs. Bulgaria: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6632229",
@@ -4599,7 +4300,7 @@
    "ts": 1794757512,
    "end_ts": 1794848400,
    "q": "Spread: Luxembourg (-1.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6632231",
@@ -4612,7 +4313,7 @@
    "ts": 1794757512,
    "end_ts": 1794848400,
    "q": "Spread: Luxembourg (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6632244",
@@ -4625,7 +4326,7 @@
    "ts": 1794757512,
    "end_ts": 1794848400,
    "q": "Iceland vs. Luxembourg: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6632245",
@@ -4638,7 +4339,7 @@
    "ts": 1794757512,
    "end_ts": 1794848400,
    "q": "Iceland vs. Luxembourg: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6631814",
@@ -4651,7 +4352,7 @@
    "ts": 1794757512,
    "end_ts": 1794858300,
    "q": "Germany vs. Netherlands: O/U 0.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6631822",
@@ -4664,7 +4365,7 @@
    "ts": 1794757512,
    "end_ts": 1794858300,
    "q": "Germany vs. Netherlands: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6631871",
@@ -4677,7 +4378,7 @@
    "ts": 1794757512,
    "end_ts": 1794858300,
    "q": "Spread: Serbia (-2.5)",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6631884",
@@ -4690,7 +4391,7 @@
    "ts": 1794757512,
    "end_ts": 1794858300,
    "q": "Greece vs. Serbia: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6631885",
@@ -4703,7 +4404,7 @@
    "ts": 1794757512,
    "end_ts": 1794858300,
    "q": "Greece vs. Serbia: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6631886",
@@ -4716,7 +4417,7 @@
    "ts": 1794757512,
    "end_ts": 1794858300,
    "q": "Greece vs. Serbia: O/U 8.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6631931",
@@ -4729,7 +4430,7 @@
    "ts": 1794757512,
    "end_ts": 1794858300,
    "q": "Spread: Scotland (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6631944",
@@ -4742,7 +4443,7 @@
    "ts": 1794757512,
    "end_ts": 1794858300,
    "q": "Switzerland vs. Scotland: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6631945",
@@ -4755,7 +4456,7 @@
    "ts": 1794757512,
    "end_ts": 1794858300,
    "q": "Switzerland vs. Scotland: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6631946",
@@ -4768,7 +4469,7 @@
    "ts": 1794757512,
    "end_ts": 1794858300,
    "q": "Switzerland vs. Scotland: O/U 8.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6631990",
@@ -4781,7 +4482,7 @@
    "ts": 1794757512,
    "end_ts": 1794858300,
    "q": "Spread: North Macedonia (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6632004",
@@ -4794,7 +4495,7 @@
    "ts": 1794757512,
    "end_ts": 1794858300,
    "q": "North Macedonia vs. Slovenia: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6632005",
@@ -4807,7 +4508,7 @@
    "ts": 1794757512,
    "end_ts": 1794858300,
    "q": "North Macedonia vs. Slovenia: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6632006",
@@ -4820,7 +4521,7 @@
    "ts": 1794757512,
    "end_ts": 1794858300,
    "q": "North Macedonia vs. Slovenia: O/U 8.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6632048",
@@ -4833,7 +4534,7 @@
    "ts": 1794757512,
    "end_ts": 1794858300,
    "q": "Spread: Gibraltar (-1.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6632063",
@@ -4846,7 +4547,7 @@
    "ts": 1794757512,
    "end_ts": 1794858300,
    "q": "Gibraltar vs. Malta: O/U 5.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6632064",
@@ -4859,7 +4560,7 @@
    "ts": 1794757512,
    "end_ts": 1794858300,
    "q": "Gibraltar vs. Malta: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6632065",
@@ -4872,7 +4573,7 @@
    "ts": 1794757512,
    "end_ts": 1794858300,
    "q": "Gibraltar vs. Malta: O/U 7.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6653453",
@@ -4885,7 +4586,7 @@
    "ts": 1794757512,
    "end_ts": 1794857400,
    "q": "Spread: Celta Fortuna (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6653487",
@@ -4898,7 +4599,7 @@
    "ts": 1794757512,
    "end_ts": 1794857400,
    "q": "Albacete Balompié vs. Celta Fortuna: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "5401165",
@@ -4911,7 +4612,7 @@
    "ts": 1794758463,
    "end_ts": 1794805140,
    "q": "Pakistan military action against Afghanistan by November 15, 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6891302",
@@ -4924,7 +4625,7 @@
    "ts": 1794758463,
    "end_ts": 1794805200,
    "q": "Will Ethereum dip to $1,600 November 9-15?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7048861",
@@ -6432,6 +6133,84 @@
    "ts": 1794798066,
    "end_ts": 1794870000,
    "q": "Alcorn State Braves vs. Maryland Terrapins",
+   "touched": null
+  },
+  {
+   "id": "7057706",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "37824666980859177901691358746931631422076943464664071045920587854270749116006",
+   "px": 0.984,
+   "tick": 0.001,
+   "ts": 1794801665,
+   "end_ts": 1794805200,
+   "q": "Will Ethereum dip to $1,750 on November 15?",
+   "touched": null
+  },
+  {
+   "id": "7075609",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "16565626438005663791909980972486763544922595731566638736599836814890201269931",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1794801665,
+   "end_ts": 1794805200,
+   "q": "Will Bitcoin dip to $64,000 November 9-15?",
+   "touched": null
+  },
+  {
+   "id": "6634964",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "9127589616799055752101427479819547795416363407877208703250130563288336123468",
+   "px": 0.991,
+   "tick": 0.001,
+   "ts": 1794801665,
+   "end_ts": 1794909600,
+   "q": "Will Singapore win on 2026-11-17?",
+   "touched": null
+  },
+  {
+   "id": "6634965",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "107168337147052336625076724990192829621604413132227702535651781713527465066378",
+   "px": 0.972,
+   "tick": 0.001,
+   "ts": 1794801665,
+   "end_ts": 1794909600,
+   "q": "Will Singapore vs. Brazil end in a draw?",
+   "touched": null
+  },
+  {
+   "id": "6634967",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "31322851563380853561909742081817350925342429085048287502623882710526752881107",
+   "px": 0.973,
+   "tick": 0.001,
+   "ts": 1794801665,
+   "end_ts": 1794909600,
+   "q": "Singapore leading at halftime?",
+   "touched": null
+  },
+  {
+   "id": "6654457",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "46545241655256501500946972912876795676330696671899444579940612852605780292493",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1794801665,
+   "end_ts": 1794909600,
+   "q": "Singapore vs. Brazil: O/U 0.5",
    "touched": null
   }
  ]
