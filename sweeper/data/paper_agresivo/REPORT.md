@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 3.3 de 28 | corridas: 40
-- Capital inicial: $1,000.00 | valor actual: $834.98 | P&L: $-165.02 (-16.50%)
-- Efectivo libre: $0.00 | en ordenes abiertas: $418.47 (8) | en posiciones: $416.70 (7)
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 3.3 de 28 | corridas: 41
+- Capital inicial: $1,000.00 | valor actual: $832.42 | P&L: $-167.58 (-16.76%)
+- Efectivo libre: $0.02 | en ordenes abiertas: $281.59 (6) | en posiciones: $553.55 (9)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 91 colocadas, 38 llenadas, 32 tocadas sin llenarse (sorteo 30%), 13 expiradas
+- Ordenes virtuales: 92 colocadas, 40 llenadas, 33 tocadas sin llenarse (sorteo 30%), 13 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -32,31 +32,33 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 | $90.86 | 99.7c | 96.8c | otros_cierre |  | Will "Ghost Soldier" Opening Weekend Box Office be between 3m and 4m? |
 | $91.86 | 96.0c | 99.1c | post_fin_90_97 |  | Florida A&M Rattlers vs. UTEP Miners |
 | $91.77 | 99.8c | 96.5c | otros_cierre |  | Pakistan military action against Afghanistan by November 15, 2026? |
-| $82.24 | 95.0c | 99.7c | clima_cierre |  | Will the highest temperature in Paris be 14°C on November 16? |
-| $22.72 | 96.1c | 92.0c | deportes_previo |  | Greece vs. Serbia: Neither team to score first? |
+| $82.24 | 95.0c | 99.8c | clima_cierre |  | Will the highest temperature in Paris be 14°C on November 16? |
+| $22.72 | 96.1c | 80.8c | deportes_previo |  | Greece vs. Serbia: Neither team to score first? |
 | $14.54 | 99.1c | 99.1c | deportes_previo |  | Spread: CA Grau (-2.5) |
 | $22.70 | 99.8c | 97.5c | cripto_cierre |  | Amazon (AMZN) Up or Down on November 16? |
+| $83.50 | 99.7c | 99.7c | cripto_cierre |  | Google (GOOGL) Up or Down on November 16? |
+| $53.36 | 99.9c | 99.9c | otros_cierre |  | Will Apple (AAPL) close above $345 on November 16? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 2471 | abiertas: 1966 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 2508 | abiertas: 1970 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
-| clima_cierre | todas | 573 | 99.10c | 99.48% | +0.37 pts | -0.21 a +0.96 | 3 |
-| clima_cierre | tocadas | 525 | 99.06c | 99.43% | +0.37 pts | -0.27 a +1.00 | 3 |
-| cripto_cierre | todas | 424 | 99.09c | 97.17% | -1.92 pts | -3.48 a -0.36 | 12 |
-| cripto_cierre | tocadas | 389 | 99.10c | 96.92% | -2.19 pts | -3.88 a -0.49 | 12 |
-| deportes_previo | todas | 1125 | 97.98c | 96.71% | -1.26 pts | -2.30 a -0.23 | 37 |
-| deportes_previo | tocadas | 1106 | 98.01c | 96.65% | -1.36 pts | -2.41 a -0.30 | 37 |
-| otros_cierre | todas | 329 | 99.35c | 99.70% | +0.35 pts | -0.25 a +0.95 | 1 |
-| otros_cierre | tocadas | 316 | 99.34c | 99.68% | +0.34 pts | -0.28 a +0.97 | 1 |
-| post_fin_90_97 | todas | 20 | 94.79c | 100.00% | +5.21 pts | +4.63 a +5.79 | 0 |
-| post_fin_90_97 | tocadas | 18 | 94.93c | 100.00% | +5.07 pts | +4.51 a +5.63 | 0 |
-| TOTAL | todas | 2471 | 98.59c | 97.86% | -0.73 pts | -1.30 a -0.16 | 53 |
-| TOTAL | tocadas | 2354 | 98.58c | 97.75% | -0.83 pts | -1.43 a -0.24 | 53 |
+| clima_cierre | todas | 574 | 99.11c | 99.48% | +0.37 pts | -0.21 a +0.96 | 3 |
+| clima_cierre | tocadas | 526 | 99.06c | 99.43% | +0.37 pts | -0.27 a +1.00 | 3 |
+| cripto_cierre | todas | 429 | 99.09c | 97.20% | -1.88 pts | -3.43 a -0.34 | 12 |
+| cripto_cierre | tocadas | 391 | 99.11c | 96.93% | -2.18 pts | -3.86 a -0.49 | 12 |
+| deportes_previo | todas | 1143 | 97.99c | 96.76% | -1.22 pts | -2.25 a -0.20 | 37 |
+| deportes_previo | tocadas | 1124 | 98.02c | 96.71% | -1.31 pts | -2.35 a -0.27 | 37 |
+| otros_cierre | todas | 330 | 99.35c | 99.70% | +0.35 pts | -0.25 a +0.95 | 1 |
+| otros_cierre | tocadas | 317 | 99.34c | 99.68% | +0.34 pts | -0.28 a +0.96 | 1 |
+| post_fin_90_97 | todas | 32 | 94.20c | 100.00% | +5.80 pts | +5.23 a +6.37 | 0 |
+| post_fin_90_97 | tocadas | 26 | 94.33c | 100.00% | +5.67 pts | +5.06 a +6.28 | 0 |
+| TOTAL | todas | 2508 | 98.56c | 97.89% | -0.67 pts | -1.23 a -0.12 | 53 |
+| TOTAL | tocadas | 2384 | 98.57c | 97.78% | -0.79 pts | -1.38 a -0.20 | 53 |
 
 Peores casos del registro sombra:
 
