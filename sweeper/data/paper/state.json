@@ -269,7 +269,9 @@
    "hours": 5.97,
    "liq": 2756,
    "fill_ts": 1794787264.139777,
-   "mark": 0.992
+   "mark": 0.949,
+   "stuck": false,
+   "disputed": false
   }
  ],
  "closed": [
@@ -1768,6 +1770,19 @@
    "placed": 0,
    "shadow_open": 339,
    "shadow_closed": 8
+  },
+  {
+   "ts": "2026-11-16T01:01:26Z",
+   "equity": 1016.11,
+   "cash": 407.94,
+   "orders": 8,
+   "positions": 4,
+   "closed": 26,
+   "scanned": 8224,
+   "candidates": 138,
+   "placed": 0,
+   "shadow_open": 341,
+   "shadow_closed": 6
   }
  ],
  "halted": false,
@@ -3131,71 +3146,6 @@
    "touched": 1
   },
   {
-   "id": "6304759",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "98533193305107059518203063797117622485054266629826731685641036231331131295208",
-   "px": 0.971,
-   "tick": 0.001,
-   "ts": 1794737886,
-   "end_ts": 1794776700,
-   "q": "Spread: Cardinals (-13.5)",
-   "touched": 1
-  },
-  {
-   "id": "6304760",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "60922013326585499788413673014229707722878554508804688884762408039364483355549",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1794737886,
-   "end_ts": 1794776700,
-   "q": "Spread: Cardinals (-14.5)",
-   "touched": 1
-  },
-  {
-   "id": "6711026",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "67203703219593182818450380340068528676863765055651415790829253339237622040254",
-   "px": 0.975,
-   "tick": 0.001,
-   "ts": 1794737886,
-   "end_ts": 1794773700,
-   "q": "Spread: ADC Juan Pablo II College (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "6711027",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "18690928552287065280125464375194360428451563592498537381870155060126061655457",
-   "px": 0.99,
-   "tick": 0.001,
-   "ts": 1794737886,
-   "end_ts": 1794773700,
-   "q": "Spread: CD Garcilaso (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "6711038",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "33212015565076250808335972844005462388629135532429642185293803571682767528913",
-   "px": 0.979,
-   "tick": 0.001,
-   "ts": 1794737886,
-   "end_ts": 1794773700,
-   "q": "ADC Juan Pablo II College vs. CD Garcilaso: O/U 6.5",
-   "touched": 1
-  },
-  {
    "id": "6886440",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -3219,19 +3169,6 @@
    "ts": 1794737886,
    "end_ts": 1794780000,
    "q": "Stetson Hatters vs. Clemson Tigers (W)",
-   "touched": 1
-  },
-  {
-   "id": "6906605",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "79005358476845198927433561161597663599119606415980458321039149026545581274808",
-   "px": 0.988,
-   "tick": 0.001,
-   "ts": 1794737886,
-   "end_ts": 1794772800,
-   "q": "Southeastern Louisiana Lions vs. Texas Tech Red Raiders (W)",
    "touched": 1
   },
   {
@@ -6183,6 +6120,110 @@
    "ts": 1794787264,
    "end_ts": 1794805200,
    "q": "Will Bitcoin dip to $62,000 on November 15?",
+   "touched": null
+  },
+  {
+   "id": "6941894",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "4168407467703137754202092290850837581193253476896128679591945899087819613495",
+   "px": 0.984,
+   "tick": 0.001,
+   "ts": 1794790864,
+   "end_ts": 1794805200,
+   "q": "Will XRP reach $1.10 November 9-15?",
+   "touched": null
+  },
+  {
+   "id": "7044108",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "85315990957150794884586310080296293521364586493082609649774872830369968034965",
+   "px": 0.987,
+   "tick": 0.001,
+   "ts": 1794790864,
+   "end_ts": 1794805200,
+   "q": "Will Ethereum reach $1,900 November 9-15?",
+   "touched": null
+  },
+  {
+   "id": "7057684",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "82931227660011449577514015430050891402726827649500925309361335647324624056291",
+   "px": 0.977,
+   "tick": 0.001,
+   "ts": 1794790864,
+   "end_ts": 1794805200,
+   "q": "Will Bitcoin reach $67,000 on November 15?",
+   "touched": null
+  },
+  {
+   "id": "7057703",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "112639682679075843895552176441478604183714969472295393423293868135029983545724",
+   "px": 0.984,
+   "tick": 0.001,
+   "ts": 1794790864,
+   "end_ts": 1794805200,
+   "q": "Will Ethereum reach $1,900 on November 15?",
+   "touched": null
+  },
+  {
+   "id": "6654554",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "77305527303398616223324545153825870892844448072744620529105644682225277510271",
+   "px": 0.973,
+   "tick": 0.001,
+   "ts": 1794790864,
+   "end_ts": 1794852000,
+   "q": "Andorra vs. Azerbaijan: O/U 5.5",
+   "touched": null
+  },
+  {
+   "id": "6909294",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "92929606745515695151329784051203514033847038220232524527588712721724170029396",
+   "px": 0.976,
+   "tick": 0.001,
+   "ts": 1794790864,
+   "end_ts": 1794848400,
+   "q": "Will the price of Solana be above $65 on November 16?",
+   "touched": null
+  },
+  {
+   "id": "6909398",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "24559856168371839254800963276482640058385619992184437813150854073976666038310",
+   "px": 0.973,
+   "tick": 0.001,
+   "ts": 1794790864,
+   "end_ts": 1794848400,
+   "q": "Will the price of XRP be above $0.90 on November 16?",
+   "touched": null
+  },
+  {
+   "id": "6632066",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "106170300752903303753898318443350445910345757253553834331696141301823970363683",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1794790864,
+   "end_ts": 1794858300,
+   "q": "Gibraltar vs. Malta: O/U 8.5",
    "touched": null
   }
  ]
