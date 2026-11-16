@@ -2,21 +2,21 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 2.7 de 28 | corridas: 25
-- Capital inicial: $1,000.00 | valor actual: $918.63 | P&L: $-81.37 (-8.14%)
-- Efectivo libre: $0.00 | en ordenes abiertas: $526.12 (6) | en posiciones: $393.42 (7)
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 2.7 de 28 | corridas: 26
+- Capital inicial: $1,000.00 | valor actual: $919.20 | P&L: $-80.80 (-8.08%)
+- Efectivo libre: $-0.00 | en ordenes abiertas: $533.96 (7) | en posiciones: $387.63 (6)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 68 colocadas, 28 llenadas, 23 tocadas sin llenarse (sorteo 30%), 11 expiradas
+- Ordenes virtuales: 71 colocadas, 29 llenadas, 24 tocadas sin llenarse (sorteo 30%), 11 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
 | Regla | n | Precio medio | Pago real | IC95 del pago | Edge | P&L | Dias medios |
 |---|---|---|---|---|---|---|---|
 | clima_cierre | 1 | 99.70c | 100.00% | 20.7-100.0% | +0.30 pts | $+0.30 | 1.87 |
-| cripto_cierre | 8 | 99.23c | 100.00% | 67.6-100.0% | +0.77 pts | $+5.19 | 0.06 |
+| cripto_cierre | 10 | 99.07c | 100.00% | 72.2-100.0% | +0.93 pts | $+7.24 | 0.07 |
 | deportes_previo | 8 | 98.04c | 87.02% | 52.9-97.8% | -11.02 pts | $-86.41 | 0.97 |
 | otros_cierre | 4 | 99.79c | 100.00% | 51.0-100.0% | +0.21 pts | $+0.46 | 0.93 |
-| TOTAL | 21 | 98.81c | 94.33% | 77.3-99.2% | -4.48 pts | $-80.46 | 0.66 |
+| TOTAL | 23 | 98.76c | 94.63% | 79.0-99.2% | -4.13 pts | $-78.42 | 0.61 |
 
 ## Peores casos
 
@@ -29,33 +29,32 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
 | $90.86 | 99.7c | 99.2c | otros_cierre |  | Will "Ghost Soldier" Opening Weekend Box Office be between 3m and 4m? |
+| $91.86 | 96.0c | 96.0c | post_fin_90_97 |  | Florida A&M Rattlers vs. UTEP Miners |
 | $91.58 | 98.6c | 97.8c | deportes_previo |  | Spread: Deportes Quindio (-3.5) |
 | $14.23 | 97.7c | 96.9c | otros_cierre |  | Will the USS George Washington depart CENTCOM by November 15, 2026? |
-| $91.77 | 99.8c | 98.7c | otros_cierre |  | Pakistan military action against Afghanistan by November 15, 2026? |
+| $91.77 | 99.8c | 98.8c | otros_cierre |  | Pakistan military action against Afghanistan by November 15, 2026? |
 | $7.32 | 99.6c | 98.2c | otros_cierre |  | Will GPT Astra 6.1+ be released between November 9 and November 15, 2026? |
-| $89.77 | 97.8c | 99.5c | cripto_cierre |  | Will Bitcoin dip to $62,000 November 9-15? |
-| $7.88 | 99.7c | 99.7c | cripto_cierre |  | Will Ethereum dip to $1,700 November 9-15? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 1583 | abiertas: 2109 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 1636 | abiertas: 2115 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
-| clima_cierre | todas | 415 | 99.11c | 99.28% | +0.17 pts | -0.64 a +0.97 | 3 |
-| clima_cierre | tocadas | 382 | 99.07c | 99.21% | +0.15 pts | -0.73 a +1.02 | 3 |
-| cripto_cierre | todas | 249 | 99.05c | 95.18% | -3.86 pts | -6.49 a -1.24 | 12 |
-| cripto_cierre | tocadas | 224 | 99.07c | 94.64% | -4.43 pts | -7.34 a -1.52 | 12 |
+| clima_cierre | todas | 421 | 99.11c | 99.29% | +0.18 pts | -0.62 a +0.97 | 3 |
+| clima_cierre | tocadas | 388 | 99.07c | 99.23% | +0.16 pts | -0.70 a +1.02 | 3 |
+| cripto_cierre | todas | 295 | 99.10c | 95.93% | -3.17 pts | -5.39 a -0.94 | 12 |
+| cripto_cierre | tocadas | 265 | 99.12c | 95.47% | -3.65 pts | -6.12 a -1.18 | 12 |
 | deportes_previo | todas | 631 | 97.97c | 95.72% | -2.25 pts | -3.83 a -0.67 | 27 |
 | deportes_previo | tocadas | 616 | 98.03c | 95.62% | -2.41 pts | -4.02 a -0.80 | 27 |
-| otros_cierre | todas | 280 | 99.43c | 99.64% | +0.22 pts | -0.49 a +0.92 | 1 |
-| otros_cierre | tocadas | 270 | 99.42c | 99.63% | +0.21 pts | -0.52 a +0.94 | 1 |
+| otros_cierre | todas | 281 | 99.43c | 99.64% | +0.22 pts | -0.48 a +0.92 | 1 |
+| otros_cierre | tocadas | 271 | 99.42c | 99.63% | +0.21 pts | -0.52 a +0.93 | 1 |
 | post_fin_90_97 | todas | 8 | 94.79c | 100.00% | +5.21 pts | +4.59 a +5.84 | 0 |
 | post_fin_90_97 | tocadas | 8 | 94.79c | 100.00% | +5.21 pts | +4.59 a +5.84 | 0 |
-| TOTAL | todas | 1583 | 98.68c | 97.28% | -1.40 pts | -2.19 a -0.60 | 43 |
-| TOTAL | tocadas | 1500 | 98.68c | 97.13% | -1.55 pts | -2.39 a -0.71 | 43 |
+| TOTAL | todas | 1636 | 98.70c | 97.37% | -1.33 pts | -2.10 a -0.56 | 43 |
+| TOTAL | tocadas | 1548 | 98.70c | 97.22% | -1.48 pts | -2.29 a -0.67 | 43 |
 
 Peores casos del registro sombra:
 
@@ -72,4 +71,4 @@ Peores casos del registro sombra:
 
 ## Veredicto
 
-Aun no hay veredicto: van 21 operaciones cerradas en 2.7 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
+Aun no hay veredicto: van 23 operaciones cerradas en 2.7 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
