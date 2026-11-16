@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-11T22:05:26Z | dias corridos: 4.9 de 28 | corridas: 76
-- Capital inicial: $1,000.00 | valor actual: $1,011.34 | P&L: $+11.34 (+1.13%)
-- Efectivo libre: $368.81 | en ordenes abiertas: $453.59 (9) | en posiciones: $200.73 (4)
+- Inicio: 2026-11-11T22:05:26Z | dias corridos: 4.9 de 28 | corridas: 77
+- Capital inicial: $1,000.00 | valor actual: $1,011.62 | P&L: $+11.62 (+1.16%)
+- Efectivo libre: $369.27 | en ordenes abiertas: $402.56 (8) | en posiciones: $251.30 (5)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 131 colocadas, 37 llenadas, 52 tocadas sin llenarse (sorteo 30%), 33 expiradas
+- Ordenes virtuales: 132 colocadas, 38 llenadas, 52 tocadas sin llenarse (sorteo 30%), 34 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -27,29 +27,30 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
-| $50.92 | 99.2c | 96.4c | otros_cierre |  | Will the USS Theodore Roosevelt arrive in CENTCOM by November 15, 2026? |
+| $50.92 | 99.2c | 97.9c | otros_cierre |  | Will the USS Theodore Roosevelt arrive in CENTCOM by November 15, 2026? |
+| $50.57 | 95.9c | 95.9c | post_fin_95_97 |  | Will the highest temperature in Atlanta be between 60-61°F on November 16? |
 | $51.03 | 97.9c | 78.0c | deportes_previo |  | Will Somalia win on 2026-11-16? |
 | $48.14 | 98.0c | 98.4c | deportes_previo |  | Spread: Celta Fortuna (-2.5) |
-| $50.64 | 98.7c | 98.4c | cripto_cierre |  | Amazon (AMZN) Up or Down on November 16? |
+| $50.64 | 98.7c | 97.5c | cripto_cierre |  | Amazon (AMZN) Up or Down on November 16? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 1219 | abiertas: 429 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 1244 | abiertas: 413 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
 | cripto_cierre | todas | 432 | 98.73c | 98.38% | -0.35 pts | -1.54 a +0.83 | 7 |
 | cripto_cierre | tocadas | 303 | 98.61c | 97.69% | -0.92 pts | -2.61 a +0.77 | 7 |
-| deportes_previo | todas | 569 | 98.44c | 98.59% | +0.15 pts | -0.82 a +1.12 | 8 |
-| deportes_previo | tocadas | 478 | 98.39c | 98.74% | +0.35 pts | -0.64 a +1.35 | 6 |
-| otros_cierre | todas | 202 | 98.63c | 100.00% | +1.37 pts | +1.27 a +1.48 | 0 |
-| otros_cierre | tocadas | 135 | 98.51c | 100.00% | +1.49 pts | +1.37 a +1.62 | 0 |
+| deportes_previo | todas | 592 | 98.45c | 98.65% | +0.19 pts | -0.74 a +1.12 | 8 |
+| deportes_previo | tocadas | 499 | 98.40c | 98.80% | +0.39 pts | -0.56 a +1.35 | 6 |
+| otros_cierre | todas | 204 | 98.64c | 100.00% | +1.36 pts | +1.26 a +1.47 | 0 |
+| otros_cierre | tocadas | 136 | 98.51c | 100.00% | +1.49 pts | +1.36 a +1.61 | 0 |
 | post_fin_95_97 | todas | 16 | 96.12c | 87.50% | -8.62 pts | -25.29 a +8.05 | 2 |
 | post_fin_95_97 | tocadas | 13 | 96.04c | 84.62% | -11.42 pts | -31.77 a +8.92 | 2 |
-| TOTAL | todas | 1219 | 98.55c | 98.61% | +0.06 pts | -0.60 a +0.71 | 17 |
-| TOTAL | tocadas | 929 | 98.45c | 98.39% | -0.06 pts | -0.87 a +0.74 | 15 |
+| TOTAL | todas | 1244 | 98.55c | 98.63% | +0.08 pts | -0.56 a +0.72 | 17 |
+| TOTAL | tocadas | 951 | 98.45c | 98.42% | -0.03 pts | -0.82 a +0.76 | 15 |
 
 Peores casos del registro sombra:
 

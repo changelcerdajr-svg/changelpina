@@ -1,29 +1,8 @@
 {
  "capital0": 1000.0,
- "cash": 368.8132,
+ "cash": 369.2703,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
-  {
-   "oid": "6279936-1794816069",
-   "id": "6279936",
-   "q": "Will \"Ebenezer\" score at least 30 on the Rotten Tomatoes Tomatometer?",
-   "cat": "otros",
-   "rule": "otros_cierre",
-   "event": "1262408",
-   "side": 0,
-   "token": "56471147919099807094045720429034353650735828807284369381142235326261407507786",
-   "px": 0.999,
-   "tick": 0.001,
-   "mid": 0.999,
-   "bid": 0.998,
-   "ask": 1,
-   "shares": 51.0892,
-   "cost": 51.0381,
-   "ts": 1794816069.589273,
-   "end_ts": 1794841200.0,
-   "hours": 6.98,
-   "liq": 2085
-  },
   {
    "oid": "6909146-1794834077",
    "id": "6909146",
@@ -172,25 +151,25 @@
    "liq": 3314
   },
   {
-   "oid": "7033435-1794855671",
-   "id": "7033435",
-   "q": "Will the highest temperature in Atlanta be between 60-61°F on November 16?",
-   "cat": "clima",
-   "rule": "post_fin_95_97",
-   "event": "1385152",
+   "oid": "7013462-1794859283",
+   "id": "7013462",
+   "q": "Will Apple (AAPL) close above $365 on November 16?",
+   "cat": "otros",
+   "rule": "otros_cierre",
+   "event": "1379170",
    "side": 1,
-   "token": "1399157787623965677285737415054052667042756328140585608637561387228995589189",
-   "px": 0.959,
+   "token": "110567727359633531533178524192132882839365057039399857661078818237015667883953",
+   "px": 0.994,
    "tick": 0.001,
-   "mid": 0.9595,
-   "bid": 0.95,
-   "ask": 0.969,
-   "shares": 52.7287,
-   "cost": 50.5668,
-   "ts": 1794855671.022309,
-   "end_ts": 1794830400.0,
-   "hours": -7.02,
-   "liq": 1113
+   "mid": 0.9945,
+   "bid": 0.991,
+   "ask": 0.998,
+   "shares": 50.8863,
+   "cost": 50.581,
+   "ts": 1794859283.033541,
+   "end_ts": 1794862800.0,
+   "hours": 0.98,
+   "liq": 2378
   }
  ],
  "positions": [
@@ -215,7 +194,7 @@
    "hours": 5.97,
    "liq": 2756,
    "fill_ts": 1794787264.139777,
-   "mark": 0.964,
+   "mark": 0.979,
    "stuck": false,
    "disputed": false
   },
@@ -290,9 +269,32 @@
    "hours": 2.98,
    "liq": 1938,
    "fill_ts": 1794854306.913107,
-   "mark": 0.984,
+   "mark": 0.9745,
    "stuck": false,
    "disputed": false
+  },
+  {
+   "oid": "7033435-1794855671",
+   "id": "7033435",
+   "q": "Will the highest temperature in Atlanta be between 60-61°F on November 16?",
+   "cat": "clima",
+   "rule": "post_fin_95_97",
+   "event": "1385152",
+   "side": 1,
+   "token": "1399157787623965677285737415054052667042756328140585608637561387228995589189",
+   "px": 0.959,
+   "tick": 0.001,
+   "mid": 0.9595,
+   "bid": 0.95,
+   "ask": 0.969,
+   "shares": 52.7287,
+   "cost": 50.5668,
+   "ts": 1794855671.022309,
+   "end_ts": 1794830400.0,
+   "hours": -7.02,
+   "liq": 1113,
+   "fill_ts": 1794859283.033541,
+   "mark": 0.959
   }
  ],
  "closed": [
@@ -2259,13 +2261,26 @@
    "placed": 1,
    "shadow_open": 429,
    "shadow_closed": 0
+  },
+  {
+   "ts": "2026-11-16T20:02:06Z",
+   "equity": 1011.62,
+   "cash": 369.27,
+   "orders": 8,
+   "positions": 5,
+   "closed": 33,
+   "scanned": 9769,
+   "candidates": 121,
+   "placed": 1,
+   "shadow_open": 413,
+   "shadow_closed": 25
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 131,
-  "filled": 37,
-  "expired": 33,
+  "placed": 132,
+  "filled": 38,
+  "expired": 34,
   "touched_not_filled": 52
  },
  "shadow": [
@@ -2280,32 +2295,6 @@
    "ts": 1794460496,
    "end_ts": 1794545940,
    "q": "Will the USS Theodore Roosevelt arrive in CENTCOM by November 12, 2026?",
-   "touched": 0
-  },
-  {
-   "id": "6694293",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "83580887378442717304125850259448518326322691503021213165739652080023203941784",
-   "px": 0.987,
-   "tick": 0.001,
-   "ts": 1794485864,
-   "end_ts": 1794592800,
-   "q": "CD Los Chankas leading at halftime?",
-   "touched": 1
-  },
-  {
-   "id": "6694291",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "58460457326170359882082623174342585238046741349196834355144512681811103490245",
-   "px": 0.996,
-   "tick": 0.001,
-   "ts": 1794525405,
-   "end_ts": 1794592800,
-   "q": "CU Técnica de Cajamarca leading at halftime?",
    "touched": 0
   },
   {
@@ -3713,162 +3702,6 @@
    "touched": 1
   },
   {
-   "id": "6631330",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "21896155831102673490402500798059689197831791278667212092304962781782197380236",
-   "px": 0.971,
-   "tick": 0.001,
-   "ts": 1794757512,
-   "end_ts": 1794848400,
-   "q": "Will Liechtenstein win on 2026-11-16?",
-   "touched": 1
-  },
-  {
-   "id": "6632109",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "27559988509529708177161497396457874466068199491100125604528231338271688550782",
-   "px": 0.996,
-   "tick": 0.001,
-   "ts": 1794757512,
-   "end_ts": 1794848400,
-   "q": "Spread: Liechtenstein (-1.5)",
-   "touched": 1
-  },
-  {
-   "id": "6632111",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "13921548869012508491909560053839841702359172403487138683533676563029498943023",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1794757512,
-   "end_ts": 1794848400,
-   "q": "Spread: Liechtenstein (-2.5)",
-   "touched": 1
-  },
-  {
-   "id": "6632124",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "104076717673511075409959380860952284431525446054177088413645709289789236288434",
-   "px": 0.98,
-   "tick": 0.001,
-   "ts": 1794757512,
-   "end_ts": 1794848400,
-   "q": "Lithuania vs. Liechtenstein: O/U 6.5",
-   "touched": 1
-  },
-  {
-   "id": "6632171",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "52348591437915910332867083823688651950184138897636913828099644988857617619003",
-   "px": 0.981,
-   "tick": 0.001,
-   "ts": 1794757512,
-   "end_ts": 1794848400,
-   "q": "Spread: Bulgaria (-2.5)",
-   "touched": 1
-  },
-  {
-   "id": "6632183",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "82552757599031780280747721771170282984155004447612213178978411452867589459396",
-   "px": 0.975,
-   "tick": 0.001,
-   "ts": 1794757512,
-   "end_ts": 1794848400,
-   "q": "Estonia vs. Bulgaria: O/U 5.5",
-   "touched": 1
-  },
-  {
-   "id": "6632184",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "110306485468451723028044607948908777680965868683862544710178740151860581123780",
-   "px": 0.991,
-   "tick": 0.001,
-   "ts": 1794757512,
-   "end_ts": 1794848400,
-   "q": "Estonia vs. Bulgaria: O/U 6.5",
-   "touched": 1
-  },
-  {
-   "id": "6632185",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "46043813864385091889403646097550189533536787303743430442247574345252131246676",
-   "px": 0.996,
-   "tick": 0.001,
-   "ts": 1794757512,
-   "end_ts": 1794848400,
-   "q": "Estonia vs. Bulgaria: O/U 7.5",
-   "touched": 1
-  },
-  {
-   "id": "6632229",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "113548441485022556319256263129949578096749181670562685466002919301182757206199",
-   "px": 0.983,
-   "tick": 0.001,
-   "ts": 1794757512,
-   "end_ts": 1794848400,
-   "q": "Spread: Luxembourg (-1.5)",
-   "touched": 1
-  },
-  {
-   "id": "6632231",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "96499603374674385593159447697719587072224612568414107171222323976649201402215",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1794757512,
-   "end_ts": 1794848400,
-   "q": "Spread: Luxembourg (-2.5)",
-   "touched": 1
-  },
-  {
-   "id": "6632244",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "24970653790808470013268428125852253255488959997340825576973410461246096435618",
-   "px": 0.973,
-   "tick": 0.001,
-   "ts": 1794757512,
-   "end_ts": 1794848400,
-   "q": "Iceland vs. Luxembourg: O/U 6.5",
-   "touched": 1
-  },
-  {
-   "id": "6632245",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "91656989726793051098912178691460578672092162552898028680635255421557296147900",
-   "px": 0.99,
-   "tick": 0.001,
-   "ts": 1794757512,
-   "end_ts": 1794848400,
-   "q": "Iceland vs. Luxembourg: O/U 7.5",
-   "touched": 1
-  },
-  {
    "id": "6631814",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -4142,32 +3975,6 @@
    "touched": 1
   },
   {
-   "id": "6632186",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "91174341996326998779707472143874004143583714610679283351232527612481172886011",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1794762066,
-   "end_ts": 1794848400,
-   "q": "Estonia vs. Bulgaria: O/U 8.5",
-   "touched": 1
-  },
-  {
-   "id": "6632126",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "46686644486180284583063225775083664147434508560736449496519201764215137059419",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1794765665,
-   "end_ts": 1794848400,
-   "q": "Lithuania vs. Liechtenstein: O/U 8.5",
-   "touched": 1
-  },
-  {
    "id": "6653488",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -4230,19 +4037,6 @@
    "ts": 1794769267,
    "end_ts": 1794877200,
    "q": "Michigan Wolverines vs. Central Michigan Chippewas (W)",
-   "touched": 0
-  },
-  {
-   "id": "6632125",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "70003164658422290037479572932227986774425473927914140010407680416524671712131",
-   "px": 0.992,
-   "tick": 0.001,
-   "ts": 1794772863,
-   "end_ts": 1794848400,
-   "q": "Lithuania vs. Liechtenstein: O/U 7.5",
    "touched": 0
   },
   {
@@ -4478,84 +4272,6 @@
    "end_ts": 1794844800,
    "q": "Central African Republic vs. Benin: O/U 6.5",
    "touched": 1
-  },
-  {
-   "id": "6632113",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "108097254021354243702518701687762769385392357323828119867981411020880143541381",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1794805267,
-   "end_ts": 1794848400,
-   "q": "Spread: Liechtenstein (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "6632172",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "91864179947979450183098363821085592531839048583847312530262717008575898865270",
-   "px": 0.975,
-   "tick": 0.001,
-   "ts": 1794805267,
-   "end_ts": 1794848400,
-   "q": "Spread: Estonia (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "6632173",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "7654859579994034484515277886411930922451655674517980658220216575064382640995",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1794805267,
-   "end_ts": 1794848400,
-   "q": "Spread: Bulgaria (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "6632233",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "93355619852030905772972659180022665326529082524114767529448737247452319390020",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1794805267,
-   "end_ts": 1794848400,
-   "q": "Spread: Luxembourg (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "7083289",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "12292342219582288711912373959318790914690783942507992489803834643539802224589",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1794805267,
-   "end_ts": 1794848405,
-   "q": "Will MrBeast's next video get less than 53 million views on day 2?",
-   "touched": 1
-  },
-  {
-   "id": "7083294",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "54202802708355415097478946356574136347350484957757573750100511810048860047225",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1794805267,
-   "end_ts": 1794848405,
-   "q": "Will MrBeast's next video get 61 million or more views on day 2?",
-   "touched": 0
   },
   {
    "id": "6630704",
@@ -5169,19 +4885,6 @@
    "touched": 1
   },
   {
-   "id": "6631333",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "104184530789258185159899187605932679926009093612445766856802741450604555103471",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1794812467,
-   "end_ts": 1794848400,
-   "q": "Liechtenstein leading at halftime?",
-   "touched": 1
-  },
-  {
    "id": "6679139",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -5442,19 +5145,6 @@
    "touched": 1
   },
   {
-   "id": "6632262",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "110524399107162875332366181903765054074434045969496351586861466892569125837370",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1794816069,
-   "end_ts": 1794848400,
-   "q": "Iceland vs. Luxembourg: Luxembourg O/U 2.5",
-   "touched": null
-  },
-  {
    "id": "6631988",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -5465,7 +5155,7 @@
    "ts": 1794816069,
    "end_ts": 1794858300,
    "q": "Spread: North Macedonia (-1.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6679146",
@@ -5478,7 +5168,7 @@
    "ts": 1794816069,
    "end_ts": 1794855600,
    "q": "Cuba vs. Grenada: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6957443",
@@ -5491,7 +5181,7 @@
    "ts": 1794816069,
    "end_ts": 1794870000,
    "q": "Spread: Montevideo Wanderers (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6679036",
@@ -5504,7 +5194,7 @@
    "ts": 1794816069,
    "end_ts": 1794873600,
    "q": "Spread: Aruba (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6679038",
@@ -5517,7 +5207,7 @@
    "ts": 1794816069,
    "end_ts": 1794873600,
    "q": "Spread: Aruba (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6679043",
@@ -5530,7 +5220,7 @@
    "ts": 1794816069,
    "end_ts": 1794873600,
    "q": "Martinique vs. Aruba: O/U 0.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6679050",
@@ -5543,7 +5233,7 @@
    "ts": 1794816069,
    "end_ts": 1794873600,
    "q": "Martinique vs. Aruba: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6679093",
@@ -5556,7 +5246,7 @@
    "ts": 1794816069,
    "end_ts": 1794873600,
    "q": "Trinidad and Tobago vs. Antigua and Barbuda: O/U 0.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6679100",
@@ -5569,7 +5259,7 @@
    "ts": 1794816069,
    "end_ts": 1794873600,
    "q": "Trinidad and Tobago vs. Antigua and Barbuda: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6918220",
@@ -5582,7 +5272,7 @@
    "ts": 1794816069,
    "end_ts": 1794873600,
    "q": "Grambling State Tigers vs. Kentucky Wildcats",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7081997",
@@ -5595,7 +5285,7 @@
    "ts": 1794816069,
    "end_ts": 1794873600,
    "q": "Spread: Grizzlies (-29.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7085182",
@@ -5608,7 +5298,7 @@
    "ts": 1794816069,
    "end_ts": 1794891600,
    "q": "Will Bitcoin dip to $60,000 on November 16?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6635051",
@@ -5621,7 +5311,7 @@
    "ts": 1794816069,
    "end_ts": 1794924000,
    "q": "Will Indonesia vs. Kuwait end in a draw?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6635052",
@@ -5634,7 +5324,7 @@
    "ts": 1794816069,
    "end_ts": 1794924000,
    "q": "Will Kuwait win on 2026-11-17?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7062955",
@@ -7844,6 +7534,123 @@
    "ts": 1794855671,
    "end_ts": 1794942000,
    "q": "Botswana vs. Uganda: O/U 5.5",
+   "touched": null
+  },
+  {
+   "id": "7013483",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "41859568189397654920429849687923496770506490257191672207116619707837664185317",
+   "px": 0.996,
+   "tick": 0.001,
+   "ts": 1794859283,
+   "end_ts": 1794862800,
+   "q": "Rocket Lab (RKLB) Up or Down on November 16?",
+   "touched": null
+  },
+  {
+   "id": "7013500",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "82428489555339321957966050821357084881781172870291347997647615838360771200836",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1794859283,
+   "end_ts": 1794862800,
+   "q": "Will NVIDIA (NVDA) close above $165 on November 16?",
+   "touched": null
+  },
+  {
+   "id": "6625210",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "71206800893829972277331536654888378277192176994528120016933051407964510101443",
+   "px": 0.973,
+   "tick": 0.001,
+   "ts": 1794859283,
+   "end_ts": 1794891540,
+   "q": "Will GPT Astra 6.1+ be released on November 16, 2026?",
+   "touched": null
+  },
+  {
+   "id": "7085227",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "83926870970511889107481033683758668630034615845523753763545988730814200527288",
+   "px": 0.977,
+   "tick": 0.001,
+   "ts": 1794859283,
+   "end_ts": 1794891600,
+   "q": "Will Solana dip to $65 on November 16?",
+   "touched": null
+  },
+  {
+   "id": "6672449",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "75071407090247717439246942194699230880469214965289742955571680770407075962618",
+   "px": 0.974,
+   "tick": 0.001,
+   "ts": 1794859283,
+   "end_ts": 1794920400,
+   "q": "Ethiopia vs. Mozambique: O/U 5.5",
+   "touched": null
+  },
+  {
+   "id": "6671942",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "42464561382100762042043779450789926077283519581657654845645469527393040158582",
+   "px": 0.971,
+   "tick": 0.001,
+   "ts": 1794859283,
+   "end_ts": 1794942000,
+   "q": "Rwanda vs. Mali: O/U 5.5",
+   "touched": null
+  },
+  {
+   "id": "6674229",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "91642146479487087649672365068981884191563477278116710165325582098367372555176",
+   "px": 0.973,
+   "tick": 0.001,
+   "ts": 1794859283,
+   "end_ts": 1794944700,
+   "q": "Spread: Sweden (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "6674491",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "102653219645985974606252567556143286148133022898174272853265165399468701706612",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1794859283,
+   "end_ts": 1794944700,
+   "q": "Denmark vs. Norway: O/U 8.5",
+   "touched": null
+  },
+  {
+   "id": "6964686",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "91408809831654272374195157684303413781787892955797314043330968702432722141841",
+   "px": 0.986,
+   "tick": 0.001,
+   "ts": 1794859283,
+   "end_ts": 1794967200,
+   "q": "Texas Southern Tigers vs. Oklahoma Sooners (W)",
    "touched": null
   }
  ]
