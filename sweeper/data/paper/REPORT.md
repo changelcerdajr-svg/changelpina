@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-11T22:05:26Z | dias corridos: 4.5 de 28 | corridas: 67
+- Inicio: 2026-11-11T22:05:26Z | dias corridos: 4.5 de 28 | corridas: 68
 - Capital inicial: $1,000.00 | valor actual: $1,020.63 | P&L: $+20.63 (+2.06%)
-- Efectivo libre: $409.15 | en ordenes abiertas: $458.54 (9) | en posiciones: $152.84 (3)
+- Efectivo libre: $408.92 | en ordenes abiertas: $407.85 (8) | en posiciones: $203.75 (4)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 118 colocadas, 32 llenadas, 49 tocadas sin llenarse (sorteo 30%), 28 expiradas
+- Ordenes virtuales: 121 colocadas, 33 llenadas, 50 tocadas sin llenarse (sorteo 30%), 30 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -28,27 +28,28 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
 | $50.92 | 99.2c | 99.4c | otros_cierre |  | Will the USS Theodore Roosevelt arrive in CENTCOM by November 15, 2026? |
-| $50.91 | 97.1c | 97.1c | deportes_previo |  | Namibia vs. Cameroon: O/U 5.5 |
-| $51.01 | 99.6c | 99.6c | cripto_cierre |  | Will the price of Ethereum be above $1,600 on November 16? |
+| $50.91 | 97.1c | 97.2c | deportes_previo |  | Namibia vs. Cameroon: O/U 5.5 |
+| $50.92 | 98.8c | 98.8c | deportes_previo |  | Spread: Moldova (-2.5) |
+| $51.01 | 99.6c | 99.5c | cripto_cierre |  | Will the price of Ethereum be above $1,600 on November 16? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 1126 | abiertas: 373 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 1129 | abiertas: 379 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
-| cripto_cierre | todas | 368 | 98.76c | 98.10% | -0.66 pts | -2.05 a +0.73 | 7 |
-| cripto_cierre | tocadas | 260 | 98.66c | 97.31% | -1.35 pts | -3.31 a +0.61 | 7 |
+| cripto_cierre | todas | 371 | 98.75c | 98.11% | -0.64 pts | -2.02 a +0.74 | 7 |
+| cripto_cierre | tocadas | 262 | 98.65c | 97.33% | -1.32 pts | -3.27 a +0.62 | 7 |
 | deportes_previo | todas | 553 | 98.44c | 98.55% | +0.11 pts | -0.88 a +1.11 | 8 |
 | deportes_previo | tocadas | 465 | 98.38c | 98.71% | +0.32 pts | -0.70 a +1.35 | 6 |
 | otros_cierre | todas | 190 | 98.62c | 100.00% | +1.38 pts | +1.28 a +1.49 | 0 |
 | otros_cierre | tocadas | 131 | 98.51c | 100.00% | +1.49 pts | +1.37 a +1.62 | 0 |
 | post_fin_95_97 | todas | 15 | 96.13c | 86.67% | -9.47 pts | -27.20 a +8.26 | 2 |
 | post_fin_95_97 | tocadas | 12 | 96.05c | 83.33% | -12.72 pts | -34.66 a +9.23 | 2 |
-| TOTAL | todas | 1126 | 98.54c | 98.49% | -0.05 pts | -0.76 a +0.65 | 17 |
-| TOTAL | tocadas | 868 | 98.45c | 98.27% | -0.18 pts | -1.04 a +0.68 | 15 |
+| TOTAL | todas | 1129 | 98.54c | 98.49% | -0.05 pts | -0.76 a +0.66 | 17 |
+| TOTAL | tocadas | 870 | 98.45c | 98.28% | -0.18 pts | -1.04 a +0.69 | 15 |
 
 Peores casos del registro sombra:
 
