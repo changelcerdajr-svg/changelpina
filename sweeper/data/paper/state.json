@@ -1,6 +1,6 @@
 {
  "capital0": 1000.0,
- "cash": 366.7441,
+ "cash": 366.7428,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
   {
@@ -109,48 +109,6 @@
    "liq": 16183
   },
   {
-   "oid": "6625210-1794862886",
-   "id": "6625210",
-   "q": "Will GPT Astra 6.1+ be released on November 16, 2026?",
-   "cat": "otros",
-   "rule": "otros_cierre",
-   "event": "1305832",
-   "side": 1,
-   "token": "71206800893829972277331536654888378277192176994528120016933051407964510101443",
-   "px": 0.995,
-   "tick": 0.001,
-   "mid": 0.995,
-   "bid": 0.993,
-   "ask": 0.997,
-   "shares": 51.5623,
-   "cost": 51.3045,
-   "ts": 1794862886.383299,
-   "end_ts": 1794891540.0,
-   "hours": 7.96,
-   "liq": 7063
-  },
-  {
-   "oid": "6655550-1794866831",
-   "id": "6655550",
-   "q": "Will the next Meta Muse Spark model be released on November 16, 2026?",
-   "cat": "otros",
-   "rule": "otros_cierre",
-   "event": "1310057",
-   "side": 1,
-   "token": "8186843318406767149043552706159826045403818223619798394316786023173836794921",
-   "px": 0.984,
-   "tick": 0.001,
-   "mid": 0.984,
-   "bid": 0.974,
-   "ask": 0.994,
-   "shares": 52.2065,
-   "cost": 51.3712,
-   "ts": 1794866831.760072,
-   "end_ts": 1794891540.0,
-   "hours": 6.86,
-   "liq": 1236
-  },
-  {
    "oid": "6892080-1794866831",
    "id": "6892080",
    "q": "Will Microstrategy announce a Bitcoin purchase November 10-16?",
@@ -212,6 +170,27 @@
    "end_ts": 1794909600.0,
    "hours": 11.88,
    "liq": 10250
+  },
+  {
+   "oid": "6655550-1794870072",
+   "id": "6655550",
+   "q": "Will the next Meta Muse Spark model be released on November 16, 2026?",
+   "cat": "otros",
+   "rule": "otros_cierre",
+   "event": "1310057",
+   "side": 1,
+   "token": "8186843318406767149043552706159826045403818223619798394316786023173836794921",
+   "px": 0.994,
+   "tick": 0.001,
+   "mid": 0.994,
+   "bid": 0.991,
+   "ask": 0.997,
+   "shares": 51.6826,
+   "cost": 51.3725,
+   "ts": 1794870072.358557,
+   "end_ts": 1794891540.0,
+   "hours": 5.96,
+   "liq": 1472
   }
  ],
  "positions": [
@@ -286,7 +265,32 @@
    "hours": 7.96,
    "liq": 3206,
    "fill_ts": 1794866831.760072,
-   "mark": 0.994
+   "mark": 0.9945,
+   "stuck": false,
+   "disputed": false
+  },
+  {
+   "oid": "6625210-1794862886",
+   "id": "6625210",
+   "q": "Will GPT Astra 6.1+ be released on November 16, 2026?",
+   "cat": "otros",
+   "rule": "otros_cierre",
+   "event": "1305832",
+   "side": 1,
+   "token": "71206800893829972277331536654888378277192176994528120016933051407964510101443",
+   "px": 0.995,
+   "tick": 0.001,
+   "mid": 0.995,
+   "bid": 0.993,
+   "ask": 0.997,
+   "shares": 51.5623,
+   "cost": 51.3045,
+   "ts": 1794862886.383299,
+   "end_ts": 1794891540.0,
+   "hours": 7.96,
+   "liq": 7063,
+   "fill_ts": 1794870072.358557,
+   "mark": 0.995
   }
  ],
  "closed": [
@@ -2382,14 +2386,27 @@
    "placed": 4,
    "shadow_open": 374,
    "shadow_closed": 47
+  },
+  {
+   "ts": "2026-11-16T23:01:42Z",
+   "equity": 1027.45,
+   "cash": 366.74,
+   "orders": 9,
+   "positions": 4,
+   "closed": 36,
+   "scanned": 9662,
+   "candidates": 122,
+   "placed": 1,
+   "shadow_open": 361,
+   "shadow_closed": 22
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 139,
-  "filled": 39,
+  "placed": 140,
+  "filled": 40,
   "expired": 34,
-  "touched_not_filled": 56
+  "touched_not_filled": 57
  },
  "shadow": [
   {
@@ -3446,32 +3463,6 @@
    "touched": 1
   },
   {
-   "id": "6801897",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "55384145370463720680285180514183682376523897663594794778051830838271089939117",
-   "px": 0.989,
-   "tick": 0.001,
-   "ts": 1794593687,
-   "end_ts": 1794700800,
-   "q": "Will Ben Kohles win the 2026 Austin Championship?",
-   "touched": 1
-  },
-  {
-   "id": "6801992",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "84738011167496148246783401993740971172093512749639522395381525534731451990078",
-   "px": 0.987,
-   "tick": 0.001,
-   "ts": 1794593687,
-   "end_ts": 1794700800,
-   "q": "Will Austin Smotherman win the 2026 Austin Championship?",
-   "touched": 1
-  },
-  {
    "id": "6919777",
    "rule": "otros_cierre",
    "cat": "otros",
@@ -3496,97 +3487,6 @@
    "end_ts": 1794744000,
    "q": "Will \"Ghost Soldier\" Opening Weekend Box Office be at least 7m?",
    "touched": 0
-  },
-  {
-   "id": "6919811",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 0,
-   "token": "93986619620887128311421616027827438974845529439155980282443993919905222359299",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1794737886,
-   "end_ts": 1794744000,
-   "q": "Will \"How to Rob a Bank\" Opening Weekend Box Office be less than 7m?",
-   "touched": 1
-  },
-  {
-   "id": "6919812",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "28395424694598923201926845141836548319712409820687687378265929068290889790979",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1794737886,
-   "end_ts": 1794744000,
-   "q": "Will \"How to Rob a Bank\" Opening Weekend Box Office be between 7m and 9m?",
-   "touched": 1
-  },
-  {
-   "id": "6919817",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 0,
-   "token": "71034825751967444714839534408944662130501527751930876877935511549981873681681",
-   "px": 0.988,
-   "tick": 0.001,
-   "ts": 1794737886,
-   "end_ts": 1794744000,
-   "q": "Will \"Victorian Psycho\" Opening Weekend Box Office be less than 2.5m?",
-   "touched": 1
-  },
-  {
-   "id": "6919818",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "56341026091341838774974856243424042912966709501425302088692611668383262560482",
-   "px": 0.988,
-   "tick": 0.001,
-   "ts": 1794737886,
-   "end_ts": 1794744000,
-   "q": "Will \"Victorian Psycho\" Opening Weekend Box Office be between 2.5m and 3.5m?",
-   "touched": 1
-  },
-  {
-   "id": "6976221",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "63429221389105088027735374269484850129241544339760476581971732465981177813089",
-   "px": 0.996,
-   "tick": 0.001,
-   "ts": 1794737886,
-   "end_ts": 1794744000,
-   "q": "Will \"The Cat in the Hat\" 2nd Weekend Box Office be less than 9m?",
-   "touched": 1
-  },
-  {
-   "id": "6976223",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "39227427420161191630120326439101796387085341191102301462241799171879767496673",
-   "px": 0.988,
-   "tick": 0.001,
-   "ts": 1794737886,
-   "end_ts": 1794744000,
-   "q": "Will \"The Cat in the Hat\" 2nd Weekend Box Office be between 9m and 10m?",
-   "touched": 1
-  },
-  {
-   "id": "6976224",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "38162546756976549341138148017197377894573860237253656799775080407696251143586",
-   "px": 0.974,
-   "tick": 0.001,
-   "ts": 1794737886,
-   "end_ts": 1794744000,
-   "q": "Will \"The Cat in the Hat\" 2nd Weekend Box Office be between 10m and 11m?",
-   "touched": 1
   },
   {
    "id": "6760886",
@@ -3810,19 +3710,6 @@
    "touched": 0
   },
   {
-   "id": "6976226",
-   "rule": "post_fin_95_97",
-   "cat": "otros",
-   "side": 1,
-   "token": "26472167779235528743970961159422708418852351764197488439817403560021277136401",
-   "px": 0.969,
-   "tick": 0.001,
-   "ts": 1794774310,
-   "end_ts": 1794744000,
-   "q": "Will \"The Cat in the Hat\" 2nd Weekend Box Office be at least 12m?",
-   "touched": 1
-  },
-  {
    "id": "6914543",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -3950,97 +3837,6 @@
    "ts": 1794805267,
    "end_ts": 1794857400,
    "q": "Spread: Celta Fortuna (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "6679130",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "20773722827508366340449513448795645341117216863828883453227364280097564861794",
-   "px": 0.972,
-   "tick": 0.001,
-   "ts": 1794805267,
-   "end_ts": 1794855600,
-   "q": "Spread: Grenada (-1.5)",
-   "touched": 1
-  },
-  {
-   "id": "6679134",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "2629508791709148267310586723666472796503578965699297228751253608233406996510",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1794805267,
-   "end_ts": 1794855600,
-   "q": "Spread: Grenada (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "6679178",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "76338309468919819867038888282565915438964233360754471021905055501543883839218",
-   "px": 0.976,
-   "tick": 0.001,
-   "ts": 1794805267,
-   "end_ts": 1794855600,
-   "q": "Spread: Puerto Rico (-2.5)",
-   "touched": 1
-  },
-  {
-   "id": "6679180",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "77510523591062812283890667018504074962328650102491228183120295982321347468778",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1794805267,
-   "end_ts": 1794855600,
-   "q": "Spread: Puerto Rico (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "6679222",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "35158309648574454420615273353249220866876896194363353322211060265073586601355",
-   "px": 0.977,
-   "tick": 0.001,
-   "ts": 1794805267,
-   "end_ts": 1794855600,
-   "q": "Spread: Bermuda (-1.5)",
-   "touched": 1
-  },
-  {
-   "id": "6679226",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "18261154245664496915025412907646441168387021814412520381592017937049947611360",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1794805267,
-   "end_ts": 1794855600,
-   "q": "Spread: Bermuda (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "6679231",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "111608175690628861541615545384052320133486191672048739555645805258544028709331",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1794805267,
-   "end_ts": 1794855600,
-   "q": "Guadeloupe vs. Bermuda: O/U 0.5",
    "touched": 1
   },
   {
@@ -4265,19 +4061,6 @@
    "touched": 1
   },
   {
-   "id": "6679224",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "9946301600852737138747267007263211724169996359999359480214269242655634623049",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1794808866,
-   "end_ts": 1794855600,
-   "q": "Spread: Bermuda (-2.5)",
-   "touched": 1
-  },
-  {
    "id": "6914593",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -4470,32 +4253,6 @@
    "ts": 1794808866,
    "end_ts": 1794891600,
    "q": "Will Ethereum dip to $1,550 on November 16?",
-   "touched": 1
-  },
-  {
-   "id": "6679139",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "92679817914945012916240555916413980461037695871558321777403435736478203231753",
-   "px": 0.972,
-   "tick": 0.001,
-   "ts": 1794812467,
-   "end_ts": 1794855600,
-   "q": "Cuba vs. Grenada: O/U 0.5",
-   "touched": 1
-  },
-  {
-   "id": "6679238",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "5965736331353635838247092831998656874015170038306111418154218594624293155685",
-   "px": 0.973,
-   "tick": 0.001,
-   "ts": 1794812467,
-   "end_ts": 1794855600,
-   "q": "Guadeloupe vs. Bermuda: O/U 7.5",
    "touched": 1
   },
   {
@@ -4733,19 +4490,6 @@
    "touched": 1
   },
   {
-   "id": "6679146",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "76268759434350488161606835335747996772548872898297760819235324026179010887133",
-   "px": 0.975,
-   "tick": 0.001,
-   "ts": 1794816069,
-   "end_ts": 1794855600,
-   "q": "Cuba vs. Grenada: O/U 7.5",
-   "touched": 1
-  },
-  {
    "id": "6957443",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -4964,19 +4708,6 @@
    "ts": 1794820257,
    "end_ts": 1794920400,
    "q": "Malawi vs. Egypt: O/U 6.5",
-   "touched": 1
-  },
-  {
-   "id": "6679191",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "72594303611437450616014013405719403145711599080087239390294462455479287259164",
-   "px": 0.971,
-   "tick": 0.001,
-   "ts": 1794823267,
-   "end_ts": 1794855600,
-   "q": "Guyana vs. Puerto Rico: O/U 6.5",
    "touched": 1
   },
   {
@@ -7252,6 +6983,123 @@
    "ts": 1794866831,
    "end_ts": 1794960000,
    "q": "Senators vs. Jets: O/U 2.5",
+   "touched": null
+  },
+  {
+   "id": "7080592",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "29803931064996719848117055925242529739834678775123981171858225616966924438104",
+   "px": 0.98,
+   "tick": 0.001,
+   "ts": 1794870072,
+   "end_ts": 1794870300,
+   "q": "BNB Up or Down - November 16, 6:00PM-6:05PM ET",
+   "touched": null
+  },
+  {
+   "id": "7085199",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "9889847368074999486842405474693811950508674756944701215267801597727187292554",
+   "px": 0.971,
+   "tick": 0.001,
+   "ts": 1794870072,
+   "end_ts": 1794891600,
+   "q": "Will Ethereum reach $1,900 on November 16?",
+   "touched": null
+  },
+  {
+   "id": "6635053",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "111430507955114771158387147438956138815686040132870171769777151707709375933490",
+   "px": 0.99,
+   "tick": 0.001,
+   "ts": 1794870072,
+   "end_ts": 1794924000,
+   "q": "Indonesia leading at halftime?",
+   "touched": null
+  },
+  {
+   "id": "6672517",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "44168760777764050982292232174550042159739718978737871389588028564163869324530",
+   "px": 0.973,
+   "tick": 0.001,
+   "ts": 1794870072,
+   "end_ts": 1794920400,
+   "q": "Tanzania vs. Nigeria: Tanzania O/U 2.5",
+   "touched": null
+  },
+  {
+   "id": "6944139",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "37721901053154125540717066167184370276616025432839819269426916075060848931658",
+   "px": 0.974,
+   "tick": 0.001,
+   "ts": 1794870072,
+   "end_ts": 1794924600,
+   "q": "United Arab Emirates vs. Syria: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "6671975",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "36470549986750722193901798953114879011767104723704401434194360733325801373505",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1794870072,
+   "end_ts": 1794942000,
+   "q": "Spread: Liberia (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "6674144",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "75295929182655411930959188903490357819052355154886196578737721033867777682753",
+   "px": 0.972,
+   "tick": 0.001,
+   "ts": 1794870072,
+   "end_ts": 1794944700,
+   "q": "Ukraine vs. Georgia: Ukraine 1st Half O/U 2.5",
+   "touched": null
+  },
+  {
+   "id": "7097928",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "54022393279355747249580775292381989923536771198149743888059253894747530089369",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1794870072,
+   "end_ts": 1794961800,
+   "q": "Capitals vs. Lightning: O/U 2.5",
+   "touched": null
+  },
+  {
+   "id": "7097867",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "78425878302872302848502114771774343025022120843224124320153811103274950758980",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1794870072,
+   "end_ts": 1794970800,
+   "q": "Flames vs. Sharks: O/U 2.5",
    "touched": null
   }
  ]
