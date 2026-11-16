@@ -1,6 +1,6 @@
 {
  "capital0": 1000.0,
- "cash": 419.38,
+ "cash": 368.8132,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
   {
@@ -170,6 +170,27 @@
    "end_ts": 1794877200.0,
    "hours": 6.98,
    "liq": 3314
+  },
+  {
+   "oid": "7033435-1794855671",
+   "id": "7033435",
+   "q": "Will the highest temperature in Atlanta be between 60-61°F on November 16?",
+   "cat": "clima",
+   "rule": "post_fin_95_97",
+   "event": "1385152",
+   "side": 1,
+   "token": "1399157787623965677285737415054052667042756328140585608637561387228995589189",
+   "px": 0.959,
+   "tick": 0.001,
+   "mid": 0.9595,
+   "bid": 0.95,
+   "ask": 0.969,
+   "shares": 52.7287,
+   "cost": 50.5668,
+   "ts": 1794855671.022309,
+   "end_ts": 1794830400.0,
+   "hours": -7.02,
+   "liq": 1113
   }
  ],
  "positions": [
@@ -194,7 +215,7 @@
    "hours": 5.97,
    "liq": 2756,
    "fill_ts": 1794787264.139777,
-   "mark": 0.963,
+   "mark": 0.964,
    "stuck": false,
    "disputed": false
   },
@@ -244,7 +265,7 @@
    "hours": 6.48,
    "liq": 12931,
    "fill_ts": 1794837685.269892,
-   "mark": 0.9845,
+   "mark": 0.984,
    "stuck": false,
    "disputed": false
   },
@@ -269,7 +290,9 @@
    "hours": 2.98,
    "liq": 1938,
    "fill_ts": 1794854306.913107,
-   "mark": 0.987
+   "mark": 0.984,
+   "stuck": false,
+   "disputed": false
   }
  ],
  "closed": [
@@ -2223,11 +2246,24 @@
    "placed": 0,
    "shadow_open": 423,
    "shadow_closed": 6
+  },
+  {
+   "ts": "2026-11-16T19:01:40Z",
+   "equity": 1011.34,
+   "cash": 368.81,
+   "orders": 9,
+   "positions": 4,
+   "closed": 33,
+   "scanned": 10580,
+   "candidates": 108,
+   "placed": 1,
+   "shadow_open": 429,
+   "shadow_closed": 0
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 130,
+  "placed": 131,
   "filled": 37,
   "expired": 33,
   "touched_not_filled": 52
@@ -5143,7 +5179,7 @@
    "ts": 1794812467,
    "end_ts": 1794848400,
    "q": "Liechtenstein leading at halftime?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6679139",
@@ -5156,7 +5192,7 @@
    "ts": 1794812467,
    "end_ts": 1794855600,
    "q": "Cuba vs. Grenada: O/U 0.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6679238",
@@ -5169,7 +5205,7 @@
    "ts": 1794812467,
    "end_ts": 1794855600,
    "q": "Guadeloupe vs. Bermuda: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6918215",
@@ -5182,7 +5218,7 @@
    "ts": 1794812467,
    "end_ts": 1794873600,
    "q": "Jacksonville Dolphins vs. Georgia Bulldogs",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7082235",
@@ -5195,7 +5231,7 @@
    "ts": 1794812467,
    "end_ts": 1794877200,
    "q": "Spread: Pelicans (-24.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7072675",
@@ -5208,7 +5244,7 @@
    "ts": 1794812467,
    "end_ts": 1794882600,
    "q": "Canucks vs. Utah: O/U 2.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6665169",
@@ -5221,7 +5257,7 @@
    "ts": 1794812467,
    "end_ts": 1794891540,
    "q": "Will gemini-4-argon-high be the best AI model on November 16, 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6665170",
@@ -5234,7 +5270,7 @@
    "ts": 1794812467,
    "end_ts": 1794891540,
    "q": "Will claude-opus-5.5-high be the best AI model on November 16, 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7085189",
@@ -5247,7 +5283,7 @@
    "ts": 1794812467,
    "end_ts": 1794891600,
    "q": "Will Ethereum reach $2,150 on November 16?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7085214",
@@ -5260,7 +5296,7 @@
    "ts": 1794812467,
    "end_ts": 1794891600,
    "q": "Will Ethereum dip to $1,500 on November 16?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7085215",
@@ -5273,7 +5309,7 @@
    "ts": 1794812467,
    "end_ts": 1794891600,
    "q": "Will Solana reach $95 on November 16?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7085217",
@@ -5286,7 +5322,7 @@
    "ts": 1794812467,
    "end_ts": 1794891600,
    "q": "Will Solana reach $90 on November 16?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7085219",
@@ -5299,7 +5335,7 @@
    "ts": 1794812467,
    "end_ts": 1794891600,
    "q": "Will Solana reach $85 on November 16?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7085229",
@@ -5312,7 +5348,7 @@
    "ts": 1794812467,
    "end_ts": 1794891600,
    "q": "Will Solana dip to $60 on November 16?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7085231",
@@ -5325,7 +5361,7 @@
    "ts": 1794812467,
    "end_ts": 1794891600,
    "q": "Will Solana dip to $55 on November 16?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7085233",
@@ -5338,7 +5374,7 @@
    "ts": 1794812467,
    "end_ts": 1794891600,
    "q": "Will Solana dip to $50 on November 16?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7085239",
@@ -5351,7 +5387,7 @@
    "ts": 1794812467,
    "end_ts": 1794891600,
    "q": "Will XRP reach $1.20 on November 16?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7085240",
@@ -5364,7 +5400,7 @@
    "ts": 1794812467,
    "end_ts": 1794891600,
    "q": "Will XRP reach $1.15 on November 16?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7085241",
@@ -5377,7 +5413,7 @@
    "ts": 1794812467,
    "end_ts": 1794891600,
    "q": "Will XRP reach $1.10 on November 16?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7085247",
@@ -5390,7 +5426,7 @@
    "ts": 1794812467,
    "end_ts": 1794891600,
    "q": "Will XRP dip to $0.80 on November 16?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7085248",
@@ -5403,7 +5439,7 @@
    "ts": 1794812467,
    "end_ts": 1794891600,
    "q": "Will XRP dip to $0.75 on November 16?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6632262",
@@ -7730,6 +7766,84 @@
    "ts": 1794854306,
    "end_ts": 1794960000,
    "q": "Sabres vs. Flyers: O/U 2.5",
+   "touched": null
+  },
+  {
+   "id": "7033435",
+   "rule": "post_fin_95_97",
+   "cat": "clima",
+   "side": 1,
+   "token": "1399157787623965677285737415054052667042756328140585608637561387228995589189",
+   "px": 0.959,
+   "tick": 0.001,
+   "ts": 1794855671,
+   "end_ts": 1794830400,
+   "q": "Will the highest temperature in Atlanta be between 60-61°F on November 16?",
+   "touched": null
+  },
+  {
+   "id": "7013477",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "114207859174521438908193812057340053374463216999285517327539257029290922180898",
+   "px": 0.987,
+   "tick": 0.001,
+   "ts": 1794855671,
+   "end_ts": 1794862800,
+   "q": "Will Google (GOOGL) close above $290 on November 16?",
+   "touched": null
+  },
+  {
+   "id": "6655550",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "8186843318406767149043552706159826045403818223619798394316786023173836794921",
+   "px": 0.984,
+   "tick": 0.001,
+   "ts": 1794855671,
+   "end_ts": 1794891540,
+   "q": "Will the next Meta Muse Spark model be released on November 16, 2026?",
+   "touched": null
+  },
+  {
+   "id": "7085180",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "45999379442634559678554137863800335149451256032823629607583865530355033166508",
+   "px": 0.977,
+   "tick": 0.001,
+   "ts": 1794855671,
+   "end_ts": 1794891600,
+   "q": "Will Bitcoin dip to $61,000 on November 16?",
+   "touched": null
+  },
+  {
+   "id": "7085207",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "8429264946429969464743977256650523864847192151100736739191211475935324045058",
+   "px": 0.972,
+   "tick": 0.001,
+   "ts": 1794855671,
+   "end_ts": 1794891600,
+   "q": "Will Ethereum dip to $1,700 on November 16?",
+   "touched": null
+  },
+  {
+   "id": "6672035",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "100246551198786975134000244690517256854901803037179232280917081765478609108270",
+   "px": 0.973,
+   "tick": 0.001,
+   "ts": 1794855671,
+   "end_ts": 1794942000,
+   "q": "Botswana vs. Uganda: O/U 5.5",
    "touched": null
   }
  ]
