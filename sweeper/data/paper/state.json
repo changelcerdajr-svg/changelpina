@@ -1,6 +1,6 @@
 {
  "capital0": 1000.0,
- "cash": 409.1724,
+ "cash": 409.149,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
   {
@@ -88,27 +88,6 @@
    "liq": 1054
   },
   {
-   "oid": "6630903-1794798066",
-   "id": "6630903",
-   "q": "Namibia vs. Cameroon: O/U 5.5",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1307117",
-   "side": 1,
-   "token": "95506544098482743364215187885617124813285024327751645064643608712235198254259",
-   "px": 0.971,
-   "tick": 0.001,
-   "mid": 0.971,
-   "bid": 0.961,
-   "ask": 0.981,
-   "shares": 52.4313,
-   "cost": 50.9107,
-   "ts": 1794798066.251062,
-   "end_ts": 1794834000.0,
-   "hours": 9.98,
-   "liq": 2093
-  },
-  {
    "oid": "6017456-1794801665",
    "id": "6017456",
    "q": "Will GPT Astra 6.1+ be released between November 9 and November 15, 2026?",
@@ -172,48 +151,6 @@
    "liq": 29221
   },
   {
-   "oid": "6909142-1794808866",
-   "id": "6909142",
-   "q": "Will the price of Ethereum be above $1,600 on November 16?",
-   "cat": "cripto",
-   "rule": "cripto_cierre",
-   "event": "1350188",
-   "side": 0,
-   "token": "6448483301934511486835532458793768077624820805447800686406885423606056696199",
-   "px": 0.996,
-   "tick": 0.001,
-   "mid": 0.9965,
-   "bid": 0.996,
-   "ask": 0.997,
-   "shares": 51.217,
-   "cost": 51.0121,
-   "ts": 1794808866.160629,
-   "end_ts": 1794848400.0,
-   "hours": 10.98,
-   "liq": 41907
-  },
-  {
-   "oid": "6632293-1794812467",
-   "id": "6632293",
-   "q": "Spread: Moldova (-3.5)",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1307335",
-   "side": 1,
-   "token": "51378181467524583260539681567671866934949874905080008177055289848702332564078",
-   "px": 0.994,
-   "tick": 0.001,
-   "mid": 0.9945,
-   "bid": 0.99,
-   "ask": 0.999,
-   "shares": 51.3162,
-   "cost": 51.0083,
-   "ts": 1794812467.147402,
-   "end_ts": 1794841200.0,
-   "hours": 7.98,
-   "liq": 4186
-  },
-  {
    "oid": "6279936-1794816069",
    "id": "6279936",
    "q": "Will \"Ebenezer\" score at least 30 on the Rotten Tomatoes Tomatometer?",
@@ -233,6 +170,27 @@
    "end_ts": 1794841200.0,
    "hours": 6.98,
    "liq": 2085
+  },
+  {
+   "oid": "6631330-1794823267",
+   "id": "6631330",
+   "q": "Will Liechtenstein win on 2026-11-16?",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1307204",
+   "side": 1,
+   "token": "21896155831102673490402500798059689197831791278667212092304962781782197380236",
+   "px": 0.978,
+   "tick": 0.001,
+   "mid": 0.9785,
+   "bid": 0.978,
+   "ask": 0.979,
+   "shares": 52.1796,
+   "cost": 51.0317,
+   "ts": 1794823267.6055,
+   "end_ts": 1794848400.0,
+   "hours": 6.98,
+   "liq": 192311
   }
  ],
  "positions": [
@@ -257,9 +215,55 @@
    "hours": 5.97,
    "liq": 2756,
    "fill_ts": 1794787264.139777,
-   "mark": 0.9975,
+   "mark": 0.994,
    "stuck": false,
    "disputed": false
+  },
+  {
+   "oid": "6630903-1794798066",
+   "id": "6630903",
+   "q": "Namibia vs. Cameroon: O/U 5.5",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1307117",
+   "side": 1,
+   "token": "95506544098482743364215187885617124813285024327751645064643608712235198254259",
+   "px": 0.971,
+   "tick": 0.001,
+   "mid": 0.971,
+   "bid": 0.961,
+   "ask": 0.981,
+   "shares": 52.4313,
+   "cost": 50.9107,
+   "ts": 1794798066.251062,
+   "end_ts": 1794834000.0,
+   "hours": 9.98,
+   "liq": 2093,
+   "fill_ts": 1794823267.6055,
+   "mark": 0.971
+  },
+  {
+   "oid": "6909142-1794808866",
+   "id": "6909142",
+   "q": "Will the price of Ethereum be above $1,600 on November 16?",
+   "cat": "cripto",
+   "rule": "cripto_cierre",
+   "event": "1350188",
+   "side": 0,
+   "token": "6448483301934511486835532458793768077624820805447800686406885423606056696199",
+   "px": 0.996,
+   "tick": 0.001,
+   "mid": 0.9965,
+   "bid": 0.996,
+   "ask": 0.997,
+   "shares": 51.217,
+   "cost": 51.0121,
+   "ts": 1794808866.160629,
+   "end_ts": 1794848400.0,
+   "hours": 10.98,
+   "liq": 41907,
+   "fill_ts": 1794823267.6055,
+   "mark": 0.996
   }
  ],
  "closed": [
@@ -1978,14 +1982,27 @@
    "placed": 0,
    "shadow_open": 372,
    "shadow_closed": 8
+  },
+  {
+   "ts": "2026-11-16T10:01:51Z",
+   "equity": 1020.63,
+   "cash": 409.15,
+   "orders": 9,
+   "positions": 3,
+   "closed": 29,
+   "scanned": 8635,
+   "candidates": 128,
+   "placed": 1,
+   "shadow_open": 373,
+   "shadow_closed": 5
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 117,
-  "filled": 30,
+  "placed": 118,
+  "filled": 32,
   "expired": 28,
-  "touched_not_filled": 48
+  "touched_not_filled": 49
  },
  "shadow": [
   {
@@ -3302,19 +3319,6 @@
    "touched": 1
   },
   {
-   "id": "7034949",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "99313609035588760135139634419106725957700329245028018220270969532322055306988",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1794737886,
-   "end_ts": 1794791400,
-   "q": "Spread: Real Cartagena FC (-2.5)",
-   "touched": 1
-  },
-  {
    "id": "6760886",
    "rule": "otros_cierre",
    "cat": "otros",
@@ -3520,19 +3524,6 @@
    "ts": 1794757512,
    "end_ts": 1794787200,
    "q": "New Mexico United vs. Sacramento Republic FC: O/U 6.5",
-   "touched": 1
-  },
-  {
-   "id": "7034950",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "86071918348600922920368112590271678771321833375573686964203372561535925007082",
-   "px": 0.978,
-   "tick": 0.001,
-   "ts": 1794757512,
-   "end_ts": 1794791400,
-   "q": "Spread: Deportes Quindio (-3.5)",
    "touched": 1
   },
   {
@@ -4771,45 +4762,6 @@
    "touched": 0
   },
   {
-   "id": "7057691",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "53782760716301098255184585919456839449114494400592448498310340602927019022020",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1794780063,
-   "end_ts": 1794805200,
-   "q": "Will Bitcoin dip to $61,000 on November 15?",
-   "touched": null
-  },
-  {
-   "id": "7057718",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "112288687708801988245936523223383155489699468872826826211657536874089482557110",
-   "px": 0.984,
-   "tick": 0.001,
-   "ts": 1794780063,
-   "end_ts": 1794805200,
-   "q": "Will Solana reach $80 on November 15?",
-   "touched": null
-  },
-  {
-   "id": "7057727",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "35592459927953476505698023413167219125781088423800532899896484802924433044073",
-   "px": 0.984,
-   "tick": 0.001,
-   "ts": 1794780063,
-   "end_ts": 1794805200,
-   "q": "Will XRP reach $1.10 on November 15?",
-   "touched": null
-  },
-  {
    "id": "7071343",
    "rule": "otros_cierre",
    "cat": "otros",
@@ -4820,7 +4772,7 @@
    "ts": 1794780063,
    "end_ts": 1794841200,
    "q": "Will the US national average gas price be less than $3.8000 on November 16?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7071346",
@@ -4833,7 +4785,7 @@
    "ts": 1794780063,
    "end_ts": 1794841200,
    "q": "Will the US national average gas price be between $3.8200 and $3.8299 on November 16?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "5238397",
@@ -6822,6 +6774,84 @@
    "ts": 1794820257,
    "end_ts": 1794920400,
    "q": "Malawi vs. Egypt: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "6632141",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "52450861316312721745290615226901817055528138667690365592420573807319367103867",
+   "px": 0.972,
+   "tick": 0.001,
+   "ts": 1794823267,
+   "end_ts": 1794848400,
+   "q": "Lithuania vs. Liechtenstein: Liechtenstein O/U 1.5",
+   "touched": null
+  },
+  {
+   "id": "6679191",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "72594303611437450616014013405719403145711599080087239390294462455479287259164",
+   "px": 0.971,
+   "tick": 0.001,
+   "ts": 1794823267,
+   "end_ts": 1794855600,
+   "q": "Guyana vs. Puerto Rico: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "6909401",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "77772111934251789518431002724729426504017716696581467091926168172999179218310",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1794823267,
+   "end_ts": 1794848400,
+   "q": "Will the price of XRP be above $1.00 on November 16?",
+   "touched": null
+  },
+  {
+   "id": "6631963",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "62308148122759652671537840247851659781906686713210854345087794940858150693739",
+   "px": 0.973,
+   "tick": 0.001,
+   "ts": 1794823267,
+   "end_ts": 1794858300,
+   "q": "Switzerland vs. Scotland: Scotland O/U 3.5",
+   "touched": null
+  },
+  {
+   "id": "7013502",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "32995135684560167461898148332955819169844292938954608371391165892244432435621",
+   "px": 0.974,
+   "tick": 0.001,
+   "ts": 1794823267,
+   "end_ts": 1794862800,
+   "q": "Will NVIDIA (NVDA) close above $175 on November 16?",
+   "touched": null
+  },
+  {
+   "id": "6964646",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "61274745769299658152969663144446221989843493407698592339802751563294443231200",
+   "px": 0.986,
+   "tick": 0.001,
+   "ts": 1794823267,
+   "end_ts": 1794929400,
+   "q": "Akron Zips vs. West Virginia Mountaineers (W)",
    "touched": null
   }
  ]
