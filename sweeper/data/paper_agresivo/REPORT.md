@@ -2,21 +2,21 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 2.5 de 28 | corridas: 20
-- Capital inicial: $1,000.00 | valor actual: $917.70 | P&L: $-82.30 (-8.23%)
-- Efectivo libre: $0.00 | en ordenes abiertas: $714.58 (8) | en posiciones: $203.65 (4)
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 2.5 de 28 | corridas: 21
+- Capital inicial: $1,000.00 | valor actual: $917.21 | P&L: $-82.79 (-8.28%)
+- Efectivo libre: $-0.00 | en ordenes abiertas: $630.08 (8) | en posiciones: $288.44 (4)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 57 colocadas, 23 llenadas, 18 tocadas sin llenarse (sorteo 30%), 8 expiradas
+- Ordenes virtuales: 59 colocadas, 24 llenadas, 19 tocadas sin llenarse (sorteo 30%), 8 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
 | Regla | n | Precio medio | Pago real | IC95 del pago | Edge | P&L | Dias medios |
 |---|---|---|---|---|---|---|---|
 | clima_cierre | 1 | 99.70c | 100.00% | 20.7-100.0% | +0.30 pts | $+0.30 | 1.87 |
-| cripto_cierre | 6 | 99.32c | 100.00% | 61.0-100.0% | +0.68 pts | $+3.88 | 0.07 |
+| cripto_cierre | 7 | 99.28c | 100.00% | 64.6-100.0% | +0.72 pts | $+4.17 | 0.06 |
 | deportes_previo | 8 | 98.04c | 87.02% | 52.9-97.8% | -11.02 pts | $-86.41 | 0.97 |
 | otros_cierre | 4 | 99.79c | 100.00% | 51.0-100.0% | +0.21 pts | $+0.46 | 0.93 |
-| TOTAL | 19 | 98.81c | 93.99% | 75.4-99.1% | -4.82 pts | $-81.77 | 0.72 |
+| TOTAL | 20 | 98.80c | 94.01% | 76.4-99.1% | -4.79 pts | $-81.48 | 0.69 |
 
 ## Peores casos
 
@@ -29,15 +29,15 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
 | $90.86 | 99.7c | 99.2c | otros_cierre |  | Will "Ghost Soldier" Opening Weekend Box Office be between 3m and 4m? |
-| $6.98 | 96.0c | 96.0c | cripto_cierre |  | XRP Up or Down - November 15, 4:00PM-8:00PM ET |
-| $91.58 | 98.6c | 98.6c | deportes_previo |  | Spread: Deportes Quindio (-3.5) |
+| $91.58 | 98.6c | 97.8c | deportes_previo |  | Spread: Deportes Quindio (-3.5) |
 | $14.23 | 97.7c | 96.9c | otros_cierre |  | Will the USS George Washington depart CENTCOM by November 15, 2026? |
+| $91.77 | 99.8c | 99.8c | otros_cierre |  | Pakistan military action against Afghanistan by November 15, 2026? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 1543 | abiertas: 1988 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 1543 | abiertas: 1992 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
@@ -69,4 +69,4 @@ Peores casos del registro sombra:
 
 ## Veredicto
 
-Aun no hay veredicto: van 19 operaciones cerradas en 2.5 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
+Aun no hay veredicto: van 20 operaciones cerradas en 2.5 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
