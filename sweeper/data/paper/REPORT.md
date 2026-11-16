@@ -2,21 +2,21 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-11T22:05:26Z | dias corridos: 5.0 de 28 | corridas: 78
-- Capital inicial: $1,000.00 | valor actual: $1,026.09 | P&L: $+26.09 (+2.61%)
-- Efectivo libre: $367.65 | en ordenes abiertas: $456.31 (9) | en posiciones: $200.26 (4)
+- Inicio: 2026-11-11T22:05:26Z | dias corridos: 5.0 de 28 | corridas: 79
+- Capital inicial: $1,000.00 | valor actual: $1,027.42 | P&L: $+27.42 (+2.74%)
+- Efectivo libre: $366.74 | en ordenes abiertas: $508.55 (10) | en posiciones: $150.01 (3)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 135 colocadas, 38 llenadas, 54 tocadas sin llenarse (sorteo 30%), 34 expiradas
+- Ordenes virtuales: 139 colocadas, 39 llenadas, 56 tocadas sin llenarse (sorteo 30%), 34 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
 | Regla | n | Precio medio | Pago real | IC95 del pago | Edge | P&L | Dias medios |
 |---|---|---|---|---|---|---|---|
-| cripto_cierre | 7 | 98.97c | 100.00% | 64.6-100.0% | +1.03 pts | $+3.68 | 0.26 |
+| cripto_cierre | 8 | 98.94c | 100.00% | 67.6-100.0% | +1.06 pts | $+4.35 | 0.24 |
 | deportes_previo | 16 | 98.57c | 100.00% | 80.6-100.0% | +1.43 pts | $+11.72 | 0.34 |
-| otros_cierre | 9 | 98.84c | 100.00% | 70.1-100.0% | +1.16 pts | $+5.33 | 0.58 |
+| otros_cierre | 10 | 98.88c | 100.00% | 72.2-100.0% | +1.12 pts | $+5.74 | 0.62 |
 | post_fin_95_97 | 2 | 96.65c | 100.00% | 34.2-100.0% | +3.35 pts | $+3.50 | 0.85 |
-| TOTAL | 34 | 98.61c | 100.00% | 89.8-100.0% | +1.39 pts | $+24.23 | 0.42 |
+| TOTAL | 36 | 98.63c | 100.00% | 90.4-100.0% | +1.37 pts | $+25.30 | 0.43 |
 
 ## Peores casos
 
@@ -27,29 +27,28 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
-| $50.92 | 99.2c | 100.0c | otros_cierre |  | Will the USS Theodore Roosevelt arrive in CENTCOM by November 15, 2026? |
 | $50.57 | 95.9c | 99.6c | post_fin_95_97 |  | Will the highest temperature in Atlanta be between 60-61°F on November 16? |
 | $48.14 | 98.0c | 98.4c | deportes_previo |  | Spread: Celta Fortuna (-2.5) |
-| $50.64 | 98.7c | 97.5c | cripto_cierre |  | Amazon (AMZN) Up or Down on November 16? |
+| $51.30 | 99.4c | 99.4c | otros_cierre |  | Will the next Gemini Flash-Lite model (3.6+) be released on November 16, 2026? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 1252 | abiertas: 409 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 1299 | abiertas: 374 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
-| cripto_cierre | todas | 432 | 98.73c | 98.38% | -0.35 pts | -1.54 a +0.83 | 7 |
-| cripto_cierre | tocadas | 303 | 98.61c | 97.69% | -0.92 pts | -2.61 a +0.77 | 7 |
-| deportes_previo | todas | 600 | 98.45c | 98.67% | +0.21 pts | -0.70 a +1.13 | 8 |
-| deportes_previo | tocadas | 507 | 98.40c | 98.82% | +0.41 pts | -0.53 a +1.35 | 6 |
-| otros_cierre | todas | 204 | 98.64c | 100.00% | +1.36 pts | +1.26 a +1.47 | 0 |
-| otros_cierre | tocadas | 136 | 98.51c | 100.00% | +1.49 pts | +1.36 a +1.61 | 0 |
+| cripto_cierre | todas | 439 | 98.72c | 98.41% | -0.32 pts | -1.48 a +0.85 | 7 |
+| cripto_cierre | tocadas | 308 | 98.59c | 97.73% | -0.87 pts | -2.53 a +0.79 | 7 |
+| deportes_previo | todas | 633 | 98.45c | 98.74% | +0.29 pts | -0.58 a +1.16 | 8 |
+| deportes_previo | tocadas | 537 | 98.40c | 98.88% | +0.49 pts | -0.40 a +1.37 | 6 |
+| otros_cierre | todas | 211 | 98.64c | 100.00% | +1.36 pts | +1.26 a +1.46 | 0 |
+| otros_cierre | tocadas | 140 | 98.53c | 100.00% | +1.47 pts | +1.35 a +1.59 | 0 |
 | post_fin_95_97 | todas | 16 | 96.12c | 87.50% | -8.62 pts | -25.29 a +8.05 | 2 |
 | post_fin_95_97 | tocadas | 13 | 96.04c | 84.62% | -11.42 pts | -31.77 a +8.92 | 2 |
-| TOTAL | todas | 1252 | 98.55c | 98.64% | +0.09 pts | -0.54 a +0.73 | 17 |
-| TOTAL | tocadas | 959 | 98.45c | 98.44% | -0.02 pts | -0.80 a +0.77 | 15 |
+| TOTAL | todas | 1299 | 98.54c | 98.69% | +0.15 pts | -0.47 a +0.76 | 17 |
+| TOTAL | tocadas | 998 | 98.45c | 98.50% | +0.05 pts | -0.70 a +0.80 | 15 |
 
 Peores casos del registro sombra:
 
@@ -66,4 +65,4 @@ Peores casos del registro sombra:
 
 ## Veredicto
 
-Aun no hay veredicto: van 34 operaciones cerradas en 5.0 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
+Aun no hay veredicto: van 36 operaciones cerradas en 5.0 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
