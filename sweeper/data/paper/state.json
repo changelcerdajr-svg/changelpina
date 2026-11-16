@@ -109,27 +109,6 @@
    "liq": 44215
   },
   {
-   "oid": "5238397-1794783664",
-   "id": "5238397",
-   "q": "Will the USS Theodore Roosevelt arrive in CENTCOM by November 15, 2026?",
-   "cat": "otros",
-   "rule": "otros_cierre",
-   "event": "1124934",
-   "side": 0,
-   "token": "13290896214593022214990611075760846746034241206767620593132224633695161896112",
-   "px": 0.992,
-   "tick": 0.001,
-   "mid": 0.9925,
-   "bid": 0.989,
-   "ask": 0.996,
-   "shares": 51.3265,
-   "cost": 50.9159,
-   "ts": 1794783664.697581,
-   "end_ts": 1794805140.0,
-   "hours": 5.97,
-   "liq": 2756
-  },
-  {
    "oid": "6279780-1794783664",
    "id": "6279780",
    "q": "Trump declassifies new UFO files by November 15?",
@@ -268,6 +247,29 @@
    "mark": 0.988,
    "stuck": false,
    "disputed": false
+  },
+  {
+   "oid": "5238397-1794783664",
+   "id": "5238397",
+   "q": "Will the USS Theodore Roosevelt arrive in CENTCOM by November 15, 2026?",
+   "cat": "otros",
+   "rule": "otros_cierre",
+   "event": "1124934",
+   "side": 0,
+   "token": "13290896214593022214990611075760846746034241206767620593132224633695161896112",
+   "px": 0.992,
+   "tick": 0.001,
+   "mid": 0.9925,
+   "bid": 0.989,
+   "ask": 0.996,
+   "shares": 51.3265,
+   "cost": 50.9159,
+   "ts": 1794783664.697581,
+   "end_ts": 1794805140.0,
+   "hours": 5.97,
+   "liq": 2756,
+   "fill_ts": 1794787264.139777,
+   "mark": 0.992
   }
  ],
  "closed": [
@@ -1753,12 +1755,25 @@
    "placed": 4,
    "shadow_open": 344,
    "shadow_closed": 56
+  },
+  {
+   "ts": "2026-11-16T00:01:34Z",
+   "equity": 1018.32,
+   "cash": 407.94,
+   "orders": 8,
+   "positions": 4,
+   "closed": 26,
+   "scanned": 9216,
+   "candidates": 111,
+   "placed": 0,
+   "shadow_open": 339,
+   "shadow_closed": 8
   }
  ],
  "halted": false,
  "stats": {
   "placed": 108,
-  "filled": 29,
+  "filled": 30,
   "expired": 23,
   "touched_not_filled": 47
  },
@@ -3194,58 +3209,6 @@
    "touched": 1
   },
   {
-   "id": "6887402",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "54719157591118040462724319319627566831829435262476791722829109163583130503919",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1794737886,
-   "end_ts": 1794771000,
-   "q": "Spread: Danubio FC (-2.5)",
-   "touched": 1
-  },
-  {
-   "id": "6887405",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "34764660363292237695841802839448476118849208409963933440851301351556373288206",
-   "px": 0.977,
-   "tick": 0.001,
-   "ts": 1794737886,
-   "end_ts": 1794771000,
-   "q": "Spread: Liverpool Montevideo (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "6906574",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "18556979661966893355994049722689155626109764167737280016831534152363413802739",
-   "px": 0.988,
-   "tick": 0.001,
-   "ts": 1794737886,
-   "end_ts": 1794772800,
-   "q": "Mercer Bears vs. Alabama Crimson Tide (W)",
-   "touched": 1
-  },
-  {
-   "id": "6906598",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "85784751945903459858020075339087678787412483461327223871193294259188879731719",
-   "px": 0.988,
-   "tick": 0.001,
-   "ts": 1794737886,
-   "end_ts": 1794772800,
-   "q": "Marshall Thundering Herd vs. Duke Blue Devils (W)",
-   "touched": 1
-  },
-  {
    "id": "6906599",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -3259,19 +3222,6 @@
    "touched": 1
   },
   {
-   "id": "6906601",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "96437041774591534664460949655365837083908481319385891604344831774529340938201",
-   "px": 0.988,
-   "tick": 0.001,
-   "ts": 1794737886,
-   "end_ts": 1794772800,
-   "q": "East Texas A&M Lions vs. Baylor Bears (W)",
-   "touched": 1
-  },
-  {
    "id": "6906605",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -3282,45 +3232,6 @@
    "ts": 1794737886,
    "end_ts": 1794772800,
    "q": "Southeastern Louisiana Lions vs. Texas Tech Red Raiders (W)",
-   "touched": 1
-  },
-  {
-   "id": "6906623",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "19572232539301607931373508363204553280698185795442771613789771968201919219105",
-   "px": 0.988,
-   "tick": 0.001,
-   "ts": 1794737886,
-   "end_ts": 1794772800,
-   "q": "Southeast Missouri State Redhawks vs. Illinois Fighting Illini (W)",
-   "touched": 1
-  },
-  {
-   "id": "6918059",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "36684376902369713054987838361157178874216663540727053203560057074407027178364",
-   "px": 0.987,
-   "tick": 0.001,
-   "ts": 1794737886,
-   "end_ts": 1794772800,
-   "q": "Spread: CSD Tristan Suarez (-2.5)",
-   "touched": 1
-  },
-  {
-   "id": "6918061",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "11816414767297124533250766815342002989877366674344661207749624772854983283434",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1794737886,
-   "end_ts": 1794772800,
-   "q": "Spread: CSD Tristan Suarez (-3.5)",
    "touched": 1
   },
   {
@@ -6233,6 +6144,45 @@
    "ts": 1794783664,
    "end_ts": 1794805200,
    "q": "Will XRP dip to $0.85 on November 15?",
+   "touched": null
+  },
+  {
+   "id": "6891215",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "34390734464051072739982582429240365446783011824219890733124876477094820569456",
+   "px": 0.974,
+   "tick": 0.001,
+   "ts": 1794787264,
+   "end_ts": 1794805200,
+   "q": "Will Bitcoin dip to $62,000 November 9-15?",
+   "touched": null
+  },
+  {
+   "id": "6891291",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "14206901594498430916601371238019026271542605871409402748183453279794482965726",
+   "px": 0.977,
+   "tick": 0.001,
+   "ts": 1794787264,
+   "end_ts": 1794805200,
+   "q": "Will Ethereum dip to $1,700 November 9-15?",
+   "touched": null
+  },
+  {
+   "id": "7057690",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "74429101260194537960802545353408715402586987577287659287907345107727594733102",
+   "px": 0.974,
+   "tick": 0.001,
+   "ts": 1794787264,
+   "end_ts": 1794805200,
+   "q": "Will Bitcoin dip to $62,000 on November 15?",
    "touched": null
   }
  ]
