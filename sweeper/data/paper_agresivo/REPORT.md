@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 2.5 de 28 | corridas: 21
-- Capital inicial: $1,000.00 | valor actual: $917.21 | P&L: $-82.79 (-8.28%)
-- Efectivo libre: $-0.00 | en ordenes abiertas: $630.08 (8) | en posiciones: $288.44 (4)
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 2.5 de 28 | corridas: 22
+- Capital inicial: $1,000.00 | valor actual: $916.10 | P&L: $-83.90 (-8.39%)
+- Efectivo libre: $0.00 | en ordenes abiertas: $448.59 (6) | en posiciones: $469.93 (6)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 59 colocadas, 24 llenadas, 19 tocadas sin llenarse (sorteo 30%), 8 expiradas
+- Ordenes virtuales: 60 colocadas, 26 llenadas, 20 tocadas sin llenarse (sorteo 30%), 8 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -30,14 +30,16 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 |---|---|---|---|---|---|
 | $90.86 | 99.7c | 99.2c | otros_cierre |  | Will "Ghost Soldier" Opening Weekend Box Office be between 3m and 4m? |
 | $91.58 | 98.6c | 97.8c | deportes_previo |  | Spread: Deportes Quindio (-3.5) |
+| $91.72 | 98.9c | 98.9c | cripto_cierre |  | Gold Up or Down - November 15, 8:00PM-8:15PM ET |
 | $14.23 | 97.7c | 96.9c | otros_cierre |  | Will the USS George Washington depart CENTCOM by November 15, 2026? |
-| $91.77 | 99.8c | 99.8c | otros_cierre |  | Pakistan military action against Afghanistan by November 15, 2026? |
+| $91.77 | 99.8c | 98.6c | otros_cierre |  | Pakistan military action against Afghanistan by November 15, 2026? |
+| $89.77 | 97.8c | 97.8c | cripto_cierre |  | Will Bitcoin dip to $62,000 November 9-15? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 1543 | abiertas: 1992 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 1543 | abiertas: 2014 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|

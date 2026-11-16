@@ -1,6 +1,6 @@
 {
  "capital0": 1000.0,
- "cash": 407.9401,
+ "cash": 408.6194,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
   {
@@ -170,6 +170,27 @@
    "end_ts": 1794841200.0,
    "hours": 15.98,
    "liq": 2889
+  },
+  {
+   "oid": "6630888-1794794465",
+   "id": "6630888",
+   "q": "Spread: Namibia (-1.5)",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1307117",
+   "side": 1,
+   "token": "53488240017710734485177038941239005240725071669327484237556638379896577215889",
+   "px": 0.972,
+   "tick": 0.001,
+   "mid": 0.9725,
+   "bid": 0.961,
+   "ask": 0.984,
+   "shares": 52.228,
+   "cost": 50.7657,
+   "ts": 1794794465.442707,
+   "end_ts": 1794834000.0,
+   "hours": 10.98,
+   "liq": 1054
   }
  ],
  "positions": [
@@ -224,31 +245,6 @@
    "disputed": false
   },
   {
-   "oid": "6906599-1794757512",
-   "id": "6906599",
-   "q": "Stetson Hatters vs. Clemson Tigers (W)",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1349550",
-   "side": 1,
-   "token": "25964539881652679720189078610277692568478214919888599965877081484007397568229",
-   "px": 0.988,
-   "tick": 0.001,
-   "mid": 0.988,
-   "bid": 0.986,
-   "ask": 0.99,
-   "shares": 51.445,
-   "cost": 50.8276,
-   "ts": 1794757512.557533,
-   "end_ts": 1794780000.0,
-   "hours": 6.25,
-   "liq": 2395,
-   "fill_ts": 1794780063.409948,
-   "mark": 0.988,
-   "stuck": false,
-   "disputed": false
-  },
-  {
    "oid": "5238397-1794783664",
    "id": "5238397",
    "q": "Will the USS Theodore Roosevelt arrive in CENTCOM by November 15, 2026?",
@@ -269,7 +265,7 @@
    "hours": 5.97,
    "liq": 2756,
    "fill_ts": 1794787264.139777,
-   "mark": 0.9715,
+   "mark": 0.9535,
    "stuck": false,
    "disputed": false
   }
@@ -1044,6 +1040,36 @@
    "result": 1.0,
    "closed_ts": "2026-11-15T21:01:11Z",
    "days": 0.17
+  },
+  {
+   "oid": "6906599-1794757512",
+   "id": "6906599",
+   "q": "Stetson Hatters vs. Clemson Tigers (W)",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1349550",
+   "side": 1,
+   "token": "25964539881652679720189078610277692568478214919888599965877081484007397568229",
+   "px": 0.988,
+   "tick": 0.001,
+   "mid": 0.988,
+   "bid": 0.986,
+   "ask": 0.99,
+   "shares": 51.445,
+   "cost": 50.8276,
+   "ts": 1794757512.557533,
+   "end_ts": 1794780000.0,
+   "hours": 6.25,
+   "liq": 2395,
+   "fill_ts": 1794780063.409948,
+   "mark": 0.988,
+   "stuck": false,
+   "disputed": false,
+   "payout": 51.445,
+   "pnl": 0.6174,
+   "result": 1.0,
+   "closed_ts": "2026-11-16T02:01:06Z",
+   "days": 0.17
   }
  ],
  "runs": [
@@ -1796,11 +1822,24 @@
    "placed": 0,
    "shadow_open": 342,
    "shadow_closed": 0
+  },
+  {
+   "ts": "2026-11-16T02:01:41Z",
+   "equity": 1016.96,
+   "cash": 408.62,
+   "orders": 9,
+   "positions": 3,
+   "closed": 27,
+   "scanned": 7317,
+   "candidates": 137,
+   "placed": 1,
+   "shadow_open": 343,
+   "shadow_closed": 3
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 108,
+  "placed": 109,
   "filled": 30,
   "expired": 23,
   "touched_not_filled": 47
@@ -3156,45 +3195,6 @@
    "ts": 1794737886,
    "end_ts": 1794744000,
    "q": "Will \"The Cat in the Hat\" 2nd Weekend Box Office be between 10m and 11m?",
-   "touched": 1
-  },
-  {
-   "id": "6886440",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "4083052694783820860216345690534255222457960795654428339992282023552740022600",
-   "px": 0.974,
-   "tick": 0.001,
-   "ts": 1794737886,
-   "end_ts": 1794778200,
-   "q": "New Haven Chargers vs. Penn State Nittany Lions",
-   "touched": 1
-  },
-  {
-   "id": "6906599",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "25964539881652679720189078610277692568478214919888599965877081484007397568229",
-   "px": 0.988,
-   "tick": 0.001,
-   "ts": 1794737886,
-   "end_ts": 1794780000,
-   "q": "Stetson Hatters vs. Clemson Tigers (W)",
-   "touched": 1
-  },
-  {
-   "id": "7027315",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "69662340122413265639986533624705391162526564837658526286682262745477612191764",
-   "px": 0.979,
-   "tick": 0.001,
-   "ts": 1794737886,
-   "end_ts": 1794776400,
-   "q": "Spread: CD Antofagasta (-3.5)",
    "touched": 1
   },
   {
@@ -6250,6 +6250,58 @@
    "ts": 1794791137,
    "end_ts": 1794857400,
    "q": "ASD Sorrento 1945 vs. SS Monopoli: O/U 5.5",
+   "touched": null
+  },
+  {
+   "id": "6760885",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "41200130110440058146832406443750720067385619106535108293306221523443997477709",
+   "px": 0.975,
+   "tick": 0.001,
+   "ts": 1794794465,
+   "end_ts": 1794805140,
+   "q": "Will there be 2 earthquakes of 6.5 or above magnitude worldwide?",
+   "touched": null
+  },
+  {
+   "id": "7057728",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "97375767299876718345543035695631457828336788817798350761820135072181881128857",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1794794465,
+   "end_ts": 1794805200,
+   "q": "Will XRP reach $1.05 on November 15?",
+   "touched": null
+  },
+  {
+   "id": "6909149",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "87068852533278495947963093725934134873967786795783345045616922310279518529495",
+   "px": 0.977,
+   "tick": 0.001,
+   "ts": 1794794465,
+   "end_ts": 1794848400,
+   "q": "Will the price of Bitcoin be between $68,000 and $70,000 on November 16?",
+   "touched": null
+  },
+  {
+   "id": "6631826",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "1880661611103776523914507239054840158659127541858299800524348603731564745785",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1794794465,
+   "end_ts": 1794858300,
+   "q": "Germany vs. Netherlands: O/U 8.5",
    "touched": null
   }
  ]
