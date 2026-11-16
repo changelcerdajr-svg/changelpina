@@ -128,27 +128,6 @@
    "end_ts": 1794848400.0,
    "hours": 3.98,
    "liq": 43054
-  },
-  {
-   "oid": "6653453-1794834077",
-   "id": "6653453",
-   "q": "Spread: Celta Fortuna (-2.5)",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1309761",
-   "side": 1,
-   "token": "31658897444099326609067315581199243463598784752274163289179654968199966941961",
-   "px": 0.98,
-   "tick": 0.001,
-   "mid": 0.9805,
-   "bid": 0.975,
-   "ask": 0.986,
-   "shares": 49.1219,
-   "cost": 48.1395,
-   "ts": 1794834077.303687,
-   "end_ts": 1794857400.0,
-   "hours": 6.48,
-   "liq": 12931
   }
  ],
  "positions": [
@@ -173,7 +152,7 @@
    "hours": 5.97,
    "liq": 2756,
    "fill_ts": 1794787264.139777,
-   "mark": 0.964,
+   "mark": 0.9645,
    "stuck": false,
    "disputed": false
   },
@@ -198,7 +177,7 @@
    "hours": 9.98,
    "liq": 2093,
    "fill_ts": 1794823267.6055,
-   "mark": 0.7025,
+   "mark": 0.995,
    "stuck": false,
    "disputed": false
   },
@@ -248,7 +227,7 @@
    "hours": 15.98,
    "liq": 2889,
    "fill_ts": 1794826874.860577,
-   "mark": 0.985,
+   "mark": 0.9845,
    "stuck": false,
    "disputed": false
   },
@@ -273,7 +252,32 @@
    "hours": 6.98,
    "liq": 17006,
    "fill_ts": 1794834077.303687,
-   "mark": 0.979
+   "mark": 0.979,
+   "stuck": false,
+   "disputed": false
+  },
+  {
+   "oid": "6653453-1794834077",
+   "id": "6653453",
+   "q": "Spread: Celta Fortuna (-2.5)",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1309761",
+   "side": 1,
+   "token": "31658897444099326609067315581199243463598784752274163289179654968199966941961",
+   "px": 0.98,
+   "tick": 0.001,
+   "mid": 0.9805,
+   "bid": 0.975,
+   "ask": 0.986,
+   "shares": 49.1219,
+   "cost": 48.1395,
+   "ts": 1794834077.303687,
+   "end_ts": 1794857400.0,
+   "hours": 6.48,
+   "liq": 12931,
+   "fill_ts": 1794837685.269892,
+   "mark": 0.98
   }
  ],
  "closed": [
@@ -2044,12 +2048,25 @@
    "placed": 2,
    "shadow_open": 381,
    "shadow_closed": 4
+  },
+  {
+   "ts": "2026-11-16T14:02:14Z",
+   "equity": 1020.33,
+   "cash": 414.57,
+   "orders": 6,
+   "positions": 6,
+   "closed": 29,
+   "scanned": 10153,
+   "candidates": 111,
+   "placed": 0,
+   "shadow_open": 400,
+   "shadow_closed": 1
   }
  ],
  "halted": false,
  "stats": {
   "placed": 123,
-  "filled": 34,
+  "filled": 35,
   "expired": 30,
   "touched_not_filled": 52
  },
@@ -4912,7 +4929,7 @@
    "ts": 1794791137,
    "end_ts": 1794857400,
    "q": "ASD Sorrento 1945 vs. SS Monopoli: O/U 5.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6760885",
@@ -4925,20 +4942,7 @@
    "ts": 1794794465,
    "end_ts": 1794805140,
    "q": "Will there be 2 earthquakes of 6.5 or above magnitude worldwide?",
-   "touched": null
-  },
-  {
-   "id": "7057728",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "97375767299876718345543035695631457828336788817798350761820135072181881128857",
-   "px": 0.985,
-   "tick": 0.001,
-   "ts": 1794794465,
-   "end_ts": 1794805200,
-   "q": "Will XRP reach $1.05 on November 15?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6909149",
@@ -4951,7 +4955,7 @@
    "ts": 1794794465,
    "end_ts": 1794848400,
    "q": "Will the price of Bitcoin be between $68,000 and $70,000 on November 16?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6631826",
@@ -4964,7 +4968,7 @@
    "ts": 1794794465,
    "end_ts": 1794858300,
    "q": "Germany vs. Netherlands: O/U 8.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6638954",
@@ -7005,6 +7009,266 @@
    "ts": 1794834077,
    "end_ts": 1794931200,
    "q": "Jordan vs. Australia: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "6920130",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "93031293172663684432082049521693079915742824477318743202229075517886927814379",
+   "px": 0.984,
+   "tick": 0.001,
+   "ts": 1794837685,
+   "end_ts": 1794841200,
+   "q": "Will \"Victorian Psycho\" score at least 70 on the Rotten Tomatoes Tomatometer?",
+   "touched": null
+  },
+  {
+   "id": "6991673",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "67998282204760956321046223330597719849733625138098324248779974752772515598345",
+   "px": 0.986,
+   "tick": 0.001,
+   "ts": 1794837685,
+   "end_ts": 1794841200,
+   "q": "Will \"Victorian Psycho\" score at least 73 on the Rotten Tomatoes Tomatometer?",
+   "touched": null
+  },
+  {
+   "id": "7083291",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "50784579715597303712077895387709161007399051574521151964991270974459199705346",
+   "px": 0.983,
+   "tick": 0.001,
+   "ts": 1794837685,
+   "end_ts": 1794848405,
+   "q": "Will MrBeast's next video get between 55 and 57 million views on day 2?",
+   "touched": null
+  },
+  {
+   "id": "7083292",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "111534797885975007812021118951952954469516489957154457140482634237277591660524",
+   "px": 0.977,
+   "tick": 0.001,
+   "ts": 1794837685,
+   "end_ts": 1794848405,
+   "q": "Will MrBeast's next video get between 57 and 59 million views on day 2?",
+   "touched": null
+  },
+  {
+   "id": "6933145",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "35510851381876258067312841744313795347832591830971170382497475154696190773482",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1794837685,
+   "end_ts": 1794866400,
+   "q": "Lamar Cardinals vs. Texas A&M Aggies (W)",
+   "touched": null
+  },
+  {
+   "id": "7013481",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "112260407691383841676079627329665041551934385593958633979368147689204678291778",
+   "px": 0.975,
+   "tick": 0.001,
+   "ts": 1794837685,
+   "end_ts": 1794862800,
+   "q": "Will Google (GOOGL) close above $305 on November 16?",
+   "touched": null
+  },
+  {
+   "id": "7082162",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "6238031369820529862548937753812766845031484344947580907408109337334127997219",
+   "px": 0.976,
+   "tick": 0.001,
+   "ts": 1794837685,
+   "end_ts": 1794875400,
+   "q": "Spread: Nets (-19.5)",
+   "touched": null
+  },
+  {
+   "id": "6892080",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "78292272544599825302861765642411756218904722873274017038132306888095831151804",
+   "px": 0.987,
+   "tick": 0.001,
+   "ts": 1794837685,
+   "end_ts": 1794891600,
+   "q": "Will Microstrategy announce a Bitcoin purchase November 10-16?",
+   "touched": null
+  },
+  {
+   "id": "6892470",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "105424665104198616033512094937178010715697776278759868158406729186098202779468",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1794837685,
+   "end_ts": 1794891600,
+   "q": "MicroStrategy announces >1000 BTC purchase November 10-16?",
+   "touched": null
+  },
+  {
+   "id": "7085242",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "2377255763955676940724706828985460044638812325700985878278923235564790726325",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1794837685,
+   "end_ts": 1794891600,
+   "q": "Will XRP reach $1.05 on November 16?",
+   "touched": null
+  },
+  {
+   "id": "7085246",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "58516337438584147065312088100102365585709814928800696260553517814404144384964",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1794837685,
+   "end_ts": 1794891600,
+   "q": "Will XRP dip to $0.85 on November 16?",
+   "touched": null
+  },
+  {
+   "id": "6671660",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "102509485822539415240423935264533270538715303538010114723483980665566057572917",
+   "px": 0.977,
+   "tick": 0.001,
+   "ts": 1794837685,
+   "end_ts": 1794945600,
+   "q": "Will Niger win on 2026-11-17?",
+   "touched": null
+  },
+  {
+   "id": "6674043",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "108028492646585736579607612998796014809886046220167443747218595173855395435637",
+   "px": 0.975,
+   "tick": 0.001,
+   "ts": 1794837685,
+   "end_ts": 1794944700,
+   "q": "Spread: Kosovo (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "6674044",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "77161843221110371432139416885510954806535959351061642063445023930536767241242",
+   "px": 0.974,
+   "tick": 0.001,
+   "ts": 1794837685,
+   "end_ts": 1794944700,
+   "q": "Spread: Republic of Ireland (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "6674166",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "98511944324691561462373327476239198726784615066363086560201599657932675607294",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1794837685,
+   "end_ts": 1794944700,
+   "q": "Spread: Wales (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "6674287",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "107319217989578845287475024315055195856260691278362424529800930024665262453121",
+   "px": 0.972,
+   "tick": 0.001,
+   "ts": 1794837685,
+   "end_ts": 1794944700,
+   "q": "Spread: Romania (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "6674354",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "95464092625037485764552630624694571859797300124423674502405095328614558491429",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1794837685,
+   "end_ts": 1794944700,
+   "q": "Spread: Israel (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "6674416",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "115218943461021328546321241372762255262030062390203353172105802175933805627447",
+   "px": 0.98,
+   "tick": 0.001,
+   "ts": 1794837685,
+   "end_ts": 1794944700,
+   "q": "Spread: Northern Ireland (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "6674428",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "98798807476591470106253060091710033551815902581935164599100663423758638242769",
+   "px": 0.973,
+   "tick": 0.001,
+   "ts": 1794837685,
+   "end_ts": 1794944700,
+   "q": "Hungary vs. Northern Ireland: O/U 5.5",
+   "touched": null
+  },
+  {
+   "id": "6674490",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "89652457791932327325622585496308856509330579273989506244655272875377217388557",
+   "px": 0.981,
+   "tick": 0.001,
+   "ts": 1794837685,
+   "end_ts": 1794944700,
+   "q": "Denmark vs. Norway: O/U 7.5",
    "touched": null
   }
  ]
