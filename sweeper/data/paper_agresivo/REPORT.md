@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 3.9 de 28 | corridas: 55
-- Capital inicial: $1,000.00 | valor actual: $843.59 | P&L: $-156.41 (-15.64%)
-- Efectivo libre: $1.28 | en ordenes abiertas: $298.49 (5) | en posiciones: $552.90 (9)
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 3.9 de 28 | corridas: 56
+- Capital inicial: $1,000.00 | valor actual: $843.09 | P&L: $-156.91 (-15.69%)
+- Efectivo libre: $0.00 | en ordenes abiertas: $259.78 (4) | en posiciones: $592.89 (10)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 135 colocadas, 61 llenadas, 51 tocadas sin llenarse (sorteo 30%), 18 expiradas
+- Ordenes virtuales: 137 colocadas, 62 llenadas, 52 tocadas sin llenarse (sorteo 30%), 19 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -34,17 +34,18 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 | $59.11 | 99.9c | 98.7c | cripto_cierre |  | Will Microstrategy announce a Bitcoin purchase November 10-16? |
 | $80.59 | 98.9c | 100.0c | deportes_previo |  | Tahiti vs. Cook Islands: O/U 0.5 |
 | $7.62 | 99.7c | 99.2c | deportes_previo |  | Will Singapore win on 2026-11-17? |
-| $77.09 | 98.5c | 98.5c | deportes_previo |  | Will Brazil win on 2026-11-17? |
+| $77.09 | 98.5c | 100.0c | deportes_previo |  | Will Brazil win on 2026-11-17? |
 | $84.97 | 99.7c | 92.6c | deportes_previo |  | Singapore leading at halftime? |
-| $84.57 | 99.8c | 99.6c | otros_cierre |  | Will the US national average gas price be less than $3.7900 on November 17? |
-| $43.73 | 99.8c | 99.9c | cripto_cierre |  | Will the price of Ethereum be above $1,600 on November 17? |
-| $23.44 | 98.8c | 99.2c | cripto_cierre |  | Will the price of Bitcoin be between $68,000 and $70,000 on November 17? |
+| $84.57 | 99.8c | 97.5c | otros_cierre |  | Will the US national average gas price be less than $3.7900 on November 17? |
+| $43.73 | 99.8c | 99.8c | cripto_cierre |  | Will the price of Ethereum be above $1,600 on November 17? |
+| $23.44 | 98.8c | 99.4c | cripto_cierre |  | Will the price of Bitcoin be between $68,000 and $70,000 on November 17? |
+| $39.99 | 98.4c | 98.4c | cripto_cierre |  | Will the price of Ethereum be above $1,700 on November 17? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 3199 | abiertas: 1757 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 3199 | abiertas: 1781 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
