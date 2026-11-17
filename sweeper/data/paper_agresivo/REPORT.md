@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 3.7 de 28 | corridas: 51
-- Capital inicial: $1,000.00 | valor actual: $845.72 | P&L: $-154.28 (-15.43%)
-- Efectivo libre: $0.00 | en ordenes abiertas: $381.75 (5) | en posiciones: $469.85 (7)
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 3.7 de 28 | corridas: 52
+- Capital inicial: $1,000.00 | valor actual: $849.73 | P&L: $-150.27 (-15.03%)
+- Efectivo libre: $0.00 | en ordenes abiertas: $297.18 (4) | en posiciones: $554.42 (8)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 127 colocadas, 57 llenadas, 47 tocadas sin llenarse (sorteo 30%), 18 expiradas
+- Ordenes virtuales: 129 colocadas, 58 llenadas, 49 tocadas sin llenarse (sorteo 30%), 18 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -34,30 +34,31 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 | $83.97 | 98.9c | 99.6c | otros_cierre |  | Will the next Grok model (4.8+) be released on November 16, 2026? |
 | $69.70 | 99.8c | 99.8c | otros_cierre |  | Will Brianna Cameron be eliminated in live shows week 2 of The Voice: Season 30? |
 | $59.11 | 99.9c | 98.7c | cripto_cierre |  | Will Microstrategy announce a Bitcoin purchase November 10-16? |
-| $80.59 | 98.9c | 95.5c | deportes_previo |  | Tahiti vs. Cook Islands: O/U 0.5 |
+| $80.59 | 98.9c | 100.0c | deportes_previo |  | Tahiti vs. Cook Islands: O/U 0.5 |
 | $7.62 | 99.7c | 99.7c | deportes_previo |  | Will Singapore win on 2026-11-17? |
-| $77.09 | 98.5c | 98.5c | deportes_previo |  | Will Brazil win on 2026-11-17? |
+| $77.09 | 98.5c | 99.0c | deportes_previo |  | Will Brazil win on 2026-11-17? |
+| $84.57 | 99.8c | 99.8c | otros_cierre |  | Will the US national average gas price be less than $3.7900 on November 17? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 2997 | abiertas: 1851 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 3017 | abiertas: 1860 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
-| clima_cierre | todas | 716 | 99.07c | 99.58% | +0.51 pts | +0.04 a +0.98 | 3 |
-| clima_cierre | tocadas | 650 | 99.04c | 99.54% | +0.50 pts | -0.02 a +1.02 | 3 |
+| clima_cierre | todas | 735 | 99.07c | 99.46% | +0.38 pts | -0.15 a +0.91 | 4 |
+| clima_cierre | tocadas | 666 | 99.04c | 99.40% | +0.36 pts | -0.22 a +0.95 | 4 |
 | cripto_cierre | todas | 474 | 99.00c | 97.47% | -1.54 pts | -2.94 a -0.14 | 12 |
 | cripto_cierre | tocadas | 434 | 99.03c | 97.24% | -1.80 pts | -3.32 a -0.27 | 12 |
-| deportes_previo | todas | 1410 | 98.07c | 96.81% | -1.26 pts | -2.18 a -0.35 | 45 |
-| deportes_previo | tocadas | 1384 | 98.10c | 96.75% | -1.35 pts | -2.28 a -0.42 | 45 |
+| deportes_previo | todas | 1411 | 98.07c | 96.81% | -1.26 pts | -2.17 a -0.35 | 45 |
+| deportes_previo | tocadas | 1385 | 98.10c | 96.75% | -1.35 pts | -2.28 a -0.42 | 45 |
 | otros_cierre | todas | 362 | 99.26c | 99.45% | +0.19 pts | -0.58 a +0.95 | 2 |
 | otros_cierre | tocadas | 346 | 99.26c | 99.42% | +0.16 pts | -0.64 a +0.96 | 2 |
 | post_fin_90_97 | todas | 35 | 94.17c | 100.00% | +5.83 pts | +5.27 a +6.38 | 0 |
 | post_fin_90_97 | tocadas | 29 | 94.28c | 100.00% | +5.72 pts | +5.12 a +6.32 | 0 |
-| TOTAL | todas | 2997 | 98.56c | 97.93% | -0.63 pts | -1.13 a -0.12 | 62 |
-| TOTAL | tocadas | 2843 | 98.56c | 97.82% | -0.74 pts | -1.27 a -0.21 | 62 |
+| TOTAL | todas | 3017 | 98.56c | 97.91% | -0.65 pts | -1.15 a -0.14 | 63 |
+| TOTAL | tocadas | 2860 | 98.56c | 97.80% | -0.76 pts | -1.30 a -0.23 | 63 |
 
 Peores casos del registro sombra:
 
