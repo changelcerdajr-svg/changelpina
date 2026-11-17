@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 4.2 de 28 | corridas: 64
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 4.2 de 28 | corridas: 65
 - Capital inicial: $1,000.00 | valor actual: $855.26 | P&L: $-144.74 (-14.47%)
-- Efectivo libre: $-0.00 | en ordenes abiertas: $617.32 (8) | en posiciones: $241.55 (4)
+- Efectivo libre: $0.00 | en ordenes abiertas: $360.74 (5) | en posiciones: $498.13 (7)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 151 colocadas, 65 llenadas, 59 tocadas sin llenarse (sorteo 30%), 19 expiradas
+- Ordenes virtuales: 153 colocadas, 68 llenadas, 61 tocadas sin llenarse (sorteo 30%), 19 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -34,27 +34,30 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 | $59.11 | 99.9c | 98.9c | cripto_cierre |  | Will Microstrategy announce a Bitcoin purchase November 10-16? |
 | $85.10 | 98.3c | 98.3c | deportes_previo |  | Spread: Kuwait (-2.5) |
 | $5.56 | 99.3c | 99.3c | otros_cierre |  | Will MrBeast's next video get between 68 and 69 million views on day 3? |
+| $85.53 | 97.2c | 97.2c | deportes_previo |  | Denmark vs. Norway: Neither team to score first? |
+| $85.53 | 98.8c | 98.8c | otros_cierre |  | Will Apple (AAPL) close above $355 on November 17? |
+| $85.53 | 99.8c | 99.8c | otros_cierre |  | Will Microsoft (MSFT) close above $540 on November 17? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 3537 | abiertas: 1854 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 3603 | abiertas: 1821 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
-| clima_cierre | todas | 902 | 99.03c | 99.22% | +0.19 pts | -0.38 a +0.76 | 7 |
-| clima_cierre | tocadas | 826 | 99.01c | 99.15% | +0.14 pts | -0.48 a +0.77 | 7 |
-| cripto_cierre | todas | 581 | 98.97c | 97.93% | -1.03 pts | -2.18 a +0.11 | 12 |
-| cripto_cierre | tocadas | 534 | 99.00c | 97.75% | -1.25 pts | -2.49 a -0.00 | 12 |
-| deportes_previo | todas | 1574 | 98.06c | 96.95% | -1.11 pts | -1.96 a -0.27 | 48 |
-| deportes_previo | tocadas | 1542 | 98.10c | 96.89% | -1.21 pts | -2.08 a -0.35 | 48 |
-| otros_cierre | todas | 442 | 99.28c | 99.32% | +0.04 pts | -0.73 a +0.80 | 3 |
-| otros_cierre | tocadas | 397 | 99.25c | 99.24% | -0.00 pts | -0.85 a +0.85 | 3 |
-| post_fin_90_97 | todas | 38 | 94.13c | 97.37% | +3.24 pts | -1.94 a +8.41 | 1 |
-| post_fin_90_97 | tocadas | 31 | 94.23c | 96.77% | +2.54 pts | -3.79 a +8.87 | 1 |
-| TOTAL | todas | 3537 | 98.57c | 97.99% | -0.58 pts | -1.04 a -0.12 | 71 |
-| TOTAL | tocadas | 3330 | 98.57c | 97.87% | -0.70 pts | -1.19 a -0.22 | 71 |
+| clima_cierre | todas | 909 | 99.03c | 99.23% | +0.20 pts | -0.36 a +0.77 | 7 |
+| clima_cierre | tocadas | 833 | 99.00c | 99.16% | +0.16 pts | -0.46 a +0.77 | 7 |
+| cripto_cierre | todas | 598 | 98.98c | 97.99% | -0.98 pts | -2.10 a +0.13 | 12 |
+| cripto_cierre | tocadas | 551 | 99.01c | 97.82% | -1.19 pts | -2.39 a +0.02 | 12 |
+| deportes_previo | todas | 1605 | 98.07c | 97.01% | -1.06 pts | -1.89 a -0.23 | 48 |
+| deportes_previo | tocadas | 1572 | 98.10c | 96.95% | -1.16 pts | -2.00 a -0.31 | 48 |
+| otros_cierre | todas | 451 | 99.28c | 99.33% | +0.05 pts | -0.70 a +0.80 | 3 |
+| otros_cierre | tocadas | 406 | 99.25c | 99.26% | +0.02 pts | -0.82 a +0.85 | 3 |
+| post_fin_90_97 | todas | 40 | 94.19c | 97.50% | +3.31 pts | -1.61 a +8.22 | 1 |
+| post_fin_90_97 | tocadas | 33 | 94.30c | 96.97% | +2.67 pts | -3.28 a +8.61 | 1 |
+| TOTAL | todas | 3603 | 98.57c | 98.03% | -0.54 pts | -0.99 a -0.09 | 71 |
+| TOTAL | tocadas | 3395 | 98.57c | 97.91% | -0.66 pts | -1.14 a -0.18 | 71 |
 
 Peores casos del registro sombra:
 
