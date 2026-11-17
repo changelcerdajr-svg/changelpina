@@ -269,7 +269,7 @@
    "hours": 6.48,
    "liq": 16183,
    "fill_ts": 1794877266.473481,
-   "mark": 0.916,
+   "mark": 0.9995,
    "stuck": false,
    "disputed": false
   },
@@ -2474,6 +2474,19 @@
    "placed": 1,
    "shadow_open": 358,
    "shadow_closed": 1
+  },
+  {
+   "ts": "2026-11-17T02:30:53Z",
+   "equity": 1028.38,
+   "cash": 361.26,
+   "orders": 8,
+   "positions": 5,
+   "closed": 37,
+   "scanned": 9108,
+   "candidates": 121,
+   "placed": 0,
+   "shadow_open": 354,
+   "shadow_closed": 6
   }
  ],
  "halted": false,
@@ -4760,84 +4773,6 @@
    "touched": 1
   },
   {
-   "id": "6920130",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 0,
-   "token": "93031293172663684432082049521693079915742824477318743202229075517886927814379",
-   "px": 0.984,
-   "tick": 0.001,
-   "ts": 1794837685,
-   "end_ts": 1794841200,
-   "q": "Will \"Victorian Psycho\" score at least 70 on the Rotten Tomatoes Tomatometer?",
-   "touched": null
-  },
-  {
-   "id": "6991673",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 0,
-   "token": "67998282204760956321046223330597719849733625138098324248779974752772515598345",
-   "px": 0.986,
-   "tick": 0.001,
-   "ts": 1794837685,
-   "end_ts": 1794841200,
-   "q": "Will \"Victorian Psycho\" score at least 73 on the Rotten Tomatoes Tomatometer?",
-   "touched": null
-  },
-  {
-   "id": "7083291",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "50784579715597303712077895387709161007399051574521151964991270974459199705346",
-   "px": 0.983,
-   "tick": 0.001,
-   "ts": 1794837685,
-   "end_ts": 1794848405,
-   "q": "Will MrBeast's next video get between 55 and 57 million views on day 2?",
-   "touched": null
-  },
-  {
-   "id": "7083292",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 0,
-   "token": "111534797885975007812021118951952954469516489957154457140482634237277591660524",
-   "px": 0.977,
-   "tick": 0.001,
-   "ts": 1794837685,
-   "end_ts": 1794848405,
-   "q": "Will MrBeast's next video get between 57 and 59 million views on day 2?",
-   "touched": null
-  },
-  {
-   "id": "6933145",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "35510851381876258067312841744313795347832591830971170382497475154696190773482",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1794837685,
-   "end_ts": 1794866400,
-   "q": "Lamar Cardinals vs. Texas A&M Aggies (W)",
-   "touched": null
-  },
-  {
-   "id": "7013481",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "112260407691383841676079627329665041551934385593958633979368147689204678291778",
-   "px": 0.975,
-   "tick": 0.001,
-   "ts": 1794837685,
-   "end_ts": 1794862800,
-   "q": "Will Google (GOOGL) close above $305 on November 16?",
-   "touched": null
-  },
-  {
    "id": "7082162",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -4848,7 +4783,7 @@
    "ts": 1794837685,
    "end_ts": 1794875400,
    "q": "Spread: Nets (-19.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6892080",
@@ -4861,7 +4796,7 @@
    "ts": 1794837685,
    "end_ts": 1794891600,
    "q": "Will Microstrategy announce a Bitcoin purchase November 10-16?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6892470",
@@ -4874,7 +4809,7 @@
    "ts": 1794837685,
    "end_ts": 1794891600,
    "q": "MicroStrategy announces >1000 BTC purchase November 10-16?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7085242",
@@ -4887,7 +4822,7 @@
    "ts": 1794837685,
    "end_ts": 1794891600,
    "q": "Will XRP reach $1.05 on November 16?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7085246",
@@ -4900,7 +4835,7 @@
    "ts": 1794837685,
    "end_ts": 1794891600,
    "q": "Will XRP dip to $0.85 on November 16?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6671660",
@@ -4913,7 +4848,7 @@
    "ts": 1794837685,
    "end_ts": 1794945600,
    "q": "Will Niger win on 2026-11-17?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6674043",
@@ -4926,7 +4861,7 @@
    "ts": 1794837685,
    "end_ts": 1794944700,
    "q": "Spread: Kosovo (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6674044",
@@ -4939,7 +4874,7 @@
    "ts": 1794837685,
    "end_ts": 1794944700,
    "q": "Spread: Republic of Ireland (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6674166",
@@ -4952,7 +4887,7 @@
    "ts": 1794837685,
    "end_ts": 1794944700,
    "q": "Spread: Wales (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6674287",
@@ -4965,7 +4900,7 @@
    "ts": 1794837685,
    "end_ts": 1794944700,
    "q": "Spread: Romania (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6674354",
@@ -4978,7 +4913,7 @@
    "ts": 1794837685,
    "end_ts": 1794944700,
    "q": "Spread: Israel (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6674416",
@@ -4991,7 +4926,7 @@
    "ts": 1794837685,
    "end_ts": 1794944700,
    "q": "Spread: Northern Ireland (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6674428",
@@ -5004,7 +4939,7 @@
    "ts": 1794837685,
    "end_ts": 1794944700,
    "q": "Hungary vs. Northern Ireland: O/U 5.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6674490",
@@ -5017,7 +4952,7 @@
    "ts": 1794837685,
    "end_ts": 1794944700,
    "q": "Denmark vs. Norway: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7013458",
@@ -7136,6 +7071,32 @@
    "ts": 1794880869,
    "end_ts": 1794961800,
    "q": "Maple Leafs vs. Blackhawks: O/U 2.5",
+   "touched": null
+  },
+  {
+   "id": "6654458",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "52051297261225279400270146124824147961947910902608765499122365382401602968234",
+   "px": 0.972,
+   "tick": 0.001,
+   "ts": 1794882625,
+   "end_ts": 1794909600,
+   "q": "Singapore vs. Brazil: O/U 1.5",
+   "touched": null
+  },
+  {
+   "id": "7097906",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "70888255365345670325584635227675487904558973578974288840091118942303986949603",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1794882625,
+   "end_ts": 1794963600,
+   "q": "Ducks vs. Blues: O/U 2.5",
    "touched": null
   }
  ]

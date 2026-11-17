@@ -2,8 +2,8 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-11T22:05:26Z | dias corridos: 5.2 de 28 | corridas: 83
-- Capital inicial: $1,000.00 | valor actual: $1,024.02 | P&L: $+24.02 (+2.40%)
+- Inicio: 2026-11-11T22:05:26Z | dias corridos: 5.2 de 28 | corridas: 84
+- Capital inicial: $1,000.00 | valor actual: $1,028.38 | P&L: $+28.38 (+2.84%)
 - Efectivo libre: $361.26 | en ordenes abiertas: $409.83 (8) | en posiciones: $255.19 (5)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
 - Ordenes virtuales: 142 colocadas, 42 llenadas, 57 tocadas sin llenarse (sorteo 30%), 35 expiradas
@@ -28,7 +28,7 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
 | $50.57 | 95.9c | 99.6c | post_fin_95_97 |  | Will the highest temperature in Atlanta be between 60-61°F on November 16? |
-| $50.64 | 97.1c | 91.6c | deportes_previo |  | Canadiens vs. Rangers: O/U 2.5 |
+| $50.64 | 97.1c | 100.0c | deportes_previo |  | Canadiens vs. Rangers: O/U 2.5 |
 | $51.30 | 99.4c | 99.5c | otros_cierre |  | Will the next Gemini Flash-Lite model (3.6+) be released on November 16, 2026? |
 | $51.30 | 99.5c | 99.5c | otros_cierre |  | Will GPT Astra 6.1+ be released on November 16, 2026? |
 | $51.37 | 99.4c | 96.8c | otros_cierre |  | Will the next Meta Muse Spark model be released on November 16, 2026? |
@@ -37,20 +37,20 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 1342 | abiertas: 358 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 1348 | abiertas: 354 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
 | cripto_cierre | todas | 441 | 98.72c | 98.41% | -0.30 pts | -1.47 a +0.86 | 7 |
 | cripto_cierre | tocadas | 309 | 98.59c | 97.73% | -0.86 pts | -2.51 a +0.80 | 7 |
-| deportes_previo | todas | 663 | 98.44c | 98.64% | +0.20 pts | -0.68 a +1.08 | 9 |
-| deportes_previo | tocadas | 567 | 98.39c | 98.77% | +0.38 pts | -0.53 a +1.29 | 7 |
-| otros_cierre | todas | 220 | 98.65c | 100.00% | +1.35 pts | +1.25 a +1.45 | 0 |
-| otros_cierre | tocadas | 147 | 98.55c | 100.00% | +1.45 pts | +1.33 a +1.57 | 0 |
+| deportes_previo | todas | 664 | 98.44c | 98.64% | +0.21 pts | -0.67 a +1.09 | 9 |
+| deportes_previo | tocadas | 568 | 98.38c | 98.77% | +0.38 pts | -0.52 a +1.29 | 7 |
+| otros_cierre | todas | 225 | 98.64c | 100.00% | +1.36 pts | +1.26 a +1.46 | 0 |
+| otros_cierre | tocadas | 150 | 98.53c | 100.00% | +1.47 pts | +1.35 a +1.59 | 0 |
 | post_fin_95_97 | todas | 18 | 96.16c | 88.89% | -7.27 pts | -22.14 a +7.61 | 2 |
 | post_fin_95_97 | tocadas | 15 | 96.09c | 86.67% | -9.43 pts | -27.17 a +8.31 | 2 |
-| TOTAL | todas | 1342 | 98.53c | 98.66% | +0.12 pts | -0.49 a +0.74 | 18 |
-| TOTAL | tocadas | 1038 | 98.44c | 98.46% | +0.02 pts | -0.72 a +0.77 | 16 |
+| TOTAL | todas | 1348 | 98.53c | 98.66% | +0.13 pts | -0.48 a +0.74 | 18 |
+| TOTAL | tocadas | 1042 | 98.43c | 98.46% | +0.03 pts | -0.71 a +0.77 | 16 |
 
 Peores casos del registro sombra:
 
