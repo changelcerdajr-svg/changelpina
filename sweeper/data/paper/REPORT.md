@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-11T22:05:26Z | dias corridos: 5.2 de 28 | corridas: 86
-- Capital inicial: $1,000.00 | valor actual: $1,028.40 | P&L: $+28.40 (+2.84%)
-- Efectivo libre: $360.84 | en ordenes abiertas: $462.41 (9) | en posiciones: $204.55 (4)
+- Inicio: 2026-11-11T22:05:26Z | dias corridos: 5.3 de 28 | corridas: 87
+- Capital inicial: $1,000.00 | valor actual: $1,028.43 | P&L: $+28.43 (+2.84%)
+- Efectivo libre: $360.84 | en ordenes abiertas: $410.99 (8) | en posiciones: $255.97 (5)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 147 colocadas, 42 llenadas, 58 tocadas sin llenarse (sorteo 30%), 38 expiradas
+- Ordenes virtuales: 149 colocadas, 43 llenadas, 60 tocadas sin llenarse (sorteo 30%), 38 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -30,26 +30,27 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 | $50.57 | 95.9c | 99.6c | post_fin_95_97 |  | Will the highest temperature in Atlanta be between 60-61°F on November 16? |
 | $51.30 | 99.4c | 99.5c | otros_cierre |  | Will the next Gemini Flash-Lite model (3.6+) be released on November 16, 2026? |
 | $51.30 | 99.5c | 99.5c | otros_cierre |  | Will GPT Astra 6.1+ be released on November 16, 2026? |
-| $51.37 | 99.4c | 96.8c | otros_cierre |  | Will the next Meta Muse Spark model be released on November 16, 2026? |
+| $51.37 | 99.4c | 96.9c | otros_cierre |  | Will the next Meta Muse Spark model be released on November 16, 2026? |
+| $51.42 | 98.0c | 98.0c | cripto_cierre |  | Ethereum Up or Down - November 16, 8:00PM-12:00AM ET |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 1397 | abiertas: 328 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 1407 | abiertas: 388 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
 | cripto_cierre | todas | 446 | 98.71c | 98.43% | -0.28 pts | -1.43 a +0.86 | 7 |
 | cripto_cierre | tocadas | 312 | 98.59c | 97.76% | -0.83 pts | -2.47 a +0.81 | 7 |
-| deportes_previo | todas | 690 | 98.42c | 98.70% | +0.28 pts | -0.57 a +1.12 | 9 |
-| deportes_previo | tocadas | 594 | 98.36c | 98.82% | +0.46 pts | -0.41 a +1.32 | 7 |
+| deportes_previo | todas | 700 | 98.42c | 98.71% | +0.29 pts | -0.54 a +1.13 | 9 |
+| deportes_previo | tocadas | 603 | 98.37c | 98.84% | +0.47 pts | -0.38 a +1.33 | 7 |
 | otros_cierre | todas | 243 | 98.65c | 100.00% | +1.35 pts | +1.26 a +1.45 | 0 |
 | otros_cierre | tocadas | 166 | 98.55c | 100.00% | +1.45 pts | +1.34 a +1.57 | 0 |
 | post_fin_95_97 | todas | 18 | 96.16c | 88.89% | -7.27 pts | -22.14 a +7.61 | 2 |
 | post_fin_95_97 | tocadas | 15 | 96.09c | 86.67% | -9.43 pts | -27.17 a +8.31 | 2 |
-| TOTAL | todas | 1397 | 98.52c | 98.71% | +0.19 pts | -0.40 a +0.78 | 18 |
-| TOTAL | tocadas | 1087 | 98.42c | 98.53% | +0.10 pts | -0.61 a +0.82 | 16 |
+| TOTAL | todas | 1407 | 98.52c | 98.72% | +0.20 pts | -0.39 a +0.78 | 18 |
+| TOTAL | tocadas | 1096 | 98.43c | 98.54% | +0.11 pts | -0.59 a +0.82 | 16 |
 
 Peores casos del registro sombra:
 
@@ -66,4 +67,4 @@ Peores casos del registro sombra:
 
 ## Veredicto
 
-Aun no hay veredicto: van 38 operaciones cerradas en 5.2 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
+Aun no hay veredicto: van 38 operaciones cerradas en 5.3 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
