@@ -1,6 +1,6 @@
 {
  "capital0": 1000.0,
- "cash": 414.4674,
+ "cash": 414.2443,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
   {
@@ -23,27 +23,6 @@
    "end_ts": 1794891600.0,
    "hours": 6.88,
    "liq": 4095
-  },
-  {
-   "oid": "6634964-1794866831",
-   "id": "6634964",
-   "q": "Will Singapore win on 2026-11-17?",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1307931",
-   "side": 1,
-   "token": "9127589616799055752101427479819547795416363407877208703250130563288336123468",
-   "px": 0.99,
-   "tick": 0.001,
-   "mid": 0.9905,
-   "bid": 0.989,
-   "ask": 0.992,
-   "shares": 51.8901,
-   "cost": 51.3712,
-   "ts": 1794866831.760072,
-   "end_ts": 1794909600.0,
-   "hours": 11.88,
-   "liq": 24962
   },
   {
    "oid": "6634965-1794866831",
@@ -193,27 +172,6 @@
    "liq": 36438
   },
   {
-   "oid": "6364920-1794902472",
-   "id": "6364920",
-   "q": "Will the next Gemini Flash-Lite model (3.6+) be released on November 17, 2026?",
-   "cat": "otros",
-   "rule": "otros_cierre",
-   "event": "1274169",
-   "side": 1,
-   "token": "55102110746769248510641729614108799260767806178672555216702523800393040526410",
-   "px": 0.994,
-   "tick": 0.001,
-   "mid": 0.994,
-   "bid": 0.991,
-   "ask": 0.997,
-   "shares": 51.9058,
-   "cost": 51.5943,
-   "ts": 1794902472.558258,
-   "end_ts": 1794977940.0,
-   "hours": 20.96,
-   "liq": 3271
-  },
-  {
    "oid": "6941817-1794902472",
    "id": "6941817",
    "q": "Will \"Grand Theft Auto VI: Pre-Load Now\" get between 10 and 20 million views on week 1?",
@@ -233,6 +191,48 @@
    "end_ts": 1794977940.0,
    "hours": 20.96,
    "liq": 1219
+  },
+  {
+   "oid": "6695430-1794906073",
+   "id": "6695430",
+   "q": "Spread: Saudi Arabia (-3.5)",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1315766",
+   "side": 1,
+   "token": "83142277763073959591733248927665959344082298085230391491185735556443950922993",
+   "px": 0.986,
+   "tick": 0.001,
+   "mid": 0.986,
+   "bid": 0.975,
+   "ask": 0.997,
+   "shares": 52.3269,
+   "cost": 51.5943,
+   "ts": 1794906073.603806,
+   "end_ts": 1794929400.0,
+   "hours": 6.48,
+   "liq": 4241
+  },
+  {
+   "oid": "7097439-1794906073",
+   "id": "7097439",
+   "q": "Will MrBeast's next video get 71 million or more views on day 3?",
+   "cat": "otros",
+   "rule": "otros_cierre",
+   "event": "1403247",
+   "side": 1,
+   "token": "25300533432083899795955746814570276570301048160794295832499041710247059189106",
+   "px": 0.984,
+   "tick": 0.001,
+   "mid": 0.9845,
+   "bid": 0.974,
+   "ask": 0.995,
+   "shares": 52.4333,
+   "cost": 51.5943,
+   "ts": 1794906073.603806,
+   "end_ts": 1794934805.0,
+   "hours": 7.98,
+   "liq": 1379
   }
  ],
  "positions": [
@@ -2706,14 +2706,27 @@
    "placed": 4,
    "shadow_open": 303,
    "shadow_closed": 41
+  },
+  {
+   "ts": "2026-11-17T09:01:55Z",
+   "equity": 1031.89,
+   "cash": 414.24,
+   "orders": 11,
+   "positions": 1,
+   "closed": 43,
+   "scanned": 8409,
+   "candidates": 201,
+   "placed": 2,
+   "shadow_open": 306,
+   "shadow_closed": 4
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 156,
+  "placed": 158,
   "filled": 44,
   "expired": 38,
-  "touched_not_filled": 63
+  "touched_not_filled": 65
  },
  "shadow": [
   {
@@ -3926,58 +3939,6 @@
    "touched": 0
   },
   {
-   "id": "7013483",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "41859568189397654920429849687923496770506490257191672207116619707837664185317",
-   "px": 0.996,
-   "tick": 0.001,
-   "ts": 1794859283,
-   "end_ts": 1794862800,
-   "q": "Rocket Lab (RKLB) Up or Down on November 16?",
-   "touched": null
-  },
-  {
-   "id": "7013500",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "82428489555339321957966050821357084881781172870291347997647615838360771200836",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1794859283,
-   "end_ts": 1794862800,
-   "q": "Will NVIDIA (NVDA) close above $165 on November 16?",
-   "touched": null
-  },
-  {
-   "id": "6625210",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "71206800893829972277331536654888378277192176994528120016933051407964510101443",
-   "px": 0.973,
-   "tick": 0.001,
-   "ts": 1794859283,
-   "end_ts": 1794891540,
-   "q": "Will GPT Astra 6.1+ be released on November 16, 2026?",
-   "touched": null
-  },
-  {
-   "id": "7085227",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "83926870970511889107481033683758668630034615845523753763545988730814200527288",
-   "px": 0.977,
-   "tick": 0.001,
-   "ts": 1794859283,
-   "end_ts": 1794891600,
-   "q": "Will Solana dip to $65 on November 16?",
-   "touched": null
-  },
-  {
    "id": "6672449",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -3988,7 +3949,7 @@
    "ts": 1794859283,
    "end_ts": 1794920400,
    "q": "Ethiopia vs. Mozambique: O/U 5.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6671942",
@@ -4001,7 +3962,7 @@
    "ts": 1794859283,
    "end_ts": 1794942000,
    "q": "Rwanda vs. Mali: O/U 5.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6674229",
@@ -4014,7 +3975,7 @@
    "ts": 1794859283,
    "end_ts": 1794944700,
    "q": "Spread: Sweden (-3.5)",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6674491",
@@ -4027,7 +3988,7 @@
    "ts": 1794859283,
    "end_ts": 1794944700,
    "q": "Denmark vs. Norway: O/U 8.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6964686",
@@ -4040,7 +4001,7 @@
    "ts": 1794859283,
    "end_ts": 1794967200,
    "q": "Texas Southern Tigers vs. Oklahoma Sooners (W)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7085178",
@@ -6653,6 +6614,97 @@
    "ts": 1794902472,
    "end_ts": 1795003140,
    "q": "Will UK annual inflation be between 4.0% and 4.2% in October?",
+   "touched": null
+  },
+  {
+   "id": "6935848",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "94249380842847487270387493295218106102654081211945276307758729403337828978165",
+   "px": 0.979,
+   "tick": 0.001,
+   "ts": 1794906073,
+   "end_ts": 1794934800,
+   "q": "Will the price of Ethereum be above $1,900 on November 17?",
+   "touched": null
+  },
+  {
+   "id": "6935927",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "108311378445663919708464457667552405551949514029959181266497566379913041091874",
+   "px": 0.974,
+   "tick": 0.001,
+   "ts": 1794906073,
+   "end_ts": 1794934800,
+   "q": "Will the price of Ethereum be between $1,900 and $2,000 on November 17?",
+   "touched": null
+  },
+  {
+   "id": "6674193",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "14064293091294779559357659601244159459960803884557387990664976483391813793610",
+   "px": 0.975,
+   "tick": 0.001,
+   "ts": 1794906073,
+   "end_ts": 1794944700,
+   "q": "Wales vs. Portugal: Wales O/U 3.5",
+   "touched": null
+  },
+  {
+   "id": "6714371",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "33318878560078363539801361197103917578339728314253064656818345123574912759551",
+   "px": 0.973,
+   "tick": 0.001,
+   "ts": 1794906073,
+   "end_ts": 1794942000,
+   "q": "Belize vs. Sint Maarten: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "7080769",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "42722940813155308559211541136567685627209940063102176223029264350666624287927",
+   "px": 0.974,
+   "tick": 0.001,
+   "ts": 1794906073,
+   "end_ts": 1794944700,
+   "q": "Spennymoor Town FC vs. Chester FC: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "6820757",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "27514701289885459904250894322166918332325850214553105129389368906104865113016",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1794906073,
+   "end_ts": 1794960000,
+   "q": "Spread: Ball State (-14.5)",
+   "touched": null
+  },
+  {
+   "id": "7109745",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "84090953979114603084857985341457479344940629984928305702309372623956450173310",
+   "px": 0.984,
+   "tick": 0.001,
+   "ts": 1794906073,
+   "end_ts": 1794978000,
+   "q": "Will Bitcoin reach $68,000 on November 17?",
    "touched": null
   }
  ]
