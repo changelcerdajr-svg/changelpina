@@ -2,8 +2,8 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-11T22:05:26Z | dias corridos: 5.7 de 28 | corridas: 97
-- Capital inicial: $1,000.00 | valor actual: $1,032.02 | P&L: $+32.02 (+3.20%)
+- Inicio: 2026-11-11T22:05:26Z | dias corridos: 5.7 de 28 | corridas: 98
+- Capital inicial: $1,000.00 | valor actual: $1,032.10 | P&L: $+32.10 (+3.21%)
 - Efectivo libre: $413.09 | en ordenes abiertas: $464.19 (9) | en posiciones: $154.61 (3)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
 - Ordenes virtuales: 170 colocadas, 46 llenadas, 74 tocadas sin llenarse (sorteo 30%), 41 expiradas
@@ -28,27 +28,27 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
 | $51.42 | 99.1c | 99.1c | otros_cierre |  | Will MrBeast's next video get less than 66 million views on day 3? |
-| $51.59 | 97.3c | 97.2c | deportes_previo |  | Rwanda vs. Mali: O/U 5.5 |
+| $51.59 | 97.3c | 97.4c | deportes_previo |  | Rwanda vs. Mali: O/U 5.5 |
 | $51.59 | 99.4c | 99.7c | otros_cierre |  | Will the next Gemini Flash-Lite model (3.6+) be released on November 17, 2026? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 1573 | abiertas: 317 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 1574 | abiertas: 322 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
 | cripto_cierre | todas | 497 | 98.70c | 98.59% | -0.11 pts | -1.15 a +0.92 | 7 |
 | cripto_cierre | tocadas | 355 | 98.59c | 98.03% | -0.56 pts | -2.00 a +0.88 | 7 |
-| deportes_previo | todas | 796 | 98.48c | 98.87% | +0.39 pts | -0.34 a +1.12 | 9 |
-| deportes_previo | tocadas | 666 | 98.41c | 98.95% | +0.54 pts | -0.23 a +1.32 | 7 |
+| deportes_previo | todas | 797 | 98.48c | 98.87% | +0.39 pts | -0.34 a +1.13 | 9 |
+| deportes_previo | tocadas | 667 | 98.40c | 98.95% | +0.55 pts | -0.22 a +1.32 | 7 |
 | otros_cierre | todas | 261 | 98.66c | 100.00% | +1.34 pts | +1.25 a +1.44 | 0 |
 | otros_cierre | tocadas | 173 | 98.55c | 100.00% | +1.45 pts | +1.34 a +1.56 | 0 |
 | post_fin_95_97 | todas | 19 | 96.14c | 89.47% | -6.67 pts | -20.79 a +7.45 | 2 |
 | post_fin_95_97 | tocadas | 16 | 96.08c | 87.50% | -8.58 pts | -25.26 a +8.10 | 2 |
-| TOTAL | todas | 1573 | 98.55c | 98.86% | +0.30 pts | -0.22 a +0.83 | 18 |
-| TOTAL | tocadas | 1210 | 98.45c | 98.68% | +0.23 pts | -0.41 a +0.87 | 16 |
+| TOTAL | todas | 1574 | 98.55c | 98.86% | +0.31 pts | -0.22 a +0.83 | 18 |
+| TOTAL | tocadas | 1211 | 98.45c | 98.68% | +0.23 pts | -0.41 a +0.87 | 16 |
 
 Peores casos del registro sombra:
 
