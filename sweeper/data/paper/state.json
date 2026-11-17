@@ -1,6 +1,6 @@
 {
  "capital0": 1000.0,
- "cash": 414.2443,
+ "cash": 414.0618,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
   {
@@ -44,27 +44,6 @@
    "end_ts": 1794909600.0,
    "hours": 11.88,
    "liq": 10250
-  },
-  {
-   "oid": "6654457-1794873672",
-   "id": "6654457",
-   "q": "Singapore vs. Brazil: O/U 0.5",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1309855",
-   "side": 0,
-   "token": "46545241655256501500946972912876795676330696671899444579940612852605780292493",
-   "px": 0.994,
-   "tick": 0.001,
-   "mid": 0.9945,
-   "bid": 0.99,
-   "ask": 0.999,
-   "shares": 51.7221,
-   "cost": 51.4118,
-   "ts": 1794873672.237884,
-   "end_ts": 1794909600.0,
-   "hours": 9.98,
-   "liq": 4987
   },
   {
    "oid": "6892470-1794880869",
@@ -214,25 +193,46 @@
    "liq": 4241
   },
   {
-   "oid": "7097439-1794906073",
-   "id": "7097439",
-   "q": "Will MrBeast's next video get 71 million or more views on day 3?",
+   "oid": "6944067-1794909672",
+   "id": "6944067",
+   "q": "Spread: Kuwait (-2.5)",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1358912",
+   "side": 1,
+   "token": "108457952972973536829125397285776908259473362332750030569162028522565161493267",
+   "px": 0.978,
+   "tick": 0.001,
+   "mid": 0.978,
+   "bid": 0.971,
+   "ask": 0.985,
+   "shares": 52.755,
+   "cost": 51.5943,
+   "ts": 1794909672.918601,
+   "end_ts": 1794933000.0,
+   "hours": 6.48,
+   "liq": 6346
+  },
+  {
+   "oid": "6364920-1794909672",
+   "id": "6364920",
+   "q": "Will the next Gemini Flash-Lite model (3.6+) be released on November 17, 2026?",
    "cat": "otros",
    "rule": "otros_cierre",
-   "event": "1403247",
+   "event": "1274169",
    "side": 1,
-   "token": "25300533432083899795955746814570276570301048160794295832499041710247059189106",
-   "px": 0.984,
+   "token": "55102110746769248510641729614108799260767806178672555216702523800393040526410",
+   "px": 0.994,
    "tick": 0.001,
-   "mid": 0.9845,
-   "bid": 0.974,
-   "ask": 0.995,
-   "shares": 52.4333,
+   "mid": 0.994,
+   "bid": 0.991,
+   "ask": 0.997,
+   "shares": 51.9058,
    "cost": 51.5943,
-   "ts": 1794906073.603806,
-   "end_ts": 1794934805.0,
-   "hours": 7.98,
-   "liq": 1379
+   "ts": 1794909672.918601,
+   "end_ts": 1794977940.0,
+   "hours": 18.96,
+   "liq": 3771
   }
  ],
  "positions": [
@@ -2719,14 +2719,27 @@
    "placed": 2,
    "shadow_open": 306,
    "shadow_closed": 4
+  },
+  {
+   "ts": "2026-11-17T10:01:58Z",
+   "equity": 1031.89,
+   "cash": 414.06,
+   "orders": 11,
+   "positions": 1,
+   "closed": 43,
+   "scanned": 8848,
+   "candidates": 193,
+   "placed": 2,
+   "shadow_open": 311,
+   "shadow_closed": 2
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 158,
+  "placed": 160,
   "filled": 44,
   "expired": 38,
-  "touched_not_filled": 65
+  "touched_not_filled": 67
  },
  "shadow": [
   {
@@ -2793,19 +2806,6 @@
    "end_ts": 1794909600,
    "q": "Singapore vs. Brazil: O/U 0.5",
    "touched": 0
-  },
-  {
-   "id": "6978112",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "65671288890232825033826018509630129293358836446154146034108028225763882881197",
-   "px": 0.985,
-   "tick": 0.001,
-   "ts": 1794805267,
-   "end_ts": 1794878100,
-   "q": "Ladd McConkey: Anytime Touchdown",
-   "touched": 1
   },
   {
    "id": "6635051",
@@ -4004,19 +4004,6 @@
    "touched": 1
   },
   {
-   "id": "7085178",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "44527040995228133768908284058847788235390338783802540019234183585578986921878",
-   "px": 0.975,
-   "tick": 0.001,
-   "ts": 1794862886,
-   "end_ts": 1794891600,
-   "q": "Will Bitcoin dip to $62,000 on November 16?",
-   "touched": null
-  },
-  {
    "id": "6935917",
    "rule": "cripto_cierre",
    "cat": "cripto",
@@ -4027,7 +4014,7 @@
    "ts": 1794862886,
    "end_ts": 1794934800,
    "q": "Will the price of Ethereum be between $1,600 and $1,700 on November 17?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6671929",
@@ -4040,7 +4027,7 @@
    "ts": 1794862886,
    "end_ts": 1794942000,
    "q": "Spread: Rwanda (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6674108",
@@ -4053,7 +4040,7 @@
    "ts": 1794862886,
    "end_ts": 1794944700,
    "q": "Spread: Ukraine (-3.5)",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7085245",
@@ -6705,6 +6692,97 @@
    "ts": 1794906073,
    "end_ts": 1794978000,
    "q": "Will Bitcoin reach $68,000 on November 17?",
+   "touched": null
+  },
+  {
+   "id": "6944070",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "72860039040257418521360033784832958265451015686110027130928130920421972487920",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1794909672,
+   "end_ts": 1794933000,
+   "q": "Spread: Honduras (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "6671875",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "27125200693693018556633669875006883450917654257540100896485394901926372625817",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1794909672,
+   "end_ts": 1794945600,
+   "q": "Niger vs. Morocco: O/U 0.5",
+   "touched": null
+  },
+  {
+   "id": "6695257",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "12839415447279041250938677706140009845603372733346051167456487444496334904388",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1794909672,
+   "end_ts": 1794956400,
+   "q": "Chile vs. Colombia: O/U 5.5",
+   "touched": null
+  },
+  {
+   "id": "6714118",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "34061324653043605758477379558841480577283836246851115830854983047814664938211",
+   "px": 0.984,
+   "tick": 0.001,
+   "ts": 1794909672,
+   "end_ts": 1794960000,
+   "q": "Spread: French Guiana (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "6714150",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "88636318272914072183520418550463352307206747115445720876738414908750269022023",
+   "px": 0.973,
+   "tick": 0.001,
+   "ts": 1794909672,
+   "end_ts": 1794960000,
+   "q": "French Guiana vs. St. Vincent and the Grenadines: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "6820811",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "74541138132386472324445929705845917279767713300312547695170463610751335753916",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1794909672,
+   "end_ts": 1794956400,
+   "q": "Spread: Eastern Michigan (-10.5)",
+   "touched": null
+  },
+  {
+   "id": "7109818",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "47152767945592700370271875667205469320387186266671930795515726317671823813880",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1794909672,
+   "end_ts": 1794978000,
+   "q": "Will Ethereum reach $1,950 on November 17?",
    "touched": null
   }
  ]
