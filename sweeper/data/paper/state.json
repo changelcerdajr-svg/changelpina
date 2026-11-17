@@ -240,7 +240,7 @@
    "hours": 18.96,
    "liq": 3771,
    "fill_ts": 1794913270.991008,
-   "mark": 0.9945,
+   "mark": 0.9975,
    "stuck": false,
    "disputed": false
   },
@@ -265,7 +265,7 @@
    "hours": 7.98,
    "liq": 3217,
    "fill_ts": 1794916731.317447,
-   "mark": 0.9705,
+   "mark": 0.9725,
    "stuck": false,
    "disputed": false
   }
@@ -2779,6 +2779,19 @@
    "placed": 0,
    "shadow_open": 319,
    "shadow_closed": 0
+  },
+  {
+   "ts": "2026-11-17T13:02:03Z",
+   "equity": 1032.04,
+   "cash": 413.49,
+   "orders": 9,
+   "positions": 3,
+   "closed": 43,
+   "scanned": 9317,
+   "candidates": 167,
+   "placed": 0,
+   "shadow_open": 323,
+   "shadow_closed": 2
   }
  ],
  "halted": false,
@@ -4324,19 +4337,6 @@
    "touched": 0
   },
   {
-   "id": "7085161",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "15415216306158883045267049089601114915705844324715426242154877888080178578007",
-   "px": 0.986,
-   "tick": 0.001,
-   "ts": 1794873672,
-   "end_ts": 1794891600,
-   "q": "Will Bitcoin reach $67,000 on November 16?",
-   "touched": null
-  },
-  {
    "id": "6948034",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -4347,7 +4347,7 @@
    "ts": 1794873672,
    "end_ts": 1794960000,
    "q": "Cleveland State Vikings vs. Xavier Musketeers",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7097657",
@@ -4360,7 +4360,7 @@
    "ts": 1794873672,
    "end_ts": 1794960000,
    "q": "Oilers vs. Panthers: O/U 2.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6949424",
@@ -4373,7 +4373,7 @@
    "ts": 1794873672,
    "end_ts": 1794963600,
    "q": "Maryland Eastern Shore Hawks vs. DePaul Blue Demons",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6949432",
@@ -4386,20 +4386,7 @@
    "ts": 1794873672,
    "end_ts": 1794963600,
    "q": "Eastern Illinois Panthers vs. Vanderbilt Commodores",
-   "touched": null
-  },
-  {
-   "id": "6766327",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 0,
-   "token": "7120470288535113553235607699539128262871450975428674929584557454018359924206",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1794877266,
-   "end_ts": 1794891540,
-   "q": "Will Roy Lichtenstein's “Reflections on ‘Painter and Model’” sell for between $20m and $25",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6935919",
@@ -4412,7 +4399,7 @@
    "ts": 1794877266,
    "end_ts": 1794934800,
    "q": "Will the price of Bitcoin be above $68,000 on November 17?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6936052",
@@ -4425,7 +4412,7 @@
    "ts": 1794877266,
    "end_ts": 1794934800,
    "q": "Will the price of Solana be between $110 and $120 on November 17?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6936056",
@@ -4438,7 +4425,7 @@
    "ts": 1794877266,
    "end_ts": 1794934800,
    "q": "Will the price of Solana be between $120 and $130 on November 17?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6673540",
@@ -4451,7 +4438,7 @@
    "ts": 1794877266,
    "end_ts": 1794944700,
    "q": "Wales vs. Portugal: Neither team to score first?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7085176",
@@ -6934,6 +6921,84 @@
    "ts": 1794916731,
    "end_ts": 1794978000,
    "q": "Will XRP dip to $0.85 on November 17?",
+   "touched": null
+  },
+  {
+   "id": "6936007",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "54823224021683694419603718787481897885694756106998487450563720917175941755396",
+   "px": 0.98,
+   "tick": 0.001,
+   "ts": 1794920473,
+   "end_ts": 1794934800,
+   "q": "Will the price of Solana be above $70 on November 17?",
+   "touched": null
+  },
+  {
+   "id": "6936029",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "52195112031043983046560996765014107694901120338395177093716581969561047607713",
+   "px": 0.977,
+   "tick": 0.001,
+   "ts": 1794920473,
+   "end_ts": 1794934800,
+   "q": "Will the price of Solana be between $60 and $70 on November 17?",
+   "touched": null
+  },
+  {
+   "id": "6936034",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "52937511374395410453638894929021216309704729024319369183293971564595728212312",
+   "px": 0.972,
+   "tick": 0.001,
+   "ts": 1794920473,
+   "end_ts": 1794934800,
+   "q": "Will the price of Solana be between $70 and $80 on November 17?",
+   "touched": null
+  },
+  {
+   "id": "7097438",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "59763974837654519170780880441468337024024948069656859143950333742529251112010",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1794920473,
+   "end_ts": 1794934805,
+   "q": "Will MrBeast's next video get between 70 and 71 million views on day 3?",
+   "touched": null
+  },
+  {
+   "id": "7091077",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "86912804476652588819948083601679099651058864995861361933704058256255037535207",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1794920473,
+   "end_ts": 1794944700,
+   "q": "Spread: Harborough Town FC (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "7109764",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "20814510843917378867052225737600983257812327127177834819027142564890382963555",
+   "px": 0.977,
+   "tick": 0.001,
+   "ts": 1794920473,
+   "end_ts": 1794978000,
+   "q": "Will Bitcoin dip to $61,000 on November 17?",
    "touched": null
   }
  ]
