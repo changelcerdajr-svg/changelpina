@@ -1,29 +1,8 @@
 {
  "capital0": 1000.0,
- "cash": 364.4529,
+ "cash": 361.2644,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
-  {
-   "oid": "6909146-1794834077",
-   "id": "6909146",
-   "q": "Will the price of Ethereum be above $1,700 on November 16?",
-   "cat": "cripto",
-   "rule": "cripto_cierre",
-   "event": "1350188",
-   "side": 0,
-   "token": "107647777952428710899094433473656345286964580038824191443043027927035611304007",
-   "px": 0.973,
-   "tick": 0.001,
-   "mid": 0.9735,
-   "bid": 0.969,
-   "ask": 0.978,
-   "shares": 49.345,
-   "cost": 48.0127,
-   "ts": 1794834077.303687,
-   "end_ts": 1794848400.0,
-   "hours": 3.98,
-   "liq": 43054
-  },
   {
    "oid": "6909141-1794844871",
    "id": "6909141",
@@ -170,6 +149,27 @@
    "end_ts": 1794909600.0,
    "hours": 9.98,
    "liq": 4987
+  },
+  {
+   "oid": "6892470-1794880869",
+   "id": "6892470",
+   "q": "MicroStrategy announces >1000 BTC purchase November 10-16?",
+   "cat": "cripto",
+   "rule": "cripto_cierre",
+   "event": "1346541",
+   "side": 1,
+   "token": "105424665104198616033512094937178010715697776278759868158406729186098202779468",
+   "px": 0.985,
+   "tick": 0.001,
+   "mid": 0.9855,
+   "bid": 0.972,
+   "ask": 0.999,
+   "shares": 51.9809,
+   "cost": 51.2012,
+   "ts": 1794880869.355384,
+   "end_ts": 1794891600.0,
+   "hours": 2.98,
+   "liq": 1797
   }
  ],
  "positions": [
@@ -269,7 +269,9 @@
    "hours": 6.48,
    "liq": 16183,
    "fill_ts": 1794877266.473481,
-   "mark": 0.971
+   "mark": 0.916,
+   "stuck": false,
+   "disputed": false
   },
   {
    "oid": "6655550-1794870072",
@@ -292,7 +294,9 @@
    "hours": 5.96,
    "liq": 1472,
    "fill_ts": 1794877266.473481,
-   "mark": 0.994
+   "mark": 0.968,
+   "stuck": false,
+   "disputed": false
   }
  ],
  "closed": [
@@ -2457,13 +2461,26 @@
    "placed": 0,
    "shadow_open": 351,
    "shadow_closed": 6
+  },
+  {
+   "ts": "2026-11-17T02:01:57Z",
+   "equity": 1024.02,
+   "cash": 361.26,
+   "orders": 8,
+   "positions": 5,
+   "closed": 37,
+   "scanned": 8924,
+   "candidates": 118,
+   "placed": 1,
+   "shadow_open": 358,
+   "shadow_closed": 1
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 141,
+  "placed": 142,
   "filled": 42,
-  "expired": 34,
+  "expired": 35,
   "touched_not_filled": 57
  },
  "shadow": [
@@ -4704,19 +4721,6 @@
    "touched": 1
   },
   {
-   "id": "7013510",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "50091112248194012622614459972321830395764446818922451216946155442784865386214",
-   "px": 0.983,
-   "tick": 0.001,
-   "ts": 1794834077,
-   "end_ts": 1794862800,
-   "q": "S&P 500 (SPX) Opens Up or Down on November 16?",
-   "touched": null
-  },
-  {
    "id": "7082171",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -4727,7 +4731,7 @@
    "ts": 1794834077,
    "end_ts": 1794880800,
    "q": "Spread: Suns (-15.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7085156",
@@ -4740,7 +4744,7 @@
    "ts": 1794834077,
    "end_ts": 1794891600,
    "q": "Will Bitcoin reach $68,000 on November 16?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6695396",
@@ -4753,7 +4757,7 @@
    "ts": 1794834077,
    "end_ts": 1794931200,
    "q": "Jordan vs. Australia: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6920130",
@@ -7028,6 +7032,110 @@
    "ts": 1794877266,
    "end_ts": 1794944700,
    "q": "Wales vs. Portugal: Neither team to score first?",
+   "touched": null
+  },
+  {
+   "id": "7085176",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "108110540176112352682001318227933969334230460909269009152177657407181760268920",
+   "px": 0.974,
+   "tick": 0.001,
+   "ts": 1794880869,
+   "end_ts": 1794891600,
+   "q": "Will Bitcoin dip to $63,000 on November 16?",
+   "touched": null
+  },
+  {
+   "id": "7085205",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "11350589497832419609437438196159682370264193101972860677588577255512034390139",
+   "px": 0.972,
+   "tick": 0.001,
+   "ts": 1794880869,
+   "end_ts": 1794891600,
+   "q": "Will Ethereum dip to $1,750 on November 16?",
+   "touched": null
+  },
+  {
+   "id": "6672539",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "45657010982907150027033269939878569421432767171624776065464013018500915527646",
+   "px": 0.978,
+   "tick": 0.001,
+   "ts": 1794880869,
+   "end_ts": 1794920400,
+   "q": "Spread: Burundi (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "6936002",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "16393544019330635904142379259271246680806750172727727784162636807079591152512",
+   "px": 0.992,
+   "tick": 0.001,
+   "ts": 1794880869,
+   "end_ts": 1794934800,
+   "q": "Will the price of Solana be above $65 on November 17?",
+   "touched": null
+  },
+  {
+   "id": "7097432",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "113929705836812664137841623350662228045491795600750682751111391084584949336098",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1794880869,
+   "end_ts": 1794934805,
+   "q": "Will MrBeast's next video get less than 66 million views on day 3?",
+   "touched": null
+  },
+  {
+   "id": "6695244",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "53561841329655562857435065848631582570284105538222402708020874866382383428046",
+   "px": 0.971,
+   "tick": 0.001,
+   "ts": 1794880869,
+   "end_ts": 1794956400,
+   "q": "Spread: Chile (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "6949420",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "113621615494637426446934995225607484914030517914358736091007403022900239619397",
+   "px": 0.971,
+   "tick": 0.001,
+   "ts": 1794880869,
+   "end_ts": 1794963600,
+   "q": "Oral Roberts Golden Eagles vs. SMU Mustangs",
+   "touched": null
+  },
+  {
+   "id": "7097627",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "87932734017866087900196214633864721703152458856807569784697088077807833127927",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1794880869,
+   "end_ts": 1794961800,
+   "q": "Maple Leafs vs. Blackhawks: O/U 2.5",
    "touched": null
   }
  ]

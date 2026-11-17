@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 3.5 de 28 | corridas: 45
-- Capital inicial: $1,000.00 | valor actual: $845.39 | P&L: $-154.61 (-15.46%)
-- Efectivo libre: $0.00 | en ordenes abiertas: $602.78 (11) | en posiciones: $245.60 (4)
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 3.5 de 28 | corridas: 46
+- Capital inicial: $1,000.00 | valor actual: $839.70 | P&L: $-160.30 (-16.03%)
+- Efectivo libre: $-0.00 | en ordenes abiertas: $374.59 (8) | en posiciones: $473.79 (7)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 109 colocadas, 45 llenadas, 39 tocadas sin llenarse (sorteo 30%), 14 expiradas
+- Ordenes virtuales: 112 colocadas, 48 llenadas, 42 tocadas sin llenarse (sorteo 30%), 14 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -33,28 +33,31 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 | $91.77 | 99.8c | 96.5c | otros_cierre |  | Pakistan military action against Afghanistan by November 15, 2026? |
 | $83.77 | 98.3c | 98.3c | deportes_previo |  | Spread: Aruba (-1.5) |
 | $15.50 | 99.8c | 99.8c | deportes_previo |  | Spread: Aruba (-2.5) |
-| $54.57 | 98.8c | 98.8c | deportes_previo |  | Derius Davis: Anytime Touchdown |
+| $54.57 | 98.8c | 88.5c | deportes_previo |  | Derius Davis: Anytime Touchdown |
+| $84.54 | 99.9c | 99.9c | deportes_previo |  | Counter-Strike: BANGARANGA vs banda chuya (BO1) - ESEA Advanced Europe Regular S |
+| $84.54 | 99.9c | 99.9c | otros_cierre |  | Will Roy Lichtenstein's “Reflections on ‘Painter and Model’” sell for between $2 |
+| $59.11 | 99.9c | 99.9c | cripto_cierre |  | Will Microstrategy announce a Bitcoin purchase November 10-16? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 2703 | abiertas: 1919 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 2718 | abiertas: 1921 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
-| clima_cierre | todas | 666 | 99.09c | 99.55% | +0.46 pts | -0.04 a +0.97 | 3 |
-| clima_cierre | tocadas | 609 | 99.05c | 99.51% | +0.46 pts | -0.09 a +1.01 | 3 |
-| cripto_cierre | todas | 444 | 99.04c | 97.30% | -1.75 pts | -3.24 a -0.25 | 12 |
-| cripto_cierre | tocadas | 404 | 99.08c | 97.03% | -2.05 pts | -3.68 a -0.41 | 12 |
-| deportes_previo | todas | 1209 | 98.00c | 96.77% | -1.23 pts | -2.22 a -0.24 | 39 |
-| deportes_previo | tocadas | 1188 | 98.04c | 96.72% | -1.32 pts | -2.33 a -0.31 | 39 |
-| otros_cierre | todas | 349 | 99.28c | 99.43% | +0.15 pts | -0.64 a +0.94 | 2 |
-| otros_cierre | tocadas | 334 | 99.28c | 99.40% | +0.12 pts | -0.70 a +0.95 | 2 |
+| clima_cierre | todas | 670 | 99.09c | 99.55% | +0.47 pts | -0.04 a +0.97 | 3 |
+| clima_cierre | tocadas | 612 | 99.05c | 99.51% | +0.46 pts | -0.09 a +1.01 | 3 |
+| cripto_cierre | todas | 451 | 99.01c | 97.34% | -1.67 pts | -3.14 a -0.20 | 12 |
+| cripto_cierre | tocadas | 411 | 99.04c | 97.08% | -1.96 pts | -3.57 a -0.35 | 12 |
+| deportes_previo | todas | 1211 | 98.01c | 96.78% | -1.23 pts | -2.22 a -0.23 | 39 |
+| deportes_previo | tocadas | 1190 | 98.04c | 96.72% | -1.32 pts | -2.33 a -0.31 | 39 |
+| otros_cierre | todas | 351 | 99.27c | 99.43% | +0.16 pts | -0.63 a +0.94 | 2 |
+| otros_cierre | tocadas | 335 | 99.27c | 99.40% | +0.13 pts | -0.69 a +0.95 | 2 |
 | post_fin_90_97 | todas | 35 | 94.17c | 100.00% | +5.83 pts | +5.27 a +6.38 | 0 |
 | post_fin_90_97 | tocadas | 29 | 94.28c | 100.00% | +5.72 pts | +5.12 a +6.32 | 0 |
-| TOTAL | todas | 2703 | 98.56c | 97.93% | -0.63 pts | -1.16 a -0.09 | 56 |
-| TOTAL | tocadas | 2564 | 98.56c | 97.82% | -0.75 pts | -1.31 a -0.18 | 56 |
+| TOTAL | todas | 2718 | 98.55c | 97.94% | -0.61 pts | -1.14 a -0.08 | 56 |
+| TOTAL | tocadas | 2577 | 98.56c | 97.83% | -0.73 pts | -1.29 a -0.17 | 56 |
 
 Peores casos del registro sombra:
 
