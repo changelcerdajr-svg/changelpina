@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 4.4 de 28 | corridas: 68
-- Capital inicial: $1,000.00 | valor actual: $858.82 | P&L: $-141.18 (-14.12%)
-- Efectivo libre: $0.00 | en ordenes abiertas: $620.46 (8) | en posiciones: $241.97 (4)
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 4.4 de 28 | corridas: 69
+- Capital inicial: $1,000.00 | valor actual: $861.29 | P&L: $-138.71 (-13.87%)
+- Efectivo libre: $1.61 | en ordenes abiertas: $677.27 (8) | en posiciones: $186.01 (4)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 161 colocadas, 69 llenadas, 64 tocadas sin llenarse (sorteo 30%), 20 expiradas
+- Ordenes virtuales: 163 colocadas, 70 llenadas, 65 tocadas sin llenarse (sorteo 30%), 20 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -14,10 +14,10 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 |---|---|---|---|---|---|---|---|
 | clima_cierre | 2 | 97.58c | 100.00% | 34.2-100.0% | +2.42 pts | $+4.63 | 1.27 |
 | cripto_cierre | 23 | 98.99c | 100.00% | 85.7-100.0% | +1.01 pts | $+14.87 | 0.10 |
-| deportes_previo | 24 | 98.19c | 89.53% | 74.2-97.7% | -8.66 pts | $-164.67 | 0.49 |
+| deportes_previo | 25 | 98.15c | 90.00% | 75.0-97.8% | -8.15 pts | $-162.20 | 0.48 |
 | otros_cierre | 15 | 99.61c | 100.00% | 79.6-100.0% | +0.39 pts | $+3.77 | 0.48 |
 | post_fin_90_97 | 1 | 96.00c | 100.00% | 20.7-100.0% | +4.00 pts | $+3.83 | 0.71 |
-| TOTAL | 65 | 98.68c | 95.76% | 89.5-99.2% | -2.92 pts | $-137.57 | 0.38 |
+| TOTAL | 66 | 98.65c | 95.84% | 89.6-99.2% | -2.82 pts | $-135.10 | 0.37 |
 
 ## Peores casos
 
@@ -33,28 +33,28 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 | $91.77 | 99.8c | 96.5c | otros_cierre |  | Pakistan military action against Afghanistan by November 15, 2026? |
 | $59.11 | 99.9c | 98.9c | cripto_cierre |  | Will Microstrategy announce a Bitcoin purchase November 10-16? |
 | $5.56 | 99.3c | 99.3c | otros_cierre |  | Will MrBeast's next video get between 68 and 69 million views on day 3? |
-| $85.53 | 97.2c | 97.2c | deportes_previo |  | Denmark vs. Norway: Neither team to score first? |
+| $29.57 | 99.9c | 99.9c | cripto_cierre |  | Natural Gas (NG) Up or Down on November 17? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 3735 | abiertas: 1868 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 3833 | abiertas: 1812 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
-| clima_cierre | todas | 941 | 99.02c | 99.26% | +0.24 pts | -0.31 a +0.78 | 7 |
-| clima_cierre | tocadas | 863 | 99.00c | 99.19% | +0.19 pts | -0.40 a +0.79 | 7 |
-| cripto_cierre | todas | 603 | 98.95c | 98.01% | -0.94 pts | -2.04 a +0.16 | 12 |
-| cripto_cierre | tocadas | 556 | 98.98c | 97.84% | -1.14 pts | -2.33 a +0.06 | 12 |
-| deportes_previo | todas | 1695 | 98.07c | 97.11% | -0.96 pts | -1.76 a -0.17 | 49 |
-| deportes_previo | tocadas | 1656 | 98.11c | 97.04% | -1.07 pts | -1.89 a -0.26 | 49 |
-| otros_cierre | todas | 456 | 99.28c | 99.34% | +0.06 pts | -0.68 a +0.80 | 3 |
-| otros_cierre | tocadas | 411 | 99.25c | 99.27% | +0.02 pts | -0.80 a +0.84 | 3 |
+| clima_cierre | todas | 963 | 99.01c | 99.27% | +0.27 pts | -0.27 a +0.80 | 7 |
+| clima_cierre | tocadas | 882 | 98.99c | 99.21% | +0.22 pts | -0.36 a +0.80 | 7 |
+| cripto_cierre | todas | 609 | 98.92c | 98.03% | -0.89 pts | -1.99 a +0.20 | 12 |
+| cripto_cierre | tocadas | 561 | 98.96c | 97.86% | -1.09 pts | -2.28 a +0.09 | 12 |
+| deportes_previo | todas | 1743 | 98.07c | 97.19% | -0.88 pts | -1.66 a -0.11 | 49 |
+| deportes_previo | tocadas | 1704 | 98.11c | 97.12% | -0.99 pts | -1.78 a -0.20 | 49 |
+| otros_cierre | todas | 478 | 99.30c | 99.37% | +0.07 pts | -0.64 a +0.78 | 3 |
+| otros_cierre | tocadas | 430 | 99.27c | 99.30% | +0.04 pts | -0.75 a +0.82 | 3 |
 | post_fin_90_97 | todas | 40 | 94.19c | 97.50% | +3.31 pts | -1.61 a +8.22 | 1 |
 | post_fin_90_97 | tocadas | 33 | 94.30c | 96.97% | +2.67 pts | -3.28 a +8.61 | 1 |
-| TOTAL | todas | 3735 | 98.56c | 98.07% | -0.49 pts | -0.92 a -0.05 | 72 |
-| TOTAL | tocadas | 3519 | 98.56c | 97.95% | -0.61 pts | -1.07 a -0.15 | 72 |
+| TOTAL | todas | 3833 | 98.55c | 98.12% | -0.43 pts | -0.86 a -0.01 | 72 |
+| TOTAL | tocadas | 3610 | 98.56c | 98.01% | -0.55 pts | -1.01 a -0.10 | 72 |
 
 Peores casos del registro sombra:
 
@@ -71,4 +71,4 @@ Peores casos del registro sombra:
 
 ## Veredicto
 
-Aun no hay veredicto: van 65 operaciones cerradas en 4.4 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
+Aun no hay veredicto: van 66 operaciones cerradas en 4.4 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
