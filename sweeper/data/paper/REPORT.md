@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-11T22:05:26Z | dias corridos: 5.7 de 28 | corridas: 99
-- Capital inicial: $1,000.00 | valor actual: $1,032.18 | P&L: $+32.18 (+3.22%)
-- Efectivo libre: $412.90 | en ordenes abiertas: $412.78 (8) | en posiciones: $206.20 (4)
+- Inicio: 2026-11-11T22:05:26Z | dias corridos: 5.8 de 28 | corridas: 100
+- Capital inicial: $1,000.00 | valor actual: $1,032.28 | P&L: $+32.28 (+3.23%)
+- Efectivo libre: $412.90 | en ordenes abiertas: $361.17 (7) | en posiciones: $257.81 (5)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 171 colocadas, 47 llenadas, 74 tocadas sin llenarse (sorteo 30%), 42 expiradas
+- Ordenes virtuales: 171 colocadas, 48 llenadas, 74 tocadas sin llenarse (sorteo 30%), 42 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -27,7 +27,8 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
-| $51.59 | 99.7c | 99.7c | cripto_cierre |  | Will the price of Ethereum be above $1,600 on November 17? |
+| $51.59 | 99.7c | 100.0c | cripto_cierre |  | Will the price of Ethereum be above $1,600 on November 17? |
+| $51.61 | 98.5c | 98.5c | cripto_cierre |  | Will the price of Bitcoin be between $66,000 and $68,000 on November 17? |
 | $51.42 | 99.1c | 99.1c | otros_cierre |  | Will MrBeast's next video get less than 66 million views on day 3? |
 | $51.59 | 97.3c | 97.5c | deportes_previo |  | Rwanda vs. Mali: O/U 5.5 |
 | $51.59 | 99.4c | 99.7c | otros_cierre |  | Will the next Gemini Flash-Lite model (3.6+) be released on November 17, 2026? |
@@ -36,20 +37,20 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 1575 | abiertas: 337 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 1579 | abiertas: 389 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
 | cripto_cierre | todas | 498 | 98.70c | 98.59% | -0.11 pts | -1.14 a +0.92 | 7 |
 | cripto_cierre | tocadas | 356 | 98.59c | 98.03% | -0.55 pts | -1.99 a +0.88 | 7 |
-| deportes_previo | todas | 797 | 98.48c | 98.87% | +0.39 pts | -0.34 a +1.13 | 9 |
-| deportes_previo | tocadas | 667 | 98.40c | 98.95% | +0.55 pts | -0.22 a +1.32 | 7 |
+| deportes_previo | todas | 801 | 98.48c | 98.88% | +0.40 pts | -0.33 a +1.13 | 9 |
+| deportes_previo | tocadas | 670 | 98.40c | 98.96% | +0.55 pts | -0.22 a +1.32 | 7 |
 | otros_cierre | todas | 261 | 98.66c | 100.00% | +1.34 pts | +1.25 a +1.44 | 0 |
 | otros_cierre | tocadas | 173 | 98.55c | 100.00% | +1.45 pts | +1.34 a +1.56 | 0 |
 | post_fin_95_97 | todas | 19 | 96.14c | 89.47% | -6.67 pts | -20.79 a +7.45 | 2 |
 | post_fin_95_97 | tocadas | 16 | 96.08c | 87.50% | -8.58 pts | -25.26 a +8.10 | 2 |
-| TOTAL | todas | 1575 | 98.55c | 98.86% | +0.31 pts | -0.22 a +0.83 | 18 |
-| TOTAL | tocadas | 1212 | 98.45c | 98.68% | +0.23 pts | -0.41 a +0.87 | 16 |
+| TOTAL | todas | 1579 | 98.55c | 98.86% | +0.31 pts | -0.21 a +0.83 | 18 |
+| TOTAL | tocadas | 1215 | 98.45c | 98.68% | +0.24 pts | -0.40 a +0.87 | 16 |
 
 Peores casos del registro sombra:
 
@@ -66,4 +67,4 @@ Peores casos del registro sombra:
 
 ## Veredicto
 
-Aun no hay veredicto: van 43 operaciones cerradas en 5.7 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
+Aun no hay veredicto: van 43 operaciones cerradas en 5.8 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.

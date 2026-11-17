@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 4.1 de 28 | corridas: 62
-- Capital inicial: $1,000.00 | valor actual: $849.69 | P&L: $-150.31 (-15.03%)
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 4.2 de 28 | corridas: 63
+- Capital inicial: $1,000.00 | valor actual: $850.97 | P&L: $-149.03 (-14.90%)
 - Efectivo libre: $0.00 | en ordenes abiertas: $338.69 (4) | en posiciones: $516.33 (9)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 145 colocadas, 65 llenadas, 57 tocadas sin llenarse (sorteo 30%), 19 expiradas
+- Ordenes virtuales: 146 colocadas, 65 llenadas, 58 tocadas sin llenarse (sorteo 30%), 19 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -35,31 +35,31 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 | $83.05 | 96.9c | 95.6c | deportes_previo |  | Will Malawi win on 2026-11-17? |
 | $84.57 | 99.8c | 100.0c | otros_cierre |  | Will the US national average gas price be less than $3.7900 on November 17? |
 | $85.10 | 98.3c | 98.3c | deportes_previo |  | Spread: Kuwait (-2.5) |
-| $43.73 | 99.8c | 98.9c | cripto_cierre |  | Will the price of Ethereum be above $1,600 on November 17? |
+| $43.73 | 99.8c | 100.0c | cripto_cierre |  | Will the price of Ethereum be above $1,600 on November 17? |
 | $23.44 | 98.8c | 99.8c | cripto_cierre |  | Will the price of Bitcoin be between $68,000 and $70,000 on November 17? |
-| $39.99 | 98.4c | 97.0c | cripto_cierre |  | Will the price of Ethereum be above $1,700 on November 17? |
+| $39.99 | 98.4c | 99.0c | cripto_cierre |  | Will the price of Ethereum be above $1,700 on November 17? |
 | $5.56 | 99.3c | 99.3c | otros_cierre |  | Will MrBeast's next video get between 68 and 69 million views on day 3? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 3380 | abiertas: 1876 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 3458 | abiertas: 1900 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
-| clima_cierre | todas | 826 | 99.04c | 99.39% | +0.35 pts | -0.17 a +0.88 | 5 |
-| clima_cierre | tocadas | 751 | 99.01c | 99.33% | +0.32 pts | -0.26 a +0.90 | 5 |
+| clima_cierre | todas | 902 | 99.03c | 99.22% | +0.19 pts | -0.38 a +0.76 | 7 |
+| clima_cierre | tocadas | 826 | 99.01c | 99.15% | +0.14 pts | -0.48 a +0.77 | 7 |
 | cripto_cierre | todas | 512 | 98.94c | 97.66% | -1.29 pts | -2.59 a +0.01 | 12 |
 | cripto_cierre | tocadas | 467 | 98.98c | 97.43% | -1.55 pts | -2.97 a -0.13 | 12 |
-| deportes_previo | todas | 1562 | 98.07c | 96.93% | -1.14 pts | -2.00 a -0.29 | 48 |
-| deportes_previo | tocadas | 1531 | 98.11c | 96.86% | -1.24 pts | -2.11 a -0.37 | 48 |
+| deportes_previo | todas | 1564 | 98.07c | 96.93% | -1.14 pts | -1.99 a -0.29 | 48 |
+| deportes_previo | tocadas | 1533 | 98.11c | 96.87% | -1.24 pts | -2.11 a -0.37 | 48 |
 | otros_cierre | todas | 442 | 99.28c | 99.32% | +0.04 pts | -0.73 a +0.80 | 3 |
 | otros_cierre | tocadas | 397 | 99.25c | 99.24% | -0.00 pts | -0.85 a +0.85 | 3 |
 | post_fin_90_97 | todas | 38 | 94.13c | 97.37% | +3.24 pts | -1.94 a +8.41 | 1 |
 | post_fin_90_97 | tocadas | 31 | 94.23c | 96.77% | +2.54 pts | -3.79 a +8.87 | 1 |
-| TOTAL | todas | 3380 | 98.56c | 97.96% | -0.60 pts | -1.07 a -0.12 | 69 |
-| TOTAL | tocadas | 3177 | 98.55c | 97.83% | -0.73 pts | -1.23 a -0.22 | 69 |
+| TOTAL | todas | 3458 | 98.56c | 97.95% | -0.62 pts | -1.09 a -0.15 | 71 |
+| TOTAL | tocadas | 3254 | 98.56c | 97.82% | -0.75 pts | -1.24 a -0.25 | 71 |
 
 Peores casos del registro sombra:
 
@@ -76,4 +76,4 @@ Peores casos del registro sombra:
 
 ## Veredicto
 
-Aun no hay veredicto: van 56 operaciones cerradas en 4.1 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
+Aun no hay veredicto: van 56 operaciones cerradas en 4.2 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
