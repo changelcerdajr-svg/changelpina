@@ -1,29 +1,8 @@
 {
  "capital0": 1000.0,
- "cash": 413.4897,
+ "cash": 413.0901,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
-  {
-   "oid": "6892470-1794880869",
-   "id": "6892470",
-   "q": "MicroStrategy announces >1000 BTC purchase November 10-16?",
-   "cat": "cripto",
-   "rule": "cripto_cierre",
-   "event": "1346541",
-   "side": 1,
-   "token": "105424665104198616033512094937178010715697776278759868158406729186098202779468",
-   "px": 0.985,
-   "tick": 0.001,
-   "mid": 0.9855,
-   "bid": 0.972,
-   "ask": 0.999,
-   "shares": 51.9809,
-   "cost": 51.2012,
-   "ts": 1794880869.355384,
-   "end_ts": 1794891600.0,
-   "hours": 2.98,
-   "liq": 1797
-  },
   {
    "oid": "7085146-1794888072",
    "id": "7085146",
@@ -191,6 +170,27 @@
    "end_ts": 1794977940.0,
    "hours": 17.0,
    "liq": 2513
+  },
+  {
+   "oid": "6935838-1794924070",
+   "id": "6935838",
+   "q": "Will the price of Bitcoin be between $68,000 and $70,000 on November 17?",
+   "cat": "cripto",
+   "rule": "cripto_cierre",
+   "event": "1357717",
+   "side": 1,
+   "token": "8459046142200769103800319445241013660323307982816025403984281659798370267773",
+   "px": 0.988,
+   "tick": 0.001,
+   "mid": 0.988,
+   "bid": 0.986,
+   "ask": 0.99,
+   "shares": 52.2275,
+   "cost": 51.6008,
+   "ts": 1794924070.81051,
+   "end_ts": 1794934800.0,
+   "hours": 2.98,
+   "liq": 24000
   }
  ],
  "positions": [
@@ -240,7 +240,7 @@
    "hours": 18.96,
    "liq": 3771,
    "fill_ts": 1794913270.991008,
-   "mark": 0.9975,
+   "mark": 0.997,
    "stuck": false,
    "disputed": false
   },
@@ -2792,13 +2792,26 @@
    "placed": 0,
    "shadow_open": 323,
    "shadow_closed": 2
+  },
+  {
+   "ts": "2026-11-17T14:01:38Z",
+   "equity": 1032.02,
+   "cash": 413.09,
+   "orders": 9,
+   "positions": 3,
+   "closed": 43,
+   "scanned": 9600,
+   "candidates": 107,
+   "placed": 1,
+   "shadow_open": 317,
+   "shadow_closed": 7
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 169,
+  "placed": 170,
   "filled": 46,
-  "expired": 40,
+  "expired": 41,
   "touched_not_filled": 74
  },
  "shadow": [
@@ -2814,58 +2827,6 @@
    "end_ts": 1794805140,
    "q": "Pakistan military action against Afghanistan by November 15, 2026?",
    "touched": 1
-  },
-  {
-   "id": "6634964",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "9127589616799055752101427479819547795416363407877208703250130563288336123468",
-   "px": 0.991,
-   "tick": 0.001,
-   "ts": 1794801665,
-   "end_ts": 1794909600,
-   "q": "Will Singapore win on 2026-11-17?",
-   "touched": 1
-  },
-  {
-   "id": "6634965",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "107168337147052336625076724990192829621604413132227702535651781713527465066378",
-   "px": 0.972,
-   "tick": 0.001,
-   "ts": 1794801665,
-   "end_ts": 1794909600,
-   "q": "Will Singapore vs. Brazil end in a draw?",
-   "touched": 1
-  },
-  {
-   "id": "6634967",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "31322851563380853561909742081817350925342429085048287502623882710526752881107",
-   "px": 0.973,
-   "tick": 0.001,
-   "ts": 1794801665,
-   "end_ts": 1794909600,
-   "q": "Singapore leading at halftime?",
-   "touched": 1
-  },
-  {
-   "id": "6654457",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "46545241655256501500946972912876795676330696671899444579940612852605780292493",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1794801665,
-   "end_ts": 1794909600,
-   "q": "Singapore vs. Brazil: O/U 0.5",
-   "touched": 0
   },
   {
    "id": "6635051",
@@ -3113,19 +3074,6 @@
    "end_ts": 1794944700,
    "q": "Denmark vs. Norway: O/U 7.5",
    "touched": 1
-  },
-  {
-   "id": "6634966",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "40154046199623918510047183140592182739899112032172164025946417339851432648000",
-   "px": 0.972,
-   "tick": 0.001,
-   "ts": 1794841272,
-   "end_ts": 1794909600,
-   "q": "Will Brazil win on 2026-11-17?",
-   "touched": 0
   },
   {
    "id": "6674055",
@@ -4441,32 +4389,6 @@
    "touched": 1
   },
   {
-   "id": "7085176",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "108110540176112352682001318227933969334230460909269009152177657407181760268920",
-   "px": 0.974,
-   "tick": 0.001,
-   "ts": 1794880869,
-   "end_ts": 1794891600,
-   "q": "Will Bitcoin dip to $63,000 on November 16?",
-   "touched": null
-  },
-  {
-   "id": "7085205",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "11350589497832419609437438196159682370264193101972860677588577255512034390139",
-   "px": 0.972,
-   "tick": 0.001,
-   "ts": 1794880869,
-   "end_ts": 1794891600,
-   "q": "Will Ethereum dip to $1,750 on November 16?",
-   "touched": null
-  },
-  {
    "id": "6672539",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -4477,7 +4399,7 @@
    "ts": 1794880869,
    "end_ts": 1794920400,
    "q": "Spread: Burundi (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6936002",
@@ -4490,7 +4412,7 @@
    "ts": 1794880869,
    "end_ts": 1794934800,
    "q": "Will the price of Solana be above $65 on November 17?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7097432",
@@ -4503,7 +4425,7 @@
    "ts": 1794880869,
    "end_ts": 1794934805,
    "q": "Will MrBeast's next video get less than 66 million views on day 3?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6695244",
@@ -4516,7 +4438,7 @@
    "ts": 1794880869,
    "end_ts": 1794956400,
    "q": "Spread: Chile (-2.5)",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6949420",
@@ -4529,7 +4451,7 @@
    "ts": 1794880869,
    "end_ts": 1794963600,
    "q": "Oral Roberts Golden Eagles vs. SMU Mustangs",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7097627",
@@ -4542,7 +4464,7 @@
    "ts": 1794880869,
    "end_ts": 1794961800,
    "q": "Maple Leafs vs. Blackhawks: O/U 2.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6654458",
@@ -6999,6 +6921,19 @@
    "ts": 1794920473,
    "end_ts": 1794978000,
    "q": "Will Bitcoin dip to $61,000 on November 17?",
+   "touched": null
+  },
+  {
+   "id": "7057767",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "40813261113497646775864161509756524124393592877532197562532344602077377920941",
+   "px": 0.974,
+   "tick": 0.001,
+   "ts": 1794924070,
+   "end_ts": 1794934800,
+   "q": "Solana Up or Down on November 17?",
    "touched": null
   }
  ]
