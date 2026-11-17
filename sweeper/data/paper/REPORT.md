@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-11T22:05:26Z | dias corridos: 5.5 de 28 | corridas: 93
-- Capital inicial: $1,000.00 | valor actual: $1,031.89 | P&L: $+31.89 (+3.19%)
-- Efectivo libre: $413.62 | en ordenes abiertas: $515.26 (10) | en posiciones: $103.02 (2)
+- Inicio: 2026-11-11T22:05:26Z | dias corridos: 5.6 de 28 | corridas: 94
+- Capital inicial: $1,000.00 | valor actual: $1,031.91 | P&L: $+31.91 (+3.19%)
+- Efectivo libre: $413.49 | en ordenes abiertas: $463.79 (9) | en posiciones: $154.61 (3)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 165 colocadas, 45 llenadas, 70 tocadas sin llenarse (sorteo 30%), 40 expiradas
+- Ordenes virtuales: 169 colocadas, 46 llenadas, 74 tocadas sin llenarse (sorteo 30%), 40 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -28,26 +28,27 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
 | $51.42 | 99.1c | 99.1c | otros_cierre |  | Will MrBeast's next video get less than 66 million views on day 3? |
-| $51.59 | 99.4c | 99.4c | otros_cierre |  | Will the next Gemini Flash-Lite model (3.6+) be released on November 17, 2026? |
+| $51.59 | 97.3c | 97.3c | deportes_previo |  | Rwanda vs. Mali: O/U 5.5 |
+| $51.59 | 99.4c | 99.5c | otros_cierre |  | Will the next Gemini Flash-Lite model (3.6+) be released on November 17, 2026? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 1562 | abiertas: 312 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 1564 | abiertas: 319 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
-| cripto_cierre | todas | 492 | 98.72c | 98.58% | -0.14 pts | -1.18 a +0.90 | 7 |
-| cripto_cierre | tocadas | 352 | 98.60c | 98.01% | -0.59 pts | -2.04 a +0.87 | 7 |
+| cripto_cierre | todas | 494 | 98.71c | 98.58% | -0.13 pts | -1.17 a +0.91 | 7 |
+| cripto_cierre | tocadas | 353 | 98.60c | 98.02% | -0.58 pts | -2.03 a +0.87 | 7 |
 | deportes_previo | todas | 791 | 98.48c | 98.86% | +0.38 pts | -0.36 a +1.12 | 9 |
 | deportes_previo | tocadas | 663 | 98.41c | 98.94% | +0.54 pts | -0.24 a +1.31 | 7 |
 | otros_cierre | todas | 260 | 98.65c | 100.00% | +1.35 pts | +1.26 a +1.44 | 0 |
 | otros_cierre | tocadas | 173 | 98.55c | 100.00% | +1.45 pts | +1.34 a +1.56 | 0 |
 | post_fin_95_97 | todas | 19 | 96.14c | 89.47% | -6.67 pts | -20.79 a +7.45 | 2 |
 | post_fin_95_97 | tocadas | 16 | 96.08c | 87.50% | -8.58 pts | -25.26 a +8.10 | 2 |
-| TOTAL | todas | 1562 | 98.56c | 98.85% | +0.29 pts | -0.23 a +0.82 | 18 |
-| TOTAL | tocadas | 1204 | 98.45c | 98.67% | +0.22 pts | -0.43 a +0.86 | 16 |
+| TOTAL | todas | 1564 | 98.55c | 98.85% | +0.29 pts | -0.23 a +0.82 | 18 |
+| TOTAL | tocadas | 1205 | 98.45c | 98.67% | +0.22 pts | -0.42 a +0.86 | 16 |
 
 Peores casos del registro sombra:
 
@@ -64,4 +65,4 @@ Peores casos del registro sombra:
 
 ## Veredicto
 
-Aun no hay veredicto: van 43 operaciones cerradas en 5.5 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
+Aun no hay veredicto: van 43 operaciones cerradas en 5.6 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
