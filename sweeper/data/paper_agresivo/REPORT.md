@@ -2,22 +2,22 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 4.3 de 28 | corridas: 67
-- Capital inicial: $1,000.00 | valor actual: $856.39 | P&L: $-143.61 (-14.36%)
-- Efectivo libre: $0.94 | en ordenes abiertas: $425.19 (5) | en posiciones: $434.21 (7)
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 4.4 de 28 | corridas: 68
+- Capital inicial: $1,000.00 | valor actual: $858.82 | P&L: $-141.18 (-14.12%)
+- Efectivo libre: $0.00 | en ordenes abiertas: $620.46 (8) | en posiciones: $241.97 (4)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 156 colocadas, 69 llenadas, 63 tocadas sin llenarse (sorteo 30%), 19 expiradas
+- Ordenes virtuales: 161 colocadas, 69 llenadas, 64 tocadas sin llenarse (sorteo 30%), 20 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
 | Regla | n | Precio medio | Pago real | IC95 del pago | Edge | P&L | Dias medios |
 |---|---|---|---|---|---|---|---|
 | clima_cierre | 2 | 97.58c | 100.00% | 34.2-100.0% | +2.42 pts | $+4.63 | 1.27 |
-| cripto_cierre | 22 | 99.03c | 100.00% | 85.1-100.0% | +0.97 pts | $+13.99 | 0.10 |
+| cripto_cierre | 23 | 98.99c | 100.00% | 85.7-100.0% | +1.01 pts | $+14.87 | 0.10 |
 | deportes_previo | 24 | 98.19c | 89.53% | 74.2-97.7% | -8.66 pts | $-164.67 | 0.49 |
-| otros_cierre | 13 | 99.68c | 100.00% | 77.2-100.0% | +0.32 pts | $+2.56 | 0.54 |
+| otros_cierre | 15 | 99.61c | 100.00% | 79.6-100.0% | +0.39 pts | $+3.77 | 0.48 |
 | post_fin_90_97 | 1 | 96.00c | 100.00% | 20.7-100.0% | +4.00 pts | $+3.83 | 0.71 |
-| TOTAL | 62 | 98.67c | 95.57% | 89.0-99.1% | -3.10 pts | $-139.66 | 0.39 |
+| TOTAL | 65 | 98.68c | 95.76% | 89.5-99.2% | -2.92 pts | $-137.57 | 0.38 |
 
 ## Peores casos
 
@@ -34,30 +34,27 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 | $59.11 | 99.9c | 98.9c | cripto_cierre |  | Will Microstrategy announce a Bitcoin purchase November 10-16? |
 | $5.56 | 99.3c | 99.3c | otros_cierre |  | Will MrBeast's next video get between 68 and 69 million views on day 3? |
 | $85.53 | 97.2c | 97.2c | deportes_previo |  | Denmark vs. Norway: Neither team to score first? |
-| $21.19 | 96.0c | 96.0c | cripto_cierre |  | Dogecoin Up or Down - November 17, 3:00PM-3:05PM ET |
-| $85.53 | 98.8c | 98.7c | otros_cierre |  | Will Apple (AAPL) close above $355 on November 17? |
-| $85.53 | 99.8c | 99.5c | otros_cierre |  | Will Microsoft (MSFT) close above $540 on November 17? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 3647 | abiertas: 1901 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 3735 | abiertas: 1868 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
-| clima_cierre | todas | 916 | 99.02c | 99.24% | +0.21 pts | -0.35 a +0.78 | 7 |
-| clima_cierre | tocadas | 838 | 99.00c | 99.16% | +0.17 pts | -0.45 a +0.78 | 7 |
-| cripto_cierre | todas | 601 | 98.96c | 98.00% | -0.96 pts | -2.07 a +0.15 | 12 |
-| cripto_cierre | tocadas | 554 | 98.99c | 97.83% | -1.16 pts | -2.36 a +0.04 | 12 |
-| deportes_previo | todas | 1638 | 98.07c | 97.01% | -1.06 pts | -1.88 a -0.23 | 49 |
-| deportes_previo | tocadas | 1603 | 98.10c | 96.94% | -1.16 pts | -2.00 a -0.32 | 49 |
-| otros_cierre | todas | 452 | 99.28c | 99.34% | +0.05 pts | -0.69 a +0.80 | 3 |
-| otros_cierre | tocadas | 407 | 99.25c | 99.26% | +0.02 pts | -0.81 a +0.85 | 3 |
+| clima_cierre | todas | 941 | 99.02c | 99.26% | +0.24 pts | -0.31 a +0.78 | 7 |
+| clima_cierre | tocadas | 863 | 99.00c | 99.19% | +0.19 pts | -0.40 a +0.79 | 7 |
+| cripto_cierre | todas | 603 | 98.95c | 98.01% | -0.94 pts | -2.04 a +0.16 | 12 |
+| cripto_cierre | tocadas | 556 | 98.98c | 97.84% | -1.14 pts | -2.33 a +0.06 | 12 |
+| deportes_previo | todas | 1695 | 98.07c | 97.11% | -0.96 pts | -1.76 a -0.17 | 49 |
+| deportes_previo | tocadas | 1656 | 98.11c | 97.04% | -1.07 pts | -1.89 a -0.26 | 49 |
+| otros_cierre | todas | 456 | 99.28c | 99.34% | +0.06 pts | -0.68 a +0.80 | 3 |
+| otros_cierre | tocadas | 411 | 99.25c | 99.27% | +0.02 pts | -0.80 a +0.84 | 3 |
 | post_fin_90_97 | todas | 40 | 94.19c | 97.50% | +3.31 pts | -1.61 a +8.22 | 1 |
 | post_fin_90_97 | tocadas | 33 | 94.30c | 96.97% | +2.67 pts | -3.28 a +8.61 | 1 |
-| TOTAL | todas | 3647 | 98.56c | 98.03% | -0.54 pts | -0.98 a -0.09 | 72 |
-| TOTAL | tocadas | 3435 | 98.56c | 97.90% | -0.66 pts | -1.14 a -0.18 | 72 |
+| TOTAL | todas | 3735 | 98.56c | 98.07% | -0.49 pts | -0.92 a -0.05 | 72 |
+| TOTAL | tocadas | 3519 | 98.56c | 97.95% | -0.61 pts | -1.07 a -0.15 | 72 |
 
 Peores casos del registro sombra:
 
@@ -74,4 +71,4 @@ Peores casos del registro sombra:
 
 ## Veredicto
 
-Aun no hay veredicto: van 62 operaciones cerradas en 4.3 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
+Aun no hay veredicto: van 65 operaciones cerradas en 4.4 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
