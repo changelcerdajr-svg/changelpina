@@ -2,8 +2,8 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-11T22:05:26Z | dias corridos: 5.6 de 28 | corridas: 94
-- Capital inicial: $1,000.00 | valor actual: $1,031.91 | P&L: $+31.91 (+3.19%)
+- Inicio: 2026-11-11T22:05:26Z | dias corridos: 5.6 de 28 | corridas: 95
+- Capital inicial: $1,000.00 | valor actual: $1,031.78 | P&L: $+31.78 (+3.18%)
 - Efectivo libre: $413.49 | en ordenes abiertas: $463.79 (9) | en posiciones: $154.61 (3)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
 - Ordenes virtuales: 169 colocadas, 46 llenadas, 74 tocadas sin llenarse (sorteo 30%), 40 expiradas
@@ -28,7 +28,7 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
 | $51.42 | 99.1c | 99.1c | otros_cierre |  | Will MrBeast's next video get less than 66 million views on day 3? |
-| $51.59 | 97.3c | 97.3c | deportes_previo |  | Rwanda vs. Mali: O/U 5.5 |
+| $51.59 | 97.3c | 97.0c | deportes_previo |  | Rwanda vs. Mali: O/U 5.5 |
 | $51.59 | 99.4c | 99.5c | otros_cierre |  | Will the next Gemini Flash-Lite model (3.6+) be released on November 17, 2026? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital

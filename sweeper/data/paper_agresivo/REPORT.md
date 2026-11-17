@@ -2,8 +2,8 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 3.9 de 28 | corridas: 57
-- Capital inicial: $1,000.00 | valor actual: $843.57 | P&L: $-156.43 (-15.64%)
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 3.9 de 28 | corridas: 58
+- Capital inicial: $1,000.00 | valor actual: $843.24 | P&L: $-156.76 (-15.68%)
 - Efectivo libre: $4.17 | en ordenes abiertas: $337.11 (4) | en posiciones: $512.29 (9)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
 - Ordenes virtuales: 139 colocadas, 62 llenadas, 54 tocadas sin llenarse (sorteo 30%), 19 expiradas
@@ -35,16 +35,16 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 | $7.62 | 99.7c | 99.2c | deportes_previo |  | Will Singapore win on 2026-11-17? |
 | $77.09 | 98.5c | 100.0c | deportes_previo |  | Will Brazil win on 2026-11-17? |
 | $84.97 | 99.7c | 92.6c | deportes_previo |  | Singapore leading at halftime? |
-| $84.57 | 99.8c | 97.8c | otros_cierre |  | Will the US national average gas price be less than $3.7900 on November 17? |
+| $84.57 | 99.8c | 97.5c | otros_cierre |  | Will the US national average gas price be less than $3.7900 on November 17? |
 | $43.73 | 99.8c | 99.8c | cripto_cierre |  | Will the price of Ethereum be above $1,600 on November 17? |
-| $23.44 | 98.8c | 99.2c | cripto_cierre |  | Will the price of Bitcoin be between $68,000 and $70,000 on November 17? |
+| $23.44 | 98.8c | 98.8c | cripto_cierre |  | Will the price of Bitcoin be between $68,000 and $70,000 on November 17? |
 | $39.99 | 98.4c | 98.8c | cripto_cierre |  | Will the price of Ethereum be above $1,700 on November 17? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 3216 | abiertas: 1797 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 3216 | abiertas: 1867 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
