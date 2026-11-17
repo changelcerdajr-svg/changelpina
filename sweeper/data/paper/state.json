@@ -1,29 +1,8 @@
 {
  "capital0": 1000.0,
- "cash": 413.0901,
+ "cash": 412.9015,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
-  {
-   "oid": "7085146-1794888072",
-   "id": "7085146",
-   "q": "Will Bitcoin reach $70,000 on November 16?",
-   "cat": "cripto",
-   "rule": "cripto_cierre",
-   "event": "1399649",
-   "side": 1,
-   "token": "27603787930031470835617092157399159670693606394916077251900730224959516125650",
-   "px": 0.998,
-   "tick": 0.001,
-   "mid": 0.9985,
-   "bid": 0.998,
-   "ask": 0.999,
-   "shares": 51.5233,
-   "cost": 51.4202,
-   "ts": 1794888072.70957,
-   "end_ts": 1794891600.0,
-   "hours": 0.98,
-   "liq": 34322
-  },
   {
    "oid": "6935814-1794902472",
    "id": "6935814",
@@ -44,27 +23,6 @@
    "end_ts": 1794934800.0,
    "hours": 8.98,
    "liq": 36438
-  },
-  {
-   "oid": "6935822-1794913270",
-   "id": "6935822",
-   "q": "Will the price of Ethereum be above $1,600 on November 17?",
-   "cat": "cripto",
-   "rule": "cripto_cierre",
-   "event": "1357716",
-   "side": 0,
-   "token": "54446144093729086853130634255356364751126992744947882142000876160255638280268",
-   "px": 0.997,
-   "tick": 0.001,
-   "mid": 0.9975,
-   "bid": 0.997,
-   "ask": 0.998,
-   "shares": 51.7496,
-   "cost": 51.5943,
-   "ts": 1794913270.991008,
-   "end_ts": 1794934800.0,
-   "hours": 5.98,
-   "liq": 26735
   },
   {
    "oid": "7097439-1794913270",
@@ -191,6 +149,27 @@
    "end_ts": 1794934800.0,
    "hours": 2.98,
    "liq": 24000
+  },
+  {
+   "oid": "6935830-1794931286",
+   "id": "6935830",
+   "q": "Will the price of Bitcoin be between $66,000 and $68,000 on November 17?",
+   "cat": "cripto",
+   "rule": "cripto_cierre",
+   "event": "1357717",
+   "side": 1,
+   "token": "28889813004237105759605322730669493063048492127666090733160837426655157371791",
+   "px": 0.985,
+   "tick": 0.001,
+   "mid": 0.985,
+   "bid": 0.975,
+   "ask": 0.995,
+   "shares": 52.3947,
+   "cost": 51.6088,
+   "ts": 1794931286.654435,
+   "end_ts": 1794934800.0,
+   "hours": 0.98,
+   "liq": 3709
   }
  ],
  "positions": [
@@ -265,9 +244,32 @@
    "hours": 7.98,
    "liq": 3217,
    "fill_ts": 1794916731.317447,
-   "mark": 0.974,
+   "mark": 0.9755,
    "stuck": false,
    "disputed": false
+  },
+  {
+   "oid": "6935822-1794913270",
+   "id": "6935822",
+   "q": "Will the price of Ethereum be above $1,600 on November 17?",
+   "cat": "cripto",
+   "rule": "cripto_cierre",
+   "event": "1357716",
+   "side": 0,
+   "token": "54446144093729086853130634255356364751126992744947882142000876160255638280268",
+   "px": 0.997,
+   "tick": 0.001,
+   "mid": 0.9975,
+   "bid": 0.997,
+   "ask": 0.998,
+   "shares": 51.7496,
+   "cost": 51.5943,
+   "ts": 1794913270.991008,
+   "end_ts": 1794934800.0,
+   "hours": 5.98,
+   "liq": 26735,
+   "fill_ts": 1794931286.654435,
+   "mark": 0.997
   }
  ],
  "closed": [
@@ -2818,13 +2820,26 @@
    "placed": 0,
    "shadow_open": 322,
    "shadow_closed": 1
+  },
+  {
+   "ts": "2026-11-17T16:02:16Z",
+   "equity": 1032.18,
+   "cash": 412.9,
+   "orders": 8,
+   "positions": 4,
+   "closed": 43,
+   "scanned": 9829,
+   "candidates": 121,
+   "placed": 1,
+   "shadow_open": 337,
+   "shadow_closed": 1
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 170,
-  "filled": 46,
-  "expired": 41,
+  "placed": 171,
+  "filled": 47,
+  "expired": 42,
   "touched_not_filled": 74
  },
  "shadow": [
@@ -4506,19 +4521,6 @@
    "touched": 0
   },
   {
-   "id": "7081642",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 0,
-   "token": "10166249623663245318616082113135862855450811272815888761601761475826605764082",
-   "px": 0.98,
-   "tick": 0.001,
-   "ts": 1794888072,
-   "end_ts": 1794891600,
-   "q": "Ethereum Up or Down - November 16, 8:00PM-12:00AM ET",
-   "touched": null
-  },
-  {
    "id": "6944114",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -4529,7 +4531,7 @@
    "ts": 1794888072,
    "end_ts": 1794924600,
    "q": "Spread: Syria (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6944126",
@@ -4542,7 +4544,7 @@
    "ts": 1794888072,
    "end_ts": 1794924600,
    "q": "Spread: Syria (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6672081",
@@ -4555,7 +4557,7 @@
    "ts": 1794888072,
    "end_ts": 1794942000,
    "q": "Congo vs. Comoros: O/U 5.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6714312",
@@ -4568,7 +4570,7 @@
    "ts": 1794888072,
    "end_ts": 1794942000,
    "q": "Spread: Barbados (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6714358",
@@ -4581,7 +4583,7 @@
    "ts": 1794888072,
    "end_ts": 1794942000,
    "q": "Spread: Sint Maarten (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6936085",
@@ -4594,7 +4596,7 @@
    "ts": 1794888072,
    "end_ts": 1794934800,
    "q": "Will the price of XRP be above $0.90 on November 17?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6936102",
@@ -4607,7 +4609,7 @@
    "ts": 1794888072,
    "end_ts": 1794934800,
    "q": "Will the price of XRP be between $0.80 and $0.90 on November 17?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6674045",
@@ -4620,7 +4622,7 @@
    "ts": 1794888072,
    "end_ts": 1794944700,
    "q": "Spread: Kosovo (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6674109",
@@ -4633,7 +4635,7 @@
    "ts": 1794888072,
    "end_ts": 1794944700,
    "q": "Spread: Georgia (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6674228",
@@ -4646,7 +4648,7 @@
    "ts": 1794888072,
    "end_ts": 1794944700,
    "q": "Spread: Poland (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6674289",
@@ -4659,7 +4661,7 @@
    "ts": 1794888072,
    "end_ts": 1794944700,
    "q": "Spread: Romania (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6674417",
@@ -4672,7 +4674,7 @@
    "ts": 1794888072,
    "end_ts": 1794944700,
    "q": "Spread: Hungary (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6674418",
@@ -4685,7 +4687,7 @@
    "ts": 1794888072,
    "end_ts": 1794944700,
    "q": "Spread: Northern Ireland (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6674478",
@@ -4698,7 +4700,7 @@
    "ts": 1794888072,
    "end_ts": 1794944700,
    "q": "Spread: Norway (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6695209",
@@ -4711,7 +4713,7 @@
    "ts": 1794888072,
    "end_ts": 1794958200,
    "q": "Uruguay vs. Dominican Republic: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6695247",
@@ -4724,7 +4726,7 @@
    "ts": 1794888072,
    "end_ts": 1794956400,
    "q": "Spread: Colombia (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6695289",
@@ -4737,7 +4739,7 @@
    "ts": 1794888072,
    "end_ts": 1794958200,
    "q": "Spread: Bolivia (-1.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6948032",
@@ -4750,7 +4752,7 @@
    "ts": 1794888072,
    "end_ts": 1794960000,
    "q": "Ball State Cardinals vs. Florida State Seminoles",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6949425",
@@ -4763,7 +4765,7 @@
    "ts": 1794888072,
    "end_ts": 1794961800,
    "q": "Kennesaw State Owls vs. Alabama Crimson Tide",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6964653",
@@ -4776,7 +4778,7 @@
    "ts": 1794888072,
    "end_ts": 1794961800,
    "q": "Tennessee Volunteers vs. Belmont Bruins (W)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6713976",
@@ -4789,7 +4791,7 @@
    "ts": 1794888072,
    "end_ts": 1794969000,
    "q": "Mexico vs. Jamaica: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6654406",
@@ -7012,6 +7014,214 @@
    "ts": 1794927673,
    "end_ts": 1794977940,
    "q": "Will \"Heartland\" be the #2 US Netflix movie this week?",
+   "touched": null
+  },
+  {
+   "id": "6935830",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "28889813004237105759605322730669493063048492127666090733160837426655157371791",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1794931286,
+   "end_ts": 1794934800,
+   "q": "Will the price of Bitcoin be between $66,000 and $68,000 on November 17?",
+   "touched": null
+  },
+  {
+   "id": "6935880",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "16515940608085829496643410588491849441019512861312890588183116420606170171867",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1794931286,
+   "end_ts": 1794934800,
+   "q": "Will the price of Ethereum be above $2,400 on November 17?",
+   "touched": null
+  },
+  {
+   "id": "6935916",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "45668827254403977283117337578214557449689862198213484276966206282958202659435",
+   "px": 0.992,
+   "tick": 0.001,
+   "ts": 1794931286,
+   "end_ts": 1794934800,
+   "q": "Will the price of Bitcoin be above $66,000 on November 17?",
+   "touched": null
+  },
+  {
+   "id": "6936014",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "35554897875309548545575651217821959763229027819949280806054986748468579526540",
+   "px": 0.986,
+   "tick": 0.001,
+   "ts": 1794931286,
+   "end_ts": 1794934800,
+   "q": "Will the price of Solana be above $75 on November 17?",
+   "touched": null
+  },
+  {
+   "id": "6936037",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "28586578482462382734200107710207367018908302827000751531727734149643418188034",
+   "px": 0.987,
+   "tick": 0.001,
+   "ts": 1794931286,
+   "end_ts": 1794934800,
+   "q": "Will the price of Solana be above $95 on November 17?",
+   "touched": null
+  },
+  {
+   "id": "6936108",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "3038350217690484805875004907386800002828351779061626512199697851698653665059",
+   "px": 0.993,
+   "tick": 0.001,
+   "ts": 1794931286,
+   "end_ts": 1794934800,
+   "q": "Will the price of XRP be between $0.90 and $1.00 on November 17?",
+   "touched": null
+  },
+  {
+   "id": "6936129",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "3246627803113928787027696149701565342599583020083828925718045708042282159189",
+   "px": 0.992,
+   "tick": 0.001,
+   "ts": 1794931286,
+   "end_ts": 1794934800,
+   "q": "Will the price of XRP be greater than $1.50 on November 17?",
+   "touched": null
+  },
+  {
+   "id": "7097435",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "96836913156626515551994579667623136508666262845480254749600882642998970527361",
+   "px": 0.993,
+   "tick": 0.001,
+   "ts": 1794931286,
+   "end_ts": 1794934805,
+   "q": "Will MrBeast's next video get between 68 and 69 million views on day 3?",
+   "touched": null
+  },
+  {
+   "id": "7097436",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "93994078707765364842961644901416621491452559624651335045002505929420127043334",
+   "px": 0.993,
+   "tick": 0.001,
+   "ts": 1794931286,
+   "end_ts": 1794934805,
+   "q": "Will MrBeast's next video get between 69 and 70 million views on day 3?",
+   "touched": null
+  },
+  {
+   "id": "7092195",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "43607594231162268010417741406963472945325415293966742585943941467926525420050",
+   "px": 0.99,
+   "tick": 0.001,
+   "ts": 1794931286,
+   "end_ts": 1794949200,
+   "q": "Will Amazon (AMZN) close above $265 on November 17?",
+   "touched": null
+  },
+  {
+   "id": "7092196",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "10547158005351272061942243101658862632057372632672439781070515383371344204358",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1794931286,
+   "end_ts": 1794949200,
+   "q": "Will Amazon (AMZN) close above $270 on November 17?",
+   "touched": null
+  },
+  {
+   "id": "7092201",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "75240317202224361000637387907534563958721224273935505265393217053813640125147",
+   "px": 0.988,
+   "tick": 0.001,
+   "ts": 1794931286,
+   "end_ts": 1794949200,
+   "q": "Will Google (GOOGL) close above $290 on November 17?",
+   "touched": null
+  },
+  {
+   "id": "7092202",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "50559108162396889904305853083818147219536133258351288472024369088927190489538",
+   "px": 0.993,
+   "tick": 0.001,
+   "ts": 1794931286,
+   "end_ts": 1794949200,
+   "q": "Will Google (GOOGL) close above $295 on November 17?",
+   "touched": null
+  },
+  {
+   "id": "7092209",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "61079024112263959088127318848000287455997187744192073433140904252525552482118",
+   "px": 0.983,
+   "tick": 0.001,
+   "ts": 1794931286,
+   "end_ts": 1794949200,
+   "q": "Will Meta (META) close above $640 on November 17?",
+   "touched": null
+  },
+  {
+   "id": "6950621",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "3270790690589621684614201042235559544548388980555035176443970152763777473948",
+   "px": 0.981,
+   "tick": 0.001,
+   "ts": 1794931286,
+   "end_ts": 1794965400,
+   "q": "Nicholls Colonels vs. Ole Miss Rebels",
+   "touched": null
+  },
+  {
+   "id": "7109823",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "98421279765209883874231302435604435181555709565680820891439197025986264251082",
+   "px": 0.982,
+   "tick": 0.001,
+   "ts": 1794931286,
+   "end_ts": 1794978000,
+   "q": "Will Ethereum reach $1,900 on November 17?",
    "touched": null
   }
  ]
