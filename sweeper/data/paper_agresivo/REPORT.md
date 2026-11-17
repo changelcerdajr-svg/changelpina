@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 4.2 de 28 | corridas: 65
-- Capital inicial: $1,000.00 | valor actual: $855.26 | P&L: $-144.74 (-14.47%)
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 4.3 de 28 | corridas: 66
+- Capital inicial: $1,000.00 | valor actual: $854.91 | P&L: $-145.09 (-14.51%)
 - Efectivo libre: $0.00 | en ordenes abiertas: $360.74 (5) | en posiciones: $498.13 (7)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 153 colocadas, 68 llenadas, 61 tocadas sin llenarse (sorteo 30%), 19 expiradas
+- Ordenes virtuales: 155 colocadas, 68 llenadas, 63 tocadas sin llenarse (sorteo 30%), 19 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -35,29 +35,29 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 | $85.10 | 98.3c | 98.3c | deportes_previo |  | Spread: Kuwait (-2.5) |
 | $5.56 | 99.3c | 99.3c | otros_cierre |  | Will MrBeast's next video get between 68 and 69 million views on day 3? |
 | $85.53 | 97.2c | 97.2c | deportes_previo |  | Denmark vs. Norway: Neither team to score first? |
-| $85.53 | 98.8c | 98.8c | otros_cierre |  | Will Apple (AAPL) close above $355 on November 17? |
-| $85.53 | 99.8c | 99.8c | otros_cierre |  | Will Microsoft (MSFT) close above $540 on November 17? |
+| $85.53 | 98.8c | 98.7c | otros_cierre |  | Will Apple (AAPL) close above $355 on November 17? |
+| $85.53 | 99.8c | 99.5c | otros_cierre |  | Will Microsoft (MSFT) close above $540 on November 17? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 3603 | abiertas: 1821 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 3623 | abiertas: 1862 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
-| clima_cierre | todas | 909 | 99.03c | 99.23% | +0.20 pts | -0.36 a +0.77 | 7 |
-| clima_cierre | tocadas | 833 | 99.00c | 99.16% | +0.16 pts | -0.46 a +0.77 | 7 |
-| cripto_cierre | todas | 598 | 98.98c | 97.99% | -0.98 pts | -2.10 a +0.13 | 12 |
-| cripto_cierre | tocadas | 551 | 99.01c | 97.82% | -1.19 pts | -2.39 a +0.02 | 12 |
-| deportes_previo | todas | 1605 | 98.07c | 97.01% | -1.06 pts | -1.89 a -0.23 | 48 |
-| deportes_previo | tocadas | 1572 | 98.10c | 96.95% | -1.16 pts | -2.00 a -0.31 | 48 |
-| otros_cierre | todas | 451 | 99.28c | 99.33% | +0.05 pts | -0.70 a +0.80 | 3 |
-| otros_cierre | tocadas | 406 | 99.25c | 99.26% | +0.02 pts | -0.82 a +0.85 | 3 |
+| clima_cierre | todas | 914 | 99.03c | 99.23% | +0.21 pts | -0.35 a +0.77 | 7 |
+| clima_cierre | tocadas | 838 | 99.00c | 99.16% | +0.17 pts | -0.45 a +0.78 | 7 |
+| cripto_cierre | todas | 600 | 98.97c | 98.00% | -0.97 pts | -2.08 a +0.14 | 12 |
+| cripto_cierre | tocadas | 553 | 99.00c | 97.83% | -1.17 pts | -2.37 a +0.03 | 12 |
+| deportes_previo | todas | 1617 | 98.06c | 97.03% | -1.03 pts | -1.86 a -0.21 | 48 |
+| deportes_previo | tocadas | 1584 | 98.10c | 96.97% | -1.13 pts | -1.97 a -0.29 | 48 |
+| otros_cierre | todas | 452 | 99.28c | 99.34% | +0.05 pts | -0.69 a +0.80 | 3 |
+| otros_cierre | tocadas | 407 | 99.25c | 99.26% | +0.02 pts | -0.81 a +0.85 | 3 |
 | post_fin_90_97 | todas | 40 | 94.19c | 97.50% | +3.31 pts | -1.61 a +8.22 | 1 |
 | post_fin_90_97 | tocadas | 33 | 94.30c | 96.97% | +2.67 pts | -3.28 a +8.61 | 1 |
-| TOTAL | todas | 3603 | 98.57c | 98.03% | -0.54 pts | -0.99 a -0.09 | 71 |
-| TOTAL | tocadas | 3395 | 98.57c | 97.91% | -0.66 pts | -1.14 a -0.18 | 71 |
+| TOTAL | todas | 3623 | 98.57c | 98.04% | -0.53 pts | -0.97 a -0.08 | 71 |
+| TOTAL | tocadas | 3415 | 98.57c | 97.92% | -0.65 pts | -1.12 a -0.17 | 71 |
 
 Peores casos del registro sombra:
 
@@ -74,4 +74,4 @@ Peores casos del registro sombra:
 
 ## Veredicto
 
-Aun no hay veredicto: van 61 operaciones cerradas en 4.2 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
+Aun no hay veredicto: van 61 operaciones cerradas en 4.3 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
