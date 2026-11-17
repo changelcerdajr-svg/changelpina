@@ -1,6 +1,6 @@
 {
  "capital0": 1000.0,
- "cash": 366.7428,
+ "cash": 364.4529,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
   {
@@ -191,34 +191,30 @@
    "end_ts": 1794891540.0,
    "hours": 5.96,
    "liq": 1472
+  },
+  {
+   "oid": "6654457-1794873672",
+   "id": "6654457",
+   "q": "Singapore vs. Brazil: O/U 0.5",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1309855",
+   "side": 0,
+   "token": "46545241655256501500946972912876795676330696671899444579940612852605780292493",
+   "px": 0.994,
+   "tick": 0.001,
+   "mid": 0.9945,
+   "bid": 0.99,
+   "ask": 0.999,
+   "shares": 51.7221,
+   "cost": 51.4118,
+   "ts": 1794873672.237884,
+   "end_ts": 1794909600.0,
+   "hours": 9.98,
+   "liq": 4987
   }
  ],
  "positions": [
-  {
-   "oid": "6653453-1794834077",
-   "id": "6653453",
-   "q": "Spread: Celta Fortuna (-2.5)",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1309761",
-   "side": 1,
-   "token": "31658897444099326609067315581199243463598784752274163289179654968199966941961",
-   "px": 0.98,
-   "tick": 0.001,
-   "mid": 0.9805,
-   "bid": 0.975,
-   "ask": 0.986,
-   "shares": 49.1219,
-   "cost": 48.1395,
-   "ts": 1794834077.303687,
-   "end_ts": 1794857400.0,
-   "hours": 6.48,
-   "liq": 12931,
-   "fill_ts": 1794837685.269892,
-   "mark": 0.984,
-   "stuck": false,
-   "disputed": false
-  },
   {
    "oid": "7033435-1794855671",
    "id": "7033435",
@@ -290,7 +286,9 @@
    "hours": 7.96,
    "liq": 7063,
    "fill_ts": 1794870072.358557,
-   "mark": 0.995
+   "mark": 0.995,
+   "stuck": false,
+   "disputed": false
   }
  ],
  "closed": [
@@ -1361,6 +1359,36 @@
    "result": 1.0,
    "closed_ts": "2026-11-16T22:07:14Z",
    "days": 0.14
+  },
+  {
+   "oid": "6653453-1794834077",
+   "id": "6653453",
+   "q": "Spread: Celta Fortuna (-2.5)",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1309761",
+   "side": 1,
+   "token": "31658897444099326609067315581199243463598784752274163289179654968199966941961",
+   "px": 0.98,
+   "tick": 0.001,
+   "mid": 0.9805,
+   "bid": 0.975,
+   "ask": 0.986,
+   "shares": 49.1219,
+   "cost": 48.1395,
+   "ts": 1794834077.303687,
+   "end_ts": 1794857400.0,
+   "hours": 6.48,
+   "liq": 12931,
+   "fill_ts": 1794837685.269892,
+   "mark": 0.984,
+   "stuck": false,
+   "disputed": false,
+   "payout": 49.1219,
+   "pnl": 0.9824,
+   "result": 1.0,
+   "closed_ts": "2026-11-17T00:01:13Z",
+   "days": 0.42
   }
  ],
  "runs": [
@@ -2399,11 +2427,24 @@
    "placed": 1,
    "shadow_open": 361,
    "shadow_closed": 22
+  },
+  {
+   "ts": "2026-11-17T00:02:04Z",
+   "equity": 1028.24,
+   "cash": 364.45,
+   "orders": 10,
+   "positions": 3,
+   "closed": 37,
+   "scanned": 9358,
+   "candidates": 116,
+   "placed": 1,
+   "shadow_open": 352,
+   "shadow_closed": 14
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 140,
+  "placed": 141,
   "filled": 40,
   "expired": 34,
   "touched_not_filled": 57
@@ -3463,32 +3504,6 @@
    "touched": 1
   },
   {
-   "id": "6919777",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "64488123838431839743190129757505804958568672731063951216463124836078758840966",
-   "px": 0.99,
-   "tick": 0.001,
-   "ts": 1794737886,
-   "end_ts": 1794744000,
-   "q": "Will \"Ghost Soldier\" Opening Weekend Box Office be between 3m and 4m?",
-   "touched": 0
-  },
-  {
-   "id": "6919781",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "29574924440969915926334860112718747658306121588772565770674846660567609527889",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1794737886,
-   "end_ts": 1794744000,
-   "q": "Will \"Ghost Soldier\" Opening Weekend Box Office be at least 7m?",
-   "touched": 0
-  },
-  {
    "id": "6760886",
    "rule": "otros_cierre",
    "cat": "otros",
@@ -3619,32 +3634,6 @@
    "touched": 1
   },
   {
-   "id": "6653453",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "31658897444099326609067315581199243463598784752274163289179654968199966941961",
-   "px": 0.982,
-   "tick": 0.001,
-   "ts": 1794757512,
-   "end_ts": 1794857400,
-   "q": "Spread: Celta Fortuna (-2.5)",
-   "touched": 1
-  },
-  {
-   "id": "6653487",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "62206196281220876557545555195373747801016058463637526048064449280600675144969",
-   "px": 0.986,
-   "tick": 0.001,
-   "ts": 1794757512,
-   "end_ts": 1794857400,
-   "q": "Albacete Balompié vs. Celta Fortuna: O/U 7.5",
-   "touched": 1
-  },
-  {
    "id": "5401165",
    "rule": "otros_cierre",
    "cat": "otros",
@@ -3655,19 +3644,6 @@
    "ts": 1794758463,
    "end_ts": 1794805140,
    "q": "Pakistan military action against Afghanistan by November 15, 2026?",
-   "touched": 1
-  },
-  {
-   "id": "6653488",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "92921404491850130656412279338961630966525861935215184543876124529234346174076",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1794765665,
-   "end_ts": 1794857400,
-   "q": "Albacete Balompié vs. Celta Fortuna: O/U 8.5",
    "touched": 1
   },
   {
@@ -3708,19 +3684,6 @@
    "end_ts": 1794877200,
    "q": "Michigan Wolverines vs. Central Michigan Chippewas (W)",
    "touched": 0
-  },
-  {
-   "id": "6914543",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "96907659137216636000245585939376517458904649068550072641712470701780223863861",
-   "px": 0.971,
-   "tick": 0.001,
-   "ts": 1794791137,
-   "end_ts": 1794857400,
-   "q": "ASD Sorrento 1945 vs. SS Monopoli: O/U 5.5",
-   "touched": 1
   },
   {
    "id": "6760885",
@@ -3825,19 +3788,6 @@
    "end_ts": 1794909600,
    "q": "Singapore vs. Brazil: O/U 0.5",
    "touched": 0
-  },
-  {
-   "id": "6653459",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "18864145309148064003806296021099410048450239139479492935799070990287643188556",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1794805267,
-   "end_ts": 1794857400,
-   "q": "Spread: Celta Fortuna (-3.5)",
-   "touched": 1
   },
   {
    "id": "6710933",
@@ -4058,32 +4008,6 @@
    "ts": 1794805267,
    "end_ts": 1794891540,
    "q": "Will any other model be the best AI model on November 16, 2026?",
-   "touched": 1
-  },
-  {
-   "id": "6914593",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "61349011962085467455009377973654180141009854935081771640250559612325609454319",
-   "px": 0.975,
-   "tick": 0.001,
-   "ts": 1794808866,
-   "end_ts": 1794858300,
-   "q": "Spread: SEF Torres Sassari (-2.5)",
-   "touched": 1
-  },
-  {
-   "id": "6914606",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "87191403503980543819061824416599086558733891137440308097461539568400729993922",
-   "px": 0.977,
-   "tick": 0.001,
-   "ts": 1794808866,
-   "end_ts": 1794858300,
-   "q": "Perugia Calcio Spa vs. SEF Torres Sassari: O/U 6.5",
    "touched": 1
   },
   {
@@ -4724,45 +4648,6 @@
    "touched": 1
   },
   {
-   "id": "6632012",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "54561788653529209155121581377977261786945517293163378015687803219041437770973",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1794826874,
-   "end_ts": 1794858300,
-   "q": "North Macedonia vs. Slovenia: 1st Half O/U 3.5",
-   "touched": null
-  },
-  {
-   "id": "6653486",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "90944531330800728976938057388378762258730595374727820916830877724934857737441",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1794826874,
-   "end_ts": 1794857400,
-   "q": "Albacete Balompié vs. Celta Fortuna: O/U 6.5",
-   "touched": null
-  },
-  {
-   "id": "6914504",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "60129723206654980112310408329394305309483966120143960002316369838853299478081",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1794826874,
-   "end_ts": 1794857400,
-   "q": "Spread: SS Monopoli (-2.5)",
-   "touched": null
-  },
-  {
    "id": "6957442",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -4773,7 +4658,7 @@
    "ts": 1794826874,
    "end_ts": 1794870000,
    "q": "Spread: CA Juventud de Las Piedras (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7082011",
@@ -4786,7 +4671,7 @@
    "ts": 1794826874,
    "end_ts": 1794877200,
    "q": "Spread: Warriors (-27.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7082041",
@@ -4799,7 +4684,7 @@
    "ts": 1794826874,
    "end_ts": 1794877200,
    "q": "Spread: Pelicans (-22.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7083821",
@@ -4812,7 +4697,7 @@
    "ts": 1794826874,
    "end_ts": 1794875400,
    "q": "Spread: Heat (-25.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6672159",
@@ -4825,7 +4710,7 @@
    "ts": 1794826874,
    "end_ts": 1794931200,
    "q": "Spread: Madagascar (-1.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6964663",
@@ -4838,33 +4723,7 @@
    "ts": 1794826874,
    "end_ts": 1794934800,
    "q": "Alabama State Hornets vs. Mississippi State Bulldogs (W)",
-   "touched": null
-  },
-  {
-   "id": "6888346",
-   "rule": "post_fin_95_97",
-   "cat": "deportes",
-   "side": 1,
-   "token": "51373176527957709892977443933375008671627801110679710058170231543997840288439",
-   "px": 0.96,
-   "tick": 0.01,
-   "ts": 1794830472,
-   "end_ts": 1794790800,
-   "q": "Florida A&M Rattlers vs. UTEP Miners",
-   "touched": null
-  },
-  {
-   "id": "6909348",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "5914117368009503662786274874959481432199315181471428185314832552923754895356",
-   "px": 0.975,
-   "tick": 0.001,
-   "ts": 1794830472,
-   "end_ts": 1794848400,
-   "q": "Will the price of XRP be between $0.80 and $0.90 on November 16?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6919151",
@@ -4877,7 +4736,7 @@
    "ts": 1794830472,
    "end_ts": 1794877200,
    "q": "Western Illinois Leathernecks vs. Minnesota Golden Gophers",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6920013",
@@ -4890,7 +4749,7 @@
    "ts": 1794830472,
    "end_ts": 1794879000,
    "q": "Southeastern Louisiana Lions vs. Texas A&M Aggies",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6921141",
@@ -4903,7 +4762,7 @@
    "ts": 1794830472,
    "end_ts": 1794884400,
    "q": "Long Beach State Beach vs. UCLA Bruins",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7013510",
@@ -7100,6 +6959,71 @@
    "ts": 1794870072,
    "end_ts": 1794970800,
    "q": "Flames vs. Sharks: O/U 2.5",
+   "touched": null
+  },
+  {
+   "id": "7085161",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "15415216306158883045267049089601114915705844324715426242154877888080178578007",
+   "px": 0.986,
+   "tick": 0.001,
+   "ts": 1794873672,
+   "end_ts": 1794891600,
+   "q": "Will Bitcoin reach $67,000 on November 16?",
+   "touched": null
+  },
+  {
+   "id": "6948034",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "76416839010238726002429841660221569138095326277611110751749214799289693026432",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1794873672,
+   "end_ts": 1794960000,
+   "q": "Cleveland State Vikings vs. Xavier Musketeers",
+   "touched": null
+  },
+  {
+   "id": "7097657",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "61090453833325694481144886016003137754672143456621059452192944453795612826656",
+   "px": 0.971,
+   "tick": 0.001,
+   "ts": 1794873672,
+   "end_ts": 1794960000,
+   "q": "Oilers vs. Panthers: O/U 2.5",
+   "touched": null
+  },
+  {
+   "id": "6949424",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "87573928334875293921952850296943283558644443082748814782586628246350906940969",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1794873672,
+   "end_ts": 1794963600,
+   "q": "Maryland Eastern Shore Hawks vs. DePaul Blue Demons",
+   "touched": null
+  },
+  {
+   "id": "6949432",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "47808956155302718096893601880526678110018052461243238246389287553932809156185",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1794873672,
+   "end_ts": 1794963600,
+   "q": "Eastern Illinois Panthers vs. Vanderbilt Commodores",
    "touched": null
   }
  ]
