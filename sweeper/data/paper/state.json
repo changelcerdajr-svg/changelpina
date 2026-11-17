@@ -1,6 +1,6 @@
 {
  "capital0": 1000.0,
- "cash": 361.2644,
+ "cash": 361.9992,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
   {
@@ -170,6 +170,27 @@
    "end_ts": 1794891600.0,
    "hours": 2.98,
    "liq": 1797
+  },
+  {
+   "oid": "6672449-1794884470",
+   "id": "6672449",
+   "q": "Ethiopia vs. Mozambique: O/U 5.5",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1313147",
+   "side": 1,
+   "token": "75071407090247717439246942194699230880469214965289742955571680770407075962618",
+   "px": 0.974,
+   "tick": 0.001,
+   "mid": 0.9745,
+   "bid": 0.96,
+   "ask": 0.989,
+   "shares": 52.7928,
+   "cost": 51.4202,
+   "ts": 1794884470.182769,
+   "end_ts": 1794920400.0,
+   "hours": 9.98,
+   "liq": 1914
   }
  ],
  "positions": [
@@ -245,31 +266,6 @@
    "liq": 7063,
    "fill_ts": 1794870072.358557,
    "mark": 0.995,
-   "stuck": false,
-   "disputed": false
-  },
-  {
-   "oid": "7072211-1794852072",
-   "id": "7072211",
-   "q": "Canadiens vs. Rangers: O/U 2.5",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1224252",
-   "side": 0,
-   "token": "68280269221881552501342198206804814509898996043648167649513993336330700750173",
-   "px": 0.971,
-   "tick": 0.001,
-   "mid": 0.971,
-   "bid": 0.963,
-   "ask": 0.979,
-   "shares": 52.155,
-   "cost": 50.6425,
-   "ts": 1794852072.879199,
-   "end_ts": 1794875400.0,
-   "hours": 6.48,
-   "liq": 16183,
-   "fill_ts": 1794877266.473481,
-   "mark": 0.9995,
    "stuck": false,
    "disputed": false
   },
@@ -1397,6 +1393,36 @@
    "result": 1.0,
    "closed_ts": "2026-11-17T00:01:13Z",
    "days": 0.42
+  },
+  {
+   "oid": "7072211-1794852072",
+   "id": "7072211",
+   "q": "Canadiens vs. Rangers: O/U 2.5",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1224252",
+   "side": 0,
+   "token": "68280269221881552501342198206804814509898996043648167649513993336330700750173",
+   "px": 0.971,
+   "tick": 0.001,
+   "mid": 0.971,
+   "bid": 0.963,
+   "ask": 0.979,
+   "shares": 52.155,
+   "cost": 50.6425,
+   "ts": 1794852072.879199,
+   "end_ts": 1794875400.0,
+   "hours": 6.48,
+   "liq": 16183,
+   "fill_ts": 1794877266.473481,
+   "mark": 0.9995,
+   "stuck": false,
+   "disputed": false,
+   "payout": 52.155,
+   "pnl": 1.5125,
+   "result": 1.0,
+   "closed_ts": "2026-11-17T03:01:11Z",
+   "days": 0.08
   }
  ],
  "runs": [
@@ -2487,11 +2513,24 @@
    "placed": 0,
    "shadow_open": 354,
    "shadow_closed": 6
+  },
+  {
+   "ts": "2026-11-17T03:01:55Z",
+   "equity": 1028.4,
+   "cash": 362.0,
+   "orders": 9,
+   "positions": 4,
+   "closed": 38,
+   "scanned": 8262,
+   "candidates": 113,
+   "placed": 1,
+   "shadow_open": 353,
+   "shadow_closed": 2
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 142,
+  "placed": 143,
   "filled": 42,
   "expired": 35,
   "touched_not_filled": 57
@@ -3954,19 +3993,6 @@
    "touched": 1
   },
   {
-   "id": "7072211",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "68280269221881552501342198206804814509898996043648167649513993336330700750173",
-   "px": 0.971,
-   "tick": 0.001,
-   "ts": 1794805267,
-   "end_ts": 1794875400,
-   "q": "Canadiens vs. Rangers: O/U 2.5",
-   "touched": 1
-  },
-  {
    "id": "6364919",
    "rule": "otros_cierre",
    "cat": "otros",
@@ -4497,19 +4523,6 @@
    "ts": 1794816069,
    "end_ts": 1794873600,
    "q": "Grambling State Tigers vs. Kentucky Wildcats",
-   "touched": 1
-  },
-  {
-   "id": "7081997",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "10791034787299460819319532663264959898280155127224629316646275305976068625135",
-   "px": 0.975,
-   "tick": 0.001,
-   "ts": 1794816069,
-   "end_ts": 1794873600,
-   "q": "Spread: Grizzlies (-29.5)",
    "touched": 1
   },
   {
@@ -7097,6 +7110,19 @@
    "ts": 1794882625,
    "end_ts": 1794963600,
    "q": "Ducks vs. Blues: O/U 2.5",
+   "touched": null
+  },
+  {
+   "id": "6950619",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "79171017165165035016761609377800707808864663668210875613508174678102584382266",
+   "px": 0.972,
+   "tick": 0.001,
+   "ts": 1794884470,
+   "end_ts": 1794967200,
+   "q": "Old Dominion Monarchs vs. Virginia Cavaliers",
    "touched": null
   }
  ]
