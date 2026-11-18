@@ -1,6 +1,6 @@
 {
  "capital0": 1000.0,
- "cash": 313.2423,
+ "cash": 313.4581,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
   {
@@ -172,27 +172,6 @@
    "liq": 1457
   },
   {
-   "oid": "6978781-1795028472",
-   "id": "6978781",
-   "q": "South Dakota Coyotes vs. Nebraska Cornhuskers",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1368458",
-   "side": 1,
-   "token": "43238260247264369065373366491508048197324851546656380555192179957720485875227",
-   "px": 0.987,
-   "tick": 0.001,
-   "mid": 0.9875,
-   "bid": 0.984,
-   "ask": 0.991,
-   "shares": 52.7625,
-   "cost": 52.0766,
-   "ts": 1795028472.389428,
-   "end_ts": 1795051800.0,
-   "hours": 6.48,
-   "liq": 5023
-  },
-  {
    "oid": "7088996-1795032078",
    "id": "7088996",
    "q": "Will the highest temperature in Atlanta be between 68-69°F on November 18?",
@@ -233,6 +212,48 @@
    "end_ts": 1795035600.0,
    "hours": 0.37,
    "liq": 4763
+  },
+  {
+   "oid": "7153632-1795039270",
+   "id": "7153632",
+   "q": "Will Shan United win on 2026-11-19?",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1419093",
+   "side": 1,
+   "token": "28875335856668139982254048633111976552712980991535535819542635855357325547404",
+   "px": 0.975,
+   "tick": 0.001,
+   "mid": 0.975,
+   "bid": 0.97,
+   "ask": 0.98,
+   "shares": 53.4884,
+   "cost": 52.1512,
+   "ts": 1795039270.175902,
+   "end_ts": 1795089600.0,
+   "hours": 13.98,
+   "liq": 1693
+  },
+  {
+   "oid": "6993119-1795039270",
+   "id": "6993119",
+   "q": "Al Wasl FC vs. Hatta SC: O/U 0.5",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1373319",
+   "side": 0,
+   "token": "60228904650107149338045416486786777306272461191324049750025795143116770871240",
+   "px": 0.98,
+   "tick": 0.001,
+   "mid": 0.98,
+   "bid": 0.975,
+   "ask": 0.985,
+   "shares": 53.2155,
+   "cost": 52.1512,
+   "ts": 1795039270.175902,
+   "end_ts": 1795092300.0,
+   "hours": 14.73,
+   "liq": 2472
   }
  ],
  "positions": [
@@ -262,31 +283,6 @@
    "disputed": false
   },
   {
-   "oid": "6977177-1794981668",
-   "id": "6977177",
-   "q": "Jackson State Tigers vs. Baylor Bears",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1367849",
-   "side": 1,
-   "token": "30334215052778234746141493787503993456219738214956472113831741158001079705678",
-   "px": 0.989,
-   "tick": 0.001,
-   "mid": 0.9895,
-   "bid": 0.981,
-   "ask": 0.998,
-   "shares": 52.4416,
-   "cost": 51.8647,
-   "ts": 1794981668.830403,
-   "end_ts": 1795021200.0,
-   "hours": 10.98,
-   "liq": 4194,
-   "fill_ts": 1794996067.599407,
-   "mark": 0.9885,
-   "stuck": false,
-   "disputed": false
-  },
-  {
    "oid": "7090617-1795032078",
    "id": "7090617",
    "q": "Will the highest temperature in Seattle be between 54-55°F on November 18?",
@@ -307,7 +303,7 @@
    "hours": -8.02,
    "liq": 1081,
    "fill_ts": 1795034282.353276,
-   "mark": 0.967,
+   "mark": 0.974,
    "stuck": false,
    "disputed": false
   }
@@ -1972,6 +1968,36 @@
    "result": 1.0,
    "closed_ts": "2026-11-18T18:01:20Z",
    "days": 0.17
+  },
+  {
+   "oid": "6977177-1794981668",
+   "id": "6977177",
+   "q": "Jackson State Tigers vs. Baylor Bears",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1367849",
+   "side": 1,
+   "token": "30334215052778234746141493787503993456219738214956472113831741158001079705678",
+   "px": 0.989,
+   "tick": 0.001,
+   "mid": 0.9895,
+   "bid": 0.981,
+   "ask": 0.998,
+   "shares": 52.4416,
+   "cost": 51.8647,
+   "ts": 1794981668.830403,
+   "end_ts": 1795021200.0,
+   "hours": 10.98,
+   "liq": 4194,
+   "fill_ts": 1794996067.599407,
+   "mark": 0.9885,
+   "stuck": false,
+   "disputed": false,
+   "payout": 52.4416,
+   "pnl": 0.5769,
+   "result": 1.0,
+   "closed_ts": "2026-11-18T22:01:11Z",
+   "days": 0.5
   }
  ],
  "runs": [
@@ -3673,14 +3699,27 @@
    "placed": 0,
    "shadow_open": 281,
    "shadow_closed": 1
+  },
+  {
+   "ts": "2026-11-18T22:01:56Z",
+   "equity": 1043.02,
+   "cash": 313.46,
+   "orders": 12,
+   "positions": 2,
+   "closed": 57,
+   "scanned": 8983,
+   "candidates": 91,
+   "placed": 2,
+   "shadow_open": 275,
+   "shadow_closed": 12
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 225,
+  "placed": 227,
   "filled": 59,
   "expired": 54,
-  "touched_not_filled": 101
+  "touched_not_filled": 102
  },
  "shadow": [
   {
@@ -3840,19 +3879,6 @@
    "touched": 0
   },
   {
-   "id": "6707325",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "111636316189206570274767654822907819618100198330514429857471967157892743304294",
-   "px": 0.971,
-   "tick": 0.001,
-   "ts": 1794938472,
-   "end_ts": 1795023900,
-   "q": "Real Madrid CF Femenino vs. FC Internazionale Milano: O/U 0.5",
-   "touched": 1
-  },
-  {
    "id": "6747465",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -3944,32 +3970,6 @@
    "touched": 1
   },
   {
-   "id": "6707332",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "37685471186695262837951025249913479323757363231654135267846851698740896689452",
-   "px": 0.972,
-   "tick": 0.001,
-   "ts": 1794942069,
-   "end_ts": 1795023900,
-   "q": "Real Madrid CF Femenino vs. FC Internazionale Milano: O/U 7.5",
-   "touched": 1
-  },
-  {
-   "id": "6977177",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "30334215052778234746141493787503993456219738214956472113831741158001079705678",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1794942069,
-   "end_ts": 1795021200,
-   "q": "Jackson State Tigers vs. Baylor Bears",
-   "touched": 1
-  },
-  {
    "id": "6747466",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -4032,19 +4032,6 @@
    "ts": 1794942069,
    "end_ts": 1795048200,
    "q": "North Alabama Lions vs. Vanderbilt Commodores (W)",
-   "touched": 1
-  },
-  {
-   "id": "6707285",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "7941798332292396191210784032012797113254221271986895933390963947796135594936",
-   "px": 0.98,
-   "tick": 0.001,
-   "ts": 1794945673,
-   "end_ts": 1795023900,
-   "q": "BK Häcken FF vs. Manchester City WFC: O/U 7.5",
    "touched": 1
   },
   {
@@ -4500,71 +4487,6 @@
    "ts": 1794978067,
    "end_ts": 1795032000,
    "q": "Spread: Oud-Heverlee Leuven Women (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "6707268",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "29250462535363717845765631215874419915791094063215946317977942333950084030810",
-   "px": 0.973,
-   "tick": 0.001,
-   "ts": 1794978067,
-   "end_ts": 1795023900,
-   "q": "Spread: BK Häcken FF (-1.5)",
-   "touched": 1
-  },
-  {
-   "id": "6707278",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "25005095062959644534237544793674707776376217766077957383282615859130118922438",
-   "px": 0.975,
-   "tick": 0.001,
-   "ts": 1794978067,
-   "end_ts": 1795023900,
-   "q": "BK Häcken FF vs. Manchester City WFC: O/U 0.5",
-   "touched": 1
-  },
-  {
-   "id": "6707316",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "75420727366742116755904676208982199482833056712724213716303878548831683863827",
-   "px": 0.976,
-   "tick": 0.001,
-   "ts": 1794978067,
-   "end_ts": 1795023900,
-   "q": "Spread: FC Internazionale Milano (-1.5)",
-   "touched": 1
-  },
-  {
-   "id": "6707318",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "87339725612651432918954651268024584239328506266233567536379422988843667737572",
-   "px": 0.993,
-   "tick": 0.001,
-   "ts": 1794978067,
-   "end_ts": 1795023900,
-   "q": "Spread: FC Internazionale Milano (-2.5)",
-   "touched": 0
-  },
-  {
-   "id": "6707320",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "75277980003374619481544447917086012832110383878293425976176403798938649491670",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1794978067,
-   "end_ts": 1795023900,
-   "q": "Spread: FC Internazionale Milano (-3.5)",
    "touched": 1
   },
   {
@@ -5283,45 +5205,6 @@
    "touched": 1
   },
   {
-   "id": "6696197",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "84367456019748848189058158535483963658911103257269033701631383948097495846102",
-   "px": 0.972,
-   "tick": 0.001,
-   "ts": 1794996067,
-   "end_ts": 1795023900,
-   "q": "Real Madrid CF Femenino vs. FC Internazionale Milano: Neither team to score first?",
-   "touched": null
-  },
-  {
-   "id": "6707270",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "39824428495723172287715566801892765927068952214020041547740424244303282415973",
-   "px": 0.984,
-   "tick": 0.001,
-   "ts": 1794996067,
-   "end_ts": 1795023900,
-   "q": "Spread: BK Häcken FF (-2.5)",
-   "touched": null
-  },
-  {
-   "id": "6967673",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 0,
-   "token": "76937140941060919616815859970681268915806641670514868344284819353112711783563",
-   "px": 0.976,
-   "tick": 0.001,
-   "ts": 1794996067,
-   "end_ts": 1795021200,
-   "q": "Will the price of Solana be between $70 and $80 on November 18?",
-   "touched": null
-  },
-  {
    "id": "6747375",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -5332,7 +5215,7 @@
    "ts": 1794996067,
    "end_ts": 1795048200,
    "q": "Grêmio FBPA vs. EC Bahia: O/U 8.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6747505",
@@ -5345,7 +5228,7 @@
    "ts": 1794996067,
    "end_ts": 1795044600,
    "q": "CR Flamengo vs. CA Paranaense: O/U 0.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6747557",
@@ -5358,7 +5241,7 @@
    "ts": 1794996067,
    "end_ts": 1795042800,
    "q": "Clube do Remo vs. Associação Chapecoense de Futebol: O/U 6.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6655552",
@@ -5371,7 +5254,7 @@
    "ts": 1794996067,
    "end_ts": 1795064340,
    "q": "Will the next Meta Muse Spark model be released on November 18, 2026?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7015810",
@@ -5384,7 +5267,7 @@
    "ts": 1794996067,
    "end_ts": 1795104000,
    "q": "Fordham Rams vs. Duke Blue Devils (W)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "5747208",
@@ -7334,6 +7217,84 @@
    "ts": 1795035674,
    "end_ts": 1795143600,
    "q": "Cal Poly Mustangs vs. UCLA Bruins (W)",
+   "touched": null
+  },
+  {
+   "id": "7117969",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "69306582428621500281973102437441591046122930959051374862809695717020501422844",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795039270,
+   "end_ts": 1795042800,
+   "q": "Natural Gas (NG) Up or Down on November 18?",
+   "touched": null
+  },
+  {
+   "id": "6783976",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "57029982973624574034154192900977748691242026683688402148167309386249904202196",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1795039270,
+   "end_ts": 1795134600,
+   "q": "São Paulo FC vs. Fluminense FC: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6998319",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "113409185644128094817882215713391136892012919289602198919922671218403283778844",
+   "px": 0.988,
+   "tick": 0.001,
+   "ts": 1795039270,
+   "end_ts": 1795136400,
+   "q": "Stetson Hatters vs. Louisville Cardinals",
+   "touched": null
+  },
+  {
+   "id": "6998325",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "108143932933749550729550199327249537907033884998533742903054050789148768901823",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1795039270,
+   "end_ts": 1795136400,
+   "q": "Southern Utah Thunderbirds vs. Texas Longhorns",
+   "touched": null
+  },
+  {
+   "id": "6911332",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "64469759895124395020493545307553299567504515928450406765750483786180005469033",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1795039270,
+   "end_ts": 1795143600,
+   "q": "Seattle Sounders FC vs. Real Salt Lake: O/U 8.5",
+   "touched": null
+  },
+  {
+   "id": "7148149",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "49472925062027204939427064883296769848315661619176297804612399513762262656664",
+   "px": 0.971,
+   "tick": 0.001,
+   "ts": 1795039270,
+   "end_ts": 1795142400,
+   "q": "Canucks vs. Kraken: O/U 2.5",
    "touched": null
   }
  ]

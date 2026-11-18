@@ -2,21 +2,21 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-11T22:05:26Z | dias corridos: 7.0 de 28 | corridas: 131
-- Capital inicial: $1,000.00 | valor actual: $1,042.04 | P&L: $+42.04 (+4.20%)
-- Efectivo libre: $313.24 | en ordenes abiertas: $572.43 (11) | en posiciones: $155.75 (3)
+- Inicio: 2026-11-11T22:05:26Z | dias corridos: 7.0 de 28 | corridas: 132
+- Capital inicial: $1,000.00 | valor actual: $1,043.02 | P&L: $+43.02 (+4.30%)
+- Efectivo libre: $313.46 | en ordenes abiertas: $624.66 (12) | en posiciones: $103.89 (2)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 225 colocadas, 59 llenadas, 101 tocadas sin llenarse (sorteo 30%), 54 expiradas
+- Ordenes virtuales: 227 colocadas, 59 llenadas, 102 tocadas sin llenarse (sorteo 30%), 54 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
 | Regla | n | Precio medio | Pago real | IC95 del pago | Edge | P&L | Dias medios |
 |---|---|---|---|---|---|---|---|
 | cripto_cierre | 17 | 98.77c | 100.00% | 81.6-100.0% | +1.23 pts | $+10.88 | 0.19 |
-| deportes_previo | 21 | 98.38c | 100.00% | 84.5-100.0% | +1.62 pts | $+17.49 | 0.34 |
+| deportes_previo | 22 | 98.41c | 100.00% | 85.1-100.0% | +1.59 pts | $+18.06 | 0.35 |
 | otros_cierre | 15 | 99.04c | 100.00% | 79.6-100.0% | +0.96 pts | $+7.40 | 0.58 |
 | post_fin_95_97 | 3 | 96.40c | 100.00% | 43.8-100.0% | +3.60 pts | $+5.66 | 0.72 |
-| TOTAL | 56 | 98.57c | 100.00% | 93.6-100.0% | +1.43 pts | $+41.43 | 0.38 |
+| TOTAL | 57 | 98.58c | 100.00% | 93.7-100.0% | +1.42 pts | $+42.00 | 0.38 |
 
 ## Peores casos
 
@@ -28,27 +28,26 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
 | $51.82 | 98.5c | 99.1c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
-| $52.07 | 96.1c | 96.7c | post_fin_95_97 |  | Will the highest temperature in Seattle be between 54-55°F on November 18? |
-| $51.86 | 98.9c | 98.9c | deportes_previo |  | Jackson State Tigers vs. Baylor Bears |
+| $52.07 | 96.1c | 97.4c | post_fin_95_97 |  | Will the highest temperature in Seattle be between 54-55°F on November 18? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 2013 | abiertas: 281 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 2025 | abiertas: 275 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
-| cripto_cierre | todas | 674 | 98.75c | 98.96% | +0.22 pts | -0.55 a +0.98 | 7 |
-| cripto_cierre | tocadas | 457 | 98.57c | 98.47% | -0.10 pts | -1.22 a +1.02 | 7 |
-| deportes_previo | todas | 983 | 98.39c | 99.08% | +0.69 pts | +0.09 a +1.29 | 9 |
-| deportes_previo | tocadas | 827 | 98.35c | 99.15% | +0.81 pts | +0.18 a +1.43 | 7 |
+| cripto_cierre | todas | 675 | 98.74c | 98.96% | +0.22 pts | -0.54 a +0.98 | 7 |
+| cripto_cierre | tocadas | 458 | 98.57c | 98.47% | -0.09 pts | -1.22 a +1.03 | 7 |
+| deportes_previo | todas | 994 | 98.39c | 99.09% | +0.70 pts | +0.11 a +1.29 | 9 |
+| deportes_previo | tocadas | 837 | 98.34c | 99.16% | +0.82 pts | +0.20 a +1.44 | 7 |
 | otros_cierre | todas | 334 | 98.75c | 100.00% | +1.25 pts | +1.17 a +1.33 | 0 |
 | otros_cierre | tocadas | 220 | 98.65c | 100.00% | +1.35 pts | +1.25 a +1.44 | 0 |
 | post_fin_95_97 | todas | 22 | 96.07c | 90.91% | -5.16 pts | -17.41 a +7.10 | 2 |
 | post_fin_95_97 | tocadas | 18 | 96.06c | 88.89% | -7.17 pts | -22.06 a +7.72 | 2 |
-| TOTAL | todas | 2013 | 98.55c | 99.11% | +0.56 pts | +0.15 a +0.97 | 18 |
-| TOTAL | tocadas | 1522 | 98.43c | 98.95% | +0.52 pts | +0.01 a +1.03 | 16 |
+| TOTAL | todas | 2025 | 98.54c | 99.11% | +0.57 pts | +0.16 a +0.98 | 18 |
+| TOTAL | tocadas | 1533 | 98.43c | 98.96% | +0.53 pts | +0.02 a +1.04 | 16 |
 
 Peores casos del registro sombra:
 
@@ -65,4 +64,4 @@ Peores casos del registro sombra:
 
 ## Veredicto
 
-Aun no hay veredicto: van 56 operaciones cerradas en 7.0 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
+Aun no hay veredicto: van 57 operaciones cerradas en 7.0 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
