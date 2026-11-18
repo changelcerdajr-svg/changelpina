@@ -1,6 +1,6 @@
 {
  "capital0": 1000.0,
- "cash": 416.9365,
+ "cash": 416.9023,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
   {
@@ -67,27 +67,6 @@
    "liq": 1611
   },
   {
-   "oid": "6707278-1794988874",
-   "id": "6707278",
-   "q": "BK Häcken FF vs. Manchester City WFC: O/U 0.5",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1318472",
-   "side": 0,
-   "token": "25005095062959644534237544793674707776376217766077957383282615859130118922438",
-   "px": 0.974,
-   "tick": 0.001,
-   "mid": 0.9745,
-   "bid": 0.974,
-   "ask": 0.975,
-   "shares": 53.3908,
-   "cost": 52.0026,
-   "ts": 1794988874.749538,
-   "end_ts": 1795023900.0,
-   "hours": 9.73,
-   "liq": 4862
-  },
-  {
    "oid": "7029427-1794999673",
    "id": "7029427",
    "q": "Will the next Gemini Carbon model (4.1+) be released on November 18, 2026?",
@@ -151,27 +130,6 @@
    "liq": 1078
   },
   {
-   "oid": "6967562-1795006872",
-   "id": "6967562",
-   "q": "Will the price of Ethereum be above $1,700 on November 18?",
-   "cat": "cripto",
-   "rule": "cripto_cierre",
-   "event": "1365177",
-   "side": 0,
-   "token": "12428724468104869433609397703178589237486662063247876079205996074152083728123",
-   "px": 0.982,
-   "tick": 0.001,
-   "mid": 0.982,
-   "bid": 0.981,
-   "ask": 0.983,
-   "shares": 52.988,
-   "cost": 52.0342,
-   "ts": 1795006872.824353,
-   "end_ts": 1795021200.0,
-   "hours": 3.98,
-   "liq": 32623
-  },
-  {
    "oid": "5747205-1795006872",
    "id": "5747205",
    "q": "Spread: Reus FC Reddis (-2.5)",
@@ -191,6 +149,27 @@
    "end_ts": 1795030200.0,
    "hours": 6.48,
    "liq": 2394
+  },
+  {
+   "oid": "6747620-1795010469",
+   "id": "6747620",
+   "q": "Coritiba FBC vs. Santos FC: O/U 6.5",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1325080",
+   "side": 1,
+   "token": "17090086171554070101981538903538970573697988236141826935773975672470441566263",
+   "px": 0.971,
+   "tick": 0.001,
+   "mid": 0.971,
+   "bid": 0.968,
+   "ask": 0.974,
+   "shares": 53.591,
+   "cost": 52.0368,
+   "ts": 1795010469.962795,
+   "end_ts": 1795041000.0,
+   "hours": 8.48,
+   "liq": 12391
   }
  ],
  "positions": [
@@ -215,7 +194,7 @@
    "hours": 4.96,
    "liq": 1203,
    "fill_ts": 1794967266.068418,
-   "mark": 0.991,
+   "mark": 0.992,
    "stuck": false,
    "disputed": false
   },
@@ -268,6 +247,29 @@
    "mark": 0.988,
    "stuck": false,
    "disputed": false
+  },
+  {
+   "oid": "6967562-1795006872",
+   "id": "6967562",
+   "q": "Will the price of Ethereum be above $1,700 on November 18?",
+   "cat": "cripto",
+   "rule": "cripto_cierre",
+   "event": "1365177",
+   "side": 0,
+   "token": "12428724468104869433609397703178589237486662063247876079205996074152083728123",
+   "px": 0.982,
+   "tick": 0.001,
+   "mid": 0.982,
+   "bid": 0.981,
+   "ask": 0.983,
+   "shares": 52.988,
+   "cost": 52.0342,
+   "ts": 1795006872.824353,
+   "end_ts": 1795021200.0,
+   "hours": 3.98,
+   "liq": 32623,
+   "fill_ts": 1795010469.962795,
+   "mark": 0.982
   }
  ],
  "closed": [
@@ -3454,14 +3456,27 @@
    "placed": 2,
    "shadow_open": 217,
    "shadow_closed": 3
+  },
+  {
+   "ts": "2026-11-18T14:01:42Z",
+   "equity": 1040.74,
+   "cash": 416.9,
+   "orders": 8,
+   "positions": 4,
+   "closed": 54,
+   "scanned": 8107,
+   "candidates": 96,
+   "placed": 1,
+   "shadow_open": 224,
+   "shadow_closed": 2
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 209,
-  "filled": 57,
+  "placed": 210,
+  "filled": 58,
   "expired": 51,
-  "touched_not_filled": 92
+  "touched_not_filled": 93
  },
  "shadow": [
   {
@@ -4947,32 +4962,6 @@
    "touched": 1
   },
   {
-   "id": "6820818",
-   "rule": "post_fin_95_97",
-   "cat": "deportes",
-   "side": 1,
-   "token": "5773466614182101939480437053799944864823888304201004184326340864173541128634",
-   "px": 0.964,
-   "tick": 0.001,
-   "ts": 1794967266,
-   "end_ts": 1794956400,
-   "q": "Spread: Eastern Michigan (-2.5)",
-   "touched": null
-  },
-  {
-   "id": "7109751",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "25263483749066286423220365847855698726708223070487749553732507518185359153191",
-   "px": 0.987,
-   "tick": 0.001,
-   "ts": 1794967266,
-   "end_ts": 1794978000,
-   "q": "Will Bitcoin reach $66,000 on November 17?",
-   "touched": null
-  },
-  {
    "id": "6967669",
    "rule": "cripto_cierre",
    "cat": "cripto",
@@ -4983,7 +4972,7 @@
    "ts": 1794967266,
    "end_ts": 1795021200,
    "q": "Will the price of Solana be between $60 and $70 on November 18?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7121654",
@@ -4996,7 +4985,7 @@
    "ts": 1794967266,
    "end_ts": 1795021205,
    "q": "Will MrBeast's next video get between 74 and 75 million views on day 4?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7121655",
@@ -5009,7 +4998,7 @@
    "ts": 1794967266,
    "end_ts": 1795021205,
    "q": "Will MrBeast's next video get between 75 and 76 million views on day 4?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6747362",
@@ -5022,7 +5011,7 @@
    "ts": 1794967266,
    "end_ts": 1795048200,
    "q": "Spread: EC Bahia (-3.5)",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6747421",
@@ -5035,7 +5024,7 @@
    "ts": 1794967266,
    "end_ts": 1795048200,
    "q": "SC Corinthians Paulista vs. Botafogo FR: O/U 8.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7121239",
@@ -5048,7 +5037,7 @@
    "ts": 1794967266,
    "end_ts": 1795048200,
    "q": "Canadiens vs. Devils: O/U 2.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7121659",
@@ -6283,6 +6272,123 @@
    "ts": 1795006872,
    "end_ts": 1795110300,
    "q": "Will FK Austria Wien win on 2026-11-19?",
+   "touched": null
+  },
+  {
+   "id": "6967555",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "47097115249779965447852565974393296338028593465133886620776213072795892534906",
+   "px": 0.972,
+   "tick": 0.001,
+   "ts": 1795010469,
+   "end_ts": 1795021200,
+   "q": "Will the price of Bitcoin be less than $66,000 on November 18?",
+   "touched": null
+  },
+  {
+   "id": "6967560",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "23191423339491680915192687390196497395441138105266817053429780966733926908888",
+   "px": 0.976,
+   "tick": 0.001,
+   "ts": 1795010469,
+   "end_ts": 1795021200,
+   "q": "Will the price of Bitcoin be between $66,000 and $68,000 on November 18?",
+   "touched": null
+  },
+  {
+   "id": "6967623",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "62386747489710537943419371501192796893512112066282533709294377120274254812166",
+   "px": 0.975,
+   "tick": 0.001,
+   "ts": 1795010469,
+   "end_ts": 1795021200,
+   "q": "Will the price of Bitcoin be above $66,000 on November 18?",
+   "touched": null
+  },
+  {
+   "id": "6967655",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "112933355069935272782581784342359838994547490933131268369920028991171122691170",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795010469,
+   "end_ts": 1795021200,
+   "q": "Will the price of Solana be less than $40 on November 18?",
+   "touched": null
+  },
+  {
+   "id": "6978779",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "204312210905277847416701711717718388215097712856294278228971071472496895383",
+   "px": 0.976,
+   "tick": 0.001,
+   "ts": 1795010469,
+   "end_ts": 1795053600,
+   "q": "Northern Colorado Bears vs. BYU Cougars",
+   "touched": null
+  },
+  {
+   "id": "7135910",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "6913797986591636772442305412077492522728058354295769586900352617236714661072",
+   "px": 0.971,
+   "tick": 0.001,
+   "ts": 1795010469,
+   "end_ts": 1795064400,
+   "q": "Will Ethereum reach $1,900 on November 18?",
+   "touched": null
+  },
+  {
+   "id": "6733450",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "102113889453297456724288480914076409842201389484793185232474966872561884014517",
+   "px": 0.977,
+   "tick": 0.001,
+   "ts": 1795010469,
+   "end_ts": 1795118400,
+   "q": "Will FC Barcelona win on 2026-11-19?",
+   "touched": null
+  },
+  {
+   "id": "6733451",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "72902998736543600221737628944928022159046071195605429118415484093965335565316",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795010469,
+   "end_ts": 1795118400,
+   "q": "Will FC Barcelona vs. Servette FC Chênois Féminin end in a draw?",
+   "touched": null
+  },
+  {
+   "id": "6733452",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "84131683125818834347486046810558247439485425882540947177971851881817874247707",
+   "px": 0.991,
+   "tick": 0.001,
+   "ts": 1795010469,
+   "end_ts": 1795118400,
+   "q": "Will Servette FC Chênois Féminin win on 2026-11-19?",
    "touched": null
   }
  ]
