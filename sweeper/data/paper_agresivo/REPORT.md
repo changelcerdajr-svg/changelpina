@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 4.6 de 28 | corridas: 73
-- Capital inicial: $1,000.00 | valor actual: $865.62 | P&L: $-134.38 (-13.44%)
-- Efectivo libre: $-0.00 | en ordenes abiertas: $248.89 (3) | en posiciones: $617.02 (8)
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 4.6 de 28 | corridas: 74
+- Capital inicial: $1,000.00 | valor actual: $865.70 | P&L: $-134.30 (-13.43%)
+- Efectivo libre: $0.15 | en ordenes abiertas: $335.46 (4) | en posiciones: $530.48 (7)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 168 colocadas, 77 llenadas, 67 tocadas sin llenarse (sorteo 30%), 21 expiradas
+- Ordenes virtuales: 169 colocadas, 77 llenadas, 67 tocadas sin llenarse (sorteo 30%), 21 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -15,9 +15,9 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 | clima_cierre | 2 | 97.58c | 100.00% | 34.2-100.0% | +2.42 pts | $+4.63 | 1.27 |
 | cripto_cierre | 25 | 99.00c | 100.00% | 86.7-100.0% | +1.00 pts | $+15.85 | 0.10 |
 | deportes_previo | 25 | 98.15c | 90.00% | 75.0-97.8% | -8.15 pts | $-162.20 | 0.48 |
-| otros_cierre | 16 | 99.61c | 100.00% | 80.6-100.0% | +0.39 pts | $+3.81 | 0.48 |
+| otros_cierre | 17 | 99.62c | 100.00% | 81.6-100.0% | +0.38 pts | $+3.98 | 0.45 |
 | post_fin_90_97 | 1 | 96.00c | 100.00% | 20.7-100.0% | +4.00 pts | $+3.83 | 0.71 |
-| TOTAL | 69 | 98.67c | 95.94% | 90.0-99.2% | -2.72 pts | $-134.09 | 0.37 |
+| TOTAL | 70 | 98.69c | 96.02% | 90.2-99.2% | -2.67 pts | $-133.91 | 0.36 |
 
 ## Peores casos
 
@@ -36,14 +36,13 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 | $85.88 | 95.0c | 95.0c | deportes_previo |  | Dominican Republic leading at halftime? |
 | $86.13 | 96.1c | 100.0c | deportes_previo |  | Tennessee Volunteers vs. Belmont Bruins (W) |
 | $86.34 | 98.4c | 98.4c | deportes_previo |  | Spread: Jamaica (-1.5) |
-| $86.55 | 99.8c | 99.8c | otros_cierre |  | Will Pablo Picasso's “Le Baiser” sell for less than $40m at auction? |
-| $35.36 | 99.8c | 99.8c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $4.5m and $5.5m at auction? |
+| $35.36 | 99.8c | 99.6c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $4.5m and $5.5m at auction? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 3982 | abiertas: 1815 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 3982 | abiertas: 1825 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
@@ -75,4 +74,4 @@ Peores casos del registro sombra:
 
 ## Veredicto
 
-Aun no hay veredicto: van 69 operaciones cerradas en 4.6 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
+Aun no hay veredicto: van 70 operaciones cerradas en 4.6 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.

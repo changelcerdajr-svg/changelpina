@@ -2,8 +2,8 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-11T22:05:26Z | dias corridos: 6.2 de 28 | corridas: 110
-- Capital inicial: $1,000.00 | valor actual: $1,037.48 | P&L: $+37.48 (+3.75%)
+- Inicio: 2026-11-11T22:05:26Z | dias corridos: 6.2 de 28 | corridas: 111
+- Capital inicial: $1,000.00 | valor actual: $1,037.08 | P&L: $+37.08 (+3.71%)
 - Efectivo libre: $416.53 | en ordenes abiertas: $362.81 (7) | en posiciones: $258.57 (5)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
 - Ordenes virtuales: 196 colocadas, 55 llenadas, 88 tocadas sin llenarse (sorteo 30%), 46 expiradas
@@ -28,7 +28,7 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
 | $51.67 | 98.3c | 97.7c | deportes_previo |  | Spread: Jamaica (-1.5) |
-| $51.67 | 98.2c | 97.7c | deportes_previo |  | Spread: Montserrat (-1.5) |
+| $51.67 | 98.2c | 97.0c | deportes_previo |  | Spread: Montserrat (-1.5) |
 | $51.59 | 99.4c | 99.7c | otros_cierre |  | Will the next Gemini Flash-Lite model (3.6+) be released on November 17, 2026? |
 | $51.82 | 98.5c | 98.2c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
 | $51.82 | 99.4c | 99.8c | cripto_cierre |  | Will Bitcoin reach $69,000 on November 17? |
@@ -37,7 +37,7 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 1772 | abiertas: 290 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 1772 | abiertas: 293 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|

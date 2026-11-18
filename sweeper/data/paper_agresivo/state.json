@@ -1,6 +1,6 @@
 {
  "capital0": 1000.0,
- "cash": -0.0,
+ "cash": 0.1519,
  "started": "2026-11-13T13:15:42Z",
  "orders": [
   {
@@ -65,6 +65,27 @@
    "end_ts": 1794977940.0,
    "hours": 6.95,
    "liq": 4884
+  },
+  {
+   "oid": "6976582-1794970904",
+   "id": "6976582",
+   "q": "Will Mark Rothko's “Untitled” sell for at least $6.5m at auction?",
+   "cat": "otros",
+   "rule": "otros_cierre",
+   "event": "1367559",
+   "side": 1,
+   "token": "63266187512967081768947065207054996962297516601384623636734273333951775091426",
+   "px": 0.998,
+   "tick": 0.001,
+   "mid": 0.993,
+   "bid": 0.987,
+   "ask": 0.999,
+   "shares": 86.7436,
+   "cost": 86.5701,
+   "ts": 1794970904.697006,
+   "end_ts": 1794977940.0,
+   "hours": 1.95,
+   "liq": 1630
   }
  ],
  "positions": [
@@ -219,29 +240,6 @@
    "disputed": false
   },
   {
-   "oid": "6766303-1794967287",
-   "id": "6766303",
-   "q": "Will Pablo Picasso's “Le Baiser” sell for less than $40m at auction?",
-   "cat": "otros",
-   "rule": "otros_cierre",
-   "event": "1328431",
-   "side": 0,
-   "token": "16476288136663565404685102887599023609525815783454433073718438389784128183992",
-   "px": 0.998,
-   "tick": 0.001,
-   "mid": 0.989,
-   "bid": 0.979,
-   "ask": 0.999,
-   "shares": 86.722,
-   "cost": 86.5485,
-   "ts": 1794967287.973541,
-   "end_ts": 1794977940.0,
-   "hours": 2.96,
-   "liq": 2178,
-   "fill_ts": 1794970596.794632,
-   "mark": 0.998
-  },
-  {
    "oid": "6976580-1794967287",
    "id": "6976580",
    "q": "Will Mark Rothko's “Untitled” sell for between $4.5m and $5.5m at auction?",
@@ -262,7 +260,9 @@
    "hours": 2.96,
    "liq": 1408,
    "fill_ts": 1794970596.794632,
-   "mark": 0.998
+   "mark": 0.9955,
+   "stuck": false,
+   "disputed": false
   }
  ],
  "closed": [
@@ -2285,6 +2285,34 @@
    "result": 1.0,
    "closed_ts": "2026-11-18T02:01:28Z",
    "days": 0.04
+  },
+  {
+   "oid": "6766303-1794967287",
+   "id": "6766303",
+   "q": "Will Pablo Picasso's “Le Baiser” sell for less than $40m at auction?",
+   "cat": "otros",
+   "rule": "otros_cierre",
+   "event": "1328431",
+   "side": 0,
+   "token": "16476288136663565404685102887599023609525815783454433073718438389784128183992",
+   "px": 0.998,
+   "tick": 0.001,
+   "mid": 0.989,
+   "bid": 0.979,
+   "ask": 0.999,
+   "shares": 86.722,
+   "cost": 86.5485,
+   "ts": 1794967287.973541,
+   "end_ts": 1794977940.0,
+   "hours": 2.96,
+   "liq": 2178,
+   "fill_ts": 1794970596.794632,
+   "mark": 0.998,
+   "payout": 86.722,
+   "pnl": 0.1735,
+   "result": 1.0,
+   "closed_ts": "2026-11-18T03:01:46Z",
+   "days": 0.0
   }
  ],
  "runs": [
@@ -3236,11 +3264,24 @@
    "placed": 0,
    "shadow_open": 1815,
    "shadow_closed": 50
+  },
+  {
+   "ts": "2026-11-18T03:02:53Z",
+   "equity": 865.7,
+   "cash": 0.15,
+   "orders": 4,
+   "positions": 7,
+   "closed": 70,
+   "scanned": 13325,
+   "candidates": 680,
+   "placed": 1,
+   "shadow_open": 1825,
+   "shadow_closed": 0
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 168,
+  "placed": 169,
   "filled": 77,
   "expired": 21,
   "touched_not_filled": 67
@@ -26839,6 +26880,136 @@
    "ts": 1794970596,
    "end_ts": 1795222800,
    "q": "Spread: Michigan State (-7.5)",
+   "touched": null
+  },
+  {
+   "id": "6820762",
+   "rule": "post_fin_90_97",
+   "cat": "deportes",
+   "side": 1,
+   "token": "110314822037099456441968965194074126686657995531303101474524275775654041499480",
+   "px": 0.947,
+   "tick": 0.001,
+   "ts": 1794970904,
+   "end_ts": 1794960000,
+   "q": "Spread: Ball State (-6.5)",
+   "touched": null
+  },
+  {
+   "id": "6820763",
+   "rule": "post_fin_90_97",
+   "cat": "deportes",
+   "side": 1,
+   "token": "27609537655026290552254447867439167950659077384587684506704107000176204140533",
+   "px": 0.917,
+   "tick": 0.001,
+   "ts": 1794970904,
+   "end_ts": 1794960000,
+   "q": "Spread: Ball State (-5.5)",
+   "touched": null
+  },
+  {
+   "id": "6820764",
+   "rule": "post_fin_90_97",
+   "cat": "deportes",
+   "side": 1,
+   "token": "21164841295503280062409876625692924794350101465369152765923817743278527242965",
+   "px": 0.92,
+   "tick": 0.001,
+   "ts": 1794970904,
+   "end_ts": 1794960000,
+   "q": "Spread: Ball State (-4.5)",
+   "touched": null
+  },
+  {
+   "id": "6820765",
+   "rule": "post_fin_90_97",
+   "cat": "deportes",
+   "side": 1,
+   "token": "36056545708720850226591610226284103835336026043196409032703740083500863435806",
+   "px": 0.948,
+   "tick": 0.001,
+   "ts": 1794970904,
+   "end_ts": 1794960000,
+   "q": "Spread: Ball State (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "6976953",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "2117012215934482293146599174342817222775441689754317398341573164194626332399",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1794970904,
+   "end_ts": 1794977940,
+   "q": "Will Maura Higgins be eliminated in week 10 of Dancing With The Stars: Season 35?",
+   "touched": null
+  },
+  {
+   "id": "6976956",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "50098456417111708963531166759978333554289478839828417697361130037025953040225",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1794970904,
+   "end_ts": 1794977940,
+   "q": "Will Tatyana Ali be eliminated in week 10 of Dancing With The Stars: Season 35?",
+   "touched": null
+  },
+  {
+   "id": "7109828",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "113164522782170251946360413759366994250541593134288124558456667400076797478673",
+   "px": 0.975,
+   "tick": 0.001,
+   "ts": 1794970904,
+   "end_ts": 1794978000,
+   "q": "Will Ethereum reach $1,850 on November 17?",
+   "touched": null
+  },
+  {
+   "id": "7109962",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "49474961212626625075632412106231642035798020863062882932296573714980377761143",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1794970904,
+   "end_ts": 1794978000,
+   "q": "Will XRP reach $1.00 on November 17?",
+   "touched": null
+  },
+  {
+   "id": "7126585",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "19383938033260275028338203128534526035004800702189059358903755707193938214035",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1794970904,
+   "end_ts": 1795046400,
+   "q": "Spread: Rockets (-29.5)",
+   "touched": null
+  },
+  {
+   "id": "6911371",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "1420949919937409035042185162003996887471693680247300658398488502967774201760",
+   "px": 0.97,
+   "tick": 0.01,
+   "ts": 1794970904,
+   "end_ts": 1795134600,
+   "q": "Spread: FC Cincinnati (-3.5)",
    "touched": null
   }
  ]
