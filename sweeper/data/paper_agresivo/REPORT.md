@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 5.1 de 28 | corridas: 88
-- Capital inicial: $1,000.00 | valor actual: $874.82 | P&L: $-125.18 (-12.52%)
-- Efectivo libre: $0.72 | en ordenes abiertas: $261.24 (3) | en posiciones: $617.60 (8)
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 5.2 de 28 | corridas: 89
+- Capital inicial: $1,000.00 | valor actual: $875.47 | P&L: $-124.53 (-12.45%)
+- Efectivo libre: $0.65 | en ordenes abiertas: $261.31 (3) | en posiciones: $617.60 (8)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 187 colocadas, 85 llenadas, 75 tocadas sin llenarse (sorteo 30%), 24 expiradas
+- Ordenes virtuales: 188 colocadas, 85 llenadas, 76 tocadas sin llenarse (sorteo 30%), 24 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -30,35 +30,35 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
-| $91.77 | 99.8c | 96.5c | otros_cierre |  | Pakistan military action against Afghanistan by November 15, 2026? |
+| $91.77 | 99.8c | 96.2c | otros_cierre |  | Pakistan military action against Afghanistan by November 15, 2026? |
 | $59.11 | 99.9c | 98.9c | cripto_cierre |  | Will Microstrategy announce a Bitcoin purchase November 10-16? |
 | $35.36 | 99.8c | 99.0c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $4.5m and $5.5m at auction? |
-| $87.27 | 99.8c | 98.0c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
+| $87.27 | 99.8c | 98.4c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
 | $87.28 | 97.9c | 98.4c | clima_cierre |  | Will the highest temperature in London be 11°C on November 18? |
 | $82.12 | 98.5c | 97.9c | clima_cierre |  | Will the highest temperature in Paris be 13°C on November 18? |
 | $87.34 | 99.9c | 100.0c | otros_cierre |  | Will the US national average gas price be less than $3.7600 on November 18? |
-| $87.35 | 98.4c | 99.2c | cripto_cierre |  | Will the price of Ethereum be above $1,700 on November 18? |
+| $87.35 | 98.4c | 100.0c | cripto_cierre |  | Will the price of Ethereum be above $1,700 on November 18? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 4582 | abiertas: 1943 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 4671 | abiertas: 1949 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
-| clima_cierre | todas | 1216 | 98.97c | 99.26% | +0.29 pts | -0.19 a +0.77 | 9 |
-| clima_cierre | tocadas | 1110 | 98.97c | 99.19% | +0.22 pts | -0.30 a +0.75 | 9 |
-| cripto_cierre | todas | 694 | 98.87c | 97.98% | -0.88 pts | -1.92 a +0.15 | 14 |
-| cripto_cierre | tocadas | 629 | 98.90c | 97.77% | -1.12 pts | -2.26 a +0.02 | 14 |
-| deportes_previo | todas | 2034 | 98.07c | 97.05% | -1.02 pts | -1.75 a -0.29 | 60 |
-| deportes_previo | tocadas | 1987 | 98.10c | 96.98% | -1.12 pts | -1.87 a -0.37 | 60 |
-| otros_cierre | todas | 597 | 99.27c | 98.66% | -0.61 pts | -1.53 a +0.31 | 8 |
-| otros_cierre | tocadas | 541 | 99.23c | 98.52% | -0.71 pts | -1.72 a +0.31 | 8 |
-| post_fin_90_97 | todas | 41 | 94.21c | 97.56% | +3.35 pts | -1.45 a +8.14 | 1 |
-| post_fin_90_97 | tocadas | 34 | 94.32c | 97.06% | +2.74 pts | -3.03 a +8.50 | 1 |
-| TOTAL | todas | 4582 | 98.55c | 97.99% | -0.56 pts | -0.96 a -0.15 | 92 |
-| TOTAL | tocadas | 4301 | 98.55c | 97.86% | -0.69 pts | -1.12 a -0.26 | 92 |
+| clima_cierre | todas | 1290 | 98.95c | 99.22% | +0.27 pts | -0.20 a +0.75 | 10 |
+| clima_cierre | tocadas | 1178 | 98.95c | 99.15% | +0.20 pts | -0.32 a +0.72 | 10 |
+| cripto_cierre | todas | 695 | 98.86c | 97.99% | -0.88 pts | -1.91 a +0.15 | 14 |
+| cripto_cierre | tocadas | 630 | 98.89c | 97.78% | -1.12 pts | -2.25 a +0.02 | 14 |
+| deportes_previo | todas | 2044 | 98.07c | 97.06% | -1.00 pts | -1.73 a -0.27 | 60 |
+| deportes_previo | tocadas | 1995 | 98.10c | 96.99% | -1.11 pts | -1.85 a -0.36 | 60 |
+| otros_cierre | todas | 600 | 99.27c | 98.67% | -0.60 pts | -1.52 a +0.31 | 8 |
+| otros_cierre | tocadas | 544 | 99.23c | 98.53% | -0.70 pts | -1.71 a +0.31 | 8 |
+| post_fin_90_97 | todas | 42 | 94.16c | 97.62% | +3.46 pts | -1.23 a +8.14 | 1 |
+| post_fin_90_97 | tocadas | 35 | 94.26c | 97.14% | +2.89 pts | -2.72 a +8.50 | 1 |
+| TOTAL | todas | 4671 | 98.55c | 98.01% | -0.54 pts | -0.94 a -0.14 | 93 |
+| TOTAL | tocadas | 4382 | 98.55c | 97.88% | -0.67 pts | -1.10 a -0.25 | 93 |
 
 Peores casos del registro sombra:
 
@@ -75,4 +75,4 @@ Peores casos del registro sombra:
 
 ## Veredicto
 
-Aun no hay veredicto: van 77 operaciones cerradas en 5.1 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
+Aun no hay veredicto: van 77 operaciones cerradas en 5.2 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.

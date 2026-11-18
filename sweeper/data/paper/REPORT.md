@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-11T22:05:26Z | dias corridos: 6.7 de 28 | corridas: 125
-- Capital inicial: $1,000.00 | valor actual: $1,040.66 | P&L: $+40.66 (+4.07%)
-- Efectivo libre: $364.70 | en ordenes abiertas: $468.08 (9) | en posiciones: $207.58 (4)
+- Inicio: 2026-11-11T22:05:26Z | dias corridos: 6.8 de 28 | corridas: 126
+- Capital inicial: $1,000.00 | valor actual: $1,041.30 | P&L: $+41.30 (+4.13%)
+- Efectivo libre: $416.74 | en ordenes abiertas: $416.05 (8) | en posiciones: $207.58 (4)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 216 colocadas, 58 llenadas, 96 tocadas sin llenarse (sorteo 30%), 53 expiradas
+- Ordenes virtuales: 216 colocadas, 58 llenadas, 97 tocadas sin llenarse (sorteo 30%), 53 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -27,16 +27,16 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
-| $51.82 | 98.5c | 98.0c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
-| $51.86 | 99.8c | 99.9c | cripto_cierre |  | Will the price of Ethereum be above $1,600 on November 18? |
+| $51.82 | 98.5c | 98.4c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
+| $51.86 | 99.8c | 100.0c | cripto_cierre |  | Will the price of Ethereum be above $1,600 on November 18? |
 | $51.86 | 98.9c | 98.9c | deportes_previo |  | Jackson State Tigers vs. Baylor Bears |
-| $52.03 | 98.2c | 99.2c | cripto_cierre |  | Will the price of Ethereum be above $1,700 on November 18? |
+| $52.03 | 98.2c | 100.0c | cripto_cierre |  | Will the price of Ethereum be above $1,700 on November 18? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 1946 | abiertas: 248 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 1946 | abiertas: 285 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
@@ -66,4 +66,4 @@ Peores casos del registro sombra:
 
 ## Veredicto
 
-Aun no hay veredicto: van 54 operaciones cerradas en 6.7 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
+Aun no hay veredicto: van 54 operaciones cerradas en 6.8 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
