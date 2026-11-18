@@ -1,6 +1,6 @@
 {
  "capital0": 1000.0,
- "cash": 313.4581,
+ "cash": 313.304,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
   {
@@ -86,27 +86,6 @@
    "end_ts": 1795021200.0,
    "hours": 1.98,
    "liq": 25172
-  },
-  {
-   "oid": "6747620-1795014073",
-   "id": "6747620",
-   "q": "Coritiba FBC vs. Santos FC: O/U 6.5",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1325080",
-   "side": 1,
-   "token": "17090086171554070101981538903538970573697988236141826935773975672470441566263",
-   "px": 0.97,
-   "tick": 0.001,
-   "mid": 0.97,
-   "bid": 0.966,
-   "ask": 0.974,
-   "shares": 53.5807,
-   "cost": 51.9733,
-   "ts": 1795014073.190746,
-   "end_ts": 1795041000.0,
-   "hours": 7.48,
-   "liq": 13537
   },
   {
    "oid": "6747361-1795024879",
@@ -254,6 +233,27 @@
    "end_ts": 1795092300.0,
    "hours": 14.73,
    "liq": 2472
+  },
+  {
+   "oid": "6993110-1795042873",
+   "id": "6993110",
+   "q": "Spread: Hatta SC (-1.5)",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1373319",
+   "side": 1,
+   "token": "68782594694334363431582148394405577660518843804450445137330268009216094069235",
+   "px": 0.982,
+   "tick": 0.001,
+   "mid": 0.982,
+   "bid": 0.978,
+   "ask": 0.986,
+   "shares": 53.0829,
+   "cost": 52.1274,
+   "ts": 1795042873.550088,
+   "end_ts": 1795092300.0,
+   "hours": 13.73,
+   "liq": 1113
   }
  ],
  "positions": [
@@ -278,7 +278,7 @@
    "hours": 4.96,
    "liq": 1203,
    "fill_ts": 1794967266.068418,
-   "mark": 0.991,
+   "mark": 0.9865,
    "stuck": false,
    "disputed": false
   },
@@ -3712,14 +3712,27 @@
    "placed": 2,
    "shadow_open": 275,
    "shadow_closed": 12
+  },
+  {
+   "ts": "2026-11-18T23:01:57Z",
+   "equity": 1042.79,
+   "cash": 313.3,
+   "orders": 12,
+   "positions": 2,
+   "closed": 57,
+   "scanned": 8620,
+   "candidates": 99,
+   "placed": 1,
+   "shadow_open": 283,
+   "shadow_closed": 0
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 227,
+  "placed": 228,
   "filled": 59,
   "expired": 54,
-  "touched_not_filled": 102
+  "touched_not_filled": 103
  },
  "shadow": [
   {
@@ -5280,7 +5293,7 @@
    "ts": 1794999673,
    "end_ts": 1795030200,
    "q": "Spread: Barakaldo CF (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7117920",
@@ -5293,7 +5306,7 @@
    "ts": 1794999673,
    "end_ts": 1795035600,
    "q": "S&P 500 (SPX) Opens Up or Down on November 18?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6747467",
@@ -5306,7 +5319,7 @@
    "ts": 1794999673,
    "end_ts": 1795044600,
    "q": "Cruzeiro EC vs. SE Palmeiras: O/U 8.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6977977",
@@ -5319,7 +5332,7 @@
    "ts": 1794999673,
    "end_ts": 1795050000,
    "q": "Campbell Fighting Camels vs. Oklahoma Sooners",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7116944",
@@ -7295,6 +7308,110 @@
    "ts": 1795039270,
    "end_ts": 1795142400,
    "q": "Canucks vs. Kraken: O/U 2.5",
+   "touched": null
+  },
+  {
+   "id": "6364921",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "93534646428357729061498198718398965780163108953641833624862004996584717193036",
+   "px": 0.99,
+   "tick": 0.001,
+   "ts": 1795042873,
+   "end_ts": 1795064340,
+   "q": "Will the next Gemini Flash-Lite model (3.6+) be released on November 18, 2026?",
+   "touched": null
+  },
+  {
+   "id": "6991015",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "89784905469754361771880451807943961164492944111074401927649178683628179984287",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795042873,
+   "end_ts": 1795107600,
+   "q": "Will the price of XRP be between $0.70 and $0.80 on November 19?",
+   "touched": null
+  },
+  {
+   "id": "6784143",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "115434895779909973574394758741952553455770976679826587244433805528042049862492",
+   "px": 0.978,
+   "tick": 0.001,
+   "ts": 1795042873,
+   "end_ts": 1795127400,
+   "q": "Spread: EC Vitória (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "7150328",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "18067205826988526062329327957312439510379600789629037022847348068319335086650",
+   "px": 0.971,
+   "tick": 0.001,
+   "ts": 1795042873,
+   "end_ts": 1795136400,
+   "q": "Wild vs. Flames: O/U 2.5",
+   "touched": null
+  },
+  {
+   "id": "7150338",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "3942938044563206290661888724782352588724413942883362805361508397569963073763",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795042873,
+   "end_ts": 1795136400,
+   "q": "Blue Jackets vs. Blackhawks: O/U 2.5",
+   "touched": null
+  },
+  {
+   "id": "7150348",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "79433034183318398107808593059628575611727985406351850766648225492052389612625",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795042873,
+   "end_ts": 1795132800,
+   "q": "Flyers vs. Senators: O/U 2.5",
+   "touched": null
+  },
+  {
+   "id": "7150358",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "90033887376196690416284346302754269463851499566443302773531414331120882265966",
+   "px": 0.971,
+   "tick": 0.001,
+   "ts": 1795042873,
+   "end_ts": 1795132800,
+   "q": "Blues vs. Penguins: O/U 2.5",
+   "touched": null
+  },
+  {
+   "id": "6998342",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "97190001595377753061420059751682052372717231879378795499693186536236797162372",
+   "px": 0.984,
+   "tick": 0.001,
+   "ts": 1795042873,
+   "end_ts": 1795147200,
+   "q": "Tarleton State Texans vs. USC Trojans",
    "touched": null
   }
  ]

@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-11T22:05:26Z | dias corridos: 7.0 de 28 | corridas: 132
-- Capital inicial: $1,000.00 | valor actual: $1,043.02 | P&L: $+43.02 (+4.30%)
-- Efectivo libre: $313.46 | en ordenes abiertas: $624.66 (12) | en posiciones: $103.89 (2)
+- Inicio: 2026-11-11T22:05:26Z | dias corridos: 7.0 de 28 | corridas: 133
+- Capital inicial: $1,000.00 | valor actual: $1,042.79 | P&L: $+42.79 (+4.28%)
+- Efectivo libre: $313.30 | en ordenes abiertas: $624.81 (12) | en posiciones: $103.89 (2)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 227 colocadas, 59 llenadas, 102 tocadas sin llenarse (sorteo 30%), 54 expiradas
+- Ordenes virtuales: 228 colocadas, 59 llenadas, 103 tocadas sin llenarse (sorteo 30%), 54 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -27,14 +27,14 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
-| $51.82 | 98.5c | 99.1c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
+| $51.82 | 98.5c | 98.7c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
 | $52.07 | 96.1c | 97.4c | post_fin_95_97 |  | Will the highest temperature in Seattle be between 54-55°F on November 18? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 2025 | abiertas: 275 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 2025 | abiertas: 283 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
