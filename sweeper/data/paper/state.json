@@ -215,7 +215,7 @@
    "hours": 4.96,
    "liq": 1203,
    "fill_ts": 1794967266.068418,
-   "mark": 0.9845,
+   "mark": 0.9915,
    "stuck": false,
    "disputed": false
   },
@@ -265,7 +265,7 @@
    "hours": 10.98,
    "liq": 4194,
    "fill_ts": 1794996067.599407,
-   "mark": 0.9865,
+   "mark": 0.988,
    "stuck": false,
    "disputed": false
   }
@@ -3428,6 +3428,19 @@
    "placed": 2,
    "shadow_open": 218,
    "shadow_closed": 0
+  },
+  {
+   "ts": "2026-11-18T12:01:39Z",
+   "equity": 1040.71,
+   "cash": 417.2,
+   "orders": 9,
+   "positions": 3,
+   "closed": 54,
+   "scanned": 8171,
+   "candidates": 102,
+   "placed": 0,
+   "shadow_open": 216,
+   "shadow_closed": 3
   }
  ],
  "halted": false,
@@ -4752,32 +4765,6 @@
    "touched": 1
   },
   {
-   "id": "7102299",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 0,
-   "token": "30878411427589413462390874573363631962950257630507459309311911549220669682218",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1794960067,
-   "end_ts": 1794963600,
-   "q": "Ethereum Up or Down - November 17, 4:00PM-8:00PM ET",
-   "touched": null
-  },
-  {
-   "id": "7102302",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 0,
-   "token": "10132326316198703373181624519789833816274596860490366199909710781676616472008",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1794960067,
-   "end_ts": 1794963600,
-   "q": "Solana Up or Down - November 17, 4:00PM-8:00PM ET",
-   "touched": null
-  },
-  {
    "id": "6976579",
    "rule": "otros_cierre",
    "cat": "otros",
@@ -4788,20 +4775,7 @@
    "ts": 1794960067,
    "end_ts": 1794977940,
    "q": "Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction?",
-   "touched": null
-  },
-  {
-   "id": "7109760",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "13472963519181300595685164388715744098033593748237112468285152128225539095582",
-   "px": 0.98,
-   "tick": 0.001,
-   "ts": 1794960067,
-   "end_ts": 1794978000,
-   "q": "Will Bitcoin dip to $63,000 on November 17?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6967562",
@@ -4814,7 +4788,7 @@
    "ts": 1794960067,
    "end_ts": 1795021200,
    "q": "Will the price of Ethereum be above $1,700 on November 18?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6707185",
@@ -4827,7 +4801,7 @@
    "ts": 1794960067,
    "end_ts": 1795032000,
    "q": "Chelsea FC vs. Paris Saint-Germain FC: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6731913",
@@ -4840,7 +4814,7 @@
    "ts": 1794960067,
    "end_ts": 1795044600,
    "q": "CR Flamengo vs. CA Paranaense: Neither team to score first?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6747544",
@@ -4853,7 +4827,7 @@
    "ts": 1794960067,
    "end_ts": 1795042800,
    "q": "Spread: Associação Chapecoense de Futebol (-2.5)",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6747558",
@@ -4866,7 +4840,7 @@
    "ts": 1794960067,
    "end_ts": 1795042800,
    "q": "Clube do Remo vs. Associação Chapecoense de Futebol: O/U 7.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6747559",
@@ -4879,7 +4853,7 @@
    "ts": 1794960067,
    "end_ts": 1795042800,
    "q": "Clube do Remo vs. Associação Chapecoense de Futebol: O/U 8.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6766303",
@@ -6270,6 +6244,19 @@
    "ts": 1795002669,
    "end_ts": 1795055400,
    "q": "Spread: Celtics (-28.5)",
+   "touched": null
+  },
+  {
+   "id": "6989053",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "96933211872755031037975891847879617279882811070920515866938258145404375606330",
+   "px": 0.973,
+   "tick": 0.001,
+   "ts": 1795003271,
+   "end_ts": 1795046400,
+   "q": "Towson Tigers vs. Villanova Wildcats (W)",
    "touched": null
   }
  ]

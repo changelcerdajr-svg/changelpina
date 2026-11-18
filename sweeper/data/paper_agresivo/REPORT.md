@@ -2,8 +2,8 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 4.9 de 28 | corridas: 83
-- Capital inicial: $1,000.00 | valor actual: $873.87 | P&L: $-126.13 (-12.61%)
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 4.9 de 28 | corridas: 84
+- Capital inicial: $1,000.00 | valor actual: $873.73 | P&L: $-126.27 (-12.63%)
 - Efectivo libre: $1.01 | en ordenes abiertas: $260.95 (3) | en posiciones: $617.60 (8)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
 - Ordenes virtuales: 186 colocadas, 85 llenadas, 75 tocadas sin llenarse (sorteo 30%), 23 expiradas
@@ -30,35 +30,35 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
-| $91.77 | 99.8c | 96.2c | otros_cierre |  | Pakistan military action against Afghanistan by November 15, 2026? |
+| $91.77 | 99.8c | 95.7c | otros_cierre |  | Pakistan military action against Afghanistan by November 15, 2026? |
 | $59.11 | 99.9c | 98.9c | cripto_cierre |  | Will Microstrategy announce a Bitcoin purchase November 10-16? |
 | $35.36 | 99.8c | 99.0c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $4.5m and $5.5m at auction? |
-| $87.27 | 99.8c | 98.5c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
+| $87.27 | 99.8c | 99.2c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
 | $87.28 | 97.9c | 98.4c | clima_cierre |  | Will the highest temperature in London be 11°C on November 18? |
 | $82.12 | 98.5c | 97.9c | clima_cierre |  | Will the highest temperature in Paris be 13°C on November 18? |
-| $87.34 | 99.9c | 99.9c | otros_cierre |  | Will the US national average gas price be less than $3.7600 on November 18? |
-| $87.35 | 98.4c | 98.2c | cripto_cierre |  | Will the price of Ethereum be above $1,700 on November 18? |
+| $87.34 | 99.9c | 99.2c | otros_cierre |  | Will the US national average gas price be less than $3.7600 on November 18? |
+| $87.35 | 98.4c | 98.5c | cripto_cierre |  | Will the price of Ethereum be above $1,700 on November 18? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 4479 | abiertas: 1629 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 4509 | abiertas: 1744 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
 | clima_cierre | todas | 1195 | 98.97c | 99.33% | +0.36 pts | -0.10 a +0.82 | 8 |
 | clima_cierre | tocadas | 1090 | 98.97c | 99.27% | +0.30 pts | -0.21 a +0.81 | 8 |
-| cripto_cierre | todas | 667 | 98.90c | 98.05% | -0.85 pts | -1.89 a +0.19 | 13 |
-| cripto_cierre | tocadas | 616 | 98.92c | 97.89% | -1.03 pts | -2.16 a +0.09 | 13 |
-| deportes_previo | todas | 1988 | 98.07c | 97.18% | -0.88 pts | -1.61 a -0.16 | 56 |
-| deportes_previo | tocadas | 1943 | 98.11c | 97.12% | -0.99 pts | -1.73 a -0.25 | 56 |
-| otros_cierre | todas | 589 | 99.28c | 98.64% | -0.64 pts | -1.57 a +0.29 | 8 |
-| otros_cierre | tocadas | 533 | 99.25c | 98.50% | -0.75 pts | -1.78 a +0.28 | 8 |
+| cripto_cierre | todas | 687 | 98.88c | 98.11% | -0.77 pts | -1.78 a +0.24 | 13 |
+| cripto_cierre | tocadas | 622 | 98.91c | 97.91% | -1.00 pts | -2.12 a +0.11 | 13 |
+| deportes_previo | todas | 1997 | 98.07c | 97.20% | -0.88 pts | -1.60 a -0.16 | 56 |
+| deportes_previo | tocadas | 1951 | 98.11c | 97.13% | -0.98 pts | -1.72 a -0.24 | 56 |
+| otros_cierre | todas | 590 | 99.28c | 98.64% | -0.64 pts | -1.57 a +0.29 | 8 |
+| otros_cierre | tocadas | 534 | 99.25c | 98.50% | -0.74 pts | -1.77 a +0.28 | 8 |
 | post_fin_90_97 | todas | 40 | 94.19c | 97.50% | +3.31 pts | -1.61 a +8.22 | 1 |
 | post_fin_90_97 | tocadas | 33 | 94.30c | 96.97% | +2.67 pts | -3.28 a +8.61 | 1 |
-| TOTAL | todas | 4479 | 98.56c | 98.08% | -0.48 pts | -0.88 a -0.08 | 86 |
-| TOTAL | tocadas | 4215 | 98.56c | 97.96% | -0.60 pts | -1.03 a -0.18 | 86 |
+| TOTAL | todas | 4509 | 98.56c | 98.09% | -0.46 pts | -0.86 a -0.07 | 86 |
+| TOTAL | tocadas | 4230 | 98.56c | 97.97% | -0.59 pts | -1.02 a -0.17 | 86 |
 
 Peores casos del registro sombra:
 
