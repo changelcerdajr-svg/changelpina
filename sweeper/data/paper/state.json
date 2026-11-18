@@ -1,6 +1,6 @@
 {
  "capital0": 1000.0,
- "cash": 416.8018,
+ "cash": 417.4309,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
   {
@@ -170,6 +170,27 @@
    "end_ts": 1795021200.0,
    "hours": 10.98,
    "liq": 4194
+  },
+  {
+   "oid": "7105581-1794985268",
+   "id": "7105581",
+   "q": "Spread: Hornets (-1.5)",
+   "cat": "deportes",
+   "rule": "post_fin_95_97",
+   "event": "1306312",
+   "side": 1,
+   "token": "15641216290593666081773478361268266911108889751397064032484939627914581039987",
+   "px": 0.95,
+   "tick": 0.01,
+   "mid": 0.95,
+   "bid": 0.94,
+   "ask": 0.96,
+   "shares": 54.6664,
+   "cost": 51.933,
+   "ts": 1794985268.424417,
+   "end_ts": 1794974400.0,
+   "hours": -3.02,
+   "liq": 24930
   }
  ],
  "positions": [
@@ -195,31 +216,6 @@
    "liq": 3771,
    "fill_ts": 1794913270.991008,
    "mark": 0.997,
-   "stuck": false,
-   "disputed": false
-  },
-  {
-   "oid": "6713960-1794945673",
-   "id": "6713960",
-   "q": "Spread: Jamaica (-1.5)",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1320311",
-   "side": 1,
-   "token": "115119329868039715955347166340688682670801365133910881907769739936950534787319",
-   "px": 0.983,
-   "tick": 0.001,
-   "mid": 0.983,
-   "bid": 0.981,
-   "ask": 0.985,
-   "shares": 52.5621,
-   "cost": 51.6685,
-   "ts": 1794945673.970573,
-   "end_ts": 1794969000.0,
-   "hours": 6.48,
-   "liq": 11703,
-   "fill_ts": 1794952869.353566,
-   "mark": 0.9765,
    "stuck": false,
    "disputed": false
   },
@@ -269,7 +265,7 @@
    "hours": 4.96,
    "liq": 1203,
    "fill_ts": 1794967266.068418,
-   "mark": 0.983,
+   "mark": 0.9855,
    "stuck": false,
    "disputed": false
   }
@@ -1784,6 +1780,36 @@
    "result": 1.0,
    "closed_ts": "2026-11-18T06:01:11Z",
    "days": 0.29
+  },
+  {
+   "oid": "6713960-1794945673",
+   "id": "6713960",
+   "q": "Spread: Jamaica (-1.5)",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1320311",
+   "side": 1,
+   "token": "115119329868039715955347166340688682670801365133910881907769739936950534787319",
+   "px": 0.983,
+   "tick": 0.001,
+   "mid": 0.983,
+   "bid": 0.981,
+   "ask": 0.985,
+   "shares": 52.5621,
+   "cost": 51.6685,
+   "ts": 1794945673.970573,
+   "end_ts": 1794969000.0,
+   "hours": 6.48,
+   "liq": 11703,
+   "fill_ts": 1794952869.353566,
+   "mark": 0.9765,
+   "stuck": false,
+   "disputed": false,
+   "payout": 52.5621,
+   "pnl": 0.8936,
+   "result": 1.0,
+   "closed_ts": "2026-11-18T07:01:09Z",
+   "days": 0.37
   }
  ],
  "runs": [
@@ -3264,11 +3290,24 @@
    "placed": 2,
    "shadow_open": 214,
    "shadow_closed": 42
+  },
+  {
+   "ts": "2026-11-18T07:01:33Z",
+   "equity": 1038.66,
+   "cash": 417.43,
+   "orders": 9,
+   "positions": 3,
+   "closed": 52,
+   "scanned": 7066,
+   "candidates": 106,
+   "placed": 1,
+   "shadow_open": 211,
+   "shadow_closed": 11
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 200,
+  "placed": 201,
   "filled": 55,
   "expired": 46,
   "touched_not_filled": 91
@@ -3353,19 +3392,6 @@
    "touched": 1
   },
   {
-   "id": "6964686",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "91408809831654272374195157684303413781787892955797314043330968702432722141841",
-   "px": 0.986,
-   "tick": 0.001,
-   "ts": 1794859283,
-   "end_ts": 1794967200,
-   "q": "Texas Southern Tigers vs. Oklahoma Sooners (W)",
-   "touched": 1
-  },
-  {
    "id": "6635053",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -3377,32 +3403,6 @@
    "end_ts": 1794924000,
    "q": "Indonesia leading at halftime?",
    "touched": 0
-  },
-  {
-   "id": "6950619",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "79171017165165035016761609377800707808864663668210875613508174678102584382266",
-   "px": 0.972,
-   "tick": 0.001,
-   "ts": 1794884470,
-   "end_ts": 1794967200,
-   "q": "Old Dominion Monarchs vs. Virginia Cavaliers",
-   "touched": 0
-  },
-  {
-   "id": "6713976",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "103566283249135893638425506837748603998908741604544625970147594054651994468781",
-   "px": 0.98,
-   "tick": 0.001,
-   "ts": 1794888072,
-   "end_ts": 1794969000,
-   "q": "Mexico vs. Jamaica: O/U 7.5",
-   "touched": 1
   },
   {
    "id": "7091075",
@@ -3429,58 +3429,6 @@
    "end_ts": 1794977940,
    "q": "Will the next Gemini Flash-Lite model (3.6+) be released on November 17, 2026?",
    "touched": 1
-  },
-  {
-   "id": "6713960",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "115119329868039715955347166340688682670801365133910881907769739936950534787319",
-   "px": 0.982,
-   "tick": 0.001,
-   "ts": 1794891671,
-   "end_ts": 1794969000,
-   "q": "Spread: Jamaica (-1.5)",
-   "touched": 1
-  },
-  {
-   "id": "6713962",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "14539279758019529843013547840974507749773754980369842103647819573300529351772",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1794891671,
-   "end_ts": 1794969000,
-   "q": "Spread: Jamaica (-2.5)",
-   "touched": 1
-  },
-  {
-   "id": "6713964",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "56370901336264693007055159635534068005085204593107701700110708558410947505944",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1794891671,
-   "end_ts": 1794969000,
-   "q": "Spread: Jamaica (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "6713969",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "69906812958892456835485827647599741030488653226743650940204780369401251115842",
-   "px": 0.972,
-   "tick": 0.001,
-   "ts": 1794891671,
-   "end_ts": 1794969000,
-   "q": "Mexico vs. Jamaica: O/U 0.5",
-   "touched": 0
   },
   {
    "id": "6952602",
@@ -4211,58 +4159,6 @@
    "touched": 0
   },
   {
-   "id": "7092203",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "38226774482363625968096464958656032096398589009040726011767251851804450402419",
-   "px": 0.991,
-   "tick": 0.001,
-   "ts": 1794938472,
-   "end_ts": 1794949200,
-   "q": "Will Google (GOOGL) close above $300 on November 17?",
-   "touched": null
-  },
-  {
-   "id": "7092211",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "73675884305811887236417827196522530690613635462935419228374686544865875448545",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1794938472,
-   "end_ts": 1794949200,
-   "q": "Will Meta (META) close above $660 on November 17?",
-   "touched": null
-  },
-  {
-   "id": "7092215",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "33125210251522005874888438996924226249561110817606972814783174387831073819664",
-   "px": 0.972,
-   "tick": 0.001,
-   "ts": 1794938472,
-   "end_ts": 1794949200,
-   "q": "Will Tesla (TSLA) close above $390 on November 17?",
-   "touched": null
-  },
-  {
-   "id": "7092230",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "27847885887236827118162066933049178225576505986347659440675199782160996971984",
-   "px": 0.978,
-   "tick": 0.001,
-   "ts": 1794938472,
-   "end_ts": 1794949200,
-   "q": "SPY (SPY) Up or Down on November 17?",
-   "touched": null
-  },
-  {
    "id": "6713910",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -4273,7 +4169,7 @@
    "ts": 1794938472,
    "end_ts": 1794970800,
    "q": "Spread: Montserrat (-1.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6707325",
@@ -4286,7 +4182,7 @@
    "ts": 1794938472,
    "end_ts": 1795023900,
    "q": "Real Madrid CF Femenino vs. FC Internazionale Milano: O/U 0.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6967659",
@@ -4299,7 +4195,7 @@
    "ts": 1794938472,
    "end_ts": 1795021200,
    "q": "Will the price of Solana be between $40 and $50 on November 18?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6967677",
@@ -4312,7 +4208,7 @@
    "ts": 1794938472,
    "end_ts": 1795021200,
    "q": "Will the price of Solana be between $80 and $90 on November 18?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6747465",
@@ -4325,7 +4221,7 @@
    "ts": 1794938472,
    "end_ts": 1795044600,
    "q": "Cruzeiro EC vs. SE Palmeiras: O/U 6.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6747512",
@@ -4338,7 +4234,7 @@
    "ts": 1794938472,
    "end_ts": 1795044600,
    "q": "CR Flamengo vs. CA Paranaense: O/U 7.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6747622",
@@ -4351,7 +4247,7 @@
    "ts": 1794938472,
    "end_ts": 1795041000,
    "q": "Coritiba FBC vs. Santos FC: O/U 7.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6747623",
@@ -4364,7 +4260,7 @@
    "ts": 1794938472,
    "end_ts": 1795041000,
    "q": "Coritiba FBC vs. Santos FC: O/U 8.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6977188",
@@ -4377,7 +4273,7 @@
    "ts": 1794938472,
    "end_ts": 1795046400,
    "q": "Siena Saints vs. St. John's Red Storm",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6989047",
@@ -4390,7 +4286,7 @@
    "ts": 1794938472,
    "end_ts": 1795046400,
    "q": "Niagara Purple Eagles vs. Michigan Wolverines (W)",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6989048",
@@ -4403,7 +4299,7 @@
    "ts": 1794938472,
    "end_ts": 1795046400,
    "q": "Southern Jaguars vs. Notre Dame Fighting Irish (W)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7092204",
@@ -6054,6 +5950,110 @@
    "ts": 1794981668,
    "end_ts": 1795064400,
    "q": "Will XRP reach $1.10 on November 18?",
+   "touched": null
+  },
+  {
+   "id": "7105581",
+   "rule": "post_fin_95_97",
+   "cat": "deportes",
+   "side": 1,
+   "token": "15641216290593666081773478361268266911108889751397064032484939627914581039987",
+   "px": 0.95,
+   "tick": 0.01,
+   "ts": 1794985268,
+   "end_ts": 1794974400,
+   "q": "Spread: Hornets (-1.5)",
+   "touched": null
+  },
+  {
+   "id": "6707178",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "112139128153995021264983801989600565247925745747784175187539546561721165225496",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1794985268,
+   "end_ts": 1795032000,
+   "q": "Chelsea FC vs. Paris Saint-Germain FC: O/U 0.5",
+   "touched": null
+  },
+  {
+   "id": "6710888",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "10722237076770372082072812045376364368316905798813680084508393964606956381507",
+   "px": 0.973,
+   "tick": 0.001,
+   "ts": 1794985268,
+   "end_ts": 1795032000,
+   "q": "Spread: Club Alianza Atlético (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "6977182",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "114762517589219938499484923768543639911882554938829561553454986223445541585215",
+   "px": 0.973,
+   "tick": 0.001,
+   "ts": 1794985268,
+   "end_ts": 1795046400,
+   "q": "North Carolina Central Eagles vs. George Mason Patriots",
+   "touched": null
+  },
+  {
+   "id": "6978780",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "91377756457936062429433808690181765377244046226656747662149172354207291197367",
+   "px": 0.973,
+   "tick": 0.001,
+   "ts": 1794985268,
+   "end_ts": 1795053600,
+   "q": "Oakland Golden Grizzlies vs. Arizona State Sun Devils",
+   "touched": null
+  },
+  {
+   "id": "7135917",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "36853305034044752562775326747804498066606594226217603493809413455141210426847",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1794985268,
+   "end_ts": 1795064400,
+   "q": "Will Ethereum dip to $1,550 on November 18?",
+   "touched": null
+  },
+  {
+   "id": "7135927",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "2338143704792139031983506940551424135588606804681756752390989579130670030954",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1794985268,
+   "end_ts": 1795064400,
+   "q": "Will Solana dip to $55 on November 18?",
+   "touched": null
+  },
+  {
+   "id": "7135928",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "40815403484691268567131114176036050675672495512991838369775127428628300935534",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1794985268,
+   "end_ts": 1795064400,
+   "q": "Will Solana dip to $50 on November 18?",
    "touched": null
   }
  ]
