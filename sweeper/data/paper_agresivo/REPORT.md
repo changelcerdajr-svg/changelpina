@@ -2,8 +2,8 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 5.0 de 28 | corridas: 86
-- Capital inicial: $1,000.00 | valor actual: $873.28 | P&L: $-126.72 (-12.67%)
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 5.1 de 28 | corridas: 87
+- Capital inicial: $1,000.00 | valor actual: $872.05 | P&L: $-127.95 (-12.80%)
 - Efectivo libre: $1.01 | en ordenes abiertas: $260.95 (3) | en posiciones: $617.60 (8)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
 - Ordenes virtuales: 186 colocadas, 85 llenadas, 75 tocadas sin llenarse (sorteo 30%), 23 expiradas
@@ -30,20 +30,20 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
-| $91.77 | 99.8c | 95.7c | otros_cierre |  | Pakistan military action against Afghanistan by November 15, 2026? |
+| $91.77 | 99.8c | 96.0c | otros_cierre |  | Pakistan military action against Afghanistan by November 15, 2026? |
 | $59.11 | 99.9c | 98.9c | cripto_cierre |  | Will Microstrategy announce a Bitcoin purchase November 10-16? |
 | $35.36 | 99.8c | 99.0c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $4.5m and $5.5m at auction? |
-| $87.27 | 99.8c | 99.2c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
+| $87.27 | 99.8c | 99.1c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
 | $87.28 | 97.9c | 98.4c | clima_cierre |  | Will the highest temperature in London be 11°C on November 18? |
 | $82.12 | 98.5c | 97.9c | clima_cierre |  | Will the highest temperature in Paris be 13°C on November 18? |
-| $87.34 | 99.9c | 99.2c | otros_cierre |  | Will the US national average gas price be less than $3.7600 on November 18? |
-| $87.35 | 98.4c | 98.0c | cripto_cierre |  | Will the price of Ethereum be above $1,700 on November 18? |
+| $87.34 | 99.9c | 99.5c | otros_cierre |  | Will the US national average gas price be less than $3.7600 on November 18? |
+| $87.35 | 98.4c | 96.0c | cripto_cierre |  | Will the price of Ethereum be above $1,700 on November 18? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 4547 | abiertas: 1782 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 4547 | abiertas: 1882 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
@@ -75,4 +75,4 @@ Peores casos del registro sombra:
 
 ## Veredicto
 
-Aun no hay veredicto: van 77 operaciones cerradas en 5.0 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
+Aun no hay veredicto: van 77 operaciones cerradas en 5.1 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
