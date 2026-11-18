@@ -1,29 +1,8 @@
 {
  "capital0": 1000.0,
- "cash": 416.76,
+ "cash": 416.5276,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
-  {
-   "oid": "6935838-1794924070",
-   "id": "6935838",
-   "q": "Will the price of Bitcoin be between $68,000 and $70,000 on November 17?",
-   "cat": "cripto",
-   "rule": "cripto_cierre",
-   "event": "1357717",
-   "side": 1,
-   "token": "8459046142200769103800319445241013660323307982816025403984281659798370267773",
-   "px": 0.988,
-   "tick": 0.001,
-   "mid": 0.988,
-   "bid": 0.986,
-   "ask": 0.99,
-   "shares": 52.2275,
-   "cost": 51.6008,
-   "ts": 1794924070.81051,
-   "end_ts": 1794934800.0,
-   "hours": 2.98,
-   "liq": 24000
-  },
   {
    "oid": "6949272-1794949203",
    "id": "6949272",
@@ -130,25 +109,46 @@
    "liq": 1807
   },
   {
-   "oid": "6820818-1794967266",
-   "id": "6820818",
-   "q": "Spread: Eastern Michigan (-2.5)",
-   "cat": "deportes",
-   "rule": "post_fin_95_97",
-   "event": "1335828",
+   "oid": "7109823-1794970569",
+   "id": "7109823",
+   "q": "Will Ethereum reach $1,900 on November 17?",
+   "cat": "cripto",
+   "rule": "cripto_cierre",
+   "event": "1407041",
    "side": 1,
-   "token": "5773466614182101939480437053799944864823888304201004184326340864173541128634",
-   "px": 0.964,
+   "token": "98421279765209883874231302435604435181555709565680820891439197025986264251082",
+   "px": 0.993,
    "tick": 0.001,
-   "mid": 0.9645,
-   "bid": 0.955,
-   "ask": 0.974,
-   "shares": 53.8221,
-   "cost": 51.8845,
-   "ts": 1794967266.068418,
-   "end_ts": 1794956400.0,
-   "hours": -3.02,
-   "liq": 6743
+   "mid": 0.993,
+   "bid": 0.987,
+   "ask": 0.999,
+   "shares": 52.2092,
+   "cost": 51.8437,
+   "ts": 1794970569.948816,
+   "end_ts": 1794978000.0,
+   "hours": 2.06,
+   "liq": 19331
+  },
+  {
+   "oid": "6977177-1794970569",
+   "id": "6977177",
+   "q": "Jackson State Tigers vs. Baylor Bears",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1367849",
+   "side": 1,
+   "token": "30334215052778234746141493787503993456219738214956472113831741158001079705678",
+   "px": 0.99,
+   "tick": 0.001,
+   "mid": 0.99,
+   "bid": 0.981,
+   "ask": 0.999,
+   "shares": 52.3979,
+   "cost": 51.874,
+   "ts": 1794970569.948816,
+   "end_ts": 1795021200.0,
+   "hours": 14.06,
+   "liq": 4168
   }
  ],
  "positions": [
@@ -248,7 +248,7 @@
    "hours": 6.98,
    "liq": 1682,
    "fill_ts": 1794963666.394334,
-   "mark": 0.978,
+   "mark": 0.977,
    "stuck": false,
    "disputed": false
   },
@@ -273,7 +273,9 @@
    "hours": 4.96,
    "liq": 1203,
    "fill_ts": 1794967266.068418,
-   "mark": 0.985
+   "mark": 0.982,
+   "stuck": false,
+   "disputed": false
   }
  ],
  "closed": [
@@ -3171,14 +3173,27 @@
    "placed": 1,
    "shadow_open": 301,
    "shadow_closed": 7
+  },
+  {
+   "ts": "2026-11-18T02:56:36Z",
+   "equity": 1037.48,
+   "cash": 416.53,
+   "orders": 7,
+   "positions": 5,
+   "closed": 50,
+   "scanned": 7778,
+   "candidates": 80,
+   "placed": 2,
+   "shadow_open": 290,
+   "shadow_closed": 13
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 194,
+  "placed": 196,
   "filled": 55,
-  "expired": 45,
-  "touched_not_filled": 87
+  "expired": 46,
+  "touched_not_filled": 88
  },
  "shadow": [
   {
@@ -3273,45 +3288,6 @@
    "touched": 0
   },
   {
-   "id": "6931726",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "7962991310672473999136470799287118383961443930832845131061909124496965496944",
-   "px": 0.973,
-   "tick": 0.001,
-   "ts": 1794852072,
-   "end_ts": 1794956400,
-   "q": "Will Costa Rica win on 2026-11-17?",
-   "touched": 1
-  },
-  {
-   "id": "6944029",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "60643566931993147179722295508182559005683847691711299709989793186419764678148",
-   "px": 0.975,
-   "tick": 0.001,
-   "ts": 1794852072,
-   "end_ts": 1794956400,
-   "q": "Argentina vs. Costa Rica: O/U 0.5",
-   "touched": 1
-  },
-  {
-   "id": "6964643",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "71737199758137390524412781014105780674513487926215127185478408623441111429340",
-   "px": 0.987,
-   "tick": 0.001,
-   "ts": 1794852072,
-   "end_ts": 1794956400,
-   "q": "Tennessee State Tigers vs. Louisville Cardinals (W)",
-   "touched": 0
-  },
-  {
    "id": "6964672",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -3403,19 +3379,6 @@
    "touched": 1
   },
   {
-   "id": "7097657",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "61090453833325694481144886016003137754672143456621059452192944453795612826656",
-   "px": 0.971,
-   "tick": 0.001,
-   "ts": 1794873672,
-   "end_ts": 1794960000,
-   "q": "Oilers vs. Panthers: O/U 2.5",
-   "touched": 1
-  },
-  {
    "id": "6949424",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -3466,32 +3429,6 @@
    "end_ts": 1794963600,
    "q": "Oral Roberts Golden Eagles vs. SMU Mustangs",
    "touched": 0
-  },
-  {
-   "id": "7097627",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "87932734017866087900196214633864721703152458856807569784697088077807833127927",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1794880869,
-   "end_ts": 1794961800,
-   "q": "Maple Leafs vs. Blackhawks: O/U 2.5",
-   "touched": 1
-  },
-  {
-   "id": "7097906",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "70888255365345670325584635227675487904558973578974288840091118942303986949603",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1794882625,
-   "end_ts": 1794963600,
-   "q": "Ducks vs. Blues: O/U 2.5",
-   "touched": 1
   },
   {
    "id": "6950619",
@@ -3608,58 +3545,6 @@
    "ts": 1794891671,
    "end_ts": 1794944700,
    "q": "Spread: Harborough Town FC (-2.5)",
-   "touched": 1
-  },
-  {
-   "id": "6944020",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "532972192905614053917913625305307061475103647559452806130856057295581298777",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1794891671,
-   "end_ts": 1794956400,
-   "q": "Spread: Costa Rica (-1.5)",
-   "touched": 1
-  },
-  {
-   "id": "6944022",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "76307909445535931098236659923545998888046725571674457811839071748246677187030",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1794891671,
-   "end_ts": 1794956400,
-   "q": "Spread: Costa Rica (-2.5)",
-   "touched": 1
-  },
-  {
-   "id": "6944024",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "59325079201795096111994384059504408792896805016466271820401850227885677513042",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1794891671,
-   "end_ts": 1794956400,
-   "q": "Spread: Costa Rica (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "6944036",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "67821893021103474932018490849243607034373015843720372391144651817640525074137",
-   "px": 0.981,
-   "tick": 0.001,
-   "ts": 1794891671,
-   "end_ts": 1794956400,
-   "q": "Argentina vs. Costa Rica: O/U 7.5",
    "touched": 1
   },
   {
@@ -4128,19 +4013,6 @@
    "ts": 1794895269,
    "end_ts": 1794960000,
    "q": "Sacred Heart Pioneers vs. Providence Friars",
-   "touched": 1
-  },
-  {
-   "id": "7097917",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "20864738060852143060936340118021189372298503292122967554214148959677912976500",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1794895269,
-   "end_ts": 1794963600,
-   "q": "Predators vs. Wild: O/U 2.5",
    "touched": 1
   },
   {
@@ -4807,19 +4679,6 @@
    "touched": 1
   },
   {
-   "id": "6820811",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "74541138132386472324445929705845917279767713300312547695170463610751335753916",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1794909672,
-   "end_ts": 1794956400,
-   "q": "Spread: Eastern Michigan (-10.5)",
-   "touched": 1
-  },
-  {
    "id": "7109818",
    "rule": "cripto_cierre",
    "cat": "cripto",
@@ -4870,19 +4729,6 @@
    "end_ts": 1794978000,
    "q": "Will Bitcoin dip to $61,000 on November 17?",
    "touched": 1
-  },
-  {
-   "id": "7057767",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 0,
-   "token": "40813261113497646775864161509756524124393592877532197562532344602077377920941",
-   "px": 0.974,
-   "tick": 0.001,
-   "ts": 1794924070,
-   "end_ts": 1794934800,
-   "q": "Solana Up or Down on November 17?",
-   "touched": null
   },
   {
    "id": "7092210",
@@ -7092,6 +6938,32 @@
    "ts": 1794967266,
    "end_ts": 1795048200,
    "q": "Canadiens vs. Devils: O/U 2.5",
+   "touched": null
+  },
+  {
+   "id": "7121659",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "85267436674812431841969090558307129387630412818001312581379284852505906774907",
+   "px": 0.98,
+   "tick": 0.001,
+   "ts": 1794970569,
+   "end_ts": 1795021205,
+   "q": "Will MrBeast's next video get 79 million or more views on day 4?",
+   "touched": null
+  },
+  {
+   "id": "6978782",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "79169392468835948167533811389174157398187801992623494831444925906251720087910",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1794970569,
+   "end_ts": 1795053600,
+   "q": "Weber State Wildcats vs. Utah State Aggies",
    "touched": null
   }
  ]
