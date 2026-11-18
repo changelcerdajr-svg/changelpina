@@ -1,29 +1,8 @@
 {
  "capital0": 1000.0,
- "cash": 417.4642,
+ "cash": 313.2607,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
-  {
-   "oid": "7121659-1794988874",
-   "id": "7121659",
-   "q": "Will MrBeast's next video get 79 million or more views on day 4?",
-   "cat": "otros",
-   "rule": "otros_cierre",
-   "event": "1410669",
-   "side": 1,
-   "token": "85267436674812431841969090558307129387630412818001312581379284852505906774907",
-   "px": 0.995,
-   "tick": 0.001,
-   "mid": 0.9955,
-   "bid": 0.992,
-   "ask": 0.999,
-   "shares": 52.264,
-   "cost": 52.0026,
-   "ts": 1794988874.749538,
-   "end_ts": 1795021205.0,
-   "hours": 8.98,
-   "liq": 1611
-  },
   {
    "oid": "7029427-1794999673",
    "id": "7029427",
@@ -212,6 +191,69 @@
    "end_ts": 1795051800.0,
    "hours": 6.48,
    "liq": 5023
+  },
+  {
+   "oid": "7117878-1795032078",
+   "id": "7117878",
+   "q": "Will Microsoft (MSFT) close above $500 on November 18?",
+   "cat": "otros",
+   "rule": "otros_cierre",
+   "event": "1409388",
+   "side": 0,
+   "token": "11600600261924444041419404552393589126616760001242785193200632758263219912842",
+   "px": 0.982,
+   "tick": 0.001,
+   "mid": 0.9825,
+   "bid": 0.968,
+   "ask": 0.997,
+   "shares": 53.0231,
+   "cost": 52.0687,
+   "ts": 1795032078.953532,
+   "end_ts": 1795035600.0,
+   "hours": 0.98,
+   "liq": 15464
+  },
+  {
+   "oid": "7088996-1795032078",
+   "id": "7088996",
+   "q": "Will the highest temperature in Atlanta be between 68-69°F on November 18?",
+   "cat": "clima",
+   "rule": "post_fin_95_97",
+   "event": "1400361",
+   "side": 1,
+   "token": "95613458854384937715969630031900748463820275235559186036655675376918144489484",
+   "px": 0.958,
+   "tick": 0.001,
+   "mid": 0.958,
+   "bid": 0.946,
+   "ask": 0.97,
+   "shares": 54.3515,
+   "cost": 52.0687,
+   "ts": 1795032078.953532,
+   "end_ts": 1795003200.0,
+   "hours": -8.02,
+   "liq": 1405
+  },
+  {
+   "oid": "7090617-1795032078",
+   "id": "7090617",
+   "q": "Will the highest temperature in Seattle be between 54-55°F on November 18?",
+   "cat": "clima",
+   "rule": "post_fin_95_97",
+   "event": "1401094",
+   "side": 1,
+   "token": "43951810036230534205292040051747909550080522252705020684267426660110127144260",
+   "px": 0.961,
+   "tick": 0.001,
+   "mid": 0.961,
+   "bid": 0.952,
+   "ask": 0.97,
+   "shares": 54.1818,
+   "cost": 52.0687,
+   "ts": 1795032078.953532,
+   "end_ts": 1795003200.0,
+   "hours": -8.02,
+   "liq": 1081
   }
  ],
  "positions": [
@@ -236,7 +278,7 @@
    "hours": 4.96,
    "liq": 1203,
    "fill_ts": 1794967266.068418,
-   "mark": 0.9875,
+   "mark": 0.9845,
    "stuck": false,
    "disputed": false
   },
@@ -3588,13 +3630,26 @@
    "placed": 2,
    "shadow_open": 256,
    "shadow_closed": 1
+  },
+  {
+   "ts": "2026-11-18T20:01:49Z",
+   "equity": 1041.37,
+   "cash": 313.26,
+   "orders": 12,
+   "positions": 2,
+   "closed": 56,
+   "scanned": 8658,
+   "candidates": 82,
+   "placed": 3,
+   "shadow_open": 263,
+   "shadow_closed": 5
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 221,
+  "placed": 224,
   "filled": 58,
-  "expired": 53,
+  "expired": 54,
   "touched_not_filled": 100
  },
  "shadow": [
@@ -4262,19 +4317,6 @@
    "touched": 0
   },
   {
-   "id": "7121653",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "70563475019807056654860067707913295429799693457673853050294627270331302156504",
-   "px": 0.985,
-   "tick": 0.001,
-   "ts": 1794963666,
-   "end_ts": 1795021205,
-   "q": "Will MrBeast's next video get less than 74 million views on day 4?",
-   "touched": 1
-  },
-  {
    "id": "6696296",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -4327,32 +4369,6 @@
    "touched": 1
   },
   {
-   "id": "7121654",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "67172090366494036840007574363735515614863234739272658459465066210046311743589",
-   "px": 0.992,
-   "tick": 0.001,
-   "ts": 1794967266,
-   "end_ts": 1795021205,
-   "q": "Will MrBeast's next video get between 74 and 75 million views on day 4?",
-   "touched": 1
-  },
-  {
-   "id": "7121655",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "88789880366157166702482569614442080321494303498195506097774753409055330203693",
-   "px": 0.977,
-   "tick": 0.001,
-   "ts": 1794967266,
-   "end_ts": 1795021205,
-   "q": "Will MrBeast's next video get between 75 and 76 million views on day 4?",
-   "touched": 1
-  },
-  {
    "id": "6747362",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -4389,19 +4405,6 @@
    "ts": 1794967266,
    "end_ts": 1795048200,
    "q": "Canadiens vs. Devils: O/U 2.5",
-   "touched": 1
-  },
-  {
-   "id": "7121659",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "85267436674812431841969090558307129387630412818001312581379284852505906774907",
-   "px": 0.98,
-   "tick": 0.001,
-   "ts": 1794970569,
-   "end_ts": 1795021205,
-   "q": "Will MrBeast's next video get 79 million or more views on day 4?",
    "touched": 1
   },
   {
@@ -5042,19 +5045,6 @@
    "touched": 0
   },
   {
-   "id": "7110238",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 0,
-   "token": "79230231351886698476616750866185003469934904155720717063884033226646246218139",
-   "px": 0.977,
-   "tick": 0.001,
-   "ts": 1794988874,
-   "end_ts": 1794992400,
-   "q": "XRP Up or Down - November 18, 12:00AM-4:00AM ET",
-   "touched": null
-  },
-  {
    "id": "6747536",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -5065,7 +5055,7 @@
    "ts": 1794988874,
    "end_ts": 1795044600,
    "q": "CR Flamengo vs. CA Paranaense: CR Flamengo 1st Half O/U 3.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6989061",
@@ -5078,7 +5068,7 @@
    "ts": 1794988874,
    "end_ts": 1795048200,
    "q": "Texas Longhorns vs. Green Bay Phoenix (W)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6979271",
@@ -5091,7 +5081,7 @@
    "ts": 1794988874,
    "end_ts": 1795057200,
    "q": "Texas Southern Tigers vs. San Diego State Aztecs",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7135916",
@@ -5104,7 +5094,7 @@
    "ts": 1794988874,
    "end_ts": 1795064400,
    "q": "Will Ethereum dip to $1,600 on November 18?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7135918",
@@ -5117,7 +5107,7 @@
    "ts": 1794988874,
    "end_ts": 1795064400,
    "q": "Will Ethereum dip to $1,500 on November 18?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6993119",
@@ -5130,7 +5120,7 @@
    "ts": 1794988874,
    "end_ts": 1795092300,
    "q": "Al Wasl FC vs. Hatta SC: O/U 0.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6967691",
@@ -6924,6 +6914,162 @@
    "ts": 1795028472,
    "end_ts": 1795132800,
    "q": "Kings vs. Maple Leafs: O/U 2.5",
+   "touched": null
+  },
+  {
+   "id": "7088996",
+   "rule": "post_fin_95_97",
+   "cat": "clima",
+   "side": 1,
+   "token": "95613458854384937715969630031900748463820275235559186036655675376918144489484",
+   "px": 0.958,
+   "tick": 0.001,
+   "ts": 1795032078,
+   "end_ts": 1795003200,
+   "q": "Will the highest temperature in Atlanta be between 68-69°F on November 18?",
+   "touched": null
+  },
+  {
+   "id": "7090617",
+   "rule": "post_fin_95_97",
+   "cat": "clima",
+   "side": 1,
+   "token": "43951810036230534205292040051747909550080522252705020684267426660110127144260",
+   "px": 0.961,
+   "tick": 0.001,
+   "ts": 1795032078,
+   "end_ts": 1795003200,
+   "q": "Will the highest temperature in Seattle be between 54-55°F on November 18?",
+   "touched": null
+  },
+  {
+   "id": "7117878",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "11600600261924444041419404552393589126616760001242785193200632758263219912842",
+   "px": 0.982,
+   "tick": 0.001,
+   "ts": 1795032078,
+   "end_ts": 1795035600,
+   "q": "Will Microsoft (MSFT) close above $500 on November 18?",
+   "touched": null
+  },
+  {
+   "id": "7135922",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "70869883195022008692457518366566103058300481166306849192775959845370263678780",
+   "px": 0.982,
+   "tick": 0.001,
+   "ts": 1795032078,
+   "end_ts": 1795064400,
+   "q": "Will Solana reach $80 on November 18?",
+   "touched": null
+  },
+  {
+   "id": "5730341",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "1198369059272337837983197710023977775503199909109881099743328779305488526293",
+   "px": 0.971,
+   "tick": 0.001,
+   "ts": 1795032078,
+   "end_ts": 1795098600,
+   "q": "Walmart (WMT) Q3 US eCommerce sales growth 21% to 25%?",
+   "touched": null
+  },
+  {
+   "id": "6639438",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "48162696901547838667675488086334966286532363603216703595218711996319786452982",
+   "px": 0.974,
+   "tick": 0.001,
+   "ts": 1795032078,
+   "end_ts": 1795137300,
+   "q": "Spread: Colts (-9.5)",
+   "touched": null
+  },
+  {
+   "id": "6639443",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "68743416164532955036113169173127245518966813845463803605227273758878822988877",
+   "px": 0.978,
+   "tick": 0.001,
+   "ts": 1795032078,
+   "end_ts": 1795137300,
+   "q": "Spread: Colts (-10.5)",
+   "touched": null
+  },
+  {
+   "id": "6999144",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "15039923375882896163674612771927546778873638183228989958339911504547574247227",
+   "px": 0.996,
+   "tick": 0.001,
+   "ts": 1795032078,
+   "end_ts": 1795137300,
+   "q": "Exact Margin: Colts by 25+",
+   "touched": null
+  },
+  {
+   "id": "6999145",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "61515638396930578535471741240534480104856792662238546913666268697454128146896",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1795032078,
+   "end_ts": 1795137300,
+   "q": "Exact Margin: Colts by 19-24",
+   "touched": null
+  },
+  {
+   "id": "6999149",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "67845269708755092583969539705360465027635224290937966290856997790121310136912",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795032078,
+   "end_ts": 1795137300,
+   "q": "Exact Margin: Tie",
+   "touched": null
+  },
+  {
+   "id": "7015817",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "43658578953701963720657371917744807016687513630109888068815774029057594580570",
+   "px": 0.987,
+   "tick": 0.001,
+   "ts": 1795032078,
+   "end_ts": 1795138200,
+   "q": "Alabama Crimson Tide vs. Florida A&M Rattlers (W)",
+   "touched": null
+  },
+  {
+   "id": "7148162",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "106476359709915668781633757596796910655138117321824462050120605590124664537363",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795032078,
+   "end_ts": 1795140000,
+   "q": "Ducks vs. Avalanche: O/U 2.5",
    "touched": null
   }
  ]
