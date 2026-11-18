@@ -1,6 +1,6 @@
 {
  "capital0": 1000.0,
- "cash": 416.7403,
+ "cash": 416.76,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
   {
@@ -88,27 +88,6 @@
    "liq": 36558
   },
   {
-   "oid": "6976579-1794960067",
-   "id": "6976579",
-   "q": "Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction?",
-   "cat": "otros",
-   "rule": "otros_cierre",
-   "event": "1367559",
-   "side": 1,
-   "token": "62954803709020579725267545545972774091105092156691741917447743679770725369177",
-   "px": 0.985,
-   "tick": 0.001,
-   "mid": 0.9855,
-   "bid": 0.972,
-   "ask": 0.999,
-   "shares": 52.6085,
-   "cost": 51.8194,
-   "ts": 1794960067.766445,
-   "end_ts": 1794977940.0,
-   "hours": 4.96,
-   "liq": 1203
-  },
-  {
    "oid": "7109818-1794963666",
    "id": "7109818",
    "q": "Will Ethereum reach $1,950 on November 17?",
@@ -151,25 +130,25 @@
    "liq": 1807
   },
   {
-   "oid": "6977177-1794963666",
-   "id": "6977177",
-   "q": "Jackson State Tigers vs. Baylor Bears",
+   "oid": "6820818-1794967266",
+   "id": "6820818",
+   "q": "Spread: Eastern Michigan (-2.5)",
    "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1367849",
+   "rule": "post_fin_95_97",
+   "event": "1335828",
    "side": 1,
-   "token": "30334215052778234746141493787503993456219738214956472113831741158001079705678",
-   "px": 0.995,
+   "token": "5773466614182101939480437053799944864823888304201004184326340864173541128634",
+   "px": 0.964,
    "tick": 0.001,
-   "mid": 0.995,
-   "bid": 0.991,
-   "ask": 0.999,
-   "shares": 52.165,
-   "cost": 51.9042,
-   "ts": 1794963666.394334,
-   "end_ts": 1795021200.0,
-   "hours": 15.98,
-   "liq": 3239
+   "mid": 0.9645,
+   "bid": 0.955,
+   "ask": 0.974,
+   "shares": 53.8221,
+   "cost": 51.8845,
+   "ts": 1794967266.068418,
+   "end_ts": 1794956400.0,
+   "hours": -3.02,
+   "liq": 6743
   }
  ],
  "positions": [
@@ -219,7 +198,7 @@
    "hours": 6.48,
    "liq": 11703,
    "fill_ts": 1794952869.353566,
-   "mark": 0.9805,
+   "mark": 0.9765,
    "stuck": false,
    "disputed": false
   },
@@ -244,7 +223,7 @@
    "hours": 6.98,
    "liq": 37885,
    "fill_ts": 1794956473.949977,
-   "mark": 0.997,
+   "mark": 0.9975,
    "stuck": false,
    "disputed": false
   },
@@ -269,7 +248,32 @@
    "hours": 6.98,
    "liq": 1682,
    "fill_ts": 1794963666.394334,
-   "mark": 0.982
+   "mark": 0.978,
+   "stuck": false,
+   "disputed": false
+  },
+  {
+   "oid": "6976579-1794960067",
+   "id": "6976579",
+   "q": "Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction?",
+   "cat": "otros",
+   "rule": "otros_cierre",
+   "event": "1367559",
+   "side": 1,
+   "token": "62954803709020579725267545545972774091105092156691741917447743679770725369177",
+   "px": 0.985,
+   "tick": 0.001,
+   "mid": 0.9855,
+   "bid": 0.972,
+   "ask": 0.999,
+   "shares": 52.6085,
+   "cost": 51.8194,
+   "ts": 1794960067.766445,
+   "end_ts": 1794977940.0,
+   "hours": 4.96,
+   "liq": 1203,
+   "fill_ts": 1794967266.068418,
+   "mark": 0.985
   }
  ],
  "closed": [
@@ -3154,14 +3158,27 @@
    "placed": 3,
    "shadow_open": 300,
    "shadow_closed": 18
+  },
+  {
+   "ts": "2026-11-18T02:01:27Z",
+   "equity": 1037.69,
+   "cash": 416.76,
+   "orders": 7,
+   "positions": 5,
+   "closed": 50,
+   "scanned": 7753,
+   "candidates": 93,
+   "placed": 1,
+   "shadow_open": 301,
+   "shadow_closed": 7
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 193,
-  "filled": 54,
+  "placed": 194,
+  "filled": 55,
   "expired": 45,
-  "touched_not_filled": 86
+  "touched_not_filled": 87
  },
  "shadow": [
   {
@@ -3321,19 +3338,6 @@
    "touched": 0
   },
   {
-   "id": "7097647",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "91506374837535356452097918098906982024464965812338572062342676601983744639051",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1794854306,
-   "end_ts": 1794960000,
-   "q": "Sabres vs. Flyers: O/U 2.5",
-   "touched": 0
-  },
-  {
    "id": "6964686",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -3360,19 +3364,6 @@
    "touched": 1
   },
   {
-   "id": "7097617",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "88601369323263141242296819297744957596590269724065060902096035667597358291838",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1794866831,
-   "end_ts": 1794960000,
-   "q": "Senators vs. Jets: O/U 2.5",
-   "touched": 1
-  },
-  {
    "id": "6635053",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -3384,19 +3375,6 @@
    "end_ts": 1794924000,
    "q": "Indonesia leading at halftime?",
    "touched": 0
-  },
-  {
-   "id": "7097928",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "54022393279355747249580775292381989923536771198149743888059253894747530089369",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1794870072,
-   "end_ts": 1794961800,
-   "q": "Capitals vs. Lightning: O/U 2.5",
-   "touched": 1
   },
   {
    "id": "7097867",
@@ -4868,58 +4846,6 @@
    "touched": 1
   },
   {
-   "id": "6936007",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 0,
-   "token": "54823224021683694419603718787481897885694756106998487450563720917175941755396",
-   "px": 0.98,
-   "tick": 0.001,
-   "ts": 1794920473,
-   "end_ts": 1794934800,
-   "q": "Will the price of Solana be above $70 on November 17?",
-   "touched": null
-  },
-  {
-   "id": "6936029",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "52195112031043983046560996765014107694901120338395177093716581969561047607713",
-   "px": 0.977,
-   "tick": 0.001,
-   "ts": 1794920473,
-   "end_ts": 1794934800,
-   "q": "Will the price of Solana be between $60 and $70 on November 17?",
-   "touched": null
-  },
-  {
-   "id": "6936034",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 0,
-   "token": "52937511374395410453638894929021216309704729024319369183293971564595728212312",
-   "px": 0.972,
-   "tick": 0.001,
-   "ts": 1794920473,
-   "end_ts": 1794934800,
-   "q": "Will the price of Solana be between $70 and $80 on November 17?",
-   "touched": null
-  },
-  {
-   "id": "7097438",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "59763974837654519170780880441468337024024948069656859143950333742529251112010",
-   "px": 0.989,
-   "tick": 0.001,
-   "ts": 1794920473,
-   "end_ts": 1794934805,
-   "q": "Will MrBeast's next video get between 70 and 71 million views on day 3?",
-   "touched": null
-  },
-  {
    "id": "7091077",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -4930,7 +4856,7 @@
    "ts": 1794920473,
    "end_ts": 1794944700,
    "q": "Spread: Harborough Town FC (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7109764",
@@ -4943,7 +4869,7 @@
    "ts": 1794920473,
    "end_ts": 1794978000,
    "q": "Will Bitcoin dip to $61,000 on November 17?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7057767",
@@ -7062,6 +6988,110 @@
    "ts": 1794963666,
    "end_ts": 1795048200,
    "q": "Northern Illinois Huskies vs. Marquette Golden Eagles",
+   "touched": null
+  },
+  {
+   "id": "6820818",
+   "rule": "post_fin_95_97",
+   "cat": "deportes",
+   "side": 1,
+   "token": "5773466614182101939480437053799944864823888304201004184326340864173541128634",
+   "px": 0.964,
+   "tick": 0.001,
+   "ts": 1794967266,
+   "end_ts": 1794956400,
+   "q": "Spread: Eastern Michigan (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "7109751",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "25263483749066286423220365847855698726708223070487749553732507518185359153191",
+   "px": 0.987,
+   "tick": 0.001,
+   "ts": 1794967266,
+   "end_ts": 1794978000,
+   "q": "Will Bitcoin reach $66,000 on November 17?",
+   "touched": null
+  },
+  {
+   "id": "6967669",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "18231953656781596219923014268275359244494256554685479895844931833238489816434",
+   "px": 0.978,
+   "tick": 0.001,
+   "ts": 1794967266,
+   "end_ts": 1795021200,
+   "q": "Will the price of Solana be between $60 and $70 on November 18?",
+   "touched": null
+  },
+  {
+   "id": "7121654",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "67172090366494036840007574363735515614863234739272658459465066210046311743589",
+   "px": 0.992,
+   "tick": 0.001,
+   "ts": 1794967266,
+   "end_ts": 1795021205,
+   "q": "Will MrBeast's next video get between 74 and 75 million views on day 4?",
+   "touched": null
+  },
+  {
+   "id": "7121655",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "88789880366157166702482569614442080321494303498195506097774753409055330203693",
+   "px": 0.977,
+   "tick": 0.001,
+   "ts": 1794967266,
+   "end_ts": 1795021205,
+   "q": "Will MrBeast's next video get between 75 and 76 million views on day 4?",
+   "touched": null
+  },
+  {
+   "id": "6747362",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "13021875007508213596354290451649074790514287931256781383416113052384292484875",
+   "px": 0.973,
+   "tick": 0.001,
+   "ts": 1794967266,
+   "end_ts": 1795048200,
+   "q": "Spread: EC Bahia (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "6747421",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "5911791296779811195641544280517932072204464986657394578502207681961582175030",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1794967266,
+   "end_ts": 1795048200,
+   "q": "SC Corinthians Paulista vs. Botafogo FR: O/U 8.5",
+   "touched": null
+  },
+  {
+   "id": "7121239",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "49520631174629111841142644833801164577152628367247160336062550899768550290066",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1794967266,
+   "end_ts": 1795048200,
+   "q": "Canadiens vs. Devils: O/U 2.5",
    "touched": null
   }
  ]
