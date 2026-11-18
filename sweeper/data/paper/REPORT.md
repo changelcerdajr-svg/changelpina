@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-11T22:05:26Z | dias corridos: 6.6 de 28 | corridas: 121
-- Capital inicial: $1,000.00 | valor actual: $1,040.71 | P&L: $+40.71 (+4.07%)
-- Efectivo libre: $417.20 | en ordenes abiertas: $467.62 (9) | en posiciones: $155.55 (3)
+- Inicio: 2026-11-11T22:05:26Z | dias corridos: 6.6 de 28 | corridas: 122
+- Capital inicial: $1,000.00 | valor actual: $1,040.68 | P&L: $+40.68 (+4.07%)
+- Efectivo libre: $416.94 | en ordenes abiertas: $467.88 (9) | en posiciones: $155.55 (3)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 207 colocadas, 57 llenadas, 92 tocadas sin llenarse (sorteo 30%), 49 expiradas
+- Ordenes virtuales: 209 colocadas, 57 llenadas, 92 tocadas sin llenarse (sorteo 30%), 51 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -27,7 +27,7 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
-| $51.82 | 98.5c | 99.2c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
+| $51.82 | 98.5c | 99.1c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
 | $51.86 | 99.8c | 99.9c | cripto_cierre |  | Will the price of Ethereum be above $1,600 on November 18? |
 | $51.86 | 98.9c | 98.8c | deportes_previo |  | Jackson State Tigers vs. Baylor Bears |
 
@@ -35,20 +35,20 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 1935 | abiertas: 216 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 1938 | abiertas: 217 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
-| cripto_cierre | todas | 611 | 98.73c | 98.85% | +0.13 pts | -0.71 a +0.97 | 7 |
-| cripto_cierre | tocadas | 427 | 98.58c | 98.36% | -0.22 pts | -1.42 a +0.99 | 7 |
+| cripto_cierre | todas | 613 | 98.73c | 98.86% | +0.13 pts | -0.71 a +0.97 | 7 |
+| cripto_cierre | tocadas | 429 | 98.57c | 98.37% | -0.20 pts | -1.40 a +0.99 | 7 |
 | deportes_previo | todas | 983 | 98.39c | 99.08% | +0.69 pts | +0.09 a +1.29 | 9 |
 | deportes_previo | tocadas | 827 | 98.35c | 99.15% | +0.81 pts | +0.18 a +1.43 | 7 |
-| otros_cierre | todas | 322 | 98.74c | 100.00% | +1.26 pts | +1.18 a +1.34 | 0 |
+| otros_cierre | todas | 323 | 98.74c | 100.00% | +1.26 pts | +1.18 a +1.34 | 0 |
 | otros_cierre | tocadas | 215 | 98.65c | 100.00% | +1.35 pts | +1.25 a +1.44 | 0 |
 | post_fin_95_97 | todas | 19 | 96.14c | 89.47% | -6.67 pts | -20.79 a +7.45 | 2 |
 | post_fin_95_97 | tocadas | 16 | 96.08c | 87.50% | -8.58 pts | -25.26 a +8.10 | 2 |
-| TOTAL | todas | 1935 | 98.54c | 99.07% | +0.53 pts | +0.11 a +0.96 | 18 |
-| TOTAL | tocadas | 1485 | 98.43c | 98.92% | +0.49 pts | -0.03 a +1.01 | 16 |
+| TOTAL | todas | 1938 | 98.54c | 99.07% | +0.54 pts | +0.11 a +0.96 | 18 |
+| TOTAL | tocadas | 1487 | 98.43c | 98.92% | +0.49 pts | -0.03 a +1.01 | 16 |
 
 Peores casos del registro sombra:
 

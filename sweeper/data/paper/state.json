@@ -1,50 +1,8 @@
 {
  "capital0": 1000.0,
- "cash": 417.1965,
+ "cash": 416.9365,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
-  {
-   "oid": "7109818-1794963666",
-   "id": "7109818",
-   "q": "Will Ethereum reach $1,950 on November 17?",
-   "cat": "cripto",
-   "rule": "cripto_cierre",
-   "event": "1407041",
-   "side": 1,
-   "token": "47152767945592700370271875667205469320387186266671930795515726317671823813880",
-   "px": 0.992,
-   "tick": 0.001,
-   "mid": 0.9925,
-   "bid": 0.987,
-   "ask": 0.998,
-   "shares": 52.3228,
-   "cost": 51.9042,
-   "ts": 1794963666.394334,
-   "end_ts": 1794978000.0,
-   "hours": 3.98,
-   "liq": 26247
-  },
-  {
-   "oid": "6612512-1794963666",
-   "id": "6612512",
-   "q": "Will UK annual inflation be between 4.0% and 4.2% in October?",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1304389",
-   "side": 1,
-   "token": "6684671080874620976530777563578644051456694713753394622566624703736776561909",
-   "px": 0.995,
-   "tick": 0.001,
-   "mid": 0.995,
-   "bid": 0.991,
-   "ask": 0.999,
-   "shares": 52.165,
-   "cost": 51.9042,
-   "ts": 1794963666.394334,
-   "end_ts": 1795003140.0,
-   "hours": 10.96,
-   "liq": 1807
-  },
   {
    "oid": "7109823-1794970569",
    "id": "7109823",
@@ -191,6 +149,48 @@
    "end_ts": 1795064340.0,
    "hours": 17.13,
    "liq": 1078
+  },
+  {
+   "oid": "6967562-1795006872",
+   "id": "6967562",
+   "q": "Will the price of Ethereum be above $1,700 on November 18?",
+   "cat": "cripto",
+   "rule": "cripto_cierre",
+   "event": "1365177",
+   "side": 0,
+   "token": "12428724468104869433609397703178589237486662063247876079205996074152083728123",
+   "px": 0.982,
+   "tick": 0.001,
+   "mid": 0.982,
+   "bid": 0.981,
+   "ask": 0.983,
+   "shares": 52.988,
+   "cost": 52.0342,
+   "ts": 1795006872.824353,
+   "end_ts": 1795021200.0,
+   "hours": 3.98,
+   "liq": 32623
+  },
+  {
+   "oid": "5747205-1795006872",
+   "id": "5747205",
+   "q": "Spread: Reus FC Reddis (-2.5)",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1195456",
+   "side": 1,
+   "token": "88223397634543360886319388038311512342586660679071766508848342774026139992870",
+   "px": 0.977,
+   "tick": 0.001,
+   "mid": 0.9775,
+   "bid": 0.97,
+   "ask": 0.985,
+   "shares": 53.2591,
+   "cost": 52.0342,
+   "ts": 1795006872.824353,
+   "end_ts": 1795030200.0,
+   "hours": 6.48,
+   "liq": 2394
   }
  ],
  "positions": [
@@ -215,7 +215,7 @@
    "hours": 4.96,
    "liq": 1203,
    "fill_ts": 1794967266.068418,
-   "mark": 0.9915,
+   "mark": 0.991,
    "stuck": false,
    "disputed": false
   },
@@ -3441,13 +3441,26 @@
    "placed": 0,
    "shadow_open": 216,
    "shadow_closed": 3
+  },
+  {
+   "ts": "2026-11-18T13:01:47Z",
+   "equity": 1040.68,
+   "cash": 416.94,
+   "orders": 9,
+   "positions": 3,
+   "closed": 54,
+   "scanned": 7964,
+   "candidates": 98,
+   "placed": 2,
+   "shadow_open": 217,
+   "shadow_closed": 3
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 207,
+  "placed": 209,
   "filled": 57,
-  "expired": 49,
+  "expired": 51,
   "touched_not_filled": 92
  },
  "shadow": [
@@ -4856,19 +4869,6 @@
    "touched": 1
   },
   {
-   "id": "6766303",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 0,
-   "token": "16476288136663565404685102887599023609525815783454433073718438389784128183992",
-   "px": 0.987,
-   "tick": 0.001,
-   "ts": 1794963666,
-   "end_ts": 1794977940,
-   "q": "Will Pablo Picasso's “Le Baiser” sell for less than $40m at auction?",
-   "touched": null
-  },
-  {
    "id": "6976582",
    "rule": "otros_cierre",
    "cat": "otros",
@@ -4879,33 +4879,7 @@
    "ts": 1794963666,
    "end_ts": 1794977940,
    "q": "Will Mark Rothko's “Untitled” sell for at least $6.5m at auction?",
-   "touched": null
-  },
-  {
-   "id": "7109836",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "43338895195054745371500419281927242213794400575939698469555887472356164875180",
-   "px": 0.979,
-   "tick": 0.001,
-   "ts": 1794963666,
-   "end_ts": 1794978000,
-   "q": "Will Ethereum dip to $1,750 on November 17?",
-   "touched": null
-  },
-  {
-   "id": "7109909",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "103257097197992364848687596686500591357100461261209953019598299313646719554753",
-   "px": 0.979,
-   "tick": 0.001,
-   "ts": 1794963666,
-   "end_ts": 1794978000,
-   "q": "Will Solana dip to $70 on November 17?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7121653",
@@ -4918,7 +4892,7 @@
    "ts": 1794963666,
    "end_ts": 1795021205,
    "q": "Will MrBeast's next video get less than 74 million views on day 4?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6696296",
@@ -4931,7 +4905,7 @@
    "ts": 1794963666,
    "end_ts": 1795032000,
    "q": "Juventus FC vs. Oud-Heverlee Leuven Women: Neither team to score first?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6707219",
@@ -4944,7 +4918,7 @@
    "ts": 1794963666,
    "end_ts": 1795032000,
    "q": "Spread: Oud-Heverlee Leuven Women (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6977176",
@@ -4957,7 +4931,7 @@
    "ts": 1794963666,
    "end_ts": 1795044600,
    "q": "Navy Midshipmen vs. Georgetown Hoyas",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6977976",
@@ -4970,7 +4944,7 @@
    "ts": 1794963666,
    "end_ts": 1795048200,
    "q": "Northern Illinois Huskies vs. Marquette Golden Eagles",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6820818",
@@ -6257,6 +6231,58 @@
    "ts": 1795003271,
    "end_ts": 1795046400,
    "q": "Towson Tigers vs. Villanova Wildcats (W)",
+   "touched": null
+  },
+  {
+   "id": "5747205",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "88223397634543360886319388038311512342586660679071766508848342774026139992870",
+   "px": 0.977,
+   "tick": 0.001,
+   "ts": 1795006872,
+   "end_ts": 1795030200,
+   "q": "Spread: Reus FC Reddis (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "6707226",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "22151650337457101415515845859810999399969176603000312145475842048898409928364",
+   "px": 0.972,
+   "tick": 0.001,
+   "ts": 1795006872,
+   "end_ts": 1795032000,
+   "q": "Juventus FC vs. Oud-Heverlee Leuven Women: O/U 0.5",
+   "touched": null
+  },
+  {
+   "id": "7117881",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "58930401601093851780016157822187254886424321655752095285298110623689435331069",
+   "px": 0.987,
+   "tick": 0.001,
+   "ts": 1795006872,
+   "end_ts": 1795035600,
+   "q": "Will Microsoft (MSFT) close above $530 on November 18?",
+   "touched": null
+  },
+  {
+   "id": "6733348",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "14350105065774269598975243993367538648862224643303757078435104590662410274982",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795006872,
+   "end_ts": 1795110300,
+   "q": "Will FK Austria Wien win on 2026-11-19?",
    "touched": null
   }
  ]
