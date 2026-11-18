@@ -257,7 +257,7 @@
    "hours": 4.96,
    "liq": 1203,
    "fill_ts": 1794967266.068418,
-   "mark": 0.9915,
+   "mark": 0.991,
    "stuck": false,
    "disputed": false
   },
@@ -307,7 +307,9 @@
    "hours": -8.02,
    "liq": 1081,
    "fill_ts": 1795034282.353276,
-   "mark": 0.961
+   "mark": 0.967,
+   "stuck": false,
+   "disputed": false
   }
  ],
  "closed": [
@@ -3658,6 +3660,19 @@
    "placed": 1,
    "shadow_open": 276,
    "shadow_closed": 0
+  },
+  {
+   "ts": "2026-11-18T21:02:01Z",
+   "equity": 1042.04,
+   "cash": 313.24,
+   "orders": 11,
+   "positions": 3,
+   "closed": 56,
+   "scanned": 9778,
+   "candidates": 97,
+   "placed": 0,
+   "shadow_open": 281,
+   "shadow_closed": 1
   }
  ],
  "halted": false,
@@ -5138,19 +5153,6 @@
    "touched": 1
   },
   {
-   "id": "6967691",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "23568328354940256961315354996923442831870891045405694603997713719962420932655",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1794992470,
-   "end_ts": 1795021200,
-   "q": "Will the price of Solana be above $105 on November 18?",
-   "touched": null
-  },
-  {
    "id": "6978776",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -5161,7 +5163,7 @@
    "ts": 1794992470,
    "end_ts": 1795053600,
    "q": "Bethune-Cookman Wildcats vs. Creighton Bluejays",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6978781",
@@ -5174,7 +5176,7 @@
    "ts": 1794992470,
    "end_ts": 1795051800,
    "q": "South Dakota Coyotes vs. Nebraska Cornhuskers",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7135893",
@@ -5187,7 +5189,7 @@
    "ts": 1794992470,
    "end_ts": 1795064400,
    "q": "Will Bitcoin reach $68,000 on November 18?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7135900",
@@ -5200,7 +5202,7 @@
    "ts": 1794992470,
    "end_ts": 1795064400,
    "q": "Will Bitcoin dip to $61,000 on November 18?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7135905",
@@ -5213,7 +5215,7 @@
    "ts": 1794992470,
    "end_ts": 1795064400,
    "q": "Will Ethereum reach $2,150 on November 18?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7135929",
@@ -5226,7 +5228,7 @@
    "ts": 1794992470,
    "end_ts": 1795064400,
    "q": "Will XRP reach $1.20 on November 18?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7135930",
@@ -5239,7 +5241,7 @@
    "ts": 1794992470,
    "end_ts": 1795064400,
    "q": "Will XRP reach $1.15 on November 18?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7135936",
@@ -5252,7 +5254,7 @@
    "ts": 1794992470,
    "end_ts": 1795064400,
    "q": "Will XRP dip to $0.85 on November 18?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7135937",
@@ -5265,7 +5267,7 @@
    "ts": 1794992470,
    "end_ts": 1795064400,
    "q": "Will XRP dip to $0.80 on November 18?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7135938",
@@ -5278,7 +5280,7 @@
    "ts": 1794992470,
    "end_ts": 1795064400,
    "q": "Will XRP dip to $0.75 on November 18?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6696197",
@@ -7254,6 +7256,84 @@
    "ts": 1795034282,
    "end_ts": 1795132800,
    "q": "Sabres vs. Capitals: O/U 2.5",
+   "touched": null
+  },
+  {
+   "id": "6990910",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "90998905269878476316280224525556757215362974063446600770418977486864580479198",
+   "px": 0.971,
+   "tick": 0.001,
+   "ts": 1795035674,
+   "end_ts": 1795107600,
+   "q": "Will the price of Bitcoin be between $66,000 and $68,000 on November 19?",
+   "touched": null
+  },
+  {
+   "id": "7015809",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "56028839524028971713090577329912395376026368896472439656913981806643556023428",
+   "px": 0.984,
+   "tick": 0.001,
+   "ts": 1795035674,
+   "end_ts": 1795132800,
+   "q": "Radford Highlanders vs. Tennessee Volunteers (W)",
+   "touched": null
+  },
+  {
+   "id": "6783974",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "3796556128784684418417912383880546222996280282041445054135302551771060070167",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795035674,
+   "end_ts": 1795134600,
+   "q": "São Paulo FC vs. Fluminense FC: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "6911319",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "15281965416063649105337697725528187147311844187595161842120852244844585366507",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1795035674,
+   "end_ts": 1795143600,
+   "q": "Spread: Real Salt Lake (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "6911331",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "109747136894005696330642033872047317870476328597984643702903585696997382350101",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795035674,
+   "end_ts": 1795143600,
+   "q": "Seattle Sounders FC vs. Real Salt Lake: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "7015851",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "13977472126623840317098489093832049790718382548902128480514808801708672318320",
+   "px": 0.987,
+   "tick": 0.001,
+   "ts": 1795035674,
+   "end_ts": 1795143600,
+   "q": "Cal Poly Mustangs vs. UCLA Bruins (W)",
    "touched": null
   }
  ]
