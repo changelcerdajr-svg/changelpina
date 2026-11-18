@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 4.4 de 28 | corridas: 69
-- Capital inicial: $1,000.00 | valor actual: $861.29 | P&L: $-138.71 (-13.87%)
-- Efectivo libre: $1.61 | en ordenes abiertas: $677.27 (8) | en posiciones: $186.01 (4)
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 4.4 de 28 | corridas: 70
+- Capital inicial: $1,000.00 | valor actual: $861.30 | P&L: $-138.70 (-13.87%)
+- Efectivo libre: $0.62 | en ordenes abiertas: $420.37 (5) | en posiciones: $443.91 (7)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 163 colocadas, 70 llenadas, 65 tocadas sin llenarse (sorteo 30%), 20 expiradas
+- Ordenes virtuales: 164 colocadas, 73 llenadas, 65 tocadas sin llenarse (sorteo 30%), 21 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -33,28 +33,31 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 | $91.77 | 99.8c | 96.5c | otros_cierre |  | Pakistan military action against Afghanistan by November 15, 2026? |
 | $59.11 | 99.9c | 98.9c | cripto_cierre |  | Will Microstrategy announce a Bitcoin purchase November 10-16? |
 | $5.56 | 99.3c | 99.3c | otros_cierre |  | Will MrBeast's next video get between 68 and 69 million views on day 3? |
-| $29.57 | 99.9c | 99.9c | cripto_cierre |  | Natural Gas (NG) Up or Down on November 17? |
+| $29.57 | 99.9c | 100.0c | cripto_cierre |  | Natural Gas (NG) Up or Down on November 17? |
+| $85.88 | 97.2c | 97.2c | deportes_previo |  | Will Dominican Republic win on 2026-11-17? |
+| $85.88 | 95.0c | 95.0c | deportes_previo |  | Dominican Republic leading at halftime? |
+| $86.13 | 96.1c | 96.1c | deportes_previo |  | Tennessee Volunteers vs. Belmont Bruins (W) |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 3833 | abiertas: 1812 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 3884 | abiertas: 1821 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
-| clima_cierre | todas | 963 | 99.01c | 99.27% | +0.27 pts | -0.27 a +0.80 | 7 |
-| clima_cierre | tocadas | 882 | 98.99c | 99.21% | +0.22 pts | -0.36 a +0.80 | 7 |
+| clima_cierre | todas | 1013 | 99.00c | 99.31% | +0.31 pts | -0.20 a +0.82 | 7 |
+| clima_cierre | tocadas | 926 | 98.99c | 99.24% | +0.26 pts | -0.30 a +0.81 | 7 |
 | cripto_cierre | todas | 609 | 98.92c | 98.03% | -0.89 pts | -1.99 a +0.20 | 12 |
 | cripto_cierre | tocadas | 561 | 98.96c | 97.86% | -1.09 pts | -2.28 a +0.09 | 12 |
-| deportes_previo | todas | 1743 | 98.07c | 97.19% | -0.88 pts | -1.66 a -0.11 | 49 |
-| deportes_previo | tocadas | 1704 | 98.11c | 97.12% | -0.99 pts | -1.78 a -0.20 | 49 |
+| deportes_previo | todas | 1744 | 98.07c | 97.19% | -0.88 pts | -1.65 a -0.11 | 49 |
+| deportes_previo | tocadas | 1705 | 98.11c | 97.13% | -0.99 pts | -1.77 a -0.20 | 49 |
 | otros_cierre | todas | 478 | 99.30c | 99.37% | +0.07 pts | -0.64 a +0.78 | 3 |
 | otros_cierre | tocadas | 430 | 99.27c | 99.30% | +0.04 pts | -0.75 a +0.82 | 3 |
 | post_fin_90_97 | todas | 40 | 94.19c | 97.50% | +3.31 pts | -1.61 a +8.22 | 1 |
 | post_fin_90_97 | tocadas | 33 | 94.30c | 96.97% | +2.67 pts | -3.28 a +8.61 | 1 |
-| TOTAL | todas | 3833 | 98.55c | 98.12% | -0.43 pts | -0.86 a -0.01 | 72 |
-| TOTAL | tocadas | 3610 | 98.56c | 98.01% | -0.55 pts | -1.01 a -0.10 | 72 |
+| TOTAL | todas | 3884 | 98.56c | 98.15% | -0.41 pts | -0.83 a +0.01 | 72 |
+| TOTAL | tocadas | 3655 | 98.56c | 98.03% | -0.53 pts | -0.98 a -0.09 | 72 |
 
 Peores casos del registro sombra:
 

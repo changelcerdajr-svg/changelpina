@@ -1,29 +1,8 @@
 {
  "capital0": 1000.0,
- "cash": 416.1718,
+ "cash": 415.9389,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
-  {
-   "oid": "6941818-1794916731",
-   "id": "6941818",
-   "q": "Will \"Grand Theft Auto VI: Pre-Load Now\" get between 20 and 30 million views on week 1?",
-   "cat": "otros",
-   "rule": "otros_cierre",
-   "event": "1357989",
-   "side": 1,
-   "token": "16140117856465719891439821578400116945616345657196347974425861322823214434099",
-   "px": 0.998,
-   "tick": 0.001,
-   "mid": 0.9985,
-   "bid": 0.998,
-   "ask": 0.999,
-   "shares": 51.699,
-   "cost": 51.5957,
-   "ts": 1794916731.317447,
-   "end_ts": 1794977940.0,
-   "hours": 17.0,
-   "liq": 2513
-  },
   {
    "oid": "6935838-1794924070",
    "id": "6935838",
@@ -109,27 +88,6 @@
    "liq": 1036
   },
   {
-   "oid": "7102285-1794956473",
-   "id": "7102285",
-   "q": "Bitcoin Up or Down - November 17, 4:00PM-8:00PM ET",
-   "cat": "cripto",
-   "rule": "cripto_cierre",
-   "event": "1404658",
-   "side": 0,
-   "token": "26294006438745629487764789343150200125817008191764457334949010177393898546061",
-   "px": 0.971,
-   "tick": 0.001,
-   "mid": 0.971,
-   "bid": 0.962,
-   "ask": 0.98,
-   "shares": 53.3576,
-   "cost": 51.8102,
-   "ts": 1794956473.949977,
-   "end_ts": 1794963600.0,
-   "hours": 1.98,
-   "liq": 6932
-  },
-  {
    "oid": "6766325-1794956473",
    "id": "6766325",
    "q": "Will Amedeo Modigliani's “Tête” sell for at least $43m at auction?",
@@ -170,6 +128,48 @@
    "end_ts": 1794978000.0,
    "hours": 5.98,
    "liq": 36558
+  },
+  {
+   "oid": "7102285-1794960067",
+   "id": "7102285",
+   "q": "Bitcoin Up or Down - November 17, 4:00PM-8:00PM ET",
+   "cat": "cripto",
+   "rule": "cripto_cierre",
+   "event": "1404658",
+   "side": 0,
+   "token": "26294006438745629487764789343150200125817008191764457334949010177393898546061",
+   "px": 0.985,
+   "tick": 0.001,
+   "mid": 0.9855,
+   "bid": 0.981,
+   "ask": 0.99,
+   "shares": 52.6085,
+   "cost": 51.8194,
+   "ts": 1794960067.766445,
+   "end_ts": 1794963600.0,
+   "hours": 0.98,
+   "liq": 7267
+  },
+  {
+   "oid": "6976579-1794960067",
+   "id": "6976579",
+   "q": "Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction?",
+   "cat": "otros",
+   "rule": "otros_cierre",
+   "event": "1367559",
+   "side": 1,
+   "token": "62954803709020579725267545545972774091105092156691741917447743679770725369177",
+   "px": 0.985,
+   "tick": 0.001,
+   "mid": 0.9855,
+   "bid": 0.972,
+   "ask": 0.999,
+   "shares": 52.6085,
+   "cost": 51.8194,
+   "ts": 1794960067.766445,
+   "end_ts": 1794977940.0,
+   "hours": 4.96,
+   "liq": 1203
   }
  ],
  "positions": [
@@ -244,7 +244,7 @@
    "hours": 6.48,
    "liq": 11703,
    "fill_ts": 1794952869.353566,
-   "mark": 0.9805,
+   "mark": 0.981,
    "stuck": false,
    "disputed": false
   },
@@ -269,7 +269,9 @@
    "hours": 6.98,
    "liq": 37885,
    "fill_ts": 1794956473.949977,
-   "mark": 0.994
+   "mark": 0.997,
+   "stuck": false,
+   "disputed": false
   }
  ],
  "closed": [
@@ -3098,14 +3100,27 @@
    "placed": 3,
    "shadow_open": 313,
    "shadow_closed": 24
+  },
+  {
+   "ts": "2026-11-18T00:01:31Z",
+   "equity": 1036.39,
+   "cash": 415.94,
+   "orders": 8,
+   "positions": 4,
+   "closed": 49,
+   "scanned": 8341,
+   "candidates": 85,
+   "placed": 2,
+   "shadow_open": 309,
+   "shadow_closed": 14
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 188,
+  "placed": 190,
   "filled": 53,
-  "expired": 44,
-  "touched_not_filled": 83
+  "expired": 45,
+  "touched_not_filled": 84
  },
  "shadow": [
   {
@@ -3772,32 +3787,6 @@
    "touched": 1
   },
   {
-   "id": "7080755",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "43197402957392461974731500115869827260681881770900014963010049337536622679475",
-   "px": 0.976,
-   "tick": 0.001,
-   "ts": 1794891671,
-   "end_ts": 1794944700,
-   "q": "Spread: Spennymoor Town FC (-2.5)",
-   "touched": 1
-  },
-  {
-   "id": "7080777",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "110626083046293227974062243666994112184296830982996125985576816050811400082067",
-   "px": 0.981,
-   "tick": 0.001,
-   "ts": 1794891671,
-   "end_ts": 1794944700,
-   "q": "Spread: Macclesfield FC (-3.5)",
-   "touched": 1
-  },
-  {
    "id": "7091075",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -3808,32 +3797,6 @@
    "ts": 1794891671,
    "end_ts": 1794944700,
    "q": "Spread: Harborough Town FC (-2.5)",
-   "touched": 1
-  },
-  {
-   "id": "7091096",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "79415255042183554080849534433642515520738865418373452376858846899836429504409",
-   "px": 0.989,
-   "tick": 0.001,
-   "ts": 1794891671,
-   "end_ts": 1794944700,
-   "q": "Spread: Chorley FC (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "7091107",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "106531040821538250171569242644674546979426318871109766163555296723104132575634",
-   "px": 0.973,
-   "tick": 0.001,
-   "ts": 1794891671,
-   "end_ts": 1794944700,
-   "q": "Bedford Town Football Club vs. Chorley FC: O/U 6.5",
    "touched": 1
   },
   {
@@ -4981,19 +4944,6 @@
    "touched": 0
   },
   {
-   "id": "7080769",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "42722940813155308559211541136567685627209940063102176223029264350666624287927",
-   "px": 0.974,
-   "tick": 0.001,
-   "ts": 1794906073,
-   "end_ts": 1794944700,
-   "q": "Spennymoor Town FC vs. Chester FC: O/U 6.5",
-   "touched": 1
-  },
-  {
    "id": "6820757",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -5098,123 +5048,6 @@
    "touched": 1
   },
   {
-   "id": "7080776",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "5193248133200796511257697354215352056731356205824405096835711066965215388936",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1794913270,
-   "end_ts": 1794944700,
-   "q": "Spread: Oxford City (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "7063795",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 0,
-   "token": "5485966296221775077218151012002325040039327740020376056310054677727758617567",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1794916731,
-   "end_ts": 1794916800,
-   "q": "Solana Up or Down - November 17, 6AM ET",
-   "touched": null
-  },
-  {
-   "id": "7063796",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 0,
-   "token": "11260071711725555926563635631391487626446959679407981787243427897437515281410",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1794916731,
-   "end_ts": 1794916800,
-   "q": "XRP Up or Down - November 17, 6AM ET",
-   "touched": null
-  },
-  {
-   "id": "7090259",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 0,
-   "token": "51373087050362942761804762527395043250386048955480211105128917917381204757926",
-   "px": 0.972,
-   "tick": 0.001,
-   "ts": 1794916731,
-   "end_ts": 1794920400,
-   "q": "Bitcoin Up or Down - November 17, 4:00AM-8:00AM ET",
-   "touched": null
-  },
-  {
-   "id": "7090277",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 0,
-   "token": "46779365130570149356188641886055574238487723145105437811473593068699138089533",
-   "px": 0.975,
-   "tick": 0.001,
-   "ts": 1794916731,
-   "end_ts": 1794920400,
-   "q": "XRP Up or Down - November 17, 4:00AM-8:00AM ET",
-   "touched": null
-  },
-  {
-   "id": "7091809",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 0,
-   "token": "83630788907273712564614401775407088446978868940458717573245726082334903662132",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1794916731,
-   "end_ts": 1794916800,
-   "q": "BNB Up or Down - November 17, 6:45AM-7:00AM ET",
-   "touched": null
-  },
-  {
-   "id": "7091812",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 0,
-   "token": "21022322727040727829146997184626352326185709239153884105474535236919231557733",
-   "px": 0.985,
-   "tick": 0.001,
-   "ts": 1794916731,
-   "end_ts": 1794916800,
-   "q": "Bitcoin Up or Down - November 17, 6:45AM-7:00AM ET",
-   "touched": null
-  },
-  {
-   "id": "7091859",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 0,
-   "token": "54894273551671698237462679226065190195070274545262107139652697550269394743230",
-   "px": 0.99,
-   "tick": 0.001,
-   "ts": 1794916731,
-   "end_ts": 1794916800,
-   "q": "BNB Up or Down - November 17, 6:55AM-7:00AM ET",
-   "touched": null
-  },
-  {
-   "id": "6674079",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "20214941400813915545056335258095486353220408512145986367627319274886630859356",
-   "px": 0.981,
-   "tick": 0.001,
-   "ts": 1794916731,
-   "end_ts": 1794944700,
-   "q": "Republic of Ireland vs. Kosovo: Kosovo O/U 3.5",
-   "touched": null
-  },
-  {
    "id": "7109971",
    "rule": "cripto_cierre",
    "cat": "cripto",
@@ -5225,7 +5058,7 @@
    "ts": 1794916731,
    "end_ts": 1794978000,
    "q": "Will XRP dip to $0.85 on November 17?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6936007",
@@ -7175,6 +7008,136 @@
    "ts": 1794956473,
    "end_ts": 1795053600,
    "q": "Avalanche vs. Utah: O/U 2.5",
+   "touched": null
+  },
+  {
+   "id": "7102299",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "30878411427589413462390874573363631962950257630507459309311911549220669682218",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1794960067,
+   "end_ts": 1794963600,
+   "q": "Ethereum Up or Down - November 17, 4:00PM-8:00PM ET",
+   "touched": null
+  },
+  {
+   "id": "7102302",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "10132326316198703373181624519789833816274596860490366199909710781676616472008",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1794960067,
+   "end_ts": 1794963600,
+   "q": "Solana Up or Down - November 17, 4:00PM-8:00PM ET",
+   "touched": null
+  },
+  {
+   "id": "6976579",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "62954803709020579725267545545972774091105092156691741917447743679770725369177",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1794960067,
+   "end_ts": 1794977940,
+   "q": "Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction?",
+   "touched": null
+  },
+  {
+   "id": "7109760",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "13472963519181300595685164388715744098033593748237112468285152128225539095582",
+   "px": 0.98,
+   "tick": 0.001,
+   "ts": 1794960067,
+   "end_ts": 1794978000,
+   "q": "Will Bitcoin dip to $63,000 on November 17?",
+   "touched": null
+  },
+  {
+   "id": "6967562",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "12428724468104869433609397703178589237486662063247876079205996074152083728123",
+   "px": 0.974,
+   "tick": 0.001,
+   "ts": 1794960067,
+   "end_ts": 1795021200,
+   "q": "Will the price of Ethereum be above $1,700 on November 18?",
+   "touched": null
+  },
+  {
+   "id": "6707185",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "106233676818169380921169110310459885670911507281557187745716659394229734998365",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1794960067,
+   "end_ts": 1795032000,
+   "q": "Chelsea FC vs. Paris Saint-Germain FC: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6731913",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "34081981125697244520105196470966925790428371104407119589153424698603823151621",
+   "px": 0.983,
+   "tick": 0.001,
+   "ts": 1794960067,
+   "end_ts": 1795044600,
+   "q": "CR Flamengo vs. CA Paranaense: Neither team to score first?",
+   "touched": null
+  },
+  {
+   "id": "6747544",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "19270089800009096296324986374427299268008634227806638207197195802101519422766",
+   "px": 0.981,
+   "tick": 0.001,
+   "ts": 1794960067,
+   "end_ts": 1795042800,
+   "q": "Spread: Associação Chapecoense de Futebol (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "6747558",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "29148501577440010634413016166843354041350757480327165098658011971160810912001",
+   "px": 0.986,
+   "tick": 0.001,
+   "ts": 1794960067,
+   "end_ts": 1795042800,
+   "q": "Clube do Remo vs. Associação Chapecoense de Futebol: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6747559",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "77230587327614460876699725996185471757673310175526550070717884974423491254270",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1794960067,
+   "end_ts": 1795042800,
+   "q": "Clube do Remo vs. Associação Chapecoense de Futebol: O/U 8.5",
    "touched": null
   }
  ]
