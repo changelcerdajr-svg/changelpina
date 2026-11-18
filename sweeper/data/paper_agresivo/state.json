@@ -65,27 +65,6 @@
    "end_ts": 1794992700.0,
    "hours": 0.05,
    "liq": 1201
-  },
-  {
-   "oid": "7120566-1794999701",
-   "id": "7120566",
-   "q": "Will the US national average gas price be less than $3.7600 on November 18?",
-   "cat": "otros",
-   "rule": "otros_cierre",
-   "event": "1410025",
-   "side": 0,
-   "token": "112269192799346697264123049327565372091982076597938793723348319264844073844605",
-   "px": 0.999,
-   "tick": 0.001,
-   "mid": 0.9925,
-   "bid": 0.985,
-   "ask": 1,
-   "shares": 87.4249,
-   "cost": 87.3375,
-   "ts": 1794999701.844255,
-   "end_ts": 1795014000.0,
-   "hours": 3.97,
-   "liq": 621
   }
  ],
  "positions": [
@@ -110,7 +89,7 @@
    "hours": 3.96,
    "liq": 1095,
    "fill_ts": 1794791170.442568,
-   "mark": 0.957,
+   "mark": 0.9615,
    "stuck": false,
    "disputed": false
   },
@@ -185,7 +164,7 @@
    "hours": 0.96,
    "liq": 1444,
    "fill_ts": 1794978085.460753,
-   "mark": 0.9815,
+   "mark": 0.9845,
    "stuck": false,
    "disputed": false
   },
@@ -260,7 +239,32 @@
    "hours": 6.97,
    "liq": 34153,
    "fill_ts": 1794999701.844255,
-   "mark": 0.984
+   "mark": 0.982,
+   "stuck": false,
+   "disputed": false
+  },
+  {
+   "oid": "7120566-1794999701",
+   "id": "7120566",
+   "q": "Will the US national average gas price be less than $3.7600 on November 18?",
+   "cat": "otros",
+   "rule": "otros_cierre",
+   "event": "1410025",
+   "side": 0,
+   "token": "112269192799346697264123049327565372091982076597938793723348319264844073844605",
+   "px": 0.999,
+   "tick": 0.001,
+   "mid": 0.9925,
+   "bid": 0.985,
+   "ask": 1,
+   "shares": 87.4249,
+   "cost": 87.3375,
+   "ts": 1794999701.844255,
+   "end_ts": 1795014000.0,
+   "hours": 3.97,
+   "liq": 621,
+   "fill_ts": 1795002711.323467,
+   "mark": 0.999
   }
  ],
  "closed": [
@@ -3585,12 +3589,25 @@
    "placed": 1,
    "shadow_open": 1623,
    "shadow_closed": 19
+  },
+  {
+   "ts": "2026-11-18T11:53:02Z",
+   "equity": 873.87,
+   "cash": 1.01,
+   "orders": 3,
+   "positions": 8,
+   "closed": 77,
+   "scanned": 14375,
+   "candidates": 675,
+   "placed": 0,
+   "shadow_open": 1629,
+   "shadow_closed": 25
   }
  ],
  "halted": false,
  "stats": {
   "placed": 186,
-  "filled": 84,
+  "filled": 85,
   "expired": 23,
   "touched_not_filled": 75
  },
@@ -4857,19 +4874,6 @@
    "touched": 1
   },
   {
-   "id": "7085665",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "67299002018583234813560557023286259315361094504695418472551409594399535905210",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1794830521,
-   "end_ts": 1795003200,
-   "q": "Will the highest temperature in Wellington be 23°C on November 18?",
-   "touched": 1
-  },
-  {
    "id": "7085668",
    "rule": "clima_cierre",
    "cat": "clima",
@@ -5624,32 +5628,6 @@
    "touched": 1
   },
   {
-   "id": "7085658",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "69797803999205914581215144201394431110728160685243041022284342476464272939617",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1794834126,
-   "end_ts": 1795003200,
-   "q": "Will the highest temperature in Wellington be 16°C on November 18?",
-   "touched": 1
-  },
-  {
-   "id": "7085659",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "13048839426549827657521762351943489591288730537870621853238996431953457451184",
-   "px": 0.991,
-   "tick": 0.001,
-   "ts": 1794834126,
-   "end_ts": 1795003200,
-   "q": "Will the highest temperature in Wellington be 17°C on November 18?",
-   "touched": 1
-  },
-  {
    "id": "7085671",
    "rule": "clima_cierre",
    "cat": "clima",
@@ -5855,19 +5833,6 @@
    "ts": 1794837735,
    "end_ts": 1794891600,
    "q": "MicroStrategy announces >1000 BTC purchase November 10-16?",
-   "touched": 1
-  },
-  {
-   "id": "7085664",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "46005884626312731778471215470468113385923354430979692170340223787435357827068",
-   "px": 0.993,
-   "tick": 0.001,
-   "ts": 1794837735,
-   "end_ts": 1795003200,
-   "q": "Will the highest temperature in Wellington be 22°C on November 18?",
    "touched": 1
   },
   {
@@ -7860,19 +7825,6 @@
    "touched": 1
   },
   {
-   "id": "7086067",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "2414907052790242149423114321340802098211112939018345617300017654127849812041",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1794854366,
-   "end_ts": 1795003200,
-   "q": "Will the lowest temperature in Wellington be 6°C or below on November 18?",
-   "touched": 1
-  },
-  {
    "id": "7086125",
    "rule": "clima_cierre",
    "cat": "clima",
@@ -8209,19 +8161,6 @@
    "end_ts": 1795118400,
    "q": "Will Servette FC Chênois Féminin win on 2026-11-19?",
    "touched": 1
-  },
-  {
-   "id": "7085663",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "115290064189087076462022356075310476845033067692248943441833802814291289919138",
-   "px": 0.96,
-   "tick": 0.01,
-   "ts": 1794862939,
-   "end_ts": 1795003200,
-   "q": "Will the highest temperature in Wellington be 21°C on November 18?",
-   "touched": 0
   },
   {
    "id": "7085886",
@@ -9316,19 +9255,6 @@
    "touched": 1
   },
   {
-   "id": "7085656",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "50495493174660414001271857691241988907727889146172372519165851437372453682912",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1794891712,
-   "end_ts": 1795003200,
-   "q": "Will the highest temperature in Wellington be 14°C or below on November 18?",
-   "touched": 1
-  },
-  {
    "id": "7085682",
    "rule": "clima_cierre",
    "cat": "clima",
@@ -9678,19 +9604,6 @@
    "end_ts": 1794924000,
    "q": "Kuwait leading at halftime?",
    "touched": 1
-  },
-  {
-   "id": "7085662",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "36346296510966280779854082180321684039653463051331451567353464446708016015295",
-   "px": 0.95,
-   "tick": 0.01,
-   "ts": 1794902495,
-   "end_ts": 1795003200,
-   "q": "Will the highest temperature in Wellington be 20°C on November 18?",
-   "touched": 0
   },
   {
    "id": "7085793",
@@ -10122,227 +10035,6 @@
    "touched": 1
   },
   {
-   "id": "7090262",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "24599733436785293328316223221809319218309061692193237166579442440131239866721",
-   "px": 0.969,
-   "tick": 0.001,
-   "ts": 1794913305,
-   "end_ts": 1794920400,
-   "q": "Ethereum Up or Down - November 17, 4:00AM-8:00AM ET",
-   "touched": null
-  },
-  {
-   "id": "6961702",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "47050025596310780409154508237332595952392503659587891334567854134139284286705",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1794913305,
-   "end_ts": 1794932100,
-   "q": "Counter-Strike: Sinners vs Nexus - Map 1 Winner",
-   "touched": null
-  },
-  {
-   "id": "7035130",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "69642216131051759834197720776180259469849007523146629365580480999499165776665",
-   "px": 0.988,
-   "tick": 0.001,
-   "ts": 1794913305,
-   "end_ts": 1794928800,
-   "q": "Counter-Strike: WBT vs ex-ENCE (BO3) - European Pro League Playoffs",
-   "touched": null
-  },
-  {
-   "id": "7083107",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "1268425260580208615359616310257017150465454479274348446840827159922149979282",
-   "px": 0.999,
-   "tick": 0.001,
-   "ts": 1794913305,
-   "end_ts": 1794928800,
-   "q": "Map Handicap: 33 (-1.5) vs Drama eSports (+1.5)",
-   "touched": null
-  },
-  {
-   "id": "7104772",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "77873128744069382859114472352608896930361428199167970475652337886502682332104",
-   "px": 0.965,
-   "tick": 0.001,
-   "ts": 1794913305,
-   "end_ts": 1794931200,
-   "q": "Dota 2: PARIVISION vs Froglings (BO3) - 1win Essence Playoffs",
-   "touched": null
-  },
-  {
-   "id": "6674133",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "28032302679378524388438294102127508151762138148468973774902714251778798491672",
-   "px": 0.96,
-   "tick": 0.01,
-   "ts": 1794913305,
-   "end_ts": 1794944700,
-   "q": "Ukraine vs. Georgia: Ukraine O/U 3.5",
-   "touched": null
-  },
-  {
-   "id": "6674444",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "5602663367284479858418094454353700002870168893943224988385213086439173894326",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1794913305,
-   "end_ts": 1794944700,
-   "q": "Hungary vs. Northern Ireland: Hungary O/U 5.5",
-   "touched": null
-  },
-  {
-   "id": "6695199",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "3155778280428405325196526544590123765538638540625711770053624235145961969206",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1794913305,
-   "end_ts": 1794958200,
-   "q": "Spread: Dominican Republic (-4.5)",
-   "touched": null
-  },
-  {
-   "id": "7097915",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "51429230931351157090401981129395089764307017245399142384080763065344080862213",
-   "px": 0.96,
-   "tick": 0.01,
-   "ts": 1794913305,
-   "end_ts": 1794963600,
-   "q": "Spread: Predators (-3.5)",
-   "touched": null
-  },
-  {
-   "id": "7105694",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "53080123326647298486515360099501558894421139116793127899922539081511403292541",
-   "px": 0.989,
-   "tick": 0.001,
-   "ts": 1794913305,
-   "end_ts": 1794963600,
-   "q": "Spread: Timberwolves (-28.5)",
-   "touched": null
-  },
-  {
-   "id": "7112244",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "4178832843164871098624735770183593355216066408786136024426566184631851505389",
-   "px": 0.989,
-   "tick": 0.001,
-   "ts": 1794913305,
-   "end_ts": 1794963600,
-   "q": "Paul Reed: Assists O/U 5.5",
-   "touched": null
-  },
-  {
-   "id": "6766293",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "87704710071356591415578253747379933428325906486068520957543635848323393750720",
-   "px": 0.978,
-   "tick": 0.001,
-   "ts": 1794913305,
-   "end_ts": 1794977940,
-   "q": "Will Wassily Kandinsky's “Betonte Ecken” sell for less than $60m at auction?",
-   "touched": null
-  },
-  {
-   "id": "7105682",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "69281300221355812549835021871787573670147080722287450318785229680785572519765",
-   "px": 0.97,
-   "tick": 0.01,
-   "ts": 1794913305,
-   "end_ts": 1794974400,
-   "q": "Spread: Jazz (-17.5)",
-   "touched": null
-  },
-  {
-   "id": "7105697",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "101044306998181955702575066133238352816990159576261342930743469427814898202237",
-   "px": 0.989,
-   "tick": 0.001,
-   "ts": 1794913305,
-   "end_ts": 1794974400,
-   "q": "Spread: Jazz (-19.5)",
-   "touched": null
-  },
-  {
-   "id": "7105818",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "83357452916343001050192456829333090027715102147975943965304940548568682844978",
-   "px": 0.989,
-   "tick": 0.001,
-   "ts": 1794913305,
-   "end_ts": 1794974400,
-   "q": "Spread: Clippers (-32.5)",
-   "touched": null
-  },
-  {
-   "id": "7109823",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "98421279765209883874231302435604435181555709565680820891439197025986264251082",
-   "px": 0.95,
-   "tick": 0.01,
-   "ts": 1794913305,
-   "end_ts": 1794978000,
-   "q": "Will Ethereum reach $1,900 on November 17?",
-   "touched": null
-  },
-  {
-   "id": "7111966",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "61584314034630712405095479026490904955293569503629691434547771290863946196540",
-   "px": 0.989,
-   "tick": 0.001,
-   "ts": 1794913305,
-   "end_ts": 1794974400,
-   "q": "Ryan Kalkbrenner: Points O/U 14.5",
-   "touched": null
-  },
-  {
    "id": "7085753",
    "rule": "clima_cierre",
    "cat": "clima",
@@ -10353,7 +10045,7 @@
    "ts": 1794913305,
    "end_ts": 1795003200,
    "q": "Will the highest temperature in Milan be 17°C on November 18?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7086029",
@@ -10366,7 +10058,7 @@
    "ts": 1794913305,
    "end_ts": 1795003200,
    "q": "Will the lowest temperature in London be 11°C on November 18?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7088715",
@@ -10379,7 +10071,7 @@
    "ts": 1794913305,
    "end_ts": 1795003200,
    "q": "Will the lowest temperature in Miami be between 76-77°F on November 18?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6967627",
@@ -10392,7 +10084,7 @@
    "ts": 1794913305,
    "end_ts": 1795021200,
    "q": "Will the price of Ethereum be between $1,900 and $2,000 on November 18?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6747620",
@@ -10405,7 +10097,7 @@
    "ts": 1794913305,
    "end_ts": 1795041000,
    "q": "Coritiba FBC vs. Santos FC: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6747373",
@@ -10418,7 +10110,7 @@
    "ts": 1794913305,
    "end_ts": 1795048200,
    "q": "Grêmio FBPA vs. EC Bahia: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6747512",
@@ -10431,7 +10123,7 @@
    "ts": 1794913305,
    "end_ts": 1795044600,
    "q": "CR Flamengo vs. CA Paranaense: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6672609",
@@ -24692,6 +24384,409 @@
    "ts": 1794999701,
    "end_ts": 1795208400,
    "q": "Will Micron Technology, Inc. (MU) hit (LOW) $570 Week of November 16 2026?",
+   "touched": null
+  },
+  {
+   "id": "7115636",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "36282967068787897331475058743535709986178780675340868054851834523508441796196",
+   "px": 0.96,
+   "tick": 0.01,
+   "ts": 1795002711,
+   "end_ts": 1795006800,
+   "q": "XRP Up or Down - November 18, 4:00AM-8:00AM ET",
+   "touched": null
+  },
+  {
+   "id": "7115639",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "61317852626939300747186711569842686025826724361777060117004092386958614547929",
+   "px": 0.963,
+   "tick": 0.001,
+   "ts": 1795002711,
+   "end_ts": 1795006800,
+   "q": "Bitcoin Up or Down - November 18, 4:00AM-8:00AM ET",
+   "touched": null
+  },
+  {
+   "id": "7116942",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "30531074122019999942225026776481368678724604266301851326100361856044011454024",
+   "px": 0.982,
+   "tick": 0.001,
+   "ts": 1795002711,
+   "end_ts": 1795003200,
+   "q": "Bitcoin Up or Down - November 18, 6:00AM-7:00AM ET",
+   "touched": null
+  },
+  {
+   "id": "7116944",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "106119756722143231092813862005337013700299606635860536521384606711205158481282",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795002711,
+   "end_ts": 1795003200,
+   "q": "Ethereum Up or Down - November 18, 6:00AM-7:00AM ET",
+   "touched": null
+  },
+  {
+   "id": "6967555",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "47097115249779965447852565974393296338028593465133886620776213072795892534906",
+   "px": 0.955,
+   "tick": 0.001,
+   "ts": 1795002711,
+   "end_ts": 1795021200,
+   "q": "Will the price of Bitcoin be less than $66,000 on November 18?",
+   "touched": null
+  },
+  {
+   "id": "6967623",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "62386747489710537943419371501192796893512112066282533709294377120274254812166",
+   "px": 0.956,
+   "tick": 0.001,
+   "ts": 1795002711,
+   "end_ts": 1795021200,
+   "q": "Will the price of Bitcoin be above $66,000 on November 18?",
+   "touched": null
+  },
+  {
+   "id": "7062943",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "97219109316120769841788002821366699241579279946101856540132814082675508576191",
+   "px": 0.95,
+   "tick": 0.01,
+   "ts": 1795002711,
+   "end_ts": 1795014600,
+   "q": "Counter-Strike: Balkan Outlaws vs WRAITH PCIFIC (BO3) - European Pro League Playoffs",
+   "touched": null
+  },
+  {
+   "id": "7120865",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "49117371043506738588271470694642000412197404539085235043052001518749392823202",
+   "px": 0.999,
+   "tick": 0.001,
+   "ts": 1795002711,
+   "end_ts": 1795017600,
+   "q": "Counter-Strike: Nexus vs Iberian Soul - Map 2 Winner",
+   "touched": null
+  },
+  {
+   "id": "7120866",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "67843399933597249544469300599952318786760702005154560530800196179702757682916",
+   "px": 0.999,
+   "tick": 0.001,
+   "ts": 1795002711,
+   "end_ts": 1795017600,
+   "q": "Counter-Strike: Nexus vs Iberian Soul (BO3) - RUSH Brno Group A",
+   "touched": null
+  },
+  {
+   "id": "7121658",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "93755039313325274570597746966216394547205965138272463811267739455946038021252",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795002711,
+   "end_ts": 1795021205,
+   "q": "Will MrBeast's next video get between 78 and 79 million views on day 4?",
+   "touched": null
+  },
+  {
+   "id": "7141455",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "36897318863971888874531153248707595939847465645969121606391699544647855780757",
+   "px": 0.999,
+   "tick": 0.001,
+   "ts": 1795002711,
+   "end_ts": 1795017600,
+   "q": "Map Handicap: NXS (-1.5) vs Iberian Soul (+1.5)",
+   "touched": null
+  },
+  {
+   "id": "6747478",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "27013682291907699044238326475870432105224276221038889306338211817086522127349",
+   "px": 0.95,
+   "tick": 0.01,
+   "ts": 1795002711,
+   "end_ts": 1795044600,
+   "q": "Cruzeiro EC vs. SE Palmeiras: Cruzeiro EC O/U 3.5",
+   "touched": null
+  },
+  {
+   "id": "6747646",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "108804590160994132105539359861772497356386210888292365566301380514416630281461",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1795002711,
+   "end_ts": 1795041000,
+   "q": "Coritiba FBC vs. Santos FC: Coritiba FBC O/U 3.5",
+   "touched": null
+  },
+  {
+   "id": "7117871",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "58264374082261692158483977861787889853034734462009181092997321821927217289816",
+   "px": 0.987,
+   "tick": 0.001,
+   "ts": 1795002711,
+   "end_ts": 1795035600,
+   "q": "Will Apple (AAPL) close above $340 on November 18?",
+   "touched": null
+  },
+  {
+   "id": "7117889",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "47000076471391647576469281248986847153040689498274603696642846445942912767156",
+   "px": 0.977,
+   "tick": 0.001,
+   "ts": 1795002711,
+   "end_ts": 1795035600,
+   "q": "Will Amazon (AMZN) close above $270 on November 18?",
+   "touched": null
+  },
+  {
+   "id": "7117967",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "8543934828649787172327532184759388335505096093970573909505622228074313812371",
+   "px": 0.971,
+   "tick": 0.001,
+   "ts": 1795002711,
+   "end_ts": 1795039200,
+   "q": "Gold (XAUUSD) Up or Down on November 18?",
+   "touched": null
+  },
+  {
+   "id": "7121237",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "98573349433291323501152819358442799335300392608174883182687640519244600719418",
+   "px": 0.96,
+   "tick": 0.01,
+   "ts": 1795002711,
+   "end_ts": 1795048200,
+   "q": "Spread: Canadiens (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "7127012",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "65364582457387997232872477707522581122780394366428994788845067160321532091270",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1795002711,
+   "end_ts": 1795046400,
+   "q": "Spread: Magic (-25.5)",
+   "touched": null
+  },
+  {
+   "id": "7110561",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "102262352047436288136755557219712201342045011737359983371102474914146350025064",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795002711,
+   "end_ts": 1795089600,
+   "q": "Will the highest temperature in Hong Kong be 15°C or below on November 19?",
+   "touched": null
+  },
+  {
+   "id": "7110786",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "53287535862272710467112029514417907205270851992105847471820679819852700159642",
+   "px": 0.964,
+   "tick": 0.001,
+   "ts": 1795002711,
+   "end_ts": 1795089600,
+   "q": "Will the highest temperature in Kuala Lumpur be 33°C on November 19?",
+   "touched": null
+  },
+  {
+   "id": "7110812",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "9937402312493146299527956803148004614425587631188223608415468364483173542454",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795002711,
+   "end_ts": 1795089600,
+   "q": "Will the highest temperature in Guangzhou be 12°C or below on November 19?",
+   "touched": null
+  },
+  {
+   "id": "7113050",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "101627980289545263781308563152460196093244548654435758747662660916107513425575",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795002711,
+   "end_ts": 1795089600,
+   "q": "Will the highest temperature in Atlanta be between 56-57°F on November 19?",
+   "touched": null
+  },
+  {
+   "id": "7113122",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "78146304269172748184272476519492652455569817216243414382079124668757876598214",
+   "px": 0.96,
+   "tick": 0.01,
+   "ts": 1795002711,
+   "end_ts": 1795089600,
+   "q": "Will the lowest temperature in New York City be 52°F or higher on November 19?",
+   "touched": null
+  },
+  {
+   "id": "7115978",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "76578516400415155946914026925096765125841738319446254244408076981998619527839",
+   "px": 0.992,
+   "tick": 0.001,
+   "ts": 1795002711,
+   "end_ts": 1795089600,
+   "q": "Will the highest temperature in Seattle be between 44-45°F on November 19?",
+   "touched": null
+  },
+  {
+   "id": "7115989",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "68328882913421555777217345267182149633327726941103994085387128783981804214493",
+   "px": 0.988,
+   "tick": 0.001,
+   "ts": 1795002711,
+   "end_ts": 1795089600,
+   "q": "Will the highest temperature in Seattle be between 54-55°F on November 19?",
+   "touched": null
+  },
+  {
+   "id": "7116450",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "12593124616573496670876035040421835763570478059976922007199025384523898172800",
+   "px": 0.969,
+   "tick": 0.001,
+   "ts": 1795002711,
+   "end_ts": 1795089600,
+   "q": "Will the highest temperature in Mexico City be 20°C on November 19?",
+   "touched": null
+  },
+  {
+   "id": "6990969",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "47854034413027867104466558766511427493434870701457026514528744760516924802174",
+   "px": 0.96,
+   "tick": 0.01,
+   "ts": 1795002711,
+   "end_ts": 1795107600,
+   "q": "Will the price of Ethereum be between $1,900 and $2,000 on November 19?",
+   "touched": null
+  },
+  {
+   "id": "7025475",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "79858339939244975698212658317825711058126534195514469137638869881439926684318",
+   "px": 0.96,
+   "tick": 0.01,
+   "ts": 1795002711,
+   "end_ts": 1795212000,
+   "q": "Will Silver (XAGUSD) hit (HIGH) $50 Week of November 16 2026?",
+   "touched": null
+  },
+  {
+   "id": "7122457",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "71189288382697222918365713034091786772421937904750113370898746924548150706019",
+   "px": 0.999,
+   "tick": 0.001,
+   "ts": 1795002711,
+   "end_ts": 1795208400,
+   "q": "Will NVIDIA (NVDA) hit (LOW) $152 Week of November 16 2026?",
+   "touched": null
+  },
+  {
+   "id": "7029821",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "66464549789766981066658748780710384350559987456639064816933856464559020431132",
+   "px": 0.987,
+   "tick": 0.001,
+   "ts": 1795002711,
+   "end_ts": 1795237140,
+   "q": "Will HotSchedules be #1 Paid App in the US Apple App Store on November 20?",
+   "touched": null
+  },
+  {
+   "id": "7029829",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "94020284821013902885125276517843349729553631682796821384807761984914805644425",
+   "px": 0.996,
+   "tick": 0.001,
+   "ts": 1795002711,
+   "end_ts": 1795237140,
+   "q": "Will Tiny Computers be #1 Paid App in the US Apple App Store on November 20?",
    "touched": null
   }
  ]
