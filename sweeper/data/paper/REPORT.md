@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-11T22:05:26Z | dias corridos: 6.9 de 28 | corridas: 129
-- Capital inicial: $1,000.00 | valor actual: $1,041.37 | P&L: $+41.37 (+4.14%)
-- Efectivo libre: $313.26 | en ordenes abiertas: $624.48 (12) | en posiciones: $103.68 (2)
+- Inicio: 2026-11-11T22:05:26Z | dias corridos: 6.9 de 28 | corridas: 130
+- Capital inicial: $1,000.00 | valor actual: $1,041.74 | P&L: $+41.74 (+4.17%)
+- Efectivo libre: $313.24 | en ordenes abiertas: $572.43 (11) | en posiciones: $155.75 (3)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 224 colocadas, 58 llenadas, 100 tocadas sin llenarse (sorteo 30%), 54 expiradas
+- Ordenes virtuales: 225 colocadas, 59 llenadas, 101 tocadas sin llenarse (sorteo 30%), 54 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -27,14 +27,15 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
-| $51.82 | 98.5c | 98.5c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
+| $51.82 | 98.5c | 99.2c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
+| $52.07 | 96.1c | 96.1c | post_fin_95_97 |  | Will the highest temperature in Seattle be between 54-55°F on November 18? |
 | $51.86 | 98.9c | 98.9c | deportes_previo |  | Jackson State Tigers vs. Baylor Bears |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 2012 | abiertas: 263 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 2012 | abiertas: 276 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
