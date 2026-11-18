@@ -1,6 +1,6 @@
 {
  "capital0": 1000.0,
- "cash": 417.6117,
+ "cash": 417.609,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
   {
@@ -172,25 +172,25 @@
    "liq": 4862
   },
   {
-   "oid": "7121655-1794992470",
-   "id": "7121655",
-   "q": "Will MrBeast's next video get between 75 and 76 million views on day 4?",
+   "oid": "7029427-1794999673",
+   "id": "7029427",
+   "q": "Will the next Gemini Carbon model (4.1+) be released on November 18, 2026?",
    "cat": "otros",
    "rule": "otros_cierre",
-   "event": "1410669",
+   "event": "1383747",
    "side": 1,
-   "token": "88789880366157166702482569614442080321494303498195506097774753409055330203693",
-   "px": 0.994,
+   "token": "31417147173698151584324080527650635871894261479930861814249077630691899354213",
+   "px": 0.995,
    "tick": 0.001,
-   "mid": 0.9945,
+   "mid": 0.995,
    "bid": 0.992,
-   "ask": 0.997,
-   "shares": 52.3179,
-   "cost": 52.0039,
-   "ts": 1794992470.957642,
-   "end_ts": 1795021205.0,
-   "hours": 7.98,
-   "liq": 1330
+   "ask": 0.998,
+   "shares": 52.2679,
+   "cost": 52.0066,
+   "ts": 1794999673.593148,
+   "end_ts": 1795064340.0,
+   "hours": 17.96,
+   "liq": 2156
   }
  ],
  "positions": [
@@ -215,7 +215,7 @@
    "hours": 4.96,
    "liq": 1203,
    "fill_ts": 1794967266.068418,
-   "mark": 0.9735,
+   "mark": 0.9815,
    "stuck": false,
    "disputed": false
   },
@@ -265,7 +265,9 @@
    "hours": 10.98,
    "liq": 4194,
    "fill_ts": 1794996067.599407,
-   "mark": 0.989
+   "mark": 0.9865,
+   "stuck": false,
+   "disputed": false
   }
  ],
  "closed": [
@@ -3400,14 +3402,27 @@
    "placed": 0,
    "shadow_open": 218,
    "shadow_closed": 0
+  },
+  {
+   "ts": "2026-11-18T11:01:41Z",
+   "equity": 1040.13,
+   "cash": 417.61,
+   "orders": 9,
+   "positions": 3,
+   "closed": 54,
+   "scanned": 7479,
+   "candidates": 103,
+   "placed": 1,
+   "shadow_open": 216,
+   "shadow_closed": 6
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 204,
+  "placed": 205,
   "filled": 57,
   "expired": 47,
-  "touched_not_filled": 91
+  "touched_not_filled": 92
  },
  "shadow": [
   {
@@ -3526,32 +3541,6 @@
    "end_ts": 1794924000,
    "q": "Indonesia vs. Kuwait: Draw at halftime?",
    "touched": 1
-  },
-  {
-   "id": "6612509",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "91293263612076072385438667068436819263009773413736725378550210511610176781647",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1794902472,
-   "end_ts": 1795003140,
-   "q": "Will UK annual inflation be between 3.1% and 3.3% in October?",
-   "touched": 1
-  },
-  {
-   "id": "6612512",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "6684671080874620976530777563578644051456694713753394622566624703736776561909",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1794902472,
-   "end_ts": 1795003140,
-   "q": "Will UK annual inflation be between 4.0% and 4.2% in October?",
-   "touched": 0
   },
   {
    "id": "7091077",
@@ -4620,19 +4609,6 @@
    "touched": 0
   },
   {
-   "id": "7109840",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "62209336872547077599110741203366116100649868826914685200296853385003350458133",
-   "px": 0.972,
-   "tick": 0.001,
-   "ts": 1794952869,
-   "end_ts": 1794978000,
-   "q": "Will Ethereum dip to $1,700 on November 17?",
-   "touched": null
-  },
-  {
    "id": "6747498",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -4643,33 +4619,7 @@
    "ts": 1794952869,
    "end_ts": 1795044600,
    "q": "Spread: CA Paranaense (-2.5)",
-   "touched": null
-  },
-  {
-   "id": "7102285",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 0,
-   "token": "26294006438745629487764789343150200125817008191764457334949010177393898546061",
-   "px": 0.971,
-   "tick": 0.001,
-   "ts": 1794956473,
-   "end_ts": 1794963600,
-   "q": "Bitcoin Up or Down - November 17, 4:00PM-8:00PM ET",
-   "touched": null
-  },
-  {
-   "id": "6766325",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 0,
-   "token": "106127876891577347322142412491760298946980737766273918073616610468837735018360",
-   "px": 0.996,
-   "tick": 0.001,
-   "ts": 1794956473,
-   "end_ts": 1794977940,
-   "q": "Will Amedeo Modigliani's “Tête” sell for at least $43m at auction?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6976580",
@@ -4682,20 +4632,7 @@
    "ts": 1794956473,
    "end_ts": 1794977940,
    "q": "Will Mark Rothko's “Untitled” sell for between $4.5m and $5.5m at auction?",
-   "touched": null
-  },
-  {
-   "id": "7109762",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "29443395742436769765182124040973512322571642673925256228998720246984664121269",
-   "px": 0.987,
-   "tick": 0.001,
-   "ts": 1794956473,
-   "end_ts": 1794978000,
-   "q": "Will Bitcoin dip to $62,000 on November 17?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6967618",
@@ -4708,7 +4645,7 @@
    "ts": 1794956473,
    "end_ts": 1795021200,
    "q": "Will the price of Ethereum be between $1,600 and $1,700 on November 18?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6967632",
@@ -4721,7 +4658,7 @@
    "ts": 1794956473,
    "end_ts": 1795021200,
    "q": "Will the price of Ethereum be between $2,100 and $2,200 on November 18?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "5747389",
@@ -4734,7 +4671,7 @@
    "ts": 1794956473,
    "end_ts": 1795028400,
    "q": "Spread: CD Badajoz (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6707167",
@@ -4747,7 +4684,7 @@
    "ts": 1794956473,
    "end_ts": 1795032000,
    "q": "Spread: Paris Saint-Germain FC (-1.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6707170",
@@ -4760,7 +4697,7 @@
    "ts": 1794956473,
    "end_ts": 1795032000,
    "q": "Spread: Paris Saint-Germain FC (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6707186",
@@ -4773,7 +4710,7 @@
    "ts": 1794956473,
    "end_ts": 1795032000,
    "q": "Chelsea FC vs. Paris Saint-Germain FC: O/U 8.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6707217",
@@ -4786,7 +4723,7 @@
    "ts": 1794956473,
    "end_ts": 1795032000,
    "q": "Spread: Oud-Heverlee Leuven Women (-1.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7121219",
@@ -4799,7 +4736,7 @@
    "ts": 1794956473,
    "end_ts": 1795053600,
    "q": "Avalanche vs. Utah: O/U 2.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7102299",
@@ -6242,6 +6179,58 @@
    "ts": 1794996067,
    "end_ts": 1795104000,
    "q": "Fordham Rams vs. Duke Blue Devils (W)",
+   "touched": null
+  },
+  {
+   "id": "5747208",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "96455167871163382611151648795069095396228044291002705869017812635801981541054",
+   "px": 0.977,
+   "tick": 0.001,
+   "ts": 1794999673,
+   "end_ts": 1795030200,
+   "q": "Spread: Barakaldo CF (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "7117920",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "19017566117781202582918886161670250517156834495195509663547658608407450765260",
+   "px": 0.98,
+   "tick": 0.001,
+   "ts": 1794999673,
+   "end_ts": 1795035600,
+   "q": "S&P 500 (SPX) Opens Up or Down on November 18?",
+   "touched": null
+  },
+  {
+   "id": "6747467",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "58495401297635301710982507393707415675257060795957502864526885257087321542827",
+   "px": 0.996,
+   "tick": 0.001,
+   "ts": 1794999673,
+   "end_ts": 1795044600,
+   "q": "Cruzeiro EC vs. SE Palmeiras: O/U 8.5",
+   "touched": null
+  },
+  {
+   "id": "6977977",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "88814109070214907638520512869476635150990669497016293006862554582303516414360",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1794999673,
+   "end_ts": 1795050000,
+   "q": "Campbell Fighting Camels vs. Oklahoma Sooners",
    "touched": null
   }
  ]
