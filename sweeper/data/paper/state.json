@@ -1,6 +1,6 @@
 {
  "capital0": 1000.0,
- "cash": 417.5119,
+ "cash": 417.4642,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
   {
@@ -88,27 +88,6 @@
    "liq": 1078
   },
   {
-   "oid": "5747205-1795006872",
-   "id": "5747205",
-   "q": "Spread: Reus FC Reddis (-2.5)",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1195456",
-   "side": 1,
-   "token": "88223397634543360886319388038311512342586660679071766508848342774026139992870",
-   "px": 0.977,
-   "tick": 0.001,
-   "mid": 0.9775,
-   "bid": 0.97,
-   "ask": 0.985,
-   "shares": 53.2591,
-   "cost": 52.0342,
-   "ts": 1795006872.824353,
-   "end_ts": 1795030200.0,
-   "hours": 6.48,
-   "liq": 2394
-  },
-  {
    "oid": "6967555-1795014073",
    "id": "6967555",
    "q": "Will the price of Bitcoin be less than $66,000 on November 18?",
@@ -193,25 +172,46 @@
    "liq": 41421
   },
   {
-   "oid": "7135894-1795024879",
-   "id": "7135894",
-   "q": "Will Bitcoin reach $67,000 on November 18?",
+   "oid": "7124148-1795028472",
+   "id": "7124148",
+   "q": "BNB Up or Down - November 18, 2:00PM-2:05PM ET",
    "cat": "cripto",
    "rule": "cripto_cierre",
-   "event": "1414300",
+   "event": "1411292",
    "side": 1,
-   "token": "66723842745348403590396491356564559878926970063420876972843703427907030148043",
-   "px": 0.995,
+   "token": "103847229881343585357157205255495676605233997106543577416735432101481862640151",
+   "px": 0.985,
    "tick": 0.001,
-   "mid": 0.995,
-   "bid": 0.994,
-   "ask": 0.996,
-   "shares": 52.333,
-   "cost": 52.0713,
-   "ts": 1795024879.578071,
-   "end_ts": 1795064400.0,
-   "hours": 10.98,
-   "liq": 44521
+   "mid": 0.985,
+   "bid": 0.98,
+   "ask": 0.99,
+   "shares": 52.8696,
+   "cost": 52.0766,
+   "ts": 1795028472.389428,
+   "end_ts": 1795028700.0,
+   "hours": 0.06,
+   "liq": 1457
+  },
+  {
+   "oid": "6978781-1795028472",
+   "id": "6978781",
+   "q": "South Dakota Coyotes vs. Nebraska Cornhuskers",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1368458",
+   "side": 1,
+   "token": "43238260247264369065373366491508048197324851546656380555192179957720485875227",
+   "px": 0.987,
+   "tick": 0.001,
+   "mid": 0.9875,
+   "bid": 0.984,
+   "ask": 0.991,
+   "shares": 52.7625,
+   "cost": 52.0766,
+   "ts": 1795028472.389428,
+   "end_ts": 1795051800.0,
+   "hours": 6.48,
+   "liq": 5023
   }
  ],
  "positions": [
@@ -236,7 +236,7 @@
    "hours": 4.96,
    "liq": 1203,
    "fill_ts": 1794967266.068418,
-   "mark": 0.9855,
+   "mark": 0.9875,
    "stuck": false,
    "disputed": false
   },
@@ -3575,14 +3575,27 @@
    "placed": 3,
    "shadow_open": 242,
    "shadow_closed": 60
+  },
+  {
+   "ts": "2026-11-18T19:01:59Z",
+   "equity": 1041.53,
+   "cash": 417.46,
+   "orders": 10,
+   "positions": 2,
+   "closed": 56,
+   "scanned": 8524,
+   "candidates": 86,
+   "placed": 2,
+   "shadow_open": 256,
+   "shadow_closed": 1
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 219,
+  "placed": 221,
   "filled": 58,
   "expired": 53,
-  "touched_not_filled": 98
+  "touched_not_filled": 100
  },
  "shadow": [
   {
@@ -4938,19 +4951,6 @@
    "touched": 1
   },
   {
-   "id": "7105581",
-   "rule": "post_fin_95_97",
-   "cat": "deportes",
-   "side": 1,
-   "token": "15641216290593666081773478361268266911108889751397064032484939627914581039987",
-   "px": 0.95,
-   "tick": 0.01,
-   "ts": 1794985268,
-   "end_ts": 1794974400,
-   "q": "Spread: Hornets (-1.5)",
-   "touched": null
-  },
-  {
    "id": "6707178",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -4961,7 +4961,7 @@
    "ts": 1794985268,
    "end_ts": 1795032000,
    "q": "Chelsea FC vs. Paris Saint-Germain FC: O/U 0.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6710888",
@@ -4974,7 +4974,7 @@
    "ts": 1794985268,
    "end_ts": 1795032000,
    "q": "Spread: Club Alianza Atlético (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6977182",
@@ -4987,7 +4987,7 @@
    "ts": 1794985268,
    "end_ts": 1795046400,
    "q": "North Carolina Central Eagles vs. George Mason Patriots",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6978780",
@@ -5000,7 +5000,7 @@
    "ts": 1794985268,
    "end_ts": 1795053600,
    "q": "Oakland Golden Grizzlies vs. Arizona State Sun Devils",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7135917",
@@ -5013,7 +5013,7 @@
    "ts": 1794985268,
    "end_ts": 1795064400,
    "q": "Will Ethereum dip to $1,550 on November 18?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7135927",
@@ -5026,7 +5026,7 @@
    "ts": 1794985268,
    "end_ts": 1795064400,
    "q": "Will Solana dip to $55 on November 18?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7135928",
@@ -5039,7 +5039,7 @@
    "ts": 1794985268,
    "end_ts": 1795064400,
    "q": "Will Solana dip to $50 on November 18?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7110238",
@@ -6729,6 +6729,201 @@
    "ts": 1795024879,
    "end_ts": 1795132800,
    "q": "Northwestern State Demons vs. Oklahoma Sooners (W)",
+   "touched": null
+  },
+  {
+   "id": "7124148",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "103847229881343585357157205255495676605233997106543577416735432101481862640151",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795028472,
+   "end_ts": 1795028700,
+   "q": "BNB Up or Down - November 18, 2:00PM-2:05PM ET",
+   "touched": null
+  },
+  {
+   "id": "7124162",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "70491117853077785029125317564045796433876876521577423425819463451376530440276",
+   "px": 0.975,
+   "tick": 0.001,
+   "ts": 1795028472,
+   "end_ts": 1795028700,
+   "q": "Ethereum Up or Down - November 18, 2:00PM-2:05PM ET",
+   "touched": null
+  },
+  {
+   "id": "7133241",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "4875739978133634861923557491570934410468682760218632896074753271612026763937",
+   "px": 0.974,
+   "tick": 0.001,
+   "ts": 1795028472,
+   "end_ts": 1795053600,
+   "q": "Spread: Colorado Buffaloes (-37.5)",
+   "touched": null
+  },
+  {
+   "id": "7133252",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "82238842039597114565026773546323224437823538322045502561923046458284653666854",
+   "px": 0.975,
+   "tick": 0.001,
+   "ts": 1795028472,
+   "end_ts": 1795053600,
+   "q": "Spread: Arizona State Sun Devils (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "5730335",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "38548893682183568165763813651801181137348999501991575192825060904349561166935",
+   "px": 0.987,
+   "tick": 0.001,
+   "ts": 1795028472,
+   "end_ts": 1795098600,
+   "q": "Walmart (WMT) Q3 US comp sales (ex-fuel) growth 1% to 2.5%?",
+   "touched": null
+  },
+  {
+   "id": "5730337",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "77137379735450579872702339992891276247992490541699708326163430458931122405353",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1795028472,
+   "end_ts": 1795098600,
+   "q": "Walmart (WMT) Q3 US comp sales (ex-fuel) growth 4% to 5.5%?",
+   "touched": null
+  },
+  {
+   "id": "5730339",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "3442862131450165597794560452867944292297676507833056447215793618814896740663",
+   "px": 0.981,
+   "tick": 0.001,
+   "ts": 1795028472,
+   "end_ts": 1795098600,
+   "q": "Walmart (WMT) Q3 US eCommerce sales growth <17%?",
+   "touched": null
+  },
+  {
+   "id": "5730340",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "66500877144005730814299706305017114259142391827770036039962577554493329079156",
+   "px": 0.983,
+   "tick": 0.001,
+   "ts": 1795028472,
+   "end_ts": 1795098600,
+   "q": "Walmart (WMT) Q3 US eCommerce sales growth 17% to 21%?",
+   "touched": null
+  },
+  {
+   "id": "5730342",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "82464480229683202415537965796561616305599705077776064222730312608979503479820",
+   "px": 0.984,
+   "tick": 0.001,
+   "ts": 1795028472,
+   "end_ts": 1795098600,
+   "q": "Walmart (WMT) Q3 US eCommerce sales growth 25% to 29%?",
+   "touched": null
+  },
+  {
+   "id": "7147615",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "4301940883718273929165464747408668318459216065808718348546846928203488172466",
+   "px": 0.996,
+   "tick": 0.001,
+   "ts": 1795028472,
+   "end_ts": 1795100400,
+   "q": "Will the US national average gas price be less than $3.7300 on November 19?",
+   "touched": null
+  },
+  {
+   "id": "7147890",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "85721302945967034422289429409741321543369908822499217393013795557978319745246",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1795028472,
+   "end_ts": 1795107605,
+   "q": "Will MrBeast's next video get between 81 and 82 million views on day 5?",
+   "touched": null
+  },
+  {
+   "id": "6784044",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "8087542667472508905629335987686954564631290643248741810515047487485637426666",
+   "px": 0.975,
+   "tick": 0.001,
+   "ts": 1795028472,
+   "end_ts": 1795127400,
+   "q": "Spread: SC Internacional (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "6911376",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "104977899906717797424047721216037186604053564878848390149852546812047393002517",
+   "px": 0.977,
+   "tick": 0.001,
+   "ts": 1795028472,
+   "end_ts": 1795134600,
+   "q": "Orlando City SC vs. FC Cincinnati: O/U 0.5",
+   "touched": null
+  },
+  {
+   "id": "6911384",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "78848268894918620024726987337875178700767664811248087523694021025566425986836",
+   "px": 0.986,
+   "tick": 0.001,
+   "ts": 1795028472,
+   "end_ts": 1795134600,
+   "q": "Orlando City SC vs. FC Cincinnati: O/U 8.5",
+   "touched": null
+  },
+  {
+   "id": "7150368",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "11555467517430318647166870254298044179784328466765185381084015007061126972982",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795028472,
+   "end_ts": 1795132800,
+   "q": "Kings vs. Maple Leafs: O/U 2.5",
    "touched": null
   }
  ]
