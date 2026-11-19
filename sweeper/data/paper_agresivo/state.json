@@ -1,8 +1,72 @@
 {
  "capital0": 1000.0,
- "cash": 0.0,
+ "cash": -0.0,
  "started": "2026-11-13T13:15:42Z",
- "orders": [],
+ "orders": [
+  {
+   "oid": "6990907-1795100522",
+   "id": "6990907",
+   "q": "Will the price of Ethereum be above $1,700 on November 19?",
+   "cat": "cripto",
+   "rule": "cripto_cierre",
+   "event": "1372726",
+   "side": 0,
+   "token": "36703334557630502345299879473067508727298913119367128717780963464203579263986",
+   "px": 0.996,
+   "tick": 0.001,
+   "mid": 0.9945,
+   "bid": 0.992,
+   "ask": 0.997,
+   "shares": 89.3708,
+   "cost": 89.0133,
+   "ts": 1795100522.280135,
+   "end_ts": 1795107600.0,
+   "hours": 1.97,
+   "liq": 38642
+  },
+  {
+   "oid": "6990910-1795100522",
+   "id": "6990910",
+   "q": "Will the price of Bitcoin be between $66,000 and $68,000 on November 19?",
+   "cat": "cripto",
+   "rule": "cripto_cierre",
+   "event": "1372723",
+   "side": 1,
+   "token": "90998905269878476316280224525556757215362974063446600770418977486864580479198",
+   "px": 0.989,
+   "tick": 0.001,
+   "mid": 0.9875,
+   "bid": 0.985,
+   "ask": 0.99,
+   "shares": 90.0034,
+   "cost": 89.0133,
+   "ts": 1795100522.280135,
+   "end_ts": 1795107600.0,
+   "hours": 1.97,
+   "liq": 34848
+  },
+  {
+   "oid": "6990916-1795100522",
+   "id": "6990916",
+   "q": "Will the price of Bitcoin be between $68,000 and $70,000 on November 19?",
+   "cat": "cripto",
+   "rule": "cripto_cierre",
+   "event": "1372723",
+   "side": 1,
+   "token": "45706387109189552551007399101743943426896440238827299881499599223548946336002",
+   "px": 0.998,
+   "tick": 0.001,
+   "mid": 0.9975,
+   "bid": 0.996,
+   "ask": 0.999,
+   "shares": 22.8049,
+   "cost": 22.7593,
+   "ts": 1795100522.280135,
+   "end_ts": 1795107600.0,
+   "hours": 1.97,
+   "liq": 37102
+  }
+ ],
  "positions": [
   {
    "oid": "5401165-1794790886",
@@ -26,31 +90,6 @@
    "liq": 1095,
    "fill_ts": 1794791170.442568,
    "mark": 0.9665,
-   "stuck": false,
-   "disputed": false
-  },
-  {
-   "oid": "6892080-1794877307",
-   "id": "6892080",
-   "q": "Will Microstrategy announce a Bitcoin purchase November 10-16?",
-   "cat": "cripto",
-   "rule": "cripto_cierre",
-   "event": "1346492",
-   "side": 0,
-   "token": "78292272544599825302861765642411756218904722873274017038132306888095831151804",
-   "px": 0.999,
-   "tick": 0.001,
-   "mid": 0.987,
-   "bid": 0.974,
-   "ask": 1,
-   "shares": 59.1719,
-   "cost": 59.1127,
-   "ts": 1794877307.038485,
-   "end_ts": 1794891600.0,
-   "hours": 3.97,
-   "liq": 4064,
-   "fill_ts": 1794880917.147481,
-   "mark": 0.9995,
    "stuck": false,
    "disputed": false
   },
@@ -155,31 +194,6 @@
    "disputed": false
   },
   {
-   "oid": "5730334-1795075291",
-   "id": "5730334",
-   "q": "Walmart (WMT) Q3 US comp sales (ex-fuel) growth <1%?",
-   "cat": "otros",
-   "rule": "otros_cierre",
-   "event": "1194145",
-   "side": 1,
-   "token": "115494712267468432914003950488326478402220778011857412423835524651989465815319",
-   "px": 0.998,
-   "tick": 0.001,
-   "mid": 0.995,
-   "bid": 0.991,
-   "ask": 0.999,
-   "shares": 88.4827,
-   "cost": 88.3057,
-   "ts": 1795075291.617345,
-   "end_ts": 1795098600.0,
-   "hours": 6.47,
-   "liq": 2684,
-   "fill_ts": 1795078905.936349,
-   "mark": 0.998,
-   "stuck": false,
-   "disputed": false
-  },
-  {
    "oid": "7154284-1795082521",
    "id": "7154284",
    "q": "Spread: Shan United (-2.5)",
@@ -225,32 +239,7 @@
    "hours": 6.97,
    "liq": 37334,
    "fill_ts": 1795086118.691163,
-   "mark": 0.9665,
-   "stuck": false,
-   "disputed": false
-  },
-  {
-   "oid": "5730335-1795086118",
-   "id": "5730335",
-   "q": "Walmart (WMT) Q3 US comp sales (ex-fuel) growth 1% to 2.5%?",
-   "cat": "otros",
-   "rule": "otros_cierre",
-   "event": "1194145",
-   "side": 1,
-   "token": "38548893682183568165763813651801181137348999501991575192825060904349561166935",
-   "px": 0.998,
-   "tick": 0.001,
-   "mid": 0.993,
-   "bid": 0.987,
-   "ask": 0.999,
-   "shares": 53.1313,
-   "cost": 53.025,
-   "ts": 1795086118.691163,
-   "end_ts": 1795098600.0,
-   "hours": 3.47,
-   "liq": 1847,
-   "fill_ts": 1795088908.637525,
-   "mark": 0.998,
+   "mark": 0.952,
    "stuck": false,
    "disputed": false
   },
@@ -325,7 +314,9 @@
    "hours": 2.38,
    "liq": 4786,
    "fill_ts": 1795096931.067474,
-   "mark": 0.99
+   "mark": 0.9845,
+   "stuck": false,
+   "disputed": false
   }
  ],
  "closed": [
@@ -2970,6 +2961,96 @@
    "result": 1.0,
    "closed_ts": "2026-11-19T10:02:03Z",
    "days": 0.04
+  },
+  {
+   "oid": "6892080-1794877307",
+   "id": "6892080",
+   "q": "Will Microstrategy announce a Bitcoin purchase November 10-16?",
+   "cat": "cripto",
+   "rule": "cripto_cierre",
+   "event": "1346492",
+   "side": 0,
+   "token": "78292272544599825302861765642411756218904722873274017038132306888095831151804",
+   "px": 0.999,
+   "tick": 0.001,
+   "mid": 0.987,
+   "bid": 0.974,
+   "ask": 1,
+   "shares": 59.1719,
+   "cost": 59.1127,
+   "ts": 1794877307.038485,
+   "end_ts": 1794891600.0,
+   "hours": 3.97,
+   "liq": 4064,
+   "fill_ts": 1794880917.147481,
+   "mark": 0.9995,
+   "stuck": false,
+   "disputed": false,
+   "payout": 59.1719,
+   "pnl": 0.0592,
+   "result": 1.0,
+   "closed_ts": "2026-11-19T15:02:08Z",
+   "days": 2.54
+  },
+  {
+   "oid": "5730334-1795075291",
+   "id": "5730334",
+   "q": "Walmart (WMT) Q3 US comp sales (ex-fuel) growth <1%?",
+   "cat": "otros",
+   "rule": "otros_cierre",
+   "event": "1194145",
+   "side": 1,
+   "token": "115494712267468432914003950488326478402220778011857412423835524651989465815319",
+   "px": 0.998,
+   "tick": 0.001,
+   "mid": 0.995,
+   "bid": 0.991,
+   "ask": 0.999,
+   "shares": 88.4827,
+   "cost": 88.3057,
+   "ts": 1795075291.617345,
+   "end_ts": 1795098600.0,
+   "hours": 6.47,
+   "liq": 2684,
+   "fill_ts": 1795078905.936349,
+   "mark": 0.998,
+   "stuck": false,
+   "disputed": false,
+   "payout": 88.4827,
+   "pnl": 0.177,
+   "result": 1.0,
+   "closed_ts": "2026-11-19T15:02:08Z",
+   "days": 0.25
+  },
+  {
+   "oid": "5730335-1795086118",
+   "id": "5730335",
+   "q": "Walmart (WMT) Q3 US comp sales (ex-fuel) growth 1% to 2.5%?",
+   "cat": "otros",
+   "rule": "otros_cierre",
+   "event": "1194145",
+   "side": 1,
+   "token": "38548893682183568165763813651801181137348999501991575192825060904349561166935",
+   "px": 0.998,
+   "tick": 0.001,
+   "mid": 0.993,
+   "bid": 0.987,
+   "ask": 0.999,
+   "shares": 53.1313,
+   "cost": 53.025,
+   "ts": 1795086118.691163,
+   "end_ts": 1795098600.0,
+   "hours": 3.47,
+   "liq": 1847,
+   "fill_ts": 1795088908.637525,
+   "mark": 0.998,
+   "stuck": false,
+   "disputed": false,
+   "payout": 53.1313,
+   "pnl": 0.1063,
+   "result": 1.0,
+   "closed_ts": "2026-11-19T15:02:09Z",
+   "days": 0.13
   }
  ],
  "runs": [
@@ -4441,11 +4522,24 @@
    "placed": 0,
    "shadow_open": 2223,
    "shadow_closed": 17
+  },
+  {
+   "ts": "2026-11-19T15:03:55Z",
+   "equity": 890.13,
+   "cash": -0.0,
+   "orders": 3,
+   "positions": 10,
+   "closed": 93,
+   "scanned": 26433,
+   "candidates": 969,
+   "placed": 3,
+   "shadow_open": 2267,
+   "shadow_closed": 26
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 219,
+  "placed": 222,
   "filled": 103,
   "expired": 28,
   "touched_not_filled": 88
@@ -4517,19 +4611,6 @@
    "touched": 1
   },
   {
-   "id": "6892080",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 0,
-   "token": "78292272544599825302861765642411756218904722873274017038132306888095831151804",
-   "px": 0.97,
-   "tick": 0.01,
-   "ts": 1794823312,
-   "end_ts": 1794891600,
-   "q": "Will Microstrategy announce a Bitcoin purchase November 10-16?",
-   "touched": 1
-  },
-  {
    "id": "6892470",
    "rule": "cripto_cierre",
    "cat": "cripto",
@@ -4540,58 +4621,6 @@
    "ts": 1794837735,
    "end_ts": 1794891600,
    "q": "MicroStrategy announces >1000 BTC purchase November 10-16?",
-   "touched": 1
-  },
-  {
-   "id": "5730334",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "115494712267468432914003950488326478402220778011857412423835524651989465815319",
-   "px": 0.988,
-   "tick": 0.001,
-   "ts": 1794841309,
-   "end_ts": 1795098600,
-   "q": "Walmart (WMT) Q3 US comp sales (ex-fuel) growth <1%?",
-   "touched": 1
-  },
-  {
-   "id": "5730343",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "40203922871987017894655482414959591347457929600498076780797963189569932794848",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1794841309,
-   "end_ts": 1795098600,
-   "q": "Walmart (WMT) Q3 US eCommerce sales growth 29%+?",
-   "touched": 0
-  },
-  {
-   "id": "5730339",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "3442862131450165597794560452867944292297676507833056447215793618814896740663",
-   "px": 0.987,
-   "tick": 0.001,
-   "ts": 1794844913,
-   "end_ts": 1795098600,
-   "q": "Walmart (WMT) Q3 US eCommerce sales growth <17%?",
-   "touched": 1
-  },
-  {
-   "id": "5730340",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "66500877144005730814299706305017114259142391827770036039962577554493329079156",
-   "px": 0.985,
-   "tick": 0.001,
-   "ts": 1794844913,
-   "end_ts": 1795098600,
-   "q": "Walmart (WMT) Q3 US eCommerce sales growth 17% to 21%?",
    "touched": 1
   },
   {
@@ -5463,19 +5492,6 @@
    "ts": 1794870102,
    "end_ts": 1794924000,
    "q": "Indonesia leading at halftime?",
-   "touched": 1
-  },
-  {
-   "id": "5730337",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "77137379735450579872702339992891276247992490541699708326163430458931122405353",
-   "px": 0.966,
-   "tick": 0.001,
-   "ts": 1794870102,
-   "end_ts": 1795098600,
-   "q": "Walmart (WMT) Q3 US comp sales (ex-fuel) growth 4% to 5.5%?",
    "touched": 1
   },
   {
@@ -7088,19 +7104,6 @@
    "ts": 1794920523,
    "end_ts": 1795089600,
    "q": "Will the highest temperature in Sao Paulo be 36°C or higher on November 19?",
-   "touched": 1
-  },
-  {
-   "id": "5730338",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "96496903716012981746447595578737654645174059466956863804601304121078476109318",
-   "px": 0.985,
-   "tick": 0.001,
-   "ts": 1794920523,
-   "end_ts": 1795098600,
-   "q": "Walmart (WMT) Q3 US comp sales (ex-fuel) growth 5.5%+?",
    "touched": 1
   },
   {
@@ -15541,253 +15544,6 @@
    "touched": 0
   },
   {
-   "id": "7089006",
-   "rule": "post_fin_90_97",
-   "cat": "clima",
-   "side": 1,
-   "token": "42121385282109126726317168441142437319296557652413500501978697462492792504496",
-   "px": 0.946,
-   "tick": 0.001,
-   "ts": 1795014104,
-   "end_ts": 1795003200,
-   "q": "Will the highest temperature in Miami be between 80-81°F on November 18?",
-   "touched": null
-  },
-  {
-   "id": "7089016",
-   "rule": "post_fin_90_97",
-   "cat": "clima",
-   "side": 1,
-   "token": "115614030884077190450794748628214051722615951837257153955239555632321800068175",
-   "px": 0.91,
-   "tick": 0.01,
-   "ts": 1795014104,
-   "end_ts": 1795003200,
-   "q": "Will the highest temperature in Chicago be between 58-59°F on November 18?",
-   "touched": null
-  },
-  {
-   "id": "7089026",
-   "rule": "post_fin_90_97",
-   "cat": "clima",
-   "side": 1,
-   "token": "64599610906708223285758077652420588611139313051457044539127291701795741958559",
-   "px": 0.95,
-   "tick": 0.001,
-   "ts": 1795014104,
-   "end_ts": 1795003200,
-   "q": "Will the highest temperature in Austin be between 68-69°F on November 18?",
-   "touched": null
-  },
-  {
-   "id": "7090655",
-   "rule": "post_fin_90_97",
-   "cat": "clima",
-   "side": 1,
-   "token": "65272176794197593409623848612419769945246194518683520903783812440677302360607",
-   "px": 0.95,
-   "tick": 0.01,
-   "ts": 1795014104,
-   "end_ts": 1795003200,
-   "q": "Will the highest temperature in San Francisco be between 60-61°F on November 18?",
-   "touched": null
-  },
-  {
-   "id": "7121657",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 0,
-   "token": "66443688707458159359189031944734017796721502889502063238396126023365956216178",
-   "px": 0.989,
-   "tick": 0.001,
-   "ts": 1795014104,
-   "end_ts": 1795021205,
-   "q": "Will MrBeast's next video get between 77 and 78 million views on day 4?",
-   "touched": null
-  },
-  {
-   "id": "5747402",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "35034270736189767400969306465519074146030186150543819498945055316943576348587",
-   "px": 0.966,
-   "tick": 0.001,
-   "ts": 1795014104,
-   "end_ts": 1795028400,
-   "q": "CD Badajoz vs. CD Tenerife: O/U 5.5",
-   "touched": null
-  },
-  {
-   "id": "6707240",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "6742444199093613829600150288527953114647291141026000803905630649574768691186",
-   "px": 0.992,
-   "tick": 0.001,
-   "ts": 1795014104,
-   "end_ts": 1795032000,
-   "q": "Juventus FC vs. Oud-Heverlee Leuven Women: O/U 8.5",
-   "touched": null
-  },
-  {
-   "id": "7117880",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "24061919861318469217749201989769098525024751512121793421016606208443629781936",
-   "px": 0.989,
-   "tick": 0.001,
-   "ts": 1795014104,
-   "end_ts": 1795035600,
-   "q": "Will Microsoft (MSFT) close above $520 on November 18?",
-   "touched": null
-  },
-  {
-   "id": "7117891",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 0,
-   "token": "71950963933401889021109179741871155391143485234936009257315246525246960976626",
-   "px": 0.97,
-   "tick": 0.01,
-   "ts": 1795014104,
-   "end_ts": 1795035600,
-   "q": "Will Google (GOOGL) close above $275 on November 18?",
-   "touched": null
-  },
-  {
-   "id": "7117894",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "24059817338532423826852246774239951341915396527330505155269727440074357481027",
-   "px": 0.969,
-   "tick": 0.001,
-   "ts": 1795014104,
-   "end_ts": 1795035600,
-   "q": "Will Google (GOOGL) close above $290 on November 18?",
-   "touched": null
-  },
-  {
-   "id": "7117897",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 0,
-   "token": "76725234578081949511576147759290549932097407715922469802242464037445476833532",
-   "px": 0.95,
-   "tick": 0.01,
-   "ts": 1795014104,
-   "end_ts": 1795035600,
-   "q": "Will Meta (META) close above $600 on November 18?",
-   "touched": null
-  },
-  {
-   "id": "7117902",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "108332123639384889045531119485710254212401929598756973611044861227685442357656",
-   "px": 0.979,
-   "tick": 0.001,
-   "ts": 1795014104,
-   "end_ts": 1795035600,
-   "q": "Will Meta (META) close above $640 on November 18?",
-   "touched": null
-  },
-  {
-   "id": "7117916",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "83576877819235403248979884016706139703678865820968424248535355150320060509624",
-   "px": 0.96,
-   "tick": 0.01,
-   "ts": 1795014104,
-   "end_ts": 1795035600,
-   "q": "Will NVIDIA (NVDA) close above $165 on November 18?",
-   "touched": null
-  },
-  {
-   "id": "7117917",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "49648353337207495305099673893360706603309319194484057456893066199194240076115",
-   "px": 0.989,
-   "tick": 0.001,
-   "ts": 1795014104,
-   "end_ts": 1795035600,
-   "q": "Will NVIDIA (NVDA) close above $170 on November 18?",
-   "touched": null
-  },
-  {
-   "id": "7121385",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "37079038220072732077308376907982713990343400675193624843379911198482245971042",
-   "px": 0.976,
-   "tick": 0.001,
-   "ts": 1795014104,
-   "end_ts": 1795030200,
-   "q": "Dota 2: HULIGANI vs Nemiga Gaming (BO3) - DreamLeague Division 2 Playoffs",
-   "touched": null
-  },
-  {
-   "id": "7127399",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "2543686918786559022786527426773401311651834701960102606944171267566297001914",
-   "px": 0.999,
-   "tick": 0.001,
-   "ts": 1795014104,
-   "end_ts": 1795029600,
-   "q": "Games Total: O/U 2.5",
-   "touched": null
-  },
-  {
-   "id": "7127610",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "18850945586378399140629964806974391761025278423532275228208076337505327547864",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795014104,
-   "end_ts": 1795026000,
-   "q": "Map Handicap: PHA (-1.5) vs Metizport (+1.5)",
-   "touched": null
-  },
-  {
-   "id": "6747530",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "52693634506025512962321458147509969388678472223772032789923488073661914730633",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795014104,
-   "end_ts": 1795044600,
-   "q": "CR Flamengo vs. CA Paranaense: CA Paranaense O/U 3.5",
-   "touched": null
-  },
-  {
-   "id": "7133449",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "90309272940066324614783891175174426476607214412084729495283477453930650591814",
-   "px": 0.988,
-   "tick": 0.001,
-   "ts": 1795014104,
-   "end_ts": 1795048200,
-   "q": "Spread: Marquette Golden Eagles (-52.5)",
-   "touched": null
-  },
-  {
    "id": "7110566",
    "rule": "clima_cierre",
    "cat": "clima",
@@ -15798,7 +15554,7 @@
    "ts": 1795014104,
    "end_ts": 1795089600,
    "q": "Will the highest temperature in Hong Kong be 20°C on November 19?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7110820",
@@ -15811,7 +15567,7 @@
    "ts": 1795014104,
    "end_ts": 1795089600,
    "q": "Will the highest temperature in Guangzhou be 20°C on November 19?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7110889",
@@ -15824,7 +15580,7 @@
    "ts": 1795014104,
    "end_ts": 1795089600,
    "q": "Will the lowest temperature in Seoul (Incheon) be 4°C on November 19?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7110890",
@@ -15837,7 +15593,7 @@
    "ts": 1795014104,
    "end_ts": 1795089600,
    "q": "Will the lowest temperature in Seoul (Incheon) be 5°C or higher on November 19?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7110944",
@@ -15850,7 +15606,7 @@
    "ts": 1795014104,
    "end_ts": 1795089600,
    "q": "Will the lowest temperature in Tokyo be 6°C or below on November 19?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7113046",
@@ -15863,7 +15619,7 @@
    "ts": 1795014104,
    "end_ts": 1795089600,
    "q": "Will the highest temperature in Dallas be between 76-77°F on November 19?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7113113",
@@ -15876,7 +15632,7 @@
    "ts": 1795014104,
    "end_ts": 1795089600,
    "q": "Will the lowest temperature in New York City be between 34-35°F on November 19?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7115979",
@@ -15889,7 +15645,7 @@
    "ts": 1795014104,
    "end_ts": 1795089600,
    "q": "Will the highest temperature in Seattle be between 46-47°F on November 19?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7116463",
@@ -15902,7 +15658,7 @@
    "ts": 1795014104,
    "end_ts": 1795089600,
    "q": "Will the highest temperature in Panama City be 34°C or higher on November 19?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6993110",
@@ -15915,7 +15671,7 @@
    "ts": 1795014104,
    "end_ts": 1795092300,
    "q": "Spread: Hatta SC (-1.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6742166",
@@ -15928,7 +15684,7 @@
    "ts": 1795014104,
    "end_ts": 1795110300,
    "q": "Paris FC vs. HB Køge: O/U 0.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6742219",
@@ -15941,7 +15697,7 @@
    "ts": 1795014104,
    "end_ts": 1795110300,
    "q": "FK Austria Wien vs. FC Bayern München: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6990918",
@@ -15954,7 +15710,7 @@
    "ts": 1795014104,
    "end_ts": 1795107600,
    "q": "Will the price of Ethereum be above $1,900 on November 19?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6742023",
@@ -15967,7 +15723,7 @@
    "ts": 1795014104,
    "end_ts": 1795118400,
    "q": "Arsenal WFC vs. OL Lyonnes: O/U 0.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6742073",
@@ -15980,7 +15736,7 @@
    "ts": 1795014104,
    "end_ts": 1795118400,
    "q": "Sport Lisboa e Benfica vs. AS Roma: O/U 0.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6742119",
@@ -15993,7 +15749,7 @@
    "ts": 1795014104,
    "end_ts": 1795118400,
    "q": "FC Barcelona vs. Servette FC Chênois Féminin: O/U 0.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6998322",
@@ -16006,7 +15762,7 @@
    "ts": 1795014104,
    "end_ts": 1795132800,
    "q": "UMBC Retrievers vs. Ohio State Buckeyes",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136297",
@@ -16019,7 +15775,7 @@
    "ts": 1795014104,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Ankara be 15°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136464",
@@ -16032,7 +15788,7 @@
    "ts": 1795014104,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Beijing be 11°C on November 20?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7136719",
@@ -16045,7 +15801,7 @@
    "ts": 1795014104,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Manila be 36°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136807",
@@ -16058,7 +15814,7 @@
    "ts": 1795014104,
    "end_ts": 1795176000,
    "q": "Will the lowest temperature in Hong Kong be 19°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136808",
@@ -16071,7 +15827,7 @@
    "ts": 1795014104,
    "end_ts": 1795176000,
    "q": "Will the lowest temperature in Hong Kong be 20°C or higher on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7138279",
@@ -16084,7 +15840,7 @@
    "ts": 1795014104,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in New York City be 74°F or higher on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7138289",
@@ -16097,7 +15853,7 @@
    "ts": 1795014104,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Dallas be between 80-81°F on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7024851",
@@ -16110,7 +15866,7 @@
    "ts": 1795014104,
    "end_ts": 1795208400,
    "q": "Will Apple (AAPL) hit (HIGH) $380 Week of November 16 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7024923",
@@ -16123,7 +15879,7 @@
    "ts": 1795014104,
    "end_ts": 1795208400,
    "q": "Will Microsoft Corporation (MSFT) hit (HIGH) $547.50 Week of November 16 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7024934",
@@ -16136,7 +15892,7 @@
    "ts": 1795014104,
    "end_ts": 1795208400,
    "q": "Will Microsoft (MSFT) finish week of November 16 above $560?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7024937",
@@ -16149,7 +15905,7 @@
    "ts": 1795014104,
    "end_ts": 1795208400,
    "q": "Will Microsoft (MSFT) finish week of November 16 above $570?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7024939",
@@ -16162,7 +15918,7 @@
    "ts": 1795014104,
    "end_ts": 1795208400,
    "q": "Will Microsoft (MSFT) finish week of November 16 above $580?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7024954",
@@ -16175,7 +15931,7 @@
    "ts": 1795014104,
    "end_ts": 1795208400,
    "q": "Will Amazon.com, Inc. (AMZN) hit (HIGH) $292 Week of November 16 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7024978",
@@ -16188,7 +15944,7 @@
    "ts": 1795014104,
    "end_ts": 1795208400,
    "q": "Will Amazon (AMZN) finish week of November 16 above $290?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7024980",
@@ -16201,7 +15957,7 @@
    "ts": 1795014104,
    "end_ts": 1795208400,
    "q": "Will Amazon (AMZN) finish week of November 16 above $295?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7024997",
@@ -16214,7 +15970,7 @@
    "ts": 1795014104,
    "end_ts": 1795208400,
    "q": "Will Alphabet Inc. (GOOGL) hit (HIGH) $325 Week of November 16 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7025015",
@@ -16227,7 +15983,7 @@
    "ts": 1795014104,
    "end_ts": 1795208400,
    "q": "Will Google (GOOGL) finish week of November 16 above $320?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7025017",
@@ -16240,7 +15996,7 @@
    "ts": 1795014104,
    "end_ts": 1795208400,
    "q": "Will Google (GOOGL) finish week of November 16 above $325?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7025039",
@@ -16253,7 +16009,7 @@
    "ts": 1795014104,
    "end_ts": 1795208400,
    "q": "Will Meta Platforms, Inc. (META) hit (HIGH) $690 Week of November 16 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7025041",
@@ -16266,7 +16022,7 @@
    "ts": 1795014104,
    "end_ts": 1795208400,
    "q": "Will Meta (META) close at $670-$680 on the final day of trading of the week of Nov 16 – No",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7025048",
@@ -16279,7 +16035,7 @@
    "ts": 1795014104,
    "end_ts": 1795208400,
    "q": "Will Meta (META) finish week of November 16 above $670?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7025121",
@@ -16292,7 +16048,7 @@
    "ts": 1795014104,
    "end_ts": 1795208400,
    "q": "Will NVIDIA (NVDA) close at >$185 on the final day of trading of the week of Nov 16 – Nov ",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7025123",
@@ -16305,7 +16061,7 @@
    "ts": 1795014104,
    "end_ts": 1795208400,
    "q": "Will NVIDIA (NVDA) finish week of November 16 above $175?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7025127",
@@ -16318,7 +16074,7 @@
    "ts": 1795014104,
    "end_ts": 1795208400,
    "q": "Will NVIDIA (NVDA) finish week of November 16 above $185?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7025129",
@@ -16331,7 +16087,7 @@
    "ts": 1795014104,
    "end_ts": 1795208400,
    "q": "Will NVIDIA (NVDA) finish week of November 16 above $190?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7025140",
@@ -16344,7 +16100,7 @@
    "ts": 1795014104,
    "end_ts": 1795208400,
    "q": "Will Netflix (NFLX) finish week of November 16 above $10?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7025142",
@@ -16357,7 +16113,7 @@
    "ts": 1795014104,
    "end_ts": 1795208400,
    "q": "Will Netflix (NFLX) finish week of November 16 above $20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7025144",
@@ -16370,7 +16126,7 @@
    "ts": 1795014104,
    "end_ts": 1795208400,
    "q": "Will Netflix (NFLX) finish week of November 16 above $30?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7025151",
@@ -16383,7 +16139,7 @@
    "ts": 1795014104,
    "end_ts": 1795208400,
    "q": "Will Netflix (NFLX) close at $90-$100 on the final day of trading of the week of Nov 16 – ",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7025152",
@@ -16396,7 +16152,7 @@
    "ts": 1795014104,
    "end_ts": 1795208400,
    "q": "Will Netflix (NFLX) finish week of November 16 above $70?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7025155",
@@ -16409,7 +16165,7 @@
    "ts": 1795014104,
    "end_ts": 1795208400,
    "q": "Will Netflix, Inc. (NFLX) hit (HIGH) $77.50 Week of November 16 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7025174",
@@ -16422,7 +16178,7 @@
    "ts": 1795014104,
    "end_ts": 1795208400,
    "q": "Will Netflix, Inc. (NFLX) hit (LOW) $45 Week of November 16 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7025189",
@@ -16435,7 +16191,7 @@
    "ts": 1795014104,
    "end_ts": 1795208400,
    "q": "Will Palantir (PLTR) close at $172-$174 on the final day of trading of the week of Nov 16 ",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7025275",
@@ -16448,7 +16204,7 @@
    "ts": 1795014104,
    "end_ts": 1795208400,
    "q": "Will Micron (MU) close at $820-$840 on the final day of trading of the week of Nov 16 – No",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7025279",
@@ -16461,7 +16217,7 @@
    "ts": 1795014104,
    "end_ts": 1795208400,
    "q": "Will Micron (MU) close at >$860 on the final day of trading of the week of Nov 16 – Nov 20",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7025308",
@@ -16474,7 +16230,7 @@
    "ts": 1795014104,
    "end_ts": 1795208400,
    "q": "Will SpaceX (SPCX) finish week of November 16 above $160?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7025347",
@@ -16487,7 +16243,7 @@
    "ts": 1795014104,
    "end_ts": 1795208400,
    "q": "Will Robinhood Markets, Inc. (HOOD) hit (HIGH) $85 Week of November 16 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7025359",
@@ -16500,7 +16256,7 @@
    "ts": 1795014104,
    "end_ts": 1795208400,
    "q": "Will Micron Technology, Inc. (MU) hit (HIGH) $930 Week of November 16 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7025360",
@@ -16513,7 +16269,7 @@
    "ts": 1795014104,
    "end_ts": 1795208400,
    "q": "Will Micron Technology, Inc. (MU) hit (HIGH) $900 Week of November 16 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7097666",
@@ -16526,7 +16282,7 @@
    "ts": 1795014104,
    "end_ts": 1795208400,
    "q": "Will Amazon.com, Inc. (AMZN) hit (HIGH) $264 Week of November 16 2026?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7029826",
@@ -16539,7 +16295,7 @@
    "ts": 1795014104,
    "end_ts": 1795237140,
    "q": "Will Chromagraph Camera be #1 Paid App in the US Apple App Store on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6837615",
@@ -16552,7 +16308,7 @@
    "ts": 1795014104,
    "end_ts": 1795271400,
    "q": "Spread: SV 07 Elversberg (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6837644",
@@ -16565,7 +16321,7 @@
    "ts": 1795014104,
    "end_ts": 1795271400,
    "q": "SV 07 Elversberg vs. SC Freiburg: O/U 0.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6837650",
@@ -16578,7 +16334,7 @@
    "ts": 1795014104,
    "end_ts": 1795273200,
    "q": "Spread: Nottingham Forest FC (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6837653",
@@ -16591,7 +16347,7 @@
    "ts": 1795014104,
    "end_ts": 1795273200,
    "q": "Spread: AFC Bournemouth (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6837657",
@@ -16604,7 +16360,7 @@
    "ts": 1795014104,
    "end_ts": 1795273200,
    "q": "Spread: Nottingham Forest FC (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6837845",
@@ -16617,7 +16373,7 @@
    "ts": 1795014104,
    "end_ts": 1795271400,
    "q": "1. FC Union Berlin vs. RB Leipzig: O/U 0.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6837855",
@@ -16630,7 +16386,7 @@
    "ts": 1795014104,
    "end_ts": 1795273200,
    "q": "Spread: Leeds United FC (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6837856",
@@ -16643,7 +16399,7 @@
    "ts": 1795014104,
    "end_ts": 1795269600,
    "q": "SS Lazio vs. US Lecce: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6837859",
@@ -16656,7 +16412,7 @@
    "ts": 1795014104,
    "end_ts": 1795273200,
    "q": "Spread: Chelsea FC (-3.5)",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6837863",
@@ -16669,7 +16425,7 @@
    "ts": 1795014104,
    "end_ts": 1795273200,
    "q": "Spread: Leeds United FC (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6838015",
@@ -16682,7 +16438,7 @@
    "ts": 1795014104,
    "end_ts": 1795271400,
    "q": "Spread: SC Paderborn 07 (-1.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6838048",
@@ -16695,7 +16451,7 @@
    "ts": 1795014104,
    "end_ts": 1795271400,
    "q": "Bayer 04 Leverkusen vs. SC Paderborn 07: O/U 0.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6838058",
@@ -16708,7 +16464,7 @@
    "ts": 1795014104,
    "end_ts": 1795273200,
    "q": "Spread: Ipswich Town FC (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6838066",
@@ -16721,7 +16477,7 @@
    "ts": 1795014104,
    "end_ts": 1795273200,
    "q": "Spread: Ipswich Town FC (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6838086",
@@ -16734,7 +16490,7 @@
    "ts": 1795014104,
    "end_ts": 1795273200,
    "q": "Tottenham Hotspur FC vs. Ipswich Town FC: O/U 0.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6838112",
@@ -16747,7 +16503,7 @@
    "ts": 1795014104,
    "end_ts": 1795271400,
    "q": "Bayer 04 Leverkusen vs. SC Paderborn 07: Bayer 04 Leverkusen O/U 0.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6838237",
@@ -16760,7 +16516,7 @@
    "ts": 1795014104,
    "end_ts": 1795271400,
    "q": "Eintracht Frankfurt vs. TSG 1899 Hoffenheim: O/U 0.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6838252",
@@ -16773,7 +16529,7 @@
    "ts": 1795014104,
    "end_ts": 1795273200,
    "q": "Spread: Coventry City FC (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6838255",
@@ -16786,7 +16542,7 @@
    "ts": 1795014104,
    "end_ts": 1795273200,
    "q": "Spread: Crystal Palace FC (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6838377",
@@ -16799,7 +16555,7 @@
    "ts": 1795014104,
    "end_ts": 1795271400,
    "q": "Borussia Mönchengladbach vs. BV Borussia 09 Dortmund: O/U 0.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6838385",
@@ -16812,7 +16568,7 @@
    "ts": 1795014104,
    "end_ts": 1795273200,
    "q": "Spread: Sunderland AFC (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6838387",
@@ -16825,7 +16581,7 @@
    "ts": 1795014104,
    "end_ts": 1795273200,
    "q": "Spread: Aston Villa FC (-3.5)",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6838389",
@@ -16838,7 +16594,7 @@
    "ts": 1795014104,
    "end_ts": 1795273200,
    "q": "Spread: Sunderland AFC (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6967567",
@@ -33348,6 +33104,916 @@
    "ts": 1795096931,
    "end_ts": 1795354200,
    "q": "Will FC Lokomotiv 1929 Sofia win on 2026-11-22?",
+   "touched": null
+  },
+  {
+   "id": "7113054",
+   "rule": "post_fin_90_97",
+   "cat": "clima",
+   "side": 1,
+   "token": "22709719743649693697658764915266099311093228684090235329154324483672410393401",
+   "px": 0.967,
+   "tick": 0.001,
+   "ts": 1795100522,
+   "end_ts": 1795089600,
+   "q": "Will the highest temperature in Atlanta be between 64-65°F on November 19?",
+   "touched": null
+  },
+  {
+   "id": "7115982",
+   "rule": "post_fin_90_97",
+   "cat": "clima",
+   "side": 1,
+   "token": "4175280868422277288670964211589561573964056050301564576490512060820069862752",
+   "px": 0.95,
+   "tick": 0.01,
+   "ts": 1795100522,
+   "end_ts": 1795089600,
+   "q": "Will the highest temperature in Seattle be between 52-53°F on November 19?",
+   "touched": null
+  },
+  {
+   "id": "7116010",
+   "rule": "post_fin_90_97",
+   "cat": "clima",
+   "side": 1,
+   "token": "85499648697974302809896638522890680773241959809331800670348530220007196316337",
+   "px": 0.92,
+   "tick": 0.01,
+   "ts": 1795100522,
+   "end_ts": 1795089600,
+   "q": "Will the highest temperature in Los Angeles be between 68-69°F on November 19?",
+   "touched": null
+  },
+  {
+   "id": "7143302",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "13347932380620679151233445057071331533272306696893433257802796269495081894481",
+   "px": 0.999,
+   "tick": 0.001,
+   "ts": 1795100522,
+   "end_ts": 1795122000,
+   "q": "Will Google (GOOGL) close above $270 on November 19?",
+   "touched": null
+  },
+  {
+   "id": "7143304",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "28027436676154091189894800799554815556062818967757823345712942010790386580075",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795100522,
+   "end_ts": 1795122000,
+   "q": "Will Google (GOOGL) close above $280 on November 19?",
+   "touched": null
+  },
+  {
+   "id": "7145869",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "84033087896478079469879137566786280708784079859670555996178348232290165027287",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795100522,
+   "end_ts": 1795114800,
+   "q": "Dota 2: angry birds vs Team Allied (BO3) - European Pro League Group A",
+   "touched": null
+  },
+  {
+   "id": "6784050",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "110793842554842644092702432947688743242020033640494315282854339794175727002849",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795100522,
+   "end_ts": 1795127400,
+   "q": "Spread: CR Vasco da Gama (-4.5)",
+   "touched": null
+  },
+  {
+   "id": "7015820",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "23118918237336852544009110018932933854187491160384526944069458637037491245882",
+   "px": 0.982,
+   "tick": 0.001,
+   "ts": 1795100522,
+   "end_ts": 1795132800,
+   "q": "Florida International Golden Panthers vs. Miami Hurricanes (W)",
+   "touched": null
+  },
+  {
+   "id": "7015835",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "51770058320615907846436982717958713331324699039999894530071567231508507360456",
+   "px": 0.969,
+   "tick": 0.001,
+   "ts": 1795100522,
+   "end_ts": 1795131000,
+   "q": "Stetson Hatters vs. UCF Knights (W)",
+   "touched": null
+  },
+  {
+   "id": "7165282",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "94434627513017190710558410834598319551662259211082220954330224095237132049747",
+   "px": 0.96,
+   "tick": 0.01,
+   "ts": 1795100522,
+   "end_ts": 1795136400,
+   "q": "Trail Blazers vs. Bucks: O/U 201.5",
+   "touched": null
+  },
+  {
+   "id": "7165517",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "71151101440547295965217169861029979261997952398896858639450514274121833816930",
+   "px": 0.95,
+   "tick": 0.01,
+   "ts": 1795100522,
+   "end_ts": 1795150800,
+   "q": "Will Ethereum reach $1,900 on November 19?",
+   "touched": null
+  },
+  {
+   "id": "7136373",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "100672899847020043727605449017962618579394115841172476945074223444375335788565",
+   "px": 0.974,
+   "tick": 0.001,
+   "ts": 1795100522,
+   "end_ts": 1795176000,
+   "q": "Will the highest temperature in Hong Kong be 18°C on November 20?",
+   "touched": null
+  },
+  {
+   "id": "7136502",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "16379335817018617412848891803447411007015769750368807588569341241287030033441",
+   "px": 0.986,
+   "tick": 0.001,
+   "ts": 1795100522,
+   "end_ts": 1795176000,
+   "q": "Will the highest temperature in Shenzhen be 21°C on November 20?",
+   "touched": null
+  },
+  {
+   "id": "7136733",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "64431113477447403381836280694260475765808824374549167725176047214738798632088",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795100522,
+   "end_ts": 1795176000,
+   "q": "Will the lowest temperature in Seoul (Incheon) be 1°C on November 20?",
+   "touched": null
+  },
+  {
+   "id": "7136734",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "774172282406468929505592597131283575847848582263309922027055764667194045343",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795100522,
+   "end_ts": 1795176000,
+   "q": "Will the lowest temperature in Seoul (Incheon) be 2°C on November 20?",
+   "touched": null
+  },
+  {
+   "id": "7136793",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "23439629213543104438608983692029720403008281334391719182042829233989093893441",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795100522,
+   "end_ts": 1795176000,
+   "q": "Will the lowest temperature in Tokyo be 14°C or higher on November 20?",
+   "touched": null
+  },
+  {
+   "id": "7138321",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "34066566558540531576355347771516363439986548298886243897234135380312762300905",
+   "px": 0.95,
+   "tick": 0.01,
+   "ts": 1795100522,
+   "end_ts": 1795176000,
+   "q": "Will the highest temperature in Chicago be between 70-71°F on November 20?",
+   "touched": null
+  },
+  {
+   "id": "7018504",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "101376252243188781872109195411417877508890061520688231009142396731012204375796",
+   "px": 0.95,
+   "tick": 0.01,
+   "ts": 1795100522,
+   "end_ts": 1795194000,
+   "q": "Will the price of Solana be above $70 on November 20?",
+   "touched": null
+  },
+  {
+   "id": "6775416",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "48306035194805293587593895879823806529923650257109922695571845824255779363245",
+   "px": 0.993,
+   "tick": 0.001,
+   "ts": 1795100522,
+   "end_ts": 1795204800,
+   "q": "Athletic Club vs. RCD Espanyol de Barcelona: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6775417",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "71352869681869254025655465360071163940993765642551439720131107297484941124692",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795100522,
+   "end_ts": 1795204800,
+   "q": "Athletic Club vs. RCD Espanyol de Barcelona: O/U 8.5",
+   "touched": null
+  },
+  {
+   "id": "6777620",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "107280360499689363920419293057040867865808221839527133883769840004235720584127",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1795100522,
+   "end_ts": 1795204800,
+   "q": "Barnsley FC vs. Sheffield Wednesday FC: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6812150",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "78542648560122583184515899587254582140013859362884638476848283196707807652033",
+   "px": 0.981,
+   "tick": 0.001,
+   "ts": 1795100522,
+   "end_ts": 1795203000,
+   "q": "FC Andorra vs. CD Leganés: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "6812153",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "34112305550107334375480087926342264414733059418011991855546038293923946012041",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795100522,
+   "end_ts": 1795203000,
+   "q": "FC Andorra vs. CD Leganés: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6816719",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "64066230381524485076010188674997899640345938650946202532101845130246590511442",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795100522,
+   "end_ts": 1795201200,
+   "q": "FC Metz vs. US Boulogne Côte d'Opale: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6816817",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "99816248170696894638961804004638128553779857288016467486708131391434687065428",
+   "px": 0.967,
+   "tick": 0.001,
+   "ts": 1795100522,
+   "end_ts": 1795201200,
+   "q": "Spread: Rodez Aveyron Football (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "6816875",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "51749592487034589073741379985309613362849098337878453409777220546735908135121",
+   "px": 0.96,
+   "tick": 0.01,
+   "ts": 1795100522,
+   "end_ts": 1795201200,
+   "q": "FC Annecy vs. Clermont Foot 63: O/U 5.5",
+   "touched": null
+  },
+  {
+   "id": "6816877",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "96086923481999113439195443044013857415097188365765239833375224731356056180986",
+   "px": 0.996,
+   "tick": 0.001,
+   "ts": 1795100522,
+   "end_ts": 1795201200,
+   "q": "FC Annecy vs. Clermont Foot 63: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6816923",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "97234337872038516469639667953982413630067610301457712801308288852884528555031",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795100522,
+   "end_ts": 1795201200,
+   "q": "AS Nancy-Lorraine vs. Dijon Football Côte d'Or: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6817889",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "80971168166270855858982033695974917234741584467224770391085504569993895818078",
+   "px": 0.986,
+   "tick": 0.001,
+   "ts": 1795100522,
+   "end_ts": 1795203000,
+   "q": "Spread: Cesena FC (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "6817908",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "89125873846519629470985150213735057413506249396236055391968075931082833721027",
+   "px": 0.978,
+   "tick": 0.001,
+   "ts": 1795100522,
+   "end_ts": 1795203000,
+   "q": "Hellas Verona FC vs. Cesena FC: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "7022262",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "56971967311415203480824527869253572852165854761259124607128401109022273052773",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795100522,
+   "end_ts": 1795203900,
+   "q": "Cercle Brugge vs. KVC Westerlo: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "7022333",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "19986389967531349451530725863975260517476070675648854153311197378083030288681",
+   "px": 0.975,
+   "tick": 0.001,
+   "ts": 1795100522,
+   "end_ts": 1795203000,
+   "q": "Pogon Szczecin vs. WKS Slask Wroclaw: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "7022334",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "5358221077213923947871353552052969059062565749005050402589584609103064219676",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1795100522,
+   "end_ts": 1795203000,
+   "q": "Pogon Szczecin vs. WKS Slask Wroclaw: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "7024866",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "41901392522459073191720852319592392410180067348600911769930101222442550077334",
+   "px": 0.96,
+   "tick": 0.01,
+   "ts": 1795100522,
+   "end_ts": 1795208400,
+   "q": "Will Apple (AAPL) hit (HIGH) $364 Week of November 16 2026?",
+   "touched": null
+  },
+  {
+   "id": "7024930",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "99876320103123236763122840315626060007983277366348417280886875862087487100347",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795100522,
+   "end_ts": 1795208400,
+   "q": "Will Microsoft (MSFT) close at $560-$570 on the final day of trading of the week of Nov 16",
+   "touched": null
+  },
+  {
+   "id": "7024985",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "109548500696109171883301137930565356758629610530976240812745972021675044663276",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795100522,
+   "end_ts": 1795208400,
+   "q": "Will Google (GOOGL) close at <$270 on the final day of trading of the week of Nov 16 – Nov",
+   "touched": null
+  },
+  {
+   "id": "7024991",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "45284393654031875519251772520174940170173295887567812072197268571362411917436",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795100522,
+   "end_ts": 1795208400,
+   "q": "Will Google (GOOGL) finish week of November 16 above $270?",
+   "touched": null
+  },
+  {
+   "id": "7025021",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "45897966455946272691812982888651108419870603837624184529662869870022151031831",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1795100522,
+   "end_ts": 1795208400,
+   "q": "Will Alphabet Inc. (GOOGL) hit (LOW) $265 Week of November 16 2026?",
+   "touched": null
+  },
+  {
+   "id": "7025105",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "72597184317245474801024454308579273031943238116788781213669039077432111902526",
+   "px": 0.988,
+   "tick": 0.001,
+   "ts": 1795100522,
+   "end_ts": 1795208400,
+   "q": "Will NVIDIA (NVDA) finish week of November 16 above $140?",
+   "touched": null
+  },
+  {
+   "id": "7025136",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "31015959464698596358124711366073655382599700650793333327831227007563886324518",
+   "px": 0.992,
+   "tick": 0.001,
+   "ts": 1795100522,
+   "end_ts": 1795208400,
+   "q": "Will NVIDIA (NVDA) hit (LOW) $136 Week of November 16 2026?",
+   "touched": null
+  },
+  {
+   "id": "7025284",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "39067508580513886750675524943065920899539568907722841023657553119532495406175",
+   "px": 0.96,
+   "tick": 0.01,
+   "ts": 1795100522,
+   "end_ts": 1795208400,
+   "q": "Will Rocket Lab USA, Inc. (RKLB) hit (HIGH) $62 Week of November 16 2026?",
+   "touched": null
+  },
+  {
+   "id": "6870019",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "13631292550562586800702756175779053983135579966416511452828864738882503186524",
+   "px": 0.984,
+   "tick": 0.001,
+   "ts": 1795100522,
+   "end_ts": 1795237200,
+   "q": "Sanfrecce Hiroshima vs. Yokohama F·Marinos: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "7029827",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "70627252499261132414590749113229340229945784787382180187045931307363547506182",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795100522,
+   "end_ts": 1795237140,
+   "q": "Will AnkiMobile Flashcards be #1 Paid App in the US Apple App Store on November 20?",
+   "touched": null
+  },
+  {
+   "id": "7165840",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "60601794914507695570948795825184013190505892056469773176832545633661945124242",
+   "px": 0.971,
+   "tick": 0.001,
+   "ts": 1795100522,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Madrid be 16°C on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7165843",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "19065319799228630434419682717490852040209526931218613247296353348032278427521",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795100522,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Madrid be 19°C or higher on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7165846",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "76353854229173574273678026689115711138260873957380838710515678284746912515581",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795100522,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Warsaw be 0°C on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7165847",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "79496930141170538402138935490385253814100470965140349883848030401002197791364",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795100522,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Warsaw be 1°C on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7165848",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "87044932759323519306794374823679229051832051854803398467193058992389988966802",
+   "px": 0.969,
+   "tick": 0.001,
+   "ts": 1795100522,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Warsaw be 2°C on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7165853",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "15713910576542061735748423369705423696897196974127755686338171501353038775548",
+   "px": 0.993,
+   "tick": 0.001,
+   "ts": 1795100522,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Warsaw be 7°C on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7165854",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "73147385893395795054126336832669275534550564082234137670322075494280049672123",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795100522,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Warsaw be 8°C or higher on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7165908",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "6712472307944754504859871734547719145755588135150328008500233615488322983354",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795100522,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Chengdu be 14°C on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7165951",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "29868055965144052115521280967003817243614720943873230294536844560813342396793",
+   "px": 0.972,
+   "tick": 0.001,
+   "ts": 1795100522,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Moscow be 3°C on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7165981",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "14586126315069886511778429257723218098620179779394882374188813484903008437523",
+   "px": 0.979,
+   "tick": 0.001,
+   "ts": 1795100522,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Busan be 6°C on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7165985",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "43508854342930378192863128117157506655423409736091610298998557439076192863155",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795100522,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Busan be 10°C on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7166010",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "71784224811723077161124842962390840012681318254207389971154542599107751433594",
+   "px": 0.99,
+   "tick": 0.001,
+   "ts": 1795100522,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Helsinki be 1°C on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7166073",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "104899723824894093823819991138155109834176143250654860603243890643892007686613",
+   "px": 0.986,
+   "tick": 0.001,
+   "ts": 1795100522,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Guangzhou be 20°C on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7166124",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "44601662770242665196887554994946605703838778527846750630316760975570852070362",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795100522,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Karachi be 35°C on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7167902",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "13551773880809471842435760849909066197625794057905766227871465869543437996260",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795100522,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in New York City be between 56-57°F on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7167903",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "32812583777554469246753993294146728450556040030963784527754230187885099946921",
+   "px": 0.977,
+   "tick": 0.001,
+   "ts": 1795100522,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in New York City be between 58-59°F on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7167909",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "75217290912471690471852103025304643539875929038441667627280186727168191706618",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795100522,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in New York City be 70°F or higher on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7170165",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "80895808360412330409053187250546147769905406680394114183532660984171861785710",
+   "px": 0.96,
+   "tick": 0.01,
+   "ts": 1795100522,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Los Angeles be between 72-73°F on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7170177",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "68670161277773806739015431552615648135397358182433116084928165158790052632541",
+   "px": 0.993,
+   "tick": 0.001,
+   "ts": 1795100522,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in San Francisco be 64°F or higher on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7170434",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "72141269883694535603349291574262906637395138064270403010959698579705851480504",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795100522,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Mexico City be 15°C or below on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7170435",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "21132087822717513827476344022283069533364583340648476997791032003785928277572",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795100522,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Mexico City be 16°C on November 21?",
+   "touched": null
+  },
+  {
+   "id": "6838226",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "62854373163122984687273755534763190557975563506823316958892960255891031982782",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795100522,
+   "end_ts": 1795271400,
+   "q": "Spread: TSG 1899 Hoffenheim (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "6838311",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "90563310128664663734268337923967100404528937128224156733892802522793613311350",
+   "px": 0.95,
+   "tick": 0.01,
+   "ts": 1795100522,
+   "end_ts": 1795273200,
+   "q": "Coventry City FC vs. Crystal Palace FC: 1st Half O/U 3.5",
+   "touched": null
+  },
+  {
+   "id": "6837515",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "99726007858522492071192188015986601287914597296069834391409886733533391979836",
+   "px": 0.973,
+   "tick": 0.001,
+   "ts": 1795100522,
+   "end_ts": 1795282200,
+   "q": "Newcastle United FC vs. Arsenal FC: 1st Half O/U 3.5",
+   "touched": null
+  },
+  {
+   "id": "6822650",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "39793306073330081051156600402597698571783232540394591698567026016022579128242",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1795100522,
+   "end_ts": 1795291200,
+   "q": "Spread: Coastal Carolina (-13.5)",
+   "touched": null
+  },
+  {
+   "id": "6893634",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "115150873776363444779366085682922192237607815708537922229814321352636092822015",
+   "px": 0.968,
+   "tick": 0.001,
+   "ts": 1795100522,
+   "end_ts": 1795357800,
+   "q": "FC Augsburg vs. 1. FSV Mainz 05: O/U 0.5",
+   "touched": null
+  },
+  {
+   "id": "7103105",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "75757137716490129699689215572339057201869477780078300169640529440833430288936",
+   "px": 0.96,
+   "tick": 0.01,
+   "ts": 1795100522,
+   "end_ts": 1795357800,
+   "q": "Will West Ham United FC win on 2026-11-22?",
    "touched": null
   }
  ]

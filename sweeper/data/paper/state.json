@@ -1,6 +1,6 @@
 {
  "capital0": 1000.0,
- "cash": 418.5372,
+ "cash": 418.6816,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
   {
@@ -109,27 +109,6 @@
    "liq": 1857
   },
   {
-   "oid": "7147615-1795093274",
-   "id": "7147615",
-   "q": "Will the US national average gas price be less than $3.7300 on November 19?",
-   "cat": "otros",
-   "rule": "otros_cierre",
-   "event": "1417234",
-   "side": 0,
-   "token": "4301940883718273929165464747408668318459216065808718348546846928203488172466",
-   "px": 0.997,
-   "tick": 0.001,
-   "mid": 0.9975,
-   "bid": 0.995,
-   "ask": 1,
-   "shares": 52.3932,
-   "cost": 52.2361,
-   "ts": 1795093274.335333,
-   "end_ts": 1795100400.0,
-   "hours": 1.98,
-   "liq": 1227
-  },
-  {
    "oid": "7111718-1795093274",
    "id": "7111718",
    "q": "Spread: CA Progreso (-2.5)",
@@ -151,7 +130,7 @@
    "liq": 2633
   },
   {
-   "oid": "6990910-1795096877",
+   "oid": "6990910-1795100473",
    "id": "6990910",
    "q": "Will the price of Bitcoin be between $66,000 and $68,000 on November 19?",
    "cat": "cripto",
@@ -159,17 +138,59 @@
    "event": "1372723",
    "side": 1,
    "token": "90998905269878476316280224525556757215362974063446600770418977486864580479198",
-   "px": 0.97,
+   "px": 0.987,
    "tick": 0.001,
-   "mid": 0.97,
-   "bid": 0.963,
-   "ask": 0.977,
-   "shares": 53.8476,
-   "cost": 52.2321,
-   "ts": 1795096877.544663,
+   "mid": 0.9875,
+   "bid": 0.985,
+   "ask": 0.99,
+   "shares": 52.9374,
+   "cost": 52.2492,
+   "ts": 1795100473.509369,
    "end_ts": 1795107600.0,
-   "hours": 2.98,
-   "liq": 34487
+   "hours": 1.98,
+   "liq": 34848
+  },
+  {
+   "oid": "7143274-1795100473",
+   "id": "7143274",
+   "q": "Will Microsoft (MSFT) close above $500 on November 19?",
+   "cat": "otros",
+   "rule": "otros_cierre",
+   "event": "1416659",
+   "side": 0,
+   "token": "107633176377959189737709008051946336273366070993112514585489220210479713469024",
+   "px": 0.991,
+   "tick": 0.001,
+   "mid": 0.9915,
+   "bid": 0.984,
+   "ask": 0.999,
+   "shares": 52.7237,
+   "cost": 52.2492,
+   "ts": 1795100473.509369,
+   "end_ts": 1795122000.0,
+   "hours": 5.98,
+   "liq": 15997
+  },
+  {
+   "oid": "7143302-1795100473",
+   "id": "7143302",
+   "q": "Will Google (GOOGL) close above $270 on November 19?",
+   "cat": "otros",
+   "rule": "otros_cierre",
+   "event": "1416667",
+   "side": 0,
+   "token": "13347932380620679151233445057071331533272306696893433257802796269495081894481",
+   "px": 0.99,
+   "tick": 0.001,
+   "mid": 0.99,
+   "bid": 0.98,
+   "ask": 1,
+   "shares": 52.7769,
+   "cost": 52.2492,
+   "ts": 1795100473.509369,
+   "end_ts": 1795122000.0,
+   "hours": 5.98,
+   "liq": 2402
   }
  ],
  "positions": [
@@ -224,31 +245,6 @@
    "disputed": false
   },
   {
-   "oid": "5730334-1795075271",
-   "id": "5730334",
-   "q": "Walmart (WMT) Q3 US comp sales (ex-fuel) growth <1%?",
-   "cat": "otros",
-   "rule": "otros_cierre",
-   "event": "1194145",
-   "side": 1,
-   "token": "115494712267468432914003950488326478402220778011857412423835524651989465815319",
-   "px": 0.995,
-   "tick": 0.001,
-   "mid": 0.995,
-   "bid": 0.991,
-   "ask": 0.999,
-   "shares": 52.4238,
-   "cost": 52.1616,
-   "ts": 1795075271.218394,
-   "end_ts": 1795098600.0,
-   "hours": 6.48,
-   "liq": 2684,
-   "fill_ts": 1795078874.871725,
-   "mark": 0.995,
-   "stuck": false,
-   "disputed": false
-  },
-  {
    "oid": "6990916-1795075271",
    "id": "6990916",
    "q": "Will the price of Bitcoin be between $68,000 and $70,000 on November 19?",
@@ -269,7 +265,7 @@
    "hours": 8.98,
    "liq": 36080,
    "fill_ts": 1795078874.871725,
-   "mark": 0.996,
+   "mark": 0.9975,
    "stuck": false,
    "disputed": false
   }
@@ -2024,6 +2020,36 @@
    "result": 1.0,
    "closed_ts": "2026-11-19T10:01:19Z",
    "days": 0.56
+  },
+  {
+   "oid": "5730334-1795075271",
+   "id": "5730334",
+   "q": "Walmart (WMT) Q3 US comp sales (ex-fuel) growth <1%?",
+   "cat": "otros",
+   "rule": "otros_cierre",
+   "event": "1194145",
+   "side": 1,
+   "token": "115494712267468432914003950488326478402220778011857412423835524651989465815319",
+   "px": 0.995,
+   "tick": 0.001,
+   "mid": 0.995,
+   "bid": 0.991,
+   "ask": 0.999,
+   "shares": 52.4238,
+   "cost": 52.1616,
+   "ts": 1795075271.218394,
+   "end_ts": 1795098600.0,
+   "hours": 6.48,
+   "liq": 2684,
+   "fill_ts": 1795078874.871725,
+   "mark": 0.995,
+   "stuck": false,
+   "disputed": false,
+   "payout": 52.4238,
+   "pnl": 0.2622,
+   "result": 1.0,
+   "closed_ts": "2026-11-19T15:01:14Z",
+   "days": 0.25
   }
  ],
  "runs": [
@@ -3972,14 +3998,27 @@
    "placed": 1,
    "shadow_open": 275,
    "shadow_closed": 0
+  },
+  {
+   "ts": "2026-11-19T15:02:02Z",
+   "equity": 1044.98,
+   "cash": 418.68,
+   "orders": 9,
+   "positions": 3,
+   "closed": 60,
+   "scanned": 11146,
+   "candidates": 140,
+   "placed": 3,
+   "shadow_open": 283,
+   "shadow_closed": 9
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 256,
+  "placed": 259,
   "filled": 63,
   "expired": 66,
-  "touched_not_filled": 119
+  "touched_not_filled": 121
  },
  "shadow": [
   {
@@ -4033,19 +4072,6 @@
    "end_ts": 1794924000,
    "q": "Will Indonesia win on 2026-11-17?",
    "touched": 1
-  },
-  {
-   "id": "6892080",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 0,
-   "token": "78292272544599825302861765642411756218904722873274017038132306888095831151804",
-   "px": 0.987,
-   "tick": 0.001,
-   "ts": 1794837685,
-   "end_ts": 1794891600,
-   "q": "Will Microstrategy announce a Bitcoin purchase November 10-16?",
-   "touched": 0
   },
   {
    "id": "6892470",
@@ -4241,32 +4267,6 @@
    "end_ts": 1795118400,
    "q": "Will Servette FC Chênois Féminin win on 2026-11-19?",
    "touched": 1
-  },
-  {
-   "id": "5730334",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "115494712267468432914003950488326478402220778011857412423835524651989465815319",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795014073,
-   "end_ts": 1795098600,
-   "q": "Walmart (WMT) Q3 US comp sales (ex-fuel) growth <1%?",
-   "touched": 1
-  },
-  {
-   "id": "5730338",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "96496903716012981746447595578737654645174059466956863804601304121078476109318",
-   "px": 0.988,
-   "tick": 0.001,
-   "ts": 1795014073,
-   "end_ts": 1795098600,
-   "q": "Walmart (WMT) Q3 US comp sales (ex-fuel) growth 5.5%+?",
-   "touched": 0
   },
   {
    "id": "6998002",
@@ -4945,71 +4945,6 @@
    "touched": 1
   },
   {
-   "id": "5730335",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "38548893682183568165763813651801181137348999501991575192825060904349561166935",
-   "px": 0.987,
-   "tick": 0.001,
-   "ts": 1795028472,
-   "end_ts": 1795098600,
-   "q": "Walmart (WMT) Q3 US comp sales (ex-fuel) growth 1% to 2.5%?",
-   "touched": 1
-  },
-  {
-   "id": "5730337",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "77137379735450579872702339992891276247992490541699708326163430458931122405353",
-   "px": 0.989,
-   "tick": 0.001,
-   "ts": 1795028472,
-   "end_ts": 1795098600,
-   "q": "Walmart (WMT) Q3 US comp sales (ex-fuel) growth 4% to 5.5%?",
-   "touched": 1
-  },
-  {
-   "id": "5730339",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "3442862131450165597794560452867944292297676507833056447215793618814896740663",
-   "px": 0.981,
-   "tick": 0.001,
-   "ts": 1795028472,
-   "end_ts": 1795098600,
-   "q": "Walmart (WMT) Q3 US eCommerce sales growth <17%?",
-   "touched": 0
-  },
-  {
-   "id": "5730340",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "66500877144005730814299706305017114259142391827770036039962577554493329079156",
-   "px": 0.983,
-   "tick": 0.001,
-   "ts": 1795028472,
-   "end_ts": 1795098600,
-   "q": "Walmart (WMT) Q3 US eCommerce sales growth 17% to 21%?",
-   "touched": 0
-  },
-  {
-   "id": "5730342",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "82464480229683202415537965796561616305599705077776064222730312608979503479820",
-   "px": 0.984,
-   "tick": 0.001,
-   "ts": 1795028472,
-   "end_ts": 1795098600,
-   "q": "Walmart (WMT) Q3 US eCommerce sales growth 25% to 29%?",
-   "touched": 1
-  },
-  {
    "id": "7147615",
    "rule": "otros_cierre",
    "cat": "otros",
@@ -5579,7 +5514,7 @@
    "ts": 1795055847,
    "end_ts": 1795107600,
    "q": "Will the price of Bitcoin be above $66,000 on November 19?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7147894",
@@ -5592,7 +5527,7 @@
    "ts": 1795055847,
    "end_ts": 1795107605,
    "q": "Will MrBeast's next video get 85 million or more views on day 5?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6733396",
@@ -5605,20 +5540,7 @@
    "ts": 1795055847,
    "end_ts": 1795110300,
    "q": "FK Austria Wien vs. FC Bayern München: Neither team to score first?",
-   "touched": null
-  },
-  {
-   "id": "6820929",
-   "rule": "post_fin_95_97",
-   "cat": "deportes",
-   "side": 1,
-   "token": "169756733605067125924980510249097758158789391586563842085534205026300626932",
-   "px": 0.967,
-   "tick": 0.001,
-   "ts": 1795057268,
-   "end_ts": 1795046400,
-   "q": "Spread: Akron (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "4254202",
@@ -5631,7 +5553,7 @@
    "ts": 1795057268,
    "end_ts": 1795132740,
    "q": "Will the Grand Theft Auto VI PS5 launch price be at least $75?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6596305",
@@ -7555,6 +7477,227 @@
    "ts": 1795096877,
    "end_ts": 1795201200,
    "q": "FC Metz vs. US Boulogne Côte d'Opale: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "7121713",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "83171146722771556513331562709258586272342121028436584381732883744730629341889",
+   "px": 0.971,
+   "tick": 0.001,
+   "ts": 1795100473,
+   "end_ts": 1795107600,
+   "q": "Ethereum Up or Down on November 19?",
+   "touched": null
+  },
+  {
+   "id": "7143274",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "107633176377959189737709008051946336273366070993112514585489220210479713469024",
+   "px": 0.991,
+   "tick": 0.001,
+   "ts": 1795100473,
+   "end_ts": 1795122000,
+   "q": "Will Microsoft (MSFT) close above $500 on November 19?",
+   "touched": null
+  },
+  {
+   "id": "7143302",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "13347932380620679151233445057071331533272306696893433257802796269495081894481",
+   "px": 0.99,
+   "tick": 0.001,
+   "ts": 1795100473,
+   "end_ts": 1795122000,
+   "q": "Will Google (GOOGL) close above $270 on November 19?",
+   "touched": null
+  },
+  {
+   "id": "7143303",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "4852756754970960997310238541565336004995221304984984797907297599605539094400",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1795100473,
+   "end_ts": 1795122000,
+   "q": "Will Google (GOOGL) close above $275 on November 19?",
+   "touched": null
+  },
+  {
+   "id": "7143304",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "28027436676154091189894800799554815556062818967757823345712942010790386580075",
+   "px": 0.987,
+   "tick": 0.001,
+   "ts": 1795100473,
+   "end_ts": 1795122000,
+   "q": "Will Google (GOOGL) close above $280 on November 19?",
+   "touched": null
+  },
+  {
+   "id": "7143334",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "61180807245294932835159026803450875826916865535918156869257824596137535135488",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795100473,
+   "end_ts": 1795122000,
+   "q": "Will NVIDIA (NVDA) close above $170 on November 19?",
+   "touched": null
+  },
+  {
+   "id": "7165501",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "45421238856135810929863995755793281821423641846785914634321264537208248317443",
+   "px": 0.978,
+   "tick": 0.001,
+   "ts": 1795100473,
+   "end_ts": 1795150800,
+   "q": "Will Bitcoin reach $67,000 on November 19?",
+   "touched": null
+  },
+  {
+   "id": "7165543",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "33480772631799410111980567548981094868646440202179400683563549023704577300705",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1795100473,
+   "end_ts": 1795150800,
+   "q": "Will XRP dip to $0.90 on November 19?",
+   "touched": null
+  },
+  {
+   "id": "6775416",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "48306035194805293587593895879823806529923650257109922695571845824255779363245",
+   "px": 0.991,
+   "tick": 0.001,
+   "ts": 1795100473,
+   "end_ts": 1795204800,
+   "q": "Athletic Club vs. RCD Espanyol de Barcelona: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6775417",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "71352869681869254025655465360071163940993765642551439720131107297484941124692",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795100473,
+   "end_ts": 1795204800,
+   "q": "Athletic Club vs. RCD Espanyol de Barcelona: O/U 8.5",
+   "touched": null
+  },
+  {
+   "id": "6812150",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "78542648560122583184515899587254582140013859362884638476848283196707807652033",
+   "px": 0.974,
+   "tick": 0.001,
+   "ts": 1795100473,
+   "end_ts": 1795203000,
+   "q": "FC Andorra vs. CD Leganés: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "6816784",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "27506574601177364953579870953444920395594374290937410425384942824375261771106",
+   "px": 0.977,
+   "tick": 0.001,
+   "ts": 1795100473,
+   "end_ts": 1795201200,
+   "q": "Red Star FC vs. Pau FC: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "6816831",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "54766344053186045607344535675876646875283469233578263966084731731805038894619",
+   "px": 0.988,
+   "tick": 0.001,
+   "ts": 1795100473,
+   "end_ts": 1795201200,
+   "q": "En Avant Guingamp vs. Rodez Aveyron Football: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6816876",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "95887355670025756636285585061448142073043971986748759747208675333384528908951",
+   "px": 0.983,
+   "tick": 0.001,
+   "ts": 1795100473,
+   "end_ts": 1795201200,
+   "q": "FC Annecy vs. Clermont Foot 63: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "7022262",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "56971967311415203480824527869253572852165854761259124607128401109022273052773",
+   "px": 0.977,
+   "tick": 0.001,
+   "ts": 1795100473,
+   "end_ts": 1795203900,
+   "q": "Cercle Brugge vs. KVC Westerlo: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "7022334",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "5358221077213923947871353552052969059062565749005050402589584609103064219676",
+   "px": 0.988,
+   "tick": 0.001,
+   "ts": 1795100473,
+   "end_ts": 1795203000,
+   "q": "Pogon Szczecin vs. WKS Slask Wroclaw: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "7025158",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "19240937661189893540146129484583266952308758261501585013041151201779359307290",
+   "px": 0.988,
+   "tick": 0.001,
+   "ts": 1795100473,
+   "end_ts": 1795208400,
+   "q": "Will Netflix, Inc. (NFLX) hit (HIGH) $75 Week of November 16 2026?",
    "touched": null
   }
  ]
