@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 5.5 de 28 | corridas: 99
-- Capital inicial: $1,000.00 | valor actual: $882.06 | P&L: $-117.94 (-11.79%)
-- Efectivo libre: $0.00 | en ordenes abiertas: $351.66 (5) | en posiciones: $535.65 (7)
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 5.6 de 28 | corridas: 100
+- Capital inicial: $1,000.00 | valor actual: $879.82 | P&L: $-120.18 (-12.02%)
+- Efectivo libre: $0.90 | en ordenes abiertas: $262.56 (4) | en posiciones: $623.86 (8)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 203 colocadas, 90 llenadas, 82 tocadas sin llenarse (sorteo 30%), 26 expiradas
+- Ordenes virtuales: 204 colocadas, 91 llenadas, 83 tocadas sin llenarse (sorteo 30%), 26 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -33,16 +33,17 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 | $91.77 | 99.8c | 96.2c | otros_cierre |  | Pakistan military action against Afghanistan by November 15, 2026? |
 | $59.11 | 99.9c | 98.6c | cripto_cierre |  | Will Microstrategy announce a Bitcoin purchase November 10-16? |
 | $35.36 | 99.8c | 99.0c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $4.5m and $5.5m at auction? |
-| $87.27 | 99.8c | 98.9c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
-| $88.20 | 97.8c | 97.8c | deportes_previo |  | Texas Southern Tigers vs. San Diego State Aztecs |
-| $88.20 | 97.1c | 97.1c | deportes_previo |  | Jazz vs. Lakers: O/U 202.5 |
-| $85.74 | 99.6c | 99.6c | otros_cierre |  | Will the next Meta Muse Spark model be released on November 18, 2026? |
+| $87.27 | 99.8c | 98.5c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
+| $88.20 | 97.8c | 97.6c | deportes_previo |  | Texas Southern Tigers vs. San Diego State Aztecs |
+| $88.20 | 97.1c | 95.5c | deportes_previo |  | Jazz vs. Lakers: O/U 202.5 |
+| $88.21 | 99.0c | 99.0c | deportes_previo |  | Cal State Fullerton Titans vs. UCLA Bruins |
+| $85.74 | 99.6c | 99.2c | otros_cierre |  | Will the next Meta Muse Spark model be released on November 18, 2026? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 5063 | abiertas: 2058 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 5064 | abiertas: 2073 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
@@ -50,14 +51,14 @@ Cada mercado que cumple una regla se anota una vez al precio limite que se habri
 | clima_cierre | tocadas | 1298 | 98.93c | 99.08% | +0.14 pts | -0.38 a +0.66 | 12 |
 | cripto_cierre | todas | 798 | 98.83c | 98.25% | -0.59 pts | -1.49 a +0.31 | 14 |
 | cripto_cierre | tocadas | 730 | 98.87c | 98.08% | -0.78 pts | -1.77 a +0.20 | 14 |
-| deportes_previo | todas | 2167 | 98.10c | 97.19% | -0.91 pts | -1.61 a -0.22 | 61 |
-| deportes_previo | tocadas | 2116 | 98.13c | 97.12% | -1.01 pts | -1.72 a -0.30 | 61 |
+| deportes_previo | todas | 2168 | 98.10c | 97.19% | -0.91 pts | -1.60 a -0.22 | 61 |
+| deportes_previo | tocadas | 2117 | 98.13c | 97.12% | -1.01 pts | -1.72 a -0.30 | 61 |
 | otros_cierre | todas | 629 | 99.24c | 98.57% | -0.67 pts | -1.59 a +0.26 | 9 |
 | otros_cierre | tocadas | 573 | 99.20c | 98.43% | -0.77 pts | -1.78 a +0.25 | 9 |
 | post_fin_90_97 | todas | 47 | 94.19c | 95.74% | +1.56 pts | -4.28 a +7.39 | 2 |
 | post_fin_90_97 | tocadas | 37 | 94.26c | 94.59% | +0.34 pts | -7.05 a +7.72 | 2 |
-| TOTAL | todas | 5063 | 98.55c | 98.06% | -0.49 pts | -0.86 a -0.11 | 98 |
-| TOTAL | tocadas | 4754 | 98.56c | 97.94% | -0.62 pts | -1.02 a -0.22 | 98 |
+| TOTAL | todas | 5064 | 98.55c | 98.06% | -0.49 pts | -0.86 a -0.11 | 98 |
+| TOTAL | tocadas | 4755 | 98.56c | 97.94% | -0.62 pts | -1.02 a -0.22 | 98 |
 
 Peores casos del registro sombra:
 
@@ -74,4 +75,4 @@ Peores casos del registro sombra:
 
 ## Veredicto
 
-Aun no hay veredicto: van 83 operaciones cerradas en 5.5 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
+Aun no hay veredicto: van 83 operaciones cerradas en 5.6 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.

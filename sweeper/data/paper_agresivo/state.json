@@ -1,6 +1,6 @@
 {
  "capital0": 1000.0,
- "cash": 0.0,
+ "cash": 0.8957,
  "started": "2026-11-13T13:15:42Z",
  "orders": [
   {
@@ -46,48 +46,6 @@
    "liq": 1586
   },
   {
-   "oid": "6979588-1795053711",
-   "id": "6979588",
-   "q": "Cal State Fullerton Titans vs. UCLA Bruins",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1369052",
-   "side": 1,
-   "token": "54522842832028541749584698474336143856469958036167179705316501622259038950650",
-   "px": 0.99,
-   "tick": 0.001,
-   "mid": 0.989,
-   "bid": 0.987,
-   "ask": 0.991,
-   "shares": 89.0965,
-   "cost": 88.2055,
-   "ts": 1795053711.0306,
-   "end_ts": 1795059000.0,
-   "hours": 1.47,
-   "liq": 7756
-  },
-  {
-   "oid": "7029427-1795053711",
-   "id": "7029427",
-   "q": "Will the next Gemini Carbon model (4.1+) be released on November 18, 2026?",
-   "cat": "otros",
-   "rule": "otros_cierre",
-   "event": "1383747",
-   "side": 1,
-   "token": "31417147173698151584324080527650635871894261479930861814249077630691899354213",
-   "px": 0.998,
-   "tick": 0.001,
-   "mid": 0.9955,
-   "bid": 0.992,
-   "ask": 0.999,
-   "shares": 52.7843,
-   "cost": 52.6787,
-   "ts": 1795053711.0306,
-   "end_ts": 1795064340.0,
-   "hours": 2.95,
-   "liq": 2307
-  },
-  {
    "oid": "7135895-1795053711",
    "id": "7135895",
    "q": "Will Bitcoin reach $66,000 on November 18?",
@@ -107,6 +65,27 @@
    "end_ts": 1795064400.0,
    "hours": 2.97,
    "liq": 32658
+  },
+  {
+   "oid": "7029427-1795055878",
+   "id": "7029427",
+   "q": "Will the next Gemini Carbon model (4.1+) be released on November 18, 2026?",
+   "cat": "otros",
+   "rule": "otros_cierre",
+   "event": "1383747",
+   "side": 1,
+   "token": "31417147173698151584324080527650635871894261479930861814249077630691899354213",
+   "px": 0.998,
+   "tick": 0.001,
+   "mid": 0.9955,
+   "bid": 0.992,
+   "ask": 0.999,
+   "shares": 51.8868,
+   "cost": 51.783,
+   "ts": 1795055878.60562,
+   "end_ts": 1795064340.0,
+   "hours": 2.35,
+   "liq": 2313
   }
  ],
  "positions": [
@@ -206,7 +185,7 @@
    "hours": 0.96,
    "liq": 1444,
    "fill_ts": 1794978085.460753,
-   "mark": 0.9885,
+   "mark": 0.9845,
    "stuck": false,
    "disputed": false
   },
@@ -231,7 +210,9 @@
    "hours": 1.97,
    "liq": 13888,
    "fill_ts": 1795053711.0306,
-   "mark": 0.978
+   "mark": 0.976,
+   "stuck": false,
+   "disputed": false
   },
   {
    "oid": "7127309-1795050112",
@@ -254,7 +235,9 @@
    "hours": 1.97,
    "liq": 11718,
    "fill_ts": 1795053711.0306,
-   "mark": 0.971
+   "mark": 0.9555,
+   "stuck": false,
+   "disputed": false
   },
   {
    "oid": "6655552-1795050112",
@@ -277,7 +260,32 @@
    "hours": 3.95,
    "liq": 1059,
    "fill_ts": 1795053711.0306,
-   "mark": 0.996
+   "mark": 0.9925,
+   "stuck": false,
+   "disputed": false
+  },
+  {
+   "oid": "6979588-1795053711",
+   "id": "6979588",
+   "q": "Cal State Fullerton Titans vs. UCLA Bruins",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1369052",
+   "side": 1,
+   "token": "54522842832028541749584698474336143856469958036167179705316501622259038950650",
+   "px": 0.99,
+   "tick": 0.001,
+   "mid": 0.989,
+   "bid": 0.987,
+   "ask": 0.991,
+   "shares": 89.0965,
+   "cost": 88.2055,
+   "ts": 1795053711.0306,
+   "end_ts": 1795059000.0,
+   "hours": 1.47,
+   "liq": 7756,
+   "fill_ts": 1795055878.60562,
+   "mark": 0.99
   }
  ],
  "closed": [
@@ -4003,14 +4011,27 @@
    "placed": 3,
    "shadow_open": 2058,
    "shadow_closed": 7
+  },
+  {
+   "ts": "2026-11-19T02:39:25Z",
+   "equity": 879.82,
+   "cash": 0.9,
+   "orders": 4,
+   "positions": 8,
+   "closed": 83,
+   "scanned": 24771,
+   "candidates": 829,
+   "placed": 1,
+   "shadow_open": 2073,
+   "shadow_closed": 1
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 203,
-  "filled": 90,
+  "placed": 204,
+  "filled": 91,
   "expired": 26,
-  "touched_not_filled": 82
+  "touched_not_filled": 83
  },
  "shadow": [
   {
@@ -12006,19 +12027,6 @@
    "ts": 1794956516,
    "end_ts": 1795053600,
    "q": "Avalanche vs. Utah: O/U 2.5",
-   "touched": 1
-  },
-  {
-   "id": "7121229",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "76150860050751060824094212766216825445408119086966925133859214393039736491756",
-   "px": 0.96,
-   "tick": 0.01,
-   "ts": 1794956516,
-   "end_ts": 1795048200,
-   "q": "Bruins vs. Red Wings: O/U 2.5",
    "touched": 1
   },
   {
@@ -30765,6 +30773,214 @@
    "ts": 1795053711,
    "end_ts": 1795293000,
    "q": "Spread: Washington (-13.5)",
+   "touched": null
+  },
+  {
+   "id": "7135492",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "25135024267161371933696622251690910469016605380629877546741804821935190152117",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795055878,
+   "end_ts": 1795067100,
+   "q": "Games Total: O/U 2.5",
+   "touched": null
+  },
+  {
+   "id": "7113076",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "63488679160895973928769451476799018222028934234950398537334156945546865916414",
+   "px": 0.95,
+   "tick": 0.01,
+   "ts": 1795055878,
+   "end_ts": 1795089600,
+   "q": "Will the highest temperature in Chicago be between 62-63°F on November 19?",
+   "touched": null
+  },
+  {
+   "id": "7113124",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "41230611839457763505173322513575263446556959376649001378628851623511766645490",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795055878,
+   "end_ts": 1795089600,
+   "q": "Will the lowest temperature in Miami be between 66-67°F on November 19?",
+   "touched": null
+  },
+  {
+   "id": "7113125",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "77045396519169506667090554150124442551132011397523038622357037748511148406494",
+   "px": 0.96,
+   "tick": 0.01,
+   "ts": 1795055878,
+   "end_ts": 1795089600,
+   "q": "Will the lowest temperature in Miami be between 68-69°F on November 19?",
+   "touched": null
+  },
+  {
+   "id": "7153765",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "45491626830943211914832166806179146674319041047499142356396429285995259227378",
+   "px": 0.98,
+   "tick": 0.001,
+   "ts": 1795055878,
+   "end_ts": 1795093200,
+   "q": "Spread: FK Termez Surkhon (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "7136697",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "60897356427015003320706325403181147340472624608937653358637512184265369596687",
+   "px": 0.993,
+   "tick": 0.001,
+   "ts": 1795055878,
+   "end_ts": 1795176000,
+   "q": "Will the lowest temperature in Paris be 4°C or below on November 20?",
+   "touched": null
+  },
+  {
+   "id": "7136700",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "12515239985271981842064181614429948902056978826238749023806681328044798607075",
+   "px": 0.993,
+   "tick": 0.001,
+   "ts": 1795055878,
+   "end_ts": 1795176000,
+   "q": "Will the lowest temperature in Paris be 6°C on November 20?",
+   "touched": null
+  },
+  {
+   "id": "7136725",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "22416813900240862988639483551197209454441152588412474286324026333030398101262",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795055878,
+   "end_ts": 1795176000,
+   "q": "Will the lowest temperature in Seoul (Incheon) be -6°C or below on November 20?",
+   "touched": null
+  },
+  {
+   "id": "7136726",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "85624953187420909921090132857236555583444916383096440636358845526381247168037",
+   "px": 0.996,
+   "tick": 0.001,
+   "ts": 1795055878,
+   "end_ts": 1795176000,
+   "q": "Will the lowest temperature in Seoul (Incheon) be -5°C on November 20?",
+   "touched": null
+  },
+  {
+   "id": "7138318",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "115001229750925465104087191320485023835823576689299440545740161419949320591750",
+   "px": 0.96,
+   "tick": 0.01,
+   "ts": 1795055878,
+   "end_ts": 1795176000,
+   "q": "Will the highest temperature in Chicago be between 64-65°F on November 20?",
+   "touched": null
+  },
+  {
+   "id": "7141169",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "27296730664709101910014027263049266548360654821633469756601275412684279964966",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795055878,
+   "end_ts": 1795176000,
+   "q": "Will the highest temperature in Seattle be between 40-41°F on November 20?",
+   "touched": null
+  },
+  {
+   "id": "7097728",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "23627977447111971926284688182226482119013877199798862180214552236261262445987",
+   "px": 0.96,
+   "tick": 0.01,
+   "ts": 1795055878,
+   "end_ts": 1795212000,
+   "q": "Will Silver (XAGUSD) hit (HIGH) $49 Week of November 16 2026?",
+   "touched": null
+  },
+  {
+   "id": "6843641",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "22479939461790336257732968263032332026983336148163302452338154570754427593243",
+   "px": 0.96,
+   "tick": 0.01,
+   "ts": 1795055878,
+   "end_ts": 1795222800,
+   "q": "Spread: Atlético San Luis (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "6854010",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "46870715906797817260004564861631751242183652506504704208606173070722190482752",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795055878,
+   "end_ts": 1795271400,
+   "q": "MŠK Žilina vs. MFK Dukla Banská Bystrica: Neither team to score first?",
+   "touched": null
+  },
+  {
+   "id": "6821593",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "103487151718734118443184129873322109327934880552458488021170750091452859441848",
+   "px": 0.96,
+   "tick": 0.01,
+   "ts": 1795055878,
+   "end_ts": 1795284000,
+   "q": "Spread: West Virginia (-13.5)",
+   "touched": null
+  },
+  {
+   "id": "6837427",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "21723800091968122886254158417052910858698920197262801246018503644693064726718",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1795055878,
+   "end_ts": 1795290300,
+   "q": "Racing Club de Lens vs. Toulouse FC: O/U 6.5",
    "touched": null
   }
  ]

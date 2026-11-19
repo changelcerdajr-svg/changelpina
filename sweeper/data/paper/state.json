@@ -1,6 +1,6 @@
 {
  "capital0": 1000.0,
- "cash": 364.8661,
+ "cash": 364.8766,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
   {
@@ -193,27 +193,6 @@
    "liq": 1049
   },
   {
-   "oid": "6655552-1795053669",
-   "id": "6655552",
-   "q": "Will the next Meta Muse Spark model be released on November 18, 2026?",
-   "cat": "otros",
-   "rule": "otros_cierre",
-   "event": "1310057",
-   "side": 1,
-   "token": "8584731809111907669501327776448729803647707291536554032877020938429890698793",
-   "px": 0.992,
-   "tick": 0.001,
-   "mid": 0.992,
-   "bid": 0.987,
-   "ask": 0.997,
-   "shares": 52.5651,
-   "cost": 52.1446,
-   "ts": 1795053669.087685,
-   "end_ts": 1795064340.0,
-   "hours": 2.96,
-   "liq": 1096
-  },
-  {
    "oid": "7135895-1795053669",
    "id": "7135895",
    "q": "Will Bitcoin reach $66,000 on November 18?",
@@ -233,6 +212,27 @@
    "end_ts": 1795064400.0,
    "hours": 2.98,
    "liq": 32658
+  },
+  {
+   "oid": "6655552-1795055847",
+   "id": "6655552",
+   "q": "Will the next Meta Muse Spark model be released on November 18, 2026?",
+   "cat": "otros",
+   "rule": "otros_cierre",
+   "event": "1310057",
+   "side": 1,
+   "token": "8584731809111907669501327776448729803647707291536554032877020938429890698793",
+   "px": 0.992,
+   "tick": 0.001,
+   "mid": 0.9925,
+   "bid": 0.988,
+   "ask": 0.997,
+   "shares": 52.5545,
+   "cost": 52.1341,
+   "ts": 1795055847.746238,
+   "end_ts": 1795064340.0,
+   "hours": 2.36,
+   "liq": 1062
   }
  ],
  "positions": [
@@ -257,7 +257,7 @@
    "hours": 4.96,
    "liq": 1203,
    "fill_ts": 1794967266.068418,
-   "mark": 0.9885,
+   "mark": 0.9845,
    "stuck": false,
    "disputed": false
   },
@@ -3743,14 +3743,27 @@
    "placed": 2,
    "shadow_open": 262,
    "shadow_closed": 8
+  },
+  {
+   "ts": "2026-11-19T02:37:58Z",
+   "equity": 1042.68,
+   "cash": 364.88,
+   "orders": 11,
+   "positions": 2,
+   "closed": 57,
+   "scanned": 8636,
+   "candidates": 85,
+   "placed": 1,
+   "shadow_open": 265,
+   "shadow_closed": 0
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 236,
+  "placed": 237,
   "filled": 59,
   "expired": 58,
-  "touched_not_filled": 108
+  "touched_not_filled": 109
  },
  "shadow": [
   {
@@ -7157,6 +7170,45 @@
    "ts": 1795050070,
    "end_ts": 1795134600,
    "q": "Spread: São Paulo FC (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "6990958",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "80539191131529856863598060244807700086278297699370828134517342335278240774838",
+   "px": 0.971,
+   "tick": 0.001,
+   "ts": 1795055847,
+   "end_ts": 1795107600,
+   "q": "Will the price of Bitcoin be above $66,000 on November 19?",
+   "touched": null
+  },
+  {
+   "id": "7147894",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "83095198220644310130910452416572758887639608055980743163416438489521276046736",
+   "px": 0.984,
+   "tick": 0.001,
+   "ts": 1795055847,
+   "end_ts": 1795107605,
+   "q": "Will MrBeast's next video get 85 million or more views on day 5?",
+   "touched": null
+  },
+  {
+   "id": "6733396",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "79658081170990335769388807944690239258024843165103111834259268289561012337998",
+   "px": 0.98,
+   "tick": 0.001,
+   "ts": 1795055847,
+   "end_ts": 1795110300,
+   "q": "FK Austria Wien vs. FC Bayern München: Neither team to score first?",
    "touched": null
   }
  ]
