@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 5.7 de 28 | corridas: 104
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 5.7 de 28 | corridas: 105
 - Capital inicial: $1,000.00 | valor actual: $881.76 | P&L: $-118.24 (-11.82%)
 - Efectivo libre: $0.00 | en ordenes abiertas: $302.50 (4) | en posiciones: $587.44 (8)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 207 colocadas, 92 llenadas, 85 tocadas sin llenarse (sorteo 30%), 26 expiradas
+- Ordenes virtuales: 208 colocadas, 92 llenadas, 86 tocadas sin llenarse (sorteo 30%), 26 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -43,22 +43,22 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 5223 | abiertas: 2063 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 5308 | abiertas: 2012 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
-| clima_cierre | todas | 1468 | 98.91c | 99.18% | +0.27 pts | -0.19 a +0.73 | 12 |
-| clima_cierre | tocadas | 1340 | 98.92c | 99.10% | +0.18 pts | -0.32 a +0.69 | 12 |
-| cripto_cierre | todas | 805 | 98.83c | 98.26% | -0.57 pts | -1.46 a +0.33 | 14 |
-| cripto_cierre | tocadas | 737 | 98.86c | 98.10% | -0.76 pts | -1.74 a +0.22 | 14 |
-| deportes_previo | todas | 2260 | 98.10c | 97.17% | -0.93 pts | -1.61 a -0.25 | 64 |
-| deportes_previo | tocadas | 2209 | 98.13c | 97.10% | -1.03 pts | -1.72 a -0.33 | 64 |
+| clima_cierre | todas | 1502 | 98.91c | 99.20% | +0.29 pts | -0.16 a +0.74 | 12 |
+| clima_cierre | tocadas | 1374 | 98.92c | 99.13% | +0.21 pts | -0.29 a +0.70 | 12 |
+| cripto_cierre | todas | 835 | 98.85c | 98.32% | -0.53 pts | -1.39 a +0.34 | 14 |
+| cripto_cierre | tocadas | 767 | 98.88c | 98.17% | -0.71 pts | -1.64 a +0.23 | 14 |
+| deportes_previo | todas | 2279 | 98.10c | 97.19% | -0.90 pts | -1.58 a -0.23 | 64 |
+| deportes_previo | tocadas | 2228 | 98.13c | 97.13% | -1.00 pts | -1.69 a -0.31 | 64 |
 | otros_cierre | todas | 639 | 99.22c | 98.44% | -0.79 pts | -1.74 a +0.17 | 10 |
 | otros_cierre | tocadas | 582 | 99.19c | 98.28% | -0.90 pts | -1.95 a +0.14 | 10 |
-| post_fin_90_97 | todas | 51 | 94.12c | 96.08% | +1.96 pts | -3.43 a +7.35 | 2 |
+| post_fin_90_97 | todas | 53 | 94.10c | 96.23% | +2.13 pts | -3.06 a +7.32 | 2 |
 | post_fin_90_97 | tocadas | 41 | 94.17c | 95.12% | +0.96 pts | -5.73 a +7.64 | 2 |
-| TOTAL | todas | 5223 | 98.54c | 98.05% | -0.49 pts | -0.87 a -0.12 | 102 |
-| TOTAL | tocadas | 4909 | 98.55c | 97.92% | -0.63 pts | -1.02 a -0.23 | 102 |
+| TOTAL | todas | 5308 | 98.54c | 98.08% | -0.46 pts | -0.83 a -0.10 | 102 |
+| TOTAL | tocadas | 4992 | 98.55c | 97.96% | -0.59 pts | -0.98 a -0.21 | 102 |
 
 Peores casos del registro sombra:
 

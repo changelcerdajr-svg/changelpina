@@ -1,29 +1,8 @@
 {
  "capital0": 1000.0,
- "cash": 364.6923,
+ "cash": 364.619,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
-  {
-   "oid": "7124148-1795028472",
-   "id": "7124148",
-   "q": "BNB Up or Down - November 18, 2:00PM-2:05PM ET",
-   "cat": "cripto",
-   "rule": "cripto_cierre",
-   "event": "1411292",
-   "side": 1,
-   "token": "103847229881343585357157205255495676605233997106543577416735432101481862640151",
-   "px": 0.985,
-   "tick": 0.001,
-   "mid": 0.985,
-   "bid": 0.98,
-   "ask": 0.99,
-   "shares": 52.8696,
-   "cost": 52.0766,
-   "ts": 1795028472.389428,
-   "end_ts": 1795028700.0,
-   "hours": 0.06,
-   "liq": 1457
-  },
   {
    "oid": "7117897-1795034282",
    "id": "7117897",
@@ -191,6 +170,27 @@
    "end_ts": 1795107600.0,
    "hours": 11.98,
    "liq": 29407
+  },
+  {
+   "oid": "6990916-1795071673",
+   "id": "6990916",
+   "q": "Will the price of Bitcoin be between $68,000 and $70,000 on November 19?",
+   "cat": "cripto",
+   "rule": "cripto_cierre",
+   "event": "1372723",
+   "side": 1,
+   "token": "45706387109189552551007399101743943426896440238827299881499599223548946336002",
+   "px": 0.998,
+   "tick": 0.001,
+   "mid": 0.998,
+   "bid": 0.997,
+   "ask": 0.999,
+   "shares": 52.2544,
+   "cost": 52.1499,
+   "ts": 1795071673.758611,
+   "end_ts": 1795107600.0,
+   "hours": 9.98,
+   "liq": 41417
   }
  ],
  "positions": [
@@ -290,7 +290,9 @@
    "hours": 6.98,
    "liq": 3859,
    "fill_ts": 1795068069.766622,
-   "mark": 0.973
+   "mark": 0.9735,
+   "stuck": false,
+   "disputed": false
   }
  ],
  "closed": [
@@ -3814,13 +3816,26 @@
    "placed": 0,
    "shadow_open": 220,
    "shadow_closed": 44
+  },
+  {
+   "ts": "2026-11-19T07:01:38Z",
+   "equity": 1043.0,
+   "cash": 364.62,
+   "orders": 9,
+   "positions": 4,
+   "closed": 57,
+   "scanned": 7193,
+   "candidates": 127,
+   "placed": 1,
+   "shadow_open": 221,
+   "shadow_closed": 12
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 243,
+  "placed": 244,
   "filled": 61,
-  "expired": 59,
+  "expired": 60,
   "touched_not_filled": 114
  },
  "shadow": [
@@ -3955,19 +3970,6 @@
    "touched": 1
   },
   {
-   "id": "6978778",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "85097636426894678193818361600589185093891475757141787316471950318570905990932",
-   "px": 0.989,
-   "tick": 0.001,
-   "ts": 1794945673,
-   "end_ts": 1795053600,
-   "q": "Alcorn State Braves vs. Missouri Tigers",
-   "touched": 0
-  },
-  {
    "id": "6976581",
    "rule": "otros_cierre",
    "cat": "otros",
@@ -4033,19 +4035,6 @@
    "touched": 0
   },
   {
-   "id": "6978780",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "91377756457936062429433808690181765377244046226656747662149172354207291197367",
-   "px": 0.973,
-   "tick": 0.001,
-   "ts": 1794985268,
-   "end_ts": 1795053600,
-   "q": "Oakland Golden Grizzlies vs. Arizona State Sun Devils",
-   "touched": 1
-  },
-  {
    "id": "6979271",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -4069,19 +4058,6 @@
    "ts": 1794988874,
    "end_ts": 1795092300,
    "q": "Al Wasl FC vs. Hatta SC: O/U 0.5",
-   "touched": 1
-  },
-  {
-   "id": "6978776",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "92864130368497629354430542553051239040331101833698536600453180929770867423485",
-   "px": 0.971,
-   "tick": 0.001,
-   "ts": 1794992470,
-   "end_ts": 1795053600,
-   "q": "Bethune-Cookman Wildcats vs. Creighton Bluejays",
    "touched": 1
   },
   {
@@ -4160,19 +4136,6 @@
    "ts": 1795010469,
    "end_ts": 1795118400,
    "q": "Will Servette FC Chênois Féminin win on 2026-11-19?",
-   "touched": 1
-  },
-  {
-   "id": "7088973",
-   "rule": "post_fin_95_97",
-   "cat": "clima",
-   "side": 1,
-   "token": "75116057050410609397641860647106605508045637581741169135288796228634544965222",
-   "px": 0.968,
-   "tick": 0.001,
-   "ts": 1795014073,
-   "end_ts": 1795003200,
-   "q": "Will the highest temperature in New York City be between 60-61°F on November 18?",
    "touched": 1
   },
   {
@@ -4748,71 +4711,6 @@
    "touched": 0
   },
   {
-   "id": "7117882",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "51341930110607754023270684723998483991890973070384647356024209336975126034646",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1795024879,
-   "end_ts": 1795035600,
-   "q": "Will Microsoft (MSFT) close above $540 on November 18?",
-   "touched": null
-  },
-  {
-   "id": "7117886",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 0,
-   "token": "31750406731756295029271790327215185454757612349987594149406648624418162064279",
-   "px": 0.989,
-   "tick": 0.001,
-   "ts": 1795024879,
-   "end_ts": 1795035600,
-   "q": "Will Amazon (AMZN) close above $260 on November 18?",
-   "touched": null
-  },
-  {
-   "id": "7117897",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 0,
-   "token": "76725234578081949511576147759290549932097407715922469802242464037445476833532",
-   "px": 0.992,
-   "tick": 0.001,
-   "ts": 1795024879,
-   "end_ts": 1795035600,
-   "q": "Will Meta (META) close above $600 on November 18?",
-   "touched": null
-  },
-  {
-   "id": "6977979",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "80056224577083960082996982477345563101164647084083917700231269996119623259516",
-   "px": 0.988,
-   "tick": 0.001,
-   "ts": 1795024879,
-   "end_ts": 1795048200,
-   "q": "New Orleans Privateers vs. Texas Tech Red Raiders",
-   "touched": null
-  },
-  {
-   "id": "7083052",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "8370348171118705480008383304623946761674230713973900976439160096529553431143",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795024879,
-   "end_ts": 1795064340,
-   "q": "Will Paul Cézanne's “Arlequin” sell for between $110m and $120m at auction?",
-   "touched": null
-  },
-  {
    "id": "6990900",
    "rule": "cripto_cierre",
    "cat": "cripto",
@@ -4823,7 +4721,7 @@
    "ts": 1795024879,
    "end_ts": 1795107600,
    "q": "Will the price of Ethereum be above $1,600 on November 19?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6990960",
@@ -4836,7 +4734,7 @@
    "ts": 1795024879,
    "end_ts": 1795107600,
    "q": "Will the price of Ethereum be less than $1,600 on November 19?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6991013",
@@ -4849,7 +4747,7 @@
    "ts": 1795024879,
    "end_ts": 1795107600,
    "q": "Will the price of XRP be between $0.60 and $0.70 on November 19?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6991017",
@@ -4862,7 +4760,7 @@
    "ts": 1795024879,
    "end_ts": 1795107600,
    "q": "Will the price of XRP be between $0.80 and $0.90 on November 19?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6991021",
@@ -4875,7 +4773,7 @@
    "ts": 1795024879,
    "end_ts": 1795107600,
    "q": "Will the price of XRP be between $1.10 and $1.20 on November 19?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6991033",
@@ -4888,7 +4786,7 @@
    "ts": 1795024879,
    "end_ts": 1795107600,
    "q": "Will the price of XRP be between $1.30 and $1.40 on November 19?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6991034",
@@ -4901,7 +4799,7 @@
    "ts": 1795024879,
    "end_ts": 1795107600,
    "q": "Will the price of XRP be between $1.40 and $1.50 on November 19?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6784070",
@@ -4914,7 +4812,7 @@
    "ts": 1795024879,
    "end_ts": 1795127400,
    "q": "CR Vasco da Gama vs. SC Internacional: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6820969",
@@ -4927,7 +4825,7 @@
    "ts": 1795024879,
    "end_ts": 1795132800,
    "q": "Northwestern State vs. Stephen F. Austin",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6998322",
@@ -4940,7 +4838,7 @@
    "ts": 1795024879,
    "end_ts": 1795132800,
    "q": "UMBC Retrievers vs. Ohio State Buckeyes",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7015834",
@@ -4953,7 +4851,7 @@
    "ts": 1795024879,
    "end_ts": 1795131000,
    "q": "Sacred Heart Pioneers vs. Michigan State Spartans (W)",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7015836",
@@ -4966,46 +4864,7 @@
    "ts": 1795024879,
    "end_ts": 1795132800,
    "q": "Northwestern State Demons vs. Oklahoma Sooners (W)",
-   "touched": null
-  },
-  {
-   "id": "7124148",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "103847229881343585357157205255495676605233997106543577416735432101481862640151",
-   "px": 0.985,
-   "tick": 0.001,
-   "ts": 1795028472,
-   "end_ts": 1795028700,
-   "q": "BNB Up or Down - November 18, 2:00PM-2:05PM ET",
-   "touched": null
-  },
-  {
-   "id": "7124162",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "70491117853077785029125317564045796433876876521577423425819463451376530440276",
-   "px": 0.975,
-   "tick": 0.001,
-   "ts": 1795028472,
-   "end_ts": 1795028700,
-   "q": "Ethereum Up or Down - November 18, 2:00PM-2:05PM ET",
-   "touched": null
-  },
-  {
-   "id": "7133241",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "4875739978133634861923557491570934410468682760218632896074753271612026763937",
-   "px": 0.974,
-   "tick": 0.001,
-   "ts": 1795028472,
-   "end_ts": 1795053600,
-   "q": "Spread: Colorado Buffaloes (-37.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7133252",
@@ -5018,7 +4877,7 @@
    "ts": 1795028472,
    "end_ts": 1795053600,
    "q": "Spread: Arizona State Sun Devils (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "5730335",
@@ -5031,7 +4890,7 @@
    "ts": 1795028472,
    "end_ts": 1795098600,
    "q": "Walmart (WMT) Q3 US comp sales (ex-fuel) growth 1% to 2.5%?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "5730337",
@@ -5044,7 +4903,7 @@
    "ts": 1795028472,
    "end_ts": 1795098600,
    "q": "Walmart (WMT) Q3 US comp sales (ex-fuel) growth 4% to 5.5%?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "5730339",
@@ -5057,7 +4916,7 @@
    "ts": 1795028472,
    "end_ts": 1795098600,
    "q": "Walmart (WMT) Q3 US eCommerce sales growth <17%?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "5730340",
@@ -5070,7 +4929,7 @@
    "ts": 1795028472,
    "end_ts": 1795098600,
    "q": "Walmart (WMT) Q3 US eCommerce sales growth 17% to 21%?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "5730342",
@@ -5083,7 +4942,7 @@
    "ts": 1795028472,
    "end_ts": 1795098600,
    "q": "Walmart (WMT) Q3 US eCommerce sales growth 25% to 29%?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7147615",
@@ -5096,7 +4955,7 @@
    "ts": 1795028472,
    "end_ts": 1795100400,
    "q": "Will the US national average gas price be less than $3.7300 on November 19?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7147890",
@@ -5109,7 +4968,7 @@
    "ts": 1795028472,
    "end_ts": 1795107605,
    "q": "Will MrBeast's next video get between 81 and 82 million views on day 5?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6784044",
@@ -5122,7 +4981,7 @@
    "ts": 1795028472,
    "end_ts": 1795127400,
    "q": "Spread: SC Internacional (-2.5)",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6911376",
@@ -5135,7 +4994,7 @@
    "ts": 1795028472,
    "end_ts": 1795134600,
    "q": "Orlando City SC vs. FC Cincinnati: O/U 0.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6911384",
@@ -5148,7 +5007,7 @@
    "ts": 1795028472,
    "end_ts": 1795134600,
    "q": "Orlando City SC vs. FC Cincinnati: O/U 8.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7150368",
@@ -5161,7 +5020,7 @@
    "ts": 1795028472,
    "end_ts": 1795132800,
    "q": "Kings vs. Maple Leafs: O/U 2.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7088996",
@@ -6682,6 +6541,175 @@
    "ts": 1795068069,
    "end_ts": 1795168800,
    "q": "Vissel Kōbe vs. FC Mito Holly Hock: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6742173",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "28548281697538095080311501825746978128593701412247097898680666763621411315495",
+   "px": 0.981,
+   "tick": 0.001,
+   "ts": 1795071673,
+   "end_ts": 1795110300,
+   "q": "Paris FC vs. HB Køge: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6990996",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "13779682261964534620760938219069803465400154279767478664922655589328860827208",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795071673,
+   "end_ts": 1795107600,
+   "q": "Will the price of Solana be above $105 on November 19?",
+   "touched": null
+  },
+  {
+   "id": "6991025",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "87347163112241743777527700347397137840641060540634131955070114774677017123715",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795071673,
+   "end_ts": 1795107600,
+   "q": "Will the price of XRP be between $1.20 and $1.30 on November 19?",
+   "touched": null
+  },
+  {
+   "id": "6783952",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "37436592602565696429779608635479120462771224641782806746461539455798291497213",
+   "px": 0.99,
+   "tick": 0.001,
+   "ts": 1795071673,
+   "end_ts": 1795134600,
+   "q": "Spread: Fluminense FC (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "6909313",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "58357114403589206356698487513364656908523724456634121430216139858354224509347",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795071673,
+   "end_ts": 1795134600,
+   "q": "Orlando City SC vs. FC Cincinnati: Neither team to score first?",
+   "touched": null
+  },
+  {
+   "id": "6911371",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "1420949919937409035042185162003996887471693680247300658398488502967774201760",
+   "px": 0.972,
+   "tick": 0.001,
+   "ts": 1795071673,
+   "end_ts": 1795134600,
+   "q": "Spread: FC Cincinnati (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "7106883",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "42472196874285759110432258398641716674580097200832245322228957659005284163354",
+   "px": 0.981,
+   "tick": 0.001,
+   "ts": 1795071673,
+   "end_ts": 1795132740,
+   "q": "Will Trump say \"Nobel\" during his trilateral meeting with Xi and Putin?",
+   "touched": null
+  },
+  {
+   "id": "7152111",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "64126684781043370176146206009465437887299577598610385821660970869699725466630",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795071673,
+   "end_ts": 1795127400,
+   "q": "Spread: Boca Juniors de Cali (-1.5)",
+   "touched": null
+  },
+  {
+   "id": "7152113",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "6932019535460654742857795409438432688839152207221354430693584496171383588488",
+   "px": 0.992,
+   "tick": 0.001,
+   "ts": 1795071673,
+   "end_ts": 1795127400,
+   "q": "Spread: Boca Juniors de Cali (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "7152115",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "57865540651800166081960449949952954340363614230837470692239649340981393726199",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1795071673,
+   "end_ts": 1795127400,
+   "q": "Spread: Boca Juniors de Cali (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "7165509",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "11520369708282055369779021100231650996570642124037406387596195895052393301329",
+   "px": 0.972,
+   "tick": 0.001,
+   "ts": 1795071673,
+   "end_ts": 1795150800,
+   "q": "Will Bitcoin dip to $59,000 on November 19?",
+   "touched": null
+  },
+  {
+   "id": "7165513",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "110586828309779255027679377444228628857631470371834087763776223088120927834999",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795071673,
+   "end_ts": 1795150800,
+   "q": "Will Ethereum reach $2,100 on November 19?",
+   "touched": null
+  },
+  {
+   "id": "7165526",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "95342757200307226423722082199425965845593190894842150173705186332225649855887",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795071673,
+   "end_ts": 1795150800,
+   "q": "Will Ethereum dip to $1,450 on November 19?",
    "touched": null
   }
  ]
