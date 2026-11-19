@@ -1,6 +1,6 @@
 {
  "capital0": 1000.0,
- "cash": 418.8445,
+ "cash": 418.8485,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
   {
@@ -130,27 +130,6 @@
    "liq": 2297
   },
   {
-   "oid": "5730335-1795086076",
-   "id": "5730335",
-   "q": "Walmart (WMT) Q3 US comp sales (ex-fuel) growth 1% to 2.5%?",
-   "cat": "otros",
-   "rule": "otros_cierre",
-   "event": "1194145",
-   "side": 1,
-   "token": "38548893682183568165763813651801181137348999501991575192825060904349561166935",
-   "px": 0.993,
-   "tick": 0.001,
-   "mid": 0.993,
-   "bid": 0.987,
-   "ask": 0.999,
-   "shares": 52.6057,
-   "cost": 52.2375,
-   "ts": 1795086076.234536,
-   "end_ts": 1795098600.0,
-   "hours": 3.48,
-   "liq": 1847
-  },
-  {
    "oid": "6742161-1795086076",
    "id": "6742161",
    "q": "Spread: HB Køge (-3.5)",
@@ -170,6 +149,27 @@
    "end_ts": 1795110300.0,
    "hours": 6.73,
    "liq": 2028
+  },
+  {
+   "oid": "5730335-1795088876",
+   "id": "5730335",
+   "q": "Walmart (WMT) Q3 US comp sales (ex-fuel) growth 1% to 2.5%?",
+   "cat": "otros",
+   "rule": "otros_cierre",
+   "event": "1194145",
+   "side": 1,
+   "token": "38548893682183568165763813651801181137348999501991575192825060904349561166935",
+   "px": 0.992,
+   "tick": 0.001,
+   "mid": 0.992,
+   "bid": 0.985,
+   "ask": 0.999,
+   "shares": 52.6547,
+   "cost": 52.2335,
+   "ts": 1795088876.49229,
+   "end_ts": 1795098600.0,
+   "hours": 2.7,
+   "liq": 1857
   }
  ],
  "positions": [
@@ -219,7 +219,7 @@
    "hours": 6.98,
    "liq": 3859,
    "fill_ts": 1795068069.766622,
-   "mark": 0.975,
+   "mark": 0.9735,
    "stuck": false,
    "disputed": false
   },
@@ -3920,14 +3920,27 @@
    "placed": 2,
    "shadow_open": 237,
    "shadow_closed": 1
+  },
+  {
+   "ts": "2026-11-19T11:48:28Z",
+   "equity": 1044.67,
+   "cash": 418.85,
+   "orders": 8,
+   "positions": 4,
+   "closed": 59,
+   "scanned": 8458,
+   "candidates": 135,
+   "placed": 1,
+   "shadow_open": 244,
+   "shadow_closed": 0
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 251,
+  "placed": 252,
   "filled": 63,
   "expired": 63,
-  "touched_not_filled": 117
+  "touched_not_filled": 118
  },
  "shadow": [
   {
@@ -7009,6 +7022,97 @@
    "ts": 1795086076,
    "end_ts": 1795188600,
    "q": "FC Botoşani vs. FC Voluntari: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "7142170",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "103813277601136567500793214677418684129120883071942776574845540581661615999908",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795088876,
+   "end_ts": 1795089600,
+   "q": "Bitcoin Up or Down - November 19, 6:00AM-7:00AM ET",
+   "touched": null
+  },
+  {
+   "id": "7142172",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "54024874187606018151640108503340214512384468614911304633459749778644380262487",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795088876,
+   "end_ts": 1795089600,
+   "q": "Ethereum Up or Down - November 19, 6:00AM-7:00AM ET",
+   "touched": null
+  },
+  {
+   "id": "7111733",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "61045763616208223396247991355154088634351402571676891513914358716247369382840",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1795088876,
+   "end_ts": 1795116600,
+   "q": "CA Progreso vs. Montevideo City Torque: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "7143272",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "7599178760358625470508599323182357919452049132029421092910452084032085724930",
+   "px": 0.976,
+   "tick": 0.001,
+   "ts": 1795088876,
+   "end_ts": 1795122000,
+   "q": "Will Microsoft (MSFT) close above $490 on November 19?",
+   "touched": null
+  },
+  {
+   "id": "7015814",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "81007642942170155167603763474535393674597466874814893034010333812711424373801",
+   "px": 0.986,
+   "tick": 0.001,
+   "ts": 1795088876,
+   "end_ts": 1795136400,
+   "q": "Fairleigh Dickinson Knights vs. LSU Tigers (W)",
+   "touched": null
+  },
+  {
+   "id": "7151937",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "102675462080146644155938874535306315686145675323447354005940773755541735120582",
+   "px": 0.973,
+   "tick": 0.001,
+   "ts": 1795088876,
+   "end_ts": 1795135500,
+   "q": "Spread: Real Cundinamarca (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "7152018",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "19980240666200001514838142562428404379248924565627056713088688718230910559574",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1795088876,
+   "end_ts": 1795135500,
+   "q": "Spread: Tigres FC (-2.5)",
    "touched": null
   }
  ]
