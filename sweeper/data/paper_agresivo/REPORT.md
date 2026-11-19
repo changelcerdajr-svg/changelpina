@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 6.2 de 28 | corridas: 117
-- Capital inicial: $1,000.00 | valor actual: $901.27 | P&L: $-98.73 (-9.87%)
-- Efectivo libre: $-0.00 | en ordenes abiertas: $562.85 (8) | en posiciones: $342.93 (5)
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 6.2 de 28 | corridas: 118
+- Capital inicial: $1,000.00 | valor actual: $899.82 | P&L: $-100.18 (-10.02%)
+- Efectivo libre: $0.00 | en ordenes abiertas: $293.14 (5) | en posiciones: $612.63 (9)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 237 colocadas, 106 llenadas, 95 tocadas sin llenarse (sorteo 30%), 28 expiradas
+- Ordenes virtuales: 241 colocadas, 110 llenadas, 98 tocadas sin llenarse (sorteo 30%), 28 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -30,22 +30,26 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
-| $91.77 | 99.8c | 96.7c | otros_cierre |  | Pakistan military action against Afghanistan by November 15, 2026? |
+| $91.77 | 99.8c | 96.0c | otros_cierre |  | Pakistan military action against Afghanistan by November 15, 2026? |
 | $35.36 | 99.8c | 99.0c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $4.5m and $5.5m at auction? |
 | $87.27 | 99.8c | 98.6c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
 | $39.06 | 99.0c | 98.5c | deportes_previo |  | Spread: Al Dhafra SSC (-1.5) |
-| $89.46 | 99.8c | 99.8c | deportes_previo |  | Spread: CA Progreso (-2.5) |
+| $89.46 | 99.8c | 98.9c | deportes_previo |  | Spread: CA Progreso (-2.5) |
+| $51.73 | 99.8c | 99.8c | deportes_previo |  | Spread: Cerro Largo FC (-3.5) |
+| $90.13 | 99.7c | 99.7c | otros_cierre |  | Will Apple (AAPL) close above $355 on November 19? |
+| $55.98 | 99.7c | 99.7c | otros_cierre |  | Will Microsoft (MSFT) close above $520 on November 19? |
+| $71.88 | 98.7c | 98.7c | cripto_cierre |  | Airbnb (ABNB) Up or Down on November 19? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 5764 | abiertas: 2371 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 5771 | abiertas: 2440 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
-| clima_cierre | todas | 1677 | 98.90c | 99.11% | +0.21 pts | -0.24 a +0.66 | 15 |
-| clima_cierre | tocadas | 1538 | 98.91c | 99.02% | +0.12 pts | -0.37 a +0.61 | 15 |
+| clima_cierre | todas | 1684 | 98.90c | 99.11% | +0.21 pts | -0.24 a +0.66 | 15 |
+| clima_cierre | tocadas | 1545 | 98.91c | 99.03% | +0.12 pts | -0.37 a +0.61 | 15 |
 | cripto_cierre | todas | 942 | 98.80c | 98.51% | -0.28 pts | -1.05 a +0.48 | 14 |
 | cripto_cierre | tocadas | 869 | 98.83c | 98.39% | -0.44 pts | -1.27 a +0.39 | 14 |
 | deportes_previo | todas | 2411 | 98.08c | 97.14% | -0.94 pts | -1.60 a -0.28 | 69 |
@@ -54,8 +58,8 @@ Cada mercado que cumple una regla se anota una vez al precio limite que se habri
 | otros_cierre | tocadas | 618 | 99.13c | 98.38% | -0.75 pts | -1.74 a +0.24 | 10 |
 | post_fin_90_97 | todas | 58 | 94.06c | 96.55% | +2.49 pts | -2.26 a +7.24 | 2 |
 | post_fin_90_97 | tocadas | 46 | 94.12c | 95.65% | +1.53 pts | -4.43 a +7.50 | 2 |
-| TOTAL | todas | 5764 | 98.52c | 98.09% | -0.43 pts | -0.78 a -0.08 | 110 |
-| TOTAL | tocadas | 5426 | 98.53c | 97.97% | -0.56 pts | -0.93 a -0.19 | 110 |
+| TOTAL | todas | 5771 | 98.52c | 98.09% | -0.43 pts | -0.78 a -0.08 | 110 |
+| TOTAL | tocadas | 5433 | 98.53c | 97.98% | -0.56 pts | -0.93 a -0.19 | 110 |
 
 Peores casos del registro sombra:
 
