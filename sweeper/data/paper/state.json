@@ -1,6 +1,6 @@
 {
  "capital0": 1000.0,
- "cash": 419.2738,
+ "cash": 419.6554,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
   {
@@ -44,27 +44,6 @@
    "end_ts": 1795131000.0,
    "hours": 6.48,
    "liq": 2098
-  },
-  {
-   "oid": "6783950-1795111280",
-   "id": "6783950",
-   "q": "Spread: São Paulo FC (-3.5)",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1332134",
-   "side": 1,
-   "token": "74052150164192839556441843296179886510253203839982284088710122278669777402857",
-   "px": 0.988,
-   "tick": 0.001,
-   "mid": 0.9885,
-   "bid": 0.98,
-   "ask": 0.997,
-   "shares": 52.957,
-   "cost": 52.3215,
-   "ts": 1795111280.540328,
-   "end_ts": 1795134600.0,
-   "hours": 6.48,
-   "liq": 12378
   },
   {
    "oid": "6783952-1795111280",
@@ -170,6 +149,48 @@
    "end_ts": 1795150740.0,
    "hours": 7.96,
    "liq": 1322
+  },
+  {
+   "oid": "5999371-1795125669",
+   "id": "5999371",
+   "q": "Will Intuit Q1 Online Ecosystem revenue be above $2.35B?",
+   "cat": "otros",
+   "rule": "otros_cierre",
+   "event": "1226872",
+   "side": 0,
+   "token": "6711410802205388328506552892226798124983822740566531863323478314343518747835",
+   "px": 0.999,
+   "tick": 0.001,
+   "mid": 0.999,
+   "bid": 0.998,
+   "ask": 1,
+   "shares": 52.4108,
+   "cost": 52.3584,
+   "ts": 1795125669.534503,
+   "end_ts": 1795129200.0,
+   "hours": 0.98,
+   "liq": 1005
+  },
+  {
+   "oid": "6806390-1795125669",
+   "id": "6806390",
+   "q": "Western Sydney Wanderers FC vs. Adelaide United FC: O/U 7.5",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1333716",
+   "side": 1,
+   "token": "104320031775259528227329665220567327093353575535454449260250399747718264190206",
+   "px": 0.977,
+   "tick": 0.001,
+   "mid": 0.977,
+   "bid": 0.969,
+   "ask": 0.985,
+   "shares": 53.591,
+   "cost": 52.3584,
+   "ts": 1795125669.534503,
+   "end_ts": 1795164000.0,
+   "hours": 10.65,
+   "liq": 1090
   }
  ],
  "positions": [
@@ -194,7 +215,7 @@
    "hours": 4.96,
    "liq": 1203,
    "fill_ts": 1794967266.068418,
-   "mark": 0.985,
+   "mark": 0.984,
    "stuck": false,
    "disputed": false
   },
@@ -245,31 +266,6 @@
    "liq": 24719,
    "fill_ts": 1795114872.425368,
    "mark": 0.995,
-   "stuck": false,
-   "disputed": false
-  },
-  {
-   "oid": "7143302-1795100473",
-   "id": "7143302",
-   "q": "Will Google (GOOGL) close above $270 on November 19?",
-   "cat": "otros",
-   "rule": "otros_cierre",
-   "event": "1416667",
-   "side": 0,
-   "token": "13347932380620679151233445057071331533272306696893433257802796269495081894481",
-   "px": 0.99,
-   "tick": 0.001,
-   "mid": 0.99,
-   "bid": 0.98,
-   "ask": 1,
-   "shares": 52.7769,
-   "cost": 52.2492,
-   "ts": 1795100473.509369,
-   "end_ts": 1795122000.0,
-   "hours": 5.98,
-   "liq": 2402,
-   "fill_ts": 1795118468.375384,
-   "mark": 0.9995,
    "stuck": false,
    "disputed": false
   }
@@ -2114,6 +2110,36 @@
    "result": 1.0,
    "closed_ts": "2026-11-19T18:01:22Z",
    "days": 0.38
+  },
+  {
+   "oid": "7143302-1795100473",
+   "id": "7143302",
+   "q": "Will Google (GOOGL) close above $270 on November 19?",
+   "cat": "otros",
+   "rule": "otros_cierre",
+   "event": "1416667",
+   "side": 0,
+   "token": "13347932380620679151233445057071331533272306696893433257802796269495081894481",
+   "px": 0.99,
+   "tick": 0.001,
+   "mid": 0.99,
+   "bid": 0.98,
+   "ask": 1,
+   "shares": 52.7769,
+   "cost": 52.2492,
+   "ts": 1795100473.509369,
+   "end_ts": 1795122000.0,
+   "hours": 5.98,
+   "liq": 2402,
+   "fill_ts": 1795118468.375384,
+   "mark": 0.9995,
+   "stuck": false,
+   "disputed": false,
+   "payout": 52.7769,
+   "pnl": 0.5277,
+   "result": 1.0,
+   "closed_ts": "2026-11-19T22:01:10Z",
+   "days": 0.08
   }
  ],
  "runs": [
@@ -4166,14 +4192,27 @@
    "placed": 1,
    "shadow_open": 341,
    "shadow_closed": 0
+  },
+  {
+   "ts": "2026-11-19T22:01:43Z",
+   "equity": 1047.17,
+   "cash": 419.66,
+   "orders": 9,
+   "positions": 3,
+   "closed": 63,
+   "scanned": 11982,
+   "candidates": 117,
+   "placed": 2,
+   "shadow_open": 340,
+   "shadow_closed": 8
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 275,
+  "placed": 277,
   "filled": 66,
   "expired": 68,
-  "touched_not_filled": 133
+  "touched_not_filled": 134
  },
  "shadow": [
   {
@@ -4346,19 +4385,6 @@
    "touched": 0
   },
   {
-   "id": "6733348",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "14350105065774269598975243993367538648862224643303757078435104590662410274982",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1795006872,
-   "end_ts": 1795110300,
-   "q": "Will FK Austria Wien win on 2026-11-19?",
-   "touched": 1
-  },
-  {
    "id": "6733450",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -4528,19 +4554,6 @@
    "touched": 1
   },
   {
-   "id": "5730341",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 0,
-   "token": "1198369059272337837983197710023977775503199909109881099743328779305488526293",
-   "px": 0.971,
-   "tick": 0.001,
-   "ts": 1795032078,
-   "end_ts": 1795098600,
-   "q": "Walmart (WMT) Q3 US eCommerce sales growth 21% to 25%?",
-   "touched": 1
-  },
-  {
    "id": "6639438",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -4643,32 +4656,6 @@
    "end_ts": 1795118400,
    "q": "FC Barcelona vs. Servette FC Chênois Féminin: O/U 1.5",
    "touched": 0
-  },
-  {
-   "id": "6742159",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "44368308431579326800311623109910936009307356112941136086219248538825904685222",
-   "px": 0.973,
-   "tick": 0.001,
-   "ts": 1795034282,
-   "end_ts": 1795110300,
-   "q": "Spread: HB Køge (-2.5)",
-   "touched": 1
-  },
-  {
-   "id": "6742212",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "27905169246217437417777793165429361007001197415094681476338883092472154980888",
-   "px": 0.982,
-   "tick": 0.001,
-   "ts": 1795034282,
-   "end_ts": 1795110300,
-   "q": "FK Austria Wien vs. FC Bayern München: O/U 0.5",
-   "touched": 1
   },
   {
    "id": "6784073",
@@ -4970,19 +4957,6 @@
    "touched": 0
   },
   {
-   "id": "6733396",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "79658081170990335769388807944690239258024843165103111834259268289561012337998",
-   "px": 0.98,
-   "tick": 0.001,
-   "ts": 1795055847,
-   "end_ts": 1795110300,
-   "q": "FK Austria Wien vs. FC Bayern München: Neither team to score first?",
-   "touched": 1
-  },
-  {
    "id": "4254202",
    "rule": "otros_cierre",
    "cat": "otros",
@@ -5097,32 +5071,6 @@
    "ts": 1795064473,
    "end_ts": 1795118400,
    "q": "Spread: Servette FC Chênois Féminin (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "6742161",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "83484264868602446433058096932961436422042803316936567534591599445605893446426",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795064473,
-   "end_ts": 1795110300,
-   "q": "Spread: HB Køge (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "6742220",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "108262575056839270034031556394756099799976368335518996230881620425163667918853",
-   "px": 0.981,
-   "tick": 0.001,
-   "ts": 1795064473,
-   "end_ts": 1795110300,
-   "q": "FK Austria Wien vs. FC Bayern München: O/U 8.5",
    "touched": 1
   },
   {
@@ -5542,19 +5490,6 @@
    "touched": 0
   },
   {
-   "id": "6742173",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "28548281697538095080311501825746978128593701412247097898680666763621411315495",
-   "px": 0.981,
-   "tick": 0.001,
-   "ts": 1795071673,
-   "end_ts": 1795110300,
-   "q": "Paris FC vs. HB Køge: O/U 7.5",
-   "touched": 1
-  },
-  {
    "id": "6783952",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -5747,7 +5682,7 @@
    "ts": 1795078874,
    "end_ts": 1795132740,
    "q": "Will Trump say \"Nuclear\" or \"Nuke\" during his trilateral meeting with Xi and Putin?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7165527",
@@ -5760,7 +5695,7 @@
    "ts": 1795078874,
    "end_ts": 1795150800,
    "q": "Will Solana reach $95 on November 19?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7165528",
@@ -5773,7 +5708,7 @@
    "ts": 1795078874,
    "end_ts": 1795150800,
    "q": "Will Solana reach $90 on November 19?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7165529",
@@ -5786,7 +5721,7 @@
    "ts": 1795078874,
    "end_ts": 1795150800,
    "q": "Will Solana reach $85 on November 19?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7165533",
@@ -5799,7 +5734,7 @@
    "ts": 1795078874,
    "end_ts": 1795150800,
    "q": "Will Solana dip to $65 on November 19?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7165534",
@@ -5812,7 +5747,7 @@
    "ts": 1795078874,
    "end_ts": 1795150800,
    "q": "Will Solana dip to $60 on November 19?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7165535",
@@ -5825,7 +5760,7 @@
    "ts": 1795078874,
    "end_ts": 1795150800,
    "q": "Will Solana dip to $55 on November 19?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7165536",
@@ -5838,7 +5773,7 @@
    "ts": 1795078874,
    "end_ts": 1795150800,
    "q": "Will Solana dip to $50 on November 19?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7165537",
@@ -5851,7 +5786,7 @@
    "ts": 1795078874,
    "end_ts": 1795150800,
    "q": "Will XRP reach $1.20 on November 19?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7165538",
@@ -5864,7 +5799,7 @@
    "ts": 1795078874,
    "end_ts": 1795150800,
    "q": "Will XRP reach $1.15 on November 19?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7165544",
@@ -5877,7 +5812,7 @@
    "ts": 1795078874,
    "end_ts": 1795150800,
    "q": "Will XRP dip to $0.85 on November 19?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7165545",
@@ -5890,7 +5825,7 @@
    "ts": 1795078874,
    "end_ts": 1795150800,
    "q": "Will XRP dip to $0.80 on November 19?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7165546",
@@ -5903,7 +5838,7 @@
    "ts": 1795078874,
    "end_ts": 1795150800,
    "q": "Will XRP dip to $0.75 on November 19?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7111732",
@@ -8607,6 +8542,97 @@
    "ts": 1795122069,
    "end_ts": 1795208400,
    "q": "Will Opendoor (OPEN) close at $3.00-$4.00 on the final day of trading of the week of Nov 1",
+   "touched": null
+  },
+  {
+   "id": "5999371",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "6711410802205388328506552892226798124983822740566531863323478314343518747835",
+   "px": 0.999,
+   "tick": 0.001,
+   "ts": 1795125669,
+   "end_ts": 1795129200,
+   "q": "Will Intuit Q1 Online Ecosystem revenue be above $2.35B?",
+   "touched": null
+  },
+  {
+   "id": "7018452",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "66653776720745632393833460084623152719051324185035348502472450909526153661763",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795125669,
+   "end_ts": 1795194000,
+   "q": "Will the price of Bitcoin be between $72,000 and $74,000 on November 20?",
+   "touched": null
+  },
+  {
+   "id": "7018511",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "15990452255650648855767394542572318055094248042837296458998459436433552185119",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795125669,
+   "end_ts": 1795194000,
+   "q": "Will the price of Solana be between $40 and $50 on November 20?",
+   "touched": null
+  },
+  {
+   "id": "7024923",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "97182261581736206272530941163863253958113710229381618543861643018897280850334",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1795125669,
+   "end_ts": 1795208400,
+   "q": "Will Microsoft Corporation (MSFT) hit (HIGH) $547.50 Week of November 16 2026?",
+   "touched": null
+  },
+  {
+   "id": "7025272",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "34413812456090868577879218777578206870852309649475338377949379611798891204064",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1795125669,
+   "end_ts": 1795208400,
+   "q": "Will Micron (MU) finish week of November 16 above $810?",
+   "touched": null
+  },
+  {
+   "id": "6843447",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "23917230104474252462793784290742001350509471127263227418277868945894009637691",
+   "px": 0.971,
+   "tick": 0.001,
+   "ts": 1795125669,
+   "end_ts": 1795230000,
+   "q": "FC Juárez vs. Atlas FC: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "6843448",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "46566921698819831090311580044032758867319383677930496952864466683431154135407",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1795125669,
+   "end_ts": 1795230000,
+   "q": "FC Juárez vs. Atlas FC: O/U 7.5",
    "touched": null
   }
  ]
