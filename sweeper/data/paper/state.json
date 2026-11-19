@@ -1,6 +1,6 @@
 {
  "capital0": 1000.0,
- "cash": 364.619,
+ "cash": 365.0082,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
   {
@@ -172,7 +172,28 @@
    "liq": 29407
   },
   {
-   "oid": "6990916-1795071673",
+   "oid": "5730334-1795075271",
+   "id": "5730334",
+   "q": "Walmart (WMT) Q3 US comp sales (ex-fuel) growth <1%?",
+   "cat": "otros",
+   "rule": "otros_cierre",
+   "event": "1194145",
+   "side": 1,
+   "token": "115494712267468432914003950488326478402220778011857412423835524651989465815319",
+   "px": 0.995,
+   "tick": 0.001,
+   "mid": 0.995,
+   "bid": 0.991,
+   "ask": 0.999,
+   "shares": 52.4238,
+   "cost": 52.1616,
+   "ts": 1795075271.218394,
+   "end_ts": 1795098600.0,
+   "hours": 6.48,
+   "liq": 2684
+  },
+  {
+   "oid": "6990916-1795075271",
    "id": "6990916",
    "q": "Will the price of Bitcoin be between $68,000 and $70,000 on November 19?",
    "cat": "cripto",
@@ -180,17 +201,17 @@
    "event": "1372723",
    "side": 1,
    "token": "45706387109189552551007399101743943426896440238827299881499599223548946336002",
-   "px": 0.998,
+   "px": 0.997,
    "tick": 0.001,
-   "mid": 0.998,
-   "bid": 0.997,
+   "mid": 0.9975,
+   "bid": 0.996,
    "ask": 0.999,
-   "shares": 52.2544,
-   "cost": 52.1499,
-   "ts": 1795071673.758611,
+   "shares": 52.3186,
+   "cost": 52.1616,
+   "ts": 1795075271.218394,
    "end_ts": 1795107600.0,
-   "hours": 9.98,
-   "liq": 41417
+   "hours": 8.98,
+   "liq": 36080
   }
  ],
  "positions": [
@@ -245,31 +266,6 @@
    "disputed": false
   },
   {
-   "oid": "6655552-1795057268",
-   "id": "6655552",
-   "q": "Will the next Meta Muse Spark model be released on November 18, 2026?",
-   "cat": "otros",
-   "rule": "otros_cierre",
-   "event": "1310057",
-   "side": 1,
-   "token": "8584731809111907669501327776448729803647707291536554032877020938429890698793",
-   "px": 0.992,
-   "tick": 0.001,
-   "mid": 0.992,
-   "bid": 0.987,
-   "ask": 0.997,
-   "shares": 52.5625,
-   "cost": 52.142,
-   "ts": 1795057268.867058,
-   "end_ts": 1795064340.0,
-   "hours": 1.96,
-   "liq": 1324,
-   "fill_ts": 1795060871.041289,
-   "mark": 0.9945,
-   "stuck": false,
-   "disputed": false
-  },
-  {
    "oid": "7153632-1795064473",
    "id": "7153632",
    "q": "Will Shan United win on 2026-11-19?",
@@ -290,7 +286,7 @@
    "hours": 6.98,
    "liq": 3859,
    "fill_ts": 1795068069.766622,
-   "mark": 0.9735,
+   "mark": 0.9725,
    "stuck": false,
    "disputed": false
   }
@@ -1985,6 +1981,36 @@
    "result": 1.0,
    "closed_ts": "2026-11-18T22:01:11Z",
    "days": 0.5
+  },
+  {
+   "oid": "6655552-1795057268",
+   "id": "6655552",
+   "q": "Will the next Meta Muse Spark model be released on November 18, 2026?",
+   "cat": "otros",
+   "rule": "otros_cierre",
+   "event": "1310057",
+   "side": 1,
+   "token": "8584731809111907669501327776448729803647707291536554032877020938429890698793",
+   "px": 0.992,
+   "tick": 0.001,
+   "mid": 0.992,
+   "bid": 0.987,
+   "ask": 0.997,
+   "shares": 52.5625,
+   "cost": 52.142,
+   "ts": 1795057268.867058,
+   "end_ts": 1795064340.0,
+   "hours": 1.96,
+   "liq": 1324,
+   "fill_ts": 1795060871.041289,
+   "mark": 0.9945,
+   "stuck": false,
+   "disputed": false,
+   "payout": 52.5625,
+   "pnl": 0.4205,
+   "result": 1.0,
+   "closed_ts": "2026-11-19T08:01:11Z",
+   "days": 0.17
   }
  ],
  "runs": [
@@ -3829,14 +3855,27 @@
    "placed": 1,
    "shadow_open": 221,
    "shadow_closed": 12
+  },
+  {
+   "ts": "2026-11-19T08:01:31Z",
+   "equity": 1043.23,
+   "cash": 365.01,
+   "orders": 10,
+   "positions": 3,
+   "closed": 58,
+   "scanned": 6997,
+   "candidates": 119,
+   "placed": 2,
+   "shadow_open": 220,
+   "shadow_closed": 6
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 244,
+  "placed": 246,
   "filled": 61,
   "expired": 60,
-  "touched_not_filled": 114
+  "touched_not_filled": 115
  },
  "shadow": [
   {
@@ -4022,32 +4061,6 @@
    "touched": 0
   },
   {
-   "id": "7029427",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "31417147173698151584324080527650635871894261479930861814249077630691899354213",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1794978067,
-   "end_ts": 1795064340,
-   "q": "Will the next Gemini Carbon model (4.1+) be released on November 18, 2026?",
-   "touched": 0
-  },
-  {
-   "id": "6979271",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "5746637979243389058930093073089926670311290664742884449147427264116026481038",
-   "px": 0.984,
-   "tick": 0.001,
-   "ts": 1794988874,
-   "end_ts": 1795057200,
-   "q": "Texas Southern Tigers vs. San Diego State Aztecs",
-   "touched": 1
-  },
-  {
    "id": "6993119",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -4059,19 +4072,6 @@
    "end_ts": 1795092300,
    "q": "Al Wasl FC vs. Hatta SC: O/U 0.5",
    "touched": 1
-  },
-  {
-   "id": "6655552",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "8584731809111907669501327776448729803647707291536554032877020938429890698793",
-   "px": 0.99,
-   "tick": 0.001,
-   "ts": 1794996067,
-   "end_ts": 1795064340,
-   "q": "Will the next Meta Muse Spark model be released on November 18, 2026?",
-   "touched": 0
   },
   {
    "id": "7015810",
@@ -4136,32 +4136,6 @@
    "ts": 1795010469,
    "end_ts": 1795118400,
    "q": "Will Servette FC Chênois Féminin win on 2026-11-19?",
-   "touched": 1
-  },
-  {
-   "id": "7089029",
-   "rule": "post_fin_95_97",
-   "cat": "clima",
-   "side": 1,
-   "token": "40764169305122320694931263010743109282807831542786062968322186546805560708258",
-   "px": 0.959,
-   "tick": 0.001,
-   "ts": 1795014073,
-   "end_ts": 1795003200,
-   "q": "Will the highest temperature in Austin be between 74-75°F on November 18?",
-   "touched": 1
-  },
-  {
-   "id": "6979588",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "54522842832028541749584698474336143856469958036167179705316501622259038950650",
-   "px": 0.988,
-   "tick": 0.001,
-   "ts": 1795014073,
-   "end_ts": 1795059000,
-   "q": "Cal State Fullerton Titans vs. UCLA Bruins",
    "touched": 1
   },
   {
@@ -4864,19 +4838,6 @@
    "ts": 1795024879,
    "end_ts": 1795132800,
    "q": "Northwestern State Demons vs. Oklahoma Sooners (W)",
-   "touched": 1
-  },
-  {
-   "id": "7133252",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "82238842039597114565026773546323224437823538322045502561923046458284653666854",
-   "px": 0.975,
-   "tick": 0.001,
-   "ts": 1795028472,
-   "end_ts": 1795053600,
-   "q": "Spread: Arizona State Sun Devils (-3.5)",
    "touched": 1
   },
   {
@@ -6710,6 +6671,71 @@
    "ts": 1795071673,
    "end_ts": 1795150800,
    "q": "Will Ethereum dip to $1,450 on November 19?",
+   "touched": null
+  },
+  {
+   "id": "5730336",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "64418175187236527833464422623477923112343727265971378845752569092000167702303",
+   "px": 0.992,
+   "tick": 0.001,
+   "ts": 1795075271,
+   "end_ts": 1795098600,
+   "q": "Walmart (WMT) Q3 US comp sales (ex-fuel) growth 2.5% to 4%?",
+   "touched": null
+  },
+  {
+   "id": "6742032",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "102552066814195503950137506410431805584192636256099344068698047620829359297155",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795075271,
+   "end_ts": 1795118400,
+   "q": "Arsenal WFC vs. OL Lyonnes: O/U 8.5",
+   "touched": null
+  },
+  {
+   "id": "6783978",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "9386684887988401045441656106130868448047925651944699618610667322208751121883",
+   "px": 0.996,
+   "tick": 0.001,
+   "ts": 1795075271,
+   "end_ts": 1795134600,
+   "q": "São Paulo FC vs. Fluminense FC: O/U 8.5",
+   "touched": null
+  },
+  {
+   "id": "7165522",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "6954061755480829526409437417638193024756645800268142296530321657176740732200",
+   "px": 0.979,
+   "tick": 0.001,
+   "ts": 1795075271,
+   "end_ts": 1795150800,
+   "q": "Will Ethereum dip to $1,650 on November 19?",
+   "touched": null
+  },
+  {
+   "id": "7045067",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "30520110948464864111579556955911832284772421979443788178538503150227027009376",
+   "px": 0.974,
+   "tick": 0.001,
+   "ts": 1795075271,
+   "end_ts": 1795178700,
+   "q": "Ittihad Kalba FC vs. Sharjah FC: O/U 6.5",
    "touched": null
   }
  ]
