@@ -1,6 +1,6 @@
 {
  "capital0": 1000.0,
- "cash": 364.8964,
+ "cash": 364.8661,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
   {
@@ -172,48 +172,6 @@
    "liq": 38539
   },
   {
-   "oid": "6655552-1795050070",
-   "id": "6655552",
-   "q": "Will the next Meta Muse Spark model be released on November 18, 2026?",
-   "cat": "otros",
-   "rule": "otros_cierre",
-   "event": "1310057",
-   "side": 1,
-   "token": "8584731809111907669501327776448729803647707291536554032877020938429890698793",
-   "px": 0.992,
-   "tick": 0.001,
-   "mid": 0.992,
-   "bid": 0.987,
-   "ask": 0.997,
-   "shares": 52.5545,
-   "cost": 52.1341,
-   "ts": 1795050070.927011,
-   "end_ts": 1795064340.0,
-   "hours": 3.96,
-   "liq": 1059
-  },
-  {
-   "oid": "7135893-1795050070",
-   "id": "7135893",
-   "q": "Will Bitcoin reach $68,000 on November 18?",
-   "cat": "cripto",
-   "rule": "cripto_cierre",
-   "event": "1414300",
-   "side": 1,
-   "token": "108901150261848019011397503736456627146305437262630073617976199660891919760177",
-   "px": 0.997,
-   "tick": 0.001,
-   "mid": 0.9975,
-   "bid": 0.997,
-   "ask": 0.998,
-   "shares": 52.2817,
-   "cost": 52.1248,
-   "ts": 1795050070.927011,
-   "end_ts": 1795064400.0,
-   "hours": 3.98,
-   "liq": 35697
-  },
-  {
    "oid": "6997992-1795050070",
    "id": "6997992",
    "q": "Spread: Al Dhafra SSC (-1.5)",
@@ -233,6 +191,48 @@
    "end_ts": 1795101900.0,
    "hours": 14.4,
    "liq": 1049
+  },
+  {
+   "oid": "6655552-1795053669",
+   "id": "6655552",
+   "q": "Will the next Meta Muse Spark model be released on November 18, 2026?",
+   "cat": "otros",
+   "rule": "otros_cierre",
+   "event": "1310057",
+   "side": 1,
+   "token": "8584731809111907669501327776448729803647707291536554032877020938429890698793",
+   "px": 0.992,
+   "tick": 0.001,
+   "mid": 0.992,
+   "bid": 0.987,
+   "ask": 0.997,
+   "shares": 52.5651,
+   "cost": 52.1446,
+   "ts": 1795053669.087685,
+   "end_ts": 1795064340.0,
+   "hours": 2.96,
+   "liq": 1096
+  },
+  {
+   "oid": "7135895-1795053669",
+   "id": "7135895",
+   "q": "Will Bitcoin reach $66,000 on November 18?",
+   "cat": "cripto",
+   "rule": "cripto_cierre",
+   "event": "1414300",
+   "side": 1,
+   "token": "51187334323080182396768517066604230572174924595901528444935461449368847749119",
+   "px": 0.996,
+   "tick": 0.001,
+   "mid": 0.9965,
+   "bid": 0.995,
+   "ask": 0.998,
+   "shares": 52.354,
+   "cost": 52.1446,
+   "ts": 1795053669.087685,
+   "end_ts": 1795064400.0,
+   "hours": 2.98,
+   "liq": 32658
   }
  ],
  "positions": [
@@ -257,7 +257,7 @@
    "hours": 4.96,
    "liq": 1203,
    "fill_ts": 1794967266.068418,
-   "mark": 0.9845,
+   "mark": 0.9885,
    "stuck": false,
    "disputed": false
   },
@@ -3730,14 +3730,27 @@
    "placed": 3,
    "shadow_open": 270,
    "shadow_closed": 5
+  },
+  {
+   "ts": "2026-11-19T02:01:50Z",
+   "equity": 1042.89,
+   "cash": 364.87,
+   "orders": 11,
+   "positions": 2,
+   "closed": 57,
+   "scanned": 8367,
+   "candidates": 85,
+   "placed": 2,
+   "shadow_open": 262,
+   "shadow_closed": 8
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 234,
+  "placed": 236,
   "filled": 59,
   "expired": 58,
-  "touched_not_filled": 106
+  "touched_not_filled": 108
  },
  "shadow": [
   {
@@ -4310,19 +4323,6 @@
    "ts": 1794967266,
    "end_ts": 1795048200,
    "q": "SC Corinthians Paulista vs. Botafogo FR: O/U 8.5",
-   "touched": 1
-  },
-  {
-   "id": "7121239",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "49520631174629111841142644833801164577152628367247160336062550899768550290066",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1794967266,
-   "end_ts": 1795048200,
-   "q": "Canadiens vs. Devils: O/U 2.5",
    "touched": 1
   },
   {
@@ -5132,45 +5132,6 @@
    "touched": 1
   },
   {
-   "id": "5747205",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "88223397634543360886319388038311512342586660679071766508848342774026139992870",
-   "px": 0.977,
-   "tick": 0.001,
-   "ts": 1795006872,
-   "end_ts": 1795030200,
-   "q": "Spread: Reus FC Reddis (-2.5)",
-   "touched": null
-  },
-  {
-   "id": "6707226",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "22151650337457101415515845859810999399969176603000312145475842048898409928364",
-   "px": 0.972,
-   "tick": 0.001,
-   "ts": 1795006872,
-   "end_ts": 1795032000,
-   "q": "Juventus FC vs. Oud-Heverlee Leuven Women: O/U 0.5",
-   "touched": null
-  },
-  {
-   "id": "7117881",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "58930401601093851780016157822187254886424321655752095285298110623689435331069",
-   "px": 0.987,
-   "tick": 0.001,
-   "ts": 1795006872,
-   "end_ts": 1795035600,
-   "q": "Will Microsoft (MSFT) close above $530 on November 18?",
-   "touched": null
-  },
-  {
    "id": "6733348",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -5181,59 +5142,7 @@
    "ts": 1795006872,
    "end_ts": 1795110300,
    "q": "Will FK Austria Wien win on 2026-11-19?",
-   "touched": null
-  },
-  {
-   "id": "6967555",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 0,
-   "token": "47097115249779965447852565974393296338028593465133886620776213072795892534906",
-   "px": 0.972,
-   "tick": 0.001,
-   "ts": 1795010469,
-   "end_ts": 1795021200,
-   "q": "Will the price of Bitcoin be less than $66,000 on November 18?",
-   "touched": null
-  },
-  {
-   "id": "6967560",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "23191423339491680915192687390196497395441138105266817053429780966733926908888",
-   "px": 0.976,
-   "tick": 0.001,
-   "ts": 1795010469,
-   "end_ts": 1795021200,
-   "q": "Will the price of Bitcoin be between $66,000 and $68,000 on November 18?",
-   "touched": null
-  },
-  {
-   "id": "6967623",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "62386747489710537943419371501192796893512112066282533709294377120274254812166",
-   "px": 0.975,
-   "tick": 0.001,
-   "ts": 1795010469,
-   "end_ts": 1795021200,
-   "q": "Will the price of Bitcoin be above $66,000 on November 18?",
-   "touched": null
-  },
-  {
-   "id": "6967655",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "112933355069935272782581784342359838994547490933131268369920028991171122691170",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795010469,
-   "end_ts": 1795021200,
-   "q": "Will the price of Solana be less than $40 on November 18?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6978779",
@@ -5246,7 +5155,7 @@
    "ts": 1795010469,
    "end_ts": 1795053600,
    "q": "Northern Colorado Bears vs. BYU Cougars",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7135910",
@@ -5259,7 +5168,7 @@
    "ts": 1795010469,
    "end_ts": 1795064400,
    "q": "Will Ethereum reach $1,900 on November 18?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6733450",
@@ -5272,7 +5181,7 @@
    "ts": 1795010469,
    "end_ts": 1795118400,
    "q": "Will FC Barcelona win on 2026-11-19?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6733451",
@@ -5285,7 +5194,7 @@
    "ts": 1795010469,
    "end_ts": 1795118400,
    "q": "Will FC Barcelona vs. Servette FC Chênois Féminin end in a draw?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6733452",
@@ -5298,7 +5207,7 @@
    "ts": 1795010469,
    "end_ts": 1795118400,
    "q": "Will Servette FC Chênois Féminin win on 2026-11-19?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7088973",
