@@ -1,29 +1,8 @@
 {
  "capital0": 1000.0,
- "cash": 364.9243,
+ "cash": 418.9559,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
-  {
-   "oid": "6993119-1795039270",
-   "id": "6993119",
-   "q": "Al Wasl FC vs. Hatta SC: O/U 0.5",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1373319",
-   "side": 0,
-   "token": "60228904650107149338045416486786777306272461191324049750025795143116770871240",
-   "px": 0.98,
-   "tick": 0.001,
-   "mid": 0.98,
-   "bid": 0.975,
-   "ask": 0.985,
-   "shares": 53.2155,
-   "cost": 52.1512,
-   "ts": 1795039270.175902,
-   "end_ts": 1795092300.0,
-   "hours": 14.73,
-   "liq": 2472
-  },
   {
    "oid": "6993110-1795042873",
    "id": "6993110",
@@ -151,7 +130,7 @@
    "liq": 29407
   },
   {
-   "oid": "5730335-1795078874",
+   "oid": "5730335-1795082478",
    "id": "5730335",
    "q": "Walmart (WMT) Q3 US comp sales (ex-fuel) growth 1% to 2.5%?",
    "cat": "otros",
@@ -159,17 +138,38 @@
    "event": "1194145",
    "side": 1,
    "token": "38548893682183568165763813651801181137348999501991575192825060904349561166935",
-   "px": 0.998,
+   "px": 0.996,
    "tick": 0.001,
-   "mid": 0.998,
-   "bid": 0.997,
+   "mid": 0.996,
+   "bid": 0.993,
    "ask": 0.999,
-   "shares": 52.2756,
-   "cost": 52.171,
-   "ts": 1795078874.871725,
+   "shares": 52.446,
+   "cost": 52.2362,
+   "ts": 1795082478.64603,
    "end_ts": 1795098600.0,
-   "hours": 5.48,
-   "liq": 1866
+   "hours": 4.48,
+   "liq": 1877
+  },
+  {
+   "oid": "6742159-1795082478",
+   "id": "6742159",
+   "q": "Spread: HB Køge (-2.5)",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1323831",
+   "side": 1,
+   "token": "44368308431579326800311623109910936009307356112941136086219248538825904685222",
+   "px": 0.98,
+   "tick": 0.001,
+   "mid": 0.98,
+   "bid": 0.975,
+   "ask": 0.985,
+   "shares": 53.3022,
+   "cost": 52.2362,
+   "ts": 1795082478.64603,
+   "end_ts": 1795110300.0,
+   "hours": 7.73,
+   "liq": 2297
   }
  ],
  "positions": [
@@ -199,31 +199,6 @@
    "disputed": false
   },
   {
-   "oid": "7090617-1795032078",
-   "id": "7090617",
-   "q": "Will the highest temperature in Seattle be between 54-55°F on November 18?",
-   "cat": "clima",
-   "rule": "post_fin_95_97",
-   "event": "1401094",
-   "side": 1,
-   "token": "43951810036230534205292040051747909550080522252705020684267426660110127144260",
-   "px": 0.961,
-   "tick": 0.001,
-   "mid": 0.961,
-   "bid": 0.952,
-   "ask": 0.97,
-   "shares": 54.1818,
-   "cost": 52.0687,
-   "ts": 1795032078.953532,
-   "end_ts": 1795003200.0,
-   "hours": -8.02,
-   "liq": 1081,
-   "fill_ts": 1795034282.353276,
-   "mark": 0.974,
-   "stuck": false,
-   "disputed": false
-  },
-  {
    "oid": "7153632-1795064473",
    "id": "7153632",
    "q": "Will Shan United win on 2026-11-19?",
@@ -244,7 +219,7 @@
    "hours": 6.98,
    "liq": 3859,
    "fill_ts": 1795068069.766622,
-   "mark": 0.976,
+   "mark": 0.9755,
    "stuck": false,
    "disputed": false
   },
@@ -269,7 +244,9 @@
    "hours": 6.48,
    "liq": 2684,
    "fill_ts": 1795078874.871725,
-   "mark": 0.995
+   "mark": 0.995,
+   "stuck": false,
+   "disputed": false
   },
   {
    "oid": "6990916-1795075271",
@@ -292,7 +269,9 @@
    "hours": 8.98,
    "liq": 36080,
    "fill_ts": 1795078874.871725,
-   "mark": 0.997
+   "mark": 0.9955,
+   "stuck": false,
+   "disputed": false
   }
  ],
  "closed": [
@@ -2015,6 +1994,36 @@
    "result": 1.0,
    "closed_ts": "2026-11-19T08:01:11Z",
    "days": 0.17
+  },
+  {
+   "oid": "7090617-1795032078",
+   "id": "7090617",
+   "q": "Will the highest temperature in Seattle be between 54-55°F on November 18?",
+   "cat": "clima",
+   "rule": "post_fin_95_97",
+   "event": "1401094",
+   "side": 1,
+   "token": "43951810036230534205292040051747909550080522252705020684267426660110127144260",
+   "px": 0.961,
+   "tick": 0.001,
+   "mid": 0.961,
+   "bid": 0.952,
+   "ask": 0.97,
+   "shares": 54.1818,
+   "cost": 52.0687,
+   "ts": 1795032078.953532,
+   "end_ts": 1795003200.0,
+   "hours": -8.02,
+   "liq": 1081,
+   "fill_ts": 1795034282.353276,
+   "mark": 0.974,
+   "stuck": false,
+   "disputed": false,
+   "payout": 54.1818,
+   "pnl": 2.1131,
+   "result": 1.0,
+   "closed_ts": "2026-11-19T10:01:19Z",
+   "days": 0.56
   }
  ],
  "runs": [
@@ -3885,14 +3894,27 @@
    "placed": 1,
    "shadow_open": 227,
    "shadow_closed": 6
+  },
+  {
+   "ts": "2026-11-19T10:02:01Z",
+   "equity": 1044.72,
+   "cash": 418.96,
+   "orders": 8,
+   "positions": 4,
+   "closed": 59,
+   "scanned": 7549,
+   "candidates": 124,
+   "placed": 2,
+   "shadow_open": 227,
+   "shadow_closed": 2
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 247,
+  "placed": 249,
   "filled": 63,
-  "expired": 61,
-  "touched_not_filled": 115
+  "expired": 62,
+  "touched_not_filled": 116
  },
  "shadow": [
   {
@@ -5001,19 +5023,6 @@
    "touched": 1
   },
   {
-   "id": "7090617",
-   "rule": "post_fin_95_97",
-   "cat": "clima",
-   "side": 1,
-   "token": "43951810036230534205292040051747909550080522252705020684267426660110127144260",
-   "px": 0.961,
-   "tick": 0.001,
-   "ts": 1795032078,
-   "end_ts": 1795003200,
-   "q": "Will the highest temperature in Seattle be between 54-55°F on November 18?",
-   "touched": 1
-  },
-  {
    "id": "5730341",
    "rule": "otros_cierre",
    "cat": "otros",
@@ -5326,19 +5335,6 @@
    "touched": 0
   },
   {
-   "id": "7117969",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 0,
-   "token": "69306582428621500281973102437441591046122930959051374862809695717020501422844",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1795039270,
-   "end_ts": 1795042800,
-   "q": "Natural Gas (NG) Up or Down on November 18?",
-   "touched": null
-  },
-  {
    "id": "6783976",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -5349,7 +5345,7 @@
    "ts": 1795039270,
    "end_ts": 1795134600,
    "q": "São Paulo FC vs. Fluminense FC: O/U 7.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6998319",
@@ -5362,7 +5358,7 @@
    "ts": 1795039270,
    "end_ts": 1795136400,
    "q": "Stetson Hatters vs. Louisville Cardinals",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6998325",
@@ -5375,7 +5371,7 @@
    "ts": 1795039270,
    "end_ts": 1795136400,
    "q": "Southern Utah Thunderbirds vs. Texas Longhorns",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6911332",
@@ -5388,7 +5384,7 @@
    "ts": 1795039270,
    "end_ts": 1795143600,
    "q": "Seattle Sounders FC vs. Real Salt Lake: O/U 8.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7148149",
@@ -5401,7 +5397,7 @@
    "ts": 1795039270,
    "end_ts": 1795142400,
    "q": "Canucks vs. Kraken: O/U 2.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6364921",
@@ -6844,6 +6840,32 @@
    "ts": 1795078874,
    "end_ts": 1795150800,
    "q": "Will XRP dip to $0.75 on November 19?",
+   "touched": null
+  },
+  {
+   "id": "7111732",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "84297578481809417071026426744945127706837158153197723151604212906699394873503",
+   "px": 0.971,
+   "tick": 0.001,
+   "ts": 1795082478,
+   "end_ts": 1795116600,
+   "q": "CA Progreso vs. Montevideo City Torque: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "7143340",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "43998771136513743277969900850304314847848836331004288762942669660044014105946",
+   "px": 0.982,
+   "tick": 0.001,
+   "ts": 1795082478,
+   "end_ts": 1795122000,
+   "q": "S&P 500 (SPX) Opens Up or Down on November 19?",
    "touched": null
   }
  ]
