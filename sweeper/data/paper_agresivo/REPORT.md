@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 6.3 de 28 | corridas: 120
-- Capital inicial: $1,000.00 | valor actual: $898.32 | P&L: $-101.68 (-10.17%)
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 6.3 de 28 | corridas: 121
+- Capital inicial: $1,000.00 | valor actual: $898.41 | P&L: $-101.59 (-10.16%)
 - Efectivo libre: $0.00 | en ordenes abiertas: $158.15 (3) | en posiciones: $748.02 (10)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 246 colocadas, 112 llenadas, 103 tocadas sin llenarse (sorteo 30%), 28 expiradas
+- Ordenes virtuales: 247 colocadas, 112 llenadas, 104 tocadas sin llenarse (sorteo 30%), 28 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -32,7 +32,7 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 |---|---|---|---|---|---|
 | $91.77 | 99.8c | 95.9c | otros_cierre |  | Pakistan military action against Afghanistan by November 15, 2026? |
 | $35.36 | 99.8c | 98.9c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $4.5m and $5.5m at auction? |
-| $87.27 | 99.8c | 98.4c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
+| $87.27 | 99.8c | 98.5c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
 | $89.46 | 99.8c | 99.0c | deportes_previo |  | Spread: CA Progreso (-2.5) |
 | $51.73 | 99.8c | 99.8c | deportes_previo |  | Spread: Cerro Largo FC (-3.5) |
 | $90.13 | 99.7c | 98.0c | otros_cierre |  | Will Apple (AAPL) close above $355 on November 19? |
@@ -45,7 +45,7 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 5837 | abiertas: 2473 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 5837 | abiertas: 2494 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|

@@ -46,7 +46,7 @@
    "liq": 1563
   },
   {
-   "oid": "6760443-1795121045",
+   "oid": "6760443-1795122107",
    "id": "6760443",
    "q": "CR Vasco da Gama vs. SC Internacional: Neither team to score first?",
    "cat": "deportes",
@@ -61,10 +61,10 @@
    "ask": 0.97,
    "shares": 47.4593,
    "cost": 45.5609,
-   "ts": 1795121045.663813,
+   "ts": 1795122107.703683,
    "end_ts": 1795127400.0,
-   "hours": 1.77,
-   "liq": 5445
+   "hours": 1.47,
+   "liq": 7005
   }
  ],
  "positions": [
@@ -139,7 +139,7 @@
    "hours": 0.96,
    "liq": 1444,
    "fill_ts": 1794978085.460753,
-   "mark": 0.984,
+   "mark": 0.985,
    "stuck": false,
    "disputed": false
   },
@@ -314,7 +314,9 @@
    "hours": 0.97,
    "liq": 17055,
    "fill_ts": 1795121045.663813,
-   "mark": 0.998
+   "mark": 0.998,
+   "stuck": false,
+   "disputed": false
   }
  ],
  "closed": [
@@ -4877,14 +4879,27 @@
    "placed": 2,
    "shadow_open": 2473,
    "shadow_closed": 25
+  },
+  {
+   "ts": "2026-11-19T21:03:16Z",
+   "equity": 898.41,
+   "cash": 0.0,
+   "orders": 3,
+   "positions": 10,
+   "closed": 102,
+   "scanned": 28617,
+   "candidates": 1074,
+   "placed": 1,
+   "shadow_open": 2494,
+   "shadow_closed": 0
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 246,
+  "placed": 247,
   "filled": 112,
   "expired": 28,
-  "touched_not_filled": 103
+  "touched_not_filled": 104
  },
  "shadow": [
   {
@@ -37034,6 +37049,279 @@
    "ts": 1795121045,
    "end_ts": 1795377600,
    "q": "Getafe CF vs. Club Atlético de Madrid: O/U 5.5",
+   "touched": null
+  },
+  {
+   "id": "7113078",
+   "rule": "post_fin_90_97",
+   "cat": "clima",
+   "side": 0,
+   "token": "101811258800387355324578561433432184549988951481158128207927147685161958636787",
+   "px": 0.95,
+   "tick": 0.01,
+   "ts": 1795122107,
+   "end_ts": 1795089600,
+   "q": "Will the highest temperature in Chicago be between 66-67°F on November 19?",
+   "touched": null
+  },
+  {
+   "id": "7115997",
+   "rule": "post_fin_90_97",
+   "cat": "clima",
+   "side": 0,
+   "token": "67452858193071134034290282261607074667969721114730909773520073165848968619758",
+   "px": 0.969,
+   "tick": 0.001,
+   "ts": 1795122107,
+   "end_ts": 1795089600,
+   "q": "Will the highest temperature in Denver be between 54-55°F on November 19?",
+   "touched": null
+  },
+  {
+   "id": "7136803",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "45364904319426195105314193501242623036872405039030239089796593497211404875578",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795122107,
+   "end_ts": 1795176000,
+   "q": "Will the lowest temperature in Hong Kong be 16°C on November 20?",
+   "touched": null
+  },
+  {
+   "id": "7025073",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "113056725191735270117082823862473224189444634715062871701550483687544179954418",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795122107,
+   "end_ts": 1795208400,
+   "q": "Will Tesla, Inc. (TSLA) hit (HIGH) $435 Week of November 16 2026?",
+   "touched": null
+  },
+  {
+   "id": "7025429",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "2884171774511582632661386710708158421174947789999196933704066459249950948800",
+   "px": 0.976,
+   "tick": 0.001,
+   "ts": 1795122107,
+   "end_ts": 1795208400,
+   "q": "Will South Korea ETF (EWY) hit (HIGH) $147 Week of November 16 2026?",
+   "touched": null
+  },
+  {
+   "id": "7025430",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "106802428387400948434106896395223743104276026907765282771770481478823353345112",
+   "px": 0.95,
+   "tick": 0.01,
+   "ts": 1795122107,
+   "end_ts": 1795208400,
+   "q": "Will South Korea ETF (EWY) hit (HIGH) $146 Week of November 16 2026?",
+   "touched": null
+  },
+  {
+   "id": "7165767",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "58795453103808427465461422586464861508603002804390382150503515837788798461016",
+   "px": 0.996,
+   "tick": 0.001,
+   "ts": 1795122107,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Tel Aviv be 30°C on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7165768",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "107518954239470425348939413811585790159937786182907676914675473792132456912072",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795122107,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Tel Aviv be 31°C on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7165841",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "84931696815550574531594360797957033648632164920297013801847475567165320519888",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795122107,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Madrid be 17°C on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7165909",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "15727238552105633705080110230900221909761524258532977230382419914970065222103",
+   "px": 0.988,
+   "tick": 0.001,
+   "ts": 1795122107,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Chengdu be 15°C on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7165991",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "14419615285709119109580097363309599388010960339680783058960081729844621976441",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795122107,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Amsterdam be 4°C or below on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7165995",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "44233310381137453386748455927192545628105065703304208364262322477012292838309",
+   "px": 0.988,
+   "tick": 0.001,
+   "ts": 1795122107,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Amsterdam be 7°C on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7166000",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "92769789399453361984020557355530054140972623089995586169008001688950951432759",
+   "px": 0.968,
+   "tick": 0.001,
+   "ts": 1795122107,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Amsterdam be 11°C on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7166003",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "113758797594648710940974615892715691608236427299462980362958573269157156775740",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795122107,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Amsterdam be 14°C or higher on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7168053",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "89359633187111684365281181243723489454241633275410858484442183542654506749274",
+   "px": 0.965,
+   "tick": 0.001,
+   "ts": 1795122107,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Atlanta be between 70-71°F on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7170423",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "14297935866843862794891181126249518106476878719731330356530233665146218812215",
+   "px": 0.996,
+   "tick": 0.001,
+   "ts": 1795122107,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Toronto be 9°C or below on November 21?",
+   "touched": null
+  },
+  {
+   "id": "6838392",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "5606958982356477669925759656756504095438569428701392330482514995480486667029",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795122107,
+   "end_ts": 1795271400,
+   "q": "Borussia Mönchengladbach vs. BV Borussia 09 Dortmund: O/U 8.5",
+   "touched": null
+  },
+  {
+   "id": "6842414",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "46474819695211503261658126842531563258540000731051677841166677089612954169561",
+   "px": 0.983,
+   "tick": 0.001,
+   "ts": 1795122107,
+   "end_ts": 1795282200,
+   "q": "Spread: Real Betis Balompié (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "6856778",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "58235039812356297869111690671134639745687234237897426818946129864041688225086",
+   "px": 0.988,
+   "tick": 0.001,
+   "ts": 1795122107,
+   "end_ts": 1795289400,
+   "q": "SE Palmeiras vs. CR Flamengo: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "7042955",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "89722340840875608992102216679521683712946965509105181315504413827805874298651",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795122107,
+   "end_ts": 1795305600,
+   "q": "Will Brooks Koepka win the 2026 The RSM Classic?",
+   "touched": null
+  },
+  {
+   "id": "6882049",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "45013038154812396256541329382363828446320243610674358233996661877478784143952",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795122107,
+   "end_ts": 1795371300,
+   "q": "Sarpsborg 08 FF vs. Lillestrøm SK: Neither team to score first?",
    "touched": null
   }
  ]

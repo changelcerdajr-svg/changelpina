@@ -1,6 +1,6 @@
 {
  "capital0": 1000.0,
- "cash": 419.3068,
+ "cash": 419.2738,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
   {
@@ -88,27 +88,6 @@
    "liq": 12671
   },
   {
-   "oid": "7143276-1795118468",
-   "id": "7143276",
-   "q": "Will Microsoft (MSFT) close above $510 on November 19?",
-   "cat": "otros",
-   "rule": "otros_cierre",
-   "event": "1416659",
-   "side": 1,
-   "token": "78038266363190505158051498370668741920615938028778767302444776350016798828552",
-   "px": 0.994,
-   "tick": 0.001,
-   "mid": 0.994,
-   "bid": 0.989,
-   "ask": 0.999,
-   "shares": 52.6426,
-   "cost": 52.3267,
-   "ts": 1795118468.375384,
-   "end_ts": 1795122000.0,
-   "hours": 0.98,
-   "liq": 17339
-  },
-  {
    "oid": "7148149-1795118468",
    "id": "7148149",
    "q": "Canucks vs. Kraken: O/U 2.5",
@@ -170,6 +149,27 @@
    "end_ts": 1795122000.0,
    "hours": 0.28,
    "liq": 2980
+  },
+  {
+   "oid": "6364889-1795122069",
+   "id": "6364889",
+   "q": "Will the next Claude Opus model (5.6+) be released on November 19, 2026?",
+   "cat": "otros",
+   "rule": "otros_cierre",
+   "event": "1274168",
+   "side": 1,
+   "token": "106722321602090325771114368772935821614305056684555004356172584602845231368155",
+   "px": 0.986,
+   "tick": 0.001,
+   "mid": 0.986,
+   "bid": 0.98,
+   "ask": 0.992,
+   "shares": 53.1032,
+   "cost": 52.3597,
+   "ts": 1795122069.9105,
+   "end_ts": 1795150740.0,
+   "hours": 7.96,
+   "liq": 1322
   }
  ],
  "positions": [
@@ -194,7 +194,7 @@
    "hours": 4.96,
    "liq": 1203,
    "fill_ts": 1794967266.068418,
-   "mark": 0.984,
+   "mark": 0.985,
    "stuck": false,
    "disputed": false
   },
@@ -244,7 +244,7 @@
    "hours": 10.98,
    "liq": 24719,
    "fill_ts": 1795114872.425368,
-   "mark": 0.992,
+   "mark": 0.995,
    "stuck": false,
    "disputed": false
   },
@@ -269,7 +269,7 @@
    "hours": 5.98,
    "liq": 2402,
    "fill_ts": 1795118468.375384,
-   "mark": 0.9795,
+   "mark": 0.9995,
    "stuck": false,
    "disputed": false
   }
@@ -4153,14 +4153,27 @@
    "placed": 2,
    "shadow_open": 335,
    "shadow_closed": 2
+  },
+  {
+   "ts": "2026-11-19T21:01:47Z",
+   "equity": 1047.19,
+   "cash": 419.27,
+   "orders": 8,
+   "positions": 4,
+   "closed": 62,
+   "scanned": 11339,
+   "candidates": 126,
+   "placed": 1,
+   "shadow_open": 341,
+   "shadow_closed": 0
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 274,
+  "placed": 275,
   "filled": 66,
   "expired": 68,
-  "touched_not_filled": 132
+  "touched_not_filled": 133
  },
  "shadow": [
   {
@@ -8516,6 +8529,84 @@
    "ts": 1795120989,
    "end_ts": 1795225200,
    "q": "AD Cali vs. Millonarios FC: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "7165518",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "35155638502671209118402428467160354881972410065400644837938039279361940494376",
+   "px": 0.977,
+   "tick": 0.001,
+   "ts": 1795122069,
+   "end_ts": 1795150800,
+   "q": "Will Ethereum reach $1,850 on November 19?",
+   "touched": null
+  },
+  {
+   "id": "6812084",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "38334548128314360644304464242757234740406883112733879852745227719329459920752",
+   "px": 0.974,
+   "tick": 0.001,
+   "ts": 1795122069,
+   "end_ts": 1795203000,
+   "q": "Spread: CD Leganés (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "7022320",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "23103088949430598744039411244891015600742000005404114441657497955251017218789",
+   "px": 0.971,
+   "tick": 0.001,
+   "ts": 1795122069,
+   "end_ts": 1795203000,
+   "q": "Spread: WKS Slask Wroclaw (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "7024918",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "106024475672646217860071615274474759337141477852312087441777675271749609695225",
+   "px": 0.976,
+   "tick": 0.001,
+   "ts": 1795122069,
+   "end_ts": 1795208400,
+   "q": "Will Microsoft (MSFT) close at $520-$530 on the final day of trading of the week of Nov 16",
+   "touched": null
+  },
+  {
+   "id": "7024925",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "75061767831899399618411638614499128338274954759330287873895785433255387021840",
+   "px": 0.98,
+   "tick": 0.001,
+   "ts": 1795122069,
+   "end_ts": 1795208400,
+   "q": "Will Microsoft (MSFT) finish week of November 16 above $530?",
+   "touched": null
+  },
+  {
+   "id": "7025217",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "9246538476943748169427581139650740493843375350708518247812563057757907185352",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1795122069,
+   "end_ts": 1795208400,
+   "q": "Will Opendoor (OPEN) close at $3.00-$4.00 on the final day of trading of the week of Nov 1",
    "touched": null
   }
  ]

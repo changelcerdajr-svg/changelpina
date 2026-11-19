@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-11T22:05:26Z | dias corridos: 7.9 de 28 | corridas: 157
-- Capital inicial: $1,000.00 | valor actual: $1,045.93 | P&L: $+45.93 (+4.59%)
-- Efectivo libre: $419.31 | en ordenes abiertas: $418.39 (8) | en posiciones: $208.70 (4)
+- Inicio: 2026-11-11T22:05:26Z | dias corridos: 8.0 de 28 | corridas: 158
+- Capital inicial: $1,000.00 | valor actual: $1,047.19 | P&L: $+47.19 (+4.72%)
+- Efectivo libre: $419.27 | en ordenes abiertas: $418.43 (8) | en posiciones: $208.70 (4)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 274 colocadas, 66 llenadas, 132 tocadas sin llenarse (sorteo 30%), 68 expiradas
+- Ordenes virtuales: 275 colocadas, 66 llenadas, 133 tocadas sin llenarse (sorteo 30%), 68 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -27,16 +27,16 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
-| $51.82 | 98.5c | 98.4c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
-| $52.25 | 99.0c | 98.0c | otros_cierre |  | Will Google (GOOGL) close above $270 on November 19? |
+| $51.82 | 98.5c | 98.5c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
+| $52.25 | 99.0c | 100.0c | otros_cierre |  | Will Google (GOOGL) close above $270 on November 19? |
 | $52.31 | 99.5c | 99.8c | cripto_cierre |  | Will Bitcoin reach $68,000 on November 19? |
-| $52.32 | 99.2c | 99.2c | cripto_cierre |  | Will Ethereum reach $1,950 on November 19? |
+| $52.32 | 99.2c | 99.5c | cripto_cierre |  | Will Ethereum reach $1,950 on November 19? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 2278 | abiertas: 335 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 2278 | abiertas: 341 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
@@ -66,4 +66,4 @@ Peores casos del registro sombra:
 
 ## Veredicto
 
-Aun no hay veredicto: van 62 operaciones cerradas en 7.9 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
+Aun no hay veredicto: van 62 operaciones cerradas en 8.0 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
