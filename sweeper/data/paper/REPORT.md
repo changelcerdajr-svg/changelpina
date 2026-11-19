@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-11T22:05:26Z | dias corridos: 7.6 de 28 | corridas: 149
-- Capital inicial: $1,000.00 | valor actual: $1,044.72 | P&L: $+44.72 (+4.47%)
-- Efectivo libre: $418.53 | en ordenes abiertas: $417.71 (8) | en posiciones: $208.29 (4)
+- Inicio: 2026-11-11T22:05:26Z | dias corridos: 7.7 de 28 | corridas: 150
+- Capital inicial: $1,000.00 | valor actual: $1,044.64 | P&L: $+44.64 (+4.46%)
+- Efectivo libre: $418.54 | en ordenes abiertas: $417.71 (8) | en posiciones: $208.29 (4)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 255 colocadas, 63 llenadas, 118 tocadas sin llenarse (sorteo 30%), 66 expiradas
+- Ordenes virtuales: 256 colocadas, 63 llenadas, 119 tocadas sin llenarse (sorteo 30%), 66 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -30,13 +30,13 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 | $51.82 | 98.5c | 98.8c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
 | $52.15 | 97.3c | 97.4c | deportes_previo |  | Will Shan United win on 2026-11-19? |
 | $52.16 | 99.5c | 99.5c | otros_cierre |  | Walmart (WMT) Q3 US comp sales (ex-fuel) growth <1%? |
-| $52.16 | 99.7c | 99.8c | cripto_cierre |  | Will the price of Bitcoin be between $68,000 and $70,000 on November 19? |
+| $52.16 | 99.7c | 99.6c | cripto_cierre |  | Will the price of Bitcoin be between $68,000 and $70,000 on November 19? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 2192 | abiertas: 255 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 2192 | abiertas: 275 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
@@ -66,4 +66,4 @@ Peores casos del registro sombra:
 
 ## Veredicto
 
-Aun no hay veredicto: van 59 operaciones cerradas en 7.6 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
+Aun no hay veredicto: van 59 operaciones cerradas en 7.7 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
