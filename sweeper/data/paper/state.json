@@ -1,6 +1,6 @@
 {
  "capital0": 1000.0,
- "cash": 419.6554,
+ "cash": 419.608,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
   {
@@ -23,27 +23,6 @@
    "end_ts": 1795098600.0,
    "hours": 2.7,
    "liq": 1857
-  },
-  {
-   "oid": "7015834-1795107677",
-   "id": "7015834",
-   "q": "Sacred Heart Pioneers vs. Michigan State Spartans (W)",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1379776",
-   "side": 1,
-   "token": "107013213030181730658662999530790825034529515911578176845504455684031764809618",
-   "px": 0.988,
-   "tick": 0.001,
-   "mid": 0.988,
-   "bid": 0.986,
-   "ask": 0.99,
-   "shares": 52.9477,
-   "cost": 52.3123,
-   "ts": 1795107677.88653,
-   "end_ts": 1795131000.0,
-   "hours": 6.48,
-   "liq": 2098
   },
   {
    "oid": "6783952-1795111280",
@@ -151,27 +130,6 @@
    "liq": 1322
   },
   {
-   "oid": "5999371-1795125669",
-   "id": "5999371",
-   "q": "Will Intuit Q1 Online Ecosystem revenue be above $2.35B?",
-   "cat": "otros",
-   "rule": "otros_cierre",
-   "event": "1226872",
-   "side": 0,
-   "token": "6711410802205388328506552892226798124983822740566531863323478314343518747835",
-   "px": 0.999,
-   "tick": 0.001,
-   "mid": 0.999,
-   "bid": 0.998,
-   "ask": 1,
-   "shares": 52.4108,
-   "cost": 52.3584,
-   "ts": 1795125669.534503,
-   "end_ts": 1795129200.0,
-   "hours": 0.98,
-   "liq": 1005
-  },
-  {
    "oid": "6806390-1795125669",
    "id": "6806390",
    "q": "Western Sydney Wanderers FC vs. Adelaide United FC: O/U 7.5",
@@ -191,6 +149,27 @@
    "end_ts": 1795164000.0,
    "hours": 10.65,
    "liq": 1090
+  },
+  {
+   "oid": "6806391-1795129273",
+   "id": "6806391",
+   "q": "Western Sydney Wanderers FC vs. Adelaide United FC: O/U 8.5",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1333716",
+   "side": 1,
+   "token": "83007943125770402149309612681174825844333077438559485032261879091576444710250",
+   "px": 0.993,
+   "tick": 0.001,
+   "mid": 0.993,
+   "bid": 0.988,
+   "ask": 0.998,
+   "shares": 52.7288,
+   "cost": 52.3597,
+   "ts": 1795129273.092183,
+   "end_ts": 1795164000.0,
+   "hours": 9.65,
+   "liq": 2407
   }
  ],
  "positions": [
@@ -265,9 +244,32 @@
    "hours": 10.98,
    "liq": 24719,
    "fill_ts": 1795114872.425368,
-   "mark": 0.995,
+   "mark": 0.9955,
    "stuck": false,
    "disputed": false
+  },
+  {
+   "oid": "5999371-1795125669",
+   "id": "5999371",
+   "q": "Will Intuit Q1 Online Ecosystem revenue be above $2.35B?",
+   "cat": "otros",
+   "rule": "otros_cierre",
+   "event": "1226872",
+   "side": 0,
+   "token": "6711410802205388328506552892226798124983822740566531863323478314343518747835",
+   "px": 0.999,
+   "tick": 0.001,
+   "mid": 0.999,
+   "bid": 0.998,
+   "ask": 1,
+   "shares": 52.4108,
+   "cost": 52.3584,
+   "ts": 1795125669.534503,
+   "end_ts": 1795129200.0,
+   "hours": 0.98,
+   "liq": 1005,
+   "fill_ts": 1795129273.092183,
+   "mark": 0.999
   }
  ],
  "closed": [
@@ -4205,14 +4207,27 @@
    "placed": 2,
    "shadow_open": 340,
    "shadow_closed": 8
+  },
+  {
+   "ts": "2026-11-19T23:01:54Z",
+   "equity": 1047.19,
+   "cash": 419.61,
+   "orders": 8,
+   "positions": 4,
+   "closed": 63,
+   "scanned": 11837,
+   "candidates": 113,
+   "placed": 1,
+   "shadow_open": 339,
+   "shadow_closed": 4
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 277,
-  "filled": 66,
+  "placed": 278,
+  "filled": 67,
   "expired": 68,
-  "touched_not_filled": 134
+  "touched_not_filled": 135
  },
  "shadow": [
   {
@@ -4265,19 +4280,6 @@
    "ts": 1794820257,
    "end_ts": 1794924000,
    "q": "Will Indonesia win on 2026-11-17?",
-   "touched": 1
-  },
-  {
-   "id": "6892470",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "105424665104198616033512094937178010715697776278759868158406729186098202779468",
-   "px": 0.989,
-   "tick": 0.001,
-   "ts": 1794837685,
-   "end_ts": 1794891600,
-   "q": "MicroStrategy announces >1000 BTC purchase November 10-16?",
    "touched": 1
   },
   {
@@ -4957,19 +4959,6 @@
    "touched": 0
   },
   {
-   "id": "4254202",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 0,
-   "token": "39924203537755288868800270507809624540797902106078268074001297485094692282851",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795057268,
-   "end_ts": 1795132740,
-   "q": "Will the Grand Theft Auto VI PS5 launch price be at least $75?",
-   "touched": 0
-  },
-  {
    "id": "6784048",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -5529,19 +5518,6 @@
    "touched": 1
   },
   {
-   "id": "7106883",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "42472196874285759110432258398641716674580097200832245322228957659005284163354",
-   "px": 0.981,
-   "tick": 0.001,
-   "ts": 1795071673,
-   "end_ts": 1795132740,
-   "q": "Will Trump say \"Nobel\" during his trilateral meeting with Xi and Putin?",
-   "touched": 1
-  },
-  {
    "id": "7152111",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -5669,19 +5645,6 @@
    "ts": 1795075271,
    "end_ts": 1795178700,
    "q": "Ittihad Kalba FC vs. Sharjah FC: O/U 6.5",
-   "touched": 1
-  },
-  {
-   "id": "7106881",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 0,
-   "token": "47965216095297238267612525055941959790150496806908124811009751650295616205623",
-   "px": 0.986,
-   "tick": 0.001,
-   "ts": 1795078874,
-   "end_ts": 1795132740,
-   "q": "Will Trump say \"Nuclear\" or \"Nuke\" during his trilateral meeting with Xi and Putin?",
    "touched": 1
   },
   {
@@ -5851,7 +5814,7 @@
    "ts": 1795082478,
    "end_ts": 1795116600,
    "q": "CA Progreso vs. Montevideo City Torque: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7143340",
@@ -5864,7 +5827,7 @@
    "ts": 1795082478,
    "end_ts": 1795122000,
    "q": "S&P 500 (SPX) Opens Up or Down on November 19?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6742202",
@@ -8633,6 +8596,45 @@
    "ts": 1795125669,
    "end_ts": 1795230000,
    "q": "FC Juárez vs. Atlas FC: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "7022250",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "113598806644534270303199150951908689094728295116988377773936666919545576948640",
+   "px": 0.973,
+   "tick": 0.001,
+   "ts": 1795129273,
+   "end_ts": 1795203900,
+   "q": "Spread: KVC Westerlo (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "6843568",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "71986500268197049940745561802713762690247758247075305544518990335703481721558",
+   "px": 0.988,
+   "tick": 0.001,
+   "ts": 1795129273,
+   "end_ts": 1795230600,
+   "q": "Club Tijuana vs. Atlante FC: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6876189",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "46858419216191437205257040422263347913072799058704024626196860173485359207040",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795129273,
+   "end_ts": 1795233600,
+   "q": "Auckland FC vs. Melbourne Victory FC: O/U 6.5",
    "touched": null
   }
  ]
