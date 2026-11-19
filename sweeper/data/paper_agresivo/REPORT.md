@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 6.1 de 28 | corridas: 114
-- Capital inicial: $1,000.00 | valor actual: $890.13 | P&L: $-109.87 (-10.99%)
-- Efectivo libre: $-0.00 | en ordenes abiertas: $200.79 (3) | en posiciones: $694.82 (10)
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 6.1 de 28 | corridas: 115
+- Capital inicial: $1,000.00 | valor actual: $890.45 | P&L: $-109.55 (-10.95%)
+- Efectivo libre: $0.00 | en ordenes abiertas: $200.79 (4) | en posiciones: $694.82 (10)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 222 colocadas, 103 llenadas, 88 tocadas sin llenarse (sorteo 30%), 28 expiradas
+- Ordenes virtuales: 225 colocadas, 103 llenadas, 90 tocadas sin llenarse (sorteo 30%), 28 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -31,26 +31,26 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
 | $91.77 | 99.8c | 96.7c | otros_cierre |  | Pakistan military action against Afghanistan by November 15, 2026? |
-| $35.36 | 99.8c | 99.0c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $4.5m and $5.5m at auction? |
-| $87.27 | 99.8c | 98.8c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
+| $35.36 | 99.8c | 98.9c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $4.5m and $5.5m at auction? |
+| $87.27 | 99.8c | 98.5c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
 | $88.76 | 97.5c | 97.4c | deportes_previo |  | Will Shan United win on 2026-11-19? |
 | $88.94 | 99.8c | 99.5c | deportes_previo |  | Spread: Shan United (-2.5) |
 | $88.76 | 99.3c | 98.8c | deportes_previo |  | Spread: Hatta SC (-1.5) |
 | $50.27 | 99.8c | 99.8c | deportes_previo |  | Spread: Hatta SC (-2.5) |
 | $39.06 | 99.0c | 98.5c | deportes_previo |  | Spread: Al Dhafra SSC (-1.5) |
-| $36.90 | 95.6c | 95.2c | cripto_cierre |  | Will the price of Bitcoin be less than $62,000 on November 19? |
-| $87.72 | 99.8c | 99.8c | cripto_cierre |  | Will the price of Ethereum be above $1,600 on November 19? |
+| $36.90 | 95.6c | 96.3c | cripto_cierre |  | Will the price of Bitcoin be less than $62,000 on November 19? |
+| $87.72 | 99.8c | 100.0c | cripto_cierre |  | Will the price of Ethereum be above $1,600 on November 19? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 5502 | abiertas: 2267 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 5529 | abiertas: 2320 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
-| clima_cierre | todas | 1565 | 98.90c | 99.17% | +0.27 pts | -0.18 a +0.72 | 13 |
-| clima_cierre | tocadas | 1435 | 98.91c | 99.09% | +0.18 pts | -0.31 a +0.67 | 13 |
+| clima_cierre | todas | 1592 | 98.90c | 99.18% | +0.28 pts | -0.16 a +0.72 | 13 |
+| clima_cierre | tocadas | 1458 | 98.92c | 99.11% | +0.19 pts | -0.29 a +0.67 | 13 |
 | cripto_cierre | todas | 858 | 98.80c | 98.37% | -0.44 pts | -1.28 a +0.41 | 14 |
 | cripto_cierre | tocadas | 788 | 98.84c | 98.22% | -0.61 pts | -1.53 a +0.30 | 14 |
 | deportes_previo | todas | 2359 | 98.09c | 97.16% | -0.93 pts | -1.60 a -0.26 | 67 |
@@ -59,8 +59,8 @@ Cada mercado que cumple una regla se anota una vez al precio limite que se habri
 | otros_cierre | tocadas | 605 | 99.14c | 98.35% | -0.80 pts | -1.81 a +0.22 | 10 |
 | post_fin_90_97 | todas | 57 | 94.08c | 96.49% | +2.41 pts | -2.42 a +7.24 | 2 |
 | post_fin_90_97 | tocadas | 45 | 94.14c | 95.56% | +1.41 pts | -4.68 a +7.51 | 2 |
-| TOTAL | todas | 5502 | 98.52c | 98.07% | -0.45 pts | -0.81 a -0.09 | 106 |
-| TOTAL | tocadas | 5177 | 98.53c | 97.95% | -0.58 pts | -0.96 a -0.20 | 106 |
+| TOTAL | todas | 5529 | 98.52c | 98.08% | -0.44 pts | -0.80 a -0.08 | 106 |
+| TOTAL | tocadas | 5200 | 98.54c | 97.96% | -0.57 pts | -0.96 a -0.19 | 106 |
 
 Peores casos del registro sombra:
 

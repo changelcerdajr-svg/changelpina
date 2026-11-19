@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-11T22:05:26Z | dias corridos: 7.7 de 28 | corridas: 151
-- Capital inicial: $1,000.00 | valor actual: $1,044.98 | P&L: $+44.98 (+4.50%)
-- Efectivo libre: $418.68 | en ordenes abiertas: $469.99 (9) | en posiciones: $156.13 (3)
+- Inicio: 2026-11-11T22:05:26Z | dias corridos: 7.7 de 28 | corridas: 152
+- Capital inicial: $1,000.00 | valor actual: $1,044.83 | P&L: $+44.83 (+4.48%)
+- Efectivo libre: $418.70 | en ordenes abiertas: $469.97 (9) | en posiciones: $156.13 (3)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 259 colocadas, 63 llenadas, 121 tocadas sin llenarse (sorteo 30%), 66 expiradas
+- Ordenes virtuales: 261 colocadas, 63 llenadas, 123 tocadas sin llenarse (sorteo 30%), 66 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -27,7 +27,7 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
-| $51.82 | 98.5c | 98.8c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
+| $51.82 | 98.5c | 98.5c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
 | $52.15 | 97.3c | 97.4c | deportes_previo |  | Will Shan United win on 2026-11-19? |
 | $52.16 | 99.7c | 99.8c | cripto_cierre |  | Will the price of Bitcoin be between $68,000 and $70,000 on November 19? |
 
@@ -35,19 +35,19 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 2201 | abiertas: 283 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 2203 | abiertas: 301 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
-| cripto_cierre | todas | 735 | 98.72c | 99.05% | +0.32 pts | -0.38 a +1.02 | 7 |
+| cripto_cierre | todas | 736 | 98.72c | 99.05% | +0.32 pts | -0.37 a +1.02 | 7 |
 | cripto_cierre | tocadas | 506 | 98.56c | 98.62% | +0.06 pts | -0.96 a +1.08 | 7 |
 | deportes_previo | todas | 1076 | 98.37c | 99.07% | +0.70 pts | +0.12 a +1.27 | 10 |
 | deportes_previo | tocadas | 900 | 98.33c | 99.11% | +0.78 pts | +0.17 a +1.40 | 8 |
-| otros_cierre | todas | 363 | 98.75c | 99.72% | +0.97 pts | +0.42 a +1.52 | 1 |
+| otros_cierre | todas | 364 | 98.75c | 99.73% | +0.97 pts | +0.43 a +1.52 | 1 |
 | otros_cierre | tocadas | 237 | 98.65c | 99.58% | +0.92 pts | +0.09 a +1.76 | 1 |
 | post_fin_95_97 | todas | 27 | 96.10c | 92.59% | -3.51 pts | -13.54 a +6.52 | 2 |
 | post_fin_95_97 | tocadas | 22 | 96.12c | 90.91% | -5.21 pts | -17.46 a +7.04 | 2 |
-| TOTAL | todas | 2201 | 98.52c | 99.09% | +0.57 pts | +0.17 a +0.96 | 20 |
+| TOTAL | todas | 2203 | 98.53c | 99.09% | +0.57 pts | +0.17 a +0.96 | 20 |
 | TOTAL | tocadas | 1665 | 98.41c | 98.92% | +0.51 pts | +0.01 a +1.00 | 18 |
 
 Peores casos del registro sombra:
