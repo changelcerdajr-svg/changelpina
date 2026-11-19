@@ -25,27 +25,6 @@
    "liq": 9703
   },
   {
-   "oid": "6993112-1795075291",
-   "id": "6993112",
-   "q": "Spread: Hatta SC (-2.5)",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1373319",
-   "side": 1,
-   "token": "24948810286098393747446001747604341790607471332130803312689274099245183717644",
-   "px": 0.998,
-   "tick": 0.001,
-   "mid": 0.9975,
-   "bid": 0.996,
-   "ask": 0.999,
-   "shares": 50.3721,
-   "cost": 50.2713,
-   "ts": 1795075291.617345,
-   "end_ts": 1795092300.0,
-   "hours": 4.72,
-   "liq": 5472
-  },
-  {
    "oid": "6990900-1795086118",
    "id": "6990900",
    "q": "Will the price of Ethereum be above $1,600 on November 19?",
@@ -214,7 +193,7 @@
    "hours": 4.72,
    "liq": 4672,
    "fill_ts": 1795078905.936349,
-   "mark": 0.989,
+   "mark": 0.9875,
    "stuck": false,
    "disputed": false
   },
@@ -289,7 +268,7 @@
    "hours": 6.97,
    "liq": 37334,
    "fill_ts": 1795086118.691163,
-   "mark": 0.949,
+   "mark": 0.955,
    "stuck": false,
    "disputed": false
   },
@@ -314,6 +293,31 @@
    "hours": 3.47,
    "liq": 1847,
    "fill_ts": 1795088908.637525,
+   "mark": 0.998,
+   "stuck": false,
+   "disputed": false
+  },
+  {
+   "oid": "6993112-1795075291",
+   "id": "6993112",
+   "q": "Spread: Hatta SC (-2.5)",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1373319",
+   "side": 1,
+   "token": "24948810286098393747446001747604341790607471332130803312689274099245183717644",
+   "px": 0.998,
+   "tick": 0.001,
+   "mid": 0.9975,
+   "bid": 0.996,
+   "ask": 0.999,
+   "shares": 50.3721,
+   "cost": 50.2713,
+   "ts": 1795075291.617345,
+   "end_ts": 1795092300.0,
+   "hours": 4.72,
+   "liq": 5472,
+   "fill_ts": 1795089718.025806,
    "mark": 0.998
   }
  ],
@@ -4391,12 +4395,25 @@
    "placed": 0,
    "shadow_open": 2046,
    "shadow_closed": 5
+  },
+  {
+   "ts": "2026-11-19T12:04:11Z",
+   "equity": 888.94,
+   "cash": -0.0,
+   "orders": 2,
+   "positions": 11,
+   "closed": 90,
+   "scanned": 24538,
+   "candidates": 908,
+   "placed": 0,
+   "shadow_open": 2132,
+   "shadow_closed": 21
   }
  ],
  "halted": false,
  "stats": {
   "placed": 218,
-  "filled": 100,
+  "filled": 101,
   "expired": 28,
   "touched_not_filled": 87
  },
@@ -12774,240 +12791,6 @@
    "touched": 1
   },
   {
-   "id": "7115636",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "36282967068787897331475058743535709986178780675340868054851834523508441796196",
-   "px": 0.96,
-   "tick": 0.01,
-   "ts": 1795002711,
-   "end_ts": 1795006800,
-   "q": "XRP Up or Down - November 18, 4:00AM-8:00AM ET",
-   "touched": null
-  },
-  {
-   "id": "7115639",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "61317852626939300747186711569842686025826724361777060117004092386958614547929",
-   "px": 0.963,
-   "tick": 0.001,
-   "ts": 1795002711,
-   "end_ts": 1795006800,
-   "q": "Bitcoin Up or Down - November 18, 4:00AM-8:00AM ET",
-   "touched": null
-  },
-  {
-   "id": "7116942",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "30531074122019999942225026776481368678724604266301851326100361856044011454024",
-   "px": 0.982,
-   "tick": 0.001,
-   "ts": 1795002711,
-   "end_ts": 1795003200,
-   "q": "Bitcoin Up or Down - November 18, 6:00AM-7:00AM ET",
-   "touched": null
-  },
-  {
-   "id": "7116944",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "106119756722143231092813862005337013700299606635860536521384606711205158481282",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795002711,
-   "end_ts": 1795003200,
-   "q": "Ethereum Up or Down - November 18, 6:00AM-7:00AM ET",
-   "touched": null
-  },
-  {
-   "id": "6967555",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 0,
-   "token": "47097115249779965447852565974393296338028593465133886620776213072795892534906",
-   "px": 0.955,
-   "tick": 0.001,
-   "ts": 1795002711,
-   "end_ts": 1795021200,
-   "q": "Will the price of Bitcoin be less than $66,000 on November 18?",
-   "touched": null
-  },
-  {
-   "id": "6967623",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "62386747489710537943419371501192796893512112066282533709294377120274254812166",
-   "px": 0.956,
-   "tick": 0.001,
-   "ts": 1795002711,
-   "end_ts": 1795021200,
-   "q": "Will the price of Bitcoin be above $66,000 on November 18?",
-   "touched": null
-  },
-  {
-   "id": "7062943",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "97219109316120769841788002821366699241579279946101856540132814082675508576191",
-   "px": 0.95,
-   "tick": 0.01,
-   "ts": 1795002711,
-   "end_ts": 1795014600,
-   "q": "Counter-Strike: Balkan Outlaws vs WRAITH PCIFIC (BO3) - European Pro League Playoffs",
-   "touched": null
-  },
-  {
-   "id": "7120865",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "49117371043506738588271470694642000412197404539085235043052001518749392823202",
-   "px": 0.999,
-   "tick": 0.001,
-   "ts": 1795002711,
-   "end_ts": 1795017600,
-   "q": "Counter-Strike: Nexus vs Iberian Soul - Map 2 Winner",
-   "touched": null
-  },
-  {
-   "id": "7120866",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "67843399933597249544469300599952318786760702005154560530800196179702757682916",
-   "px": 0.999,
-   "tick": 0.001,
-   "ts": 1795002711,
-   "end_ts": 1795017600,
-   "q": "Counter-Strike: Nexus vs Iberian Soul (BO3) - RUSH Brno Group A",
-   "touched": null
-  },
-  {
-   "id": "7121658",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "93755039313325274570597746966216394547205965138272463811267739455946038021252",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795002711,
-   "end_ts": 1795021205,
-   "q": "Will MrBeast's next video get between 78 and 79 million views on day 4?",
-   "touched": null
-  },
-  {
-   "id": "7141455",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "36897318863971888874531153248707595939847465645969121606391699544647855780757",
-   "px": 0.999,
-   "tick": 0.001,
-   "ts": 1795002711,
-   "end_ts": 1795017600,
-   "q": "Map Handicap: NXS (-1.5) vs Iberian Soul (+1.5)",
-   "touched": null
-  },
-  {
-   "id": "6747478",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "27013682291907699044238326475870432105224276221038889306338211817086522127349",
-   "px": 0.95,
-   "tick": 0.01,
-   "ts": 1795002711,
-   "end_ts": 1795044600,
-   "q": "Cruzeiro EC vs. SE Palmeiras: Cruzeiro EC O/U 3.5",
-   "touched": null
-  },
-  {
-   "id": "6747646",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "108804590160994132105539359861772497356386210888292365566301380514416630281461",
-   "px": 0.989,
-   "tick": 0.001,
-   "ts": 1795002711,
-   "end_ts": 1795041000,
-   "q": "Coritiba FBC vs. Santos FC: Coritiba FBC O/U 3.5",
-   "touched": null
-  },
-  {
-   "id": "7117871",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 0,
-   "token": "58264374082261692158483977861787889853034734462009181092997321821927217289816",
-   "px": 0.987,
-   "tick": 0.001,
-   "ts": 1795002711,
-   "end_ts": 1795035600,
-   "q": "Will Apple (AAPL) close above $340 on November 18?",
-   "touched": null
-  },
-  {
-   "id": "7117889",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "47000076471391647576469281248986847153040689498274603696642846445942912767156",
-   "px": 0.977,
-   "tick": 0.001,
-   "ts": 1795002711,
-   "end_ts": 1795035600,
-   "q": "Will Amazon (AMZN) close above $270 on November 18?",
-   "touched": null
-  },
-  {
-   "id": "7117967",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "8543934828649787172327532184759388335505096093970573909505622228074313812371",
-   "px": 0.971,
-   "tick": 0.001,
-   "ts": 1795002711,
-   "end_ts": 1795039200,
-   "q": "Gold (XAUUSD) Up or Down on November 18?",
-   "touched": null
-  },
-  {
-   "id": "7121237",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "98573349433291323501152819358442799335300392608174883182687640519244600719418",
-   "px": 0.96,
-   "tick": 0.01,
-   "ts": 1795002711,
-   "end_ts": 1795048200,
-   "q": "Spread: Canadiens (-3.5)",
-   "touched": null
-  },
-  {
-   "id": "7127012",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "65364582457387997232872477707522581122780394366428994788845067160321532091270",
-   "px": 0.989,
-   "tick": 0.001,
-   "ts": 1795002711,
-   "end_ts": 1795046400,
-   "q": "Spread: Magic (-25.5)",
-   "touched": null
-  },
-  {
    "id": "7110561",
    "rule": "clima_cierre",
    "cat": "clima",
@@ -13018,7 +12801,7 @@
    "ts": 1795002711,
    "end_ts": 1795089600,
    "q": "Will the highest temperature in Hong Kong be 15°C or below on November 19?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7110786",
@@ -13031,7 +12814,7 @@
    "ts": 1795002711,
    "end_ts": 1795089600,
    "q": "Will the highest temperature in Kuala Lumpur be 33°C on November 19?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7110812",
@@ -13044,7 +12827,7 @@
    "ts": 1795002711,
    "end_ts": 1795089600,
    "q": "Will the highest temperature in Guangzhou be 12°C or below on November 19?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7113050",
@@ -13057,7 +12840,7 @@
    "ts": 1795002711,
    "end_ts": 1795089600,
    "q": "Will the highest temperature in Atlanta be between 56-57°F on November 19?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7113122",
@@ -13070,7 +12853,7 @@
    "ts": 1795002711,
    "end_ts": 1795089600,
    "q": "Will the lowest temperature in New York City be 52°F or higher on November 19?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7115978",
@@ -13083,7 +12866,7 @@
    "ts": 1795002711,
    "end_ts": 1795089600,
    "q": "Will the highest temperature in Seattle be between 44-45°F on November 19?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7115989",
@@ -13096,7 +12879,7 @@
    "ts": 1795002711,
    "end_ts": 1795089600,
    "q": "Will the highest temperature in Seattle be between 54-55°F on November 19?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7116450",
@@ -13109,7 +12892,7 @@
    "ts": 1795002711,
    "end_ts": 1795089600,
    "q": "Will the highest temperature in Mexico City be 20°C on November 19?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6990969",
@@ -13122,7 +12905,7 @@
    "ts": 1795002711,
    "end_ts": 1795107600,
    "q": "Will the price of Ethereum be between $1,900 and $2,000 on November 19?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7025475",
@@ -13135,7 +12918,7 @@
    "ts": 1795002711,
    "end_ts": 1795212000,
    "q": "Will Silver (XAGUSD) hit (HIGH) $50 Week of November 16 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7122457",
@@ -13148,7 +12931,7 @@
    "ts": 1795002711,
    "end_ts": 1795208400,
    "q": "Will NVIDIA (NVDA) hit (LOW) $152 Week of November 16 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7029821",
@@ -13161,7 +12944,7 @@
    "ts": 1795002711,
    "end_ts": 1795237140,
    "q": "Will HotSchedules be #1 Paid App in the US Apple App Store on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7029829",
@@ -13174,46 +12957,7 @@
    "ts": 1795002711,
    "end_ts": 1795237140,
    "q": "Will Tiny Computers be #1 Paid App in the US Apple App Store on November 20?",
-   "touched": null
-  },
-  {
-   "id": "7115630",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "78531272420303565340824923668895430869773197857079177257963348217088695223911",
-   "px": 0.96,
-   "tick": 0.01,
-   "ts": 1795003300,
-   "end_ts": 1795006800,
-   "q": "Ethereum Up or Down - November 18, 4:00AM-8:00AM ET",
-   "touched": null
-  },
-  {
-   "id": "7117440",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "112027730633387748143129144264963052830348096377432606941342569183044495535327",
-   "px": 0.969,
-   "tick": 0.001,
-   "ts": 1795003300,
-   "end_ts": 1795003500,
-   "q": "Ethereum Up or Down - November 18, 7:00AM-7:05AM ET",
-   "touched": null
-  },
-  {
-   "id": "5747205",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "88223397634543360886319388038311512342586660679071766508848342774026139992870",
-   "px": 0.983,
-   "tick": 0.001,
-   "ts": 1795003300,
-   "end_ts": 1795030200,
-   "q": "Spread: Reus FC Reddis (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7133450",
@@ -13226,7 +12970,7 @@
    "ts": 1795003300,
    "end_ts": 1795050000,
    "q": "Spread: LSU Tigers (-14.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136240",
@@ -13239,7 +12983,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in London be 5°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136242",
@@ -13252,7 +12996,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in London be 6°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136243",
@@ -13265,7 +13009,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in London be 7°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136244",
@@ -13278,7 +13022,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in London be 8°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136249",
@@ -13291,7 +13035,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in London be 12°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136250",
@@ -13304,7 +13048,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in London be 13°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136258",
@@ -13317,7 +13061,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Paris be 9°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136259",
@@ -13330,7 +13074,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Paris be 10°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136260",
@@ -13343,7 +13087,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Paris be 11°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136266",
@@ -13356,7 +13100,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Paris be 16°C or higher on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136273",
@@ -13369,7 +13113,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Seoul (Incheon) be 0°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136274",
@@ -13382,7 +13126,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Seoul (Incheon) be 1°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136280",
@@ -13395,7 +13139,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Seoul (Incheon) be 6°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136281",
@@ -13408,7 +13152,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Seoul (Incheon) be 7°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136296",
@@ -13421,7 +13165,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Ankara be 14°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136299",
@@ -13434,7 +13178,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Ankara be 17°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136303",
@@ -13447,7 +13191,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Ankara be 21°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136304",
@@ -13460,7 +13204,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Ankara be 22°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136308",
@@ -13473,7 +13217,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Wellington be 15°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136309",
@@ -13486,7 +13230,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Wellington be 16°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136310",
@@ -13499,7 +13243,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Wellington be 17°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136314",
@@ -13512,7 +13256,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Wellington be 21°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136315",
@@ -13525,7 +13269,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Wellington be 22°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136317",
@@ -13538,7 +13282,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Lucknow be 22°C or below on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136318",
@@ -13551,7 +13295,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Lucknow be 23°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136325",
@@ -13564,7 +13308,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Lucknow be 30°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136326",
@@ -13577,7 +13321,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Lucknow be 31°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136328",
@@ -13590,7 +13334,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Munich be 5°C or below on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136329",
@@ -13603,7 +13347,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Munich be 6°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136330",
@@ -13616,7 +13360,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Munich be 7°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136331",
@@ -13629,7 +13373,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Munich be 8°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136336",
@@ -13642,7 +13386,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Munich be 13°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136337",
@@ -13655,7 +13399,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Munich be 14°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136339",
@@ -13668,7 +13412,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Tel Aviv be 23°C or below on November 20?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7136340",
@@ -13681,7 +13425,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Tel Aviv be 24°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136341",
@@ -13694,7 +13438,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Tel Aviv be 25°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136359",
@@ -13707,7 +13451,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Tokyo be 11°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136361",
@@ -13720,7 +13464,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Tokyo be 13°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136366",
@@ -13733,7 +13477,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Tokyo be 18°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136367",
@@ -13746,7 +13490,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Tokyo be 19°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136368",
@@ -13759,7 +13503,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Tokyo be 20°C or higher on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136369",
@@ -13772,7 +13516,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Hong Kong be 14°C or below on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136371",
@@ -13785,7 +13529,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Hong Kong be 16°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136377",
@@ -13798,7 +13542,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Hong Kong be 22°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136378",
@@ -13811,7 +13555,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Hong Kong be 23°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136383",
@@ -13824,7 +13568,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Shanghai be 9°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136384",
@@ -13837,7 +13581,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Shanghai be 10°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136385",
@@ -13850,7 +13594,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Shanghai be 11°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136389",
@@ -13863,7 +13607,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Shanghai be 15°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136390",
@@ -13876,7 +13620,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Shanghai be 16°C or higher on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136394",
@@ -13889,7 +13633,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Singapore be 28°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136400",
@@ -13902,7 +13646,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Singapore be 34°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136410",
@@ -13915,7 +13659,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Milan be 10°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136411",
@@ -13928,7 +13672,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Milan be 11°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136413",
@@ -13941,7 +13685,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Madrid be 8°C or below on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136422",
@@ -13954,7 +13698,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Madrid be 17°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136423",
@@ -13967,7 +13711,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Madrid be 18°C or higher on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136424",
@@ -13980,7 +13724,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Warsaw be 4°C or below on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136425",
@@ -13993,7 +13737,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Warsaw be 5°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136426",
@@ -14006,7 +13750,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Warsaw be 6°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136431",
@@ -14019,7 +13763,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Warsaw be 11°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136432",
@@ -14032,7 +13776,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Warsaw be 12°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136438",
@@ -14045,7 +13789,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Taipei be 15°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136439",
@@ -14058,7 +13802,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Taipei be 16°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136444",
@@ -14071,7 +13815,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Taipei be 21°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136445",
@@ -14084,7 +13828,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Taipei be 22°C or higher on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136447",
@@ -14097,7 +13841,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Chongqing be 13°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136449",
@@ -14110,7 +13854,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Chongqing be 15°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136454",
@@ -14123,7 +13867,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Chongqing be 20°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136455",
@@ -14136,7 +13880,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Chongqing be 21°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136457",
@@ -14149,7 +13893,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Beijing be 4°C or below on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136458",
@@ -14162,7 +13906,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Beijing be 5°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136470",
@@ -14175,7 +13919,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Wuhan be 11°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136471",
@@ -14188,7 +13932,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Wuhan be 12°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136472",
@@ -14201,7 +13945,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Wuhan be 13°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136483",
@@ -14214,7 +13958,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Chengdu be 16°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136494",
@@ -14227,7 +13971,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Shenzhen be 14°C or below on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136495",
@@ -14240,7 +13984,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Shenzhen be 15°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136496",
@@ -14253,7 +13997,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Shenzhen be 16°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136503",
@@ -14266,7 +14010,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Shenzhen be 22°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136515",
@@ -14279,7 +14023,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Moscow be -2°C or below on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136521",
@@ -14292,7 +14036,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Moscow be 3°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136550",
@@ -14305,7 +14049,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Busan be 4°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136551",
@@ -14318,7 +14062,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Busan be 5°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136552",
@@ -14331,7 +14075,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Busan be 6°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136558",
@@ -14344,7 +14088,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Busan be 11°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136559",
@@ -14357,7 +14101,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Busan be 12°C or higher on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136562",
@@ -14370,7 +14114,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Amsterdam be 3°C or below on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136564",
@@ -14383,7 +14127,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Amsterdam be 4°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136565",
@@ -14396,7 +14140,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Amsterdam be 5°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136566",
@@ -14409,7 +14153,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Amsterdam be 6°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136571",
@@ -14422,7 +14166,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Amsterdam be 10°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136572",
@@ -14435,7 +14179,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Amsterdam be 11°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136573",
@@ -14448,7 +14192,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Amsterdam be 12°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136578",
@@ -14461,7 +14205,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Helsinki be 1°C or below on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136579",
@@ -14474,7 +14218,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Helsinki be 2°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136580",
@@ -14487,7 +14231,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Helsinki be 3°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136586",
@@ -14500,7 +14244,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Helsinki be 8°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136587",
@@ -14513,7 +14257,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Helsinki be 9°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136594",
@@ -14526,7 +14270,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Kuala Lumpur be 27°C or below on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136604",
@@ -14539,7 +14283,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Kuala Lumpur be 35°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136611",
@@ -14552,7 +14296,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Jeddah be 30°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136612",
@@ -14565,7 +14309,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Jeddah be 31°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136613",
@@ -14578,7 +14322,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Jeddah be 32°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136619",
@@ -14591,7 +14335,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Jeddah be 37°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136620",
@@ -14604,7 +14348,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Jeddah be 38°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136640",
@@ -14617,7 +14361,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Guangzhou be 12°C or below on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136641",
@@ -14630,7 +14374,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Guangzhou be 13°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136643",
@@ -14643,7 +14387,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Guangzhou be 14°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136651",
@@ -14656,7 +14400,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Guangzhou be 21°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136656",
@@ -14669,7 +14413,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Qingdao be 4°C or below on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136657",
@@ -14682,7 +14426,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Qingdao be 5°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136658",
@@ -14695,7 +14439,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Qingdao be 6°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136659",
@@ -14708,7 +14452,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Qingdao be 7°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136674",
@@ -14721,7 +14465,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Karachi be 27°C or below on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136676",
@@ -14734,7 +14478,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Karachi be 28°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136691",
@@ -14747,7 +14491,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the lowest temperature in London be 12°C or higher on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136693",
@@ -14760,7 +14504,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Karachi be 36°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136705",
@@ -14773,7 +14517,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Manila be 29°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136711",
@@ -14786,7 +14530,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the lowest temperature in Paris be 12°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136713",
@@ -14799,7 +14543,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the lowest temperature in Paris be 13°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136715",
@@ -14812,7 +14556,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the lowest temperature in Paris be 14°C or higher on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7138269",
@@ -14825,7 +14569,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in New York City be 55°F or below on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7138270",
@@ -14838,7 +14582,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in New York City be between 56-57°F on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7138272",
@@ -14851,7 +14595,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in New York City be between 60-61°F on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7138278",
@@ -14864,7 +14608,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in New York City be between 72-73°F on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7138302",
@@ -14877,7 +14621,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Miami be 73°F or below on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7138303",
@@ -14890,7 +14634,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Miami be between 74-75°F on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7138304",
@@ -14903,7 +14647,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Miami be between 76-77°F on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7138309",
@@ -14916,7 +14660,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Miami be between 86-87°F on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7138310",
@@ -14929,7 +14673,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Miami be between 88-89°F on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7138312",
@@ -14942,7 +14686,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Miami be 92°F or higher on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7138322",
@@ -14955,7 +14699,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Chicago be between 72-73°F on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7138352",
@@ -14968,7 +14712,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Houston be between 82-83°F on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7141207",
@@ -14981,7 +14725,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Los Angeles be 74°F or higher on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7141209",
@@ -14994,7 +14738,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in San Francisco be between 48-49°F on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7141577",
@@ -15007,7 +14751,7 @@
    "ts": 1795003300,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Mexico City be 18°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7025116",
@@ -15020,7 +14764,7 @@
    "ts": 1795003300,
    "end_ts": 1795208400,
    "q": "Will NVIDIA (NVDA) hit (HIGH) $184 Week of November 16 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7097669",
@@ -15033,7 +14777,7 @@
    "ts": 1795003300,
    "end_ts": 1795208400,
    "q": "Will Amazon.com, Inc. (AMZN) hit (LOW) $236 Week of November 16 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7025459",
@@ -15046,7 +14790,7 @@
    "ts": 1795003300,
    "end_ts": 1795212000,
    "q": "Will Gold (XAUUSD) hit (HIGH) $4,050 Week of November 16 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6834141",
@@ -15059,7 +14803,7 @@
    "ts": 1795003300,
    "end_ts": 1795262400,
    "q": "1. FC Nürnberg vs. Eintracht Braunschweig: Neither team to score first?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6989033",
@@ -30997,6 +30741,1397 @@
    "ts": 1795088908,
    "end_ts": 1795347000,
    "q": "Juventus FC vs. Venezia FC: Venezia FC O/U 2.5",
+   "touched": null
+  },
+  {
+   "id": "7142882",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "84607482215499222660678719562191241873943203939300498334942489839502083288457",
+   "px": 0.969,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795089900,
+   "q": "Solana Up or Down - November 19, 7:00AM-7:05AM ET",
+   "touched": null
+  },
+  {
+   "id": "7142887",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "92730418774972571445780946109861183514862690847113833001850211209777445009203",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795089900,
+   "q": "BNB Up or Down - November 19, 7:00AM-7:05AM ET",
+   "touched": null
+  },
+  {
+   "id": "7142888",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "114144895854633277936956101067673612425727307340240196428959413742262497764859",
+   "px": 0.96,
+   "tick": 0.01,
+   "ts": 1795089718,
+   "end_ts": 1795089900,
+   "q": "Dogecoin Up or Down - November 19, 7:00AM-7:05AM ET",
+   "touched": null
+  },
+  {
+   "id": "7142892",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "7112493405328898103526654883024859033651543452262863513704532604307181768635",
+   "px": 0.979,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795089900,
+   "q": "Bitcoin Up or Down - November 19, 7:00AM-7:05AM ET",
+   "touched": null
+  },
+  {
+   "id": "7142899",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "73768870199991079758972116043022801502595817029839526605646164047454690974025",
+   "px": 0.969,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795089900,
+   "q": "Ethereum Up or Down - November 19, 7:00AM-7:05AM ET",
+   "touched": null
+  },
+  {
+   "id": "7145737",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "91855974583277374799244019659511240057608682309105029300080110894589166927148",
+   "px": 0.999,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795105800,
+   "q": "Valorant: Victory No Limits vs LNG Esports - Map 2 Winner",
+   "touched": null
+  },
+  {
+   "id": "7143291",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "2939151718639044409337044080986996292767754295847308827258539672083786480433",
+   "px": 0.95,
+   "tick": 0.01,
+   "ts": 1795089718,
+   "end_ts": 1795122000,
+   "q": "Will Amazon (AMZN) close above $265 on November 19?",
+   "touched": null
+  },
+  {
+   "id": "7165291",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "13491236275010359068337266382596491528507822361878046816216926629858435015824",
+   "px": 0.96,
+   "tick": 0.01,
+   "ts": 1795089718,
+   "end_ts": 1795136400,
+   "q": "Warriors vs. Grizzlies: O/U 199.5",
+   "touched": null
+  },
+  {
+   "id": "7165299",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "24019746105842975918627958730352888726674994953396877026629329395204779891948",
+   "px": 0.97,
+   "tick": 0.01,
+   "ts": 1795089718,
+   "end_ts": 1795136400,
+   "q": "Spread: Bucks (-12.5)",
+   "touched": null
+  },
+  {
+   "id": "7136427",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "79852014374352760938877830988289640512727842204130085987774334832868811922116",
+   "px": 0.95,
+   "tick": 0.01,
+   "ts": 1795089718,
+   "end_ts": 1795176000,
+   "q": "Will the highest temperature in Warsaw be 7°C on November 20?",
+   "touched": null
+  },
+  {
+   "id": "7018486",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "24041826528386984111414391122682641643158035007971664138219078237404178864921",
+   "px": 0.966,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795194000,
+   "q": "Will the price of Ethereum be between $1,600 and $1,700 on November 20?",
+   "touched": null
+  },
+  {
+   "id": "7024969",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "56507514873244687587067325410815817876330412739740842804815464856280778369685",
+   "px": 0.97,
+   "tick": 0.01,
+   "ts": 1795089718,
+   "end_ts": 1795208400,
+   "q": "Will Amazon.com, Inc. (AMZN) hit (HIGH) $272 Week of November 16 2026?",
+   "touched": null
+  },
+  {
+   "id": "7165682",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "47099352544306812314831623195794392387959036610209284572792327251255560246425",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in London be 0°C or below on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7165687",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "114377540364821611432147275388059433468600706987061543236136120211833595728010",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in London be 5°C on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7165688",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "87511121418473726279297128498509566207915420038981727332831024459851489096651",
+   "px": 0.996,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in London be 6°C on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7165689",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "8851999627503212855972521448991792429208614204481740139561592936113509964997",
+   "px": 0.974,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in London be 7°C on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7165696",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "18936794020953592691431211710764064588046183151084671625971785387747564895675",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Paris be 6°C on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7165697",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "88808090082704054315163823153931515821971242710949254914287322934751554509980",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Paris be 7°C on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7165698",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "36571479692096916296373182310654669450691396717179343824431091313799040445881",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Paris be 8°C on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7165699",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "96696936325224127903481266961417608298299186984304597172217318060330510807206",
+   "px": 0.979,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Paris be 9°C on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7165708",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "51871892459983259009895545854033652724588985066036961588537228844245052544831",
+   "px": 0.96,
+   "tick": 0.01,
+   "ts": 1795089718,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Seoul (Incheon) be 1°C on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7165712",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "111354377369111933621871485128421006342356803956406465128236237222187263864259",
+   "px": 0.987,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Seoul (Incheon) be 5°C on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7165726",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "38917626739035435402322314814469827483135729482133622859512502570498306267899",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Wellington be 14°C or below on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7165727",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "22484457642504997963068813042538625461936557421479884690464347137544132421002",
+   "px": 0.988,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Wellington be 15°C on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7165732",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "106782452579409230093954386419807229651468155863236933116421661379654934280824",
+   "px": 0.95,
+   "tick": 0.01,
+   "ts": 1795089718,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Wellington be 20°C on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7165733",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "38021742257587573868580605379768805711940582727947865724129160230344771847855",
+   "px": 0.987,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Wellington be 21°C on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7165738",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "77172993513666486281569304170609869937316913304851600036359575979373088630971",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Lucknow be 23°C on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7165740",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "92756422256690247137365592260407551889000485237025672712063806033002263330414",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Lucknow be 25°C on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7165746",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "3914432944428541355714030955316697211261805269190307262562298271646165218405",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Lucknow be 31°C on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7165748",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "57889986225850356699891678736110016860727109770260012179176831241308963595094",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Munich be 3°C or below on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7165749",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "30793614211918442658613101753187450457377161106209892224896848728018650941300",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Munich be 4°C on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7165750",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "55742408485316828718927358436522247491025792743883827584038484972847851829508",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Munich be 5°C on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7165756",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "21824230035089224760295123379274716416744530811478237722534930220438428781947",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Munich be 11°C on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7165757",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "156662591620001751698321711972463629424380209780637074003856322633275283131",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Munich be 12°C on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7165759",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "48784482771316498108470503804369323316999200565060324721984592331605045950514",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Tel Aviv be 22°C or below on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7165781",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "94245391786729275289885410093416479761559041871365756599293865741937418832589",
+   "px": 0.993,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Tokyo be 11°C on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7165782",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "99416324989413530028737168567504794736206074028427812635332344805528369723394",
+   "px": 0.981,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Tokyo be 12°C on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7165787",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "46139521357646090203078862598047135443934336042248816773770752882942137486247",
+   "px": 0.984,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Tokyo be 17°C on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7165799",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "45470596905759712385685606888369026717585556792613743507513722275397283506516",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Hong Kong be 27°C or higher on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7165803",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "78542886331513278089933637375211878873432255169906153820342256669581490999980",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Shanghai be 11°C on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7165804",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "68492433942240697835788046436656526821866352447877396318968338784767383340365",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Shanghai be 12°C on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7165805",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "19747204705559040884090342520623204618218872963177710714175855674272550497513",
+   "px": 0.978,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Shanghai be 13°C on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7165809",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "2348809702201880651378581443020962336636361068729985251978506204831673107202",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Shanghai be 17°C on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7165812",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "67869702801700945856627856313082719776354472083946049010988414322138325753205",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Singapore be 26°C on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7165820",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "69736306750559988063632153612369938370889988696796946761651006935469304867880",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Singapore be 34°C on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7165828",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "13223288055802068792685631042245989532205412447490296908645730532021621719345",
+   "px": 0.986,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Milan be 13°C on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7165833",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "78693663968541341421353662616381181817825353626239692445549941995921160531974",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Madrid be 9°C or below on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7165844",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "88268058604242541294608670556842786986812613024839227955384695035511064361937",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Warsaw be -2°C or below on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7165856",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "3938512757814214481310741739078034052795730791494541066132965391300892771095",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Taipei be 16°C on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7165874",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "44600438771064285135400239149424564502374452070030883185628138284732289783",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Chongqing be 22°C on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7165875",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "77481696146725464975301827817527554441315887416349738655094768723198705234245",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Chongqing be 23°C on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7165880",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "108863684033473418752114863571273592982560581027181376641935815256085851309161",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Beijing be 4°C on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7165887",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "85449552015454145616248182027123597680678790170014327112646243709368533364286",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Beijing be 11°C or higher on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7165890",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "43758179644796518335863117735530856952350218037676270768622056990503515174156",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Wuhan be 11°C or below on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7165893",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "1470345293540971131220329933062013655434413326860875606740960346427714064387",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Wuhan be 13°C on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7165894",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "4139356123367284809623168854298284624273621550942613375887246051625852558268",
+   "px": 0.996,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Wuhan be 14°C on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7165895",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "24410554303272290037657494093472678074434818722314399579246707332775705545803",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Wuhan be 15°C on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7165901",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "23596044655816239126580032678164920055774878041224521967767140536577088644",
+   "px": 0.978,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Wuhan be 20°C on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7165949",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "102426881288843502792704132185790748875722112113973972406195710290695858853050",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Moscow be 1°C on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7165976",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "69869584811469437033646353708366319627267628356198144058299541133667616431633",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Busan be 2°C or below on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7166007",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "48647269040852144619574646378723214193772830167031561769214577402441785769444",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Helsinki be -2°C or below on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7166008",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "40607359819617266719827566500119799272594744778745145270194006923282119018488",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Helsinki be -1°C on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7166009",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "26725632173171871287585442782893121308638919334967940329150980282736717579054",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Helsinki be 0°C on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7166038",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "12023156197714195117718522204655277339151673741556972331224903306454212735381",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Jeddah be 30°C or below on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7166055",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "71997720813527929419913039839092608685493593966153790089200576813453012954965",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Cape Town be 16°C on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7166072",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "21367908043629406711634096647516535236117600996590856793073542568849470635645",
+   "px": 0.988,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Guangzhou be 19°C on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7166111",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "17000084687786204738771283812250244984358624900738216377768131309037889924644",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Karachi be 28°C on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7166205",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "69085424729164768565877188326217122982028930145469038187268216570000290472038",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795262400,
+   "q": "Will the lowest temperature in Tokyo be 14°C or higher on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7167908",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "55958088186716685392463212608957937992910735585789584059792068895444927518503",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in New York City be between 68-69°F on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7168035",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "18128269284613708155001222956856275595375343354853760759107991585185698292312",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Dallas be 65°F or below on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7168045",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "87515803659816722149398863802383011749844362668029125926930579847494293018330",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Dallas be 84°F or higher on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7168046",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "27083878582785632735290388578642287340168221917819894988162203114006462573247",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Atlanta be 57°F or below on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7168047",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "85189686585059558143077011289773906206947893769128602611867959238773825713108",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Atlanta be between 58-59°F on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7168048",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "85062938005082405752469958088297342578480060279441691435283538701242419102287",
+   "px": 0.992,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Atlanta be between 60-61°F on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7168055",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "49724429906187229530642392211039932406380907145954918813496599909072699893314",
+   "px": 0.988,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Atlanta be between 74-75°F on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7168057",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "33186295293236144419076256489248167400102182231962334021390968683085768186036",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Miami be 73°F or below on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7168058",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "85677344356837823484706413122351188416176743843718924651608248044740092834111",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Miami be between 74-75°F on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7168059",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "93803911455531740319501418542187275800153822030592847020194850146620883683828",
+   "px": 0.996,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Miami be between 76-77°F on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7168060",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "77384185584764838844825453100635534513019895888387523936102455375392953448748",
+   "px": 0.993,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Miami be between 78-79°F on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7168065",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "28747851020573113683374376732094892621392759851173223419702851461982672781886",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Miami be between 88-89°F on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7168066",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "100001983092186791456652312430989586218728301742344914728829049991840827119191",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Miami be between 90-91°F on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7168067",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "17846266979867606069785508769751681174871904315885830622198237528298115556140",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Miami be 92°F or higher on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7168068",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "90108539369164310752752170203505713316477358193071531210287997930365152024977",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Chicago be 57°F or below on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7168069",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "32867783418866434757954268330340734098702859391590461411988478852493638234029",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Chicago be between 58-59°F on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7168072",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "58912067956537765335960600859171062396047208144142190778382316468492045665456",
+   "px": 0.962,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Chicago be between 64-65°F on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7168077",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "83785841177855141971215494004511906599717433126236418143386139548688973834370",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Chicago be between 74-75°F on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7168078",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "13738399480205525798683296538488022964808417580990333504175044897844179324213",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Chicago be 76°F or higher on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7168099",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "72481061555544938177965106983885284617033680349369739551920485697412025187192",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in Houston be between 84-85°F on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7170168",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "28788334798188793215340519479527912813923801102991777331952212045267261879581",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in San Francisco be between 46-47°F on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7170169",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "100207903905295099179723092568115790678872239136372177533440743094075417471328",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795262400,
+   "q": "Will the highest temperature in San Francisco be between 48-49°F on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7015920",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "91178931894852480241571161481153449992720803011413853996648041686232238793420",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795280400,
+   "q": "Morgan State Bears vs. Maryland Terrapins (W)",
+   "touched": null
+  },
+  {
+   "id": "5713552",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "3506259658437004276017218428755039564085040319444996498537288755572482895430",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795348800,
+   "q": "Will \"The Hunger Games: Sunrise on the Reaping\" Opening Weekend Box Office be less than 65",
+   "touched": null
+  },
+  {
+   "id": "5713553",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "70524245070015204385637652121827452488271548870461437479484891719778330005492",
+   "px": 0.992,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795348800,
+   "q": "Will \"The Hunger Games: Sunrise on the Reaping\" Opening Weekend Box Office be between 65m ",
+   "touched": null
+  },
+  {
+   "id": "5713554",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "53142848209751508995328332445065259344972834109187436317505056049797009154072",
+   "px": 0.993,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795348800,
+   "q": "Will \"The Hunger Games: Sunrise on the Reaping\" Opening Weekend Box Office be between 75m ",
+   "touched": null
+  },
+  {
+   "id": "5713555",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "41133939465861432113696580357710864977843236708471467902666136462867782809843",
+   "px": 0.996,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795348800,
+   "q": "Will \"The Hunger Games: Sunrise on the Reaping\" Opening Weekend Box Office be between 85m ",
+   "touched": null
+  },
+  {
+   "id": "5713556",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "115290868921965359749991325922484929279535494945609876940760507519488883625478",
+   "px": 0.969,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795348800,
+   "q": "Will \"The Hunger Games: Sunrise on the Reaping\" Opening Weekend Box Office be between 95m ",
+   "touched": null
+  },
+  {
+   "id": "7097449",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "48163254533831317802302880112491136262479613557927869424086857417733852444895",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795348800,
+   "q": "Will \"I Play Rocky\" Opening Weekend Box Office be between 16m and 19m?",
+   "touched": null
+  },
+  {
+   "id": "7097450",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "5617351676034770189347636721695640563218461505106468125123817202273795876400",
+   "px": 0.996,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795348800,
+   "q": "Will \"I Play Rocky\" Opening Weekend Box Office be between 19m and 22m?",
+   "touched": null
+  },
+  {
+   "id": "7097451",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "4674744949393069310393651477196107880380918309559334850827742783291234555150",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795348800,
+   "q": "Will \"I Play Rocky\" Opening Weekend Box Office be at least 22m?",
+   "touched": null
+  },
+  {
+   "id": "7120934",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "53484149091361609622054094034512547521596815851640971730743679648419875082769",
+   "px": 0.976,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795348800,
+   "q": "Will \"Paper Tiger\" Opening Weekend Box Office be less than 4m?",
+   "touched": null
+  },
+  {
+   "id": "7120935",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "15588134506634880423578905974823091922235850804854066412527702733829298611394",
+   "px": 0.993,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795348800,
+   "q": "Will \"Paper Tiger\" Opening Weekend Box Office be between 4m and 5m?",
+   "touched": null
+  },
+  {
+   "id": "7120936",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "96624847659121671886298730659481002113084878356917991964571525587959347622929",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795348800,
+   "q": "Will \"Paper Tiger\" Opening Weekend Box Office be between 5m and 6m?",
+   "touched": null
+  },
+  {
+   "id": "7120937",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "40232263229570474613798039687858755964188825253951334009580093218977091604397",
+   "px": 0.992,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795348800,
+   "q": "Will \"Paper Tiger\" Opening Weekend Box Office be between 6m and 7m?",
+   "touched": null
+  },
+  {
+   "id": "7120938",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "11102164043919810559630236058808685501845614296162959769946887255720873377733",
+   "px": 0.996,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795348800,
+   "q": "Will \"Paper Tiger\" Opening Weekend Box Office be between 7m and 8m?",
+   "touched": null
+  },
+  {
+   "id": "7120939",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "55925559772873111518464207805727382955206743689113646435932093059300107513721",
+   "px": 0.993,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795348800,
+   "q": "Will \"Paper Tiger\" Opening Weekend Box Office be between 8m and 9m?",
+   "touched": null
+  },
+  {
+   "id": "7120940",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "42832806252295739875352984277464282174041084476398172646422980178486376779912",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795348800,
+   "q": "Will \"Paper Tiger\" Opening Weekend Box Office be at least 9m?",
+   "touched": null
+  },
+  {
+   "id": "7152891",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "11861398209147748134336920249630491996706523250951153444452486159982488605420",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1795089718,
+   "end_ts": 1795348800,
+   "q": "Will \"The Hunger Games: Sunrise on the Reaping\" Opening Weekend Box Office be at least 170",
    "touched": null
   }
  ]

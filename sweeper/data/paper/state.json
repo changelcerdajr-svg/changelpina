@@ -269,7 +269,7 @@
    "hours": 8.98,
    "liq": 36080,
    "fill_ts": 1795078874.871725,
-   "mark": 0.9965,
+   "mark": 0.9975,
    "stuck": false,
    "disputed": false
   }
@@ -3933,6 +3933,19 @@
    "placed": 1,
    "shadow_open": 244,
    "shadow_closed": 0
+  },
+  {
+   "ts": "2026-11-19T12:01:57Z",
+   "equity": 1044.72,
+   "cash": 418.85,
+   "orders": 8,
+   "positions": 4,
+   "closed": 59,
+   "scanned": 8756,
+   "candidates": 137,
+   "placed": 0,
+   "shadow_open": 248,
+   "shadow_closed": 0
   }
  ],
  "halted": false,
@@ -7113,6 +7126,58 @@
    "ts": 1795088876,
    "end_ts": 1795135500,
    "q": "Spread: Tigres FC (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "7142892",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "7112493405328898103526654883024859033651543452262863513704532604307181768635",
+   "px": 0.975,
+   "tick": 0.001,
+   "ts": 1795089673,
+   "end_ts": 1795089900,
+   "q": "Bitcoin Up or Down - November 19, 7:00AM-7:05AM ET",
+   "touched": null
+  },
+  {
+   "id": "7021954",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "50029221235054114540516809764451904757943923921056131439448231250787239753859",
+   "px": 0.988,
+   "tick": 0.001,
+   "ts": 1795089673,
+   "end_ts": 1795197600,
+   "q": "Will AFC Eskilstuna win on 2026-11-20?",
+   "touched": null
+  },
+  {
+   "id": "7021955",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "61041302703081756940722586031873897213704298691063392252679828039547142924136",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795089673,
+   "end_ts": 1795197600,
+   "q": "Will AFC Eskilstuna vs. Enkopings SK end in a draw?",
+   "touched": null
+  },
+  {
+   "id": "7021956",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "114111335347545057547236682289660841421835891067535157018111056018016533022834",
+   "px": 0.981,
+   "tick": 0.001,
+   "ts": 1795089673,
+   "end_ts": 1795197600,
+   "q": "Will Enkopings SK win on 2026-11-20?",
    "touched": null
   }
  ]

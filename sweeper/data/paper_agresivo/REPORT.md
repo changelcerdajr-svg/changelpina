@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 5.9 de 28 | corridas: 110
-- Capital inicial: $1,000.00 | valor actual: $888.84 | P&L: $-111.16 (-11.12%)
-- Efectivo libre: $-0.00 | en ordenes abiertas: $177.06 (3) | en posiciones: $718.20 (10)
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 6.0 de 28 | corridas: 111
+- Capital inicial: $1,000.00 | valor actual: $888.94 | P&L: $-111.06 (-11.11%)
+- Efectivo libre: $-0.00 | en ordenes abiertas: $126.79 (2) | en posiciones: $768.48 (11)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 218 colocadas, 100 llenadas, 87 tocadas sin llenarse (sorteo 30%), 28 expiradas
+- Ordenes virtuales: 218 colocadas, 101 llenadas, 87 tocadas sin llenarse (sorteo 30%), 28 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -36,31 +36,32 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 | $87.27 | 99.8c | 98.8c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
 | $88.76 | 97.5c | 97.4c | deportes_previo |  | Will Shan United win on 2026-11-19? |
 | $88.94 | 99.8c | 99.5c | deportes_previo |  | Spread: Shan United (-2.5) |
-| $88.76 | 99.3c | 98.9c | deportes_previo |  | Spread: Hatta SC (-1.5) |
+| $88.76 | 99.3c | 98.8c | deportes_previo |  | Spread: Hatta SC (-1.5) |
+| $50.27 | 99.8c | 99.8c | deportes_previo |  | Spread: Hatta SC (-2.5) |
 | $88.31 | 99.8c | 99.8c | otros_cierre |  | Walmart (WMT) Q3 US comp sales (ex-fuel) growth <1%? |
 | $53.02 | 99.8c | 99.8c | otros_cierre |  | Walmart (WMT) Q3 US comp sales (ex-fuel) growth 1% to 2.5%? |
-| $36.90 | 95.6c | 94.9c | cripto_cierre |  | Will the price of Bitcoin be less than $62,000 on November 19? |
+| $36.90 | 95.6c | 95.5c | cripto_cierre |  | Will the price of Bitcoin be less than $62,000 on November 19? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 5433 | abiertas: 2046 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 5454 | abiertas: 2132 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
 | clima_cierre | todas | 1565 | 98.90c | 99.17% | +0.27 pts | -0.18 a +0.72 | 13 |
 | clima_cierre | tocadas | 1435 | 98.91c | 99.09% | +0.18 pts | -0.31 a +0.67 | 13 |
-| cripto_cierre | todas | 847 | 98.83c | 98.35% | -0.48 pts | -1.33 a +0.37 | 14 |
-| cripto_cierre | tocadas | 778 | 98.86c | 98.20% | -0.66 pts | -1.59 a +0.26 | 14 |
-| deportes_previo | todas | 2323 | 98.09c | 97.20% | -0.89 pts | -1.56 a -0.22 | 65 |
-| deportes_previo | tocadas | 2272 | 98.12c | 97.14% | -0.98 pts | -1.66 a -0.30 | 65 |
-| otros_cierre | todas | 645 | 99.22c | 98.45% | -0.77 pts | -1.71 a +0.18 | 10 |
-| otros_cierre | tocadas | 588 | 99.18c | 98.30% | -0.88 pts | -1.92 a +0.16 | 10 |
+| cripto_cierre | todas | 856 | 98.81c | 98.36% | -0.44 pts | -1.29 a +0.40 | 14 |
+| cripto_cierre | tocadas | 787 | 98.84c | 98.22% | -0.62 pts | -1.53 a +0.30 | 14 |
+| deportes_previo | todas | 2332 | 98.09c | 97.21% | -0.88 pts | -1.54 a -0.21 | 65 |
+| deportes_previo | tocadas | 2278 | 98.12c | 97.15% | -0.97 pts | -1.65 a -0.29 | 65 |
+| otros_cierre | todas | 648 | 99.21c | 98.46% | -0.76 pts | -1.70 a +0.19 | 10 |
+| otros_cierre | tocadas | 591 | 99.18c | 98.31% | -0.87 pts | -1.90 a +0.16 | 10 |
 | post_fin_90_97 | todas | 53 | 94.10c | 96.23% | +2.13 pts | -3.06 a +7.32 | 2 |
 | post_fin_90_97 | tocadas | 41 | 94.17c | 95.12% | +0.96 pts | -5.73 a +7.64 | 2 |
-| TOTAL | todas | 5433 | 98.54c | 98.09% | -0.45 pts | -0.81 a -0.09 | 104 |
-| TOTAL | tocadas | 5114 | 98.55c | 97.97% | -0.58 pts | -0.96 a -0.20 | 104 |
+| TOTAL | todas | 5454 | 98.53c | 98.09% | -0.44 pts | -0.80 a -0.08 | 104 |
+| TOTAL | tocadas | 5132 | 98.54c | 97.97% | -0.57 pts | -0.95 a -0.19 | 104 |
 
 Peores casos del registro sombra:
 
@@ -77,4 +78,4 @@ Peores casos del registro sombra:
 
 ## Veredicto
 
-Aun no hay veredicto: van 90 operaciones cerradas en 5.9 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
+Aun no hay veredicto: van 90 operaciones cerradas en 6.0 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
