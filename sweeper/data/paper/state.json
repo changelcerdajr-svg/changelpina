@@ -1,29 +1,8 @@
 {
  "capital0": 1000.0,
- "cash": 364.8687,
+ "cash": 364.7146,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
-  {
-   "oid": "6967555-1795014073",
-   "id": "6967555",
-   "q": "Will the price of Bitcoin be less than $66,000 on November 18?",
-   "cat": "cripto",
-   "rule": "cripto_cierre",
-   "event": "1365176",
-   "side": 0,
-   "token": "47097115249779965447852565974393296338028593465133886620776213072795892534906",
-   "px": 0.985,
-   "tick": 0.001,
-   "mid": 0.985,
-   "bid": 0.98,
-   "ask": 0.99,
-   "shares": 52.7648,
-   "cost": 51.9733,
-   "ts": 1795014073.190746,
-   "end_ts": 1795021200.0,
-   "hours": 1.98,
-   "liq": 25172
-  },
   {
    "oid": "7124148-1795028472",
    "id": "7124148",
@@ -65,27 +44,6 @@
    "end_ts": 1795035600.0,
    "hours": 0.37,
    "liq": 4763
-  },
-  {
-   "oid": "7153632-1795039270",
-   "id": "7153632",
-   "q": "Will Shan United win on 2026-11-19?",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1419093",
-   "side": 1,
-   "token": "28875335856668139982254048633111976552712980991535535819542635855357325547404",
-   "px": 0.975,
-   "tick": 0.001,
-   "mid": 0.975,
-   "bid": 0.97,
-   "ask": 0.98,
-   "shares": 53.4884,
-   "cost": 52.1512,
-   "ts": 1795039270.175902,
-   "end_ts": 1795089600.0,
-   "hours": 13.98,
-   "liq": 1693
   },
   {
    "oid": "6993119-1795039270",
@@ -214,25 +172,46 @@
    "liq": 32658
   },
   {
-   "oid": "6655552-1795057268",
-   "id": "6655552",
-   "q": "Will the next Meta Muse Spark model be released on November 18, 2026?",
-   "cat": "otros",
-   "rule": "otros_cierre",
-   "event": "1310057",
+   "oid": "7135911-1795060871",
+   "id": "7135911",
+   "q": "Will Ethereum reach $1,850 on November 18?",
+   "cat": "cripto",
+   "rule": "cripto_cierre",
+   "event": "1414301",
    "side": 1,
-   "token": "8584731809111907669501327776448729803647707291536554032877020938429890698793",
-   "px": 0.992,
+   "token": "88154532542808505635201928078890259998225209034931996494476897456778383135352",
+   "px": 0.995,
    "tick": 0.001,
-   "mid": 0.992,
-   "bid": 0.987,
-   "ask": 0.997,
-   "shares": 52.5625,
-   "cost": 52.142,
-   "ts": 1795057268.867058,
-   "end_ts": 1795064340.0,
-   "hours": 1.96,
-   "liq": 1324
+   "mid": 0.995,
+   "bid": 0.992,
+   "ask": 0.998,
+   "shares": 52.4013,
+   "cost": 52.1393,
+   "ts": 1795060871.041289,
+   "end_ts": 1795064400.0,
+   "hours": 0.98,
+   "liq": 13890
+  },
+  {
+   "oid": "7153632-1795060871",
+   "id": "7153632",
+   "q": "Will Shan United win on 2026-11-19?",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1419093",
+   "side": 1,
+   "token": "28875335856668139982254048633111976552712980991535535819542635855357325547404",
+   "px": 0.971,
+   "tick": 0.001,
+   "mid": 0.9715,
+   "bid": 0.964,
+   "ask": 0.979,
+   "shares": 53.6965,
+   "cost": 52.1393,
+   "ts": 1795060871.041289,
+   "end_ts": 1795089600.0,
+   "hours": 7.98,
+   "liq": 2151
   }
  ],
  "positions": [
@@ -257,7 +236,7 @@
    "hours": 4.96,
    "liq": 1203,
    "fill_ts": 1794967266.068418,
-   "mark": 0.9875,
+   "mark": 0.9865,
    "stuck": false,
    "disputed": false
   },
@@ -285,6 +264,29 @@
    "mark": 0.974,
    "stuck": false,
    "disputed": false
+  },
+  {
+   "oid": "6655552-1795057268",
+   "id": "6655552",
+   "q": "Will the next Meta Muse Spark model be released on November 18, 2026?",
+   "cat": "otros",
+   "rule": "otros_cierre",
+   "event": "1310057",
+   "side": 1,
+   "token": "8584731809111907669501327776448729803647707291536554032877020938429890698793",
+   "px": 0.992,
+   "tick": 0.001,
+   "mid": 0.992,
+   "bid": 0.987,
+   "ask": 0.997,
+   "shares": 52.5625,
+   "cost": 52.142,
+   "ts": 1795057268.867058,
+   "end_ts": 1795064340.0,
+   "hours": 1.96,
+   "liq": 1324,
+   "fill_ts": 1795060871.041289,
+   "mark": 0.992
   }
  ],
  "closed": [
@@ -3769,14 +3771,27 @@
    "placed": 1,
    "shadow_open": 262,
    "shadow_closed": 5
+  },
+  {
+   "ts": "2026-11-19T04:01:37Z",
+   "equity": 1042.79,
+   "cash": 364.71,
+   "orders": 10,
+   "positions": 3,
+   "closed": 57,
+   "scanned": 8159,
+   "candidates": 92,
+   "placed": 2,
+   "shadow_open": 240,
+   "shadow_closed": 30
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 238,
-  "filled": 59,
-  "expired": 58,
-  "touched_not_filled": 110
+  "placed": 240,
+  "filled": 60,
+  "expired": 59,
+  "touched_not_filled": 111
  },
  "shadow": [
   {
@@ -3910,97 +3925,6 @@
    "touched": 1
   },
   {
-   "id": "6747465",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "42013809092561717344022926897624643016649983907749750470226488099440282640214",
-   "px": 0.971,
-   "tick": 0.001,
-   "ts": 1794938472,
-   "end_ts": 1795044600,
-   "q": "Cruzeiro EC vs. SE Palmeiras: O/U 6.5",
-   "touched": 0
-  },
-  {
-   "id": "6747512",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "75082203752196970225724215979991930366386385085638269518773860980578802010119",
-   "px": 0.981,
-   "tick": 0.001,
-   "ts": 1794938472,
-   "end_ts": 1795044600,
-   "q": "CR Flamengo vs. CA Paranaense: O/U 7.5",
-   "touched": 0
-  },
-  {
-   "id": "6977188",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "46023490067144567158629678550305253100765423184083319757770716704873659268178",
-   "px": 0.975,
-   "tick": 0.001,
-   "ts": 1794938472,
-   "end_ts": 1795046400,
-   "q": "Siena Saints vs. St. John's Red Storm",
-   "touched": 1
-  },
-  {
-   "id": "6989047",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "33775302284173835160495554579045681110783504082854968300305734578627398322095",
-   "px": 0.987,
-   "tick": 0.001,
-   "ts": 1794938472,
-   "end_ts": 1795046400,
-   "q": "Niagara Purple Eagles vs. Michigan Wolverines (W)",
-   "touched": 0
-  },
-  {
-   "id": "6989048",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "56764801490754514503988460916009832901732164056589561494901530835872569726626",
-   "px": 0.986,
-   "tick": 0.001,
-   "ts": 1794938472,
-   "end_ts": 1795046400,
-   "q": "Southern Jaguars vs. Notre Dame Fighting Irish (W)",
-   "touched": 1
-  },
-  {
-   "id": "6747466",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "89799078808045292285096307608779408212338492309223170370870987054493610244222",
-   "px": 0.991,
-   "tick": 0.001,
-   "ts": 1794942069,
-   "end_ts": 1795044600,
-   "q": "Cruzeiro EC vs. SE Palmeiras: O/U 7.5",
-   "touched": 0
-  },
-  {
-   "id": "6747496",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "77310982735069441132803531342000817863344685652824573808035613036854645451967",
-   "px": 0.981,
-   "tick": 0.001,
-   "ts": 1794942069,
-   "end_ts": 1795044600,
-   "q": "Spread: CA Paranaense (-1.5)",
-   "touched": 1
-  },
-  {
    "id": "6977973",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -4131,19 +4055,6 @@
    "touched": 0
   },
   {
-   "id": "6747498",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "8700393952686870931199405091582117023848647564626444805188627596480121896484",
-   "px": 0.996,
-   "tick": 0.001,
-   "ts": 1794952869,
-   "end_ts": 1795044600,
-   "q": "Spread: CA Paranaense (-2.5)",
-   "touched": 1
-  },
-  {
    "id": "6976580",
    "rule": "otros_cierre",
    "cat": "otros",
@@ -4183,58 +4094,6 @@
    "touched": 1
   },
   {
-   "id": "6731913",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "34081981125697244520105196470966925790428371104407119589153424698603823151621",
-   "px": 0.983,
-   "tick": 0.001,
-   "ts": 1794960067,
-   "end_ts": 1795044600,
-   "q": "CR Flamengo vs. CA Paranaense: Neither team to score first?",
-   "touched": 1
-  },
-  {
-   "id": "6747544",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "19270089800009096296324986374427299268008634227806638207197195802101519422766",
-   "px": 0.981,
-   "tick": 0.001,
-   "ts": 1794960067,
-   "end_ts": 1795042800,
-   "q": "Spread: Associação Chapecoense de Futebol (-2.5)",
-   "touched": 0
-  },
-  {
-   "id": "6747558",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "29148501577440010634413016166843354041350757480327165098658011971160810912001",
-   "px": 0.986,
-   "tick": 0.001,
-   "ts": 1794960067,
-   "end_ts": 1795042800,
-   "q": "Clube do Remo vs. Associação Chapecoense de Futebol: O/U 7.5",
-   "touched": 0
-  },
-  {
-   "id": "6747559",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "77230587327614460876699725996185471757673310175526550070717884974423491254270",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1794960067,
-   "end_ts": 1795042800,
-   "q": "Clube do Remo vs. Associação Chapecoense de Futebol: O/U 8.5",
-   "touched": 1
-  },
-  {
    "id": "6976582",
    "rule": "otros_cierre",
    "cat": "otros",
@@ -4246,19 +4105,6 @@
    "end_ts": 1794977940,
    "q": "Will Mark Rothko's “Untitled” sell for at least $6.5m at auction?",
    "touched": 0
-  },
-  {
-   "id": "6977176",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "1486603254675823115844066844647421081523134741092943311869478829319860625946",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1794963666,
-   "end_ts": 1795044600,
-   "q": "Navy Midshipmen vs. Georgetown Hoyas",
-   "touched": 1
   },
   {
    "id": "6977976",
@@ -4326,19 +4172,6 @@
    "touched": 1
   },
   {
-   "id": "6747546",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "98020694668275333355824398884167118132552581155876488594792377647035611339505",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1794978067,
-   "end_ts": 1795042800,
-   "q": "Spread: Associação Chapecoense de Futebol (-3.5)",
-   "touched": 1
-  },
-  {
    "id": "6747361",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -4365,45 +4198,6 @@
    "touched": 1
   },
   {
-   "id": "6747453",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "60149834329947381881253536192579855901803760566534361495952598669634213388078",
-   "px": 0.982,
-   "tick": 0.001,
-   "ts": 1794978067,
-   "end_ts": 1795044600,
-   "q": "Spread: Cruzeiro EC (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "6747454",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "102465967387933439742210830311285888876623244254463654196619148298752837524281",
-   "px": 0.982,
-   "tick": 0.001,
-   "ts": 1794978067,
-   "end_ts": 1795044600,
-   "q": "Spread: SE Palmeiras (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "6747500",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "74433613866371830787588161802585728906091343102995808125114101755752907358541",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1794978067,
-   "end_ts": 1795044600,
-   "q": "Spread: CA Paranaense (-3.5)",
-   "touched": 1
-  },
-  {
    "id": "7029427",
    "rule": "otros_cierre",
    "cat": "otros",
@@ -4427,32 +4221,6 @@
    "ts": 1794981668,
    "end_ts": 1795046400,
    "q": "Chicago State Cougars vs. UIC Flames",
-   "touched": 1
-  },
-  {
-   "id": "7083050",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "22568321421859229368728789343497136410427239827941358682947162604488291030129",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1794981668,
-   "end_ts": 1795064340,
-   "q": "Will Paul Cézanne's “Arlequin” sell for less than $100m at auction?",
-   "touched": 1
-  },
-  {
-   "id": "7083051",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "10584623523783982518082132190995226793146376400689913886732343770108935253817",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1794981668,
-   "end_ts": 1795064340,
-   "q": "Will Paul Cézanne's “Arlequin” sell for between $100m and $110m at auction?",
    "touched": 1
   },
   {
@@ -4703,19 +4471,6 @@
    "touched": 1
   },
   {
-   "id": "6977182",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "114762517589219938499484923768543639911882554938829561553454986223445541585215",
-   "px": 0.973,
-   "tick": 0.001,
-   "ts": 1794985268,
-   "end_ts": 1795046400,
-   "q": "North Carolina Central Eagles vs. George Mason Patriots",
-   "touched": 1
-  },
-  {
    "id": "6978780",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -4766,19 +4521,6 @@
    "end_ts": 1795064400,
    "q": "Will Solana dip to $50 on November 18?",
    "touched": 0
-  },
-  {
-   "id": "6747536",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "33101510948237812687255953073521794771665505118165789836655811481522283120700",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1794988874,
-   "end_ts": 1795044600,
-   "q": "CR Flamengo vs. CA Paranaense: CR Flamengo 1st Half O/U 3.5",
-   "touched": 1
   },
   {
    "id": "6989061",
@@ -4989,32 +4731,6 @@
    "touched": 0
   },
   {
-   "id": "6747505",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "78691239563917904673335351489838960594048725625768215994423392378701777794805",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1794996067,
-   "end_ts": 1795044600,
-   "q": "CR Flamengo vs. CA Paranaense: O/U 0.5",
-   "touched": 1
-  },
-  {
-   "id": "6747557",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "91736849982129302657472992465696016575952430855048115147405478296837369707856",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1794996067,
-   "end_ts": 1795042800,
-   "q": "Clube do Remo vs. Associação Chapecoense de Futebol: O/U 6.5",
-   "touched": 0
-  },
-  {
    "id": "6655552",
    "rule": "otros_cierre",
    "cat": "otros",
@@ -5041,19 +4757,6 @@
    "touched": 1
   },
   {
-   "id": "6747467",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "58495401297635301710982507393707415675257060795957502864526885257087321542827",
-   "px": 0.996,
-   "tick": 0.001,
-   "ts": 1794999673,
-   "end_ts": 1795044600,
-   "q": "Cruzeiro EC vs. SE Palmeiras: O/U 8.5",
-   "touched": 0
-  },
-  {
    "id": "6977977",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -5077,19 +4780,6 @@
    "ts": 1795002669,
    "end_ts": 1795055400,
    "q": "Spread: Celtics (-28.5)",
-   "touched": 1
-  },
-  {
-   "id": "6989053",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "96933211872755031037975891847879617279882811070920515866938258145404375606330",
-   "px": 0.973,
-   "tick": 0.001,
-   "ts": 1795003271,
-   "end_ts": 1795046400,
-   "q": "Towson Tigers vs. Villanova Wildcats (W)",
    "touched": 1
   },
   {
@@ -5181,7 +4871,7 @@
    "ts": 1795014073,
    "end_ts": 1795003200,
    "q": "Will the highest temperature in New York City be between 60-61°F on November 18?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7089029",
@@ -5194,72 +4884,7 @@
    "ts": 1795014073,
    "end_ts": 1795003200,
    "q": "Will the highest temperature in Austin be between 74-75°F on November 18?",
-   "touched": null
-  },
-  {
-   "id": "7121657",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 0,
-   "token": "66443688707458159359189031944734017796721502889502063238396126023365956216178",
-   "px": 0.975,
-   "tick": 0.001,
-   "ts": 1795014073,
-   "end_ts": 1795021205,
-   "q": "Will MrBeast's next video get between 77 and 78 million views on day 4?",
-   "touched": null
-  },
-  {
-   "id": "7117880",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "24061919861318469217749201989769098525024751512121793421016606208443629781936",
-   "px": 0.976,
-   "tick": 0.001,
-   "ts": 1795014073,
-   "end_ts": 1795035600,
-   "q": "Will Microsoft (MSFT) close above $520 on November 18?",
-   "touched": null
-  },
-  {
-   "id": "7117895",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "90257484905709612888280577193065022775675396910155033716101100749614392668334",
-   "px": 0.987,
-   "tick": 0.001,
-   "ts": 1795014073,
-   "end_ts": 1795035600,
-   "q": "Will Google (GOOGL) close above $295 on November 18?",
-   "touched": null
-  },
-  {
-   "id": "7117917",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "49648353337207495305099673893360706603309319194484057456893066199194240076115",
-   "px": 0.988,
-   "tick": 0.001,
-   "ts": 1795014073,
-   "end_ts": 1795035600,
-   "q": "Will NVIDIA (NVDA) close above $170 on November 18?",
-   "touched": null
-  },
-  {
-   "id": "6989055",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "24531827165597100407384518267473275770577226554275341078397055859690868838836",
-   "px": 0.982,
-   "tick": 0.001,
-   "ts": 1795014073,
-   "end_ts": 1795046400,
-   "q": "Charleston Southern Buccaneers vs. Davidson Wildcats (W)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6977985",
@@ -5272,7 +4897,7 @@
    "ts": 1795014073,
    "end_ts": 1795050000,
    "q": "Arkansas-Pine Bluff Golden Lions vs. Arkansas State Red Wolves",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6979588",
@@ -5285,7 +4910,7 @@
    "ts": 1795014073,
    "end_ts": 1795059000,
    "q": "Cal State Fullerton Titans vs. UCLA Bruins",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7135894",
@@ -5298,7 +4923,7 @@
    "ts": 1795014073,
    "end_ts": 1795064400,
    "q": "Will Bitcoin reach $67,000 on November 18?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "5730334",
@@ -5311,7 +4936,7 @@
    "ts": 1795014073,
    "end_ts": 1795098600,
    "q": "Walmart (WMT) Q3 US comp sales (ex-fuel) growth <1%?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "5730338",
@@ -5324,7 +4949,7 @@
    "ts": 1795014073,
    "end_ts": 1795098600,
    "q": "Walmart (WMT) Q3 US comp sales (ex-fuel) growth 5.5%+?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6998002",
@@ -5337,7 +4962,7 @@
    "ts": 1795014073,
    "end_ts": 1795101900,
    "q": "Al Ain FC vs. Al Dhafra SSC: O/U 0.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6742119",
@@ -5350,7 +4975,7 @@
    "ts": 1795014073,
    "end_ts": 1795118400,
    "q": "FC Barcelona vs. Servette FC Chênois Féminin: O/U 0.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6967567",
@@ -7183,6 +6808,110 @@
    "ts": 1795057268,
    "end_ts": 1795132740,
    "q": "Will the Grand Theft Auto VI PS5 launch price be at least $75?",
+   "touched": null
+  },
+  {
+   "id": "6596305",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "83696866540463192471828916881919115334190826607162326756091660683704353112062",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1795060871,
+   "end_ts": 1795064340,
+   "q": "Will Donald Trump publicly insult someone on November 18, 2026?",
+   "touched": null
+  },
+  {
+   "id": "7135899",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "100116872643174406718540191656638102900379724040178032382742593661572429636305",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1795060871,
+   "end_ts": 1795064400,
+   "q": "Will Bitcoin dip to $62,000 on November 18?",
+   "touched": null
+  },
+  {
+   "id": "6993127",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "88795362376983448174034421395856811122390155026537028963181059944602541804167",
+   "px": 0.981,
+   "tick": 0.001,
+   "ts": 1795060871,
+   "end_ts": 1795092300,
+   "q": "Al Wasl FC vs. Hatta SC: O/U 8.5",
+   "touched": null
+  },
+  {
+   "id": "7153765",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "45491626830943211914832166806179146674319041047499142356396429285995259227378",
+   "px": 0.975,
+   "tick": 0.001,
+   "ts": 1795060871,
+   "end_ts": 1795093200,
+   "q": "Spread: FK Termez Surkhon (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "7153770",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "46234220400095455387648007543893311967698370268452913825152527923262206346813",
+   "px": 0.98,
+   "tick": 0.001,
+   "ts": 1795060871,
+   "end_ts": 1795093200,
+   "q": "Spread: FC Andijon (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "7153783",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "40568098142428364933493530467693189904803253881382918025760788162795881387337",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795060871,
+   "end_ts": 1795093200,
+   "q": "FK Termez Surkhon vs. FC Andijon: O/U 5.5",
+   "touched": null
+  },
+  {
+   "id": "7079488",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "91205630678536841488052199824125438779776775945981111615768435123720389116562",
+   "px": 0.98,
+   "tick": 0.001,
+   "ts": 1795060871,
+   "end_ts": 1795102200,
+   "q": "Al Ahli Doha SC vs. Al-Shamal: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6784048",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "46453652824470393561558045338404053234005666069256154465533372066466558720481",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1795060871,
+   "end_ts": 1795127400,
+   "q": "Spread: SC Internacional (-3.5)",
    "touched": null
   }
  ]
