@@ -1,29 +1,8 @@
 {
  "capital0": 1000.0,
- "cash": 418.9559,
+ "cash": 418.8445,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
-  {
-   "oid": "6993110-1795042873",
-   "id": "6993110",
-   "q": "Spread: Hatta SC (-1.5)",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1373319",
-   "side": 1,
-   "token": "68782594694334363431582148394405577660518843804450445137330268009216094069235",
-   "px": 0.982,
-   "tick": 0.001,
-   "mid": 0.982,
-   "bid": 0.978,
-   "ask": 0.986,
-   "shares": 53.0829,
-   "cost": 52.1274,
-   "ts": 1795042873.550088,
-   "end_ts": 1795092300.0,
-   "hours": 13.73,
-   "liq": 1113
-  },
   {
    "oid": "6766333-1795046476",
    "id": "6766333",
@@ -130,27 +109,6 @@
    "liq": 29407
   },
   {
-   "oid": "5730335-1795082478",
-   "id": "5730335",
-   "q": "Walmart (WMT) Q3 US comp sales (ex-fuel) growth 1% to 2.5%?",
-   "cat": "otros",
-   "rule": "otros_cierre",
-   "event": "1194145",
-   "side": 1,
-   "token": "38548893682183568165763813651801181137348999501991575192825060904349561166935",
-   "px": 0.996,
-   "tick": 0.001,
-   "mid": 0.996,
-   "bid": 0.993,
-   "ask": 0.999,
-   "shares": 52.446,
-   "cost": 52.2362,
-   "ts": 1795082478.64603,
-   "end_ts": 1795098600.0,
-   "hours": 4.48,
-   "liq": 1877
-  },
-  {
    "oid": "6742159-1795082478",
    "id": "6742159",
    "q": "Spread: HB Køge (-2.5)",
@@ -170,6 +128,48 @@
    "end_ts": 1795110300.0,
    "hours": 7.73,
    "liq": 2297
+  },
+  {
+   "oid": "5730335-1795086076",
+   "id": "5730335",
+   "q": "Walmart (WMT) Q3 US comp sales (ex-fuel) growth 1% to 2.5%?",
+   "cat": "otros",
+   "rule": "otros_cierre",
+   "event": "1194145",
+   "side": 1,
+   "token": "38548893682183568165763813651801181137348999501991575192825060904349561166935",
+   "px": 0.993,
+   "tick": 0.001,
+   "mid": 0.993,
+   "bid": 0.987,
+   "ask": 0.999,
+   "shares": 52.6057,
+   "cost": 52.2375,
+   "ts": 1795086076.234536,
+   "end_ts": 1795098600.0,
+   "hours": 3.48,
+   "liq": 1847
+  },
+  {
+   "oid": "6742161-1795086076",
+   "id": "6742161",
+   "q": "Spread: HB Køge (-3.5)",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1323831",
+   "side": 1,
+   "token": "83484264868602446433058096932961436422042803316936567534591599445605893446426",
+   "px": 0.994,
+   "tick": 0.001,
+   "mid": 0.9945,
+   "bid": 0.99,
+   "ask": 0.999,
+   "shares": 52.5528,
+   "cost": 52.2375,
+   "ts": 1795086076.234536,
+   "end_ts": 1795110300.0,
+   "hours": 6.73,
+   "liq": 2028
   }
  ],
  "positions": [
@@ -219,7 +219,7 @@
    "hours": 6.98,
    "liq": 3859,
    "fill_ts": 1795068069.766622,
-   "mark": 0.9755,
+   "mark": 0.975,
    "stuck": false,
    "disputed": false
   },
@@ -269,7 +269,7 @@
    "hours": 8.98,
    "liq": 36080,
    "fill_ts": 1795078874.871725,
-   "mark": 0.9955,
+   "mark": 0.9965,
    "stuck": false,
    "disputed": false
   }
@@ -3907,14 +3907,27 @@
    "placed": 2,
    "shadow_open": 227,
    "shadow_closed": 2
+  },
+  {
+   "ts": "2026-11-19T11:01:58Z",
+   "equity": 1044.75,
+   "cash": 418.84,
+   "orders": 8,
+   "positions": 4,
+   "closed": 59,
+   "scanned": 8166,
+   "candidates": 131,
+   "placed": 2,
+   "shadow_open": 237,
+   "shadow_closed": 1
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 249,
+  "placed": 251,
   "filled": 63,
-  "expired": 62,
-  "touched_not_filled": 116
+  "expired": 63,
+  "touched_not_filled": 117
  },
  "shadow": [
   {
@@ -5400,19 +5413,6 @@
    "touched": 1
   },
   {
-   "id": "6364921",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "93534646428357729061498198718398965780163108953641833624862004996584717193036",
-   "px": 0.99,
-   "tick": 0.001,
-   "ts": 1795042873,
-   "end_ts": 1795064340,
-   "q": "Will the next Gemini Flash-Lite model (3.6+) be released on November 18, 2026?",
-   "touched": null
-  },
-  {
    "id": "6991015",
    "rule": "cripto_cierre",
    "cat": "cripto",
@@ -5423,7 +5423,7 @@
    "ts": 1795042873,
    "end_ts": 1795107600,
    "q": "Will the price of XRP be between $0.70 and $0.80 on November 19?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6784143",
@@ -5436,7 +5436,7 @@
    "ts": 1795042873,
    "end_ts": 1795127400,
    "q": "Spread: EC Vitória (-3.5)",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7150328",
@@ -5449,7 +5449,7 @@
    "ts": 1795042873,
    "end_ts": 1795136400,
    "q": "Wild vs. Flames: O/U 2.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7150338",
@@ -5462,7 +5462,7 @@
    "ts": 1795042873,
    "end_ts": 1795136400,
    "q": "Blue Jackets vs. Blackhawks: O/U 2.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7150348",
@@ -5475,7 +5475,7 @@
    "ts": 1795042873,
    "end_ts": 1795132800,
    "q": "Flyers vs. Senators: O/U 2.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7150358",
@@ -5488,7 +5488,7 @@
    "ts": 1795042873,
    "end_ts": 1795132800,
    "q": "Blues vs. Penguins: O/U 2.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6998342",
@@ -5501,7 +5501,7 @@
    "ts": 1795042873,
    "end_ts": 1795147200,
    "q": "Tarleton State Texans vs. USC Trojans",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6766333",
@@ -6866,6 +6866,149 @@
    "ts": 1795082478,
    "end_ts": 1795122000,
    "q": "S&P 500 (SPX) Opens Up or Down on November 19?",
+   "touched": null
+  },
+  {
+   "id": "6742202",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "109989105160562092320223127937658217042723554090398256875103382052539401748116",
+   "px": 0.991,
+   "tick": 0.001,
+   "ts": 1795086076,
+   "end_ts": 1795110300,
+   "q": "Spread: FK Austria Wien (-1.5)",
+   "touched": null
+  },
+  {
+   "id": "6742204",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "64112836333712487512782285484651975417296834036721191669396709462530127502313",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795086076,
+   "end_ts": 1795110300,
+   "q": "Spread: FK Austria Wien (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "7111718",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "98230568510283949154571295500165262898325030918905770878815637414499569562616",
+   "px": 0.984,
+   "tick": 0.001,
+   "ts": 1795086076,
+   "end_ts": 1795116600,
+   "q": "Spread: CA Progreso (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "7111769",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "104126482755937038500902265970141338452205714375745922829619588621446702986885",
+   "px": 0.98,
+   "tick": 0.001,
+   "ts": 1795086076,
+   "end_ts": 1795116600,
+   "q": "CA Penarol Montevideo vs. Cerro Largo FC: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "7106882",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "108028106605988836946189740437291350215945807267244929964490635229083397320279",
+   "px": 0.983,
+   "tick": 0.001,
+   "ts": 1795086076,
+   "end_ts": 1795132740,
+   "q": "Will Trump say \"Diesel\" during his trilateral meeting with Xi and Putin?",
+   "touched": null
+  },
+  {
+   "id": "7106885",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "35364531239205899653356113424666601891682864322569798454101977217538440667968",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795086076,
+   "end_ts": 1795132740,
+   "q": "Will Trump say \"Alaska\" during his trilateral meeting with Xi and Putin?",
+   "touched": null
+  },
+  {
+   "id": "7106890",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "68869072523506937436587008727757154788892484268723815090839331942299181831719",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795086076,
+   "end_ts": 1795132740,
+   "q": "Will Trump say \"Superintelligence\" or \"SI\" during his trilateral meeting with Xi and Putin",
+   "touched": null
+  },
+  {
+   "id": "7152013",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "39673207628861647524218086024236966210270859884294907440423906501759516397517",
+   "px": 0.972,
+   "tick": 0.001,
+   "ts": 1795086076,
+   "end_ts": 1795135500,
+   "q": "Spread: Tigres FC (-1.5)",
+   "touched": null
+  },
+  {
+   "id": "7152022",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "70231070142902114085320115751352327930204999663037855828880930648724813393873",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1795086076,
+   "end_ts": 1795135500,
+   "q": "Spread: Tigres FC (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "7165539",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "95498549329381769778884251196502532499246198844008417639485616974619057448423",
+   "px": 0.984,
+   "tick": 0.001,
+   "ts": 1795086076,
+   "end_ts": 1795150800,
+   "q": "Will XRP reach $1.10 on November 19?",
+   "touched": null
+  },
+  {
+   "id": "6786550",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "30750068413670041295503532298804083183151962636912219157409076603773409977528",
+   "px": 0.988,
+   "tick": 0.001,
+   "ts": 1795086076,
+   "end_ts": 1795188600,
+   "q": "FC Botoşani vs. FC Voluntari: O/U 7.5",
    "touched": null
   }
  ]
