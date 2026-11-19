@@ -1,6 +1,6 @@
 {
  "capital0": 1000.0,
- "cash": 364.8766,
+ "cash": 364.8687,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
   {
@@ -214,7 +214,7 @@
    "liq": 32658
   },
   {
-   "oid": "6655552-1795055847",
+   "oid": "6655552-1795057268",
    "id": "6655552",
    "q": "Will the next Meta Muse Spark model be released on November 18, 2026?",
    "cat": "otros",
@@ -224,15 +224,15 @@
    "token": "8584731809111907669501327776448729803647707291536554032877020938429890698793",
    "px": 0.992,
    "tick": 0.001,
-   "mid": 0.9925,
-   "bid": 0.988,
+   "mid": 0.992,
+   "bid": 0.987,
    "ask": 0.997,
-   "shares": 52.5545,
-   "cost": 52.1341,
-   "ts": 1795055847.746238,
+   "shares": 52.5625,
+   "cost": 52.142,
+   "ts": 1795057268.867058,
    "end_ts": 1795064340.0,
-   "hours": 2.36,
-   "liq": 1062
+   "hours": 1.96,
+   "liq": 1324
   }
  ],
  "positions": [
@@ -257,7 +257,7 @@
    "hours": 4.96,
    "liq": 1203,
    "fill_ts": 1794967266.068418,
-   "mark": 0.9845,
+   "mark": 0.9875,
    "stuck": false,
    "disputed": false
   },
@@ -3756,14 +3756,27 @@
    "placed": 1,
    "shadow_open": 265,
    "shadow_closed": 0
+  },
+  {
+   "ts": "2026-11-19T03:01:55Z",
+   "equity": 1042.84,
+   "cash": 364.87,
+   "orders": 11,
+   "positions": 2,
+   "closed": 57,
+   "scanned": 9007,
+   "candidates": 90,
+   "placed": 1,
+   "shadow_open": 262,
+   "shadow_closed": 5
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 237,
+  "placed": 238,
   "filled": 59,
   "expired": 58,
-  "touched_not_filled": 109
+  "touched_not_filled": 110
  },
  "shadow": [
   {
@@ -3897,32 +3910,6 @@
    "touched": 1
   },
   {
-   "id": "6747620",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "17090086171554070101981538903538970573697988236141826935773975672470441566263",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1794934872,
-   "end_ts": 1795041000,
-   "q": "Coritiba FBC vs. Santos FC: O/U 6.5",
-   "touched": 0
-  },
-  {
-   "id": "6989037",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "90155027038925268077274731713575781731984117771568903793918512058978031126977",
-   "px": 0.987,
-   "tick": 0.001,
-   "ts": 1794934872,
-   "end_ts": 1795042800,
-   "q": "Coppin State Eagles vs. Maryland Terrapins (W)",
-   "touched": 0
-  },
-  {
    "id": "6747465",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -3947,32 +3934,6 @@
    "end_ts": 1795044600,
    "q": "CR Flamengo vs. CA Paranaense: O/U 7.5",
    "touched": 0
-  },
-  {
-   "id": "6747622",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "111576807051868778819227571900917184688550798207423802447288834530985848986718",
-   "px": 0.99,
-   "tick": 0.001,
-   "ts": 1794938472,
-   "end_ts": 1795041000,
-   "q": "Coritiba FBC vs. Santos FC: O/U 7.5",
-   "touched": 0
-  },
-  {
-   "id": "6747623",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "110814908594501765555533502466414938053310504333495254234301139481500435427956",
-   "px": 0.996,
-   "tick": 0.001,
-   "ts": 1794938472,
-   "end_ts": 1795041000,
-   "q": "Coritiba FBC vs. Santos FC: O/U 8.5",
-   "touched": 1
   },
   {
    "id": "6977188",
@@ -4349,19 +4310,6 @@
    "ts": 1794970569,
    "end_ts": 1795053600,
    "q": "Weber State Wildcats vs. Utah State Aggies",
-   "touched": 1
-  },
-  {
-   "id": "6989041",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "91306232255921266783846659153903691976673988927040533762059983689208415320104",
-   "px": 0.978,
-   "tick": 0.001,
-   "ts": 1794970866,
-   "end_ts": 1795042800,
-   "q": "USC Upstate Spartans vs. Clemson Tigers (W)",
    "touched": 1
   },
   {
@@ -7209,6 +7157,32 @@
    "ts": 1795055847,
    "end_ts": 1795110300,
    "q": "FK Austria Wien vs. FC Bayern München: Neither team to score first?",
+   "touched": null
+  },
+  {
+   "id": "6820929",
+   "rule": "post_fin_95_97",
+   "cat": "deportes",
+   "side": 1,
+   "token": "169756733605067125924980510249097758158789391586563842085534205026300626932",
+   "px": 0.967,
+   "tick": 0.001,
+   "ts": 1795057268,
+   "end_ts": 1795046400,
+   "q": "Spread: Akron (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "4254202",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "39924203537755288868800270507809624540797902106078268074001297485094692282851",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795057268,
+   "end_ts": 1795132740,
+   "q": "Will the Grand Theft Auto VI PS5 launch price be at least $75?",
    "touched": null
   }
  ]
