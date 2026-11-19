@@ -1,29 +1,8 @@
 {
  "capital0": 1000.0,
- "cash": 365.0082,
+ "cash": 364.9243,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
-  {
-   "oid": "7117897-1795034282",
-   "id": "7117897",
-   "q": "Will Meta (META) close above $600 on November 18?",
-   "cat": "otros",
-   "rule": "otros_cierre",
-   "event": "1409395",
-   "side": 0,
-   "token": "76725234578081949511576147759290549932097407715922469802242464037445476833532",
-   "px": 0.999,
-   "tick": 0.001,
-   "mid": 0.999,
-   "bid": 0.998,
-   "ask": 1,
-   "shares": 52.1392,
-   "cost": 52.0871,
-   "ts": 1795034282.353276,
-   "end_ts": 1795035600.0,
-   "hours": 0.37,
-   "liq": 4763
-  },
   {
    "oid": "6993119-1795039270",
    "id": "6993119",
@@ -172,46 +151,25 @@
    "liq": 29407
   },
   {
-   "oid": "5730334-1795075271",
-   "id": "5730334",
-   "q": "Walmart (WMT) Q3 US comp sales (ex-fuel) growth <1%?",
+   "oid": "5730335-1795078874",
+   "id": "5730335",
+   "q": "Walmart (WMT) Q3 US comp sales (ex-fuel) growth 1% to 2.5%?",
    "cat": "otros",
    "rule": "otros_cierre",
    "event": "1194145",
    "side": 1,
-   "token": "115494712267468432914003950488326478402220778011857412423835524651989465815319",
-   "px": 0.995,
+   "token": "38548893682183568165763813651801181137348999501991575192825060904349561166935",
+   "px": 0.998,
    "tick": 0.001,
-   "mid": 0.995,
-   "bid": 0.991,
+   "mid": 0.998,
+   "bid": 0.997,
    "ask": 0.999,
-   "shares": 52.4238,
-   "cost": 52.1616,
-   "ts": 1795075271.218394,
+   "shares": 52.2756,
+   "cost": 52.171,
+   "ts": 1795078874.871725,
    "end_ts": 1795098600.0,
-   "hours": 6.48,
-   "liq": 2684
-  },
-  {
-   "oid": "6990916-1795075271",
-   "id": "6990916",
-   "q": "Will the price of Bitcoin be between $68,000 and $70,000 on November 19?",
-   "cat": "cripto",
-   "rule": "cripto_cierre",
-   "event": "1372723",
-   "side": 1,
-   "token": "45706387109189552551007399101743943426896440238827299881499599223548946336002",
-   "px": 0.997,
-   "tick": 0.001,
-   "mid": 0.9975,
-   "bid": 0.996,
-   "ask": 0.999,
-   "shares": 52.3186,
-   "cost": 52.1616,
-   "ts": 1795075271.218394,
-   "end_ts": 1795107600.0,
-   "hours": 8.98,
-   "liq": 36080
+   "hours": 5.48,
+   "liq": 1866
   }
  ],
  "positions": [
@@ -286,9 +244,55 @@
    "hours": 6.98,
    "liq": 3859,
    "fill_ts": 1795068069.766622,
-   "mark": 0.9725,
+   "mark": 0.976,
    "stuck": false,
    "disputed": false
+  },
+  {
+   "oid": "5730334-1795075271",
+   "id": "5730334",
+   "q": "Walmart (WMT) Q3 US comp sales (ex-fuel) growth <1%?",
+   "cat": "otros",
+   "rule": "otros_cierre",
+   "event": "1194145",
+   "side": 1,
+   "token": "115494712267468432914003950488326478402220778011857412423835524651989465815319",
+   "px": 0.995,
+   "tick": 0.001,
+   "mid": 0.995,
+   "bid": 0.991,
+   "ask": 0.999,
+   "shares": 52.4238,
+   "cost": 52.1616,
+   "ts": 1795075271.218394,
+   "end_ts": 1795098600.0,
+   "hours": 6.48,
+   "liq": 2684,
+   "fill_ts": 1795078874.871725,
+   "mark": 0.995
+  },
+  {
+   "oid": "6990916-1795075271",
+   "id": "6990916",
+   "q": "Will the price of Bitcoin be between $68,000 and $70,000 on November 19?",
+   "cat": "cripto",
+   "rule": "cripto_cierre",
+   "event": "1372723",
+   "side": 1,
+   "token": "45706387109189552551007399101743943426896440238827299881499599223548946336002",
+   "px": 0.997,
+   "tick": 0.001,
+   "mid": 0.9975,
+   "bid": 0.996,
+   "ask": 0.999,
+   "shares": 52.3186,
+   "cost": 52.1616,
+   "ts": 1795075271.218394,
+   "end_ts": 1795107600.0,
+   "hours": 8.98,
+   "liq": 36080,
+   "fill_ts": 1795078874.871725,
+   "mark": 0.997
   }
  ],
  "closed": [
@@ -3868,13 +3872,26 @@
    "placed": 2,
    "shadow_open": 220,
    "shadow_closed": 6
+  },
+  {
+   "ts": "2026-11-19T09:01:45Z",
+   "equity": 1043.42,
+   "cash": 364.92,
+   "orders": 8,
+   "positions": 5,
+   "closed": 58,
+   "scanned": 7305,
+   "candidates": 134,
+   "placed": 1,
+   "shadow_open": 227,
+   "shadow_closed": 6
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 246,
-  "filled": 61,
-  "expired": 60,
+  "placed": 247,
+  "filled": 63,
+  "expired": 61,
   "touched_not_filled": 115
  },
  "shadow": [
@@ -4984,19 +5001,6 @@
    "touched": 1
   },
   {
-   "id": "7088996",
-   "rule": "post_fin_95_97",
-   "cat": "clima",
-   "side": 1,
-   "token": "95613458854384937715969630031900748463820275235559186036655675376918144489484",
-   "px": 0.958,
-   "tick": 0.001,
-   "ts": 1795032078,
-   "end_ts": 1795003200,
-   "q": "Will the highest temperature in Atlanta be between 68-69°F on November 18?",
-   "touched": null
-  },
-  {
    "id": "7090617",
    "rule": "post_fin_95_97",
    "cat": "clima",
@@ -5007,33 +5011,7 @@
    "ts": 1795032078,
    "end_ts": 1795003200,
    "q": "Will the highest temperature in Seattle be between 54-55°F on November 18?",
-   "touched": null
-  },
-  {
-   "id": "7117878",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 0,
-   "token": "11600600261924444041419404552393589126616760001242785193200632758263219912842",
-   "px": 0.982,
-   "tick": 0.001,
-   "ts": 1795032078,
-   "end_ts": 1795035600,
-   "q": "Will Microsoft (MSFT) close above $500 on November 18?",
-   "touched": null
-  },
-  {
-   "id": "7135922",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "70869883195022008692457518366566103058300481166306849192775959845370263678780",
-   "px": 0.982,
-   "tick": 0.001,
-   "ts": 1795032078,
-   "end_ts": 1795064400,
-   "q": "Will Solana reach $80 on November 18?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "5730341",
@@ -5046,7 +5024,7 @@
    "ts": 1795032078,
    "end_ts": 1795098600,
    "q": "Walmart (WMT) Q3 US eCommerce sales growth 21% to 25%?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6639438",
@@ -5059,7 +5037,7 @@
    "ts": 1795032078,
    "end_ts": 1795137300,
    "q": "Spread: Colts (-9.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6639443",
@@ -5072,7 +5050,7 @@
    "ts": 1795032078,
    "end_ts": 1795137300,
    "q": "Spread: Colts (-10.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6999144",
@@ -5085,7 +5063,7 @@
    "ts": 1795032078,
    "end_ts": 1795137300,
    "q": "Exact Margin: Colts by 25+",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6999145",
@@ -5098,7 +5076,7 @@
    "ts": 1795032078,
    "end_ts": 1795137300,
    "q": "Exact Margin: Colts by 19-24",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6999149",
@@ -5111,7 +5089,7 @@
    "ts": 1795032078,
    "end_ts": 1795137300,
    "q": "Exact Margin: Tie",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7015817",
@@ -5124,7 +5102,7 @@
    "ts": 1795032078,
    "end_ts": 1795138200,
    "q": "Alabama Crimson Tide vs. Florida A&M Rattlers (W)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7148162",
@@ -5137,46 +5115,7 @@
    "ts": 1795032078,
    "end_ts": 1795140000,
    "q": "Ducks vs. Avalanche: O/U 2.5",
-   "touched": null
-  },
-  {
-   "id": "7117918",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "102861965912506838355227118110543138117160110188234490417193952042315073718698",
-   "px": 0.98,
-   "tick": 0.001,
-   "ts": 1795034282,
-   "end_ts": 1795035600,
-   "q": "Micron (MU) Up or Down on November 18?",
-   "touched": null
-  },
-  {
-   "id": "7135896",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "101735786182438750450820992474977673078787906671959119588646962032441071518571",
-   "px": 0.973,
-   "tick": 0.001,
-   "ts": 1795034282,
-   "end_ts": 1795064400,
-   "q": "Will Bitcoin reach $65,000 on November 18?",
-   "touched": null
-  },
-  {
-   "id": "7135911",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "88154532542808505635201928078890259998225209034931996494476897456778383135352",
-   "px": 0.973,
-   "tick": 0.001,
-   "ts": 1795034282,
-   "end_ts": 1795064400,
-   "q": "Will Ethereum reach $1,850 on November 18?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7153632",
@@ -5189,7 +5128,7 @@
    "ts": 1795034282,
    "end_ts": 1795089600,
    "q": "Will Shan United win on 2026-11-19?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6742120",
@@ -5202,7 +5141,7 @@
    "ts": 1795034282,
    "end_ts": 1795118400,
    "q": "FC Barcelona vs. Servette FC Chênois Féminin: O/U 1.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6742159",
@@ -5215,7 +5154,7 @@
    "ts": 1795034282,
    "end_ts": 1795110300,
    "q": "Spread: HB Køge (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6742212",
@@ -5228,7 +5167,7 @@
    "ts": 1795034282,
    "end_ts": 1795110300,
    "q": "FK Austria Wien vs. FC Bayern München: O/U 0.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6784073",
@@ -5241,7 +5180,7 @@
    "ts": 1795034282,
    "end_ts": 1795127400,
    "q": "CR Vasco da Gama vs. SC Internacional: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6784167",
@@ -5254,7 +5193,7 @@
    "ts": 1795034282,
    "end_ts": 1795127400,
    "q": "EC Vitória vs. Red Bull Bragantino: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6784169",
@@ -5267,7 +5206,7 @@
    "ts": 1795034282,
    "end_ts": 1795127400,
    "q": "EC Vitória vs. Red Bull Bragantino: O/U 7.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7148169",
@@ -5280,7 +5219,7 @@
    "ts": 1795034282,
    "end_ts": 1795132800,
    "q": "Islanders vs. Jets: O/U 2.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7148179",
@@ -5293,7 +5232,7 @@
    "ts": 1795034282,
    "end_ts": 1795134600,
    "q": "Oilers vs. Lightning: O/U 2.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7148189",
@@ -5306,7 +5245,7 @@
    "ts": 1795034282,
    "end_ts": 1795132800,
    "q": "Sabres vs. Capitals: O/U 2.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6990910",
@@ -5319,7 +5258,7 @@
    "ts": 1795035674,
    "end_ts": 1795107600,
    "q": "Will the price of Bitcoin be between $66,000 and $68,000 on November 19?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7015809",
@@ -5332,7 +5271,7 @@
    "ts": 1795035674,
    "end_ts": 1795132800,
    "q": "Radford Highlanders vs. Tennessee Volunteers (W)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6783974",
@@ -5345,7 +5284,7 @@
    "ts": 1795035674,
    "end_ts": 1795134600,
    "q": "São Paulo FC vs. Fluminense FC: O/U 6.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6911319",
@@ -5358,7 +5297,7 @@
    "ts": 1795035674,
    "end_ts": 1795143600,
    "q": "Spread: Real Salt Lake (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6911331",
@@ -5371,7 +5310,7 @@
    "ts": 1795035674,
    "end_ts": 1795143600,
    "q": "Seattle Sounders FC vs. Real Salt Lake: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7015851",
@@ -5384,7 +5323,7 @@
    "ts": 1795035674,
    "end_ts": 1795143600,
    "q": "Cal Poly Mustangs vs. UCLA Bruins (W)",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7117969",
@@ -6736,6 +6675,175 @@
    "ts": 1795075271,
    "end_ts": 1795178700,
    "q": "Ittihad Kalba FC vs. Sharjah FC: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "7106881",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "47965216095297238267612525055941959790150496806908124811009751650295616205623",
+   "px": 0.986,
+   "tick": 0.001,
+   "ts": 1795078874,
+   "end_ts": 1795132740,
+   "q": "Will Trump say \"Nuclear\" or \"Nuke\" during his trilateral meeting with Xi and Putin?",
+   "touched": null
+  },
+  {
+   "id": "7165527",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "19884806853060598253376799453759847009207608156270250263404723060858245122310",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795078874,
+   "end_ts": 1795150800,
+   "q": "Will Solana reach $95 on November 19?",
+   "touched": null
+  },
+  {
+   "id": "7165528",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "86376767016514693734421506487814624620651545006323054028074518016947433800810",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795078874,
+   "end_ts": 1795150800,
+   "q": "Will Solana reach $90 on November 19?",
+   "touched": null
+  },
+  {
+   "id": "7165529",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "56569161734943311250758129680066869040801465788367490725344257601155557883722",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795078874,
+   "end_ts": 1795150800,
+   "q": "Will Solana reach $85 on November 19?",
+   "touched": null
+  },
+  {
+   "id": "7165533",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "22536827408615296483610192139125666437510403123935719405424860272049116590302",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795078874,
+   "end_ts": 1795150800,
+   "q": "Will Solana dip to $65 on November 19?",
+   "touched": null
+  },
+  {
+   "id": "7165534",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "31430992395026402723432854312634296310013814552003806712213004888219738630023",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795078874,
+   "end_ts": 1795150800,
+   "q": "Will Solana dip to $60 on November 19?",
+   "touched": null
+  },
+  {
+   "id": "7165535",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "57759315003477607760099959471269144467607338437631611186520733988823047086668",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795078874,
+   "end_ts": 1795150800,
+   "q": "Will Solana dip to $55 on November 19?",
+   "touched": null
+  },
+  {
+   "id": "7165536",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "97859945835540258185591356641842833956696928690532211108373956584138769902653",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795078874,
+   "end_ts": 1795150800,
+   "q": "Will Solana dip to $50 on November 19?",
+   "touched": null
+  },
+  {
+   "id": "7165537",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "105459925086779060805681038011433782500306370634100809104102857291042557286330",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795078874,
+   "end_ts": 1795150800,
+   "q": "Will XRP reach $1.20 on November 19?",
+   "touched": null
+  },
+  {
+   "id": "7165538",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "69902990650006394448450575805991772812332240538214444485298227519790477603319",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795078874,
+   "end_ts": 1795150800,
+   "q": "Will XRP reach $1.15 on November 19?",
+   "touched": null
+  },
+  {
+   "id": "7165544",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "108339273604861696840183560075131131169060809161588187082767067223942094015472",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795078874,
+   "end_ts": 1795150800,
+   "q": "Will XRP dip to $0.85 on November 19?",
+   "touched": null
+  },
+  {
+   "id": "7165545",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "38556060987777984692207520639239371403077234065187913095325213409192248234553",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795078874,
+   "end_ts": 1795150800,
+   "q": "Will XRP dip to $0.80 on November 19?",
+   "touched": null
+  },
+  {
+   "id": "7165546",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "39384300437033490007510409093146691505534772712282561446335070366287032428411",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795078874,
+   "end_ts": 1795150800,
+   "q": "Will XRP dip to $0.75 on November 19?",
    "touched": null
   }
  ]

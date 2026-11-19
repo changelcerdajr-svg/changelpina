@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 5.8 de 28 | corridas: 106
-- Capital inicial: $1,000.00 | valor actual: $887.56 | P&L: $-112.44 (-11.24%)
-- Efectivo libre: $0.00 | en ordenes abiertas: $531.58 (7) | en posiciones: $361.69 (5)
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 5.8 de 28 | corridas: 107
+- Capital inicial: $1,000.00 | valor actual: $887.97 | P&L: $-112.03 (-11.20%)
+- Efectivo libre: $0.00 | en ordenes abiertas: $177.00 (3) | en posiciones: $716.27 (9)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 213 colocadas, 93 llenadas, 86 tocadas sin llenarse (sorteo 30%), 27 expiradas
+- Ordenes virtuales: 213 colocadas, 97 llenadas, 86 tocadas sin llenarse (sorteo 30%), 27 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -30,32 +30,36 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
-| $91.77 | 99.8c | 95.8c | otros_cierre |  | Pakistan military action against Afghanistan by November 15, 2026? |
+| $91.77 | 99.8c | 96.2c | otros_cierre |  | Pakistan military action against Afghanistan by November 15, 2026? |
 | $59.11 | 99.9c | 98.6c | cripto_cierre |  | Will Microstrategy announce a Bitcoin purchase November 10-16? |
 | $35.36 | 99.8c | 99.0c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $4.5m and $5.5m at auction? |
 | $87.27 | 99.8c | 98.8c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
-| $88.18 | 99.9c | 99.9c | deportes_previo |  | Valorant: XJG vs FunPlus Phoenix - Map 1 Winner |
+| $88.76 | 97.9c | 97.9c | cripto_cierre |  | Ethereum above 1,820 on November 19, 4AM ET? |
+| $88.18 | 99.9c | 100.0c | deportes_previo |  | Valorant: XJG vs FunPlus Phoenix - Map 1 Winner |
+| $88.76 | 97.5c | 97.5c | deportes_previo |  | Will Shan United win on 2026-11-19? |
+| $88.76 | 99.3c | 99.3c | deportes_previo |  | Spread: Hatta SC (-1.5) |
+| $88.31 | 99.8c | 99.8c | otros_cierre |  | Walmart (WMT) Q3 US comp sales (ex-fuel) growth <1%? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 5344 | abiertas: 1999 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 5384 | abiertas: 1990 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
-| clima_cierre | todas | 1534 | 98.91c | 99.15% | +0.25 pts | -0.21 a +0.70 | 13 |
-| clima_cierre | tocadas | 1404 | 98.92c | 99.07% | +0.16 pts | -0.34 a +0.66 | 13 |
-| cripto_cierre | todas | 835 | 98.85c | 98.32% | -0.53 pts | -1.39 a +0.34 | 14 |
-| cripto_cierre | tocadas | 767 | 98.88c | 98.17% | -0.71 pts | -1.64 a +0.23 | 14 |
-| deportes_previo | todas | 2279 | 98.10c | 97.19% | -0.90 pts | -1.58 a -0.23 | 64 |
-| deportes_previo | tocadas | 2228 | 98.13c | 97.13% | -1.00 pts | -1.69 a -0.31 | 64 |
-| otros_cierre | todas | 643 | 99.22c | 98.44% | -0.78 pts | -1.73 a +0.17 | 10 |
-| otros_cierre | tocadas | 586 | 99.19c | 98.29% | -0.89 pts | -1.94 a +0.15 | 10 |
+| clima_cierre | todas | 1538 | 98.90c | 99.15% | +0.25 pts | -0.21 a +0.71 | 13 |
+| clima_cierre | tocadas | 1408 | 98.91c | 99.08% | +0.16 pts | -0.33 a +0.66 | 13 |
+| cripto_cierre | todas | 842 | 98.84c | 98.34% | -0.51 pts | -1.36 a +0.35 | 14 |
+| cripto_cierre | tocadas | 773 | 98.88c | 98.19% | -0.69 pts | -1.62 a +0.24 | 14 |
+| deportes_previo | todas | 2307 | 98.10c | 97.23% | -0.87 pts | -1.54 a -0.20 | 64 |
+| deportes_previo | tocadas | 2256 | 98.13c | 97.16% | -0.96 pts | -1.64 a -0.28 | 64 |
+| otros_cierre | todas | 644 | 99.22c | 98.45% | -0.77 pts | -1.72 a +0.18 | 10 |
+| otros_cierre | tocadas | 587 | 99.18c | 98.30% | -0.89 pts | -1.93 a +0.15 | 10 |
 | post_fin_90_97 | todas | 53 | 94.10c | 96.23% | +2.13 pts | -3.06 a +7.32 | 2 |
 | post_fin_90_97 | tocadas | 41 | 94.17c | 95.12% | +0.96 pts | -5.73 a +7.64 | 2 |
-| TOTAL | todas | 5344 | 98.54c | 98.07% | -0.47 pts | -0.84 a -0.10 | 103 |
-| TOTAL | tocadas | 5026 | 98.55c | 97.95% | -0.60 pts | -0.99 a -0.21 | 103 |
+| TOTAL | todas | 5384 | 98.54c | 98.09% | -0.45 pts | -0.82 a -0.09 | 103 |
+| TOTAL | tocadas | 5065 | 98.55c | 97.97% | -0.58 pts | -0.97 a -0.20 | 103 |
 
 Peores casos del registro sombra:
 
