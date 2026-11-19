@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-11T22:05:26Z | dias corridos: 7.9 de 28 | corridas: 155
-- Capital inicial: $1,000.00 | valor actual: $1,046.35 | P&L: $+46.35 (+4.64%)
-- Efectivo libre: $419.40 | en ordenes abiertas: $470.55 (9) | en posiciones: $156.45 (3)
+- Inicio: 2026-11-11T22:05:26Z | dias corridos: 7.9 de 28 | corridas: 156
+- Capital inicial: $1,000.00 | valor actual: $1,046.53 | P&L: $+46.53 (+4.65%)
+- Efectivo libre: $366.90 | en ordenes abiertas: $470.80 (9) | en posiciones: $208.70 (4)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 269 colocadas, 65 llenadas, 127 tocadas sin llenarse (sorteo 30%), 68 expiradas
+- Ordenes virtuales: 272 colocadas, 66 llenadas, 129 tocadas sin llenarse (sorteo 30%), 68 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -27,28 +27,29 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
-| $51.82 | 98.5c | 98.6c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
-| $52.31 | 99.5c | 99.4c | cripto_cierre |  | Will Bitcoin reach $68,000 on November 19? |
-| $52.32 | 99.2c | 99.2c | cripto_cierre |  | Will Ethereum reach $1,950 on November 19? |
+| $51.82 | 98.5c | 98.5c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
+| $52.25 | 99.0c | 99.0c | otros_cierre |  | Will Google (GOOGL) close above $270 on November 19? |
+| $52.31 | 99.5c | 99.6c | cripto_cierre |  | Will Bitcoin reach $68,000 on November 19? |
+| $52.32 | 99.2c | 99.4c | cripto_cierre |  | Will Ethereum reach $1,950 on November 19? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 2265 | abiertas: 322 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 2276 | abiertas: 327 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
-| cripto_cierre | todas | 787 | 98.74c | 99.11% | +0.37 pts | -0.28 a +1.02 | 7 |
+| cripto_cierre | todas | 789 | 98.74c | 99.11% | +0.37 pts | -0.28 a +1.02 | 7 |
 | cripto_cierre | tocadas | 533 | 98.56c | 98.69% | +0.13 pts | -0.84 a +1.09 | 7 |
-| deportes_previo | todas | 1085 | 98.37c | 99.08% | +0.71 pts | +0.14 a +1.28 | 10 |
-| deportes_previo | tocadas | 908 | 98.32c | 99.12% | +0.79 pts | +0.19 a +1.40 | 8 |
-| otros_cierre | todas | 366 | 98.75c | 99.73% | +0.97 pts | +0.43 a +1.52 | 1 |
-| otros_cierre | tocadas | 238 | 98.65c | 99.58% | +0.93 pts | +0.09 a +1.76 | 1 |
+| deportes_previo | todas | 1092 | 98.37c | 99.08% | +0.71 pts | +0.15 a +1.28 | 10 |
+| deportes_previo | tocadas | 914 | 98.33c | 99.12% | +0.80 pts | +0.20 a +1.40 | 8 |
+| otros_cierre | todas | 368 | 98.75c | 99.73% | +0.97 pts | +0.43 a +1.51 | 1 |
+| otros_cierre | tocadas | 240 | 98.66c | 99.58% | +0.93 pts | +0.10 a +1.76 | 1 |
 | post_fin_95_97 | todas | 27 | 96.10c | 92.59% | -3.51 pts | -13.54 a +6.52 | 2 |
 | post_fin_95_97 | tocadas | 22 | 96.12c | 90.91% | -5.21 pts | -17.46 a +7.04 | 2 |
-| TOTAL | todas | 2265 | 98.53c | 99.12% | +0.58 pts | +0.20 a +0.97 | 20 |
-| TOTAL | tocadas | 1701 | 98.42c | 98.94% | +0.53 pts | +0.04 a +1.01 | 18 |
+| TOTAL | todas | 2276 | 98.54c | 99.12% | +0.59 pts | +0.20 a +0.97 | 20 |
+| TOTAL | tocadas | 1709 | 98.42c | 98.95% | +0.53 pts | +0.05 a +1.01 | 18 |
 
 Peores casos del registro sombra:
 
