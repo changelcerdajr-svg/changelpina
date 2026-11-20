@@ -1,29 +1,8 @@
 {
  "capital0": 1000.0,
- "cash": 421.8935,
+ "cash": 423.1281,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
-  {
-   "oid": "7018415-1795154474",
-   "id": "7018415",
-   "q": "Will the price of Ethereum be above $1,500 on November 20?",
-   "cat": "cripto",
-   "rule": "cripto_cierre",
-   "event": "1380664",
-   "side": 0,
-   "token": "26582144706319309404488826019195760059497965244660072688729061025426634655854",
-   "px": 0.997,
-   "tick": 0.001,
-   "mid": 0.9975,
-   "bid": 0.997,
-   "ask": 0.998,
-   "shares": 52.6167,
-   "cost": 52.4589,
-   "ts": 1795154474.080084,
-   "end_ts": 1795194000.0,
-   "hours": 10.98,
-   "liq": 40120
-  },
   {
    "oid": "6096676-1795161670",
    "id": "6096676",
@@ -128,6 +107,48 @@
    "end_ts": 1795194005.0,
    "hours": 1.98,
    "liq": 1240
+  },
+  {
+   "oid": "7018415-1795190470",
+   "id": "7018415",
+   "q": "Will the price of Ethereum be above $1,500 on November 20?",
+   "cat": "cripto",
+   "rule": "cripto_cierre",
+   "event": "1380664",
+   "side": 0,
+   "token": "26582144706319309404488826019195760059497965244660072688729061025426634655854",
+   "px": 0.998,
+   "tick": 0.001,
+   "mid": 0.9985,
+   "bid": 0.998,
+   "ask": 0.999,
+   "shares": 52.6002,
+   "cost": 52.495,
+   "ts": 1795190470.338472,
+   "end_ts": 1795194000.0,
+   "hours": 0.98,
+   "liq": 32985
+  },
+  {
+   "oid": "6998409-1795190470",
+   "id": "6998409",
+   "q": "West Virginia Tech Golden Bears vs. Akron Zips",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1374569",
+   "side": 1,
+   "token": "113349936907726168630938776477089705569022570304415427700182971052866199679119",
+   "px": 0.989,
+   "tick": 0.001,
+   "mid": 0.9895,
+   "bid": 0.981,
+   "ask": 0.998,
+   "shares": 52.9872,
+   "cost": 52.4043,
+   "ts": 1795190470.338472,
+   "end_ts": 1795215600.0,
+   "hours": 6.98,
+   "liq": 1884
   }
  ],
  "positions": [
@@ -152,31 +173,6 @@
    "hours": 4.96,
    "liq": 1203,
    "fill_ts": 1794967266.068418,
-   "mark": 0.984,
-   "stuck": false,
-   "disputed": false
-  },
-  {
-   "oid": "6762362-1795147270",
-   "id": "6762362",
-   "q": "Spread: SC Delhi (-2.5)",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1327534",
-   "side": 1,
-   "token": "113758900684972231783080511547210399699629052942538206291270267876585774396880",
-   "px": 0.977,
-   "tick": 0.001,
-   "mid": 0.9775,
-   "bid": 0.975,
-   "ask": 0.98,
-   "shares": 53.675,
-   "cost": 52.4404,
-   "ts": 1795147270.041668,
-   "end_ts": 1795174200.0,
-   "hours": 7.48,
-   "liq": 1255,
-   "fill_ts": 1795150868.009326,
    "mark": 0.983,
    "stuck": false,
    "disputed": false
@@ -202,7 +198,7 @@
    "hours": 7.98,
    "liq": 30714,
    "fill_ts": 1795168880.577314,
-   "mark": 0.9955,
+   "mark": 0.9465,
    "stuck": false,
    "disputed": false
   },
@@ -277,7 +273,9 @@
    "hours": 2.98,
    "liq": 1051,
    "fill_ts": 1795186876.035229,
-   "mark": 0.984
+   "mark": 0.9895,
+   "stuck": false,
+   "disputed": false
   }
  ],
  "closed": [
@@ -2328,6 +2326,36 @@
    "result": 1.0,
    "closed_ts": "2026-11-20T13:01:10Z",
    "days": 0.37
+  },
+  {
+   "oid": "6762362-1795147270",
+   "id": "6762362",
+   "q": "Spread: SC Delhi (-2.5)",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1327534",
+   "side": 1,
+   "token": "113758900684972231783080511547210399699629052942538206291270267876585774396880",
+   "px": 0.977,
+   "tick": 0.001,
+   "mid": 0.9775,
+   "bid": 0.975,
+   "ask": 0.98,
+   "shares": 53.675,
+   "cost": 52.4404,
+   "ts": 1795147270.041668,
+   "end_ts": 1795174200.0,
+   "hours": 7.48,
+   "liq": 1255,
+   "fill_ts": 1795150868.009326,
+   "mark": 0.983,
+   "stuck": false,
+   "disputed": false,
+   "payout": 53.675,
+   "pnl": 1.2346,
+   "result": 1.0,
+   "closed_ts": "2026-11-20T16:01:11Z",
+   "days": 0.46
   }
  ],
  "runs": [
@@ -4640,14 +4668,27 @@
    "placed": 1,
    "shadow_open": 580,
    "shadow_closed": 1
+  },
+  {
+   "ts": "2026-11-20T16:02:28Z",
+   "equity": 1049.9,
+   "cash": 423.13,
+   "orders": 7,
+   "positions": 5,
+   "closed": 70,
+   "scanned": 20395,
+   "candidates": 218,
+   "placed": 2,
+   "shadow_open": 604,
+   "shadow_closed": 7
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 306,
+  "placed": 308,
   "filled": 75,
   "expired": 73,
-  "touched_not_filled": 152
+  "touched_not_filled": 153
  },
  "shadow": [
   {
@@ -4882,19 +4923,6 @@
    "ts": 1795093274,
    "end_ts": 1795201200,
    "q": "Heracles Almelo vs. Jong PSV Eindhoven: O/U 0.5",
-   "touched": 1
-  },
-  {
-   "id": "7021894",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "84697303405238035443342168062027730655614874275267799827155099973079711429758",
-   "px": 0.985,
-   "tick": 0.001,
-   "ts": 1795096877,
-   "end_ts": 1795176000,
-   "q": "Spread: Persita Tangerang (-2.5)",
    "touched": 1
   },
   {
@@ -7147,84 +7175,6 @@
    "touched": 0
   },
   {
-   "id": "7165508",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "70496432353800342819463400405859705459548932651023020955359622568434656513017",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1795147270,
-   "end_ts": 1795150800,
-   "q": "Will Bitcoin dip to $60,000 on November 19?",
-   "touched": null
-  },
-  {
-   "id": "6762362",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "113758900684972231783080511547210399699629052942538206291270267876585774396880",
-   "px": 0.977,
-   "tick": 0.001,
-   "ts": 1795147270,
-   "end_ts": 1795174200,
-   "q": "Spread: SC Delhi (-2.5)",
-   "touched": null
-  },
-  {
-   "id": "6762369",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "92410769717417017232493961065093100683110136843387425454474283312036648890975",
-   "px": 0.977,
-   "tick": 0.001,
-   "ts": 1795147270,
-   "end_ts": 1795174200,
-   "q": "East Bengal FC vs. SC Delhi: O/U 0.5",
-   "touched": null
-  },
-  {
-   "id": "6762388",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "79460404629320788985590994375508585217135828211696165654455499760851623591363",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1795147270,
-   "end_ts": 1795174200,
-   "q": "East Bengal FC vs. SC Delhi: O/U 7.5",
-   "touched": null
-  },
-  {
-   "id": "7021907",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "40350832175454144108824843289759808260559455725585068829732221992938290633242",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1795147270,
-   "end_ts": 1795176000,
-   "q": "Dewa United vs. Persita Tangerang: O/U 6.5",
-   "touched": null
-  },
-  {
-   "id": "7120384",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "21408915769362765731582333527491350319540804359463433482978284389431835554529",
-   "px": 0.979,
-   "tick": 0.001,
-   "ts": 1795147270,
-   "end_ts": 1795174500,
-   "q": "Spread: Beijing Guoan (-3.5)",
-   "touched": null
-  },
-  {
    "id": "7138695",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -7235,7 +7185,7 @@
    "ts": 1795147270,
    "end_ts": 1795179600,
    "q": "Al Sadd SC vs. Lusail SC: O/U 0.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7153959",
@@ -7248,7 +7198,7 @@
    "ts": 1795147270,
    "end_ts": 1795179600,
    "q": "Al Duhail SC vs. Qatar SC: O/U 0.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6791797",
@@ -7261,7 +7211,7 @@
    "ts": 1795147270,
    "end_ts": 1795195800,
    "q": "Spread: SV Darmstadt 98 (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6791946",
@@ -7274,7 +7224,7 @@
    "ts": 1795147270,
    "end_ts": 1795195800,
    "q": "Spread: DSC Arminia Bielefeld (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6791951",
@@ -7287,7 +7237,7 @@
    "ts": 1795147270,
    "end_ts": 1795195800,
    "q": "Spread: 1. FC Magdeburg (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6801838",
@@ -7300,7 +7250,7 @@
    "ts": 1795147270,
    "end_ts": 1795197600,
    "q": "Molde FK vs. FK Bodø/Glimt: O/U 8.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6816703",
@@ -7313,7 +7263,7 @@
    "ts": 1795147270,
    "end_ts": 1795201200,
    "q": "Spread: US Boulogne Côte d'Opale (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6816704",
@@ -7326,7 +7276,7 @@
    "ts": 1795147270,
    "end_ts": 1795201200,
    "q": "Spread: FC Metz (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6816764",
@@ -7339,7 +7289,7 @@
    "ts": 1795147270,
    "end_ts": 1795201200,
    "q": "Spread: Pau FC (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6816786",
@@ -7352,7 +7302,7 @@
    "ts": 1795147270,
    "end_ts": 1795201200,
    "q": "Red Star FC vs. Pau FC: O/U 8.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6816878",
@@ -7365,7 +7315,7 @@
    "ts": 1795147270,
    "end_ts": 1795201200,
    "q": "FC Annecy vs. Clermont Foot 63: O/U 8.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6816911",
@@ -7378,7 +7328,7 @@
    "ts": 1795147270,
    "end_ts": 1795201200,
    "q": "Spread: Dijon Football Côte d'Or (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7022370",
@@ -7391,7 +7341,7 @@
    "ts": 1795147270,
    "end_ts": 1795194000,
    "q": "GKS Piast Gliwice vs. Korona Kielce: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7029021",
@@ -7404,7 +7354,7 @@
    "ts": 1795147270,
    "end_ts": 1795197600,
    "q": "TSV Havelse vs. FC Viktoria Cologne: O/U 0.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7064687",
@@ -7417,7 +7367,7 @@
    "ts": 1795147270,
    "end_ts": 1795201200,
    "q": "Spread: Jong PSV Eindhoven (-1.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7064704",
@@ -7430,7 +7380,7 @@
    "ts": 1795147270,
    "end_ts": 1795201200,
    "q": "Heracles Almelo vs. Jong PSV Eindhoven: O/U 8.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7064733",
@@ -7443,7 +7393,7 @@
    "ts": 1795147270,
    "end_ts": 1795201200,
    "q": "FC Volendam vs. Jong Ajax Amsterdam: O/U 0.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7064770",
@@ -7456,7 +7406,7 @@
    "ts": 1795147270,
    "end_ts": 1795201200,
    "q": "FC Den Bosch vs. VVV Venlo: O/U 0.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7064778",
@@ -7469,7 +7419,7 @@
    "ts": 1795147270,
    "end_ts": 1795201200,
    "q": "FC Den Bosch vs. VVV Venlo: O/U 8.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7067466",
@@ -7482,7 +7432,7 @@
    "ts": 1795147270,
    "end_ts": 1795201200,
    "q": "TOP Oss vs. Roda JC Kerkrade: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7067503",
@@ -7495,7 +7445,7 @@
    "ts": 1795147270,
    "end_ts": 1795201200,
    "q": "Helmond Sport vs. FC Dordrecht: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7076224",
@@ -7508,7 +7458,7 @@
    "ts": 1795147270,
    "end_ts": 1795201200,
    "q": "Vitesse Arnhem vs. Jong AZ Alkmaar: O/U 0.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7076232",
@@ -7521,7 +7471,7 @@
    "ts": 1795147270,
    "end_ts": 1795201200,
    "q": "Vitesse Arnhem vs. Jong AZ Alkmaar: O/U 8.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6773153",
@@ -7534,7 +7484,7 @@
    "ts": 1795147270,
    "end_ts": 1795203900,
    "q": "Spread: ES Troyes AC (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6773155",
@@ -7547,7 +7497,7 @@
    "ts": 1795147270,
    "end_ts": 1795203900,
    "q": "Spread: Le Havre AC (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6783203",
@@ -7560,7 +7510,7 @@
    "ts": 1795147270,
    "end_ts": 1795203900,
    "q": "Southend United FC vs. Boreham Wood FC: O/U 8.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6812090",
@@ -7573,7 +7523,7 @@
    "ts": 1795147270,
    "end_ts": 1795203000,
    "q": "Spread: CD Leganés (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6817908",
@@ -7586,7 +7536,7 @@
    "ts": 1795147270,
    "end_ts": 1795203000,
    "q": "Hellas Verona FC vs. Cesena FC: O/U 6.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6857533",
@@ -7599,7 +7549,7 @@
    "ts": 1795147270,
    "end_ts": 1795208400,
    "q": "CD Cobresal vs. Audax CS Italiano: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7022886",
@@ -7612,7 +7562,7 @@
    "ts": 1795147270,
    "end_ts": 1795206600,
    "q": "Sportivo Ameliano vs. Sportivo Luqueno: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7118755",
@@ -7625,7 +7575,7 @@
    "ts": 1795147270,
    "end_ts": 1795210200,
    "q": "Spread: Independiente Santa Fe (-2.5)",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7118757",
@@ -7638,7 +7588,7 @@
    "ts": 1795147270,
    "end_ts": 1795210200,
    "q": "Spread: Independiente Medellín (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6843643",
@@ -7651,7 +7601,7 @@
    "ts": 1795147270,
    "end_ts": 1795222800,
    "q": "Spread: Atlético San Luis (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6998358",
@@ -7664,7 +7614,7 @@
    "ts": 1795147270,
    "end_ts": 1795219200,
    "q": "Wagner Seahawks vs. Maryland Terrapins",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6762102",
@@ -12188,6 +12138,409 @@
    "ts": 1795186876,
    "end_ts": 1795290300,
    "q": "Lille OSC vs. Olympique Lyonnais: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "7018422",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "104005385885698954511185098971398320243571776968645479409814596884412598261294",
+   "px": 0.993,
+   "tick": 0.001,
+   "ts": 1795190470,
+   "end_ts": 1795194000,
+   "q": "Will the price of Bitcoin be between $62,000 and $64,000 on November 20?",
+   "touched": null
+  },
+  {
+   "id": "7018478",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "33098592621569954948135667616880438150108201947035062014879237829590133106382",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795190470,
+   "end_ts": 1795194000,
+   "q": "Will the price of Bitcoin be above $62,000 on November 20?",
+   "touched": null
+  },
+  {
+   "id": "7150304",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "114222195112928751138818798244841008673600193925868735451233880809649854695885",
+   "px": 0.987,
+   "tick": 0.001,
+   "ts": 1795190470,
+   "end_ts": 1795194000,
+   "q": "Solana Up or Down on November 20?",
+   "touched": null
+  },
+  {
+   "id": "7150307",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "20104074471907235874408450612929859444819380391611998096330353923932291279544",
+   "px": 0.988,
+   "tick": 0.001,
+   "ts": 1795190470,
+   "end_ts": 1795194000,
+   "q": "Ethereum Up or Down on November 20?",
+   "touched": null
+  },
+  {
+   "id": "7150309",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "9576487146230934877413426184416929570257084518057311699878520284581097951616",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795190470,
+   "end_ts": 1795194000,
+   "q": "Bitcoin Up or Down on November 20?",
+   "touched": null
+  },
+  {
+   "id": "7172411",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "9895876147634536888141962143927626531851724545907382449458254297769467345048",
+   "px": 0.983,
+   "tick": 0.001,
+   "ts": 1795190470,
+   "end_ts": 1795194000,
+   "q": "Ethereum Up or Down - November 20, 8:00AM-12:00PM ET",
+   "touched": null
+  },
+  {
+   "id": "7172415",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "56605609353778285661943394510468089624020784559595228920596516312000433555691",
+   "px": 0.979,
+   "tick": 0.001,
+   "ts": 1795190470,
+   "end_ts": 1795194000,
+   "q": "Solana Up or Down - November 20, 8:00AM-12:00PM ET",
+   "touched": null
+  },
+  {
+   "id": "7172416",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "1338026417009669330500027782114394466721239001858919245225109330976042852883",
+   "px": 0.987,
+   "tick": 0.001,
+   "ts": 1795190470,
+   "end_ts": 1795194000,
+   "q": "Bitcoin Up or Down - November 20, 8:00AM-12:00PM ET",
+   "touched": null
+  },
+  {
+   "id": "7172425",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "42879855357776231219243410251711288654635849017192848308279633228579573754174",
+   "px": 0.975,
+   "tick": 0.001,
+   "ts": 1795190470,
+   "end_ts": 1795194000,
+   "q": "XRP Up or Down - November 20, 8:00AM-12:00PM ET",
+   "touched": null
+  },
+  {
+   "id": "7024854",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "14297304001599522256572454252605039844902943708434361027714858898637207670134",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795190470,
+   "end_ts": 1795208400,
+   "q": "Will Apple (AAPL) hit (HIGH) $376 Week of November 16 2026?",
+   "touched": null
+  },
+  {
+   "id": "7025006",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "494039865978487755457181666038125674189736917064651443189026172762391112430",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795190470,
+   "end_ts": 1795208400,
+   "q": "Will Alphabet Inc. (GOOGL) hit (HIGH) $310 Week of November 16 2026?",
+   "touched": null
+  },
+  {
+   "id": "7025036",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "50603844686521060993654682833196116561311843638611413015867405907676605940160",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795190470,
+   "end_ts": 1795208400,
+   "q": "Will Meta Platforms, Inc. (META) hit (HIGH) $700 Week of November 16 2026?",
+   "touched": null
+  },
+  {
+   "id": "7025079",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "93965263872339379066502929905885863094484661166420053110347783004331451293859",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795190470,
+   "end_ts": 1795208400,
+   "q": "Will Tesla, Inc. (TSLA) hit (HIGH) $420 Week of November 16 2026?",
+   "touched": null
+  },
+  {
+   "id": "7025403",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "14909608956188760641839923127256044075150376459078877271531284629231679148268",
+   "px": 0.984,
+   "tick": 0.001,
+   "ts": 1795190470,
+   "end_ts": 1795208400,
+   "q": "Will SpaceX (SPCX) hit (HIGH) $147.50 Week of November 16 2026?",
+   "touched": null
+  },
+  {
+   "id": "7172288",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "110038349884782843370016334687581387101156597783878903817460300321453232988706",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795190470,
+   "end_ts": 1795208400,
+   "q": "Will Microsoft (MSFT) close above $530 on November 20?",
+   "touched": null
+  },
+  {
+   "id": "7172292",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "105070888444525323360345791937451762124207473636830267009511610135658536774589",
+   "px": 0.987,
+   "tick": 0.001,
+   "ts": 1795190470,
+   "end_ts": 1795208400,
+   "q": "Will Amazon (AMZN) close above $270 on November 20?",
+   "touched": null
+  },
+  {
+   "id": "7172294",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "59748110289759950692165391879280900840806122370698556803450621161249279056276",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795190470,
+   "end_ts": 1795208400,
+   "q": "Will Amazon (AMZN) close above $280 on November 20?",
+   "touched": null
+  },
+  {
+   "id": "7172302",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "14781849262016455169832695603308384960493231276482912106709184782650596425988",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795190470,
+   "end_ts": 1795208400,
+   "q": "Will Google (GOOGL) close above $305 on November 20?",
+   "touched": null
+  },
+  {
+   "id": "7172306",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "92530714610155700734353772081325724737185252554024904389683425259049648563063",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1795190470,
+   "end_ts": 1795208400,
+   "q": "Will Meta (META) close above $630 on November 20?",
+   "touched": null
+  },
+  {
+   "id": "7172309",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "68459954615375199735945050039966895223869241487703880189960919931417167584662",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795190470,
+   "end_ts": 1795208400,
+   "q": "Will Meta (META) close above $650 on November 20?",
+   "touched": null
+  },
+  {
+   "id": "7172315",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "9594488392852585812107958406491002020506990628732307421485177489427713447993",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795190470,
+   "end_ts": 1795208400,
+   "q": "Will Tesla (TSLA) close above $410 on November 20?",
+   "touched": null
+  },
+  {
+   "id": "7172324",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "47431542766886827248516382742238353139009709548493647469057044261030666531889",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795190470,
+   "end_ts": 1795208400,
+   "q": "Will NVIDIA (NVDA) close above $165 on November 20?",
+   "touched": null
+  },
+  {
+   "id": "6821079",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "45699388728028034595652078453005651163138574400820489921863354646661310928631",
+   "px": 0.972,
+   "tick": 0.001,
+   "ts": 1795190470,
+   "end_ts": 1795221000,
+   "q": "Spread: Clemson (-14.5)",
+   "touched": null
+  },
+  {
+   "id": "7116871",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "93924980287548579066619927369003309344503095686366320942969248950236942088998",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1795190470,
+   "end_ts": 1795215600,
+   "q": "CA Vélez Sarsfield vs. CA Belgrano: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "7189802",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "88203704509919121051240762145554374999717573851831450400887551386213180651318",
+   "px": 0.98,
+   "tick": 0.001,
+   "ts": 1795190470,
+   "end_ts": 1795237200,
+   "q": "Will Bitcoin reach $64,000 on November 20?",
+   "touched": null
+  },
+  {
+   "id": "7014155",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "68295183294750687279878854849343343912020450394677084361436797114081007633728",
+   "px": 0.976,
+   "tick": 0.001,
+   "ts": 1795190470,
+   "end_ts": 1795264200,
+   "q": "1st Half Spread: Fulham FC (-1.5)",
+   "touched": null
+  },
+  {
+   "id": "6911263",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "47183207261277491086943535271235756948402597735804567040641845388288159598897",
+   "px": 0.987,
+   "tick": 0.001,
+   "ts": 1795190470,
+   "end_ts": 1795287600,
+   "q": "New England Revolution vs. Philadelphia Union: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "7015908",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "54483107199778663455313692382180514516345607096919416081539767057516746652420",
+   "px": 0.988,
+   "tick": 0.001,
+   "ts": 1795190470,
+   "end_ts": 1795285800,
+   "q": "South Carolina Gamecocks vs. Providence Friars (W)",
+   "touched": null
+  },
+  {
+   "id": "7015910",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "73352487894909896786277708045887792363832569371413897609678582862178655487862",
+   "px": 0.988,
+   "tick": 0.001,
+   "ts": 1795190470,
+   "end_ts": 1795287600,
+   "q": "Delaware State Hornets vs. Rutgers Scarlet Knights (W)",
+   "touched": null
+  },
+  {
+   "id": "6911198",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "24942822952971522360190302219718493910645705871682042738708668287345223869302",
+   "px": 0.988,
+   "tick": 0.001,
+   "ts": 1795190470,
+   "end_ts": 1795294800,
+   "q": "Spread: Portland Timbers (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "6911210",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "111074054501943576968863882726451866275289667491885764879914373290678493507774",
+   "px": 0.98,
+   "tick": 0.001,
+   "ts": 1795190470,
+   "end_ts": 1795294800,
+   "q": "FC Dallas vs. Portland Timbers: O/U 7.5",
    "touched": null
   }
  ]
