@@ -88,25 +88,25 @@
    "liq": 37527
   },
   {
-   "oid": "7148147-1795136536",
-   "id": "7148147",
-   "q": "Spread: Canucks (-3.5)",
+   "oid": "7160477-1795140129",
+   "id": "7160477",
+   "q": "Spread: Santa Clara Broncos (-23.5)",
    "cat": "deportes",
    "rule": "deportes_previo",
-   "event": "1241069",
+   "event": "1374483",
    "side": 1,
-   "token": "44230034861066496253412725707773665260061086400201172134611526805430194862135",
-   "px": 0.96,
-   "tick": 0.01,
-   "mid": 0.95,
-   "bid": 0.93,
-   "ask": 0.97,
-   "shares": 92.6246,
+   "token": "25305336067009488280360008538469821483268617371100944100306597017404363733312",
+   "px": 0.998,
+   "tick": 0.001,
+   "mid": 0.9745,
+   "bid": 0.95,
+   "ask": 0.999,
+   "shares": 89.0978,
    "cost": 88.9196,
-   "ts": 1795136536.862367,
-   "end_ts": 1795142400.0,
-   "hours": 1.63,
-   "liq": 4158
+   "ts": 1795140129.653932,
+   "end_ts": 1795145400.0,
+   "hours": 1.46,
+   "liq": 1523
   }
  ],
  "positions": [
@@ -231,7 +231,7 @@
    "hours": 6.95,
    "liq": 1046,
    "fill_ts": 1795129314.958937,
-   "mark": 0.9905,
+   "mark": 0.9915,
    "stuck": false,
    "disputed": false
   },
@@ -281,7 +281,9 @@
    "hours": 1.22,
    "liq": 28659,
    "fill_ts": 1795136536.862367,
-   "mark": 0.956
+   "mark": 0.965,
+   "stuck": false,
+   "disputed": false
   },
   {
    "oid": "7103547-1795132914",
@@ -304,7 +306,9 @@
    "hours": 1.22,
    "liq": 20470,
    "fill_ts": 1795136536.862367,
-   "mark": 0.959
+   "mark": 0.959,
+   "stuck": false,
+   "disputed": false
   },
   {
    "oid": "6655553-1795132914",
@@ -327,7 +331,9 @@
    "hours": 4.95,
    "liq": 1256,
    "fill_ts": 1795136536.862367,
-   "mark": 0.996
+   "mark": 0.993,
+   "stuck": false,
+   "disputed": false
   }
  ],
  "closed": [
@@ -5193,14 +5199,27 @@
    "placed": 1,
    "shadow_open": 2458,
    "shadow_closed": 32
+  },
+  {
+   "ts": "2026-11-20T02:04:27Z",
+   "equity": 905.29,
+   "cash": 0.0,
+   "orders": 5,
+   "positions": 9,
+   "closed": 110,
+   "scanned": 30159,
+   "candidates": 852,
+   "placed": 1,
+   "shadow_open": 2475,
+   "shadow_closed": 11
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 262,
+  "placed": 263,
   "filled": 119,
   "expired": 28,
-  "touched_not_filled": 110
+  "touched_not_filled": 111
  },
  "shadow": [
   {
@@ -15903,32 +15922,6 @@
    "touched": 1
   },
   {
-   "id": "7148189",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "48209508500041411940580790189403342653156492327588494608159630501075303477036",
-   "px": 0.96,
-   "tick": 0.01,
-   "ts": 1795028520,
-   "end_ts": 1795132800,
-   "q": "Sabres vs. Capitals: O/U 2.5",
-   "touched": 1
-  },
-  {
-   "id": "7150368",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "11555467517430318647166870254298044179784328466765185381084015007061126972982",
-   "px": 0.979,
-   "tick": 0.001,
-   "ts": 1795028520,
-   "end_ts": 1795132800,
-   "q": "Kings vs. Maple Leafs: O/U 2.5",
-   "touched": 1
-  },
-  {
    "id": "7150828",
    "rule": "clima_cierre",
    "cat": "clima",
@@ -16267,19 +16260,6 @@
    "touched": 1
   },
   {
-   "id": "7150328",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "18067205826988526062329327957312439510379600789629037022847348068319335086650",
-   "px": 0.979,
-   "tick": 0.001,
-   "ts": 1795032109,
-   "end_ts": 1795136400,
-   "q": "Wild vs. Flames: O/U 2.5",
-   "touched": 1
-  },
-  {
    "id": "7150338",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -16290,32 +16270,6 @@
    "ts": 1795032109,
    "end_ts": 1795136400,
    "q": "Blue Jackets vs. Blackhawks: O/U 2.5",
-   "touched": 1
-  },
-  {
-   "id": "7150348",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "79433034183318398107808593059628575611727985406351850766648225492052389612625",
-   "px": 0.979,
-   "tick": 0.001,
-   "ts": 1795032109,
-   "end_ts": 1795132800,
-   "q": "Flyers vs. Senators: O/U 2.5",
-   "touched": 1
-  },
-  {
-   "id": "7150358",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "90033887376196690416284346302754269463851499566443302773531414331120882265966",
-   "px": 0.979,
-   "tick": 0.001,
-   "ts": 1795032109,
-   "end_ts": 1795132800,
-   "q": "Blues vs. Penguins: O/U 2.5",
    "touched": 1
   },
   {
@@ -18919,84 +18873,6 @@
    "touched": 1
   },
   {
-   "id": "7135491",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "61942044738909151455566594920801548669700776610359143569840275384755708738931",
-   "px": 0.989,
-   "tick": 0.001,
-   "ts": 1795053711,
-   "end_ts": 1795067100,
-   "q": "Counter-Strike: DISFARÇADOS vs 9z Academy (BO3) - CCT South America Challengers #4 Playoff",
-   "touched": null
-  },
-  {
-   "id": "7110557",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "28050115811136350853284281186789267383288249558318853570396519839308518957091",
-   "px": 0.99,
-   "tick": 0.001,
-   "ts": 1795053711,
-   "end_ts": 1795089600,
-   "q": "Will the highest temperature in Tokyo be 19°C on November 19?",
-   "touched": null
-  },
-  {
-   "id": "7110622",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 0,
-   "token": "81478428281268157708003138938317001181609968810756958106065955529095466138900",
-   "px": 0.95,
-   "tick": 0.01,
-   "ts": 1795053711,
-   "end_ts": 1795089600,
-   "q": "Will the highest temperature in Warsaw be 11°C on November 19?",
-   "touched": null
-  },
-  {
-   "id": "7110654",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "57224649737631877268220725742558322503318809112007281176011356198323659520795",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795053711,
-   "end_ts": 1795089600,
-   "q": "Will the highest temperature in Beijing be 6°C on November 19?",
-   "touched": null
-  },
-  {
-   "id": "7110665",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "27974961828043895808200598534672294516652027847634676734694983569940333567939",
-   "px": 0.95,
-   "tick": 0.01,
-   "ts": 1795053711,
-   "end_ts": 1795089600,
-   "q": "Will the highest temperature in Wuhan be 14°C on November 19?",
-   "touched": null
-  },
-  {
-   "id": "6742079",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "112953292703387382253167055602416090219008287719753454131517192755100614938263",
-   "px": 0.96,
-   "tick": 0.01,
-   "ts": 1795053711,
-   "end_ts": 1795118400,
-   "q": "Sport Lisboa e Benfica vs. AS Roma: O/U 6.5",
-   "touched": null
-  },
-  {
    "id": "7136321",
    "rule": "clima_cierre",
    "cat": "clima",
@@ -19007,7 +18883,7 @@
    "ts": 1795053711,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Lucknow be 26°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136540",
@@ -19020,7 +18896,7 @@
    "ts": 1795053711,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Istanbul be 24°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7141167",
@@ -19033,7 +18909,7 @@
    "ts": 1795053711,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Seattle be 37°F or below on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7141176",
@@ -19046,7 +18922,7 @@
    "ts": 1795053711,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Seattle be between 54-55°F on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7141536",
@@ -19059,7 +18935,7 @@
    "ts": 1795053711,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Sao Paulo be 30°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7141565",
@@ -19072,7 +18948,7 @@
    "ts": 1795053711,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Toronto be 19°C or higher on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7029808",
@@ -19085,7 +18961,7 @@
    "ts": 1795053711,
    "end_ts": 1795237140,
    "q": "Will Vinted: Pre-loved marketplace be #2 Free App in the US Apple App Store on November 20",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6822723",
@@ -19098,7 +18974,7 @@
    "ts": 1795053711,
    "end_ts": 1795293000,
    "q": "Spread: Washington (-13.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7135492",
@@ -37155,6 +37031,370 @@
    "ts": 1795136536,
    "end_ts": 1795382700,
    "q": "Spread: Raiders (-6.5)",
+   "touched": null
+  },
+  {
+   "id": "6766309",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "26712357028329952930306253863513435509264761956904023116548184315438176634811",
+   "px": 0.999,
+   "tick": 0.001,
+   "ts": 1795140129,
+   "end_ts": 1795150740,
+   "q": "Will Jean-Michel Basquiat's “Untitled (Leonardo and His Five Grotesque Heads)” sell for be",
+   "touched": null
+  },
+  {
+   "id": "7171934",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "45239210966296656848695792273781997681414410427063181379724131535829930189295",
+   "px": 0.976,
+   "tick": 0.001,
+   "ts": 1795140129,
+   "end_ts": 1795158600,
+   "q": "Counter-Strike: Without a Roof vs Kodex Esports (BO3) - CROSSFIRE Playoffs",
+   "touched": null
+  },
+  {
+   "id": "7146510",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "107001951196813353547296382394224718415893968427124234893033996642880985419885",
+   "px": 0.96,
+   "tick": 0.01,
+   "ts": 1795140129,
+   "end_ts": 1795165200,
+   "q": "Counter-Strike: Marsborne vs North Forge (BO3) - CROSSFIRE Playoffs",
+   "touched": null
+  },
+  {
+   "id": "7136275",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "45752214245269179599181249339130703234937382737951493667611653802820837539777",
+   "px": 0.996,
+   "tick": 0.001,
+   "ts": 1795140129,
+   "end_ts": 1795176000,
+   "q": "Will the highest temperature in Seoul (Incheon) be 2°C on November 20?",
+   "touched": null
+  },
+  {
+   "id": "7136312",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "34022724659010713375459074858793434773163287892756651335380067013337656253460",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795140129,
+   "end_ts": 1795176000,
+   "q": "Will the highest temperature in Wellington be 19°C on November 20?",
+   "touched": null
+  },
+  {
+   "id": "7136801",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "76558822014289778148998139828242942438692491486536602831825543872067212742546",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795140129,
+   "end_ts": 1795176000,
+   "q": "Will the lowest temperature in Hong Kong be 14°C on November 20?",
+   "touched": null
+  },
+  {
+   "id": "7136802",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "36994598442424588770391465647502554467520859190869902899233672487031581644277",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795140129,
+   "end_ts": 1795176000,
+   "q": "Will the lowest temperature in Hong Kong be 15°C on November 20?",
+   "touched": null
+  },
+  {
+   "id": "7138370",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "15692135258801711511034206767099921263522319042834556049139802499345658959872",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795140129,
+   "end_ts": 1795176000,
+   "q": "Will the lowest temperature in Miami be between 74-75°F on November 20?",
+   "touched": null
+  },
+  {
+   "id": "6816785",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "90822545526551831183788606245501777020138345051185292584778108832902831320824",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795140129,
+   "end_ts": 1795201200,
+   "q": "Red Star FC vs. Pau FC: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "7037221",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "61827122185051285248771085004011689294800536901063106640029248629414973730553",
+   "px": 0.971,
+   "tick": 0.001,
+   "ts": 1795140129,
+   "end_ts": 1795201200,
+   "q": "Spread: Koninklijke Lierse Sportkring (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "7097723",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "12589627468664842927380443149034027925608805212144355408941808737442022781874",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1795140129,
+   "end_ts": 1795212000,
+   "q": "Will Gold (XAUUSD) hit (HIGH) $3,900 Week of November 16 2026?",
+   "touched": null
+  },
+  {
+   "id": "7116872",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "35179899572088640147904753589010620916858376100693398675554447816624348517694",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795140129,
+   "end_ts": 1795215600,
+   "q": "CA Vélez Sarsfield vs. CA Belgrano: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6998363",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "77349192431449600932804211461794302011646627849822449568942983612096497893817",
+   "px": 0.96,
+   "tick": 0.01,
+   "ts": 1795140129,
+   "end_ts": 1795222800,
+   "q": "Campbell Fighting Camels vs. Kansas State Wildcats",
+   "touched": null
+  },
+  {
+   "id": "6820540",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "25607948985425433261158864836784640273271770799260189926378616039430379364157",
+   "px": 0.98,
+   "tick": 0.001,
+   "ts": 1795140129,
+   "end_ts": 1795237200,
+   "q": "Jeonbuk Hyundai Motors FC vs. FC Seoul: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "6820542",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "100033329012463088573729317464368492886751086767402291392659658779692871663841",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795140129,
+   "end_ts": 1795237200,
+   "q": "Jeonbuk Hyundai Motors FC vs. FC Seoul: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6820623",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "54198301947235598566901568418700939265798262439259031337420276282341490020960",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1795140129,
+   "end_ts": 1795237200,
+   "q": "Pohang Steelers FC vs. FC Anyang: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "6870020",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "99741431320168028007246154014463972433903062293421166951900443917278589988988",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795140129,
+   "end_ts": 1795237200,
+   "q": "Sanfrecce Hiroshima vs. Yokohama F·Marinos: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6870111",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "24287790265630906651205730297954408955157269801669339379737359382060764834159",
+   "px": 0.979,
+   "tick": 0.001,
+   "ts": 1795140129,
+   "end_ts": 1795237200,
+   "q": "Kyōto Sanga FC vs. Urawa Red Diamonds: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "6870112",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "50629588263253523004223861080853741349591635310335232856580895729636924495233",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1795140129,
+   "end_ts": 1795237200,
+   "q": "Kyōto Sanga FC vs. Urawa Red Diamonds: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6870144",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "37234955755294811268777276820964632392904542943877515482835993920843117592550",
+   "px": 0.996,
+   "tick": 0.001,
+   "ts": 1795140129,
+   "end_ts": 1795237200,
+   "q": "Spread: V-Varen Nagasaki (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "6870158",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "32066542946343565532531394044204031453302435489265617700107679208734543923535",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795140129,
+   "end_ts": 1795237200,
+   "q": "FC Machida Zelvia vs. V-Varen Nagasaki: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6869863",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "14614914927481282745092810102388953558398272426545644659922779827520461383706",
+   "px": 0.979,
+   "tick": 0.001,
+   "ts": 1795140129,
+   "end_ts": 1795244400,
+   "q": "Gamba Ōsaka vs. Fagiano Okayama: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "6869974",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "100234436489995783047635652265455344796368053246862476534158969291312228282101",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795140129,
+   "end_ts": 1795240800,
+   "q": "Kawasaki Frontale vs. Avispa Fukuoka: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6848296",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "42449811021037429981449510667379634451200503637240705429456729201698690446961",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1795140129,
+   "end_ts": 1795264200,
+   "q": "Newport County AFC vs. Swindon Town FC: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "6911144",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "97490704913808260664099243706856564439252238958948845918547272505684315862047",
+   "px": 0.979,
+   "tick": 0.001,
+   "ts": 1795140129,
+   "end_ts": 1795302000,
+   "q": "Spread: Columbus Crew (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "6764607",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "95692971044460464658544805489857038740488433509798761142586220856674841425115",
+   "px": 0.975,
+   "tick": 0.001,
+   "ts": 1795140129,
+   "end_ts": 1795348800,
+   "q": "Will \"The Hunger Games: Sunrise on the Reaping\" Opening Weekend Box Office be between 125m",
+   "touched": null
+  },
+  {
+   "id": "6764608",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "87774474785550028309644340251203538719785218570048057841003077828520412358183",
+   "px": 0.95,
+   "tick": 0.01,
+   "ts": 1795140129,
+   "end_ts": 1795348800,
+   "q": "Will \"The Hunger Games: Sunrise on the Reaping\" Opening Weekend Box Office be at least 130",
+   "touched": null
+  },
+  {
+   "id": "7073866",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "114668330694492117520922405197683637444250269207645597451653167698598783897641",
+   "px": 0.978,
+   "tick": 0.001,
+   "ts": 1795140129,
+   "end_ts": 1795366800,
+   "q": "Will the price of Solana be between $80 and $90 on November 22?",
    "touched": null
   }
  ]

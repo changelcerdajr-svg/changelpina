@@ -1,6 +1,6 @@
 {
  "capital0": 1000.0,
- "cash": 419.4723,
+ "cash": 419.4696,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
   {
@@ -109,69 +109,6 @@
    "liq": 2607
   },
   {
-   "oid": "7175156-1795132869",
-   "id": "7175156",
-   "q": "Will the US national average gas price be less than $3.7000 on November 20?",
-   "cat": "otros",
-   "rule": "otros_cierre",
-   "event": "1425120",
-   "side": 0,
-   "token": "11474980521363700080072995873644988531197100627055982448946733987323268912960",
-   "px": 0.995,
-   "tick": 0.001,
-   "mid": 0.9955,
-   "bid": 0.993,
-   "ask": 0.998,
-   "shares": 52.6255,
-   "cost": 52.3623,
-   "ts": 1795132869.739649,
-   "end_ts": 1795186800.0,
-   "hours": 14.98,
-   "liq": 1092
-  },
-  {
-   "oid": "6655553-1795136467",
-   "id": "6655553",
-   "q": "Will the next Meta Muse Spark model be released on November 19, 2026?",
-   "cat": "otros",
-   "rule": "otros_cierre",
-   "event": "1310057",
-   "side": 1,
-   "token": "61545072629314719721608624072355765745520967478130111694018147545445451004083",
-   "px": 0.993,
-   "tick": 0.001,
-   "mid": 0.993,
-   "bid": 0.989,
-   "ask": 0.997,
-   "shares": 52.7341,
-   "cost": 52.365,
-   "ts": 1795136467.607081,
-   "end_ts": 1795150740.0,
-   "hours": 3.96,
-   "liq": 1707
-  },
-  {
-   "oid": "6798177-1795136467",
-   "id": "6798177",
-   "q": "Spread: Shimizu S-Pulse (-2.5)",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1333045",
-   "side": 1,
-   "token": "37044757526130418136420449981533337953735265849159079190618840560929260816375",
-   "px": 0.989,
-   "tick": 0.001,
-   "mid": 0.9895,
-   "bid": 0.985,
-   "ask": 0.994,
-   "shares": 52.9474,
-   "cost": 52.365,
-   "ts": 1795136467.607081,
-   "end_ts": 1795168800.0,
-   "hours": 8.98,
-   "liq": 1191
-  },
-  {
    "oid": "6798191-1795136467",
    "id": "6798191",
    "q": "Kashima Antlers vs. Shimizu S-Pulse: O/U 6.5",
@@ -191,6 +128,48 @@
    "end_ts": 1795168800.0,
    "hours": 8.98,
    "liq": 2180
+  },
+  {
+   "oid": "6766309-1795140069",
+   "id": "6766309",
+   "q": "Will Jean-Michel Basquiat's “Untitled (Leonardo and His Five Grotesque Heads)” sell for between $30m and $40m at auction?",
+   "cat": "otros",
+   "rule": "otros_cierre",
+   "event": "1328432",
+   "side": 0,
+   "token": "26712357028329952930306253863513435509264761956904023116548184315438176634811",
+   "px": 0.999,
+   "tick": 0.001,
+   "mid": 0.999,
+   "bid": 0.998,
+   "ask": 1,
+   "shares": 52.4174,
+   "cost": 52.365,
+   "ts": 1795140069.05154,
+   "end_ts": 1795150740.0,
+   "hours": 2.96,
+   "liq": 2069
+  },
+  {
+   "oid": "6798239-1795140069",
+   "id": "6798239",
+   "q": "Spread: JEF United Ichihara Chiba (-2.5)",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1333063",
+   "side": 1,
+   "token": "100861680507901025736827951221748323730844705980882108935743556315204811520968",
+   "px": 0.983,
+   "tick": 0.001,
+   "mid": 0.9835,
+   "bid": 0.978,
+   "ask": 0.989,
+   "shares": 53.2706,
+   "cost": 52.365,
+   "ts": 1795140069.05154,
+   "end_ts": 1795168800.0,
+   "hours": 7.98,
+   "liq": 2015
   }
  ],
  "positions": [
@@ -268,6 +247,29 @@
    "mark": 0.9955,
    "stuck": false,
    "disputed": false
+  },
+  {
+   "oid": "6655553-1795136467",
+   "id": "6655553",
+   "q": "Will the next Meta Muse Spark model be released on November 19, 2026?",
+   "cat": "otros",
+   "rule": "otros_cierre",
+   "event": "1310057",
+   "side": 1,
+   "token": "61545072629314719721608624072355765745520967478130111694018147545445451004083",
+   "px": 0.993,
+   "tick": 0.001,
+   "mid": 0.993,
+   "bid": 0.989,
+   "ask": 0.997,
+   "shares": 52.7341,
+   "cost": 52.365,
+   "ts": 1795136467.607081,
+   "end_ts": 1795150740.0,
+   "hours": 3.96,
+   "liq": 1707,
+   "fill_ts": 1795140069.05154,
+   "mark": 0.993
   }
  ],
  "closed": [
@@ -4272,14 +4274,27 @@
    "placed": 3,
    "shadow_open": 331,
    "shadow_closed": 2
+  },
+  {
+   "ts": "2026-11-20T02:02:09Z",
+   "equity": 1047.3,
+   "cash": 419.47,
+   "orders": 8,
+   "positions": 4,
+   "closed": 64,
+   "scanned": 12116,
+   "candidates": 132,
+   "placed": 2,
+   "shadow_open": 339,
+   "shadow_closed": 5
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 285,
-  "filled": 67,
+  "placed": 287,
+  "filled": 68,
   "expired": 69,
-  "touched_not_filled": 140
+  "touched_not_filled": 142
  },
  "shadow": [
   {
@@ -4543,19 +4558,6 @@
    "touched": 1
   },
   {
-   "id": "7150368",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "11555467517430318647166870254298044179784328466765185381084015007061126972982",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1795028472,
-   "end_ts": 1795132800,
-   "q": "Kings vs. Maple Leafs: O/U 2.5",
-   "touched": 1
-  },
-  {
    "id": "6639438",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -4696,19 +4698,6 @@
    "ts": 1795034282,
    "end_ts": 1795134600,
    "q": "Oilers vs. Lightning: O/U 2.5",
-   "touched": 1
-  },
-  {
-   "id": "7148189",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "48209508500041411940580790189403342653156492327588494608159630501075303477036",
-   "px": 0.971,
-   "tick": 0.001,
-   "ts": 1795034282,
-   "end_ts": 1795132800,
-   "q": "Sabres vs. Capitals: O/U 2.5",
    "touched": 1
   },
   {
@@ -4855,19 +4844,6 @@
    "touched": 0
   },
   {
-   "id": "7150328",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "18067205826988526062329327957312439510379600789629037022847348068319335086650",
-   "px": 0.971,
-   "tick": 0.001,
-   "ts": 1795042873,
-   "end_ts": 1795136400,
-   "q": "Wild vs. Flames: O/U 2.5",
-   "touched": 1
-  },
-  {
    "id": "7150338",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -4878,32 +4854,6 @@
    "ts": 1795042873,
    "end_ts": 1795136400,
    "q": "Blue Jackets vs. Blackhawks: O/U 2.5",
-   "touched": 1
-  },
-  {
-   "id": "7150348",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "79433034183318398107808593059628575611727985406351850766648225492052389612625",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1795042873,
-   "end_ts": 1795132800,
-   "q": "Flyers vs. Senators: O/U 2.5",
-   "touched": 1
-  },
-  {
-   "id": "7150358",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "90033887376196690416284346302754269463851499566443302773531414331120882265966",
-   "px": 0.971,
-   "tick": 0.001,
-   "ts": 1795042873,
-   "end_ts": 1795132800,
-   "q": "Blues vs. Penguins: O/U 2.5",
    "touched": 1
   },
   {
@@ -5762,7 +5712,7 @@
    "ts": 1795093274,
    "end_ts": 1795135500,
    "q": "Spread: Deportes Quindio (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7152078",
@@ -5775,7 +5725,7 @@
    "ts": 1795093274,
    "end_ts": 1795127400,
    "q": "Spread: Envigado FC (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7152088",
@@ -5788,7 +5738,7 @@
    "ts": 1795093274,
    "end_ts": 1795127400,
    "q": "Independiente Valle Del Cauca vs. Envigado FC: O/U 5.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6798285",
@@ -5801,7 +5751,7 @@
    "ts": 1795093274,
    "end_ts": 1795168800,
    "q": "Spread: FC Mito Holly Hock (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6786547",
@@ -5814,7 +5764,7 @@
    "ts": 1795093274,
    "end_ts": 1795188600,
    "q": "FC Botoşani vs. FC Voluntari: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "5194308",
@@ -5827,7 +5777,7 @@
    "ts": 1795093274,
    "end_ts": 1795195800,
    "q": "Al Ahli Saudi Club vs. Al Nassr Saudi Club: O/U 7.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6791832",
@@ -5840,7 +5790,7 @@
    "ts": 1795093274,
    "end_ts": 1795195800,
    "q": "SV Darmstadt 98 vs. 1. FC Heidenheim: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6791984",
@@ -5853,7 +5803,7 @@
    "ts": 1795093274,
    "end_ts": 1795195800,
    "q": "DSC Arminia Bielefeld vs. 1. FC Magdeburg: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6791987",
@@ -5866,7 +5816,7 @@
    "ts": 1795093274,
    "end_ts": 1795195800,
    "q": "DSC Arminia Bielefeld vs. 1. FC Magdeburg: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6801802",
@@ -5879,7 +5829,7 @@
    "ts": 1795093274,
    "end_ts": 1795197600,
    "q": "Molde FK vs. FK Bodø/Glimt: O/U 0.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7022371",
@@ -5892,7 +5842,7 @@
    "ts": 1795093274,
    "end_ts": 1795194000,
    "q": "GKS Piast Gliwice vs. Korona Kielce: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7064696",
@@ -5905,7 +5855,7 @@
    "ts": 1795093274,
    "end_ts": 1795201200,
    "q": "Heracles Almelo vs. Jong PSV Eindhoven: O/U 0.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7121711",
@@ -8583,6 +8533,175 @@
    "ts": 1795136467,
    "end_ts": 1795237200,
    "q": "Tōkyō Verdy vs. Nagoya Grampus: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6766309",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "26712357028329952930306253863513435509264761956904023116548184315438176634811",
+   "px": 0.999,
+   "tick": 0.001,
+   "ts": 1795140069,
+   "end_ts": 1795150740,
+   "q": "Will Jean-Michel Basquiat's “Untitled (Leonardo and His Five Grotesque Heads)” sell for be",
+   "touched": null
+  },
+  {
+   "id": "7165540",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "19260075748878413013787619449486838263505003545164630888185255595174917967526",
+   "px": 0.991,
+   "tick": 0.001,
+   "ts": 1795140069,
+   "end_ts": 1795150800,
+   "q": "Will XRP reach $1.05 on November 19?",
+   "touched": null
+  },
+  {
+   "id": "7045068",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "83354841326801784770713671247332815409012564863488345130367465894690002279433",
+   "px": 0.992,
+   "tick": 0.001,
+   "ts": 1795140069,
+   "end_ts": 1795178700,
+   "q": "Ittihad Kalba FC vs. Sharjah FC: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6816785",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "90822545526551831183788606245501777020138345051185292584778108832902831320824",
+   "px": 0.993,
+   "tick": 0.001,
+   "ts": 1795140069,
+   "end_ts": 1795201200,
+   "q": "Red Star FC vs. Pau FC: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6857534",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "43053534585435299526171519516005959538927610634330317586783093023562106326492",
+   "px": 0.99,
+   "tick": 0.001,
+   "ts": 1795140069,
+   "end_ts": 1795208400,
+   "q": "CD Cobresal vs. Audax CS Italiano: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "7116872",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "35179899572088640147904753589010620916858376100693398675554447816624348517694",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795140069,
+   "end_ts": 1795215600,
+   "q": "CA Vélez Sarsfield vs. CA Belgrano: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "7018609",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "80798865278077341394515479891271601430047311180249157866418932528515602649604",
+   "px": 0.991,
+   "tick": 0.001,
+   "ts": 1795140069,
+   "end_ts": 1795219140,
+   "q": "Will \"Choosin' Texas - Ella Langley\" be the #2 US song this week?",
+   "touched": null
+  },
+  {
+   "id": "6820540",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "25607948985425433261158864836784640273271770799260189926378616039430379364157",
+   "px": 0.973,
+   "tick": 0.001,
+   "ts": 1795140069,
+   "end_ts": 1795237200,
+   "q": "Jeonbuk Hyundai Motors FC vs. FC Seoul: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "6870112",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "50629588263253523004223861080853741349591635310335232856580895729636924495233",
+   "px": 0.99,
+   "tick": 0.001,
+   "ts": 1795140069,
+   "end_ts": 1795237200,
+   "q": "Kyōto Sanga FC vs. Urawa Red Diamonds: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6876190",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "46793017858636563010541893429730900445187866778169285230934129535804480453368",
+   "px": 0.991,
+   "tick": 0.001,
+   "ts": 1795140069,
+   "end_ts": 1795233600,
+   "q": "Auckland FC vs. Melbourne Victory FC: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6869863",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "14614914927481282745092810102388953558398272426545644659922779827520461383706",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795140069,
+   "end_ts": 1795244400,
+   "q": "Gamba Ōsaka vs. Fagiano Okayama: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "6869928",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "50180312175797380271882948632607361648200558790050000448015844645341108233766",
+   "px": 0.986,
+   "tick": 0.001,
+   "ts": 1795140069,
+   "end_ts": 1795240800,
+   "q": "Cerezo Ōsaka vs. FC Tōkyō: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6869974",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "100234436489995783047635652265455344796368053246862476534158969291312228282101",
+   "px": 0.99,
+   "tick": 0.001,
+   "ts": 1795140069,
+   "end_ts": 1795240800,
+   "q": "Kawasaki Frontale vs. Avispa Fukuoka: O/U 7.5",
    "touched": null
   }
  ]
