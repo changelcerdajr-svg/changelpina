@@ -290,7 +290,9 @@
    "hours": -5.02,
    "liq": 1199,
    "fill_ts": 1795197675.470168,
-   "mark": 0.965
+   "mark": 0.9465,
+   "stuck": false,
+   "disputed": false
   }
  ],
  "closed": [
@@ -4782,6 +4784,19 @@
    "placed": 3,
    "shadow_open": 596,
    "shadow_closed": 62
+  },
+  {
+   "ts": "2026-11-20T18:40:35Z",
+   "equity": 1051.83,
+   "cash": 370.91,
+   "orders": 9,
+   "positions": 4,
+   "closed": 72,
+   "scanned": 20080,
+   "candidates": 193,
+   "placed": 0,
+   "shadow_open": 607,
+   "shadow_closed": 0
   }
  ],
  "halted": false,
@@ -12538,6 +12553,149 @@
    "ts": 1795197675,
    "end_ts": 1795305600,
    "q": "Golden Knights vs. Jets: O/U 2.5",
+   "touched": null
+  },
+  {
+   "id": "7024944",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "17729514031818881951571308874971662674414991902281972392935646482223484862133",
+   "px": 0.984,
+   "tick": 0.001,
+   "ts": 1795199927,
+   "end_ts": 1795208400,
+   "q": "Will Microsoft Corporation (MSFT) hit (LOW) $472.50 Week of November 16 2026?",
+   "touched": null
+  },
+  {
+   "id": "7025039",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "26205192423557055710095495480020657088289789977124741831558106910950167301279",
+   "px": 0.987,
+   "tick": 0.001,
+   "ts": 1795199927,
+   "end_ts": 1795208400,
+   "q": "Will Meta Platforms, Inc. (META) hit (HIGH) $690 Week of November 16 2026?",
+   "touched": null
+  },
+  {
+   "id": "7025072",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "11108602969092488603520766339144362086337063727783685645680882081210279810919",
+   "px": 0.984,
+   "tick": 0.001,
+   "ts": 1795199927,
+   "end_ts": 1795208400,
+   "q": "Will Tesla (TSLA) finish week of November 16 above $380?",
+   "touched": null
+  },
+  {
+   "id": "7025117",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "31851941913236772565324063743559823801348824061066169754833710899042295391038",
+   "px": 0.986,
+   "tick": 0.001,
+   "ts": 1795199927,
+   "end_ts": 1795208400,
+   "q": "Will NVIDIA (NVDA) finish week of November 16 above $165?",
+   "touched": null
+  },
+  {
+   "id": "7025304",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "30087829686510385446043572847440350639993781737282402720634343148227300825404",
+   "px": 0.982,
+   "tick": 0.001,
+   "ts": 1795199927,
+   "end_ts": 1795208400,
+   "q": "Will SpaceX (SPCX) finish week of November 16 above $150?",
+   "touched": null
+  },
+  {
+   "id": "7097723",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "12589627468664842927380443149034027925608805212144355408941808737442022781874",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795199927,
+   "end_ts": 1795212000,
+   "q": "Will Gold (XAUUSD) hit (HIGH) $3,900 Week of November 16 2026?",
+   "touched": null
+  },
+  {
+   "id": "7172358",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "97899242050609903580980442873296715564175760922913256132481663321588006485584",
+   "px": 0.979,
+   "tick": 0.001,
+   "ts": 1795199927,
+   "end_ts": 1795212000,
+   "q": "Gold (XAUUSD) Up or Down on November 20?",
+   "touched": null
+  },
+  {
+   "id": "6776516",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "22129276473263069516242490856261402743354032830522686538340459940521798082250",
+   "px": 0.988,
+   "tick": 0.001,
+   "ts": 1795199927,
+   "end_ts": 1795226400,
+   "q": "Spread: Escorpiones de Belén (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "7019539",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "14582657420570483340052239748608444394322780948674326381096950549985439953739",
+   "px": 0.975,
+   "tick": 0.001,
+   "ts": 1795199927,
+   "end_ts": 1795282200,
+   "q": "1st Half Spread: Newcastle United FC (-1.5)",
+   "touched": null
+  },
+  {
+   "id": "7042774",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "44271791142884521881613501892179891083556083183972574249535312831818826700494",
+   "px": 0.99,
+   "tick": 0.001,
+   "ts": 1795199927,
+   "end_ts": 1795305600,
+   "q": "Will Zac Blair win the 2026 The RSM Classic?",
+   "touched": null
+  },
+  {
+   "id": "7042823",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "55997500040189054245779354703776298192265673441134277086031026178131713650265",
+   "px": 0.975,
+   "tick": 0.001,
+   "ts": 1795199927,
+   "end_ts": 1795305600,
+   "q": "Will Joel Dahmen win the 2026 The RSM Classic?",
    "touched": null
   }
  ]
