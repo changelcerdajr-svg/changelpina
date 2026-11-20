@@ -2,8 +2,8 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 6.5 de 28 | corridas: 127
-- Capital inicial: $1,000.00 | valor actual: $906.92 | P&L: $-93.08 (-9.31%)
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 6.6 de 28 | corridas: 128
+- Capital inicial: $1,000.00 | valor actual: $906.88 | P&L: $-93.12 (-9.31%)
 - Efectivo libre: $0.00 | en ordenes abiertas: $287.68 (5) | en posiciones: $622.44 (9)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
 - Ordenes virtuales: 264 colocadas, 119 llenadas, 112 tocadas sin llenarse (sorteo 30%), 28 expiradas
@@ -38,28 +38,28 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 | $88.92 | 95.6c | 98.2c | deportes_previo |  | Spread: Colts (-7.5) |
 | $47.90 | 95.9c | 95.9c | deportes_previo |  | Will C.J. Stroud score the first touchdown? |
 | $56.72 | 99.1c | 99.2c | otros_cierre |  | Will the next Claude Opus model (5.6+) be released on November 19, 2026? |
-| $84.55 | 99.6c | 99.3c | otros_cierre |  | Will the next Meta Muse Spark model be released on November 19, 2026? |
+| $84.55 | 99.6c | 99.2c | otros_cierre |  | Will the next Meta Muse Spark model be released on November 19, 2026? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 6063 | abiertas: 2490 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 6095 | abiertas: 2497 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
-| clima_cierre | todas | 1824 | 98.89c | 99.07% | +0.18 pts | -0.26 a +0.62 | 17 |
-| clima_cierre | tocadas | 1677 | 98.90c | 98.99% | +0.08 pts | -0.39 a +0.56 | 17 |
+| clima_cierre | todas | 1837 | 98.89c | 99.07% | +0.19 pts | -0.25 a +0.62 | 17 |
+| clima_cierre | tocadas | 1688 | 98.90c | 98.99% | +0.10 pts | -0.38 a +0.57 | 17 |
 | cripto_cierre | todas | 956 | 98.78c | 98.54% | -0.24 pts | -1.00 a +0.52 | 14 |
 | cripto_cierre | tocadas | 878 | 98.82c | 98.41% | -0.41 pts | -1.23 a +0.41 | 14 |
-| deportes_previo | todas | 2526 | 98.08c | 97.11% | -0.97 pts | -1.62 a -0.32 | 73 |
-| deportes_previo | tocadas | 2469 | 98.11c | 97.04% | -1.07 pts | -1.73 a -0.40 | 73 |
+| deportes_previo | todas | 2545 | 98.08c | 97.13% | -0.95 pts | -1.60 a -0.31 | 73 |
+| deportes_previo | tocadas | 2487 | 98.11c | 97.06% | -1.05 pts | -1.71 a -0.39 | 73 |
 | otros_cierre | todas | 695 | 99.16c | 98.56% | -0.60 pts | -1.48 a +0.29 | 10 |
 | otros_cierre | tocadas | 637 | 99.12c | 98.43% | -0.69 pts | -1.65 a +0.28 | 10 |
 | post_fin_90_97 | todas | 62 | 94.14c | 96.77% | +2.63 pts | -1.81 a +7.07 | 2 |
 | post_fin_90_97 | tocadas | 48 | 94.17c | 95.83% | +1.66 pts | -4.06 a +7.38 | 2 |
-| TOTAL | todas | 6063 | 98.52c | 98.09% | -0.43 pts | -0.77 a -0.09 | 116 |
-| TOTAL | tocadas | 5709 | 98.53c | 97.97% | -0.56 pts | -0.93 a -0.20 | 116 |
+| TOTAL | todas | 6095 | 98.52c | 98.10% | -0.42 pts | -0.76 a -0.08 | 116 |
+| TOTAL | tocadas | 5738 | 98.53c | 97.98% | -0.55 pts | -0.91 a -0.19 | 116 |
 
 Peores casos del registro sombra:
 
@@ -76,4 +76,4 @@ Peores casos del registro sombra:
 
 ## Veredicto
 
-Aun no hay veredicto: van 110 operaciones cerradas en 6.5 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
+Aun no hay veredicto: van 110 operaciones cerradas en 6.6 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.

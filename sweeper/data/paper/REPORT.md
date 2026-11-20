@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-11T22:05:26Z | dias corridos: 8.2 de 28 | corridas: 164
-- Capital inicial: $1,000.00 | valor actual: $1,047.30 | P&L: $+47.30 (+4.73%)
-- Efectivo libre: $419.47 | en ordenes abiertas: $418.70 (8) | en posiciones: $208.82 (4)
+- Inicio: 2026-11-11T22:05:26Z | dias corridos: 8.2 de 28 | corridas: 165
+- Capital inicial: $1,000.00 | valor actual: $1,047.27 | P&L: $+47.27 (+4.73%)
+- Efectivo libre: $419.47 | en ordenes abiertas: $366.37 (7) | en posiciones: $261.14 (5)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 287 colocadas, 68 llenadas, 142 tocadas sin llenarse (sorteo 30%), 69 expiradas
+- Ordenes virtuales: 287 colocadas, 69 llenadas, 142 tocadas sin llenarse (sorteo 30%), 69 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -28,7 +28,8 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
 | $51.82 | 98.5c | 98.5c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
-| $52.37 | 99.3c | 99.3c | otros_cierre |  | Will the next Meta Muse Spark model be released on November 19, 2026? |
+| $52.33 | 97.1c | 97.1c | deportes_previo |  | Canucks vs. Kraken: O/U 2.5 |
+| $52.37 | 99.3c | 99.2c | otros_cierre |  | Will the next Meta Muse Spark model be released on November 19, 2026? |
 | $52.31 | 99.5c | 99.8c | cripto_cierre |  | Will Bitcoin reach $68,000 on November 19? |
 | $52.32 | 99.2c | 99.6c | cripto_cierre |  | Will Ethereum reach $1,950 on November 19? |
 
@@ -36,20 +37,20 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 2328 | abiertas: 341 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 2349 | abiertas: 325 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
 | cripto_cierre | todas | 795 | 98.74c | 99.12% | +0.38 pts | -0.27 a +1.03 | 7 |
 | cripto_cierre | tocadas | 536 | 98.56c | 98.69% | +0.14 pts | -0.82 a +1.09 | 7 |
-| deportes_previo | todas | 1129 | 98.36c | 99.11% | +0.75 pts | +0.20 a +1.30 | 10 |
-| deportes_previo | tocadas | 947 | 98.32c | 99.16% | +0.83 pts | +0.25 a +1.42 | 8 |
+| deportes_previo | todas | 1150 | 98.36c | 99.13% | +0.77 pts | +0.23 a +1.30 | 10 |
+| deportes_previo | tocadas | 960 | 98.32c | 99.17% | +0.85 pts | +0.27 a +1.42 | 8 |
 | otros_cierre | todas | 377 | 98.75c | 99.73% | +0.98 pts | +0.45 a +1.51 | 1 |
 | otros_cierre | tocadas | 247 | 98.65c | 99.60% | +0.94 pts | +0.14 a +1.75 | 1 |
 | post_fin_95_97 | todas | 27 | 96.10c | 92.59% | -3.51 pts | -13.54 a +6.52 | 2 |
 | post_fin_95_97 | tocadas | 22 | 96.12c | 90.91% | -5.21 pts | -17.46 a +7.04 | 2 |
-| TOTAL | todas | 2328 | 98.53c | 99.14% | +0.61 pts | +0.24 a +0.99 | 20 |
-| TOTAL | tocadas | 1752 | 98.41c | 98.97% | +0.56 pts | +0.09 a +1.03 | 18 |
+| TOTAL | todas | 2349 | 98.53c | 99.15% | +0.62 pts | +0.25 a +0.99 | 20 |
+| TOTAL | tocadas | 1765 | 98.41c | 98.98% | +0.57 pts | +0.10 a +1.04 | 18 |
 
 Peores casos del registro sombra:
 

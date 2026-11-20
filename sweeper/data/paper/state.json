@@ -4,27 +4,6 @@
  "started": "2026-11-11T22:05:26Z",
  "orders": [
   {
-   "oid": "7148149-1795118468",
-   "id": "7148149",
-   "q": "Canucks vs. Kraken: O/U 2.5",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1241069",
-   "side": 0,
-   "token": "49472925062027204939427064883296769848315661619176297804612399513762262656664",
-   "px": 0.971,
-   "tick": 0.001,
-   "mid": 0.9715,
-   "bid": 0.963,
-   "ask": 0.98,
-   "shares": 53.8895,
-   "cost": 52.3267,
-   "ts": 1795118468.375384,
-   "end_ts": 1795142400.0,
-   "hours": 6.65,
-   "liq": 9612
-  },
-  {
    "oid": "7154803-1795120989",
    "id": "7154803",
    "q": "XRP Up or Down - November 19, 3:30PM-3:45PM ET",
@@ -269,9 +248,32 @@
    "hours": 3.96,
    "liq": 1707,
    "fill_ts": 1795140069.05154,
-   "mark": 0.993,
+   "mark": 0.9925,
    "stuck": false,
    "disputed": false
+  },
+  {
+   "oid": "7148149-1795118468",
+   "id": "7148149",
+   "q": "Canucks vs. Kraken: O/U 2.5",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1241069",
+   "side": 0,
+   "token": "49472925062027204939427064883296769848315661619176297804612399513762262656664",
+   "px": 0.971,
+   "tick": 0.001,
+   "mid": 0.9715,
+   "bid": 0.963,
+   "ask": 0.98,
+   "shares": 53.8895,
+   "cost": 52.3267,
+   "ts": 1795118468.375384,
+   "end_ts": 1795142400.0,
+   "hours": 6.65,
+   "liq": 9612,
+   "fill_ts": 1795143665.485864,
+   "mark": 0.971
   }
  ],
  "closed": [
@@ -4302,12 +4304,25 @@
    "placed": 0,
    "shadow_open": 341,
    "shadow_closed": 1
+  },
+  {
+   "ts": "2026-11-20T03:01:42Z",
+   "equity": 1047.27,
+   "cash": 419.47,
+   "orders": 7,
+   "positions": 5,
+   "closed": 64,
+   "scanned": 12676,
+   "candidates": 124,
+   "placed": 0,
+   "shadow_open": 325,
+   "shadow_closed": 21
   }
  ],
  "halted": false,
  "stats": {
   "placed": 287,
-  "filled": 68,
+  "filled": 69,
   "expired": 69,
   "touched_not_filled": 142
  },
@@ -4469,19 +4484,6 @@
    "touched": 0
   },
   {
-   "id": "6784070",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "93930630862730236592569261080740963912926181742631393050100912201223932001050",
-   "px": 0.98,
-   "tick": 0.001,
-   "ts": 1795024879,
-   "end_ts": 1795127400,
-   "q": "CR Vasco da Gama vs. SC Internacional: O/U 6.5",
-   "touched": 1
-  },
-  {
    "id": "6820969",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -4531,45 +4533,6 @@
    "ts": 1795024879,
    "end_ts": 1795132800,
    "q": "Northwestern State Demons vs. Oklahoma Sooners (W)",
-   "touched": 1
-  },
-  {
-   "id": "6784044",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "8087542667472508905629335987686954564631290643248741810515047487485637426666",
-   "px": 0.975,
-   "tick": 0.001,
-   "ts": 1795028472,
-   "end_ts": 1795127400,
-   "q": "Spread: SC Internacional (-2.5)",
-   "touched": 0
-  },
-  {
-   "id": "6911376",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "104977899906717797424047721216037186604053564878848390149852546812047393002517",
-   "px": 0.977,
-   "tick": 0.001,
-   "ts": 1795028472,
-   "end_ts": 1795134600,
-   "q": "Orlando City SC vs. FC Cincinnati: O/U 0.5",
-   "touched": 1
-  },
-  {
-   "id": "6911384",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "78848268894918620024726987337875178700767664811248087523694021025566425986836",
-   "px": 0.986,
-   "tick": 0.001,
-   "ts": 1795028472,
-   "end_ts": 1795134600,
-   "q": "Orlando City SC vs. FC Cincinnati: O/U 8.5",
    "touched": 1
   },
   {
@@ -4662,45 +4625,6 @@
    "end_ts": 1795140000,
    "q": "Ducks vs. Avalanche: O/U 2.5",
    "touched": 1
-  },
-  {
-   "id": "6784073",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "60487586028341011451181475376483592299966896719473977519104804265411996951395",
-   "px": 0.991,
-   "tick": 0.001,
-   "ts": 1795034282,
-   "end_ts": 1795127400,
-   "q": "CR Vasco da Gama vs. SC Internacional: O/U 7.5",
-   "touched": 1
-  },
-  {
-   "id": "6784167",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "60928924545531274865567184772250605944363849434768406217097496219724688133106",
-   "px": 0.976,
-   "tick": 0.001,
-   "ts": 1795034282,
-   "end_ts": 1795127400,
-   "q": "EC Vitória vs. Red Bull Bragantino: O/U 6.5",
-   "touched": 1
-  },
-  {
-   "id": "6784169",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "81712704672477267526520658079540910202957120237996776199104421646141397702193",
-   "px": 0.991,
-   "tick": 0.001,
-   "ts": 1795034282,
-   "end_ts": 1795127400,
-   "q": "EC Vitória vs. Red Bull Bragantino: O/U 7.5",
-   "touched": 0
   },
   {
    "id": "7148179",
@@ -4846,32 +4770,6 @@
    "touched": 1
   },
   {
-   "id": "6784143",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "115434895779909973574394758741952553455770976679826587244433805528042049862492",
-   "px": 0.978,
-   "tick": 0.001,
-   "ts": 1795042873,
-   "end_ts": 1795127400,
-   "q": "Spread: EC Vitória (-3.5)",
-   "touched": 0
-  },
-  {
-   "id": "7150338",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "3942938044563206290661888724782352588724413942883362805361508397569963073763",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1795042873,
-   "end_ts": 1795136400,
-   "q": "Blue Jackets vs. Blackhawks: O/U 2.5",
-   "touched": 1
-  },
-  {
    "id": "6998342",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -4895,32 +4793,6 @@
    "ts": 1795050070,
    "end_ts": 1795134600,
    "q": "Spread: São Paulo FC (-3.5)",
-   "touched": 0
-  },
-  {
-   "id": "6784048",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "46453652824470393561558045338404053234005666069256154465533372066466558720481",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795060871,
-   "end_ts": 1795127400,
-   "q": "Spread: SC Internacional (-3.5)",
-   "touched": 0
-  },
-  {
-   "id": "6784145",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "57617395382698357713097289022313051585835409283205887172884994355734846666056",
-   "px": 0.98,
-   "tick": 0.001,
-   "ts": 1795064473,
-   "end_ts": 1795127400,
-   "q": "Spread: Red Bull Bragantino (-3.5)",
    "touched": 0
   },
   {
@@ -5285,71 +5157,6 @@
    "ts": 1795071673,
    "end_ts": 1795134600,
    "q": "Spread: Fluminense FC (-3.5)",
-   "touched": 0
-  },
-  {
-   "id": "6909313",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "58357114403589206356698487513364656908523724456634121430216139858354224509347",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1795071673,
-   "end_ts": 1795134600,
-   "q": "Orlando City SC vs. FC Cincinnati: Neither team to score first?",
-   "touched": 0
-  },
-  {
-   "id": "6911371",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "1420949919937409035042185162003996887471693680247300658398488502967774201760",
-   "px": 0.972,
-   "tick": 0.001,
-   "ts": 1795071673,
-   "end_ts": 1795134600,
-   "q": "Spread: FC Cincinnati (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "7152111",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "64126684781043370176146206009465437887299577598610385821660970869699725466630",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1795071673,
-   "end_ts": 1795127400,
-   "q": "Spread: Boca Juniors de Cali (-1.5)",
-   "touched": 1
-  },
-  {
-   "id": "7152113",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "6932019535460654742857795409438432688839152207221354430693584496171383588488",
-   "px": 0.992,
-   "tick": 0.001,
-   "ts": 1795071673,
-   "end_ts": 1795127400,
-   "q": "Spread: Boca Juniors de Cali (-2.5)",
-   "touched": 0
-  },
-  {
-   "id": "7152115",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "57865540651800166081960449949952954340363614230837470692239649340981393726199",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795071673,
-   "end_ts": 1795127400,
-   "q": "Spread: Boca Juniors de Cali (-3.5)",
    "touched": 0
   },
   {
@@ -5730,32 +5537,6 @@
    "touched": 1
   },
   {
-   "id": "7152078",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "72358401445365324272555122469165769777614064802122501989253144201710476595068",
-   "px": 0.987,
-   "tick": 0.001,
-   "ts": 1795093274,
-   "end_ts": 1795127400,
-   "q": "Spread: Envigado FC (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "7152088",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "20310420863346546196371304783022884724357863818793942665859804711596822713608",
-   "px": 0.984,
-   "tick": 0.001,
-   "ts": 1795093274,
-   "end_ts": 1795127400,
-   "q": "Independiente Valle Del Cauca vs. Envigado FC: O/U 5.5",
-   "touched": 1
-  },
-  {
    "id": "6798285",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -5870,45 +5651,6 @@
    "ts": 1795093274,
    "end_ts": 1795201200,
    "q": "Heracles Almelo vs. Jong PSV Eindhoven: O/U 0.5",
-   "touched": 1
-  },
-  {
-   "id": "6784074",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "63942944953814107891193405869941690205187212929223051324366761672035833948516",
-   "px": 0.996,
-   "tick": 0.001,
-   "ts": 1795096877,
-   "end_ts": 1795127400,
-   "q": "CR Vasco da Gama vs. SC Internacional: O/U 8.5",
-   "touched": 1
-  },
-  {
-   "id": "6784171",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "39782290625992839348132767561262334759636455552048827832542161053182903857032",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795096877,
-   "end_ts": 1795127400,
-   "q": "EC Vitória vs. Red Bull Bragantino: O/U 8.5",
-   "touched": 1
-  },
-  {
-   "id": "7152126",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "43687794130479102468437795897857534544222592925950260871798437106609340859660",
-   "px": 0.984,
-   "tick": 0.001,
-   "ts": 1795096877,
-   "end_ts": 1795127400,
-   "q": "Union Magdalena vs. Boca Juniors de Cali: O/U 6.5",
    "touched": 1
   },
   {
@@ -8743,6 +8485,71 @@
    "ts": 1795141349,
    "end_ts": 1795244400,
    "q": "Gamba Ōsaka vs. Fagiano Okayama: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "7165541",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "86307888070461974266228575306099916256138029035998831015267198567779488860470",
+   "px": 0.982,
+   "tick": 0.001,
+   "ts": 1795143665,
+   "end_ts": 1795150800,
+   "q": "Will XRP reach $1.00 on November 19?",
+   "touched": null
+  },
+  {
+   "id": "6801781",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "108275298373297082797218529902369463937371547939376074957588988907422439032805",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795143665,
+   "end_ts": 1795197600,
+   "q": "Spread: Molde FK (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "7018533",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "21674067672916389940146989472434585489808319155673437061142469639515798831423",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795143665,
+   "end_ts": 1795194000,
+   "q": "Will the price of XRP be less than $0.60 on November 20?",
+   "touched": null
+  },
+  {
+   "id": "7018570",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "112371187491718018653222176207970778146221861362830189696012993557839110193856",
+   "px": 0.971,
+   "tick": 0.001,
+   "ts": 1795143665,
+   "end_ts": 1795219140,
+   "q": "Will \"Stop The Wedding! - Ashe\" be the #2 song this week?",
+   "touched": null
+  },
+  {
+   "id": "6843546",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "32952582896282591962616869145486420024551169910286079698023123485142280888865",
+   "px": 0.982,
+   "tick": 0.001,
+   "ts": 1795143665,
+   "end_ts": 1795230600,
+   "q": "Spread: Atlante FC (-2.5)",
    "touched": null
   }
  ]
