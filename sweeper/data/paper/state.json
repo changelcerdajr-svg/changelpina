@@ -1,29 +1,8 @@
 {
  "capital0": 1000.0,
- "cash": 371.86,
+ "cash": 371.6529,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
-  {
-   "oid": "6096676-1795161670",
-   "id": "6096676",
-   "q": "Will UMich Consumer Sentiment be below 40.0 in November?",
-   "cat": "otros",
-   "rule": "otros_cierre",
-   "event": "1242771",
-   "side": 1,
-   "token": "20623904263975136797810696795692787452847227396557488015547454292435487980866",
-   "px": 0.994,
-   "tick": 0.001,
-   "mid": 0.994,
-   "bid": 0.991,
-   "ask": 0.997,
-   "shares": 52.7847,
-   "cost": 52.468,
-   "ts": 1795161670.730947,
-   "end_ts": 1795186800.0,
-   "hours": 6.98,
-   "liq": 1209
-  },
   {
    "oid": "7170279-1795169497",
    "id": "7170279",
@@ -130,48 +109,6 @@
    "liq": 34937
   },
   {
-   "oid": "7024865-1795204867",
-   "id": "7024865",
-   "q": "Will Apple (AAPL) finish week of November 16 above $355?",
-   "cat": "otros",
-   "rule": "otros_cierre",
-   "event": "1382623",
-   "side": 1,
-   "token": "42048529104889206631139024038737629808401681945592439970355506059052265512330",
-   "px": 0.984,
-   "tick": 0.001,
-   "mid": 0.9845,
-   "bid": 0.97,
-   "ask": 0.999,
-   "shares": 53.5236,
-   "cost": 52.6673,
-   "ts": 1795204867.915938,
-   "end_ts": 1795208400.0,
-   "hours": 0.98,
-   "liq": 2770
-  },
-  {
-   "oid": "7172316-1795204867",
-   "id": "7172316",
-   "q": "S&P 500 (SPX) Up or Down on November 20?",
-   "cat": "cripto",
-   "rule": "cripto_cierre",
-   "event": "1424491",
-   "side": 1,
-   "token": "12783069028142754849424288725681381422626129085009392346230799568158231293188",
-   "px": 0.998,
-   "tick": 0.001,
-   "mid": 0.9985,
-   "bid": 0.998,
-   "ask": 0.999,
-   "shares": 52.7728,
-   "cost": 52.6673,
-   "ts": 1795204867.915938,
-   "end_ts": 1795208400.0,
-   "hours": 0.98,
-   "liq": 21976
-  },
-  {
    "oid": "6843447-1795204867",
    "id": "6843447",
    "q": "FC Juárez vs. Atlas FC: O/U 6.5",
@@ -212,6 +149,48 @@
    "end_ts": 1795230000.0,
    "hours": 6.98,
    "liq": 3830
+  },
+  {
+   "oid": "7025460-1795208469",
+   "id": "7025460",
+   "q": "Will Gold (XAUUSD) hit (HIGH) $4,000 Week of November 16 2026?",
+   "cat": "otros",
+   "rule": "otros_cierre",
+   "event": "1382689",
+   "side": 1,
+   "token": "79775102362454030249075247634130451429801233510715311098736606327652678843303",
+   "px": 0.989,
+   "tick": 0.001,
+   "mid": 0.9895,
+   "bid": 0.98,
+   "ask": 0.999,
+   "shares": 53.257,
+   "cost": 52.6712,
+   "ts": 1795208469.830028,
+   "end_ts": 1795212000.0,
+   "hours": 0.98,
+   "liq": 3285
+  },
+  {
+   "oid": "7189818-1795208469",
+   "id": "7189818",
+   "q": "Will Ethereum reach $1,800 on November 20?",
+   "cat": "cripto",
+   "rule": "cripto_cierre",
+   "event": "1429265",
+   "side": 1,
+   "token": "108994569325007494337641821212923382663615059254549281120379289587043016865503",
+   "px": 0.99,
+   "tick": 0.001,
+   "mid": 0.99,
+   "bid": 0.981,
+   "ask": 0.999,
+   "shares": 53.2032,
+   "cost": 52.6712,
+   "ts": 1795208469.830028,
+   "end_ts": 1795237200.0,
+   "hours": 7.98,
+   "liq": 11551
   }
  ],
  "positions": [
@@ -236,7 +215,7 @@
    "hours": 4.96,
    "liq": 1203,
    "fill_ts": 1794967266.068418,
-   "mark": 0.983,
+   "mark": 0.9845,
    "stuck": false,
    "disputed": false
   },
@@ -286,7 +265,32 @@
    "hours": 6.48,
    "liq": 4633,
    "fill_ts": 1795204867.915938,
-   "mark": 0.983
+   "mark": 0.983,
+   "stuck": false,
+   "disputed": false
+  },
+  {
+   "oid": "7024865-1795204867",
+   "id": "7024865",
+   "q": "Will Apple (AAPL) finish week of November 16 above $355?",
+   "cat": "otros",
+   "rule": "otros_cierre",
+   "event": "1382623",
+   "side": 1,
+   "token": "42048529104889206631139024038737629808401681945592439970355506059052265512330",
+   "px": 0.984,
+   "tick": 0.001,
+   "mid": 0.9845,
+   "bid": 0.97,
+   "ask": 0.999,
+   "shares": 53.5236,
+   "cost": 52.6673,
+   "ts": 1795204867.915938,
+   "end_ts": 1795208400.0,
+   "hours": 0.98,
+   "liq": 2770,
+   "fill_ts": 1795208469.830028,
+   "mark": 0.984
   }
  ],
  "closed": [
@@ -4877,14 +4881,27 @@
    "placed": 4,
    "shadow_open": 633,
    "shadow_closed": 12
+  },
+  {
+   "ts": "2026-11-20T21:02:25Z",
+   "equity": 1053.42,
+   "cash": 371.65,
+   "orders": 9,
+   "positions": 4,
+   "closed": 74,
+   "scanned": 19185,
+   "candidates": 155,
+   "placed": 2,
+   "shadow_open": 633,
+   "shadow_closed": 8
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 317,
-  "filled": 77,
-  "expired": 73,
-  "touched_not_filled": 157
+  "placed": 319,
+  "filled": 78,
+  "expired": 74,
+  "touched_not_filled": 158
  },
  "shadow": [
   {
@@ -5055,19 +5072,6 @@
    "end_ts": 1795197600,
    "q": "Molde FK vs. FK Bodø/Glimt: O/U 0.5",
    "touched": 0
-  },
-  {
-   "id": "7022371",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "4180763634982783849944467337613362917577961594588646583771242041650676466432",
-   "px": 0.989,
-   "tick": 0.001,
-   "ts": 1795093274,
-   "end_ts": 1795194000,
-   "q": "GKS Piast Gliwice vs. Korona Kielce: O/U 7.5",
-   "touched": 1
   },
   {
    "id": "7064696",
@@ -5588,19 +5592,6 @@
    "end_ts": 1795210200,
    "q": "Independiente Medellín vs. Independiente Santa Fe: O/U 6.5",
    "touched": 1
-  },
-  {
-   "id": "7037925",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "102813356465879009774726487516643630591367600959461567283683088391282621874375",
-   "px": 0.973,
-   "tick": 0.001,
-   "ts": 1795111280,
-   "end_ts": 1795194000,
-   "q": "Spread: Umraniyespor (-2.5)",
-   "touched": 0
   },
   {
    "id": "6783502",
@@ -6656,19 +6647,6 @@
    "touched": 1
   },
   {
-   "id": "7022370",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "61790268388149005103650727317900512342108383935960158614507951459226161120355",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1795147270,
-   "end_ts": 1795194000,
-   "q": "GKS Piast Gliwice vs. Korona Kielce: O/U 6.5",
-   "touched": 1
-  },
-  {
    "id": "7029021",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -6939,32 +6917,6 @@
    "ts": 1795147270,
    "end_ts": 1795219200,
    "q": "Wagner Seahawks vs. Maryland Terrapins",
-   "touched": 1
-  },
-  {
-   "id": "7022358",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "49601174983978828338757673803140007178235415360851089697571657239339279081715",
-   "px": 0.979,
-   "tick": 0.001,
-   "ts": 1795150868,
-   "end_ts": 1795194000,
-   "q": "Spread: GKS Piast Gliwice (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "7022359",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "62864796644429576915629476997927105850557128758317112263865029897240507990872",
-   "px": 0.979,
-   "tick": 0.001,
-   "ts": 1795150868,
-   "end_ts": 1795194000,
-   "q": "Spread: Korona Kielce (-3.5)",
    "touched": 1
   },
   {
@@ -7590,32 +7542,6 @@
    "end_ts": 1795237140,
    "q": "Will Chromagraph Camera be #1 Paid App in the US Apple App Store on November 20?",
    "touched": 0
-  },
-  {
-   "id": "7037927",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "58954124820945882127261708641832145160916026216233953153074118902510738347214",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795154474,
-   "end_ts": 1795194000,
-   "q": "Spread: Umraniyespor (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "7037938",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "81840981560170097223232396481720754045576840932254249128096879123025981963246",
-   "px": 0.982,
-   "tick": 0.001,
-   "ts": 1795154474,
-   "end_ts": 1795194000,
-   "q": "Igdir FK vs. Umraniyespor: O/U 6.5",
-   "touched": 1
   },
   {
    "id": "7154753",
@@ -8281,19 +8207,6 @@
    "touched": 1
   },
   {
-   "id": "7165605",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 0,
-   "token": "96070024940705763691389154919990769255572255771926850322843630791114646696568",
-   "px": 0.98,
-   "tick": 0.001,
-   "ts": 1795161670,
-   "end_ts": 1795165200,
-   "q": "Ethereum Up or Down - November 20, 12:00AM-4:00AM ET",
-   "touched": null
-  },
-  {
    "id": "6783202",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -8304,7 +8217,7 @@
    "ts": 1795161670,
    "end_ts": 1795203900,
    "q": "Southend United FC vs. Boreham Wood FC: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6816705",
@@ -8317,7 +8230,7 @@
    "ts": 1795161670,
    "end_ts": 1795201200,
    "q": "Spread: US Boulogne Côte d'Opale (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6997843",
@@ -8330,7 +8243,7 @@
    "ts": 1795161670,
    "end_ts": 1795204800,
    "q": "1st Half Spread: RCD Espanyol de Barcelona (-1.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7037186",
@@ -8343,7 +8256,7 @@
    "ts": 1795161670,
    "end_ts": 1795201200,
    "q": "Spread: Club NXT (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7064659",
@@ -8356,7 +8269,7 @@
    "ts": 1795161670,
    "end_ts": 1795201200,
    "q": "Jong FC Utrecht vs. FC Emmen: O/U 0.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7024894",
@@ -8369,7 +8282,7 @@
    "ts": 1795161670,
    "end_ts": 1795208400,
    "q": "Will Apple (AAPL) hit (LOW) $332 Week of November 16 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7025129",
@@ -8382,7 +8295,7 @@
    "ts": 1795161670,
    "end_ts": 1795208400,
    "q": "Will NVIDIA (NVDA) finish week of November 16 above $190?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7027713",
@@ -8395,7 +8308,7 @@
    "ts": 1795161670,
    "end_ts": 1795215600,
    "q": "Recoleta FC vs. Club Guarani Asuncion: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7150877",
@@ -8408,7 +8321,7 @@
    "ts": 1795161670,
    "end_ts": 1795212000,
    "q": "Will Gold (XAUUSD) hit (HIGH) $3,800 Week of November 16 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6998376",
@@ -8421,7 +8334,7 @@
    "ts": 1795161670,
    "end_ts": 1795219200,
    "q": "Loyola Maryland Greyhounds vs. Virginia Cavaliers",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6819138",
@@ -8434,7 +8347,7 @@
    "ts": 1795161670,
    "end_ts": 1795237200,
    "q": "Spread: Hokkaidō Consadole Sapporo (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6843565",
@@ -8447,7 +8360,7 @@
    "ts": 1795161670,
    "end_ts": 1795230600,
    "q": "Club Tijuana vs. Atlante FC: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7029797",
@@ -8460,7 +8373,7 @@
    "ts": 1795161670,
    "end_ts": 1795237140,
    "q": "Will ChatGPT be #1 Free App in the US Apple App Store on November 20?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7029799",
@@ -8473,7 +8386,7 @@
    "ts": 1795161670,
    "end_ts": 1795237140,
    "q": "Will Claude by Anthropic be #1 Free App in the US Apple App Store on November 20?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7180998",
@@ -8486,7 +8399,7 @@
    "ts": 1795161670,
    "end_ts": 1795230000,
    "q": "Spread: Kings (-11.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7189838",
@@ -8499,7 +8412,7 @@
    "ts": 1795161670,
    "end_ts": 1795237200,
    "q": "Will XRP reach $1.15 on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7189839",
@@ -8512,7 +8425,7 @@
    "ts": 1795161670,
    "end_ts": 1795237200,
    "q": "Will XRP reach $1.10 on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7189844",
@@ -8525,7 +8438,7 @@
    "ts": 1795161670,
    "end_ts": 1795237200,
    "q": "Will XRP dip to $0.85 on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7189845",
@@ -8538,7 +8451,7 @@
    "ts": 1795161670,
    "end_ts": 1795237200,
    "q": "Will XRP dip to $0.80 on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7189846",
@@ -8551,7 +8464,7 @@
    "ts": 1795161670,
    "end_ts": 1795237200,
    "q": "Will XRP dip to $0.75 on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6820363",
@@ -8564,7 +8477,7 @@
    "ts": 1795161670,
    "end_ts": 1795246200,
    "q": "Gangwon FC vs. Daejeon Hana Citizen FC: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6837808",
@@ -8577,7 +8490,7 @@
    "ts": 1795161670,
    "end_ts": 1795269600,
    "q": "Spread: US Lecce (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6837816",
@@ -8590,7 +8503,7 @@
    "ts": 1795161670,
    "end_ts": 1795269600,
    "q": "Spread: US Lecce (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6837860",
@@ -8603,7 +8516,7 @@
    "ts": 1795161670,
    "end_ts": 1795269600,
    "q": "SS Lazio vs. US Lecce: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6838008",
@@ -8616,7 +8529,7 @@
    "ts": 1795161670,
    "end_ts": 1795269600,
    "q": "Spread: Cagliari Calcio (-1.5)",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6838016",
@@ -8629,7 +8542,7 @@
    "ts": 1795161670,
    "end_ts": 1795269600,
    "q": "Spread: Cagliari Calcio (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6838023",
@@ -8642,7 +8555,7 @@
    "ts": 1795161670,
    "end_ts": 1795269600,
    "q": "Spread: Cagliari Calcio (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6838067",
@@ -8655,7 +8568,7 @@
    "ts": 1795161670,
    "end_ts": 1795269600,
    "q": "Como 1907 vs. Cagliari Calcio: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6838472",
@@ -8668,7 +8581,7 @@
    "ts": 1795161670,
    "end_ts": 1795264200,
    "q": "Spread: Fulham FC (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6838474",
@@ -8681,7 +8594,7 @@
    "ts": 1795161670,
    "end_ts": 1795264200,
    "q": "Spread: Fulham FC (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6842591",
@@ -8694,7 +8607,7 @@
    "ts": 1795161670,
    "end_ts": 1795266000,
    "q": "Spread: Deportivo Alavés (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6842592",
@@ -8707,7 +8620,7 @@
    "ts": 1795161670,
    "end_ts": 1795266000,
    "q": "Spread: RC Deportivo A Coruña (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6842603",
@@ -8720,7 +8633,7 @@
    "ts": 1795161670,
    "end_ts": 1795266000,
    "q": "Deportivo Alavés vs. RC Deportivo A Coruña: O/U 6.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6850609",
@@ -8733,7 +8646,7 @@
    "ts": 1795161670,
    "end_ts": 1795264200,
    "q": "Norwich City FC vs. Cardiff City FC: O/U 0.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6861588",
@@ -8746,7 +8659,7 @@
    "ts": 1795161670,
    "end_ts": 1795262400,
    "q": "VfL Wolfsburg vs. Holstein Kiel: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6861634",
@@ -8759,7 +8672,7 @@
    "ts": 1795161670,
    "end_ts": 1795262400,
    "q": "1. FC Nürnberg vs. Eintracht Braunschweig: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6864369",
@@ -8772,7 +8685,7 @@
    "ts": 1795161670,
    "end_ts": 1795266000,
    "q": "Galatasaray SK vs. Samsunspor: O/U 0.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6838908",
@@ -13114,6 +13027,110 @@
    "ts": 1795204867,
    "end_ts": 1795312800,
    "q": "Ducks vs. Utah: O/U 2.5",
+   "touched": null
+  },
+  {
+   "id": "6881173",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "50364982029723603643435456183025523000456023849926062280561817716399679634895",
+   "px": 0.984,
+   "tick": 0.001,
+   "ts": 1795208469,
+   "end_ts": 1795282200,
+   "q": "Spread: CD Eldense (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "6837603",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "85878730586015938302888343505550745718547464485758920118961541332951194453012",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795208469,
+   "end_ts": 1795290300,
+   "q": "Spread: AJ Auxerre (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "6856778",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "58235039812356297869111690671134639745687234237897426818946129864041688225086",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795208469,
+   "end_ts": 1795289400,
+   "q": "SE Palmeiras vs. CR Flamengo: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "7042945",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "106031003695418986829243762589320020999523127362235838714221803430674073005976",
+   "px": 0.979,
+   "tick": 0.001,
+   "ts": 1795208469,
+   "end_ts": 1795305600,
+   "q": "Will Chris Kirk win the 2026 The RSM Classic?",
+   "touched": null
+  },
+  {
+   "id": "7043005",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "394566106309346988642268770235270789740767805757936722168214291597641532799",
+   "px": 0.978,
+   "tick": 0.001,
+   "ts": 1795208469,
+   "end_ts": 1795305600,
+   "q": "Will Maverick McNealy win the 2026 The RSM Classic?",
+   "touched": null
+  },
+  {
+   "id": "7186588",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "87743656926253221431574558693307361572040638934719517860019184505246720756247",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795208469,
+   "end_ts": 1795305600,
+   "q": "Kings vs. Senators: O/U 2.5",
+   "touched": null
+  },
+  {
+   "id": "7187241",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "19969951040415133861238071352155200335734887721676515164770712331264896930820",
+   "px": 0.971,
+   "tick": 0.001,
+   "ts": 1795208469,
+   "end_ts": 1795316400,
+   "q": "Kraken vs. Sharks: O/U 2.5",
+   "touched": null
+  },
+  {
+   "id": "7187251",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "31595017174233824941497862589301521085031458876973727102695197360559493227720",
+   "px": 0.971,
+   "tick": 0.001,
+   "ts": 1795208469,
+   "end_ts": 1795316400,
+   "q": "Wild vs. Canucks: O/U 2.5",
    "touched": null
   }
  ]

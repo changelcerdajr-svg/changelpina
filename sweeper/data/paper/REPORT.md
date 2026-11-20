@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-11T22:05:26Z | dias corridos: 8.9 de 28 | corridas: 184
-- Capital inicial: $1,000.00 | valor actual: $1,053.35 | P&L: $+53.35 (+5.33%)
-- Efectivo libre: $371.86 | en ordenes abiertas: $525.60 (10) | en posiciones: $157.00 (3)
+- Inicio: 2026-11-11T22:05:26Z | dias corridos: 9.0 de 28 | corridas: 185
+- Capital inicial: $1,000.00 | valor actual: $1,053.42 | P&L: $+53.42 (+5.34%)
+- Efectivo libre: $371.65 | en ordenes abiertas: $473.14 (9) | en posiciones: $209.67 (4)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 317 colocadas, 77 llenadas, 157 tocadas sin llenarse (sorteo 30%), 73 expiradas
+- Ordenes virtuales: 319 colocadas, 78 llenadas, 158 tocadas sin llenarse (sorteo 30%), 74 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -27,28 +27,29 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
-| $51.82 | 98.5c | 98.3c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
+| $51.82 | 98.5c | 98.5c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
 | $52.62 | 96.5c | 94.7c | post_fin_95_97 |  | Will the highest temperature in New York City be between 66-67°F on November 20? |
 | $52.55 | 98.3c | 98.3c | deportes_previo |  | FC Bayern München vs. 1. FC Köln: Neither team to score first? |
+| $52.67 | 98.4c | 98.4c | otros_cierre |  | Will Apple (AAPL) finish week of November 16 above $355? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 2573 | abiertas: 633 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 2581 | abiertas: 633 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
-| cripto_cierre | todas | 897 | 98.74c | 99.22% | +0.48 pts | -0.10 a +1.05 | 7 |
-| cripto_cierre | tocadas | 607 | 98.57c | 98.85% | +0.28 pts | -0.57 a +1.13 | 7 |
-| deportes_previo | todas | 1239 | 98.36c | 99.11% | +0.75 pts | +0.24 a +1.26 | 12 |
-| deportes_previo | tocadas | 1027 | 98.31c | 99.12% | +0.81 pts | +0.26 a +1.36 | 10 |
+| cripto_cierre | todas | 898 | 98.74c | 99.22% | +0.48 pts | -0.09 a +1.05 | 7 |
+| cripto_cierre | tocadas | 608 | 98.57c | 98.85% | +0.28 pts | -0.56 a +1.13 | 7 |
+| deportes_previo | todas | 1246 | 98.36c | 99.12% | +0.76 pts | +0.25 a +1.27 | 12 |
+| deportes_previo | tocadas | 1033 | 98.31c | 99.13% | +0.82 pts | +0.27 a +1.37 | 10 |
 | otros_cierre | todas | 409 | 98.78c | 99.02% | +0.24 pts | -0.72 a +1.20 | 4 |
 | otros_cierre | tocadas | 271 | 98.69c | 98.52% | -0.17 pts | -1.61 a +1.28 | 4 |
 | post_fin_95_97 | todas | 28 | 96.09c | 92.86% | -3.23 pts | -12.91 a +6.45 | 2 |
 | post_fin_95_97 | tocadas | 23 | 96.10c | 91.30% | -4.80 pts | -16.53 a +6.94 | 2 |
-| TOTAL | todas | 2573 | 98.54c | 99.07% | +0.53 pts | +0.16 a +0.90 | 25 |
-| TOTAL | tocadas | 1928 | 98.42c | 98.86% | +0.44 pts | -0.03 a +0.91 | 23 |
+| TOTAL | todas | 2581 | 98.53c | 99.07% | +0.54 pts | +0.17 a +0.90 | 25 |
+| TOTAL | tocadas | 1935 | 98.42c | 98.86% | +0.44 pts | -0.02 a +0.91 | 23 |
 
 Peores casos del registro sombra:
 
@@ -65,4 +66,4 @@ Peores casos del registro sombra:
 
 ## Veredicto
 
-Aun no hay veredicto: van 74 operaciones cerradas en 8.9 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
+Aun no hay veredicto: van 74 operaciones cerradas en 9.0 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
