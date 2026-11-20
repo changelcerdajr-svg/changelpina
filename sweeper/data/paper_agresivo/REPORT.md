@@ -2,7 +2,7 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 6.9 de 28 | corridas: 137
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 7.0 de 28 | corridas: 138
 - Capital inicial: $1,000.00 | valor actual: $878.64 | P&L: $-121.36 (-12.14%)
 - Efectivo libre: $0.00 | en ordenes abiertas: $423.50 (7) | en posiciones: $496.66 (9)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
@@ -44,22 +44,22 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 6439 | abiertas: 2752 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 6469 | abiertas: 2919 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
-| clima_cierre | todas | 1965 | 98.88c | 99.13% | +0.26 pts | -0.15 a +0.66 | 17 |
-| clima_cierre | tocadas | 1808 | 98.90c | 99.06% | +0.16 pts | -0.28 a +0.60 | 17 |
-| cripto_cierre | todas | 1000 | 98.77c | 98.60% | -0.17 pts | -0.89 a +0.56 | 14 |
-| cripto_cierre | tocadas | 919 | 98.81c | 98.48% | -0.33 pts | -1.12 a +0.45 | 14 |
-| deportes_previo | todas | 2695 | 98.08c | 97.20% | -0.88 pts | -1.50 a -0.27 | 78 |
-| deportes_previo | tocadas | 2635 | 98.11c | 97.13% | -0.97 pts | -1.60 a -0.35 | 78 |
-| otros_cierre | todas | 712 | 99.15c | 98.46% | -0.70 pts | -1.60 a +0.20 | 11 |
-| otros_cierre | tocadas | 654 | 99.11c | 98.32% | -0.80 pts | -1.77 a +0.18 | 11 |
+| clima_cierre | todas | 1971 | 98.88c | 99.14% | +0.26 pts | -0.15 a +0.66 | 17 |
+| clima_cierre | tocadas | 1814 | 98.90c | 99.06% | +0.16 pts | -0.28 a +0.60 | 17 |
+| cripto_cierre | todas | 1011 | 98.75c | 98.52% | -0.24 pts | -0.98 a +0.50 | 15 |
+| cripto_cierre | tocadas | 926 | 98.80c | 98.38% | -0.42 pts | -1.22 a +0.39 | 15 |
+| deportes_previo | todas | 2707 | 98.08c | 97.17% | -0.91 pts | -1.52 a -0.29 | 79 |
+| deportes_previo | tocadas | 2646 | 98.11c | 97.11% | -1.00 pts | -1.63 a -0.37 | 79 |
+| otros_cierre | todas | 713 | 99.15c | 98.32% | -0.83 pts | -1.77 a +0.10 | 12 |
+| otros_cierre | tocadas | 655 | 99.11c | 98.17% | -0.94 pts | -1.96 a +0.08 | 12 |
 | post_fin_90_97 | todas | 67 | 94.19c | 97.01% | +2.83 pts | -1.29 a +6.94 | 2 |
 | post_fin_90_97 | tocadas | 51 | 94.25c | 96.08% | +1.83 pts | -3.56 a +7.21 | 2 |
-| TOTAL | todas | 6439 | 98.51c | 98.14% | -0.37 pts | -0.69 a -0.04 | 122 |
-| TOTAL | tocadas | 6067 | 98.53c | 98.03% | -0.50 pts | -0.84 a -0.15 | 122 |
+| TOTAL | todas | 6469 | 98.51c | 98.11% | -0.40 pts | -0.73 a -0.07 | 125 |
+| TOTAL | tocadas | 6092 | 98.52c | 97.99% | -0.54 pts | -0.88 a -0.19 | 125 |
 
 Peores casos del registro sombra:
 
@@ -76,4 +76,4 @@ Peores casos del registro sombra:
 
 ## Veredicto
 
-Aun no hay veredicto: van 116 operaciones cerradas en 6.9 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
+Aun no hay veredicto: van 116 operaciones cerradas en 7.0 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
