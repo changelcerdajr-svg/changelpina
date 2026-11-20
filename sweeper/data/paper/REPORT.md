@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-11T22:05:26Z | dias corridos: 8.6 de 28 | corridas: 176
-- Capital inicial: $1,000.00 | valor actual: $1,051.08 | P&L: $+51.08 (+5.11%)
-- Efectivo libre: $422.15 | en ordenes abiertas: $367.08 (7) | en posiciones: $261.66 (5)
+- Inicio: 2026-11-11T22:05:26Z | dias corridos: 8.7 de 28 | corridas: 177
+- Capital inicial: $1,000.00 | valor actual: $1,050.39 | P&L: $+50.39 (+5.04%)
+- Efectivo libre: $421.99 | en ordenes abiertas: $367.23 (7) | en posiciones: $261.66 (5)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 304 colocadas, 74 llenadas, 151 tocadas sin llenarse (sorteo 30%), 72 expiradas
+- Ordenes virtuales: 305 colocadas, 74 llenadas, 151 tocadas sin llenarse (sorteo 30%), 73 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -29,28 +29,28 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 |---|---|---|---|---|---|
 | $51.82 | 98.5c | 98.4c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
 | $52.44 | 97.7c | 98.3c | deportes_previo |  | Spread: SC Delhi (-2.5) |
-| $52.47 | 98.9c | 98.9c | deportes_previo |  | Spread: Ajman Club (-2.5) |
-| $52.47 | 99.1c | 98.8c | cripto_cierre |  | Will the price of Ethereum be above $1,600 on November 20? |
-| $52.47 | 99.2c | 99.4c | cripto_cierre |  | Will the price of Bitcoin be between $66,000 and $68,000 on November 20? |
+| $52.47 | 98.9c | 98.0c | deportes_previo |  | Spread: Ajman Club (-2.5) |
+| $52.47 | 99.1c | 99.2c | cripto_cierre |  | Will the price of Ethereum be above $1,600 on November 20? |
+| $52.47 | 99.2c | 98.6c | cripto_cierre |  | Will the price of Bitcoin be between $66,000 and $68,000 on November 20? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 2479 | abiertas: 546 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 2481 | abiertas: 567 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
-| cripto_cierre | todas | 847 | 98.72c | 99.17% | +0.45 pts | -0.16 a +1.06 | 7 |
-| cripto_cierre | tocadas | 573 | 98.55c | 98.78% | +0.23 pts | -0.67 a +1.12 | 7 |
+| cripto_cierre | todas | 848 | 98.72c | 99.17% | +0.45 pts | -0.16 a +1.06 | 7 |
+| cripto_cierre | tocadas | 574 | 98.55c | 98.78% | +0.23 pts | -0.67 a +1.12 | 7 |
 | deportes_previo | todas | 1206 | 98.37c | 99.09% | +0.72 pts | +0.20 a +1.25 | 12 |
 | deportes_previo | tocadas | 997 | 98.32c | 99.10% | +0.78 pts | +0.21 a +1.35 | 10 |
-| otros_cierre | todas | 398 | 98.77c | 98.99% | +0.23 pts | -0.76 a +1.22 | 4 |
+| otros_cierre | todas | 399 | 98.77c | 99.00% | +0.23 pts | -0.76 a +1.21 | 4 |
 | otros_cierre | tocadas | 263 | 98.67c | 98.48% | -0.19 pts | -1.68 a +1.30 | 4 |
 | post_fin_95_97 | todas | 28 | 96.09c | 92.86% | -3.23 pts | -12.91 a +6.45 | 2 |
 | post_fin_95_97 | tocadas | 23 | 96.10c | 91.30% | -4.80 pts | -16.53 a +6.94 | 2 |
-| TOTAL | todas | 2479 | 98.53c | 99.03% | +0.51 pts | +0.12 a +0.89 | 25 |
-| TOTAL | tocadas | 1856 | 98.41c | 98.81% | +0.40 pts | -0.08 a +0.89 | 23 |
+| TOTAL | todas | 2481 | 98.53c | 99.03% | +0.51 pts | +0.12 a +0.89 | 25 |
+| TOTAL | tocadas | 1857 | 98.41c | 98.82% | +0.40 pts | -0.08 a +0.89 | 23 |
 
 Peores casos del registro sombra:
 
@@ -67,4 +67,4 @@ Peores casos del registro sombra:
 
 ## Veredicto
 
-Aun no hay veredicto: van 69 operaciones cerradas en 8.6 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
+Aun no hay veredicto: van 69 operaciones cerradas en 8.7 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.

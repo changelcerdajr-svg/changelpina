@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 7.0 de 28 | corridas: 139
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 7.0 de 28 | corridas: 140
 - Capital inicial: $1,000.00 | valor actual: $921.20 | P&L: $-78.80 (-7.88%)
-- Efectivo libre: $0.00 | en ordenes abiertas: $678.72 (11) | en posiciones: $247.83 (4)
+- Efectivo libre: $-0.00 | en ordenes abiertas: $494.48 (9) | en posiciones: $432.07 (6)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 283 colocadas, 125 llenadas, 117 tocadas sin llenarse (sorteo 30%), 30 expiradas
+- Ordenes virtuales: 285 colocadas, 127 llenadas, 119 tocadas sin llenarse (sorteo 30%), 30 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -34,27 +34,29 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 | $35.36 | 99.8c | 98.9c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $4.5m and $5.5m at auction? |
 | $87.27 | 99.8c | 98.4c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
 | $33.43 | 98.4c | 98.0c | deportes_previo |  | Spread: Imisli FK (-2.5) |
+| $92.12 | 99.6c | 99.6c | otros_cierre |  | Will UMich Consumer Sentiment be below 40.0 in November? |
+| $92.12 | 96.8c | 96.8c | deportes_previo |  | Sumqayit FK vs. Sabah Masazir: O/U 0.5 |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 6496 | abiertas: 2973 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 6507 | abiertas: 2985 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
 | clima_cierre | todas | 1971 | 98.88c | 99.14% | +0.26 pts | -0.15 a +0.66 | 17 |
 | clima_cierre | tocadas | 1814 | 98.90c | 99.06% | +0.16 pts | -0.28 a +0.60 | 17 |
-| cripto_cierre | todas | 1012 | 98.75c | 98.52% | -0.23 pts | -0.97 a +0.51 | 15 |
-| cripto_cierre | tocadas | 927 | 98.79c | 98.38% | -0.41 pts | -1.21 a +0.40 | 15 |
-| deportes_previo | todas | 2733 | 98.08c | 97.20% | -0.88 pts | -1.49 a -0.27 | 79 |
-| deportes_previo | tocadas | 2672 | 98.11c | 97.14% | -0.97 pts | -1.59 a -0.35 | 79 |
-| otros_cierre | todas | 713 | 99.15c | 98.32% | -0.83 pts | -1.77 a +0.10 | 12 |
-| otros_cierre | tocadas | 655 | 99.11c | 98.17% | -0.94 pts | -1.96 a +0.08 | 12 |
+| cripto_cierre | todas | 1013 | 98.75c | 98.52% | -0.23 pts | -0.97 a +0.51 | 15 |
+| cripto_cierre | tocadas | 928 | 98.79c | 98.38% | -0.41 pts | -1.21 a +0.40 | 15 |
+| deportes_previo | todas | 2740 | 98.08c | 97.21% | -0.87 pts | -1.48 a -0.26 | 79 |
+| deportes_previo | tocadas | 2679 | 98.11c | 97.14% | -0.96 pts | -1.59 a -0.34 | 79 |
+| otros_cierre | todas | 716 | 99.14c | 98.04% | -1.10 pts | -2.10 a -0.09 | 14 |
+| otros_cierre | tocadas | 658 | 99.10c | 97.87% | -1.23 pts | -2.32 a -0.14 | 14 |
 | post_fin_90_97 | todas | 67 | 94.19c | 97.01% | +2.83 pts | -1.29 a +6.94 | 2 |
 | post_fin_90_97 | tocadas | 51 | 94.25c | 96.08% | +1.83 pts | -3.56 a +7.21 | 2 |
-| TOTAL | todas | 6496 | 98.50c | 98.11% | -0.39 pts | -0.72 a -0.06 | 125 |
-| TOTAL | tocadas | 6119 | 98.52c | 98.00% | -0.52 pts | -0.87 a -0.18 | 125 |
+| TOTAL | todas | 6507 | 98.50c | 98.09% | -0.42 pts | -0.74 a -0.09 | 127 |
+| TOTAL | tocadas | 6130 | 98.52c | 97.97% | -0.55 pts | -0.90 a -0.20 | 127 |
 
 Peores casos del registro sombra:
 

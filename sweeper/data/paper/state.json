@@ -1,29 +1,8 @@
 {
  "capital0": 1000.0,
- "cash": 422.147,
+ "cash": 421.9926,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
-  {
-   "oid": "6766309-1795140069",
-   "id": "6766309",
-   "q": "Will Jean-Michel Basquiat's “Untitled (Leonardo and His Five Grotesque Heads)” sell for between $30m and $40m at auction?",
-   "cat": "otros",
-   "rule": "otros_cierre",
-   "event": "1328432",
-   "side": 0,
-   "token": "26712357028329952930306253863513435509264761956904023116548184315438176634811",
-   "px": 0.999,
-   "tick": 0.001,
-   "mid": 0.999,
-   "bid": 0.998,
-   "ask": 1,
-   "shares": 52.4174,
-   "cost": 52.365,
-   "ts": 1795140069.05154,
-   "end_ts": 1795150740.0,
-   "hours": 2.96,
-   "liq": 2069
-  },
   {
    "oid": "7018415-1795154474",
    "id": "7018415",
@@ -149,6 +128,27 @@
    "end_ts": 1795203000.0,
    "hours": 6.48,
    "liq": 54094
+  },
+  {
+   "oid": "7177154-1795183282",
+   "id": "7177154",
+   "q": "Will MrBeast's next video get between 87 and 88 million views on day 6?",
+   "cat": "otros",
+   "rule": "otros_cierre",
+   "event": "1425926",
+   "side": 1,
+   "token": "55315988723210408084388998764812202081307024084854034959326314610251117293763",
+   "px": 0.984,
+   "tick": 0.001,
+   "mid": 0.9845,
+   "bid": 0.971,
+   "ask": 0.998,
+   "shares": 53.3734,
+   "cost": 52.5194,
+   "ts": 1795183282.978448,
+   "end_ts": 1795194005.0,
+   "hours": 2.98,
+   "liq": 1051
   }
  ],
  "positions": [
@@ -223,7 +223,7 @@
    "hours": 7.98,
    "liq": 30714,
    "fill_ts": 1795168880.577314,
-   "mark": 0.9875,
+   "mark": 0.9925,
    "stuck": false,
    "disputed": false
   },
@@ -248,7 +248,7 @@
    "hours": 7.98,
    "liq": 24630,
    "fill_ts": 1795176072.872531,
-   "mark": 0.994,
+   "mark": 0.9855,
    "stuck": false,
    "disputed": false
   },
@@ -273,7 +273,9 @@
    "hours": 6.4,
    "liq": 2303,
    "fill_ts": 1795179669.173117,
-   "mark": 0.989
+   "mark": 0.9795,
+   "stuck": false,
+   "disputed": false
   }
  ],
  "closed": [
@@ -4610,13 +4612,26 @@
    "placed": 2,
    "shadow_open": 546,
    "shadow_closed": 13
+  },
+  {
+   "ts": "2026-11-20T14:02:45Z",
+   "equity": 1050.39,
+   "cash": 421.99,
+   "orders": 7,
+   "positions": 5,
+   "closed": 69,
+   "scanned": 17628,
+   "candidates": 237,
+   "placed": 1,
+   "shadow_open": 567,
+   "shadow_closed": 2
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 304,
+  "placed": 305,
   "filled": 74,
-  "expired": 72,
+  "expired": 73,
   "touched_not_filled": 151
  },
  "shadow": [
@@ -6883,32 +6898,6 @@
    "touched": 1
   },
   {
-   "id": "6766309",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 0,
-   "token": "26712357028329952930306253863513435509264761956904023116548184315438176634811",
-   "px": 0.999,
-   "tick": 0.001,
-   "ts": 1795140069,
-   "end_ts": 1795150740,
-   "q": "Will Jean-Michel Basquiat's “Untitled (Leonardo and His Five Grotesque Heads)” sell for be",
-   "touched": null
-  },
-  {
-   "id": "7165540",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "19260075748878413013787619449486838263505003545164630888185255595174917967526",
-   "px": 0.991,
-   "tick": 0.001,
-   "ts": 1795140069,
-   "end_ts": 1795150800,
-   "q": "Will XRP reach $1.05 on November 19?",
-   "touched": null
-  },
-  {
    "id": "7045068",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -6919,7 +6908,7 @@
    "ts": 1795140069,
    "end_ts": 1795178700,
    "q": "Ittihad Kalba FC vs. Sharjah FC: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6816785",
@@ -6932,7 +6921,7 @@
    "ts": 1795140069,
    "end_ts": 1795201200,
    "q": "Red Star FC vs. Pau FC: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6857534",
@@ -6945,7 +6934,7 @@
    "ts": 1795140069,
    "end_ts": 1795208400,
    "q": "CD Cobresal vs. Audax CS Italiano: O/U 7.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7116872",
@@ -6958,7 +6947,7 @@
    "ts": 1795140069,
    "end_ts": 1795215600,
    "q": "CA Vélez Sarsfield vs. CA Belgrano: O/U 7.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7018609",
@@ -6971,7 +6960,7 @@
    "ts": 1795140069,
    "end_ts": 1795219140,
    "q": "Will \"Choosin' Texas - Ella Langley\" be the #2 US song this week?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6820540",
@@ -6984,7 +6973,7 @@
    "ts": 1795140069,
    "end_ts": 1795237200,
    "q": "Jeonbuk Hyundai Motors FC vs. FC Seoul: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6870112",
@@ -6997,7 +6986,7 @@
    "ts": 1795140069,
    "end_ts": 1795237200,
    "q": "Kyōto Sanga FC vs. Urawa Red Diamonds: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6876190",
@@ -7010,7 +6999,7 @@
    "ts": 1795140069,
    "end_ts": 1795233600,
    "q": "Auckland FC vs. Melbourne Victory FC: O/U 7.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6869863",
@@ -7023,7 +7012,7 @@
    "ts": 1795140069,
    "end_ts": 1795244400,
    "q": "Gamba Ōsaka vs. Fagiano Okayama: O/U 6.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6869928",
@@ -7036,7 +7025,7 @@
    "ts": 1795140069,
    "end_ts": 1795240800,
    "q": "Cerezo Ōsaka vs. FC Tōkyō: O/U 7.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6869974",
@@ -7049,7 +7038,7 @@
    "ts": 1795140069,
    "end_ts": 1795240800,
    "q": "Kawasaki Frontale vs. Avispa Fukuoka: O/U 7.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6870020",
@@ -11716,6 +11705,305 @@
    "ts": 1795179669,
    "end_ts": 1795287600,
    "q": "Spread: New England Revolution (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "7177154",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "55315988723210408084388998764812202081307024084854034959326314610251117293763",
+   "px": 0.984,
+   "tick": 0.001,
+   "ts": 1795183282,
+   "end_ts": 1795194005,
+   "q": "Will MrBeast's next video get between 87 and 88 million views on day 6?",
+   "touched": null
+  },
+  {
+   "id": "6838915",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "28413884877974217441255204206147925966788074766198015000096749598543662080103",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795183282,
+   "end_ts": 1795207500,
+   "q": "FC Porto vs. USC Paredes: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6998409",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "113349936907726168630938776477089705569022570304415427700182971052866199679119",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1795183282,
+   "end_ts": 1795215600,
+   "q": "West Virginia Tech Golden Bears vs. Akron Zips",
+   "touched": null
+  },
+  {
+   "id": "7025293",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "54840038124439534009004580141462323133384479714630592341384370885073515973565",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795183282,
+   "end_ts": 1795208400,
+   "q": "Will Rocket Lab USA, Inc. (RKLB) hit (LOW) $50 Week of November 16 2026?",
+   "touched": null
+  },
+  {
+   "id": "6857475",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "8242821495109838941941956722143585985948103100653005087765981577154136435916",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795183282,
+   "end_ts": 1795217400,
+   "q": "Spread: CD Palestino (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "7180979",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "82283263709806749905281828171772536827701289933531515402682738118925467311989",
+   "px": 0.976,
+   "tick": 0.001,
+   "ts": 1795183282,
+   "end_ts": 1795222800,
+   "q": "Spread: Pelicans (-13.5)",
+   "touched": null
+  },
+  {
+   "id": "6804107",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "29867805191407531985419369298466668479621207483726309176622709007756194810630",
+   "px": 0.977,
+   "tick": 0.001,
+   "ts": 1795183282,
+   "end_ts": 1795266000,
+   "q": "Galatasaray SK vs. Samsunspor: Neither team to score first?",
+   "touched": null
+  },
+  {
+   "id": "6845301",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "84602227333916182658500215161114639340439122069675488530560720146417481855162",
+   "px": 0.971,
+   "tick": 0.001,
+   "ts": 1795183282,
+   "end_ts": 1795264200,
+   "q": "Blackpool FC vs. Wigan Athletic FC: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "6858467",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "34399952710363335074548097267314125950444374063729853978255752503037664924615",
+   "px": 0.972,
+   "tick": 0.001,
+   "ts": 1795183282,
+   "end_ts": 1795269600,
+   "q": "SK Sigma Olomouc vs. SK Slavia Praha: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "6861680",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "61183557153699743345236212819401549415576730334226980206411796910476104245649",
+   "px": 0.983,
+   "tick": 0.001,
+   "ts": 1795183282,
+   "end_ts": 1795262400,
+   "q": "Hannover 96 vs. SpVgg Greuther Fürth: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6823799",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "89427504897164816410955720915058132293215443281152392408553019278711600198135",
+   "px": 0.971,
+   "tick": 0.001,
+   "ts": 1795183282,
+   "end_ts": 1795291200,
+   "q": "Indiana State vs. South Dakota State",
+   "touched": null
+  },
+  {
+   "id": "6837386",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "87153174389520317335647351581503704874041026800179258277184679692178943194327",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1795183282,
+   "end_ts": 1795290300,
+   "q": "Spread: Torino FC (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "6837393",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "44780722740673372990505420801043244147870037121677478018420290124256996173705",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795183282,
+   "end_ts": 1795290300,
+   "q": "Spread: Torino FC (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "6837429",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "114766380561419793242679520255915967482045098327671910654205573500988734538205",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795183282,
+   "end_ts": 1795290300,
+   "q": "SSC Napoli vs. Torino FC: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "6837654",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "86273342672854961309344735594168464707175995695891780083659707329221472510907",
+   "px": 0.982,
+   "tick": 0.001,
+   "ts": 1795183282,
+   "end_ts": 1795290300,
+   "q": "AS Monaco FC vs. AJ Auxerre: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6837815",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "73627989957358081988906893999480280654505815717095483339356668626914356754758",
+   "px": 0.982,
+   "tick": 0.001,
+   "ts": 1795183282,
+   "end_ts": 1795290300,
+   "q": "Spread: Stade Brestois 29 (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "6837854",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "61066978448223136490583693913261269956136694090922173073925342653485095161948",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795183282,
+   "end_ts": 1795290300,
+   "q": "RC Strasbourg Alsace vs. Stade Brestois 29: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "6842279",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "10581332085219653714268855103112220167937030177921668359655149275126149111424",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1795183282,
+   "end_ts": 1795291200,
+   "q": "Spread: RC Celta de Vigo (-1.5)",
+   "touched": null
+  },
+  {
+   "id": "6842286",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "2804736893897262183003405987797748843879698941263127987871261972208199600461",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795183282,
+   "end_ts": 1795291200,
+   "q": "Spread: RC Celta de Vigo (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "6842294",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "100693334431066335299518124748272591227443693915767198323838585004667937139062",
+   "px": 0.976,
+   "tick": 0.001,
+   "ts": 1795183282,
+   "end_ts": 1795291200,
+   "q": "Real Madrid CF vs. RC Celta de Vigo: O/U 0.5",
+   "touched": null
+  },
+  {
+   "id": "6842316",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "66077777250111247463828844778172547249628198480578978415030221508287633420192",
+   "px": 0.972,
+   "tick": 0.001,
+   "ts": 1795183282,
+   "end_ts": 1795291200,
+   "q": "Real Madrid CF vs. RC Celta de Vigo: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6842320",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "37990205507797602236853487917216265043833838116965304544088282937150914038758",
+   "px": 0.992,
+   "tick": 0.001,
+   "ts": 1795183282,
+   "end_ts": 1795291200,
+   "q": "Real Madrid CF vs. RC Celta de Vigo: O/U 8.5",
+   "touched": null
+  },
+  {
+   "id": "6883319",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "6516094386988800992708631552101081233628554924129352948177144823512323504779",
+   "px": 0.972,
+   "tick": 0.001,
+   "ts": 1795183282,
+   "end_ts": 1795285800,
+   "q": "Empoli FC vs. Pisa SC: O/U 6.5",
    "touched": null
   }
  ]

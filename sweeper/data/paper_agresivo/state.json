@@ -1,6 +1,6 @@
 {
  "capital0": 1000.0,
- "cash": 0.0,
+ "cash": -0.0,
  "started": "2026-11-13T13:15:42Z",
  "orders": [
   {
@@ -151,28 +151,7 @@
    "liq": 722
   },
   {
-   "oid": "6096676-1795179769",
-   "id": "6096676",
-   "q": "Will UMich Consumer Sentiment be below 40.0 in November?",
-   "cat": "otros",
-   "rule": "otros_cierre",
-   "event": "1242771",
-   "side": 1,
-   "token": "20623904263975136797810696795692787452847227396557488015547454292435487980866",
-   "px": 0.996,
-   "tick": 0.001,
-   "mid": 0.994,
-   "bid": 0.991,
-   "ask": 0.997,
-   "shares": 92.4897,
-   "cost": 92.1198,
-   "ts": 1795179769.851355,
-   "end_ts": 1795186800.0,
-   "hours": 1.95,
-   "liq": 1051
-  },
-  {
-   "oid": "6096678-1795179769",
+   "oid": "6096678-1795183365",
    "id": "6096678",
    "q": "Will UMich Consumer Sentiment be between 43.0 and 45.9 in November?",
    "cat": "otros",
@@ -185,54 +164,33 @@
    "mid": 0.997,
    "bid": 0.995,
    "ask": 0.999,
-   "shares": 53.7591,
+   "shares": 53.759,
    "cost": 53.6515,
-   "ts": 1795179769.851355,
+   "ts": 1795183365.317117,
    "end_ts": 1795186800.0,
-   "hours": 1.95,
-   "liq": 895
+   "hours": 0.95,
+   "liq": 953
   },
   {
-   "oid": "7158331-1795179769",
-   "id": "7158331",
-   "q": "Sumqayit FK vs. Sabah Masazir: O/U 0.5",
+   "oid": "7021781-1795183365",
+   "id": "7021781",
+   "q": "Spread: Ajman Club (-2.5)",
    "cat": "deportes",
    "rule": "deportes_previo",
-   "event": "1419987",
-   "side": 0,
-   "token": "78752026922732297664626796297014988553699630755290444222457258027387508738328",
-   "px": 0.968,
-   "tick": 0.001,
-   "mid": 0.9645,
-   "bid": 0.96,
-   "ask": 0.969,
-   "shares": 95.165,
-   "cost": 92.1198,
-   "ts": 1795179769.851355,
-   "end_ts": 1795186800.0,
-   "hours": 1.95,
-   "liq": 2062
-  },
-  {
-   "oid": "7158338-1795179769",
-   "id": "7158338",
-   "q": "Sumqayit FK vs. Sabah Masazir: O/U 7.5",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1419987",
+   "event": "1381682",
    "side": 1,
-   "token": "34183387337011135961691542793579761470143352588616870513616429603176770050934",
-   "px": 0.998,
+   "token": "15289005448125954308730444383214420899030977702223773764833683028142439809633",
+   "px": 0.983,
    "tick": 0.001,
-   "mid": 0.9845,
-   "bid": 0.97,
-   "ask": 0.999,
-   "shares": 17.365,
+   "mid": 0.9795,
+   "bid": 0.975,
+   "ask": 0.984,
+   "shares": 17.63,
    "cost": 17.3303,
-   "ts": 1795179769.851355,
-   "end_ts": 1795186800.0,
-   "hours": 1.95,
-   "liq": 2309
+   "ts": 1795183365.317117,
+   "end_ts": 1795188300.0,
+   "hours": 1.37,
+   "liq": 4702
   }
  ],
  "positions": [
@@ -335,6 +293,52 @@
    "mark": 0.98,
    "stuck": false,
    "disputed": false
+  },
+  {
+   "oid": "6096676-1795179769",
+   "id": "6096676",
+   "q": "Will UMich Consumer Sentiment be below 40.0 in November?",
+   "cat": "otros",
+   "rule": "otros_cierre",
+   "event": "1242771",
+   "side": 1,
+   "token": "20623904263975136797810696795692787452847227396557488015547454292435487980866",
+   "px": 0.996,
+   "tick": 0.001,
+   "mid": 0.994,
+   "bid": 0.991,
+   "ask": 0.997,
+   "shares": 92.4897,
+   "cost": 92.1198,
+   "ts": 1795179769.851355,
+   "end_ts": 1795186800.0,
+   "hours": 1.95,
+   "liq": 1051,
+   "fill_ts": 1795183365.317117,
+   "mark": 0.996
+  },
+  {
+   "oid": "7158331-1795179769",
+   "id": "7158331",
+   "q": "Sumqayit FK vs. Sabah Masazir: O/U 0.5",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1419987",
+   "side": 0,
+   "token": "78752026922732297664626796297014988553699630755290444222457258027387508738328",
+   "px": 0.968,
+   "tick": 0.001,
+   "mid": 0.9645,
+   "bid": 0.96,
+   "ask": 0.969,
+   "shares": 95.165,
+   "cost": 92.1198,
+   "ts": 1795179769.851355,
+   "end_ts": 1795186800.0,
+   "hours": 1.95,
+   "liq": 2062,
+   "fill_ts": 1795183365.317117,
+   "mark": 0.968
   }
  ],
  "closed": [
@@ -5712,14 +5716,27 @@
    "placed": 4,
    "shadow_open": 2973,
    "shadow_closed": 27
+  },
+  {
+   "ts": "2026-11-20T14:05:14Z",
+   "equity": 921.2,
+   "cash": -0.0,
+   "orders": 9,
+   "positions": 6,
+   "closed": 121,
+   "scanned": 29596,
+   "candidates": 1051,
+   "placed": 2,
+   "shadow_open": 2985,
+   "shadow_closed": 11
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 283,
-  "filled": 125,
+  "placed": 285,
+  "filled": 127,
   "expired": 30,
-  "touched_not_filled": 117
+  "touched_not_filled": 119
  },
  "shadow": [
   {
@@ -20894,149 +20911,6 @@
    "touched": 1
   },
   {
-   "id": "6742174",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "101440263237816351713368234810901855187316997527226337136417989896867620398386",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795096931,
-   "end_ts": 1795110300,
-   "q": "Paris FC vs. HB Køge: O/U 8.5",
-   "touched": null
-  },
-  {
-   "id": "7169408",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "36458728554567451586568423272892370328709519606397987096681105931820009411430",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795096931,
-   "end_ts": 1795112100,
-   "q": "Games Total: O/U 2.5",
-   "touched": null
-  },
-  {
-   "id": "6784074",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "63942944953814107891193405869941690205187212929223051324366761672035833948516",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795096931,
-   "end_ts": 1795127400,
-   "q": "CR Vasco da Gama vs. SC Internacional: O/U 8.5",
-   "touched": null
-  },
-  {
-   "id": "6784171",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "39782290625992839348132767561262334759636455552048827832542161053182903857032",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795096931,
-   "end_ts": 1795127400,
-   "q": "EC Vitória vs. Red Bull Bragantino: O/U 8.5",
-   "touched": null
-  },
-  {
-   "id": "7143274",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 0,
-   "token": "107633176377959189737709008051946336273366070993112514585489220210479713469024",
-   "px": 0.95,
-   "tick": 0.01,
-   "ts": 1795096931,
-   "end_ts": 1795122000,
-   "q": "Will Microsoft (MSFT) close above $500 on November 19?",
-   "touched": null
-  },
-  {
-   "id": "7143314",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 0,
-   "token": "861730061354838457863190567362208219796792667009258761410293610458818377241",
-   "px": 0.972,
-   "tick": 0.001,
-   "ts": 1795096931,
-   "end_ts": 1795122000,
-   "q": "Will Meta (META) close above $600 on November 19?",
-   "touched": null
-  },
-  {
-   "id": "7143321",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 0,
-   "token": "47561095778880187141149252542126855240718029632351745401711967999475545515076",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795096931,
-   "end_ts": 1795122000,
-   "q": "Will Tesla (TSLA) close above $370 on November 19?",
-   "touched": null
-  },
-  {
-   "id": "6639710",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "39983378027330078945766051371284408392338913046557881143746685530939681838064",
-   "px": 0.96,
-   "tick": 0.01,
-   "ts": 1795096931,
-   "end_ts": 1795137300,
-   "q": "Colts vs. Texans: O/U 64.5",
-   "touched": null
-  },
-  {
-   "id": "7015850",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "86693477596674124186721757954013805374590300102095486623404299481561150356267",
-   "px": 0.989,
-   "tick": 0.001,
-   "ts": 1795096931,
-   "end_ts": 1795140000,
-   "q": "Long Beach State Beach vs. San Francisco Dons (W)",
-   "touched": null
-  },
-  {
-   "id": "7151939",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "31175843411920347944030275290380143123135250555684475554359570339319047648837",
-   "px": 0.96,
-   "tick": 0.01,
-   "ts": 1795096931,
-   "end_ts": 1795135500,
-   "q": "Spread: Deportes Quindio (-2.5)",
-   "touched": null
-  },
-  {
-   "id": "7165532",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "40935356277881848047464677289215300386300896450763246701431955716834217368162",
-   "px": 0.97,
-   "tick": 0.01,
-   "ts": 1795096931,
-   "end_ts": 1795150800,
-   "q": "Will Solana dip to $70 on November 19?",
-   "touched": null
-  },
-  {
    "id": "7120384",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -21047,7 +20921,7 @@
    "ts": 1795096931,
    "end_ts": 1795174500,
    "q": "Spread: Beijing Guoan (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136536",
@@ -21060,7 +20934,7 @@
    "ts": 1795096931,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Istanbul be 20°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7136585",
@@ -21073,7 +20947,7 @@
    "ts": 1795096931,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Helsinki be 7°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7141564",
@@ -21086,7 +20960,7 @@
    "ts": 1795096931,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Toronto be 18°C on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6760439",
@@ -21099,7 +20973,7 @@
    "ts": 1795096931,
    "end_ts": 1795199400,
    "q": "FCV Farul Constanţa vs. FC Universitatea Cluj: Neither team to score first?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6773171",
@@ -21112,7 +20986,7 @@
    "ts": 1795096931,
    "end_ts": 1795203000,
    "q": "FC Bayern München vs. 1. FC Köln: O/U 1.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6786403",
@@ -21125,7 +20999,7 @@
    "ts": 1795096931,
    "end_ts": 1795199400,
    "q": "FCV Farul Constanţa vs. FC Universitatea Cluj: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6804950",
@@ -21138,7 +21012,7 @@
    "ts": 1795096931,
    "end_ts": 1795197600,
    "q": "Spread: Lyngby BK (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6816718",
@@ -21151,7 +21025,7 @@
    "ts": 1795096931,
    "end_ts": 1795201200,
    "q": "FC Metz vs. US Boulogne Côte d'Opale: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6816784",
@@ -21164,7 +21038,7 @@
    "ts": 1795096931,
    "end_ts": 1795201200,
    "q": "Red Star FC vs. Pau FC: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6816830",
@@ -21177,7 +21051,7 @@
    "ts": 1795096931,
    "end_ts": 1795201200,
    "q": "En Avant Guingamp vs. Rodez Aveyron Football: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6816831",
@@ -21190,7 +21064,7 @@
    "ts": 1795096931,
    "end_ts": 1795201200,
    "q": "En Avant Guingamp vs. Rodez Aveyron Football: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7025115",
@@ -21203,7 +21077,7 @@
    "ts": 1795096931,
    "end_ts": 1795208400,
    "q": "Will NVIDIA (NVDA) close at $175-$180 on the final day of trading of the week of Nov 16 – ",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6850609",
@@ -21216,7 +21090,7 @@
    "ts": 1795096931,
    "end_ts": 1795264200,
    "q": "Norwich City FC vs. Cardiff City FC: O/U 0.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6850648",
@@ -21229,7 +21103,7 @@
    "ts": 1795096931,
    "end_ts": 1795264200,
    "q": "Spread: Derby County FC (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6837446",
@@ -21242,7 +21116,7 @@
    "ts": 1795096931,
    "end_ts": 1795282200,
    "q": "FC Schalke 04 vs. VfB Stuttgart: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6655555",
@@ -21255,7 +21129,7 @@
    "ts": 1795096931,
    "end_ts": 1795323540,
    "q": "Will the next Meta Muse Spark model be released on November 21, 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6891498",
@@ -21268,7 +21142,7 @@
    "ts": 1795096931,
    "end_ts": 1795356000,
    "q": "Hull City AFC vs. Brighton & Hove Albion FC: Neither team to score first?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6893580",
@@ -21281,7 +21155,7 @@
    "ts": 1795096931,
    "end_ts": 1795356000,
    "q": "Spread: Hull City AFC (-1.5)",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6893586",
@@ -21294,7 +21168,7 @@
    "ts": 1795096931,
    "end_ts": 1795356000,
    "q": "Spread: Hull City AFC (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6893616",
@@ -21307,7 +21181,7 @@
    "ts": 1795096931,
    "end_ts": 1795356000,
    "q": "Hull City AFC vs. Brighton & Hove Albion FC: O/U 0.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6893639",
@@ -21320,7 +21194,7 @@
    "ts": 1795096931,
    "end_ts": 1795356000,
    "q": "Hull City AFC vs. Brighton & Hove Albion FC: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6893787",
@@ -21333,7 +21207,7 @@
    "ts": 1795096931,
    "end_ts": 1795356000,
    "q": "Spread: Angers SCO (-1.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6893805",
@@ -21346,7 +21220,7 @@
    "ts": 1795096931,
    "end_ts": 1795356000,
    "q": "Paris FC vs. Angers SCO: O/U 0.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7069781",
@@ -21359,7 +21233,7 @@
    "ts": 1795096931,
    "end_ts": 1795354200,
    "q": "Will FC Lokomotiv 1929 Sofia win on 2026-11-22?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7113054",
@@ -44369,6 +44243,305 @@
    "ts": 1795179769,
    "end_ts": 1795363200,
    "q": "Will Eyüpspor win on 2026-11-22?",
+   "touched": null
+  },
+  {
+   "id": "7177155",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "27043354824950675203155914193695880997641103643444038643873145613464578525337",
+   "px": 0.988,
+   "tick": 0.001,
+   "ts": 1795183365,
+   "end_ts": 1795194005,
+   "q": "Will MrBeast's next video get between 88 and 89 million views on day 6?",
+   "touched": null
+  },
+  {
+   "id": "5194295",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "40415945800727745241809085862769266824405935205020860953471214601689195084918",
+   "px": 0.986,
+   "tick": 0.001,
+   "ts": 1795183365,
+   "end_ts": 1795195800,
+   "q": "Spread: Al Ahli Saudi Club (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "7025094",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "59492951517829503043104841833112855718875633926542639408204408150899908484106",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795183365,
+   "end_ts": 1795208400,
+   "q": "Will Tesla, Inc. (TSLA) hit (LOW) $367.50 Week of November 16 2026?",
+   "touched": null
+  },
+  {
+   "id": "7172304",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "59124487136122397318932049798076300343480012284298912562401687564056347591959",
+   "px": 0.96,
+   "tick": 0.01,
+   "ts": 1795183365,
+   "end_ts": 1795208400,
+   "q": "Will Meta (META) close above $610 on November 20?",
+   "touched": null
+  },
+  {
+   "id": "7177178",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "56106381733577131485140182144993566278291448220445892691766975614186087276108",
+   "px": 0.987,
+   "tick": 0.001,
+   "ts": 1795183365,
+   "end_ts": 1795212000,
+   "q": "Will Silver (XAGUSD) hit (LOW) $39 Week of November 16 2026?",
+   "touched": null
+  },
+  {
+   "id": "7182836",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "13680035089503258236521612923592219594253298748628567659975370790317485209467",
+   "px": 0.96,
+   "tick": 0.01,
+   "ts": 1795183365,
+   "end_ts": 1795215540,
+   "q": "Will IShowSpeed finish GTA VI by November 20, 5:59 PM ET?",
+   "touched": null
+  },
+  {
+   "id": "7015895",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "83711184178956607911067340755660807206131417478421328845874946706582271583834",
+   "px": 0.97,
+   "tick": 0.01,
+   "ts": 1795183365,
+   "end_ts": 1795222800,
+   "q": "New Orleans Privateers vs. Oral Roberts Golden Eagles (W)",
+   "touched": null
+  },
+  {
+   "id": "7186248",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "4372081700388843519608725991577269194918199218641464129330821157204930626988",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1795183365,
+   "end_ts": 1795222800,
+   "q": "Isaac Okoro: Assists O/U 5.5",
+   "touched": null
+  },
+  {
+   "id": "6820602",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "98515857412171703093051037181898730086716968130061154202601699507115109020803",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795183365,
+   "end_ts": 1795237200,
+   "q": "Spread: Pohang Steelers FC (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "6820337",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "42563190382527407085543145802424129238743635619918676405518622378183686653859",
+   "px": 0.988,
+   "tick": 0.001,
+   "ts": 1795183365,
+   "end_ts": 1795246200,
+   "q": "Spread: Gangwon FC (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "6804061",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "583419560728974611405834194602105151808763271638076937446910921056170111572",
+   "px": 0.99,
+   "tick": 0.001,
+   "ts": 1795183365,
+   "end_ts": 1795266000,
+   "q": "Amed Sportif vs. Çaykur Rizespor: Neither team to score first?",
+   "touched": null
+  },
+  {
+   "id": "6853323",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "101934507933322734917318550221609838495677804784149684047378695046079021442923",
+   "px": 0.97,
+   "tick": 0.01,
+   "ts": 1795183365,
+   "end_ts": 1795264200,
+   "q": "Solihull Moors FC vs. Altrincham FC: O/U 0.5",
+   "touched": null
+  },
+  {
+   "id": "6858553",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "23207482731678374338548642098645236992548009148437445284334336757278346709456",
+   "px": 0.95,
+   "tick": 0.01,
+   "ts": 1795183365,
+   "end_ts": 1795285800,
+   "q": "Dinamo 1948 vs. FC Petrolul Ploieşti: O/U 0.5",
+   "touched": null
+  },
+  {
+   "id": "6822724",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "3318134545490760226895263163820209892641995887593496278912754438225731286491",
+   "px": 0.973,
+   "tick": 0.001,
+   "ts": 1795183365,
+   "end_ts": 1795293000,
+   "q": "Spread: Washington (-14.5)",
+   "touched": null
+  },
+  {
+   "id": "6899806",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "5168183670035856598833458943944054811341647476161290430077663772859050480038",
+   "px": 0.99,
+   "tick": 0.001,
+   "ts": 1795183365,
+   "end_ts": 1795302000,
+   "q": "Spread: Club Santos Laguna (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "6822376",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "16278712423387954176672708901475061491539842515347772006903140140951451179725",
+   "px": 0.96,
+   "tick": 0.01,
+   "ts": 1795183365,
+   "end_ts": 1795309200,
+   "q": "UTSA vs. UAB: O/U 75.5",
+   "touched": null
+  },
+  {
+   "id": "6896188",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "38640423278283767257898538522503049815420567368485562230322652658242787834758",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1795183365,
+   "end_ts": 1795346100,
+   "q": "FC Twente vs. Willem II Tilburg: O/U 0.5",
+   "touched": null
+  },
+  {
+   "id": "6898357",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "3568258851856739834526825517424689472876362812969374601833188498838668402209",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795183365,
+   "end_ts": 1795352400,
+   "q": "Spread: Villarreal CF (-1.5)",
+   "touched": null
+  },
+  {
+   "id": "7190268",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "15146698163844804912343446824592425009415296894569459080778615311571102105579",
+   "px": 0.993,
+   "tick": 0.001,
+   "ts": 1795183365,
+   "end_ts": 1795348800,
+   "q": "Will the highest temperature in Paris be 12°C on November 22?",
+   "touched": null
+  },
+  {
+   "id": "7190334",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "16116390225686364289318769502327641373036699263692241848047866084358400707324",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795183365,
+   "end_ts": 1795348800,
+   "q": "Will the highest temperature in Munich be 8°C on November 22?",
+   "touched": null
+  },
+  {
+   "id": "7190403",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "111713060662407048838610497727890574602910677768036646498572412601649899599885",
+   "px": 0.978,
+   "tick": 0.001,
+   "ts": 1795183365,
+   "end_ts": 1795348800,
+   "q": "Will the highest temperature in Milan be 6°C on November 22?",
+   "touched": null
+  },
+  {
+   "id": "6898322",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "110672347912080464563031321897310310435254628787000251407825467697758625534747",
+   "px": 0.996,
+   "tick": 0.001,
+   "ts": 1795183365,
+   "end_ts": 1795360500,
+   "q": "Real Racing Club vs. Real Sociedad de Fútbol: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "7015954",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "20786837973591319441629012323569386800600476683535760291223438173796733361713",
+   "px": 0.987,
+   "tick": 0.001,
+   "ts": 1795183365,
+   "end_ts": 1795384800,
+   "q": "Wichita State Shockers vs. Oklahoma State Cowboys (W)",
    "touched": null
   }
  ]
