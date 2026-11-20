@@ -269,7 +269,9 @@
    "hours": 3.96,
    "liq": 1707,
    "fill_ts": 1795140069.05154,
-   "mark": 0.993
+   "mark": 0.993,
+   "stuck": false,
+   "disputed": false
   }
  ],
  "closed": [
@@ -4287,6 +4289,19 @@
    "placed": 2,
    "shadow_open": 339,
    "shadow_closed": 5
+  },
+  {
+   "ts": "2026-11-20T02:23:30Z",
+   "equity": 1047.3,
+   "cash": 419.47,
+   "orders": 8,
+   "positions": 4,
+   "closed": 64,
+   "scanned": 12286,
+   "candidates": 135,
+   "placed": 0,
+   "shadow_open": 341,
+   "shadow_closed": 1
   }
  ],
  "halted": false,
@@ -5858,19 +5873,6 @@
    "touched": 1
   },
   {
-   "id": "7121711",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 0,
-   "token": "78799233013272044072101427770344527440660267982175167362619433712567877626929",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1795096877,
-   "end_ts": 1795107600,
-   "q": "Solana Up or Down on November 19?",
-   "touched": null
-  },
-  {
    "id": "6784074",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -5881,7 +5883,7 @@
    "ts": 1795096877,
    "end_ts": 1795127400,
    "q": "CR Vasco da Gama vs. SC Internacional: O/U 8.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6784171",
@@ -5894,7 +5896,7 @@
    "ts": 1795096877,
    "end_ts": 1795127400,
    "q": "EC Vitória vs. Red Bull Bragantino: O/U 8.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7152126",
@@ -5907,7 +5909,7 @@
    "ts": 1795096877,
    "end_ts": 1795127400,
    "q": "Union Magdalena vs. Boca Juniors de Cali: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7151961",
@@ -5920,7 +5922,7 @@
    "ts": 1795096877,
    "end_ts": 1795135500,
    "q": "Real Cundinamarca vs. Deportes Quindio: O/U 5.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7152044",
@@ -5933,7 +5935,7 @@
    "ts": 1795096877,
    "end_ts": 1795135500,
    "q": "Real Cartagena FC vs. Tigres FC: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7021894",
@@ -5946,7 +5948,7 @@
    "ts": 1795096877,
    "end_ts": 1795176000,
    "q": "Spread: Persita Tangerang (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6771197",
@@ -5959,7 +5961,7 @@
    "ts": 1795096877,
    "end_ts": 1795203000,
    "q": "Will 1. FC Köln win on 2026-11-20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6773149",
@@ -5972,7 +5974,7 @@
    "ts": 1795096877,
    "end_ts": 1795203000,
    "q": "Spread: 1. FC Köln (-1.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6773154",
@@ -5985,7 +5987,7 @@
    "ts": 1795096877,
    "end_ts": 1795203000,
    "q": "Spread: 1. FC Köln (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6773158",
@@ -5998,7 +6000,7 @@
    "ts": 1795096877,
    "end_ts": 1795203000,
    "q": "Spread: 1. FC Köln (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6773168",
@@ -6011,7 +6013,7 @@
    "ts": 1795096877,
    "end_ts": 1795203000,
    "q": "FC Bayern München vs. 1. FC Köln: O/U 0.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6773178",
@@ -6024,7 +6026,7 @@
    "ts": 1795096877,
    "end_ts": 1795203900,
    "q": "ES Troyes AC vs. Le Havre AC: O/U 6.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6773202",
@@ -6037,7 +6039,7 @@
    "ts": 1795096877,
    "end_ts": 1795203000,
    "q": "FC Bayern München vs. 1. FC Köln: FC Bayern München O/U 0.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6775371",
@@ -6050,7 +6052,7 @@
    "ts": 1795096877,
    "end_ts": 1795204800,
    "q": "Spread: RCD Espanyol de Barcelona (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6775377",
@@ -6063,7 +6065,7 @@
    "ts": 1795096877,
    "end_ts": 1795204800,
    "q": "Spread: RCD Espanyol de Barcelona (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6775415",
@@ -6076,7 +6078,7 @@
    "ts": 1795096877,
    "end_ts": 1795204800,
    "q": "Athletic Club vs. RCD Espanyol de Barcelona: O/U 6.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6786403",
@@ -6089,7 +6091,7 @@
    "ts": 1795096877,
    "end_ts": 1795199400,
    "q": "FCV Farul Constanţa vs. FC Universitatea Cluj: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6804964",
@@ -6102,7 +6104,7 @@
    "ts": 1795096877,
    "end_ts": 1795197600,
    "q": "Aarhus GF vs. Lyngby BK: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6816718",
@@ -6115,7 +6117,7 @@
    "ts": 1795096877,
    "end_ts": 1795201200,
    "q": "FC Metz vs. US Boulogne Côte d'Opale: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7121713",
@@ -8702,6 +8704,45 @@
    "ts": 1795140069,
    "end_ts": 1795240800,
    "q": "Kawasaki Frontale vs. Avispa Fukuoka: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6870020",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "99741431320168028007246154014463972433903062293421166951900443917278589988988",
+   "px": 0.974,
+   "tick": 0.001,
+   "ts": 1795141349,
+   "end_ts": 1795237200,
+   "q": "Sanfrecce Hiroshima vs. Yokohama F·Marinos: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6870158",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "32066542946343565532531394044204031453302435489265617700107679208734543923535",
+   "px": 0.991,
+   "tick": 0.001,
+   "ts": 1795141349,
+   "end_ts": 1795237200,
+   "q": "FC Machida Zelvia vs. V-Varen Nagasaki: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6869864",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "8181081183486473574968327979587411029781787514195420364246432066016886276404",
+   "px": 0.991,
+   "tick": 0.001,
+   "ts": 1795141349,
+   "end_ts": 1795244400,
+   "q": "Gamba Ōsaka vs. Fagiano Okayama: O/U 7.5",
    "touched": null
   }
  ]

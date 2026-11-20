@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 6.5 de 28 | corridas: 126
-- Capital inicial: $1,000.00 | valor actual: $905.29 | P&L: $-94.71 (-9.47%)
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 6.5 de 28 | corridas: 127
+- Capital inicial: $1,000.00 | valor actual: $906.92 | P&L: $-93.08 (-9.31%)
 - Efectivo libre: $0.00 | en ordenes abiertas: $287.68 (5) | en posiciones: $622.44 (9)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 263 colocadas, 119 llenadas, 111 tocadas sin llenarse (sorteo 30%), 28 expiradas
+- Ordenes virtuales: 264 colocadas, 119 llenadas, 112 tocadas sin llenarse (sorteo 30%), 28 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -35,7 +35,7 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 | $87.27 | 99.8c | 98.5c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
 | $90.38 | 96.9c | 96.7c | deportes_previo |  | Stetson Hatters vs. UCF Knights (W) |
 | $39.56 | 99.6c | 99.2c | deportes_previo |  | Spread: São Paulo FC (-3.5) |
-| $88.92 | 95.6c | 96.5c | deportes_previo |  | Spread: Colts (-7.5) |
+| $88.92 | 95.6c | 98.2c | deportes_previo |  | Spread: Colts (-7.5) |
 | $47.90 | 95.9c | 95.9c | deportes_previo |  | Will C.J. Stroud score the first touchdown? |
 | $56.72 | 99.1c | 99.2c | otros_cierre |  | Will the next Claude Opus model (5.6+) be released on November 19, 2026? |
 | $84.55 | 99.6c | 99.3c | otros_cierre |  | Will the next Meta Muse Spark model be released on November 19, 2026? |
@@ -44,7 +44,7 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 6063 | abiertas: 2475 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 6063 | abiertas: 2490 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
