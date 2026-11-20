@@ -1,6 +1,6 @@
 {
  "capital0": 1000.0,
- "cash": 421.0042,
+ "cash": 421.2399,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
   {
@@ -151,25 +151,25 @@
    "liq": 24630
   },
   {
-   "oid": "7018476-1795168880",
-   "id": "7018476",
-   "q": "Will the price of Bitcoin be above $58,000 on November 20?",
+   "oid": "7170279-1795169497",
+   "id": "7170279",
+   "q": "XRP Up or Down - November 20, 5:00AM-5:15AM ET",
    "cat": "cripto",
    "rule": "cripto_cierre",
-   "event": "1380671",
+   "event": "1423658",
    "side": 0,
-   "token": "100988832313917793924531670747964571498221785586144778608192340204227884687124",
-   "px": 0.988,
+   "token": "65292130008846689454868576139236618569490188453642384286038912397599066243623",
+   "px": 0.993,
    "tick": 0.001,
-   "mid": 0.9885,
-   "bid": 0.988,
-   "ask": 0.989,
-   "shares": 53.0818,
-   "cost": 52.4448,
-   "ts": 1795168880.577314,
-   "end_ts": 1795194000.0,
-   "hours": 6.98,
-   "liq": 69328
+   "mid": 0.9935,
+   "bid": 0.99,
+   "ask": 0.997,
+   "shares": 52.5771,
+   "cost": 52.2091,
+   "ts": 1795169497.822847,
+   "end_ts": 1795169700.0,
+   "hours": 0.06,
+   "liq": 1690
   }
  ],
  "positions": [
@@ -219,7 +219,7 @@
    "hours": 8.65,
    "liq": 2607,
    "fill_ts": 1795147270.041668,
-   "mark": 0.97,
+   "mark": 0.95,
    "stuck": false,
    "disputed": false
   },
@@ -269,7 +269,9 @@
    "hours": 7.98,
    "liq": 30714,
    "fill_ts": 1795168880.577314,
-   "mark": 0.991
+   "mark": 0.989,
+   "stuck": false,
+   "disputed": false
   }
  ],
  "closed": [
@@ -4524,14 +4526,27 @@
    "placed": 1,
    "shadow_open": 476,
    "shadow_closed": 1
+  },
+  {
+   "ts": "2026-11-20T10:12:57Z",
+   "equity": 1048.02,
+   "cash": 421.24,
+   "orders": 8,
+   "positions": 4,
+   "closed": 68,
+   "scanned": 16488,
+   "candidates": 337,
+   "placed": 1,
+   "shadow_open": 488,
+   "shadow_closed": 0
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 300,
+  "placed": 301,
   "filled": 72,
   "expired": 72,
-  "touched_not_filled": 148
+  "touched_not_filled": 149
  },
  "shadow": [
   {
@@ -10720,6 +10735,162 @@
    "ts": 1795168880,
    "end_ts": 1795274100,
    "q": "Rayo Vallecano de Madrid vs. Valencia CF: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "7170279",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "65292130008846689454868576139236618569490188453642384286038912397599066243623",
+   "px": 0.993,
+   "tick": 0.001,
+   "ts": 1795169497,
+   "end_ts": 1795169700,
+   "q": "XRP Up or Down - November 20, 5:00AM-5:15AM ET",
+   "touched": null
+  },
+  {
+   "id": "7170281",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "91765630899045156911327722689759749765017471339176866699132730015718431251450",
+   "px": 0.99,
+   "tick": 0.001,
+   "ts": 1795169497,
+   "end_ts": 1795169700,
+   "q": "Ethereum Up or Down - November 20, 5:00AM-5:15AM ET",
+   "touched": null
+  },
+  {
+   "id": "7194168",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "113831318845124332304143524993519686126001075742679197083840893642782983529305",
+   "px": 0.984,
+   "tick": 0.001,
+   "ts": 1795169497,
+   "end_ts": 1795172400,
+   "q": "Ethereum above 1,770 on November 20, 6AM ET?",
+   "touched": null
+  },
+  {
+   "id": "6838885",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "20931459602896337420881684467943000554281486041473010311479246183587500473213",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1795169497,
+   "end_ts": 1795207500,
+   "q": "Spread: USC Paredes (-1.5)",
+   "touched": null
+  },
+  {
+   "id": "6857488",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "42712996825523989457220266785068399877838918702232363963934865447803617640684",
+   "px": 0.991,
+   "tick": 0.001,
+   "ts": 1795169497,
+   "end_ts": 1795217400,
+   "q": "CD Palestino vs. CD Unión La Calera: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "7175699",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "12385593955585285526435959467782203109516041806989408002304185576889382371572",
+   "px": 0.974,
+   "tick": 0.001,
+   "ts": 1795169497,
+   "end_ts": 1795237140,
+   "q": "Will IShowSpeed finish GTA VI by November 20?",
+   "touched": null
+  },
+  {
+   "id": "6864360",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "5568262928468134121155276532358564777218884909561428676036689123067316908519",
+   "px": 0.973,
+   "tick": 0.001,
+   "ts": 1795169497,
+   "end_ts": 1795266000,
+   "q": "Spread: Samsunspor (-1.5)",
+   "touched": null
+  },
+  {
+   "id": "6837709",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "78777107573526548435977989393747048197520552043867453250958794265086581796593",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795169497,
+   "end_ts": 1795273200,
+   "q": "AFC Bournemouth vs. Nottingham Forest FC: O/U 8.5",
+   "touched": null
+  },
+  {
+   "id": "6838117",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "50485969503376655852686019581205890060986719276318256974417836232446042445507",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795169497,
+   "end_ts": 1795273200,
+   "q": "Tottenham Hotspur FC vs. Ipswich Town FC: O/U 8.5",
+   "touched": null
+  },
+  {
+   "id": "6838293",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "2975535985157006842462033876377508640555653460279921678377881618953212061759",
+   "px": 0.996,
+   "tick": 0.001,
+   "ts": 1795169497,
+   "end_ts": 1795273200,
+   "q": "Coventry City FC vs. Crystal Palace FC: O/U 8.5",
+   "touched": null
+  },
+  {
+   "id": "6838414",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "77427053403898704625768479095135728431583908518546804460193738067358147894763",
+   "px": 0.991,
+   "tick": 0.001,
+   "ts": 1795169497,
+   "end_ts": 1795273200,
+   "q": "Aston Villa FC vs. Sunderland AFC: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6838415",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "99011869168355613835681439843972130092192848930492032845039599060733248535793",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795169497,
+   "end_ts": 1795273200,
+   "q": "Aston Villa FC vs. Sunderland AFC: O/U 8.5",
    "touched": null
   }
  ]
