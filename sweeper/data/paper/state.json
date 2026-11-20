@@ -1,6 +1,6 @@
 {
  "capital0": 1000.0,
- "cash": 421.2856,
+ "cash": 421.4997,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
   {
@@ -151,25 +151,46 @@
    "liq": 40120
   },
   {
-   "oid": "7018420-1795158072",
-   "id": "7018420",
-   "q": "Will the price of Ethereum be above $1,600 on November 20?",
+   "oid": "7165605-1795161670",
+   "id": "7165605",
+   "q": "Ethereum Up or Down - November 20, 12:00AM-4:00AM ET",
    "cat": "cripto",
    "rule": "cripto_cierre",
-   "event": "1380664",
+   "event": "1422117",
    "side": 0,
-   "token": "32635499720565842203298580382495833961626059900312770025873429062687891330219",
-   "px": 0.983,
+   "token": "96070024940705763691389154919990769255572255771926850322843630791114646696568",
+   "px": 0.98,
    "tick": 0.001,
-   "mid": 0.983,
-   "bid": 0.982,
+   "mid": 0.98,
+   "bid": 0.976,
    "ask": 0.984,
-   "shares": 53.3224,
-   "cost": 52.416,
-   "ts": 1795158072.689395,
-   "end_ts": 1795194000.0,
-   "hours": 9.98,
-   "liq": 18530
+   "shares": 53.5388,
+   "cost": 52.468,
+   "ts": 1795161670.730947,
+   "end_ts": 1795165200.0,
+   "hours": 0.98,
+   "liq": 1261
+  },
+  {
+   "oid": "6096676-1795161670",
+   "id": "6096676",
+   "q": "Will UMich Consumer Sentiment be below 40.0 in November?",
+   "cat": "otros",
+   "rule": "otros_cierre",
+   "event": "1242771",
+   "side": 1,
+   "token": "20623904263975136797810696795692787452847227396557488015547454292435487980866",
+   "px": 0.994,
+   "tick": 0.001,
+   "mid": 0.994,
+   "bid": 0.991,
+   "ask": 0.997,
+   "shares": 52.7847,
+   "cost": 52.468,
+   "ts": 1795161670.730947,
+   "end_ts": 1795186800.0,
+   "hours": 6.98,
+   "liq": 1209
   }
  ],
  "positions": [
@@ -195,31 +216,6 @@
    "liq": 1203,
    "fill_ts": 1794967266.068418,
    "mark": 0.984,
-   "stuck": false,
-   "disputed": false
-  },
-  {
-   "oid": "6655553-1795136467",
-   "id": "6655553",
-   "q": "Will the next Meta Muse Spark model be released on November 19, 2026?",
-   "cat": "otros",
-   "rule": "otros_cierre",
-   "event": "1310057",
-   "side": 1,
-   "token": "61545072629314719721608624072355765745520967478130111694018147545445451004083",
-   "px": 0.993,
-   "tick": 0.001,
-   "mid": 0.993,
-   "bid": 0.989,
-   "ask": 0.997,
-   "shares": 52.7341,
-   "cost": 52.365,
-   "ts": 1795136467.607081,
-   "end_ts": 1795150740.0,
-   "hours": 3.96,
-   "liq": 1707,
-   "fill_ts": 1795140069.05154,
-   "mark": 0.9935,
    "stuck": false,
    "disputed": false
   },
@@ -269,7 +265,7 @@
    "hours": 7.48,
    "liq": 1255,
    "fill_ts": 1795150868.009326,
-   "mark": 0.9745,
+   "mark": 0.9795,
    "stuck": false,
    "disputed": false
   }
@@ -2262,6 +2258,36 @@
    "result": 1.0,
    "closed_ts": "2026-11-20T06:01:16Z",
    "days": 0.46
+  },
+  {
+   "oid": "6655553-1795136467",
+   "id": "6655553",
+   "q": "Will the next Meta Muse Spark model be released on November 19, 2026?",
+   "cat": "otros",
+   "rule": "otros_cierre",
+   "event": "1310057",
+   "side": 1,
+   "token": "61545072629314719721608624072355765745520967478130111694018147545445451004083",
+   "px": 0.993,
+   "tick": 0.001,
+   "mid": 0.993,
+   "bid": 0.989,
+   "ask": 0.997,
+   "shares": 52.7341,
+   "cost": 52.365,
+   "ts": 1795136467.607081,
+   "end_ts": 1795150740.0,
+   "hours": 3.96,
+   "liq": 1707,
+   "fill_ts": 1795140069.05154,
+   "mark": 0.9935,
+   "stuck": false,
+   "disputed": false,
+   "payout": 52.7341,
+   "pnl": 0.3691,
+   "result": 1.0,
+   "closed_ts": "2026-11-20T08:01:11Z",
+   "days": 0.25
   }
  ],
  "runs": [
@@ -4457,14 +4483,27 @@
    "placed": 1,
    "shadow_open": 390,
    "shadow_closed": 11
+  },
+  {
+   "ts": "2026-11-20T08:02:29Z",
+   "equity": 1049.36,
+   "cash": 421.5,
+   "orders": 9,
+   "positions": 3,
+   "closed": 68,
+   "scanned": 14062,
+   "candidates": 244,
+   "placed": 2,
+   "shadow_open": 417,
+   "shadow_closed": 11
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 292,
+  "placed": 294,
   "filled": 71,
   "expired": 69,
-  "touched_not_filled": 144
+  "touched_not_filled": 145
  },
  "shadow": [
   {
@@ -4517,58 +4556,6 @@
    "ts": 1794820257,
    "end_ts": 1794924000,
    "q": "Will Indonesia win on 2026-11-17?",
-   "touched": 1
-  },
-  {
-   "id": "6635053",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "111430507955114771158387147438956138815686040132870171769777151707709375933490",
-   "px": 0.99,
-   "tick": 0.001,
-   "ts": 1794870072,
-   "end_ts": 1794924000,
-   "q": "Indonesia leading at halftime?",
-   "touched": 0
-  },
-  {
-   "id": "7091075",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "21394641041010568399548553943818211562114813038140984802808516589484474017629",
-   "px": 0.977,
-   "tick": 0.001,
-   "ts": 1794891671,
-   "end_ts": 1794944700,
-   "q": "Spread: Harborough Town FC (-2.5)",
-   "touched": 1
-  },
-  {
-   "id": "6635054",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "13130080823734230323289447917833111812783358407729139607218359668483793536655",
-   "px": 0.985,
-   "tick": 0.001,
-   "ts": 1794895269,
-   "end_ts": 1794924000,
-   "q": "Indonesia vs. Kuwait: Draw at halftime?",
-   "touched": 1
-  },
-  {
-   "id": "7091077",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "86912804476652588819948083601679099651058864995861361933704058256255037535207",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1794920473,
-   "end_ts": 1794944700,
-   "q": "Spread: Harborough Town FC (-3.5)",
    "touched": 1
   },
   {
@@ -4637,19 +4624,6 @@
    "touched": 1
   },
   {
-   "id": "7029428",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "41094492214739769044140066550844019564169877560204287916523888378654107565790",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795064473,
-   "end_ts": 1795150740,
-   "q": "Will the next Gemini Carbon model (4.1+) be released on November 19, 2026?",
-   "touched": 0
-  },
-  {
    "id": "6798191",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -4686,32 +4660,6 @@
    "ts": 1795064473,
    "end_ts": 1795164000,
    "q": "Western Sydney Wanderers FC vs. Adelaide United FC: O/U 7.5",
-   "touched": 0
-  },
-  {
-   "id": "6364889",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "106722321602090325771114368772935821614305056684555004356172584602845231368155",
-   "px": 0.987,
-   "tick": 0.001,
-   "ts": 1795068069,
-   "end_ts": 1795150740,
-   "q": "Will the next Claude Opus model (5.6+) be released on November 19, 2026?",
-   "touched": 0
-  },
-  {
-   "id": "6655553",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "61545072629314719721608624072355765745520967478130111694018147545445451004083",
-   "px": 0.992,
-   "tick": 0.001,
-   "ts": 1795068069,
-   "end_ts": 1795150740,
-   "q": "Will the next Meta Muse Spark model be released on November 19, 2026?",
    "touched": 0
   },
   {
@@ -6327,58 +6275,6 @@
    "touched": 1
   },
   {
-   "id": "7113029",
-   "rule": "post_fin_95_97",
-   "cat": "clima",
-   "side": 1,
-   "token": "114748680182296567901756236539272902504481851998448995636669323082975493859926",
-   "px": 0.957,
-   "tick": 0.001,
-   "ts": 1795118468,
-   "end_ts": 1795089600,
-   "q": "Will the highest temperature in New York City be between 66-67°F on November 19?",
-   "touched": null
-  },
-  {
-   "id": "7143276",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "78038266363190505158051498370668741920615938028778767302444776350016798828552",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795118468,
-   "end_ts": 1795122000,
-   "q": "Will Microsoft (MSFT) close above $510 on November 19?",
-   "touched": null
-  },
-  {
-   "id": "7143305",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "103577886803755275416482098344710069073047283766813332916100488396538677151628",
-   "px": 0.984,
-   "tick": 0.001,
-   "ts": 1795118468,
-   "end_ts": 1795122000,
-   "q": "Will Google (GOOGL) close above $285 on November 19?",
-   "touched": null
-  },
-  {
-   "id": "7165503",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "107063155159975879540640246396977002862057716345824421200280427811856302787168",
-   "px": 0.98,
-   "tick": 0.001,
-   "ts": 1795118468,
-   "end_ts": 1795150800,
-   "q": "Will Bitcoin reach $65,000 on November 19?",
-   "touched": null
-  },
-  {
    "id": "7018480",
    "rule": "cripto_cierre",
    "cat": "cripto",
@@ -6389,7 +6285,7 @@
    "ts": 1795118468,
    "end_ts": 1795194000,
    "q": "Will the price of Bitcoin be above $66,000 on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7177151",
@@ -6402,7 +6298,7 @@
    "ts": 1795118468,
    "end_ts": 1795194005,
    "q": "Will MrBeast's next video get less than 85 million views on day 6?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6771391",
@@ -6415,7 +6311,7 @@
    "ts": 1795118468,
    "end_ts": 1795203000,
    "q": "FC Bayern München vs. 1. FC Köln: Neither team to score first?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6804950",
@@ -6428,7 +6324,7 @@
    "ts": 1795118468,
    "end_ts": 1795197600,
    "q": "Spread: Lyngby BK (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6816863",
@@ -6441,7 +6337,7 @@
    "ts": 1795118468,
    "end_ts": 1795201200,
    "q": "Spread: Clermont Foot 63 (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6816909",
@@ -6454,7 +6350,7 @@
    "ts": 1795118468,
    "end_ts": 1795201200,
    "q": "Spread: Dijon Football Côte d'Or (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6816923",
@@ -6467,7 +6363,7 @@
    "ts": 1795118468,
    "end_ts": 1795201200,
    "q": "AS Nancy-Lorraine vs. Dijon Football Côte d'Or: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6817889",
@@ -6480,7 +6376,7 @@
    "ts": 1795118468,
    "end_ts": 1795203000,
    "q": "Spread: Cesena FC (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7116858",
@@ -6493,7 +6389,7 @@
    "ts": 1795118468,
    "end_ts": 1795215600,
    "q": "Spread: CA Belgrano (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7177143",
@@ -6506,7 +6402,7 @@
    "ts": 1795118468,
    "end_ts": 1795208400,
    "q": "Will Coinbase Global, Inc. (COIN) hit (LOW) $110 Week of November 16 2026?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6843662",
@@ -6519,7 +6415,7 @@
    "ts": 1795118468,
    "end_ts": 1795222800,
    "q": "Club Puebla vs. Atlético San Luis: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7118693",
@@ -6532,7 +6428,7 @@
    "ts": 1795118468,
    "end_ts": 1795217700,
    "q": "CA Bucaramanga vs. América de Cali: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7143232",
@@ -9535,6 +9431,500 @@
    "ts": 1795158072,
    "end_ts": 1795264200,
    "q": "Newport County AFC vs. Swindon Town FC: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "7165605",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "96070024940705763691389154919990769255572255771926850322843630791114646696568",
+   "px": 0.98,
+   "tick": 0.001,
+   "ts": 1795161670,
+   "end_ts": 1795165200,
+   "q": "Ethereum Up or Down - November 20, 12:00AM-4:00AM ET",
+   "touched": null
+  },
+  {
+   "id": "6783202",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "88640592492096900538356847196176491257529744569799525774570931116211830509620",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795161670,
+   "end_ts": 1795203900,
+   "q": "Southend United FC vs. Boreham Wood FC: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6816705",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "84153505782863111564143799607260851349240913047402845929097483172806020183452",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1795161670,
+   "end_ts": 1795201200,
+   "q": "Spread: US Boulogne Côte d'Opale (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "6997843",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "30079512452458260624598514766256431022369730872298016828070437835315566933252",
+   "px": 0.973,
+   "tick": 0.001,
+   "ts": 1795161670,
+   "end_ts": 1795204800,
+   "q": "1st Half Spread: RCD Espanyol de Barcelona (-1.5)",
+   "touched": null
+  },
+  {
+   "id": "7037186",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "113946399669458913806140044931808776650575085139879746745843558207700809889621",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795161670,
+   "end_ts": 1795201200,
+   "q": "Spread: Club NXT (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "7064659",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "3877465672427680316537676490333576526591910689236851627124175041205454503814",
+   "px": 0.972,
+   "tick": 0.001,
+   "ts": 1795161670,
+   "end_ts": 1795201200,
+   "q": "Jong FC Utrecht vs. FC Emmen: O/U 0.5",
+   "touched": null
+  },
+  {
+   "id": "7024894",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "34062279505796657405633401058665177355420149461839464825057360491085733168129",
+   "px": 0.974,
+   "tick": 0.001,
+   "ts": 1795161670,
+   "end_ts": 1795208400,
+   "q": "Will Apple (AAPL) hit (LOW) $332 Week of November 16 2026?",
+   "touched": null
+  },
+  {
+   "id": "7025129",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "92262600552416117755702262649550156362491329195044298793165485711205010106211",
+   "px": 0.99,
+   "tick": 0.001,
+   "ts": 1795161670,
+   "end_ts": 1795208400,
+   "q": "Will NVIDIA (NVDA) finish week of November 16 above $190?",
+   "touched": null
+  },
+  {
+   "id": "7027713",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "62948908937029225810833610378199908770464067346176615709448977573360955061862",
+   "px": 0.977,
+   "tick": 0.001,
+   "ts": 1795161670,
+   "end_ts": 1795215600,
+   "q": "Recoleta FC vs. Club Guarani Asuncion: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "7150877",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "106839317818863518282762664219516711512474348239146367930347752769370512116719",
+   "px": 0.984,
+   "tick": 0.001,
+   "ts": 1795161670,
+   "end_ts": 1795212000,
+   "q": "Will Gold (XAUUSD) hit (HIGH) $3,800 Week of November 16 2026?",
+   "touched": null
+  },
+  {
+   "id": "6998376",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "24446836609415511753020011368141155685645947975153698070459691911993452235846",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1795161670,
+   "end_ts": 1795219200,
+   "q": "Loyola Maryland Greyhounds vs. Virginia Cavaliers",
+   "touched": null
+  },
+  {
+   "id": "6819138",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "22555937414579095583057022611829727876602152158894488101441329599427905655401",
+   "px": 0.974,
+   "tick": 0.001,
+   "ts": 1795161670,
+   "end_ts": 1795237200,
+   "q": "Spread: Hokkaidō Consadole Sapporo (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "6843565",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "104384289487360244117837999207760116864711201344129551053053376099567653530343",
+   "px": 0.979,
+   "tick": 0.001,
+   "ts": 1795161670,
+   "end_ts": 1795230600,
+   "q": "Club Tijuana vs. Atlante FC: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "7029797",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "79982770036990719397119920057295497796312232458377415592026281843155255983096",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1795161670,
+   "end_ts": 1795237140,
+   "q": "Will ChatGPT be #1 Free App in the US Apple App Store on November 20?",
+   "touched": null
+  },
+  {
+   "id": "7029799",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "42763097603750628141620298738244143534672192283057705365813745176309169306612",
+   "px": 0.991,
+   "tick": 0.001,
+   "ts": 1795161670,
+   "end_ts": 1795237140,
+   "q": "Will Claude by Anthropic be #1 Free App in the US Apple App Store on November 20?",
+   "touched": null
+  },
+  {
+   "id": "7180998",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "14756150339563342983876543782997041961604274491134307051089805877145263248857",
+   "px": 0.975,
+   "tick": 0.001,
+   "ts": 1795161670,
+   "end_ts": 1795230000,
+   "q": "Spread: Kings (-11.5)",
+   "touched": null
+  },
+  {
+   "id": "7189838",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "106146582567789801020432067134325674526841722539808733928017831636262293573262",
+   "px": 0.99,
+   "tick": 0.001,
+   "ts": 1795161670,
+   "end_ts": 1795237200,
+   "q": "Will XRP reach $1.15 on November 20?",
+   "touched": null
+  },
+  {
+   "id": "7189839",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "112520050579124177066896655517553787948565264092935340329396903584403022752312",
+   "px": 0.99,
+   "tick": 0.001,
+   "ts": 1795161670,
+   "end_ts": 1795237200,
+   "q": "Will XRP reach $1.10 on November 20?",
+   "touched": null
+  },
+  {
+   "id": "7189844",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "54491872443536267041596609540784993776644684468388473128183740013671067192146",
+   "px": 0.984,
+   "tick": 0.001,
+   "ts": 1795161670,
+   "end_ts": 1795237200,
+   "q": "Will XRP dip to $0.85 on November 20?",
+   "touched": null
+  },
+  {
+   "id": "7189845",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "51771118396482532216297738605208770594445993146717765657304226674669689936368",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1795161670,
+   "end_ts": 1795237200,
+   "q": "Will XRP dip to $0.80 on November 20?",
+   "touched": null
+  },
+  {
+   "id": "7189846",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "81338043722918007386918759112019876027480670020463009406380190600201992690069",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1795161670,
+   "end_ts": 1795237200,
+   "q": "Will XRP dip to $0.75 on November 20?",
+   "touched": null
+  },
+  {
+   "id": "6820363",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "15631246036831909628653197115777890883432293541207659224519930820661074077108",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795161670,
+   "end_ts": 1795246200,
+   "q": "Gangwon FC vs. Daejeon Hana Citizen FC: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "6837808",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "21756177089605274502414544828614640119516795284847449954107841585208065386769",
+   "px": 0.991,
+   "tick": 0.001,
+   "ts": 1795161670,
+   "end_ts": 1795269600,
+   "q": "Spread: US Lecce (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "6837816",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "90008255722287591177775502720550213040661687010251652344372442500664727555169",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1795161670,
+   "end_ts": 1795269600,
+   "q": "Spread: US Lecce (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "6837860",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "20766463579456258377610185871803232844574946432495588046323562500814802927300",
+   "px": 0.986,
+   "tick": 0.001,
+   "ts": 1795161670,
+   "end_ts": 1795269600,
+   "q": "SS Lazio vs. US Lecce: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6838008",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "44513203437199490579754066299993718598423226996371255041217695082169702384883",
+   "px": 0.975,
+   "tick": 0.001,
+   "ts": 1795161670,
+   "end_ts": 1795269600,
+   "q": "Spread: Cagliari Calcio (-1.5)",
+   "touched": null
+  },
+  {
+   "id": "6838016",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "98188184776120025182973188892422646349048682751422385192976278006441080065485",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795161670,
+   "end_ts": 1795269600,
+   "q": "Spread: Cagliari Calcio (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "6838023",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "37862593778886815580248574463374875231070537117365550696287972846376096147891",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1795161670,
+   "end_ts": 1795269600,
+   "q": "Spread: Cagliari Calcio (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "6838067",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "73977591170881993659513439352225106037599047905229225245896697501565464618122",
+   "px": 0.983,
+   "tick": 0.001,
+   "ts": 1795161670,
+   "end_ts": 1795269600,
+   "q": "Como 1907 vs. Cagliari Calcio: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6838472",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "87252771747802514242488877973167328549950407674973958423902138955856337991647",
+   "px": 0.99,
+   "tick": 0.001,
+   "ts": 1795161670,
+   "end_ts": 1795264200,
+   "q": "Spread: Fulham FC (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "6838474",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "75908784542019742783095266573333814856090553628465698135480867518007173680097",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1795161670,
+   "end_ts": 1795264200,
+   "q": "Spread: Fulham FC (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "6842591",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "7974841487008164732270933060617168902717999716733249031858825211310324922937",
+   "px": 0.977,
+   "tick": 0.001,
+   "ts": 1795161670,
+   "end_ts": 1795266000,
+   "q": "Spread: Deportivo Alavés (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "6842592",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "88541893151265611380212503200335277288925589535846369077253603754733730265174",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1795161670,
+   "end_ts": 1795266000,
+   "q": "Spread: RC Deportivo A Coruña (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "6842603",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "106959519562882720195434268294761649884595251581375896765625623439585883571750",
+   "px": 0.987,
+   "tick": 0.001,
+   "ts": 1795161670,
+   "end_ts": 1795266000,
+   "q": "Deportivo Alavés vs. RC Deportivo A Coruña: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "6850609",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "24102976489092524896524063670848658388755432994508200237696697592446181118093",
+   "px": 0.971,
+   "tick": 0.001,
+   "ts": 1795161670,
+   "end_ts": 1795264200,
+   "q": "Norwich City FC vs. Cardiff City FC: O/U 0.5",
+   "touched": null
+  },
+  {
+   "id": "6861588",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "9651477312850555286603999695132539612389023387999661434331613866864559719668",
+   "px": 0.972,
+   "tick": 0.001,
+   "ts": 1795161670,
+   "end_ts": 1795262400,
+   "q": "VfL Wolfsburg vs. Holstein Kiel: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6861634",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "11565202827758129918256550663131404448756471302756198199154814510299308273343",
+   "px": 0.976,
+   "tick": 0.001,
+   "ts": 1795161670,
+   "end_ts": 1795262400,
+   "q": "1. FC Nürnberg vs. Eintracht Braunschweig: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6864369",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "73507764150326555139372219335098075657461664882386849224649104683155877951057",
+   "px": 0.976,
+   "tick": 0.001,
+   "ts": 1795161670,
+   "end_ts": 1795266000,
+   "q": "Galatasaray SK vs. Samsunspor: O/U 0.5",
    "touched": null
   }
  ]
