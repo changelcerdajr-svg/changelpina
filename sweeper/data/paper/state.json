@@ -1,6 +1,6 @@
 {
  "capital0": 1000.0,
- "cash": 421.2399,
+ "cash": 421.3415,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
   {
@@ -23,27 +23,6 @@
    "end_ts": 1795150740.0,
    "hours": 2.96,
    "liq": 2069
-  },
-  {
-   "oid": "6798239-1795140069",
-   "id": "6798239",
-   "q": "Spread: JEF United Ichihara Chiba (-2.5)",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1333063",
-   "side": 1,
-   "token": "100861680507901025736827951221748323730844705980882108935743556315204811520968",
-   "px": 0.983,
-   "tick": 0.001,
-   "mid": 0.9835,
-   "bid": 0.978,
-   "ask": 0.989,
-   "shares": 53.2706,
-   "cost": 52.365,
-   "ts": 1795140069.05154,
-   "end_ts": 1795168800.0,
-   "hours": 7.98,
-   "liq": 2015
   },
   {
    "oid": "7018415-1795154474",
@@ -170,6 +149,27 @@
    "end_ts": 1795169700.0,
    "hours": 0.06,
    "liq": 1690
+  },
+  {
+   "oid": "6791797-1795172468",
+   "id": "6791797",
+   "q": "Spread: SV Darmstadt 98 (-3.5)",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1332480",
+   "side": 1,
+   "token": "35177280992986969822675971938061575051291242096252613459892067965019182344816",
+   "px": 0.983,
+   "tick": 0.001,
+   "mid": 0.9835,
+   "bid": 0.97,
+   "ask": 0.997,
+   "shares": 53.1673,
+   "cost": 52.2634,
+   "ts": 1795172468.617613,
+   "end_ts": 1795195800.0,
+   "hours": 6.48,
+   "liq": 9243
   }
  ],
  "positions": [
@@ -244,7 +244,7 @@
    "hours": 7.48,
    "liq": 1255,
    "fill_ts": 1795150868.009326,
-   "mark": 0.9765,
+   "mark": 0.9695,
    "stuck": false,
    "disputed": false
   },
@@ -269,7 +269,7 @@
    "hours": 7.98,
    "liq": 30714,
    "fill_ts": 1795168880.577314,
-   "mark": 0.989,
+   "mark": 0.9895,
    "stuck": false,
    "disputed": false
   }
@@ -4539,14 +4539,27 @@
    "placed": 1,
    "shadow_open": 488,
    "shadow_closed": 0
+  },
+  {
+   "ts": "2026-11-20T11:02:18Z",
+   "equity": 1047.67,
+   "cash": 421.34,
+   "orders": 8,
+   "positions": 4,
+   "closed": 68,
+   "scanned": 16053,
+   "candidates": 274,
+   "placed": 1,
+   "shadow_open": 504,
+   "shadow_closed": 0
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 301,
+  "placed": 302,
   "filled": 72,
   "expired": 72,
-  "touched_not_filled": 149
+  "touched_not_filled": 150
  },
  "shadow": [
   {
@@ -10891,6 +10904,214 @@
    "ts": 1795169497,
    "end_ts": 1795273200,
    "q": "Aston Villa FC vs. Sunderland AFC: O/U 8.5",
+   "touched": null
+  },
+  {
+   "id": "6838899",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "113175899200486012315390019326694792707568091842756774935167194213873563208330",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1795172468,
+   "end_ts": 1795207500,
+   "q": "Spread: USC Paredes (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "7025127",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "59617185078585259867972265801842802339120007694560092708028015751404611143596",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795172468,
+   "end_ts": 1795208400,
+   "q": "Will NVIDIA (NVDA) finish week of November 16 above $185?",
+   "touched": null
+  },
+  {
+   "id": "7025362",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "75724318022801924194338521219452149475665993807392715487197879604226867020738",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795172468,
+   "end_ts": 1795208400,
+   "q": "Will Micron Technology, Inc. (MU) hit (HIGH) $840 Week of November 16 2026?",
+   "touched": null
+  },
+  {
+   "id": "6870144",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "37234955755294811268777276820964632392904542943877515482835993920843117592550",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1795172468,
+   "end_ts": 1795237200,
+   "q": "Spread: V-Varen Nagasaki (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "6869960",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "108731831781138576993218797163404508795115854312146788810641276203307250560547",
+   "px": 0.975,
+   "tick": 0.001,
+   "ts": 1795172468,
+   "end_ts": 1795240800,
+   "q": "Spread: Avispa Fukuoka (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "6864483",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "68469899504148231909038945130522956229323121719947867055289038537993361818210",
+   "px": 0.973,
+   "tick": 0.001,
+   "ts": 1795172468,
+   "end_ts": 1795257000,
+   "q": "Gençlerbirliği SK vs. Gaziantep FK: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "6850662",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "48305368555466327937360508373505907451908648230595288079241214374928211498083",
+   "px": 0.981,
+   "tick": 0.001,
+   "ts": 1795172468,
+   "end_ts": 1795264200,
+   "q": "Southampton FC vs. Derby County FC: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6858376",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "113652998150852414985659412053907228794626482732915944840969990500048775038843",
+   "px": 0.991,
+   "tick": 0.001,
+   "ts": 1795172468,
+   "end_ts": 1795269600,
+   "q": "FC Baník Ostrava vs. FK Teplice: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6883542",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "85321672633516281329882338951635102574106048457994673398432622174260014011919",
+   "px": 0.988,
+   "tick": 0.001,
+   "ts": 1795172468,
+   "end_ts": 1795269600,
+   "q": "Carrarese Calcio vs. Virtus Entella: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "6883588",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "84510074815450679489432199776154430565596392173050472432548528139091753983213",
+   "px": 0.972,
+   "tick": 0.001,
+   "ts": 1795172468,
+   "end_ts": 1795269600,
+   "q": "Ascoli Calcio 1898 FC vs. L.R. Vicenza: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "6883620",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "73472998617151001619026202424833439686494167909262759461484015352134243182362",
+   "px": 0.974,
+   "tick": 0.001,
+   "ts": 1795172468,
+   "end_ts": 1795269600,
+   "q": "Spread: FC Südtirol (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "6883634",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "113537043297712099077409540006189969172109194234950443628493679052462115526070",
+   "px": 0.987,
+   "tick": 0.001,
+   "ts": 1795172468,
+   "end_ts": 1795269600,
+   "q": "FC Südtirol vs. US Cremonese: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "6821400",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "51784636171987724434325217805103784863340131975218985952506726218651636235060",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1795172468,
+   "end_ts": 1795280400,
+   "q": "Wofford vs. Ole Miss",
+   "touched": null
+  },
+  {
+   "id": "6837595",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "91852379681710586780081999975628107356763954850933256676403029458035942296886",
+   "px": 0.975,
+   "tick": 0.001,
+   "ts": 1795172468,
+   "end_ts": 1795280400,
+   "q": "Spread: Parma Calcio 1913 (-1.5)",
+   "touched": null
+  },
+  {
+   "id": "6837656",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "23919187618325364652097442284531104519435149425593679433209778032655588429639",
+   "px": 0.986,
+   "tick": 0.001,
+   "ts": 1795172468,
+   "end_ts": 1795280400,
+   "q": "Parma Calcio 1913 vs. AS Roma: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6837916",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "48296879155969915558440529219087069231103325039970496672049032656186086369505",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795172468,
+   "end_ts": 1795273200,
+   "q": "Chelsea FC vs. Leeds United FC: O/U 8.5",
    "touched": null
   }
  ]
