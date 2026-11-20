@@ -1,6 +1,6 @@
 {
  "capital0": 1000.0,
- "cash": 421.2427,
+ "cash": 421.2856,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
   {
@@ -151,7 +151,7 @@
    "liq": 40120
   },
   {
-   "oid": "7018420-1795154474",
+   "oid": "7018420-1795158072",
    "id": "7018420",
    "q": "Will the price of Ethereum be above $1,600 on November 20?",
    "cat": "cripto",
@@ -159,17 +159,17 @@
    "event": "1380664",
    "side": 0,
    "token": "32635499720565842203298580382495833961626059900312770025873429062687891330219",
-   "px": 0.981,
+   "px": 0.983,
    "tick": 0.001,
-   "mid": 0.9815,
-   "bid": 0.981,
-   "ask": 0.982,
-   "shares": 53.4749,
-   "cost": 52.4589,
-   "ts": 1795154474.080084,
+   "mid": 0.983,
+   "bid": 0.982,
+   "ask": 0.984,
+   "shares": 53.3224,
+   "cost": 52.416,
+   "ts": 1795158072.689395,
    "end_ts": 1795194000.0,
-   "hours": 10.98,
-   "liq": 37454
+   "hours": 9.98,
+   "liq": 18530
   }
  ],
  "positions": [
@@ -244,7 +244,7 @@
    "hours": 8.65,
    "liq": 2607,
    "fill_ts": 1795147270.041668,
-   "mark": 0.975,
+   "mark": 0.97,
    "stuck": false,
    "disputed": false
   },
@@ -269,7 +269,7 @@
    "hours": 7.48,
    "liq": 1255,
    "fill_ts": 1795150868.009326,
-   "mark": 0.9775,
+   "mark": 0.9745,
    "stuck": false,
    "disputed": false
   }
@@ -4444,14 +4444,27 @@
    "placed": 2,
    "shadow_open": 392,
    "shadow_closed": 47
+  },
+  {
+   "ts": "2026-11-20T07:02:17Z",
+   "equity": 1048.75,
+   "cash": 421.29,
+   "orders": 8,
+   "positions": 4,
+   "closed": 67,
+   "scanned": 13438,
+   "candidates": 124,
+   "placed": 1,
+   "shadow_open": 390,
+   "shadow_closed": 11
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 291,
+  "placed": 292,
   "filled": 71,
   "expired": 69,
-  "touched_not_filled": 143
+  "touched_not_filled": 144
  },
  "shadow": [
   {
@@ -4608,19 +4621,6 @@
    "ts": 1794963666,
    "end_ts": 1794977940,
    "q": "Will Mark Rothko's “Untitled” sell for at least $6.5m at auction?",
-   "touched": 0
-  },
-  {
-   "id": "7015851",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "13977472126623840317098489093832049790718382548902128480514808801708672318320",
-   "px": 0.987,
-   "tick": 0.001,
-   "ts": 1795035674,
-   "end_ts": 1795143600,
-   "q": "Cal Poly Mustangs vs. UCLA Bruins (W)",
    "touched": 0
   },
   {
@@ -6054,71 +6054,6 @@
    "touched": 1
   },
   {
-   "id": "7143277",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "32489529885157237491874827490997990118480705950054840559618991109632059637434",
-   "px": 0.986,
-   "tick": 0.001,
-   "ts": 1795111280,
-   "end_ts": 1795122000,
-   "q": "Will Microsoft (MSFT) close above $520 on November 19?",
-   "touched": null
-  },
-  {
-   "id": "7143307",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "80676955134248468259308339550287915050452103411896220003097749878176711316269",
-   "px": 0.987,
-   "tick": 0.001,
-   "ts": 1795111280,
-   "end_ts": 1795122000,
-   "q": "Will Google (GOOGL) close above $290 on November 19?",
-   "touched": null
-  },
-  {
-   "id": "7143324",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "41429032905388067476308771441199724258446353421916436077042217984595403476704",
-   "px": 0.971,
-   "tick": 0.001,
-   "ts": 1795111280,
-   "end_ts": 1795122000,
-   "q": "Will Tesla (TSLA) close above $390 on November 19?",
-   "touched": null
-  },
-  {
-   "id": "7143332",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "104691106463624370158271734016806435440789936935520937867435288098059862196473",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795111280,
-   "end_ts": 1795122000,
-   "q": "Will NVIDIA (NVDA) close above $165 on November 19?",
-   "touched": null
-  },
-  {
-   "id": "7165301",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "37576371088847322789566482202961131537621581399036845386541148461511093257424",
-   "px": 0.975,
-   "tick": 0.001,
-   "ts": 1795111280,
-   "end_ts": 1795136400,
-   "q": "Trail Blazers vs. Bucks: O/U 197.5",
-   "touched": null
-  },
-  {
    "id": "7018440",
    "rule": "cripto_cierre",
    "cat": "cripto",
@@ -6129,7 +6064,7 @@
    "ts": 1795111280,
    "end_ts": 1795194000,
    "q": "Will the price of Ethereum be above $1,900 on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7018491",
@@ -6142,7 +6077,7 @@
    "ts": 1795111280,
    "end_ts": 1795194000,
    "q": "Will the price of Ethereum be between $1,900 and $2,000 on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7018503",
@@ -6155,7 +6090,7 @@
    "ts": 1795111280,
    "end_ts": 1795194000,
    "q": "Will the price of Solana be above $65 on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7018530",
@@ -6168,7 +6103,7 @@
    "ts": 1795111280,
    "end_ts": 1795194000,
    "q": "Will the price of XRP be above $1.10 on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7018538",
@@ -6181,7 +6116,7 @@
    "ts": 1795111280,
    "end_ts": 1795194000,
    "q": "Will the price of XRP be between $0.80 and $0.90 on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7018541",
@@ -6194,7 +6129,7 @@
    "ts": 1795111280,
    "end_ts": 1795194000,
    "q": "Will the price of XRP be between $1.10 and $1.20 on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7021781",
@@ -6207,7 +6142,7 @@
    "ts": 1795111280,
    "end_ts": 1795188300,
    "q": "Spread: Ajman Club (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7037925",
@@ -6220,7 +6155,7 @@
    "ts": 1795111280,
    "end_ts": 1795194000,
    "q": "Spread: Umraniyespor (-2.5)",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6783502",
@@ -6233,7 +6168,7 @@
    "ts": 1795111280,
    "end_ts": 1795207500,
    "q": "Will USC Paredes win on 2026-11-20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6998367",
@@ -6246,72 +6181,7 @@
    "ts": 1795111280,
    "end_ts": 1795219200,
    "q": "Coastal Carolina Chanticleers vs. Tennessee Volunteers",
-   "touched": null
-  },
-  {
-   "id": "7143234",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "49698002982675780275851234184189152988260336762234524764940060553400416893907",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1795114872,
-   "end_ts": 1795122000,
-   "q": "Amazon (AMZN) Up or Down on November 19?",
-   "touched": null
-  },
-  {
-   "id": "7143316",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "82867922210408515103522517867057036502057760756857843562561397311514069179304",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795114872,
-   "end_ts": 1795122000,
-   "q": "Will Meta (META) close above $620 on November 19?",
-   "touched": null
-  },
-  {
-   "id": "7143317",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "91451801705073306560098399789208752124553915294801937848220810472056857885910",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795114872,
-   "end_ts": 1795122000,
-   "q": "Will Meta (META) close above $630 on November 19?",
-   "touched": null
-  },
-  {
-   "id": "7143325",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "66407235038800489029646091654396903731140208472032819946687998809865388305892",
-   "px": 0.982,
-   "tick": 0.001,
-   "ts": 1795114872,
-   "end_ts": 1795122000,
-   "q": "S&P 500 (SPX) Up or Down on November 19?",
-   "touched": null
-  },
-  {
-   "id": "7143338",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "75937450951186384989997188957043075439281791049214717246097590932273777603684",
-   "px": 0.985,
-   "tick": 0.001,
-   "ts": 1795114872,
-   "end_ts": 1795122000,
-   "q": "SPY (SPY) Up or Down on November 19?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7175156",
@@ -6324,7 +6194,7 @@
    "ts": 1795114872,
    "end_ts": 1795186800,
    "q": "Will the US national average gas price be less than $3.7000 on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7175157",
@@ -6337,7 +6207,7 @@
    "ts": 1795114872,
    "end_ts": 1795186800,
    "q": "Will the US national average gas price be between $3.7000 and $3.7099 on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7175158",
@@ -6350,7 +6220,7 @@
    "ts": 1795114872,
    "end_ts": 1795186800,
    "q": "Will the US national average gas price be between $3.7100 and $3.7199 on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7175159",
@@ -6363,7 +6233,7 @@
    "ts": 1795114872,
    "end_ts": 1795186800,
    "q": "Will the US national average gas price be between $3.7200 and $3.7299 on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6761171",
@@ -6376,7 +6246,7 @@
    "ts": 1795114872,
    "end_ts": 1795197600,
    "q": "Molde FK vs. FK Bodø/Glimt: Neither team to score first?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6786406",
@@ -6389,7 +6259,7 @@
    "ts": 1795114872,
    "end_ts": 1795199400,
    "q": "FCV Farul Constanţa vs. FC Universitatea Cluj: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7018528",
@@ -6402,7 +6272,7 @@
    "ts": 1795114872,
    "end_ts": 1795194000,
    "q": "Will the price of XRP be above $0.90 on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6775392",
@@ -6415,7 +6285,7 @@
    "ts": 1795114872,
    "end_ts": 1795204800,
    "q": "Spread: RCD Espanyol de Barcelona (-5.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6998375",
@@ -6428,7 +6298,7 @@
    "ts": 1795114872,
    "end_ts": 1795222800,
    "q": "Le Moyne Dolphins vs. Missouri Tigers",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7015856",
@@ -6441,7 +6311,7 @@
    "ts": 1795114872,
    "end_ts": 1795221000,
    "q": "Little Rock Trojans vs. Oklahoma State Cowboys (W)",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7015893",
@@ -6454,7 +6324,7 @@
    "ts": 1795114872,
    "end_ts": 1795222800,
    "q": "Seton Hall Pirates vs. Connecticut Huskies (W)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7113029",
@@ -9548,6 +9418,123 @@
    "ts": 1795154474,
    "end_ts": 1795237200,
    "q": "Will Solana dip to $50 on November 20?",
+   "touched": null
+  },
+  {
+   "id": "7118606",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "26752251215068705604680490145846738450313174443650960534320658833583661800859",
+   "px": 0.993,
+   "tick": 0.001,
+   "ts": 1795158072,
+   "end_ts": 1795225200,
+   "q": "AD Cali vs. Millonarios FC: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6820623",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "54198301947235598566901568418700939265798262439259031337420276282341490020960",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795158072,
+   "end_ts": 1795237200,
+   "q": "Pohang Steelers FC vs. FC Anyang: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "7029796",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "13850282460420599409632155079345170724002033914388867436946020943991283407539",
+   "px": 0.988,
+   "tick": 0.001,
+   "ts": 1795158072,
+   "end_ts": 1795237140,
+   "q": "Will Muse from Meta be #1 Free App in the US Apple App Store on November 20?",
+   "touched": null
+  },
+  {
+   "id": "7189823",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "31594514315892210797377685362147674645531295807909780574857567033473280753500",
+   "px": 0.981,
+   "tick": 0.001,
+   "ts": 1795158072,
+   "end_ts": 1795237200,
+   "q": "Will Ethereum dip to $1,550 on November 20?",
+   "touched": null
+  },
+  {
+   "id": "7189837",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "57838354776938667415484008989395508649930936223564620473635259828040093822757",
+   "px": 0.99,
+   "tick": 0.001,
+   "ts": 1795158072,
+   "end_ts": 1795237200,
+   "q": "Will XRP reach $1.20 on November 20?",
+   "touched": null
+  },
+  {
+   "id": "6838486",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "42530756927185611642959870925935350596816201167351286261144930747696650971794",
+   "px": 0.977,
+   "tick": 0.001,
+   "ts": 1795158072,
+   "end_ts": 1795264200,
+   "q": "Manchester City FC vs. Fulham FC: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6842590",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "44949570743024563461970507095561799450528845420091162327128151513019397964500",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795158072,
+   "end_ts": 1795266000,
+   "q": "Spread: RC Deportivo A Coruña (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "6842611",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "61250220187416946944430588310585365038328325940885965304715522436108287306922",
+   "px": 0.973,
+   "tick": 0.001,
+   "ts": 1795158072,
+   "end_ts": 1795266000,
+   "q": "Deportivo Alavés vs. RC Deportivo A Coruña: 1st Half O/U 3.5",
+   "touched": null
+  },
+  {
+   "id": "6848296",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "42449811021037429981449510667379634451200503637240705429456729201698690446961",
+   "px": 0.975,
+   "tick": 0.001,
+   "ts": 1795158072,
+   "end_ts": 1795264200,
+   "q": "Newport County AFC vs. Swindon Town FC: O/U 6.5",
    "touched": null
   }
  ]
