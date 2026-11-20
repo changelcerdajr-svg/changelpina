@@ -1,6 +1,6 @@
 {
  "capital0": 1000.0,
- "cash": 420.981,
+ "cash": 421.0042,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
   {
@@ -130,27 +130,6 @@
    "liq": 2303
   },
   {
-   "oid": "7018420-1795165271",
-   "id": "7018420",
-   "q": "Will the price of Ethereum be above $1,600 on November 20?",
-   "cat": "cripto",
-   "rule": "cripto_cierre",
-   "event": "1380664",
-   "side": 0,
-   "token": "32635499720565842203298580382495833961626059900312770025873429062687891330219",
-   "px": 0.991,
-   "tick": 0.001,
-   "mid": 0.9915,
-   "bid": 0.989,
-   "ask": 0.994,
-   "shares": 52.9445,
-   "cost": 52.468,
-   "ts": 1795165271.450533,
-   "end_ts": 1795194000.0,
-   "hours": 7.98,
-   "liq": 30714
-  },
-  {
    "oid": "7018435-1795165271",
    "id": "7018435",
    "q": "Will the price of Bitcoin be between $66,000 and $68,000 on November 20?",
@@ -172,7 +151,7 @@
    "liq": 24630
   },
   {
-   "oid": "7018476-1795165271",
+   "oid": "7018476-1795168880",
    "id": "7018476",
    "q": "Will the price of Bitcoin be above $58,000 on November 20?",
    "cat": "cripto",
@@ -180,17 +159,17 @@
    "event": "1380671",
    "side": 0,
    "token": "100988832313917793924531670747964571498221785586144778608192340204227884687124",
-   "px": 0.983,
+   "px": 0.988,
    "tick": 0.001,
-   "mid": 0.983,
-   "bid": 0.98,
-   "ask": 0.986,
-   "shares": 53.3754,
-   "cost": 52.468,
-   "ts": 1795165271.450533,
+   "mid": 0.9885,
+   "bid": 0.988,
+   "ask": 0.989,
+   "shares": 53.0818,
+   "cost": 52.4448,
+   "ts": 1795168880.577314,
    "end_ts": 1795194000.0,
-   "hours": 7.98,
-   "liq": 46061
+   "hours": 6.98,
+   "liq": 69328
   }
  ],
  "positions": [
@@ -265,9 +244,32 @@
    "hours": 7.48,
    "liq": 1255,
    "fill_ts": 1795150868.009326,
-   "mark": 0.9795,
+   "mark": 0.9765,
    "stuck": false,
    "disputed": false
+  },
+  {
+   "oid": "7018420-1795165271",
+   "id": "7018420",
+   "q": "Will the price of Ethereum be above $1,600 on November 20?",
+   "cat": "cripto",
+   "rule": "cripto_cierre",
+   "event": "1380664",
+   "side": 0,
+   "token": "32635499720565842203298580382495833961626059900312770025873429062687891330219",
+   "px": 0.991,
+   "tick": 0.001,
+   "mid": 0.9915,
+   "bid": 0.989,
+   "ask": 0.994,
+   "shares": 52.9445,
+   "cost": 52.468,
+   "ts": 1795165271.450533,
+   "end_ts": 1795194000.0,
+   "hours": 7.98,
+   "liq": 30714,
+   "fill_ts": 1795168880.577314,
+   "mark": 0.991
   }
  ],
  "closed": [
@@ -4509,14 +4511,27 @@
    "placed": 5,
    "shadow_open": 451,
    "shadow_closed": 10
+  },
+  {
+   "ts": "2026-11-20T10:02:43Z",
+   "equity": 1049.2,
+   "cash": 421.0,
+   "orders": 8,
+   "positions": 4,
+   "closed": 68,
+   "scanned": 16476,
+   "candidates": 324,
+   "placed": 1,
+   "shadow_open": 476,
+   "shadow_closed": 1
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 299,
-  "filled": 71,
+  "placed": 300,
+  "filled": 72,
   "expired": 72,
-  "touched_not_filled": 147
+  "touched_not_filled": 148
  },
  "shadow": [
   {
@@ -6522,19 +6537,6 @@
    "touched": 0
   },
   {
-   "id": "5999371",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 0,
-   "token": "6711410802205388328506552892226798124983822740566531863323478314343518747835",
-   "px": 0.999,
-   "tick": 0.001,
-   "ts": 1795125669,
-   "end_ts": 1795129200,
-   "q": "Will Intuit Q1 Online Ecosystem revenue be above $2.35B?",
-   "touched": null
-  },
-  {
    "id": "7018452",
    "rule": "cripto_cierre",
    "cat": "cripto",
@@ -6545,7 +6547,7 @@
    "ts": 1795125669,
    "end_ts": 1795194000,
    "q": "Will the price of Bitcoin be between $72,000 and $74,000 on November 20?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7018511",
@@ -6558,7 +6560,7 @@
    "ts": 1795125669,
    "end_ts": 1795194000,
    "q": "Will the price of Solana be between $40 and $50 on November 20?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7024923",
@@ -6571,7 +6573,7 @@
    "ts": 1795125669,
    "end_ts": 1795208400,
    "q": "Will Microsoft Corporation (MSFT) hit (HIGH) $547.50 Week of November 16 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7025272",
@@ -6584,7 +6586,7 @@
    "ts": 1795125669,
    "end_ts": 1795208400,
    "q": "Will Micron (MU) finish week of November 16 above $810?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6843447",
@@ -6597,7 +6599,7 @@
    "ts": 1795125669,
    "end_ts": 1795230000,
    "q": "FC Juárez vs. Atlas FC: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6843448",
@@ -6610,7 +6612,7 @@
    "ts": 1795125669,
    "end_ts": 1795230000,
    "q": "FC Juárez vs. Atlas FC: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7022250",
@@ -10380,6 +10382,344 @@
    "ts": 1795165271,
    "end_ts": 1795273200,
    "q": "Aston Villa FC vs. Sunderland AFC: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "7067490",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "100794222707595856954321386135408598726740302522352965726329824516475043762572",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795168880,
+   "end_ts": 1795201200,
+   "q": "Spread: Helmond Sport (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "6773166",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "25249679705291092240570214017078325978986945558644488092705045542213461887672",
+   "px": 0.983,
+   "tick": 0.001,
+   "ts": 1795168880,
+   "end_ts": 1795203000,
+   "q": "Spread: 1. FC Köln (-5.5)",
+   "touched": null
+  },
+  {
+   "id": "6775382",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "68493643764596300205205471085507547416325095436823280614019467486539715662099",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795168880,
+   "end_ts": 1795204800,
+   "q": "Spread: Athletic Club (-4.5)",
+   "touched": null
+  },
+  {
+   "id": "7022874",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "79033326355312455178804141579112025474530222121908989303785809833738262540162",
+   "px": 0.971,
+   "tick": 0.001,
+   "ts": 1795168880,
+   "end_ts": 1795206600,
+   "q": "Spread: Sportivo Ameliano (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "7025361",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "82204575872861263771337806095722484264098369137029127521088955699362544610240",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795168880,
+   "end_ts": 1795208400,
+   "q": "Will Micron Technology, Inc. (MU) hit (HIGH) $870 Week of November 16 2026?",
+   "touched": null
+  },
+  {
+   "id": "7025428",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "2398302074825143566038641844525576600643150301062233626375205615947018219831",
+   "px": 0.984,
+   "tick": 0.001,
+   "ts": 1795168880,
+   "end_ts": 1795208400,
+   "q": "Will South Korea ETF (EWY) hit (HIGH) $148 Week of November 16 2026?",
+   "touched": null
+  },
+  {
+   "id": "7118759",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "71887737830912766659670553114924790560575619832589838703425119693350652340894",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1795168880,
+   "end_ts": 1795210200,
+   "q": "Spread: Independiente Santa Fe (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "7154734",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "5577059843948739830765752565105894621676082250181016012058913260096527327232",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1795168880,
+   "end_ts": 1795204800,
+   "q": "Spread: Gimnastic de Tarragona (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "6364890",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "67227736142552747425797509166376529152838043647162364717345626965693166896473",
+   "px": 0.975,
+   "tick": 0.001,
+   "ts": 1795168880,
+   "end_ts": 1795237140,
+   "q": "Will the next Claude Opus model (5.6+) be released on November 20, 2026?",
+   "touched": null
+  },
+  {
+   "id": "6820625",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "48489267085060212551344778296572914707213842249629240090245356973086624656298",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1795168880,
+   "end_ts": 1795237200,
+   "q": "Pohang Steelers FC vs. FC Anyang: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "7189830",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "59191292213777633959884504015647379567961294170416707711569812768525834617234",
+   "px": 0.984,
+   "tick": 0.001,
+   "ts": 1795168880,
+   "end_ts": 1795237200,
+   "q": "Will Solana reach $80 on November 20?",
+   "touched": null
+  },
+  {
+   "id": "6842604",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "44449481500757588482053417008180099061856701784506186522805906406548103405508",
+   "px": 0.996,
+   "tick": 0.001,
+   "ts": 1795168880,
+   "end_ts": 1795266000,
+   "q": "Deportivo Alavés vs. RC Deportivo A Coruña: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6842605",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "53334638585969179914807382344802925979971636372290963687119008267371665172794",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795168880,
+   "end_ts": 1795266000,
+   "q": "Deportivo Alavés vs. RC Deportivo A Coruña: O/U 8.5",
+   "touched": null
+  },
+  {
+   "id": "6845256",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "68960884140631687786480267838177311162722960862128280806889534850565149641706",
+   "px": 0.982,
+   "tick": 0.001,
+   "ts": 1795168880,
+   "end_ts": 1795264200,
+   "q": "Reading FC vs. Bromley FC: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6850648",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "61770966138916413511646969330123364512441276704697811006404066166831236964898",
+   "px": 0.993,
+   "tick": 0.001,
+   "ts": 1795168880,
+   "end_ts": 1795264200,
+   "q": "Spread: Derby County FC (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "6850707",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "25622934112295124942041353453362538740125964606266442299157173461654367003754",
+   "px": 0.973,
+   "tick": 0.001,
+   "ts": 1795168880,
+   "end_ts": 1795264200,
+   "q": "Millwall FC vs. Queens Park Rangers FC: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "6861581",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "52348404207990552556452653954281037292309424931559801313450018624857238048976",
+   "px": 0.974,
+   "tick": 0.001,
+   "ts": 1795168880,
+   "end_ts": 1795262400,
+   "q": "VfL Wolfsburg vs. Holstein Kiel: O/U 0.5",
+   "touched": null
+  },
+  {
+   "id": "6864424",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "103393168836358205046972199541244291754028204841720669686003950416327680117652",
+   "px": 0.974,
+   "tick": 0.001,
+   "ts": 1795168880,
+   "end_ts": 1795266000,
+   "q": "Spread: Çaykur Rizespor (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "6873380",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "33751797223027869549101076461064830617111720521617082404063418734692277951798",
+   "px": 0.977,
+   "tick": 0.001,
+   "ts": 1795168880,
+   "end_ts": 1795266000,
+   "q": "Tromsø IL vs. Viking FK: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "7039250",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "57313583466211694301287197213912497355277472451513409787716952816303143061590",
+   "px": 0.972,
+   "tick": 0.001,
+   "ts": 1795168880,
+   "end_ts": 1795265100,
+   "q": "Spread: PFC Slavia Sofia (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "6837705",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "67846052051345106406985688973915312470542254728233095994743228493080175184874",
+   "px": 0.992,
+   "tick": 0.001,
+   "ts": 1795168880,
+   "end_ts": 1795273200,
+   "q": "AFC Bournemouth vs. Nottingham Forest FC: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6837864",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "59734717245924169000908088222530640763081606025616019942744704027951317175680",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795168880,
+   "end_ts": 1795269600,
+   "q": "SS Lazio vs. US Lecce: O/U 8.5",
+   "touched": null
+  },
+  {
+   "id": "6838290",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "31213318697031856818729102852955851282011210413403848806168743737527736805095",
+   "px": 0.99,
+   "tick": 0.001,
+   "ts": 1795168880,
+   "end_ts": 1795273200,
+   "q": "Coventry City FC vs. Crystal Palace FC: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6842520",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "39221832565634826041623289302059447396849004595078639386313085334815246886798",
+   "px": 0.975,
+   "tick": 0.001,
+   "ts": 1795168880,
+   "end_ts": 1795274100,
+   "q": "Spread: Valencia CF (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "6842525",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "61030355686427305408331493481403937190327026003520302870843344040790871236132",
+   "px": 0.992,
+   "tick": 0.001,
+   "ts": 1795168880,
+   "end_ts": 1795274100,
+   "q": "Spread: Valencia CF (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "6842549",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "31139578802001852974994723129172424196186819993503189976192278882507507313835",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795168880,
+   "end_ts": 1795274100,
+   "q": "Rayo Vallecano de Madrid vs. Valencia CF: O/U 6.5",
    "touched": null
   }
  ]
