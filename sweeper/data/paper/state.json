@@ -1,29 +1,8 @@
 {
  "capital0": 1000.0,
- "cash": 373.0439,
+ "cash": 372.5014,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
-  {
-   "oid": "7170279-1795169497",
-   "id": "7170279",
-   "q": "XRP Up or Down - November 20, 5:00AM-5:15AM ET",
-   "cat": "cripto",
-   "rule": "cripto_cierre",
-   "event": "1423658",
-   "side": 0,
-   "token": "65292130008846689454868576139236618569490188453642384286038912397599066243623",
-   "px": 0.993,
-   "tick": 0.001,
-   "mid": 0.9935,
-   "bid": 0.99,
-   "ask": 0.997,
-   "shares": 52.5771,
-   "cost": 52.2091,
-   "ts": 1795169497.822847,
-   "end_ts": 1795169700.0,
-   "hours": 0.06,
-   "liq": 1690
-  },
   {
    "oid": "7177156-1795186876",
    "id": "7177156",
@@ -130,27 +109,6 @@
    "liq": 11551
   },
   {
-   "oid": "4970925-1795212066",
-   "id": "4970925",
-   "q": "Manchester City punishment announced by November 20?",
-   "cat": "otros",
-   "rule": "otros_cierre",
-   "event": "1083788",
-   "side": 1,
-   "token": "65584738545620502541590527870837450151624336000268229517313863111120295075706",
-   "px": 0.996,
-   "tick": 0.001,
-   "mid": 0.996,
-   "bid": 0.994,
-   "ask": 0.998,
-   "shares": 52.9674,
-   "cost": 52.7555,
-   "ts": 1795212066.012382,
-   "end_ts": 1795237140.0,
-   "hours": 6.96,
-   "liq": 1243
-  },
-  {
    "oid": "6655554-1795212066",
    "id": "6655554",
    "q": "Will the next Meta Muse Spark model be released on November 20, 2026?",
@@ -172,25 +130,67 @@
    "liq": 2420
   },
   {
-   "oid": "6819138-1795212066",
-   "id": "6819138",
-   "q": "Spread: Hokkaidō Consadole Sapporo (-2.5)",
+   "oid": "7180216-1795215668",
+   "id": "7180216",
+   "q": "XRP Up or Down - November 20, 4:00PM-8:00PM ET",
+   "cat": "cripto",
+   "rule": "cripto_cierre",
+   "event": "1427207",
+   "side": 0,
+   "token": "58894496242892145008802054303992187169656672502269920718924096799240498142427",
+   "px": 0.97,
+   "tick": 0.001,
+   "mid": 0.97,
+   "bid": 0.961,
+   "ask": 0.979,
+   "shares": 54.3857,
+   "cost": 52.7542,
+   "ts": 1795215668.789934,
+   "end_ts": 1795222800.0,
+   "hours": 1.98,
+   "liq": 3002
+  },
+  {
+   "oid": "4970925-1795215668",
+   "id": "4970925",
+   "q": "Manchester City punishment announced by November 20?",
+   "cat": "otros",
+   "rule": "otros_cierre",
+   "event": "1083788",
+   "side": 1,
+   "token": "65584738545620502541590527870837450151624336000268229517313863111120295075706",
+   "px": 0.99,
+   "tick": 0.001,
+   "mid": 0.99,
+   "bid": 0.981,
+   "ask": 0.999,
+   "shares": 53.287,
+   "cost": 52.7542,
+   "ts": 1795215668.789934,
+   "end_ts": 1795237140.0,
+   "hours": 5.96,
+   "liq": 1608
+  },
+  {
+   "oid": "6869913-1795215668",
+   "id": "6869913",
+   "q": "Spread: Cerezo Ōsaka (-2.5)",
    "cat": "deportes",
    "rule": "deportes_previo",
-   "event": "1335636",
+   "event": "1341887",
    "side": 1,
-   "token": "22555937414579095583057022611829727876602152158894488101441329599427905655401",
-   "px": 0.974,
+   "token": "56505492686123478296857409962686491273557734839017538035635862154097876220648",
+   "px": 0.977,
    "tick": 0.001,
-   "mid": 0.974,
-   "bid": 0.961,
-   "ask": 0.987,
-   "shares": 54.1638,
-   "cost": 52.7555,
-   "ts": 1795212066.012382,
-   "end_ts": 1795237200.0,
+   "mid": 0.977,
+   "bid": 0.969,
+   "ask": 0.985,
+   "shares": 53.9961,
+   "cost": 52.7542,
+   "ts": 1795215668.789934,
+   "end_ts": 1795240800.0,
    "hours": 6.98,
-   "liq": 2153
+   "liq": 1754
   }
  ],
  "positions": [
@@ -265,7 +265,9 @@
    "hours": 6.98,
    "liq": 5439,
    "fill_ts": 1795212066.012382,
-   "mark": 0.97
+   "mark": 0.9695,
+   "stuck": false,
+   "disputed": false
   },
   {
    "oid": "6843448-1795204867",
@@ -288,7 +290,9 @@
    "hours": 6.98,
    "liq": 3830,
    "fill_ts": 1795212066.012382,
-   "mark": 0.989
+   "mark": 0.989,
+   "stuck": false,
+   "disputed": false
   }
  ],
  "closed": [
@@ -4963,14 +4967,27 @@
    "placed": 3,
    "shadow_open": 601,
    "shadow_closed": 55
+  },
+  {
+   "ts": "2026-11-20T23:02:20Z",
+   "equity": 1055.08,
+   "cash": 372.5,
+   "orders": 9,
+   "positions": 4,
+   "closed": 76,
+   "scanned": 18456,
+   "candidates": 146,
+   "placed": 3,
+   "shadow_open": 524,
+   "shadow_closed": 84
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 322,
+  "placed": 325,
   "filled": 80,
-  "expired": 74,
-  "touched_not_filled": 159
+  "expired": 75,
+  "touched_not_filled": 161
  },
  "shadow": [
   {
@@ -5039,123 +5056,6 @@
    "touched": 0
   },
   {
-   "id": "6801802",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "82106634766172355805239790156184598533924413493594126326806775155410811398087",
-   "px": 0.981,
-   "tick": 0.001,
-   "ts": 1795093274,
-   "end_ts": 1795197600,
-   "q": "Molde FK vs. FK Bodø/Glimt: O/U 0.5",
-   "touched": 0
-  },
-  {
-   "id": "7064696",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "33669335225534477928312838314423631435275483007820379368353092020329921711051",
-   "px": 0.979,
-   "tick": 0.001,
-   "ts": 1795093274,
-   "end_ts": 1795201200,
-   "q": "Heracles Almelo vs. Jong PSV Eindhoven: O/U 0.5",
-   "touched": 1
-  },
-  {
-   "id": "6775371",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "10843644336354424547551874932331806374116728088718294058625736370530430429564",
-   "px": 0.99,
-   "tick": 0.001,
-   "ts": 1795096877,
-   "end_ts": 1795204800,
-   "q": "Spread: RCD Espanyol de Barcelona (-2.5)",
-   "touched": 1
-  },
-  {
-   "id": "6775377",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "20084130266863905539462184255297339878659442899476223188274129289502939480752",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795096877,
-   "end_ts": 1795204800,
-   "q": "Spread: RCD Espanyol de Barcelona (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "6775415",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "17910803689625164597485896844304361540568389730872759910573787297911160909533",
-   "px": 0.974,
-   "tick": 0.001,
-   "ts": 1795096877,
-   "end_ts": 1795204800,
-   "q": "Athletic Club vs. RCD Espanyol de Barcelona: O/U 6.5",
-   "touched": 0
-  },
-  {
-   "id": "6786403",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "32205534194950788751717593825061663381786891681827118854439081026950043352834",
-   "px": 0.972,
-   "tick": 0.001,
-   "ts": 1795096877,
-   "end_ts": 1795199400,
-   "q": "FCV Farul Constanţa vs. FC Universitatea Cluj: O/U 6.5",
-   "touched": 1
-  },
-  {
-   "id": "6816718",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "64764351247773684334086102503105442935125882408747378111116449595624488189120",
-   "px": 0.982,
-   "tick": 0.001,
-   "ts": 1795096877,
-   "end_ts": 1795201200,
-   "q": "FC Metz vs. US Boulogne Côte d'Opale: O/U 6.5",
-   "touched": 1
-  },
-  {
-   "id": "6775416",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "48306035194805293587593895879823806529923650257109922695571845824255779363245",
-   "px": 0.991,
-   "tick": 0.001,
-   "ts": 1795100473,
-   "end_ts": 1795204800,
-   "q": "Athletic Club vs. RCD Espanyol de Barcelona: O/U 7.5",
-   "touched": 0
-  },
-  {
-   "id": "6775417",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "71352869681869254025655465360071163940993765642551439720131107297484941124692",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795100473,
-   "end_ts": 1795204800,
-   "q": "Athletic Club vs. RCD Espanyol de Barcelona: O/U 8.5",
-   "touched": 1
-  },
-  {
    "id": "6812150",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -5179,32 +5079,6 @@
    "ts": 1795100473,
    "end_ts": 1795201200,
    "q": "Red Star FC vs. Pau FC: O/U 6.5",
-   "touched": 1
-  },
-  {
-   "id": "6816831",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "54766344053186045607344535675876646875283469233578263966084731731805038894619",
-   "px": 0.988,
-   "tick": 0.001,
-   "ts": 1795100473,
-   "end_ts": 1795201200,
-   "q": "En Avant Guingamp vs. Rodez Aveyron Football: O/U 7.5",
-   "touched": 1
-  },
-  {
-   "id": "6816876",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "95887355670025756636285585061448142073043971986748759747208675333384528908951",
-   "px": 0.983,
-   "tick": 0.001,
-   "ts": 1795100473,
-   "end_ts": 1795201200,
-   "q": "FC Annecy vs. Clermont Foot 63: O/U 6.5",
    "touched": 1
   },
   {
@@ -5232,58 +5106,6 @@
    "end_ts": 1795203000,
    "q": "Pogon Szczecin vs. WKS Slask Wroclaw: O/U 7.5",
    "touched": 0
-  },
-  {
-   "id": "6816719",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "64066230381524485076010188674997899640345938650946202532101845130246590511442",
-   "px": 0.992,
-   "tick": 0.001,
-   "ts": 1795104072,
-   "end_ts": 1795201200,
-   "q": "FC Metz vs. US Boulogne Côte d'Opale: O/U 7.5",
-   "touched": 1
-  },
-  {
-   "id": "6816877",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "96086923481999113439195443044013857415097188365765239833375224731356056180986",
-   "px": 0.992,
-   "tick": 0.001,
-   "ts": 1795104072,
-   "end_ts": 1795201200,
-   "q": "FC Annecy vs. Clermont Foot 63: O/U 7.5",
-   "touched": 1
-  },
-  {
-   "id": "6816922",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "8377981598072925043772104026282382874746180445575622342833718151288933743049",
-   "px": 0.973,
-   "tick": 0.001,
-   "ts": 1795104072,
-   "end_ts": 1795201200,
-   "q": "AS Nancy-Lorraine vs. Dijon Football Côte d'Or: O/U 6.5",
-   "touched": 1
-  },
-  {
-   "id": "6777620",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "107280360499689363920419293057040867865808221839527133883769840004235720584127",
-   "px": 0.977,
-   "tick": 0.001,
-   "ts": 1795104072,
-   "end_ts": 1795204800,
-   "q": "Barnsley FC vs. Sheffield Wednesday FC: O/U 7.5",
-   "touched": 1
   },
   {
    "id": "6812153",
@@ -5390,45 +5212,6 @@
    "touched": 1
   },
   {
-   "id": "6761171",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "106691675577704622911272620293862165280180327101594192241154348908747076174409",
-   "px": 0.983,
-   "tick": 0.001,
-   "ts": 1795114872,
-   "end_ts": 1795197600,
-   "q": "Molde FK vs. FK Bodø/Glimt: Neither team to score first?",
-   "touched": 1
-  },
-  {
-   "id": "6786406",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "83479631112884621142614641903375777011683167689103972334767752554267743722921",
-   "px": 0.99,
-   "tick": 0.001,
-   "ts": 1795114872,
-   "end_ts": 1795199400,
-   "q": "FCV Farul Constanţa vs. FC Universitatea Cluj: O/U 7.5",
-   "touched": 1
-  },
-  {
-   "id": "6775392",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "46452711550818459783131851577341064519378676089827839020406901994009025067698",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1795114872,
-   "end_ts": 1795204800,
-   "q": "Spread: RCD Espanyol de Barcelona (-5.5)",
-   "touched": 1
-  },
-  {
    "id": "6998375",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -5465,45 +5248,6 @@
    "ts": 1795114872,
    "end_ts": 1795222800,
    "q": "Seton Hall Pirates vs. Connecticut Huskies (W)",
-   "touched": 1
-  },
-  {
-   "id": "6816863",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "77559691260652781776635674435219416464618195796008370200830170214786410408685",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1795118468,
-   "end_ts": 1795201200,
-   "q": "Spread: Clermont Foot 63 (-2.5)",
-   "touched": 1
-  },
-  {
-   "id": "6816909",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "23045034884679817611230592694857420774786886803050138544785759346184616247475",
-   "px": 0.972,
-   "tick": 0.001,
-   "ts": 1795118468,
-   "end_ts": 1795201200,
-   "q": "Spread: Dijon Football Côte d'Or (-2.5)",
-   "touched": 1
-  },
-  {
-   "id": "6816923",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "97234337872038516469639667953982413630067610301457712801308288852884528555031",
-   "px": 0.989,
-   "tick": 0.001,
-   "ts": 1795118468,
-   "end_ts": 1795201200,
-   "q": "AS Nancy-Lorraine vs. Dijon Football Côte d'Or: O/U 7.5",
    "touched": 1
   },
   {
@@ -5676,71 +5420,6 @@
    "touched": 1
   },
   {
-   "id": "7018567",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "62447676298321060597277863263473759153236536835066679781972057379618133249542",
-   "px": 0.993,
-   "tick": 0.001,
-   "ts": 1795132869,
-   "end_ts": 1795219140,
-   "q": "Will \"BbY WOW - KAROL G, Judeline, rusowsky\" be the #2 song this week?",
-   "touched": 1
-  },
-  {
-   "id": "7018568",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "38554318845090719380888938228751832404359420306365290703592185591864612245517",
-   "px": 0.996,
-   "tick": 0.001,
-   "ts": 1795132869,
-   "end_ts": 1795219140,
-   "q": "Will \"Nicole Kidman - ADÉLA\" be the #2 song this week?",
-   "touched": 1
-  },
-  {
-   "id": "7018572",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "21144351244460821476370555469458249743877753306134866560775900529854593787401",
-   "px": 0.996,
-   "tick": 0.001,
-   "ts": 1795132869,
-   "end_ts": 1795219140,
-   "q": "Will \"Ain't In LA - ADÉLA\" be the #2 song this week?",
-   "touched": 1
-  },
-  {
-   "id": "7018590",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 0,
-   "token": "91366583028594420878371063537153876958009293321035278124419179293134749969042",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795132869,
-   "end_ts": 1795219140,
-   "q": "Will \"Choosin' Texas - Ella Langley\" be the #1 US song this week?",
-   "touched": 0
-  },
-  {
-   "id": "7018611",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "38599972417647272465766265320299216242661239653436429522564705504043127781946",
-   "px": 0.996,
-   "tick": 0.001,
-   "ts": 1795132869,
-   "end_ts": 1795219140,
-   "q": "Will \"Ghostbusters - Ray Parker Jr.\" be the #2 US song this week?",
-   "touched": 0
-  },
-  {
    "id": "6998365",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -5764,19 +5443,6 @@
    "ts": 1795132869,
    "end_ts": 1795237200,
    "q": "FC Machida Zelvia vs. V-Varen Nagasaki: O/U 6.5",
-   "touched": 1
-  },
-  {
-   "id": "7076219",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "41216951110747421407028066679639867255628518448489706577109127508343643098494",
-   "px": 0.973,
-   "tick": 0.001,
-   "ts": 1795136467,
-   "end_ts": 1795201200,
-   "q": "Spread: Jong AZ Alkmaar (-3.5)",
    "touched": 1
   },
   {
@@ -5842,45 +5508,6 @@
    "ts": 1795136467,
    "end_ts": 1795219200,
    "q": "Oakland Golden Grizzlies vs. Purdue Boilermakers",
-   "touched": 1
-  },
-  {
-   "id": "7018573",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "36787402331505738489479331707375484940915184645168189457679708022199622144756",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795136467,
-   "end_ts": 1795219140,
-   "q": "Will \"Nicole Kidman - ADÉLA\" be the #1 song this week?",
-   "touched": 0
-  },
-  {
-   "id": "7018577",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "100444098998928000176676432330928246235761837251435651644976002595007000268257",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795136467,
-   "end_ts": 1795219140,
-   "q": "Will \"Ain't In LA - ADÉLA\" be the #1 song this week?",
-   "touched": 1
-  },
-  {
-   "id": "7018608",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "20785845372088850176541468229967942490695431238314553365009037550690992244928",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1795136467,
-   "end_ts": 1795219140,
-   "q": "Will \"Nicole Kidman - ADÉLA\" be the #2 US song this week?",
    "touched": 1
   },
   {
@@ -5986,19 +5613,6 @@
    "end_ts": 1795215600,
    "q": "CA Vélez Sarsfield vs. CA Belgrano: O/U 7.5",
    "touched": 0
-  },
-  {
-   "id": "7018609",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "80798865278077341394515479891271601430047311180249157866418932528515602649604",
-   "px": 0.991,
-   "tick": 0.001,
-   "ts": 1795140069,
-   "end_ts": 1795219140,
-   "q": "Will \"Choosin' Texas - Ella Langley\" be the #2 US song this week?",
-   "touched": 1
   },
   {
    "id": "6820540",
@@ -6118,32 +5732,6 @@
    "touched": 1
   },
   {
-   "id": "6801781",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "108275298373297082797218529902369463937371547939376074957588988907422439032805",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1795143665,
-   "end_ts": 1795197600,
-   "q": "Spread: Molde FK (-3.5)",
-   "touched": 0
-  },
-  {
-   "id": "7018570",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 0,
-   "token": "112371187491718018653222176207970778146221861362830189696012993557839110193856",
-   "px": 0.971,
-   "tick": 0.001,
-   "ts": 1795143665,
-   "end_ts": 1795219140,
-   "q": "Will \"Stop The Wedding! - Ashe\" be the #2 song this week?",
-   "touched": 1
-  },
-  {
    "id": "6843546",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -6155,45 +5743,6 @@
    "end_ts": 1795230600,
    "q": "Spread: Atlante FC (-2.5)",
    "touched": 0
-  },
-  {
-   "id": "6801838",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "110307554918619155306832281195613622773490314422269694273608613304526047167096",
-   "px": 0.977,
-   "tick": 0.001,
-   "ts": 1795147270,
-   "end_ts": 1795197600,
-   "q": "Molde FK vs. FK Bodø/Glimt: O/U 8.5",
-   "touched": 1
-  },
-  {
-   "id": "6816703",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "61189461338331723018565933323638450876770699221869178216997102753472637807161",
-   "px": 0.971,
-   "tick": 0.001,
-   "ts": 1795147270,
-   "end_ts": 1795201200,
-   "q": "Spread: US Boulogne Côte d'Opale (-2.5)",
-   "touched": 1
-  },
-  {
-   "id": "6816704",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "48354500139924355964144337202917862388972073951115654232075291286366848572590",
-   "px": 0.972,
-   "tick": 0.001,
-   "ts": 1795147270,
-   "end_ts": 1795201200,
-   "q": "Spread: FC Metz (-3.5)",
-   "touched": 1
   },
   {
    "id": "6816764",
@@ -6220,149 +5769,6 @@
    "end_ts": 1795201200,
    "q": "Red Star FC vs. Pau FC: O/U 8.5",
    "touched": 1
-  },
-  {
-   "id": "6816878",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "4109877870154649289838060870206264417498917597146004657194190349631783373699",
-   "px": 0.993,
-   "tick": 0.001,
-   "ts": 1795147270,
-   "end_ts": 1795201200,
-   "q": "FC Annecy vs. Clermont Foot 63: O/U 8.5",
-   "touched": 1
-  },
-  {
-   "id": "6816911",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "200411718791965632665392181139507282300088081420341166363169329434485680218",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795147270,
-   "end_ts": 1795201200,
-   "q": "Spread: Dijon Football Côte d'Or (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "7064687",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "60447850061204745174605688290446809039940930794528858851774921953738731255141",
-   "px": 0.979,
-   "tick": 0.001,
-   "ts": 1795147270,
-   "end_ts": 1795201200,
-   "q": "Spread: Jong PSV Eindhoven (-1.5)",
-   "touched": 1
-  },
-  {
-   "id": "7064704",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "6010797030985630185883041496029919099563953539548024074205846493222192240764",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1795147270,
-   "end_ts": 1795201200,
-   "q": "Heracles Almelo vs. Jong PSV Eindhoven: O/U 8.5",
-   "touched": 1
-  },
-  {
-   "id": "7064733",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "62728218621797542310549797981937003269084733546109930550185632703640404819904",
-   "px": 0.981,
-   "tick": 0.001,
-   "ts": 1795147270,
-   "end_ts": 1795201200,
-   "q": "FC Volendam vs. Jong Ajax Amsterdam: O/U 0.5",
-   "touched": 1
-  },
-  {
-   "id": "7064770",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "81862976184057351888496089095286495699819311866504380300506792357951949658315",
-   "px": 0.974,
-   "tick": 0.001,
-   "ts": 1795147270,
-   "end_ts": 1795201200,
-   "q": "FC Den Bosch vs. VVV Venlo: O/U 0.5",
-   "touched": 1
-  },
-  {
-   "id": "7064778",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "46785219230968674544889671113050003273263016938819911010426137166490335348258",
-   "px": 0.98,
-   "tick": 0.001,
-   "ts": 1795147270,
-   "end_ts": 1795201200,
-   "q": "FC Den Bosch vs. VVV Venlo: O/U 8.5",
-   "touched": 1
-  },
-  {
-   "id": "7067466",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "109270865134842424176600346420050058367108143543023472074981860134517232017946",
-   "px": 0.985,
-   "tick": 0.001,
-   "ts": 1795147270,
-   "end_ts": 1795201200,
-   "q": "TOP Oss vs. Roda JC Kerkrade: O/U 7.5",
-   "touched": 1
-  },
-  {
-   "id": "7067503",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "113422002085583639381377194952242911633867520620026437318474921351626021731105",
-   "px": 0.98,
-   "tick": 0.001,
-   "ts": 1795147270,
-   "end_ts": 1795201200,
-   "q": "Helmond Sport vs. FC Dordrecht: O/U 7.5",
-   "touched": 1
-  },
-  {
-   "id": "7076224",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "53594497320528379747244233772419639937072672897558774711267087894129558112677",
-   "px": 0.972,
-   "tick": 0.001,
-   "ts": 1795147270,
-   "end_ts": 1795201200,
-   "q": "Vitesse Arnhem vs. Jong AZ Alkmaar: O/U 0.5",
-   "touched": 1
-  },
-  {
-   "id": "7076232",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "2327513920069769599445014151524415246941622101205077765307474876455240815431",
-   "px": 0.985,
-   "tick": 0.001,
-   "ts": 1795147270,
-   "end_ts": 1795201200,
-   "q": "Vitesse Arnhem vs. Jong AZ Alkmaar: O/U 8.5",
-   "touched": 0
   },
   {
    "id": "6783203",
@@ -6482,19 +5888,6 @@
    "touched": 1
   },
   {
-   "id": "6777607",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "26121869207099738459681016003572676970043168308762561417955780721714875261387",
-   "px": 0.979,
-   "tick": 0.001,
-   "ts": 1795150868,
-   "end_ts": 1795204800,
-   "q": "Spread: Barnsley FC (-3.5)",
-   "touched": 1
-  },
-  {
    "id": "6783189",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -6521,32 +5914,6 @@
    "touched": 1
   },
   {
-   "id": "6786365",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "37775298927766327028744802937668395138320789076072736464693880819331365409331",
-   "px": 0.985,
-   "tick": 0.001,
-   "ts": 1795150868,
-   "end_ts": 1795199400,
-   "q": "Spread: FCV Farul Constanţa (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "6786368",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "100879955815944967265315337950877922878119651737018582431493042328856351055850",
-   "px": 0.979,
-   "tick": 0.001,
-   "ts": 1795150868,
-   "end_ts": 1795199400,
-   "q": "Spread: FC Universitatea Cluj (-3.5)",
-   "touched": 1
-  },
-  {
    "id": "6816770",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -6570,58 +5937,6 @@
    "ts": 1795150868,
    "end_ts": 1795201200,
    "q": "Spread: Pau FC (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "6816819",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "1093366611142432666648511940738643732657033046836513697351465911754804567539",
-   "px": 0.989,
-   "tick": 0.001,
-   "ts": 1795150868,
-   "end_ts": 1795201200,
-   "q": "Spread: Rodez Aveyron Football (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "6816864",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "52404195281483386033959834530329011208950583039866877628053847388314254026789",
-   "px": 0.972,
-   "tick": 0.001,
-   "ts": 1795150868,
-   "end_ts": 1795201200,
-   "q": "Spread: FC Annecy (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "6816865",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "74113050868733478904709882113189202311353821574438464563328555209206569601852",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795150868,
-   "end_ts": 1795201200,
-   "q": "Spread: Clermont Foot 63 (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "6816924",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "7376270219250925692077953290208283444162789084970725722122720563567356284354",
-   "px": 0.993,
-   "tick": 0.001,
-   "ts": 1795150868,
-   "end_ts": 1795201200,
-   "q": "AS Nancy-Lorraine vs. Dijon Football Côte d'Or: O/U 8.5",
    "touched": 1
   },
   {
@@ -6661,110 +5976,6 @@
    "ts": 1795150868,
    "end_ts": 1795203000,
    "q": "Spread: US Salernitana (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "7037187",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "1874144507711104999086292638138759821350300706627991068837588798463621168617",
-   "px": 0.979,
-   "tick": 0.001,
-   "ts": 1795150868,
-   "end_ts": 1795201200,
-   "q": "Spread: Royal Excelsior Virton (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "7064666",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "106435713729744689633233242001830094244705500823572994265645224234973341432307",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1795150868,
-   "end_ts": 1795201200,
-   "q": "Jong FC Utrecht vs. FC Emmen: O/U 7.5",
-   "touched": 1
-  },
-  {
-   "id": "7064667",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "28266013751012807671301686790565309084356954730268483533160524633526611910608",
-   "px": 0.989,
-   "tick": 0.001,
-   "ts": 1795150868,
-   "end_ts": 1795201200,
-   "q": "Jong FC Utrecht vs. FC Emmen: O/U 8.5",
-   "touched": 1
-  },
-  {
-   "id": "7064689",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "81178401663800245084364084283933421377996274886059870375153233445645184286179",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795150868,
-   "end_ts": 1795201200,
-   "q": "Spread: Jong PSV Eindhoven (-2.5)",
-   "touched": 1
-  },
-  {
-   "id": "7064691",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "48534583797030340107614331193801487683837640453738972016915551073768655981667",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795150868,
-   "end_ts": 1795201200,
-   "q": "Spread: Jong PSV Eindhoven (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "7064728",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "82028471748219975904055434060972332900756212893331044148129617798608803198993",
-   "px": 0.977,
-   "tick": 0.001,
-   "ts": 1795150868,
-   "end_ts": 1795201200,
-   "q": "Spread: Jong Ajax Amsterdam (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "7064741",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "35152552793455209494285553803650228043213955650983570607127696173683943142962",
-   "px": 0.983,
-   "tick": 0.001,
-   "ts": 1795150868,
-   "end_ts": 1795201200,
-   "q": "FC Volendam vs. Jong Ajax Amsterdam: O/U 8.5",
-   "touched": 1
-  },
-  {
-   "id": "7064765",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "79319047270705951716134700993448423450616836987477570429973012210093002759336",
-   "px": 0.979,
-   "tick": 0.001,
-   "ts": 1795150868,
-   "end_ts": 1795201200,
-   "q": "Spread: VVV Venlo (-3.5)",
    "touched": 1
   },
   {
@@ -7038,110 +6249,6 @@
    "ts": 1795150868,
    "end_ts": 1795237140,
    "q": "Will Chromagraph Camera be #1 Paid App in the US Apple App Store on November 20?",
-   "touched": 0
-  },
-  {
-   "id": "7067451",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "24647414425681211408941233327612324913103798664017230235292628276581107211351",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1795154474,
-   "end_ts": 1795201200,
-   "q": "Spread: TOP Oss (-2.5)",
-   "touched": 1
-  },
-  {
-   "id": "7067491",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "110126208410207851406538031715123570622260586715739737756507398579598091688874",
-   "px": 0.984,
-   "tick": 0.001,
-   "ts": 1795154474,
-   "end_ts": 1795201200,
-   "q": "Spread: FC Dordrecht (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "7067527",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "49543635917310886159035359683396494863144391454890870281462756248542073583374",
-   "px": 0.983,
-   "tick": 0.001,
-   "ts": 1795154474,
-   "end_ts": 1795201200,
-   "q": "Spread: Almere City FC (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "7067540",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "81457235544455611904491127439530053669978721501294597119219461188387791549107",
-   "px": 0.982,
-   "tick": 0.001,
-   "ts": 1795154474,
-   "end_ts": 1795201200,
-   "q": "Almere City FC vs. NAC Breda: O/U 7.5",
-   "touched": 1
-  },
-  {
-   "id": "7076231",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "11466286710241510812949323788805924351023486146655346994881557477911037045517",
-   "px": 0.985,
-   "tick": 0.001,
-   "ts": 1795154474,
-   "end_ts": 1795201200,
-   "q": "Vitesse Arnhem vs. Jong AZ Alkmaar: O/U 7.5",
-   "touched": 1
-  },
-  {
-   "id": "7076256",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "2368988774101484062090270097868705472834845864199316754258471863586845232888",
-   "px": 0.988,
-   "tick": 0.001,
-   "ts": 1795154474,
-   "end_ts": 1795201200,
-   "q": "Spread: MVV Maastricht (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "7076268",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "89453815250785712298901856017200616963515210955903425169052970108650983845283",
-   "px": 0.983,
-   "tick": 0.001,
-   "ts": 1795154474,
-   "end_ts": 1795201200,
-   "q": "De Graafschap vs. MVV Maastricht: O/U 7.5",
-   "touched": 1
-  },
-  {
-   "id": "7018596",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "8028073141432959659899800171306229662333088974169825089796458504997492995144",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795154474,
-   "end_ts": 1795219140,
-   "q": "Will \"Hate Sleeping Alone - Drake\" be the #1 US song this week?",
    "touched": 0
   },
   {
@@ -7597,58 +6704,6 @@
    "ts": 1795161670,
    "end_ts": 1795203900,
    "q": "Southend United FC vs. Boreham Wood FC: O/U 7.5",
-   "touched": 1
-  },
-  {
-   "id": "6816705",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "84153505782863111564143799607260851349240913047402845929097483172806020183452",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795161670,
-   "end_ts": 1795201200,
-   "q": "Spread: US Boulogne Côte d'Opale (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "6997843",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "30079512452458260624598514766256431022369730872298016828070437835315566933252",
-   "px": 0.973,
-   "tick": 0.001,
-   "ts": 1795161670,
-   "end_ts": 1795204800,
-   "q": "1st Half Spread: RCD Espanyol de Barcelona (-1.5)",
-   "touched": 1
-  },
-  {
-   "id": "7037186",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "113946399669458913806140044931808776650575085139879746745843558207700809889621",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1795161670,
-   "end_ts": 1795201200,
-   "q": "Spread: Club NXT (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "7064659",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "3877465672427680316537676490333576526591910689236851627124175041205454503814",
-   "px": 0.972,
-   "tick": 0.001,
-   "ts": 1795161670,
-   "end_ts": 1795201200,
-   "q": "Jong FC Utrecht vs. FC Emmen: O/U 0.5",
    "touched": 1
   },
   {
@@ -8614,45 +7669,6 @@
    "touched": 1
   },
   {
-   "id": "7067490",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "100794222707595856954321386135408598726740302522352965726329824516475043762572",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1795168880,
-   "end_ts": 1795201200,
-   "q": "Spread: Helmond Sport (-3.5)",
-   "touched": null
-  },
-  {
-   "id": "6773166",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "25249679705291092240570214017078325978986945558644488092705045542213461887672",
-   "px": 0.983,
-   "tick": 0.001,
-   "ts": 1795168880,
-   "end_ts": 1795203000,
-   "q": "Spread: 1. FC Köln (-5.5)",
-   "touched": null
-  },
-  {
-   "id": "6775382",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "68493643764596300205205471085507547416325095436823280614019467486539715662099",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1795168880,
-   "end_ts": 1795204800,
-   "q": "Spread: Athletic Club (-4.5)",
-   "touched": null
-  },
-  {
    "id": "7022874",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -8663,33 +7679,7 @@
    "ts": 1795168880,
    "end_ts": 1795206600,
    "q": "Spread: Sportivo Ameliano (-3.5)",
-   "touched": null
-  },
-  {
-   "id": "7025361",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "82204575872861263771337806095722484264098369137029127521088955699362544610240",
-   "px": 0.985,
-   "tick": 0.001,
-   "ts": 1795168880,
-   "end_ts": 1795208400,
-   "q": "Will Micron Technology, Inc. (MU) hit (HIGH) $870 Week of November 16 2026?",
-   "touched": null
-  },
-  {
-   "id": "7025428",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "2398302074825143566038641844525576600643150301062233626375205615947018219831",
-   "px": 0.984,
-   "tick": 0.001,
-   "ts": 1795168880,
-   "end_ts": 1795208400,
-   "q": "Will South Korea ETF (EWY) hit (HIGH) $148 Week of November 16 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7118759",
@@ -8702,7 +7692,7 @@
    "ts": 1795168880,
    "end_ts": 1795210200,
    "q": "Spread: Independiente Santa Fe (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7154734",
@@ -8715,7 +7705,7 @@
    "ts": 1795168880,
    "end_ts": 1795204800,
    "q": "Spread: Gimnastic de Tarragona (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6364890",
@@ -8728,7 +7718,7 @@
    "ts": 1795168880,
    "end_ts": 1795237140,
    "q": "Will the next Claude Opus model (5.6+) be released on November 20, 2026?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6820625",
@@ -8741,7 +7731,7 @@
    "ts": 1795168880,
    "end_ts": 1795237200,
    "q": "Pohang Steelers FC vs. FC Anyang: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7189830",
@@ -8754,7 +7744,7 @@
    "ts": 1795168880,
    "end_ts": 1795237200,
    "q": "Will Solana reach $80 on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6842604",
@@ -8767,7 +7757,7 @@
    "ts": 1795168880,
    "end_ts": 1795266000,
    "q": "Deportivo Alavés vs. RC Deportivo A Coruña: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6842605",
@@ -8780,7 +7770,7 @@
    "ts": 1795168880,
    "end_ts": 1795266000,
    "q": "Deportivo Alavés vs. RC Deportivo A Coruña: O/U 8.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6845256",
@@ -8793,7 +7783,7 @@
    "ts": 1795168880,
    "end_ts": 1795264200,
    "q": "Reading FC vs. Bromley FC: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6850648",
@@ -8806,7 +7796,7 @@
    "ts": 1795168880,
    "end_ts": 1795264200,
    "q": "Spread: Derby County FC (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6850707",
@@ -8819,7 +7809,7 @@
    "ts": 1795168880,
    "end_ts": 1795264200,
    "q": "Millwall FC vs. Queens Park Rangers FC: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6861581",
@@ -8832,7 +7822,7 @@
    "ts": 1795168880,
    "end_ts": 1795262400,
    "q": "VfL Wolfsburg vs. Holstein Kiel: O/U 0.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6864424",
@@ -8845,7 +7835,7 @@
    "ts": 1795168880,
    "end_ts": 1795266000,
    "q": "Spread: Çaykur Rizespor (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6873380",
@@ -8858,7 +7848,7 @@
    "ts": 1795168880,
    "end_ts": 1795266000,
    "q": "Tromsø IL vs. Viking FK: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7039250",
@@ -8871,7 +7861,7 @@
    "ts": 1795168880,
    "end_ts": 1795265100,
    "q": "Spread: PFC Slavia Sofia (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6837705",
@@ -8884,7 +7874,7 @@
    "ts": 1795168880,
    "end_ts": 1795273200,
    "q": "AFC Bournemouth vs. Nottingham Forest FC: O/U 7.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6837864",
@@ -8897,7 +7887,7 @@
    "ts": 1795168880,
    "end_ts": 1795269600,
    "q": "SS Lazio vs. US Lecce: O/U 8.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6838290",
@@ -8910,7 +7900,7 @@
    "ts": 1795168880,
    "end_ts": 1795273200,
    "q": "Coventry City FC vs. Crystal Palace FC: O/U 7.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6842520",
@@ -8923,7 +7913,7 @@
    "ts": 1795168880,
    "end_ts": 1795274100,
    "q": "Spread: Valencia CF (-2.5)",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6842525",
@@ -8936,7 +7926,7 @@
    "ts": 1795168880,
    "end_ts": 1795274100,
    "q": "Spread: Valencia CF (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6842549",
@@ -8949,46 +7939,7 @@
    "ts": 1795168880,
    "end_ts": 1795274100,
    "q": "Rayo Vallecano de Madrid vs. Valencia CF: O/U 6.5",
-   "touched": null
-  },
-  {
-   "id": "7170279",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 0,
-   "token": "65292130008846689454868576139236618569490188453642384286038912397599066243623",
-   "px": 0.993,
-   "tick": 0.001,
-   "ts": 1795169497,
-   "end_ts": 1795169700,
-   "q": "XRP Up or Down - November 20, 5:00AM-5:15AM ET",
-   "touched": null
-  },
-  {
-   "id": "7170281",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 0,
-   "token": "91765630899045156911327722689759749765017471339176866699132730015718431251450",
-   "px": 0.99,
-   "tick": 0.001,
-   "ts": 1795169497,
-   "end_ts": 1795169700,
-   "q": "Ethereum Up or Down - November 20, 5:00AM-5:15AM ET",
-   "touched": null
-  },
-  {
-   "id": "7194168",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "113831318845124332304143524993519686126001075742679197083840893642782983529305",
-   "px": 0.984,
-   "tick": 0.001,
-   "ts": 1795169497,
-   "end_ts": 1795172400,
-   "q": "Ethereum above 1,770 on November 20, 6AM ET?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6838885",
@@ -9001,7 +7952,7 @@
    "ts": 1795169497,
    "end_ts": 1795207500,
    "q": "Spread: USC Paredes (-1.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6857488",
@@ -9014,7 +7965,7 @@
    "ts": 1795169497,
    "end_ts": 1795217400,
    "q": "CD Palestino vs. CD Unión La Calera: O/U 7.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7175699",
@@ -9027,7 +7978,7 @@
    "ts": 1795169497,
    "end_ts": 1795237140,
    "q": "Will IShowSpeed finish GTA VI by November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6864360",
@@ -9040,7 +7991,7 @@
    "ts": 1795169497,
    "end_ts": 1795266000,
    "q": "Spread: Samsunspor (-1.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6837709",
@@ -9053,7 +8004,7 @@
    "ts": 1795169497,
    "end_ts": 1795273200,
    "q": "AFC Bournemouth vs. Nottingham Forest FC: O/U 8.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6838117",
@@ -9066,7 +8017,7 @@
    "ts": 1795169497,
    "end_ts": 1795273200,
    "q": "Tottenham Hotspur FC vs. Ipswich Town FC: O/U 8.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6838293",
@@ -9079,7 +8030,7 @@
    "ts": 1795169497,
    "end_ts": 1795273200,
    "q": "Coventry City FC vs. Crystal Palace FC: O/U 8.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6838414",
@@ -9092,7 +8043,7 @@
    "ts": 1795169497,
    "end_ts": 1795273200,
    "q": "Aston Villa FC vs. Sunderland AFC: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6838415",
@@ -9105,7 +8056,7 @@
    "ts": 1795169497,
    "end_ts": 1795273200,
    "q": "Aston Villa FC vs. Sunderland AFC: O/U 8.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6838899",
@@ -9118,33 +8069,7 @@
    "ts": 1795172468,
    "end_ts": 1795207500,
    "q": "Spread: USC Paredes (-3.5)",
-   "touched": null
-  },
-  {
-   "id": "7025127",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "59617185078585259867972265801842802339120007694560092708028015751404611143596",
-   "px": 0.985,
-   "tick": 0.001,
-   "ts": 1795172468,
-   "end_ts": 1795208400,
-   "q": "Will NVIDIA (NVDA) finish week of November 16 above $185?",
-   "touched": null
-  },
-  {
-   "id": "7025362",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "75724318022801924194338521219452149475665993807392715487197879604226867020738",
-   "px": 0.985,
-   "tick": 0.001,
-   "ts": 1795172468,
-   "end_ts": 1795208400,
-   "q": "Will Micron Technology, Inc. (MU) hit (HIGH) $840 Week of November 16 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6870144",
@@ -9157,7 +8082,7 @@
    "ts": 1795172468,
    "end_ts": 1795237200,
    "q": "Spread: V-Varen Nagasaki (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6869960",
@@ -9170,7 +8095,7 @@
    "ts": 1795172468,
    "end_ts": 1795240800,
    "q": "Spread: Avispa Fukuoka (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6864483",
@@ -9183,7 +8108,7 @@
    "ts": 1795172468,
    "end_ts": 1795257000,
    "q": "Gençlerbirliği SK vs. Gaziantep FK: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6850662",
@@ -9196,7 +8121,7 @@
    "ts": 1795172468,
    "end_ts": 1795264200,
    "q": "Southampton FC vs. Derby County FC: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6858376",
@@ -9209,7 +8134,7 @@
    "ts": 1795172468,
    "end_ts": 1795269600,
    "q": "FC Baník Ostrava vs. FK Teplice: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6883542",
@@ -9222,7 +8147,7 @@
    "ts": 1795172468,
    "end_ts": 1795269600,
    "q": "Carrarese Calcio vs. Virtus Entella: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6883588",
@@ -9235,7 +8160,7 @@
    "ts": 1795172468,
    "end_ts": 1795269600,
    "q": "Ascoli Calcio 1898 FC vs. L.R. Vicenza: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6883620",
@@ -9248,7 +8173,7 @@
    "ts": 1795172468,
    "end_ts": 1795269600,
    "q": "Spread: FC Südtirol (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6883634",
@@ -9261,7 +8186,7 @@
    "ts": 1795172468,
    "end_ts": 1795269600,
    "q": "FC Südtirol vs. US Cremonese: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6821400",
@@ -9274,7 +8199,7 @@
    "ts": 1795172468,
    "end_ts": 1795280400,
    "q": "Wofford vs. Ole Miss",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6837595",
@@ -9287,7 +8212,7 @@
    "ts": 1795172468,
    "end_ts": 1795280400,
    "q": "Spread: Parma Calcio 1913 (-1.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6837656",
@@ -9300,7 +8225,7 @@
    "ts": 1795172468,
    "end_ts": 1795280400,
    "q": "Parma Calcio 1913 vs. AS Roma: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6837916",
@@ -9313,7 +8238,7 @@
    "ts": 1795172468,
    "end_ts": 1795273200,
    "q": "Chelsea FC vs. Leeds United FC: O/U 8.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7018505",
@@ -12784,6 +11709,97 @@
    "ts": 1795212066,
    "end_ts": 1795320000,
    "q": "Washington State Cougars vs. Duke Blue Devils",
+   "touched": null
+  },
+  {
+   "id": "7180216",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "58894496242892145008802054303992187169656672502269920718924096799240498142427",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795215668,
+   "end_ts": 1795222800,
+   "q": "XRP Up or Down - November 20, 4:00PM-8:00PM ET",
+   "touched": null
+  },
+  {
+   "id": "7189840",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "58544444533851219156820691083104250586006275821910977144998065112168029789383",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795215668,
+   "end_ts": 1795237200,
+   "q": "Will XRP reach $1.05 on November 20?",
+   "touched": null
+  },
+  {
+   "id": "6838479",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "8354936549357898198264206402852822090738511495045483859014883092841573415240",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795215668,
+   "end_ts": 1795264200,
+   "q": "Manchester City FC vs. Fulham FC: O/U 0.5",
+   "touched": null
+  },
+  {
+   "id": "6864439",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "12046062580272117318366439095967825986728364979986894316094522040297146132649",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1795215668,
+   "end_ts": 1795266000,
+   "q": "Amed Sportif vs. Çaykur Rizespor: O/U 8.5",
+   "touched": null
+  },
+  {
+   "id": "6838010",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "81574977589913534406341805349686779415638242507269047264295842111047692550714",
+   "px": 0.971,
+   "tick": 0.001,
+   "ts": 1795215668,
+   "end_ts": 1795290300,
+   "q": "Spread: Olympique Lyonnais (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "7042911",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "110301391543045382197653732993329731800636833137843616175947477882985361414798",
+   "px": 0.991,
+   "tick": 0.001,
+   "ts": 1795215668,
+   "end_ts": 1795305600,
+   "q": "Will Ryo Hisatsune win the 2026 The RSM Classic?",
+   "touched": null
+  },
+  {
+   "id": "7042951",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "34033929806609477883898265354929863878112182855494535956430737709416701467750",
+   "px": 0.991,
+   "tick": 0.001,
+   "ts": 1795215668,
+   "end_ts": 1795305600,
+   "q": "Will Patton Kizzire win the 2026 The RSM Classic?",
    "touched": null
   }
  ]
