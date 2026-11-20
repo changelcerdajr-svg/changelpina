@@ -2,8 +2,8 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-11T22:05:26Z | dias corridos: 8.9 de 28 | corridas: 182
-- Capital inicial: $1,000.00 | valor actual: $1,051.83 | P&L: $+51.83 (+5.18%)
+- Inicio: 2026-11-11T22:05:26Z | dias corridos: 8.9 de 28 | corridas: 183
+- Capital inicial: $1,000.00 | valor actual: $1,051.88 | P&L: $+51.88 (+5.19%)
 - Efectivo libre: $370.91 | en ordenes abiertas: $472.68 (9) | en posiciones: $209.43 (4)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
 - Ordenes virtuales: 313 colocadas, 76 llenadas, 155 tocadas sin llenarse (sorteo 30%), 73 expiradas
@@ -27,7 +27,7 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
-| $51.82 | 98.5c | 98.3c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
+| $51.82 | 98.5c | 98.4c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
 | $52.62 | 96.5c | 94.7c | post_fin_95_97 |  | Will the highest temperature in New York City be between 66-67°F on November 20? |
 | $52.47 | 98.9c | 98.2c | deportes_previo |  | Spread: Ajman Club (-2.5) |
 | $52.52 | 98.4c | 99.0c | otros_cierre |  | Will MrBeast's next video get between 87 and 88 million views on day 6? |
@@ -36,7 +36,7 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 2561 | abiertas: 607 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 2561 | abiertas: 631 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
