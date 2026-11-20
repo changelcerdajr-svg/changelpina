@@ -1,6 +1,6 @@
 {
  "capital0": 1000.0,
- "cash": 421.9926,
+ "cash": 421.8935,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
   {
@@ -44,27 +44,6 @@
    "end_ts": 1795186800.0,
    "hours": 6.98,
    "liq": 1209
-  },
-  {
-   "oid": "6096678-1795165271",
-   "id": "6096678",
-   "q": "Will UMich Consumer Sentiment be between 43.0 and 45.9 in November?",
-   "cat": "otros",
-   "rule": "otros_cierre",
-   "event": "1242771",
-   "side": 1,
-   "token": "93421572810772185874245584500807696010744665000588900040546274446902845492769",
-   "px": 0.997,
-   "tick": 0.001,
-   "mid": 0.9975,
-   "bid": 0.996,
-   "ask": 0.999,
-   "shares": 52.6259,
-   "cost": 52.468,
-   "ts": 1795165271.450533,
-   "end_ts": 1795186800.0,
-   "hours": 5.98,
-   "liq": 1084
   },
   {
    "oid": "7170279-1795169497",
@@ -130,25 +109,25 @@
    "liq": 54094
   },
   {
-   "oid": "7177154-1795183282",
-   "id": "7177154",
-   "q": "Will MrBeast's next video get between 87 and 88 million views on day 6?",
+   "oid": "7177156-1795186876",
+   "id": "7177156",
+   "q": "Will MrBeast's next video get 89 million or more views on day 6?",
    "cat": "otros",
    "rule": "otros_cierre",
    "event": "1425926",
    "side": 1,
-   "token": "55315988723210408084388998764812202081307024084854034959326314610251117293763",
-   "px": 0.984,
+   "token": "19443298317994565375841617415141194489673524504670666848309089344001855069319",
+   "px": 0.987,
    "tick": 0.001,
-   "mid": 0.9845,
-   "bid": 0.971,
+   "mid": 0.9875,
+   "bid": 0.977,
    "ask": 0.998,
-   "shares": 53.3734,
-   "cost": 52.5194,
-   "ts": 1795183282.978448,
+   "shares": 53.2594,
+   "cost": 52.5671,
+   "ts": 1795186876.035229,
    "end_ts": 1795194005.0,
-   "hours": 2.98,
-   "liq": 1051
+   "hours": 1.98,
+   "liq": 1240
   }
  ],
  "positions": [
@@ -223,7 +202,7 @@
    "hours": 7.98,
    "liq": 30714,
    "fill_ts": 1795168880.577314,
-   "mark": 0.9925,
+   "mark": 0.9955,
    "stuck": false,
    "disputed": false
   },
@@ -248,7 +227,7 @@
    "hours": 7.98,
    "liq": 24630,
    "fill_ts": 1795176072.872531,
-   "mark": 0.9855,
+   "mark": 0.998,
    "stuck": false,
    "disputed": false
   },
@@ -273,9 +252,32 @@
    "hours": 6.4,
    "liq": 2303,
    "fill_ts": 1795179669.173117,
-   "mark": 0.9795,
+   "mark": 0.982,
    "stuck": false,
    "disputed": false
+  },
+  {
+   "oid": "7177154-1795183282",
+   "id": "7177154",
+   "q": "Will MrBeast's next video get between 87 and 88 million views on day 6?",
+   "cat": "otros",
+   "rule": "otros_cierre",
+   "event": "1425926",
+   "side": 1,
+   "token": "55315988723210408084388998764812202081307024084854034959326314610251117293763",
+   "px": 0.984,
+   "tick": 0.001,
+   "mid": 0.9845,
+   "bid": 0.971,
+   "ask": 0.998,
+   "shares": 53.3734,
+   "cost": 52.5194,
+   "ts": 1795183282.978448,
+   "end_ts": 1795194005.0,
+   "hours": 2.98,
+   "liq": 1051,
+   "fill_ts": 1795186876.035229,
+   "mark": 0.984
   }
  ],
  "closed": [
@@ -4625,14 +4627,27 @@
    "placed": 1,
    "shadow_open": 567,
    "shadow_closed": 2
+  },
+  {
+   "ts": "2026-11-20T15:02:59Z",
+   "equity": 1051.34,
+   "cash": 421.89,
+   "orders": 6,
+   "positions": 6,
+   "closed": 69,
+   "scanned": 19186,
+   "candidates": 209,
+   "placed": 1,
+   "shadow_open": 580,
+   "shadow_closed": 1
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 305,
-  "filled": 74,
+  "placed": 306,
+  "filled": 75,
   "expired": 73,
-  "touched_not_filled": 151
+  "touched_not_filled": 152
  },
  "shadow": [
   {
@@ -7051,7 +7066,7 @@
    "ts": 1795141349,
    "end_ts": 1795237200,
    "q": "Sanfrecce Hiroshima vs. Yokohama F·Marinos: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6870158",
@@ -7064,7 +7079,7 @@
    "ts": 1795141349,
    "end_ts": 1795237200,
    "q": "FC Machida Zelvia vs. V-Varen Nagasaki: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6869864",
@@ -7077,20 +7092,7 @@
    "ts": 1795141349,
    "end_ts": 1795244400,
    "q": "Gamba Ōsaka vs. Fagiano Okayama: O/U 7.5",
-   "touched": null
-  },
-  {
-   "id": "7165541",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "86307888070461974266228575306099916256138029035998831015267198567779488860470",
-   "px": 0.982,
-   "tick": 0.001,
-   "ts": 1795143665,
-   "end_ts": 1795150800,
-   "q": "Will XRP reach $1.00 on November 19?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6801781",
@@ -7103,7 +7105,7 @@
    "ts": 1795143665,
    "end_ts": 1795197600,
    "q": "Spread: Molde FK (-3.5)",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7018533",
@@ -7116,7 +7118,7 @@
    "ts": 1795143665,
    "end_ts": 1795194000,
    "q": "Will the price of XRP be less than $0.60 on November 20?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7018570",
@@ -7129,7 +7131,7 @@
    "ts": 1795143665,
    "end_ts": 1795219140,
    "q": "Will \"Stop The Wedding! - Ashe\" be the #2 song this week?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6843546",
@@ -7142,7 +7144,7 @@
    "ts": 1795143665,
    "end_ts": 1795230600,
    "q": "Spread: Atlante FC (-2.5)",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7165508",
@@ -12004,6 +12006,188 @@
    "ts": 1795183282,
    "end_ts": 1795285800,
    "q": "Empoli FC vs. Pisa SC: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "7018479",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "9742812990388425154582547867693799576875708941149563010069375618061066447320",
+   "px": 0.993,
+   "tick": 0.001,
+   "ts": 1795186876,
+   "end_ts": 1795194000,
+   "q": "Will the price of Bitcoin be above $64,000 on November 20?",
+   "touched": null
+  },
+  {
+   "id": "7024966",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "26401087694918580501271066515218158374037014565393160179337381480981698376905",
+   "px": 0.984,
+   "tick": 0.001,
+   "ts": 1795186876,
+   "end_ts": 1795208400,
+   "q": "Will Amazon.com, Inc. (AMZN) hit (HIGH) $276 Week of November 16 2026?",
+   "touched": null
+  },
+  {
+   "id": "7025111",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "27257490365200828648981936315680243423044629391122493879282577947684755790962",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795186876,
+   "end_ts": 1795208400,
+   "q": "Will NVIDIA (NVDA) finish week of November 16 above $155?",
+   "touched": null
+  },
+  {
+   "id": "7025112",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "49531864179260830767180997927933228995630731685503352659994632929922199027059",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795186876,
+   "end_ts": 1795208400,
+   "q": "Will NVIDIA (NVDA) hit (HIGH) $188 Week of November 16 2026?",
+   "touched": null
+  },
+  {
+   "id": "7025348",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "25710558037223615277446704011238519534778486985382325980884100079081464170408",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795186876,
+   "end_ts": 1795208400,
+   "q": "Will Robinhood Markets, Inc. (HOOD) hit (HIGH) $82.50 Week of November 16 2026?",
+   "touched": null
+  },
+  {
+   "id": "7025371",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "22591865424892229680572365529882912514088676886455520784283440978611756908301",
+   "px": 0.974,
+   "tick": 0.001,
+   "ts": 1795186876,
+   "end_ts": 1795208400,
+   "q": "Will Micron Technology, Inc. (MU) hit (LOW) $570 Week of November 16 2026?",
+   "touched": null
+  },
+  {
+   "id": "7025431",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "100904717165350985932500530745133012987571883626470084637386257088644959297430",
+   "px": 0.987,
+   "tick": 0.001,
+   "ts": 1795186876,
+   "end_ts": 1795208400,
+   "q": "Will South Korea ETF (EWY) hit (HIGH) $145 Week of November 16 2026?",
+   "touched": null
+  },
+  {
+   "id": "7182836",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "13680035089503258236521612923592219594253298748628567659975370790317485209467",
+   "px": 0.981,
+   "tick": 0.001,
+   "ts": 1795186876,
+   "end_ts": 1795215540,
+   "q": "Will IShowSpeed finish GTA VI by November 20, 5:59 PM ET?",
+   "touched": null
+  },
+  {
+   "id": "7189801",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "3634838013983422950752464290802639429703133762267018041192705230995341363439",
+   "px": 0.981,
+   "tick": 0.001,
+   "ts": 1795186876,
+   "end_ts": 1795237200,
+   "q": "Will Bitcoin reach $65,000 on November 20?",
+   "touched": null
+  },
+  {
+   "id": "7189817",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "40895948963587351633501758324823755548790789303707108042760919170317702560366",
+   "px": 0.978,
+   "tick": 0.001,
+   "ts": 1795186876,
+   "end_ts": 1795237200,
+   "q": "Will Ethereum reach $1,850 on November 20?",
+   "touched": null
+  },
+  {
+   "id": "7198608",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "32071928089501362063559731729999991884801404070164102895243459952109575359404",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795186876,
+   "end_ts": 1795262400,
+   "q": "Will PFK Mash AL Mubarek win on 2026-11-21?",
+   "touched": null
+  },
+  {
+   "id": "6834379",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "35473838501844503052508728401542904282770845682048213080765906780452365888331",
+   "px": 0.984,
+   "tick": 0.001,
+   "ts": 1795186876,
+   "end_ts": 1795271400,
+   "q": "Bayer 04 Leverkusen vs. SC Paderborn 07: Neither team to score first?",
+   "touched": null
+  },
+  {
+   "id": "6823863",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "28387870175551333171391610976865061235349798616642102720931878301906235549381",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1795186876,
+   "end_ts": 1795293000,
+   "q": "Samford vs. Auburn",
+   "touched": null
+  },
+  {
+   "id": "6838057",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "52714617184316244431066508237894643694594978509631139290272604948856309408286",
+   "px": 0.984,
+   "tick": 0.001,
+   "ts": 1795186876,
+   "end_ts": 1795290300,
+   "q": "Lille OSC vs. Olympique Lyonnais: O/U 6.5",
    "touched": null
   }
  ]
