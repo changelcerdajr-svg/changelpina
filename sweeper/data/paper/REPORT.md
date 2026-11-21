@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-11T22:05:26Z | dias corridos: 9.0 de 28 | corridas: 187
+- Inicio: 2026-11-11T22:05:26Z | dias corridos: 9.1 de 28 | corridas: 188
 - Capital inicial: $1,000.00 | valor actual: $1,055.08 | P&L: $+55.08 (+5.51%)
 - Efectivo libre: $372.50 | en ordenes abiertas: $473.94 (9) | en posiciones: $209.78 (4)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 325 colocadas, 80 llenadas, 161 tocadas sin llenarse (sorteo 30%), 75 expiradas
+- Ordenes virtuales: 326 colocadas, 80 llenadas, 162 tocadas sin llenarse (sorteo 30%), 75 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -27,7 +27,7 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
-| $51.82 | 98.5c | 98.3c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
+| $51.82 | 98.5c | 98.4c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
 | $52.62 | 96.5c | 94.7c | post_fin_95_97 |  | Will the highest temperature in New York City be between 66-67°F on November 20? |
 | $52.67 | 97.0c | 97.0c | deportes_previo |  | FC Juárez vs. Atlas FC: O/U 6.5 |
 | $52.67 | 98.9c | 98.9c | deportes_previo |  | FC Juárez vs. Atlas FC: O/U 7.5 |
@@ -36,20 +36,20 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 2720 | abiertas: 524 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 2751 | abiertas: 501 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
 | cripto_cierre | todas | 901 | 98.74c | 99.22% | +0.48 pts | -0.09 a +1.05 | 7 |
 | cripto_cierre | tocadas | 609 | 98.57c | 98.85% | +0.28 pts | -0.56 a +1.13 | 7 |
-| deportes_previo | todas | 1352 | 98.35c | 99.11% | +0.76 pts | +0.27 a +1.25 | 13 |
-| deportes_previo | tocadas | 1121 | 98.31c | 99.11% | +0.80 pts | +0.27 a +1.34 | 11 |
+| deportes_previo | todas | 1383 | 98.35c | 99.13% | +0.79 pts | +0.31 a +1.27 | 13 |
+| deportes_previo | tocadas | 1149 | 98.30c | 99.13% | +0.83 pts | +0.31 a +1.35 | 11 |
 | otros_cierre | todas | 439 | 98.79c | 99.09% | +0.30 pts | -0.59 a +1.20 | 4 |
 | otros_cierre | tocadas | 295 | 98.69c | 98.64% | -0.05 pts | -1.38 a +1.28 | 4 |
 | post_fin_95_97 | todas | 28 | 96.09c | 92.86% | -3.23 pts | -12.91 a +6.45 | 2 |
 | post_fin_95_97 | tocadas | 23 | 96.10c | 91.30% | -4.80 pts | -16.53 a +6.94 | 2 |
-| TOTAL | todas | 2720 | 98.53c | 99.08% | +0.55 pts | +0.20 a +0.91 | 26 |
-| TOTAL | tocadas | 2048 | 98.41c | 98.88% | +0.46 pts | +0.01 a +0.91 | 24 |
+| TOTAL | todas | 2751 | 98.52c | 99.09% | +0.57 pts | +0.22 a +0.92 | 26 |
+| TOTAL | tocadas | 2076 | 98.41c | 98.89% | +0.48 pts | +0.04 a +0.93 | 24 |
 
 Peores casos del registro sombra:
 
@@ -66,4 +66,4 @@ Peores casos del registro sombra:
 
 ## Veredicto
 
-Aun no hay veredicto: van 76 operaciones cerradas en 9.0 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
+Aun no hay veredicto: van 76 operaciones cerradas en 9.1 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
