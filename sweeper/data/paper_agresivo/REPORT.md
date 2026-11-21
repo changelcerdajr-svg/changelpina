@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 8.0 de 28 | corridas: 167
-- Capital inicial: $1,000.00 | valor actual: $942.83 | P&L: $-57.17 (-5.72%)
-- Efectivo libre: $4.93 | en ordenes abiertas: $146.64 (2) | en posiciones: $806.42 (11)
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 8.1 de 28 | corridas: 168
+- Capital inicial: $1,000.00 | valor actual: $953.50 | P&L: $-46.50 (-4.65%)
+- Efectivo libre: $0.00 | en ordenes abiertas: $250.32 (4) | en posiciones: $711.71 (10)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 360 colocadas, 160 llenadas, 160 tocadas sin llenarse (sorteo 30%), 38 expiradas
+- Ordenes virtuales: 363 colocadas, 161 llenadas, 160 tocadas sin llenarse (sorteo 30%), 38 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -14,10 +14,10 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 |---|---|---|---|---|---|---|---|
 | clima_cierre | 4 | 97.87c | 100.00% | 51.0-100.0% | +2.13 pts | $+7.75 | 1.02 |
 | cripto_cierre | 49 | 98.78c | 100.00% | 92.7-100.0% | +1.22 pts | $+40.02 | 0.14 |
-| deportes_previo | 64 | 98.04c | 96.05% | 89.3-99.1% | -1.98 pts | $-100.66 | 0.31 |
+| deportes_previo | 66 | 98.03c | 96.20% | 89.6-99.2% | -1.83 pts | $-96.61 | 0.31 |
 | otros_cierre | 31 | 99.67c | 100.00% | 89.0-100.0% | +0.33 pts | $+7.04 | 0.34 |
 | post_fin_90_97 | 1 | 96.00c | 100.00% | 20.7-100.0% | +4.00 pts | $+3.83 | 0.71 |
-| TOTAL | 149 | 98.57c | 98.20% | 95.2-99.6% | -0.36 pts | $-42.02 | 0.28 |
+| TOTAL | 151 | 98.55c | 98.23% | 95.3-99.6% | -0.32 pts | $-37.97 | 0.28 |
 
 ## Peores casos
 
@@ -32,21 +32,20 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 |---|---|---|---|---|---|
 | $91.77 | 99.8c | 95.9c | otros_cierre |  | Pakistan military action against Afghanistan by November 15, 2026? |
 | $35.36 | 99.8c | 98.9c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $4.5m and $5.5m at auction? |
-| $87.27 | 99.8c | 97.9c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
-| $93.93 | 97.9c | 93.0c | deportes_previo |  | Spread: Gençlerbirliği SK (-3.5) |
+| $87.27 | 99.8c | 98.3c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
 | $94.55 | 96.2c | 96.2c | deportes_previo |  | Hannover 96 vs. SpVgg Greuther Fürth: Neither team to score first? |
-| $94.72 | 97.9c | 97.9c | deportes_previo |  | Manchester City FC vs. Fulham FC: Neither team to score first? |
+| $93.94 | 99.5c | 99.5c | deportes_previo |  | NEC vs. PSV: Neither team to score first? |
 | $94.72 | 99.6c | 99.2c | otros_cierre |  | Will the next Claude Opus model (5.6+) be released on November 21, 2026? |
-| $17.05 | 99.6c | 99.5c | otros_cierre |  | Will the next Meta Muse Spark model be released on November 21, 2026? |
+| $17.05 | 99.6c | 99.6c | otros_cierre |  | Will the next Meta Muse Spark model be released on November 21, 2026? |
 | $94.88 | 99.8c | 99.5c | clima_cierre |  | Will the next hurricane form between November 17 and November 21, 2026? |
-| $93.98 | 98.5c | 95.2c | cripto_cierre |  | Will Bitcoin reach $64,000 on November 21? |
-| $8.19 | 97.9c | 86.4c | cripto_cierre |  | Will Bitcoin reach $63,000 on November 21? |
+| $93.98 | 98.5c | 96.5c | cripto_cierre |  | Will Bitcoin reach $64,000 on November 21? |
+| $8.19 | 97.9c | 89.8c | cripto_cierre |  | Will Bitcoin reach $63,000 on November 21? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 8155 | abiertas: 2688 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 8182 | abiertas: 2703 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
@@ -54,14 +53,14 @@ Cada mercado que cumple una regla se anota una vez al precio limite que se habri
 | clima_cierre | tocadas | 2170 | 98.87c | 98.94% | +0.07 pts | -0.35 a +0.50 | 23 |
 | cripto_cierre | todas | 1177 | 98.70c | 97.96% | -0.73 pts | -1.53 a +0.07 | 24 |
 | cripto_cierre | tocadas | 1071 | 98.74c | 97.76% | -0.98 pts | -1.86 a -0.11 | 24 |
-| deportes_previo | todas | 3445 | 98.05c | 97.43% | -0.62 pts | -1.14 a -0.10 | 91 |
-| deportes_previo | tocadas | 3367 | 98.07c | 97.37% | -0.70 pts | -1.24 a -0.17 | 91 |
-| otros_cierre | todas | 1107 | 98.97c | 97.02% | -1.96 pts | -2.95 a -0.96 | 33 |
-| otros_cierre | tocadas | 1034 | 98.94c | 96.81% | -2.13 pts | -3.19 a -1.06 | 33 |
+| deportes_previo | todas | 3467 | 98.05c | 97.45% | -0.60 pts | -1.12 a -0.08 | 91 |
+| deportes_previo | tocadas | 3387 | 98.08c | 97.39% | -0.69 pts | -1.22 a -0.16 | 91 |
+| otros_cierre | todas | 1112 | 98.97c | 97.03% | -1.94 pts | -2.93 a -0.95 | 33 |
+| otros_cierre | tocadas | 1039 | 98.93c | 96.82% | -2.11 pts | -3.17 a -1.05 | 33 |
 | post_fin_90_97 | todas | 77 | 94.31c | 97.40% | +3.09 pts | -0.49 a +6.68 | 2 |
 | post_fin_90_97 | tocadas | 61 | 94.40c | 96.72% | +2.32 pts | -2.18 a +6.83 | 2 |
-| TOTAL | todas | 8155 | 98.46c | 97.91% | -0.55 pts | -0.86 a -0.25 | 173 |
-| TOTAL | tocadas | 7703 | 98.48c | 97.79% | -0.69 pts | -1.02 a -0.37 | 173 |
+| TOTAL | todas | 8182 | 98.46c | 97.92% | -0.54 pts | -0.85 a -0.24 | 173 |
+| TOTAL | tocadas | 7728 | 98.48c | 97.79% | -0.68 pts | -1.01 a -0.36 | 173 |
 
 Peores casos del registro sombra:
 
@@ -78,4 +77,4 @@ Peores casos del registro sombra:
 
 ## Veredicto
 
-Aun no hay veredicto: van 149 operaciones cerradas en 8.0 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
+Aun no hay veredicto: van 151 operaciones cerradas en 8.1 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.

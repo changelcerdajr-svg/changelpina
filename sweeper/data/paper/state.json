@@ -1,29 +1,8 @@
 {
  "capital0": 1000.0,
- "cash": 426.8514,
+ "cash": 428.6859,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
-  {
-   "oid": "4970925-1795230070",
-   "id": "4970925",
-   "q": "Manchester City punishment announced by November 20?",
-   "cat": "otros",
-   "rule": "otros_cierre",
-   "event": "1083788",
-   "side": 1,
-   "token": "65584738545620502541590527870837450151624336000268229517313863111120295075706",
-   "px": 0.988,
-   "tick": 0.001,
-   "mid": 0.9885,
-   "bid": 0.978,
-   "ask": 0.999,
-   "shares": 53.3771,
-   "cost": 52.7365,
-   "ts": 1795230070.070558,
-   "end_ts": 1795237140.0,
-   "hours": 1.96,
-   "liq": 1668
-  },
   {
    "oid": "7018013-1795233676",
    "id": "7018013",
@@ -128,6 +107,48 @@
    "end_ts": 1795293000.0,
    "hours": 6.48,
    "liq": 78440
+  },
+  {
+   "oid": "7160488-1795273270",
+   "id": "7160488",
+   "q": "Spread: Barcelona SC (-2.5)",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1420413",
+   "side": 1,
+   "token": "26544033442884840386420807077357880754482372677654219882690988468666599447195",
+   "px": 0.981,
+   "tick": 0.001,
+   "mid": 0.981,
+   "bid": 0.97,
+   "ask": 0.992,
+   "shares": 53.4274,
+   "cost": 52.4122,
+   "ts": 1795273270.32323,
+   "end_ts": 1795296600.0,
+   "hours": 6.48,
+   "liq": 1062
+  },
+  {
+   "oid": "6655555-1795273270",
+   "id": "6655555",
+   "q": "Will the next Meta Muse Spark model be released on November 21, 2026?",
+   "cat": "otros",
+   "rule": "otros_cierre",
+   "event": "1310057",
+   "side": 1,
+   "token": "20033605768675266674847356872510058681745674647391465698374872985489486753082",
+   "px": 0.995,
+   "tick": 0.001,
+   "mid": 0.9955,
+   "bid": 0.993,
+   "ask": 0.998,
+   "shares": 53.0808,
+   "cost": 52.8154,
+   "ts": 1795273270.32323,
+   "end_ts": 1795323540.0,
+   "hours": 13.96,
+   "liq": 1459
   }
  ],
  "positions": [
@@ -152,32 +173,7 @@
    "hours": 4.96,
    "liq": 1203,
    "fill_ts": 1794967266.068418,
-   "mark": 0.9785,
-   "stuck": false,
-   "disputed": false
-  },
-  {
-   "oid": "6864483-1795222200",
-   "id": "6864483",
-   "q": "Gençlerbirliği SK vs. Gaziantep FK: O/U 6.5",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1341444",
-   "side": 1,
-   "token": "68469899504148231909038945130522956229323121719947867055289038537993361818210",
-   "px": 0.971,
-   "tick": 0.001,
-   "mid": 0.971,
-   "bid": 0.963,
-   "ask": 0.979,
-   "shares": 54.3256,
-   "cost": 52.7502,
-   "ts": 1795222200.558067,
-   "end_ts": 1795257000.0,
-   "hours": 9.67,
-   "liq": 2128,
-   "fill_ts": 1795233676.49104,
-   "mark": 0.9695,
+   "mark": 0.983,
    "stuck": false,
    "disputed": false
   },
@@ -227,7 +223,7 @@
    "hours": 16.98,
    "liq": 19899,
    "fill_ts": 1795266066.083833,
-   "mark": 0.9525,
+   "mark": 0.9655,
    "stuck": false,
    "disputed": false
   },
@@ -252,7 +248,9 @@
    "hours": 15.98,
    "liq": 18511,
    "fill_ts": 1795269667.934122,
-   "mark": 0.979
+   "mark": 0.8975,
+   "stuck": false,
+   "disputed": false
   },
   {
    "oid": "7217547-1795266066",
@@ -275,7 +273,9 @@
    "hours": 15.98,
    "liq": 14093,
    "fill_ts": 1795269667.934122,
-   "mark": 0.994
+   "mark": 0.9965,
+   "stuck": false,
+   "disputed": false
   }
  ],
  "closed": [
@@ -2654,6 +2654,36 @@
    "result": 1.0,
    "closed_ts": "2026-11-21T10:01:06Z",
    "days": 0.07
+  },
+  {
+   "oid": "6864483-1795222200",
+   "id": "6864483",
+   "q": "Gençlerbirliği SK vs. Gaziantep FK: O/U 6.5",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1341444",
+   "side": 1,
+   "token": "68469899504148231909038945130522956229323121719947867055289038537993361818210",
+   "px": 0.971,
+   "tick": 0.001,
+   "mid": 0.971,
+   "bid": 0.963,
+   "ask": 0.979,
+   "shares": 54.3256,
+   "cost": 52.7502,
+   "ts": 1795222200.558067,
+   "end_ts": 1795257000.0,
+   "hours": 9.67,
+   "liq": 2128,
+   "fill_ts": 1795233676.49104,
+   "mark": 0.9695,
+   "stuck": false,
+   "disputed": false,
+   "payout": 54.3256,
+   "pnl": 1.5754,
+   "result": 1.0,
+   "closed_ts": "2026-11-21T15:01:11Z",
+   "days": 0.46
   }
  ],
  "runs": [
@@ -5304,13 +5334,26 @@
    "placed": 1,
    "shadow_open": 492,
    "shadow_closed": 0
+  },
+  {
+   "ts": "2026-11-21T15:02:05Z",
+   "equity": 1056.31,
+   "cash": 428.69,
+   "orders": 7,
+   "positions": 5,
+   "closed": 81,
+   "scanned": 19732,
+   "candidates": 151,
+   "placed": 2,
+   "shadow_open": 487,
+   "shadow_closed": 12
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 347,
+  "placed": 349,
   "filled": 86,
-  "expired": 81,
+  "expired": 82,
   "touched_not_filled": 174
  },
  "shadow": [
@@ -5380,19 +5423,6 @@
    "touched": 0
   },
   {
-   "id": "6838486",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "42530756927185611642959870925935350596816201167351286261144930747696650971794",
-   "px": 0.977,
-   "tick": 0.001,
-   "ts": 1795158072,
-   "end_ts": 1795264200,
-   "q": "Manchester City FC vs. Fulham FC: O/U 7.5",
-   "touched": 1
-  },
-  {
    "id": "6842590",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -5416,19 +5446,6 @@
    "ts": 1795158072,
    "end_ts": 1795266000,
    "q": "Deportivo Alavés vs. RC Deportivo A Coruña: 1st Half O/U 3.5",
-   "touched": 1
-  },
-  {
-   "id": "6848296",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "42449811021037429981449510667379634451200503637240705429456729201698690446961",
-   "px": 0.975,
-   "tick": 0.001,
-   "ts": 1795158072,
-   "end_ts": 1795264200,
-   "q": "Newport County AFC vs. Swindon Town FC: O/U 6.5",
    "touched": 1
   },
   {
@@ -5520,32 +5537,6 @@
    "ts": 1795161670,
    "end_ts": 1795269600,
    "q": "Como 1907 vs. Cagliari Calcio: O/U 7.5",
-   "touched": 1
-  },
-  {
-   "id": "6838472",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "87252771747802514242488877973167328549950407674973958423902138955856337991647",
-   "px": 0.99,
-   "tick": 0.001,
-   "ts": 1795161670,
-   "end_ts": 1795264200,
-   "q": "Spread: Fulham FC (-2.5)",
-   "touched": 1
-  },
-  {
-   "id": "6838474",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "75908784542019742783095266573333814856090553628465698135480867518007173680097",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795161670,
-   "end_ts": 1795264200,
-   "q": "Spread: Fulham FC (-3.5)",
    "touched": 1
   },
   {
@@ -6082,19 +6073,6 @@
    "touched": 1
   },
   {
-   "id": "6845256",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "68960884140631687786480267838177311162722960862128280806889534850565149641706",
-   "px": 0.982,
-   "tick": 0.001,
-   "ts": 1795168880,
-   "end_ts": 1795264200,
-   "q": "Reading FC vs. Bromley FC: O/U 7.5",
-   "touched": 1
-  },
-  {
    "id": "6850648",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -6326,19 +6304,6 @@
    "ts": 1795169497,
    "end_ts": 1795273200,
    "q": "Aston Villa FC vs. Sunderland AFC: O/U 8.5",
-   "touched": 1
-  },
-  {
-   "id": "6864483",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "68469899504148231909038945130522956229323121719947867055289038537993361818210",
-   "px": 0.973,
-   "tick": 0.001,
-   "ts": 1795172468,
-   "end_ts": 1795257000,
-   "q": "Gençlerbirliği SK vs. Gaziantep FK: O/U 6.5",
    "touched": 1
   },
   {
@@ -6953,19 +6918,6 @@
    "touched": 0
   },
   {
-   "id": "6845301",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "84602227333916182658500215161114639340439122069675488530560720146417481855162",
-   "px": 0.971,
-   "tick": 0.001,
-   "ts": 1795183282,
-   "end_ts": 1795264200,
-   "q": "Blackpool FC vs. Wigan Athletic FC: O/U 6.5",
-   "touched": 1
-  },
-  {
    "id": "6858467",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -7210,19 +7162,6 @@
    "ts": 1795186876,
    "end_ts": 1795290300,
    "q": "Lille OSC vs. Olympique Lyonnais: O/U 6.5",
-   "touched": 1
-  },
-  {
-   "id": "7014155",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "68295183294750687279878854849343343912020450394677084361436797114081007633728",
-   "px": 0.976,
-   "tick": 0.001,
-   "ts": 1795190470,
-   "end_ts": 1795264200,
-   "q": "1st Half Spread: Fulham FC (-1.5)",
    "touched": 1
   },
   {
@@ -7928,19 +7867,6 @@
    "touched": 1
   },
   {
-   "id": "6845242",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "74909645136152208814497966594189491118340764991225097509451294370976355685793",
-   "px": 0.985,
-   "tick": 0.001,
-   "ts": 1795212066,
-   "end_ts": 1795264200,
-   "q": "Spread: Bromley FC (-2.5)",
-   "touched": 1
-  },
-  {
    "id": "6850616",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -8175,19 +8101,6 @@
    "touched": 1
   },
   {
-   "id": "6838479",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "8354936549357898198264206402852822090738511495045483859014883092841573415240",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1795215668,
-   "end_ts": 1795264200,
-   "q": "Manchester City FC vs. Fulham FC: O/U 0.5",
-   "touched": 0
-  },
-  {
    "id": "6864439",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -8237,19 +8150,6 @@
    "ts": 1795215668,
    "end_ts": 1795305600,
    "q": "Will Patton Kizzire win the 2026 The RSM Classic?",
-   "touched": 1
-  },
-  {
-   "id": "6833881",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "84016056679330461185817376759231875431957889667571103580124380924910022584720",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1795219267,
-   "end_ts": 1795264200,
-   "q": "Manchester City FC vs. Fulham FC: Neither team to score first?",
    "touched": 1
   },
   {
@@ -8381,19 +8281,6 @@
    "end_ts": 1795280400,
    "q": "Parma Calcio 1913 vs. AS Roma: O/U 0.5",
    "touched": 1
-  },
-  {
-   "id": "7189051",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "54808333376460989015676846422624625347126857250144047602211105433864598245875",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1795230070,
-   "end_ts": 1795230300,
-   "q": "Solana Up or Down - November 20, 10:00PM-10:05PM ET",
-   "touched": null
   },
   {
    "id": "6850604",
@@ -11708,6 +11595,97 @@
    "ts": 1795269667,
    "end_ts": 1795377600,
    "q": "Northern Kentucky Norse vs. Baylor Bears (W)",
+   "touched": null
+  },
+  {
+   "id": "7207929",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "3647827793031226384910736738362728741901078278939645516671368366591177944821",
+   "px": 0.975,
+   "tick": 0.001,
+   "ts": 1795273270,
+   "end_ts": 1795309200,
+   "q": "Spread: Timberwolves (-31.5)",
+   "touched": null
+  },
+  {
+   "id": "7175711",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "10600741468836271310358138224973966989849705287177534367467945150742707911621",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795273270,
+   "end_ts": 1795348800,
+   "q": "Will \"Ebenezer\" 2nd Weekend Box Office be between 10.5m and 12m?",
+   "touched": null
+  },
+  {
+   "id": "6893787",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "34914870799665105113603356423570915310484839103970156444515319896471990045844",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795273270,
+   "end_ts": 1795356000,
+   "q": "Spread: Angers SCO (-1.5)",
+   "touched": null
+  },
+  {
+   "id": "7040953",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "105580361720143035626632729499068301338527029365468221676285182094251697896160",
+   "px": 0.976,
+   "tick": 0.001,
+   "ts": 1795273270,
+   "end_ts": 1795356000,
+   "q": "1st Half Spread: Hull City AFC (-1.5)",
+   "touched": null
+  },
+  {
+   "id": "6640959",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "2731145046804094737570316193014398217651373970641980613432369823922009533257",
+   "px": 0.974,
+   "tick": 0.001,
+   "ts": 1795273270,
+   "end_ts": 1795370400,
+   "q": "Spread: Saints (-13.5)",
+   "touched": null
+  },
+  {
+   "id": "6898278",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "108086121429971956674387046884191915325871786179107565737645225900861771025553",
+   "px": 0.972,
+   "tick": 0.001,
+   "ts": 1795273270,
+   "end_ts": 1795368600,
+   "q": "CA Osasuna vs. Málaga CF: 1st Half O/U 3.5",
+   "touched": null
+  },
+  {
+   "id": "7016007",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "47167152131240800444164383988322658554850178127804128671866042876278969043275",
+   "px": 0.987,
+   "tick": 0.001,
+   "ts": 1795273270,
+   "end_ts": 1795379400,
+   "q": "Utah State Aggies vs. TCU Horned Frogs (W)",
    "touched": null
   }
  ]
