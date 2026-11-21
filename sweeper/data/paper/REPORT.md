@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-11T22:05:26Z | dias corridos: 9.6 de 28 | corridas: 203
-- Capital inicial: $1,000.00 | valor actual: $1,060.29 | P&L: $+60.29 (+6.03%)
-- Efectivo libre: $426.62 | en ordenes abiertas: $423.64 (8) | en posiciones: $210.63 (4)
+- Inicio: 2026-11-11T22:05:26Z | dias corridos: 9.7 de 28 | corridas: 204
+- Capital inicial: $1,000.00 | valor actual: $1,058.00 | P&L: $+58.00 (+5.80%)
+- Efectivo libre: $426.85 | en ordenes abiertas: $317.40 (6) | en posiciones: $316.63 (6)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 346 colocadas, 84 llenadas, 173 tocadas sin llenarse (sorteo 30%), 81 expiradas
+- Ordenes virtuales: 347 colocadas, 86 llenadas, 174 tocadas sin llenarse (sorteo 30%), 81 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -27,16 +27,18 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
-| $51.82 | 98.5c | 98.1c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
+| $51.82 | 98.5c | 97.9c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
 | $52.75 | 97.1c | 97.0c | deportes_previo |  | Gençlerbirliği SK vs. Gaziantep FK: O/U 6.5 |
-| $53.02 | 98.3c | 97.8c | deportes_previo |  | Bayer 04 Leverkusen vs. SC Paderborn 07: Neither team to score first? |
-| $53.03 | 99.2c | 99.2c | cripto_cierre |  | Will Bitcoin reach $64,000 on November 21? |
+| $53.02 | 98.3c | 97.7c | deportes_previo |  | Bayer 04 Leverkusen vs. SC Paderborn 07: Neither team to score first? |
+| $53.03 | 99.2c | 95.2c | cripto_cierre |  | Will Bitcoin reach $64,000 on November 21? |
+| $52.99 | 97.9c | 97.9c | cripto_cierre |  | Will Bitcoin reach $63,000 on November 21? |
+| $53.01 | 99.4c | 99.4c | cripto_cierre |  | Will Ethereum reach $1,900 on November 21? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 3023 | abiertas: 468 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 3023 | abiertas: 492 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
@@ -66,4 +68,4 @@ Peores casos del registro sombra:
 
 ## Veredicto
 
-Aun no hay veredicto: van 80 operaciones cerradas en 9.6 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
+Aun no hay veredicto: van 80 operaciones cerradas en 9.7 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.

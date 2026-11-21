@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 8.0 de 28 | corridas: 166
-- Capital inicial: $1,000.00 | valor actual: $948.12 | P&L: $-51.88 (-5.19%)
-- Efectivo libre: $4.05 | en ordenes abiertas: $147.51 (2) | en posiciones: $806.42 (11)
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 8.0 de 28 | corridas: 167
+- Capital inicial: $1,000.00 | valor actual: $942.83 | P&L: $-57.17 (-5.72%)
+- Efectivo libre: $4.93 | en ordenes abiertas: $146.64 (2) | en posiciones: $806.42 (11)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 359 colocadas, 160 llenadas, 159 tocadas sin llenarse (sorteo 30%), 38 expiradas
+- Ordenes virtuales: 360 colocadas, 160 llenadas, 160 tocadas sin llenarse (sorteo 30%), 38 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -32,21 +32,21 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 |---|---|---|---|---|---|
 | $91.77 | 99.8c | 95.9c | otros_cierre |  | Pakistan military action against Afghanistan by November 15, 2026? |
 | $35.36 | 99.8c | 98.9c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $4.5m and $5.5m at auction? |
-| $87.27 | 99.8c | 98.1c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
+| $87.27 | 99.8c | 97.9c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
 | $93.93 | 97.9c | 93.0c | deportes_previo |  | Spread: Gençlerbirliği SK (-3.5) |
 | $94.55 | 96.2c | 96.2c | deportes_previo |  | Hannover 96 vs. SpVgg Greuther Fürth: Neither team to score first? |
 | $94.72 | 97.9c | 97.9c | deportes_previo |  | Manchester City FC vs. Fulham FC: Neither team to score first? |
 | $94.72 | 99.6c | 99.2c | otros_cierre |  | Will the next Claude Opus model (5.6+) be released on November 21, 2026? |
 | $17.05 | 99.6c | 99.5c | otros_cierre |  | Will the next Meta Muse Spark model be released on November 21, 2026? |
-| $94.88 | 99.8c | 99.8c | clima_cierre |  | Will the next hurricane form between November 17 and November 21, 2026? |
-| $93.98 | 98.5c | 99.2c | cripto_cierre |  | Will Bitcoin reach $64,000 on November 21? |
-| $8.19 | 97.9c | 98.0c | cripto_cierre |  | Will Bitcoin reach $63,000 on November 21? |
+| $94.88 | 99.8c | 99.5c | clima_cierre |  | Will the next hurricane form between November 17 and November 21, 2026? |
+| $93.98 | 98.5c | 95.2c | cripto_cierre |  | Will Bitcoin reach $64,000 on November 21? |
+| $8.19 | 97.9c | 86.4c | cripto_cierre |  | Will Bitcoin reach $63,000 on November 21? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 8155 | abiertas: 2644 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 8155 | abiertas: 2688 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
