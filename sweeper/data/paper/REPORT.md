@@ -2,21 +2,21 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-11T22:05:26Z | dias corridos: 9.8 de 28 | corridas: 207
-- Capital inicial: $1,000.00 | valor actual: $1,060.22 | P&L: $+60.22 (+6.02%)
-- Efectivo libre: $428.46 | en ordenes abiertas: $317.09 (6) | en posiciones: $316.91 (6)
+- Inicio: 2026-11-11T22:05:26Z | dias corridos: 9.8 de 28 | corridas: 208
+- Capital inicial: $1,000.00 | valor actual: $1,060.84 | P&L: $+60.84 (+6.08%)
+- Efectivo libre: $429.11 | en ordenes abiertas: $317.35 (6) | en posiciones: $316.93 (6)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 350 colocadas, 87 llenadas, 174 tocadas sin llenarse (sorteo 30%), 83 expiradas
+- Ordenes virtuales: 352 colocadas, 88 llenadas, 175 tocadas sin llenarse (sorteo 30%), 83 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
 | Regla | n | Precio medio | Pago real | IC95 del pago | Edge | P&L | Dias medios |
 |---|---|---|---|---|---|---|---|
 | cripto_cierre | 23 | 98.91c | 100.00% | 85.7-100.0% | +1.09 pts | $+13.16 | 0.22 |
-| deportes_previo | 31 | 98.22c | 100.00% | 89.0-100.0% | +1.78 pts | $+28.88 | 0.35 |
+| deportes_previo | 32 | 98.22c | 100.00% | 89.3-100.0% | +1.78 pts | $+29.80 | 0.34 |
 | otros_cierre | 22 | 99.06c | 100.00% | 85.1-100.0% | +0.94 pts | $+10.74 | 0.44 |
 | post_fin_95_97 | 5 | 96.36c | 100.00% | 56.6-100.0% | +3.64 pts | $+9.68 | 0.65 |
-| TOTAL | 81 | 98.53c | 100.00% | 95.5-100.0% | +1.47 pts | $+62.46 | 0.36 |
+| TOTAL | 82 | 98.52c | 100.00% | 95.5-100.0% | +1.48 pts | $+63.38 | 0.36 |
 
 ## Peores casos
 
@@ -27,31 +27,31 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
-| $51.82 | 98.5c | 98.3c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
-| $53.02 | 98.3c | 97.7c | deportes_previo |  | Bayer 04 Leverkusen vs. SC Paderborn 07: Neither team to score first? |
-| $53.03 | 99.6c | 99.4c | deportes_previo |  | Chattanooga vs. Alabama |
-| $53.03 | 99.2c | 98.5c | cripto_cierre |  | Will Bitcoin reach $64,000 on November 21? |
-| $52.99 | 97.9c | 95.5c | cripto_cierre |  | Will Bitcoin reach $63,000 on November 21? |
+| $51.82 | 98.5c | 98.4c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
+| $53.03 | 99.6c | 99.5c | deportes_previo |  | Chattanooga vs. Alabama |
+| $53.03 | 99.2c | 99.2c | otros_cierre |  | Will the next Claude Opus model (5.6+) be released on November 21, 2026? |
+| $53.03 | 99.2c | 98.4c | cripto_cierre |  | Will Bitcoin reach $64,000 on November 21? |
+| $52.99 | 97.9c | 94.2c | cripto_cierre |  | Will Bitcoin reach $63,000 on November 21? |
 | $53.01 | 99.4c | 99.5c | cripto_cierre |  | Will Ethereum reach $1,900 on November 21? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 3061 | abiertas: 474 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 3113 | abiertas: 447 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
 | cripto_cierre | todas | 968 | 98.74c | 98.97% | +0.22 pts | -0.41 a +0.86 | 10 |
 | cripto_cierre | tocadas | 652 | 98.57c | 98.47% | -0.10 pts | -1.04 a +0.84 | 10 |
-| deportes_previo | todas | 1534 | 98.33c | 99.22% | +0.89 pts | +0.46 a +1.32 | 13 |
-| deportes_previo | tocadas | 1279 | 98.28c | 99.22% | +0.93 pts | +0.46 a +1.40 | 11 |
+| deportes_previo | todas | 1586 | 98.33c | 99.24% | +0.92 pts | +0.50 a +1.33 | 13 |
+| deportes_previo | tocadas | 1328 | 98.28c | 99.25% | +0.96 pts | +0.51 a +1.42 | 11 |
 | otros_cierre | todas | 530 | 98.80c | 99.25% | +0.44 pts | -0.30 a +1.18 | 4 |
 | otros_cierre | tocadas | 358 | 98.70c | 98.88% | +0.19 pts | -0.91 a +1.28 | 4 |
 | post_fin_95_97 | todas | 29 | 96.10c | 93.10% | -3.00 pts | -12.35 a +6.35 | 2 |
 | post_fin_95_97 | tocadas | 24 | 96.12c | 91.67% | -4.45 pts | -15.70 a +6.80 | 2 |
-| TOTAL | todas | 3061 | 98.52c | 99.09% | +0.56 pts | +0.23 a +0.90 | 29 |
-| TOTAL | tocadas | 2313 | 98.41c | 98.88% | +0.47 pts | +0.05 a +0.90 | 27 |
+| TOTAL | todas | 3113 | 98.52c | 99.10% | +0.58 pts | +0.26 a +0.91 | 29 |
+| TOTAL | tocadas | 2362 | 98.40c | 98.90% | +0.50 pts | +0.08 a +0.91 | 27 |
 
 Peores casos del registro sombra:
 
@@ -68,4 +68,4 @@ Peores casos del registro sombra:
 
 ## Veredicto
 
-Aun no hay veredicto: van 81 operaciones cerradas en 9.8 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
+Aun no hay veredicto: van 82 operaciones cerradas en 9.8 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
