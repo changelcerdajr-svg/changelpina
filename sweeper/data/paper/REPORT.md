@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-11T22:05:26Z | dias corridos: 9.6 de 28 | corridas: 202
-- Capital inicial: $1,000.00 | valor actual: $1,060.70 | P&L: $+60.70 (+6.07%)
-- Efectivo libre: $426.55 | en ordenes abiertas: $476.74 (9) | en posiciones: $157.59 (3)
+- Inicio: 2026-11-11T22:05:26Z | dias corridos: 9.6 de 28 | corridas: 203
+- Capital inicial: $1,000.00 | valor actual: $1,060.29 | P&L: $+60.29 (+6.03%)
+- Efectivo libre: $426.62 | en ordenes abiertas: $423.64 (8) | en posiciones: $210.63 (4)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 344 colocadas, 83 llenadas, 171 tocadas sin llenarse (sorteo 30%), 81 expiradas
+- Ordenes virtuales: 346 colocadas, 84 llenadas, 173 tocadas sin llenarse (sorteo 30%), 81 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -27,28 +27,29 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
-| $51.82 | 98.5c | 98.3c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
+| $51.82 | 98.5c | 98.1c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
 | $52.75 | 97.1c | 97.0c | deportes_previo |  | Gençlerbirliği SK vs. Gaziantep FK: O/U 6.5 |
-| $53.02 | 98.3c | 98.3c | deportes_previo |  | Bayer 04 Leverkusen vs. SC Paderborn 07: Neither team to score first? |
+| $53.02 | 98.3c | 97.8c | deportes_previo |  | Bayer 04 Leverkusen vs. SC Paderborn 07: Neither team to score first? |
+| $53.03 | 99.2c | 99.2c | cripto_cierre |  | Will Bitcoin reach $64,000 on November 21? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 3017 | abiertas: 465 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 3023 | abiertas: 468 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
-| cripto_cierre | todas | 964 | 98.74c | 98.96% | +0.22 pts | -0.42 a +0.86 | 10 |
+| cripto_cierre | todas | 967 | 98.74c | 98.97% | +0.22 pts | -0.42 a +0.86 | 10 |
 | cripto_cierre | tocadas | 651 | 98.57c | 98.46% | -0.11 pts | -1.05 a +0.84 | 10 |
-| deportes_previo | todas | 1495 | 98.33c | 99.20% | +0.86 pts | +0.42 a +1.31 | 13 |
-| deportes_previo | tocadas | 1244 | 98.28c | 99.20% | +0.91 pts | +0.43 a +1.39 | 11 |
-| otros_cierre | todas | 529 | 98.80c | 99.24% | +0.44 pts | -0.30 a +1.19 | 4 |
-| otros_cierre | tocadas | 357 | 98.69c | 98.88% | +0.19 pts | -0.91 a +1.28 | 4 |
+| deportes_previo | todas | 1497 | 98.33c | 99.20% | +0.86 pts | +0.42 a +1.31 | 13 |
+| deportes_previo | tocadas | 1246 | 98.28c | 99.20% | +0.91 pts | +0.43 a +1.40 | 11 |
+| otros_cierre | todas | 530 | 98.80c | 99.25% | +0.44 pts | -0.30 a +1.18 | 4 |
+| otros_cierre | tocadas | 358 | 98.70c | 98.88% | +0.19 pts | -0.91 a +1.28 | 4 |
 | post_fin_95_97 | todas | 29 | 96.10c | 93.10% | -3.00 pts | -12.35 a +6.35 | 2 |
 | post_fin_95_97 | tocadas | 24 | 96.12c | 91.67% | -4.45 pts | -15.70 a +6.80 | 2 |
-| TOTAL | todas | 3017 | 98.53c | 99.07% | +0.55 pts | +0.21 a +0.89 | 29 |
-| TOTAL | tocadas | 2276 | 98.41c | 98.86% | +0.45 pts | +0.02 a +0.88 | 27 |
+| TOTAL | todas | 3023 | 98.53c | 99.07% | +0.55 pts | +0.21 a +0.89 | 29 |
+| TOTAL | tocadas | 2279 | 98.41c | 98.86% | +0.45 pts | +0.02 a +0.88 | 27 |
 
 Peores casos del registro sombra:
 

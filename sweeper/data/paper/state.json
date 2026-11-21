@@ -1,6 +1,6 @@
 {
  "capital0": 1000.0,
- "cash": 426.5541,
+ "cash": 426.6199,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
   {
@@ -109,27 +109,6 @@
    "liq": 3571
   },
   {
-   "oid": "7217499-1795258866",
-   "id": "7217499",
-   "q": "Will Bitcoin reach $63,000 on November 21?",
-   "cat": "cripto",
-   "rule": "cripto_cierre",
-   "event": "1435243",
-   "side": 1,
-   "token": "37769259365718149937092195597693592379877266290735064714400385446775809122097",
-   "px": 0.978,
-   "tick": 0.001,
-   "mid": 0.978,
-   "bid": 0.975,
-   "ask": 0.981,
-   "shares": 54.2251,
-   "cost": 53.0322,
-   "ts": 1795258866.113615,
-   "end_ts": 1795323600.0,
-   "hours": 17.98,
-   "liq": 18225
-  },
-  {
    "oid": "6823673-1795262465",
    "id": "6823673",
    "q": "Chattanooga vs. Alabama",
@@ -151,28 +130,28 @@
    "liq": 115882
   },
   {
-   "oid": "7217497-1795262465",
-   "id": "7217497",
-   "q": "Will Bitcoin reach $64,000 on November 21?",
+   "oid": "7217499-1795266066",
+   "id": "7217499",
+   "q": "Will Bitcoin reach $63,000 on November 21?",
    "cat": "cripto",
    "rule": "cripto_cierre",
    "event": "1435243",
    "side": 1,
-   "token": "77844386490728135829291105809055462160851331736312303140028564629180192279928",
-   "px": 0.992,
+   "token": "37769259365718149937092195597693592379877266290735064714400385446775809122097",
+   "px": 0.979,
    "tick": 0.001,
-   "mid": 0.9925,
-   "bid": 0.986,
-   "ask": 0.999,
-   "shares": 53.4625,
-   "cost": 53.0348,
-   "ts": 1795262465.076722,
+   "mid": 0.9795,
+   "bid": 0.978,
+   "ask": 0.981,
+   "shares": 54.1314,
+   "cost": 52.9947,
+   "ts": 1795266066.083833,
    "end_ts": 1795323600.0,
-   "hours": 16.98,
-   "liq": 19899
+   "hours": 15.98,
+   "liq": 18511
   },
   {
-   "oid": "7217547-1795262465",
+   "oid": "7217547-1795266066",
    "id": "7217547",
    "q": "Will Ethereum reach $1,900 on November 21?",
    "cat": "cripto",
@@ -180,17 +159,17 @@
    "event": "1435246",
    "side": 1,
    "token": "96694981489642157872527064110602060735230193939923200214650784559637918381663",
-   "px": 0.993,
+   "px": 0.994,
    "tick": 0.001,
-   "mid": 0.993,
-   "bid": 0.99,
-   "ask": 0.996,
-   "shares": 53.4087,
-   "cost": 53.0348,
-   "ts": 1795262465.076722,
+   "mid": 0.994,
+   "bid": 0.991,
+   "ask": 0.997,
+   "shares": 53.3264,
+   "cost": 53.0065,
+   "ts": 1795266066.083833,
    "end_ts": 1795323600.0,
-   "hours": 16.98,
-   "liq": 7255
+   "hours": 15.98,
+   "liq": 14093
   }
  ],
  "positions": [
@@ -215,7 +194,7 @@
    "hours": 4.96,
    "liq": 1203,
    "fill_ts": 1794967266.068418,
-   "mark": 0.983,
+   "mark": 0.981,
    "stuck": false,
    "disputed": false
   },
@@ -265,7 +244,32 @@
    "hours": 6.48,
    "liq": 5609,
    "fill_ts": 1795262465.076722,
-   "mark": 0.983
+   "mark": 0.9775,
+   "stuck": false,
+   "disputed": false
+  },
+  {
+   "oid": "7217497-1795262465",
+   "id": "7217497",
+   "q": "Will Bitcoin reach $64,000 on November 21?",
+   "cat": "cripto",
+   "rule": "cripto_cierre",
+   "event": "1435243",
+   "side": 1,
+   "token": "77844386490728135829291105809055462160851331736312303140028564629180192279928",
+   "px": 0.992,
+   "tick": 0.001,
+   "mid": 0.9925,
+   "bid": 0.986,
+   "ask": 0.999,
+   "shares": 53.4625,
+   "cost": 53.0348,
+   "ts": 1795262465.076722,
+   "end_ts": 1795323600.0,
+   "hours": 16.98,
+   "liq": 19899,
+   "fill_ts": 1795266066.083833,
+   "mark": 0.992
   }
  ],
  "closed": [
@@ -5268,14 +5272,27 @@
    "placed": 3,
    "shadow_open": 465,
    "shadow_closed": 4
+  },
+  {
+   "ts": "2026-11-21T13:02:49Z",
+   "equity": 1060.29,
+   "cash": 426.62,
+   "orders": 8,
+   "positions": 4,
+   "closed": 80,
+   "scanned": 19343,
+   "candidates": 197,
+   "placed": 2,
+   "shadow_open": 468,
+   "shadow_closed": 6
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 344,
-  "filled": 83,
+  "placed": 346,
+  "filled": 84,
   "expired": 81,
-  "touched_not_filled": 171
+  "touched_not_filled": 173
  },
  "shadow": [
   {
@@ -5601,32 +5618,6 @@
    "ts": 1795161670,
    "end_ts": 1795266000,
    "q": "Galatasaray SK vs. Samsunspor: O/U 0.5",
-   "touched": 1
-  },
-  {
-   "id": "6876077",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "76616857829691894601038788441489385804032389291865838825969163081441735780341",
-   "px": 0.973,
-   "tick": 0.001,
-   "ts": 1795165271,
-   "end_ts": 1795250400,
-   "q": "Brisbane Roar FC vs. Sydney FC: O/U 6.5",
-   "touched": 1
-  },
-  {
-   "id": "6876079",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "62429394557682652121184814154663627879697274267836444402672158686055656706824",
-   "px": 0.991,
-   "tick": 0.001,
-   "ts": 1795165271,
-   "end_ts": 1795250400,
-   "q": "Brisbane Roar FC vs. Sydney FC: O/U 7.5",
    "touched": 1
   },
   {
@@ -8230,19 +8221,6 @@
    "touched": 1
   },
   {
-   "id": "7180207",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 0,
-   "token": "74155042770254066767145070429347812627840814951845199264461191188448450781541",
-   "px": 0.98,
-   "tick": 0.001,
-   "ts": 1795219267,
-   "end_ts": 1795222800,
-   "q": "Solana Up or Down - November 20, 4:00PM-8:00PM ET",
-   "touched": null
-  },
-  {
    "id": "6833881",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -8253,7 +8231,7 @@
    "ts": 1795219267,
    "end_ts": 1795264200,
    "q": "Manchester City FC vs. Fulham FC: Neither team to score first?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6855868",
@@ -8266,7 +8244,7 @@
    "ts": 1795219267,
    "end_ts": 1795284000,
    "q": "Will Sporting CP vs. UD Serra end in a draw?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6864320",
@@ -8279,7 +8257,7 @@
    "ts": 1795219267,
    "end_ts": 1795276800,
    "q": "Kocaelispor vs. Fenerbahçe SK: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6841332",
@@ -8292,7 +8270,7 @@
    "ts": 1795219267,
    "end_ts": 1795291200,
    "q": "Real Madrid CF vs. RC Celta de Vigo: Neither team to score first?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6909673",
@@ -8305,7 +8283,7 @@
    "ts": 1795219267,
    "end_ts": 1795302000,
    "q": "Inter Miami CF vs. Columbus Crew: Neither team to score first?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7042817",
@@ -8318,7 +8296,7 @@
    "ts": 1795219267,
    "end_ts": 1795305600,
    "q": "Will Pierceson Coody win the 2026 The RSM Classic?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7042832",
@@ -8331,46 +8309,7 @@
    "ts": 1795219267,
    "end_ts": 1795305600,
    "q": "Will Adrien Dumont De Chassart win the 2026 The RSM Classic?",
-   "touched": null
-  },
-  {
-   "id": "7180213",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 0,
-   "token": "36541778111254445224066830445751360464714224138919298147900491262871569423513",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795222200,
-   "end_ts": 1795222800,
-   "q": "Bitcoin Up or Down - November 20, 4:00PM-8:00PM ET",
-   "touched": null
-  },
-  {
-   "id": "7184927",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 0,
-   "token": "4390913274304886372574267337778014623791169421278721648034102221602224511461",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795222200,
-   "end_ts": 1795222800,
-   "q": "Bitcoin Up or Down - November 20, 7:00PM-8:00PM ET",
-   "touched": null
-  },
-  {
-   "id": "6366937",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 0,
-   "token": "97188184360893647865120269700191388417450227728982381134161988846828731243114",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1795222200,
-   "end_ts": 1795237140,
-   "q": "Will \"Carnaval de Luz\" first week sales be at least 45k?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6850695",
@@ -8383,7 +8322,7 @@
    "ts": 1795222200,
    "end_ts": 1795264200,
    "q": "Spread: Millwall FC (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6873182",
@@ -8396,7 +8335,7 @@
    "ts": 1795222200,
    "end_ts": 1795280400,
    "q": "Spread: IK Start (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6827502",
@@ -11321,6 +11260,123 @@
    "ts": 1795262465,
    "end_ts": 1795368600,
    "q": "CA Osasuna vs. Málaga CF: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "6837387",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "91590056042568407525178456301732080865342682119980828511890159564314733704511",
+   "px": 0.972,
+   "tick": 0.001,
+   "ts": 1795266066,
+   "end_ts": 1795290300,
+   "q": "Spread: Racing Club de Lens (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "6842357",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "19715802018605544581895062025369816849709760435390989126638390016999654421415",
+   "px": 0.988,
+   "tick": 0.001,
+   "ts": 1795266066,
+   "end_ts": 1795291200,
+   "q": "Real Madrid CF vs. RC Celta de Vigo: RC Celta de Vigo O/U 3.5",
+   "touched": null
+  },
+  {
+   "id": "6861527",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "2815080537484726437656898575619257181355714579274050071621883442887879424579",
+   "px": 0.974,
+   "tick": 0.001,
+   "ts": 1795266066,
+   "end_ts": 1795289400,
+   "q": "FC St. Pauli 1910 vs. VfL Bochum: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "6880925",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "90813325253181743600114373275352138437623632917065650208038174373567397194075",
+   "px": 0.992,
+   "tick": 0.001,
+   "ts": 1795266066,
+   "end_ts": 1795291200,
+   "q": "CD Tenerife vs. RCD Mallorca: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "6843180",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "49453339725831465848345260351016895656654707652945304799018767979993717236203",
+   "px": 0.98,
+   "tick": 0.001,
+   "ts": 1795266066,
+   "end_ts": 1795303800,
+   "q": "Spread: Puntarenas FC (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "7217525",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "42976955644955600019291945777617492798811159993290907058585989420934444289912",
+   "px": 0.971,
+   "tick": 0.001,
+   "ts": 1795266066,
+   "end_ts": 1795323600,
+   "q": "Will Bitcoin dip to $54,000 on November 21?",
+   "touched": null
+  },
+  {
+   "id": "6902313",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "89406938973251429544660310044942632274445606929652379928107587202515480006532",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795266066,
+   "end_ts": 1795348800,
+   "q": "Burnley FC vs. Blackburn Rovers FC: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "6641541",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "67071755616113225984939777886395999070263306505686772241529330769573565125999",
+   "px": 0.975,
+   "tick": 0.001,
+   "ts": 1795266066,
+   "end_ts": 1795370400,
+   "q": "Spread: Dolphins (-4.5)",
+   "touched": null
+  },
+  {
+   "id": "6641542",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "56740543143927593084628670814009297889038708975140714025986662482621252352014",
+   "px": 0.973,
+   "tick": 0.001,
+   "ts": 1795266066,
+   "end_ts": 1795370400,
+   "q": "Spread: Dolphins (-5.5)",
    "touched": null
   }
  ]

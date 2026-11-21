@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 7.9 de 28 | corridas: 165
-- Capital inicial: $1,000.00 | valor actual: $948.77 | P&L: $-51.23 (-5.12%)
-- Efectivo libre: $3.99 | en ordenes abiertas: $242.45 (3) | en posiciones: $711.54 (10)
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 8.0 de 28 | corridas: 166
+- Capital inicial: $1,000.00 | valor actual: $948.12 | P&L: $-51.88 (-5.19%)
+- Efectivo libre: $4.05 | en ordenes abiertas: $147.51 (2) | en posiciones: $806.42 (11)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 358 colocadas, 159 llenadas, 158 tocadas sin llenarse (sorteo 30%), 38 expiradas
+- Ordenes virtuales: 359 colocadas, 160 llenadas, 159 tocadas sin llenarse (sorteo 30%), 38 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -32,35 +32,36 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 |---|---|---|---|---|---|
 | $91.77 | 99.8c | 95.9c | otros_cierre |  | Pakistan military action against Afghanistan by November 15, 2026? |
 | $35.36 | 99.8c | 98.9c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $4.5m and $5.5m at auction? |
-| $87.27 | 99.8c | 98.3c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
+| $87.27 | 99.8c | 98.1c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
 | $93.93 | 97.9c | 93.0c | deportes_previo |  | Spread: Gençlerbirliği SK (-3.5) |
 | $94.55 | 96.2c | 96.2c | deportes_previo |  | Hannover 96 vs. SpVgg Greuther Fürth: Neither team to score first? |
 | $94.72 | 97.9c | 97.9c | deportes_previo |  | Manchester City FC vs. Fulham FC: Neither team to score first? |
-| $94.72 | 99.6c | 99.6c | otros_cierre |  | Will the next Claude Opus model (5.6+) be released on November 21, 2026? |
-| $17.05 | 99.6c | 99.6c | otros_cierre |  | Will the next Meta Muse Spark model be released on November 21, 2026? |
+| $94.72 | 99.6c | 99.2c | otros_cierre |  | Will the next Claude Opus model (5.6+) be released on November 21, 2026? |
+| $17.05 | 99.6c | 99.5c | otros_cierre |  | Will the next Meta Muse Spark model be released on November 21, 2026? |
+| $94.88 | 99.8c | 99.8c | clima_cierre |  | Will the next hurricane form between November 17 and November 21, 2026? |
 | $93.98 | 98.5c | 99.2c | cripto_cierre |  | Will Bitcoin reach $64,000 on November 21? |
-| $8.19 | 97.9c | 98.2c | cripto_cierre |  | Will Bitcoin reach $63,000 on November 21? |
+| $8.19 | 97.9c | 98.0c | cripto_cierre |  | Will Bitcoin reach $63,000 on November 21? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 8120 | abiertas: 2653 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 8155 | abiertas: 2644 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
 | clima_cierre | todas | 2349 | 98.85c | 99.02% | +0.18 pts | -0.22 a +0.57 | 23 |
 | clima_cierre | tocadas | 2170 | 98.87c | 98.94% | +0.07 pts | -0.35 a +0.50 | 23 |
-| cripto_cierre | todas | 1173 | 98.70c | 97.95% | -0.75 pts | -1.55 a +0.05 | 24 |
-| cripto_cierre | tocadas | 1068 | 98.75c | 97.75% | -0.99 pts | -1.87 a -0.12 | 24 |
-| deportes_previo | todas | 3421 | 98.04c | 97.44% | -0.60 pts | -1.13 a -0.08 | 90 |
-| deportes_previo | tocadas | 3343 | 98.07c | 97.38% | -0.69 pts | -1.22 a -0.15 | 90 |
-| otros_cierre | todas | 1100 | 98.98c | 97.00% | -1.98 pts | -2.98 a -0.98 | 33 |
-| otros_cierre | tocadas | 1027 | 98.94c | 96.79% | -2.15 pts | -3.22 a -1.08 | 33 |
+| cripto_cierre | todas | 1177 | 98.70c | 97.96% | -0.73 pts | -1.53 a +0.07 | 24 |
+| cripto_cierre | tocadas | 1071 | 98.74c | 97.76% | -0.98 pts | -1.86 a -0.11 | 24 |
+| deportes_previo | todas | 3445 | 98.05c | 97.43% | -0.62 pts | -1.14 a -0.10 | 91 |
+| deportes_previo | tocadas | 3367 | 98.07c | 97.37% | -0.70 pts | -1.24 a -0.17 | 91 |
+| otros_cierre | todas | 1107 | 98.97c | 97.02% | -1.96 pts | -2.95 a -0.96 | 33 |
+| otros_cierre | tocadas | 1034 | 98.94c | 96.81% | -2.13 pts | -3.19 a -1.06 | 33 |
 | post_fin_90_97 | todas | 77 | 94.31c | 97.40% | +3.09 pts | -0.49 a +6.68 | 2 |
 | post_fin_90_97 | tocadas | 61 | 94.40c | 96.72% | +2.32 pts | -2.18 a +6.83 | 2 |
-| TOTAL | todas | 8120 | 98.46c | 97.91% | -0.55 pts | -0.86 a -0.24 | 172 |
-| TOTAL | tocadas | 7669 | 98.48c | 97.79% | -0.69 pts | -1.01 a -0.36 | 172 |
+| TOTAL | todas | 8155 | 98.46c | 97.91% | -0.55 pts | -0.86 a -0.25 | 173 |
+| TOTAL | tocadas | 7703 | 98.48c | 97.79% | -0.69 pts | -1.02 a -0.37 | 173 |
 
 Peores casos del registro sombra:
 
@@ -77,4 +78,4 @@ Peores casos del registro sombra:
 
 ## Veredicto
 
-Aun no hay veredicto: van 149 operaciones cerradas en 7.9 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
+Aun no hay veredicto: van 149 operaciones cerradas en 8.0 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
