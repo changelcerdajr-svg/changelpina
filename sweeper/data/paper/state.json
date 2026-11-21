@@ -1,29 +1,8 @@
 {
  "capital0": 1000.0,
- "cash": 427.1178,
+ "cash": 426.8438,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
-  {
-   "oid": "6655554-1795212066",
-   "id": "6655554",
-   "q": "Will the next Meta Muse Spark model be released on November 20, 2026?",
-   "cat": "otros",
-   "rule": "otros_cierre",
-   "event": "1310057",
-   "side": 1,
-   "token": "24296207942447102309091896041768835798232475889566668983490859913105049735538",
-   "px": 0.987,
-   "tick": 0.001,
-   "mid": 0.9875,
-   "bid": 0.978,
-   "ask": 0.997,
-   "shares": 53.4504,
-   "cost": 52.7555,
-   "ts": 1795212066.012382,
-   "end_ts": 1795237140.0,
-   "hours": 6.96,
-   "liq": 2420
-  },
   {
    "oid": "7180216-1795215668",
    "id": "7180216",
@@ -193,7 +172,28 @@
    "liq": 15658
   },
   {
-   "oid": "7217499-1795255265",
+   "oid": "6364891-1795258866",
+   "id": "6364891",
+   "q": "Will the next Claude Opus model (5.6+) be released on November 21, 2026?",
+   "cat": "otros",
+   "rule": "otros_cierre",
+   "event": "1274168",
+   "side": 1,
+   "token": "39340061191207289369875350080591506780592362672182621659880054466891997618374",
+   "px": 0.992,
+   "tick": 0.001,
+   "mid": 0.992,
+   "bid": 0.987,
+   "ask": 0.997,
+   "shares": 53.4625,
+   "cost": 53.0348,
+   "ts": 1795258866.113615,
+   "end_ts": 1795323540.0,
+   "hours": 17.96,
+   "liq": 3571
+  },
+  {
+   "oid": "7217499-1795258866",
    "id": "7217499",
    "q": "Will Bitcoin reach $63,000 on November 21?",
    "cat": "cripto",
@@ -203,15 +203,15 @@
    "token": "37769259365718149937092195597693592379877266290735064714400385446775809122097",
    "px": 0.978,
    "tick": 0.001,
-   "mid": 0.9785,
-   "bid": 0.971,
-   "ask": 0.986,
-   "shares": 54.2306,
-   "cost": 53.0375,
-   "ts": 1795255265.642049,
+   "mid": 0.978,
+   "bid": 0.975,
+   "ask": 0.981,
+   "shares": 54.2251,
+   "cost": 53.0322,
+   "ts": 1795258866.113615,
    "end_ts": 1795323600.0,
-   "hours": 18.98,
-   "liq": 17966
+   "hours": 17.98,
+   "liq": 18225
   }
  ],
  "positions": [
@@ -261,7 +261,7 @@
    "hours": 9.67,
    "liq": 2128,
    "fill_ts": 1795233676.49104,
-   "mark": 0.9705,
+   "mark": 0.9695,
    "stuck": false,
    "disputed": false
   }
@@ -5240,14 +5240,27 @@
    "placed": 2,
    "shadow_open": 386,
    "shadow_closed": 4
+  },
+  {
+   "ts": "2026-11-21T11:02:25Z",
+   "equity": 1060.7,
+   "cash": 426.84,
+   "orders": 10,
+   "positions": 2,
+   "closed": 80,
+   "scanned": 17813,
+   "candidates": 178,
+   "placed": 2,
+   "shadow_open": 424,
+   "shadow_closed": 4
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 339,
+  "placed": 341,
   "filled": 82,
-  "expired": 79,
-  "touched_not_filled": 168
+  "expired": 80,
+  "touched_not_filled": 169
  },
  "shadow": [
   {
@@ -7916,58 +7929,6 @@
    "touched": 1
   },
   {
-   "id": "7172360",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 0,
-   "token": "105231942114484205316105707186770678674111113959770353965046310040089144568884",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1795212066,
-   "end_ts": 1795215600,
-   "q": "Natural Gas (NG) Up or Down on November 20?",
-   "touched": null
-  },
-  {
-   "id": "6819230",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "29551339187011227607755294619713318467483245240611591027935860152769125378629",
-   "px": 0.972,
-   "tick": 0.001,
-   "ts": 1795212066,
-   "end_ts": 1795237200,
-   "q": "Spread: Iwaki FC (-2.5)",
-   "touched": null
-  },
-  {
-   "id": "6819364",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "93354233321518731443232159509084089669273075537989300484437125816441062634523",
-   "px": 0.971,
-   "tick": 0.001,
-   "ts": 1795212066,
-   "end_ts": 1795237200,
-   "q": "Spread: Ōita Trinita (-2.5)",
-   "touched": null
-  },
-  {
-   "id": "6819458",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "89162082219707761119043897598005933121363835316447752036263648537826824241506",
-   "px": 0.975,
-   "tick": 0.001,
-   "ts": 1795212066,
-   "end_ts": 1795237200,
-   "q": "Spread: Vegalta Sendai (-3.5)",
-   "touched": null
-  },
-  {
    "id": "6845242",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -7978,7 +7939,7 @@
    "ts": 1795212066,
    "end_ts": 1795264200,
    "q": "Spread: Bromley FC (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6850616",
@@ -7991,7 +7952,7 @@
    "ts": 1795212066,
    "end_ts": 1795264200,
    "q": "Norwich City FC vs. Cardiff City FC: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6925894",
@@ -8004,7 +7965,7 @@
    "ts": 1795212066,
    "end_ts": 1795258800,
    "q": "FK Kryvbas Kryvyi Rih vs. FK Kudrivka: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6856750",
@@ -8017,7 +7978,7 @@
    "ts": 1795212066,
    "end_ts": 1795289400,
    "q": "Spread: SE Palmeiras (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7042761",
@@ -8030,7 +7991,7 @@
    "ts": 1795212066,
    "end_ts": 1795305600,
    "q": "Will Christiaan Bezuidenhout win the 2026 The RSM Classic?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7042787",
@@ -8043,7 +8004,7 @@
    "ts": 1795212066,
    "end_ts": 1795305600,
    "q": "Will Keegan Bradley win the 2026 The RSM Classic?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7042810",
@@ -8056,7 +8017,7 @@
    "ts": 1795212066,
    "end_ts": 1795305600,
    "q": "Will Davis Chatfield win the 2026 The RSM Classic?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7042828",
@@ -8069,7 +8030,7 @@
    "ts": 1795212066,
    "end_ts": 1795305600,
    "q": "Will Ze-Cheng Dou win the 2026 The RSM Classic?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7042867",
@@ -8082,7 +8043,7 @@
    "ts": 1795212066,
    "end_ts": 1795305600,
    "q": "Will David Ford win the 2026 The RSM Classic?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7042883",
@@ -8095,7 +8056,7 @@
    "ts": 1795212066,
    "end_ts": 1795305600,
    "q": "Will Emiliano Grillo win the 2026 The RSM Classic?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7042895",
@@ -8108,7 +8069,7 @@
    "ts": 1795212066,
    "end_ts": 1795305600,
    "q": "Will Garrick Higgo win the 2026 The RSM Classic?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7042963",
@@ -8121,7 +8082,7 @@
    "ts": 1795212066,
    "end_ts": 1795305600,
    "q": "Will Jackson Koivun win the 2026 The RSM Classic?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7042974",
@@ -8134,7 +8095,7 @@
    "ts": 1795212066,
    "end_ts": 1795305600,
    "q": "Will Henry Lebioda win the 2026 The RSM Classic?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7043019",
@@ -8147,7 +8108,7 @@
    "ts": 1795212066,
    "end_ts": 1795305600,
    "q": "Will S.Y. Noh win the 2026 The RSM Classic?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7043021",
@@ -8160,7 +8121,7 @@
    "ts": 1795212066,
    "end_ts": 1795305600,
    "q": "Will Andrew Novak win the 2026 The RSM Classic?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7043029",
@@ -8173,7 +8134,7 @@
    "ts": 1795212066,
    "end_ts": 1795305600,
    "q": "Will Matthieu Pavon win the 2026 The RSM Classic?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7043037",
@@ -8186,7 +8147,7 @@
    "ts": 1795212066,
    "end_ts": 1795305600,
    "q": "Will Chandler Phillips win the 2026 The RSM Classic?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7043041",
@@ -8199,7 +8160,7 @@
    "ts": 1795212066,
    "end_ts": 1795305600,
    "q": "Will Davis Riley win the 2026 The RSM Classic?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6998425",
@@ -8212,7 +8173,7 @@
    "ts": 1795212066,
    "end_ts": 1795320000,
    "q": "Washington State Cougars vs. Duke Blue Devils",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7180216",
@@ -10266,6 +10227,552 @@
    "ts": 1795255265,
    "end_ts": 1795363200,
    "q": "Trabzonspor vs. Eyüpspor: O/U 0.5",
+   "touched": null
+  },
+  {
+   "id": "6822226",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "5206025365347044371868797752522233745462523480744564461423516138441502922503",
+   "px": 0.972,
+   "tick": 0.001,
+   "ts": 1795258866,
+   "end_ts": 1795284000,
+   "q": "Spread: Western Kentucky (-7.5)",
+   "touched": null
+  },
+  {
+   "id": "6837811",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "43778189438829121304492143429054583904783034811345145233334018077702908070362",
+   "px": 0.972,
+   "tick": 0.001,
+   "ts": 1795258866,
+   "end_ts": 1795290300,
+   "q": "Spread: RC Strasbourg Alsace (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "6838089",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "31906188732402038547082545876525321949982095441100351286377157809400032308401",
+   "px": 0.977,
+   "tick": 0.001,
+   "ts": 1795258866,
+   "end_ts": 1795290300,
+   "q": "Lille OSC vs. Olympique Lyonnais: 1st Half O/U 3.5",
+   "touched": null
+  },
+  {
+   "id": "6852811",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "11479190524244924628368617623532353204017709381310128708229100321851776595935",
+   "px": 0.983,
+   "tick": 0.001,
+   "ts": 1795258866,
+   "end_ts": 1795282200,
+   "q": "Spread: Yeovil Town FC (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "6852824",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "16421358198097728712114440692920460170453299673126328826642259556632662623166",
+   "px": 0.986,
+   "tick": 0.001,
+   "ts": 1795258866,
+   "end_ts": 1795282200,
+   "q": "Yeovil Town FC vs. Forest Green Rovers FC: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6855872",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "65470543662329107269271183886719188673559613121725748647446869977585238994350",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795258866,
+   "end_ts": 1795284000,
+   "q": "UD Serra leading at halftime?",
+   "touched": null
+  },
+  {
+   "id": "6856780",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "108886906355116498539970849408970616321808670763092702009720122005166186571265",
+   "px": 0.992,
+   "tick": 0.001,
+   "ts": 1795258866,
+   "end_ts": 1795289400,
+   "q": "SE Palmeiras vs. CR Flamengo: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6857909",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "98759394903985531572438841547023046702043811095992008084769331786525453665222",
+   "px": 0.979,
+   "tick": 0.001,
+   "ts": 1795258866,
+   "end_ts": 1795287600,
+   "q": "Spread: CA Nacional Potosí (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "6858546",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "95184436025685851720601909053952190165610939465376690232532745835470460871820",
+   "px": 0.992,
+   "tick": 0.001,
+   "ts": 1795258866,
+   "end_ts": 1795285800,
+   "q": "Spread: FC Petrolul Ploieşti (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "6858548",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "70627178378913858465558483026344935946218412654767804625074856316926183599466",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795258866,
+   "end_ts": 1795285800,
+   "q": "Spread: FC Petrolul Ploieşti (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "6858560",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "90874722008927535301520924493511320515599303961731940947893455489925759251470",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1795258866,
+   "end_ts": 1795285800,
+   "q": "Dinamo 1948 vs. FC Petrolul Ploieşti: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6903567",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "111862452133451469957334442660097823673140636020737458487996062687322924639947",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795258866,
+   "end_ts": 1795293000,
+   "q": "Spread: Coritiba FBC (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "6903706",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "30037085227105731670756113664460971770239602248082742797686595836675585475171",
+   "px": 0.971,
+   "tick": 0.001,
+   "ts": 1795258866,
+   "end_ts": 1795294800,
+   "q": "Spread: O'Higgins FC (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "6903720",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "42626916626194340908035100893149742223263220864539880422792353394522035211746",
+   "px": 0.975,
+   "tick": 0.001,
+   "ts": 1795258866,
+   "end_ts": 1795294800,
+   "q": "O'Higgins FC vs. CF Universidad de Chile: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "6911158",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "35970841269337958284688020227220724093833946592081954416627396105956900643900",
+   "px": 0.972,
+   "tick": 0.001,
+   "ts": 1795258866,
+   "end_ts": 1795302000,
+   "q": "Inter Miami CF vs. Columbus Crew: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6987293",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "72432548374668935498710830986065529035460341161369109306874370482316184514509",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795258866,
+   "end_ts": 1795293000,
+   "q": "Spread: FC Cajamarca (-1.5)",
+   "touched": null
+  },
+  {
+   "id": "6987295",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "55347248246036674507742740653762640899284062678886366850596116289503501714276",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1795258866,
+   "end_ts": 1795293000,
+   "q": "Spread: FC Cajamarca (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "6987297",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "5832251884074934079345741018758723927960187186236596003490040842006491003460",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795258866,
+   "end_ts": 1795293000,
+   "q": "Spread: FC Cajamarca (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "6987309",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "86880672970762790847385718582760834849773180200135167679086752062353349100127",
+   "px": 0.983,
+   "tick": 0.001,
+   "ts": 1795258866,
+   "end_ts": 1795293000,
+   "q": "Club Alianza Lima vs. FC Cajamarca: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "7160488",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "26544033442884840386420807077357880754482372677654219882690988468666599447195",
+   "px": 0.987,
+   "tick": 0.001,
+   "ts": 1795258866,
+   "end_ts": 1795296600,
+   "q": "Spread: Barcelona SC (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "6843181",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "100129718027705423550604889174359429063511931137696989212051024882136066437556",
+   "px": 0.984,
+   "tick": 0.001,
+   "ts": 1795258866,
+   "end_ts": 1795303800,
+   "q": "Spread: CS Herediano (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "6843206",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "5236358318058474259059276259478567360110409997905143954442060349639308927916",
+   "px": 0.981,
+   "tick": 0.001,
+   "ts": 1795258866,
+   "end_ts": 1795303800,
+   "q": "Puntarenas FC vs. CS Herediano: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "6903671",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "108801213240409703150414289930938952891014446660350210939726959621317758290368",
+   "px": 0.986,
+   "tick": 0.001,
+   "ts": 1795258866,
+   "end_ts": 1795303800,
+   "q": "Spread: CD Universidad de Concepción (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "6903672",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "5820275222798309652311155443766803283743152778916474756156850735943321258083",
+   "px": 0.984,
+   "tick": 0.001,
+   "ts": 1795258866,
+   "end_ts": 1795303800,
+   "q": "Spread: CD Ñublense (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "6903683",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "115467434303728943720811954789788212483904228757007714855292122093706861226813",
+   "px": 0.984,
+   "tick": 0.001,
+   "ts": 1795258866,
+   "end_ts": 1795303800,
+   "q": "CD Universidad de Concepción vs. CD Ñublense: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "6911044",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "107515336682506329560958781834116569831066428524146743254019486990378828114035",
+   "px": 0.975,
+   "tick": 0.001,
+   "ts": 1795258866,
+   "end_ts": 1795312800,
+   "q": "Spread: Macarthur FC (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "6911048",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "49040345669019281162538762978058865478986118141635105358923381086553210220410",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1795258866,
+   "end_ts": 1795312800,
+   "q": "Spread: Macarthur FC (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "7143961",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "113158723178795201320515698392910354898635399801828087792125058318729627891410",
+   "px": 0.981,
+   "tick": 0.001,
+   "ts": 1795258866,
+   "end_ts": 1795310100,
+   "q": "Spread: Atlético Nacional (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "6893643",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "54456036854503749705422416009694533347554951588027603011147908222520712429033",
+   "px": 0.992,
+   "tick": 0.001,
+   "ts": 1795258866,
+   "end_ts": 1795356000,
+   "q": "Hull City AFC vs. Brighton & Hove Albion FC: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6893967",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "17002008183490495713951061843242383733299968513675756410156270323453179278456",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795258866,
+   "end_ts": 1795347000,
+   "q": "Juventus FC vs. Venezia FC: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "6893382",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "949198249595048951495461936629373899154652987011453564403612919423856796542",
+   "px": 0.974,
+   "tick": 0.001,
+   "ts": 1795258866,
+   "end_ts": 1795365000,
+   "q": "Spread: Manchester United FC (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "6893389",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "100851941538565578454493791118476967137845639795853074387376003149795040232983",
+   "px": 0.991,
+   "tick": 0.001,
+   "ts": 1795258866,
+   "end_ts": 1795365000,
+   "q": "Spread: Manchester United FC (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "6893398",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "11231027081899008329402467237557453887111370948062797582952644874078838176841",
+   "px": 0.979,
+   "tick": 0.001,
+   "ts": 1795258866,
+   "end_ts": 1795365000,
+   "q": "Spread: Hamburger SV (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "6893408",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "104748394387990825668156575916904035072237716321241465671740324794218380689084",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1795258866,
+   "end_ts": 1795365000,
+   "q": "Spread: Hamburger SV (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "6893437",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "98639749965041648832158529077683614395019332137543521818908440378622478502552",
+   "px": 0.979,
+   "tick": 0.001,
+   "ts": 1795258866,
+   "end_ts": 1795365000,
+   "q": "Liverpool FC vs. Manchester United FC: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6893457",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "45930979637165871098851052903084078071408256691668091157456759201134007329400",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795258866,
+   "end_ts": 1795365000,
+   "q": "SV Werder Bremen vs. Hamburger SV: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6893584",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "29871001878912960221970293522513168986220919962046963463600908599369551819407",
+   "px": 0.979,
+   "tick": 0.001,
+   "ts": 1795258866,
+   "end_ts": 1795366800,
+   "q": "Spread: Frosinone Calcio (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "6893590",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "20983741276023122998369419993370803982840330292418196942064110647857407167584",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795258866,
+   "end_ts": 1795366800,
+   "q": "Spread: Frosinone Calcio (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "6893609",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "114179971047430855520770411140366650743544381390273021364738605976925304762437",
+   "px": 0.973,
+   "tick": 0.001,
+   "ts": 1795258866,
+   "end_ts": 1795366800,
+   "q": "AC Milan vs. Frosinone Calcio: O/U 0.5",
+   "touched": null
+  },
+  {
+   "id": "6893610",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "73388653658295239548356535207801744838543004419588231478217921565005505894110",
+   "px": 0.975,
+   "tick": 0.001,
+   "ts": 1795258866,
+   "end_ts": 1795357800,
+   "q": "Spread: FC Augsburg (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "6893614",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "94743222820556640015127945840718153606321763152489073264862977749980528962271",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795258866,
+   "end_ts": 1795357800,
+   "q": "Spread: 1. FSV Mainz 05 (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "6893644",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "1836536747684045430049250895122106049615727968736298314127836789623662322410",
+   "px": 0.973,
+   "tick": 0.001,
+   "ts": 1795258866,
+   "end_ts": 1795364100,
+   "q": "FC Lorient vs. Stade Rennais FC 1901: O/U 6.5",
    "touched": null
   }
  ]

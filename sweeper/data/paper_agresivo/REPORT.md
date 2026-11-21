@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 7.9 de 28 | corridas: 163
-- Capital inicial: $1,000.00 | valor actual: $945.47 | P&L: $-54.53 (-5.45%)
-- Efectivo libre: $3.77 | en ordenes abiertas: $444.87 (6) | en posiciones: $504.40 (7)
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 7.9 de 28 | corridas: 164
+- Capital inicial: $1,000.00 | valor actual: $947.19 | P&L: $-52.81 (-5.28%)
+- Efectivo libre: $0.18 | en ordenes abiertas: $353.91 (5) | en posiciones: $598.95 (8)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 352 colocadas, 155 llenadas, 154 tocadas sin llenarse (sorteo 30%), 37 expiradas
+- Ordenes virtuales: 356 colocadas, 156 llenadas, 157 tocadas sin llenarse (sorteo 30%), 38 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -34,30 +34,31 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 | $35.36 | 99.8c | 98.9c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $4.5m and $5.5m at auction? |
 | $87.27 | 99.8c | 98.3c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
 | $93.89 | 95.0c | 95.0c | deportes_previo |  | Spread: Gangwon FC (-2.5) |
-| $93.93 | 97.9c | 95.0c | deportes_previo |  | Spread: Gençlerbirliği SK (-3.5) |
-| $93.98 | 98.5c | 99.1c | cripto_cierre |  | Will Bitcoin reach $64,000 on November 21? |
-| $8.19 | 97.9c | 97.9c | cripto_cierre |  | Will Bitcoin reach $63,000 on November 21? |
+| $93.93 | 97.9c | 96.5c | deportes_previo |  | Spread: Gençlerbirliği SK (-3.5) |
+| $94.55 | 96.2c | 96.2c | deportes_previo |  | Hannover 96 vs. SpVgg Greuther Fürth: Neither team to score first? |
+| $93.98 | 98.5c | 99.3c | cripto_cierre |  | Will Bitcoin reach $64,000 on November 21? |
+| $8.19 | 97.9c | 97.8c | cripto_cierre |  | Will Bitcoin reach $63,000 on November 21? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 8060 | abiertas: 2605 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 8107 | abiertas: 2601 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
-| clima_cierre | todas | 2343 | 98.85c | 99.02% | +0.17 pts | -0.23 a +0.57 | 23 |
-| clima_cierre | tocadas | 2165 | 98.87c | 98.94% | +0.07 pts | -0.36 a +0.50 | 23 |
-| cripto_cierre | todas | 1163 | 98.71c | 97.94% | -0.77 pts | -1.58 a +0.04 | 24 |
-| cripto_cierre | tocadas | 1065 | 98.75c | 97.75% | -1.00 pts | -1.88 a -0.12 | 24 |
-| deportes_previo | todas | 3380 | 98.05c | 97.41% | -0.63 pts | -1.16 a -0.11 | 90 |
-| deportes_previo | tocadas | 3306 | 98.07c | 97.35% | -0.72 pts | -1.26 a -0.18 | 90 |
-| otros_cierre | todas | 1097 | 98.98c | 96.99% | -1.99 pts | -2.99 a -0.98 | 33 |
-| otros_cierre | tocadas | 1024 | 98.94c | 96.78% | -2.16 pts | -3.24 a -1.09 | 33 |
+| clima_cierre | todas | 2344 | 98.85c | 99.02% | +0.17 pts | -0.23 a +0.57 | 23 |
+| clima_cierre | tocadas | 2166 | 98.87c | 98.94% | +0.07 pts | -0.36 a +0.50 | 23 |
+| cripto_cierre | todas | 1173 | 98.70c | 97.95% | -0.75 pts | -1.55 a +0.05 | 24 |
+| cripto_cierre | tocadas | 1068 | 98.75c | 97.75% | -0.99 pts | -1.87 a -0.12 | 24 |
+| deportes_previo | todas | 3413 | 98.05c | 97.44% | -0.61 pts | -1.14 a -0.09 | 90 |
+| deportes_previo | tocadas | 3336 | 98.07c | 97.38% | -0.70 pts | -1.23 a -0.16 | 90 |
+| otros_cierre | todas | 1100 | 98.98c | 97.00% | -1.98 pts | -2.98 a -0.98 | 33 |
+| otros_cierre | tocadas | 1027 | 98.94c | 96.79% | -2.15 pts | -3.22 a -1.08 | 33 |
 | post_fin_90_97 | todas | 77 | 94.31c | 97.40% | +3.09 pts | -0.49 a +6.68 | 2 |
 | post_fin_90_97 | tocadas | 61 | 94.40c | 96.72% | +2.32 pts | -2.18 a +6.83 | 2 |
-| TOTAL | todas | 8060 | 98.47c | 97.90% | -0.57 pts | -0.88 a -0.26 | 172 |
-| TOTAL | tocadas | 7621 | 98.48c | 97.78% | -0.70 pts | -1.03 a -0.38 | 172 |
+| TOTAL | todas | 8107 | 98.46c | 97.91% | -0.56 pts | -0.86 a -0.25 | 172 |
+| TOTAL | tocadas | 7658 | 98.48c | 97.79% | -0.69 pts | -1.02 a -0.37 | 172 |
 
 Peores casos del registro sombra:
 
