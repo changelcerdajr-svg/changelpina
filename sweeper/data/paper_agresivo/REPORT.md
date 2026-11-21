@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 8.3 de 28 | corridas: 175
-- Capital inicial: $1,000.00 | valor actual: $867.80 | P&L: $-132.20 (-13.22%)
-- Efectivo libre: $0.10 | en ordenes abiertas: $147.10 (3) | en posiciones: $727.97 (12)
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 8.4 de 28 | corridas: 176
+- Capital inicial: $1,000.00 | valor actual: $858.57 | P&L: $-141.43 (-14.14%)
+- Efectivo libre: $1.20 | en ordenes abiertas: $146.18 (3) | en posiciones: $727.88 (12)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 373 colocadas, 168 llenadas, 163 tocadas sin llenarse (sorteo 30%), 39 expiradas
+- Ordenes virtuales: 374 colocadas, 169 llenadas, 163 tocadas sin llenarse (sorteo 30%), 39 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -14,10 +14,10 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 |---|---|---|---|---|---|---|---|
 | clima_cierre | 4 | 97.87c | 100.00% | 51.0-100.0% | +2.13 pts | $+7.75 | 1.02 |
 | cripto_cierre | 49 | 98.78c | 100.00% | 92.7-100.0% | +1.22 pts | $+40.02 | 0.14 |
-| deportes_previo | 71 | 98.00c | 94.79% | 88.3-98.6% | -3.21 pts | $-183.47 | 0.30 |
+| deportes_previo | 72 | 98.03c | 94.87% | 88.5-98.6% | -3.16 pts | $-183.38 | 0.29 |
 | otros_cierre | 31 | 99.67c | 100.00% | 89.0-100.0% | +0.33 pts | $+7.04 | 0.34 |
 | post_fin_90_97 | 1 | 96.00c | 100.00% | 20.7-100.0% | +4.00 pts | $+3.83 | 0.71 |
-| TOTAL | 156 | 98.51c | 97.46% | 94.5-99.3% | -1.06 pts | $-124.83 | 0.28 |
+| TOTAL | 157 | 98.53c | 97.48% | 94.5-99.3% | -1.05 pts | $-124.74 | 0.28 |
 
 ## Peores casos
 
@@ -35,35 +35,35 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 | $35.36 | 99.8c | 98.9c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $4.5m and $5.5m at auction? |
 | $87.27 | 99.8c | 98.3c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
 | $6.92 | 93.9c | 97.4c | post_fin_90_97 |  | Will the highest temperature in Chicago be between 66-67°F on November 21? |
-| $86.88 | 99.9c | 99.9c | deportes_previo |  | Counter-Strike: Infinite vs BakS eSports (BO3) - NODWIN Clutch Series Playoffs |
-| $86.88 | 99.0c | 99.0c | deportes_previo |  | Spread: Caracas FC (-2.5) |
+| $86.88 | 99.0c | 88.1c | deportes_previo |  | Spread: Caracas FC (-2.5) |
 | $24.08 | 98.8c | 98.8c | deportes_previo |  | Spread: Barcelona SC (-2.5) |
+| $86.78 | 98.7c | 98.7c | deportes_previo |  | Spread: CA Mineiro (-2.5) |
 | $94.72 | 99.6c | 99.3c | otros_cierre |  | Will the next Claude Opus model (5.6+) be released on November 21, 2026? |
 | $17.05 | 99.6c | 99.8c | otros_cierre |  | Will the next Meta Muse Spark model be released on November 21, 2026? |
 | $94.88 | 99.8c | 99.5c | clima_cierre |  | Will the next hurricane form between November 17 and November 21, 2026? |
-| $93.98 | 98.5c | 97.9c | cripto_cierre |  | Will Bitcoin reach $64,000 on November 21? |
-| $8.19 | 97.9c | 96.0c | cripto_cierre |  | Will Bitcoin reach $63,000 on November 21? |
+| $93.98 | 98.5c | 98.0c | cripto_cierre |  | Will Bitcoin reach $64,000 on November 21? |
+| $8.19 | 97.9c | 97.0c | cripto_cierre |  | Will Bitcoin reach $63,000 on November 21? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 8829 | abiertas: 2525 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 8877 | abiertas: 2492 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
-| clima_cierre | todas | 2467 | 98.84c | 99.03% | +0.19 pts | -0.19 a +0.58 | 24 |
-| clima_cierre | tocadas | 2281 | 98.86c | 98.95% | +0.09 pts | -0.32 a +0.51 | 24 |
+| clima_cierre | todas | 2481 | 98.83c | 99.03% | +0.20 pts | -0.18 a +0.58 | 24 |
+| clima_cierre | tocadas | 2295 | 98.85c | 98.95% | +0.10 pts | -0.31 a +0.51 | 24 |
 | cripto_cierre | todas | 1268 | 98.71c | 98.03% | -0.68 pts | -1.44 a +0.08 | 25 |
 | cripto_cierre | tocadas | 1152 | 98.75c | 97.83% | -0.92 pts | -1.75 a -0.08 | 25 |
-| deportes_previo | todas | 3822 | 98.04c | 97.48% | -0.57 pts | -1.06 a -0.07 | 99 |
-| deportes_previo | tocadas | 3724 | 98.08c | 97.41% | -0.67 pts | -1.17 a -0.16 | 99 |
+| deportes_previo | todas | 3856 | 98.04c | 97.47% | -0.57 pts | -1.06 a -0.08 | 100 |
+| deportes_previo | tocadas | 3757 | 98.08c | 97.40% | -0.67 pts | -1.17 a -0.17 | 100 |
 | otros_cierre | todas | 1188 | 99.00c | 97.22% | -1.78 pts | -2.71 a -0.85 | 33 |
 | otros_cierre | tocadas | 1114 | 98.97c | 97.04% | -1.93 pts | -2.92 a -0.94 | 33 |
 | post_fin_90_97 | todas | 84 | 94.32c | 96.43% | +2.11 pts | -1.87 a +6.09 | 3 |
 | post_fin_90_97 | tocadas | 67 | 94.37c | 95.52% | +1.15 pts | -3.82 a +6.12 | 3 |
-| TOTAL | todas | 8829 | 98.45c | 97.94% | -0.51 pts | -0.80 a -0.22 | 184 |
-| TOTAL | tocadas | 8338 | 98.47c | 97.82% | -0.65 pts | -0.96 a -0.34 | 184 |
+| TOTAL | todas | 8877 | 98.45c | 97.94% | -0.51 pts | -0.80 a -0.21 | 185 |
+| TOTAL | tocadas | 8385 | 98.47c | 97.82% | -0.65 pts | -0.96 a -0.34 | 185 |
 
 Peores casos del registro sombra:
 
@@ -80,4 +80,4 @@ Peores casos del registro sombra:
 
 ## Veredicto
 
-Aun no hay veredicto: van 156 operaciones cerradas en 8.3 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
+Aun no hay veredicto: van 157 operaciones cerradas en 8.4 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.

@@ -46,27 +46,6 @@
    "liq": 48983
   },
   {
-   "oid": "6821575-1795294864",
-   "id": "6821575",
-   "q": "Spread: Houston (-7.5)",
-   "cat": "deportes",
-   "rule": "post_fin_95_97",
-   "event": "1335874",
-   "side": 1,
-   "token": "51643402627761311337165302598758324302151401384537359919591959671822237810032",
-   "px": 0.95,
-   "tick": 0.01,
-   "mid": 0.955,
-   "bid": 0.95,
-   "ask": 0.96,
-   "shares": 55.8851,
-   "cost": 53.0908,
-   "ts": 1795294864.008024,
-   "end_ts": 1795284000.0,
-   "hours": -3.02,
-   "liq": 46951
-  },
-  {
    "oid": "6998425-1795294864",
    "id": "6998425",
    "q": "Washington State Cougars vs. Duke Blue Devils",
@@ -156,7 +135,7 @@
    "hours": 16.98,
    "liq": 19899,
    "fill_ts": 1795266066.083833,
-   "mark": 0.979,
+   "mark": 0.9805,
    "stuck": false,
    "disputed": false
   },
@@ -181,7 +160,7 @@
    "hours": 15.98,
    "liq": 18511,
    "fill_ts": 1795269667.934122,
-   "mark": 0.9605,
+   "mark": 0.9695,
    "stuck": false,
    "disputed": false
   },
@@ -284,6 +263,29 @@
    "mark": 0.9835,
    "stuck": false,
    "disputed": false
+  },
+  {
+   "oid": "6821575-1795294864",
+   "id": "6821575",
+   "q": "Spread: Houston (-7.5)",
+   "cat": "deportes",
+   "rule": "post_fin_95_97",
+   "event": "1335874",
+   "side": 1,
+   "token": "51643402627761311337165302598758324302151401384537359919591959671822237810032",
+   "px": 0.95,
+   "tick": 0.01,
+   "mid": 0.955,
+   "bid": 0.95,
+   "ask": 0.96,
+   "shares": 55.8851,
+   "cost": 53.0908,
+   "ts": 1795294864.008024,
+   "end_ts": 1795284000.0,
+   "hours": -3.02,
+   "liq": 46951,
+   "fill_ts": 1795297265.842682,
+   "mark": 0.95
   }
  ],
  "closed": [
@@ -5476,12 +5478,25 @@
    "placed": 3,
    "shadow_open": 421,
    "shadow_closed": 16
+  },
+  {
+   "ts": "2026-11-21T21:41:55Z",
+   "equity": 1062.38,
+   "cash": 428.28,
+   "orders": 4,
+   "positions": 8,
+   "closed": 82,
+   "scanned": 18190,
+   "candidates": 111,
+   "placed": 0,
+   "shadow_open": 420,
+   "shadow_closed": 8
   }
  ],
  "halted": false,
  "stats": {
   "placed": 358,
-  "filled": 89,
+  "filled": 90,
   "expired": 84,
   "touched_not_filled": 180
  },
@@ -5614,19 +5629,6 @@
    "ts": 1795179669,
    "end_ts": 1795283100,
    "q": "Spread: SBV Excelsior (-1.5)",
-   "touched": 1
-  },
-  {
-   "id": "6911250",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "47030866325667919850318144993920878590065464654862968462894579106495211044513",
-   "px": 0.985,
-   "tick": 0.001,
-   "ts": 1795179669,
-   "end_ts": 1795287600,
-   "q": "Spread: New England Revolution (-3.5)",
    "touched": 1
   },
   {
@@ -5822,19 +5824,6 @@
    "ts": 1795186876,
    "end_ts": 1795290300,
    "q": "Lille OSC vs. Olympique Lyonnais: O/U 6.5",
-   "touched": 1
-  },
-  {
-   "id": "6911263",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "47183207261277491086943535271235756948402597735804567040641845388288159598897",
-   "px": 0.987,
-   "tick": 0.001,
-   "ts": 1795190470,
-   "end_ts": 1795287600,
-   "q": "New England Revolution vs. Philadelphia Union: O/U 7.5",
    "touched": 1
   },
   {
@@ -6306,19 +6295,6 @@
    "touched": 1
   },
   {
-   "id": "6881173",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "50364982029723603643435456183025523000456023849926062280561817716399679634895",
-   "px": 0.984,
-   "tick": 0.001,
-   "ts": 1795208469,
-   "end_ts": 1795282200,
-   "q": "Spread: CD Eldense (-2.5)",
-   "touched": 1
-  },
-  {
    "id": "6837603",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -6735,32 +6711,6 @@
    "touched": 1
   },
   {
-   "id": "6881179",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "89833059864223050886077672867586483051034332072081132432835447564418917657133",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795233676,
-   "end_ts": 1795282200,
-   "q": "Spread: CD Eldense (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "6881245",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "37852256171596531613073041036098647969197530211970915676032136603009491833825",
-   "px": 0.989,
-   "tick": 0.001,
-   "ts": 1795233676,
-   "end_ts": 1795282200,
-   "q": "CD Castellón vs. CD Eldense: O/U 7.5",
-   "touched": 1
-  },
-  {
    "id": "6882370",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -6797,32 +6747,6 @@
    "ts": 1795233676,
    "end_ts": 1795285800,
    "q": "Empoli FC vs. Pisa SC: O/U 7.5",
-   "touched": 1
-  },
-  {
-   "id": "6886814",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "61289687267522453187891562009057144722505762973369915047379198451151071651687",
-   "px": 0.992,
-   "tick": 0.001,
-   "ts": 1795233676,
-   "end_ts": 1795283100,
-   "q": "Spread: Dundee FC (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "6886827",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "11975575916062262590627830632997332315676035423687552696971197196827184783001",
-   "px": 0.989,
-   "tick": 0.001,
-   "ts": 1795233676,
-   "end_ts": 1795283100,
-   "q": "Dundee FC vs. Heart of Midlothian FC: O/U 7.5",
    "touched": 1
   },
   {
@@ -7239,19 +7163,6 @@
    "ts": 1795233676,
    "end_ts": 1795316400,
    "q": "Tigres de la UANL vs. CF América: O/U 7.5",
-   "touched": 1
-  },
-  {
-   "id": "6886826",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "74367672180573475071657536647673246726805850406327981457286815421295081638518",
-   "px": 0.971,
-   "tick": 0.001,
-   "ts": 1795237262,
-   "end_ts": 1795283100,
-   "q": "Dundee FC vs. Heart of Midlothian FC: O/U 6.5",
    "touched": 1
   },
   {
@@ -10957,6 +10868,97 @@
    "ts": 1795294864,
    "end_ts": 1795377600,
    "q": "Burgos CF vs. Albacete Balompié: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "6905115",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "88763404368077702003527329358880966389061251417534136744860065178426942797916",
+   "px": 0.974,
+   "tick": 0.001,
+   "ts": 1795297265,
+   "end_ts": 1795350600,
+   "q": "FC Energie Cottbus vs. Hertha BSC: O/U 0.5",
+   "touched": null
+  },
+  {
+   "id": "6904304",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "76960087733284856362432132494173189836385039905513600562198611738118678521370",
+   "px": 0.981,
+   "tick": 0.001,
+   "ts": 1795297265,
+   "end_ts": 1795361400,
+   "q": "Spread: FC UTA Arad (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "7070918",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "113942918276343652967713558042576651635229890435455431304133589895198124546585",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795297265,
+   "end_ts": 1795354200,
+   "q": "Spread: FC Lokomotiv 1929 Sofia (-1.5)",
+   "touched": null
+  },
+  {
+   "id": "6640084",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "114304354612386168167711800167562309941137881491854595415116173742121423504575",
+   "px": 0.982,
+   "tick": 0.001,
+   "ts": 1795297265,
+   "end_ts": 1795370400,
+   "q": "Spread: Cardinals (-7.5)",
+   "touched": null
+  },
+  {
+   "id": "7173997",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "85111454242309544523760755739373454688309439573250019685227645067438984764092",
+   "px": 0.981,
+   "tick": 0.001,
+   "ts": 1795297265,
+   "end_ts": 1795374000,
+   "q": "Spread: Fortaleza EC (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "7239753",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "11988384197450818969080349312856023403147081962815082647003582662677362427937",
+   "px": 0.982,
+   "tick": 0.001,
+   "ts": 1795297265,
+   "end_ts": 1795381200,
+   "q": "Spread: FC Cincinnati (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "7239760",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "22780046176124778969862728063735744517535559705025584721323742160920987853012",
+   "px": 0.972,
+   "tick": 0.001,
+   "ts": 1795297265,
+   "end_ts": 1795381200,
+   "q": "Nashville SC vs. FC Cincinnati: O/U 0.5",
    "touched": null
   }
  ]
