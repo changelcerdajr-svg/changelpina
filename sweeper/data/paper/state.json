@@ -109,48 +109,6 @@
    "liq": 17026
   },
   {
-   "oid": "7189919-1795248071",
-   "id": "7189919",
-   "q": "Bitcoin Up or Down - November 21, 12:00AM-4:00AM ET",
-   "cat": "cripto",
-   "rule": "cripto_cierre",
-   "event": "1429308",
-   "side": 0,
-   "token": "93621710789221265036770966668048673052927038522470588762929982252523988812200",
-   "px": 0.991,
-   "tick": 0.001,
-   "mid": 0.9915,
-   "bid": 0.99,
-   "ask": 0.993,
-   "shares": 53.5045,
-   "cost": 53.023,
-   "ts": 1795248071.150939,
-   "end_ts": 1795251600.0,
-   "hours": 0.98,
-   "liq": 4487
-  },
-  {
-   "oid": "7189923-1795248071",
-   "id": "7189923",
-   "q": "Ethereum Up or Down - November 21, 12:00AM-4:00AM ET",
-   "cat": "cripto",
-   "rule": "cripto_cierre",
-   "event": "1429311",
-   "side": 0,
-   "token": "77628660111200917719447028609451110590099278729615786349577625381376288092034",
-   "px": 0.99,
-   "tick": 0.001,
-   "mid": 0.9905,
-   "bid": 0.986,
-   "ask": 0.995,
-   "shares": 53.5586,
-   "cost": 53.023,
-   "ts": 1795248071.150939,
-   "end_ts": 1795251600.0,
-   "hours": 0.98,
-   "liq": 1542
-  },
-  {
    "oid": "6834148-1795248071",
    "id": "6834148",
    "q": "Eintracht Frankfurt vs. TSG 1899 Hoffenheim: Neither team to score first?",
@@ -212,6 +170,27 @@
    "end_ts": 1795271400.0,
    "hours": 6.48,
    "liq": 5664
+  },
+  {
+   "oid": "7189919-1795249210",
+   "id": "7189919",
+   "q": "Bitcoin Up or Down - November 21, 12:00AM-4:00AM ET",
+   "cat": "cripto",
+   "rule": "cripto_cierre",
+   "event": "1429308",
+   "side": 0,
+   "token": "93621710789221265036770966668048673052927038522470588762929982252523988812200",
+   "px": 0.991,
+   "tick": 0.001,
+   "mid": 0.9915,
+   "bid": 0.985,
+   "ask": 0.998,
+   "shares": 53.5045,
+   "cost": 53.023,
+   "ts": 1795249210.482509,
+   "end_ts": 1795251600.0,
+   "hours": 0.66,
+   "liq": 4294
   }
  ],
  "positions": [
@@ -264,6 +243,29 @@
    "mark": 0.975,
    "stuck": false,
    "disputed": false
+  },
+  {
+   "oid": "7189923-1795248071",
+   "id": "7189923",
+   "q": "Ethereum Up or Down - November 21, 12:00AM-4:00AM ET",
+   "cat": "cripto",
+   "rule": "cripto_cierre",
+   "event": "1429311",
+   "side": 0,
+   "token": "77628660111200917719447028609451110590099278729615786349577625381376288092034",
+   "px": 0.99,
+   "tick": 0.001,
+   "mid": 0.9905,
+   "bid": 0.986,
+   "ask": 0.995,
+   "shares": 53.5586,
+   "cost": 53.023,
+   "ts": 1795248071.150939,
+   "end_ts": 1795251600.0,
+   "hours": 0.98,
+   "liq": 1542,
+   "fill_ts": 1795249210.482509,
+   "mark": 0.99
   }
  ],
  "closed": [
@@ -5171,14 +5173,27 @@
    "placed": 5,
    "shadow_open": 388,
    "shadow_closed": 55
+  },
+  {
+   "ts": "2026-11-21T08:21:09Z",
+   "equity": 1060.46,
+   "cash": 426.96,
+   "orders": 9,
+   "positions": 3,
+   "closed": 79,
+   "scanned": 17247,
+   "candidates": 133,
+   "placed": 1,
+   "shadow_open": 385,
+   "shadow_closed": 5
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 336,
-  "filled": 81,
+  "placed": 337,
+  "filled": 82,
   "expired": 78,
-  "touched_not_filled": 167
+  "touched_not_filled": 168
  },
  "shadow": [
   {
@@ -5247,32 +5262,6 @@
    "touched": 0
   },
   {
-   "id": "6869913",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "56505492686123478296857409962686491273557734839017538035635862154097876220648",
-   "px": 0.979,
-   "tick": 0.001,
-   "ts": 1795136467,
-   "end_ts": 1795240800,
-   "q": "Spread: Cerezo Ōsaka (-2.5)",
-   "touched": 1
-  },
-  {
-   "id": "6869973",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "67376427461469198552854304097300786401473046987680554652471233913802866588389",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1795136467,
-   "end_ts": 1795240800,
-   "q": "Kawasaki Frontale vs. Avispa Fukuoka: O/U 6.5",
-   "touched": 1
-  },
-  {
    "id": "6820540",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -5296,32 +5285,6 @@
    "ts": 1795140069,
    "end_ts": 1795244400,
    "q": "Gamba Ōsaka vs. Fagiano Okayama: O/U 6.5",
-   "touched": 0
-  },
-  {
-   "id": "6869928",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "50180312175797380271882948632607361648200558790050000448015844645341108233766",
-   "px": 0.986,
-   "tick": 0.001,
-   "ts": 1795140069,
-   "end_ts": 1795240800,
-   "q": "Cerezo Ōsaka vs. FC Tōkyō: O/U 7.5",
-   "touched": 0
-  },
-  {
-   "id": "6869974",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "100234436489995783047635652265455344796368053246862476534158969291312228282101",
-   "px": 0.99,
-   "tick": 0.001,
-   "ts": 1795140069,
-   "end_ts": 1795240800,
-   "q": "Kawasaki Frontale vs. Avispa Fukuoka: O/U 7.5",
    "touched": 0
   },
   {
@@ -6375,19 +6338,6 @@
    "ts": 1795169497,
    "end_ts": 1795273200,
    "q": "Aston Villa FC vs. Sunderland AFC: O/U 8.5",
-   "touched": 1
-  },
-  {
-   "id": "6869960",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "108731831781138576993218797163404508795115854312146788810641276203307250560547",
-   "px": 0.975,
-   "tick": 0.001,
-   "ts": 1795172468,
-   "end_ts": 1795240800,
-   "q": "Spread: Avispa Fukuoka (-2.5)",
    "touched": 1
   },
   {
@@ -10223,6 +10173,32 @@
    "ts": 1795248071,
    "end_ts": 1795352400,
    "q": "Konyaspor vs. Beşiktaş JK: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "6903518",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "39253757528070655837265699416830607266095421812602491241113099847432896919726",
+   "px": 0.983,
+   "tick": 0.001,
+   "ts": 1795249210,
+   "end_ts": 1795305600,
+   "q": "Spread: Associação Chapecoense de Futebol (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "7217565",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "7456726523351260047847494479413751921007641234544924087600453350403353156077",
+   "px": 0.986,
+   "tick": 0.001,
+   "ts": 1795249210,
+   "end_ts": 1795323600,
+   "q": "Will Ethereum dip to $1,350 on November 21?",
    "touched": null
   }
  ]
