@@ -2,8 +2,8 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 8.2 de 28 | corridas: 171
-- Capital inicial: $1,000.00 | valor actual: $958.64 | P&L: $-41.36 (-4.14%)
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 8.2 de 28 | corridas: 172
+- Capital inicial: $1,000.00 | valor actual: $956.95 | P&L: $-43.05 (-4.31%)
 - Efectivo libre: $0.00 | en ordenes abiertas: $54.56 (1) | en posiciones: $911.20 (13)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
 - Ordenes virtuales: 366 colocadas, 165 llenadas, 161 tocadas sin llenarse (sorteo 30%), 39 expiradas
@@ -32,38 +32,38 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 |---|---|---|---|---|---|
 | $91.77 | 99.8c | 95.9c | otros_cierre |  | Pakistan military action against Afghanistan by November 15, 2026? |
 | $35.36 | 99.8c | 98.9c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $4.5m and $5.5m at auction? |
-| $87.27 | 99.8c | 98.4c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
-| $6.92 | 93.9c | 97.0c | post_fin_90_97 |  | Will the highest temperature in Chicago be between 66-67°F on November 21? |
+| $87.27 | 99.8c | 98.3c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
+| $6.92 | 93.9c | 97.4c | post_fin_90_97 |  | Will the highest temperature in Chicago be between 66-67°F on November 21? |
 | $93.94 | 99.5c | 99.5c | deportes_previo |  | NEC vs. PSV: Neither team to score first? |
 | $95.35 | 98.4c | 98.5c | deportes_previo |  | Spread: OGC Nice (-2.5) |
-| $95.89 | 97.4c | 96.2c | deportes_previo |  | FC Schalke 04 vs. VfB Stuttgart: Neither team to score first? |
-| $95.89 | 96.7c | 96.7c | deportes_previo |  | Spread: FC Schalke 04 (-2.5) |
+| $95.89 | 97.4c | 94.7c | deportes_previo |  | FC Schalke 04 vs. VfB Stuttgart: Neither team to score first? |
+| $95.89 | 96.7c | 96.4c | deportes_previo |  | Spread: FC Schalke 04 (-2.5) |
 | $94.72 | 99.6c | 99.2c | otros_cierre |  | Will the next Claude Opus model (5.6+) be released on November 21, 2026? |
 | $17.05 | 99.6c | 99.7c | otros_cierre |  | Will the next Meta Muse Spark model be released on November 21, 2026? |
 | $94.88 | 99.8c | 99.5c | clima_cierre |  | Will the next hurricane form between November 17 and November 21, 2026? |
-| $93.98 | 98.5c | 98.4c | cripto_cierre |  | Will Bitcoin reach $64,000 on November 21? |
-| $8.19 | 97.9c | 94.2c | cripto_cierre |  | Will Bitcoin reach $63,000 on November 21? |
+| $93.98 | 98.5c | 98.5c | cripto_cierre |  | Will Bitcoin reach $64,000 on November 21? |
+| $8.19 | 97.9c | 95.4c | cripto_cierre |  | Will Bitcoin reach $63,000 on November 21? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 8539 | abiertas: 2521 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 8683 | abiertas: 2480 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
-| clima_cierre | todas | 2450 | 98.84c | 99.02% | +0.18 pts | -0.20 a +0.57 | 24 |
-| clima_cierre | tocadas | 2264 | 98.86c | 98.94% | +0.08 pts | -0.34 a +0.50 | 24 |
-| cripto_cierre | todas | 1195 | 98.69c | 97.91% | -0.78 pts | -1.58 a +0.03 | 25 |
-| cripto_cierre | tocadas | 1089 | 98.73c | 97.70% | -1.03 pts | -1.90 a -0.15 | 25 |
-| deportes_previo | todas | 3640 | 98.04c | 97.54% | -0.50 pts | -1.00 a -0.00 | 92 |
-| deportes_previo | tocadas | 3554 | 98.07c | 97.48% | -0.59 pts | -1.10 a -0.08 | 92 |
-| otros_cierre | todas | 1171 | 99.00c | 97.18% | -1.82 pts | -2.76 a -0.87 | 33 |
-| otros_cierre | tocadas | 1098 | 98.96c | 96.99% | -1.97 pts | -2.97 a -0.96 | 33 |
+| clima_cierre | todas | 2453 | 98.84c | 99.02% | +0.18 pts | -0.20 a +0.57 | 24 |
+| clima_cierre | tocadas | 2267 | 98.86c | 98.94% | +0.08 pts | -0.33 a +0.50 | 24 |
+| cripto_cierre | todas | 1260 | 98.71c | 98.02% | -0.69 pts | -1.45 a +0.07 | 25 |
+| cripto_cierre | tocadas | 1146 | 98.75c | 97.82% | -0.93 pts | -1.76 a -0.09 | 25 |
+| deportes_previo | todas | 3711 | 98.04c | 97.53% | -0.51 pts | -1.00 a -0.01 | 94 |
+| deportes_previo | tocadas | 3619 | 98.08c | 97.47% | -0.60 pts | -1.11 a -0.10 | 94 |
+| otros_cierre | todas | 1176 | 99.00c | 97.19% | -1.81 pts | -2.74 a -0.87 | 33 |
+| otros_cierre | tocadas | 1103 | 98.97c | 97.01% | -1.96 pts | -2.95 a -0.96 | 33 |
 | post_fin_90_97 | todas | 83 | 94.36c | 96.39% | +2.03 pts | -2.00 a +6.05 | 3 |
 | post_fin_90_97 | tocadas | 66 | 94.43c | 95.45% | +1.03 pts | -4.01 a +6.07 | 3 |
-| TOTAL | todas | 8539 | 98.46c | 97.96% | -0.50 pts | -0.80 a -0.20 | 177 |
-| TOTAL | tocadas | 8071 | 98.47c | 97.84% | -0.64 pts | -0.95 a -0.32 | 177 |
+| TOTAL | todas | 8683 | 98.46c | 97.97% | -0.49 pts | -0.78 a -0.20 | 179 |
+| TOTAL | tocadas | 8201 | 98.48c | 97.85% | -0.63 pts | -0.94 a -0.32 | 179 |
 
 Peores casos del registro sombra:
 

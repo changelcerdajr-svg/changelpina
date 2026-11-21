@@ -1,6 +1,6 @@
 {
  "capital0": 1000.0,
- "cash": 429.1051,
+ "cash": 428.4428,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
   {
@@ -23,27 +23,6 @@
    "end_ts": 1795251600.0,
    "hours": 0.66,
    "liq": 4294
-  },
-  {
-   "oid": "7160488-1795273270",
-   "id": "7160488",
-   "q": "Spread: Barcelona SC (-2.5)",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1420413",
-   "side": 1,
-   "token": "26544033442884840386420807077357880754482372677654219882690988468666599447195",
-   "px": 0.981,
-   "tick": 0.001,
-   "mid": 0.981,
-   "bid": 0.97,
-   "ask": 0.992,
-   "shares": 53.4274,
-   "cost": 52.4122,
-   "ts": 1795273270.32323,
-   "end_ts": 1795296600.0,
-   "hours": 6.48,
-   "liq": 1062
   },
   {
    "oid": "6655555-1795273270",
@@ -128,6 +107,27 @@
    "end_ts": 1795303800.0,
    "hours": 6.48,
    "liq": 1725
+  },
+  {
+   "oid": "6899674-1795284066",
+   "id": "6899674",
+   "q": "Spread: Pumas de la UNAM (-3.5)",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1347653",
+   "side": 1,
+   "token": "27446642826138377074323017904626328880883712724692659521547377406877678428112",
+   "px": 0.981,
+   "tick": 0.001,
+   "mid": 0.9815,
+   "bid": 0.98,
+   "ask": 0.983,
+   "shares": 54.1024,
+   "cost": 53.0745,
+   "ts": 1795284066.419989,
+   "end_ts": 1795309200.0,
+   "hours": 6.98,
+   "liq": 4445
   }
  ],
  "positions": [
@@ -152,7 +152,7 @@
    "hours": 4.96,
    "liq": 1203,
    "fill_ts": 1794967266.068418,
-   "mark": 0.9835,
+   "mark": 0.983,
    "stuck": false,
    "disputed": false
   },
@@ -177,7 +177,7 @@
    "hours": 16.98,
    "liq": 19899,
    "fill_ts": 1795266066.083833,
-   "mark": 0.984,
+   "mark": 0.9845,
    "stuck": false,
    "disputed": false
   },
@@ -202,7 +202,7 @@
    "hours": 15.98,
    "liq": 18511,
    "fill_ts": 1795269667.934122,
-   "mark": 0.942,
+   "mark": 0.954,
    "stuck": false,
    "disputed": false
   },
@@ -277,7 +277,9 @@
    "hours": 17.96,
    "liq": 3571,
    "fill_ts": 1795280481.0488,
-   "mark": 0.992
+   "mark": 0.992,
+   "stuck": false,
+   "disputed": false
   }
  ],
  "closed": [
@@ -5418,14 +5420,27 @@
    "placed": 2,
    "shadow_open": 447,
    "shadow_closed": 52
+  },
+  {
+   "ts": "2026-11-21T18:02:30Z",
+   "equity": 1061.49,
+   "cash": 428.44,
+   "orders": 6,
+   "positions": 6,
+   "closed": 82,
+   "scanned": 19737,
+   "candidates": 144,
+   "placed": 1,
+   "shadow_open": 427,
+   "shadow_closed": 33
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 352,
+  "placed": 353,
   "filled": 88,
   "expired": 83,
-  "touched_not_filled": 175
+  "touched_not_filled": 176
  },
  "shadow": [
   {
@@ -5494,331 +5509,6 @@
    "touched": 0
   },
   {
-   "id": "6837650",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "39349181745039525831044024276935771263133610264056818089473544918713812096064",
-   "px": 0.973,
-   "tick": 0.001,
-   "ts": 1795165271,
-   "end_ts": 1795273200,
-   "q": "Spread: Nottingham Forest FC (-2.5)",
-   "touched": 1
-  },
-  {
-   "id": "6837657",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "39460335617820273307599553592772424024098984479486107192001102330994203386296",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795165271,
-   "end_ts": 1795273200,
-   "q": "Spread: Nottingham Forest FC (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "6837701",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "89141303664545826060263426873045418897125887697666653853947784099915597676929",
-   "px": 0.974,
-   "tick": 0.001,
-   "ts": 1795165271,
-   "end_ts": 1795273200,
-   "q": "AFC Bournemouth vs. Nottingham Forest FC: O/U 6.5",
-   "touched": 0
-  },
-  {
-   "id": "6837855",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "99900221564781606266931703717356653628313220806743412224701988929148318992470",
-   "px": 0.975,
-   "tick": 0.001,
-   "ts": 1795165271,
-   "end_ts": 1795273200,
-   "q": "Spread: Leeds United FC (-2.5)",
-   "touched": 1
-  },
-  {
-   "id": "6837863",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "51699270432838917813015460340617182188441163769183112386840115864204820403742",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795165271,
-   "end_ts": 1795273200,
-   "q": "Spread: Leeds United FC (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "6837908",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "70150747096536761854608168459752476783687213801153420585703766281132080311737",
-   "px": 0.976,
-   "tick": 0.001,
-   "ts": 1795165271,
-   "end_ts": 1795273200,
-   "q": "Chelsea FC vs. Leeds United FC: O/U 6.5",
-   "touched": 1
-  },
-  {
-   "id": "6837912",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "32421684901083308327557957003926229529992668926802397357010699900179390996064",
-   "px": 0.992,
-   "tick": 0.001,
-   "ts": 1795165271,
-   "end_ts": 1795273200,
-   "q": "Chelsea FC vs. Leeds United FC: O/U 7.5",
-   "touched": 1
-  },
-  {
-   "id": "6838058",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "6233008054800982956828602625909034772747186199922162303267114574953821890757",
-   "px": 0.985,
-   "tick": 0.001,
-   "ts": 1795165271,
-   "end_ts": 1795273200,
-   "q": "Spread: Ipswich Town FC (-2.5)",
-   "touched": 1
-  },
-  {
-   "id": "6838066",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "34853971357986781214931025075187641541697570733300877081893979271688822172166",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795165271,
-   "end_ts": 1795273200,
-   "q": "Spread: Ipswich Town FC (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "6838113",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "76296116754124714757879976112145699798309434748699347403964559588390447886489",
-   "px": 0.988,
-   "tick": 0.001,
-   "ts": 1795165271,
-   "end_ts": 1795273200,
-   "q": "Tottenham Hotspur FC vs. Ipswich Town FC: O/U 7.5",
-   "touched": 1
-  },
-  {
-   "id": "6838252",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "57008988033490956279943641916445072827706120672777383865100333045840147849720",
-   "px": 0.977,
-   "tick": 0.001,
-   "ts": 1795165271,
-   "end_ts": 1795273200,
-   "q": "Spread: Coventry City FC (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "6838255",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "51730000722505377618230333369194191593803465720570530860966818912709154524689",
-   "px": 0.984,
-   "tick": 0.001,
-   "ts": 1795165271,
-   "end_ts": 1795273200,
-   "q": "Spread: Crystal Palace FC (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "6838385",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "3242606358359731386463280551816117382824549635576914292001215905177204765322",
-   "px": 0.977,
-   "tick": 0.001,
-   "ts": 1795165271,
-   "end_ts": 1795273200,
-   "q": "Spread: Sunderland AFC (-2.5)",
-   "touched": 1
-  },
-  {
-   "id": "6838389",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "46124051972501539233709388605368731223670411027082495397122229984727596665099",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795165271,
-   "end_ts": 1795273200,
-   "q": "Spread: Sunderland AFC (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "6838412",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "67099899070978538163070964327802100521479527182592458690692078582770144406431",
-   "px": 0.974,
-   "tick": 0.001,
-   "ts": 1795165271,
-   "end_ts": 1795273200,
-   "q": "Aston Villa FC vs. Sunderland AFC: O/U 6.5",
-   "touched": 1
-  },
-  {
-   "id": "6837705",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "67846052051345106406985688973915312470542254728233095994743228493080175184874",
-   "px": 0.992,
-   "tick": 0.001,
-   "ts": 1795168880,
-   "end_ts": 1795273200,
-   "q": "AFC Bournemouth vs. Nottingham Forest FC: O/U 7.5",
-   "touched": 0
-  },
-  {
-   "id": "6838290",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "31213318697031856818729102852955851282011210413403848806168743737527736805095",
-   "px": 0.99,
-   "tick": 0.001,
-   "ts": 1795168880,
-   "end_ts": 1795273200,
-   "q": "Coventry City FC vs. Crystal Palace FC: O/U 7.5",
-   "touched": 0
-  },
-  {
-   "id": "6842520",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "39221832565634826041623289302059447396849004595078639386313085334815246886798",
-   "px": 0.975,
-   "tick": 0.001,
-   "ts": 1795168880,
-   "end_ts": 1795274100,
-   "q": "Spread: Valencia CF (-2.5)",
-   "touched": 0
-  },
-  {
-   "id": "6842525",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "61030355686427305408331493481403937190327026003520302870843344040790871236132",
-   "px": 0.992,
-   "tick": 0.001,
-   "ts": 1795168880,
-   "end_ts": 1795274100,
-   "q": "Spread: Valencia CF (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "6842549",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "31139578802001852974994723129172424196186819993503189976192278882507507313835",
-   "px": 0.985,
-   "tick": 0.001,
-   "ts": 1795168880,
-   "end_ts": 1795274100,
-   "q": "Rayo Vallecano de Madrid vs. Valencia CF: O/U 6.5",
-   "touched": 1
-  },
-  {
-   "id": "6837709",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "78777107573526548435977989393747048197520552043867453250958794265086581796593",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795169497,
-   "end_ts": 1795273200,
-   "q": "AFC Bournemouth vs. Nottingham Forest FC: O/U 8.5",
-   "touched": 1
-  },
-  {
-   "id": "6838117",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "50485969503376655852686019581205890060986719276318256974417836232446042445507",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1795169497,
-   "end_ts": 1795273200,
-   "q": "Tottenham Hotspur FC vs. Ipswich Town FC: O/U 8.5",
-   "touched": 0
-  },
-  {
-   "id": "6838293",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "2975535985157006842462033876377508640555653460279921678377881618953212061759",
-   "px": 0.996,
-   "tick": 0.001,
-   "ts": 1795169497,
-   "end_ts": 1795273200,
-   "q": "Coventry City FC vs. Crystal Palace FC: O/U 8.5",
-   "touched": 1
-  },
-  {
-   "id": "6838414",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "77427053403898704625768479095135728431583908518546804460193738067358147894763",
-   "px": 0.991,
-   "tick": 0.001,
-   "ts": 1795169497,
-   "end_ts": 1795273200,
-   "q": "Aston Villa FC vs. Sunderland AFC: O/U 7.5",
-   "touched": 1
-  },
-  {
-   "id": "6838415",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "99011869168355613835681439843972130092192848930492032845039599060733248535793",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795169497,
-   "end_ts": 1795273200,
-   "q": "Aston Villa FC vs. Sunderland AFC: O/U 8.5",
-   "touched": 1
-  },
-  {
    "id": "6858376",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -5829,19 +5519,6 @@
    "ts": 1795172468,
    "end_ts": 1795269600,
    "q": "FC Baník Ostrava vs. FK Teplice: O/U 7.5",
-   "touched": 1
-  },
-  {
-   "id": "6883542",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "85321672633516281329882338951635102574106048457994673398432622174260014011919",
-   "px": 0.988,
-   "tick": 0.001,
-   "ts": 1795172468,
-   "end_ts": 1795269600,
-   "q": "Carrarese Calcio vs. Virtus Entella: O/U 6.5",
    "touched": 1
   },
   {
@@ -5920,32 +5597,6 @@
    "ts": 1795172468,
    "end_ts": 1795280400,
    "q": "Parma Calcio 1913 vs. AS Roma: O/U 7.5",
-   "touched": 1
-  },
-  {
-   "id": "6837916",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "48296879155969915558440529219087069231103325039970496672049032656186086369505",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795172468,
-   "end_ts": 1795273200,
-   "q": "Chelsea FC vs. Leeds United FC: O/U 8.5",
-   "touched": 1
-  },
-  {
-   "id": "6838287",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "104802585824931089500506185340869070789998476207502301249826114609614172659255",
-   "px": 0.971,
-   "tick": 0.001,
-   "ts": 1795176072,
-   "end_ts": 1795273200,
-   "q": "Coventry City FC vs. Crystal Palace FC: O/U 6.5",
    "touched": 1
   },
   {
@@ -6144,19 +5795,6 @@
    "touched": 1
   },
   {
-   "id": "6842550",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "62994476746636587377401756573302549869488462112902482886581011108848362921486",
-   "px": 0.993,
-   "tick": 0.001,
-   "ts": 1795176072,
-   "end_ts": 1795274100,
-   "q": "Rayo Vallecano de Madrid vs. Valencia CF: O/U 7.5",
-   "touched": 1
-  },
-  {
    "id": "6881424",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -6349,19 +5987,6 @@
    "ts": 1795179669,
    "end_ts": 1795287600,
    "q": "Spread: New England Revolution (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "6858467",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "34399952710363335074548097267314125950444374063729853978255752503037664924615",
-   "px": 0.972,
-   "tick": 0.001,
-   "ts": 1795183282,
-   "end_ts": 1795269600,
-   "q": "SK Sigma Olomouc vs. SK Slavia Praha: O/U 6.5",
    "touched": 1
   },
   {
@@ -6625,32 +6250,6 @@
    "touched": 1
   },
   {
-   "id": "6858453",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "411975296457095456840395466822628656375596459454951145064515718347632408678",
-   "px": 0.972,
-   "tick": 0.001,
-   "ts": 1795194070,
-   "end_ts": 1795269600,
-   "q": "Spread: SK Sigma Olomouc (-2.5)",
-   "touched": 0
-  },
-  {
-   "id": "7039774",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "88259258799972578053129131281308385975480854570228241935998877453766645678154",
-   "px": 0.981,
-   "tick": 0.001,
-   "ts": 1795194070,
-   "end_ts": 1795266000,
-   "q": "Spread: SC Verl (-3.5)",
-   "touched": 1
-  },
-  {
    "id": "6816410",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -6765,19 +6364,6 @@
    "ts": 1795197675,
    "end_ts": 1795277700,
    "q": "OGC Nice vs. Paris Saint-Germain FC: Neither team to score first?",
-   "touched": 1
-  },
-  {
-   "id": "6842551",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "22441338895663407376817604004380490375988241190026581463488698930129141817716",
-   "px": 0.985,
-   "tick": 0.001,
-   "ts": 1795197675,
-   "end_ts": 1795274100,
-   "q": "Rayo Vallecano de Madrid vs. Valencia CF: O/U 8.5",
    "touched": 1
   },
   {
@@ -8325,7 +7911,7 @@
    "ts": 1795240865,
    "end_ts": 1795280400,
    "q": "Parma Calcio 1913 vs. AS Roma: Neither team to score first?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6881395",
@@ -8338,7 +7924,7 @@
    "ts": 1795240865,
    "end_ts": 1795274100,
    "q": "Spread: Cádiz CF (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6881425",
@@ -8351,7 +7937,7 @@
    "ts": 1795240865,
    "end_ts": 1795274100,
    "q": "Real Sociedad de Fútbol B vs. Cádiz CF: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6896613",
@@ -8364,7 +7950,7 @@
    "ts": 1795240865,
    "end_ts": 1795283100,
    "q": "Feyenoord Rotterdam vs. SBV Excelsior: O/U 8.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6837427",
@@ -8377,7 +7963,7 @@
    "ts": 1795240865,
    "end_ts": 1795290300,
    "q": "Racing Club de Lens vs. Toulouse FC: O/U 6.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7217497",
@@ -8390,7 +7976,7 @@
    "ts": 1795240865,
    "end_ts": 1795323600,
    "q": "Will Bitcoin reach $64,000 on November 21?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7217499",
@@ -8403,7 +7989,7 @@
    "ts": 1795240865,
    "end_ts": 1795323600,
    "q": "Will Bitcoin reach $63,000 on November 21?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7217547",
@@ -8416,7 +8002,7 @@
    "ts": 1795240865,
    "end_ts": 1795323600,
    "q": "Will Ethereum reach $1,900 on November 21?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7217549",
@@ -8429,7 +8015,7 @@
    "ts": 1795240865,
    "end_ts": 1795323600,
    "q": "Will Ethereum reach $1,850 on November 21?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7217551",
@@ -8442,7 +8028,7 @@
    "ts": 1795240865,
    "end_ts": 1795323600,
    "q": "Will Ethereum reach $1,800 on November 21?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7217566",
@@ -8455,7 +8041,7 @@
    "ts": 1795240865,
    "end_ts": 1795323600,
    "q": "Will Ethereum dip to $1,300 on November 21?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7217567",
@@ -8468,7 +8054,7 @@
    "ts": 1795240865,
    "end_ts": 1795323600,
    "q": "Will Ethereum dip to $1,250 on November 21?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7217568",
@@ -8481,7 +8067,7 @@
    "ts": 1795240865,
    "end_ts": 1795323600,
    "q": "Will Solana reach $90 on November 21?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7217569",
@@ -8494,7 +8080,7 @@
    "ts": 1795240865,
    "end_ts": 1795323600,
    "q": "Will Solana reach $85 on November 21?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7217570",
@@ -8507,7 +8093,7 @@
    "ts": 1795240865,
    "end_ts": 1795323600,
    "q": "Will Solana reach $80 on November 21?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7217576",
@@ -8520,7 +8106,7 @@
    "ts": 1795240865,
    "end_ts": 1795323600,
    "q": "Will Solana dip to $50 on November 21?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7217577",
@@ -8533,7 +8119,7 @@
    "ts": 1795240865,
    "end_ts": 1795323600,
    "q": "Will Solana dip to $45 on November 21?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6893952",
@@ -8546,7 +8132,7 @@
    "ts": 1795240865,
    "end_ts": 1795347000,
    "q": "Spread: Venezia FC (-1.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6893954",
@@ -8559,7 +8145,7 @@
    "ts": 1795240865,
    "end_ts": 1795347000,
    "q": "Spread: Venezia FC (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6880922",
@@ -11237,6 +10823,175 @@
    "ts": 1795280481,
    "end_ts": 1795370400,
    "q": "Spread: Cardinals (-6.5)",
+   "touched": null
+  },
+  {
+   "id": "6911074",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "88305270943775423277776264298533603446700816588785973956752809022784103368254",
+   "px": 0.988,
+   "tick": 0.001,
+   "ts": 1795284066,
+   "end_ts": 1795312800,
+   "q": "Wellington Phoenix FC vs. Macarthur FC: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6820578",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "48466979713843766469609988425571736102601692469989358115147600723296386467200",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795284066,
+   "end_ts": 1795323599,
+   "q": "O/U 0.5 Rounds",
+   "touched": null
+  },
+  {
+   "id": "6820579",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "50898114545926942824838810875473591476545944376364999666290167161939885986980",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795284066,
+   "end_ts": 1795323599,
+   "q": "O/U 1.5 Rounds",
+   "touched": null
+  },
+  {
+   "id": "7217574",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "58423700366831292062529201844531089428439145975401985723029089941099081867601",
+   "px": 0.984,
+   "tick": 0.001,
+   "ts": 1795284066,
+   "end_ts": 1795323600,
+   "q": "Will Solana dip to $60 on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7217575",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "88679558480702522844653372740131519100617409234152407321684410511279563441446",
+   "px": 0.987,
+   "tick": 0.001,
+   "ts": 1795284066,
+   "end_ts": 1795323600,
+   "q": "Will Solana dip to $55 on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7217578",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "27199798048325838967769995687633026587853445042641468103695798531042476181208",
+   "px": 0.984,
+   "tick": 0.001,
+   "ts": 1795284066,
+   "end_ts": 1795323600,
+   "q": "Will XRP reach $1.10 on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7217583",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "44507655175132709566255734681701553994489654160705148441226784532340470516553",
+   "px": 0.984,
+   "tick": 0.001,
+   "ts": 1795284066,
+   "end_ts": 1795323600,
+   "q": "Will XRP dip to $0.85 on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7217585",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "75213925571132690579688460476728201287633897744015598872706458849242063679363",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795284066,
+   "end_ts": 1795323600,
+   "q": "Will XRP dip to $0.75 on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7217586",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "111992749915036397655847056816382006371900143263318089314106095654475092604069",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795284066,
+   "end_ts": 1795323600,
+   "q": "Will XRP dip to $0.70 on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7217587",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "95372809809676685922987115547433039872075532598022580822119475819421030478485",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795284066,
+   "end_ts": 1795323600,
+   "q": "Will XRP dip to $0.65 on November 21?",
+   "touched": null
+  },
+  {
+   "id": "6962628",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "62274428580627955931537847936600636862474808946595975046610065901042557844460",
+   "px": 0.972,
+   "tick": 0.001,
+   "ts": 1795284066,
+   "end_ts": 1795356000,
+   "q": "Spread: NK Istra 1961 (-1.5)",
+   "touched": null
+  },
+  {
+   "id": "6911062",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "65383439808820580967156213295481569731362611163197305973485279800177724225339",
+   "px": 0.977,
+   "tick": 0.001,
+   "ts": 1795284066,
+   "end_ts": 1795390200,
+   "q": "Chicago Fire FC vs. Charlotte FC: O/U 0.5",
+   "touched": null
+  },
+  {
+   "id": "6911078",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "96265094951667186717197253006311154755407402613126475161309796426604063323495",
+   "px": 0.983,
+   "tick": 0.001,
+   "ts": 1795284066,
+   "end_ts": 1795390200,
+   "q": "Chicago Fire FC vs. Charlotte FC: O/U 8.5",
    "touched": null
   }
  ]
