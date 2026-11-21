@@ -294,7 +294,9 @@
    "hours": 9.67,
    "liq": 2128,
    "fill_ts": 1795233676.49104,
-   "mark": 0.971
+   "mark": 0.975,
+   "stuck": false,
+   "disputed": false
   }
  ],
  "closed": [
@@ -5060,6 +5062,19 @@
    "placed": 1,
    "shadow_open": 475,
    "shadow_closed": 56
+  },
+  {
+   "ts": "2026-11-21T05:01:50Z",
+   "equity": 1055.87,
+   "cash": 371.96,
+   "orders": 8,
+   "positions": 5,
+   "closed": 76,
+   "scanned": 14995,
+   "candidates": 159,
+   "placed": 0,
+   "shadow_open": 470,
+   "shadow_closed": 15
   }
  ],
  "halted": false,
@@ -5134,71 +5149,6 @@
    "end_ts": 1794977940,
    "q": "Will Mark Rothko's “Untitled” sell for at least $6.5m at auction?",
    "touched": 0
-  },
-  {
-   "id": "6998375",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "105291478065992753695051728435560307783806196588510046202304917797707826083240",
-   "px": 0.986,
-   "tick": 0.001,
-   "ts": 1795114872,
-   "end_ts": 1795222800,
-   "q": "Le Moyne Dolphins vs. Missouri Tigers",
-   "touched": 1
-  },
-  {
-   "id": "7015856",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "46603390852224903081765074534122049261844899963163297539865065187476304701301",
-   "px": 0.987,
-   "tick": 0.001,
-   "ts": 1795114872,
-   "end_ts": 1795221000,
-   "q": "Little Rock Trojans vs. Oklahoma State Cowboys (W)",
-   "touched": 0
-  },
-  {
-   "id": "7015893",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "40006995547753819962547107339076428702925759148505033146000584553992295102931",
-   "px": 0.986,
-   "tick": 0.001,
-   "ts": 1795114872,
-   "end_ts": 1795222800,
-   "q": "Seton Hall Pirates vs. Connecticut Huskies (W)",
-   "touched": 1
-  },
-  {
-   "id": "6843662",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "97778656519611822599287975270185217272593315247475127863799496221058049925202",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1795118468,
-   "end_ts": 1795222800,
-   "q": "Club Puebla vs. Atlético San Luis: O/U 6.5",
-   "touched": 1
-  },
-  {
-   "id": "6843665",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "4370673676164550995448076758304861134958454349380711385672421107477628309420",
-   "px": 0.988,
-   "tick": 0.001,
-   "ts": 1795120989,
-   "end_ts": 1795222800,
-   "q": "Club Puebla vs. Atlético San Luis: O/U 7.5",
-   "touched": 1
   },
   {
    "id": "7118604",
@@ -5276,58 +5226,6 @@
    "ts": 1795132869,
    "end_ts": 1795237200,
    "q": "FC Machida Zelvia vs. V-Varen Nagasaki: O/U 6.5",
-   "touched": 1
-  },
-  {
-   "id": "6821080",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "106051495858758881369731550292128214176957905442900646794683745128830841567459",
-   "px": 0.974,
-   "tick": 0.001,
-   "ts": 1795136467,
-   "end_ts": 1795221000,
-   "q": "Spread: Clemson (-13.5)",
-   "touched": 1
-  },
-  {
-   "id": "6821133",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "73306004651396706448518598422954264211240146966979796198557854776977647515313",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1795136467,
-   "end_ts": 1795221000,
-   "q": "Spread: Bowling Green (-10.5)",
-   "touched": 0
-  },
-  {
-   "id": "6998364",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "92223571350540098089410211084508976272036037476851886448065112708316846151391",
-   "px": 0.971,
-   "tick": 0.001,
-   "ts": 1795136467,
-   "end_ts": 1795219200,
-   "q": "Central Michigan Chippewas vs. Pittsburgh Panthers",
-   "touched": 1
-  },
-  {
-   "id": "6998397",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "76528601833082271256198104705299974229120954873154475634132765372767363618561",
-   "px": 0.974,
-   "tick": 0.001,
-   "ts": 1795136467,
-   "end_ts": 1795219200,
-   "q": "Oakland Golden Grizzlies vs. Purdue Boilermakers",
    "touched": 1
   },
   {
@@ -5526,32 +5424,6 @@
    "touched": 0
   },
   {
-   "id": "6843643",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "40180669947706019195119280860547139463192378530258108184547331272551721629759",
-   "px": 0.979,
-   "tick": 0.001,
-   "ts": 1795147270,
-   "end_ts": 1795222800,
-   "q": "Spread: Atlético San Luis (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "6998358",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "57371908952852645957366207605983705169793771339281020292327896922969925293681",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795147270,
-   "end_ts": 1795219200,
-   "q": "Wagner Seahawks vs. Maryland Terrapins",
-   "touched": 1
-  },
-  {
    "id": "6776514",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -5575,19 +5447,6 @@
    "ts": 1795150868,
    "end_ts": 1795226400,
    "q": "Escorpiones de Belén vs. AD San Carlos: O/U 6.5",
-   "touched": 1
-  },
-  {
-   "id": "6843642",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "60420586992474823020012069393438399714022400824454958639127753140463385859425",
-   "px": 0.984,
-   "tick": 0.001,
-   "ts": 1795150868,
-   "end_ts": 1795222800,
-   "q": "Spread: Club Puebla (-3.5)",
    "touched": 1
   },
   {
@@ -5731,19 +5590,6 @@
    "ts": 1795154474,
    "end_ts": 1795237200,
    "q": "Will Bitcoin reach $66,000 on November 20?",
-   "touched": 1
-  },
-  {
-   "id": "7189810",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "79254105183798462751572109356348923442594429401484700885368323897933245835217",
-   "px": 0.986,
-   "tick": 0.001,
-   "ts": 1795154474,
-   "end_ts": 1795237200,
-   "q": "Will Bitcoin dip to $56,000 on November 20?",
    "touched": 1
   },
   {
@@ -5965,19 +5811,6 @@
    "ts": 1795158072,
    "end_ts": 1795237200,
    "q": "Pohang Steelers FC vs. FC Anyang: O/U 6.5",
-   "touched": 1
-  },
-  {
-   "id": "7189823",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "31594514315892210797377685362147674645531295807909780574857567033473280753500",
-   "px": 0.981,
-   "tick": 0.001,
-   "ts": 1795158072,
-   "end_ts": 1795237200,
-   "q": "Will Ethereum dip to $1,550 on November 20?",
    "touched": 1
   },
   {
@@ -8123,19 +7956,6 @@
    "ts": 1795186876,
    "end_ts": 1795290300,
    "q": "Lille OSC vs. Olympique Lyonnais: O/U 6.5",
-   "touched": 1
-  },
-  {
-   "id": "6821079",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "45699388728028034595652078453005651163138574400820489921863354646661310928631",
-   "px": 0.972,
-   "tick": 0.001,
-   "ts": 1795190470,
-   "end_ts": 1795221000,
-   "q": "Spread: Clemson (-14.5)",
    "touched": 1
   },
   {
@@ -11243,6 +11063,136 @@
    "ts": 1795233676,
    "end_ts": 1795316400,
    "q": "Tigres de la UANL vs. CF América: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6838487",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "29015582406770511742134260378710407355501364205141340107862348872473547458777",
+   "px": 0.992,
+   "tick": 0.001,
+   "ts": 1795237262,
+   "end_ts": 1795264200,
+   "q": "Manchester City FC vs. Fulham FC: O/U 8.5",
+   "touched": null
+  },
+  {
+   "id": "6842460",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "61332374994900101109959326832079555724108885425414462293990272561252192272990",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795237262,
+   "end_ts": 1795282200,
+   "q": "Sevilla FC vs. Real Betis Balompié: 1st Half O/U 3.5",
+   "touched": null
+  },
+  {
+   "id": "6886826",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "74367672180573475071657536647673246726805850406327981457286815421295081638518",
+   "px": 0.971,
+   "tick": 0.001,
+   "ts": 1795237262,
+   "end_ts": 1795283100,
+   "q": "Dundee FC vs. Heart of Midlothian FC: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "7143981",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "60245949491219535881588330323835405249268942931584033306294370794996191300707",
+   "px": 0.978,
+   "tick": 0.001,
+   "ts": 1795237262,
+   "end_ts": 1795310100,
+   "q": "Once Caldas vs. Atlético Nacional: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "6364891",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "39340061191207289369875350080591506780592362672182621659880054466891997618374",
+   "px": 0.992,
+   "tick": 0.001,
+   "ts": 1795237262,
+   "end_ts": 1795323540,
+   "q": "Will the next Claude Opus model (5.6+) be released on November 21, 2026?",
+   "touched": null
+  },
+  {
+   "id": "6655555",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "20033605768675266674847356872510058681745674647391465698374872985489486753082",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795237262,
+   "end_ts": 1795323540,
+   "q": "Will the next Meta Muse Spark model be released on November 21, 2026?",
+   "touched": null
+  },
+  {
+   "id": "6880640",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "65304394473860124470876660641759069650583365045787358789980559483202336840896",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795237262,
+   "end_ts": 1795323540,
+   "q": "Pete Hegseth out as Secretary of Defense by November 21?",
+   "touched": null
+  },
+  {
+   "id": "6934595",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "95499480606941536317568741124564476037370132646550682552122437322664011028966",
+   "px": 0.992,
+   "tick": 0.001,
+   "ts": 1795237262,
+   "end_ts": 1795323540,
+   "q": "Will MrBeast's next video get between 90 and 100 million views on week 1?",
+   "touched": null
+  },
+  {
+   "id": "7029430",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "63773719470611553584704024692505708094353962631622925512814943734824239961835",
+   "px": 0.991,
+   "tick": 0.001,
+   "ts": 1795237262,
+   "end_ts": 1795323540,
+   "q": "Will the next Gemini Carbon model (4.1+) be released on November 21, 2026?",
+   "touched": null
+  },
+  {
+   "id": "7150748",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "16299572225420946783829044033881501151433602064891424399335518065066447185050",
+   "px": 0.987,
+   "tick": 0.001,
+   "ts": 1795237262,
+   "end_ts": 1795323540,
+   "q": "Will xQc finish GTA VI by November 21?",
    "touched": null
   }
  ]
