@@ -2,8 +2,8 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-11T22:05:26Z | dias corridos: 9.1 de 28 | corridas: 189
-- Capital inicial: $1,000.00 | valor actual: $1,055.00 | P&L: $+55.00 (+5.50%)
+- Inicio: 2026-11-11T22:05:26Z | dias corridos: 9.1 de 28 | corridas: 190
+- Capital inicial: $1,000.00 | valor actual: $1,054.98 | P&L: $+54.98 (+5.50%)
 - Efectivo libre: $372.16 | en ordenes abiertas: $474.29 (9) | en posiciones: $209.78 (4)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
 - Ordenes virtuales: 327 colocadas, 80 llenadas, 163 tocadas sin llenarse (sorteo 30%), 75 expiradas
@@ -29,7 +29,7 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 |---|---|---|---|---|---|
 | $51.82 | 98.5c | 98.3c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
 | $52.62 | 96.5c | 94.7c | post_fin_95_97 |  | Will the highest temperature in New York City be between 66-67°F on November 20? |
-| $52.67 | 97.0c | 97.0c | deportes_previo |  | FC Juárez vs. Atlas FC: O/U 6.5 |
+| $52.67 | 97.0c | 96.9c | deportes_previo |  | FC Juárez vs. Atlas FC: O/U 6.5 |
 | $52.67 | 98.9c | 98.8c | deportes_previo |  | FC Juárez vs. Atlas FC: O/U 7.5 |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital

@@ -2,22 +2,22 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 7.5 de 28 | corridas: 152
-- Capital inicial: $1,000.00 | valor actual: $929.09 | P&L: $-70.91 (-7.09%)
-- Efectivo libre: $-0.00 | en ordenes abiertas: $276.85 (3) | en posiciones: $663.06 (9)
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 7.5 de 28 | corridas: 153
+- Capital inicial: $1,000.00 | valor actual: $890.35 | P&L: $-109.65 (-10.96%)
+- Efectivo libre: $0.00 | en ordenes abiertas: $346.25 (5) | en posiciones: $593.80 (8)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 318 colocadas, 144 llenadas, 134 tocadas sin llenarse (sorteo 30%), 37 expiradas
+- Ordenes virtuales: 322 colocadas, 144 llenadas, 136 tocadas sin llenarse (sorteo 30%), 37 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
 | Regla | n | Precio medio | Pago real | IC95 del pago | Edge | P&L | Dias medios |
 |---|---|---|---|---|---|---|---|
 | clima_cierre | 4 | 97.87c | 100.00% | 51.0-100.0% | +2.13 pts | $+7.75 | 1.02 |
-| cripto_cierre | 41 | 98.82c | 100.00% | 91.4-100.0% | +1.18 pts | $+33.11 | 0.16 |
+| cripto_cierre | 42 | 98.85c | 100.00% | 91.6-100.0% | +1.15 pts | $+33.24 | 0.16 |
 | deportes_previo | 59 | 98.08c | 95.65% | 88.5-99.1% | -2.43 pts | $-111.64 | 0.32 |
 | otros_cierre | 30 | 99.67c | 100.00% | 88.6-100.0% | +0.33 pts | $+6.86 | 0.34 |
 | post_fin_90_97 | 1 | 96.00c | 100.00% | 20.7-100.0% | +4.00 pts | $+3.83 | 0.71 |
-| TOTAL | 135 | 98.60c | 98.01% | 94.8-99.6% | -0.58 pts | $-60.09 | 0.30 |
+| TOTAL | 136 | 98.61c | 98.03% | 94.8-99.6% | -0.58 pts | $-59.95 | 0.30 |
 
 ## Peores casos
 
@@ -33,33 +33,32 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 | $91.77 | 99.8c | 95.7c | otros_cierre |  | Pakistan military action against Afghanistan by November 15, 2026? |
 | $35.36 | 99.8c | 98.9c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $4.5m and $5.5m at auction? |
 | $87.27 | 99.8c | 98.3c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
-| $91.99 | 97.8c | 92.5c | deportes_previo |  | Spread: CD Unión La Calera (-2.5) |
-| $92.14 | 99.8c | 99.8c | deportes_previo |  | Spread: Clemson (-17.5) |
+| $91.99 | 97.8c | 98.6c | deportes_previo |  | Spread: CD Unión La Calera (-2.5) |
+| $92.14 | 99.8c | 50.0c | deportes_previo |  | Spread: Clemson (-17.5) |
 | $92.14 | 97.8c | 98.7c | cripto_cierre |  | Solana Up or Down - November 20, 4:00PM-8:00PM ET |
-| $69.26 | 99.8c | 98.0c | cripto_cierre |  | Dogecoin Up or Down - November 20, 4:00PM-8:00PM ET |
-| $21.93 | 97.9c | 97.9c | cripto_cierre |  | Bitcoin Up or Down - November 20, 4:00PM-8:00PM ET |
-| $81.19 | 99.9c | 99.9c | deportes_previo |  | Games Total: O/U 2.5 |
+| $21.93 | 97.9c | 100.0c | cripto_cierre |  | Bitcoin Up or Down - November 20, 4:00PM-8:00PM ET |
+| $81.19 | 99.9c | 99.6c | deportes_previo |  | Games Total: O/U 2.5 |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 7474 | abiertas: 2744 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 7483 | abiertas: 2759 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
-| clima_cierre | todas | 2212 | 98.86c | 99.10% | +0.24 pts | -0.15 a +0.63 | 20 |
-| clima_cierre | tocadas | 2039 | 98.88c | 99.02% | +0.14 pts | -0.29 a +0.56 | 20 |
+| clima_cierre | todas | 2215 | 98.86c | 99.10% | +0.24 pts | -0.15 a +0.63 | 20 |
+| clima_cierre | tocadas | 2042 | 98.88c | 99.02% | +0.14 pts | -0.28 a +0.57 | 20 |
 | cripto_cierre | todas | 1120 | 98.71c | 98.21% | -0.50 pts | -1.26 a +0.27 | 20 |
 | cripto_cierre | tocadas | 1029 | 98.75c | 98.06% | -0.69 pts | -1.52 a +0.14 | 20 |
-| deportes_previo | todas | 3014 | 98.07c | 97.40% | -0.68 pts | -1.24 a -0.11 | 81 |
-| deportes_previo | tocadas | 2944 | 98.10c | 97.33% | -0.77 pts | -1.34 a -0.20 | 81 |
-| otros_cierre | todas | 1051 | 98.99c | 96.96% | -2.04 pts | -3.07 a -1.00 | 32 |
-| otros_cierre | tocadas | 981 | 98.95c | 96.74% | -2.21 pts | -3.31 a -1.11 | 32 |
+| deportes_previo | todas | 3018 | 98.07c | 97.40% | -0.67 pts | -1.23 a -0.11 | 81 |
+| deportes_previo | tocadas | 2948 | 98.10c | 97.34% | -0.77 pts | -1.34 a -0.19 | 81 |
+| otros_cierre | todas | 1053 | 98.99c | 96.96% | -2.03 pts | -3.06 a -1.00 | 32 |
+| otros_cierre | tocadas | 983 | 98.95c | 96.74% | -2.20 pts | -3.30 a -1.10 | 32 |
 | post_fin_90_97 | todas | 77 | 94.31c | 97.40% | +3.09 pts | -0.49 a +6.68 | 2 |
 | post_fin_90_97 | tocadas | 61 | 94.40c | 96.72% | +2.32 pts | -2.18 a +6.83 | 2 |
-| TOTAL | todas | 7474 | 98.49c | 97.96% | -0.53 pts | -0.85 a -0.21 | 155 |
-| TOTAL | tocadas | 7054 | 98.51c | 97.84% | -0.67 pts | -1.00 a -0.33 | 155 |
+| TOTAL | todas | 7483 | 98.49c | 97.96% | -0.53 pts | -0.84 a -0.21 | 155 |
+| TOTAL | tocadas | 7063 | 98.51c | 97.84% | -0.67 pts | -1.00 a -0.33 | 155 |
 
 Peores casos del registro sombra:
 
@@ -76,4 +75,4 @@ Peores casos del registro sombra:
 
 ## Veredicto
 
-Aun no hay veredicto: van 135 operaciones cerradas en 7.5 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
+Aun no hay veredicto: van 136 operaciones cerradas en 7.5 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
