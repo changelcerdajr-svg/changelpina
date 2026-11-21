@@ -1,6 +1,6 @@
 {
  "capital0": 1000.0,
- "cash": 372.5015,
+ "cash": 372.1556,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
   {
@@ -23,27 +23,6 @@
    "end_ts": 1795194005.0,
    "hours": 1.98,
    "liq": 1240
-  },
-  {
-   "oid": "6998409-1795190470",
-   "id": "6998409",
-   "q": "West Virginia Tech Golden Bears vs. Akron Zips",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1374569",
-   "side": 1,
-   "token": "113349936907726168630938776477089705569022570304415427700182971052866199679119",
-   "px": 0.989,
-   "tick": 0.001,
-   "mid": 0.9895,
-   "bid": 0.981,
-   "ask": 0.998,
-   "shares": 52.9872,
-   "cost": 52.4043,
-   "ts": 1795190470.338472,
-   "end_ts": 1795215600.0,
-   "hours": 6.98,
-   "liq": 1884
   },
   {
    "oid": "7189798-1795197675",
@@ -191,6 +170,27 @@
    "end_ts": 1795246200.0,
    "hours": 7.48,
    "liq": 2109
+  },
+  {
+   "oid": "6864483-1795222200",
+   "id": "6864483",
+   "q": "Gençlerbirliği SK vs. Gaziantep FK: O/U 6.5",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1341444",
+   "side": 1,
+   "token": "68469899504148231909038945130522956229323121719947867055289038537993361818210",
+   "px": 0.971,
+   "tick": 0.001,
+   "mid": 0.971,
+   "bid": 0.963,
+   "ask": 0.979,
+   "shares": 54.3256,
+   "cost": 52.7502,
+   "ts": 1795222200.558067,
+   "end_ts": 1795257000.0,
+   "hours": 9.67,
+   "liq": 2128
   }
  ],
  "positions": [
@@ -215,7 +215,7 @@
    "hours": 4.96,
    "liq": 1203,
    "fill_ts": 1794967266.068418,
-   "mark": 0.9835,
+   "mark": 0.983,
    "stuck": false,
    "disputed": false
   },
@@ -290,7 +290,7 @@
    "hours": 6.98,
    "liq": 3830,
    "fill_ts": 1795212066.012382,
-   "mark": 0.9885,
+   "mark": 0.9875,
    "stuck": false,
    "disputed": false
   }
@@ -4993,14 +4993,27 @@
    "placed": 1,
    "shadow_open": 501,
    "shadow_closed": 31
+  },
+  {
+   "ts": "2026-11-21T00:50:49Z",
+   "equity": 1055.0,
+   "cash": 372.16,
+   "orders": 9,
+   "positions": 4,
+   "closed": 76,
+   "scanned": 17942,
+   "candidates": 161,
+   "placed": 1,
+   "shadow_open": 495,
+   "shadow_closed": 11
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 326,
+  "placed": 327,
   "filled": 80,
   "expired": 75,
-  "touched_not_filled": 162
+  "touched_not_filled": 163
  },
  "shadow": [
   {
@@ -5303,19 +5316,6 @@
    "touched": 1
   },
   {
-   "id": "7025470",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "53808669661976119651466469277851291164683260454148560449545455759690675685439",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795136467,
-   "end_ts": 1795212000,
-   "q": "Will Silver (XAGUSD) hit (HIGH) $55 Week of November 16 2026?",
-   "touched": 0
-  },
-  {
    "id": "6821080",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -5602,19 +5602,6 @@
    "touched": 1
   },
   {
-   "id": "7022886",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "101541017774747079019318446697693013000593129250714862372279729955054265368681",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1795147270,
-   "end_ts": 1795206600,
-   "q": "Sportivo Ameliano vs. Sportivo Luqueno: O/U 6.5",
-   "touched": 1
-  },
-  {
    "id": "7118755",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -5716,19 +5703,6 @@
    "ts": 1795150868,
    "end_ts": 1795215600,
    "q": "Spread: CA Belgrano (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "7154714",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "1820185258937299640753319892696765664111454724597266822711228001178725071731",
-   "px": 0.972,
-   "tick": 0.001,
-   "ts": 1795150868,
-   "end_ts": 1795205700,
-   "q": "Spread: Real Madrid Castilla (-3.5)",
    "touched": 1
   },
   {
@@ -6392,19 +6366,6 @@
    "ts": 1795161670,
    "end_ts": 1795215600,
    "q": "Recoleta FC vs. Club Guarani Asuncion: O/U 6.5",
-   "touched": 1
-  },
-  {
-   "id": "7150877",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "106839317818863518282762664219516711512474348239146367930347752769370512116719",
-   "px": 0.984,
-   "tick": 0.001,
-   "ts": 1795161670,
-   "end_ts": 1795212000,
-   "q": "Will Gold (XAUUSD) hit (HIGH) $3,800 Week of November 16 2026?",
    "touched": 1
   },
   {
@@ -7279,19 +7240,6 @@
    "touched": 1
   },
   {
-   "id": "7022874",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "79033326355312455178804141579112025474530222121908989303785809833738262540162",
-   "px": 0.971,
-   "tick": 0.001,
-   "ts": 1795168880,
-   "end_ts": 1795206600,
-   "q": "Spread: Sportivo Ameliano (-3.5)",
-   "touched": 1
-  },
-  {
    "id": "7118759",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -7302,19 +7250,6 @@
    "ts": 1795168880,
    "end_ts": 1795210200,
    "q": "Spread: Independiente Santa Fe (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "7154734",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "5577059843948739830765752565105894621676082250181016012058913260096527327232",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795168880,
-   "end_ts": 1795204800,
-   "q": "Spread: Gimnastic de Tarragona (-3.5)",
    "touched": 1
   },
   {
@@ -7851,45 +7786,6 @@
    "touched": 1
   },
   {
-   "id": "7018505",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "77878092228566910540149157717509958685667952546666374742785118552717581308002",
-   "px": 0.984,
-   "tick": 0.001,
-   "ts": 1795176072,
-   "end_ts": 1795194000,
-   "q": "Will the price of Solana be above $75 on November 20?",
-   "touched": null
-  },
-  {
-   "id": "7018529",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "9270209271967325829605832645100474919724818953815425127161464996679767054035",
-   "px": 0.974,
-   "tick": 0.001,
-   "ts": 1795176072,
-   "end_ts": 1795194000,
-   "q": "Will the price of XRP be above $1.00 on November 20?",
-   "touched": null
-  },
-  {
-   "id": "6773162",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "78002109977513753958869457546478586721241889105904071005613430770763608673728",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795176072,
-   "end_ts": 1795203000,
-   "q": "Spread: 1. FC Köln (-4.5)",
-   "touched": null
-  },
-  {
    "id": "6838887",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -7900,33 +7796,7 @@
    "ts": 1795176072,
    "end_ts": 1795207500,
    "q": "Spread: USC Paredes (-2.5)",
-   "touched": null
-  },
-  {
-   "id": "7116647",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "64121219214045075699909940140217557290282306661333581453392250674769558865544",
-   "px": 0.985,
-   "tick": 0.001,
-   "ts": 1795176072,
-   "end_ts": 1795203000,
-   "q": "Racing Club Montevideo vs. Central Espanol FC: O/U 6.5",
-   "touched": null
-  },
-  {
-   "id": "7116684",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "110105851162442475762445700102223516917361690967649352579630758186422278213563",
-   "px": 0.978,
-   "tick": 0.001,
-   "ts": 1795176072,
-   "end_ts": 1795203000,
-   "q": "Liverpool Montevideo vs. Montevideo Wanderers: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6857474",
@@ -7939,7 +7809,7 @@
    "ts": 1795176072,
    "end_ts": 1795217400,
    "q": "Spread: CD Unión La Calera (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7118781",
@@ -7952,7 +7822,7 @@
    "ts": 1795176072,
    "end_ts": 1795210200,
    "q": "Independiente Medellín vs. Independiente Santa Fe: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6838261",
@@ -7965,7 +7835,7 @@
    "ts": 1795176072,
    "end_ts": 1795271400,
    "q": "Eintracht Frankfurt vs. TSG 1899 Hoffenheim: O/U 8.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6838287",
@@ -7978,7 +7848,7 @@
    "ts": 1795176072,
    "end_ts": 1795273200,
    "q": "Coventry City FC vs. Crystal Palace FC: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6837402",
@@ -7991,7 +7861,7 @@
    "ts": 1795176072,
    "end_ts": 1795282200,
    "q": "Spread: FC Schalke 04 (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6837428",
@@ -8004,7 +7874,7 @@
    "ts": 1795176072,
    "end_ts": 1795282200,
    "q": "Spread: Newcastle United FC (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6837450",
@@ -8017,7 +7887,7 @@
    "ts": 1795176072,
    "end_ts": 1795282200,
    "q": "FC Schalke 04 vs. VfB Stuttgart: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6837457",
@@ -8030,7 +7900,7 @@
    "ts": 1795176072,
    "end_ts": 1795282200,
    "q": "FC Schalke 04 vs. VfB Stuttgart: O/U 8.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6837484",
@@ -8043,7 +7913,7 @@
    "ts": 1795176072,
    "end_ts": 1795282200,
    "q": "Newcastle United FC vs. Arsenal FC: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6837487",
@@ -8056,7 +7926,7 @@
    "ts": 1795176072,
    "end_ts": 1795282200,
    "q": "Newcastle United FC vs. Arsenal FC: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6837601",
@@ -8069,7 +7939,7 @@
    "ts": 1795176072,
    "end_ts": 1795280400,
    "q": "Spread: Parma Calcio 1913 (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6837660",
@@ -8082,7 +7952,7 @@
    "ts": 1795176072,
    "end_ts": 1795280400,
    "q": "Parma Calcio 1913 vs. AS Roma: O/U 8.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6838209",
@@ -8095,7 +7965,7 @@
    "ts": 1795176072,
    "end_ts": 1795277700,
    "q": "Spread: OGC Nice (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6838232",
@@ -8108,7 +7978,7 @@
    "ts": 1795176072,
    "end_ts": 1795277700,
    "q": "OGC Nice vs. Paris Saint-Germain FC: O/U 0.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6838250",
@@ -8121,7 +7991,7 @@
    "ts": 1795176072,
    "end_ts": 1795277700,
    "q": "OGC Nice vs. Paris Saint-Germain FC: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6840942",
@@ -8134,7 +8004,7 @@
    "ts": 1795176072,
    "end_ts": 1795275000,
    "q": "NEC vs. PSV: O/U 0.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6842412",
@@ -8147,7 +8017,7 @@
    "ts": 1795176072,
    "end_ts": 1795282200,
    "q": "Spread: Sevilla FC (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6842414",
@@ -8160,7 +8030,7 @@
    "ts": 1795176072,
    "end_ts": 1795282200,
    "q": "Spread: Real Betis Balompié (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6842447",
@@ -8173,7 +8043,7 @@
    "ts": 1795176072,
    "end_ts": 1795282200,
    "q": "Sevilla FC vs. Real Betis Balompié: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6842550",
@@ -8186,7 +8056,7 @@
    "ts": 1795176072,
    "end_ts": 1795274100,
    "q": "Rayo Vallecano de Madrid vs. Valencia CF: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6881424",
@@ -8199,7 +8069,7 @@
    "ts": 1795176072,
    "end_ts": 1795274100,
    "q": "Real Sociedad de Fútbol B vs. Cádiz CF: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6883430",
@@ -8212,7 +8082,7 @@
    "ts": 1795176072,
    "end_ts": 1795277700,
    "q": "US Catanzaro 1929 vs. Palermo FC: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6896605",
@@ -8225,7 +8095,7 @@
    "ts": 1795176072,
    "end_ts": 1795283100,
    "q": "Feyenoord Rotterdam vs. SBV Excelsior: O/U 0.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7015920",
@@ -8238,7 +8108,7 @@
    "ts": 1795176072,
    "end_ts": 1795280400,
    "q": "Morgan State Bears vs. Maryland Terrapins (W)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7018427",
@@ -11514,6 +11384,71 @@
    "ts": 1795219267,
    "end_ts": 1795305600,
    "q": "Will Adrien Dumont De Chassart win the 2026 The RSM Classic?",
+   "touched": null
+  },
+  {
+   "id": "7180213",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "36541778111254445224066830445751360464714224138919298147900491262871569423513",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795222200,
+   "end_ts": 1795222800,
+   "q": "Bitcoin Up or Down - November 20, 4:00PM-8:00PM ET",
+   "touched": null
+  },
+  {
+   "id": "7184927",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "4390913274304886372574267337778014623791169421278721648034102221602224511461",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1795222200,
+   "end_ts": 1795222800,
+   "q": "Bitcoin Up or Down - November 20, 7:00PM-8:00PM ET",
+   "touched": null
+  },
+  {
+   "id": "6366937",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "97188184360893647865120269700191388417450227728982381134161988846828731243114",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795222200,
+   "end_ts": 1795237140,
+   "q": "Will \"Carnaval de Luz\" first week sales be at least 45k?",
+   "touched": null
+  },
+  {
+   "id": "6850695",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "36577175399545275401867382605632877063877127253782774383389164341872487743970",
+   "px": 0.972,
+   "tick": 0.001,
+   "ts": 1795222200,
+   "end_ts": 1795264200,
+   "q": "Spread: Millwall FC (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "6873182",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "77035692840393029727912876997671086210679216419203038991644833498245612366442",
+   "px": 0.974,
+   "tick": 0.001,
+   "ts": 1795222200,
+   "end_ts": 1795280400,
+   "q": "Spread: IK Start (-2.5)",
    "touched": null
   }
  ]
