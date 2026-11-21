@@ -2,7 +2,7 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-11T22:05:26Z | dias corridos: 9.3 de 28 | corridas: 194
+- Inicio: 2026-11-11T22:05:26Z | dias corridos: 9.3 de 28 | corridas: 195
 - Capital inicial: $1,000.00 | valor actual: $1,055.87 | P&L: $+55.87 (+5.59%)
 - Efectivo libre: $371.96 | en ordenes abiertas: $421.74 (8) | en posiciones: $262.53 (5)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
@@ -37,20 +37,20 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 2865 | abiertas: 470 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 2912 | abiertas: 442 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
-| cripto_cierre | todas | 917 | 98.74c | 98.91% | +0.17 pts | -0.50 a +0.84 | 10 |
-| cripto_cierre | tocadas | 620 | 98.56c | 98.39% | -0.17 pts | -1.17 a +0.82 | 10 |
-| deportes_previo | todas | 1444 | 98.34c | 99.17% | +0.83 pts | +0.37 a +1.29 | 13 |
-| deportes_previo | tocadas | 1202 | 98.29c | 99.17% | +0.87 pts | +0.37 a +1.37 | 11 |
-| otros_cierre | todas | 476 | 98.79c | 99.16% | +0.37 pts | -0.45 a +1.20 | 4 |
-| otros_cierre | tocadas | 317 | 98.68c | 98.74% | +0.06 pts | -1.18 a +1.30 | 4 |
+| cripto_cierre | todas | 947 | 98.74c | 98.94% | +0.20 pts | -0.45 a +0.85 | 10 |
+| cripto_cierre | tocadas | 644 | 98.57c | 98.45% | -0.13 pts | -1.08 a +0.83 | 10 |
+| deportes_previo | todas | 1450 | 98.34c | 99.17% | +0.83 pts | +0.37 a +1.29 | 13 |
+| deportes_previo | tocadas | 1206 | 98.29c | 99.17% | +0.88 pts | +0.38 a +1.38 | 11 |
+| otros_cierre | todas | 487 | 98.79c | 99.18% | +0.39 pts | -0.42 a +1.19 | 4 |
+| otros_cierre | tocadas | 324 | 98.68c | 98.77% | +0.08 pts | -1.13 a +1.30 | 4 |
 | post_fin_95_97 | todas | 28 | 96.09c | 92.86% | -3.23 pts | -12.91 a +6.45 | 2 |
 | post_fin_95_97 | tocadas | 23 | 96.10c | 91.30% | -4.80 pts | -16.53 a +6.94 | 2 |
-| TOTAL | todas | 2865 | 98.52c | 99.02% | +0.50 pts | +0.15 a +0.86 | 29 |
-| TOTAL | tocadas | 2162 | 98.40c | 98.80% | +0.39 pts | -0.06 a +0.85 | 27 |
+| TOTAL | todas | 2912 | 98.53c | 99.04% | +0.51 pts | +0.16 a +0.86 | 29 |
+| TOTAL | tocadas | 2197 | 98.41c | 98.82% | +0.41 pts | -0.04 a +0.85 | 27 |
 
 Peores casos del registro sombra:
 
