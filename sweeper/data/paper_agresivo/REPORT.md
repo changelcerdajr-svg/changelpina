@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 7.7 de 28 | corridas: 158
-- Capital inicial: $1,000.00 | valor actual: $939.83 | P&L: $-60.17 (-6.02%)
-- Efectivo libre: $0.00 | en ordenes abiertas: $548.29 (8) | en posiciones: $397.47 (5)
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 7.7 de 28 | corridas: 159
+- Capital inicial: $1,000.00 | valor actual: $940.46 | P&L: $-59.54 (-5.95%)
+- Efectivo libre: $-0.00 | en ordenes abiertas: $352.22 (5) | en posiciones: $593.54 (8)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 340 colocadas, 148 llenadas, 147 tocadas sin llenarse (sorteo 30%), 37 expiradas
+- Ordenes virtuales: 342 colocadas, 151 llenadas, 149 tocadas sin llenarse (sorteo 30%), 37 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -34,28 +34,31 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 | $35.36 | 99.8c | 98.9c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $4.5m and $5.5m at auction? |
 | $87.27 | 99.8c | 98.3c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
 | $89.17 | 99.8c | 99.1c | otros_cierre |  | Manchester City punishment announced by November 20? |
-| $93.89 | 96.2c | 96.2c | deportes_previo |  | Spread: Fagiano Okayama (-2.5) |
+| $93.89 | 96.2c | 96.8c | deportes_previo |  | Spread: Fagiano Okayama (-2.5) |
+| $93.89 | 95.0c | 95.0c | deportes_previo |  | Spread: Gangwon FC (-2.5) |
+| $93.98 | 98.5c | 98.5c | cripto_cierre |  | Will Bitcoin reach $64,000 on November 21? |
+| $8.19 | 97.9c | 97.9c | cripto_cierre |  | Will Bitcoin reach $63,000 on November 21? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 7820 | abiertas: 2692 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 7856 | abiertas: 2699 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
-| clima_cierre | todas | 2251 | 98.85c | 99.02% | +0.17 pts | -0.23 a +0.58 | 22 |
-| clima_cierre | tocadas | 2077 | 98.87c | 98.94% | +0.07 pts | -0.37 a +0.51 | 22 |
+| clima_cierre | todas | 2282 | 98.85c | 99.04% | +0.19 pts | -0.21 a +0.58 | 22 |
+| clima_cierre | tocadas | 2107 | 98.87c | 98.96% | +0.09 pts | -0.34 a +0.52 | 22 |
 | cripto_cierre | todas | 1152 | 98.71c | 98.00% | -0.71 pts | -1.51 a +0.09 | 23 |
 | cripto_cierre | tocadas | 1054 | 98.76c | 97.82% | -0.94 pts | -1.81 a -0.07 | 23 |
-| deportes_previo | todas | 3251 | 98.05c | 97.46% | -0.59 pts | -1.12 a -0.06 | 85 |
-| deportes_previo | tocadas | 3178 | 98.08c | 97.40% | -0.68 pts | -1.22 a -0.13 | 85 |
-| otros_cierre | todas | 1089 | 98.99c | 97.06% | -1.92 pts | -2.92 a -0.93 | 32 |
-| otros_cierre | tocadas | 1017 | 98.94c | 96.85% | -2.09 pts | -3.15 a -1.02 | 32 |
+| deportes_previo | todas | 3254 | 98.05c | 97.46% | -0.59 pts | -1.12 a -0.05 | 85 |
+| deportes_previo | tocadas | 3181 | 98.08c | 97.41% | -0.68 pts | -1.22 a -0.13 | 85 |
+| otros_cierre | todas | 1091 | 98.98c | 97.07% | -1.92 pts | -2.91 a -0.92 | 32 |
+| otros_cierre | tocadas | 1018 | 98.94c | 96.86% | -2.09 pts | -3.15 a -1.02 | 32 |
 | post_fin_90_97 | todas | 77 | 94.31c | 97.40% | +3.09 pts | -0.49 a +6.68 | 2 |
 | post_fin_90_97 | tocadas | 61 | 94.40c | 96.72% | +2.32 pts | -2.18 a +6.83 | 2 |
-| TOTAL | todas | 7820 | 98.47c | 97.93% | -0.54 pts | -0.85 a -0.23 | 164 |
-| TOTAL | tocadas | 7387 | 98.49c | 97.81% | -0.68 pts | -1.00 a -0.35 | 164 |
+| TOTAL | todas | 7856 | 98.47c | 97.94% | -0.53 pts | -0.84 a -0.22 | 164 |
+| TOTAL | tocadas | 7421 | 98.49c | 97.82% | -0.67 pts | -0.99 a -0.34 | 164 |
 
 Peores casos del registro sombra:
 
