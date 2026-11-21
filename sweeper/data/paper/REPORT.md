@@ -2,21 +2,21 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-11T22:05:26Z | dias corridos: 9.5 de 28 | corridas: 199
-- Capital inicial: $1,000.00 | valor actual: $1,060.72 | P&L: $+60.72 (+6.07%)
-- Efectivo libre: $426.96 | en ordenes abiertas: $475.79 (9) | en posiciones: $157.59 (3)
+- Inicio: 2026-11-11T22:05:26Z | dias corridos: 9.5 de 28 | corridas: 200
+- Capital inicial: $1,000.00 | valor actual: $1,060.75 | P&L: $+60.75 (+6.08%)
+- Efectivo libre: $427.12 | en ordenes abiertas: $529.20 (10) | en posiciones: $104.57 (2)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 337 colocadas, 82 llenadas, 168 tocadas sin llenarse (sorteo 30%), 78 expiradas
+- Ordenes virtuales: 339 colocadas, 82 llenadas, 168 tocadas sin llenarse (sorteo 30%), 79 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
 | Regla | n | Precio medio | Pago real | IC95 del pago | Edge | P&L | Dias medios |
 |---|---|---|---|---|---|---|---|
-| cripto_cierre | 22 | 98.90c | 100.00% | 85.1-100.0% | +1.10 pts | $+12.63 | 0.23 |
+| cripto_cierre | 23 | 98.91c | 100.00% | 85.7-100.0% | +1.09 pts | $+13.16 | 0.22 |
 | deportes_previo | 30 | 98.26c | 100.00% | 88.6-100.0% | +1.74 pts | $+27.30 | 0.34 |
 | otros_cierre | 22 | 99.06c | 100.00% | 85.1-100.0% | +0.94 pts | $+10.74 | 0.44 |
 | post_fin_95_97 | 5 | 96.36c | 100.00% | 56.6-100.0% | +3.64 pts | $+9.68 | 0.65 |
-| TOTAL | 79 | 98.54c | 100.00% | 95.4-100.0% | +1.46 pts | $+60.35 | 0.36 |
+| TOTAL | 80 | 98.55c | 100.00% | 95.4-100.0% | +1.45 pts | $+60.88 | 0.36 |
 
 ## Peores casos
 
@@ -28,27 +28,26 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
 | $51.82 | 98.5c | 98.3c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
-| $53.02 | 99.0c | 100.0c | cripto_cierre |  | Ethereum Up or Down - November 21, 12:00AM-4:00AM ET |
 | $52.75 | 97.1c | 97.0c | deportes_previo |  | Gençlerbirliği SK vs. Gaziantep FK: O/U 6.5 |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 3005 | abiertas: 386 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 3009 | abiertas: 386 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
 | cripto_cierre | todas | 961 | 98.75c | 98.96% | +0.21 pts | -0.43 a +0.85 | 10 |
 | cripto_cierre | tocadas | 651 | 98.57c | 98.46% | -0.11 pts | -1.05 a +0.84 | 10 |
-| deportes_previo | todas | 1486 | 98.34c | 99.19% | +0.86 pts | +0.41 a +1.30 | 13 |
-| deportes_previo | tocadas | 1238 | 98.29c | 99.19% | +0.91 pts | +0.42 a +1.39 | 11 |
+| deportes_previo | todas | 1490 | 98.34c | 99.19% | +0.86 pts | +0.41 a +1.30 | 13 |
+| deportes_previo | tocadas | 1239 | 98.29c | 99.19% | +0.91 pts | +0.42 a +1.39 | 11 |
 | otros_cierre | todas | 529 | 98.80c | 99.24% | +0.44 pts | -0.30 a +1.19 | 4 |
 | otros_cierre | tocadas | 357 | 98.69c | 98.88% | +0.19 pts | -0.91 a +1.28 | 4 |
 | post_fin_95_97 | todas | 29 | 96.10c | 93.10% | -3.00 pts | -12.35 a +6.35 | 2 |
 | post_fin_95_97 | tocadas | 24 | 96.12c | 91.67% | -4.45 pts | -15.70 a +6.80 | 2 |
-| TOTAL | todas | 3005 | 98.53c | 99.07% | +0.54 pts | +0.20 a +0.88 | 29 |
-| TOTAL | tocadas | 2270 | 98.41c | 98.85% | +0.45 pts | +0.01 a +0.88 | 27 |
+| TOTAL | todas | 3009 | 98.53c | 99.07% | +0.54 pts | +0.20 a +0.88 | 29 |
+| TOTAL | tocadas | 2271 | 98.41c | 98.86% | +0.45 pts | +0.01 a +0.88 | 27 |
 
 Peores casos del registro sombra:
 
@@ -65,4 +64,4 @@ Peores casos del registro sombra:
 
 ## Veredicto
 
-Aun no hay veredicto: van 79 operaciones cerradas en 9.5 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
+Aun no hay veredicto: van 80 operaciones cerradas en 9.5 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.

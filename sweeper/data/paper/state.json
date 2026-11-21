@@ -1,29 +1,8 @@
 {
  "capital0": 1000.0,
- "cash": 426.963,
+ "cash": 427.1178,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
-  {
-   "oid": "7189818-1795208469",
-   "id": "7189818",
-   "q": "Will Ethereum reach $1,800 on November 20?",
-   "cat": "cripto",
-   "rule": "cripto_cierre",
-   "event": "1429265",
-   "side": 1,
-   "token": "108994569325007494337641821212923382663615059254549281120379289587043016865503",
-   "px": 0.99,
-   "tick": 0.001,
-   "mid": 0.99,
-   "bid": 0.981,
-   "ask": 0.999,
-   "shares": 53.2032,
-   "cost": 52.6712,
-   "ts": 1795208469.830028,
-   "end_ts": 1795237200.0,
-   "hours": 7.98,
-   "liq": 11551
-  },
   {
    "oid": "6655554-1795212066",
    "id": "6655554",
@@ -191,6 +170,48 @@
    "end_ts": 1795251600.0,
    "hours": 0.66,
    "liq": 4294
+  },
+  {
+   "oid": "7217497-1795255265",
+   "id": "7217497",
+   "q": "Will Bitcoin reach $64,000 on November 21?",
+   "cat": "cripto",
+   "rule": "cripto_cierre",
+   "event": "1435243",
+   "side": 1,
+   "token": "77844386490728135829291105809055462160851331736312303140028564629180192279928",
+   "px": 0.99,
+   "tick": 0.001,
+   "mid": 0.9905,
+   "bid": 0.982,
+   "ask": 0.999,
+   "shares": 53.5733,
+   "cost": 53.0375,
+   "ts": 1795255265.642049,
+   "end_ts": 1795323600.0,
+   "hours": 18.98,
+   "liq": 15658
+  },
+  {
+   "oid": "7217499-1795255265",
+   "id": "7217499",
+   "q": "Will Bitcoin reach $63,000 on November 21?",
+   "cat": "cripto",
+   "rule": "cripto_cierre",
+   "event": "1435243",
+   "side": 1,
+   "token": "37769259365718149937092195597693592379877266290735064714400385446775809122097",
+   "px": 0.978,
+   "tick": 0.001,
+   "mid": 0.9785,
+   "bid": 0.971,
+   "ask": 0.986,
+   "shares": 54.2306,
+   "cost": 53.0375,
+   "ts": 1795255265.642049,
+   "end_ts": 1795323600.0,
+   "hours": 18.98,
+   "liq": 17966
   }
  ],
  "positions": [
@@ -241,31 +262,6 @@
    "liq": 2128,
    "fill_ts": 1795233676.49104,
    "mark": 0.9705,
-   "stuck": false,
-   "disputed": false
-  },
-  {
-   "oid": "7189923-1795248071",
-   "id": "7189923",
-   "q": "Ethereum Up or Down - November 21, 12:00AM-4:00AM ET",
-   "cat": "cripto",
-   "rule": "cripto_cierre",
-   "event": "1429311",
-   "side": 0,
-   "token": "77628660111200917719447028609451110590099278729615786349577625381376288092034",
-   "px": 0.99,
-   "tick": 0.001,
-   "mid": 0.9905,
-   "bid": 0.986,
-   "ask": 0.995,
-   "shares": 53.5586,
-   "cost": 53.023,
-   "ts": 1795248071.150939,
-   "end_ts": 1795251600.0,
-   "hours": 0.98,
-   "liq": 1542,
-   "fill_ts": 1795249210.482509,
-   "mark": 0.9995,
    "stuck": false,
    "disputed": false
   }
@@ -2616,6 +2612,36 @@
    "result": 1.0,
    "closed_ts": "2026-11-21T08:01:13Z",
    "days": 0.42
+  },
+  {
+   "oid": "7189923-1795248071",
+   "id": "7189923",
+   "q": "Ethereum Up or Down - November 21, 12:00AM-4:00AM ET",
+   "cat": "cripto",
+   "rule": "cripto_cierre",
+   "event": "1429311",
+   "side": 0,
+   "token": "77628660111200917719447028609451110590099278729615786349577625381376288092034",
+   "px": 0.99,
+   "tick": 0.001,
+   "mid": 0.9905,
+   "bid": 0.986,
+   "ask": 0.995,
+   "shares": 53.5586,
+   "cost": 53.023,
+   "ts": 1795248071.150939,
+   "end_ts": 1795251600.0,
+   "hours": 0.98,
+   "liq": 1542,
+   "fill_ts": 1795249210.482509,
+   "mark": 0.9995,
+   "stuck": false,
+   "disputed": false,
+   "payout": 53.5586,
+   "pnl": 0.5356,
+   "result": 1.0,
+   "closed_ts": "2026-11-21T10:01:06Z",
+   "days": 0.07
   }
  ],
  "runs": [
@@ -5201,13 +5227,26 @@
    "placed": 0,
    "shadow_open": 386,
    "shadow_closed": 6
+  },
+  {
+   "ts": "2026-11-21T10:02:25Z",
+   "equity": 1060.75,
+   "cash": 427.12,
+   "orders": 10,
+   "positions": 2,
+   "closed": 80,
+   "scanned": 17063,
+   "candidates": 138,
+   "placed": 2,
+   "shadow_open": 386,
+   "shadow_closed": 4
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 337,
+  "placed": 339,
   "filled": 82,
-  "expired": 78,
+  "expired": 79,
   "touched_not_filled": 168
  },
  "shadow": [
@@ -5275,32 +5314,6 @@
    "end_ts": 1794977940,
    "q": "Will Mark Rothko's “Untitled” sell for at least $6.5m at auction?",
    "touched": 0
-  },
-  {
-   "id": "6869863",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "14614914927481282745092810102388953558398272426545644659922779827520461383706",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1795140069,
-   "end_ts": 1795244400,
-   "q": "Gamba Ōsaka vs. Fagiano Okayama: O/U 6.5",
-   "touched": 0
-  },
-  {
-   "id": "6869864",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "8181081183486473574968327979587411029781787514195420364246432066016886276404",
-   "px": 0.991,
-   "tick": 0.001,
-   "ts": 1795141349,
-   "end_ts": 1795244400,
-   "q": "Gamba Ōsaka vs. Fagiano Okayama: O/U 7.5",
-   "touched": 1
   },
   {
    "id": "6838486",
@@ -6733,32 +6746,6 @@
    "touched": 1
   },
   {
-   "id": "6876144",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "100755067662534937754558171606768706876168330236115627428731086754589047877194",
-   "px": 0.984,
-   "tick": 0.001,
-   "ts": 1795179669,
-   "end_ts": 1795240800,
-   "q": "Central Coast Mariners FC vs. Perth Glory FC: O/U 7.5",
-   "touched": 0
-  },
-  {
-   "id": "6876145",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "70242351714249262123700796524040051106758143914651385272909544135871740904683",
-   "px": 0.993,
-   "tick": 0.001,
-   "ts": 1795179669,
-   "end_ts": 1795240800,
-   "q": "Central Coast Mariners FC vs. Perth Glory FC: O/U 8.5",
-   "touched": 0
-  },
-  {
    "id": "6850708",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -7835,7 +7822,7 @@
    "ts": 1795208469,
    "end_ts": 1795282200,
    "q": "Spread: CD Eldense (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6837603",
@@ -7848,7 +7835,7 @@
    "ts": 1795208469,
    "end_ts": 1795290300,
    "q": "Spread: AJ Auxerre (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6856778",
@@ -7861,7 +7848,7 @@
    "ts": 1795208469,
    "end_ts": 1795289400,
    "q": "SE Palmeiras vs. CR Flamengo: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7042945",
@@ -7874,7 +7861,7 @@
    "ts": 1795208469,
    "end_ts": 1795305600,
    "q": "Will Chris Kirk win the 2026 The RSM Classic?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7043005",
@@ -7887,7 +7874,7 @@
    "ts": 1795208469,
    "end_ts": 1795305600,
    "q": "Will Maverick McNealy win the 2026 The RSM Classic?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7186588",
@@ -7900,7 +7887,7 @@
    "ts": 1795208469,
    "end_ts": 1795305600,
    "q": "Kings vs. Senators: O/U 2.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7187241",
@@ -7913,7 +7900,7 @@
    "ts": 1795208469,
    "end_ts": 1795316400,
    "q": "Kraken vs. Sharks: O/U 2.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7187251",
@@ -7926,7 +7913,7 @@
    "ts": 1795208469,
    "end_ts": 1795316400,
    "q": "Wild vs. Canucks: O/U 2.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7172360",
@@ -10227,6 +10214,58 @@
    "ts": 1795251664,
    "end_ts": 1795357800,
    "q": "FC Augsburg vs. 1. FSV Mainz 05: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6893889",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "102431723754877651263252661099488390086172277819753382466153883978480348017445",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1795255265,
+   "end_ts": 1795356000,
+   "q": "Spread: Udinese Calcio (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "6898309",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "112579499274153883469844840748822662489777130202081714943702605284452944158807",
+   "px": 0.981,
+   "tick": 0.001,
+   "ts": 1795255265,
+   "end_ts": 1795360500,
+   "q": "Spread: Real Racing Club (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "6898315",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "60372039493201090797148370017556383235531681164599842482183483095218087234866",
+   "px": 0.975,
+   "tick": 0.001,
+   "ts": 1795255265,
+   "end_ts": 1795360500,
+   "q": "Real Racing Club vs. Real Sociedad de Fútbol: O/U 0.5",
+   "touched": null
+  },
+  {
+   "id": "6906326",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "64256294871736545159327722374852250983448041445356321544822022000639450574731",
+   "px": 0.979,
+   "tick": 0.001,
+   "ts": 1795255265,
+   "end_ts": 1795363200,
+   "q": "Trabzonspor vs. Eyüpspor: O/U 0.5",
    "touched": null
   }
  ]
