@@ -67,27 +67,6 @@
    "liq": 3571
   },
   {
-   "oid": "6823673-1795262465",
-   "id": "6823673",
-   "q": "Chattanooga vs. Alabama",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1335988",
-   "side": 1,
-   "token": "27796094168103558228352611699303723603939633835333733623297269506266310853754",
-   "px": 0.996,
-   "tick": 0.001,
-   "mid": 0.996,
-   "bid": 0.994,
-   "ask": 0.998,
-   "shares": 53.2478,
-   "cost": 53.0348,
-   "ts": 1795262465.076722,
-   "end_ts": 1795287600.0,
-   "hours": 6.98,
-   "liq": 115882
-  },
-  {
    "oid": "6823863-1795269667",
    "id": "6823863",
    "q": "Samford vs. Auburn",
@@ -223,7 +202,7 @@
    "hours": 16.98,
    "liq": 19899,
    "fill_ts": 1795266066.083833,
-   "mark": 0.9655,
+   "mark": 0.978,
    "stuck": false,
    "disputed": false
   },
@@ -248,7 +227,7 @@
    "hours": 15.98,
    "liq": 18511,
    "fill_ts": 1795269667.934122,
-   "mark": 0.8975,
+   "mark": 0.9455,
    "stuck": false,
    "disputed": false
   },
@@ -273,9 +252,32 @@
    "hours": 15.98,
    "liq": 14093,
    "fill_ts": 1795269667.934122,
-   "mark": 0.9965,
+   "mark": 0.9945,
    "stuck": false,
    "disputed": false
+  },
+  {
+   "oid": "6823673-1795262465",
+   "id": "6823673",
+   "q": "Chattanooga vs. Alabama",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1335988",
+   "side": 1,
+   "token": "27796094168103558228352611699303723603939633835333733623297269506266310853754",
+   "px": 0.996,
+   "tick": 0.001,
+   "mid": 0.996,
+   "bid": 0.994,
+   "ask": 0.998,
+   "shares": 53.2478,
+   "cost": 53.0348,
+   "ts": 1795262465.076722,
+   "end_ts": 1795287600.0,
+   "hours": 6.98,
+   "liq": 115882,
+   "fill_ts": 1795276868.563812,
+   "mark": 0.996
   }
  ],
  "closed": [
@@ -5347,12 +5349,25 @@
    "placed": 2,
    "shadow_open": 487,
    "shadow_closed": 12
+  },
+  {
+   "ts": "2026-11-21T16:02:09Z",
+   "equity": 1059.47,
+   "cash": 428.69,
+   "orders": 6,
+   "positions": 6,
+   "closed": 81,
+   "scanned": 20338,
+   "candidates": 175,
+   "placed": 0,
+   "shadow_open": 484,
+   "shadow_closed": 13
   }
  ],
  "halted": false,
  "stats": {
   "placed": 349,
-  "filled": 86,
+  "filled": 87,
   "expired": 82,
   "touched_not_filled": 174
  },
@@ -5421,32 +5436,6 @@
    "end_ts": 1794977940,
    "q": "Will Mark Rothko's “Untitled” sell for at least $6.5m at auction?",
    "touched": 0
-  },
-  {
-   "id": "6842590",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "44949570743024563461970507095561799450528845420091162327128151513019397964500",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1795158072,
-   "end_ts": 1795266000,
-   "q": "Spread: RC Deportivo A Coruña (-2.5)",
-   "touched": 0
-  },
-  {
-   "id": "6842611",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "61250220187416946944430588310585365038328325940885965304715522436108287306922",
-   "px": 0.973,
-   "tick": 0.001,
-   "ts": 1795158072,
-   "end_ts": 1795266000,
-   "q": "Deportivo Alavés vs. RC Deportivo A Coruña: 1st Half O/U 3.5",
-   "touched": 1
   },
   {
    "id": "6837808",
@@ -5540,45 +5529,6 @@
    "touched": 1
   },
   {
-   "id": "6842591",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "7974841487008164732270933060617168902717999716733249031858825211310324922937",
-   "px": 0.977,
-   "tick": 0.001,
-   "ts": 1795161670,
-   "end_ts": 1795266000,
-   "q": "Spread: Deportivo Alavés (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "6842592",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "88541893151265611380212503200335277288925589535846369077253603754733730265174",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795161670,
-   "end_ts": 1795266000,
-   "q": "Spread: RC Deportivo A Coruña (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "6842603",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "106959519562882720195434268294761649884595251581375896765625623439585883571750",
-   "px": 0.987,
-   "tick": 0.001,
-   "ts": 1795161670,
-   "end_ts": 1795266000,
-   "q": "Deportivo Alavés vs. RC Deportivo A Coruña: O/U 6.5",
-   "touched": 0
-  },
-  {
    "id": "6850609",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -5589,32 +5539,6 @@
    "ts": 1795161670,
    "end_ts": 1795264200,
    "q": "Norwich City FC vs. Cardiff City FC: O/U 0.5",
-   "touched": 1
-  },
-  {
-   "id": "6861588",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "9651477312850555286603999695132539612389023387999661434331613866864559719668",
-   "px": 0.972,
-   "tick": 0.001,
-   "ts": 1795161670,
-   "end_ts": 1795262400,
-   "q": "VfL Wolfsburg vs. Holstein Kiel: O/U 7.5",
-   "touched": 1
-  },
-  {
-   "id": "6861634",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "11565202827758129918256550663131404448756471302756198199154814510299308273343",
-   "px": 0.976,
-   "tick": 0.001,
-   "ts": 1795161670,
-   "end_ts": 1795262400,
-   "q": "1. FC Nürnberg vs. Eintracht Braunschweig: O/U 7.5",
    "touched": 1
   },
   {
@@ -5629,19 +5553,6 @@
    "end_ts": 1795266000,
    "q": "Galatasaray SK vs. Samsunspor: O/U 0.5",
    "touched": 1
-  },
-  {
-   "id": "6834371",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "40284526069020062295176070829717175722541319315125932644610240969215730135036",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1795165271,
-   "end_ts": 1795262400,
-   "q": "VfL Wolfsburg vs. Holstein Kiel: Neither team to score first?",
-   "touched": 0
   },
   {
    "id": "6837623",
@@ -6047,32 +5958,6 @@
    "touched": 1
   },
   {
-   "id": "6842604",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "44449481500757588482053417008180099061856701784506186522805906406548103405508",
-   "px": 0.996,
-   "tick": 0.001,
-   "ts": 1795168880,
-   "end_ts": 1795266000,
-   "q": "Deportivo Alavés vs. RC Deportivo A Coruña: O/U 7.5",
-   "touched": 1
-  },
-  {
-   "id": "6842605",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "53334638585969179914807382344802925979971636372290963687119008267371665172794",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795168880,
-   "end_ts": 1795266000,
-   "q": "Deportivo Alavés vs. RC Deportivo A Coruña: O/U 8.5",
-   "touched": 1
-  },
-  {
    "id": "6850648",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -6096,19 +5981,6 @@
    "ts": 1795168880,
    "end_ts": 1795264200,
    "q": "Millwall FC vs. Queens Park Rangers FC: O/U 6.5",
-   "touched": 1
-  },
-  {
-   "id": "6861581",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "52348404207990552556452653954281037292309424931559801313450018624857238048976",
-   "px": 0.974,
-   "tick": 0.001,
-   "ts": 1795168880,
-   "end_ts": 1795262400,
-   "q": "VfL Wolfsburg vs. Holstein Kiel: O/U 0.5",
    "touched": 1
   },
   {
@@ -6931,19 +6803,6 @@
    "touched": 1
   },
   {
-   "id": "6861680",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "61183557153699743345236212819401549415576730334226980206411796910476104245649",
-   "px": 0.983,
-   "tick": 0.001,
-   "ts": 1795183282,
-   "end_ts": 1795262400,
-   "q": "Hannover 96 vs. SpVgg Greuther Fürth: O/U 7.5",
-   "touched": 1
-  },
-  {
    "id": "6823799",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -7110,19 +6969,6 @@
    "ts": 1795183282,
    "end_ts": 1795285800,
    "q": "Empoli FC vs. Pisa SC: O/U 6.5",
-   "touched": 1
-  },
-  {
-   "id": "7198608",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "32071928089501362063559731729999991884801404070164102895243459952109575359404",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1795186876,
-   "end_ts": 1795262400,
-   "q": "Will PFK Mash AL Mubarek win on 2026-11-21?",
    "touched": 1
   },
   {
@@ -11686,6 +11532,136 @@
    "ts": 1795273270,
    "end_ts": 1795379400,
    "q": "Utah State Aggies vs. TCU Horned Frogs (W)",
+   "touched": null
+  },
+  {
+   "id": "6899761",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "70918690593603381405000884745110108641729396939182734306899122211655453378747",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795276868,
+   "end_ts": 1795301400,
+   "q": "Spread: Deportivo Toluca FC (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "7143983",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "21069766563527461261910152661594440411315114465920662506654169152484282708851",
+   "px": 0.992,
+   "tick": 0.001,
+   "ts": 1795276868,
+   "end_ts": 1795310100,
+   "q": "Once Caldas vs. Atlético Nacional: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6906396",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "934172037669563088831330946945366687524483674792576941847117389586183845377",
+   "px": 0.975,
+   "tick": 0.001,
+   "ts": 1795276868,
+   "end_ts": 1795352400,
+   "q": "Spread: Alanyaspor (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "7097448",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "52190974356804716217950301239154160395335899642330865905194213968499334926330",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795276868,
+   "end_ts": 1795348800,
+   "q": "Will \"I Play Rocky\" Opening Weekend Box Office be between 13m and 16m?",
+   "touched": null
+  },
+  {
+   "id": "6893637",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "93310340526692562829372998332932462702290803998115214841395204581610309567414",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795276868,
+   "end_ts": 1795366800,
+   "q": "AC Milan vs. Frosinone Calcio: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6643237",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "74153239877227686256330330879223950786349945133740666440645820415898065609177",
+   "px": 0.973,
+   "tick": 0.001,
+   "ts": 1795276868,
+   "end_ts": 1795382700,
+   "q": "Spread: Raiders (-10.5)",
+   "touched": null
+  },
+  {
+   "id": "6643238",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "31597775204560558698235015039927929476584637125855924128332403268122509911935",
+   "px": 0.979,
+   "tick": 0.001,
+   "ts": 1795276868,
+   "end_ts": 1795382700,
+   "q": "Spread: Raiders (-13.5)",
+   "touched": null
+  },
+  {
+   "id": "6643239",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "102736302069368132224912010356853209406086063951555057278802057065198514073955",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795276868,
+   "end_ts": 1795382700,
+   "q": "Spread: Raiders (-14.5)",
+   "touched": null
+  },
+  {
+   "id": "6893440",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "9083334466819988136280099620170617209065110526895818608338678382939577299426",
+   "px": 0.98,
+   "tick": 0.001,
+   "ts": 1795276868,
+   "end_ts": 1795376700,
+   "q": "Olympique de Marseille vs. Le Mans FC: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "7016009",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "83232712592633284830620488121053505077405108576650481824390153158354132176287",
+   "px": 0.987,
+   "tick": 0.001,
+   "ts": 1795276868,
+   "end_ts": 1795384800,
+   "q": "Cal Poly Mustangs vs. Washington Huskies (W)",
    "touched": null
   }
  ]

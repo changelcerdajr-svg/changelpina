@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 8.1 de 28 | corridas: 168
-- Capital inicial: $1,000.00 | valor actual: $953.50 | P&L: $-46.50 (-4.65%)
-- Efectivo libre: $0.00 | en ordenes abiertas: $250.32 (4) | en posiciones: $711.71 (10)
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 8.1 de 28 | corridas: 169
+- Capital inicial: $1,000.00 | valor actual: $958.86 | P&L: $-41.14 (-4.11%)
+- Efectivo libre: $1.86 | en ordenes abiertas: $244.47 (3) | en posiciones: $719.43 (11)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 363 colocadas, 161 llenadas, 160 tocadas sin llenarse (sorteo 30%), 38 expiradas
+- Ordenes virtuales: 365 colocadas, 163 llenadas, 161 tocadas sin llenarse (sorteo 30%), 38 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -14,10 +14,10 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 |---|---|---|---|---|---|---|---|
 | clima_cierre | 4 | 97.87c | 100.00% | 51.0-100.0% | +2.13 pts | $+7.75 | 1.02 |
 | cripto_cierre | 49 | 98.78c | 100.00% | 92.7-100.0% | +1.22 pts | $+40.02 | 0.14 |
-| deportes_previo | 66 | 98.03c | 96.20% | 89.6-99.2% | -1.83 pts | $-96.61 | 0.31 |
+| deportes_previo | 67 | 98.00c | 96.27% | 89.8-99.2% | -1.73 pts | $-92.88 | 0.31 |
 | otros_cierre | 31 | 99.67c | 100.00% | 89.0-100.0% | +0.33 pts | $+7.04 | 0.34 |
 | post_fin_90_97 | 1 | 96.00c | 100.00% | 20.7-100.0% | +4.00 pts | $+3.83 | 0.71 |
-| TOTAL | 151 | 98.55c | 98.23% | 95.3-99.6% | -0.32 pts | $-37.97 | 0.28 |
+| TOTAL | 152 | 98.53c | 98.25% | 95.3-99.6% | -0.29 pts | $-34.23 | 0.28 |
 
 ## Peores casos
 
@@ -33,34 +33,35 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 | $91.77 | 99.8c | 95.9c | otros_cierre |  | Pakistan military action against Afghanistan by November 15, 2026? |
 | $35.36 | 99.8c | 98.9c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $4.5m and $5.5m at auction? |
 | $87.27 | 99.8c | 98.3c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
-| $94.55 | 96.2c | 96.2c | deportes_previo |  | Hannover 96 vs. SpVgg Greuther Fürth: Neither team to score first? |
+| $6.92 | 93.9c | 93.9c | post_fin_90_97 |  | Will the highest temperature in Chicago be between 66-67°F on November 21? |
 | $93.94 | 99.5c | 99.5c | deportes_previo |  | NEC vs. PSV: Neither team to score first? |
+| $95.35 | 98.4c | 98.4c | deportes_previo |  | Spread: OGC Nice (-2.5) |
 | $94.72 | 99.6c | 99.2c | otros_cierre |  | Will the next Claude Opus model (5.6+) be released on November 21, 2026? |
-| $17.05 | 99.6c | 99.6c | otros_cierre |  | Will the next Meta Muse Spark model be released on November 21, 2026? |
+| $17.05 | 99.6c | 99.7c | otros_cierre |  | Will the next Meta Muse Spark model be released on November 21, 2026? |
 | $94.88 | 99.8c | 99.5c | clima_cierre |  | Will the next hurricane form between November 17 and November 21, 2026? |
-| $93.98 | 98.5c | 96.5c | cripto_cierre |  | Will Bitcoin reach $64,000 on November 21? |
-| $8.19 | 97.9c | 89.8c | cripto_cierre |  | Will Bitcoin reach $63,000 on November 21? |
+| $93.98 | 98.5c | 97.8c | cripto_cierre |  | Will Bitcoin reach $64,000 on November 21? |
+| $8.19 | 97.9c | 94.5c | cripto_cierre |  | Will Bitcoin reach $63,000 on November 21? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 8182 | abiertas: 2703 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 8285 | abiertas: 2638 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
-| clima_cierre | todas | 2349 | 98.85c | 99.02% | +0.18 pts | -0.22 a +0.57 | 23 |
-| clima_cierre | tocadas | 2170 | 98.87c | 98.94% | +0.07 pts | -0.35 a +0.50 | 23 |
-| cripto_cierre | todas | 1177 | 98.70c | 97.96% | -0.73 pts | -1.53 a +0.07 | 24 |
-| cripto_cierre | tocadas | 1071 | 98.74c | 97.76% | -0.98 pts | -1.86 a -0.11 | 24 |
-| deportes_previo | todas | 3467 | 98.05c | 97.45% | -0.60 pts | -1.12 a -0.08 | 91 |
-| deportes_previo | tocadas | 3387 | 98.08c | 97.39% | -0.69 pts | -1.22 a -0.16 | 91 |
-| otros_cierre | todas | 1112 | 98.97c | 97.03% | -1.94 pts | -2.93 a -0.95 | 33 |
-| otros_cierre | tocadas | 1039 | 98.93c | 96.82% | -2.11 pts | -3.17 a -1.05 | 33 |
-| post_fin_90_97 | todas | 77 | 94.31c | 97.40% | +3.09 pts | -0.49 a +6.68 | 2 |
-| post_fin_90_97 | tocadas | 61 | 94.40c | 96.72% | +2.32 pts | -2.18 a +6.83 | 2 |
-| TOTAL | todas | 8182 | 98.46c | 97.92% | -0.54 pts | -0.85 a -0.24 | 173 |
-| TOTAL | tocadas | 7728 | 98.48c | 97.79% | -0.68 pts | -1.01 a -0.36 | 173 |
+| clima_cierre | todas | 2371 | 98.85c | 99.03% | +0.18 pts | -0.21 a +0.58 | 23 |
+| clima_cierre | tocadas | 2188 | 98.87c | 98.95% | +0.08 pts | -0.34 a +0.51 | 23 |
+| cripto_cierre | todas | 1180 | 98.69c | 97.88% | -0.81 pts | -1.62 a +0.00 | 25 |
+| cripto_cierre | tocadas | 1074 | 98.74c | 97.67% | -1.06 pts | -1.96 a -0.17 | 25 |
+| deportes_previo | todas | 3506 | 98.05c | 97.45% | -0.60 pts | -1.12 a -0.09 | 92 |
+| deportes_previo | tocadas | 3426 | 98.08c | 97.39% | -0.69 pts | -1.22 a -0.16 | 92 |
+| otros_cierre | todas | 1146 | 98.99c | 97.12% | -1.87 pts | -2.83 a -0.91 | 33 |
+| otros_cierre | tocadas | 1073 | 98.95c | 96.92% | -2.03 pts | -3.05 a -1.00 | 33 |
+| post_fin_90_97 | todas | 82 | 94.33c | 96.34% | +2.01 pts | -2.06 a +6.09 | 3 |
+| post_fin_90_97 | tocadas | 65 | 94.39c | 95.38% | +1.00 pts | -4.12 a +6.11 | 3 |
+| TOTAL | todas | 8285 | 98.46c | 97.91% | -0.56 pts | -0.86 a -0.25 | 176 |
+| TOTAL | tocadas | 7826 | 98.48c | 97.78% | -0.69 pts | -1.02 a -0.37 | 176 |
 
 Peores casos del registro sombra:
 
@@ -77,4 +78,4 @@ Peores casos del registro sombra:
 
 ## Veredicto
 
-Aun no hay veredicto: van 151 operaciones cerradas en 8.1 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
+Aun no hay veredicto: van 152 operaciones cerradas en 8.1 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
