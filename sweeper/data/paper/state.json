@@ -1,29 +1,8 @@
 {
  "capital0": 1000.0,
- "cash": 428.6859,
+ "cash": 428.4576,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
-  {
-   "oid": "7018013-1795233676",
-   "id": "7018013",
-   "q": "Fourth Jensen Huang affair reported by November 20?",
-   "cat": "otros",
-   "rule": "otros_cierre",
-   "event": "1374088",
-   "side": 1,
-   "token": "34980276339816616558046991750179463865515851099412858353985521451619981557637",
-   "px": 0.997,
-   "tick": 0.001,
-   "mid": 0.997,
-   "bid": 0.996,
-   "ask": 0.998,
-   "shares": 52.9416,
-   "cost": 52.7828,
-   "ts": 1795233676.49104,
-   "end_ts": 1795237140.0,
-   "hours": 0.96,
-   "liq": 17026
-  },
   {
    "oid": "7189919-1795249210",
    "id": "7189919",
@@ -128,6 +107,27 @@
    "end_ts": 1795323540.0,
    "hours": 13.96,
    "liq": 1459
+  },
+  {
+   "oid": "6880640-1795277622",
+   "id": "6880640",
+   "q": "Pete Hegseth out as Secretary of Defense by November 21?",
+   "cat": "otros",
+   "rule": "otros_cierre",
+   "event": "1120129",
+   "side": 1,
+   "token": "65304394473860124470876660641759069650583365045787358789980559483202336840896",
+   "px": 0.998,
+   "tick": 0.001,
+   "mid": 0.9985,
+   "bid": 0.998,
+   "ask": 0.999,
+   "shares": 53.1174,
+   "cost": 53.0111,
+   "ts": 1795277622.104417,
+   "end_ts": 1795323540.0,
+   "hours": 12.75,
+   "liq": 48983
   }
  ],
  "positions": [
@@ -202,7 +202,7 @@
    "hours": 16.98,
    "liq": 19899,
    "fill_ts": 1795266066.083833,
-   "mark": 0.978,
+   "mark": 0.9845,
    "stuck": false,
    "disputed": false
   },
@@ -227,7 +227,7 @@
    "hours": 15.98,
    "liq": 18511,
    "fill_ts": 1795269667.934122,
-   "mark": 0.9455,
+   "mark": 0.955,
    "stuck": false,
    "disputed": false
   },
@@ -277,7 +277,9 @@
    "hours": 6.98,
    "liq": 115882,
    "fill_ts": 1795276868.563812,
-   "mark": 0.996
+   "mark": 0.994,
+   "stuck": false,
+   "disputed": false
   }
  ],
  "closed": [
@@ -5362,13 +5364,26 @@
    "placed": 0,
    "shadow_open": 484,
    "shadow_closed": 13
+  },
+  {
+   "ts": "2026-11-21T16:15:08Z",
+   "equity": 1060.22,
+   "cash": 428.46,
+   "orders": 6,
+   "positions": 6,
+   "closed": 81,
+   "scanned": 20433,
+   "candidates": 180,
+   "placed": 1,
+   "shadow_open": 474,
+   "shadow_closed": 13
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 349,
+  "placed": 350,
   "filled": 87,
-  "expired": 82,
+  "expired": 83,
   "touched_not_filled": 174
  },
  "shadow": [
@@ -5436,45 +5451,6 @@
    "end_ts": 1794977940,
    "q": "Will Mark Rothko's “Untitled” sell for at least $6.5m at auction?",
    "touched": 0
-  },
-  {
-   "id": "6837808",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "21756177089605274502414544828614640119516795284847449954107841585208065386769",
-   "px": 0.991,
-   "tick": 0.001,
-   "ts": 1795161670,
-   "end_ts": 1795269600,
-   "q": "Spread: US Lecce (-2.5)",
-   "touched": 1
-  },
-  {
-   "id": "6837816",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "90008255722287591177775502720550213040661687010251652344372442500664727555169",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795161670,
-   "end_ts": 1795269600,
-   "q": "Spread: US Lecce (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "6837860",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "20766463579456258377610185871803232844574946432495588046323562500814802927300",
-   "px": 0.986,
-   "tick": 0.001,
-   "ts": 1795161670,
-   "end_ts": 1795269600,
-   "q": "SS Lazio vs. US Lecce: O/U 7.5",
-   "touched": 1
   },
   {
    "id": "6838008",
@@ -6034,19 +6010,6 @@
    "end_ts": 1795273200,
    "q": "AFC Bournemouth vs. Nottingham Forest FC: O/U 7.5",
    "touched": 0
-  },
-  {
-   "id": "6837864",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "59734717245924169000908088222530640763081606025616019942744704027951317175680",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1795168880,
-   "end_ts": 1795269600,
-   "q": "SS Lazio vs. US Lecce: O/U 8.5",
-   "touched": 1
   },
   {
    "id": "6838290",
@@ -7089,19 +7052,6 @@
    "touched": 0
   },
   {
-   "id": "7015363",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "29313227901323048787513950942034266117501527806150958490344669403945552316374",
-   "px": 0.986,
-   "tick": 0.001,
-   "ts": 1795194070,
-   "end_ts": 1795269600,
-   "q": "1st Half Spread: US Lecce (-1.5)",
-   "touched": 1
-  },
-  {
    "id": "7039774",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -8139,7 +8089,7 @@
    "ts": 1795233676,
    "end_ts": 1795264200,
    "q": "Spread: Cardiff City FC (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6850617",
@@ -8152,7 +8102,7 @@
    "ts": 1795233676,
    "end_ts": 1795264200,
    "q": "Norwich City FC vs. Cardiff City FC: O/U 8.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6850650",
@@ -8165,7 +8115,7 @@
    "ts": 1795233676,
    "end_ts": 1795264200,
    "q": "Spread: Derby County FC (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6850696",
@@ -8178,72 +8128,7 @@
    "ts": 1795233676,
    "end_ts": 1795264200,
    "q": "Spread: Queens Park Rangers FC (-3.5)",
-   "touched": null
-  },
-  {
-   "id": "6861574",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "46831477228185662638995718787537910420026545056068241707664132716070898199635",
-   "px": 0.973,
-   "tick": 0.001,
-   "ts": 1795233676,
-   "end_ts": 1795262400,
-   "q": "Spread: Holstein Kiel (-2.5)",
-   "touched": null
-  },
-  {
-   "id": "6861589",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "56186444139870064066180746679358742312722631441700816471525991696770091427214",
-   "px": 0.992,
-   "tick": 0.001,
-   "ts": 1795233676,
-   "end_ts": 1795262400,
-   "q": "VfL Wolfsburg vs. Holstein Kiel: O/U 8.5",
-   "touched": null
-  },
-  {
-   "id": "6861620",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "115211517927879268486870894025354886806179605908102575447188355068953735354011",
-   "px": 0.973,
-   "tick": 0.001,
-   "ts": 1795233676,
-   "end_ts": 1795262400,
-   "q": "Spread: Eintracht Braunschweig (-2.5)",
-   "touched": null
-  },
-  {
-   "id": "6861666",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "94984236589273898183275693083195849053362672307774971114557257974478616143033",
-   "px": 0.973,
-   "tick": 0.001,
-   "ts": 1795233676,
-   "end_ts": 1795262400,
-   "q": "Spread: SpVgg Greuther Fürth (-2.5)",
-   "touched": null
-  },
-  {
-   "id": "6861668",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "80328921553291498527676585775491206015626098475666866688272382705728805984725",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795233676,
-   "end_ts": 1795262400,
-   "q": "Spread: SpVgg Greuther Fürth (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6864364",
@@ -8256,7 +8141,7 @@
    "ts": 1795233676,
    "end_ts": 1795266000,
    "q": "Spread: Samsunspor (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6864426",
@@ -8269,46 +8154,7 @@
    "ts": 1795233676,
    "end_ts": 1795266000,
    "q": "Spread: Çaykur Rizespor (-3.5)",
-   "touched": null
-  },
-  {
-   "id": "6864471",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "87758943184081278992076659345198355134317190883397442687025260312642144863030",
-   "px": 0.98,
-   "tick": 0.001,
-   "ts": 1795233676,
-   "end_ts": 1795257000,
-   "q": "Spread: Gençlerbirliği SK (-3.5)",
-   "touched": null
-  },
-  {
-   "id": "6864472",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "103854592628324591620335449371403611926662964291882260280500717561934055282610",
-   "px": 0.985,
-   "tick": 0.001,
-   "ts": 1795233676,
-   "end_ts": 1795257000,
-   "q": "Spread: Gaziantep FK (-3.5)",
-   "touched": null
-  },
-  {
-   "id": "6864484",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "85778854706273771249598270764660911740862131670256383089405408718883760179383",
-   "px": 0.992,
-   "tick": 0.001,
-   "ts": 1795233676,
-   "end_ts": 1795257000,
-   "q": "Gençlerbirliği SK vs. Gaziantep FK: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6873367",
@@ -8321,7 +8167,7 @@
    "ts": 1795233676,
    "end_ts": 1795266000,
    "q": "Spread: Tromsø IL (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6882488",
@@ -8334,7 +8180,7 @@
    "ts": 1795233676,
    "end_ts": 1795266000,
    "q": "Stade Lavallois Mayenne FC vs. Montpellier HSC: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7039709",
@@ -8347,7 +8193,7 @@
    "ts": 1795233676,
    "end_ts": 1795266000,
    "q": "Spread: FC Wurzburger Kickers (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7039741",
@@ -8360,7 +8206,7 @@
    "ts": 1795233676,
    "end_ts": 1795266000,
    "q": "Spread: SG Sonnenhof Grossaspach (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6834148",
@@ -8373,7 +8219,7 @@
    "ts": 1795233676,
    "end_ts": 1795271400,
    "q": "Eintracht Frankfurt vs. TSG 1899 Hoffenheim: Neither team to score first?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6840932",
@@ -8386,7 +8232,7 @@
    "ts": 1795233676,
    "end_ts": 1795275000,
    "q": "Spread: NEC (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6840954",
@@ -8399,7 +8245,7 @@
    "ts": 1795233676,
    "end_ts": 1795275000,
    "q": "NEC vs. PSV: O/U 8.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6858315",
@@ -8412,7 +8258,7 @@
    "ts": 1795233676,
    "end_ts": 1795280400,
    "q": "Spread: Bohemians Praha 1905 (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6858329",
@@ -8425,7 +8271,7 @@
    "ts": 1795233676,
    "end_ts": 1795280400,
    "q": "Bohemians Praha 1905 vs. FC Viktoria Plzeň: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6873185",
@@ -8438,7 +8284,7 @@
    "ts": 1795233676,
    "end_ts": 1795280400,
    "q": "Spread: IK Start (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6873219",
@@ -8451,7 +8297,7 @@
    "ts": 1795233676,
    "end_ts": 1795280400,
    "q": "Vålerenga Fotball vs. IK Start: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6881179",
@@ -8464,7 +8310,7 @@
    "ts": 1795233676,
    "end_ts": 1795282200,
    "q": "Spread: CD Eldense (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6881245",
@@ -8477,7 +8323,7 @@
    "ts": 1795233676,
    "end_ts": 1795282200,
    "q": "CD Castellón vs. CD Eldense: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6882370",
@@ -8490,7 +8336,7 @@
    "ts": 1795233676,
    "end_ts": 1795287600,
    "q": "Stade de Reims vs. AS Saint-Étienne: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6883285",
@@ -8503,7 +8349,7 @@
    "ts": 1795233676,
    "end_ts": 1795285800,
    "q": "Spread: Empoli FC (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6883323",
@@ -8516,7 +8362,7 @@
    "ts": 1795233676,
    "end_ts": 1795285800,
    "q": "Empoli FC vs. Pisa SC: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6883381",
@@ -8529,7 +8375,7 @@
    "ts": 1795233676,
    "end_ts": 1795277700,
    "q": "Spread: US Catanzaro 1929 (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6886814",
@@ -8542,7 +8388,7 @@
    "ts": 1795233676,
    "end_ts": 1795283100,
    "q": "Spread: Dundee FC (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6886827",
@@ -8555,7 +8401,7 @@
    "ts": 1795233676,
    "end_ts": 1795283100,
    "q": "Dundee FC vs. Heart of Midlothian FC: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6896550",
@@ -8568,7 +8414,7 @@
    "ts": 1795233676,
    "end_ts": 1795283100,
    "q": "Spread: SC Cambuur-Leeuwarden (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6896600",
@@ -8581,7 +8427,7 @@
    "ts": 1795233676,
    "end_ts": 1795283100,
    "q": "Spread: SBV Excelsior (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6837391",
@@ -8594,7 +8440,7 @@
    "ts": 1795233676,
    "end_ts": 1795290300,
    "q": "Spread: Toulouse FC (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6837610",
@@ -8607,7 +8453,7 @@
    "ts": 1795233676,
    "end_ts": 1795290300,
    "q": "Spread: AJ Auxerre (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6838013",
@@ -8620,7 +8466,7 @@
    "ts": 1795233676,
    "end_ts": 1795290300,
    "q": "Spread: Lille OSC (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6838017",
@@ -8633,7 +8479,7 @@
    "ts": 1795233676,
    "end_ts": 1795290300,
    "q": "Spread: Olympique Lyonnais (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6861516",
@@ -8646,7 +8492,7 @@
    "ts": 1795233676,
    "end_ts": 1795289400,
    "q": "Spread: VfL Bochum (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6861528",
@@ -8659,7 +8505,7 @@
    "ts": 1795233676,
    "end_ts": 1795289400,
    "q": "FC St. Pauli 1910 vs. VfL Bochum: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6880868",
@@ -8672,7 +8518,7 @@
    "ts": 1795233676,
    "end_ts": 1795291200,
    "q": "Spread: CD Tenerife (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6880882",
@@ -8685,7 +8531,7 @@
    "ts": 1795233676,
    "end_ts": 1795291200,
    "q": "Spread: RCD Mallorca (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6886761",
@@ -8698,7 +8544,7 @@
    "ts": 1795233676,
    "end_ts": 1795291200,
    "q": "Spread: Motherwell FC (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6886776",
@@ -8711,7 +8557,7 @@
    "ts": 1795233676,
    "end_ts": 1795291200,
    "q": "Motherwell FC vs. Rangers FC: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6896304",
@@ -8724,7 +8570,7 @@
    "ts": 1795233676,
    "end_ts": 1795291200,
    "q": "Spread: FC Groningen (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6896350",
@@ -8737,7 +8583,7 @@
    "ts": 1795233676,
    "end_ts": 1795291200,
    "q": "FC Groningen vs. SC Heerenveen: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6896456",
@@ -8750,7 +8596,7 @@
    "ts": 1795233676,
    "end_ts": 1795291200,
    "q": "Spread: PEC Zwolle (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6903565",
@@ -8763,7 +8609,7 @@
    "ts": 1795233676,
    "end_ts": 1795293000,
    "q": "Spread: Coritiba FBC (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6903579",
@@ -8776,7 +8622,7 @@
    "ts": 1795233676,
    "end_ts": 1795293000,
    "q": "EC Bahia vs. Coritiba FBC: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6899674",
@@ -8789,7 +8635,7 @@
    "ts": 1795233676,
    "end_ts": 1795309200,
    "q": "Spread: Pumas de la UNAM (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6899675",
@@ -8802,7 +8648,7 @@
    "ts": 1795233676,
    "end_ts": 1795309200,
    "q": "Spread: CF Monterrey (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6899696",
@@ -8815,7 +8661,7 @@
    "ts": 1795233676,
    "end_ts": 1795309200,
    "q": "Pumas de la UNAM vs. CF Monterrey: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6899698",
@@ -8828,7 +8674,7 @@
    "ts": 1795233676,
    "end_ts": 1795309200,
    "q": "Pumas de la UNAM vs. CF Monterrey: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6899760",
@@ -8841,7 +8687,7 @@
    "ts": 1795233676,
    "end_ts": 1795301400,
    "q": "Spread: CF Pachuca (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6899773",
@@ -8854,7 +8700,7 @@
    "ts": 1795233676,
    "end_ts": 1795301400,
    "q": "CF Pachuca vs. Deportivo Toluca FC: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6899806",
@@ -8867,7 +8713,7 @@
    "ts": 1795233676,
    "end_ts": 1795302000,
    "q": "Spread: Club Santos Laguna (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6899807",
@@ -8880,7 +8726,7 @@
    "ts": 1795233676,
    "end_ts": 1795302000,
    "q": "Spread: Club León FC (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6899819",
@@ -8893,7 +8739,7 @@
    "ts": 1795233676,
    "end_ts": 1795302000,
    "q": "Club Santos Laguna vs. Club León FC: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6907851",
@@ -8906,7 +8752,7 @@
    "ts": 1795233676,
    "end_ts": 1795300200,
    "q": "Spread: CA Mineiro (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6907857",
@@ -8919,7 +8765,7 @@
    "ts": 1795233676,
    "end_ts": 1795300200,
    "q": "Spread: CA Boca Juniors (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6907880",
@@ -8932,7 +8778,7 @@
    "ts": 1795233676,
    "end_ts": 1795300200,
    "q": "CA Mineiro vs. CA Boca Juniors: O/U 5.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7042980",
@@ -8945,7 +8791,7 @@
    "ts": 1795233676,
    "end_ts": 1795305600,
    "q": "Will Hao-Tong Li win the 2026 The RSM Classic?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6899597",
@@ -8958,7 +8804,7 @@
    "ts": 1795233676,
    "end_ts": 1795316400,
    "q": "Tigres de la UANL vs. CF América: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6899598",
@@ -8971,7 +8817,7 @@
    "ts": 1795233676,
    "end_ts": 1795316400,
    "q": "Tigres de la UANL vs. CF América: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6838487",
@@ -11662,6 +11508,45 @@
    "ts": 1795276868,
    "end_ts": 1795384800,
    "q": "Cal Poly Mustangs vs. Washington Huskies (W)",
+   "touched": null
+  },
+  {
+   "id": "6874110",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "104348780519445919490637948208473125609646738749305913478640593571587317440235",
+   "px": 0.983,
+   "tick": 0.001,
+   "ts": 1795277622,
+   "end_ts": 1795363200,
+   "q": "Trabzonspor vs. Eyüpspor: Neither team to score first?",
+   "touched": null
+  },
+  {
+   "id": "6882003",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "70194586999924046725029974973448161811927778901530495806117707025921835923351",
+   "px": 0.975,
+   "tick": 0.001,
+   "ts": 1795277622,
+   "end_ts": 1795363200,
+   "q": "Aalesunds FK vs. Rosenborg BK: Neither team to score first?",
+   "touched": null
+  },
+  {
+   "id": "6893383",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "92180384444061056258397486987646464804729060843012286212530477480277746629935",
+   "px": 0.982,
+   "tick": 0.001,
+   "ts": 1795277622,
+   "end_ts": 1795376700,
+   "q": "Spread: Le Mans FC (-2.5)",
    "touched": null
   }
  ]
