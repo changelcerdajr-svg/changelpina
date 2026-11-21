@@ -2,21 +2,21 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-11T22:05:26Z | dias corridos: 9.4 de 28 | corridas: 196
-- Capital inicial: $1,000.00 | valor actual: $1,058.79 | P&L: $+58.79 (+5.88%)
-- Efectivo libre: $425.90 | en ordenes abiertas: $422.33 (8) | en posiciones: $209.90 (4)
+- Inicio: 2026-11-11T22:05:26Z | dias corridos: 9.4 de 28 | corridas: 197
+- Capital inicial: $1,000.00 | valor actual: $1,060.46 | P&L: $+60.46 (+6.05%)
+- Efectivo libre: $426.96 | en ordenes abiertas: $528.82 (10) | en posiciones: $104.57 (2)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 331 colocadas, 81 llenadas, 164 tocadas sin llenarse (sorteo 30%), 78 expiradas
+- Ordenes virtuales: 336 colocadas, 81 llenadas, 167 tocadas sin llenarse (sorteo 30%), 78 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
 | Regla | n | Precio medio | Pago real | IC95 del pago | Edge | P&L | Dias medios |
 |---|---|---|---|---|---|---|---|
 | cripto_cierre | 22 | 98.90c | 100.00% | 85.1-100.0% | +1.10 pts | $+12.63 | 0.23 |
-| deportes_previo | 28 | 98.28c | 100.00% | 87.9-100.0% | +1.72 pts | $+25.09 | 0.34 |
+| deportes_previo | 30 | 98.26c | 100.00% | 88.6-100.0% | +1.74 pts | $+27.30 | 0.34 |
 | otros_cierre | 22 | 99.06c | 100.00% | 85.1-100.0% | +0.94 pts | $+10.74 | 0.44 |
 | post_fin_95_97 | 5 | 96.36c | 100.00% | 56.6-100.0% | +3.64 pts | $+9.68 | 0.65 |
-| TOTAL | 77 | 98.56c | 100.00% | 95.2-100.0% | +1.44 pts | $+58.13 | 0.36 |
+| TOTAL | 79 | 98.54c | 100.00% | 95.4-100.0% | +1.46 pts | $+60.35 | 0.36 |
 
 ## Peores casos
 
@@ -28,28 +28,26 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
 | $51.82 | 98.5c | 98.3c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
-| $52.67 | 97.0c | 98.2c | deportes_previo |  | FC Juárez vs. Atlas FC: O/U 6.5 |
-| $52.67 | 98.9c | 98.7c | deportes_previo |  | FC Juárez vs. Atlas FC: O/U 7.5 |
 | $52.75 | 97.1c | 97.5c | deportes_previo |  | Gençlerbirliği SK vs. Gaziantep FK: O/U 6.5 |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 2939 | abiertas: 426 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 2994 | abiertas: 388 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
-| cripto_cierre | todas | 950 | 98.74c | 98.95% | +0.21 pts | -0.44 a +0.85 | 10 |
-| cripto_cierre | tocadas | 647 | 98.57c | 98.45% | -0.12 pts | -1.07 a +0.83 | 10 |
-| deportes_previo | todas | 1458 | 98.34c | 99.18% | +0.84 pts | +0.38 a +1.29 | 13 |
-| deportes_previo | tocadas | 1214 | 98.29c | 99.18% | +0.88 pts | +0.39 a +1.38 | 11 |
-| otros_cierre | todas | 502 | 98.79c | 99.20% | +0.41 pts | -0.37 a +1.19 | 4 |
-| otros_cierre | tocadas | 336 | 98.68c | 98.81% | +0.13 pts | -1.04 a +1.30 | 4 |
+| cripto_cierre | todas | 961 | 98.75c | 98.96% | +0.21 pts | -0.43 a +0.85 | 10 |
+| cripto_cierre | tocadas | 651 | 98.57c | 98.46% | -0.11 pts | -1.05 a +0.84 | 10 |
+| deportes_previo | todas | 1475 | 98.34c | 99.19% | +0.85 pts | +0.40 a +1.30 | 13 |
+| deportes_previo | tocadas | 1229 | 98.29c | 99.19% | +0.89 pts | +0.41 a +1.38 | 11 |
+| otros_cierre | todas | 529 | 98.80c | 99.24% | +0.44 pts | -0.30 a +1.19 | 4 |
+| otros_cierre | tocadas | 357 | 98.69c | 98.88% | +0.19 pts | -0.91 a +1.28 | 4 |
 | post_fin_95_97 | todas | 29 | 96.10c | 93.10% | -3.00 pts | -12.35 a +6.35 | 2 |
 | post_fin_95_97 | tocadas | 24 | 96.12c | 91.67% | -4.45 pts | -15.70 a +6.80 | 2 |
-| TOTAL | todas | 2939 | 98.53c | 99.05% | +0.52 pts | +0.17 a +0.87 | 29 |
-| TOTAL | tocadas | 2221 | 98.41c | 98.83% | +0.42 pts | -0.02 a +0.86 | 27 |
+| TOTAL | todas | 2994 | 98.53c | 99.06% | +0.54 pts | +0.19 a +0.88 | 29 |
+| TOTAL | tocadas | 2261 | 98.41c | 98.85% | +0.44 pts | +0.00 a +0.87 | 27 |
 
 Peores casos del registro sombra:
 
@@ -66,4 +64,4 @@ Peores casos del registro sombra:
 
 ## Veredicto
 
-Aun no hay veredicto: van 77 operaciones cerradas en 9.4 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
+Aun no hay veredicto: van 79 operaciones cerradas en 9.4 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
