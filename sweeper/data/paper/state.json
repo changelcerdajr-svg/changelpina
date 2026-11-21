@@ -1,6 +1,6 @@
 {
  "capital0": 1000.0,
- "cash": 372.1556,
+ "cash": 372.1733,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
   {
@@ -130,27 +130,6 @@
    "liq": 3002
   },
   {
-   "oid": "4970925-1795215668",
-   "id": "4970925",
-   "q": "Manchester City punishment announced by November 20?",
-   "cat": "otros",
-   "rule": "otros_cierre",
-   "event": "1083788",
-   "side": 1,
-   "token": "65584738545620502541590527870837450151624336000268229517313863111120295075706",
-   "px": 0.99,
-   "tick": 0.001,
-   "mid": 0.99,
-   "bid": 0.981,
-   "ask": 0.999,
-   "shares": 53.287,
-   "cost": 52.7542,
-   "ts": 1795215668.789934,
-   "end_ts": 1795237140.0,
-   "hours": 5.96,
-   "liq": 1608
-  },
-  {
    "oid": "6820363-1795219267",
    "id": "6820363",
    "q": "Gangwon FC vs. Daejeon Hana Citizen FC: O/U 6.5",
@@ -191,6 +170,27 @@
    "end_ts": 1795257000.0,
    "hours": 9.67,
    "liq": 2128
+  },
+  {
+   "oid": "4970925-1795230070",
+   "id": "4970925",
+   "q": "Manchester City punishment announced by November 20?",
+   "cat": "otros",
+   "rule": "otros_cierre",
+   "event": "1083788",
+   "side": 1,
+   "token": "65584738545620502541590527870837450151624336000268229517313863111120295075706",
+   "px": 0.988,
+   "tick": 0.001,
+   "mid": 0.9885,
+   "bid": 0.978,
+   "ask": 0.999,
+   "shares": 53.3771,
+   "cost": 52.7365,
+   "ts": 1795230070.070558,
+   "end_ts": 1795237140.0,
+   "hours": 1.96,
+   "liq": 1668
   }
  ],
  "positions": [
@@ -265,7 +265,7 @@
    "hours": 6.98,
    "liq": 5439,
    "fill_ts": 1795212066.012382,
-   "mark": 0.969,
+   "mark": 0.964,
    "stuck": false,
    "disputed": false
   },
@@ -290,7 +290,7 @@
    "hours": 6.98,
    "liq": 3830,
    "fill_ts": 1795212066.012382,
-   "mark": 0.9875,
+   "mark": 0.987,
    "stuck": false,
    "disputed": false
   }
@@ -5032,14 +5032,27 @@
    "placed": 0,
    "shadow_open": 481,
    "shadow_closed": 16
+  },
+  {
+   "ts": "2026-11-21T03:02:50Z",
+   "equity": 1054.73,
+   "cash": 372.17,
+   "orders": 9,
+   "positions": 4,
+   "closed": 76,
+   "scanned": 17693,
+   "candidates": 139,
+   "placed": 1,
+   "shadow_open": 466,
+   "shadow_closed": 16
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 327,
+  "placed": 328,
   "filled": 80,
   "expired": 75,
-  "touched_not_filled": 163
+  "touched_not_filled": 164
  },
  "shadow": [
   {
@@ -5108,32 +5121,6 @@
    "touched": 0
   },
   {
-   "id": "7015865",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "32210921845630476374636125299357063042525001823011590039711430183017145342283",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795107677,
-   "end_ts": 1795215600,
-   "q": "New Haven Chargers vs. Rhode Island Rams (W)",
-   "touched": 1
-  },
-  {
-   "id": "7118779",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "110147208892512024879661238411353244782917533911569556428786896560726714229090",
-   "px": 0.975,
-   "tick": 0.001,
-   "ts": 1795107677,
-   "end_ts": 1795210200,
-   "q": "Independiente Medellín vs. Independiente Santa Fe: O/U 6.5",
-   "touched": 1
-  },
-  {
    "id": "6998367",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -5183,19 +5170,6 @@
    "ts": 1795114872,
    "end_ts": 1795222800,
    "q": "Seton Hall Pirates vs. Connecticut Huskies (W)",
-   "touched": 1
-  },
-  {
-   "id": "7116858",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "42229523679666103564483477337939391987751199015071198979817572605224824012657",
-   "px": 0.973,
-   "tick": 0.001,
-   "ts": 1795118468,
-   "end_ts": 1795215600,
-   "q": "Spread: CA Belgrano (-2.5)",
    "touched": 1
   },
   {
@@ -5433,19 +5407,6 @@
    "touched": 1
   },
   {
-   "id": "7116872",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "35179899572088640147904753589010620916858376100693398675554447816624348517694",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1795140069,
-   "end_ts": 1795215600,
-   "q": "CA Vélez Sarsfield vs. CA Belgrano: O/U 7.5",
-   "touched": 0
-  },
-  {
    "id": "6820540",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -5576,32 +5537,6 @@
    "touched": 0
   },
   {
-   "id": "7118755",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "4645822545364229484395175232142764410049210930982506852723579400296277718871",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1795147270,
-   "end_ts": 1795210200,
-   "q": "Spread: Independiente Santa Fe (-2.5)",
-   "touched": 0
-  },
-  {
-   "id": "7118757",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "44840652538991974218363536586186913279204991189408391417239404479506596883584",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1795147270,
-   "end_ts": 1795210200,
-   "q": "Spread: Independiente Medellín (-3.5)",
-   "touched": 1
-  },
-  {
    "id": "6843643",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -5625,32 +5560,6 @@
    "ts": 1795147270,
    "end_ts": 1795219200,
    "q": "Wagner Seahawks vs. Maryland Terrapins",
-   "touched": 1
-  },
-  {
-   "id": "7116859",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "64695455373808119136486066307475749866615793645628922456361779593051560136851",
-   "px": 0.977,
-   "tick": 0.001,
-   "ts": 1795150868,
-   "end_ts": 1795215600,
-   "q": "Spread: CA Vélez Sarsfield (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "7116860",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "47268273299349440333298209942240071541447397831853223419313696512565364832048",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795150868,
-   "end_ts": 1795215600,
-   "q": "Spread: CA Belgrano (-3.5)",
    "touched": 1
   },
   {
@@ -6304,19 +6213,6 @@
    "touched": 1
   },
   {
-   "id": "7027713",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "62948908937029225810833610378199908770464067346176615709448977573360955061862",
-   "px": 0.977,
-   "tick": 0.001,
-   "ts": 1795161670,
-   "end_ts": 1795215600,
-   "q": "Recoleta FC vs. Club Guarani Asuncion: O/U 6.5",
-   "touched": 1
-  },
-  {
    "id": "6998376",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -6678,19 +6574,6 @@
    "ts": 1795161670,
    "end_ts": 1795266000,
    "q": "Galatasaray SK vs. Samsunspor: O/U 0.5",
-   "touched": 1
-  },
-  {
-   "id": "7027683",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "59812634152301613519500327796111338143452195652511398911023333759992274580301",
-   "px": 0.984,
-   "tick": 0.001,
-   "ts": 1795165271,
-   "end_ts": 1795215600,
-   "q": "Spread: Recoleta FC (-2.5)",
    "touched": 1
   },
   {
@@ -7172,19 +7055,6 @@
    "ts": 1795165271,
    "end_ts": 1795273200,
    "q": "Aston Villa FC vs. Sunderland AFC: O/U 6.5",
-   "touched": 1
-  },
-  {
-   "id": "7118759",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "71887737830912766659670553114924790560575619832589838703425119693350652340894",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795168880,
-   "end_ts": 1795210200,
-   "q": "Spread: Independiente Santa Fe (-3.5)",
    "touched": 1
   },
   {
@@ -7705,19 +7575,6 @@
    "ts": 1795176072,
    "end_ts": 1795217400,
    "q": "Spread: CD Unión La Calera (-2.5)",
-   "touched": 1
-  },
-  {
-   "id": "7118781",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "26582318013294872597349790406352345299897034564895492456136096553777957569615",
-   "px": 0.993,
-   "tick": 0.001,
-   "ts": 1795176072,
-   "end_ts": 1795210200,
-   "q": "Independiente Medellín vs. Independiente Santa Fe: O/U 7.5",
    "touched": 1
   },
   {
@@ -8254,58 +8111,6 @@
    "touched": 1
   },
   {
-   "id": "7177154",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "55315988723210408084388998764812202081307024084854034959326314610251117293763",
-   "px": 0.984,
-   "tick": 0.001,
-   "ts": 1795183282,
-   "end_ts": 1795194005,
-   "q": "Will MrBeast's next video get between 87 and 88 million views on day 6?",
-   "touched": null
-  },
-  {
-   "id": "6838915",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "28413884877974217441255204206147925966788074766198015000096749598543662080103",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1795183282,
-   "end_ts": 1795207500,
-   "q": "FC Porto vs. USC Paredes: O/U 7.5",
-   "touched": null
-  },
-  {
-   "id": "6998409",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "113349936907726168630938776477089705569022570304415427700182971052866199679119",
-   "px": 0.989,
-   "tick": 0.001,
-   "ts": 1795183282,
-   "end_ts": 1795215600,
-   "q": "West Virginia Tech Golden Bears vs. Akron Zips",
-   "touched": null
-  },
-  {
-   "id": "7025293",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 0,
-   "token": "54840038124439534009004580141462323133384479714630592341384370885073515973565",
-   "px": 0.985,
-   "tick": 0.001,
-   "ts": 1795183282,
-   "end_ts": 1795208400,
-   "q": "Will Rocket Lab USA, Inc. (RKLB) hit (LOW) $50 Week of November 16 2026?",
-   "touched": null
-  },
-  {
    "id": "6857475",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -8316,7 +8121,7 @@
    "ts": 1795183282,
    "end_ts": 1795217400,
    "q": "Spread: CD Palestino (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7180979",
@@ -8329,7 +8134,7 @@
    "ts": 1795183282,
    "end_ts": 1795222800,
    "q": "Spread: Pelicans (-13.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6804107",
@@ -8342,7 +8147,7 @@
    "ts": 1795183282,
    "end_ts": 1795266000,
    "q": "Galatasaray SK vs. Samsunspor: Neither team to score first?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6845301",
@@ -8355,7 +8160,7 @@
    "ts": 1795183282,
    "end_ts": 1795264200,
    "q": "Blackpool FC vs. Wigan Athletic FC: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6858467",
@@ -8368,7 +8173,7 @@
    "ts": 1795183282,
    "end_ts": 1795269600,
    "q": "SK Sigma Olomouc vs. SK Slavia Praha: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6861680",
@@ -8381,7 +8186,7 @@
    "ts": 1795183282,
    "end_ts": 1795262400,
    "q": "Hannover 96 vs. SpVgg Greuther Fürth: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6823799",
@@ -8394,7 +8199,7 @@
    "ts": 1795183282,
    "end_ts": 1795291200,
    "q": "Indiana State vs. South Dakota State",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6837386",
@@ -8407,7 +8212,7 @@
    "ts": 1795183282,
    "end_ts": 1795290300,
    "q": "Spread: Torino FC (-2.5)",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6837393",
@@ -8420,7 +8225,7 @@
    "ts": 1795183282,
    "end_ts": 1795290300,
    "q": "Spread: Torino FC (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6837429",
@@ -8433,7 +8238,7 @@
    "ts": 1795183282,
    "end_ts": 1795290300,
    "q": "SSC Napoli vs. Torino FC: O/U 6.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6837654",
@@ -8446,7 +8251,7 @@
    "ts": 1795183282,
    "end_ts": 1795290300,
    "q": "AS Monaco FC vs. AJ Auxerre: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6837815",
@@ -8459,7 +8264,7 @@
    "ts": 1795183282,
    "end_ts": 1795290300,
    "q": "Spread: Stade Brestois 29 (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6837854",
@@ -8472,7 +8277,7 @@
    "ts": 1795183282,
    "end_ts": 1795290300,
    "q": "RC Strasbourg Alsace vs. Stade Brestois 29: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6842279",
@@ -8485,7 +8290,7 @@
    "ts": 1795183282,
    "end_ts": 1795291200,
    "q": "Spread: RC Celta de Vigo (-1.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6842286",
@@ -8498,7 +8303,7 @@
    "ts": 1795183282,
    "end_ts": 1795291200,
    "q": "Spread: RC Celta de Vigo (-3.5)",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6842294",
@@ -8511,7 +8316,7 @@
    "ts": 1795183282,
    "end_ts": 1795291200,
    "q": "Real Madrid CF vs. RC Celta de Vigo: O/U 0.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6842316",
@@ -8524,7 +8329,7 @@
    "ts": 1795183282,
    "end_ts": 1795291200,
    "q": "Real Madrid CF vs. RC Celta de Vigo: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6842320",
@@ -8537,7 +8342,7 @@
    "ts": 1795183282,
    "end_ts": 1795291200,
    "q": "Real Madrid CF vs. RC Celta de Vigo: O/U 8.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6883319",
@@ -8550,7 +8355,7 @@
    "ts": 1795183282,
    "end_ts": 1795285800,
    "q": "Empoli FC vs. Pisa SC: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7018479",
@@ -11293,6 +11098,19 @@
    "ts": 1795226463,
    "end_ts": 1795280400,
    "q": "Parma Calcio 1913 vs. AS Roma: O/U 0.5",
+   "touched": null
+  },
+  {
+   "id": "7189051",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "54808333376460989015676846422624625347126857250144047602211105433864598245875",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795230070,
+   "end_ts": 1795230300,
+   "q": "Solana Up or Down - November 20, 10:00PM-10:05PM ET",
    "touched": null
   }
  ]

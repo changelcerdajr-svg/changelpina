@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-11T22:05:26Z | dias corridos: 9.2 de 28 | corridas: 191
-- Capital inicial: $1,000.00 | valor actual: $1,055.03 | P&L: $+55.03 (+5.50%)
-- Efectivo libre: $372.16 | en ordenes abiertas: $474.29 (9) | en posiciones: $209.78 (4)
+- Inicio: 2026-11-11T22:05:26Z | dias corridos: 9.2 de 28 | corridas: 192
+- Capital inicial: $1,000.00 | valor actual: $1,054.73 | P&L: $+54.73 (+5.47%)
+- Efectivo libre: $372.17 | en ordenes abiertas: $474.27 (9) | en posiciones: $209.78 (4)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 327 colocadas, 80 llenadas, 163 tocadas sin llenarse (sorteo 30%), 75 expiradas
+- Ordenes virtuales: 328 colocadas, 80 llenadas, 164 tocadas sin llenarse (sorteo 30%), 75 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -29,27 +29,27 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 |---|---|---|---|---|---|
 | $51.82 | 98.5c | 98.4c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
 | $52.62 | 96.5c | 94.7c | post_fin_95_97 |  | Will the highest temperature in New York City be between 66-67°F on November 20? |
-| $52.67 | 97.0c | 96.9c | deportes_previo |  | FC Juárez vs. Atlas FC: O/U 6.5 |
-| $52.67 | 98.9c | 98.8c | deportes_previo |  | FC Juárez vs. Atlas FC: O/U 7.5 |
+| $52.67 | 97.0c | 96.4c | deportes_previo |  | FC Juárez vs. Atlas FC: O/U 6.5 |
+| $52.67 | 98.9c | 98.7c | deportes_previo |  | FC Juárez vs. Atlas FC: O/U 7.5 |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 2778 | abiertas: 481 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 2794 | abiertas: 466 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
 | cripto_cierre | todas | 904 | 98.74c | 99.23% | +0.49 pts | -0.08 a +1.06 | 7 |
 | cripto_cierre | tocadas | 612 | 98.56c | 98.86% | +0.29 pts | -0.55 a +1.14 | 7 |
-| deportes_previo | todas | 1404 | 98.34c | 99.15% | +0.80 pts | +0.33 a +1.27 | 13 |
-| deportes_previo | tocadas | 1168 | 98.30c | 99.14% | +0.85 pts | +0.33 a +1.36 | 11 |
-| otros_cierre | todas | 442 | 98.79c | 99.10% | +0.31 pts | -0.58 a +1.20 | 4 |
-| otros_cierre | tocadas | 297 | 98.69c | 98.65% | -0.04 pts | -1.36 a +1.28 | 4 |
+| deportes_previo | todas | 1418 | 98.34c | 99.15% | +0.81 pts | +0.34 a +1.28 | 13 |
+| deportes_previo | tocadas | 1180 | 98.30c | 99.15% | +0.86 pts | +0.35 a +1.37 | 11 |
+| otros_cierre | todas | 444 | 98.79c | 99.10% | +0.31 pts | -0.57 a +1.20 | 4 |
+| otros_cierre | tocadas | 298 | 98.69c | 98.66% | -0.03 pts | -1.35 a +1.28 | 4 |
 | post_fin_95_97 | todas | 28 | 96.09c | 92.86% | -3.23 pts | -12.91 a +6.45 | 2 |
 | post_fin_95_97 | tocadas | 23 | 96.10c | 91.30% | -4.80 pts | -16.53 a +6.94 | 2 |
-| TOTAL | todas | 2778 | 98.52c | 99.10% | +0.58 pts | +0.23 a +0.93 | 26 |
-| TOTAL | tocadas | 2100 | 98.41c | 98.90% | +0.50 pts | +0.06 a +0.94 | 24 |
+| TOTAL | todas | 2794 | 98.52c | 99.11% | +0.59 pts | +0.24 a +0.93 | 26 |
+| TOTAL | tocadas | 2113 | 98.40c | 98.91% | +0.51 pts | +0.07 a +0.94 | 24 |
 
 Peores casos del registro sombra:
 
