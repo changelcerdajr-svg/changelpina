@@ -1,6 +1,6 @@
 {
  "capital0": 1000.0,
- "cash": 411.7942,
+ "cash": 360.6683,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
   {
@@ -109,48 +109,6 @@
    "liq": 27342
   },
   {
-   "oid": "6898259-1795345267",
-   "id": "6898259",
-   "q": "Spread: Málaga CF (-3.5)",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1347332",
-   "side": 1,
-   "token": "96750451031478076407744955543509685626961309209048630873169580402839678306698",
-   "px": 0.994,
-   "tick": 0.001,
-   "mid": 0.9945,
-   "bid": 0.99,
-   "ask": 0.999,
-   "shares": 51.3716,
-   "cost": 51.0633,
-   "ts": 1795345267.753771,
-   "end_ts": 1795368600.0,
-   "hours": 6.48,
-   "liq": 10793
-  },
-  {
-   "oid": "6913478-1795345267",
-   "id": "6913478",
-   "q": "Spread: Real Valladolid CF (-3.5)",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1351170",
-   "side": 1,
-   "token": "59183039036074731121097693283027464678552796014162467408970253381187077402415",
-   "px": 0.972,
-   "tick": 0.001,
-   "mid": 0.972,
-   "bid": 0.965,
-   "ask": 0.979,
-   "shares": 52.5343,
-   "cost": 51.0634,
-   "ts": 1795345267.753771,
-   "end_ts": 1795368600.0,
-   "hours": 6.48,
-   "liq": 3103
-  },
-  {
    "oid": "6913498-1795345267",
    "id": "6913498",
    "q": "Celta Fortuna vs. Real Valladolid CF: O/U 6.5",
@@ -233,6 +191,48 @@
    "end_ts": 1795388340.0,
    "hours": 9.97,
    "liq": 9635
+  },
+  {
+   "oid": "7193313-1795359662",
+   "id": "7193313",
+   "q": "Will the highest temperature in Austin be between 76-77°F on November 22?",
+   "cat": "clima",
+   "rule": "post_fin_95_97",
+   "event": "1429927",
+   "side": 1,
+   "token": "114408194996651606382281006501729895070722520366022840237070370479258809696781",
+   "px": 0.953,
+   "tick": 0.001,
+   "mid": 0.953,
+   "bid": 0.941,
+   "ask": 0.965,
+   "shares": 53.6145,
+   "cost": 51.0946,
+   "ts": 1795359662.876824,
+   "end_ts": 1795348800.0,
+   "hours": -3.02,
+   "liq": 1090
+  },
+  {
+   "oid": "6643237-1795359662",
+   "id": "6643237",
+   "q": "Spread: Raiders (-10.5)",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1301081",
+   "side": 1,
+   "token": "74153239877227686256330330879223950786349945133740666440645820415898065609177",
+   "px": 0.973,
+   "tick": 0.001,
+   "mid": 0.9735,
+   "bid": 0.963,
+   "ask": 0.984,
+   "shares": 52.5124,
+   "cost": 51.0946,
+   "ts": 1795359662.876824,
+   "end_ts": 1795382700.0,
+   "hours": 6.4,
+   "liq": 12542
   }
  ],
  "positions": [
@@ -282,7 +282,7 @@
    "hours": 22.98,
    "liq": 62011,
    "fill_ts": 1795330863.301342,
-   "mark": 0.9825,
+   "mark": 0.9885,
    "stuck": false,
    "disputed": false
   },
@@ -310,6 +310,29 @@
    "mark": 0.998,
    "stuck": false,
    "disputed": false
+  },
+  {
+   "oid": "6913478-1795345267",
+   "id": "6913478",
+   "q": "Spread: Real Valladolid CF (-3.5)",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1351170",
+   "side": 1,
+   "token": "59183039036074731121097693283027464678552796014162467408970253381187077402415",
+   "px": 0.972,
+   "tick": 0.001,
+   "mid": 0.972,
+   "bid": 0.965,
+   "ask": 0.979,
+   "shares": 52.5343,
+   "cost": 51.0634,
+   "ts": 1795345267.753771,
+   "end_ts": 1795368600.0,
+   "hours": 6.48,
+   "liq": 3103,
+   "fill_ts": 1795359662.876824,
+   "mark": 0.972
   }
  ],
  "closed": [
@@ -6084,14 +6107,27 @@
    "placed": 0,
    "shadow_open": 701,
    "shadow_closed": 7
+  },
+  {
+   "ts": "2026-11-22T15:01:43Z",
+   "equity": 1021.89,
+   "cash": 360.67,
+   "orders": 11,
+   "positions": 4,
+   "closed": 93,
+   "scanned": 15218,
+   "candidates": 137,
+   "placed": 2,
+   "shadow_open": 709,
+   "shadow_closed": 6
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 390,
-  "filled": 96,
+  "placed": 392,
+  "filled": 97,
   "expired": 86,
-  "touched_not_filled": 197
+  "touched_not_filled": 198
  },
  "shadow": [
   {
@@ -8864,32 +8900,6 @@
    "touched": 1
   },
   {
-   "id": "6906519",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "8407161841079148293990379480394635251284050978986436944835798851580637961770",
-   "px": 0.979,
-   "tick": 0.001,
-   "ts": 1795302068,
-   "end_ts": 1795343400,
-   "q": "Spread: Göztepe SK (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "6906530",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "68141520330150404863111308206528594138576600002159369497380268773727600671508",
-   "px": 0.981,
-   "tick": 0.001,
-   "ts": 1795302068,
-   "end_ts": 1795343400,
-   "q": "Erzurumspor FK vs. Göztepe SK: O/U 6.5",
-   "touched": 1
-  },
-  {
    "id": "6905122",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -9202,19 +9212,6 @@
    "touched": 1
   },
   {
-   "id": "7065204",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "60530058183012847040598172699809710014152127425053651478628526885074921692510",
-   "px": 0.976,
-   "tick": 0.001,
-   "ts": 1795312862,
-   "end_ts": 1795345200,
-   "q": "POFC Botev Vratsa vs. FC CSKA 1948: O/U 6.5",
-   "touched": 1
-  },
-  {
    "id": "6904239",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -9306,45 +9303,6 @@
    "touched": 0
   },
   {
-   "id": "7215190",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "108596491410982995340163073740330520760053891752560593370811546243594415115196",
-   "px": 0.985,
-   "tick": 0.001,
-   "ts": 1795313889,
-   "end_ts": 1795314000,
-   "q": "Ethereum Up or Down - November 21, 9:15PM-9:20PM ET",
-   "touched": null
-  },
-  {
-   "id": "7215192",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "80914643411877606125924271843889319071451579173575995073459397797163761504159",
-   "px": 0.975,
-   "tick": 0.001,
-   "ts": 1795313889,
-   "end_ts": 1795314000,
-   "q": "Bitcoin Up or Down - November 21, 9:15PM-9:20PM ET",
-   "touched": null
-  },
-  {
-   "id": "7217580",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "63601919712982216961382958225940439324713001756294360309741718858516202136485",
-   "px": 0.985,
-   "tick": 0.001,
-   "ts": 1795313889,
-   "end_ts": 1795323600,
-   "q": "Will XRP reach $1.00 on November 21?",
-   "touched": null
-  },
-  {
    "id": "7069671",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -9355,7 +9313,7 @@
    "ts": 1795313889,
    "end_ts": 1795354200,
    "q": "SCR Altach vs. SK Sturm Graz: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6640896",
@@ -9368,7 +9326,7 @@
    "ts": 1795313889,
    "end_ts": 1795370400,
    "q": "Cowboys Team Total: O/U 10.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6641838",
@@ -9381,7 +9339,7 @@
    "ts": 1795313889,
    "end_ts": 1795370400,
    "q": "Bills Team Total: O/U 10.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6822943",
@@ -15205,6 +15163,188 @@
    "ts": 1795356062,
    "end_ts": 1795464000,
    "q": "Levante UD vs. Elche CF: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "7193313",
+   "rule": "post_fin_95_97",
+   "cat": "clima",
+   "side": 1,
+   "token": "114408194996651606382281006501729895070722520366022840237070370479258809696781",
+   "px": 0.953,
+   "tick": 0.001,
+   "ts": 1795359662,
+   "end_ts": 1795348800,
+   "q": "Will the highest temperature in Austin be between 76-77°F on November 22?",
+   "touched": null
+  },
+  {
+   "id": "7170968",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "79259743178301321505697137257241499694708427828148527862815273122406988432412",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1795359662,
+   "end_ts": 1795384800,
+   "q": "CA River Plate vs. CA Lanús: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "6998527",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "11128842184922364358202367229838661773259404654941909465196791267650647327093",
+   "px": 0.984,
+   "tick": 0.001,
+   "ts": 1795359662,
+   "end_ts": 1795395600,
+   "q": "Louisiana-Lafayette Ragin' Cajuns vs. USC Trojans",
+   "touched": null
+  },
+  {
+   "id": "6596309",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "68924889028144432661322887471512166901472161440986130822965840981097388390019",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795359662,
+   "end_ts": 1795409940,
+   "q": "Will Donald Trump publicly insult someone on November 22, 2026?",
+   "touched": null
+  },
+  {
+   "id": "5420123",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "30102185056550022198512138253933276612321970391359913578097339491432773959189",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795359662,
+   "end_ts": 1795446000,
+   "q": "Will \"The Hunger Games: Sunrise on the Reaping\" score at least 50 on the Rotten Tomatoes T",
+   "touched": null
+  },
+  {
+   "id": "5420124",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "40417346647699156900601738733268268356229442556110748872574457727105906296099",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795359662,
+   "end_ts": 1795446000,
+   "q": "Will \"The Hunger Games: Sunrise on the Reaping\" score at least 60 on the Rotten Tomatoes T",
+   "touched": null
+  },
+  {
+   "id": "6279941",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "7968507024889559293256291129468800623847119696234795544338583327214200064705",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795359662,
+   "end_ts": 1795446000,
+   "q": "Will \"I Play Rocky\" score at least 60 on the Rotten Tomatoes Tomatometer?",
+   "touched": null
+  },
+  {
+   "id": "6279942",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "57946640416652896264889981193865065200589082829022480478638220722296900958553",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795359662,
+   "end_ts": 1795446000,
+   "q": "Will \"I Play Rocky\" score at least 70 on the Rotten Tomatoes Tomatometer?",
+   "touched": null
+  },
+  {
+   "id": "6279943",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "4768720512852696268384628170525702629285913343827507089048998677752269791961",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795359662,
+   "end_ts": 1795446000,
+   "q": "Will \"I Play Rocky\" score at least 75 on the Rotten Tomatoes Tomatometer?",
+   "touched": null
+  },
+  {
+   "id": "6279944",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "31710999708853270632242233441099329047669411382323218532396956823795132537744",
+   "px": 0.996,
+   "tick": 0.001,
+   "ts": 1795359662,
+   "end_ts": 1795446000,
+   "q": "Will \"I Play Rocky\" score at least 80 on the Rotten Tomatoes Tomatometer?",
+   "touched": null
+  },
+  {
+   "id": "6279945",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "22705339902827994940473068721194167542340679768463271648069978555511254657331",
+   "px": 0.993,
+   "tick": 0.001,
+   "ts": 1795359662,
+   "end_ts": 1795446000,
+   "q": "Will \"I Play Rocky\" score at least 85 on the Rotten Tomatoes Tomatometer?",
+   "touched": null
+  },
+  {
+   "id": "6991668",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "81404214872493196155586485367941140059751734387427165234309909378850405361980",
+   "px": 0.988,
+   "tick": 0.001,
+   "ts": 1795359662,
+   "end_ts": 1795446000,
+   "q": "Will \"The Hunger Games: Sunrise on the Reaping\" score at least 75 on the Rotten Tomatoes T",
+   "touched": null
+  },
+  {
+   "id": "6991671",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "20557754966049721209706053385146069251126956555650881178208653712409683815350",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795359662,
+   "end_ts": 1795446000,
+   "q": "Will \"I Play Rocky\" score at least 83 on the Rotten Tomatoes Tomatometer?",
+   "touched": null
+  },
+  {
+   "id": "7107427",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "86194669230745612221759264212755850229771365107569798674573120784173437942885",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1795359662,
+   "end_ts": 1795446000,
+   "q": "Will \"I Play Rocky\" score at least 88 on the Rotten Tomatoes Tomatometer?",
    "touched": null
   }
  ]
