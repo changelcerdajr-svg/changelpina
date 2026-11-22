@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 8.9 de 28 | corridas: 193
-- Capital inicial: $1,000.00 | valor actual: $872.89 | P&L: $-127.11 (-12.71%)
-- Efectivo libre: $0.00 | en ordenes abiertas: $325.30 (7) | en posiciones: $559.80 (7)
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 9.0 de 28 | corridas: 194
+- Capital inicial: $1,000.00 | valor actual: $874.56 | P&L: $-125.44 (-12.54%)
+- Efectivo libre: $0.00 | en ordenes abiertas: $242.13 (6) | en posiciones: $642.98 (8)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 397 colocadas, 177 llenadas, 173 tocadas sin llenarse (sorteo 30%), 40 expiradas
+- Ordenes virtuales: 397 colocadas, 178 llenadas, 173 tocadas sin llenarse (sorteo 30%), 40 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -37,13 +37,14 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 | $87.43 | 98.8c | 98.8c | deportes_previo |  | Spread: Erzurumspor FK (-3.5) |
 | $87.43 | 99.8c | 99.5c | deportes_previo |  | Spread: Muglaspor (-3.5) |
 | $83.15 | 95.0c | 95.0c | deportes_previo |  | Spread: Göztepe SK (-2.5) |
-| $87.40 | 97.1c | 95.9c | deportes_previo |  | Will Willem II Tilburg win on 2026-11-22? |
+| $87.40 | 97.1c | 97.7c | deportes_previo |  | Will Willem II Tilburg win on 2026-11-22? |
+| $83.18 | 99.8c | 99.8c | cripto_cierre |  | Will Bitcoin reach $72,000 November 16-22? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 9765 | abiertas: 2872 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 9781 | abiertas: 2891 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
@@ -51,14 +52,14 @@ Cada mercado que cumple una regla se anota una vez al precio limite que se habri
 | clima_cierre | tocadas | 2487 | 98.85c | 98.99% | +0.14 pts | -0.25 a +0.53 | 25 |
 | cripto_cierre | todas | 1315 | 98.71c | 98.10% | -0.61 pts | -1.34 a +0.12 | 25 |
 | cripto_cierre | tocadas | 1193 | 98.75c | 97.90% | -0.84 pts | -1.65 a -0.04 | 25 |
-| deportes_previo | todas | 4462 | 98.02c | 97.46% | -0.56 pts | -1.02 a -0.10 | 116 |
-| deportes_previo | tocadas | 4356 | 98.05c | 97.42% | -0.63 pts | -1.10 a -0.17 | 115 |
+| deportes_previo | todas | 4478 | 98.02c | 97.47% | -0.55 pts | -1.01 a -0.10 | 116 |
+| deportes_previo | tocadas | 4372 | 98.05c | 97.43% | -0.62 pts | -1.09 a -0.16 | 115 |
 | otros_cierre | todas | 1205 | 99.00c | 97.26% | -1.74 pts | -2.66 a -0.83 | 33 |
 | otros_cierre | tocadas | 1126 | 98.97c | 97.07% | -1.90 pts | -2.88 a -0.92 | 33 |
 | post_fin_90_97 | todas | 95 | 94.32c | 96.84% | +2.52 pts | -1.01 a +6.05 | 3 |
 | post_fin_90_97 | tocadas | 77 | 94.37c | 96.10% | +1.73 pts | -2.60 a +6.06 | 3 |
-| TOTAL | todas | 9765 | 98.42c | 97.96% | -0.46 pts | -0.74 a -0.18 | 202 |
-| TOTAL | tocadas | 9239 | 98.44c | 97.85% | -0.59 pts | -0.88 a -0.29 | 201 |
+| TOTAL | todas | 9781 | 98.42c | 97.96% | -0.46 pts | -0.74 a -0.18 | 202 |
+| TOTAL | tocadas | 9255 | 98.44c | 97.86% | -0.58 pts | -0.87 a -0.29 | 201 |
 
 Peores casos del registro sombra:
 
@@ -75,4 +76,4 @@ Peores casos del registro sombra:
 
 ## Veredicto
 
-Aun no hay veredicto: van 170 operaciones cerradas en 8.9 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
+Aun no hay veredicto: van 170 operaciones cerradas en 9.0 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
