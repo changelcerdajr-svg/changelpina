@@ -1,6 +1,6 @@
 {
  "capital0": 1000.0,
- "cash": 360.6683,
+ "cash": 411.6738,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
   {
@@ -65,27 +65,6 @@
    "end_ts": 1795348800.0,
    "hours": 3.98,
    "liq": 13261
-  },
-  {
-   "oid": "6874110-1795341103",
-   "id": "6874110",
-   "q": "Trabzonspor vs. Eyüpspor: Neither team to score first?",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1342341",
-   "side": 1,
-   "token": "104348780519445919490637948208473125609646738749305913478640593571587317440235",
-   "px": 0.982,
-   "tick": 0.001,
-   "mid": 0.9825,
-   "bid": 0.969,
-   "ask": 0.996,
-   "shares": 44.4682,
-   "cost": 43.6678,
-   "ts": 1795341103.845728,
-   "end_ts": 1795363200.0,
-   "hours": 6.14,
-   "liq": 4317
   },
   {
    "oid": "6898257-1795345267",
@@ -193,27 +172,6 @@
    "liq": 9635
   },
   {
-   "oid": "7193313-1795359662",
-   "id": "7193313",
-   "q": "Will the highest temperature in Austin be between 76-77°F on November 22?",
-   "cat": "clima",
-   "rule": "post_fin_95_97",
-   "event": "1429927",
-   "side": 1,
-   "token": "114408194996651606382281006501729895070722520366022840237070370479258809696781",
-   "px": 0.953,
-   "tick": 0.001,
-   "mid": 0.953,
-   "bid": 0.941,
-   "ask": 0.965,
-   "shares": 53.6145,
-   "cost": 51.0946,
-   "ts": 1795359662.876824,
-   "end_ts": 1795348800.0,
-   "hours": -3.02,
-   "liq": 1090
-  },
-  {
    "oid": "6643237-1795359662",
    "id": "6643237",
    "q": "Spread: Raiders (-10.5)",
@@ -233,6 +191,27 @@
    "end_ts": 1795382700.0,
    "hours": 6.4,
    "liq": 12542
+  },
+  {
+   "oid": "6930541-1795363274",
+   "id": "6930541",
+   "q": "Spread: Red Bull Bragantino (-3.5)",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1356552",
+   "side": 1,
+   "token": "91000871002609287690481851230815086734038942339449003623803853374136612772947",
+   "px": 0.979,
+   "tick": 0.001,
+   "mid": 0.9795,
+   "bid": 0.975,
+   "ask": 0.984,
+   "shares": 44.6955,
+   "cost": 43.7569,
+   "ts": 1795363274.498909,
+   "end_ts": 1795386600.0,
+   "hours": 6.48,
+   "liq": 5003
   }
  ],
  "positions": [
@@ -282,7 +261,7 @@
    "hours": 22.98,
    "liq": 62011,
    "fill_ts": 1795330863.301342,
-   "mark": 0.9885,
+   "mark": 0.9905,
    "stuck": false,
    "disputed": false
   },
@@ -332,7 +311,9 @@
    "hours": 6.48,
    "liq": 3103,
    "fill_ts": 1795359662.876824,
-   "mark": 0.972
+   "mark": 0.9695,
+   "stuck": false,
+   "disputed": false
   }
  ],
  "closed": [
@@ -6120,14 +6101,27 @@
    "placed": 2,
    "shadow_open": 709,
    "shadow_closed": 6
+  },
+  {
+   "ts": "2026-11-22T16:02:31Z",
+   "equity": 1021.87,
+   "cash": 411.67,
+   "orders": 10,
+   "positions": 4,
+   "closed": 93,
+   "scanned": 14613,
+   "candidates": 131,
+   "placed": 1,
+   "shadow_open": 674,
+   "shadow_closed": 40
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 392,
+  "placed": 393,
   "filled": 97,
   "expired": 86,
-  "touched_not_filled": 198
+  "touched_not_filled": 200
  },
  "shadow": [
   {
@@ -6625,58 +6619,6 @@
    "touched": 1
   },
   {
-   "id": "6895980",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "44775613824198774447203172008832734336995086124643766877261282345923885880537",
-   "px": 0.99,
-   "tick": 0.001,
-   "ts": 1795244466,
-   "end_ts": 1795352400,
-   "q": "FC Barcelona vs. Villarreal CF: Neither team to score first?",
-   "touched": 1
-  },
-  {
-   "id": "6898357",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "3568258851856739834526825517424689472876362812969374601833188498838668402209",
-   "px": 0.979,
-   "tick": 0.001,
-   "ts": 1795244466,
-   "end_ts": 1795352400,
-   "q": "Spread: Villarreal CF (-1.5)",
-   "touched": 1
-  },
-  {
-   "id": "6898359",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "82534054443275424923887859202523021072843443390888662827618398281100892566039",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795244466,
-   "end_ts": 1795352400,
-   "q": "Spread: Villarreal CF (-2.5)",
-   "touched": 1
-  },
-  {
-   "id": "6898366",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "84966887953138846191759383845307043789192342496603496762193758107744468093656",
-   "px": 0.988,
-   "tick": 0.001,
-   "ts": 1795244466,
-   "end_ts": 1795352400,
-   "q": "FC Barcelona vs. Villarreal CF: O/U 0.5",
-   "touched": 1
-  },
-  {
    "id": "6905047",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -6752,19 +6694,6 @@
    "ts": 1795248071,
    "end_ts": 1795356000,
    "q": "US Sassuolo Calcio vs. Genoa CFC: O/U 6.5",
-   "touched": 1
-  },
-  {
-   "id": "6893829",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "32464910310449750833977114260684605064359509918660545926466678881374942366601",
-   "px": 0.972,
-   "tick": 0.001,
-   "ts": 1795248071,
-   "end_ts": 1795356000,
-   "q": "US Sassuolo Calcio vs. Genoa CFC: 1st Half O/U 3.5",
    "touched": 1
   },
   {
@@ -7142,45 +7071,6 @@
    "ts": 1795262465,
    "end_ts": 1795348800,
    "q": "Will \"The Hunger Games: Sunrise on the Reaping\" Opening Weekend Box Office be at least 130",
-   "touched": 1
-  },
-  {
-   "id": "6867395",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "101863415562827738956805723545256745108686194686375791376304690332983000658791",
-   "px": 0.988,
-   "tick": 0.001,
-   "ts": 1795262465,
-   "end_ts": 1795346100,
-   "q": "FC Twente vs. Willem II Tilburg: Neither team to score first?",
-   "touched": 1
-  },
-  {
-   "id": "6896152",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "93117605336406764325302482091354363132865530222425244392778975682734053415546",
-   "px": 0.984,
-   "tick": 0.001,
-   "ts": 1795262465,
-   "end_ts": 1795346100,
-   "q": "Spread: Willem II Tilburg (-1.5)",
-   "touched": 1
-  },
-  {
-   "id": "6896188",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "38640423278283767257898538522503049815420567368485562230322652658242787834758",
-   "px": 0.981,
-   "tick": 0.001,
-   "ts": 1795262465,
-   "end_ts": 1795346100,
-   "q": "FC Twente vs. Willem II Tilburg: O/U 0.5",
    "touched": 1
   },
   {
@@ -8000,19 +7890,6 @@
    "ts": 1795277622,
    "end_ts": 1795376700,
    "q": "Spread: Le Mans FC (-2.5)",
-   "touched": 1
-  },
-  {
-   "id": "6867352",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "107984056581399034490290950247156266745924149185529497707032208328064280480359",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1795280481,
-   "end_ts": 1795346100,
-   "q": "Will Willem II Tilburg win on 2026-11-22?",
    "touched": 1
   },
   {
@@ -9108,19 +8985,6 @@
    "touched": 1
   },
   {
-   "id": "6896157",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "27379053258610051655253260047966720938505036960786585801511225810707081576841",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795309263,
-   "end_ts": 1795346100,
-   "q": "Spread: Willem II Tilburg (-2.5)",
-   "touched": 1
-  },
-  {
    "id": "6902314",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -9144,19 +9008,6 @@
    "ts": 1795309263,
    "end_ts": 1795348800,
    "q": "Burnley FC vs. Blackburn Rovers FC: O/U 8.5",
-   "touched": 1
-  },
-  {
-   "id": "7064567",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "66172972411549683199460870297665512351739956794226097370044076608485031308935",
-   "px": 0.991,
-   "tick": 0.001,
-   "ts": 1795309263,
-   "end_ts": 1795346100,
-   "q": "RKS Rakow Czestochowa vs. Widzew Lodz: O/U 7.5",
    "touched": 1
   },
   {
@@ -9209,19 +9060,6 @@
    "ts": 1795309263,
    "end_ts": 1795392000,
    "q": "Delaware Fightin' Blue Hens vs. UCLA Bruins",
-   "touched": 1
-  },
-  {
-   "id": "6904239",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "47900799888328978189119598951010792470824161722244544888097292543979009978887",
-   "px": 0.989,
-   "tick": 0.001,
-   "ts": 1795312862,
-   "end_ts": 1795348800,
-   "q": "FK Pardubice vs. FC Zbrojovka Brno: O/U 7.5",
    "touched": 1
   },
   {
@@ -9342,84 +9180,6 @@
    "touched": 1
   },
   {
-   "id": "6822943",
-   "rule": "post_fin_95_97",
-   "cat": "deportes",
-   "side": 1,
-   "token": "80166930760691381664859483009861025683561229194696424253536027638346343719736",
-   "px": 0.96,
-   "tick": 0.01,
-   "ts": 1795316463,
-   "end_ts": 1795305600,
-   "q": "Spread: Miami (FL) (-16.5)",
-   "touched": null
-  },
-  {
-   "id": "6822944",
-   "rule": "post_fin_95_97",
-   "cat": "deportes",
-   "side": 1,
-   "token": "40746641541268477515060992145248062504861585423800046916546735501382355343192",
-   "px": 0.967,
-   "tick": 0.001,
-   "ts": 1795316463,
-   "end_ts": 1795305600,
-   "q": "Spread: Miami (FL) (-17.5)",
-   "touched": null
-  },
-  {
-   "id": "6822962",
-   "rule": "post_fin_95_97",
-   "cat": "deportes",
-   "side": 1,
-   "token": "56315136053704364960283455909729544076081605003119397019375350899029244411993",
-   "px": 0.95,
-   "tick": 0.01,
-   "ts": 1795316463,
-   "end_ts": 1795305600,
-   "q": "Virginia Tech vs. Miami (FL): O/U 67.5",
-   "touched": null
-  },
-  {
-   "id": "6823059",
-   "rule": "post_fin_95_97",
-   "cat": "deportes",
-   "side": 1,
-   "token": "47983023989204278272980542582340844128435456444837295510263074302162102242770",
-   "px": 0.95,
-   "tick": 0.01,
-   "ts": 1795316463,
-   "end_ts": 1795305600,
-   "q": "Arkansas State vs. Louisiana Tech: O/U 51.5",
-   "touched": null
-  },
-  {
-   "id": "6823060",
-   "rule": "post_fin_95_97",
-   "cat": "deportes",
-   "side": 1,
-   "token": "44026810379369746497420000460491629893459370253278192555574123317771477883512",
-   "px": 0.96,
-   "tick": 0.001,
-   "ts": 1795316463,
-   "end_ts": 1795305600,
-   "q": "Arkansas State vs. Louisiana Tech: O/U 53.5",
-   "touched": null
-  },
-  {
-   "id": "6884469",
-   "rule": "post_fin_95_97",
-   "cat": "deportes",
-   "side": 1,
-   "token": "22799618594586022048088278332888269540377387930494789356955182041022814198528",
-   "px": 0.965,
-   "tick": 0.001,
-   "ts": 1795316463,
-   "end_ts": 1795305600,
-   "q": "Spread: UNLV (-16.5)",
-   "touched": null
-  },
-  {
    "id": "7042848",
    "rule": "post_fin_95_97",
    "cat": "deportes",
@@ -9430,7 +9190,7 @@
    "ts": 1795316463,
    "end_ts": 1795305600,
    "q": "Will Harris English win the 2026 The RSM Classic?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7042889",
@@ -9443,7 +9203,7 @@
    "ts": 1795316463,
    "end_ts": 1795305600,
    "q": "Will Harry Hall win the 2026 The RSM Classic?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7043004",
@@ -9456,98 +9216,7 @@
    "ts": 1795316463,
    "end_ts": 1795305600,
    "q": "Will Max McGreevy win the 2026 The RSM Classic?",
-   "touched": null
-  },
-  {
-   "id": "7217571",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "100483615189420233425447587677478602970152716776235657567086186990164288126552",
-   "px": 0.985,
-   "tick": 0.001,
-   "ts": 1795316463,
-   "end_ts": 1795323600,
-   "q": "Will Solana reach $75 on November 21?",
-   "touched": null
-  },
-  {
-   "id": "6904238",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "113093584123643830241608892917794384016404539287338351294474426784114294327747",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1795316463,
-   "end_ts": 1795348800,
-   "q": "FK Pardubice vs. FC Zbrojovka Brno: O/U 6.5",
-   "touched": null
-  },
-  {
-   "id": "6906518",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "49424521135934236973080749152149351378188187107075293126625288589497589676778",
-   "px": 0.983,
-   "tick": 0.001,
-   "ts": 1795316463,
-   "end_ts": 1795343400,
-   "q": "Spread: Erzurumspor FK (-3.5)",
-   "touched": null
-  },
-  {
-   "id": "6906531",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "7537032041229191234973895391709203405856087135506065900042261932646714120585",
-   "px": 0.993,
-   "tick": 0.001,
-   "ts": 1795316463,
-   "end_ts": 1795343400,
-   "q": "Erzurumspor FK vs. Göztepe SK: O/U 7.5",
-   "touched": null
-  },
-  {
-   "id": "6906532",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "29969533173386668535093678427086964942371200614125138386348069608396373190384",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1795316463,
-   "end_ts": 1795343400,
-   "q": "Erzurumspor FK vs. Göztepe SK: O/U 8.5",
-   "touched": null
-  },
-  {
-   "id": "7172043",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "26978923016720576306203238279196866326536616177620716313816141611434865762042",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1795316463,
-   "end_ts": 1795348800,
-   "q": "FK Radnicki 1923 Kragujevac vs. FK Cukaricki Belgrade: O/U 6.5",
-   "touched": null
-  },
-  {
-   "id": "7183092",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "22528168885305667307048277178816261135649589072405190995404313691508736067509",
-   "px": 0.974,
-   "tick": 0.001,
-   "ts": 1795316463,
-   "end_ts": 1795343400,
-   "q": "Viimsi JK vs. FC Kuressaare: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6893902",
@@ -9560,7 +9229,7 @@
    "ts": 1795316463,
    "end_ts": 1795356000,
    "q": "Bologna FC 1909 vs. Udinese Calcio: O/U 8.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6895921",
@@ -9573,7 +9242,7 @@
    "ts": 1795316463,
    "end_ts": 1795354200,
    "q": "Sparta Rotterdam vs. AZ: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6896017",
@@ -9586,7 +9255,7 @@
    "ts": 1795316463,
    "end_ts": 1795354200,
    "q": "Spread: ADO Den Haag (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6905048",
@@ -9599,7 +9268,7 @@
    "ts": 1795316463,
    "end_ts": 1795350600,
    "q": "1. FC Kaiserslautern vs. SG Dynamo Dresden: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6905085",
@@ -9612,7 +9281,7 @@
    "ts": 1795316463,
    "end_ts": 1795350600,
    "q": "Karlsruher SC vs. VfL Osnabrück: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6905107",
@@ -9625,7 +9294,7 @@
    "ts": 1795316463,
    "end_ts": 1795350600,
    "q": "Spread: FC Energie Cottbus (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6905123",
@@ -9638,7 +9307,7 @@
    "ts": 1795316463,
    "end_ts": 1795350600,
    "q": "FC Energie Cottbus vs. Hertha BSC: O/U 8.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6906494",
@@ -9651,7 +9320,7 @@
    "ts": 1795316463,
    "end_ts": 1795352400,
    "q": "Konyaspor vs. Beşiktaş JK: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6910295",
@@ -9664,7 +9333,7 @@
    "ts": 1795316463,
    "end_ts": 1795352400,
    "q": "Spread: Silkeborg IF (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6910306",
@@ -9677,7 +9346,7 @@
    "ts": 1795316463,
    "end_ts": 1795352400,
    "q": "AC Horsens vs. Silkeborg IF: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6910344",
@@ -9690,7 +9359,7 @@
    "ts": 1795316463,
    "end_ts": 1795352400,
    "q": "Viborg FF vs. Randers FC: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6913733",
@@ -9703,7 +9372,7 @@
    "ts": 1795316463,
    "end_ts": 1795352400,
    "q": "Córdoba CF vs. Real Oviedo: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6916021",
@@ -9716,7 +9385,7 @@
    "ts": 1795316463,
    "end_ts": 1795356000,
    "q": "US Avellino 1912 vs. Mantova 1911: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6962637",
@@ -9729,7 +9398,7 @@
    "ts": 1795316463,
    "end_ts": 1795356000,
    "q": "GNK Dinamo Zagreb vs. NK Istra 1961: O/U 0.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6962644",
@@ -9742,20 +9411,7 @@
    "ts": 1795316463,
    "end_ts": 1795356000,
    "q": "GNK Dinamo Zagreb vs. NK Istra 1961: O/U 7.5",
-   "touched": null
-  },
-  {
-   "id": "7039596",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "4390581725656595532655150738413276275957946997294494462437077325676106063940",
-   "px": 0.978,
-   "tick": 0.001,
-   "ts": 1795316463,
-   "end_ts": 1795352400,
-   "q": "1st Half Spread: Villarreal CF (-1.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7066856",
@@ -9768,7 +9424,7 @@
    "ts": 1795316463,
    "end_ts": 1795350600,
    "q": "SK Beveren vs. KAA Gent: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7069711",
@@ -9781,7 +9437,7 @@
    "ts": 1795316463,
    "end_ts": 1795354200,
    "q": "Wolfsberger AC vs. SV Ried: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6893442",
@@ -9794,7 +9450,7 @@
    "ts": 1795316463,
    "end_ts": 1795365000,
    "q": "Liverpool FC vs. Manchester United FC: O/U 8.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6998499",
@@ -9807,7 +9463,7 @@
    "ts": 1795316463,
    "end_ts": 1795384800,
    "q": "NJIT Highlanders vs. Boston College Eagles",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7230024",
@@ -9820,7 +9476,7 @@
    "ts": 1795316463,
    "end_ts": 1795384800,
    "q": "Sabres vs. Lightning: O/U 2.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7244414",
@@ -9833,7 +9489,7 @@
    "ts": 1795316463,
    "end_ts": 1795397400,
    "q": "Spread: Real Salt Lake (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7244421",
@@ -9846,111 +9502,7 @@
    "ts": 1795316463,
    "end_ts": 1795397400,
    "q": "Vancouver Whitecaps FC vs. Real Salt Lake: O/U 0.5",
-   "touched": null
-  },
-  {
-   "id": "6822346",
-   "rule": "post_fin_95_97",
-   "cat": "deportes",
-   "side": 1,
-   "token": "42118717121408897087537750320411890195083472400736465944142219963988327144865",
-   "px": 0.959,
-   "tick": 0.001,
-   "ts": 1795320067,
-   "end_ts": 1795309200,
-   "q": "Spread: UAB (-5.5)",
-   "touched": null
-  },
-  {
-   "id": "6822366",
-   "rule": "post_fin_95_97",
-   "cat": "deportes",
-   "side": 1,
-   "token": "30519094832997934402363450440181175193323241903819134491332452365412436359869",
-   "px": 0.95,
-   "tick": 0.01,
-   "ts": 1795320067,
-   "end_ts": 1795309200,
-   "q": "UTSA vs. UAB: O/U 55.5",
-   "touched": null
-  },
-  {
-   "id": "7213665",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "9398325956860410168603422348312432949504975159261949568768760273622819595889",
-   "px": 0.978,
-   "tick": 0.001,
-   "ts": 1795320067,
-   "end_ts": 1795323600,
-   "q": "Bitcoin Up or Down - November 21, 8:00PM-12:00AM ET",
-   "touched": null
-  },
-  {
-   "id": "7216268",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 0,
-   "token": "112860923473262451341187172113196533142781163722031652488099442604582734101434",
-   "px": 0.985,
-   "tick": 0.001,
-   "ts": 1795320067,
-   "end_ts": 1795320300,
-   "q": "Ethereum Up or Down - November 21, 11:00PM-11:05PM ET",
-   "touched": null
-  },
-  {
-   "id": "7217503",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "56837027897166259864849066348973351637942412537270383970998845025446520238396",
-   "px": 0.991,
-   "tick": 0.001,
-   "ts": 1795320067,
-   "end_ts": 1795323600,
-   "q": "Will Bitcoin reach $61,000 on November 21?",
-   "touched": null
-  },
-  {
-   "id": "6896164",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "80266994563188129574009797812933069914182833003514504458316702839567756754136",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795320067,
-   "end_ts": 1795346100,
-   "q": "Spread: Willem II Tilburg (-3.5)",
-   "touched": null
-  },
-  {
-   "id": "6896211",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "15411643113394425482700876900997160002363000465347898706173041358190584812112",
-   "px": 0.974,
-   "tick": 0.001,
-   "ts": 1795320067,
-   "end_ts": 1795346100,
-   "q": "FC Twente vs. Willem II Tilburg: O/U 8.5",
-   "touched": null
-  },
-  {
-   "id": "6904223",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "87374222157437142761940867810273902249483909622775131475588708010606929502044",
-   "px": 0.974,
-   "tick": 0.001,
-   "ts": 1795320067,
-   "end_ts": 1795348800,
-   "q": "Spread: FC Zbrojovka Brno (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6905035",
@@ -9963,7 +9515,7 @@
    "ts": 1795320067,
    "end_ts": 1795350600,
    "q": "Spread: 1. FC Kaiserslautern (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6905036",
@@ -9976,7 +9528,7 @@
    "ts": 1795320067,
    "end_ts": 1795350600,
    "q": "Spread: SG Dynamo Dresden (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6905072",
@@ -9989,7 +9541,7 @@
    "ts": 1795320067,
    "end_ts": 1795350600,
    "q": "Spread: Karlsruher SC (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6905073",
@@ -10002,7 +9554,7 @@
    "ts": 1795320067,
    "end_ts": 1795350600,
    "q": "Spread: VfL Osnabrück (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6905086",
@@ -10015,7 +9567,7 @@
    "ts": 1795320067,
    "end_ts": 1795350600,
    "q": "Karlsruher SC vs. VfL Osnabrück: O/U 8.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6905109",
@@ -10028,7 +9580,7 @@
    "ts": 1795320067,
    "end_ts": 1795350600,
    "q": "Spread: FC Energie Cottbus (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6906400",
@@ -10041,7 +9593,7 @@
    "ts": 1795320067,
    "end_ts": 1795352400,
    "q": "Spread: Alanyaspor (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6906420",
@@ -10054,7 +9606,7 @@
    "ts": 1795320067,
    "end_ts": 1795352400,
    "q": "Kasımpaşa SK vs. Alanyaspor: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6910294",
@@ -10067,7 +9619,7 @@
    "ts": 1795320067,
    "end_ts": 1795352400,
    "q": "Spread: AC Horsens (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6910307",
@@ -10080,7 +9632,7 @@
    "ts": 1795320067,
    "end_ts": 1795352400,
    "q": "AC Horsens vs. Silkeborg IF: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6913721",
@@ -10093,72 +9645,7 @@
    "ts": 1795320067,
    "end_ts": 1795352400,
    "q": "Spread: Real Oviedo (-3.5)",
-   "touched": null
-  },
-  {
-   "id": "6925345",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "54074154321112173936912495068485430763672429671858015990780204024026432774905",
-   "px": 0.986,
-   "tick": 0.001,
-   "ts": 1795320067,
-   "end_ts": 1795345200,
-   "q": "Spread: FK Obolon Kyiv (-1.5)",
-   "touched": null
-  },
-  {
-   "id": "6925360",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "103011124116688124293276274858003262372765824407239869006572616916171632638665",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795320067,
-   "end_ts": 1795345200,
-   "q": "Spread: FK Obolon Kyiv (-2.5)",
-   "touched": null
-  },
-  {
-   "id": "6925433",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "42777574001124210175837153334189609813584581440944523443055635391616951888039",
-   "px": 0.985,
-   "tick": 0.001,
-   "ts": 1795320067,
-   "end_ts": 1795345200,
-   "q": "FK Dynamo Kyiv vs. FK Obolon Kyiv: O/U 7.5",
-   "touched": null
-  },
-  {
-   "id": "7064566",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "59673594828171878221512604572817661701907627635567196025677650421895014433321",
-   "px": 0.972,
-   "tick": 0.001,
-   "ts": 1795320067,
-   "end_ts": 1795346100,
-   "q": "RKS Rakow Czestochowa vs. Widzew Lodz: O/U 6.5",
-   "touched": null
-  },
-  {
-   "id": "7065190",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "109027171071478754210835677147405446796507896020007822537035511625364234487170",
-   "px": 0.972,
-   "tick": 0.001,
-   "ts": 1795320067,
-   "end_ts": 1795345200,
-   "q": "Spread: POFC Botev Vratsa (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7066842",
@@ -10171,7 +9658,7 @@
    "ts": 1795320067,
    "end_ts": 1795350600,
    "q": "Spread: SK Beveren (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7069394",
@@ -10184,7 +9671,7 @@
    "ts": 1795320067,
    "end_ts": 1795350600,
    "q": "VfB Stuttgart II vs. FC Ingolstadt 04: O/U 0.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7070038",
@@ -10197,7 +9684,7 @@
    "ts": 1795320067,
    "end_ts": 1795352400,
    "q": "Spread: FC Zurich (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7070065",
@@ -10210,7 +9697,7 @@
    "ts": 1795320067,
    "end_ts": 1795352400,
    "q": "FC Zurich vs. FC St. Gallen 1879: O/U 8.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7088125",
@@ -10223,7 +9710,7 @@
    "ts": 1795320067,
    "end_ts": 1795352400,
    "q": "Spread: IK Sirius (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7088126",
@@ -10236,7 +9723,7 @@
    "ts": 1795320067,
    "end_ts": 1795352400,
    "q": "Spread: Djurgardens IF (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7088137",
@@ -10249,7 +9736,7 @@
    "ts": 1795320067,
    "end_ts": 1795352400,
    "q": "IK Sirius vs. Djurgardens IF: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7088138",
@@ -10262,7 +9749,7 @@
    "ts": 1795320067,
    "end_ts": 1795352400,
    "q": "IK Sirius vs. Djurgardens IF: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7088161",
@@ -10275,7 +9762,7 @@
    "ts": 1795320067,
    "end_ts": 1795352400,
    "q": "Spread: IF Elfsborg (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7088175",
@@ -10288,7 +9775,7 @@
    "ts": 1795320067,
    "end_ts": 1795352400,
    "q": "BK Hacken vs. IF Elfsborg: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7088176",
@@ -10301,7 +9788,7 @@
    "ts": 1795320067,
    "end_ts": 1795352400,
    "q": "BK Hacken vs. IF Elfsborg: O/U 8.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7099154",
@@ -10314,7 +9801,7 @@
    "ts": 1795320067,
    "end_ts": 1795350600,
    "q": "Zalaegerszeg TE vs. Vasas FC: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7099956",
@@ -10327,20 +9814,7 @@
    "ts": 1795320067,
    "end_ts": 1795352400,
    "q": "Spread: Antalyaspor (-2.5)",
-   "touched": null
-  },
-  {
-   "id": "7104495",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "56128065951665163166356471965766381599414961427925436122743192544752514334846",
-   "px": 0.974,
-   "tick": 0.001,
-   "ts": 1795320067,
-   "end_ts": 1795348800,
-   "q": "Manchester City WFC vs. Tottenham Hotspur FC: O/U 0.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6893795",
@@ -10353,7 +9827,7 @@
    "ts": 1795320067,
    "end_ts": 1795356000,
    "q": "Spread: Angers SCO (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6893814",
@@ -10366,7 +9840,7 @@
    "ts": 1795320067,
    "end_ts": 1795356000,
    "q": "US Sassuolo Calcio vs. Genoa CFC: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6893816",
@@ -10379,7 +9853,7 @@
    "ts": 1795320067,
    "end_ts": 1795356000,
    "q": "US Sassuolo Calcio vs. Genoa CFC: O/U 8.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6893818",
@@ -10392,7 +9866,7 @@
    "ts": 1795320067,
    "end_ts": 1795356000,
    "q": "Paris FC vs. Angers SCO: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6893821",
@@ -10405,7 +9879,7 @@
    "ts": 1795320067,
    "end_ts": 1795356000,
    "q": "Paris FC vs. Angers SCO: O/U 8.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6893901",
@@ -10418,7 +9892,7 @@
    "ts": 1795320067,
    "end_ts": 1795356000,
    "q": "Bologna FC 1909 vs. Udinese Calcio: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6895889",
@@ -10431,7 +9905,7 @@
    "ts": 1795320067,
    "end_ts": 1795354200,
    "q": "Spread: Sparta Rotterdam (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6896023",
@@ -10444,7 +9918,7 @@
    "ts": 1795320067,
    "end_ts": 1795354200,
    "q": "Spread: ADO Den Haag (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6896069",
@@ -10457,7 +9931,7 @@
    "ts": 1795320067,
    "end_ts": 1795354200,
    "q": "AFC Ajax vs. ADO Den Haag: O/U 8.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6898322",
@@ -10470,7 +9944,7 @@
    "ts": 1795320067,
    "end_ts": 1795360500,
    "q": "Real Racing Club vs. Real Sociedad de Fútbol: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6903646",
@@ -10483,7 +9957,7 @@
    "ts": 1795320067,
    "end_ts": 1795359600,
    "q": "CD Huachipato vs. CD Concepción: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6903902",
@@ -10496,7 +9970,7 @@
    "ts": 1795320067,
    "end_ts": 1795357800,
    "q": "FC Košice vs. MFK Skalica: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6904199",
@@ -10509,7 +9983,7 @@
    "ts": 1795320067,
    "end_ts": 1795356000,
    "q": "1. FC Slovácko vs. FC Hradec Králové: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6906314",
@@ -10522,7 +9996,7 @@
    "ts": 1795320067,
    "end_ts": 1795363200,
    "q": "Spread: Eyüpspor (-1.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6906318",
@@ -10535,7 +10009,7 @@
    "ts": 1795320067,
    "end_ts": 1795363200,
    "q": "Spread: Eyüpspor (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6906320",
@@ -10548,7 +10022,7 @@
    "ts": 1795320067,
    "end_ts": 1795363200,
    "q": "Spread: Eyüpspor (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6909388",
@@ -10561,7 +10035,7 @@
    "ts": 1795320067,
    "end_ts": 1795363200,
    "q": "Spread: Aalesunds FK (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6909449",
@@ -10574,7 +10048,7 @@
    "ts": 1795320067,
    "end_ts": 1795363200,
    "q": "Spread: KFUM-Kameratene Oslo (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6909484",
@@ -10587,7 +10061,7 @@
    "ts": 1795320067,
    "end_ts": 1795363200,
    "q": "KFUM-Kameratene Oslo vs. SK Brann: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6909529",
@@ -10600,7 +10074,7 @@
    "ts": 1795320067,
    "end_ts": 1795363200,
    "q": "Spread: Kristiansund BK (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6909550",
@@ -10613,7 +10087,7 @@
    "ts": 1795320067,
    "end_ts": 1795363200,
    "q": "Kristiansund BK vs. Sandefjord Fotball: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6910257",
@@ -10626,7 +10100,7 @@
    "ts": 1795320067,
    "end_ts": 1795359600,
    "q": "Spread: Sønderjyske Fodbold (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6910270",
@@ -10639,7 +10113,7 @@
    "ts": 1795320067,
    "end_ts": 1795359600,
    "q": "Sønderjyske Fodbold vs. Odense BK: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6913673",
@@ -10652,7 +10126,7 @@
    "ts": 1795320067,
    "end_ts": 1795360500,
    "q": "Spread: UD Las Palmas (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6913674",
@@ -10665,7 +10139,7 @@
    "ts": 1795320067,
    "end_ts": 1795360500,
    "q": "Spread: Real Sporting de Gijón (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6913686",
@@ -10678,7 +10152,7 @@
    "ts": 1795320067,
    "end_ts": 1795360500,
    "q": "Real Sporting de Gijón vs. UD Las Palmas: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6916010",
@@ -10691,7 +10165,7 @@
    "ts": 1795320067,
    "end_ts": 1795356000,
    "q": "Spread: Mantova 1911 (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6916022",
@@ -10704,7 +10178,7 @@
    "ts": 1795320067,
    "end_ts": 1795356000,
    "q": "US Avellino 1912 vs. Mantova 1911: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6925151",
@@ -10717,7 +10191,7 @@
    "ts": 1795320067,
    "end_ts": 1795362300,
    "q": "Spread: Fortuna Sittard (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6925230",
@@ -10730,7 +10204,7 @@
    "ts": 1795320067,
    "end_ts": 1795362300,
    "q": "Go Ahead Eagles vs. Fortuna Sittard: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6962630",
@@ -10743,7 +10217,7 @@
    "ts": 1795320067,
    "end_ts": 1795356000,
    "q": "Spread: NK Istra 1961 (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6962645",
@@ -10756,7 +10230,7 @@
    "ts": 1795320067,
    "end_ts": 1795356000,
    "q": "GNK Dinamo Zagreb vs. NK Istra 1961: O/U 8.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7069655",
@@ -10769,7 +10243,7 @@
    "ts": 1795320067,
    "end_ts": 1795354200,
    "q": "Spread: SCR Altach (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7069672",
@@ -10782,7 +10256,7 @@
    "ts": 1795320067,
    "end_ts": 1795354200,
    "q": "SCR Altach vs. SK Sturm Graz: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7069698",
@@ -10795,7 +10269,7 @@
    "ts": 1795320067,
    "end_ts": 1795354200,
    "q": "Spread: Wolfsberger AC (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7069935",
@@ -10808,7 +10282,7 @@
    "ts": 1795320067,
    "end_ts": 1795355100,
    "q": "Spread: GKS Katowice (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7069948",
@@ -10821,7 +10295,7 @@
    "ts": 1795320067,
    "end_ts": 1795355100,
    "q": "GKS Katowice vs. KKS Lech Poznan: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7070735",
@@ -10834,7 +10308,7 @@
    "ts": 1795320067,
    "end_ts": 1795354200,
    "q": "Spread: AS Gubbio (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6893599",
@@ -10847,7 +10321,7 @@
    "ts": 1795320067,
    "end_ts": 1795364100,
    "q": "Spread: Stade Rennais FC 1901 (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6893648",
@@ -10860,7 +10334,7 @@
    "ts": 1795320067,
    "end_ts": 1795364100,
    "q": "FC Lorient vs. Stade Rennais FC 1901: O/U 7.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6903473",
@@ -10873,7 +10347,7 @@
    "ts": 1795320067,
    "end_ts": 1795374000,
    "q": "Spread: Clube do Remo (-2.5)",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6903488",
@@ -10886,7 +10360,7 @@
    "ts": 1795320067,
    "end_ts": 1795374000,
    "q": "CA Paranaense vs. Clube do Remo: O/U 8.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6904162",
@@ -10899,7 +10373,7 @@
    "ts": 1795320067,
    "end_ts": 1795366800,
    "q": "AC Sparta Praha vs. FC Slovan Liberec: O/U 6.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6904261",
@@ -10912,7 +10386,7 @@
    "ts": 1795320067,
    "end_ts": 1795372200,
    "q": "Spread: FC Argeș Pitești (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6904275",
@@ -10925,7 +10399,7 @@
    "ts": 1795320067,
    "end_ts": 1795372200,
    "q": "FC Argeș Pitești vs. FCSB: O/U 6.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6909233",
@@ -10938,7 +10412,7 @@
    "ts": 1795320067,
    "end_ts": 1795371300,
    "q": "Spread: Lillestrøm SK (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6909259",
@@ -10951,7 +10425,7 @@
    "ts": 1795320067,
    "end_ts": 1795371300,
    "q": "Sarpsborg 08 FF vs. Lillestrøm SK: O/U 0.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6909286",
@@ -10964,7 +10438,7 @@
    "ts": 1795320067,
    "end_ts": 1795371300,
    "q": "Sarpsborg 08 FF vs. Lillestrøm SK: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6910220",
@@ -10977,7 +10451,7 @@
    "ts": 1795320067,
    "end_ts": 1795366800,
    "q": "Spread: FC Nordsjælland (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6910221",
@@ -10990,7 +10464,7 @@
    "ts": 1795320067,
    "end_ts": 1795366800,
    "q": "Spread: FC København (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6910232",
@@ -11003,7 +10477,7 @@
    "ts": 1795320067,
    "end_ts": 1795366800,
    "q": "FC Nordsjælland vs. FC København: O/U 6.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6913498",
@@ -11016,7 +10490,7 @@
    "ts": 1795320067,
    "end_ts": 1795368600,
    "q": "Celta Fortuna vs. Real Valladolid CF: O/U 6.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6913611",
@@ -11029,7 +10503,7 @@
    "ts": 1795320067,
    "end_ts": 1795368600,
    "q": "Spread: SD Eibar (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6893391",
@@ -11042,7 +10516,7 @@
    "ts": 1795320067,
    "end_ts": 1795376700,
    "q": "Spread: Le Mans FC (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6913195",
@@ -11055,7 +10529,7 @@
    "ts": 1795320067,
    "end_ts": 1795377600,
    "q": "Spread: Albacete Balompié (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6913198",
@@ -11068,7 +10542,7 @@
    "ts": 1795320067,
    "end_ts": 1795377600,
    "q": "Spread: Burgos CF (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6924093",
@@ -11081,7 +10555,7 @@
    "ts": 1795320067,
    "end_ts": 1795375800,
    "q": "Spread: Leça FC (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6930586",
@@ -11094,7 +10568,7 @@
    "ts": 1795320067,
    "end_ts": 1795383000,
    "q": "Spread: Mirassol FC (-2.5)",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6930599",
@@ -11107,7 +10581,7 @@
    "ts": 1795320067,
    "end_ts": 1795383000,
    "q": "Fluminense FC vs. Mirassol FC: O/U 6.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6930704",
@@ -11120,7 +10594,7 @@
    "ts": 1795320067,
    "end_ts": 1795381200,
    "q": "CSD Colo-Colo vs. CD Universidad Católica: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6930705",
@@ -11133,7 +10607,7 @@
    "ts": 1795320067,
    "end_ts": 1795381200,
    "q": "CSD Colo-Colo vs. CD Universidad Católica: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7079268",
@@ -11146,7 +10620,7 @@
    "ts": 1795320067,
    "end_ts": 1795381200,
    "q": "Spread: Sportivo Trinidense (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7170957",
@@ -11159,7 +10633,7 @@
    "ts": 1795320067,
    "end_ts": 1795384800,
    "q": "Spread: CA Lanús (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7170967",
@@ -11172,7 +10646,7 @@
    "ts": 1795320067,
    "end_ts": 1795384800,
    "q": "CA River Plate vs. CA Lanús: O/U 5.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7173972",
@@ -11185,7 +10659,7 @@
    "ts": 1795320067,
    "end_ts": 1795383000,
    "q": "AC Goianiense vs. Vila Nova FC: O/U 5.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6930541",
@@ -11198,7 +10672,7 @@
    "ts": 1795320067,
    "end_ts": 1795386600,
    "q": "Spread: Red Bull Bragantino (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6930542",
@@ -11211,7 +10685,7 @@
    "ts": 1795320067,
    "end_ts": 1795386600,
    "q": "Spread: CR Vasco da Gama (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7170889",
@@ -11224,7 +10698,7 @@
    "ts": 1795320067,
    "end_ts": 1795395600,
    "q": "Spread: CA Huracán (-2.5)",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7170890",
@@ -11237,7 +10711,7 @@
    "ts": 1795320067,
    "end_ts": 1795395600,
    "q": "Spread: Instituto AC Córdoba (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7170901",
@@ -11250,7 +10724,7 @@
    "ts": 1795320067,
    "end_ts": 1795395600,
    "q": "Instituto AC Córdoba vs. CA Huracán: O/U 5.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6928013",
@@ -11263,7 +10737,7 @@
    "ts": 1795320067,
    "end_ts": 1795396200,
    "q": "Spread: Club Necaxa (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6928027",
@@ -11276,7 +10750,7 @@
    "ts": 1795320067,
    "end_ts": 1795396200,
    "q": "Querétaro FC vs. Club Necaxa: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7244416",
@@ -11289,7 +10763,7 @@
    "ts": 1795320067,
    "end_ts": 1795397400,
    "q": "Spread: Real Salt Lake (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7244428",
@@ -11302,7 +10776,7 @@
    "ts": 1795320067,
    "end_ts": 1795397400,
    "q": "Vancouver Whitecaps FC vs. Real Salt Lake: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6821904",
@@ -15345,6 +14819,71 @@
    "ts": 1795359662,
    "end_ts": 1795446000,
    "q": "Will \"I Play Rocky\" score at least 88 on the Rotten Tomatoes Tomatometer?",
+   "touched": null
+  },
+  {
+   "id": "7241889",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "19931418033749422384810097169931388965955508233022307869121212616917491112375",
+   "px": 0.986,
+   "tick": 0.001,
+   "ts": 1795363274,
+   "end_ts": 1795392000,
+   "q": "Spread: Bulls (-17.5)",
+   "touched": null
+  },
+  {
+   "id": "6942344",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "89525158751378102980355182543462146519008589192747274686158379530061926176868",
+   "px": 0.986,
+   "tick": 0.001,
+   "ts": 1795363274,
+   "end_ts": 1795409940,
+   "q": "Will UKMTO publish fewer than 4 notices between November 16-November 22?",
+   "touched": null
+  },
+  {
+   "id": "6942345",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "108031293129896114407335858132220757005972597202992336116101379447945919779289",
+   "px": 0.992,
+   "tick": 0.001,
+   "ts": 1795363274,
+   "end_ts": 1795409940,
+   "q": "Will UKMTO publish 4-7 notices between November 16-November 22?",
+   "touched": null
+  },
+  {
+   "id": "6942348",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "74181746561885262638212105549839461973756631447910299070345026911126948994853",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795363274,
+   "end_ts": 1795409940,
+   "q": "Will UKMTO publish 16 or more notices between November 16-November 22?",
+   "touched": null
+  },
+  {
+   "id": "7151120",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "25513552424745218262613011745344703409395790634057609041899400643221426921249",
+   "px": 0.971,
+   "tick": 0.001,
+   "ts": 1795363274,
+   "end_ts": 1795410000,
+   "q": "Will XRP reach $1.00 November 16-22?",
    "touched": null
   }
  ]
