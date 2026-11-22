@@ -2,8 +2,8 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 8.6 de 28 | corridas: 184
-- Capital inicial: $1,000.00 | valor actual: $867.42 | P&L: $-132.58 (-13.26%)
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 8.7 de 28 | corridas: 185
+- Capital inicial: $1,000.00 | valor actual: $821.59 | P&L: $-178.41 (-17.84%)
 - Efectivo libre: $-0.00 | en ordenes abiertas: $167.08 (3) | en posiciones: $710.49 (12)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
 - Ordenes virtuales: 379 colocadas, 172 llenadas, 165 tocadas sin llenarse (sorteo 30%), 39 expiradas
@@ -31,7 +31,7 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
-| $91.77 | 99.8c | 90.1c | otros_cierre |  | Pakistan military action against Afghanistan by November 15, 2026? |
+| $91.77 | 99.8c | 89.7c | otros_cierre |  | Pakistan military action against Afghanistan by November 15, 2026? |
 | $35.36 | 99.8c | 98.9c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $4.5m and $5.5m at auction? |
 | $87.27 | 99.8c | 98.3c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
 | $6.92 | 93.9c | 97.4c | post_fin_90_97 |  | Will the highest temperature in Chicago be between 66-67°F on November 21? |
@@ -41,29 +41,29 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 | $94.88 | 99.8c | 99.5c | clima_cierre |  | Will the next hurricane form between November 17 and November 21, 2026? |
 | $93.98 | 98.5c | 99.7c | cripto_cierre |  | Will Bitcoin reach $64,000 on November 21? |
 | $8.19 | 97.9c | 99.8c | cripto_cierre |  | Will Bitcoin reach $63,000 on November 21? |
-| $86.75 | 98.5c | 98.5c | deportes_previo |  | Spread: Tokushima Vortis (-3.5) |
-| $6.94 | 98.6c | 98.6c | deportes_previo |  | Spread: Shōnan Bellmāre (-3.5) |
+| $86.75 | 98.5c | 49.9c | deportes_previo |  | Spread: Tokushima Vortis (-3.5) |
+| $6.94 | 98.6c | 62.2c | deportes_previo |  | Spread: Shōnan Bellmāre (-3.5) |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 9328 | abiertas: 2595 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 9452 | abiertas: 2766 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
 | clima_cierre | todas | 2583 | 98.84c | 99.07% | +0.24 pts | -0.13 a +0.60 | 24 |
 | clima_cierre | tocadas | 2390 | 98.85c | 99.00% | +0.14 pts | -0.26 a +0.54 | 24 |
-| cripto_cierre | todas | 1279 | 98.71c | 98.05% | -0.67 pts | -1.42 a +0.09 | 25 |
-| cripto_cierre | tocadas | 1160 | 98.75c | 97.84% | -0.90 pts | -1.73 a -0.08 | 25 |
-| deportes_previo | todas | 4179 | 98.03c | 97.38% | -0.65 pts | -1.13 a -0.17 | 112 |
-| deportes_previo | tocadas | 4073 | 98.07c | 97.34% | -0.73 pts | -1.22 a -0.24 | 111 |
+| cripto_cierre | todas | 1282 | 98.71c | 98.05% | -0.66 pts | -1.41 a +0.09 | 25 |
+| cripto_cierre | tocadas | 1163 | 98.75c | 97.85% | -0.90 pts | -1.72 a -0.07 | 25 |
+| deportes_previo | todas | 4293 | 98.02c | 97.40% | -0.62 pts | -1.09 a -0.15 | 114 |
+| deportes_previo | tocadas | 4187 | 98.06c | 97.36% | -0.70 pts | -1.18 a -0.22 | 113 |
 | otros_cierre | todas | 1199 | 99.00c | 97.25% | -1.76 pts | -2.68 a -0.84 | 33 |
 | otros_cierre | tocadas | 1121 | 98.97c | 97.06% | -1.91 pts | -2.90 a -0.93 | 33 |
-| post_fin_90_97 | todas | 88 | 94.33c | 96.59% | +2.26 pts | -1.54 a +6.07 | 3 |
-| post_fin_90_97 | tocadas | 71 | 94.38c | 95.77% | +1.39 pts | -3.30 a +6.09 | 3 |
-| TOTAL | todas | 9328 | 98.44c | 97.91% | -0.52 pts | -0.81 a -0.23 | 197 |
-| TOTAL | tocadas | 8815 | 98.45c | 97.80% | -0.65 pts | -0.95 a -0.35 | 196 |
+| post_fin_90_97 | todas | 95 | 94.32c | 96.84% | +2.52 pts | -1.01 a +6.05 | 3 |
+| post_fin_90_97 | tocadas | 77 | 94.37c | 96.10% | +1.73 pts | -2.60 a +6.06 | 3 |
+| TOTAL | todas | 9452 | 98.43c | 97.92% | -0.50 pts | -0.79 a -0.22 | 199 |
+| TOTAL | tocadas | 8938 | 98.44c | 97.81% | -0.63 pts | -0.93 a -0.33 | 198 |
 
 Peores casos del registro sombra:
 
@@ -80,4 +80,4 @@ Peores casos del registro sombra:
 
 ## Veredicto
 
-Aun no hay veredicto: van 160 operaciones cerradas en 8.6 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
+Aun no hay veredicto: van 160 operaciones cerradas en 8.7 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
