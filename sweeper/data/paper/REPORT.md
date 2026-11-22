@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-11T22:05:26Z | dias corridos: 10.2 de 28 | corridas: 220
-- Capital inicial: $1,000.00 | valor actual: $1,073.09 | P&L: $+73.09 (+7.31%)
-- Efectivo libre: $434.85 | en ordenes abiertas: $319.60 (6) | en posiciones: $316.96 (6)
+- Inicio: 2026-11-11T22:05:26Z | dias corridos: 10.2 de 28 | corridas: 221
+- Capital inicial: $1,000.00 | valor actual: $1,073.25 | P&L: $+73.25 (+7.32%)
+- Efectivo libre: $434.01 | en ordenes abiertas: $320.44 (6) | en posiciones: $316.96 (6)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 370 colocadas, 92 llenadas, 188 tocadas sin llenarse (sorteo 30%), 84 expiradas
+- Ordenes virtuales: 371 colocadas, 92 llenadas, 188 tocadas sin llenarse (sorteo 30%), 85 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -31,27 +31,27 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 | $53.07 | 98.1c | 98.9c | deportes_previo |  | Spread: Pumas de la UNAM (-3.5) |
 | $53.03 | 99.2c | 99.3c | otros_cierre |  | Will the next Claude Opus model (5.6+) be released on November 21, 2026? |
 | $53.03 | 99.2c | 99.7c | cripto_cierre |  | Will Bitcoin reach $64,000 on November 21? |
-| $52.99 | 97.9c | 99.5c | cripto_cierre |  | Will Bitcoin reach $63,000 on November 21? |
+| $52.99 | 97.9c | 99.8c | cripto_cierre |  | Will Bitcoin reach $63,000 on November 21? |
 | $53.01 | 99.4c | 99.8c | cripto_cierre |  | Will Ethereum reach $1,900 on November 21? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 3323 | abiertas: 410 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 3337 | abiertas: 508 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
 | cripto_cierre | todas | 970 | 98.74c | 98.97% | +0.23 pts | -0.41 a +0.86 | 10 |
 | cripto_cierre | tocadas | 654 | 98.57c | 98.47% | -0.10 pts | -1.04 a +0.84 | 10 |
-| deportes_previo | todas | 1794 | 98.32c | 99.00% | +0.68 pts | +0.22 a +1.13 | 19 |
-| deportes_previo | tocadas | 1513 | 98.28c | 98.94% | +0.66 pts | +0.16 a +1.17 | 17 |
-| otros_cierre | todas | 530 | 98.80c | 99.25% | +0.44 pts | -0.30 a +1.18 | 4 |
+| deportes_previo | todas | 1807 | 98.32c | 99.00% | +0.69 pts | +0.24 a +1.14 | 19 |
+| deportes_previo | tocadas | 1523 | 98.28c | 98.95% | +0.67 pts | +0.17 a +1.18 | 17 |
+| otros_cierre | todas | 531 | 98.80c | 99.25% | +0.44 pts | -0.30 a +1.18 | 4 |
 | otros_cierre | tocadas | 358 | 98.70c | 98.88% | +0.19 pts | -0.91 a +1.28 | 4 |
 | post_fin_95_97 | todas | 29 | 96.10c | 93.10% | -3.00 pts | -12.35 a +6.35 | 2 |
 | post_fin_95_97 | tocadas | 24 | 96.12c | 91.67% | -4.45 pts | -15.70 a +6.80 | 2 |
-| TOTAL | todas | 3323 | 98.50c | 98.98% | +0.48 pts | +0.14 a +0.82 | 35 |
-| TOTAL | tocadas | 2549 | 98.39c | 98.74% | +0.35 pts | -0.08 a +0.78 | 33 |
+| TOTAL | todas | 3337 | 98.50c | 98.98% | +0.48 pts | +0.14 a +0.82 | 35 |
+| TOTAL | tocadas | 2559 | 98.39c | 98.75% | +0.36 pts | -0.07 a +0.79 | 33 |
 
 Peores casos del registro sombra:
 
