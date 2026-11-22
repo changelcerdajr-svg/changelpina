@@ -1,6 +1,6 @@
 {
  "capital0": 1000.0,
- "cash": 397.4391,
+ "cash": 407.9862,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
   {
@@ -88,27 +88,6 @@
    "liq": 14006
   },
   {
-   "oid": "7085159-1795327264",
-   "id": "7085159",
-   "q": "Will Bitcoin reach $68,000 November 16-22?",
-   "cat": "cripto",
-   "rule": "cripto_cierre",
-   "event": "1399648",
-   "side": 1,
-   "token": "57549029768364277265424766950805444063914047745557282432970222724564350837033",
-   "px": 0.993,
-   "tick": 0.001,
-   "mid": 0.9935,
-   "bid": 0.993,
-   "ask": 0.994,
-   "shares": 54.0923,
-   "cost": 53.7137,
-   "ts": 1795327264.491833,
-   "end_ts": 1795410000.0,
-   "hours": 22.98,
-   "liq": 50744
-  },
-  {
    "oid": "7085194-1795327264",
    "id": "7085194",
    "q": "Will Ethereum reach $2,100 November 16-22?",
@@ -172,7 +151,7 @@
    "liq": 13261
   },
   {
-   "oid": "6874110-1795338065",
+   "oid": "6874110-1795341103",
    "id": "6874110",
    "q": "Trabzonspor vs. Eyüpspor: Neither team to score first?",
    "cat": "deportes",
@@ -182,15 +161,36 @@
    "token": "104348780519445919490637948208473125609646738749305913478640593571587317440235",
    "px": 0.982,
    "tick": 0.001,
-   "mid": 0.982,
-   "bid": 0.968,
+   "mid": 0.9825,
+   "bid": 0.969,
    "ask": 0.996,
-   "shares": 44.5069,
-   "cost": 43.7058,
-   "ts": 1795338065.325342,
+   "shares": 44.4682,
+   "cost": 43.6678,
+   "ts": 1795341103.845728,
    "end_ts": 1795363200.0,
-   "hours": 6.98,
-   "liq": 4169
+   "hours": 6.14,
+   "liq": 4317
+  },
+  {
+   "oid": "7085150-1795341103",
+   "id": "7085150",
+   "q": "Will Bitcoin reach $72,000 November 16-22?",
+   "cat": "cripto",
+   "rule": "cripto_cierre",
+   "event": "1399648",
+   "side": 1,
+   "token": "104950626044246944494913502731899035062095599081042991431027080799945522049075",
+   "px": 0.998,
+   "tick": 0.001,
+   "mid": 0.9985,
+   "bid": 0.998,
+   "ask": 0.999,
+   "shares": 43.2912,
+   "cost": 43.2046,
+   "ts": 1795341103.845728,
+   "end_ts": 1795410000.0,
+   "hours": 19.14,
+   "liq": 55482
   }
  ],
  "positions": [
@@ -265,7 +265,7 @@
    "hours": 22.98,
    "liq": 62011,
    "fill_ts": 1795330863.301342,
-   "mark": 0.991,
+   "mark": 0.9875,
    "stuck": false,
    "disputed": false
   }
@@ -5934,14 +5934,27 @@
    "placed": 1,
    "shadow_open": 692,
    "shadow_closed": 15
+  },
+  {
+   "ts": "2026-11-22T09:52:47Z",
+   "equity": 1021.73,
+   "cash": 407.99,
+   "orders": 9,
+   "positions": 3,
+   "closed": 92,
+   "scanned": 12754,
+   "candidates": 241,
+   "placed": 2,
+   "shadow_open": 699,
+   "shadow_closed": 0
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 380,
+  "placed": 382,
   "filled": 95,
   "expired": 86,
-  "touched_not_filled": 190
+  "touched_not_filled": 192
  },
  "shadow": [
   {
@@ -8685,7 +8698,7 @@
    "ts": 1795297265,
    "end_ts": 1795350600,
    "q": "FC Energie Cottbus vs. Hertha BSC: O/U 0.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6904304",
@@ -8698,7 +8711,7 @@
    "ts": 1795297265,
    "end_ts": 1795361400,
    "q": "Spread: FC UTA Arad (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7070918",
@@ -8711,7 +8724,7 @@
    "ts": 1795297265,
    "end_ts": 1795354200,
    "q": "Spread: FC Lokomotiv 1929 Sofia (-1.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6640084",
@@ -8724,7 +8737,7 @@
    "ts": 1795297265,
    "end_ts": 1795370400,
    "q": "Spread: Cardinals (-7.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7173997",
@@ -8737,7 +8750,7 @@
    "ts": 1795297265,
    "end_ts": 1795374000,
    "q": "Spread: Fortaleza EC (-2.5)",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7239753",
@@ -8750,7 +8763,7 @@
    "ts": 1795297265,
    "end_ts": 1795381200,
    "q": "Spread: FC Cincinnati (-2.5)",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7239760",
@@ -8763,7 +8776,7 @@
    "ts": 1795297265,
    "end_ts": 1795381200,
    "q": "Nashville SC vs. FC Cincinnati: O/U 0.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6823621",
@@ -14938,6 +14951,97 @@
    "ts": 1795338065,
    "end_ts": 1795410000,
    "q": "Will XRP dip to $0.70 on November 22?",
+   "touched": null
+  },
+  {
+   "id": "7175710",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "90090798686914126476160664059513816518432104229478231268762379576324982204839",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1795341103,
+   "end_ts": 1795348800,
+   "q": "Will \"Ebenezer\" 2nd Weekend Box Office be between 9m and 10.5m?",
+   "touched": null
+  },
+  {
+   "id": "6930914",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "90697440684716433088002186047204936466293333959758872001640001667973777559741",
+   "px": 0.98,
+   "tick": 0.001,
+   "ts": 1795341103,
+   "end_ts": 1795382100,
+   "q": "Spread: Club Blooming (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "7170955",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "37371607162119384096137144037786478716197452764604566112807730953775272123582",
+   "px": 0.99,
+   "tick": 0.001,
+   "ts": 1795341103,
+   "end_ts": 1795384800,
+   "q": "Spread: CA Lanús (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "7234701",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "55636725023773753601675936847169956405563921879479220413556340579288879034694",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795341103,
+   "end_ts": 1795410000,
+   "q": "Will Ethereum reach $1,700 November 16-22?",
+   "touched": null
+  },
+  {
+   "id": "7246812",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "69401734960082979822878738766113161354397776417375254528208366058242966370720",
+   "px": 0.986,
+   "tick": 0.001,
+   "ts": 1795341103,
+   "end_ts": 1795410000,
+   "q": "Will Bitcoin dip to $55,000 on November 22?",
+   "touched": null
+  },
+  {
+   "id": "7246822",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "3538563263998602349719650755861658392172958557912287139246435195344035199262",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795341103,
+   "end_ts": 1795410000,
+   "q": "Will Ethereum reach $1,700 on November 22?",
+   "touched": null
+  },
+  {
+   "id": "7246825",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "111406760223665943487998630468935117949502609781129191296903046786704730710740",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795341103,
+   "end_ts": 1795410000,
+   "q": "Will Ethereum dip to $1,550 on November 22?",
    "touched": null
   }
  ]

@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-11T22:05:26Z | dias corridos: 10.5 de 28 | corridas: 226
-- Capital inicial: $1,000.00 | valor actual: $1,021.92 | P&L: $+21.92 (+2.19%)
-- Efectivo libre: $397.44 | en ordenes abiertas: $464.40 (9) | en posiciones: $159.20 (3)
+- Inicio: 2026-11-11T22:05:26Z | dias corridos: 10.5 de 28 | corridas: 227
+- Capital inicial: $1,000.00 | valor actual: $1,021.73 | P&L: $+21.73 (+2.17%)
+- Efectivo libre: $407.99 | en ordenes abiertas: $453.86 (9) | en posiciones: $159.20 (3)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 380 colocadas, 95 llenadas, 190 tocadas sin llenarse (sorteo 30%), 86 expiradas
+- Ordenes virtuales: 382 colocadas, 95 llenadas, 192 tocadas sin llenarse (sorteo 30%), 86 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -30,13 +30,13 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 |---|---|---|---|---|---|
 | $51.82 | 98.5c | 98.3c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
 | $53.66 | 98.1c | 99.8c | otros_cierre |  | Will xQc finish GTA VI by November 22, 3:59 AM ET? |
-| $53.71 | 99.0c | 99.1c | cripto_cierre |  | Will Bitcoin reach $66,000 November 16-22? |
+| $53.71 | 99.0c | 98.8c | cripto_cierre |  | Will Bitcoin reach $66,000 November 16-22? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 3410 | abiertas: 692 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 3410 | abiertas: 699 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
