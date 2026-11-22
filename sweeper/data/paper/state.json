@@ -307,7 +307,9 @@
    "hours": 19.14,
    "liq": 55482,
    "fill_ts": 1795352463.055688,
-   "mark": 0.998
+   "mark": 0.998,
+   "stuck": false,
+   "disputed": false
   }
  ],
  "closed": [
@@ -6069,6 +6071,19 @@
    "placed": 1,
    "shadow_open": 696,
    "shadow_closed": 15
+  },
+  {
+   "ts": "2026-11-22T14:01:57Z",
+   "equity": 1021.57,
+   "cash": 411.79,
+   "orders": 11,
+   "positions": 3,
+   "closed": 93,
+   "scanned": 15198,
+   "candidates": 145,
+   "placed": 0,
+   "shadow_open": 701,
+   "shadow_closed": 7
   }
  ],
  "halted": false,
@@ -6574,32 +6589,6 @@
    "touched": 1
   },
   {
-   "id": "6893952",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "15257981443478012243943044728590011644726060156975366119530063617225716373618",
-   "px": 0.975,
-   "tick": 0.001,
-   "ts": 1795240865,
-   "end_ts": 1795347000,
-   "q": "Spread: Venezia FC (-1.5)",
-   "touched": 1
-  },
-  {
-   "id": "6893954",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "20619722145333206332862522279552795014318381542464094692430709203116735089069",
-   "px": 0.996,
-   "tick": 0.001,
-   "ts": 1795240865,
-   "end_ts": 1795347000,
-   "q": "Spread: Venezia FC (-2.5)",
-   "touched": 1
-  },
-  {
    "id": "6895980",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -6870,19 +6859,6 @@
    "ts": 1795258866,
    "end_ts": 1795356000,
    "q": "Hull City AFC vs. Brighton & Hove Albion FC: O/U 7.5",
-   "touched": 1
-  },
-  {
-   "id": "6893967",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "17002008183490495713951061843242383733299968513675756410156270323453179278456",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1795258866,
-   "end_ts": 1795347000,
-   "q": "Juventus FC vs. Venezia FC: O/U 6.5",
    "touched": 1
   },
   {
@@ -8355,19 +8331,6 @@
    "touched": 1
   },
   {
-   "id": "6893986",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "31081146235734023438421773429067230049684563724919113213508790760701256726773",
-   "px": 0.987,
-   "tick": 0.001,
-   "ts": 1795287670,
-   "end_ts": 1795347000,
-   "q": "Juventus FC vs. Venezia FC: Venezia FC O/U 3.5",
-   "touched": 1
-  },
-  {
    "id": "6903888",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -9135,32 +9098,6 @@
    "touched": 1
   },
   {
-   "id": "6893968",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "43666986741163183121218116995653089381937404298528381178173803606088794325729",
-   "px": 0.989,
-   "tick": 0.001,
-   "ts": 1795309263,
-   "end_ts": 1795347000,
-   "q": "Juventus FC vs. Venezia FC: O/U 7.5",
-   "touched": 1
-  },
-  {
-   "id": "6893969",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "27156238676356054432674395621024832050061221475758239816095497541899178096074",
-   "px": 0.996,
-   "tick": 0.001,
-   "ts": 1795309263,
-   "end_ts": 1795347000,
-   "q": "Juventus FC vs. Venezia FC: O/U 8.5",
-   "touched": 1
-  },
-  {
    "id": "6896157",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -9265,19 +9202,6 @@
    "touched": 1
   },
   {
-   "id": "6824024",
-   "rule": "post_fin_95_97",
-   "cat": "deportes",
-   "side": 1,
-   "token": "43582750801186958073761166048651647696606950718851005543166990454652079732715",
-   "px": 0.959,
-   "tick": 0.001,
-   "ts": 1795312862,
-   "end_ts": 1795302000,
-   "q": "Washington State vs. Texas State: O/U 67.5",
-   "touched": null
-  },
-  {
    "id": "7065204",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -9288,7 +9212,7 @@
    "ts": 1795312862,
    "end_ts": 1795345200,
    "q": "POFC Botev Vratsa vs. FC CSKA 1948: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6904239",
@@ -9301,7 +9225,7 @@
    "ts": 1795312862,
    "end_ts": 1795348800,
    "q": "FK Pardubice vs. FC Zbrojovka Brno: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6906418",
@@ -9314,7 +9238,7 @@
    "ts": 1795312862,
    "end_ts": 1795352400,
    "q": "Kasımpaşa SK vs. Alanyaspor: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6916009",
@@ -9327,7 +9251,7 @@
    "ts": 1795312862,
    "end_ts": 1795356000,
    "q": "Spread: US Avellino 1912 (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6909405",
@@ -9340,7 +9264,7 @@
    "ts": 1795312862,
    "end_ts": 1795363200,
    "q": "Aalesunds FK vs. Rosenborg BK: O/U 0.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7073040",
@@ -9353,7 +9277,7 @@
    "ts": 1795312862,
    "end_ts": 1795361400,
    "q": "Spread: OFI Crete (-1.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7073781",
@@ -9366,7 +9290,7 @@
    "ts": 1795312862,
    "end_ts": 1795366800,
    "q": "Will the price of Ethereum be between $1,500 and $1,600 on November 22?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6911047",
@@ -9379,7 +9303,7 @@
    "ts": 1795312862,
    "end_ts": 1795390200,
    "q": "Spread: Charlotte FC (-2.5)",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7215190",
@@ -15125,6 +15049,162 @@
    "ts": 1795348865,
    "end_ts": 1795456800,
    "q": "El Ahly SC vs. Pyramids FC: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "6930884",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "45018210228184035525331663625824080025637356921010764568660051560808162862732",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795356062,
+   "end_ts": 1795390200,
+   "q": "CD San Antonio Bulo Bulo vs. Club Always Ready: O/U 0.5",
+   "touched": null
+  },
+  {
+   "id": "7170902",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "79826565990249297471083487552205068969246630478885779835331920983462393151131",
+   "px": 0.992,
+   "tick": 0.001,
+   "ts": 1795356062,
+   "end_ts": 1795395600,
+   "q": "Instituto AC Córdoba vs. CA Huracán: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "7170903",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "75775709828333116999058959737264792735363570938827811203034533785459072890864",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795356062,
+   "end_ts": 1795395600,
+   "q": "Instituto AC Córdoba vs. CA Huracán: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "7230008",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "43958533623693416283502440094486139673534511472950453290183949562181928984225",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795356062,
+   "end_ts": 1795392000,
+   "q": "Oilers vs. Blues: O/U 2.5",
+   "touched": null
+  },
+  {
+   "id": "7153566",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "109436862137781766987130646955981175720989648812272482021727952211707954134994",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1795356062,
+   "end_ts": 1795409940,
+   "q": "Will N3on finish GTA VI by November 22?",
+   "touched": null
+  },
+  {
+   "id": "6923683",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "80389373592229332208588839229248818865908878643433942311520096653830344635769",
+   "px": 0.993,
+   "tick": 0.001,
+   "ts": 1795356062,
+   "end_ts": 1795463100,
+   "q": "Spread: AC Monza (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "6923689",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "100029314398196443600706065765240623123978651015529702773091433748262675088209",
+   "px": 0.975,
+   "tick": 0.001,
+   "ts": 1795356062,
+   "end_ts": 1795464000,
+   "q": "Spread: Brentford FC (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "6923691",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "39651754511174489758380826436631792885263297002497426823054950767436735968021",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1795356062,
+   "end_ts": 1795464000,
+   "q": "Spread: Everton FC (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "6923711",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "11159052400731095200641408748288300157693070821214478813190804461499228507095",
+   "px": 0.987,
+   "tick": 0.001,
+   "ts": 1795356062,
+   "end_ts": 1795463100,
+   "q": "AC Monza vs. ACF Fiorentina: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6923714",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "95101377863833042095419357676456399690098357780081762965723942673410225642046",
+   "px": 0.978,
+   "tick": 0.001,
+   "ts": 1795356062,
+   "end_ts": 1795464000,
+   "q": "Brentford FC vs. Everton FC: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "6927235",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "97452221200626826300888296592576668568048718790441053378290959669540229510",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1795356062,
+   "end_ts": 1795464000,
+   "q": "Spread: Elche CF (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "6927251",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "104344943571171246087827375189754106847242250243471582297419379943458196776378",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795356062,
+   "end_ts": 1795464000,
+   "q": "Levante UD vs. Elche CF: O/U 6.5",
    "touched": null
   }
  ]
