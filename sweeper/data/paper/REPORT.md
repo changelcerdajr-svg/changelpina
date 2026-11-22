@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-11T22:05:26Z | dias corridos: 10.5 de 28 | corridas: 229
-- Capital inicial: $1,000.00 | valor actual: $1,021.27 | P&L: $+21.27 (+2.13%)
-- Efectivo libre: $408.17 | en ordenes abiertas: $453.67 (11) | en posiciones: $159.20 (3)
+- Inicio: 2026-11-11T22:05:26Z | dias corridos: 10.6 de 28 | corridas: 230
+- Capital inicial: $1,000.00 | valor actual: $1,021.35 | P&L: $+21.35 (+2.13%)
+- Efectivo libre: $411.81 | en ordenes abiertas: $504.74 (12) | en posiciones: $105.53 (2)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 388 colocadas, 95 llenadas, 196 tocadas sin llenarse (sorteo 30%), 86 expiradas
+- Ordenes virtuales: 389 colocadas, 95 llenadas, 196 tocadas sin llenarse (sorteo 30%), 86 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -14,9 +14,9 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 |---|---|---|---|---|---|---|---|
 | cripto_cierre | 26 | 98.90c | 100.00% | 87.1-100.0% | +1.10 pts | $+15.05 | 0.28 |
 | deportes_previo | 34 | 98.26c | 100.00% | 89.8-100.0% | +1.74 pts | $+31.04 | 0.34 |
-| otros_cierre | 23 | 99.07c | 100.00% | 85.7-100.0% | +0.93 pts | $+11.17 | 0.45 |
+| otros_cierre | 24 | 99.02c | 100.00% | 86.2-100.0% | +0.98 pts | $+12.21 | 0.44 |
 | post_fin_95_97 | 9 | 95.96c | 88.56% | 56.5-98.0% | -7.40 pts | $-36.21 | 0.38 |
-| TOTAL | 92 | 98.41c | 98.87% | 94.1-99.8% | +0.45 pts | $+21.04 | 0.35 |
+| TOTAL | 93 | 98.41c | 98.88% | 94.2-99.8% | +0.47 pts | $+22.08 | 0.35 |
 
 ## Peores casos
 
@@ -29,14 +29,13 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
 | $51.82 | 98.5c | 98.3c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
-| $53.66 | 98.1c | 99.8c | otros_cierre |  | Will xQc finish GTA VI by November 22, 3:59 AM ET? |
 | $53.71 | 99.0c | 97.9c | cripto_cierre |  | Will Bitcoin reach $66,000 November 16-22? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 3415 | abiertas: 712 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 3419 | abiertas: 711 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
@@ -46,10 +45,10 @@ Cada mercado que cumple una regla se anota una vez al precio limite que se habri
 | deportes_previo | tocadas | 1545 | 98.27c | 98.96% | +0.69 pts | +0.20 a +1.19 | 17 |
 | otros_cierre | todas | 536 | 98.81c | 99.25% | +0.45 pts | -0.29 a +1.18 | 4 |
 | otros_cierre | tocadas | 360 | 98.70c | 98.89% | +0.19 pts | -0.90 a +1.28 | 4 |
-| post_fin_95_97 | todas | 40 | 95.98c | 92.50% | -3.48 pts | -11.76 a +4.79 | 3 |
-| post_fin_95_97 | tocadas | 34 | 96.01c | 91.18% | -4.83 pts | -14.51 a +4.85 | 3 |
-| TOTAL | todas | 3415 | 98.49c | 98.98% | +0.49 pts | +0.16 a +0.82 | 36 |
-| TOTAL | tocadas | 2624 | 98.38c | 98.74% | +0.37 pts | -0.06 a +0.79 | 34 |
+| post_fin_95_97 | todas | 44 | 96.03c | 93.18% | -2.85 pts | -10.38 a +4.69 | 3 |
+| post_fin_95_97 | tocadas | 38 | 96.06c | 92.11% | -3.95 pts | -12.64 a +4.74 | 3 |
+| TOTAL | todas | 3419 | 98.48c | 98.98% | +0.49 pts | +0.16 a +0.83 | 36 |
+| TOTAL | tocadas | 2628 | 98.37c | 98.74% | +0.37 pts | -0.05 a +0.79 | 34 |
 
 Peores casos del registro sombra:
 
@@ -66,4 +65,4 @@ Peores casos del registro sombra:
 
 ## Veredicto
 
-Aun no hay veredicto: van 92 operaciones cerradas en 10.5 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
+Aun no hay veredicto: van 93 operaciones cerradas en 10.6 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.

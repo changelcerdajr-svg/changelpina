@@ -1,6 +1,6 @@
 {
  "capital0": 1000.0,
- "cash": 408.1707,
+ "cash": 411.805,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
   {
@@ -233,6 +233,27 @@
    "end_ts": 1795410000.0,
    "hours": 17.98,
    "liq": 41472
+  },
+  {
+   "oid": "7175725-1795348865",
+   "id": "7175725",
+   "q": "Will xQc finish GTA VI by November 22, 5:59 PM ET?",
+   "cat": "otros",
+   "rule": "otros_cierre",
+   "event": "1417295",
+   "side": 1,
+   "token": "57051492469843682243219265735352064214633852005180881682861670210498144802174",
+   "px": 0.992,
+   "tick": 0.001,
+   "mid": 0.9925,
+   "bid": 0.992,
+   "ask": 0.993,
+   "shares": 51.4793,
+   "cost": 51.0675,
+   "ts": 1795348865.884,
+   "end_ts": 1795388340.0,
+   "hours": 10.97,
+   "liq": 10273
   }
  ],
  "positions": [
@@ -262,31 +283,6 @@
    "disputed": false
   },
   {
-   "oid": "7175724-1795320067",
-   "id": "7175724",
-   "q": "Will xQc finish GTA VI by November 22, 3:59 AM ET?",
-   "cat": "otros",
-   "rule": "otros_cierre",
-   "event": "1417295",
-   "side": 1,
-   "token": "14494034873704079655700889060666456941674311753821450880128370198876665470302",
-   "px": 0.981,
-   "tick": 0.001,
-   "mid": 0.9815,
-   "bid": 0.977,
-   "ask": 0.986,
-   "shares": 54.7018,
-   "cost": 53.6625,
-   "ts": 1795320067.317119,
-   "end_ts": 1795337940.0,
-   "hours": 4.96,
-   "liq": 3593,
-   "fill_ts": 1795327264.491833,
-   "mark": 0.998,
-   "stuck": false,
-   "disputed": false
-  },
-  {
    "oid": "7085164-1795327264",
    "id": "7085164",
    "q": "Will Bitcoin reach $66,000 November 16-22?",
@@ -307,7 +303,7 @@
    "hours": 22.98,
    "liq": 62011,
    "fill_ts": 1795330863.301342,
-   "mark": 0.979,
+   "mark": 0.9785,
    "stuck": false,
    "disputed": false
   }
@@ -3040,6 +3036,36 @@
    "result": 0.0,
    "closed_ts": "2026-11-22T08:01:06Z",
    "days": 0.04
+  },
+  {
+   "oid": "7175724-1795320067",
+   "id": "7175724",
+   "q": "Will xQc finish GTA VI by November 22, 3:59 AM ET?",
+   "cat": "otros",
+   "rule": "otros_cierre",
+   "event": "1417295",
+   "side": 1,
+   "token": "14494034873704079655700889060666456941674311753821450880128370198876665470302",
+   "px": 0.981,
+   "tick": 0.001,
+   "mid": 0.9815,
+   "bid": 0.977,
+   "ask": 0.986,
+   "shares": 54.7018,
+   "cost": 53.6625,
+   "ts": 1795320067.317119,
+   "end_ts": 1795337940.0,
+   "hours": 4.96,
+   "liq": 3593,
+   "fill_ts": 1795327264.491833,
+   "mark": 0.998,
+   "stuck": false,
+   "disputed": false,
+   "payout": 54.7018,
+   "pnl": 1.0393,
+   "result": 1.0,
+   "closed_ts": "2026-11-22T12:01:06Z",
+   "days": 0.25
   }
  ],
  "runs": [
@@ -6015,11 +6041,24 @@
    "placed": 6,
    "shadow_open": 712,
    "shadow_closed": 1
+  },
+  {
+   "ts": "2026-11-22T12:01:42Z",
+   "equity": 1021.35,
+   "cash": 411.81,
+   "orders": 12,
+   "positions": 2,
+   "closed": 93,
+   "scanned": 13842,
+   "candidates": 203,
+   "placed": 1,
+   "shadow_open": 711,
+   "shadow_closed": 4
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 388,
+  "placed": 389,
   "filled": 95,
   "expired": 86,
   "touched_not_filled": 196
@@ -8847,58 +8886,6 @@
    "touched": 1
   },
   {
-   "id": "6823737",
-   "rule": "post_fin_95_97",
-   "cat": "deportes",
-   "side": 0,
-   "token": "19813941364284230858480424556597151914067576055102628990968608609803441075700",
-   "px": 0.967,
-   "tick": 0.001,
-   "ts": 1795302068,
-   "end_ts": 1795291200,
-   "q": "Spread: Delaware (-7.5)",
-   "touched": null
-  },
-  {
-   "id": "6823738",
-   "rule": "post_fin_95_97",
-   "cat": "deportes",
-   "side": 0,
-   "token": "18448703169279407806885112838789859026812420132397468695432633459264243362057",
-   "px": 0.967,
-   "tick": 0.001,
-   "ts": 1795302068,
-   "end_ts": 1795291200,
-   "q": "Spread: Delaware (-6.5)",
-   "touched": null
-  },
-  {
-   "id": "6823823",
-   "rule": "post_fin_95_97",
-   "cat": "deportes",
-   "side": 0,
-   "token": "62428749027256486128715988273207637168044982245530010750126195119355023216162",
-   "px": 0.969,
-   "tick": 0.001,
-   "ts": 1795302068,
-   "end_ts": 1795291200,
-   "q": "Spread: Kennesaw State (-6.5)",
-   "touched": null
-  },
-  {
-   "id": "6823824",
-   "rule": "post_fin_95_97",
-   "cat": "deportes",
-   "side": 0,
-   "token": "66722111907816019891445508860609874727668925901256013944270542450481319075370",
-   "px": 0.956,
-   "tick": 0.001,
-   "ts": 1795302068,
-   "end_ts": 1795291200,
-   "q": "Spread: Kennesaw State (-7.5)",
-   "touched": null
-  },
-  {
    "id": "6906519",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -8909,7 +8896,7 @@
    "ts": 1795302068,
    "end_ts": 1795343400,
    "q": "Spread: Göztepe SK (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6906530",
@@ -8922,7 +8909,7 @@
    "ts": 1795302068,
    "end_ts": 1795343400,
    "q": "Erzurumspor FK vs. Göztepe SK: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6905122",
@@ -8935,7 +8922,7 @@
    "ts": 1795302068,
    "end_ts": 1795350600,
    "q": "FC Energie Cottbus vs. Hertha BSC: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6904149",
@@ -8948,7 +8935,7 @@
    "ts": 1795302068,
    "end_ts": 1795366800,
    "q": "Spread: FC Slovan Liberec (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7073704",
@@ -8961,7 +8948,7 @@
    "ts": 1795302068,
    "end_ts": 1795366800,
    "q": "Will the price of Ethereum be above $1,800 on November 22?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7073844",
@@ -8974,7 +8961,7 @@
    "ts": 1795302068,
    "end_ts": 1795366800,
    "q": "Will the price of Solana be above $75 on November 22?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7073890",
@@ -8987,7 +8974,7 @@
    "ts": 1795302068,
    "end_ts": 1795366800,
    "q": "Will the price of XRP be above $1.00 on November 22?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7073910",
@@ -9000,7 +8987,7 @@
    "ts": 1795302068,
    "end_ts": 1795366800,
    "q": "Will the price of XRP be between $1.00 and $1.10 on November 22?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6641548",
@@ -9013,7 +9000,7 @@
    "ts": 1795302068,
    "end_ts": 1795370400,
    "q": "Spread: Dolphins (-10.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7239755",
@@ -9026,7 +9013,7 @@
    "ts": 1795302068,
    "end_ts": 1795381200,
    "q": "Spread: FC Cincinnati (-3.5)",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7239767",
@@ -9039,7 +9026,7 @@
    "ts": 1795302068,
    "end_ts": 1795381200,
    "q": "Nashville SC vs. FC Cincinnati: O/U 7.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6821803",
@@ -15279,6 +15266,45 @@
    "ts": 1795345267,
    "end_ts": 1795453200,
    "q": "Alcorn State Braves vs. Michigan State Spartans (W)",
+   "touched": null
+  },
+  {
+   "id": "6931025",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "61663007021818203301121108847022988682987102047635879203796806571787943636453",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1795348865,
+   "end_ts": 1795456800,
+   "q": "Spread: El Ahly SC (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "6931026",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "54429971324908755649866072631933839623669963665397495470319503661165022220083",
+   "px": 0.988,
+   "tick": 0.001,
+   "ts": 1795348865,
+   "end_ts": 1795456800,
+   "q": "Spread: Pyramids FC (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "6931037",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "69225910697286935666168209574640818536739164926666686191638930150590838902163",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1795348865,
+   "end_ts": 1795456800,
+   "q": "El Ahly SC vs. Pyramids FC: O/U 6.5",
    "touched": null
   }
  ]
