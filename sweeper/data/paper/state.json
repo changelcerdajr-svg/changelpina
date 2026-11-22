@@ -1,6 +1,6 @@
 {
  "capital0": 1000.0,
- "cash": 432.9,
+ "cash": 397.4608,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
   {
@@ -149,6 +149,48 @@
    "end_ts": 1795410000.0,
    "hours": 22.98,
    "liq": 47251
+  },
+  {
+   "oid": "5713553-1795334464",
+   "id": "5713553",
+   "q": "Will \"The Hunger Games: Sunrise on the Reaping\" Opening Weekend Box Office be between 65m and 75m?",
+   "cat": "otros",
+   "rule": "otros_cierre",
+   "event": "1191150",
+   "side": 1,
+   "token": "70524245070015204385637652121827452488271548870461437479484891719778330005492",
+   "px": 0.998,
+   "tick": 0.001,
+   "mid": 0.9985,
+   "bid": 0.998,
+   "ask": 0.999,
+   "shares": 45.3082,
+   "cost": 45.2176,
+   "ts": 1795334464.707577,
+   "end_ts": 1795348800.0,
+   "hours": 3.98,
+   "liq": 13261
+  },
+  {
+   "oid": "6893610-1795334464",
+   "id": "6893610",
+   "q": "Spread: FC Augsburg (-3.5)",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1346689",
+   "side": 1,
+   "token": "73388653658295239548356535207801744838543004419588231478217921565005505894110",
+   "px": 0.979,
+   "tick": 0.001,
+   "mid": 0.9795,
+   "bid": 0.975,
+   "ask": 0.984,
+   "shares": 44.6211,
+   "cost": 43.6841,
+   "ts": 1795334464.707577,
+   "end_ts": 1795357800.0,
+   "hours": 6.48,
+   "liq": 12238
   }
  ],
  "positions": [
@@ -178,31 +220,6 @@
    "disputed": false
   },
   {
-   "oid": "6364891-1795258866",
-   "id": "6364891",
-   "q": "Will the next Claude Opus model (5.6+) be released on November 21, 2026?",
-   "cat": "otros",
-   "rule": "otros_cierre",
-   "event": "1274168",
-   "side": 1,
-   "token": "39340061191207289369875350080591506780592362672182621659880054466891997618374",
-   "px": 0.992,
-   "tick": 0.001,
-   "mid": 0.992,
-   "bid": 0.987,
-   "ask": 0.997,
-   "shares": 53.4625,
-   "cost": 53.0348,
-   "ts": 1795258866.113615,
-   "end_ts": 1795323540.0,
-   "hours": 17.96,
-   "liq": 3571,
-   "fill_ts": 1795280481.0488,
-   "mark": 0.993,
-   "stuck": false,
-   "disputed": false
-  },
-  {
    "oid": "7175724-1795320067",
    "id": "7175724",
    "q": "Will xQc finish GTA VI by November 22, 3:59 AM ET?",
@@ -228,29 +245,6 @@
    "disputed": false
   },
   {
-   "oid": "6884632-1795327264",
-   "id": "6884632",
-   "q": "San Diego State vs. Boise State",
-   "cat": "deportes",
-   "rule": "post_fin_95_97",
-   "event": "1344438",
-   "side": 1,
-   "token": "111280890204169999660500364340989451630481868509720851678316590695086777880597",
-   "px": 0.959,
-   "tick": 0.001,
-   "mid": 0.9595,
-   "bid": 0.959,
-   "ask": 0.96,
-   "shares": 56.0101,
-   "cost": 53.7137,
-   "ts": 1795327264.491833,
-   "end_ts": 1795314600.0,
-   "hours": -3.52,
-   "liq": 180801,
-   "fill_ts": 1795330863.301342,
-   "mark": 0.959
-  },
-  {
    "oid": "7085164-1795327264",
    "id": "7085164",
    "q": "Will Bitcoin reach $66,000 November 16-22?",
@@ -271,7 +265,9 @@
    "hours": 22.98,
    "liq": 62011,
    "fill_ts": 1795330863.301342,
-   "mark": 0.99
+   "mark": 0.989,
+   "stuck": false,
+   "disputed": false
   }
  ],
  "closed": [
@@ -2944,6 +2940,64 @@
    "result": 1.0,
    "closed_ts": "2026-11-22T06:01:06Z",
    "days": 0.42
+  },
+  {
+   "oid": "6364891-1795258866",
+   "id": "6364891",
+   "q": "Will the next Claude Opus model (5.6+) be released on November 21, 2026?",
+   "cat": "otros",
+   "rule": "otros_cierre",
+   "event": "1274168",
+   "side": 1,
+   "token": "39340061191207289369875350080591506780592362672182621659880054466891997618374",
+   "px": 0.992,
+   "tick": 0.001,
+   "mid": 0.992,
+   "bid": 0.987,
+   "ask": 0.997,
+   "shares": 53.4625,
+   "cost": 53.0348,
+   "ts": 1795258866.113615,
+   "end_ts": 1795323540.0,
+   "hours": 17.96,
+   "liq": 3571,
+   "fill_ts": 1795280481.0488,
+   "mark": 0.993,
+   "stuck": false,
+   "disputed": false,
+   "payout": 53.4625,
+   "pnl": 0.4277,
+   "result": 1.0,
+   "closed_ts": "2026-11-22T08:01:06Z",
+   "days": 0.62
+  },
+  {
+   "oid": "6884632-1795327264",
+   "id": "6884632",
+   "q": "San Diego State vs. Boise State",
+   "cat": "deportes",
+   "rule": "post_fin_95_97",
+   "event": "1344438",
+   "side": 1,
+   "token": "111280890204169999660500364340989451630481868509720851678316590695086777880597",
+   "px": 0.959,
+   "tick": 0.001,
+   "mid": 0.9595,
+   "bid": 0.959,
+   "ask": 0.96,
+   "shares": 56.0101,
+   "cost": 53.7137,
+   "ts": 1795327264.491833,
+   "end_ts": 1795314600.0,
+   "hours": -3.52,
+   "liq": 180801,
+   "fill_ts": 1795330863.301342,
+   "mark": 0.959,
+   "payout": 0.0,
+   "pnl": -53.7137,
+   "result": 0.0,
+   "closed_ts": "2026-11-22T08:01:06Z",
+   "days": 0.04
   }
  ],
  "runs": [
@@ -5854,11 +5908,24 @@
    "placed": 0,
    "shadow_open": 664,
    "shadow_closed": 10
+  },
+  {
+   "ts": "2026-11-22T08:02:14Z",
+   "equity": 1021.81,
+   "cash": 397.46,
+   "orders": 9,
+   "positions": 3,
+   "closed": 92,
+   "scanned": 13041,
+   "candidates": 261,
+   "placed": 2,
+   "shadow_open": 676,
+   "shadow_closed": 8
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 377,
+  "placed": 379,
   "filled": 95,
   "expired": 86,
   "touched_not_filled": 189
@@ -6372,84 +6439,6 @@
    "touched": 1
   },
   {
-   "id": "6899597",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "101569209527869101223124407763711846594755017403902707363054037370813294373188",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1795233676,
-   "end_ts": 1795316400,
-   "q": "Tigres de la UANL vs. CF América: O/U 6.5",
-   "touched": 1
-  },
-  {
-   "id": "6899598",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "75218682277020206577377850325028812516139597999651784016688464910474093022155",
-   "px": 0.989,
-   "tick": 0.001,
-   "ts": 1795233676,
-   "end_ts": 1795316400,
-   "q": "Tigres de la UANL vs. CF América: O/U 7.5",
-   "touched": 1
-  },
-  {
-   "id": "6364891",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "39340061191207289369875350080591506780592362672182621659880054466891997618374",
-   "px": 0.992,
-   "tick": 0.001,
-   "ts": 1795237262,
-   "end_ts": 1795323540,
-   "q": "Will the next Claude Opus model (5.6+) be released on November 21, 2026?",
-   "touched": 1
-  },
-  {
-   "id": "6655555",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "20033605768675266674847356872510058681745674647391465698374872985489486753082",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1795237262,
-   "end_ts": 1795323540,
-   "q": "Will the next Meta Muse Spark model be released on November 21, 2026?",
-   "touched": 0
-  },
-  {
-   "id": "6880640",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "65304394473860124470876660641759069650583365045787358789980559483202336840896",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795237262,
-   "end_ts": 1795323540,
-   "q": "Pete Hegseth out as Secretary of Defense by November 21?",
-   "touched": 0
-  },
-  {
-   "id": "7029430",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "63773719470611553584704024692505708094353962631622925512814943734824239961835",
-   "px": 0.991,
-   "tick": 0.001,
-   "ts": 1795237262,
-   "end_ts": 1795323540,
-   "q": "Will the next Gemini Carbon model (4.1+) be released on November 21, 2026?",
-   "touched": 0
-  },
-  {
    "id": "7150748",
    "rule": "otros_cierre",
    "cat": "otros",
@@ -6487,19 +6476,6 @@
    "end_ts": 1795347000,
    "q": "Spread: Venezia FC (-2.5)",
    "touched": 1
-  },
-  {
-   "id": "6899581",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "59138167552201182792204000603612498093555943339804181643567925034515719857009",
-   "px": 0.979,
-   "tick": 0.001,
-   "ts": 1795244466,
-   "end_ts": 1795316400,
-   "q": "Spread: Tigres de la UANL (-3.5)",
-   "touched": 0
   },
   {
    "id": "6895980",
@@ -8283,19 +8259,6 @@
    "touched": 1
   },
   {
-   "id": "7207741",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "48953688800721092876400016722215092028332092863779666730075303560035304074748",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1795287670,
-   "end_ts": 1795316400,
-   "q": "Spread: Celtics (-37.5)",
-   "touched": null
-  },
-  {
    "id": "6884362",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -8306,7 +8269,7 @@
    "ts": 1795287670,
    "end_ts": 1795323600,
    "q": "Spread: Gimcheon Sangmu FC (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6893986",
@@ -8319,7 +8282,7 @@
    "ts": 1795287670,
    "end_ts": 1795347000,
    "q": "Juventus FC vs. Venezia FC: Venezia FC O/U 3.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6903888",
@@ -8332,7 +8295,7 @@
    "ts": 1795287670,
    "end_ts": 1795357800,
    "q": "Spread: MFK Skalica (-2.5)",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6893595",
@@ -8345,7 +8308,7 @@
    "ts": 1795287670,
    "end_ts": 1795364100,
    "q": "Spread: FC Lorient (-3.5)",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6913624",
@@ -8358,7 +8321,7 @@
    "ts": 1795287670,
    "end_ts": 1795368600,
    "q": "Girona FC vs. SD Eibar: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7073674",
@@ -8371,7 +8334,7 @@
    "ts": 1795287670,
    "end_ts": 1795366800,
    "q": "Will the price of Bitcoin be less than $56,000 on November 22?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7073762",
@@ -8384,7 +8347,7 @@
    "ts": 1795287670,
    "end_ts": 1795366800,
    "q": "Will the price of Bitcoin be above $56,000 on November 22?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7073777",
@@ -8397,7 +8360,7 @@
    "ts": 1795287670,
    "end_ts": 1795366800,
    "q": "Will the price of Bitcoin be above $64,000 on November 22?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7073797",
@@ -8410,7 +8373,7 @@
    "ts": 1795287670,
    "end_ts": 1795366800,
    "q": "Will the price of Ethereum be between $1,900 and $2,000 on November 22?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7073830",
@@ -8423,7 +8386,7 @@
    "ts": 1795287670,
    "end_ts": 1795366800,
    "q": "Will the price of Solana be above $55 on November 22?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7073848",
@@ -8436,7 +8399,7 @@
    "ts": 1795287670,
    "end_ts": 1795366800,
    "q": "Will the price of Solana be above $80 on November 22?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7073854",
@@ -8449,7 +8412,7 @@
    "ts": 1795287670,
    "end_ts": 1795366800,
    "q": "Will the price of Solana be between $50 and $60 on November 22?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7073866",
@@ -8462,7 +8425,7 @@
    "ts": 1795287670,
    "end_ts": 1795366800,
    "q": "Will the price of Solana be between $80 and $90 on November 22?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7073869",
@@ -8475,7 +8438,7 @@
    "ts": 1795287670,
    "end_ts": 1795366800,
    "q": "Will the price of Solana be between $90 and $100 on November 22?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7073870",
@@ -8488,7 +8451,7 @@
    "ts": 1795287670,
    "end_ts": 1795366800,
    "q": "Will the price of Solana be between $100 and $110 on November 22?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7073880",
@@ -8501,7 +8464,7 @@
    "ts": 1795287670,
    "end_ts": 1795366800,
    "q": "Will the price of XRP be above $0.50 on November 22?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7073883",
@@ -8514,7 +8477,7 @@
    "ts": 1795287670,
    "end_ts": 1795366800,
    "q": "Will the price of XRP be above $0.60 on November 22?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7073885",
@@ -8527,7 +8490,7 @@
    "ts": 1795287670,
    "end_ts": 1795366800,
    "q": "Will the price of XRP be above $0.70 on November 22?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7073887",
@@ -8540,7 +8503,7 @@
    "ts": 1795287670,
    "end_ts": 1795366800,
    "q": "Will the price of XRP be above $0.80 on November 22?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7073892",
@@ -8553,7 +8516,7 @@
    "ts": 1795287670,
    "end_ts": 1795366800,
    "q": "Will the price of XRP be above $1.10 on November 22?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7073894",
@@ -8566,7 +8529,7 @@
    "ts": 1795287670,
    "end_ts": 1795366800,
    "q": "Will the price of XRP be less than $0.50 on November 22?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7073895",
@@ -8579,7 +8542,7 @@
    "ts": 1795287670,
    "end_ts": 1795366800,
    "q": "Will the price of XRP be above $1.20 on November 22?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7073897",
@@ -8592,7 +8555,7 @@
    "ts": 1795287670,
    "end_ts": 1795366800,
    "q": "Will the price of XRP be between $0.50 and $0.60 on November 22?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7073900",
@@ -8605,7 +8568,7 @@
    "ts": 1795287670,
    "end_ts": 1795366800,
    "q": "Will the price of XRP be between $0.60 and $0.70 on November 22?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7073902",
@@ -8618,7 +8581,7 @@
    "ts": 1795287670,
    "end_ts": 1795366800,
    "q": "Will the price of XRP be above $1.40 on November 22?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7073903",
@@ -8631,7 +8594,7 @@
    "ts": 1795287670,
    "end_ts": 1795366800,
    "q": "Will the price of XRP be between $0.70 and $0.80 on November 22?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7073905",
@@ -8644,7 +8607,7 @@
    "ts": 1795287670,
    "end_ts": 1795366800,
    "q": "Will the price of XRP be above $1.50 on November 22?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6821726",
@@ -14494,6 +14457,266 @@
    "ts": 1795330863,
    "end_ts": 1795410000,
    "q": "Will Ethereum dip to $1,350 on November 22?",
+   "touched": null
+  },
+  {
+   "id": "6764607",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "95692971044460464658544805489857038740488433509798761142586220856674841425115",
+   "px": 0.992,
+   "tick": 0.001,
+   "ts": 1795334464,
+   "end_ts": 1795348800,
+   "q": "Will \"The Hunger Games: Sunrise on the Reaping\" Opening Weekend Box Office be between 125m",
+   "touched": null
+  },
+  {
+   "id": "6910233",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "52334444365482926785691781931491267349168245403551727126950291950882285292458",
+   "px": 0.991,
+   "tick": 0.001,
+   "ts": 1795334464,
+   "end_ts": 1795366800,
+   "q": "FC Nordsjælland vs. FC København: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6915970",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "17924661192674256193396731452733585388188882249725583533508452011598225691599",
+   "px": 0.991,
+   "tick": 0.001,
+   "ts": 1795334464,
+   "end_ts": 1795364100,
+   "q": "Spread: Calcio Padova (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "6915983",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "37630334664198715834125256371535568739308184371011198972240080295608341111501",
+   "px": 0.993,
+   "tick": 0.001,
+   "ts": 1795334464,
+   "end_ts": 1795364100,
+   "q": "SS Arezzo vs. Calcio Padova: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6962607",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "110333655838113262288515275750714824953528920750051883591512837859852087809492",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1795334464,
+   "end_ts": 1795366800,
+   "q": "HNK Rijeka vs. HNK Gorica: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "7072057",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "69195786229254719816280526671156047647349984712876057537573705194925228651661",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795334464,
+   "end_ts": 1795359600,
+   "q": "Panaitolikos Agrinio vs. Volos NPS: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "7072868",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "80291306734878364375694874508788261852982770686692995082776047289638226560909",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1795334464,
+   "end_ts": 1795363200,
+   "q": "Botev Plovdiv vs. PFC CSKA Sofia: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6886227",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "30291028960246381772767896484117749948520252503943017968307998470712296690977",
+   "px": 0.974,
+   "tick": 0.001,
+   "ts": 1795334464,
+   "end_ts": 1795376700,
+   "q": "Atalanta BC vs. FC Internazionale Milano: Neither team to score first?",
+   "touched": null
+  },
+  {
+   "id": "6903479",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "88313666245081981534058374395055691118543572611212995543105177009520131400",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795334464,
+   "end_ts": 1795374000,
+   "q": "Spread: Clube do Remo (-5.5)",
+   "touched": null
+  },
+  {
+   "id": "6904276",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "73752331342811832258319412949982054231579955079155086854186399083628761125288",
+   "px": 0.992,
+   "tick": 0.001,
+   "ts": 1795334464,
+   "end_ts": 1795372200,
+   "q": "FC Argeș Pitești vs. FCSB: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6909288",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "65734062837632309079983314887299202523328800425080154743399789478371638974568",
+   "px": 0.992,
+   "tick": 0.001,
+   "ts": 1795334464,
+   "end_ts": 1795371300,
+   "q": "Sarpsborg 08 FF vs. Lillestrøm SK: O/U 8.5",
+   "touched": null
+  },
+  {
+   "id": "6913500",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "5269880995003047620106073338958204475542001531439885282430887228968400806490",
+   "px": 0.991,
+   "tick": 0.001,
+   "ts": 1795334464,
+   "end_ts": 1795368600,
+   "q": "Celta Fortuna vs. Real Valladolid CF: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6913625",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "102721149954615467082592776927219649590778895019267118163496375785520188815612",
+   "px": 0.992,
+   "tick": 0.001,
+   "ts": 1795334464,
+   "end_ts": 1795368600,
+   "q": "Girona FC vs. SD Eibar: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6924130",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "46308896903345084950847766719921185975576235957708690395524697098287271436323",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1795334464,
+   "end_ts": 1795370400,
+   "q": "Spread: Portimonense SC (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "5763814",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "65398866854598561857162658122445071762398469814448346626321476419076047748820",
+   "px": 0.983,
+   "tick": 0.001,
+   "ts": 1795334464,
+   "end_ts": 1795409940,
+   "q": "Will OpenRouter process between 675T and 725T tokens from Oct 26 to Nov 22?",
+   "touched": null
+  },
+  {
+   "id": "6942351",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "67773354750495774326763332148208040627918013093570744871117329311436053481136",
+   "px": 0.982,
+   "tick": 0.001,
+   "ts": 1795334464,
+   "end_ts": 1795409940,
+   "q": "Will OpenRouter process between 220T and 230T tokens the week of November 16?",
+   "touched": null
+  },
+  {
+   "id": "7085192",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "101714836540294386195660727528242735504251650313296034548006874859151092504779",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795334464,
+   "end_ts": 1795410000,
+   "q": "Will Ethereum reach $2,200 November 16-22?",
+   "touched": null
+  },
+  {
+   "id": "7085204",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "57317380161604655192300580346721540442993129096007727588177510361118851843600",
+   "px": 0.981,
+   "tick": 0.001,
+   "ts": 1795334464,
+   "end_ts": 1795410000,
+   "q": "Will Ethereum dip to $1,500 November 16-22?",
+   "touched": null
+  },
+  {
+   "id": "7147755",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "97425645082460555958579635539315124341978467533846207134516011320558716260442",
+   "px": 0.992,
+   "tick": 0.001,
+   "ts": 1795334464,
+   "end_ts": 1795409940,
+   "q": "Will Adin Ross finish GTA VI by November 22?",
+   "touched": null
+  },
+  {
+   "id": "7246826",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "88133880378097750429108816782308136341031214256060217715108565365636853547023",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795334464,
+   "end_ts": 1795410000,
+   "q": "Will Ethereum dip to $1,500 on November 22?",
    "touched": null
   }
  ]
