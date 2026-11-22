@@ -1,6 +1,6 @@
 {
  "capital0": 1000.0,
- "cash": 430.4368,
+ "cash": 434.8535,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
   {
@@ -86,6 +86,48 @@
    "end_ts": 1795343400.0,
    "hours": 9.48,
    "liq": 1135
+  },
+  {
+   "oid": "6824024-1795312862",
+   "id": "6824024",
+   "q": "Washington State vs. Texas State: O/U 67.5",
+   "cat": "deportes",
+   "rule": "post_fin_95_97",
+   "event": "1336025",
+   "side": 1,
+   "token": "43582750801186958073761166048651647696606950718851005543166990454652079732715",
+   "px": 0.959,
+   "tick": 0.001,
+   "mid": 0.9595,
+   "bid": 0.951,
+   "ask": 0.968,
+   "shares": 55.9454,
+   "cost": 53.6517,
+   "ts": 1795312862.998897,
+   "end_ts": 1795302000.0,
+   "hours": -3.02,
+   "liq": 7099
+  },
+  {
+   "oid": "6906530-1795312862",
+   "id": "6906530",
+   "q": "Erzurumspor FK vs. Göztepe SK: O/U 6.5",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1349501",
+   "side": 1,
+   "token": "68141520330150404863111308206528594138576600002159369497380268773727600671508",
+   "px": 0.984,
+   "tick": 0.001,
+   "mid": 0.9845,
+   "bid": 0.98,
+   "ask": 0.989,
+   "shares": 54.524,
+   "cost": 53.6517,
+   "ts": 1795312862.998897,
+   "end_ts": 1795343400.0,
+   "hours": 8.48,
+   "liq": 4571
   }
  ],
  "positions": [
@@ -135,7 +177,7 @@
    "hours": 16.98,
    "liq": 19899,
    "fill_ts": 1795266066.083833,
-   "mark": 0.9935,
+   "mark": 0.997,
    "stuck": false,
    "disputed": false
   },
@@ -160,7 +202,7 @@
    "hours": 15.98,
    "liq": 18511,
    "fill_ts": 1795269667.934122,
-   "mark": 0.9875,
+   "mark": 0.9935,
    "stuck": false,
    "disputed": false
   },
@@ -238,52 +280,6 @@
    "mark": 0.989,
    "stuck": false,
    "disputed": false
-  },
-  {
-   "oid": "6823134-1795305666",
-   "id": "6823134",
-   "q": "Spread: Georgia State (-5.5)",
-   "cat": "deportes",
-   "rule": "post_fin_95_97",
-   "event": "1335952",
-   "side": 1,
-   "token": "88643517957581093297638025004456314514770395572645412630790525861432257422506",
-   "px": 0.95,
-   "tick": 0.01,
-   "mid": 0.95,
-   "bid": 0.94,
-   "ask": 0.96,
-   "shares": 56.1525,
-   "cost": 53.3449,
-   "ts": 1795305666.459679,
-   "end_ts": 1795294800.0,
-   "hours": -3.02,
-   "liq": 16990,
-   "fill_ts": 1795309263.90592,
-   "mark": 0.95
-  },
-  {
-   "oid": "7080425-1795305666",
-   "id": "7080425",
-   "q": "Spread: North Dakota State (-23.5)",
-   "cat": "deportes",
-   "rule": "post_fin_95_97",
-   "event": "1336016",
-   "side": 1,
-   "token": "88513035431077389817569451635499025870010141061042013716666774038132266980220",
-   "px": 0.96,
-   "tick": 0.01,
-   "mid": 0.96,
-   "bid": 0.95,
-   "ask": 0.97,
-   "shares": 55.5676,
-   "cost": 53.3449,
-   "ts": 1795305666.459679,
-   "end_ts": 1795294800.0,
-   "hours": -3.02,
-   "liq": 14283,
-   "fill_ts": 1795309263.90592,
-   "mark": 0.96
   }
  ],
  "closed": [
@@ -2780,6 +2776,62 @@
    "result": 1.0,
    "closed_ts": "2026-11-21T23:01:11Z",
    "days": 0.29
+  },
+  {
+   "oid": "6823134-1795305666",
+   "id": "6823134",
+   "q": "Spread: Georgia State (-5.5)",
+   "cat": "deportes",
+   "rule": "post_fin_95_97",
+   "event": "1335952",
+   "side": 1,
+   "token": "88643517957581093297638025004456314514770395572645412630790525861432257422506",
+   "px": 0.95,
+   "tick": 0.01,
+   "mid": 0.95,
+   "bid": 0.94,
+   "ask": 0.96,
+   "shares": 56.1525,
+   "cost": 53.3449,
+   "ts": 1795305666.459679,
+   "end_ts": 1795294800.0,
+   "hours": -3.02,
+   "liq": 16990,
+   "fill_ts": 1795309263.90592,
+   "mark": 0.95,
+   "payout": 56.1525,
+   "pnl": 2.8076,
+   "result": 1.0,
+   "closed_ts": "2026-11-22T02:01:04Z",
+   "days": 0.04
+  },
+  {
+   "oid": "7080425-1795305666",
+   "id": "7080425",
+   "q": "Spread: North Dakota State (-23.5)",
+   "cat": "deportes",
+   "rule": "post_fin_95_97",
+   "event": "1336016",
+   "side": 1,
+   "token": "88513035431077389817569451635499025870010141061042013716666774038132266980220",
+   "px": 0.96,
+   "tick": 0.01,
+   "mid": 0.96,
+   "bid": 0.95,
+   "ask": 0.97,
+   "shares": 55.5676,
+   "cost": 53.3449,
+   "ts": 1795305666.459679,
+   "end_ts": 1795294800.0,
+   "hours": -3.02,
+   "liq": 14283,
+   "fill_ts": 1795309263.90592,
+   "mark": 0.96,
+   "payout": 55.5676,
+   "pnl": 2.2227,
+   "result": 1.0,
+   "closed_ts": "2026-11-22T02:01:04Z",
+   "days": 0.04
   }
  ],
  "runs": [
@@ -5599,11 +5651,24 @@
    "placed": 1,
    "shadow_open": 387,
    "shadow_closed": 13
+  },
+  {
+   "ts": "2026-11-22T02:01:58Z",
+   "equity": 1073.03,
+   "cash": 434.85,
+   "orders": 6,
+   "positions": 6,
+   "closed": 86,
+   "scanned": 15244,
+   "candidates": 167,
+   "placed": 2,
+   "shadow_open": 378,
+   "shadow_closed": 18
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 367,
+  "placed": 369,
   "filled": 92,
   "expired": 84,
   "touched_not_filled": 187
@@ -5673,58 +5738,6 @@
    "end_ts": 1794977940,
    "q": "Will Mark Rothko's “Untitled” sell for at least $6.5m at auction?",
    "touched": 0
-  },
-  {
-   "id": "6823676",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "13911132284065318401159369378688151044738966057620542895308882387042198623239",
-   "px": 0.975,
-   "tick": 0.001,
-   "ts": 1795179669,
-   "end_ts": 1795287600,
-   "q": "Chicago State vs. Southern Utah",
-   "touched": 0
-  },
-  {
-   "id": "6911144",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "97490704913808260664099243706856564439252238958948845918547272505684315862047",
-   "px": 0.975,
-   "tick": 0.001,
-   "ts": 1795194070,
-   "end_ts": 1795302000,
-   "q": "Spread: Columbus Crew (-2.5)",
-   "touched": 1
-  },
-  {
-   "id": "6911146",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "21082896820155187940125501425700409916239891704550053689705043424360429742785",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795194070,
-   "end_ts": 1795302000,
-   "q": "Spread: Columbus Crew (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "6911151",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "28473850586371572722521818585236126270147536410093252022519367645987993819314",
-   "px": 0.977,
-   "tick": 0.001,
-   "ts": 1795194070,
-   "end_ts": 1795302000,
-   "q": "Inter Miami CF vs. Columbus Crew: O/U 0.5",
-   "touched": 1
   },
   {
    "id": "6998426",
@@ -5828,32 +5841,6 @@
    "ts": 1795197675,
    "end_ts": 1795305600,
    "q": "Will JT Poston win the 2026 The RSM Classic?",
-   "touched": 1
-  },
-  {
-   "id": "7186359",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "82571383261079310869323585418562038372424531395329613762191471805928326695912",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1795197675,
-   "end_ts": 1795305600,
-   "q": "Flyers vs. Canadiens: O/U 2.5",
-   "touched": 1
-  },
-  {
-   "id": "7186389",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "111430498753487982545040682002637922624930537936375906329145417462817231398817",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1795197675,
-   "end_ts": 1795305600,
-   "q": "Blue Jackets vs. Maple Leafs: O/U 2.5",
    "touched": 1
   },
   {
@@ -6231,19 +6218,6 @@
    "ts": 1795215668,
    "end_ts": 1795305600,
    "q": "Will Patton Kizzire win the 2026 The RSM Classic?",
-   "touched": 1
-  },
-  {
-   "id": "6909673",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "110486560587610751241760224632483085768322993283785113531350261919242564426802",
-   "px": 0.984,
-   "tick": 0.001,
-   "ts": 1795219267,
-   "end_ts": 1795302000,
-   "q": "Inter Miami CF vs. Columbus Crew: Neither team to score first?",
    "touched": 1
   },
   {
@@ -7157,58 +7131,6 @@
    "touched": 1
   },
   {
-   "id": "6903706",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "30037085227105731670756113664460971770239602248082742797686595836675585475171",
-   "px": 0.971,
-   "tick": 0.001,
-   "ts": 1795258866,
-   "end_ts": 1795294800,
-   "q": "Spread: O'Higgins FC (-2.5)",
-   "touched": 1
-  },
-  {
-   "id": "6903720",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "42626916626194340908035100893149742223263220864539880422792353394522035211746",
-   "px": 0.975,
-   "tick": 0.001,
-   "ts": 1795258866,
-   "end_ts": 1795294800,
-   "q": "O'Higgins FC vs. CF Universidad de Chile: O/U 6.5",
-   "touched": 1
-  },
-  {
-   "id": "6911158",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "35970841269337958284688020227220724093833946592081954416627396105956900643900",
-   "px": 0.972,
-   "tick": 0.001,
-   "ts": 1795258866,
-   "end_ts": 1795302000,
-   "q": "Inter Miami CF vs. Columbus Crew: O/U 7.5",
-   "touched": 1
-  },
-  {
-   "id": "7160488",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "26544033442884840386420807077357880754482372677654219882690988468666599447195",
-   "px": 0.987,
-   "tick": 0.001,
-   "ts": 1795258866,
-   "end_ts": 1795296600,
-   "q": "Spread: Barcelona SC (-2.5)",
-   "touched": 1
-  },
-  {
    "id": "6843181",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -7492,45 +7414,6 @@
    "ts": 1795258866,
    "end_ts": 1795364100,
    "q": "FC Lorient vs. Stade Rennais FC 1901: O/U 6.5",
-   "touched": 1
-  },
-  {
-   "id": "7160379",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "67772040541383837160705692127548888968773168744384223723063837664687141312017",
-   "px": 0.978,
-   "tick": 0.001,
-   "ts": 1795262465,
-   "end_ts": 1795296600,
-   "q": "Spread: Caracas FC (-2.5)",
-   "touched": 1
-  },
-  {
-   "id": "7160490",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "3067446778031009103948260485794328423110693206087119824520138473957518619527",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795262465,
-   "end_ts": 1795296600,
-   "q": "Spread: Barcelona SC (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "7160501",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "81032503951192846116898395993321650319867824762116668740489625761906113524794",
-   "px": 0.979,
-   "tick": 0.001,
-   "ts": 1795262465,
-   "end_ts": 1795296600,
-   "q": "CD Universidad Catolica del Ecuador vs. Barcelona SC: O/U 6.5",
    "touched": 1
   },
   {
@@ -8080,58 +7963,6 @@
    "touched": 1
   },
   {
-   "id": "6837387",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "91590056042568407525178456301732080865342682119980828511890159564314733704511",
-   "px": 0.972,
-   "tick": 0.001,
-   "ts": 1795266066,
-   "end_ts": 1795290300,
-   "q": "Spread: Racing Club de Lens (-3.5)",
-   "touched": null
-  },
-  {
-   "id": "6842357",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "19715802018605544581895062025369816849709760435390989126638390016999654421415",
-   "px": 0.988,
-   "tick": 0.001,
-   "ts": 1795266066,
-   "end_ts": 1795291200,
-   "q": "Real Madrid CF vs. RC Celta de Vigo: RC Celta de Vigo O/U 3.5",
-   "touched": null
-  },
-  {
-   "id": "6861527",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "2815080537484726437656898575619257181355714579274050071621883442887879424579",
-   "px": 0.974,
-   "tick": 0.001,
-   "ts": 1795266066,
-   "end_ts": 1795289400,
-   "q": "FC St. Pauli 1910 vs. VfL Bochum: O/U 6.5",
-   "touched": null
-  },
-  {
-   "id": "6880925",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "90813325253181743600114373275352138437623632917065650208038174373567397194075",
-   "px": 0.992,
-   "tick": 0.001,
-   "ts": 1795266066,
-   "end_ts": 1795291200,
-   "q": "CD Tenerife vs. RCD Mallorca: O/U 6.5",
-   "touched": null
-  },
-  {
    "id": "6843180",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -8142,7 +7973,7 @@
    "ts": 1795266066,
    "end_ts": 1795303800,
    "q": "Spread: Puntarenas FC (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7217525",
@@ -8155,7 +7986,7 @@
    "ts": 1795266066,
    "end_ts": 1795323600,
    "q": "Will Bitcoin dip to $54,000 on November 21?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6902313",
@@ -8168,7 +7999,7 @@
    "ts": 1795266066,
    "end_ts": 1795348800,
    "q": "Burnley FC vs. Blackburn Rovers FC: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6641541",
@@ -8181,7 +8012,7 @@
    "ts": 1795266066,
    "end_ts": 1795370400,
    "q": "Spread: Dolphins (-4.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6641542",
@@ -8194,7 +8025,7 @@
    "ts": 1795266066,
    "end_ts": 1795370400,
    "q": "Spread: Dolphins (-5.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6849546",
@@ -10638,6 +10469,123 @@
    "ts": 1795309263,
    "end_ts": 1795392000,
    "q": "Delaware Fightin' Blue Hens vs. UCLA Bruins",
+   "touched": null
+  },
+  {
+   "id": "6824024",
+   "rule": "post_fin_95_97",
+   "cat": "deportes",
+   "side": 1,
+   "token": "43582750801186958073761166048651647696606950718851005543166990454652079732715",
+   "px": 0.959,
+   "tick": 0.001,
+   "ts": 1795312862,
+   "end_ts": 1795302000,
+   "q": "Washington State vs. Texas State: O/U 67.5",
+   "touched": null
+  },
+  {
+   "id": "7065204",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "60530058183012847040598172699809710014152127425053651478628526885074921692510",
+   "px": 0.976,
+   "tick": 0.001,
+   "ts": 1795312862,
+   "end_ts": 1795345200,
+   "q": "POFC Botev Vratsa vs. FC CSKA 1948: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "6904239",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "47900799888328978189119598951010792470824161722244544888097292543979009978887",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1795312862,
+   "end_ts": 1795348800,
+   "q": "FK Pardubice vs. FC Zbrojovka Brno: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6906418",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "6026021628815066055031598557231292081846964700366662775593478772138736099935",
+   "px": 0.979,
+   "tick": 0.001,
+   "ts": 1795312862,
+   "end_ts": 1795352400,
+   "q": "Kasımpaşa SK vs. Alanyaspor: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "6916009",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "82495173598055296821670809074322341618591966161319332934396951268358317938445",
+   "px": 0.972,
+   "tick": 0.001,
+   "ts": 1795312862,
+   "end_ts": 1795356000,
+   "q": "Spread: US Avellino 1912 (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "6909405",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "29629934210505518098597985077777600454194602708098028857615471462404878052669",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795312862,
+   "end_ts": 1795363200,
+   "q": "Aalesunds FK vs. Rosenborg BK: O/U 0.5",
+   "touched": null
+  },
+  {
+   "id": "7073040",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "53617763675639057891501193372309384856755746737418914622714258551580206105553",
+   "px": 0.981,
+   "tick": 0.001,
+   "ts": 1795312862,
+   "end_ts": 1795361400,
+   "q": "Spread: OFI Crete (-1.5)",
+   "touched": null
+  },
+  {
+   "id": "7073781",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "74178735755468426313751381801798162014610573088662968905795401971001685824353",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795312862,
+   "end_ts": 1795366800,
+   "q": "Will the price of Ethereum be between $1,500 and $1,600 on November 22?",
+   "touched": null
+  },
+  {
+   "id": "6911047",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "43989969730351090850175962186526378893268665798248657826341915194688882653355",
+   "px": 0.971,
+   "tick": 0.001,
+   "ts": 1795312862,
+   "end_ts": 1795390200,
+   "q": "Spread: Charlotte FC (-2.5)",
    "touched": null
   }
  ]
