@@ -1,6 +1,6 @@
 {
  "capital0": 1000.0,
- "cash": 411.5718,
+ "cash": 412.6611,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
   {
@@ -193,7 +193,7 @@
    "liq": 2352
   },
   {
-   "oid": "5763815-1795381263",
+   "oid": "5763815-1795384864",
    "id": "5763815",
    "q": "Will OpenRouter process between 725T and 775T tokens from Oct 26 to Nov 22?",
    "cat": "otros",
@@ -201,17 +201,38 @@
    "event": "1196989",
    "side": 1,
    "token": "69361310336830576230613545878669264146295166638950702624315653157292183550426",
-   "px": 0.991,
+   "px": 0.993,
    "tick": 0.001,
-   "mid": 0.9915,
-   "bid": 0.988,
+   "mid": 0.9935,
+   "bid": 0.992,
    "ask": 0.995,
-   "shares": 45.7743,
-   "cost": 45.3624,
-   "ts": 1795381263.822666,
+   "shares": 45.9417,
+   "cost": 45.6201,
+   "ts": 1795384864.649778,
    "end_ts": 1795409940.0,
-   "hours": 7.97,
-   "liq": 1558
+   "hours": 6.97,
+   "liq": 1747
+  },
+  {
+   "oid": "7090821-1795384864",
+   "id": "7090821",
+   "q": "Will Atthaya Thitikul win the 2026 CME Group Tour Championship?",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1401140",
+   "side": 0,
+   "token": "28438320150046181889228608866243280783280120772877489532814847505744399580089",
+   "px": 0.996,
+   "tick": 0.001,
+   "mid": 0.996,
+   "bid": 0.992,
+   "ask": 1,
+   "shares": 51.3929,
+   "cost": 51.1873,
+   "ts": 1795384864.649778,
+   "end_ts": 1795409940.0,
+   "hours": 6.97,
+   "liq": 1461
   }
  ],
  "positions": [
@@ -261,7 +282,7 @@
    "hours": 22.98,
    "liq": 62011,
    "fill_ts": 1795330863.301342,
-   "mark": 0.9945,
+   "mark": 0.9955,
    "stuck": false,
    "disputed": false
   },
@@ -287,31 +308,6 @@
    "liq": 55482,
    "fill_ts": 1795352463.055688,
    "mark": 0.998,
-   "stuck": false,
-   "disputed": false
-  },
-  {
-   "oid": "6913478-1795345267",
-   "id": "6913478",
-   "q": "Spread: Real Valladolid CF (-3.5)",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1351170",
-   "side": 1,
-   "token": "59183039036074731121097693283027464678552796014162467408970253381187077402415",
-   "px": 0.972,
-   "tick": 0.001,
-   "mid": 0.972,
-   "bid": 0.965,
-   "ask": 0.979,
-   "shares": 52.5343,
-   "cost": 51.0634,
-   "ts": 1795345267.753771,
-   "end_ts": 1795368600.0,
-   "hours": 6.48,
-   "liq": 3103,
-   "fill_ts": 1795359662.876824,
-   "mark": 0.9765,
    "stuck": false,
    "disputed": false
   },
@@ -3099,6 +3095,36 @@
    "result": 1.0,
    "closed_ts": "2026-11-22T12:01:06Z",
    "days": 0.25
+  },
+  {
+   "oid": "6913478-1795345267",
+   "id": "6913478",
+   "q": "Spread: Real Valladolid CF (-3.5)",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1351170",
+   "side": 1,
+   "token": "59183039036074731121097693283027464678552796014162467408970253381187077402415",
+   "px": 0.972,
+   "tick": 0.001,
+   "mid": 0.972,
+   "bid": 0.965,
+   "ask": 0.979,
+   "shares": 52.5343,
+   "cost": 51.0634,
+   "ts": 1795345267.753771,
+   "end_ts": 1795368600.0,
+   "hours": 6.48,
+   "liq": 3103,
+   "fill_ts": 1795359662.876824,
+   "mark": 0.9765,
+   "stuck": false,
+   "disputed": false,
+   "payout": 52.5343,
+   "pnl": 1.4709,
+   "result": 1.0,
+   "closed_ts": "2026-11-22T22:01:07Z",
+   "days": 0.29
   }
  ],
  "runs": [
@@ -6217,14 +6243,27 @@
    "placed": 1,
    "shadow_open": 457,
    "shadow_closed": 23
+  },
+  {
+   "ts": "2026-11-22T22:01:47Z",
+   "equity": 1023.75,
+   "cash": 412.66,
+   "orders": 11,
+   "positions": 4,
+   "closed": 94,
+   "scanned": 11941,
+   "candidates": 140,
+   "placed": 2,
+   "shadow_open": 407,
+   "shadow_closed": 54
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 406,
+  "placed": 408,
   "filled": 98,
   "expired": 89,
-  "touched_not_filled": 209
+  "touched_not_filled": 210
  },
  "shadow": [
   {
@@ -7021,136 +7060,6 @@
    "touched": 1
   },
   {
-   "id": "6640086",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "65791347672522289710141769058719833130761853150759606825413233780477496099664",
-   "px": 0.984,
-   "tick": 0.001,
-   "ts": 1795262465,
-   "end_ts": 1795370400,
-   "q": "Spread: Cardinals (-9.5)",
-   "touched": 1
-  },
-  {
-   "id": "6640087",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "16683313438943334950598086433216075011735737634753086298010368100646718547506",
-   "px": 0.989,
-   "tick": 0.001,
-   "ts": 1795262465,
-   "end_ts": 1795370400,
-   "q": "Spread: Cardinals (-10.5)",
-   "touched": 1
-  },
-  {
-   "id": "6640654",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "71621232988608816542726041460109890428841735774267894165055273010485948718949",
-   "px": 0.974,
-   "tick": 0.001,
-   "ts": 1795262465,
-   "end_ts": 1795370400,
-   "q": "Spread: Titans (-13.5)",
-   "touched": 1
-  },
-  {
-   "id": "6640655",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "67748710026236014214085541173142332241920625339137135320297530531757003402979",
-   "px": 0.98,
-   "tick": 0.001,
-   "ts": 1795262465,
-   "end_ts": 1795370400,
-   "q": "Spread: Titans (-14.5)",
-   "touched": 1
-  },
-  {
-   "id": "6640960",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "2041945809780868439625653550422077698224276456904824663480461806721643761545",
-   "px": 0.988,
-   "tick": 0.001,
-   "ts": 1795262465,
-   "end_ts": 1795370400,
-   "q": "Spread: Saints (-14.5)",
-   "touched": 1
-  },
-  {
-   "id": "6641543",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "54907027254363307372236855652269759987735897917560697918364218948763941391572",
-   "px": 0.975,
-   "tick": 0.001,
-   "ts": 1795262465,
-   "end_ts": 1795370400,
-   "q": "Spread: Dolphins (-6.5)",
-   "touched": 1
-  },
-  {
-   "id": "6641544",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "67713366377210017998369363995846087774556467377702797547777597846184460170526",
-   "px": 0.981,
-   "tick": 0.001,
-   "ts": 1795262465,
-   "end_ts": 1795370400,
-   "q": "Spread: Dolphins (-7.5)",
-   "touched": 1
-  },
-  {
-   "id": "6641547",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "107638900334486264575236489387855513365339627358949475418144898902321993499107",
-   "px": 0.981,
-   "tick": 0.001,
-   "ts": 1795262465,
-   "end_ts": 1795370400,
-   "q": "Spread: Dolphins (-9.5)",
-   "touched": 1
-  },
-  {
-   "id": "6641541",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "67071755616113225984939777886395999070263306505686772241529330769573565125999",
-   "px": 0.975,
-   "tick": 0.001,
-   "ts": 1795266066,
-   "end_ts": 1795370400,
-   "q": "Spread: Dolphins (-4.5)",
-   "touched": 1
-  },
-  {
-   "id": "6641542",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "56740543143927593084628670814009297889038708975140714025986662482621252352014",
-   "px": 0.973,
-   "tick": 0.001,
-   "ts": 1795266066,
-   "end_ts": 1795370400,
-   "q": "Spread: Dolphins (-5.5)",
-   "touched": 1
-  },
-  {
    "id": "5713554",
    "rule": "otros_cierre",
    "cat": "otros",
@@ -7177,58 +7086,6 @@
    "touched": 0
   },
   {
-   "id": "6893372",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "5609590633004714676252728907132494301260282520319466745132491867709232351735",
-   "px": 0.979,
-   "tick": 0.001,
-   "ts": 1795269667,
-   "end_ts": 1795376700,
-   "q": "Spread: Atalanta BC (-2.5)",
-   "touched": 1
-  },
-  {
-   "id": "6893378",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "6407572670742817076286737674952107489670523871168154903913368809723256703301",
-   "px": 0.993,
-   "tick": 0.001,
-   "ts": 1795269667,
-   "end_ts": 1795376700,
-   "q": "Spread: Atalanta BC (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "6893401",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "99992734335301358202567328596408453829428770586844469878799074812154462064736",
-   "px": 0.972,
-   "tick": 0.001,
-   "ts": 1795269667,
-   "end_ts": 1795376700,
-   "q": "Atalanta BC vs. FC Internazionale Milano: O/U 0.5",
-   "touched": 1
-  },
-  {
-   "id": "6893430",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "19610460437752711796140017014698502088744510978566925805291621099257020240052",
-   "px": 0.972,
-   "tick": 0.001,
-   "ts": 1795269667,
-   "end_ts": 1795376700,
-   "q": "Atalanta BC vs. FC Internazionale Milano: O/U 7.5",
-   "touched": 1
-  },
-  {
    "id": "6898201",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -7252,19 +7109,6 @@
    "ts": 1795269667,
    "end_ts": 1795377600,
    "q": "Getafe CF vs. Club Atlético de Madrid: O/U 6.5",
-   "touched": 1
-  },
-  {
-   "id": "6898226",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "50175646314643358292812052660802134394542922836421078675944765874245791334168",
-   "px": 0.971,
-   "tick": 0.001,
-   "ts": 1795269667,
-   "end_ts": 1795377600,
-   "q": "Getafe CF vs. Club Atlético de Madrid: 1st Half O/U 3.5",
    "touched": 1
   },
   {
@@ -7318,19 +7162,6 @@
    "end_ts": 1795348800,
    "q": "Will \"Ebenezer\" 2nd Weekend Box Office be between 10.5m and 12m?",
    "touched": 0
-  },
-  {
-   "id": "6640959",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "2731145046804094737570316193014398217651373970641980613432369823922009533257",
-   "px": 0.974,
-   "tick": 0.001,
-   "ts": 1795273270,
-   "end_ts": 1795370400,
-   "q": "Spread: Saints (-13.5)",
-   "touched": 1
   },
   {
    "id": "7016007",
@@ -7398,19 +7229,6 @@
    "touched": 1
   },
   {
-   "id": "6893440",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "9083334466819988136280099620170617209065110526895818608338678382939577299426",
-   "px": 0.98,
-   "tick": 0.001,
-   "ts": 1795276868,
-   "end_ts": 1795376700,
-   "q": "Olympique de Marseille vs. Le Mans FC: O/U 7.5",
-   "touched": 0
-  },
-  {
    "id": "7016009",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -7421,32 +7239,6 @@
    "ts": 1795276868,
    "end_ts": 1795384800,
    "q": "Cal Poly Mustangs vs. Washington Huskies (W)",
-   "touched": 1
-  },
-  {
-   "id": "6893383",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "92180384444061056258397486987646464804729060843012286212530477480277746629935",
-   "px": 0.982,
-   "tick": 0.001,
-   "ts": 1795277622,
-   "end_ts": 1795376700,
-   "q": "Spread: Le Mans FC (-2.5)",
-   "touched": 1
-  },
-  {
-   "id": "6640083",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "23961696905696105691706853067564790297411824374033037406931425206096498646645",
-   "px": 0.973,
-   "tick": 0.001,
-   "ts": 1795280481,
-   "end_ts": 1795370400,
-   "q": "Spread: Cardinals (-6.5)",
    "touched": 1
   },
   {
@@ -7474,32 +7266,6 @@
    "end_ts": 1795390200,
    "q": "Chicago Fire FC vs. Charlotte FC: O/U 8.5",
    "touched": 1
-  },
-  {
-   "id": "6913624",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "115362390798657118211285817577163751505132843253284390616576201697875207463138",
-   "px": 0.972,
-   "tick": 0.001,
-   "ts": 1795287670,
-   "end_ts": 1795368600,
-   "q": "Girona FC vs. SD Eibar: O/U 6.5",
-   "touched": 1
-  },
-  {
-   "id": "7076046",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "71195759442987312074572579194126369408976545056584617113412594918737971234334",
-   "px": 0.98,
-   "tick": 0.001,
-   "ts": 1795291267,
-   "end_ts": 1795368600,
-   "q": "Spread: Oud-Heverlee Leuven (-2.5)",
-   "touched": 0
   },
   {
    "id": "7175723",
@@ -7538,19 +7304,6 @@
    "ts": 1795294864,
    "end_ts": 1795377600,
    "q": "Burgos CF vs. Albacete Balompié: O/U 6.5",
-   "touched": 1
-  },
-  {
-   "id": "6640084",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "114304354612386168167711800167562309941137881491854595415116173742121423504575",
-   "px": 0.982,
-   "tick": 0.001,
-   "ts": 1795297265,
-   "end_ts": 1795370400,
-   "q": "Spread: Cardinals (-7.5)",
    "touched": 1
   },
   {
@@ -7593,19 +7346,6 @@
    "touched": 1
   },
   {
-   "id": "6641548",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "29214814044758025920270739810554478340047783035061231898734066035101737047104",
-   "px": 0.986,
-   "tick": 0.001,
-   "ts": 1795302068,
-   "end_ts": 1795370400,
-   "q": "Spread: Dolphins (-10.5)",
-   "touched": 1
-  },
-  {
    "id": "7239755",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -7630,19 +7370,6 @@
    "end_ts": 1795381200,
    "q": "Nashville SC vs. FC Cincinnati: O/U 7.5",
    "touched": 0
-  },
-  {
-   "id": "6640958",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "108937501301404445967397834433696469125993867690836341964770014581975798128986",
-   "px": 0.976,
-   "tick": 0.001,
-   "ts": 1795305666,
-   "end_ts": 1795370400,
-   "q": "Spread: Saints (-10.5)",
-   "touched": 1
   },
   {
    "id": "7173960",
@@ -7801,32 +7528,6 @@
    "touched": 1
   },
   {
-   "id": "6909449",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "30824241147300019560438713451505809957454250640932918636476496224541773391533",
-   "px": 0.977,
-   "tick": 0.001,
-   "ts": 1795320067,
-   "end_ts": 1795363200,
-   "q": "Spread: KFUM-Kameratene Oslo (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "6909484",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "84954261841319261911181988313273557961417426886647017354349756857948098439215",
-   "px": 0.977,
-   "tick": 0.001,
-   "ts": 1795320067,
-   "end_ts": 1795363200,
-   "q": "KFUM-Kameratene Oslo vs. SK Brann: O/U 7.5",
-   "touched": 1
-  },
-  {
    "id": "6903473",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -7915,45 +7616,6 @@
    "ts": 1795320067,
    "end_ts": 1795371300,
    "q": "Sarpsborg 08 FF vs. Lillestrøm SK: O/U 7.5",
-   "touched": 1
-  },
-  {
-   "id": "6913498",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "56176257757320515524232073634936529953573087423760969559030767705178725837817",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1795320067,
-   "end_ts": 1795368600,
-   "q": "Celta Fortuna vs. Real Valladolid CF: O/U 6.5",
-   "touched": 0
-  },
-  {
-   "id": "6913611",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "7281880347522935658977347541182067295977323697751242610144409076344703494379",
-   "px": 0.976,
-   "tick": 0.001,
-   "ts": 1795320067,
-   "end_ts": 1795368600,
-   "q": "Spread: SD Eibar (-2.5)",
-   "touched": 1
-  },
-  {
-   "id": "6893391",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "42914680510864415335666777669350082153863832079611195746682057789619250106823",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795320067,
-   "end_ts": 1795376700,
-   "q": "Spread: Le Mans FC (-3.5)",
    "touched": 1
   },
   {
@@ -8217,32 +7879,6 @@
    "touched": 1
   },
   {
-   "id": "6962606",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "94860612400853844031832894005827798546609995797843972855300025400782803425199",
-   "px": 0.972,
-   "tick": 0.001,
-   "ts": 1795323667,
-   "end_ts": 1795366800,
-   "q": "HNK Rijeka vs. HNK Gorica: O/U 6.5",
-   "touched": 1
-  },
-  {
-   "id": "6891797",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "57920272947358143056463542784564965320388015774594627414611961690314813300170",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1795323667,
-   "end_ts": 1795376700,
-   "q": "Olympique de Marseille vs. Le Mans FC: Neither team to score first?",
-   "touched": 1
-  },
-  {
    "id": "6898199",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -8292,19 +7928,6 @@
    "ts": 1795323667,
    "end_ts": 1795377600,
    "q": "Spread: Albacete Balompié (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "6913613",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "90656953515517840169757538847613857063368734427877317313931633024375990349658",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795323667,
-   "end_ts": 1795368600,
-   "q": "Spread: SD Eibar (-3.5)",
    "touched": 1
   },
   {
@@ -8358,136 +7981,6 @@
    "end_ts": 1795374000,
    "q": "Massachusetts-Lowell River Hawks vs. Cincinnati Bearcats",
    "touched": 1
-  },
-  {
-   "id": "6999018",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "97373956327708339958328124899908535799492680257054778562289560162737707024650",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795323667,
-   "end_ts": 1795370400,
-   "q": "Exact Margin: Cardinals by 25+",
-   "touched": 0
-  },
-  {
-   "id": "6999019",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "72744790576458426488583490790683567523984876146574468751120853572766145587767",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795323667,
-   "end_ts": 1795370400,
-   "q": "Exact Margin: Cardinals by 19-24",
-   "touched": 0
-  },
-  {
-   "id": "6999021",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "56133625048964623179807122640193519966509847358338786812577868076823785957760",
-   "px": 0.987,
-   "tick": 0.001,
-   "ts": 1795323667,
-   "end_ts": 1795370400,
-   "q": "Exact Margin: Cardinals by 7-12",
-   "touched": 0
-  },
-  {
-   "id": "6999023",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "15515174983579033594863515902717004979530702060203029399684305498830565164534",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795323667,
-   "end_ts": 1795370400,
-   "q": "Exact Margin: Tie",
-   "touched": 0
-  },
-  {
-   "id": "7076048",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "95626172655704295068160789127365189262421339456136738966129212186910824759044",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795323667,
-   "end_ts": 1795368600,
-   "q": "Spread: Oud-Heverlee Leuven (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "7076060",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "113604978244279151278285020729471654262105387196993614504080015948025225325765",
-   "px": 0.986,
-   "tick": 0.001,
-   "ts": 1795323667,
-   "end_ts": 1795368600,
-   "q": "RSC Anderlecht vs. Oud-Heverlee Leuven: O/U 7.5",
-   "touched": 1
-  },
-  {
-   "id": "7076491",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "45600820260194563727411184616619469631873146422504024222091743187332563604735",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1795323667,
-   "end_ts": 1795368600,
-   "q": "Spread: AE Kifisia FC (-1.5)",
-   "touched": 1
-  },
-  {
-   "id": "7076493",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "72632824420553908290633128332774042263901675576555069805748951692523680235858",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795323667,
-   "end_ts": 1795368600,
-   "q": "Spread: AE Kifisia FC (-2.5)",
-   "touched": 1
-  },
-  {
-   "id": "7076495",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "88947347768551163505243143404841267198570406983601597517907197430654186081843",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795323667,
-   "end_ts": 1795368600,
-   "q": "Spread: AE Kifisia FC (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "7076507",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "98946734476078990846039702847940438516481754742246174551916137670832098194285",
-   "px": 0.989,
-   "tick": 0.001,
-   "ts": 1795323667,
-   "end_ts": 1795368600,
-   "q": "PAOK Thessaloniki vs. AE Kifisia FC: O/U 7.5",
-   "touched": 0
   },
   {
    "id": "7077321",
@@ -9361,19 +8854,6 @@
    "touched": 1
   },
   {
-   "id": "6640957",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "80009936685384253605506419962891270865218534580994327219555555380566046889656",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1795327264,
-   "end_ts": 1795370400,
-   "q": "Spread: Saints (-9.5)",
-   "touched": 1
-  },
-  {
    "id": "6924104",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -9462,45 +8942,6 @@
    "ts": 1795327264,
    "end_ts": 1795375800,
    "q": "Spread: UD Logrones (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "7171001",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "109909462892174979836390340855869123049774949668969720668494153958856210246892",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795327264,
-   "end_ts": 1795374000,
-   "q": "Spread: CA Gimnasia y Esgrima de Mendoza (-2.5)",
-   "touched": 1
-  },
-  {
-   "id": "7171003",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "7725593195935423565199992707411655478019800859531084108935040542405216261868",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795327264,
-   "end_ts": 1795374000,
-   "q": "Spread: CA Gimnasia y Esgrima de Mendoza (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "7171014",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "44977965173086837018242712590419612847394386519672351046317352990398536060404",
-   "px": 0.979,
-   "tick": 0.001,
-   "ts": 1795327264,
-   "end_ts": 1795374000,
-   "q": "CA Rosario Central vs. CA Gimnasia y Esgrima de Mendoza: O/U 6.5",
    "touched": 1
   },
   {
@@ -9725,19 +9166,6 @@
    "touched": 1
   },
   {
-   "id": "6640094",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "102745814959436047665267194932000370097163459203456612310999807039192997313162",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795330863,
-   "end_ts": 1795370400,
-   "q": "Spread: Cardinals (-21.5)",
-   "touched": 1
-  },
-  {
    "id": "6898218",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -9933,19 +9361,6 @@
    "touched": 1
   },
   {
-   "id": "6886227",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "30291028960246381772767896484117749948520252503943017968307998470712296690977",
-   "px": 0.974,
-   "tick": 0.001,
-   "ts": 1795334464,
-   "end_ts": 1795376700,
-   "q": "Atalanta BC vs. FC Internazionale Milano: Neither team to score first?",
-   "touched": 1
-  },
-  {
    "id": "6903479",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -9982,45 +9397,6 @@
    "ts": 1795334464,
    "end_ts": 1795371300,
    "q": "Sarpsborg 08 FF vs. Lillestrøm SK: O/U 8.5",
-   "touched": 1
-  },
-  {
-   "id": "6913500",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "5269880995003047620106073338958204475542001531439885282430887228968400806490",
-   "px": 0.991,
-   "tick": 0.001,
-   "ts": 1795334464,
-   "end_ts": 1795368600,
-   "q": "Celta Fortuna vs. Real Valladolid CF: O/U 7.5",
-   "touched": 1
-  },
-  {
-   "id": "6913625",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "102721149954615467082592776927219649590778895019267118163496375785520188815612",
-   "px": 0.992,
-   "tick": 0.001,
-   "ts": 1795334464,
-   "end_ts": 1795368600,
-   "q": "Girona FC vs. SD Eibar: O/U 7.5",
-   "touched": 1
-  },
-  {
-   "id": "6924130",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "46308896903345084950847766719921185975576235957708690395524697098287271436323",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795334464,
-   "end_ts": 1795370400,
-   "q": "Spread: Portimonense SC (-3.5)",
    "touched": 1
   },
   {
@@ -10112,7 +9488,7 @@
    "ts": 1795338065,
    "end_ts": 1795348800,
    "q": "Will \"The Cat in the Hat\" 3rd Weekend Box Office be between 4m and 5m?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7175720",
@@ -10125,20 +9501,7 @@
    "ts": 1795338065,
    "end_ts": 1795348800,
    "q": "Will \"The Cat in the Hat\" 3rd Weekend Box Office be between 5m and 6m?",
-   "touched": null
-  },
-  {
-   "id": "6893444",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "40655407788866320569403050520627241438310022107614957415419598980493705539901",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795338065,
-   "end_ts": 1795376700,
-   "q": "Olympique de Marseille vs. Le Mans FC: O/U 8.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6898219",
@@ -10151,7 +9514,7 @@
    "ts": 1795338065,
    "end_ts": 1795377600,
    "q": "Getafe CF vs. Club Atlético de Madrid: O/U 8.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6913266",
@@ -10164,7 +9527,7 @@
    "ts": 1795338065,
    "end_ts": 1795377600,
    "q": "Burgos CF vs. Albacete Balompié: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7077951",
@@ -10177,33 +9540,7 @@
    "ts": 1795338065,
    "end_ts": 1795372200,
    "q": "Spread: MSV Duisburg (-3.5)",
-   "touched": null
-  },
-  {
-   "id": "7170999",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "58619657375586554302045517515657992285551263149444252055952294660301853077936",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1795338065,
-   "end_ts": 1795374000,
-   "q": "Spread: CA Gimnasia y Esgrima de Mendoza (-1.5)",
-   "touched": null
-  },
-  {
-   "id": "7171015",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "115222931393136842009497835381714597995259796240165452625143906065124208979833",
-   "px": 0.991,
-   "tick": 0.001,
-   "ts": 1795338065,
-   "end_ts": 1795374000,
-   "q": "CA Rosario Central vs. CA Gimnasia y Esgrima de Mendoza: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6928063",
@@ -10216,7 +9553,7 @@
    "ts": 1795338065,
    "end_ts": 1795388820,
    "q": "Spread: CF Cruz Azul (-3.5)",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "5763816",
@@ -10229,7 +9566,7 @@
    "ts": 1795338065,
    "end_ts": 1795409940,
    "q": "Will OpenRouter process at least 775T tokens from Oct 26 to Nov 22?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7023053",
@@ -10242,7 +9579,7 @@
    "ts": 1795338065,
    "end_ts": 1795409940,
    "q": "Will there be 8 earthquakes of 5.5 or above magnitude worldwide?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7085140",
@@ -10255,7 +9592,7 @@
    "ts": 1795338065,
    "end_ts": 1795410000,
    "q": "Will Bitcoin reach $76,000 November 16-22?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7085150",
@@ -10268,7 +9605,7 @@
    "ts": 1795338065,
    "end_ts": 1795410000,
    "q": "Will Bitcoin reach $72,000 November 16-22?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7085179",
@@ -10281,7 +9618,7 @@
    "ts": 1795338065,
    "end_ts": 1795410000,
    "q": "Will Bitcoin dip to $54,000 November 16-22?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7090846",
@@ -10294,7 +9631,7 @@
    "ts": 1795338065,
    "end_ts": 1795409940,
    "q": "Will Grace Kim win the 2026 CME Group Tour Championship?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7246813",
@@ -10307,7 +9644,7 @@
    "ts": 1795338065,
    "end_ts": 1795410000,
    "q": "Will Bitcoin dip to $54,000 on November 22?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7246816",
@@ -10320,7 +9657,7 @@
    "ts": 1795338065,
    "end_ts": 1795410000,
    "q": "Will Ethereum reach $2,000 on November 22?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7246817",
@@ -10333,7 +9670,7 @@
    "ts": 1795338065,
    "end_ts": 1795410000,
    "q": "Will Ethereum reach $1,950 on November 22?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7246830",
@@ -10346,7 +9683,7 @@
    "ts": 1795338065,
    "end_ts": 1795410000,
    "q": "Will Solana reach $90 on November 22?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7246831",
@@ -10359,7 +9696,7 @@
    "ts": 1795338065,
    "end_ts": 1795410000,
    "q": "Will Solana reach $85 on November 22?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7246832",
@@ -10372,7 +9709,7 @@
    "ts": 1795338065,
    "end_ts": 1795410000,
    "q": "Will Solana reach $80 on November 22?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7246836",
@@ -10385,7 +9722,7 @@
    "ts": 1795338065,
    "end_ts": 1795410000,
    "q": "Will Solana dip to $60 on November 22?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7246837",
@@ -10398,7 +9735,7 @@
    "ts": 1795338065,
    "end_ts": 1795410000,
    "q": "Will Solana dip to $55 on November 22?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7246838",
@@ -10411,7 +9748,7 @@
    "ts": 1795338065,
    "end_ts": 1795410000,
    "q": "Will Solana dip to $50 on November 22?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7246839",
@@ -10424,7 +9761,7 @@
    "ts": 1795338065,
    "end_ts": 1795410000,
    "q": "Will Solana dip to $45 on November 22?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7246840",
@@ -10437,7 +9774,7 @@
    "ts": 1795338065,
    "end_ts": 1795410000,
    "q": "Will XRP reach $1.15 on November 22?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7246841",
@@ -10450,7 +9787,7 @@
    "ts": 1795338065,
    "end_ts": 1795410000,
    "q": "Will XRP reach $1.10 on November 22?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7246842",
@@ -10463,7 +9800,7 @@
    "ts": 1795338065,
    "end_ts": 1795410000,
    "q": "Will XRP reach $1.05 on November 22?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7246847",
@@ -10476,7 +9813,7 @@
    "ts": 1795338065,
    "end_ts": 1795410000,
    "q": "Will XRP dip to $0.80 on November 22?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7246848",
@@ -10489,7 +9826,7 @@
    "ts": 1795338065,
    "end_ts": 1795410000,
    "q": "Will XRP dip to $0.75 on November 22?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7246849",
@@ -10502,7 +9839,7 @@
    "ts": 1795338065,
    "end_ts": 1795410000,
    "q": "Will XRP dip to $0.70 on November 22?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7175710",
@@ -10515,7 +9852,7 @@
    "ts": 1795341103,
    "end_ts": 1795348800,
    "q": "Will \"Ebenezer\" 2nd Weekend Box Office be between 9m and 10.5m?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6930914",
@@ -10528,7 +9865,7 @@
    "ts": 1795341103,
    "end_ts": 1795382100,
    "q": "Spread: Club Blooming (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7170955",
@@ -10541,7 +9878,7 @@
    "ts": 1795341103,
    "end_ts": 1795384800,
    "q": "Spread: CA Lanús (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7234701",
@@ -10554,7 +9891,7 @@
    "ts": 1795341103,
    "end_ts": 1795410000,
    "q": "Will Ethereum reach $1,700 November 16-22?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7246812",
@@ -10567,7 +9904,7 @@
    "ts": 1795341103,
    "end_ts": 1795410000,
    "q": "Will Bitcoin dip to $55,000 on November 22?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7246822",
@@ -10580,7 +9917,7 @@
    "ts": 1795341103,
    "end_ts": 1795410000,
    "q": "Will Ethereum reach $1,700 on November 22?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7246825",
@@ -10593,7 +9930,7 @@
    "ts": 1795341103,
    "end_ts": 1795410000,
    "q": "Will Ethereum dip to $1,550 on November 22?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7015954",
@@ -10606,7 +9943,7 @@
    "ts": 1795341663,
    "end_ts": 1795384800,
    "q": "Wichita State Shockers vs. Oklahoma State Cowboys (W)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7175725",
@@ -10619,7 +9956,7 @@
    "ts": 1795341663,
    "end_ts": 1795388340,
    "q": "Will xQc finish GTA VI by November 22, 5:59 PM ET?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7229978",
@@ -10632,7 +9969,7 @@
    "ts": 1795341663,
    "end_ts": 1795395600,
    "q": "Blackhawks vs. Canucks: O/U 2.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7229988",
@@ -10645,7 +9982,7 @@
    "ts": 1795341663,
    "end_ts": 1795392000,
    "q": "Penguins vs. Stars: O/U 2.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7085137",
@@ -10658,7 +9995,7 @@
    "ts": 1795341663,
    "end_ts": 1795410000,
    "q": "Will Bitcoin reach $78,000 November 16-22?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7085145",
@@ -10671,7 +10008,7 @@
    "ts": 1795341663,
    "end_ts": 1795410000,
    "q": "Will Bitcoin reach $74,000 November 16-22?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6640089",
@@ -12166,6 +11503,58 @@
    "ts": 1795381263,
    "end_ts": 1795489200,
    "q": "Northern Arizona Lumberjacks vs. USC Trojans (W)",
+   "touched": null
+  },
+  {
+   "id": "7147734",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "40584263552117211803209478493073490892783196261343968667706331021909142949117",
+   "px": 0.98,
+   "tick": 0.001,
+   "ts": 1795384864,
+   "end_ts": 1795409940,
+   "q": "Will HoneyMad finish GTA VI by November 22?",
+   "touched": null
+  },
+  {
+   "id": "7147750",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "87549852841557174795644056495903069549880123470494195046072214384491122131798",
+   "px": 0.983,
+   "tick": 0.001,
+   "ts": 1795384864,
+   "end_ts": 1795409940,
+   "q": "Will Alanzoka finish GTA VI by November 22?",
+   "touched": null
+  },
+  {
+   "id": "7097183",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "106855551837949944652333832754338786067512285975470801974260914381742472824320",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795384864,
+   "end_ts": 1795453200,
+   "q": "Will the price of Bitcoin be above $70,000 on November 23?",
+   "touched": null
+  },
+  {
+   "id": "7112394",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "5247645107674491740431630844018365527438855374243385628428760062597587905081",
+   "px": 0.98,
+   "tick": 0.001,
+   "ts": 1795384864,
+   "end_ts": 1795456800,
+   "q": "Orgryte IS vs. Kalmar FF: O/U 6.5",
    "touched": null
   }
  ]
