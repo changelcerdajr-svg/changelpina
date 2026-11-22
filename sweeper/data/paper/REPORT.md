@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-11T22:05:26Z | dias corridos: 10.8 de 28 | corridas: 237
-- Capital inicial: $1,000.00 | valor actual: $1,022.29 | P&L: $+22.29 (+2.23%)
-- Efectivo libre: $411.75 | en ordenes abiertas: $410.52 (11) | en posiciones: $199.80 (4)
+- Inicio: 2026-11-11T22:05:26Z | dias corridos: 10.9 de 28 | corridas: 238
+- Capital inicial: $1,000.00 | valor actual: $1,022.45 | P&L: $+22.45 (+2.25%)
+- Efectivo libre: $411.72 | en ordenes abiertas: $403.24 (10) | en posiciones: $207.12 (5)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 401 colocadas, 97 llenadas, 205 tocadas sin llenarse (sorteo 30%), 88 expiradas
+- Ordenes virtuales: 403 colocadas, 98 llenadas, 207 tocadas sin llenarse (sorteo 30%), 88 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -30,27 +30,28 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 |---|---|---|---|---|---|
 | $51.82 | 98.5c | 98.3c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
 | $51.06 | 97.2c | 97.7c | deportes_previo |  | Spread: Real Valladolid CF (-3.5) |
-| $53.71 | 99.0c | 99.2c | cripto_cierre |  | Will Bitcoin reach $66,000 November 16-22? |
+| $7.32 | 98.6c | 98.6c | deportes_previo |  | Spread: CF Cruz Azul (-3.5) |
+| $53.71 | 99.0c | 99.5c | cripto_cierre |  | Will Bitcoin reach $66,000 November 16-22? |
 | $43.20 | 99.8c | 99.8c | cripto_cierre |  | Will Bitcoin reach $72,000 November 16-22? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 3660 | abiertas: 551 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 3697 | abiertas: 523 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
 | cripto_cierre | todas | 1064 | 98.73c | 99.06% | +0.33 pts | -0.25 a +0.91 | 10 |
 | cripto_cierre | tocadas | 728 | 98.56c | 98.63% | +0.07 pts | -0.77 a +0.92 | 10 |
-| deportes_previo | todas | 1987 | 98.31c | 99.04% | +0.74 pts | +0.32 a +1.16 | 20 |
-| deportes_previo | tocadas | 1688 | 98.27c | 98.99% | +0.72 pts | +0.25 a +1.19 | 18 |
+| deportes_previo | todas | 2024 | 98.31c | 99.06% | +0.76 pts | +0.34 a +1.17 | 20 |
+| deportes_previo | tocadas | 1719 | 98.27c | 99.01% | +0.74 pts | +0.28 a +1.20 | 18 |
 | otros_cierre | todas | 537 | 98.81c | 99.26% | +0.45 pts | -0.28 a +1.18 | 4 |
 | otros_cierre | tocadas | 361 | 98.70c | 98.89% | +0.20 pts | -0.89 a +1.28 | 4 |
 | post_fin_95_97 | todas | 72 | 95.91c | 91.67% | -4.25 pts | -10.68 a +2.18 | 6 |
 | post_fin_95_97 | tocadas | 64 | 95.93c | 90.62% | -5.30 pts | -12.50 a +1.89 | 6 |
-| TOTAL | todas | 3660 | 98.46c | 98.93% | +0.48 pts | +0.15 a +0.81 | 40 |
-| TOTAL | tocadas | 2841 | 98.35c | 98.70% | +0.35 pts | -0.06 a +0.77 | 38 |
+| TOTAL | todas | 3697 | 98.45c | 98.95% | +0.49 pts | +0.17 a +0.82 | 40 |
+| TOTAL | tocadas | 2872 | 98.34c | 98.71% | +0.37 pts | -0.04 a +0.78 | 38 |
 
 Peores casos del registro sombra:
 
@@ -67,4 +68,4 @@ Peores casos del registro sombra:
 
 ## Veredicto
 
-Aun no hay veredicto: van 93 operaciones cerradas en 10.8 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
+Aun no hay veredicto: van 93 operaciones cerradas en 10.9 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.

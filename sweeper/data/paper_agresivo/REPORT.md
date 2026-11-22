@@ -2,8 +2,8 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 9.2 de 28 | corridas: 200
-- Capital inicial: $1,000.00 | valor actual: $869.95 | P&L: $-130.05 (-13.01%)
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 9.2 de 28 | corridas: 201
+- Capital inicial: $1,000.00 | valor actual: $870.07 | P&L: $-129.93 (-12.99%)
 - Efectivo libre: $0.71 | en ordenes abiertas: $304.83 (6) | en posiciones: $587.79 (8)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
 - Ordenes virtuales: 408 colocadas, 182 llenadas, 178 tocadas sin llenarse (sorteo 30%), 42 expiradas
@@ -34,7 +34,7 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 | $91.77 | 99.8c | 89.8c | otros_cierre |  | Pakistan military action against Afghanistan by November 15, 2026? |
 | $35.36 | 99.8c | 98.9c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $4.5m and $5.5m at auction? |
 | $87.27 | 99.8c | 98.3c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
-| $26.13 | 95.0c | 98.0c | post_fin_90_97 |  | Will the highest temperature in Chicago be between 58-59°F on November 22? |
+| $26.13 | 95.0c | 98.7c | post_fin_90_97 |  | Will the highest temperature in Chicago be between 58-59°F on November 22? |
 | $88.25 | 98.4c | 98.4c | deportes_previo |  | Spread: Málaga CF (-2.5) |
 | $88.25 | 96.2c | 81.5c | deportes_previo |  | Spread: CA Osasuna (-3.5) |
 | $87.57 | 99.0c | 99.0c | deportes_previo |  | Spread: Clube do Remo (-2.5) |
@@ -44,22 +44,22 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 10165 | abiertas: 2821 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 10227 | abiertas: 2832 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
-| clima_cierre | todas | 2804 | 98.83c | 99.04% | +0.21 pts | -0.15 a +0.57 | 27 |
-| clima_cierre | tocadas | 2600 | 98.85c | 98.96% | +0.11 pts | -0.27 a +0.50 | 27 |
-| cripto_cierre | todas | 1396 | 98.71c | 98.07% | -0.64 pts | -1.36 a +0.07 | 27 |
-| cripto_cierre | tocadas | 1271 | 98.75c | 97.88% | -0.88 pts | -1.66 a -0.09 | 27 |
-| deportes_previo | todas | 4659 | 98.00c | 97.44% | -0.57 pts | -1.02 a -0.12 | 122 |
-| deportes_previo | tocadas | 4546 | 98.04c | 97.42% | -0.62 pts | -1.08 a -0.17 | 120 |
+| clima_cierre | todas | 2811 | 98.83c | 99.04% | +0.21 pts | -0.15 a +0.57 | 27 |
+| clima_cierre | tocadas | 2606 | 98.85c | 98.96% | +0.12 pts | -0.27 a +0.50 | 27 |
+| cripto_cierre | todas | 1399 | 98.71c | 98.07% | -0.64 pts | -1.36 a +0.07 | 27 |
+| cripto_cierre | tocadas | 1274 | 98.75c | 97.88% | -0.87 pts | -1.65 a -0.09 | 27 |
+| deportes_previo | todas | 4711 | 98.00c | 97.46% | -0.54 pts | -0.98 a -0.09 | 122 |
+| deportes_previo | tocadas | 4594 | 98.04c | 97.44% | -0.59 pts | -1.05 a -0.14 | 120 |
 | otros_cierre | todas | 1209 | 99.01c | 97.27% | -1.74 pts | -2.65 a -0.82 | 33 |
 | otros_cierre | tocadas | 1129 | 98.97c | 97.08% | -1.89 pts | -2.87 a -0.92 | 33 |
 | post_fin_90_97 | todas | 97 | 94.33c | 96.91% | +2.57 pts | -0.88 a +6.03 | 3 |
 | post_fin_90_97 | tocadas | 78 | 94.37c | 96.15% | +1.79 pts | -2.49 a +6.07 | 3 |
-| TOTAL | todas | 10165 | 98.41c | 97.94% | -0.47 pts | -0.75 a -0.20 | 212 |
-| TOTAL | tocadas | 9624 | 98.43c | 97.84% | -0.59 pts | -0.87 a -0.30 | 210 |
+| TOTAL | todas | 10227 | 98.41c | 97.95% | -0.46 pts | -0.73 a -0.19 | 212 |
+| TOTAL | tocadas | 9681 | 98.43c | 97.86% | -0.57 pts | -0.86 a -0.29 | 210 |
 
 Peores casos del registro sombra:
 
