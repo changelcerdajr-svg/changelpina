@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 8.9 de 28 | corridas: 190
-- Capital inicial: $1,000.00 | valor actual: $874.28 | P&L: $-125.72 (-12.57%)
-- Efectivo libre: $0.00 | en ordenes abiertas: $495.85 (9) | en posiciones: $389.26 (5)
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 8.9 de 28 | corridas: 191
+- Capital inicial: $1,000.00 | valor actual: $873.97 | P&L: $-126.03 (-12.60%)
+- Efectivo libre: $0.03 | en ordenes abiertas: $495.81 (9) | en posiciones: $389.26 (5)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 395 colocadas, 175 llenadas, 171 tocadas sin llenarse (sorteo 30%), 40 expiradas
+- Ordenes virtuales: 396 colocadas, 175 llenadas, 172 tocadas sin llenarse (sorteo 30%), 40 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -35,13 +35,13 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 | $35.36 | 99.8c | 98.9c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $4.5m and $5.5m at auction? |
 | $87.27 | 99.8c | 98.3c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
 | $87.43 | 98.8c | 98.8c | deportes_previo |  | Spread: Erzurumspor FK (-3.5) |
-| $87.43 | 99.8c | 99.8c | deportes_previo |  | Spread: Muglaspor (-3.5) |
+| $87.43 | 99.8c | 99.5c | deportes_previo |  | Spread: Muglaspor (-3.5) |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 9699 | abiertas: 2826 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 9699 | abiertas: 2838 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|

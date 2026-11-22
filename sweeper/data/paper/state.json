@@ -265,7 +265,7 @@
    "hours": 22.98,
    "liq": 62011,
    "fill_ts": 1795330863.301342,
-   "mark": 0.9875,
+   "mark": 0.9695,
    "stuck": false,
    "disputed": false
   }
@@ -5947,6 +5947,19 @@
    "placed": 2,
    "shadow_open": 699,
    "shadow_closed": 0
+  },
+  {
+   "ts": "2026-11-22T10:01:52Z",
+   "equity": 1020.75,
+   "cash": 407.99,
+   "orders": 9,
+   "positions": 3,
+   "closed": 92,
+   "scanned": 12725,
+   "candidates": 219,
+   "placed": 0,
+   "shadow_open": 701,
+   "shadow_closed": 4
   }
  ],
  "halted": false,
@@ -8779,58 +8792,6 @@
    "touched": 1
   },
   {
-   "id": "6823621",
-   "rule": "post_fin_95_97",
-   "cat": "deportes",
-   "side": 1,
-   "token": "4733228696109725525876836272184331412362398417738230672006364498155893467774",
-   "px": 0.95,
-   "tick": 0.01,
-   "ts": 1795298463,
-   "end_ts": 1795287600,
-   "q": "Spread: Middle Tennessee (-10.5)",
-   "touched": null
-  },
-  {
-   "id": "6823689",
-   "rule": "post_fin_95_97",
-   "cat": "deportes",
-   "side": 1,
-   "token": "115377883283256691990789185703754336056764005284911959147617039983730900084318",
-   "px": 0.963,
-   "tick": 0.001,
-   "ts": 1795298463,
-   "end_ts": 1795287600,
-   "q": "Spread: Missouri State (-3.5)",
-   "touched": null
-  },
-  {
-   "id": "7217579",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "62958389557621469258439406697691751960206828160354759907770441668766695146236",
-   "px": 0.985,
-   "tick": 0.001,
-   "ts": 1795298463,
-   "end_ts": 1795323600,
-   "q": "Will XRP reach $1.05 on November 21?",
-   "touched": null
-  },
-  {
-   "id": "7217584",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "107961788436750035185732920859982027456984559669627139563249380454241381506742",
-   "px": 0.985,
-   "tick": 0.001,
-   "ts": 1795298463,
-   "end_ts": 1795323600,
-   "q": "Will XRP dip to $0.80 on November 21?",
-   "touched": null
-  },
-  {
    "id": "7045043",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -8841,7 +8802,7 @@
    "ts": 1795298463,
    "end_ts": 1795368600,
    "q": "1st Half Spread: Málaga CF (-1.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6823737",
@@ -15042,6 +15003,84 @@
    "ts": 1795341103,
    "end_ts": 1795410000,
    "q": "Will Ethereum dip to $1,550 on November 22?",
+   "touched": null
+  },
+  {
+   "id": "7015954",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "20786837973591319441629012323569386800600476683535760291223438173796733361713",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795341663,
+   "end_ts": 1795384800,
+   "q": "Wichita State Shockers vs. Oklahoma State Cowboys (W)",
+   "touched": null
+  },
+  {
+   "id": "7175725",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "57051492469843682243219265735352064214633852005180881682861670210498144802174",
+   "px": 0.986,
+   "tick": 0.001,
+   "ts": 1795341663,
+   "end_ts": 1795388340,
+   "q": "Will xQc finish GTA VI by November 22, 5:59 PM ET?",
+   "touched": null
+  },
+  {
+   "id": "7229978",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "110562308558266081785901127746731780343840932334556453930512601311830784013641",
+   "px": 0.971,
+   "tick": 0.001,
+   "ts": 1795341663,
+   "end_ts": 1795395600,
+   "q": "Blackhawks vs. Canucks: O/U 2.5",
+   "touched": null
+  },
+  {
+   "id": "7229988",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "62904791570733367782146445129860314189390525580329745074215389914863586027033",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795341663,
+   "end_ts": 1795392000,
+   "q": "Penguins vs. Stars: O/U 2.5",
+   "touched": null
+  },
+  {
+   "id": "7085137",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "35116919449738515714925399023697254201673781711973905309794957423410821197644",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795341663,
+   "end_ts": 1795410000,
+   "q": "Will Bitcoin reach $78,000 November 16-22?",
+   "touched": null
+  },
+  {
+   "id": "7085145",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "66811927444154388962737155976593762795877904699958462054886469558102786354215",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795341663,
+   "end_ts": 1795410000,
+   "q": "Will Bitcoin reach $74,000 November 16-22?",
    "touched": null
   }
  ]

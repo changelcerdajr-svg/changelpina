@@ -1,6 +1,6 @@
 {
  "capital0": 1000.0,
- "cash": 0.0,
+ "cash": 0.0306,
  "started": "2026-11-13T13:15:42Z",
  "orders": [
   {
@@ -130,27 +130,6 @@
    "liq": 13348
   },
   {
-   "oid": "6894301-1795341168",
-   "id": "6894301",
-   "q": "Spread: AD Sanjoanense (-2.5)",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1346839",
-   "side": 1,
-   "token": "83356107001846404749034142860167750251286275940251457775098810967250748875932",
-   "px": 0.984,
-   "tick": 0.001,
-   "mid": 0.972,
-   "bid": 0.959,
-   "ask": 0.985,
-   "shares": 88.8495,
-   "cost": 87.4279,
-   "ts": 1795341168.065968,
-   "end_ts": 1795345200.0,
-   "hours": 1.12,
-   "liq": 1178
-  },
-  {
    "oid": "5713554-1795341168",
    "id": "5713554",
    "q": "Will \"The Hunger Games: Sunrise on the Reaping\" Opening Weekend Box Office be between 75m and 85m?",
@@ -191,6 +170,27 @@
    "end_ts": 1795410000.0,
    "hours": 19.12,
    "liq": 48067
+  },
+  {
+   "oid": "6867352-1795341712",
+   "id": "6867352",
+   "q": "Will Willem II Tilburg win on 2026-11-22?",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1341740",
+   "side": 1,
+   "token": "107984056581399034490290950247156266745924149185529497707032208328064280480359",
+   "px": 0.971,
+   "tick": 0.001,
+   "mid": 0.971,
+   "bid": 0.97,
+   "ask": 0.972,
+   "shares": 90.0075,
+   "cost": 87.3973,
+   "ts": 1795341712.657111,
+   "end_ts": 1795346100.0,
+   "hours": 1.22,
+   "liq": 136188
   }
  ],
  "positions": [
@@ -290,7 +290,9 @@
    "hours": 1.47,
    "liq": 11028,
    "fill_ts": 1795341168.065968,
-   "mark": 0.988
+   "mark": 0.988,
+   "stuck": false,
+   "disputed": false
   },
   {
    "oid": "7100011-1795338106",
@@ -313,7 +315,9 @@
    "hours": 1.47,
    "liq": 2526,
    "fill_ts": 1795341168.065968,
-   "mark": 0.998
+   "mark": 0.9945,
+   "stuck": false,
+   "disputed": false
   }
  ],
  "closed": [
@@ -7812,14 +7816,27 @@
    "placed": 3,
    "shadow_open": 2826,
    "shadow_closed": 40
+  },
+  {
+   "ts": "2026-11-22T10:02:59Z",
+   "equity": 873.97,
+   "cash": 0.03,
+   "orders": 9,
+   "positions": 5,
+   "closed": 170,
+   "scanned": 19613,
+   "candidates": 1255,
+   "placed": 1,
+   "shadow_open": 2838,
+   "shadow_closed": 0
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 395,
+  "placed": 396,
   "filled": 175,
   "expired": 40,
-  "touched_not_filled": 171
+  "touched_not_filled": 172
  },
  "shadow": [
   {
@@ -44558,6 +44575,162 @@
    "ts": 1795341168,
    "end_ts": 1795568400,
    "q": "Kansas City Roos vs. Nebraska Cornhuskers (W)",
+   "touched": null
+  },
+  {
+   "id": "7070061",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "58309079261974295655678550090650296417775110323935198808965914396934815995087",
+   "px": 0.95,
+   "tick": 0.01,
+   "ts": 1795341712,
+   "end_ts": 1795352400,
+   "q": "FC Zurich vs. FC St. Gallen 1879: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "6906347",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "46797545655258040202621717130975712404522647338684544501493100670436224172525",
+   "px": 0.991,
+   "tick": 0.001,
+   "ts": 1795341712,
+   "end_ts": 1795363200,
+   "q": "Trabzonspor vs. Eyüpspor: O/U 8.5",
+   "touched": null
+  },
+  {
+   "id": "6924163",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "9701857801270580727014734063629819576039998606613254458396194392387331072043",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1795341712,
+   "end_ts": 1795359600,
+   "q": "Spread: CD Fátima (-1.5)",
+   "touched": null
+  },
+  {
+   "id": "6924165",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "62939277868305420533188989690355951700272412624974212449149118520774063548439",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795341712,
+   "end_ts": 1795359600,
+   "q": "Spread: CD Fátima (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "6924178",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "69327049900355941524566884671292142015586945710697408221681952179012832569674",
+   "px": 0.979,
+   "tick": 0.001,
+   "ts": 1795341712,
+   "end_ts": 1795359600,
+   "q": "SC Farense vs. CD Fátima: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "6924179",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "54501039563712988485384615111608705493226738885757271796053920118154674064957",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795341712,
+   "end_ts": 1795359600,
+   "q": "SC Farense vs. CD Fátima: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6898295",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "95324375017122641368045100930297228841739488701347990532238018688377506426160",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795341712,
+   "end_ts": 1795368600,
+   "q": "CA Osasuna vs. Málaga CF: CA Osasuna 1st Half O/U 3.5",
+   "touched": null
+  },
+  {
+   "id": "7175725",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "57051492469843682243219265735352064214633852005180881682861670210498144802174",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795341712,
+   "end_ts": 1795388340,
+   "q": "Will xQc finish GTA VI by November 22, 5:59 PM ET?",
+   "touched": null
+  },
+  {
+   "id": "7218346",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "97680874314019904066774231059167234944476246373942198162169678905079697560007",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795341712,
+   "end_ts": 1795435200,
+   "q": "Will the highest temperature in Cape Town be 19°C on November 23?",
+   "touched": null
+  },
+  {
+   "id": "7218372",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "96884256323140094705042498272594214882592131221390779551603969023689779084871",
+   "px": 0.982,
+   "tick": 0.001,
+   "ts": 1795341712,
+   "end_ts": 1795435200,
+   "q": "Will the highest temperature in Guangzhou be 21°C on November 23?",
+   "touched": null
+  },
+  {
+   "id": "7221142",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "63383234759882172275785341714493378510310273760820264078833452582571480316208",
+   "px": 0.992,
+   "tick": 0.001,
+   "ts": 1795341712,
+   "end_ts": 1795435200,
+   "q": "Will the highest temperature in San Francisco be between 62-63°F on November 23?",
+   "touched": null
+  },
+  {
+   "id": "7097196",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "45962788987016372441485328872598854942229999379453728948210227022754637353043",
+   "px": 0.963,
+   "tick": 0.001,
+   "ts": 1795341712,
+   "end_ts": 1795453200,
+   "q": "Will the price of Solana be above $65 on November 23?",
    "touched": null
   }
  ]
