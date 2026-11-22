@@ -2,8 +2,8 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 8.4 de 28 | corridas: 178
-- Capital inicial: $1,000.00 | valor actual: $859.38 | P&L: $-140.62 (-14.06%)
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 8.4 de 28 | corridas: 179
+- Capital inicial: $1,000.00 | valor actual: $859.81 | P&L: $-140.19 (-14.02%)
 - Efectivo libre: $1.20 | en ordenes abiertas: $146.18 (3) | en posiciones: $727.88 (12)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
 - Ordenes virtuales: 374 colocadas, 169 llenadas, 163 tocadas sin llenarse (sorteo 30%), 39 expiradas
@@ -41,29 +41,29 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 | $94.72 | 99.6c | 99.3c | otros_cierre |  | Will the next Claude Opus model (5.6+) be released on November 21, 2026? |
 | $17.05 | 99.6c | 99.8c | otros_cierre |  | Will the next Meta Muse Spark model be released on November 21, 2026? |
 | $94.88 | 99.8c | 99.5c | clima_cierre |  | Will the next hurricane form between November 17 and November 21, 2026? |
-| $93.98 | 98.5c | 98.8c | cripto_cierre |  | Will Bitcoin reach $64,000 on November 21? |
+| $93.98 | 98.5c | 99.3c | cripto_cierre |  | Will Bitcoin reach $64,000 on November 21? |
 | $8.19 | 97.9c | 98.5c | cripto_cierre |  | Will Bitcoin reach $63,000 on November 21? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 9063 | abiertas: 2397 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 9162 | abiertas: 2379 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
-| clima_cierre | todas | 2515 | 98.83c | 99.05% | +0.21 pts | -0.16 a +0.59 | 24 |
-| clima_cierre | tocadas | 2325 | 98.85c | 98.97% | +0.11 pts | -0.29 a +0.52 | 24 |
-| cripto_cierre | todas | 1272 | 98.71c | 98.03% | -0.67 pts | -1.43 a +0.08 | 25 |
-| cripto_cierre | tocadas | 1155 | 98.74c | 97.84% | -0.91 pts | -1.74 a -0.08 | 25 |
-| deportes_previo | todas | 4004 | 98.04c | 97.51% | -0.53 pts | -1.00 a -0.05 | 102 |
-| deportes_previo | tocadas | 3901 | 98.08c | 97.45% | -0.63 pts | -1.12 a -0.14 | 102 |
-| otros_cierre | todas | 1188 | 99.00c | 97.22% | -1.78 pts | -2.71 a -0.85 | 33 |
-| otros_cierre | tocadas | 1114 | 98.97c | 97.04% | -1.93 pts | -2.92 a -0.94 | 33 |
+| clima_cierre | todas | 2561 | 98.83c | 99.06% | +0.23 pts | -0.14 a +0.60 | 24 |
+| clima_cierre | tocadas | 2370 | 98.86c | 98.99% | +0.13 pts | -0.27 a +0.53 | 24 |
+| cripto_cierre | todas | 1274 | 98.71c | 98.04% | -0.67 pts | -1.42 a +0.08 | 25 |
+| cripto_cierre | tocadas | 1157 | 98.74c | 97.84% | -0.90 pts | -1.73 a -0.08 | 25 |
+| deportes_previo | todas | 4054 | 98.04c | 97.55% | -0.49 pts | -0.97 a -0.02 | 102 |
+| deportes_previo | tocadas | 3951 | 98.08c | 97.48% | -0.60 pts | -1.08 a -0.11 | 102 |
+| otros_cierre | todas | 1189 | 99.00c | 97.22% | -1.78 pts | -2.70 a -0.85 | 33 |
+| otros_cierre | tocadas | 1115 | 98.97c | 97.04% | -1.93 pts | -2.92 a -0.94 | 33 |
 | post_fin_90_97 | todas | 84 | 94.32c | 96.43% | +2.11 pts | -1.87 a +6.09 | 3 |
 | post_fin_90_97 | tocadas | 67 | 94.37c | 95.52% | +1.15 pts | -3.82 a +6.12 | 3 |
-| TOTAL | todas | 9063 | 98.45c | 97.96% | -0.48 pts | -0.77 a -0.19 | 187 |
-| TOTAL | tocadas | 8562 | 98.47c | 97.85% | -0.62 pts | -0.92 a -0.32 | 187 |
+| TOTAL | todas | 9162 | 98.45c | 97.99% | -0.46 pts | -0.74 a -0.17 | 187 |
+| TOTAL | tocadas | 8660 | 98.47c | 97.87% | -0.60 pts | -0.90 a -0.30 | 187 |
 
 Peores casos del registro sombra:
 
