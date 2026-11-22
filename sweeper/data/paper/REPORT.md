@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-11T22:05:26Z | dias corridos: 10.8 de 28 | corridas: 235
-- Capital inicial: $1,000.00 | valor actual: $1,021.49 | P&L: $+21.49 (+2.15%)
-- Efectivo libre: $409.23 | en ordenes abiertas: $413.05 (11) | en posiciones: $199.80 (4)
+- Inicio: 2026-11-11T22:05:26Z | dias corridos: 10.8 de 28 | corridas: 236
+- Capital inicial: $1,000.00 | valor actual: $1,021.95 | P&L: $+21.95 (+2.19%)
+- Efectivo libre: $358.07 | en ordenes abiertas: $464.20 (12) | en posiciones: $199.80 (4)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 396 colocadas, 97 llenadas, 201 tocadas sin llenarse (sorteo 30%), 87 expiradas
+- Ordenes virtuales: 399 colocadas, 97 llenadas, 203 tocadas sin llenarse (sorteo 30%), 87 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -29,28 +29,28 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
 | $51.82 | 98.5c | 98.3c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
-| $51.06 | 97.2c | 96.7c | deportes_previo |  | Spread: Real Valladolid CF (-3.5) |
-| $53.71 | 99.0c | 98.6c | cripto_cierre |  | Will Bitcoin reach $66,000 November 16-22? |
+| $51.06 | 97.2c | 97.0c | deportes_previo |  | Spread: Real Valladolid CF (-3.5) |
+| $53.71 | 99.0c | 99.2c | cripto_cierre |  | Will Bitcoin reach $66,000 November 16-22? |
 | $43.20 | 99.8c | 99.8c | cripto_cierre |  | Will Bitcoin reach $72,000 November 16-22? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 3568 | abiertas: 630 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 3642 | abiertas: 568 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
-| cripto_cierre | todas | 1011 | 98.72c | 99.01% | +0.29 pts | -0.32 a +0.90 | 10 |
-| cripto_cierre | tocadas | 690 | 98.55c | 98.55% | -0.00 pts | -0.89 a +0.89 | 10 |
-| deportes_previo | todas | 1949 | 98.31c | 99.03% | +0.72 pts | +0.29 a +1.15 | 20 |
-| deportes_previo | tocadas | 1653 | 98.27c | 98.97% | +0.70 pts | +0.22 a +1.18 | 18 |
+| cripto_cierre | todas | 1064 | 98.73c | 99.06% | +0.33 pts | -0.25 a +0.91 | 10 |
+| cripto_cierre | tocadas | 728 | 98.56c | 98.63% | +0.07 pts | -0.77 a +0.92 | 10 |
+| deportes_previo | todas | 1970 | 98.31c | 99.04% | +0.73 pts | +0.30 a +1.15 | 20 |
+| deportes_previo | tocadas | 1673 | 98.27c | 98.98% | +0.71 pts | +0.24 a +1.19 | 18 |
 | otros_cierre | todas | 537 | 98.81c | 99.26% | +0.45 pts | -0.28 a +1.18 | 4 |
 | otros_cierre | tocadas | 361 | 98.70c | 98.89% | +0.20 pts | -0.89 a +1.28 | 4 |
 | post_fin_95_97 | todas | 71 | 95.91c | 92.96% | -2.95 pts | -8.95 a +3.04 | 5 |
 | post_fin_95_97 | tocadas | 63 | 95.93c | 92.06% | -3.87 pts | -10.59 a +2.86 | 5 |
-| TOTAL | todas | 3568 | 98.45c | 98.93% | +0.48 pts | +0.15 a +0.81 | 39 |
-| TOTAL | tocadas | 2767 | 98.34c | 98.70% | +0.35 pts | -0.06 a +0.77 | 37 |
+| TOTAL | todas | 3642 | 98.46c | 98.96% | +0.50 pts | +0.17 a +0.83 | 39 |
+| TOTAL | tocadas | 2825 | 98.35c | 98.73% | +0.38 pts | -0.03 a +0.79 | 37 |
 
 Peores casos del registro sombra:
 

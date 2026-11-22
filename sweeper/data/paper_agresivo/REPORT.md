@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 9.2 de 28 | corridas: 198
-- Capital inicial: $1,000.00 | valor actual: $882.58 | P&L: $-117.42 (-11.74%)
-- Efectivo libre: $0.00 | en ordenes abiertas: $393.11 (7) | en posiciones: $500.22 (7)
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 9.2 de 28 | corridas: 199
+- Capital inicial: $1,000.00 | valor actual: $880.27 | P&L: $-119.73 (-11.97%)
+- Efectivo libre: $0.71 | en ordenes abiertas: $392.40 (7) | en posiciones: $500.22 (7)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 406 colocadas, 181 llenadas, 176 tocadas sin llenarse (sorteo 30%), 42 expiradas
+- Ordenes virtuales: 408 colocadas, 181 llenadas, 178 tocadas sin llenarse (sorteo 30%), 42 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -34,31 +34,31 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 | $91.77 | 99.8c | 89.8c | otros_cierre |  | Pakistan military action against Afghanistan by November 15, 2026? |
 | $35.36 | 99.8c | 98.9c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $4.5m and $5.5m at auction? |
 | $87.27 | 99.8c | 98.3c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
-| $26.13 | 95.0c | 95.1c | post_fin_90_97 |  | Will the highest temperature in Chicago be between 58-59°F on November 22? |
+| $26.13 | 95.0c | 98.0c | post_fin_90_97 |  | Will the highest temperature in Chicago be between 58-59°F on November 22? |
 | $88.25 | 98.4c | 98.4c | deportes_previo |  | Spread: Málaga CF (-2.5) |
-| $88.25 | 96.2c | 96.2c | deportes_previo |  | Spread: CA Osasuna (-3.5) |
+| $88.25 | 96.2c | 92.8c | deportes_previo |  | Spread: CA Osasuna (-3.5) |
 | $83.18 | 99.8c | 99.8c | cripto_cierre |  | Will Bitcoin reach $72,000 November 16-22? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 10061 | abiertas: 2865 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 10154 | abiertas: 2823 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
 | clima_cierre | todas | 2804 | 98.83c | 99.04% | +0.21 pts | -0.15 a +0.57 | 27 |
 | clima_cierre | tocadas | 2600 | 98.85c | 98.96% | +0.11 pts | -0.27 a +0.50 | 27 |
-| cripto_cierre | todas | 1318 | 98.70c | 98.10% | -0.60 pts | -1.33 a +0.13 | 25 |
-| cripto_cierre | tocadas | 1195 | 98.75c | 97.91% | -0.84 pts | -1.64 a -0.04 | 25 |
-| deportes_previo | todas | 4633 | 98.01c | 97.42% | -0.59 pts | -1.04 a -0.14 | 122 |
-| deportes_previo | tocadas | 4520 | 98.04c | 97.40% | -0.64 pts | -1.10 a -0.18 | 120 |
+| cripto_cierre | todas | 1396 | 98.71c | 98.07% | -0.64 pts | -1.36 a +0.07 | 27 |
+| cripto_cierre | tocadas | 1271 | 98.75c | 97.88% | -0.88 pts | -1.66 a -0.09 | 27 |
+| deportes_previo | todas | 4648 | 98.01c | 97.43% | -0.58 pts | -1.03 a -0.13 | 122 |
+| deportes_previo | tocadas | 4535 | 98.04c | 97.41% | -0.63 pts | -1.09 a -0.18 | 120 |
 | otros_cierre | todas | 1209 | 99.01c | 97.27% | -1.74 pts | -2.65 a -0.82 | 33 |
 | otros_cierre | tocadas | 1129 | 98.97c | 97.08% | -1.89 pts | -2.87 a -0.92 | 33 |
 | post_fin_90_97 | todas | 97 | 94.33c | 96.91% | +2.57 pts | -0.88 a +6.03 | 3 |
 | post_fin_90_97 | tocadas | 78 | 94.37c | 96.15% | +1.79 pts | -2.49 a +6.07 | 3 |
-| TOTAL | todas | 10061 | 98.41c | 97.94% | -0.47 pts | -0.75 a -0.20 | 210 |
-| TOTAL | tocadas | 9522 | 98.43c | 97.84% | -0.59 pts | -0.88 a -0.30 | 208 |
+| TOTAL | todas | 10154 | 98.41c | 97.94% | -0.48 pts | -0.75 a -0.20 | 212 |
+| TOTAL | tocadas | 9613 | 98.43c | 97.84% | -0.59 pts | -0.88 a -0.30 | 210 |
 
 Peores casos del registro sombra:
 
