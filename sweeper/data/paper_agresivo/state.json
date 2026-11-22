@@ -1,29 +1,8 @@
 {
  "capital0": 1000.0,
- "cash": 1.3387,
+ "cash": 0.0,
  "started": "2026-11-13T13:15:42Z",
  "orders": [
-  {
-   "oid": "6880640-1795280532",
-   "id": "6880640",
-   "q": "Pete Hegseth out as Secretary of Defense by November 21?",
-   "cat": "otros",
-   "rule": "otros_cierre",
-   "event": "1120129",
-   "side": 1,
-   "token": "65304394473860124470876660641759069650583365045787358789980559483202336840896",
-   "px": 0.998,
-   "tick": 0.001,
-   "mid": 0.9985,
-   "bid": 0.998,
-   "ask": 0.999,
-   "shares": 54.6708,
-   "cost": 54.5615,
-   "ts": 1795280532.648042,
-   "end_ts": 1795323540.0,
-   "hours": 11.95,
-   "liq": 34520
-  },
   {
    "oid": "5713552-1795334534",
    "id": "5713552",
@@ -130,67 +109,46 @@
    "liq": 43771
   },
   {
-   "oid": "6898257-1795363351",
-   "id": "6898257",
-   "q": "Spread: Málaga CF (-2.5)",
+   "oid": "6882049-1795366946",
+   "id": "6882049",
+   "q": "Sarpsborg 08 FF vs. Lillestrøm SK: Neither team to score first?",
    "cat": "deportes",
    "rule": "deportes_previo",
-   "event": "1347332",
+   "event": "1343560",
    "side": 1,
-   "token": "45986936463271785559469190340426849165952647200354940548274267455164943677864",
-   "px": 0.984,
+   "token": "45013038154812396256541329382363828446320243610674358233996661877478784143952",
+   "px": 0.995,
    "tick": 0.001,
-   "mid": 0.983,
-   "bid": 0.981,
-   "ask": 0.985,
-   "shares": 89.6899,
-   "cost": 88.2548,
-   "ts": 1795363351.782952,
-   "end_ts": 1795368600.0,
-   "hours": 1.46,
-   "liq": 70994
+   "mid": 0.978,
+   "bid": 0.96,
+   "ask": 0.996,
+   "shares": 88.7011,
+   "cost": 88.2576,
+   "ts": 1795366946.830455,
+   "end_ts": 1795371300.0,
+   "hours": 1.21,
+   "liq": 3599
   },
   {
-   "oid": "6898258-1795363351",
-   "id": "6898258",
-   "q": "Spread: CA Osasuna (-3.5)",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1347332",
-   "side": 1,
-   "token": "73475192975137445227246371231435842728644935858842405518999321065502335323155",
-   "px": 0.962,
-   "tick": 0.001,
-   "mid": 0.96,
-   "bid": 0.957,
-   "ask": 0.963,
-   "shares": 91.741,
-   "cost": 88.2548,
-   "ts": 1795363351.782952,
-   "end_ts": 1795368600.0,
-   "hours": 1.46,
-   "liq": 49688
-  },
-  {
-   "oid": "6639827-1795363351",
-   "id": "6639827",
-   "q": "Spread: Giants (-14.5)",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1301077",
-   "side": 1,
-   "token": "111891795997503174948784129288964099146453689484288870551540871083822770056024",
-   "px": 0.959,
-   "tick": 0.001,
-   "mid": 0.957,
-   "bid": 0.954,
-   "ask": 0.96,
-   "shares": 92.028,
-   "cost": 88.2548,
-   "ts": 1795363351.782952,
-   "end_ts": 1795370400.0,
-   "hours": 1.96,
-   "liq": 26890
+   "oid": "7097446-1795366946",
+   "id": "7097446",
+   "q": "Will \"I Play Rocky\" Opening Weekend Box Office be between 7m and 10m?",
+   "cat": "otros",
+   "rule": "post_fin_90_97",
+   "event": "1403252",
+   "side": 0,
+   "token": "92803637913892125494922816347259424229423713959625651239485719548202874338632",
+   "px": 0.91,
+   "tick": 0.01,
+   "mid": 0.91,
+   "bid": 0.9,
+   "ask": 0.92,
+   "shares": 61.4257,
+   "cost": 55.8974,
+   "ts": 1795366946.830455,
+   "end_ts": 1795348800.0,
+   "hours": -5.04,
+   "liq": 1100
   }
  ],
  "positions": [
@@ -315,7 +273,55 @@
    "hours": -3.03,
    "liq": 538,
    "fill_ts": 1795363351.782952,
-   "mark": 0.95
+   "mark": 0.951,
+   "stuck": false,
+   "disputed": false
+  },
+  {
+   "oid": "6898257-1795363351",
+   "id": "6898257",
+   "q": "Spread: Málaga CF (-2.5)",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1347332",
+   "side": 1,
+   "token": "45986936463271785559469190340426849165952647200354940548274267455164943677864",
+   "px": 0.984,
+   "tick": 0.001,
+   "mid": 0.983,
+   "bid": 0.981,
+   "ask": 0.985,
+   "shares": 89.6899,
+   "cost": 88.2548,
+   "ts": 1795363351.782952,
+   "end_ts": 1795368600.0,
+   "hours": 1.46,
+   "liq": 70994,
+   "fill_ts": 1795366946.830455,
+   "mark": 0.984
+  },
+  {
+   "oid": "6898258-1795363351",
+   "id": "6898258",
+   "q": "Spread: CA Osasuna (-3.5)",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1347332",
+   "side": 1,
+   "token": "73475192975137445227246371231435842728644935858842405518999321065502335323155",
+   "px": 0.962,
+   "tick": 0.001,
+   "mid": 0.96,
+   "bid": 0.957,
+   "ask": 0.963,
+   "shares": 91.741,
+   "cost": 88.2548,
+   "ts": 1795363351.782952,
+   "end_ts": 1795368600.0,
+   "hours": 1.46,
+   "liq": 49688,
+   "fill_ts": 1795366946.830455,
+   "mark": 0.962
   }
  ],
  "closed": [
@@ -8025,14 +8031,27 @@
    "placed": 3,
    "shadow_open": 2939,
    "shadow_closed": 71
+  },
+  {
+   "ts": "2026-11-22T17:04:15Z",
+   "equity": 882.58,
+   "cash": 0.0,
+   "orders": 7,
+   "positions": 7,
+   "closed": 174,
+   "scanned": 19957,
+   "candidates": 1073,
+   "placed": 2,
+   "shadow_open": 2865,
+   "shadow_closed": 169
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 404,
-  "filled": 179,
-  "expired": 41,
-  "touched_not_filled": 175
+  "placed": 406,
+  "filled": 181,
+  "expired": 42,
+  "touched_not_filled": 176
  },
  "shadow": [
   {
@@ -8712,110 +8731,6 @@
    "touched": 1
   },
   {
-   "id": "6906468",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "73781826987569278031491141853158632792010116086393377698291107804214038047638",
-   "px": 0.989,
-   "tick": 0.001,
-   "ts": 1795093322,
-   "end_ts": 1795352400,
-   "q": "Spread: Konyaspor (-2.5)",
-   "touched": 1
-  },
-  {
-   "id": "6891498",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "2417810599493184218545003999187129549383565907997720924816947113758187968412",
-   "px": 0.97,
-   "tick": 0.01,
-   "ts": 1795096931,
-   "end_ts": 1795356000,
-   "q": "Hull City AFC vs. Brighton & Hove Albion FC: Neither team to score first?",
-   "touched": 1
-  },
-  {
-   "id": "6893580",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "18866055173463475821050675473656905384256899553412057297387196423522422029027",
-   "px": 0.95,
-   "tick": 0.01,
-   "ts": 1795096931,
-   "end_ts": 1795356000,
-   "q": "Spread: Hull City AFC (-1.5)",
-   "touched": 0
-  },
-  {
-   "id": "6893586",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "115067932873375705722475139208023809512052986311707023531479011608137182088913",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795096931,
-   "end_ts": 1795356000,
-   "q": "Spread: Hull City AFC (-2.5)",
-   "touched": 1
-  },
-  {
-   "id": "6893616",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "44072609424715449466988085363941842548701898767067669268750928816718111815764",
-   "px": 0.95,
-   "tick": 0.01,
-   "ts": 1795096931,
-   "end_ts": 1795356000,
-   "q": "Hull City AFC vs. Brighton & Hove Albion FC: O/U 0.5",
-   "touched": 0
-  },
-  {
-   "id": "6893639",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "62818904021777153559408477611948616885943084133181456869120183123292091020879",
-   "px": 0.969,
-   "tick": 0.001,
-   "ts": 1795096931,
-   "end_ts": 1795356000,
-   "q": "Hull City AFC vs. Brighton & Hove Albion FC: O/U 6.5",
-   "touched": 1
-  },
-  {
-   "id": "6893787",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "34914870799665105113603356423570915310484839103970156444515319896471990045844",
-   "px": 0.979,
-   "tick": 0.001,
-   "ts": 1795096931,
-   "end_ts": 1795356000,
-   "q": "Spread: Angers SCO (-1.5)",
-   "touched": 1
-  },
-  {
-   "id": "6893805",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "32464780079444466381879973307766581597073744448750143304196768295162137790356",
-   "px": 0.95,
-   "tick": 0.01,
-   "ts": 1795096931,
-   "end_ts": 1795356000,
-   "q": "Paris FC vs. Angers SCO: O/U 0.5",
-   "touched": 1
-  },
-  {
    "id": "7069781",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -8842,19 +8757,6 @@
    "touched": 1
   },
   {
-   "id": "6893634",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "115150873776363444779366085682922192237607815708537922229814321352636092822015",
-   "px": 0.968,
-   "tick": 0.001,
-   "ts": 1795100522,
-   "end_ts": 1795357800,
-   "q": "FC Augsburg vs. 1. FSV Mainz 05: O/U 0.5",
-   "touched": 1
-  },
-  {
    "id": "7103105",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -8878,32 +8780,6 @@
    "ts": 1795104112,
    "end_ts": 1795305600,
    "q": "Will Pierceson Coody win the 2026 The RSM Classic?",
-   "touched": 1
-  },
-  {
-   "id": "6893852",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "54188561191226005255226292594001148733408074024814715747812724337807200707611",
-   "px": 0.96,
-   "tick": 0.01,
-   "ts": 1795104112,
-   "end_ts": 1795356000,
-   "q": "Paris FC vs. Angers SCO: Angers SCO O/U 2.5",
-   "touched": 0
-  },
-  {
-   "id": "6893900",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "48817326322111431235961579351444726649522141283634618136043366635982481710110",
-   "px": 0.989,
-   "tick": 0.001,
-   "ts": 1795104112,
-   "end_ts": 1795356000,
-   "q": "Bologna FC 1909 vs. Udinese Calcio: O/U 6.5",
    "touched": 1
   },
   {
@@ -8969,19 +8845,6 @@
    "ts": 1795107727,
    "end_ts": 1795176000,
    "q": "Will the highest temperature in Hong Kong be 20°C on November 20?",
-   "touched": 1
-  },
-  {
-   "id": "6893813",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "56736046543409272845486999933790556221867073251629462366648756238508353839789",
-   "px": 0.987,
-   "tick": 0.001,
-   "ts": 1795107727,
-   "end_ts": 1795356000,
-   "q": "US Sassuolo Calcio vs. Genoa CFC: O/U 6.5",
    "touched": 1
   },
   {
@@ -10909,45 +10772,6 @@
    "touched": 1
   },
   {
-   "id": "7071684",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "16431948933557563729115746722778296099089507447496209923702348883041786404766",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795136536,
-   "end_ts": 1795359600,
-   "q": "Will US gas hit $3.94 (High) the week of November 16?",
-   "touched": 1
-  },
-  {
-   "id": "7071685",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "26369683115581611515749453733196581683766875521961494030234637258131074631358",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795136536,
-   "end_ts": 1795359600,
-   "q": "Will US gas hit $3.92 (High) the week of November 16?",
-   "touched": 1
-  },
-  {
-   "id": "7071686",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "37651101736814576783613536630693555093175133112840383076993905414208033426709",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795136536,
-   "end_ts": 1795359600,
-   "q": "Will US gas hit $3.90 (High) the week of November 16?",
-   "touched": 1
-  },
-  {
    "id": "6643233",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -12040,19 +11864,6 @@
    "touched": 1
   },
   {
-   "id": "6891486",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "1991557037906431906670964705424878175432754184453976314556118609596450180150",
-   "px": 0.986,
-   "tick": 0.001,
-   "ts": 1795154537,
-   "end_ts": 1795356000,
-   "q": "Paris FC vs. Angers SCO: Neither team to score first?",
-   "touched": 1
-  },
-  {
    "id": "6640650",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -12976,136 +12787,6 @@
    "touched": 1
   },
   {
-   "id": "7190377",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "25990206337898733009210326804563766432845451762799046189210034571720896602593",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795176138,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Shanghai be 10°C or below on November 22?",
-   "touched": 1
-  },
-  {
-   "id": "7190379",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "88481863421811967741556979069243230904791311420449276065975894451878446359550",
-   "px": 0.996,
-   "tick": 0.001,
-   "ts": 1795176138,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Shanghai be 12°C on November 22?",
-   "touched": 1
-  },
-  {
-   "id": "7190380",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "2758070361696647732814025041521272680980234583851215888288815128161046105710",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795176138,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Shanghai be 13°C on November 22?",
-   "touched": 1
-  },
-  {
-   "id": "7190381",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "76001398792440324001874561156587945120240274709164257633830569933203346872542",
-   "px": 0.996,
-   "tick": 0.001,
-   "ts": 1795176138,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Shanghai be 14°C on November 22?",
-   "touched": 1
-  },
-  {
-   "id": "7190382",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "107961229093544400413169376907536248664687338387393063049615517642154680885587",
-   "px": 0.982,
-   "tick": 0.001,
-   "ts": 1795176138,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Shanghai be 15°C on November 22?",
-   "touched": 1
-  },
-  {
-   "id": "7190386",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "114923412070049437628558216154108684308515148462547940235167846368980268815399",
-   "px": 0.982,
-   "tick": 0.001,
-   "ts": 1795176138,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Shanghai be 19°C on November 22?",
-   "touched": 1
-  },
-  {
-   "id": "7190387",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "98223669446958143801214275266341547754473581323783052143263761600550245236728",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1795176138,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Shanghai be 20°C or higher on November 22?",
-   "touched": 1
-  },
-  {
-   "id": "7190390",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "113492013136372016235940019633425458389710124478662452756054517766838139392733",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795176138,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Singapore be 27°C on November 22?",
-   "touched": 1
-  },
-  {
-   "id": "7190397",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "6032063153200188285246700106625966844237052568322265761103802774881352385240",
-   "px": 0.989,
-   "tick": 0.001,
-   "ts": 1795176138,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Singapore be 34°C on November 22?",
-   "touched": 1
-  },
-  {
-   "id": "7190398",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "36470966046212890585930993668715876013925450677326410327074787998920639597846",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1795176138,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Singapore be 35°C or higher on November 22?",
-   "touched": 1
-  },
-  {
    "id": "7190401",
    "rule": "clima_cierre",
    "cat": "clima",
@@ -13233,266 +12914,6 @@
    "ts": 1795176138,
    "end_ts": 1795348800,
    "q": "Will the highest temperature in Madrid be 18°C or higher on November 22?",
-   "touched": 1
-  },
-  {
-   "id": "7190422",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "111697100079529404928703828989047228124380886017376325140592718698839180621071",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795176138,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Taipei be 19°C on November 22?",
-   "touched": 1
-  },
-  {
-   "id": "7190430",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "2656449426816130883064382236777359539403311389543597377949372955960223098453",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795176138,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Taipei be 27°C on November 22?",
-   "touched": 1
-  },
-  {
-   "id": "7190443",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "72243898710090923788178919802251627761529356897805721542947155672055832579791",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795176138,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Beijing be 0°C or below on November 22?",
-   "touched": 1
-  },
-  {
-   "id": "7190445",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "62000438665552889650609680401540604630938977881743083630963999144409884345990",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795176138,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Beijing be 2°C on November 22?",
-   "touched": 1
-  },
-  {
-   "id": "7190446",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "47314700237632545748877619528139047853331035307389730118066032699817875703632",
-   "px": 0.991,
-   "tick": 0.001,
-   "ts": 1795176138,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Beijing be 3°C on November 22?",
-   "touched": 1
-  },
-  {
-   "id": "7190451",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "18382454671359211979111955528791460456617873080310163814733716495065763445684",
-   "px": 0.977,
-   "tick": 0.001,
-   "ts": 1795176138,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Beijing be 8°C on November 22?",
-   "touched": 1
-  },
-  {
-   "id": "7190453",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "70158333134253871332940628930767541630776067057068185378860805322546868813843",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795176138,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Beijing be 10°C or higher on November 22?",
-   "touched": 1
-  },
-  {
-   "id": "7190454",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "64527478732784354846151311582150174578302538871163949637456119514711427869400",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795176138,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Wuhan be 11°C or below on November 22?",
-   "touched": 1
-  },
-  {
-   "id": "7190455",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "75498280731600943580602256010718102892667767793757363297259289656386556773642",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795176138,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Wuhan be 12°C on November 22?",
-   "touched": 1
-  },
-  {
-   "id": "7190456",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "90223519034291043775159559229964075221500139791382107599748770430024254310247",
-   "px": 0.996,
-   "tick": 0.001,
-   "ts": 1795176138,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Wuhan be 13°C on November 22?",
-   "touched": 1
-  },
-  {
-   "id": "7190457",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "2268907626265240719205991695415074251501206166834026876727584685371068057297",
-   "px": 0.996,
-   "tick": 0.001,
-   "ts": 1795176138,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Wuhan be 14°C on November 22?",
-   "touched": 1
-  },
-  {
-   "id": "7190464",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "29018679760351100300437088635219813957737459927605246055082791942379022679319",
-   "px": 0.988,
-   "tick": 0.001,
-   "ts": 1795176138,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Wuhan be 21°C or higher on November 22?",
-   "touched": 1
-  },
-  {
-   "id": "7190465",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "37987797047043049760677700260777953433653792897225742811370320602281009153649",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795176138,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Chengdu be 12°C or below on November 22?",
-   "touched": 1
-  },
-  {
-   "id": "7190466",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "67567801110456913873935860376408764154730221654848770120269724846950851553144",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795176138,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Chengdu be 13°C on November 22?",
-   "touched": 1
-  },
-  {
-   "id": "7190467",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "82775136118231286426299848176898043875114838203619543367933120606131896858799",
-   "px": 0.993,
-   "tick": 0.001,
-   "ts": 1795176138,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Chengdu be 14°C on November 22?",
-   "touched": 1
-  },
-  {
-   "id": "7190473",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "11301053147873486780817263993007296307702428376283323733688680799945087665095",
-   "px": 0.979,
-   "tick": 0.001,
-   "ts": 1795176138,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Chengdu be 20°C on November 22?",
-   "touched": 1
-  },
-  {
-   "id": "7190475",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "86431446454106036133705649028515104687476962739013009928596768900707869747511",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795176138,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Chengdu be 22°C or higher on November 22?",
-   "touched": 1
-  },
-  {
-   "id": "7190477",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "59922298312229484688301581269007651403906945352667796286566843478159430604803",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795176138,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Shenzhen be 18°C on November 22?",
-   "touched": 1
-  },
-  {
-   "id": "7190479",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "99412131742691065898675695906124138075431935787521922961728268606109873106620",
-   "px": 0.968,
-   "tick": 0.001,
-   "ts": 1795176138,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Shenzhen be 20°C on November 22?",
-   "touched": 1
-  },
-  {
-   "id": "7190484",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "80341225037985770997090361559970510480920475657426821001251177800139750914793",
-   "px": 0.986,
-   "tick": 0.001,
-   "ts": 1795176138,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Shenzhen be 25°C on November 22?",
    "touched": 1
   },
   {
@@ -13756,19 +13177,6 @@
    "touched": 1
   },
   {
-   "id": "7190564",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "69859534766566424390945853637928047546460559552802790638460856361990780461037",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795176138,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Kuala Lumpur be 36°C on November 22?",
-   "touched": 1
-  },
-  {
    "id": "7190568",
    "rule": "clima_cierre",
    "cat": "clima",
@@ -13792,123 +13200,6 @@
    "ts": 1795176138,
    "end_ts": 1795348800,
    "q": "Will the highest temperature in Jeddah be 37°C on November 22?",
-   "touched": 1
-  },
-  {
-   "id": "7190589",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "62546074325556994379980250881079342349779427925501644347762852369870942394711",
-   "px": 0.996,
-   "tick": 0.001,
-   "ts": 1795176138,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Guangzhou be 17°C on November 22?",
-   "touched": 1
-  },
-  {
-   "id": "7190590",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "85640239704897352030135844071925802473925369606896711215878705342435054996514",
-   "px": 0.96,
-   "tick": 0.01,
-   "ts": 1795176138,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Guangzhou be 18°C on November 22?",
-   "touched": 1
-  },
-  {
-   "id": "7190596",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "21239817235212705131056851521208694435124646995725534336416509224072097029678",
-   "px": 0.978,
-   "tick": 0.001,
-   "ts": 1795176138,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Guangzhou be 24°C on November 22?",
-   "touched": 1
-  },
-  {
-   "id": "7190597",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "94259588184753549106809975228480485892845096182258693393793661775250297659764",
-   "px": 0.996,
-   "tick": 0.001,
-   "ts": 1795176138,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Guangzhou be 25°C on November 22?",
-   "touched": 1
-  },
-  {
-   "id": "7190599",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "20640619974960922684992419879211774799876894760643153959386206076430269319393",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795176138,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Qingdao be 7°C or below on November 22?",
-   "touched": 1
-  },
-  {
-   "id": "7190600",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "3423308029166857818073667788189339140694739590093584917992478510333515656159",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795176138,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Qingdao be 8°C on November 22?",
-   "touched": 1
-  },
-  {
-   "id": "7190601",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "20202096767177523728670491358746914766215358693222370075047132952455879141428",
-   "px": 0.973,
-   "tick": 0.001,
-   "ts": 1795176138,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Qingdao be 9°C on November 22?",
-   "touched": 1
-  },
-  {
-   "id": "7190606",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "30913929383899592329637239057094218683743754297763906973654827294669164822713",
-   "px": 0.987,
-   "tick": 0.001,
-   "ts": 1795176138,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Qingdao be 14°C on November 22?",
-   "touched": 1
-  },
-  {
-   "id": "7190607",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "94620789350415372331852039408801380106143226007363485967668193572619946545582",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795176138,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Qingdao be 15°C on November 22?",
    "touched": 1
   },
   {
@@ -14013,19 +13304,6 @@
    "ts": 1795176138,
    "end_ts": 1795348800,
    "q": "Will the lowest temperature in Hong Kong be 17°C on November 22?",
-   "touched": 1
-  },
-  {
-   "id": "7190785",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "27923127277251880345988055713392078165291070272783686861621995656978220838578",
-   "px": 0.989,
-   "tick": 0.001,
-   "ts": 1795176138,
-   "end_ts": 1795348800,
-   "q": "Will the lowest temperature in Chengdu be 14°C on November 22?",
    "touched": 1
   },
   {
@@ -14208,19 +13486,6 @@
    "ts": 1795176138,
    "end_ts": 1795348800,
    "q": "Will the highest temperature in Houston be 88°F or higher on November 22?",
-   "touched": 1
-  },
-  {
-   "id": "6891496",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "71811263026635767587237499700905565876349218044737252667037485688735501724642",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795176138,
-   "end_ts": 1795357800,
-   "q": "FC Augsburg vs. 1. FSV Mainz 05: Neither team to score first?",
    "touched": 1
   },
   {
@@ -14523,45 +13788,6 @@
    "touched": 1
   },
   {
-   "id": "7190447",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "112434417318555107845318845206900641706783218362725424305066278983367043902508",
-   "px": 0.95,
-   "tick": 0.01,
-   "ts": 1795179769,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Beijing be 4°C on November 22?",
-   "touched": 1
-  },
-  {
-   "id": "7190458",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "80357846029385934610521890659744522801418635488401611328818555177344647227346",
-   "px": 0.987,
-   "tick": 0.001,
-   "ts": 1795179769,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Wuhan be 15°C on November 22?",
-   "touched": 1
-  },
-  {
-   "id": "7190563",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "77683908829780113713075235643334697311172915431081375332468922696005814167161",
-   "px": 0.986,
-   "tick": 0.001,
-   "ts": 1795179769,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Kuala Lumpur be 35°C on November 22?",
-   "touched": 1
-  },
-  {
    "id": "7190612",
    "rule": "clima_cierre",
    "cat": "clima",
@@ -14793,45 +14019,6 @@
    "ts": 1795186979,
    "end_ts": 1795262400,
    "q": "Will the lowest temperature in Hong Kong be 16°C on November 21?",
-   "touched": 1
-  },
-  {
-   "id": "7190478",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "21158423455471741576985972967498636799266161287544727012514284631997744038258",
-   "px": 0.989,
-   "tick": 0.001,
-   "ts": 1795186979,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Shenzhen be 19°C on November 22?",
-   "touched": 1
-  },
-  {
-   "id": "7190634",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "55514332732225252271857748051434817070727856565959542184744775845376814404657",
-   "px": 0.988,
-   "tick": 0.001,
-   "ts": 1795186979,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Manila be 29°C on November 22?",
-   "touched": 1
-  },
-  {
-   "id": "7190731",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "10838888833360771150784813718764610260150668301157883407037264665326914795885",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795186979,
-   "end_ts": 1795348800,
-   "q": "Will the lowest temperature in Shanghai be 13°C or higher on November 22?",
    "touched": 1
   },
   {
@@ -15238,58 +14425,6 @@
    "touched": 1
   },
   {
-   "id": "7190421",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "74706247797079585168511925862108258957714210262472025696792871520082272612007",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795190548,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Taipei be 18°C or below on November 22?",
-   "touched": 1
-  },
-  {
-   "id": "7190423",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "11013561110669875081112614971282656790261815912329856663953132530295111938951",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795190548,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Taipei be 20°C on November 22?",
-   "touched": 1
-  },
-  {
-   "id": "7190558",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "92274712532157143876209016523682146169923021652919966366804670774359039730277",
-   "px": 0.96,
-   "tick": 0.01,
-   "ts": 1795190548,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Kuala Lumpur be 30°C on November 22?",
-   "touched": 1
-  },
-  {
-   "id": "7190588",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "87135379653805957537212711677686100053883684891810427713441234766942707813783",
-   "px": 0.996,
-   "tick": 0.001,
-   "ts": 1795190548,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Guangzhou be 16°C or below on November 22?",
-   "touched": 1
-  },
-  {
    "id": "7190631",
    "rule": "clima_cierre",
    "cat": "clima",
@@ -15378,123 +14513,6 @@
    "ts": 1795190548,
    "end_ts": 1795348800,
    "q": "Will the highest temperature in Mexico City be 22°C on November 22?",
-   "touched": 1
-  },
-  {
-   "id": "6893610",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "73388653658295239548356535207801744838543004419588231478217921565005505894110",
-   "px": 0.986,
-   "tick": 0.001,
-   "ts": 1795190548,
-   "end_ts": 1795357800,
-   "q": "Spread: FC Augsburg (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "6893614",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "94743222820556640015127945840718153606321763152489073264862977749980528962271",
-   "px": 0.996,
-   "tick": 0.001,
-   "ts": 1795190548,
-   "end_ts": 1795357800,
-   "q": "Spread: 1. FSV Mainz 05 (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "6893662",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "110839796222311940901051073030848923303628965171016485607484614170798493683353",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795190548,
-   "end_ts": 1795357800,
-   "q": "FC Augsburg vs. 1. FSV Mainz 05: O/U 7.5",
-   "touched": 1
-  },
-  {
-   "id": "6893671",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "88552366269679577262169292614432183532634646817104026756792385119734802321840",
-   "px": 0.97,
-   "tick": 0.01,
-   "ts": 1795190548,
-   "end_ts": 1795356000,
-   "q": "Hull City AFC vs. Brighton & Hove Albion FC: 1st Half O/U 3.5",
-   "touched": 1
-  },
-  {
-   "id": "6893788",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "109175058196808655189359077959766133862069084192580123646305770616057568748845",
-   "px": 0.991,
-   "tick": 0.001,
-   "ts": 1795190548,
-   "end_ts": 1795356000,
-   "q": "Spread: US Sassuolo Calcio (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "6893790",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "13758557873632563752138450610945238703880529639821993214106640408068912008791",
-   "px": 0.989,
-   "tick": 0.001,
-   "ts": 1795190548,
-   "end_ts": 1795356000,
-   "q": "Spread: Genoa CFC (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "6893887",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "1441514168379802380001779636353207486467569842942722212253115635294371594440",
-   "px": 0.991,
-   "tick": 0.001,
-   "ts": 1795190548,
-   "end_ts": 1795356000,
-   "q": "Spread: Udinese Calcio (-2.5)",
-   "touched": 1
-  },
-  {
-   "id": "6893888",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "87840822273203917775048656122367086668943963356909194943193257732954748505703",
-   "px": 0.95,
-   "tick": 0.01,
-   "ts": 1795190548,
-   "end_ts": 1795356000,
-   "q": "Spread: Bologna FC 1909 (-3.5)",
-   "touched": 0
-  },
-  {
-   "id": "6893908",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "98697074826282326579123709060097949425431717005136573166805276352420718734773",
-   "px": 0.987,
-   "tick": 0.001,
-   "ts": 1795190548,
-   "end_ts": 1795356000,
-   "q": "Bologna FC 1909 vs. Udinese Calcio: 1st Half O/U 3.5",
    "touched": 1
   },
   {
@@ -15719,32 +14737,6 @@
    "touched": 1
   },
   {
-   "id": "6893643",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "54456036854503749705422416009694533347554951588027603011147908222520712429033",
-   "px": 0.996,
-   "tick": 0.001,
-   "ts": 1795194122,
-   "end_ts": 1795356000,
-   "q": "Hull City AFC vs. Brighton & Hove Albion FC: O/U 7.5",
-   "touched": 1
-  },
-  {
-   "id": "6893784",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "29972704275746985144904145412712352296015814197552108020075833769216049200496",
-   "px": 0.95,
-   "tick": 0.01,
-   "ts": 1795194122,
-   "end_ts": 1795356000,
-   "q": "Spread: US Sassuolo Calcio (-2.5)",
-   "touched": 1
-  },
-  {
    "id": "7190251",
    "rule": "clima_cierre",
    "cat": "clima",
@@ -15797,110 +14789,6 @@
    "touched": 1
   },
   {
-   "id": "7190424",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "1998643917589398897162635214955076223381511426239116210328224002408375517890",
-   "px": 0.991,
-   "tick": 0.001,
-   "ts": 1795194122,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Taipei be 21°C on November 22?",
-   "touched": 1
-  },
-  {
-   "id": "7190429",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "77513359428470194464218398845154697944318354396093568475655979194254557977717",
-   "px": 0.986,
-   "tick": 0.001,
-   "ts": 1795194122,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Taipei be 26°C on November 22?",
-   "touched": 1
-  },
-  {
-   "id": "7190431",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "30183931070712950454710476040144184995351763121177444987234841267102568842443",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795194122,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Taipei be 28°C or higher on November 22?",
-   "touched": 1
-  },
-  {
-   "id": "7190434",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "103314576404537999753159028250022951805981519564645765906479041448858431979844",
-   "px": 0.991,
-   "tick": 0.001,
-   "ts": 1795194122,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Chongqing be 13°C on November 22?",
-   "touched": 1
-  },
-  {
-   "id": "7190463",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "106882582477592725762431338953837899455920059442073333481719759853132015538378",
-   "px": 0.979,
-   "tick": 0.001,
-   "ts": 1795194122,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Wuhan be 20°C on November 22?",
-   "touched": 1
-  },
-  {
-   "id": "7190474",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "68372612478881450973202520076601898135009589317258567299600714650969477257675",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1795194122,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Chengdu be 21°C on November 22?",
-   "touched": 1
-  },
-  {
-   "id": "7190485",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "32503825875293308354487157579543064192029934606498032360523603337749333090153",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795194122,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Shenzhen be 26°C on November 22?",
-   "touched": 1
-  },
-  {
-   "id": "7190556",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "77512827162276776128026402729367439442825538416348796138715909562879296532718",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795194122,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Kuala Lumpur be 28°C on November 22?",
-   "touched": 1
-  },
-  {
    "id": "7190567",
    "rule": "clima_cierre",
    "cat": "clima",
@@ -15911,58 +14799,6 @@
    "ts": 1795194122,
    "end_ts": 1795348800,
    "q": "Will the highest temperature in Jeddah be 29°C on November 22?",
-   "touched": 1
-  },
-  {
-   "id": "7190633",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "92654599042230538434252851725443752475844337272383050929414278996138180877020",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795194122,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Manila be 28°C on November 22?",
-   "touched": 1
-  },
-  {
-   "id": "7190643",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "86110023138599199870086601148523917233443871650131729833178849429357320827236",
-   "px": 0.96,
-   "tick": 0.01,
-   "ts": 1795194122,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Manila be 34°C on November 22?",
-   "touched": 1
-  },
-  {
-   "id": "7190645",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "47900971482480466743763030750104574831626268996366866521568401383764386533808",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795194122,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Manila be 35°C on November 22?",
-   "touched": 1
-  },
-  {
-   "id": "7190647",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "69776423528035367288153790083113404392380937892657622890984125032200447353459",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795194122,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Manila be 36°C on November 22?",
    "touched": 1
   },
   {
@@ -16421,58 +15257,6 @@
    "touched": 1
   },
   {
-   "id": "7190391",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "27257993568063674927055284964871652068664022879571894756496655200940826697091",
-   "px": 0.979,
-   "tick": 0.001,
-   "ts": 1795197728,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Singapore be 28°C on November 22?",
-   "touched": 1
-  },
-  {
-   "id": "7190440",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "80186163948911723912728524797932906027091753786645774403096455990906010425120",
-   "px": 0.989,
-   "tick": 0.001,
-   "ts": 1795197728,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Chongqing be 19°C on November 22?",
-   "touched": 1
-  },
-  {
-   "id": "7190452",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "26316735901747552814943603718701578855498646435416111887021962050661267119939",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795197728,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Beijing be 9°C on November 22?",
-   "touched": 1
-  },
-  {
-   "id": "7190595",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "50375688195509684738650763182823475285825100529824962449610187308674008198809",
-   "px": 0.96,
-   "tick": 0.01,
-   "ts": 1795197728,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Guangzhou be 23°C on November 22?",
-   "touched": 1
-  },
-  {
    "id": "7193280",
    "rule": "clima_cierre",
    "cat": "clima",
@@ -16535,45 +15319,6 @@
    "ts": 1795197728,
    "end_ts": 1795348800,
    "q": "Will the highest temperature in Los Angeles be between 74-75°F on November 22?",
-   "touched": 1
-  },
-  {
-   "id": "6893810",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "38661255204914130943270714594626527267391821014312766766512601171129544455924",
-   "px": 0.95,
-   "tick": 0.01,
-   "ts": 1795197728,
-   "end_ts": 1795356000,
-   "q": "US Sassuolo Calcio vs. Genoa CFC: O/U 5.5",
-   "touched": 1
-  },
-  {
-   "id": "6893817",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "95602102208102721458749440446238015777019485478012600670489649501508161359134",
-   "px": 0.979,
-   "tick": 0.001,
-   "ts": 1795197728,
-   "end_ts": 1795356000,
-   "q": "Paris FC vs. Angers SCO: O/U 6.5",
-   "touched": 1
-  },
-  {
-   "id": "6893889",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "102431723754877651263252661099488390086172277819753382466153883978480348017445",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795197728,
-   "end_ts": 1795356000,
-   "q": "Spread: Udinese Calcio (-3.5)",
    "touched": 1
   },
   {
@@ -16980,19 +15725,6 @@
    "touched": 1
   },
   {
-   "id": "7190635",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "87265752160839544882957750436628302297019741354529047357442972959225049382327",
-   "px": 0.96,
-   "tick": 0.01,
-   "ts": 1795200035,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Manila be 30°C on November 22?",
-   "touched": 1
-  },
-  {
    "id": "7193266",
    "rule": "clima_cierre",
    "cat": "clima",
@@ -17198,19 +15930,6 @@
    "ts": 1795201374,
    "end_ts": 1795409940,
    "q": "Will 28+ ships transit the Strait of Hormuz week of November 16?",
-   "touched": 1
-  },
-  {
-   "id": "7040960",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "48842215999490614964939183829343611938104723979443887333114785868800046206360",
-   "px": 0.979,
-   "tick": 0.001,
-   "ts": 1795204933,
-   "end_ts": 1795356000,
-   "q": "1st Half Spread: Udinese Calcio (-1.5)",
    "touched": 1
   },
   {
@@ -17445,45 +16164,6 @@
    "ts": 1795208545,
    "end_ts": 1795348800,
    "q": "Will \"Ebenezer\" 2nd Weekend Box Office be less than 6m?",
-   "touched": 1
-  },
-  {
-   "id": "7190433",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "19690038465041798752321159029873103703900962170484693498867981820324693542968",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795208545,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Chongqing be 12°C on November 22?",
-   "touched": 1
-  },
-  {
-   "id": "7190441",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "17492760452326562105360086024569658192045320425847867162848626305951584242104",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795208545,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Chongqing be 20°C on November 22?",
-   "touched": 1
-  },
-  {
-   "id": "7190442",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "77502086378354968239215723885537104366054116940975355360265451411235608878004",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795208545,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Chongqing be 21°C or higher on November 22?",
    "touched": 1
   },
   {
@@ -17838,32 +16518,6 @@
    "touched": 1
   },
   {
-   "id": "7190396",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "69391859855344125733639677532459629812147072924300931550732306330734959865040",
-   "px": 0.983,
-   "tick": 0.001,
-   "ts": 1795219326,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Singapore be 33°C on November 22?",
-   "touched": 1
-  },
-  {
-   "id": "7190439",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "54687518493072336026944196728422447822410879786548324170807444550340592811797",
-   "px": 0.96,
-   "tick": 0.01,
-   "ts": 1795219326,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Chongqing be 18°C on November 22?",
-   "touched": 1
-  },
-  {
    "id": "5713557",
    "rule": "otros_cierre",
    "cat": "otros",
@@ -17916,19 +16570,6 @@
    "touched": 1
   },
   {
-   "id": "7190557",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "20183042855573707713478728458650441818523657750088909365253282324571015749528",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795222249,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Kuala Lumpur be 29°C on November 22?",
-   "touched": 1
-  },
-  {
    "id": "7190719",
    "rule": "clima_cierre",
    "cat": "clima",
@@ -17939,32 +16580,6 @@
    "ts": 1795222249,
    "end_ts": 1795348800,
    "q": "Will the lowest temperature in Hong Kong be 24°C on November 22?",
-   "touched": 1
-  },
-  {
-   "id": "7190721",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "104706940376825211857535774768805852709905987054747782726431453786800359827098",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795222249,
-   "end_ts": 1795348800,
-   "q": "Will the lowest temperature in Shanghai be 3°C or below on November 22?",
-   "touched": 1
-  },
-  {
-   "id": "7190730",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "41657809921276191042983853402678367917070666609345066136489381136720850104016",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795222249,
-   "end_ts": 1795348800,
-   "q": "Will the lowest temperature in Shanghai be 12°C on November 22?",
    "touched": 1
   },
   {
@@ -18095,19 +16710,6 @@
    "ts": 1795222249,
    "end_ts": 1795409940,
    "q": "Will 30+ ships transit the Strait of Hormuz week of November 16?",
-   "touched": 1
-  },
-  {
-   "id": "7190472",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "91325896974253725255585415920400273037664533353619187450265338294898223975191",
-   "px": 0.95,
-   "tick": 0.01,
-   "ts": 1795222957,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Chengdu be 19°C on November 22?",
    "touched": 1
   },
   {
@@ -18722,19 +17324,6 @@
    "touched": 1
   },
   {
-   "id": "6905047",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "111334887687007396515429742679456240483769741195176284473520312656559784238035",
-   "px": 0.989,
-   "tick": 0.001,
-   "ts": 1795237310,
-   "end_ts": 1795350600,
-   "q": "1. FC Kaiserslautern vs. SG Dynamo Dresden: O/U 6.5",
-   "touched": 1
-  },
-  {
    "id": "6640268",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -18826,32 +17415,6 @@
    "touched": 0
   },
   {
-   "id": "7190425",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "82543556750914209201388574324685217493052286312930806875959686978702183894892",
-   "px": 0.95,
-   "tick": 0.01,
-   "ts": 1795240938,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Taipei be 22°C on November 22?",
-   "touched": 1
-  },
-  {
-   "id": "7190602",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "86220935533590687145274693339905291407919768162675695451151756856479351017588",
-   "px": 0.96,
-   "tick": 0.01,
-   "ts": 1795240938,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Qingdao be 10°C on November 22?",
-   "touched": 0
-  },
-  {
    "id": "7190720",
    "rule": "clima_cierre",
    "cat": "clima",
@@ -18940,32 +17503,6 @@
    "ts": 1795240938,
    "end_ts": 1795496340,
    "q": "Will any other model be the best AI model on November 23, 2026?",
-   "touched": 1
-  },
-  {
-   "id": "6902313",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "89406938973251429544660310044942632274445606929652379928107587202515480006532",
-   "px": 0.983,
-   "tick": 0.001,
-   "ts": 1795244523,
-   "end_ts": 1795348800,
-   "q": "Burnley FC vs. Blackburn Rovers FC: O/U 6.5",
-   "touched": 1
-  },
-  {
-   "id": "6905115",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "88763404368077702003527329358880966389061251417534136744860065178426942797916",
-   "px": 0.988,
-   "tick": 0.001,
-   "ts": 1795244523,
-   "end_ts": 1795350600,
-   "q": "FC Energie Cottbus vs. Hertha BSC: O/U 0.5",
    "touched": 1
   },
   {
@@ -19112,19 +17649,6 @@
    "touched": 1
   },
   {
-   "id": "6906493",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "52545607881834738538373783787504086545868209539731192426564405621472250335937",
-   "px": 0.981,
-   "tick": 0.001,
-   "ts": 1795248157,
-   "end_ts": 1795352400,
-   "q": "Konyaspor vs. Beşiktaş JK: O/U 6.5",
-   "touched": 1
-  },
-  {
    "id": "7029609",
    "rule": "otros_cierre",
    "cat": "otros",
@@ -19161,19 +17685,6 @@
    "ts": 1795248157,
    "end_ts": 1795464000,
    "q": "Levante UD vs. Elche CF: Neither team to score first?",
-   "touched": 1
-  },
-  {
-   "id": "6902300",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "50026707488037469934322704471720659441879576067061485340959970514845214681434",
-   "px": 0.96,
-   "tick": 0.01,
-   "ts": 1795249270,
-   "end_ts": 1795348800,
-   "q": "Spread: Burnley FC (-3.5)",
    "touched": 1
   },
   {
@@ -19239,19 +17750,6 @@
    "ts": 1795251714,
    "end_ts": 1795348800,
    "q": "Will the highest temperature in Ankara be 13°C on November 22?",
-   "touched": 1
-  },
-  {
-   "id": "7190392",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "54650846795307628457325825676486134341454890952655737871610136207486770166736",
-   "px": 0.96,
-   "tick": 0.01,
-   "ts": 1795251714,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Singapore be 29°C on November 22?",
    "touched": 1
   },
   {
@@ -19398,19 +17896,6 @@
    "touched": 1
   },
   {
-   "id": "7190722",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "32912576526897361720615702486603472747892987209544260063647074926235767216558",
-   "px": 0.983,
-   "tick": 0.001,
-   "ts": 1795251714,
-   "end_ts": 1795348800,
-   "q": "Will the lowest temperature in Shanghai be 4°C on November 22?",
-   "touched": 1
-  },
-  {
    "id": "7194860",
    "rule": "clima_cierre",
    "cat": "clima",
@@ -19473,19 +17958,6 @@
    "ts": 1795251714,
    "end_ts": 1795496340,
    "q": "Next Alibaba Qwen Plus (3.8+) released by November 23, 2026?",
-   "touched": 1
-  },
-  {
-   "id": "7190468",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "42657445526629902102757685636827579215181477898419748479209242773834596557463",
-   "px": 0.95,
-   "tick": 0.01,
-   "ts": 1795255345,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Chengdu be 15°C on November 22?",
    "touched": 1
   },
   {
@@ -19668,19 +18140,6 @@
    "ts": 1795258945,
    "end_ts": 1795482000,
    "q": "Prairie View A&M Panthers vs. Houston Cougars (W)",
-   "touched": 1
-  },
-  {
-   "id": "7190591",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "33473860489487936953778250338397817762320914545836555131128763894575455883862",
-   "px": 0.96,
-   "tick": 0.01,
-   "ts": 1795262526,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Guangzhou be 19°C on November 22?",
    "touched": 1
   },
   {
@@ -20269,32 +18728,6 @@
    "touched": 1
   },
   {
-   "id": "6902299",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "85844959093106345804123574219725673405634605214191123331607007793068484208089",
-   "px": 0.976,
-   "tick": 0.001,
-   "ts": 1795266169,
-   "end_ts": 1795348800,
-   "q": "Spread: Blackburn Rovers FC (-2.5)",
-   "touched": 1
-  },
-  {
-   "id": "6906416",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "37988806233837224464405449317711944203907373298652024260607742449134955844700",
-   "px": 0.95,
-   "tick": 0.01,
-   "ts": 1795266169,
-   "end_ts": 1795352400,
-   "q": "Kasımpaşa SK vs. Alanyaspor: O/U 5.5",
-   "touched": 1
-  },
-  {
    "id": "6903223",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -20461,45 +18894,6 @@
    "ts": 1795269724,
    "end_ts": 1795356000,
    "q": "SC Olhanense leading at halftime?",
-   "touched": 1
-  },
-  {
-   "id": "6905035",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "54546456441839049576078022567459509670299581651501401652107163093192982682544",
-   "px": 0.974,
-   "tick": 0.001,
-   "ts": 1795269724,
-   "end_ts": 1795350600,
-   "q": "Spread: 1. FC Kaiserslautern (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "6905071",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "16152281805061570050246685363560619160781304849070673153103040565798614471356",
-   "px": 0.96,
-   "tick": 0.01,
-   "ts": 1795269724,
-   "end_ts": 1795350600,
-   "q": "Spread: VfL Osnabrück (-2.5)",
-   "touched": 1
-  },
-  {
-   "id": "6906396",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "934172037669563088831330946945366687524483674792576941847117389586183845377",
-   "px": 0.979,
-   "tick": 0.001,
-   "ts": 1795269724,
-   "end_ts": 1795352400,
-   "q": "Spread: Alanyaspor (-2.5)",
    "touched": 1
   },
   {
@@ -20789,19 +19183,6 @@
    "touched": 1
   },
   {
-   "id": "7190448",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "98968842547374742107057066825044073689729892237942000328236566534799051175343",
-   "px": 0.95,
-   "tick": 0.01,
-   "ts": 1795273326,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Beijing be 5°C on November 22?",
-   "touched": 1
-  },
-  {
    "id": "7190487",
    "rule": "clima_cierre",
    "cat": "clima",
@@ -20841,19 +19222,6 @@
    "touched": 1
   },
   {
-   "id": "7190729",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "37504987519276450383244398060715162033381596460387461494944578111964862772125",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795273326,
-   "end_ts": 1795348800,
-   "q": "Will the lowest temperature in Shanghai be 11°C on November 22?",
-   "touched": 1
-  },
-  {
    "id": "7193278",
    "rule": "clima_cierre",
    "cat": "clima",
@@ -20880,19 +19248,6 @@
    "touched": 1
   },
   {
-   "id": "6905034",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "92383076227437973167955909261067644576168545501821089650641472077978852888328",
-   "px": 0.966,
-   "tick": 0.001,
-   "ts": 1795273326,
-   "end_ts": 1795350600,
-   "q": "Spread: SG Dynamo Dresden (-2.5)",
-   "touched": 1
-  },
-  {
    "id": "6962628",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -20903,19 +19258,6 @@
    "ts": 1795273326,
    "end_ts": 1795356000,
    "q": "Spread: NK Istra 1961 (-1.5)",
-   "touched": 1
-  },
-  {
-   "id": "7040953",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "105580361720143035626632729499068301338527029365468221676285182094251697896160",
-   "px": 0.988,
-   "tick": 0.001,
-   "ts": 1795273326,
-   "end_ts": 1795356000,
-   "q": "1st Half Spread: Hull City AFC (-1.5)",
    "touched": 1
   },
   {
@@ -20942,19 +19284,6 @@
    "ts": 1795273326,
    "end_ts": 1795354200,
    "q": "Wolfsberger AC vs. SV Ried: O/U 0.5",
-   "touched": 1
-  },
-  {
-   "id": "7070046",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "48982332270145785545227620741124634406222151740593285211154879549108363506090",
-   "px": 0.979,
-   "tick": 0.001,
-   "ts": 1795273326,
-   "end_ts": 1795352400,
-   "q": "FC Zurich vs. FC St. Gallen 1879: O/U 0.5",
    "touched": 1
   },
   {
@@ -21111,58 +19440,6 @@
    "ts": 1795273326,
    "end_ts": 1795453200,
    "q": "Will the price of Ethereum be above $1,500 on November 23?",
-   "touched": 1
-  },
-  {
-   "id": "6905107",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "2708411352346006211759303389229591638802905957239831721485069314286674959936",
-   "px": 0.978,
-   "tick": 0.001,
-   "ts": 1795276929,
-   "end_ts": 1795350600,
-   "q": "Spread: FC Energie Cottbus (-2.5)",
-   "touched": 1
-  },
-  {
-   "id": "6910337",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "50919060940438471894344191388721091451932602894034308659988604837212364920497",
-   "px": 0.96,
-   "tick": 0.01,
-   "ts": 1795276929,
-   "end_ts": 1795352400,
-   "q": "Viborg FF vs. Randers FC: O/U 0.5",
-   "touched": 1
-  },
-  {
-   "id": "7066842",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "52968679519520060399187738189282370121290834359377905411637787501629951368810",
-   "px": 0.976,
-   "tick": 0.001,
-   "ts": 1795276929,
-   "end_ts": 1795350600,
-   "q": "Spread: SK Beveren (-2.5)",
-   "touched": 1
-  },
-  {
-   "id": "7088125",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "33954297807922382346777542512673999543973795831803608392981185423685252315849",
-   "px": 0.976,
-   "tick": 0.001,
-   "ts": 1795276929,
-   "end_ts": 1795352400,
-   "q": "Spread: IK Sirius (-3.5)",
    "touched": 1
   },
   {
@@ -21439,227 +19716,6 @@
    "touched": 1
   },
   {
-   "id": "6812441",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "102107464602215940573483699963411844609965313552687852254509346645179449503056",
-   "px": 0.962,
-   "tick": 0.001,
-   "ts": 1795277708,
-   "end_ts": 1795285800,
-   "q": "Dinamo 1948 vs. FC Petrolul Ploieşti: Neither team to score first?",
-   "touched": null
-  },
-  {
-   "id": "6881179",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "89833059864223050886077672867586483051034332072081132432835447564418917657133",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795277708,
-   "end_ts": 1795282200,
-   "q": "Spread: CD Eldense (-3.5)",
-   "touched": null
-  },
-  {
-   "id": "6881245",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "37852256171596531613073041036098647969197530211970915676032136603009491833825",
-   "px": 0.99,
-   "tick": 0.001,
-   "ts": 1795277708,
-   "end_ts": 1795282200,
-   "q": "CD Castellón vs. CD Eldense: O/U 7.5",
-   "touched": null
-  },
-  {
-   "id": "6882331",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "58758290142157595276341004085745467493294213243109475609168738303465636894367",
-   "px": 0.971,
-   "tick": 0.001,
-   "ts": 1795277708,
-   "end_ts": 1795287600,
-   "q": "Spread: Stade de Reims (-2.5)",
-   "touched": null
-  },
-  {
-   "id": "6882338",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "20375383222267738954464507257531942896682605252484076968713969337632039043602",
-   "px": 0.974,
-   "tick": 0.001,
-   "ts": 1795277708,
-   "end_ts": 1795287600,
-   "q": "Spread: AS Saint-Étienne (-3.5)",
-   "touched": null
-  },
-  {
-   "id": "6882370",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "42132305368311274320078871979151370568319108065257834381627949840139423893079",
-   "px": 0.983,
-   "tick": 0.001,
-   "ts": 1795277708,
-   "end_ts": 1795287600,
-   "q": "Stade de Reims vs. AS Saint-Étienne: O/U 6.5",
-   "touched": null
-  },
-  {
-   "id": "6882373",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "100329681242138763997011413017176777548870475585987028436541965146576754265276",
-   "px": 0.996,
-   "tick": 0.001,
-   "ts": 1795277708,
-   "end_ts": 1795287600,
-   "q": "Stade de Reims vs. AS Saint-Étienne: O/U 7.5",
-   "touched": null
-  },
-  {
-   "id": "6882376",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "24044383429957753657436038904961593280145871637928480851716138437213140643400",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795277708,
-   "end_ts": 1795287600,
-   "q": "Stade de Reims vs. AS Saint-Étienne: O/U 8.5",
-   "touched": null
-  },
-  {
-   "id": "7036176",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "52485275913182699682009515569955097828701323358822630274493023178025064150803",
-   "px": 0.999,
-   "tick": 0.001,
-   "ts": 1795277708,
-   "end_ts": 1795323599,
-   "q": "Will the fight be won by decision?",
-   "touched": null
-  },
-  {
-   "id": "7036185",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "41892077299375620610261938131534862371145946207966859215911239526715876577876",
-   "px": 0.999,
-   "tick": 0.001,
-   "ts": 1795277708,
-   "end_ts": 1795323599,
-   "q": "Will the fight end in a decision or draw?",
-   "touched": null
-  },
-  {
-   "id": "6882521",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "83547649309892308684656642894514798217647345434992122450495919393393313319898",
-   "px": 0.96,
-   "tick": 0.01,
-   "ts": 1795277708,
-   "end_ts": 1795352400,
-   "q": "AC Horsens vs. Silkeborg IF: Neither team to score first?",
-   "touched": null
-  },
-  {
-   "id": "6905072",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "105985907681892426182614971019339505676128606236485782593041242936790759688978",
-   "px": 0.975,
-   "tick": 0.001,
-   "ts": 1795277708,
-   "end_ts": 1795350600,
-   "q": "Spread: Karlsruher SC (-3.5)",
-   "touched": null
-  },
-  {
-   "id": "6910293",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "36911908817617505695346909427916096365291903661639287564978716755675213713554",
-   "px": 0.97,
-   "tick": 0.01,
-   "ts": 1795277708,
-   "end_ts": 1795352400,
-   "q": "Spread: Silkeborg IF (-2.5)",
-   "touched": null
-  },
-  {
-   "id": "7066855",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "94305598828246034416000411974969323095572239245701844992221799262784550072109",
-   "px": 0.96,
-   "tick": 0.01,
-   "ts": 1795277708,
-   "end_ts": 1795350600,
-   "q": "SK Beveren vs. KAA Gent: O/U 5.5",
-   "touched": null
-  },
-  {
-   "id": "7088124",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "92506711779349090737112876389576376283706071361656888216657842019186282017695",
-   "px": 0.96,
-   "tick": 0.01,
-   "ts": 1795277708,
-   "end_ts": 1795352400,
-   "q": "Spread: Djurgardens IF (-2.5)",
-   "touched": null
-  },
-  {
-   "id": "7088162",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "29524799742438675460669007557725163870522691744407054127183582765219652210657",
-   "px": 0.97,
-   "tick": 0.01,
-   "ts": 1795277708,
-   "end_ts": 1795352400,
-   "q": "Spread: BK Hacken (-3.5)",
-   "touched": null
-  },
-  {
-   "id": "7190393",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "30938842911671490548446696901415995950953330628889979783383013760393638337178",
-   "px": 0.96,
-   "tick": 0.01,
-   "ts": 1795277708,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Singapore be 30°C on November 22?",
-   "touched": null
-  },
-  {
    "id": "6874070",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -21670,7 +19726,7 @@
    "ts": 1795277708,
    "end_ts": 1795363200,
    "q": "Eyüpspor leading at halftime?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6881897",
@@ -21683,7 +19739,7 @@
    "ts": 1795277708,
    "end_ts": 1795363200,
    "q": "Kristiansund BK vs. Sandefjord Fotball: Neither team to score first?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6881957",
@@ -21696,7 +19752,7 @@
    "ts": 1795277708,
    "end_ts": 1795363200,
    "q": "KFUM-Kameratene Oslo vs. SK Brann: Neither team to score first?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6909382",
@@ -21709,7 +19765,7 @@
    "ts": 1795277708,
    "end_ts": 1795363200,
    "q": "Spread: Aalesunds FK (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6909405",
@@ -21722,7 +19778,7 @@
    "ts": 1795277708,
    "end_ts": 1795363200,
    "q": "Aalesunds FK vs. Rosenborg BK: O/U 0.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7070165",
@@ -21735,7 +19791,7 @@
    "ts": 1795277708,
    "end_ts": 1795356000,
    "q": "Will Slavia Mozyr win on 2026-11-22?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7075312",
@@ -21748,7 +19804,7 @@
    "ts": 1795277708,
    "end_ts": 1795366800,
    "q": "Olympiacos Piraeus vs. POT Iraklis: O/U 0.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7217944",
@@ -21761,7 +19817,7 @@
    "ts": 1795277708,
    "end_ts": 1795435200,
    "q": "Will the highest temperature in Paris be 3°C on November 23?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7217954",
@@ -21774,7 +19830,7 @@
    "ts": 1795277708,
    "end_ts": 1795435200,
    "q": "Will the highest temperature in Paris be 11°C or higher on November 23?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7218104",
@@ -21787,7 +19843,7 @@
    "ts": 1795277708,
    "end_ts": 1795435200,
    "q": "Will the highest temperature in Shanghai be 15°C on November 23?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7218105",
@@ -21800,7 +19856,7 @@
    "ts": 1795277708,
    "end_ts": 1795435200,
    "q": "Will the highest temperature in Shanghai be 16°C on November 23?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7218120",
@@ -21813,7 +19869,7 @@
    "ts": 1795277708,
    "end_ts": 1795435200,
    "q": "Will the highest temperature in Singapore be 27°C on November 23?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7218182",
@@ -21826,7 +19882,7 @@
    "ts": 1795277708,
    "end_ts": 1795435200,
    "q": "Will the highest temperature in Beijing be 4°C on November 23?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7218184",
@@ -21839,7 +19895,7 @@
    "ts": 1795277708,
    "end_ts": 1795435200,
    "q": "Will the highest temperature in Beijing be 6°C on November 23?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7219919",
@@ -21852,189 +19908,7 @@
    "ts": 1795277708,
    "end_ts": 1795435200,
    "q": "Will the highest temperature in Chicago be between 46-47°F on November 23?",
-   "touched": null
-  },
-  {
-   "id": "6837489",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "1102005758342634984084843183192202177898228916565617937048127723556819952735",
-   "px": 0.987,
-   "tick": 0.001,
-   "ts": 1795280532,
-   "end_ts": 1795290300,
-   "q": "SSC Napoli vs. Torino FC: SSC Napoli O/U 5.5",
-   "touched": null
-  },
-  {
-   "id": "7160489",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "96787477907574896347634751058266827834486098418138908835710404759236768135671",
-   "px": 0.95,
-   "tick": 0.01,
-   "ts": 1795280532,
-   "end_ts": 1795296600,
-   "q": "Spread: CD Universidad Catolica del Ecuador (-3.5)",
-   "touched": null
-  },
-  {
-   "id": "7163744",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "37812417971767133047979805708065109452786061633402158834920382910001612893178",
-   "px": 0.96,
-   "tick": 0.01,
-   "ts": 1795280532,
-   "end_ts": 1795296600,
-   "q": "Spread: CD Cobreloa Calama (-2.5)",
-   "touched": null
-  },
-  {
-   "id": "7163760",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "92244319441786977698088662345501338204350596645282779754733240703805501366287",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795280532,
-   "end_ts": 1795296600,
-   "q": "CD Cobreloa Calama vs. San Luis de Quillota: O/U 6.5",
-   "touched": null
-  },
-  {
-   "id": "7177994",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "61900005425832294524184922610938400487900353375482202112427408031092612854894",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795280532,
-   "end_ts": 1795296600,
-   "q": "Spread: Portuguesa FC (-2.5)",
-   "touched": null
-  },
-  {
-   "id": "7178006",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "69496086056271664931596743574811538416099272803069403552153774145775924182190",
-   "px": 0.967,
-   "tick": 0.001,
-   "ts": 1795280532,
-   "end_ts": 1795296600,
-   "q": "Carabobo FC vs. Portuguesa FC: O/U 5.5",
-   "touched": null
-  },
-  {
-   "id": "7185145",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "71868701206058175371297357586915626545940773860100730461682646895847973003303",
-   "px": 0.96,
-   "tick": 0.01,
-   "ts": 1795280532,
-   "end_ts": 1795293000,
-   "q": "Spread: Blackhawks (-3.5)",
-   "touched": null
-  },
-  {
-   "id": "7199486",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "70079677172396790081114420359217862103322294918994887579759113477601515001062",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795280532,
-   "end_ts": 1795295700,
-   "q": "Counter-Strike: ex-RUSTEC vs Hype Tech - Map 2 Winner",
-   "touched": null
-  },
-  {
-   "id": "7206296",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "81797649527888577383666819182060617288441439683544581433626852291105531653714",
-   "px": 0.979,
-   "tick": 0.001,
-   "ts": 1795280532,
-   "end_ts": 1795298400,
-   "q": "Counter-Strike: SAW vs FC Famalicão Esports (BO3) - Master League Portugal Playoffs",
-   "touched": null
-  },
-  {
-   "id": "6820355",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "55121609430102574501127167193890220294811402418996372465915279850605281142028",
-   "px": 0.97,
-   "tick": 0.01,
-   "ts": 1795280532,
-   "end_ts": 1795323599,
-   "q": "Will Jirí Procházka win in Round 4?",
-   "touched": null
-  },
-  {
-   "id": "6820366",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "82046614839230053087852918908918873377869775366144086302905779178732931579873",
-   "px": 0.96,
-   "tick": 0.01,
-   "ts": 1795280532,
-   "end_ts": 1795323599,
-   "q": "Will Navajo Stirling win in Round 5?",
-   "touched": null
-  },
-  {
-   "id": "6820412",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "113153424131625883791518963612583976506733948336475881370259659940354746045990",
-   "px": 0.979,
-   "tick": 0.001,
-   "ts": 1795280532,
-   "end_ts": 1795323599,
-   "q": "Will Aljamain Sterling win in Round 2?",
-   "touched": null
-  },
-  {
-   "id": "6820510",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "112669638632622279096411328784115204650463467952446805790847695735984748987385",
-   "px": 0.97,
-   "tick": 0.01,
-   "ts": 1795280532,
-   "end_ts": 1795323599,
-   "q": "Will Asu Almabayev win in Round 1?",
-   "touched": null
-  },
-  {
-   "id": "6820663",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "107110844350246586604496654552421455421276495572264840733257972491256668004503",
-   "px": 0.999,
-   "tick": 0.001,
-   "ts": 1795280532,
-   "end_ts": 1795323599,
-   "q": "O/U 0.5 Rounds",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6904185",
@@ -22047,7 +19921,7 @@
    "ts": 1795280532,
    "end_ts": 1795356000,
    "q": "Spread: 1. FC Slovácko (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6904186",
@@ -22060,59 +19934,7 @@
    "ts": 1795280532,
    "end_ts": 1795356000,
    "q": "Spread: FC Hradec Králové (-2.5)",
-   "touched": null
-  },
-  {
-   "id": "6905078",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "52537445078209655364777641771069508285494571928991804517500658284789378228445",
-   "px": 0.95,
-   "tick": 0.01,
-   "ts": 1795280532,
-   "end_ts": 1795350600,
-   "q": "Karlsruher SC vs. VfL Osnabrück: O/U 0.5",
-   "touched": null
-  },
-  {
-   "id": "6906398",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "89845865359288468121812220558668231190982201686778055314814961838345169853123",
-   "px": 0.964,
-   "tick": 0.001,
-   "ts": 1795280532,
-   "end_ts": 1795352400,
-   "q": "Spread: Kasımpaşa SK (-3.5)",
-   "touched": null
-  },
-  {
-   "id": "6910330",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "43820543167094555647539426639464813178732824870814658672043492982681666028799",
-   "px": 0.983,
-   "tick": 0.001,
-   "ts": 1795280532,
-   "end_ts": 1795352400,
-   "q": "Spread: Randers FC (-2.5)",
-   "touched": null
-  },
-  {
-   "id": "7065100",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "106669272991001060184031293812363051092928036708850283189837116389697652591204",
-   "px": 0.96,
-   "tick": 0.01,
-   "ts": 1795280532,
-   "end_ts": 1795347000,
-   "q": "Spread: AC Renate (-1.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6893595",
@@ -22125,7 +19947,7 @@
    "ts": 1795280532,
    "end_ts": 1795364100,
    "q": "Spread: FC Lorient (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6893599",
@@ -22138,7 +19960,7 @@
    "ts": 1795280532,
    "end_ts": 1795364100,
    "q": "Spread: Stade Rennais FC 1901 (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6904318",
@@ -22151,7 +19973,7 @@
    "ts": 1795280532,
    "end_ts": 1795361400,
    "q": "FC UTA Arad vs. Universitatea Craiova CS: O/U 5.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6909465",
@@ -22164,7 +19986,7 @@
    "ts": 1795280532,
    "end_ts": 1795363200,
    "q": "KFUM-Kameratene Oslo vs. SK Brann: O/U 0.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6909535",
@@ -22177,7 +19999,7 @@
    "ts": 1795280532,
    "end_ts": 1795363200,
    "q": "Kristiansund BK vs. Sandefjord Fotball: O/U 0.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6910263",
@@ -22190,7 +20012,7 @@
    "ts": 1795280532,
    "end_ts": 1795359600,
    "q": "Sønderjyske Fodbold vs. Odense BK: O/U 0.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7043994",
@@ -22203,7 +20025,7 @@
    "ts": 1795280532,
    "end_ts": 1795365000,
    "q": "1st Half Spread: Manchester United FC (-1.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7072039",
@@ -22216,7 +20038,7 @@
    "ts": 1795280532,
    "end_ts": 1795359600,
    "q": "Spread: Panaitolikos Agrinio (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7072054",
@@ -22229,7 +20051,7 @@
    "ts": 1795280532,
    "end_ts": 1795359600,
    "q": "Panaitolikos Agrinio vs. Volos NPS: O/U 5.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7072459",
@@ -22242,7 +20064,7 @@
    "ts": 1795280532,
    "end_ts": 1795359600,
    "q": "Spread: KV Kortrijk (-1.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7072469",
@@ -22255,7 +20077,7 @@
    "ts": 1795280532,
    "end_ts": 1795359600,
    "q": "KV Kortrijk vs. Union Saint-Gilloise: O/U 0.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7072718",
@@ -22268,7 +20090,7 @@
    "ts": 1795280532,
    "end_ts": 1795361400,
    "q": "Lausanne-Sport vs. FC Vaduz: O/U 0.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7072755",
@@ -22281,7 +20103,7 @@
    "ts": 1795280532,
    "end_ts": 1795361400,
    "q": "FC Basel 1893 vs. FC Luzern: O/U 0.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7072856",
@@ -22294,7 +20116,7 @@
    "ts": 1795280532,
    "end_ts": 1795363200,
    "q": "Spread: PFC CSKA Sofia (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7072861",
@@ -22307,7 +20129,7 @@
    "ts": 1795280532,
    "end_ts": 1795363200,
    "q": "Botev Plovdiv vs. PFC CSKA Sofia: O/U 0.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7073040",
@@ -22320,7 +20142,7 @@
    "ts": 1795280532,
    "end_ts": 1795361400,
    "q": "Spread: OFI Crete (-1.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7073753",
@@ -22333,7 +20155,7 @@
    "ts": 1795280532,
    "end_ts": 1795363200,
    "q": "Spread: FK Austria Wien (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6640536",
@@ -22346,7 +20168,7 @@
    "ts": 1795280532,
    "end_ts": 1795370400,
    "q": "Buccaneers vs. Lions: O/U 26.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6641124",
@@ -22359,7 +20181,7 @@
    "ts": 1795280532,
    "end_ts": 1795370400,
    "q": "Saints vs. Bears: O/U 24.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6909259",
@@ -22372,7 +20194,7 @@
    "ts": 1795280532,
    "end_ts": 1795371300,
    "q": "Sarpsborg 08 FF vs. Lillestrøm SK: O/U 0.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7076500",
@@ -22385,7 +20207,7 @@
    "ts": 1795280532,
    "end_ts": 1795368600,
    "q": "PAOK Thessaloniki vs. AE Kifisia FC: O/U 0.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6928011",
@@ -22398,7 +20220,7 @@
    "ts": 1795280532,
    "end_ts": 1795396200,
    "q": "Spread: Club Necaxa (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7217932",
@@ -22411,7 +20233,7 @@
    "ts": 1795280532,
    "end_ts": 1795435200,
    "q": "Will the highest temperature in London be 6°C on November 23?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7218043",
@@ -22424,7 +20246,7 @@
    "ts": 1795280532,
    "end_ts": 1795435200,
    "q": "Will the highest temperature in Munich be -1°C on November 23?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7218050",
@@ -22437,7 +20259,7 @@
    "ts": 1795280532,
    "end_ts": 1795435200,
    "q": "Will the highest temperature in Munich be 5°C on November 23?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7218058",
@@ -22450,7 +20272,7 @@
    "ts": 1795280532,
    "end_ts": 1795435200,
    "q": "Will the highest temperature in Tel Aviv be 22°C on November 23?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7218067",
@@ -22463,7 +20285,7 @@
    "ts": 1795280532,
    "end_ts": 1795435200,
    "q": "Will the highest temperature in Tel Aviv be 29°C on November 23?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7218082",
@@ -22476,7 +20298,7 @@
    "ts": 1795280532,
    "end_ts": 1795435200,
    "q": "Will the highest temperature in Tokyo be 16°C on November 23?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7218151",
@@ -22489,7 +20311,7 @@
    "ts": 1795280532,
    "end_ts": 1795435200,
    "q": "Will the highest temperature in Madrid be 12°C on November 23?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7218273",
@@ -22502,7 +20324,7 @@
    "ts": 1795280532,
    "end_ts": 1795435200,
    "q": "Will the highest temperature in Busan be 17°C on November 23?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7218311",
@@ -22515,7 +20337,7 @@
    "ts": 1795280532,
    "end_ts": 1795435200,
    "q": "Will the highest temperature in Kuala Lumpur be 27°C or below on November 23?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7219882",
@@ -22528,7 +20350,7 @@
    "ts": 1795280532,
    "end_ts": 1795435200,
    "q": "Will the highest temperature in Dallas be between 54-55°F on November 23?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7219903",
@@ -22541,7 +20363,7 @@
    "ts": 1795280532,
    "end_ts": 1795435200,
    "q": "Will the highest temperature in Miami be between 72-73°F on November 23?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7219905",
@@ -22554,7 +20376,7 @@
    "ts": 1795280532,
    "end_ts": 1795435200,
    "q": "Will the highest temperature in Miami be between 76-77°F on November 23?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7219909",
@@ -22567,7 +20389,7 @@
    "ts": 1795280532,
    "end_ts": 1795435200,
    "q": "Will the highest temperature in Miami be between 84-85°F on November 23?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7219910",
@@ -22580,7 +20402,7 @@
    "ts": 1795280532,
    "end_ts": 1795435200,
    "q": "Will the highest temperature in Miami be between 86-87°F on November 23?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7219912",
@@ -22593,7 +20415,7 @@
    "ts": 1795280532,
    "end_ts": 1795435200,
    "q": "Will the highest temperature in Miami be 90°F or higher on November 23?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7221080",
@@ -22606,7 +20428,7 @@
    "ts": 1795280532,
    "end_ts": 1795435200,
    "q": "Will the highest temperature in Buenos Aires be 25°C on November 23?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7088817",
@@ -22619,7 +20441,7 @@
    "ts": 1795280532,
    "end_ts": 1795539600,
    "q": "Will DeepSeek have the third highest OpenRouter market share the week of November 16?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7088818",
@@ -22632,7 +20454,7 @@
    "ts": 1795280532,
    "end_ts": 1795539600,
    "q": "Will Tencent have the third highest OpenRouter market share the week of November 16?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7088820",
@@ -22645,7 +20467,7 @@
    "ts": 1795280532,
    "end_ts": 1795539600,
    "q": "Will Z.ai have the third highest OpenRouter market share the week of November 16?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7088824",
@@ -22658,7 +20480,7 @@
    "ts": 1795280532,
    "end_ts": 1795539600,
    "q": "Will Anthropic have the third highest OpenRouter market share the week of November 16?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7088825",
@@ -22671,7 +20493,7 @@
    "ts": 1795280532,
    "end_ts": 1795539600,
    "q": "Will MiniMax have the third highest OpenRouter market share the week of November 16?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7088827",
@@ -22684,7 +20506,7 @@
    "ts": 1795280532,
    "end_ts": 1795539600,
    "q": "Will Qwen have the third highest OpenRouter market share the week of November 16?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7088828",
@@ -22697,7 +20519,7 @@
    "ts": 1795280532,
    "end_ts": 1795539600,
    "q": "Will xAI have the third highest OpenRouter market share the week of November 16?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7088832",
@@ -22710,7 +20532,7 @@
    "ts": 1795280532,
    "end_ts": 1795539600,
    "q": "Will DeepSeek have the second highest OpenRouter market share the week of November 16?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7088833",
@@ -22723,7 +20545,7 @@
    "ts": 1795280532,
    "end_ts": 1795539600,
    "q": "Will Tencent have the second highest OpenRouter market share the week of November 16?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7088834",
@@ -22736,7 +20558,7 @@
    "ts": 1795280532,
    "end_ts": 1795539600,
    "q": "Will OpenAI have the second highest OpenRouter market share the week of November 16?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7088835",
@@ -22749,7 +20571,7 @@
    "ts": 1795280532,
    "end_ts": 1795539600,
    "q": "Will Z.ai have the second highest OpenRouter market share the week of November 16?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7088836",
@@ -22762,7 +20584,7 @@
    "ts": 1795280532,
    "end_ts": 1795539600,
    "q": "Will Xiaomi have the second highest OpenRouter market share the week of November 16?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7088837",
@@ -22775,7 +20597,7 @@
    "ts": 1795280532,
    "end_ts": 1795539600,
    "q": "Will Nvidia have the second highest OpenRouter market share the week of November 16?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7088838",
@@ -22788,7 +20610,7 @@
    "ts": 1795280532,
    "end_ts": 1795539600,
    "q": "Will Google have the second highest OpenRouter market share the week of November 16?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7088842",
@@ -22801,7 +20623,7 @@
    "ts": 1795280532,
    "end_ts": 1795539600,
    "q": "Will MiniMax have the second highest OpenRouter market share the week of November 16?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7088845",
@@ -22814,7 +20636,7 @@
    "ts": 1795280532,
    "end_ts": 1795539600,
    "q": "Will Meta have the second highest OpenRouter market share the week of November 16?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7088848",
@@ -22827,7 +20649,7 @@
    "ts": 1795280532,
    "end_ts": 1795539600,
    "q": "Will xAI have the second highest OpenRouter market share the week of November 16?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7088852",
@@ -22840,7 +20662,7 @@
    "ts": 1795280532,
    "end_ts": 1795539600,
    "q": "Will DeepSeek have the highest OpenRouter market share the week of November 16?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7088853",
@@ -22853,7 +20675,7 @@
    "ts": 1795280532,
    "end_ts": 1795539600,
    "q": "Will Tencent have the highest OpenRouter market share the week of November 16?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7088864",
@@ -22866,7 +20688,7 @@
    "ts": 1795280532,
    "end_ts": 1795539600,
    "q": "Will OpenAI have the highest OpenRouter market share the week of November 16?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7088868",
@@ -22879,7 +20701,7 @@
    "ts": 1795280532,
    "end_ts": 1795539600,
    "q": "Will Z.ai have the highest OpenRouter market share the week of November 16?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7088872",
@@ -22892,7 +20714,7 @@
    "ts": 1795280532,
    "end_ts": 1795539600,
    "q": "Will Xiaomi have the highest OpenRouter market share the week of November 16?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7088873",
@@ -22905,7 +20727,7 @@
    "ts": 1795280532,
    "end_ts": 1795539600,
    "q": "Will Nvidia have the highest OpenRouter market share the week of November 16?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7088874",
@@ -22918,7 +20740,7 @@
    "ts": 1795280532,
    "end_ts": 1795539600,
    "q": "Will Google have the highest OpenRouter market share the week of November 16?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7088875",
@@ -22931,7 +20753,7 @@
    "ts": 1795280532,
    "end_ts": 1795539600,
    "q": "Will Anthropic have the highest OpenRouter market share the week of November 16?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7088876",
@@ -22944,7 +20766,7 @@
    "ts": 1795280532,
    "end_ts": 1795539600,
    "q": "Will MiniMax have the highest OpenRouter market share the week of November 16?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7088877",
@@ -22957,7 +20779,7 @@
    "ts": 1795280532,
    "end_ts": 1795539600,
    "q": "Will Meta have the highest OpenRouter market share the week of November 16?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7088878",
@@ -22970,7 +20792,7 @@
    "ts": 1795280532,
    "end_ts": 1795539600,
    "q": "Will Qwen have the highest OpenRouter market share the week of November 16?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7088879",
@@ -22983,7 +20805,7 @@
    "ts": 1795280532,
    "end_ts": 1795539600,
    "q": "Will xAI have the highest OpenRouter market share the week of November 16?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7121504",
@@ -22996,7 +20818,7 @@
    "ts": 1795280532,
    "end_ts": 1795539600,
    "q": "Will the price of Ethereum be above $1,300 on November 24?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7121509",
@@ -23009,7 +20831,7 @@
    "ts": 1795280532,
    "end_ts": 1795539600,
    "q": "Will the price of Ethereum be above $1,400 on November 24?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7121536",
@@ -23022,7 +20844,7 @@
    "ts": 1795280532,
    "end_ts": 1795539600,
    "q": "Will the price of Ethereum be above $1,900 on November 24?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7121541",
@@ -23035,7 +20857,7 @@
    "ts": 1795280532,
    "end_ts": 1795539600,
    "q": "Will the price of Ethereum be above $2,000 on November 24?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7121543",
@@ -23048,7 +20870,7 @@
    "ts": 1795280532,
    "end_ts": 1795539600,
    "q": "Will the price of Bitcoin be between $68,000 and $70,000 on November 24?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7121545",
@@ -23061,7 +20883,7 @@
    "ts": 1795280532,
    "end_ts": 1795539600,
    "q": "Will the price of Ethereum be above $2,100 on November 24?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7121549",
@@ -23074,7 +20896,7 @@
    "ts": 1795280532,
    "end_ts": 1795539600,
    "q": "Will the price of Bitcoin be between $70,000 and $72,000 on November 24?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7121550",
@@ -23087,7 +20909,7 @@
    "ts": 1795280532,
    "end_ts": 1795539600,
    "q": "Will the price of Ethereum be above $2,200 on November 24?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7121553",
@@ -23100,7 +20922,7 @@
    "ts": 1795280532,
    "end_ts": 1795539600,
    "q": "Will the price of Bitcoin be greater than $72,000 on November 24?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7121555",
@@ -23113,7 +20935,7 @@
    "ts": 1795280532,
    "end_ts": 1795539600,
    "q": "Will the price of Ethereum be above $2,300 on November 24?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7121564",
@@ -23126,7 +20948,7 @@
    "ts": 1795280532,
    "end_ts": 1795539600,
    "q": "Will the price of Ethereum be less than $1,300 on November 24?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7121577",
@@ -23139,7 +20961,7 @@
    "ts": 1795280532,
    "end_ts": 1795539600,
    "q": "Will the price of Bitcoin be above $68,000 on November 24?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7121579",
@@ -23152,7 +20974,7 @@
    "ts": 1795280532,
    "end_ts": 1795539600,
    "q": "Will the price of Bitcoin be above $70,000 on November 24?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7121580",
@@ -23165,7 +20987,7 @@
    "ts": 1795280532,
    "end_ts": 1795539600,
    "q": "Will the price of Ethereum be between $2,000 and $2,100 on November 24?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7121581",
@@ -23178,7 +21000,7 @@
    "ts": 1795280532,
    "end_ts": 1795539600,
    "q": "Will the price of Bitcoin be above $72,000 on November 24?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7121582",
@@ -23191,7 +21013,7 @@
    "ts": 1795280532,
    "end_ts": 1795539600,
    "q": "Will the price of Ethereum be between $2,100 and $2,200 on November 24?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7121583",
@@ -23204,7 +21026,7 @@
    "ts": 1795280532,
    "end_ts": 1795539600,
    "q": "Will the price of Bitcoin be above $74,000 on November 24?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7121584",
@@ -23217,7 +21039,7 @@
    "ts": 1795280532,
    "end_ts": 1795539600,
    "q": "Will the price of Ethereum be greater than $2,200 on November 24?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7147647",
@@ -46240,6 +44062,1241 @@
    "ts": 1795363351,
    "end_ts": 1795582740,
    "q": "Will \"Taken: Natalee Holloway: Season 1\" be the #2 US Netflix show this week?",
+   "touched": null
+  },
+  {
+   "id": "7097446",
+   "rule": "post_fin_90_97",
+   "cat": "otros",
+   "side": 0,
+   "token": "92803637913892125494922816347259424229423713959625651239485719548202874338632",
+   "px": 0.91,
+   "tick": 0.01,
+   "ts": 1795366946,
+   "end_ts": 1795348800,
+   "q": "Will \"I Play Rocky\" Opening Weekend Box Office be between 7m and 10m?",
+   "touched": null
+  },
+  {
+   "id": "7097447",
+   "rule": "post_fin_90_97",
+   "cat": "otros",
+   "side": 1,
+   "token": "25656616918109908778553197015725134931828759862955148259940961352826108101050",
+   "px": 0.966,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795348800,
+   "q": "Will \"I Play Rocky\" Opening Weekend Box Office be between 10m and 13m?",
+   "touched": null
+  },
+  {
+   "id": "6930876",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "15548765029597924189331147922652174998939897971474949562089938464652781753730",
+   "px": 0.984,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795390200,
+   "q": "Spread: CD San Antonio Bulo Bulo (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "7218490",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "101798051939070046569956758966658275724066547928553023655003622902683090823049",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795435200,
+   "q": "Will the lowest temperature in Tokyo be 2°C or below on November 23?",
+   "touched": null
+  },
+  {
+   "id": "7218495",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "106774901280510117653796226184655246050287666200491344012211524177321558393793",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795435200,
+   "q": "Will the lowest temperature in Tokyo be 7°C on November 23?",
+   "touched": null
+  },
+  {
+   "id": "7218496",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "104810785793043237459856332861733412390172068514636254277024823510302069821083",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795435200,
+   "q": "Will the lowest temperature in Tokyo be 8°C on November 23?",
+   "touched": null
+  },
+  {
+   "id": "7219908",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "10376683540127101551601292606632577041746231358790698510099286206096043823818",
+   "px": 0.965,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795435200,
+   "q": "Will the highest temperature in Miami be between 82-83°F on November 23?",
+   "touched": null
+  },
+  {
+   "id": "7221103",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "39946192057908574351996836955694456494633240278481745387771544893117988952238",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795435200,
+   "q": "Will the highest temperature in Seattle be between 42-43°F on November 23?",
+   "touched": null
+  },
+  {
+   "id": "7221117",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "58569634156750363178743778506927569831027015701801919163108096025792712922002",
+   "px": 0.95,
+   "tick": 0.01,
+   "ts": 1795366946,
+   "end_ts": 1795435200,
+   "q": "Will the highest temperature in Denver be between 42-43°F on November 23?",
+   "touched": null
+  },
+  {
+   "id": "7245164",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "84835986025901823956435250853835523344656303234580889598163948605233651106113",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795441500,
+   "q": "FK Neftchi Fargona vs. Al Hilal SFC: Neither team to score first?",
+   "touched": null
+  },
+  {
+   "id": "6931073",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "108033664845176567481903321796680464513789873557440204687030376809961492728700",
+   "px": 0.98,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795446000,
+   "q": "El Gouna SC vs. Zamalek SC: O/U 5.5",
+   "touched": null
+  },
+  {
+   "id": "7244788",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "79529825370250583091445572029792324953667568272827244635986531199589560907738",
+   "px": 0.979,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795449600,
+   "q": "Spread: Al-Shamal (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "7244847",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "23290416159509282039856290464662282686696396039249580324186361379501941183315",
+   "px": 0.969,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795449600,
+   "q": "Tractor Tabriz vs. Al Wasl FC: O/U 5.5",
+   "touched": null
+  },
+  {
+   "id": "7244848",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "91088936954321528475673612361116167857007160421630676910515625085387163182101",
+   "px": 0.992,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795449600,
+   "q": "Tractor Tabriz vs. Al Wasl FC: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "6923716",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "22359046805086075410712375165556207837353690158233639447231389199824782649581",
+   "px": 0.993,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795464000,
+   "q": "Brentford FC vs. Everton FC: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "7206979",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "33603791789463093980528018988590002455758511215459926380043923384112876846086",
+   "px": 0.979,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795460400,
+   "q": "Jong PSV Eindhoven vs. Jong FC Utrecht: O/U 0.5",
+   "touched": null
+  },
+  {
+   "id": "7244733",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "24310929704972891142590915632069033595179100163830157945056067919921210448325",
+   "px": 0.987,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795457700,
+   "q": "Spread: Pakhtakor (-1.5)",
+   "touched": null
+  },
+  {
+   "id": "6943867",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "39604605128515291044092436450154251454411767943061977704102808654857881433841",
+   "px": 0.974,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795478400,
+   "q": "Santos FC vs. Grêmio FBPA: Neither team to score first?",
+   "touched": null
+  },
+  {
+   "id": "6949221",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "106975052373117809618115386148571887571571299002841674047293277739889964108357",
+   "px": 0.975,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795496340,
+   "q": "Will gemini-4-carbon-high be the best AI model on November 23, 2026?",
+   "touched": null
+  },
+  {
+   "id": "7247240",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "69786871599534472192540304103522588472511326298179490714719919843936195671510",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795521600,
+   "q": "Will the highest temperature in Munich be -2°C on November 24?",
+   "touched": null
+  },
+  {
+   "id": "7247249",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "77767590015681968084327402644831386164628650477653152297600740375393474638312",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795521600,
+   "q": "Will the highest temperature in Munich be 7°C or higher on November 24?",
+   "touched": null
+  },
+  {
+   "id": "7247274",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "42627009986440470049443653524397862974596085317737684251520398028418284132338",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795521600,
+   "q": "Will the highest temperature in Hong Kong be 20°C on November 24?",
+   "touched": null
+  },
+  {
+   "id": "7247275",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "87884084857227946067868414876039464898356923337224822719653062698875920421595",
+   "px": 0.976,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795521600,
+   "q": "Will the highest temperature in Hong Kong be 21°C on November 24?",
+   "touched": null
+  },
+  {
+   "id": "7247280",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "28293386583345183578059107578523996794651075468447791557827354454586755486451",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795521600,
+   "q": "Will the highest temperature in Hong Kong be 26°C on November 24?",
+   "touched": null
+  },
+  {
+   "id": "7247302",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "29434637506991144068611923768501330228637609768400915661325020375876198837510",
+   "px": 0.987,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795521600,
+   "q": "Will the highest temperature in Singapore be 34°C on November 24?",
+   "touched": null
+  },
+  {
+   "id": "7247320",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "9714312868743657159816348760924561806304190737165895463296697828201661112042",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795521600,
+   "q": "Will the highest temperature in Madrid be 7°C on November 24?",
+   "touched": null
+  },
+  {
+   "id": "7247328",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "32132002399118887290000380837338946646719995217974893143122769069542981292590",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795521600,
+   "q": "Will the highest temperature in Taipei be 16°C on November 24?",
+   "touched": null
+  },
+  {
+   "id": "7247350",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "99771652855915338486206934833581792428174483508390707615001955822510318124651",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795521600,
+   "q": "Will the highest temperature in Beijing be 3°C on November 24?",
+   "touched": null
+  },
+  {
+   "id": "7247351",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "7754210940232722992337341218988268163648403097988734458580734055035881233010",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795521600,
+   "q": "Will the highest temperature in Beijing be 4°C on November 24?",
+   "touched": null
+  },
+  {
+   "id": "7247352",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "77327513656666429355704260437778166245894893294392596963795213814331702633711",
+   "px": 0.992,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795521600,
+   "q": "Will the highest temperature in Beijing be 5°C on November 24?",
+   "touched": null
+  },
+  {
+   "id": "7247353",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "85634898963865508400053324798299057272965346321381580911998495276088967307198",
+   "px": 0.95,
+   "tick": 0.01,
+   "ts": 1795366946,
+   "end_ts": 1795521600,
+   "q": "Will the highest temperature in Beijing be 6°C on November 24?",
+   "touched": null
+  },
+  {
+   "id": "7247359",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "11037750582098543128872151395702876210889500357113709703259371609235720805335",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795521600,
+   "q": "Will the highest temperature in Beijing be 12°C or higher on November 24?",
+   "touched": null
+  },
+  {
+   "id": "7247381",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "108025300895666823483924114899380241807250037035107074388696857328777221711900",
+   "px": 0.96,
+   "tick": 0.01,
+   "ts": 1795366946,
+   "end_ts": 1795521600,
+   "q": "Will the highest temperature in Chengdu be 20°C or higher on November 24?",
+   "touched": null
+  },
+  {
+   "id": "7247518",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "80311349437230016762698587652754109534248590419363251556258600439723882961367",
+   "px": 0.996,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795521600,
+   "q": "Will the lowest temperature in London be 0°C on November 24?",
+   "touched": null
+  },
+  {
+   "id": "7247542",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "90839321048080025432113663636981767960890906216868692351143980308100127331951",
+   "px": 0.991,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795521600,
+   "q": "Will the highest temperature in Guangzhou be 18°C on November 24?",
+   "touched": null
+  },
+  {
+   "id": "7247599",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "21237484243293705859446077352631194835443866321781300127790901151124188047384",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795521600,
+   "q": "Will the highest temperature in Karachi be 34°C on November 24?",
+   "touched": null
+  },
+  {
+   "id": "7247600",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "60315675125001413168034099074040934689157126275758323800369510999140754712342",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795521600,
+   "q": "Will the highest temperature in Karachi be 35°C on November 24?",
+   "touched": null
+  },
+  {
+   "id": "7249585",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "58984847668640499669821867507282396648154995743437730686891327894152476839629",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795521600,
+   "q": "Will the highest temperature in Miami be 69°F or below on November 24?",
+   "touched": null
+  },
+  {
+   "id": "7249595",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "89554666708721619136121719872488670674495632233168890618455192207651035866543",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795521600,
+   "q": "Will the highest temperature in Miami be 88°F or higher on November 24?",
+   "touched": null
+  },
+  {
+   "id": "6961336",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "32697354724117745696600431846811290133682988970212779923161004715140683397819",
+   "px": 0.97,
+   "tick": 0.01,
+   "ts": 1795366946,
+   "end_ts": 1795549500,
+   "q": "Scunthorpe United FC vs. Gateshead FC: O/U 0.5",
+   "touched": null
+  },
+  {
+   "id": "7150117",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "103007432799657055542042005609788653293148877617806577296306797590765411474874",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795626000,
+   "q": "Will the price of Ethereum be above $1,200 on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7150118",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "108209882408920726677202232943142787354312277852125609225549668779494039211466",
+   "px": 0.987,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795626000,
+   "q": "Will the price of Bitcoin be less than $54,000 on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7150123",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "88494853276898610892871553155446094364789886874437313570089691425869062464763",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795626000,
+   "q": "Will the price of Ethereum be above $1,300 on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7150129",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "62354363260308361538744692954489640712431017694681557375034622126414701569606",
+   "px": 0.992,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795626000,
+   "q": "Will the price of Ethereum be above $1,400 on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7150135",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "2669795186256564974851630746397727705997336893500729036456483817138383991993",
+   "px": 0.973,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795626000,
+   "q": "Will the price of Ethereum be above $1,500 on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7150159",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "74968400980486557737647462014722900135959922240658493110151338780722281328618",
+   "px": 0.992,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795626000,
+   "q": "Will the price of Ethereum be above $2,000 on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7150161",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "16048417423984810914881385691629037380429155177096036525446595902621156926660",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795626000,
+   "q": "Will the price of Bitcoin be between $68,000 and $70,000 on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7150164",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "897121888018618211792355643295673996513078722917439906774037801568497504520",
+   "px": 0.996,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795626000,
+   "q": "Will the price of Ethereum be above $2,100 on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7150166",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "74942336265067982711964327805236118653870588500470751668774537337599025917823",
+   "px": 0.996,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795626000,
+   "q": "Will the price of Bitcoin be between $70,000 and $72,000 on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7150168",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "66204875423323858578710760523528642993156608392852354757864880900677351737485",
+   "px": 0.996,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795626000,
+   "q": "Will the price of Ethereum be above $2,200 on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7150171",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "12438429934395876433491729592398747607948659198825486978662857286933412152591",
+   "px": 0.988,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795626000,
+   "q": "Will the price of Bitcoin be greater than $72,000 on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7150178",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "98865410332298528040115880598080672156887524014450065467509929726521574430921",
+   "px": 0.983,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795626000,
+   "q": "Will the price of Bitcoin be above $52,000 on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7150179",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "95437566936733225879377974817826298984353397737845976434273319614065187363106",
+   "px": 0.975,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795626000,
+   "q": "Will the price of Bitcoin be above $54,000 on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7150181",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "104842577656784952314285042217255285355944818778065723459971918291264458804003",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795626000,
+   "q": "Will the price of Ethereum be less than $1,300 on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7150183",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "67849169308271422132179418654135721283201025910844626293720246457964168715609",
+   "px": 0.988,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795626000,
+   "q": "Will the price of Ethereum be between $1,300 and $1,400 on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7150192",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "13301701957720531293761371403158245514019947944807706144357940181683594981585",
+   "px": 0.98,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795626000,
+   "q": "Will the price of Bitcoin be above $68,000 on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7150194",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "93917961844994191822798490067621925903287438713394502281502013801081813297104",
+   "px": 0.99,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795626000,
+   "q": "Will the price of Bitcoin be above $70,000 on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7150196",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "38140013052748258373175296460402946669865086947856305557464838197099766921890",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795626000,
+   "q": "Will the price of Bitcoin be above $72,000 on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7150197",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "41616029943099442481221979215389229341072348573757547517303073413927017251701",
+   "px": 0.991,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795626000,
+   "q": "Will the price of Ethereum be between $2,000 and $2,100 on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7150198",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "54377802725265368783879023329066098286055368717412618672538292980946592696678",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795626000,
+   "q": "Will the price of Ethereum be between $2,100 and $2,200 on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7150199",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "102489393286507638229571353399165931151352588626460954501606765989038903401852",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795626000,
+   "q": "Will the price of Ethereum be greater than $2,200 on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7150200",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "48757367216805969684224826442084779126243528679322940482185214160542262959448",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795626000,
+   "q": "Will the price of Solana be above $50 on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7150201",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "95752684526231188656668748836454806245503788527070570943966074346944629081189",
+   "px": 0.988,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795626000,
+   "q": "Will the price of Solana be above $55 on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7150202",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "42331147904185546170716387502145137133992275626062711524441787007681514187000",
+   "px": 0.982,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795626000,
+   "q": "Will the price of Solana be above $60 on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7150205",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "109908292973322187441434094661165429306671261715468316425338973947543944874032",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795626000,
+   "q": "Will the price of Solana be less than $30 on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7150207",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "107007068411776100224474757732351792017433421944772659707744307703979301834082",
+   "px": 0.996,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795626000,
+   "q": "Will the price of Solana be between $30 and $40 on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7150208",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "13636090430202025707755370290741351663177438117635697398291029610912686054470",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795626000,
+   "q": "Will the price of Solana be above $80 on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7150209",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "93107112328988230167186021025340461306034160251443659619563480673336327680644",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795626000,
+   "q": "Will the price of Solana be between $40 and $50 on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7150210",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "109035805522057622621833443763877341900778498615898986388273387584856302920410",
+   "px": 0.996,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795626000,
+   "q": "Will the price of Solana be above $85 on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7150211",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "105594108729078356681728877040482682637274740030485057665399667947276786604058",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795626000,
+   "q": "Will the price of Solana be between $50 and $60 on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7150212",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "90764902538507471245159231439981230190259940590445297105297744615581242083361",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795626000,
+   "q": "Will the price of Solana be above $90 on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7150214",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "47353295998799626443684461627971865320944573631884113655612733239443218892247",
+   "px": 0.996,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795626000,
+   "q": "Will the price of Solana be above $95 on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7150216",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "82782080162889616648708440961742095975854116533068824336961976180835596946183",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795626000,
+   "q": "Will the price of Solana be above $100 on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7150217",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "82986353544862677515495243347852908687015532538653737303839310876030549805067",
+   "px": 0.98,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795626000,
+   "q": "Will the price of Solana be between $80 and $90 on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7150218",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "17590675360419408733026591246382325535714003576357213026556082495027855178193",
+   "px": 0.996,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795626000,
+   "q": "Will the price of Solana be between $90 and $100 on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7150219",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "79363010811902534760979725758305193664752157891521905653339826727094775030689",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795626000,
+   "q": "Will the price of Solana be between $100 and $110 on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7150220",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "22188611307103606713239011462637338544415940107696902471542792802518341864244",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795626000,
+   "q": "Will the price of Solana be between $110 and $120 on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7150221",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "43801413155837862602306611544187287338460217122556479052039489191323169236690",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795626000,
+   "q": "Will the price of Solana be greater than $120 on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7150222",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "103865735312622340489984908836240960656897617152171763696923022639400306407505",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795626000,
+   "q": "Will the price of XRP be above $0.50 on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7150223",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "20836764053841997764187781888855440515932854173490516671053813417248442600640",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795626000,
+   "q": "Will the price of XRP be above $0.60 on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7150224",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "10979187056201814494073450663039474270232637850690131530672271564681940384867",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795626000,
+   "q": "Will the price of XRP be above $0.70 on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7150225",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "18888762901356578368436261580474245945674425902449834155800732545904558748804",
+   "px": 0.987,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795626000,
+   "q": "Will the price of XRP be above $0.80 on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7150228",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "8151153653483079680217744665329632919350936711166294033877463280950126634219",
+   "px": 0.992,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795626000,
+   "q": "Will the price of XRP be above $1.10 on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7150229",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "73100596644271617251856914440789880109775304499708682048073222736069590632507",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795626000,
+   "q": "Will the price of XRP be less than $0.50 on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7150230",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "26829914536807615686932413781265036573087116957287266999586519477172082170523",
+   "px": 0.996,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795626000,
+   "q": "Will the price of XRP be above $1.20 on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7150231",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "79157494730130368097772590010175809095015933228580204238323683027175391085158",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795626000,
+   "q": "Will the price of XRP be between $0.50 and $0.60 on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7150232",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "83027491981574659436892910504633880151942922540888041114064606024120158500412",
+   "px": 0.996,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795626000,
+   "q": "Will the price of XRP be above $1.30 on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7150233",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "112802734407360872078232471417808830101784995382645005687750849217841236859161",
+   "px": 0.996,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795626000,
+   "q": "Will the price of XRP be between $0.60 and $0.70 on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7150234",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "64797549454792134402044546130241251576058783262480169318265051806908322003752",
+   "px": 0.99,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795626000,
+   "q": "Will the price of XRP be between $0.70 and $0.80 on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7150235",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "84686157852956067437399906942857585688408824253129755105340918981978360753387",
+   "px": 0.996,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795626000,
+   "q": "Will the price of XRP be above $1.40 on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7150237",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "45742354201370655238078890188759251971057259083120906760455322606979558211209",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795626000,
+   "q": "Will the price of XRP be above $1.50 on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7150240",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "8493512924328800982624839533555390646198245851002267279163804800747835821667",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795626000,
+   "q": "Will the price of XRP be between $1.10 and $1.20 on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7150241",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "91814354855924793707071187609164608966587111048681103313346761123232505513733",
+   "px": 0.996,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795626000,
+   "q": "Will the price of XRP be between $1.20 and $1.30 on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7150242",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "23376214168573954784167972117391226848130106746406372397264680036195216530565",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795626000,
+   "q": "Will the price of XRP be between $1.30 and $1.40 on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7150243",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "105728642758892430871685019427926648124900394469058544148159393860370206425829",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795366946,
+   "end_ts": 1795626000,
+   "q": "Will the price of XRP be greater than $1.40 on November 25?",
    "touched": null
   }
  ]
