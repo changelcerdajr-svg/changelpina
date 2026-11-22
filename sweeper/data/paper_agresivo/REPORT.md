@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 9.3 de 28 | corridas: 202
-- Capital inicial: $1,000.00 | valor actual: $888.79 | P&L: $-111.21 (-11.12%)
-- Efectivo libre: $4.38 | en ordenes abiertas: $394.56 (7) | en posiciones: $499.31 (7)
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 9.3 de 28 | corridas: 203
+- Capital inicial: $1,000.00 | valor actual: $888.72 | P&L: $-111.28 (-11.13%)
+- Efectivo libre: $4.38 | en ordenes abiertas: $216.80 (5) | en posiciones: $677.07 (9)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 410 colocadas, 183 llenadas, 178 tocadas sin llenarse (sorteo 30%), 42 expiradas
+- Ordenes virtuales: 410 colocadas, 185 llenadas, 178 tocadas sin llenarse (sorteo 30%), 42 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -34,16 +34,18 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 | $91.77 | 99.8c | 89.8c | otros_cierre |  | Pakistan military action against Afghanistan by November 15, 2026? |
 | $35.36 | 99.8c | 98.9c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $4.5m and $5.5m at auction? |
 | $87.27 | 99.8c | 98.3c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
-| $26.13 | 95.0c | 100.0c | post_fin_90_97 |  | Will the highest temperature in Chicago be between 58-59°F on November 22? |
+| $26.13 | 95.0c | 99.6c | post_fin_90_97 |  | Will the highest temperature in Chicago be between 58-59°F on November 22? |
 | $87.57 | 99.0c | 99.0c | deportes_previo |  | Spread: Clube do Remo (-2.5) |
 | $88.03 | 95.0c | 95.0c | deportes_previo |  | Spread: Clube do Remo (-1.5) |
+| $88.88 | 98.9c | 98.9c | cripto_cierre |  | Bitcoin Up or Down - November 22, 12:00PM-4:00PM ET |
+| $88.88 | 99.8c | 99.8c | deportes_previo |  | David Njoku: 2+ Touchdowns |
 | $83.18 | 99.8c | 99.8c | cripto_cierre |  | Will Bitcoin reach $72,000 November 16-22? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 10349 | abiertas: 2764 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 10362 | abiertas: 2800 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
@@ -51,14 +53,14 @@ Cada mercado que cumple una regla se anota una vez al precio limite que se habri
 | clima_cierre | tocadas | 2614 | 98.85c | 98.97% | +0.12 pts | -0.27 a +0.51 | 27 |
 | cripto_cierre | todas | 1399 | 98.71c | 98.07% | -0.64 pts | -1.36 a +0.07 | 27 |
 | cripto_cierre | tocadas | 1274 | 98.75c | 97.88% | -0.87 pts | -1.65 a -0.09 | 27 |
-| deportes_previo | todas | 4789 | 98.00c | 97.36% | -0.64 pts | -1.09 a -0.19 | 129 |
-| deportes_previo | tocadas | 4670 | 98.04c | 97.33% | -0.70 pts | -1.16 a -0.24 | 127 |
+| deportes_previo | todas | 4802 | 98.00c | 97.37% | -0.63 pts | -1.08 a -0.18 | 129 |
+| deportes_previo | tocadas | 4682 | 98.03c | 97.34% | -0.69 pts | -1.15 a -0.24 | 127 |
 | otros_cierre | todas | 1209 | 99.01c | 97.27% | -1.74 pts | -2.65 a -0.82 | 33 |
 | otros_cierre | tocadas | 1129 | 98.97c | 97.08% | -1.89 pts | -2.87 a -0.92 | 33 |
 | post_fin_90_97 | todas | 133 | 94.13c | 93.23% | -0.90 pts | -5.11 a +3.32 | 9 |
 | post_fin_90_97 | tocadas | 110 | 94.15c | 91.82% | -2.33 pts | -7.39 a +2.73 | 9 |
-| TOTAL | todas | 10349 | 98.39c | 97.85% | -0.54 pts | -0.82 a -0.26 | 225 |
-| TOTAL | tocadas | 9797 | 98.41c | 97.75% | -0.66 pts | -0.95 a -0.37 | 223 |
+| TOTAL | todas | 10362 | 98.39c | 97.85% | -0.54 pts | -0.81 a -0.26 | 225 |
+| TOTAL | tocadas | 9809 | 98.41c | 97.75% | -0.66 pts | -0.95 a -0.37 | 223 |
 
 Peores casos del registro sombra:
 
