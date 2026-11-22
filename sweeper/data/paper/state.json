@@ -88,27 +88,6 @@
    "liq": 1135
   },
   {
-   "oid": "6824024-1795312862",
-   "id": "6824024",
-   "q": "Washington State vs. Texas State: O/U 67.5",
-   "cat": "deportes",
-   "rule": "post_fin_95_97",
-   "event": "1336025",
-   "side": 1,
-   "token": "43582750801186958073761166048651647696606950718851005543166990454652079732715",
-   "px": 0.959,
-   "tick": 0.001,
-   "mid": 0.9595,
-   "bid": 0.951,
-   "ask": 0.968,
-   "shares": 55.9454,
-   "cost": 53.6517,
-   "ts": 1795312862.998897,
-   "end_ts": 1795302000.0,
-   "hours": -3.02,
-   "liq": 7099
-  },
-  {
    "oid": "6906530-1795312862",
    "id": "6906530",
    "q": "Erzurumspor FK vs. Göztepe SK: O/U 6.5",
@@ -128,6 +107,27 @@
    "end_ts": 1795343400.0,
    "hours": 8.48,
    "liq": 4571
+  },
+  {
+   "oid": "7065204-1795313889",
+   "id": "7065204",
+   "q": "POFC Botev Vratsa vs. FC CSKA 1948: O/U 6.5",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1394387",
+   "side": 1,
+   "token": "60530058183012847040598172699809710014152127425053651478628526885074921692510",
+   "px": 0.976,
+   "tick": 0.001,
+   "mid": 0.976,
+   "bid": 0.966,
+   "ask": 0.986,
+   "shares": 54.971,
+   "cost": 53.6517,
+   "ts": 1795313889.54081,
+   "end_ts": 1795345200.0,
+   "hours": 8.7,
+   "liq": 1007
   }
  ],
  "positions": [
@@ -5664,14 +5664,27 @@
    "placed": 2,
    "shadow_open": 378,
    "shadow_closed": 18
+  },
+  {
+   "ts": "2026-11-22T02:18:52Z",
+   "equity": 1073.03,
+   "cash": 434.85,
+   "orders": 6,
+   "positions": 6,
+   "closed": 86,
+   "scanned": 15361,
+   "candidates": 175,
+   "placed": 1,
+   "shadow_open": 380,
+   "shadow_closed": 4
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 369,
+  "placed": 370,
   "filled": 92,
   "expired": 84,
-  "touched_not_filled": 187
+  "touched_not_filled": 188
  },
  "shadow": [
   {
@@ -5841,19 +5854,6 @@
    "ts": 1795197675,
    "end_ts": 1795305600,
    "q": "Will JT Poston win the 2026 The RSM Classic?",
-   "touched": 1
-  },
-  {
-   "id": "7186578",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "28088951702629174886881542113907895773978907498505707919943998932829544126088",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1795197675,
-   "end_ts": 1795305600,
-   "q": "Islanders vs. Red Wings: O/U 2.5",
    "touched": 1
   },
   {
@@ -8028,45 +8028,6 @@
    "touched": 1
   },
   {
-   "id": "6849546",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "40745909500693467587098582666795855414140554838396824738325734722732445880215",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795269667,
-   "end_ts": 1795294800,
-   "q": "Spread: CD Malacateco (-3.5)",
-   "touched": null
-  },
-  {
-   "id": "6894341",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "18535817166602315830862867616593614827430332736033448051555703373660459818381",
-   "px": 0.977,
-   "tick": 0.001,
-   "ts": 1795269667,
-   "end_ts": 1795293000,
-   "q": "Spread: SC Braga (-3.5)",
-   "touched": null
-  },
-  {
-   "id": "7163747",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "14917883781269103792518090873580037682817436603377570359435890234145786852925",
-   "px": 0.987,
-   "tick": 0.001,
-   "ts": 1795269667,
-   "end_ts": 1795296600,
-   "q": "Spread: San Luis de Quillota (-3.5)",
-   "touched": null
-  },
-  {
    "id": "7143959",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -8077,7 +8038,7 @@
    "ts": 1795269667,
    "end_ts": 1795310100,
    "q": "Spread: Once Caldas (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7207763",
@@ -8090,7 +8051,7 @@
    "ts": 1795269667,
    "end_ts": 1795309200,
    "q": "Spread: Grizzlies (-20.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7217522",
@@ -8103,7 +8064,7 @@
    "ts": 1795269667,
    "end_ts": 1795323600,
    "q": "Will Bitcoin dip to $55,000 on November 21?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7217562",
@@ -8116,7 +8077,7 @@
    "ts": 1795269667,
    "end_ts": 1795323600,
    "q": "Will Ethereum dip to $1,500 on November 21?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "5713554",
@@ -8129,7 +8090,7 @@
    "ts": 1795269667,
    "end_ts": 1795348800,
    "q": "Will \"The Hunger Games: Sunrise on the Reaping\" Opening Weekend Box Office be between 75m ",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "5713555",
@@ -8142,7 +8103,7 @@
    "ts": 1795269667,
    "end_ts": 1795348800,
    "q": "Will \"The Hunger Games: Sunrise on the Reaping\" Opening Weekend Box Office be between 85m ",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6867533",
@@ -8155,7 +8116,7 @@
    "ts": 1795269667,
    "end_ts": 1795354200,
    "q": "AFC Ajax vs. ADO Den Haag: Neither team to score first?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6896009",
@@ -8168,7 +8129,7 @@
    "ts": 1795269667,
    "end_ts": 1795354200,
    "q": "Spread: ADO Den Haag (-1.5)",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6896044",
@@ -8181,7 +8142,7 @@
    "ts": 1795269667,
    "end_ts": 1795354200,
    "q": "AFC Ajax vs. ADO Den Haag: O/U 0.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6903224",
@@ -8194,7 +8155,7 @@
    "ts": 1795269667,
    "end_ts": 1795356000,
    "q": "Will SC Olhanense win on 2026-11-22?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6906468",
@@ -8207,7 +8168,7 @@
    "ts": 1795269667,
    "end_ts": 1795352400,
    "q": "Spread: Konyaspor (-2.5)",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6893372",
@@ -8220,7 +8181,7 @@
    "ts": 1795269667,
    "end_ts": 1795376700,
    "q": "Spread: Atalanta BC (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6893378",
@@ -8233,7 +8194,7 @@
    "ts": 1795269667,
    "end_ts": 1795376700,
    "q": "Spread: Atalanta BC (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6893401",
@@ -8246,7 +8207,7 @@
    "ts": 1795269667,
    "end_ts": 1795376700,
    "q": "Atalanta BC vs. FC Internazionale Milano: O/U 0.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6893430",
@@ -8259,7 +8220,7 @@
    "ts": 1795269667,
    "end_ts": 1795376700,
    "q": "Atalanta BC vs. FC Internazionale Milano: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6898201",
@@ -8272,7 +8233,7 @@
    "ts": 1795269667,
    "end_ts": 1795377600,
    "q": "Spread: Getafe CF (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6898217",
@@ -8285,7 +8246,7 @@
    "ts": 1795269667,
    "end_ts": 1795377600,
    "q": "Getafe CF vs. Club Atlético de Madrid: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6898226",
@@ -8298,7 +8259,7 @@
    "ts": 1795269667,
    "end_ts": 1795377600,
    "q": "Getafe CF vs. Club Atlético de Madrid: 1st Half O/U 3.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7016000",
@@ -8311,7 +8272,7 @@
    "ts": 1795269667,
    "end_ts": 1795377600,
    "q": "Central Michigan Chippewas vs. Minnesota Golden Gophers (W)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7016001",
@@ -8324,7 +8285,7 @@
    "ts": 1795269667,
    "end_ts": 1795377600,
    "q": "Alabama A&M Bulldogs vs. Ole Miss Rebels (W)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7016006",
@@ -8337,7 +8298,7 @@
    "ts": 1795269667,
    "end_ts": 1795377600,
    "q": "Northern Kentucky Norse vs. Baylor Bears (W)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7207929",
@@ -10586,6 +10547,84 @@
    "ts": 1795312862,
    "end_ts": 1795390200,
    "q": "Spread: Charlotte FC (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "7215190",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "108596491410982995340163073740330520760053891752560593370811546243594415115196",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795313889,
+   "end_ts": 1795314000,
+   "q": "Ethereum Up or Down - November 21, 9:15PM-9:20PM ET",
+   "touched": null
+  },
+  {
+   "id": "7215192",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "80914643411877606125924271843889319071451579173575995073459397797163761504159",
+   "px": 0.975,
+   "tick": 0.001,
+   "ts": 1795313889,
+   "end_ts": 1795314000,
+   "q": "Bitcoin Up or Down - November 21, 9:15PM-9:20PM ET",
+   "touched": null
+  },
+  {
+   "id": "7217580",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "63601919712982216961382958225940439324713001756294360309741718858516202136485",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795313889,
+   "end_ts": 1795323600,
+   "q": "Will XRP reach $1.00 on November 21?",
+   "touched": null
+  },
+  {
+   "id": "7069671",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "115324318055511979566941607212836605991218417064917777805601187570183314225867",
+   "px": 0.977,
+   "tick": 0.001,
+   "ts": 1795313889,
+   "end_ts": 1795354200,
+   "q": "SCR Altach vs. SK Sturm Graz: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "6640896",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "62971476815143788901466485998288287278273029767399269590423865036829666840276",
+   "px": 0.975,
+   "tick": 0.001,
+   "ts": 1795313889,
+   "end_ts": 1795370400,
+   "q": "Cowboys Team Total: O/U 10.5",
+   "touched": null
+  },
+  {
+   "id": "6641838",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "66940892592205061494345910308750242451096309954779939985217557135681569573587",
+   "px": 0.975,
+   "tick": 0.001,
+   "ts": 1795313889,
+   "end_ts": 1795370400,
+   "q": "Bills Team Total: O/U 10.5",
    "touched": null
   }
  ]
