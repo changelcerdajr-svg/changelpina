@@ -1,6 +1,6 @@
 {
  "capital0": 1000.0,
- "cash": 358.817,
+ "cash": 410.0839,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
   {
@@ -109,27 +109,6 @@
    "liq": 22437
   },
   {
-   "oid": "7104596-1795442469",
-   "id": "7104596",
-   "q": "Spread: Sportivo San Lorenzo (-2.5)",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1405064",
-   "side": 1,
-   "token": "108375331521564487143365721880618080727528253642217237555234792710985107233287",
-   "px": 0.986,
-   "tick": 0.001,
-   "mid": 0.9865,
-   "bid": 0.98,
-   "ask": 0.993,
-   "shares": 51.9948,
-   "cost": 51.2669,
-   "ts": 1795442469.697483,
-   "end_ts": 1795467600.0,
-   "hours": 6.98,
-   "liq": 2152
-  },
-  {
    "oid": "7097115-1795446074",
    "id": "7097115",
    "q": "Will the price of Ethereum be above $1,400 on November 23?",
@@ -151,27 +130,6 @@
    "liq": 30509
   },
   {
-   "oid": "7219897-1795446074",
-   "id": "7219897",
-   "q": "Will the highest temperature in Atlanta be between 72-73°F on November 23?",
-   "cat": "clima",
-   "rule": "post_fin_95_97",
-   "event": "1435849",
-   "side": 1,
-   "token": "5494051699560144642275593804928697281953734664503275065554916491895851315906",
-   "px": 0.968,
-   "tick": 0.001,
-   "mid": 0.9685,
-   "bid": 0.954,
-   "ask": 0.983,
-   "shares": 52.9581,
-   "cost": 51.2635,
-   "ts": 1795446074.113848,
-   "end_ts": 1795435200.0,
-   "hours": -3.02,
-   "liq": 1052
-  },
-  {
    "oid": "7029659-1795446074",
    "id": "7029659",
    "q": "Will 8+ ships transit the Strait of Hormuz on any day week of November 16?",
@@ -191,6 +149,27 @@
    "end_ts": 1795409940.0,
    "hours": -10.04,
    "liq": 1184
+  },
+  {
+   "oid": "6962022-1795449668",
+   "id": "6962022",
+   "q": "Spread: EC Vitória (-2.5)",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1364068",
+   "side": 1,
+   "token": "51503452580612563232788318342972533056353670629113864269291280521172625328149",
+   "px": 0.99,
+   "tick": 0.001,
+   "mid": 0.99,
+   "bid": 0.987,
+   "ask": 0.993,
+   "shares": 51.7813,
+   "cost": 51.2635,
+   "ts": 1795449668.795597,
+   "end_ts": 1795473000.0,
+   "hours": 6.48,
+   "liq": 21279
   }
  ],
  "positions": [
@@ -315,7 +294,9 @@
    "hours": 9.98,
    "liq": 38914,
    "fill_ts": 1795446074.113848,
-   "mark": 0.994
+   "mark": 0.994,
+   "stuck": false,
+   "disputed": false
   },
   {
    "oid": "5420125-1795442469",
@@ -338,7 +319,9 @@
    "hours": 0.98,
    "liq": 1020,
    "fill_ts": 1795446074.113848,
-   "mark": 0.984
+   "mark": 0.984,
+   "stuck": false,
+   "disputed": false
   }
  ],
  "closed": [
@@ -6627,14 +6610,27 @@
    "placed": 3,
    "shadow_open": 456,
    "shadow_closed": 2
+  },
+  {
+   "ts": "2026-11-23T16:01:41Z",
+   "equity": 1025.27,
+   "cash": 410.08,
+   "orders": 8,
+   "positions": 6,
+   "closed": 98,
+   "scanned": 11903,
+   "candidates": 190,
+   "placed": 1,
+   "shadow_open": 482,
+   "shadow_closed": 1
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 443,
+  "placed": 444,
   "filled": 104,
   "expired": 100,
-  "touched_not_filled": 230
+  "touched_not_filled": 232
  },
  "shadow": [
   {
@@ -9134,19 +9130,6 @@
    "touched": 1
   },
   {
-   "id": "7261390",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "89803458602761184940082846950388686872747354063878993000813732867225781584256",
-   "px": 0.978,
-   "tick": 0.001,
-   "ts": 1795406467,
-   "end_ts": 1795410000,
-   "q": "Will Bitcoin dip to $60,000 November 16-22?",
-   "touched": null
-  },
-  {
    "id": "7096045",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -9157,7 +9140,7 @@
    "ts": 1795406467,
    "end_ts": 1795446000,
    "q": "Spread: Asteras Tripolis (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7244788",
@@ -9170,7 +9153,7 @@
    "ts": 1795406467,
    "end_ts": 1795449600,
    "q": "Spread: Al-Shamal (-2.5)",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7244895",
@@ -9183,7 +9166,7 @@
    "ts": 1795406467,
    "end_ts": 1795441500,
    "q": "FK Neftchi Fargona vs. Al Hilal SFC: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6933093",
@@ -9196,7 +9179,7 @@
    "ts": 1795406467,
    "end_ts": 1795453200,
    "q": "Rams Başakşehir FK vs. Çorum FK: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6941113",
@@ -9209,7 +9192,7 @@
    "ts": 1795406467,
    "end_ts": 1795456800,
    "q": "Spread: Brøndby IF (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6941116",
@@ -9222,7 +9205,7 @@
    "ts": 1795406467,
    "end_ts": 1795456800,
    "q": "Spread: FC Midtjylland (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6962567",
@@ -9235,7 +9218,7 @@
    "ts": 1795406467,
    "end_ts": 1795453200,
    "q": "NK Slaven Belupo vs. NK Osijek: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7097114",
@@ -9248,7 +9231,7 @@
    "ts": 1795406467,
    "end_ts": 1795453200,
    "q": "Will the price of Bitcoin be between $56,000 and $58,000 on November 23?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7097126",
@@ -9261,7 +9244,7 @@
    "ts": 1795406467,
    "end_ts": 1795453200,
    "q": "Will the price of Ethereum be above $1,600 on November 23?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7100102",
@@ -9274,7 +9257,7 @@
    "ts": 1795406467,
    "end_ts": 1795456800,
    "q": "Wieczysta Krakow vs. LKP Motor Lublin: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7112420",
@@ -9287,7 +9270,7 @@
    "ts": 1795406467,
    "end_ts": 1795456800,
    "q": "Spread: IFK Goteborg (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7112432",
@@ -9300,7 +9283,7 @@
    "ts": 1795406467,
    "end_ts": 1795456800,
    "q": "Hammarby IF vs. IFK Goteborg: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7206979",
@@ -9313,7 +9296,7 @@
    "ts": 1795406467,
    "end_ts": 1795460400,
    "q": "Jong PSV Eindhoven vs. Jong FC Utrecht: O/U 0.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7206986",
@@ -9326,7 +9309,7 @@
    "ts": 1795406467,
    "end_ts": 1795460400,
    "q": "Jong PSV Eindhoven vs. Jong FC Utrecht: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7207011",
@@ -9339,7 +9322,7 @@
    "ts": 1795406467,
    "end_ts": 1795460400,
    "q": "Spread: Jong AZ Alkmaar (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7207016",
@@ -9352,7 +9335,7 @@
    "ts": 1795406467,
    "end_ts": 1795460400,
    "q": "Jong Ajax Amsterdam vs. Jong AZ Alkmaar: O/U 0.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7207024",
@@ -9365,7 +9348,7 @@
    "ts": 1795406467,
    "end_ts": 1795460400,
    "q": "Jong Ajax Amsterdam vs. Jong AZ Alkmaar: O/U 8.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7244690",
@@ -9378,7 +9361,7 @@
    "ts": 1795406467,
    "end_ts": 1795457700,
    "q": "Spread: Al Quwa Al Jawiya (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7244702",
@@ -9391,7 +9374,7 @@
    "ts": 1795406467,
    "end_ts": 1795457700,
    "q": "Al Quwa Al Jawiya vs. Al Gharafa SC: O/U 6.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7244733",
@@ -9404,7 +9387,7 @@
    "ts": 1795406467,
    "end_ts": 1795457700,
    "q": "Spread: Pakhtakor (-1.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6882540",
@@ -9417,7 +9400,7 @@
    "ts": 1795406467,
    "end_ts": 1795463100,
    "q": "Spread: Grenoble Foot 38 (-1.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6882548",
@@ -9430,7 +9413,7 @@
    "ts": 1795406467,
    "end_ts": 1795463100,
    "q": "Spread: Grenoble Foot 38 (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6882581",
@@ -9443,7 +9426,7 @@
    "ts": 1795406467,
    "end_ts": 1795463100,
    "q": "FC Nantes vs. Grenoble Foot 38: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6945152",
@@ -9456,7 +9439,7 @@
    "ts": 1795406467,
    "end_ts": 1795463100,
    "q": "FC Sochaux-Montbéliard vs. USL Dunkerque: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7195183",
@@ -9469,7 +9452,7 @@
    "ts": 1795406467,
    "end_ts": 1795464000,
    "q": "Spread: Gimnasia y Esgrima de La Plata (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6961932",
@@ -9482,7 +9465,7 @@
    "ts": 1795406467,
    "end_ts": 1795478400,
    "q": "Spread: Grêmio FBPA (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6961977",
@@ -9495,7 +9478,7 @@
    "ts": 1795406467,
    "end_ts": 1795474800,
    "q": "Spread: Botafogo FR (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6961989",
@@ -9508,7 +9491,7 @@
    "ts": 1795406467,
    "end_ts": 1795474800,
    "q": "Botafogo FR vs. São Paulo FC: O/U 6.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6962024",
@@ -9521,7 +9504,7 @@
    "ts": 1795406467,
    "end_ts": 1795473000,
    "q": "Spread: EC Vitória (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7244878",
@@ -12563,6 +12546,357 @@
    "ts": 1795446074,
    "end_ts": 1795550400,
    "q": "Como 1907 vs. AEK: O/U 0.5",
+   "touched": null
+  },
+  {
+   "id": "7097201",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "39715215853267141725164477872036574067409527337195464537967898176923329083653",
+   "px": 0.987,
+   "tick": 0.001,
+   "ts": 1795449668,
+   "end_ts": 1795453200,
+   "q": "Will the price of Solana be between $60 and $70 on November 23?",
+   "touched": null
+  },
+  {
+   "id": "7097209",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "46395035357815485487857197559138916961585223509619330599606343860021658487552",
+   "px": 0.996,
+   "tick": 0.001,
+   "ts": 1795449668,
+   "end_ts": 1795453200,
+   "q": "Will the price of Solana be between $100 and $110 on November 23?",
+   "touched": null
+  },
+  {
+   "id": "7097216",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "57038501330199400394966417524435624537519283307101100519729541159097324482033",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795449668,
+   "end_ts": 1795453200,
+   "q": "Will the price of XRP be above $0.90 on November 23?",
+   "touched": null
+  },
+  {
+   "id": "7233460",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "101914543318612653541323490467637207198120621044573360658422998401616067198349",
+   "px": 0.981,
+   "tick": 0.001,
+   "ts": 1795449668,
+   "end_ts": 1795453200,
+   "q": "Ethereum Up or Down on November 23?",
+   "touched": null
+  },
+  {
+   "id": "7254989",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "92491975386868335849563119930907135184117594205884203457527454240427312977841",
+   "px": 0.984,
+   "tick": 0.001,
+   "ts": 1795449668,
+   "end_ts": 1795453200,
+   "q": "XRP Up or Down - November 23, 8:00AM-12:00PM ET",
+   "touched": null
+  },
+  {
+   "id": "7254990",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "48273443819428375338556741861304436220617426408508068548376491627613613107684",
+   "px": 0.981,
+   "tick": 0.001,
+   "ts": 1795449668,
+   "end_ts": 1795453200,
+   "q": "Solana Up or Down - November 23, 8:00AM-12:00PM ET",
+   "touched": null
+  },
+  {
+   "id": "7254991",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "84837211181943309598858238292562518473053788463957926836275987449680180602746",
+   "px": 0.981,
+   "tick": 0.001,
+   "ts": 1795449668,
+   "end_ts": 1795453200,
+   "q": "Ethereum Up or Down - November 23, 8:00AM-12:00PM ET",
+   "touched": null
+  },
+  {
+   "id": "7254996",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "10700120554454775853858837485857403342934589674404391286628090426075997462353",
+   "px": 0.987,
+   "tick": 0.001,
+   "ts": 1795449668,
+   "end_ts": 1795453200,
+   "q": "Bitcoin Up or Down - November 23, 8:00AM-12:00PM ET",
+   "touched": null
+  },
+  {
+   "id": "6962037",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "14707247192044133988500819581675555711209420366142715838498039857403947211322",
+   "px": 0.996,
+   "tick": 0.001,
+   "ts": 1795449668,
+   "end_ts": 1795473000,
+   "q": "SC Internacional vs. EC Vitória: O/U 8.5",
+   "touched": null
+  },
+  {
+   "id": "6962469",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "76903341363711429164603957029127673354443638249177271168748003694200179116409",
+   "px": 0.981,
+   "tick": 0.001,
+   "ts": 1795449668,
+   "end_ts": 1795532400,
+   "q": "Spread: Abo Qir Semad SC (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "6973903",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "82131968490215484298248780865373268510538308616070783357005045113836896805981",
+   "px": 0.971,
+   "tick": 0.001,
+   "ts": 1795449668,
+   "end_ts": 1795546800,
+   "q": "Spread: Virtus Entella (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "6973918",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "104237011752138200869796436630445794278242264162993796670681930807511631635083",
+   "px": 0.986,
+   "tick": 0.001,
+   "ts": 1795449668,
+   "end_ts": 1795546800,
+   "q": "Virtus Entella vs. Hellas Verona FC: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "6973919",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "22797754630631457068503192135018581203453723632419853199403003190465267708010",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795449668,
+   "end_ts": 1795546800,
+   "q": "Virtus Entella vs. Hellas Verona FC: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6973942",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "23821573916830264912703773482169727344806050909691520779702545153203746526856",
+   "px": 0.988,
+   "tick": 0.001,
+   "ts": 1795449668,
+   "end_ts": 1795546800,
+   "q": "Spread: Empoli FC (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "6973955",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "90226316856379971618124430841627466882397828777612289263712218073140443210325",
+   "px": 0.971,
+   "tick": 0.001,
+   "ts": 1795449668,
+   "end_ts": 1795546800,
+   "q": "Benevento Calcio vs. Empoli FC: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "6973956",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "110826889244193996162969755291651749825692803980951244109196346141075369996557",
+   "px": 0.99,
+   "tick": 0.001,
+   "ts": 1795449668,
+   "end_ts": 1795546800,
+   "q": "Benevento Calcio vs. Empoli FC: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6973992",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "106152622690043336131291283767800533782340313021177564377174609744538588971653",
+   "px": 0.977,
+   "tick": 0.001,
+   "ts": 1795449668,
+   "end_ts": 1795546800,
+   "q": "Cesena FC vs. Ascoli Calcio 1898 FC: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "6973993",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "112522511645328305655620766702298680271750230515096282929878459066313619065194",
+   "px": 0.992,
+   "tick": 0.001,
+   "ts": 1795449668,
+   "end_ts": 1795546800,
+   "q": "Cesena FC vs. Ascoli Calcio 1898 FC: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6974029",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "19577319822045169099539246730323987554931269189681932618195454808336938344146",
+   "px": 0.983,
+   "tick": 0.001,
+   "ts": 1795449668,
+   "end_ts": 1795546800,
+   "q": "L.R. Vicenza vs. Carrarese Calcio: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "6974030",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "6168483563745944961399144281808116585769077233305579044752075674353299774661",
+   "px": 0.993,
+   "tick": 0.001,
+   "ts": 1795449668,
+   "end_ts": 1795546800,
+   "q": "L.R. Vicenza vs. Carrarese Calcio: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6974079",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "6992320153431592029175723148278153404081681090165180861201906984139591425796",
+   "px": 0.988,
+   "tick": 0.001,
+   "ts": 1795449668,
+   "end_ts": 1795546800,
+   "q": "Palermo FC vs. FC Südtirol: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6959905",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "39039837479529348054608769977267294709234213089067070776929454761180558324684",
+   "px": 0.996,
+   "tick": 0.001,
+   "ts": 1795449668,
+   "end_ts": 1795550400,
+   "q": "Spread: Derby County FC (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "6959921",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "3839505376870946428139242262136742091060021541378822086478392996881162742398",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1795449668,
+   "end_ts": 1795550400,
+   "q": "Wolverhampton Wanderers FC vs. Derby County FC: O/U 8.5",
+   "touched": null
+  },
+  {
+   "id": "6969955",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "70447244261757796465101606607820380908456195263865849976381423161963571174744",
+   "px": 0.987,
+   "tick": 0.001,
+   "ts": 1795449668,
+   "end_ts": 1795550400,
+   "q": "Feyenoord Rotterdam vs. FC Porto: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6969956",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "70480195929497014986982514715189546535186434025737170823326251238234478937598",
+   "px": 0.996,
+   "tick": 0.001,
+   "ts": 1795449668,
+   "end_ts": 1795550400,
+   "q": "Feyenoord Rotterdam vs. FC Porto: O/U 8.5",
+   "touched": null
+  },
+  {
+   "id": "6970021",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "61232532720014837595574033032240006154699808469869887415716632631776133286215",
+   "px": 0.996,
+   "tick": 0.001,
+   "ts": 1795449668,
+   "end_ts": 1795550400,
+   "q": "Arsenal FC vs. BV Borussia 09 Dortmund: O/U 8.5",
+   "touched": null
+  },
+  {
+   "id": "6977240",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "102374667486510512075434279245181022717687399656530373969505290915635585260812",
+   "px": 0.988,
+   "tick": 0.001,
+   "ts": 1795449668,
+   "end_ts": 1795549500,
+   "q": "Hibernian FC vs. Dundee FC: O/U 7.5",
    "touched": null
   }
  ]
