@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 9.6 de 28 | corridas: 211
-- Capital inicial: $1,000.00 | valor actual: $897.44 | P&L: $-102.56 (-10.26%)
-- Efectivo libre: $-0.00 | en ordenes abiertas: $350.85 (6) | en posiciones: $556.82 (8)
-- Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 428 colocadas, 192 llenadas, 184 tocadas sin llenarse (sorteo 30%), 46 expiradas
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 9.7 de 28 | corridas: 212
+- Capital inicial: $1,000.00 | valor actual: $897.82 | P&L: $-102.18 (-10.22%)
+- Efectivo libre: $0.00 | en ordenes abiertas: $275.80 (5) | en posiciones: $631.87 (9)
+- Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $91.77 en 1 posiciones
+- Ordenes virtuales: 429 colocadas, 193 llenadas, 185 tocadas sin llenarse (sorteo 30%), 46 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -31,35 +31,36 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
-| $91.77 | 99.8c | 89.8c | otros_cierre |  | Pakistan military action against Afghanistan by November 15, 2026? |
-| $35.36 | 99.8c | 97.2c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $4.5m and $5.5m at auction? |
+| $91.77 | 99.8c | 89.8c | otros_cierre | si | Pakistan military action against Afghanistan by November 15, 2026? |
+| $35.36 | 99.8c | 98.3c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $4.5m and $5.5m at auction? |
 | $87.27 | 99.8c | 98.3c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
 | $26.13 | 95.0c | 100.0c | post_fin_90_97 |  | Will the highest temperature in Chicago be between 58-59°F on November 22? |
 | $89.53 | 99.4c | 99.4c | deportes_previo |  | Spread: Aurora FC (-2.5) |
 | $89.56 | 99.7c | 99.5c | otros_cierre |  | Will the next Claude Opus model (5.6+) be released on November 22, 2026? |
 | $54.02 | 99.0c | 99.0c | otros_cierre |  | Will the next Grok model (4.8+) be released on November 22, 2026? |
 | $83.18 | 99.8c | 99.8c | cripto_cierre |  | Will Bitcoin reach $72,000 November 16-22? |
+| $75.05 | 99.9c | 99.9c | deportes_previo |  | Counter-Strike: regain vs Iowa Stormboar (BO3) - CROSSFIRE Playoffs |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 10947 | abiertas: 2526 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 11094 | abiertas: 2445 | abiertas mas de 7 dias despues de su fecha de fin: 1
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
 | clima_cierre | todas | 2996 | 98.83c | 99.03% | +0.20 pts | -0.15 a +0.55 | 29 |
 | clima_cierre | tocadas | 2779 | 98.85c | 98.96% | +0.10 pts | -0.27 a +0.48 | 29 |
-| cripto_cierre | todas | 1408 | 98.70c | 98.08% | -0.62 pts | -1.33 a +0.09 | 27 |
-| cripto_cierre | tocadas | 1277 | 98.75c | 97.89% | -0.87 pts | -1.65 a -0.09 | 27 |
-| deportes_previo | todas | 5136 | 98.01c | 97.42% | -0.59 pts | -1.02 a -0.16 | 135 |
-| deportes_previo | tocadas | 5006 | 98.05c | 97.39% | -0.66 pts | -1.09 a -0.22 | 133 |
+| cripto_cierre | todas | 1415 | 98.70c | 98.09% | -0.61 pts | -1.31 a +0.10 | 27 |
+| cripto_cierre | tocadas | 1281 | 98.75c | 97.89% | -0.86 pts | -1.63 a -0.08 | 27 |
+| deportes_previo | todas | 5270 | 98.01c | 97.45% | -0.56 pts | -0.99 a -0.14 | 137 |
+| deportes_previo | tocadas | 5140 | 98.05c | 97.42% | -0.63 pts | -1.05 a -0.20 | 135 |
 | otros_cierre | todas | 1220 | 99.00c | 97.21% | -1.78 pts | -2.70 a -0.87 | 34 |
 | otros_cierre | tocadas | 1138 | 98.96c | 97.01% | -1.95 pts | -2.93 a -0.97 | 34 |
-| post_fin_90_97 | todas | 187 | 94.12c | 93.05% | -1.07 pts | -4.67 a +2.52 | 13 |
-| post_fin_90_97 | tocadas | 159 | 94.19c | 91.82% | -2.36 pts | -6.56 a +1.83 | 13 |
-| TOTAL | todas | 10947 | 98.37c | 97.85% | -0.52 pts | -0.79 a -0.25 | 238 |
-| TOTAL | tocadas | 10359 | 98.39c | 97.75% | -0.65 pts | -0.93 a -0.36 | 236 |
+| post_fin_90_97 | todas | 193 | 94.12c | 93.26% | -0.85 pts | -4.34 a +2.64 | 13 |
+| post_fin_90_97 | tocadas | 164 | 94.20c | 92.07% | -2.13 pts | -6.20 a +1.94 | 13 |
+| TOTAL | todas | 11094 | 98.36c | 97.86% | -0.50 pts | -0.77 a -0.24 | 240 |
+| TOTAL | tocadas | 10502 | 98.39c | 97.76% | -0.63 pts | -0.91 a -0.35 | 238 |
 
 Peores casos del registro sombra:
 
@@ -76,4 +77,4 @@ Peores casos del registro sombra:
 
 ## Veredicto
 
-Aun no hay veredicto: van 184 operaciones cerradas en 9.6 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
+Aun no hay veredicto: van 184 operaciones cerradas en 9.7 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
