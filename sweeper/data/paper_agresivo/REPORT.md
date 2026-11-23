@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 9.5 de 28 | corridas: 208
-- Capital inicial: $1,000.00 | valor actual: $895.65 | P&L: $-104.35 (-10.44%)
-- Efectivo libre: $-0.00 | en ordenes abiertas: $402.90 (7) | en posiciones: $502.21 (7)
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 9.5 de 28 | corridas: 209
+- Capital inicial: $1,000.00 | valor actual: $895.10 | P&L: $-104.90 (-10.49%)
+- Efectivo libre: $0.00 | en ordenes abiertas: $223.77 (4) | en posiciones: $681.34 (9)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 420 colocadas, 189 llenadas, 178 tocadas sin llenarse (sorteo 30%), 46 expiradas
+- Ordenes virtuales: 422 colocadas, 191 llenadas, 181 tocadas sin llenarse (sorteo 30%), 46 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -32,18 +32,20 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
 | $91.77 | 99.8c | 89.8c | otros_cierre |  | Pakistan military action against Afghanistan by November 15, 2026? |
-| $35.36 | 99.8c | 98.9c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $4.5m and $5.5m at auction? |
+| $35.36 | 99.8c | 97.4c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $4.5m and $5.5m at auction? |
 | $87.27 | 99.8c | 98.3c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
 | $26.13 | 95.0c | 100.0c | post_fin_90_97 |  | Will the highest temperature in Chicago be between 58-59°F on November 22? |
 | $88.97 | 97.3c | 97.2c | deportes_previo |  | Spread: Antigua GFC (-1.5) |
 | $89.53 | 99.4c | 99.4c | deportes_previo |  | Spread: Aurora FC (-2.5) |
+| $89.56 | 99.9c | 99.9c | deportes_previo |  | Games Total: O/U 2.5 |
+| $89.56 | 99.7c | 99.7c | otros_cierre |  | Will the next Claude Opus model (5.6+) be released on November 22, 2026? |
 | $83.18 | 99.8c | 99.8c | cripto_cierre |  | Will Bitcoin reach $72,000 November 16-22? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 10696 | abiertas: 2639 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 10752 | abiertas: 2602 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
@@ -51,14 +53,14 @@ Cada mercado que cumple una regla se anota una vez al precio limite que se habri
 | clima_cierre | tocadas | 2714 | 98.85c | 98.97% | +0.12 pts | -0.26 a +0.49 | 28 |
 | cripto_cierre | todas | 1401 | 98.71c | 98.07% | -0.64 pts | -1.35 a +0.07 | 27 |
 | cripto_cierre | tocadas | 1275 | 98.75c | 97.88% | -0.87 pts | -1.65 a -0.09 | 27 |
-| deportes_previo | todas | 4977 | 98.00c | 97.40% | -0.60 pts | -1.04 a -0.17 | 132 |
-| deportes_previo | tocadas | 4851 | 98.04c | 97.37% | -0.67 pts | -1.11 a -0.22 | 130 |
+| deportes_previo | todas | 5033 | 98.00c | 97.43% | -0.58 pts | -1.01 a -0.14 | 132 |
+| deportes_previo | tocadas | 4905 | 98.04c | 97.40% | -0.64 pts | -1.08 a -0.20 | 130 |
 | otros_cierre | todas | 1212 | 99.00c | 97.28% | -1.73 pts | -2.64 a -0.82 | 33 |
 | otros_cierre | tocadas | 1132 | 98.97c | 97.08% | -1.88 pts | -2.86 a -0.91 | 33 |
 | post_fin_90_97 | todas | 179 | 94.17c | 93.30% | -0.88 pts | -4.49 a +2.74 | 12 |
 | post_fin_90_97 | tocadas | 154 | 94.19c | 92.21% | -1.98 pts | -6.16 a +2.19 | 12 |
-| TOTAL | todas | 10696 | 98.37c | 97.85% | -0.52 pts | -0.79 a -0.24 | 232 |
-| TOTAL | tocadas | 10126 | 98.39c | 97.75% | -0.64 pts | -0.92 a -0.35 | 230 |
+| TOTAL | todas | 10752 | 98.37c | 97.87% | -0.50 pts | -0.77 a -0.23 | 232 |
+| TOTAL | tocadas | 10180 | 98.39c | 97.77% | -0.62 pts | -0.91 a -0.34 | 230 |
 
 Peores casos del registro sombra:
 
