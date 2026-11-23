@@ -1,29 +1,8 @@
 {
  "capital0": 1000.0,
- "cash": 363.5175,
+ "cash": 363.0842,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
-  {
-   "oid": "7097114-1795428068",
-   "id": "7097114",
-   "q": "Will the price of Bitcoin be between $56,000 and $58,000 on November 23?",
-   "cat": "cripto",
-   "rule": "cripto_cierre",
-   "event": "1403122",
-   "side": 1,
-   "token": "29918433845064835341157451015670308303517101903902136348946712177124246875449",
-   "px": 0.981,
-   "tick": 0.001,
-   "mid": 0.9815,
-   "bid": 0.979,
-   "ask": 0.984,
-   "shares": 52.2506,
-   "cost": 51.2578,
-   "ts": 1795428068.827555,
-   "end_ts": 1795453200.0,
-   "hours": 6.98,
-   "liq": 36401
-  },
   {
    "oid": "7097115-1795446074",
    "id": "7097115",
@@ -65,27 +44,6 @@
    "end_ts": 1795475700.0,
    "hours": 6.23,
    "liq": 2113
-  },
-  {
-   "oid": "7106748-1795453270",
-   "id": "7106748",
-   "q": "Nacional Asuncion vs. Cerro Porteno: O/U 6.5",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1405658",
-   "side": 1,
-   "token": "100361059474132549945068149462199828778445483257918880556504542499202778789221",
-   "px": 0.985,
-   "tick": 0.001,
-   "mid": 0.985,
-   "bid": 0.975,
-   "ask": 0.995,
-   "shares": 52.0501,
-   "cost": 51.2693,
-   "ts": 1795453270.218039,
-   "end_ts": 1795475700.0,
-   "hours": 6.23,
-   "liq": 2141
   },
   {
    "oid": "7196040-1795456866",
@@ -233,6 +191,48 @@
    "end_ts": 1795496400.0,
    "hours": 6.98,
    "liq": 1424
+  },
+  {
+   "oid": "7279383-1795474871",
+   "id": "7279383",
+   "q": "Will Bitcoin reach $68,000 on November 23?",
+   "cat": "cripto",
+   "rule": "cripto_cierre",
+   "event": "1446095",
+   "side": 1,
+   "token": "76244063212803050859417926292809253901459841657729966413811531312041640751676",
+   "px": 0.997,
+   "tick": 0.001,
+   "mid": 0.997,
+   "bid": 0.995,
+   "ask": 0.999,
+   "shares": 51.6351,
+   "cost": 51.4802,
+   "ts": 1795474871.000507,
+   "end_ts": 1795496400.0,
+   "hours": 5.98,
+   "liq": 29490
+  },
+  {
+   "oid": "7244650-1795474871",
+   "id": "7244650",
+   "q": "Newcastle United Jets vs. Kashiwa Reysol: O/U 0.5",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1440184",
+   "side": 0,
+   "token": "48798415470720784242450530826420620078670308191195685534691663163393049775255",
+   "px": 0.974,
+   "tick": 0.001,
+   "mid": 0.9745,
+   "bid": 0.965,
+   "ask": 0.984,
+   "shares": 52.8544,
+   "cost": 51.4802,
+   "ts": 1795474871.000507,
+   "end_ts": 1795506300.0,
+   "hours": 8.73,
+   "liq": 1737
   }
  ],
  "positions": [
@@ -6971,14 +6971,27 @@
    "placed": 3,
    "shadow_open": 422,
    "shadow_closed": 32
+  },
+  {
+   "ts": "2026-11-23T23:01:49Z",
+   "equity": 1029.6,
+   "cash": 363.08,
+   "orders": 11,
+   "positions": 2,
+   "closed": 108,
+   "scanned": 9592,
+   "candidates": 117,
+   "placed": 2,
+   "shadow_open": 364,
+   "shadow_closed": 60
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 459,
+  "placed": 461,
   "filled": 110,
-  "expired": 102,
-  "touched_not_filled": 236
+  "expired": 103,
+  "touched_not_filled": 237
  },
  "shadow": [
   {
@@ -7057,279 +7070,6 @@
    "ts": 1795212066,
    "end_ts": 1795258800,
    "q": "FK Kryvbas Kryvyi Rih vs. FK Kudrivka: O/U 6.5",
-   "touched": 1
-  },
-  {
-   "id": "5713552",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "3506259658437004276017218428755039564085040319444996498537288755572482895430",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795262465,
-   "end_ts": 1795348800,
-   "q": "Will \"The Hunger Games: Sunrise on the Reaping\" Opening Weekend Box Office be less than 65",
-   "touched": 0
-  },
-  {
-   "id": "5713553",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "70524245070015204385637652121827452488271548870461437479484891719778330005492",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795262465,
-   "end_ts": 1795348800,
-   "q": "Will \"The Hunger Games: Sunrise on the Reaping\" Opening Weekend Box Office be between 65m ",
-   "touched": 0
-  },
-  {
-   "id": "5713556",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "115290868921965359749991325922484929279535494945609876940760507519488883625478",
-   "px": 0.996,
-   "tick": 0.001,
-   "ts": 1795262465,
-   "end_ts": 1795348800,
-   "q": "Will \"The Hunger Games: Sunrise on the Reaping\" Opening Weekend Box Office be between 95m ",
-   "touched": 0
-  },
-  {
-   "id": "5713557",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 0,
-   "token": "111964009051567522333086087888975345450144903605399736353847768656864423793622",
-   "px": 0.988,
-   "tick": 0.001,
-   "ts": 1795262465,
-   "end_ts": 1795348800,
-   "q": "Will \"The Hunger Games: Sunrise on the Reaping\" Opening Weekend Box Office be at least 105",
-   "touched": 1
-  },
-  {
-   "id": "6764602",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "100728951552269424473991456635930831974404641820228575302414728593399930976046",
-   "px": 0.987,
-   "tick": 0.001,
-   "ts": 1795262465,
-   "end_ts": 1795348800,
-   "q": "Will \"The Hunger Games: Sunrise on the Reaping\" Opening Weekend Box Office be less than 10",
-   "touched": 0
-  },
-  {
-   "id": "6764603",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "13130611935410986654079231613392265467079692650973603694241242311278102915658",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795262465,
-   "end_ts": 1795348800,
-   "q": "Will \"The Hunger Games: Sunrise on the Reaping\" Opening Weekend Box Office be between 105m",
-   "touched": 1
-  },
-  {
-   "id": "6764608",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "87774474785550028309644340251203538719785218570048057841003077828520412358183",
-   "px": 0.981,
-   "tick": 0.001,
-   "ts": 1795262465,
-   "end_ts": 1795348800,
-   "q": "Will \"The Hunger Games: Sunrise on the Reaping\" Opening Weekend Box Office be at least 130",
-   "touched": 1
-  },
-  {
-   "id": "7097445",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "54687573042565814619760418871029097107191626480697562363296095836312270003299",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795262465,
-   "end_ts": 1795348800,
-   "q": "Will \"I Play Rocky\" Opening Weekend Box Office be less than 7m?",
-   "touched": 1
-  },
-  {
-   "id": "7097451",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "4674744949393069310393651477196107880380918309559334850827742783291234555150",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795262465,
-   "end_ts": 1795348800,
-   "q": "Will \"I Play Rocky\" Opening Weekend Box Office be at least 22m?",
-   "touched": 1
-  },
-  {
-   "id": "7152885",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 0,
-   "token": "13388488140509967082877514154711280543588209824734965438566975110024581355220",
-   "px": 0.98,
-   "tick": 0.001,
-   "ts": 1795262465,
-   "end_ts": 1795348800,
-   "q": "Will \"The Hunger Games: Sunrise on the Reaping\" Opening Weekend Box Office be less than 13",
-   "touched": 1
-  },
-  {
-   "id": "7152886",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "73311136930712018301431921353321851587503765951908296098989378873238068282078",
-   "px": 0.979,
-   "tick": 0.001,
-   "ts": 1795262465,
-   "end_ts": 1795348800,
-   "q": "Will \"The Hunger Games: Sunrise on the Reaping\" Opening Weekend Box Office be between 130m",
-   "touched": 1
-  },
-  {
-   "id": "7152887",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "22760064992252395459041008051293216954823169175525341435056041193351409590767",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1795262465,
-   "end_ts": 1795348800,
-   "q": "Will \"The Hunger Games: Sunrise on the Reaping\" Opening Weekend Box Office be between 140m",
-   "touched": 1
-  },
-  {
-   "id": "7152888",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "72799472836496977529074019166911275119069634379200638677884890060431129932941",
-   "px": 0.991,
-   "tick": 0.001,
-   "ts": 1795262465,
-   "end_ts": 1795348800,
-   "q": "Will \"The Hunger Games: Sunrise on the Reaping\" Opening Weekend Box Office be between 150m",
-   "touched": 0
-  },
-  {
-   "id": "7152890",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "100650942724184584683430098230451336759493990969980320300715297355751931277480",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1795262465,
-   "end_ts": 1795348800,
-   "q": "Will \"The Hunger Games: Sunrise on the Reaping\" Opening Weekend Box Office be between 160m",
-   "touched": 1
-  },
-  {
-   "id": "7175707",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "56989765350920607802329955122576366309706346686866668493456900853232740699520",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1795262465,
-   "end_ts": 1795348800,
-   "q": "Will \"Ebenezer\" 2nd Weekend Box Office be less than 6m?",
-   "touched": 1
-  },
-  {
-   "id": "5713554",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "53142848209751508995328332445065259344972834109187436317505056049797009154072",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795269667,
-   "end_ts": 1795348800,
-   "q": "Will \"The Hunger Games: Sunrise on the Reaping\" Opening Weekend Box Office be between 75m ",
-   "touched": 0
-  },
-  {
-   "id": "5713555",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "41133939465861432113696580357710864977843236708471467902666136462867782809843",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795269667,
-   "end_ts": 1795348800,
-   "q": "Will \"The Hunger Games: Sunrise on the Reaping\" Opening Weekend Box Office be between 85m ",
-   "touched": 0
-  },
-  {
-   "id": "7175711",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "10600741468836271310358138224973966989849705287177534367467945150742707911621",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1795273270,
-   "end_ts": 1795348800,
-   "q": "Will \"Ebenezer\" 2nd Weekend Box Office be between 10.5m and 12m?",
-   "touched": 0
-  },
-  {
-   "id": "7097448",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "52190974356804716217950301239154160395335899642330865905194213968499334926330",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795276868,
-   "end_ts": 1795348800,
-   "q": "Will \"I Play Rocky\" Opening Weekend Box Office be between 13m and 16m?",
-   "touched": 1
-  },
-  {
-   "id": "7175723",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "98375743054612714334405986051826449542685998243422029299967320791069029201432",
-   "px": 0.975,
-   "tick": 0.001,
-   "ts": 1795294864,
-   "end_ts": 1795348800,
-   "q": "Will \"The Cat in the Hat\" 3rd Weekend Box Office be at least 8m?",
-   "touched": 1
-  },
-  {
-   "id": "6764604",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "11920107369702248199756313634535788846598968561116968406358847036922652996353",
-   "px": 0.975,
-   "tick": 0.001,
-   "ts": 1795309263,
-   "end_ts": 1795348800,
-   "q": "Will \"The Hunger Games: Sunrise on the Reaping\" Opening Weekend Box Office be between 110m",
    "touched": 1
   },
   {
@@ -7424,45 +7164,6 @@
    "touched": 1
   },
   {
-   "id": "6764607",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "95692971044460464658544805489857038740488433509798761142586220856674841425115",
-   "px": 0.992,
-   "tick": 0.001,
-   "ts": 1795334464,
-   "end_ts": 1795348800,
-   "q": "Will \"The Hunger Games: Sunrise on the Reaping\" Opening Weekend Box Office be between 125m",
-   "touched": 1
-  },
-  {
-   "id": "7175719",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "75959420327980357382824312312734326108156133379313797860763301106875364710787",
-   "px": 0.991,
-   "tick": 0.001,
-   "ts": 1795338065,
-   "end_ts": 1795348800,
-   "q": "Will \"The Cat in the Hat\" 3rd Weekend Box Office be between 4m and 5m?",
-   "touched": 1
-  },
-  {
-   "id": "7175720",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "38167858830718773362862453851410697832199278067889841880151045045505778398418",
-   "px": 0.993,
-   "tick": 0.001,
-   "ts": 1795338065,
-   "end_ts": 1795348800,
-   "q": "Will \"The Cat in the Hat\" 3rd Weekend Box Office be between 5m and 6m?",
-   "touched": 1
-  },
-  {
    "id": "7023053",
    "rule": "otros_cierre",
    "cat": "otros",
@@ -7476,149 +7177,6 @@
    "touched": 0
   },
   {
-   "id": "7175710",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "90090798686914126476160664059513816518432104229478231268762379576324982204839",
-   "px": 0.989,
-   "tick": 0.001,
-   "ts": 1795341103,
-   "end_ts": 1795348800,
-   "q": "Will \"Ebenezer\" 2nd Weekend Box Office be between 9m and 10.5m?",
-   "touched": 1
-  },
-  {
-   "id": "6931025",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "61663007021818203301121108847022988682987102047635879203796806571787943636453",
-   "px": 0.989,
-   "tick": 0.001,
-   "ts": 1795348865,
-   "end_ts": 1795456800,
-   "q": "Spread: El Ahly SC (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "6931026",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "54429971324908755649866072631933839623669963665397495470319503661165022220083",
-   "px": 0.988,
-   "tick": 0.001,
-   "ts": 1795348865,
-   "end_ts": 1795456800,
-   "q": "Spread: Pyramids FC (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "6931037",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "69225910697286935666168209574640818536739164926666686191638930150590838902163",
-   "px": 0.989,
-   "tick": 0.001,
-   "ts": 1795348865,
-   "end_ts": 1795456800,
-   "q": "El Ahly SC vs. Pyramids FC: O/U 6.5",
-   "touched": 0
-  },
-  {
-   "id": "6923689",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "100029314398196443600706065765240623123978651015529702773091433748262675088209",
-   "px": 0.975,
-   "tick": 0.001,
-   "ts": 1795356062,
-   "end_ts": 1795464000,
-   "q": "Spread: Brentford FC (-3.5)",
-   "touched": 0
-  },
-  {
-   "id": "6923691",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "39651754511174489758380826436631792885263297002497426823054950767436735968021",
-   "px": 0.989,
-   "tick": 0.001,
-   "ts": 1795356062,
-   "end_ts": 1795464000,
-   "q": "Spread: Everton FC (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "6923714",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "95101377863833042095419357676456399690098357780081762965723942673410225642046",
-   "px": 0.978,
-   "tick": 0.001,
-   "ts": 1795356062,
-   "end_ts": 1795464000,
-   "q": "Brentford FC vs. Everton FC: O/U 6.5",
-   "touched": 1
-  },
-  {
-   "id": "6927235",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "97452221200626826300888296592576668568048718790441053378290959669540229510",
-   "px": 0.989,
-   "tick": 0.001,
-   "ts": 1795356062,
-   "end_ts": 1795464000,
-   "q": "Spread: Elche CF (-3.5)",
-   "touched": 0
-  },
-  {
-   "id": "6927251",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "104344943571171246087827375189754106847242250243471582297419379943458196776378",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1795356062,
-   "end_ts": 1795464000,
-   "q": "Levante UD vs. Elche CF: O/U 6.5",
-   "touched": 0
-  },
-  {
-   "id": "6923716",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "22359046805086075410712375165556207837353690158233639447231389199824782649581",
-   "px": 0.992,
-   "tick": 0.001,
-   "ts": 1795366869,
-   "end_ts": 1795464000,
-   "q": "Brentford FC vs. Everton FC: O/U 7.5",
-   "touched": 1
-  },
-  {
-   "id": "6923718",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "112986310947010387976559015196564924930828409126751596202405214148760980387239",
-   "px": 0.996,
-   "tick": 0.001,
-   "ts": 1795369943,
-   "end_ts": 1795464000,
-   "q": "Brentford FC vs. Everton FC: O/U 8.5",
-   "touched": 1
-  },
-  {
    "id": "6943582",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -7629,19 +7187,6 @@
    "ts": 1795369943,
    "end_ts": 1795462200,
    "q": "AD Ceuta FC vs. UD Almería: O/U 6.5",
-   "touched": 1
-  },
-  {
-   "id": "7175708",
-   "rule": "post_fin_95_97",
-   "cat": "otros",
-   "side": 1,
-   "token": "75181198057021796720859033691963189282049972617374133540910946723463905899635",
-   "px": 0.964,
-   "tick": 0.001,
-   "ts": 1795374063,
-   "end_ts": 1795348800,
-   "q": "Will \"Ebenezer\" 2nd Weekend Box Office be between 6m and 7.5m?",
    "touched": 1
   },
   {
@@ -7710,19 +7255,6 @@
    "touched": 0
   },
   {
-   "id": "7175721",
-   "rule": "post_fin_95_97",
-   "cat": "otros",
-   "side": 0,
-   "token": "760632315328268154609149640855494505940204318257295040026999796771293758441",
-   "px": 0.95,
-   "tick": 0.01,
-   "ts": 1795377667,
-   "end_ts": 1795348800,
-   "q": "Will \"The Cat in the Hat\" 3rd Weekend Box Office be between 6m and 7m?",
-   "touched": 1
-  },
-  {
    "id": "6882542",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -7733,19 +7265,6 @@
    "ts": 1795381263,
    "end_ts": 1795463100,
    "q": "Spread: Grenoble Foot 38 (-2.5)",
-   "touched": 1
-  },
-  {
-   "id": "7195182",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "26264911370055676311424325309907645751682900071165142007990774734539308102673",
-   "px": 0.972,
-   "tick": 0.001,
-   "ts": 1795381263,
-   "end_ts": 1795464000,
-   "q": "Spread: CA Newell's Old Boys (-2.5)",
    "touched": 1
   },
   {
@@ -7760,19 +7279,6 @@
    "end_ts": 1795489200,
    "q": "Northern Arizona Lumberjacks vs. USC Trojans (W)",
    "touched": 0
-  },
-  {
-   "id": "7175722",
-   "rule": "post_fin_95_97",
-   "cat": "otros",
-   "side": 1,
-   "token": "27897277458571635430429563487761563935797208669552267110937023364243920904535",
-   "px": 0.964,
-   "tick": 0.001,
-   "ts": 1795388466,
-   "end_ts": 1795348800,
-   "q": "Will \"The Cat in the Hat\" 3rd Weekend Box Office be between 7m and 8m?",
-   "touched": 1
   },
   {
    "id": "6962022",
@@ -7879,19 +7385,6 @@
    "touched": 1
   },
   {
-   "id": "6927254",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "114472191502810025116711540221486817700320070851768015715975658192312904836853",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795399261,
-   "end_ts": 1795464000,
-   "q": "Levante UD vs. Elche CF: O/U 8.5",
-   "touched": 1
-  },
-  {
    "id": "6643818",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -7967,110 +7460,6 @@
    "ts": 1795402873,
    "end_ts": 1795480200,
    "q": "Utah vs. Jets: O/U 2.5",
-   "touched": 1
-  },
-  {
-   "id": "7206979",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "33603791789463093980528018988590002455758511215459926380043923384112876846086",
-   "px": 0.977,
-   "tick": 0.001,
-   "ts": 1795406467,
-   "end_ts": 1795460400,
-   "q": "Jong PSV Eindhoven vs. Jong FC Utrecht: O/U 0.5",
-   "touched": 1
-  },
-  {
-   "id": "7206986",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "7481330032467081173917460173706990792553829548287859742146387229200922709576",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1795406467,
-   "end_ts": 1795460400,
-   "q": "Jong PSV Eindhoven vs. Jong FC Utrecht: O/U 7.5",
-   "touched": 1
-  },
-  {
-   "id": "7207011",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "68591477773339343291632841651764669687471483686222321445185254773402724296727",
-   "px": 0.971,
-   "tick": 0.001,
-   "ts": 1795406467,
-   "end_ts": 1795460400,
-   "q": "Spread: Jong AZ Alkmaar (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "7207016",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "39660442770189903436971449090050255700399995300588974930089456407444276764299",
-   "px": 0.977,
-   "tick": 0.001,
-   "ts": 1795406467,
-   "end_ts": 1795460400,
-   "q": "Jong Ajax Amsterdam vs. Jong AZ Alkmaar: O/U 0.5",
-   "touched": 1
-  },
-  {
-   "id": "7207024",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "10909234878549621397504729338836687588265932758120338700260174866638341151132",
-   "px": 0.986,
-   "tick": 0.001,
-   "ts": 1795406467,
-   "end_ts": 1795460400,
-   "q": "Jong Ajax Amsterdam vs. Jong AZ Alkmaar: O/U 8.5",
-   "touched": 1
-  },
-  {
-   "id": "7244690",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "13635422685153029242681392008232686393191449388188750327727384001053959496881",
-   "px": 0.975,
-   "tick": 0.001,
-   "ts": 1795406467,
-   "end_ts": 1795457700,
-   "q": "Spread: Al Quwa Al Jawiya (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "7244702",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "111562049116968280612737892384788316287776402619452694276002265133231941614959",
-   "px": 0.977,
-   "tick": 0.001,
-   "ts": 1795406467,
-   "end_ts": 1795457700,
-   "q": "Al Quwa Al Jawiya vs. Al Gharafa SC: O/U 6.5",
-   "touched": 0
-  },
-  {
-   "id": "7244733",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "24310929704972891142590915632069033595179100163830157945056067919921210448325",
-   "px": 0.972,
-   "tick": 0.001,
-   "ts": 1795406467,
-   "end_ts": 1795457700,
-   "q": "Spread: Pakhtakor (-1.5)",
    "touched": 1
   },
   {
@@ -8305,58 +7694,6 @@
    "ts": 1795410068,
    "end_ts": 1795462200,
    "q": "CA Juventud de Las Piedras vs. Defensor Sporting: O/U 6.5",
-   "touched": 1
-  },
-  {
-   "id": "7195184",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "74848904477423190237798694916847300979010557816586269985845085488494882071537",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795410068,
-   "end_ts": 1795464000,
-   "q": "Spread: CA Newell's Old Boys (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "7206987",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "16104014654731868956008266681450193344239269174844728029246885477851195888431",
-   "px": 0.989,
-   "tick": 0.001,
-   "ts": 1795410068,
-   "end_ts": 1795460400,
-   "q": "Jong PSV Eindhoven vs. Jong FC Utrecht: O/U 8.5",
-   "touched": 0
-  },
-  {
-   "id": "7244737",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "23348181611387095301117955227784925163634425638515321584177218272598806343866",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795410068,
-   "end_ts": 1795457700,
-   "q": "Spread: Pakhtakor (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "7244756",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "111190677906578685758269374934960572133076006013471840529179770622531521304882",
-   "px": 0.981,
-   "tick": 0.001,
-   "ts": 1795410068,
-   "end_ts": 1795457700,
-   "q": "Al-Ittihad Club vs. Pakhtakor: O/U 7.5",
    "touched": 1
   },
   {
@@ -8633,19 +7970,6 @@
    "touched": 1
   },
   {
-   "id": "7244691",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "82953890236177796570012365590118468807422453360543918146751847945893444231657",
-   "px": 0.989,
-   "tick": 0.001,
-   "ts": 1795413672,
-   "end_ts": 1795457700,
-   "q": "Spread: Al Gharafa SC (-3.5)",
-   "touched": 1
-  },
-  {
    "id": "6961944",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -8893,19 +8217,6 @@
    "touched": 0
   },
   {
-   "id": "6927252",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "17621090830472119588738217070490669562077638460973831513099776065531806125650",
-   "px": 0.99,
-   "tick": 0.001,
-   "ts": 1795424474,
-   "end_ts": 1795464000,
-   "q": "Levante UD vs. Elche CF: O/U 7.5",
-   "touched": 1
-  },
-  {
    "id": "6943586",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -8916,45 +8227,6 @@
    "ts": 1795424474,
    "end_ts": 1795462200,
    "q": "AD Ceuta FC vs. UD Almería: O/U 7.5",
-   "touched": 1
-  },
-  {
-   "id": "7195194",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "67493846807211995588855472448618074195401395383823806379490006676242872520629",
-   "px": 0.971,
-   "tick": 0.001,
-   "ts": 1795424474,
-   "end_ts": 1795464000,
-   "q": "Gimnasia y Esgrima de La Plata vs. CA Newell's Old Boys: O/U 5.5",
-   "touched": 1
-  },
-  {
-   "id": "7195196",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "10167673608701966780954362832745254894687900978749769029072079180239942062414",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1795424474,
-   "end_ts": 1795464000,
-   "q": "Gimnasia y Esgrima de La Plata vs. CA Newell's Old Boys: O/U 7.5",
-   "touched": 1
-  },
-  {
-   "id": "7244735",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "90910403238338067269415858140702165236400040758792052977272546087104661444446",
-   "px": 0.992,
-   "tick": 0.001,
-   "ts": 1795424474,
-   "end_ts": 1795457700,
-   "q": "Spread: Pakhtakor (-2.5)",
    "touched": 1
   },
   {
@@ -9257,19 +8529,6 @@
    "touched": 0
   },
   {
-   "id": "7097135",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "10658523559314934617360732722094145230564578596269001092300826205386157426372",
-   "px": 0.971,
-   "tick": 0.001,
-   "ts": 1795428068,
-   "end_ts": 1795453200,
-   "q": "Will the price of Ethereum be above $1,800 on November 23?",
-   "touched": null
-  },
-  {
    "id": "6962036",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -9280,7 +8539,7 @@
    "ts": 1795428068,
    "end_ts": 1795473000,
    "q": "SC Internacional vs. EC Vitória: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7279482",
@@ -9293,7 +8552,7 @@
    "ts": 1795428068,
    "end_ts": 1795496400,
    "q": "Will XRP reach $1.05 on November 23?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7245870",
@@ -9306,7 +8565,7 @@
    "ts": 1795428068,
    "end_ts": 1795514400,
    "q": "Kyoto Sanga FC vs. FC Pohang Steelers: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7245756",
@@ -9319,33 +8578,7 @@
    "ts": 1795428068,
    "end_ts": 1795522500,
    "q": "Spread: Cong An Ha Noi FC (-2.5)",
-   "touched": null
-  },
-  {
-   "id": "6931121",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "62830868107727243610719237734710683452906973939679325291908179012339765780625",
-   "px": 0.996,
-   "tick": 0.001,
-   "ts": 1795431671,
-   "end_ts": 1795456800,
-   "q": "Sepsi OSK vs. FC Rapid 1923: O/U 8.5",
-   "touched": null
-  },
-  {
-   "id": "7206974",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "18558984444870840518617072596585806906173569795943563381801306787381285281796",
-   "px": 0.974,
-   "tick": 0.001,
-   "ts": 1795431671,
-   "end_ts": 1795460400,
-   "q": "Spread: Jong FC Utrecht (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7196088",
@@ -9358,7 +8591,7 @@
    "ts": 1795431671,
    "end_ts": 1795467600,
    "q": "S&P 500 (SPX) Opens Up or Down on November 23?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7279462",
@@ -9371,7 +8604,7 @@
    "ts": 1795431671,
    "end_ts": 1795496400,
    "q": "Will Solana reach $80 on November 23?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7279469",
@@ -9384,7 +8617,7 @@
    "ts": 1795431671,
    "end_ts": 1795496400,
    "q": "Will Solana dip to $65 on November 23?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7245387",
@@ -9397,7 +8630,7 @@
    "ts": 1795431671,
    "end_ts": 1795506300,
    "q": "Newcastle United Jets vs. Kashiwa Reysol: Neither team to score first?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7245871",
@@ -9410,7 +8643,7 @@
    "ts": 1795431671,
    "end_ts": 1795514400,
    "q": "Kyoto Sanga FC vs. FC Pohang Steelers: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7245903",
@@ -9423,7 +8656,7 @@
    "ts": 1795431671,
    "end_ts": 1795514400,
    "q": "Spread: Beijing Guoan (-2.5)",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7245918",
@@ -9436,7 +8669,7 @@
    "ts": 1795431671,
    "end_ts": 1795514400,
    "q": "Daejeon Citizen FC vs. Beijing Guoan: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7245810",
@@ -9449,7 +8682,7 @@
    "ts": 1795431671,
    "end_ts": 1795522500,
    "q": "Spread: Ratchaburi FC (-2.5)",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7097180",
@@ -12465,6 +11698,32 @@
    "ts": 1795471264,
    "end_ts": 1795549500,
    "q": "Charlton Athletic FC vs. Lincoln City FC: O/U 8.5",
+   "touched": null
+  },
+  {
+   "id": "6986648",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "61615722738811111475619991804543968905255347482709547564907819362391984792673",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1795474871,
+   "end_ts": 1795554000,
+   "q": "Associação Chapecoense de Futebol vs. SE Palmeiras: O/U 8.5",
+   "touched": null
+  },
+  {
+   "id": "6998612",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "78220460250442236021578708033750937999112025468478444924288129895161334318956",
+   "px": 0.974,
+   "tick": 0.001,
+   "ts": 1795474871,
+   "end_ts": 1795564800,
+   "q": "New Hampshire Wildcats vs. Seton Hall Pirates",
    "touched": null
   }
  ]
