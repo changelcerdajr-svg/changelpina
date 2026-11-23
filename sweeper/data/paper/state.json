@@ -257,7 +257,7 @@
    "hours": 4.96,
    "liq": 1203,
    "fill_ts": 1794967266.068418,
-   "mark": 0.983,
+   "mark": 0.9845,
    "stuck": false,
    "disputed": false
   },
@@ -282,7 +282,9 @@
    "hours": 20.98,
    "liq": 2352,
    "fill_ts": 1795417266.853569,
-   "mark": 0.987
+   "mark": 0.988,
+   "stuck": false,
+   "disputed": false
   },
   {
    "oid": "7097121-1795413672",
@@ -305,7 +307,9 @@
    "hours": 10.98,
    "liq": 38595,
    "fill_ts": 1795417266.853569,
-   "mark": 0.997
+   "mark": 0.9975,
+   "stuck": false,
+   "disputed": false
   }
  ],
  "closed": [
@@ -6477,6 +6481,19 @@
    "placed": 2,
    "shadow_open": 334,
    "shadow_closed": 2
+  },
+  {
+   "ts": "2026-11-23T07:47:54Z",
+   "equity": 1025.11,
+   "cash": 410.31,
+   "orders": 11,
+   "positions": 3,
+   "closed": 98,
+   "scanned": 8172,
+   "candidates": 166,
+   "placed": 0,
+   "shadow_open": 329,
+   "shadow_closed": 7
   }
  ],
  "halted": false,
@@ -7398,32 +7415,6 @@
    "touched": 1
   },
   {
-   "id": "6364892",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "95558995050350770455109607650287128540944462601412846062456188776553977138435",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1795323667,
-   "end_ts": 1795409940,
-   "q": "Will the next Claude Opus model (5.6+) be released on November 22, 2026?",
-   "touched": 0
-  },
-  {
-   "id": "6655556",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "41674128350358729737243088341075694767803203701689991535454401046579147026325",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795323667,
-   "end_ts": 1795409940,
-   "q": "Will the next Meta Muse Spark model be released on November 22, 2026?",
-   "touched": 0
-  },
-  {
    "id": "7023029",
    "rule": "otros_cierre",
    "cat": "otros",
@@ -7502,19 +7493,6 @@
    "touched": 0
   },
   {
-   "id": "7029431",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "16787824806597947035972744542377449005760007310614029825838456780923651625433",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795323667,
-   "end_ts": 1795409940,
-   "q": "Will the next Gemini Carbon model (4.1+) be released on November 22, 2026?",
-   "touched": 0
-  },
-  {
    "id": "7029621",
    "rule": "otros_cierre",
    "cat": "otros",
@@ -7539,19 +7517,6 @@
    "end_ts": 1795348800,
    "q": "Will \"The Hunger Games: Sunrise on the Reaping\" Opening Weekend Box Office be between 125m",
    "touched": 1
-  },
-  {
-   "id": "7147755",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "97425645082460555958579635539315124341978467533846207134516011320558716260442",
-   "px": 0.992,
-   "tick": 0.001,
-   "ts": 1795334464,
-   "end_ts": 1795409940,
-   "q": "Will Adin Ross finish GTA VI by November 22?",
-   "touched": 0
   },
   {
    "id": "7175719",
@@ -7658,19 +7623,6 @@
    "touched": 0
   },
   {
-   "id": "7153566",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "109436862137781766987130646955981175720989648812272482021727952211707954134994",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795356062,
-   "end_ts": 1795409940,
-   "q": "Will N3on finish GTA VI by November 22?",
-   "touched": 1
-  },
-  {
    "id": "6923683",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -7760,19 +7712,6 @@
    "end_ts": 1795464000,
    "q": "Levante UD vs. Elche CF: O/U 6.5",
    "touched": 0
-  },
-  {
-   "id": "7193313",
-   "rule": "post_fin_95_97",
-   "cat": "clima",
-   "side": 1,
-   "token": "114408194996651606382281006501729895070722520366022840237070370479258809696781",
-   "px": 0.953,
-   "tick": 0.001,
-   "ts": 1795359662,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Austin be between 76-77°F on November 22?",
-   "touched": 1
   },
   {
    "id": "5420123",
@@ -8357,19 +8296,6 @@
    "ts": 1795366869,
    "end_ts": 1795464000,
    "q": "Brentford FC vs. Everton FC: O/U 7.5",
-   "touched": 1
-  },
-  {
-   "id": "7193331",
-   "rule": "post_fin_95_97",
-   "cat": "clima",
-   "side": 1,
-   "token": "21516937401754430472439107841555512975353892109141237498732983002063316981509",
-   "px": 0.951,
-   "tick": 0.001,
-   "ts": 1795369943,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Houston be between 84-85°F on November 22?",
    "touched": 1
   },
   {
@@ -10827,6 +10753,32 @@
    "ts": 1795417266,
    "end_ts": 1795496400,
    "q": "Will Bitcoin reach $66,000 on November 23?",
+   "touched": null
+  },
+  {
+   "id": "7179164",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "63596794978894272301103901201115731241040182774407013353331292859135480001025",
+   "px": 0.983,
+   "tick": 0.001,
+   "ts": 1795420026,
+   "end_ts": 1795446000,
+   "q": "Will \"I Play Rocky\" score at least 89 on the Rotten Tomatoes Tomatometer?",
+   "touched": null
+  },
+  {
+   "id": "7279450",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "73433732348648299856200009912914302246047899613192262638691171801427216517306",
+   "px": 0.973,
+   "tick": 0.001,
+   "ts": 1795420026,
+   "end_ts": 1795496400,
+   "q": "Will Ethereum dip to $1,550 on November 23?",
    "touched": null
   }
  ]
