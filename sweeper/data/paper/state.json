@@ -1,50 +1,8 @@
 {
  "capital0": 1000.0,
- "cash": 410.2324,
+ "cash": 410.0985,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
-  {
-   "oid": "6655556-1795395661",
-   "id": "6655556",
-   "q": "Will the next Meta Muse Spark model be released on November 22, 2026?",
-   "cat": "otros",
-   "rule": "otros_cierre",
-   "event": "1310057",
-   "side": 1,
-   "token": "41674128350358729737243088341075694767803203701689991535454401046579147026325",
-   "px": 0.998,
-   "tick": 0.001,
-   "mid": 0.9985,
-   "bid": 0.998,
-   "ask": 0.999,
-   "shares": 51.3123,
-   "cost": 51.2096,
-   "ts": 1795395661.80255,
-   "end_ts": 1795409940.0,
-   "hours": 3.97,
-   "liq": 6045
-  },
-  {
-   "oid": "6931073-1795395661",
-   "id": "6931073",
-   "q": "El Gouna SC vs. Zamalek SC: O/U 5.5",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1356657",
-   "side": 1,
-   "token": "108033664845176567481903321796680464513789873557440204687030376809961492728700",
-   "px": 0.97,
-   "tick": 0.001,
-   "mid": 0.9705,
-   "bid": 0.961,
-   "ask": 0.98,
-   "shares": 52.7922,
-   "cost": 51.2085,
-   "ts": 1795395661.80255,
-   "end_ts": 1795446000.0,
-   "hours": 13.98,
-   "liq": 4403
-  },
   {
    "oid": "6942346-1795399261",
    "id": "6942346",
@@ -212,6 +170,48 @@
    "end_ts": 1795453200.0,
    "hours": 6.98,
    "liq": 36401
+  },
+  {
+   "oid": "5420125-1795438870",
+   "id": "5420125",
+   "q": "Will \"The Hunger Games: Sunrise on the Reaping\" score at least 70 on the Rotten Tomatoes Tomatometer?",
+   "cat": "otros",
+   "rule": "otros_cierre",
+   "event": "1151103",
+   "side": 1,
+   "token": "12946603388889134261643830137601744824066880070961738745748137536144671332360",
+   "px": 0.986,
+   "tick": 0.001,
+   "mid": 0.986,
+   "bid": 0.974,
+   "ask": 0.998,
+   "shares": 52.004,
+   "cost": 51.276,
+   "ts": 1795438870.495014,
+   "end_ts": 1795446000.0,
+   "hours": 1.98,
+   "liq": 1319
+  },
+  {
+   "oid": "6943549-1795438870",
+   "id": "6943549",
+   "q": "Spread: AD Ceuta FC (-2.5)",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1358769",
+   "side": 1,
+   "token": "37252848844476745890675456883385439212122567777568528322190832856815753872910",
+   "px": 0.973,
+   "tick": 0.001,
+   "mid": 0.9735,
+   "bid": 0.97,
+   "ask": 0.977,
+   "shares": 52.6988,
+   "cost": 51.276,
+   "ts": 1795438870.495014,
+   "end_ts": 1795462200.0,
+   "hours": 6.48,
+   "liq": 15746
   }
  ],
  "positions": [
@@ -311,7 +311,9 @@
    "hours": 7.73,
    "liq": 3080,
    "fill_ts": 1795435270.398506,
-   "mark": 0.971
+   "mark": 0.9785,
+   "stuck": false,
+   "disputed": false
   }
  ],
  "closed": [
@@ -6561,13 +6563,26 @@
    "placed": 0,
    "shadow_open": 389,
    "shadow_closed": 1
+  },
+  {
+   "ts": "2026-11-23T13:01:54Z",
+   "equity": 1025.52,
+   "cash": 410.1,
+   "orders": 10,
+   "positions": 4,
+   "closed": 98,
+   "scanned": 9743,
+   "candidates": 176,
+   "placed": 2,
+   "shadow_open": 394,
+   "shadow_closed": 7
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 434,
+  "placed": 436,
   "filled": 102,
-  "expired": 96,
+  "expired": 98,
   "touched_not_filled": 226
  },
  "shadow": [
@@ -8821,45 +8836,6 @@
    "touched": 0
   },
   {
-   "id": "6639802",
-   "rule": "post_fin_95_97",
-   "cat": "deportes",
-   "side": 1,
-   "token": "107925528918641379271684602965620498475566479291807314160046410835634371717923",
-   "px": 0.954,
-   "tick": 0.001,
-   "ts": 1795392071,
-   "end_ts": 1795370400,
-   "q": "Spread: Jaguars (-4.5)",
-   "touched": null
-  },
-  {
-   "id": "6639804",
-   "rule": "post_fin_95_97",
-   "cat": "deportes",
-   "side": 1,
-   "token": "42223450279739342535981679775308080614485907754382287238848268929312433740362",
-   "px": 0.966,
-   "tick": 0.001,
-   "ts": 1795392071,
-   "end_ts": 1795370400,
-   "q": "Spread: Jaguars (-6.5)",
-   "touched": null
-  },
-  {
-   "id": "6639972",
-   "rule": "post_fin_95_97",
-   "cat": "deportes",
-   "side": 0,
-   "token": "7539786512445620464309037463989770744074168698654445406492914681737155656592",
-   "px": 0.95,
-   "tick": 0.01,
-   "ts": 1795392071,
-   "end_ts": 1795370400,
-   "q": "Jaguars vs. Giants: O/U 30.5",
-   "touched": null
-  },
-  {
    "id": "5420125",
    "rule": "otros_cierre",
    "cat": "otros",
@@ -8870,59 +8846,7 @@
    "ts": 1795392071,
    "end_ts": 1795446000,
    "q": "Will \"The Hunger Games: Sunrise on the Reaping\" score at least 70 on the Rotten Tomatoes T",
-   "touched": null
-  },
-  {
-   "id": "7234698",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "86673286683086072298970575008122970664844630216930580375260953992142858956778",
-   "px": 0.984,
-   "tick": 0.001,
-   "ts": 1795395661,
-   "end_ts": 1795410000,
-   "q": "Will Bitcoin dip to $58,000 November 16-22?",
-   "touched": null
-  },
-  {
-   "id": "7234702",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "73802530559573073628210471298795569304012656882997912938800316042657035760412",
-   "px": 0.985,
-   "tick": 0.001,
-   "ts": 1795395661,
-   "end_ts": 1795410000,
-   "q": "Will Ethereum dip to $1,600 November 16-22?",
-   "touched": null
-  },
-  {
-   "id": "7246809",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "104307897770120798273320778511013805360976609380395156668708537065073772512369",
-   "px": 0.985,
-   "tick": 0.001,
-   "ts": 1795395661,
-   "end_ts": 1795410000,
-   "q": "Will Bitcoin dip to $58,000 on November 22?",
-   "touched": null
-  },
-  {
-   "id": "7246824",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "63189979950677843300487498583971756299028631892241373091372960121830183001513",
-   "px": 0.975,
-   "tick": 0.001,
-   "ts": 1795395661,
-   "end_ts": 1795410000,
-   "q": "Will Ethereum dip to $1,600 on November 22?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6962407",
@@ -8935,7 +8859,7 @@
    "ts": 1795395661,
    "end_ts": 1795446000,
    "q": "Wadi Degla SC vs. El Ittihad SC El Iskandary: O/U 5.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7097196",
@@ -8948,7 +8872,7 @@
    "ts": 1795395661,
    "end_ts": 1795453200,
    "q": "Will the price of Solana be above $65 on November 23?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7097210",
@@ -8961,7 +8885,7 @@
    "ts": 1795395661,
    "end_ts": 1795453200,
    "q": "Will the price of Solana be between $110 and $120 on November 23?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6961930",
@@ -8974,7 +8898,7 @@
    "ts": 1795395661,
    "end_ts": 1795478400,
    "q": "Spread: Grêmio FBPA (-2.5)",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7259940",
@@ -8987,7 +8911,7 @@
    "ts": 1795395661,
    "end_ts": 1795480200,
    "q": "Maple Leafs vs. Islanders: O/U 2.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7259950",
@@ -9000,7 +8924,7 @@
    "ts": 1795395661,
    "end_ts": 1795480200,
    "q": "Flames vs. Senators: O/U 2.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7259920",
@@ -9013,7 +8937,7 @@
    "ts": 1795395661,
    "end_ts": 1795488000,
    "q": "Ducks vs. Kraken: O/U 2.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6942347",
@@ -11626,6 +11550,162 @@
    "ts": 1795435270,
    "end_ts": 1795542300,
    "q": "Galatasaray SK vs. Aston Villa FC: O/U 8.5",
+   "touched": null
+  },
+  {
+   "id": "7097177",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "85004320037810974632511857212416307320817469819343609593099749034548225561275",
+   "px": 0.976,
+   "tick": 0.001,
+   "ts": 1795438870,
+   "end_ts": 1795453200,
+   "q": "Will the price of Bitcoin be above $64,000 on November 23?",
+   "touched": null
+  },
+  {
+   "id": "6945155",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "81828064034577342470815844104376751307505683464664635672594860422826713143352",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795438870,
+   "end_ts": 1795463100,
+   "q": "FC Sochaux-Montbéliard vs. USL Dunkerque: O/U 8.5",
+   "touched": null
+  },
+  {
+   "id": "7106748",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "100361059474132549945068149462199828778445483257918880556504542499202778789221",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795438870,
+   "end_ts": 1795475700,
+   "q": "Nacional Asuncion vs. Cerro Porteno: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "7259930",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "81067682729686467511253632084700092237465249070601695234782038433612234363996",
+   "px": 0.971,
+   "tick": 0.001,
+   "ts": 1795438870,
+   "end_ts": 1795480200,
+   "q": "Kings vs. Canadiens: O/U 2.5",
+   "touched": null
+  },
+  {
+   "id": "6907475",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "12366072457806735604904880512349175121298732868065769561269601550443515652739",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795438870,
+   "end_ts": 1795496340,
+   "q": "Next Grok Model (4.8+) released by November 23, 2026?",
+   "touched": null
+  },
+  {
+   "id": "7279397",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "66366078398535045043787392384496732022495783702829603476467665750829671569075",
+   "px": 0.971,
+   "tick": 0.001,
+   "ts": 1795438870,
+   "end_ts": 1795496400,
+   "q": "Will Bitcoin reach $65,000 on November 23?",
+   "touched": null
+  },
+  {
+   "id": "7279490",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "43587298139757803168241166198812803870812116274620608916078316776422136754634",
+   "px": 0.984,
+   "tick": 0.001,
+   "ts": 1795438870,
+   "end_ts": 1795496400,
+   "q": "Will XRP dip to $0.85 on November 23?",
+   "touched": null
+  },
+  {
+   "id": "7245778",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "96482340302864276098462299309821768813994278226850496614827292550606245816224",
+   "px": 0.973,
+   "tick": 0.001,
+   "ts": 1795438870,
+   "end_ts": 1795522500,
+   "q": "Cong An Ha Noi FC vs. Vissel Kobe: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "7245779",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "26708881613322434883258738287049813020695930233992923747696251566696566147101",
+   "px": 0.991,
+   "tick": 0.001,
+   "ts": 1795438870,
+   "end_ts": 1795522500,
+   "q": "Cong An Ha Noi FC vs. Vissel Kobe: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "7245825",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "2226229253507695115922880365114850793859198939430429379088036494944056577798",
+   "px": 0.981,
+   "tick": 0.001,
+   "ts": 1795438870,
+   "end_ts": 1795522500,
+   "q": "Ratchaburi FC vs. Johor Darul Ta'zim: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "7249258",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "106071026008897503020521782452468104145186395471938573081603339332636331020514",
+   "px": 0.99,
+   "tick": 0.001,
+   "ts": 1795438870,
+   "end_ts": 1795522500,
+   "q": "Shanghai Port FC vs. Buriram United: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6974115",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "72437653628264157113025867968042239239743701807116947305870855091981492287663",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795438870,
+   "end_ts": 1795543200,
+   "q": "SS Juve Stabia vs. US Catanzaro 1929: O/U 6.5",
    "touched": null
   }
  ]

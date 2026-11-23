@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-11T22:05:26Z | dias corridos: 11.6 de 28 | corridas: 257
-- Capital inicial: $1,000.00 | valor actual: $1,025.12 | P&L: $+25.12 (+2.51%)
-- Efectivo libre: $410.23 | en ordenes abiertas: $414.92 (10) | en posiciones: $199.91 (4)
+- Inicio: 2026-11-11T22:05:26Z | dias corridos: 11.6 de 28 | corridas: 258
+- Capital inicial: $1,000.00 | valor actual: $1,025.52 | P&L: $+25.52 (+2.55%)
+- Efectivo libre: $410.10 | en ordenes abiertas: $415.05 (10) | en posiciones: $199.91 (4)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 434 colocadas, 102 llenadas, 226 tocadas sin llenarse (sorteo 30%), 96 expiradas
+- Ordenes virtuales: 436 colocadas, 102 llenadas, 226 tocadas sin llenarse (sorteo 30%), 98 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -29,7 +29,7 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
 | $51.82 | 98.5c | 98.3c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
-| $51.25 | 97.1c | 97.1c | deportes_previo |  | Spread: FK Neftchi Fargona (-1.5) |
+| $51.25 | 97.1c | 97.9c | deportes_previo |  | Spread: FK Neftchi Fargona (-1.5) |
 | $51.12 | 98.7c | 98.8c | deportes_previo |  | Alcorn State Braves vs. Michigan State Spartans (W) |
 | $45.72 | 99.7c | 100.0c | cripto_cierre |  | Will the price of Ethereum be above $1,500 on November 23? |
 
@@ -37,20 +37,20 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 4076 | abiertas: 389 | abiertas mas de 7 dias despues de su fecha de fin: 1
+- Resueltas: 4083 | abiertas: 394 | abiertas mas de 7 dias despues de su fecha de fin: 1
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
-| cripto_cierre | todas | 1148 | 98.72c | 99.13% | +0.41 pts | -0.13 a +0.94 | 10 |
-| cripto_cierre | tocadas | 795 | 98.55c | 98.74% | +0.20 pts | -0.58 a +0.97 | 10 |
+| cripto_cierre | todas | 1152 | 98.72c | 99.13% | +0.41 pts | -0.12 a +0.95 | 10 |
+| cripto_cierre | tocadas | 798 | 98.55c | 98.75% | +0.20 pts | -0.57 a +0.97 | 10 |
 | deportes_previo | todas | 2291 | 98.30c | 98.95% | +0.65 pts | +0.24 a +1.06 | 25 |
 | deportes_previo | tocadas | 1952 | 98.28c | 98.87% | +0.60 pts | +0.13 a +1.06 | 23 |
 | otros_cierre | todas | 557 | 98.80c | 99.28% | +0.48 pts | -0.23 a +1.18 | 4 |
 | otros_cierre | tocadas | 371 | 98.69c | 98.92% | +0.23 pts | -0.83 a +1.29 | 4 |
-| post_fin_95_97 | todas | 80 | 95.89c | 92.50% | -3.39 pts | -9.20 a +2.42 | 6 |
-| post_fin_95_97 | tocadas | 71 | 95.92c | 91.55% | -4.37 pts | -10.88 a +2.15 | 6 |
-| TOTAL | todas | 4076 | 98.44c | 98.92% | +0.48 pts | +0.16 a +0.79 | 45 |
-| TOTAL | tocadas | 3189 | 98.34c | 98.68% | +0.34 pts | -0.05 a +0.73 | 43 |
+| post_fin_95_97 | todas | 83 | 95.88c | 92.77% | -3.11 pts | -8.72 a +2.50 | 6 |
+| post_fin_95_97 | tocadas | 74 | 95.91c | 91.89% | -4.01 pts | -10.28 a +2.25 | 6 |
+| TOTAL | todas | 4083 | 98.44c | 98.92% | +0.48 pts | +0.17 a +0.80 | 45 |
+| TOTAL | tocadas | 3195 | 98.34c | 98.69% | +0.35 pts | -0.04 a +0.74 | 43 |
 
 Peores casos del registro sombra:
 
