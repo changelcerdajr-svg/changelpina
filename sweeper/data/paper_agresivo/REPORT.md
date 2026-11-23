@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 9.9 de 28 | corridas: 219
-- Capital inicial: $1,000.00 | valor actual: $901.55 | P&L: $-98.45 (-9.85%)
-- Efectivo libre: $0.00 | en ordenes abiertas: $428.68 (7) | en posiciones: $484.83 (7)
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 9.9 de 28 | corridas: 220
+- Capital inicial: $1,000.00 | valor actual: $896.42 | P&L: $-103.58 (-10.36%)
+- Efectivo libre: $2.01 | en ordenes abiertas: $370.65 (6) | en posiciones: $540.86 (8)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $91.77 en 1 posiciones
-- Ordenes virtuales: 446 colocadas, 198 llenadas, 194 tocadas sin llenarse (sorteo 30%), 47 expiradas
+- Ordenes virtuales: 447 colocadas, 199 llenadas, 195 tocadas sin llenarse (sorteo 30%), 47 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -31,34 +31,35 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
-| $91.77 | 99.8c | 90.0c | otros_cierre | si | Pakistan military action against Afghanistan by November 15, 2026? |
-| $35.36 | 99.8c | 97.0c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $4.5m and $5.5m at auction? |
-| $87.27 | 99.8c | 98.4c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
-| $89.82 | 99.0c | 98.4c | deportes_previo |  | Spread: FK LNZ Cherkasy (-2.5) |
+| $91.77 | 99.8c | 89.8c | otros_cierre | si | Pakistan military action against Afghanistan by November 15, 2026? |
+| $35.36 | 99.8c | 96.5c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $4.5m and $5.5m at auction? |
+| $87.27 | 99.8c | 98.3c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
+| $89.82 | 99.0c | 96.3c | deportes_previo |  | Spread: FK LNZ Cherkasy (-2.5) |
 | $89.85 | 98.4c | 98.2c | deportes_previo |  | Spread: FK Polissia (-3.5) |
-| $72.13 | 95.0c | 95.0c | deportes_previo |  | Spread: FK Epitsentr Dunaivtsi (-2.5) |
-| $18.63 | 99.3c | 99.3c | deportes_previo |  | Spread: FK Neftchi Fargona (-2.5) |
+| $72.13 | 95.0c | 91.2c | deportes_previo |  | Spread: FK Epitsentr Dunaivtsi (-2.5) |
+| $18.63 | 99.3c | 99.2c | deportes_previo |  | Spread: FK Neftchi Fargona (-2.5) |
+| $56.03 | 99.8c | 99.8c | otros_cierre |  | Will "I Play Rocky" score at least 60 on the Rotten Tomatoes Tomatometer? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 11643 | abiertas: 2127 | abiertas mas de 7 dias despues de su fecha de fin: 1
+- Resueltas: 11668 | abiertas: 2150 | abiertas mas de 7 dias despues de su fecha de fin: 1
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
-| clima_cierre | todas | 3099 | 98.82c | 99.03% | +0.21 pts | -0.14 a +0.55 | 30 |
-| clima_cierre | tocadas | 2872 | 98.85c | 98.96% | +0.11 pts | -0.26 a +0.47 | 30 |
-| cripto_cierre | todas | 1509 | 98.69c | 98.21% | -0.48 pts | -1.15 a +0.18 | 27 |
-| cripto_cierre | tocadas | 1368 | 98.75c | 98.03% | -0.72 pts | -1.45 a +0.01 | 27 |
-| deportes_previo | todas | 5590 | 98.02c | 97.42% | -0.61 pts | -1.02 a -0.20 | 147 |
-| deportes_previo | tocadas | 5459 | 98.06c | 97.39% | -0.67 pts | -1.09 a -0.25 | 145 |
+| clima_cierre | todas | 3105 | 98.82c | 99.03% | +0.21 pts | -0.13 a +0.55 | 30 |
+| clima_cierre | tocadas | 2878 | 98.85c | 98.96% | +0.11 pts | -0.26 a +0.48 | 30 |
+| cripto_cierre | todas | 1510 | 98.69c | 98.21% | -0.48 pts | -1.14 a +0.18 | 27 |
+| cripto_cierre | tocadas | 1369 | 98.75c | 98.03% | -0.72 pts | -1.45 a +0.01 | 27 |
+| deportes_previo | todas | 5608 | 98.03c | 97.42% | -0.60 pts | -1.01 a -0.19 | 147 |
+| deportes_previo | tocadas | 5476 | 98.06c | 97.40% | -0.66 pts | -1.08 a -0.24 | 145 |
 | otros_cierre | todas | 1238 | 99.00c | 97.01% | -1.99 pts | -2.93 a -1.05 | 37 |
 | otros_cierre | tocadas | 1156 | 98.97c | 96.80% | -2.17 pts | -3.18 a -1.16 | 37 |
 | post_fin_90_97 | todas | 207 | 94.04c | 92.27% | -1.77 pts | -5.37 a +1.83 | 16 |
 | post_fin_90_97 | tocadas | 175 | 94.15c | 90.86% | -3.29 pts | -7.51 a +0.93 | 16 |
-| TOTAL | todas | 11643 | 98.36c | 97.81% | -0.54 pts | -0.81 a -0.28 | 257 |
-| TOTAL | tocadas | 11030 | 98.38c | 97.71% | -0.67 pts | -0.95 a -0.40 | 255 |
+| TOTAL | todas | 11668 | 98.36c | 97.82% | -0.54 pts | -0.80 a -0.28 | 257 |
+| TOTAL | tocadas | 11054 | 98.38c | 97.72% | -0.67 pts | -0.94 a -0.39 | 255 |
 
 Peores casos del registro sombra:
 

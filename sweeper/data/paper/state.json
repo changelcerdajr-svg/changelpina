@@ -109,27 +109,6 @@
    "liq": 2254
   },
   {
-   "oid": "7244878-1795413672",
-   "id": "7244878",
-   "q": "Spread: FK Neftchi Fargona (-1.5)",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1440197",
-   "side": 1,
-   "token": "13337225547644840946192468643040897826299711173531422268954739849908066406589",
-   "px": 0.971,
-   "tick": 0.001,
-   "mid": 0.971,
-   "bid": 0.97,
-   "ask": 0.972,
-   "shares": 52.7784,
-   "cost": 51.2478,
-   "ts": 1795413672.641813,
-   "end_ts": 1795441500.0,
-   "hours": 7.73,
-   "liq": 3080
-  },
-  {
    "oid": "5420124-1795413672",
    "id": "5420124",
    "q": "Will \"The Hunger Games: Sunrise on the Reaping\" score at least 60 on the Rotten Tomatoes Tomatometer?",
@@ -257,7 +236,7 @@
    "hours": 4.96,
    "liq": 1203,
    "fill_ts": 1794967266.068418,
-   "mark": 0.984,
+   "mark": 0.983,
    "stuck": false,
    "disputed": false
   },
@@ -307,9 +286,32 @@
    "hours": 10.98,
    "liq": 38595,
    "fill_ts": 1795417266.853569,
-   "mark": 0.9985,
+   "mark": 0.9995,
    "stuck": false,
    "disputed": false
+  },
+  {
+   "oid": "7244878-1795413672",
+   "id": "7244878",
+   "q": "Spread: FK Neftchi Fargona (-1.5)",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1440197",
+   "side": 1,
+   "token": "13337225547644840946192468643040897826299711173531422268954739849908066406589",
+   "px": 0.971,
+   "tick": 0.001,
+   "mid": 0.971,
+   "bid": 0.97,
+   "ask": 0.972,
+   "shares": 52.7784,
+   "cost": 51.2478,
+   "ts": 1795413672.641813,
+   "end_ts": 1795441500.0,
+   "hours": 7.73,
+   "liq": 3080,
+   "fill_ts": 1795435270.398506,
+   "mark": 0.971
   }
  ],
  "closed": [
@@ -6546,12 +6548,25 @@
    "placed": 0,
    "shadow_open": 375,
    "shadow_closed": 6
+  },
+  {
+   "ts": "2026-11-23T12:01:37Z",
+   "equity": 1025.12,
+   "cash": 410.23,
+   "orders": 10,
+   "positions": 4,
+   "closed": 98,
+   "scanned": 9357,
+   "candidates": 175,
+   "placed": 0,
+   "shadow_open": 389,
+   "shadow_closed": 1
   }
  ],
  "halted": false,
  "stats": {
   "placed": 434,
-  "filled": 101,
+  "filled": 102,
   "expired": 96,
   "touched_not_filled": 226
  },
@@ -8715,19 +8730,6 @@
    "touched": 1
   },
   {
-   "id": "6639803",
-   "rule": "post_fin_95_97",
-   "cat": "deportes",
-   "side": 1,
-   "token": "77718096889389040941348249542405688191976008354291412041342691118034696744548",
-   "px": 0.953,
-   "tick": 0.001,
-   "ts": 1795390710,
-   "end_ts": 1795370400,
-   "q": "Spread: Jaguars (-5.5)",
-   "touched": null
-  },
-  {
    "id": "6931073",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -8738,7 +8740,7 @@
    "ts": 1795390710,
    "end_ts": 1795446000,
    "q": "El Gouna SC vs. Zamalek SC: O/U 5.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7097150",
@@ -8751,7 +8753,7 @@
    "ts": 1795390710,
    "end_ts": 1795453200,
    "q": "Will the price of Bitcoin be between $70,000 and $72,000 on November 23?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7097174",
@@ -8764,7 +8766,7 @@
    "ts": 1795390710,
    "end_ts": 1795453200,
    "q": "Will the price of Ethereum be between $1,500 and $1,600 on November 23?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6962022",
@@ -8777,7 +8779,7 @@
    "ts": 1795390710,
    "end_ts": 1795473000,
    "q": "Spread: EC Vitória (-2.5)",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6962035",
@@ -8790,7 +8792,7 @@
    "ts": 1795390710,
    "end_ts": 1795473000,
    "q": "SC Internacional vs. EC Vitória: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7104596",
@@ -8803,7 +8805,7 @@
    "ts": 1795390710,
    "end_ts": 1795467600,
    "q": "Spread: Sportivo San Lorenzo (-2.5)",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6998539",
@@ -8816,7 +8818,7 @@
    "ts": 1795390710,
    "end_ts": 1795482000,
    "q": "Winthrop Eagles vs. Illinois Fighting Illini",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6639802",
@@ -11429,6 +11431,201 @@
    "ts": 1795431671,
    "end_ts": 1795522500,
    "q": "Spread: Ratchaburi FC (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "7097180",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "23252099521709949386688121825003099539054163486069959123623094203773309412146",
+   "px": 0.978,
+   "tick": 0.001,
+   "ts": 1795435270,
+   "end_ts": 1795453200,
+   "q": "Will the price of Ethereum be between $1,800 and $1,900 on November 23?",
+   "touched": null
+  },
+  {
+   "id": "7097225",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "111064161136634542945135760686323242794520172753956325668750161712325376268970",
+   "px": 0.977,
+   "tick": 0.001,
+   "ts": 1795435270,
+   "end_ts": 1795453200,
+   "q": "Will the price of XRP be between $0.80 and $0.90 on November 23?",
+   "touched": null
+  },
+  {
+   "id": "6930851",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "77069328596353941039681888050066943144678230471614374956650262230829992831555",
+   "px": 0.987,
+   "tick": 0.001,
+   "ts": 1795435270,
+   "end_ts": 1795460400,
+   "q": "CDT Real Oruro vs. Club Guabirá: O/U 8.5",
+   "touched": null
+  },
+  {
+   "id": "6943549",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "37252848844476745890675456883385439212122567777568528322190832856815753872910",
+   "px": 0.973,
+   "tick": 0.001,
+   "ts": 1795435270,
+   "end_ts": 1795462200,
+   "q": "Spread: AD Ceuta FC (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "7101518",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "44709435386894079321965430266565534373734121874956491192533751213107840030243",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1795435270,
+   "end_ts": 1795463100,
+   "q": "Spread: AC Lumezzane (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "6998536",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "58410954727506068049692558094532656199747293704811899703471459454705748950836",
+   "px": 0.972,
+   "tick": 0.001,
+   "ts": 1795435270,
+   "end_ts": 1795480200,
+   "q": "Texas A&M-Corpus Christi Islanders vs. Wichita State Shockers",
+   "touched": null
+  },
+  {
+   "id": "6949224",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "113123435695671356442800232080098463158377750959304699533212971388316169499444",
+   "px": 0.984,
+   "tick": 0.001,
+   "ts": 1795435270,
+   "end_ts": 1795496340,
+   "q": "Will any other model be the best AI model on November 23, 2026?",
+   "touched": null
+  },
+  {
+   "id": "7245857",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "47659797196664861621665024375916793755454951076281331697347003760199173159406",
+   "px": 0.988,
+   "tick": 0.001,
+   "ts": 1795435270,
+   "end_ts": 1795514400,
+   "q": "Spread: FC Pohang Steelers (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "6942837",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "93934192214916126665785878100272230898559278219183559117831293204264023481084",
+   "px": 0.977,
+   "tick": 0.001,
+   "ts": 1795435270,
+   "end_ts": 1795542300,
+   "q": "Spread: LASK Linz (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "6942839",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "9452370674934371109175151299895310953707178257395036515937608247728225017336",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795435270,
+   "end_ts": 1795542300,
+   "q": "Spread: LASK Linz (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "6942844",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "69316640720578130689989000003676007835367556149773477143074139371906657632109",
+   "px": 0.979,
+   "tick": 0.001,
+   "ts": 1795435270,
+   "end_ts": 1795542300,
+   "q": "FK Bodø/Glimt vs. LASK Linz: O/U 0.5",
+   "touched": null
+  },
+  {
+   "id": "6942852",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "103301895945044666418161811749591991314826806446434203118830808843911470013538",
+   "px": 0.98,
+   "tick": 0.001,
+   "ts": 1795435270,
+   "end_ts": 1795542300,
+   "q": "FK Bodø/Glimt vs. LASK Linz: O/U 8.5",
+   "touched": null
+  },
+  {
+   "id": "6942889",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "59644111992346333328291929284314298532526120493008056947063276999739827744450",
+   "px": 0.977,
+   "tick": 0.001,
+   "ts": 1795435270,
+   "end_ts": 1795542300,
+   "q": "Spread: Galatasaray SK (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "6942895",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "17356282165579347602753521323100255019294367159044157250452699702971268115835",
+   "px": 0.974,
+   "tick": 0.001,
+   "ts": 1795435270,
+   "end_ts": 1795542300,
+   "q": "Galatasaray SK vs. Aston Villa FC: O/U 0.5",
+   "touched": null
+  },
+  {
+   "id": "6942903",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "87795006023388573053209854520881334997426395804321178959677385700809873062276",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1795435270,
+   "end_ts": 1795542300,
+   "q": "Galatasaray SK vs. Aston Villa FC: O/U 8.5",
    "touched": null
   }
  ]
