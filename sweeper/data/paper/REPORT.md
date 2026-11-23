@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-11T22:05:26Z | dias corridos: 11.7 de 28 | corridas: 261
-- Capital inicial: $1,000.00 | valor actual: $1,025.27 | P&L: $+25.27 (+2.53%)
-- Efectivo libre: $410.08 | en ordenes abiertas: $312.55 (8) | en posiciones: $302.43 (6)
+- Inicio: 2026-11-11T22:05:26Z | dias corridos: 11.8 de 28 | corridas: 262
+- Capital inicial: $1,000.00 | valor actual: $1,025.39 | P&L: $+25.39 (+2.54%)
+- Efectivo libre: $410.00 | en ordenes abiertas: $261.41 (6) | en posiciones: $353.66 (7)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 444 colocadas, 104 llenadas, 232 tocadas sin llenarse (sorteo 30%), 100 expiradas
+- Ordenes virtuales: 448 colocadas, 105 llenadas, 235 tocadas sin llenarse (sorteo 30%), 102 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -31,15 +31,16 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 | $51.82 | 98.5c | 98.3c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
 | $51.25 | 97.1c | 97.5c | deportes_previo |  | Spread: FK Neftchi Fargona (-1.5) |
 | $51.27 | 98.4c | 98.4c | otros_cierre |  | Will "The Hunger Games: Sunrise on the Reaping" score at least 70 on the Rotten  |
-| $51.12 | 98.7c | 98.8c | deportes_previo |  | Alcorn State Braves vs. Michigan State Spartans (W) |
-| $45.72 | 99.7c | 99.8c | cripto_cierre |  | Will the price of Ethereum be above $1,500 on November 23? |
+| $51.23 | 99.6c | 99.6c | otros_cierre |  | Will "I Play Rocky" score at least 60 on the Rotten Tomatoes Tomatometer? |
+| $51.12 | 98.7c | 98.9c | deportes_previo |  | Alcorn State Braves vs. Michigan State Spartans (W) |
+| $45.72 | 99.7c | 100.0c | cripto_cierre |  | Will the price of Ethereum be above $1,500 on November 23? |
 | $51.25 | 99.4c | 99.4c | cripto_cierre |  | Will the price of Bitcoin be less than $56,000 on November 23? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 4091 | abiertas: 482 | abiertas mas de 7 dias despues de su fecha de fin: 1
+- Resueltas: 4091 | abiertas: 525 | abiertas mas de 7 dias despues de su fecha de fin: 1
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
@@ -69,4 +70,4 @@ Peores casos del registro sombra:
 
 ## Veredicto
 
-Aun no hay veredicto: van 98 operaciones cerradas en 11.7 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
+Aun no hay veredicto: van 98 operaciones cerradas en 11.8 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
