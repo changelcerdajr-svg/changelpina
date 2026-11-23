@@ -1,6 +1,6 @@
 {
  "capital0": 1000.0,
- "cash": 0.0,
+ "cash": -0.0,
  "started": "2026-11-13T13:15:42Z",
  "orders": [
   {
@@ -88,7 +88,7 @@
    "liq": 32919
   },
   {
-   "oid": "6956416-1795410106",
+   "oid": "6956416-1795413695",
    "id": "6956416",
    "q": "Spread: FK LNZ Cherkasy (-2.5)",
    "cat": "deportes",
@@ -96,17 +96,59 @@
    "event": "1362213",
    "side": 1,
    "token": "84218930731672083057434507615771641237439003841050202224043346100503381754366",
-   "px": 0.991,
+   "px": 0.99,
    "tick": 0.001,
-   "mid": 0.9835,
+   "mid": 0.983,
    "bid": 0.975,
-   "ask": 0.992,
-   "shares": 11.2265,
-   "cost": 11.1255,
-   "ts": 1795410106.744861,
+   "ask": 0.991,
+   "shares": 90.7289,
+   "cost": 89.8216,
+   "ts": 1795413695.826055,
    "end_ts": 1795431600.0,
-   "hours": 5.97,
-   "liq": 2117
+   "hours": 4.97,
+   "liq": 2075
+  },
+  {
+   "oid": "6956419-1795413695",
+   "id": "6956419",
+   "q": "Spread: FK Polissia (-3.5)",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1362213",
+   "side": 1,
+   "token": "109016958564063847798521339992186420317884348273666928080810321462164398446418",
+   "px": 0.984,
+   "tick": 0.001,
+   "mid": 0.9775,
+   "bid": 0.97,
+   "ask": 0.985,
+   "shares": 91.2821,
+   "cost": 89.8215,
+   "ts": 1795413695.826055,
+   "end_ts": 1795431600.0,
+   "hours": 4.97,
+   "liq": 1993
+  },
+  {
+   "oid": "6956457-1795413695",
+   "id": "6956457",
+   "q": "Spread: FK Chornomorets Odesa (-2.5)",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1362218",
+   "side": 1,
+   "token": "76276618678932686376074654526976718861553452727313472289889025639329538583745",
+   "px": 0.963,
+   "tick": 0.001,
+   "mid": 0.957,
+   "bid": 0.95,
+   "ask": 0.964,
+   "shares": 83.0915,
+   "cost": 80.0171,
+   "ts": 1795413695.826055,
+   "end_ts": 1795431600.0,
+   "hours": 4.97,
+   "liq": 1774
   }
  ],
  "positions": [
@@ -131,7 +173,7 @@
    "hours": 3.96,
    "liq": 1095,
    "fill_ts": 1794791170.442568,
-   "mark": 0.8985,
+   "mark": 0.898,
    "stuck": true,
    "disputed": false
   },
@@ -156,7 +198,7 @@
    "hours": 2.96,
    "liq": 1408,
    "fill_ts": 1794970596.794632,
-   "mark": 0.983,
+   "mark": 0.9735,
    "stuck": false,
    "disputed": false
   },
@@ -186,31 +228,6 @@
    "disputed": false
   },
   {
-   "oid": "7085150-1795345334",
-   "id": "7085150",
-   "q": "Will Bitcoin reach $72,000 November 16-22?",
-   "cat": "cripto",
-   "rule": "cripto_cierre",
-   "event": "1399648",
-   "side": 1,
-   "token": "104950626044246944494913502731899035062095599081042991431027080799945522049075",
-   "px": 0.998,
-   "tick": 0.001,
-   "mid": 0.9985,
-   "bid": 0.998,
-   "ask": 0.999,
-   "shares": 83.3424,
-   "cost": 83.1757,
-   "ts": 1795345334.447458,
-   "end_ts": 1795410000.0,
-   "hours": 17.96,
-   "liq": 53774,
-   "fill_ts": 1795352504.194992,
-   "mark": 0.998,
-   "stuck": false,
-   "disputed": false
-  },
-  {
    "oid": "7193301-1795359703",
    "id": "7193301",
    "q": "Will the highest temperature in Chicago be between 58-59°F on November 22?",
@@ -232,31 +249,6 @@
    "liq": 538,
    "fill_ts": 1795363351.782952,
    "mark": 0.9995,
-   "stuck": false,
-   "disputed": false
-  },
-  {
-   "oid": "6902042-1795392118",
-   "id": "6902042",
-   "q": "Spread: Aurora FC (-2.5)",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1348442",
-   "side": 1,
-   "token": "93676011504034500382154336867745298203409028389522973761485593963653445657662",
-   "px": 0.994,
-   "tick": 0.001,
-   "mid": 0.985,
-   "bid": 0.975,
-   "ask": 0.995,
-   "shares": 90.0696,
-   "cost": 89.5292,
-   "ts": 1795392118.169992,
-   "end_ts": 1795396200.0,
-   "hours": 1.13,
-   "liq": 1886,
-   "fill_ts": 1795395686.804085,
-   "mark": 0.994,
    "stuck": false,
    "disputed": false
   },
@@ -309,29 +301,6 @@
    "mark": 0.99,
    "stuck": false,
    "disputed": false
-  },
-  {
-   "oid": "7218650-1795406490",
-   "id": "7218650",
-   "q": "Counter-Strike: regain vs Iowa Stormboar (BO3) - CROSSFIRE Playoffs",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1435544",
-   "side": 0,
-   "token": "16371588747180315036553926292139161466256362875227596194541298217053331595896",
-   "px": 0.999,
-   "tick": 0.001,
-   "mid": 0.9975,
-   "bid": 0.995,
-   "ask": 1,
-   "shares": 75.1227,
-   "cost": 75.0476,
-   "ts": 1795406490.160254,
-   "end_ts": 1795417200.0,
-   "hours": 2.97,
-   "liq": 24217,
-   "fill_ts": 1795410106.744861,
-   "mark": 0.999
   }
  ],
  "closed": [
@@ -5770,6 +5739,94 @@
    "result": 1.0,
    "closed_ts": "2026-11-23T04:01:33Z",
    "days": 0.21
+  },
+  {
+   "oid": "7085150-1795345334",
+   "id": "7085150",
+   "q": "Will Bitcoin reach $72,000 November 16-22?",
+   "cat": "cripto",
+   "rule": "cripto_cierre",
+   "event": "1399648",
+   "side": 1,
+   "token": "104950626044246944494913502731899035062095599081042991431027080799945522049075",
+   "px": 0.998,
+   "tick": 0.001,
+   "mid": 0.9985,
+   "bid": 0.998,
+   "ask": 0.999,
+   "shares": 83.3424,
+   "cost": 83.1757,
+   "ts": 1795345334.447458,
+   "end_ts": 1795410000.0,
+   "hours": 17.96,
+   "liq": 53774,
+   "fill_ts": 1795352504.194992,
+   "mark": 0.998,
+   "stuck": false,
+   "disputed": false,
+   "payout": 83.3424,
+   "pnl": 0.1667,
+   "result": 1.0,
+   "closed_ts": "2026-11-23T06:01:43Z",
+   "days": 0.71
+  },
+  {
+   "oid": "6902042-1795392118",
+   "id": "6902042",
+   "q": "Spread: Aurora FC (-2.5)",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1348442",
+   "side": 1,
+   "token": "93676011504034500382154336867745298203409028389522973761485593963653445657662",
+   "px": 0.994,
+   "tick": 0.001,
+   "mid": 0.985,
+   "bid": 0.975,
+   "ask": 0.995,
+   "shares": 90.0696,
+   "cost": 89.5292,
+   "ts": 1795392118.169992,
+   "end_ts": 1795396200.0,
+   "hours": 1.13,
+   "liq": 1886,
+   "fill_ts": 1795395686.804085,
+   "mark": 0.994,
+   "stuck": false,
+   "disputed": false,
+   "payout": 90.0696,
+   "pnl": 0.5404,
+   "result": 1.0,
+   "closed_ts": "2026-11-23T06:01:43Z",
+   "days": 0.21
+  },
+  {
+   "oid": "7218650-1795406490",
+   "id": "7218650",
+   "q": "Counter-Strike: regain vs Iowa Stormboar (BO3) - CROSSFIRE Playoffs",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1435544",
+   "side": 0,
+   "token": "16371588747180315036553926292139161466256362875227596194541298217053331595896",
+   "px": 0.999,
+   "tick": 0.001,
+   "mid": 0.9975,
+   "bid": 0.995,
+   "ask": 1,
+   "shares": 75.1227,
+   "cost": 75.0476,
+   "ts": 1795406490.160254,
+   "end_ts": 1795417200.0,
+   "hours": 2.97,
+   "liq": 24217,
+   "fill_ts": 1795410106.744861,
+   "mark": 0.999,
+   "payout": 75.1227,
+   "pnl": 0.0751,
+   "result": 1.0,
+   "closed_ts": "2026-11-23T06:01:43Z",
+   "days": 0.04
   }
  ],
  "runs": [
@@ -8528,14 +8585,27 @@
    "placed": 1,
    "shadow_open": 2445,
    "shadow_closed": 147
+  },
+  {
+   "ts": "2026-11-23T06:02:25Z",
+   "equity": 898.22,
+   "cash": -0.0,
+   "orders": 7,
+   "positions": 6,
+   "closed": 187,
+   "scanned": 15458,
+   "candidates": 838,
+   "placed": 3,
+   "shadow_open": 2289,
+   "shadow_closed": 195
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 429,
+  "placed": 432,
   "filled": 193,
   "expired": 46,
-  "touched_not_filled": 185
+  "touched_not_filled": 186
  },
  "shadow": [
   {
@@ -9267,45 +9337,6 @@
    "touched": 1
   },
   {
-   "id": "5763814",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "65398866854598561857162658122445071762398469814448346626321476419076047748820",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795150907,
-   "end_ts": 1795409940,
-   "q": "Will OpenRouter process between 675T and 725T tokens from Oct 26 to Nov 22?",
-   "touched": 1
-  },
-  {
-   "id": "5763815",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "69361310336830576230613545878669264146295166638950702624315653157292183550426",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795150907,
-   "end_ts": 1795409940,
-   "q": "Will OpenRouter process between 725T and 775T tokens from Oct 26 to Nov 22?",
-   "touched": 1
-  },
-  {
-   "id": "5763816",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 0,
-   "token": "105476520048902243445957303386235734509601456086776239643109428353896560169783",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1795150907,
-   "end_ts": 1795409940,
-   "q": "Will OpenRouter process at least 775T tokens from Oct 26 to Nov 22?",
-   "touched": 1
-  },
-  {
    "id": "6364892",
    "rule": "otros_cierre",
    "cat": "otros",
@@ -9342,71 +9373,6 @@
    "ts": 1795150907,
    "end_ts": 1795409940,
    "q": "Will the next Meta Muse Spark model be released on November 22, 2026?",
-   "touched": 1
-  },
-  {
-   "id": "6942349",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "10769871353278309806757696147947023380002589686701527937209771071987824242883",
-   "px": 0.99,
-   "tick": 0.001,
-   "ts": 1795150907,
-   "end_ts": 1795409940,
-   "q": "Will OpenRouter process less than 210T tokens the week of November 16?",
-   "touched": 1
-  },
-  {
-   "id": "6942350",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "111651612232579684737312034165277803867179719840916259570380700231222253500738",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795150907,
-   "end_ts": 1795409940,
-   "q": "Will OpenRouter process between 210T and 220T tokens the week of November 16?",
-   "touched": 1
-  },
-  {
-   "id": "6942351",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "67773354750495774326763332148208040627918013093570744871117329311436053481136",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795150907,
-   "end_ts": 1795409940,
-   "q": "Will OpenRouter process between 220T and 230T tokens the week of November 16?",
-   "touched": 1
-  },
-  {
-   "id": "6942352",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "115504712072404310741129185090950322769185148557160635772742688030726801766242",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795150907,
-   "end_ts": 1795409940,
-   "q": "Will OpenRouter process between 230T and 240T tokens the week of November 16?",
-   "touched": 1
-  },
-  {
-   "id": "6942353",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 0,
-   "token": "78859983955710010664945768178601904966697659863772533076948663201791413474096",
-   "px": 0.986,
-   "tick": 0.001,
-   "ts": 1795150907,
-   "end_ts": 1795409940,
-   "q": "Will OpenRouter process 240T or more tokens the week of November 16?",
    "touched": 1
   },
   {
@@ -9553,565 +9519,6 @@
    "touched": 1
   },
   {
-   "id": "7085137",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "35116919449738515714925399023697254201673781711973905309794957423410821197644",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795150907,
-   "end_ts": 1795410000,
-   "q": "Will Bitcoin reach $78,000 November 16-22?",
-   "touched": 0
-  },
-  {
-   "id": "7085140",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "93643630945574261869584592676284171820781464636282624290486543803205388649644",
-   "px": 0.996,
-   "tick": 0.001,
-   "ts": 1795150907,
-   "end_ts": 1795410000,
-   "q": "Will Bitcoin reach $76,000 November 16-22?",
-   "touched": 0
-  },
-  {
-   "id": "7085145",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "66811927444154388962737155976593762795877904699958462054886469558102786354215",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795150907,
-   "end_ts": 1795410000,
-   "q": "Will Bitcoin reach $74,000 November 16-22?",
-   "touched": 1
-  },
-  {
-   "id": "7085150",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "104950626044246944494913502731899035062095599081042991431027080799945522049075",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1795150907,
-   "end_ts": 1795410000,
-   "q": "Will Bitcoin reach $72,000 November 16-22?",
-   "touched": 1
-  },
-  {
-   "id": "7085155",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "11003911791544019703431273543842802265575678794776491145026188379936280843948",
-   "px": 0.992,
-   "tick": 0.001,
-   "ts": 1795150907,
-   "end_ts": 1795410000,
-   "q": "Will Bitcoin reach $70,000 November 16-22?",
-   "touched": 1
-  },
-  {
-   "id": "7085159",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "57549029768364277265424766950805444063914047745557282432970222724564350837033",
-   "px": 0.98,
-   "tick": 0.001,
-   "ts": 1795150907,
-   "end_ts": 1795410000,
-   "q": "Will Bitcoin reach $68,000 November 16-22?",
-   "touched": 1
-  },
-  {
-   "id": "7085179",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "28577370528316977134653942714233130220703311027677067940189627715616608518278",
-   "px": 0.955,
-   "tick": 0.001,
-   "ts": 1795150907,
-   "end_ts": 1795410000,
-   "q": "Will Bitcoin dip to $54,000 November 16-22?",
-   "touched": 1
-  },
-  {
-   "id": "7085181",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "14680491637671934951860527252371198509074382068888235283298714635793439422171",
-   "px": 0.975,
-   "tick": 0.001,
-   "ts": 1795150907,
-   "end_ts": 1795410000,
-   "q": "Will Bitcoin dip to $52,000 November 16-22?",
-   "touched": 1
-  },
-  {
-   "id": "7085183",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "65054692161564225706400808079761636356980006429434323818920552389740277211643",
-   "px": 0.987,
-   "tick": 0.001,
-   "ts": 1795150907,
-   "end_ts": 1795410000,
-   "q": "Will Bitcoin dip to $50,000 November 16-22?",
-   "touched": 1
-  },
-  {
-   "id": "7085188",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "78589049304789364316520688250992633618149482734707740534242887921252862300836",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795150907,
-   "end_ts": 1795410000,
-   "q": "Will Ethereum reach $2,400 November 16-22?",
-   "touched": 1
-  },
-  {
-   "id": "7085190",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "43015312188721739431656041069413364733154502106311973094831634756867682136984",
-   "px": 0.996,
-   "tick": 0.001,
-   "ts": 1795150907,
-   "end_ts": 1795410000,
-   "q": "Will Ethereum reach $2,300 November 16-22?",
-   "touched": 1
-  },
-  {
-   "id": "7085192",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "101714836540294386195660727528242735504251650313296034548006874859151092504779",
-   "px": 0.993,
-   "tick": 0.001,
-   "ts": 1795150907,
-   "end_ts": 1795410000,
-   "q": "Will Ethereum reach $2,200 November 16-22?",
-   "touched": 1
-  },
-  {
-   "id": "7085194",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "95645720834187584862082915426367835284293510576705571560252217494002372559571",
-   "px": 0.983,
-   "tick": 0.001,
-   "ts": 1795150907,
-   "end_ts": 1795410000,
-   "q": "Will Ethereum reach $2,100 November 16-22?",
-   "touched": 1
-  },
-  {
-   "id": "7085196",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "79834888289141884498481128368277169239594663441029906068620576948550359085945",
-   "px": 0.979,
-   "tick": 0.001,
-   "ts": 1795150907,
-   "end_ts": 1795410000,
-   "q": "Will Ethereum reach $2,000 November 16-22?",
-   "touched": 1
-  },
-  {
-   "id": "7085206",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "42188915180026158125409609932497680703623135243896701837774177724927841701475",
-   "px": 0.968,
-   "tick": 0.001,
-   "ts": 1795150907,
-   "end_ts": 1795410000,
-   "q": "Will Ethereum dip to $1,400 November 16-22?",
-   "touched": 1
-  },
-  {
-   "id": "7085208",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "45815081582297333320313111890411248825463215826899182596933777301406122450624",
-   "px": 0.985,
-   "tick": 0.001,
-   "ts": 1795150907,
-   "end_ts": 1795410000,
-   "q": "Will Ethereum dip to $1,300 November 16-22?",
-   "touched": 1
-  },
-  {
-   "id": "7085210",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "48260061279350547616671281052523370838615141187158656142391265353545695814687",
-   "px": 0.993,
-   "tick": 0.001,
-   "ts": 1795150907,
-   "end_ts": 1795410000,
-   "q": "Will Ethereum dip to $1,200 November 16-22?",
-   "touched": 1
-  },
-  {
-   "id": "7085212",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "71893017593704404181405512393492318430843796118161930323553295573855311742465",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795150907,
-   "end_ts": 1795410000,
-   "q": "Will Ethereum dip to $1,100 November 16-22?",
-   "touched": 1
-  },
-  {
-   "id": "7085216",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "77181818220541358870660294158501511524629260153664033630612991014685946730607",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795150907,
-   "end_ts": 1795410000,
-   "q": "Will XRP reach $1.70 November 16-22?",
-   "touched": 1
-  },
-  {
-   "id": "7085218",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "69427287853624910109113137882866267379216688603099844166774496831502383493486",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795150907,
-   "end_ts": 1795410000,
-   "q": "Will XRP reach $1.60 November 16-22?",
-   "touched": 1
-  },
-  {
-   "id": "7085220",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "60766081212684397089990032809310598752606986022787922850742608095826818914284",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795150907,
-   "end_ts": 1795410000,
-   "q": "Will XRP reach $1.50 November 16-22?",
-   "touched": 1
-  },
-  {
-   "id": "7085222",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "77780859284104274532637338416973599101453224601063578396783692622252100297505",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795150907,
-   "end_ts": 1795410000,
-   "q": "Will XRP reach $1.40 November 16-22?",
-   "touched": 1
-  },
-  {
-   "id": "7085224",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "54369498416985336207299433350814161062571106638601052884326311844132937769337",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795150907,
-   "end_ts": 1795410000,
-   "q": "Will XRP reach $1.30 November 16-22?",
-   "touched": 1
-  },
-  {
-   "id": "7085226",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "86894376878928446386068173297928325753094995446999050744693942803497704738125",
-   "px": 0.996,
-   "tick": 0.001,
-   "ts": 1795150907,
-   "end_ts": 1795410000,
-   "q": "Will XRP reach $1.20 November 16-22?",
-   "touched": 1
-  },
-  {
-   "id": "7085228",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "50275526723771156173654456250276350011501407064831636041172971432223407170302",
-   "px": 0.96,
-   "tick": 0.01,
-   "ts": 1795150907,
-   "end_ts": 1795410000,
-   "q": "Will XRP reach $1.10 November 16-22?",
-   "touched": 1
-  },
-  {
-   "id": "7085232",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "21765027008631678788255974181927005865958426846064283650482417026936397999806",
-   "px": 0.983,
-   "tick": 0.001,
-   "ts": 1795150907,
-   "end_ts": 1795410000,
-   "q": "Will XRP dip to $0.80 November 16-22?",
-   "touched": 1
-  },
-  {
-   "id": "7085234",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "36799610192298200912717316020281946443221589644953117686278403979739614242568",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1795150907,
-   "end_ts": 1795410000,
-   "q": "Will XRP dip to $0.70 November 16-22?",
-   "touched": 1
-  },
-  {
-   "id": "7085235",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "46415894702414946621939280916779765366756916281259515041423213681487739002418",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795150907,
-   "end_ts": 1795410000,
-   "q": "Will XRP dip to $0.60 November 16-22?",
-   "touched": 1
-  },
-  {
-   "id": "7085236",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "85529143009058981676283220327328243499568732830856276274895725218683735470605",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795150907,
-   "end_ts": 1795410000,
-   "q": "Will XRP dip to $0.50 November 16-22?",
-   "touched": 1
-  },
-  {
-   "id": "7085237",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "26928409128085931351331917450230020217072729102510477169400104914463017269396",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795150907,
-   "end_ts": 1795410000,
-   "q": "Will XRP dip to $0.40 November 16-22?",
-   "touched": 1
-  },
-  {
-   "id": "7085238",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "10843156558841645446433558485648465919325699095951240400915918369473978212231",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795150907,
-   "end_ts": 1795410000,
-   "q": "Will XRP dip to $0.30 November 16-22?",
-   "touched": 1
-  },
-  {
-   "id": "7087523",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "21268601117604094867360751523808772078116154992657928172254384254656678717541",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795150907,
-   "end_ts": 1795410000,
-   "q": "Will Solana reach $140 November 16-22?",
-   "touched": 1
-  },
-  {
-   "id": "7087524",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "109206508530237970429397417210551848724953381730230546063475710097291591670791",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795150907,
-   "end_ts": 1795410000,
-   "q": "Will Solana reach $130 November 16-22?",
-   "touched": 1
-  },
-  {
-   "id": "7087525",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "1700417074907001300253953749679140141938355420610422042703579223249504599177",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795150907,
-   "end_ts": 1795410000,
-   "q": "Will Solana reach $120 November 16-22?",
-   "touched": 1
-  },
-  {
-   "id": "7087526",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "11413841735160308733994104392250932254775519109924442651390112025686138123593",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795150907,
-   "end_ts": 1795410000,
-   "q": "Will Solana reach $110 November 16-22?",
-   "touched": 1
-  },
-  {
-   "id": "7087527",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "94643765722218420674185786711126392345617026775292406973018114069270034330943",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795150907,
-   "end_ts": 1795410000,
-   "q": "Will Solana reach $100 November 16-22?",
-   "touched": 1
-  },
-  {
-   "id": "7087528",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "19296276318035697486624062071627768800194312239360083743098431991350600808166",
-   "px": 0.996,
-   "tick": 0.001,
-   "ts": 1795150907,
-   "end_ts": 1795410000,
-   "q": "Will Solana reach $90 November 16-22?",
-   "touched": 1
-  },
-  {
-   "id": "7087530",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "86139491101763916696393696224671293760259258095433493149686735125341693795700",
-   "px": 0.981,
-   "tick": 0.001,
-   "ts": 1795150907,
-   "end_ts": 1795410000,
-   "q": "Will Solana dip to $60 November 16-22?",
-   "touched": 1
-  },
-  {
-   "id": "7087531",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "102674279015339344370638072330583517963825286448688990318265588418991079401697",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1795150907,
-   "end_ts": 1795410000,
-   "q": "Will Solana dip to $50 November 16-22?",
-   "touched": 1
-  },
-  {
-   "id": "7087532",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "35829386705495704713254838110775820408207294170427560587774548481597465814322",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795150907,
-   "end_ts": 1795410000,
-   "q": "Will Solana dip to $40 November 16-22?",
-   "touched": 1
-  },
-  {
-   "id": "7087533",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "22942978890316958022201108327757498598974693582844760273323036894281779794878",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795150907,
-   "end_ts": 1795410000,
-   "q": "Will Solana dip to $30 November 16-22?",
-   "touched": 1
-  },
-  {
-   "id": "7087534",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "61079888149362344758336426736751504346176565694832382668629966007771721366302",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795150907,
-   "end_ts": 1795410000,
-   "q": "Will Solana dip to $20 November 16-22?",
-   "touched": 1
-  },
-  {
-   "id": "7087535",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "62719141750853971699980156440637383182180060901395288517045600297773537373863",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795150907,
-   "end_ts": 1795410000,
-   "q": "Will Solana dip to $10 November 16-22?",
-   "touched": 1
-  },
-  {
    "id": "7147755",
    "rule": "otros_cierre",
    "cat": "otros",
@@ -10174,32 +9581,6 @@
    "ts": 1795161749,
    "end_ts": 1795348800,
    "q": "Will \"The Cat in the Hat\" 3rd Weekend Box Office be at least 8m?",
-   "touched": 1
-  },
-  {
-   "id": "7085187",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "98331477953506053475186892746094378109293254398933536083997958455968326038145",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795161749,
-   "end_ts": 1795410000,
-   "q": "Will Ethereum reach $2,500 November 16-22?",
-   "touched": 0
-  },
-  {
-   "id": "7085204",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "57317380161604655192300580346721540442993129096007727588177510361118851843600",
-   "px": 0.956,
-   "tick": 0.001,
-   "ts": 1795161749,
-   "end_ts": 1795410000,
-   "q": "Will Ethereum dip to $1,500 November 16-22?",
    "touched": 1
   },
   {
@@ -10918,19 +10299,6 @@
    "touched": 1
   },
   {
-   "id": "7194866",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "40624572183091342384831746655083283232325890514616538981723444443455688583358",
-   "px": 0.95,
-   "tick": 0.01,
-   "ts": 1795186979,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Toronto be 13°C on November 22?",
-   "touched": 0
-  },
-  {
    "id": "7194874",
    "rule": "clima_cierre",
    "cat": "clima",
@@ -10941,19 +10309,6 @@
    "ts": 1795186979,
    "end_ts": 1795348800,
    "q": "Will the highest temperature in Mexico City be 18°C on November 22?",
-   "touched": 1
-  },
-  {
-   "id": "7087529",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "30676566719993850593063683040012748676207546436940184038743813564802374891473",
-   "px": 0.96,
-   "tick": 0.01,
-   "ts": 1795186979,
-   "end_ts": 1795410000,
-   "q": "Will Solana reach $80 November 16-22?",
    "touched": 1
   },
   {
@@ -11214,32 +10569,6 @@
    "ts": 1795190548,
    "end_ts": 1795348800,
    "q": "Will the highest temperature in Mexico City be 22°C on November 22?",
-   "touched": 1
-  },
-  {
-   "id": "7085164",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "81995493110121782699645507772249587794332694045605121689317861354509215849325",
-   "px": 0.976,
-   "tick": 0.001,
-   "ts": 1795190548,
-   "end_ts": 1795410000,
-   "q": "Will Bitcoin reach $66,000 November 16-22?",
-   "touched": 1
-  },
-  {
-   "id": "7085198",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "4404031248089142192615232585020702685351996976873935799463593654452848172658",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1795190548,
-   "end_ts": 1795410000,
-   "q": "Will Ethereum reach $1,900 November 16-22?",
    "touched": 1
   },
   {
@@ -12166,32 +11495,6 @@
    "touched": 1
   },
   {
-   "id": "7194864",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "75851673652748228186812326061663921456163438797473127213701418149372799142854",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1795200035,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Toronto be 11°C on November 22?",
-   "touched": 1
-  },
-  {
-   "id": "7194865",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "10841831629715744828931578427467587067645381651792934876166937219961058787646",
-   "px": 0.985,
-   "tick": 0.001,
-   "ts": 1795200035,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Toronto be 12°C on November 22?",
-   "touched": 1
-  },
-  {
    "id": "7029602",
    "rule": "otros_cierre",
    "cat": "otros",
@@ -12202,32 +11505,6 @@
    "ts": 1795200035,
    "end_ts": 1795409940,
    "q": "Will 32+ ships transit the Strait of Hormuz week of November 16?",
-   "touched": 1
-  },
-  {
-   "id": "7177339",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "88169798374927374134284149101010492000254347550091876914168762425350159193087",
-   "px": 0.95,
-   "tick": 0.01,
-   "ts": 1795200035,
-   "end_ts": 1795410000,
-   "q": "Will Bitcoin reach $64,000 November 16-22?",
-   "touched": 1
-  },
-  {
-   "id": "7177340",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "66052440998881648020923238359162214452233293962190836701191960657457566837819",
-   "px": 0.95,
-   "tick": 0.01,
-   "ts": 1795200035,
-   "end_ts": 1795410000,
-   "q": "Will Ethereum reach $1,800 November 16-22?",
    "touched": 1
   },
   {
@@ -12254,19 +11531,6 @@
    "ts": 1795201374,
    "end_ts": 1795409940,
    "q": "Will 28+ ships transit the Strait of Hormuz week of November 16?",
-   "touched": 1
-  },
-  {
-   "id": "7204594",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "51088495509936239903800435205845237690130960880670284099793664823686023011581",
-   "px": 0.982,
-   "tick": 0.001,
-   "ts": 1795204933,
-   "end_ts": 1795410000,
-   "q": "Will Bitcoin dip to $48,000 November 16-22?",
    "touched": 1
   },
   {
@@ -12738,19 +12002,6 @@
    "touched": 1
   },
   {
-   "id": "7194894",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "5885736371369989226027384283451735620739374848980878659345457400358188693404",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795222249,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Panama City be 28°C on November 22?",
-   "touched": 1
-  },
-  {
    "id": "7023029",
    "rule": "otros_cierre",
    "cat": "otros",
@@ -12972,19 +12223,6 @@
    "touched": 1
   },
   {
-   "id": "7194872",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "79725298727742586955257519519905431320130766577037272820556656429216394676703",
-   "px": 0.974,
-   "tick": 0.001,
-   "ts": 1795233762,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Toronto be 19°C or higher on November 22?",
-   "touched": 1
-  },
-  {
    "id": "7194883",
    "rule": "clima_cierre",
    "cat": "clima",
@@ -12995,19 +12233,6 @@
    "ts": 1795233762,
    "end_ts": 1795348800,
    "q": "Will the highest temperature in Mexico City be 27°C or higher on November 22?",
-   "touched": 1
-  },
-  {
-   "id": "7204593",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "84922385009022295581657692969675638766309875592075327510512100267418366499998",
-   "px": 0.95,
-   "tick": 0.01,
-   "ts": 1795233762,
-   "end_ts": 1795410000,
-   "q": "Will Bitcoin reach $62,000 November 16-22?",
    "touched": 1
   },
   {
@@ -13167,32 +12392,6 @@
    "touched": 1
   },
   {
-   "id": "7194901",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "55578676853109752282111759654221047832800444056028942717898539944667611125694",
-   "px": 0.985,
-   "tick": 0.001,
-   "ts": 1795240938,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Panama City be 35°C on November 22?",
-   "touched": 1
-  },
-  {
-   "id": "7194902",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "2799645448904116519163558783645563205953804648570718586075322904362928369919",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1795240938,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Panama City be 36°C or higher on November 22?",
-   "touched": 1
-  },
-  {
    "id": "6949224",
    "rule": "otros_cierre",
    "cat": "otros",
@@ -13284,45 +12483,6 @@
    "touched": 1
   },
   {
-   "id": "7194867",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "74815101378030043938415033035168819776185804462891405230801147564618006756524",
-   "px": 0.985,
-   "tick": 0.001,
-   "ts": 1795251714,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Toronto be 14°C on November 22?",
-   "touched": 1
-  },
-  {
-   "id": "7194895",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "16063039416435290818330058699475474956052518466813063450052104284752721303259",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1795251714,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Panama City be 29°C on November 22?",
-   "touched": 1
-  },
-  {
-   "id": "6928019",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "40142151549463564768370127664338345565775615862740105526215125809989290056085",
-   "px": 0.97,
-   "tick": 0.01,
-   "ts": 1795251714,
-   "end_ts": 1795396200,
-   "q": "Querétaro FC vs. Club Necaxa: O/U 0.5",
-   "touched": 1
-  },
-  {
    "id": "6909630",
    "rule": "otros_cierre",
    "cat": "otros",
@@ -13372,19 +12532,6 @@
    "ts": 1795255345,
    "end_ts": 1795496340,
    "q": "Will Kai Cenat finish his GTA VI marathon by November 23?",
-   "touched": 1
-  },
-  {
-   "id": "5763813",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "54068318845619989096244138627737214914354779085227953699905502325146273086208",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795258945,
-   "end_ts": 1795409940,
-   "q": "Will OpenRouter process between 625T and 675T tokens from Oct 26 to Nov 22?",
    "touched": 1
   },
   {
@@ -13477,19 +12624,6 @@
    "end_ts": 1795348800,
    "q": "Will the highest temperature in Denver be between 36-37°F on November 22?",
    "touched": 0
-  },
-  {
-   "id": "7194896",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "66390683738152329742225894161758684279857238702657630100897018433709832679674",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795262526,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Panama City be 30°C on November 22?",
-   "touched": 1
   },
   {
    "id": "7217640",
@@ -13983,19 +13117,6 @@
    "ts": 1795262526,
    "end_ts": 1795496340,
    "q": "Will xQc finish GTA VI by November 23?",
-   "touched": 1
-  },
-  {
-   "id": "6910893",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "97266421502562524110710723650721601509298260428799357368465145598393830486244",
-   "px": 0.979,
-   "tick": 0.001,
-   "ts": 1795266169,
-   "end_ts": 1795396200,
-   "q": "Querétaro FC vs. Club Necaxa: Neither team to score first?",
    "touched": 1
   },
   {
@@ -14672,19 +13793,6 @@
    "ts": 1795277708,
    "end_ts": 1795435200,
    "q": "Will the highest temperature in Chicago be between 46-47°F on November 23?",
-   "touched": 1
-  },
-  {
-   "id": "6928011",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "76810067095012343127429125801672127240087599812157380620723841858642923458977",
-   "px": 0.976,
-   "tick": 0.001,
-   "ts": 1795280532,
-   "end_ts": 1795396200,
-   "q": "Spread: Club Necaxa (-2.5)",
    "touched": 1
   },
   {
@@ -16365,19 +15473,6 @@
    "touched": 1
   },
   {
-   "id": "6928012",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "40508796865560807915012759186114267539880429294412967039705475125338652813428",
-   "px": 0.973,
-   "tick": 0.001,
-   "ts": 1795287764,
-   "end_ts": 1795396200,
-   "q": "Spread: Querétaro FC (-3.5)",
-   "touched": 1
-  },
-  {
    "id": "7217632",
    "rule": "clima_cierre",
    "cat": "clima",
@@ -17168,19 +16263,6 @@
    "ts": 1795294929,
    "end_ts": 1795348800,
    "q": "Will the highest temperature in Seattle be between 44-45°F on November 22?",
-   "touched": 1
-  },
-  {
-   "id": "7194897",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "6734444260477743583475113318233906997116174915430800188011456576475605367453",
-   "px": 0.96,
-   "tick": 0.01,
-   "ts": 1795294929,
-   "end_ts": 1795348800,
-   "q": "Will the highest temperature in Panama City be 31°C on November 22?",
    "touched": 1
   },
   {
@@ -18536,19 +17618,6 @@
    "touched": 1
   },
   {
-   "id": "6928013",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "28124599084935110637722831574579824967243951700465896238301266629431041827560",
-   "px": 0.988,
-   "tick": 0.001,
-   "ts": 1795312918,
-   "end_ts": 1795396200,
-   "q": "Spread: Club Necaxa (-3.5)",
-   "touched": 1
-  },
-  {
    "id": "7217935",
    "rule": "clima_cierre",
    "cat": "clima",
@@ -19082,58 +18151,6 @@
    "touched": 1
   },
   {
-   "id": "6902054",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "108236912309610674109801440458288713972707450946220665796850954817776981649517",
-   "px": 0.95,
-   "tick": 0.01,
-   "ts": 1795320137,
-   "end_ts": 1795396200,
-   "q": "CD Marquense vs. Aurora FC: O/U 5.5",
-   "touched": 1
-  },
-  {
-   "id": "6928026",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "56713598247794925531745760505703971275218364104174075148974767700344539090632",
-   "px": 0.969,
-   "tick": 0.001,
-   "ts": 1795320137,
-   "end_ts": 1795396200,
-   "q": "Querétaro FC vs. Club Necaxa: O/U 6.5",
-   "touched": 1
-  },
-  {
-   "id": "6928027",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "54843730013204231995062004593559038037546004600912519307620110496520007453474",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795320137,
-   "end_ts": 1795396200,
-   "q": "Querétaro FC vs. Club Necaxa: O/U 7.5",
-   "touched": 1
-  },
-  {
-   "id": "7151120",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "25513552424745218262613011745344703409395790634057609041899400643221426921249",
-   "px": 0.974,
-   "tick": 0.001,
-   "ts": 1795320137,
-   "end_ts": 1795410000,
-   "q": "Will XRP reach $1.00 November 16-22?",
-   "touched": 1
-  },
-  {
    "id": "7217989",
    "rule": "clima_cierre",
    "cat": "clima",
@@ -19316,1488 +18333,6 @@
    "touched": 1
   },
   {
-   "id": "6821905",
-   "rule": "post_fin_90_97",
-   "cat": "deportes",
-   "side": 1,
-   "token": "629611132697615888108118905392545189437969397946703407444276687920628176854",
-   "px": 0.96,
-   "tick": 0.01,
-   "ts": 1795323723,
-   "end_ts": 1795312800,
-   "q": "Spread: Utah (-17.5)",
-   "touched": null
-  },
-  {
-   "id": "6821923",
-   "rule": "post_fin_90_97",
-   "cat": "deportes",
-   "side": 1,
-   "token": "82919875009833161194964520232020346386166846951382932427048842417757383457985",
-   "px": 0.955,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795312800,
-   "q": "Spread: TCU (-4.5)",
-   "touched": null
-  },
-  {
-   "id": "6821924",
-   "rule": "post_fin_90_97",
-   "cat": "deportes",
-   "side": 1,
-   "token": "104378863701638982703846228939486334043865916374321505013527227074724315882816",
-   "px": 0.964,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795312800,
-   "q": "Spread: TCU (-5.5)",
-   "touched": null
-  },
-  {
-   "id": "6821925",
-   "rule": "post_fin_90_97",
-   "cat": "deportes",
-   "side": 1,
-   "token": "21655897429950061585833750721001807688169314617254253790966962690893545845734",
-   "px": 0.963,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795312800,
-   "q": "Spread: TCU (-6.5)",
-   "touched": null
-  },
-  {
-   "id": "7227912",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "85201972554355474491462575727004289354576873491442105195430622449092362043689",
-   "px": 0.988,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795332600,
-   "q": "Spread: New Taipei Hang Yuan (-3.5)",
-   "touched": null
-  },
-  {
-   "id": "7100023",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "100854393083879414783001278639395690511367580894206793483322996431433452699038",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795343400,
-   "q": "Batman Petrolspor vs. Muglaspor: O/U 7.5",
-   "touched": null
-  },
-  {
-   "id": "7139304",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "67547530267952337159537030006933310074353899807144080449207787413766084330077",
-   "px": 0.983,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795336200,
-   "q": "Isenmulang Kalteng FC vs. Borneo Samarinda: O/U 6.5",
-   "touched": null
-  },
-  {
-   "id": "7154473",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "60863345063122784898097598331912051613780716634221488715443804158061813649168",
-   "px": 0.968,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795345200,
-   "q": "Spread: Racing Club de Ferrol (-3.5)",
-   "touched": null
-  },
-  {
-   "id": "7154490",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "90253776532068827099385384013242037269657200044201682214199023155967358720855",
-   "px": 0.979,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795345200,
-   "q": "Spread: UD Ibiza (-2.5)",
-   "touched": null
-  },
-  {
-   "id": "7154502",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "62729131959455021573041719727084209017315703933146753061653170982010918776361",
-   "px": 0.971,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795345200,
-   "q": "SD Huesca vs. UD Ibiza: O/U 5.5",
-   "touched": null
-  },
-  {
-   "id": "7154507",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "89791531826208732922348597807423227294192638122577235144558831701909810171425",
-   "px": 0.96,
-   "tick": 0.01,
-   "ts": 1795323723,
-   "end_ts": 1795345200,
-   "q": "Spread: CF Algeciras (-1.5)",
-   "touched": null
-  },
-  {
-   "id": "7154509",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "68809848698421359116180579124881325379361635316176786080816314152704642941574",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795345200,
-   "q": "Spread: CF Algeciras (-2.5)",
-   "touched": null
-  },
-  {
-   "id": "7154512",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "11394530556474107052352142300640022176238796509084234136354368239546775565669",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795345200,
-   "q": "Spread: CF Algeciras (-3.5)",
-   "touched": null
-  },
-  {
-   "id": "7154532",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "23064592836641545623084952565699699656236048610276795111848316728879957749851",
-   "px": 0.979,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795345200,
-   "q": "AD Alcorcon vs. CF Algeciras: O/U 6.5",
-   "touched": null
-  },
-  {
-   "id": "7154548",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "4832018001762899195350390702587065385810758951616390403415485196735321584026",
-   "px": 0.95,
-   "tick": 0.01,
-   "ts": 1795323723,
-   "end_ts": 1795345200,
-   "q": "Arenas Club Getxo vs. Real Aviles CF: O/U 0.5",
-   "touched": null
-  },
-  {
-   "id": "7154559",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "12527489647061276338491093143866530563862035401079382051138993922873112916509",
-   "px": 0.973,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795345200,
-   "q": "Arenas Club Getxo vs. Real Aviles CF: O/U 6.5",
-   "touched": null
-  },
-  {
-   "id": "7204543",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "109587157763544922447446013982144625638083013854180990743793307220249212888388",
-   "px": 0.96,
-   "tick": 0.01,
-   "ts": 1795323723,
-   "end_ts": 1795343400,
-   "q": "Araz Nakhchivan PFK vs. Neftchi Baku PFC: O/U 0.5",
-   "touched": null
-  },
-  {
-   "id": "7204549",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "40610199292178677850079454862790894732279874441530749995370804558680189167552",
-   "px": 0.96,
-   "tick": 0.01,
-   "ts": 1795323723,
-   "end_ts": 1795343400,
-   "q": "Araz Nakhchivan PFK vs. Neftchi Baku PFC: O/U 6.5",
-   "touched": null
-  },
-  {
-   "id": "7222723",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "63623015388512836902421536654320979846954481159334031829171331833783488357806",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795345200,
-   "q": "Spread: Ayutthaya United FC (-3.5)",
-   "touched": null
-  },
-  {
-   "id": "7222734",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "73683440410362619464871609880437463664233274275622765233377814703177766592957",
-   "px": 0.96,
-   "tick": 0.01,
-   "ts": 1795323723,
-   "end_ts": 1795345200,
-   "q": "Bangkok United FC vs. Ayutthaya United FC: O/U 6.5",
-   "touched": null
-  },
-  {
-   "id": "7222735",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "41331661677649867446674916106655725743329079287155979546213763774831219160388",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795345200,
-   "q": "Bangkok United FC vs. Ayutthaya United FC: O/U 7.5",
-   "touched": null
-  },
-  {
-   "id": "7223832",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "91729976540207580625421893623173997938822258272772926233930852694550604157588",
-   "px": 0.986,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795345200,
-   "q": "Spread: FC Bunyodkor (-2.5)",
-   "touched": null
-  },
-  {
-   "id": "7223834",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "28818104991702378064653701649775441266311075059198316297061168776807360926620",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795345200,
-   "q": "Spread: FC Bunyodkor (-3.5)",
-   "touched": null
-  },
-  {
-   "id": "7223839",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "17114986101548841218773780071871307719884231586862313892818157983738777858515",
-   "px": 0.963,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795345200,
-   "q": "PFK Dinamo Samarqand vs. FC Bunyodkor: O/U 0.5",
-   "touched": null
-  },
-  {
-   "id": "7223845",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "78769447535387136193353415073758524678723547929379143750609204807222834839683",
-   "px": 0.973,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795345200,
-   "q": "PFK Dinamo Samarqand vs. FC Bunyodkor: O/U 6.5",
-   "touched": null
-  },
-  {
-   "id": "6882877",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "24520145242991214569453271173966050456709928012531749168460608304362533320945",
-   "px": 0.95,
-   "tick": 0.01,
-   "ts": 1795323723,
-   "end_ts": 1795356000,
-   "q": "Spread: Churchill Brothers SC (-1.5)",
-   "touched": null
-  },
-  {
-   "id": "6898381",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "78042858200259750197825040643557592799821254981421305584607257662838793853882",
-   "px": 0.96,
-   "tick": 0.01,
-   "ts": 1795323723,
-   "end_ts": 1795352400,
-   "q": "FC Barcelona vs. Villarreal CF: 1st Half O/U 4.5",
-   "touched": null
-  },
-  {
-   "id": "6902301",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "93646135379921714056874116669074913402746665480580800442372620703397597450698",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795348800,
-   "q": "Spread: Blackburn Rovers FC (-3.5)",
-   "touched": null
-  },
-  {
-   "id": "6904225",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "16468666379343855110115017795069582108195178840289064254713397781947278218530",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795348800,
-   "q": "Spread: FC Zbrojovka Brno (-3.5)",
-   "touched": null
-  },
-  {
-   "id": "6910332",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "62642712323347671731329329245166044636728591344004613176639900500540137490597",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795352400,
-   "q": "Spread: Randers FC (-3.5)",
-   "touched": null
-  },
-  {
-   "id": "6924250",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "59357754084319772664328365844801512490359076316765370847523836675041925990716",
-   "px": 0.988,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795356000,
-   "q": "Spread: SC Vianense (-2.5)",
-   "touched": null
-  },
-  {
-   "id": "6924258",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "63688189985524333003686629394153567580419042647978769389053407629655845225643",
-   "px": 0.95,
-   "tick": 0.01,
-   "ts": 1795323723,
-   "end_ts": 1795356000,
-   "q": "SC Vianense vs. Rio Ave FC: O/U 0.5",
-   "touched": null
-  },
-  {
-   "id": "6962632",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "38690863268750782340028405330083327283291958129436147822129274676241144197243",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795356000,
-   "q": "Spread: NK Istra 1961 (-3.5)",
-   "touched": null
-  },
-  {
-   "id": "6893640",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "82105528426714608821758441890804035612792097195600143404932350156998117274272",
-   "px": 0.95,
-   "tick": 0.01,
-   "ts": 1795323723,
-   "end_ts": 1795364100,
-   "q": "FC Lorient vs. Stade Rennais FC 1901: O/U 5.5",
-   "touched": null
-  },
-  {
-   "id": "6898335",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "22085598176060438453427042794787711389406113767747810583923110969782974969077",
-   "px": 0.981,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795360500,
-   "q": "Real Racing Club vs. Real Sociedad de Fútbol: Real Racing Club O/U 4.5",
-   "touched": null
-  },
-  {
-   "id": "6903890",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "92245327604083880971372089314296135452629643355738649604258392572078542598602",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795357800,
-   "q": "Spread: MFK Skalica (-3.5)",
-   "touched": null
-  },
-  {
-   "id": "6904163",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "112244231712056622813260768194978343000977905820562074138443882149853099434100",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795366800,
-   "q": "AC Sparta Praha vs. FC Slovan Liberec: O/U 7.5",
-   "touched": null
-  },
-  {
-   "id": "6909417",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "61978117468687494786219297495497428139123094078962039774424057234505981206195",
-   "px": 0.992,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795363200,
-   "q": "Aalesunds FK vs. Rosenborg BK: O/U 8.5",
-   "touched": null
-  },
-  {
-   "id": "6909481",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "93513949453094308410697864247527066883369703658413614080780105950653271838976",
-   "px": 0.95,
-   "tick": 0.01,
-   "ts": 1795323723,
-   "end_ts": 1795363200,
-   "q": "KFUM-Kameratene Oslo vs. SK Brann: O/U 6.5",
-   "touched": null
-  },
-  {
-   "id": "6910220",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "27425682053427556798141759866907447379418691205302408794641304280470490773768",
-   "px": 0.983,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795366800,
-   "q": "Spread: FC Nordsjælland (-3.5)",
-   "touched": null
-  },
-  {
-   "id": "6910221",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "21971946652471016437194737983426808968205854738300872841953984879626241256755",
-   "px": 0.984,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795366800,
-   "q": "Spread: FC København (-3.5)",
-   "touched": null
-  },
-  {
-   "id": "6910232",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "50513955828596388681445898714942776885636384706668230734462156420324432111347",
-   "px": 0.979,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795366800,
-   "q": "FC Nordsjælland vs. FC København: O/U 6.5",
-   "touched": null
-  },
-  {
-   "id": "6913675",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "34599995873506588450696467935674168556493219810686720823536381802184602986845",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795360500,
-   "q": "Spread: UD Las Palmas (-3.5)",
-   "touched": null
-  },
-  {
-   "id": "6913687",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "89958925971504488953992781261732954987270983081778561286311179761398491518606",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795360500,
-   "q": "Real Sporting de Gijón vs. UD Las Palmas: O/U 7.5",
-   "touched": null
-  },
-  {
-   "id": "6915969",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "106396953783655502254606233841864968499516387082936951864620435283315049839706",
-   "px": 0.982,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795364100,
-   "q": "Spread: SS Arezzo (-3.5)",
-   "touched": null
-  },
-  {
-   "id": "6915982",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "68286737332855231967310769424058672289809265658677745957678884911118247903678",
-   "px": 0.99,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795364100,
-   "q": "SS Arezzo vs. Calcio Padova: O/U 6.5",
-   "touched": null
-  },
-  {
-   "id": "6924167",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "9794529420472200234782848176569217663497186215329220043472340720072468485721",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795359600,
-   "q": "Spread: CD Fátima (-3.5)",
-   "touched": null
-  },
-  {
-   "id": "6925164",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "88524189702660444547168533034364735860112247352614603235734943527012177618631",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795362300,
-   "q": "Spread: Fortuna Sittard (-3.5)",
-   "touched": null
-  },
-  {
-   "id": "6925275",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "10586816692467040859348100576074480290756594065626335484581236827725069475916",
-   "px": 0.96,
-   "tick": 0.01,
-   "ts": 1795323723,
-   "end_ts": 1795362300,
-   "q": "Go Ahead Eagles vs. Fortuna Sittard: 1st Half O/U 3.5",
-   "touched": null
-  },
-  {
-   "id": "6962592",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "62706862504748235182514329383208706104298260341678328080132786278531717377874",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795366800,
-   "q": "Spread: HNK Gorica (-2.5)",
-   "touched": null
-  },
-  {
-   "id": "6962594",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "9387365705576178557819457667334986357874511169392159555732225228649589420517",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795366800,
-   "q": "Spread: HNK Gorica (-3.5)",
-   "touched": null
-  },
-  {
-   "id": "6962606",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "94860612400853844031832894005827798546609995797843972855300025400782803425199",
-   "px": 0.978,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795366800,
-   "q": "HNK Rijeka vs. HNK Gorica: O/U 6.5",
-   "touched": null
-  },
-  {
-   "id": "7072043",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "105792733497349447584345255417404693343486926941988309284155242601604868498723",
-   "px": 0.983,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795359600,
-   "q": "Spread: Panaitolikos Agrinio (-3.5)",
-   "touched": null
-  },
-  {
-   "id": "7072044",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "47892038850441845285565601930030273931072631526038665975349308380873074555773",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795359600,
-   "q": "Spread: Volos NPS (-3.5)",
-   "touched": null
-  },
-  {
-   "id": "7072055",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "63627241390096354230132147474545472968041425113685152562562420339060784120560",
-   "px": 0.991,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795359600,
-   "q": "Panaitolikos Agrinio vs. Volos NPS: O/U 6.5",
-   "touched": null
-  },
-  {
-   "id": "7072057",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "69195786229254719816280526671156047647349984712876057537573705194925228651661",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795359600,
-   "q": "Panaitolikos Agrinio vs. Volos NPS: O/U 7.5",
-   "touched": null
-  },
-  {
-   "id": "7072461",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "114049056491573007982266415054298707532127758290525396252554332193323706255401",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795359600,
-   "q": "Spread: KV Kortrijk (-2.5)",
-   "touched": null
-  },
-  {
-   "id": "7072475",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "42417387155021361364671528674232282164822420950686474218147688946874482419901",
-   "px": 0.969,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795359600,
-   "q": "KV Kortrijk vs. Union Saint-Gilloise: O/U 6.5",
-   "touched": null
-  },
-  {
-   "id": "7072476",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "57247290957887451662479118903127188648470249681049895838721330779850826155627",
-   "px": 0.992,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795359600,
-   "q": "KV Kortrijk vs. Union Saint-Gilloise: O/U 7.5",
-   "touched": null
-  },
-  {
-   "id": "7072477",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "91777483228367499975120073971996927044764337838468176431991530828264660276321",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795359600,
-   "q": "KV Kortrijk vs. Union Saint-Gilloise: O/U 8.5",
-   "touched": null
-  },
-  {
-   "id": "7072711",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "59994156155279623686585278923308958469554075528409469973072848537487648179975",
-   "px": 0.95,
-   "tick": 0.01,
-   "ts": 1795323723,
-   "end_ts": 1795361400,
-   "q": "Spread: FC Vaduz (-2.5)",
-   "touched": null
-  },
-  {
-   "id": "7072712",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "11271802831848430988647124580570175225499023041275200200385892030480798073329",
-   "px": 0.963,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795361400,
-   "q": "Spread: Lausanne-Sport (-3.5)",
-   "touched": null
-  },
-  {
-   "id": "7072724",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "87850581224356532769737290239513318670579444931651558734141129131933888528086",
-   "px": 0.95,
-   "tick": 0.01,
-   "ts": 1795323723,
-   "end_ts": 1795361400,
-   "q": "Lausanne-Sport vs. FC Vaduz: O/U 6.5",
-   "touched": null
-  },
-  {
-   "id": "7072725",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "92165257680960233151920446590829024131835199251740952946240841318015461405015",
-   "px": 0.984,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795361400,
-   "q": "Lausanne-Sport vs. FC Vaduz: O/U 7.5",
-   "touched": null
-  },
-  {
-   "id": "7072749",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "31941121113227022529349333576215284111192041677833963471252840577206409839286",
-   "px": 0.954,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795361400,
-   "q": "Spread: FC Basel 1893 (-3.5)",
-   "touched": null
-  },
-  {
-   "id": "7072762",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "50855320361282379856913944017493544602232751763977145779912374806186555666686",
-   "px": 0.971,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795361400,
-   "q": "FC Basel 1893 vs. FC Luzern: O/U 7.5",
-   "touched": null
-  },
-  {
-   "id": "7072763",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "2647594024484136511239067763086827552013084611628057832677052012825368632190",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795361400,
-   "q": "FC Basel 1893 vs. FC Luzern: O/U 8.5",
-   "touched": null
-  },
-  {
-   "id": "7072867",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "68301404076697473654868965354564391113155188410603796011815482207001304891590",
-   "px": 0.979,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795363200,
-   "q": "Botev Plovdiv vs. PFC CSKA Sofia: O/U 6.5",
-   "touched": null
-  },
-  {
-   "id": "7072868",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "80291306734878364375694874508788261852982770686692995082776047289638226560909",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795363200,
-   "q": "Botev Plovdiv vs. PFC CSKA Sofia: O/U 7.5",
-   "touched": null
-  },
-  {
-   "id": "7073043",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "40488786286677535736109207511660727582320267958458510488833334362581375564755",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795361400,
-   "q": "Spread: OFI Crete (-2.5)",
-   "touched": null
-  },
-  {
-   "id": "7073047",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "64225041764066722335803482293067321329238402643871045125669236094325926778922",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795361400,
-   "q": "Spread: OFI Crete (-3.5)",
-   "touched": null
-  },
-  {
-   "id": "7073060",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "60389693109997316471266960258005280457207647414683249407132844011615918469142",
-   "px": 0.984,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795361400,
-   "q": "Panathinaikos Athens vs. OFI Crete: O/U 7.5",
-   "touched": null
-  },
-  {
-   "id": "7073410",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "110738982348862400092768104026643821197105193321190285560050037521650039871694",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795361400,
-   "q": "Spread: 1. FC Saarbrucken (-3.5)",
-   "touched": null
-  },
-  {
-   "id": "7073411",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "9941584325535729127682903145581929448319761738821058547137107823616568090244",
-   "px": 0.976,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795361400,
-   "q": "Spread: SV Wehen Wiesbaden (-3.5)",
-   "touched": null
-  },
-  {
-   "id": "7073422",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "46866853002626402975801995970852954756773768423417728467857319146300131415981",
-   "px": 0.96,
-   "tick": 0.01,
-   "ts": 1795323723,
-   "end_ts": 1795361400,
-   "q": "1. FC Saarbrucken vs. SV Wehen Wiesbaden: O/U 6.5",
-   "touched": null
-  },
-  {
-   "id": "7073425",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "46103128418670947370816227427925915935274797306177133881730035638478353605215",
-   "px": 0.996,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795361400,
-   "q": "1. FC Saarbrucken vs. SV Wehen Wiesbaden: O/U 7.5",
-   "touched": null
-  },
-  {
-   "id": "6898279",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "108656023139241171314789868666326904762146191798469986142661278967805398239816",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795368600,
-   "q": "CA Osasuna vs. Málaga CF: 1st Half O/U 4.5",
-   "touched": null
-  },
-  {
-   "id": "6909233",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "84458630179494258777501352466743500081828677116745240841882763719818448656407",
-   "px": 0.988,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795371300,
-   "q": "Spread: Lillestrøm SK (-3.5)",
-   "touched": null
-  },
-  {
-   "id": "6909286",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "76554763077494192723688807500535075086724199735340688583690437059522374108151",
-   "px": 0.974,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795371300,
-   "q": "Sarpsborg 08 FF vs. Lillestrøm SK: O/U 7.5",
-   "touched": null
-  },
-  {
-   "id": "6913203",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "58850315059621394917215750148738036055505080750548331850686308481433867186027",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795377600,
-   "q": "Spread: Albacete Balompié (-3.5)",
-   "touched": null
-  },
-  {
-   "id": "6913470",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "33797782363080134280863817184131926357678995476087560340785711276903575503171",
-   "px": 0.968,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795368600,
-   "q": "Spread: Celta Fortuna (-2.5)",
-   "touched": null
-  },
-  {
-   "id": "6913478",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "59183039036074731121097693283027464678552796014162467408970253381187077402415",
-   "px": 0.973,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795368600,
-   "q": "Spread: Real Valladolid CF (-3.5)",
-   "touched": null
-  },
-  {
-   "id": "6913498",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "56176257757320515524232073634936529953573087423760969559030767705178725837817",
-   "px": 0.979,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795368600,
-   "q": "Celta Fortuna vs. Real Valladolid CF: O/U 6.5",
-   "touched": null
-  },
-  {
-   "id": "6913612",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "50593248434666044242539633514071427412880902510043169318773830216341072256851",
-   "px": 0.963,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795368600,
-   "q": "Spread: Girona FC (-3.5)",
-   "touched": null
-  },
-  {
-   "id": "6913613",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "90656953515517840169757538847613857063368734427877317313931633024375990349658",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795368600,
-   "q": "Spread: SD Eibar (-3.5)",
-   "touched": null
-  },
-  {
-   "id": "6924104",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "3197006360705807455454404670018493844246766170816493067612947448528389549871",
-   "px": 0.979,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795375800,
-   "q": "UD Leiria vs. Leça FC: O/U 6.5",
-   "touched": null
-  },
-  {
-   "id": "6924140",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "66707029891901125337860360022558585967347591816929769948787581143970897544825",
-   "px": 0.96,
-   "tick": 0.01,
-   "ts": 1795323723,
-   "end_ts": 1795370400,
-   "q": "CF Estrela da Amadora vs. Portimonense SC: O/U 5.5",
-   "touched": null
-  },
-  {
-   "id": "6987256",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "66468231756867503196033040430238496103215900672204038994239456658524499164380",
-   "px": 0.96,
-   "tick": 0.01,
-   "ts": 1795323723,
-   "end_ts": 1795377600,
-   "q": "Spread: CS Cienciano (-1.5)",
-   "touched": null
-  },
-  {
-   "id": "6987258",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "79646950227551715102480050543986120623712093136442363373383345612332376998195",
-   "px": 0.993,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795377600,
-   "q": "Spread: CS Cienciano (-2.5)",
-   "touched": null
-  },
-  {
-   "id": "6987260",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "59784134204222332303505503686659592004796495862710953511429188741675676466140",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795377600,
-   "q": "Spread: CS Cienciano (-3.5)",
-   "touched": null
-  },
-  {
-   "id": "6987272",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "49339433928161794090396631573841779667264350699014912741291830188329936756925",
-   "px": 0.991,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795377600,
-   "q": "CS Cristal vs. CS Cienciano: O/U 7.5",
-   "touched": null
-  },
-  {
-   "id": "6998518",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "10865807637073226998739154930396493780631429110581751274707583275941746282688",
-   "px": 0.989,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795374000,
-   "q": "Massachusetts-Lowell River Hawks vs. Cincinnati Bearcats",
-   "touched": null
-  },
-  {
-   "id": "6999018",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "97373956327708339958328124899908535799492680257054778562289560162737707024650",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795370400,
-   "q": "Exact Margin: Cardinals by 25+",
-   "touched": null
-  },
-  {
-   "id": "6999019",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "72744790576458426488583490790683567523984876146574468751120853572766145587767",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795370400,
-   "q": "Exact Margin: Cardinals by 19-24",
-   "touched": null
-  },
-  {
-   "id": "6999021",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "56133625048964623179807122640193519966509847358338786812577868076823785957760",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795370400,
-   "q": "Exact Margin: Cardinals by 7-12",
-   "touched": null
-  },
-  {
-   "id": "6999023",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "15515174983579033594863515902717004979530702060203029399684305498830565164534",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795370400,
-   "q": "Exact Margin: Tie",
-   "touched": null
-  },
-  {
-   "id": "6899187",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "114154009640874615274574888890392041280269992346696188959136984628708451304389",
-   "px": 0.96,
-   "tick": 0.01,
-   "ts": 1795323723,
-   "end_ts": 1795384800,
-   "q": "Spread: Inter San Carlos (-2.5)",
-   "touched": null
-  },
-  {
-   "id": "6899190",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "49971185013808384107434633968903405182325464510061672394441019616990196579142",
-   "px": 0.979,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795384800,
-   "q": "Spread: Sporting FC (-3.5)",
-   "touched": null
-  },
-  {
-   "id": "6930692",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "91282758383432241464981620993349351313623473734448366242223321446252989597213",
-   "px": 0.971,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795381200,
-   "q": "Spread: CSD Colo-Colo (-3.5)",
-   "touched": null
-  },
-  {
-   "id": "6930693",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "40948917855341713526251749960305969250974961158595357919446918808349188848358",
-   "px": 0.985,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795381200,
-   "q": "Spread: CD Universidad Católica (-3.5)",
-   "touched": null
-  },
-  {
-   "id": "6930912",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "102603202302789490344861947418055996889964738050299125379306810177656789020301",
-   "px": 0.96,
-   "tick": 0.01,
-   "ts": 1795323723,
-   "end_ts": 1795382100,
-   "q": "Spread: Club Blooming (-1.5)",
-   "touched": null
-  },
-  {
-   "id": "7169693",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "94865069186585475275466375982153672958527029669216164350630426317296962716606",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795383000,
-   "q": "Spread: SD Aucas (-3.5)",
-   "touched": null
-  },
-  {
-   "id": "7169704",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "9134940603805007041036927309176644210706815048326753466890405936872577037364",
-   "px": 0.991,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795383000,
-   "q": "LDU Quito vs. SD Aucas: O/U 6.5",
-   "touched": null
-  },
-  {
-   "id": "7241033",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "48142348145031507312539470669243701720180108106962044459713272747822429011521",
-   "px": 0.988,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795379400,
-   "q": "Spread: Pistons (-25.5)",
-   "touched": null
-  },
-  {
-   "id": "6911051",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "67158259332239756786351356685759278064647918437341283719084239679098971837657",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795390200,
-   "q": "Spread: Charlotte FC (-3.5)",
-   "touched": null
-  },
-  {
-   "id": "6928063",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "80457034248890775010495021362175924103783951756782077553042517018476273232968",
-   "px": 0.986,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795388820,
-   "q": "Spread: CF Cruz Azul (-3.5)",
-   "touched": null
-  },
-  {
-   "id": "6930656",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "15437692710457075330945001650590508279844241608930937188120526858444062175379",
-   "px": 0.987,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795390200,
-   "q": "Spread: CD La Serena (-3.5)",
-   "touched": null
-  },
-  {
-   "id": "6930667",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "29092072373981968748240463779885590726448514937933084922768798145674382136443",
-   "px": 0.975,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795390200,
-   "q": "CD Limache vs. CD La Serena: O/U 6.5",
-   "touched": null
-  },
-  {
-   "id": "6930668",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "21542632995193528981719759801463235913598385179877928792161293501608755966473",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795390200,
-   "q": "CD Limache vs. CD La Serena: O/U 7.5",
-   "touched": null
-  },
-  {
-   "id": "7170891",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "92022616917748541150794930056344348177773096357488832919013282730062504713520",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795395600,
-   "q": "Spread: CA Huracán (-3.5)",
-   "touched": null
-  },
-  {
-   "id": "7196677",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "9549684268707723270853918937224343493064274065925732772748297700790841481523",
-   "px": 0.978,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795392000,
-   "q": "Spread: Gimnasia Y Tiro de Salta (-2.5)",
-   "touched": null
-  },
-  {
-   "id": "7196681",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "65242643144278388193720410293459788629730214700797922976485380871442604382710",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795392000,
-   "q": "Spread: CSD Tristan Suarez (-3.5)",
-   "touched": null
-  },
-  {
-   "id": "7241688",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "103126425498220076346031570010570598655602570519743571434447331164116615681094",
-   "px": 0.96,
-   "tick": 0.01,
-   "ts": 1795323723,
-   "end_ts": 1795392000,
-   "q": "Nuggets vs. Bulls: O/U 210.5",
-   "touched": null
-  },
-  {
-   "id": "7241889",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "19931418033749422384810097169931388965955508233022307869121212616917491112375",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795323723,
-   "end_ts": 1795392000,
-   "q": "Spread: Bulls (-17.5)",
-   "touched": null
-  },
-  {
    "id": "7218437",
    "rule": "clima_cierre",
    "cat": "clima",
@@ -20808,7 +18343,7 @@
    "ts": 1795323723,
    "end_ts": 1795435200,
    "q": "Will the highest temperature in Manila be 28°C on November 23?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7218440",
@@ -20821,7 +18356,7 @@
    "ts": 1795323723,
    "end_ts": 1795435200,
    "q": "Will the highest temperature in Manila be 30°C on November 23?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6931037",
@@ -20834,7 +18369,7 @@
    "ts": 1795323723,
    "end_ts": 1795456800,
    "q": "El Ahly SC vs. Pyramids FC: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7222366",
@@ -20847,7 +18382,7 @@
    "ts": 1795323723,
    "end_ts": 1795460400,
    "q": "Will it rain in Dallas, TX on November 22?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7245301",
@@ -20860,7 +18395,7 @@
    "ts": 1795323723,
    "end_ts": 1795457700,
    "q": "Al-Ittihad Club vs. Pakhtakor: Neither team to score first?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6643961",
@@ -20873,7 +18408,7 @@
    "ts": 1795323723,
    "end_ts": 1795482900,
    "q": "Bengals vs. Commanders: O/U 24.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7121534",
@@ -20886,7 +18421,7 @@
    "ts": 1795323723,
    "end_ts": 1795539600,
    "q": "Will the price of Bitcoin be between $64,000 and $66,000 on November 24?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6364894",
@@ -20899,7 +18434,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will the next Claude Opus model (5.6+) be released on November 24, 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6618177",
@@ -20912,7 +18447,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Argentina win Miss Universe 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6618179",
@@ -20925,7 +18460,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Australia win Miss Universe 2026?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6618180",
@@ -20938,7 +18473,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Bolivia win Miss Universe 2026?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6618181",
@@ -20951,7 +18486,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Brazil win Miss Universe 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6618182",
@@ -20964,7 +18499,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Cambodia win Miss Universe 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6618183",
@@ -20977,7 +18512,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Cameroon win Miss Universe 2026?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6618184",
@@ -20990,7 +18525,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Canada win Miss Universe 2026?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6618185",
@@ -21003,7 +18538,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Chile win Miss Universe 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6618187",
@@ -21016,7 +18551,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Colombia win Miss Universe 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6618188",
@@ -21029,7 +18564,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Costa Rica win Miss Universe 2026?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6618189",
@@ -21042,7 +18577,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Croatia win Miss Universe 2026?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6618199",
@@ -21055,7 +18590,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Curaçao win Miss Universe 2026?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6618201",
@@ -21068,7 +18603,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Ecuador win Miss Universe 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6618202",
@@ -21081,7 +18616,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Egypt win Miss Universe 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6618204",
@@ -21094,7 +18629,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will El Salvador win Miss Universe 2026?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6618205",
@@ -21107,7 +18642,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Aruba take second place in Miss Universe 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6618206",
@@ -21120,7 +18655,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Finland win Miss Universe 2026?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6618207",
@@ -21133,7 +18668,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Australia take second place in Miss Universe 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6618209",
@@ -21146,7 +18681,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Bolivia take second place in Miss Universe 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6618210",
@@ -21159,7 +18694,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Brazil take second place in Miss Universe 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6618211",
@@ -21172,7 +18707,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Guadeloupe win Miss Universe 2026?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6618212",
@@ -21185,7 +18720,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Guatemala win Miss Universe 2026?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6618213",
@@ -21198,7 +18733,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Cambodia take second place in Miss Universe 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6618214",
@@ -21211,7 +18746,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Haiti win Miss Universe 2026?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6618215",
@@ -21224,7 +18759,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Cameroon take second place in Miss Universe 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6618216",
@@ -21237,7 +18772,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Canada take second place in Miss Universe 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6618217",
@@ -21250,7 +18785,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will India win Miss Universe 2026?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6618219",
@@ -21263,7 +18798,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Argentina take third place in Miss Universe 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6618220",
@@ -21276,7 +18811,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Jamaica win Miss Universe 2026?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6618222",
@@ -21289,7 +18824,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Aruba take third place in Miss Universe 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6618223",
@@ -21302,7 +18837,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Japan win Miss Universe 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6618225",
@@ -21315,7 +18850,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Australia take third place in Miss Universe 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6618226",
@@ -21328,7 +18863,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Malta win Miss Universe 2026?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6618228",
@@ -21341,7 +18876,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Bolivia take third place in Miss Universe 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6618229",
@@ -21354,7 +18889,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Mexico win Miss Universe 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6618230",
@@ -21367,7 +18902,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Croatia take second place in Miss Universe 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6618231",
@@ -21380,7 +18915,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Brazil take third place in Miss Universe 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6618233",
@@ -21393,7 +18928,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Namibia win Miss Universe 2026?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6618234",
@@ -21406,7 +18941,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Cambodia take third place in Miss Universe 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6618235",
@@ -21419,7 +18954,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Curaçao take second place in Miss Universe 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6618236",
@@ -21432,7 +18967,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Nepal win Miss Universe 2026?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6618237",
@@ -21445,7 +18980,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Cameroon take third place in Miss Universe 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6618238",
@@ -21458,7 +18993,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will the Dominican Republic take second place in Miss Universe 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6618239",
@@ -21471,7 +19006,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will the Netherlands win Miss Universe 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6618240",
@@ -21484,7 +19019,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Canada take third place in Miss Universe 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6618241",
@@ -21497,7 +19032,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Ecuador take second place in Miss Universe 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6618243",
@@ -21510,7 +19045,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Chile take third place in Miss Universe 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6618244",
@@ -21523,7 +19058,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Egypt take second place in Miss Universe 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6618245",
@@ -21536,7 +19071,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Nigeria win Miss Universe 2026?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6618247",
@@ -21549,7 +19084,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will El Salvador take second place in Miss Universe 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6618248",
@@ -21562,7 +19097,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Pakistan win Miss Universe 2026?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6618250",
@@ -21575,7 +19110,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Finland take second place in Miss Universe 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6618251",
@@ -21588,7 +19123,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Peru win Miss Universe 2026?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6618252",
@@ -21601,7 +19136,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Costa Rica take third place in Miss Universe 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6618254",
@@ -21614,7 +19149,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Croatia take third place in Miss Universe 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6618256",
@@ -21627,7 +19162,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Guadeloupe take second place in Miss Universe 2026?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6618257",
@@ -21640,7 +19175,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Cuba take third place in Miss Universe 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6618258",
@@ -21653,7 +19188,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Portugal win Miss Universe 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6618259",
@@ -21666,7 +19201,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Guatemala take second place in Miss Universe 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6618261",
@@ -21679,7 +19214,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Curaçao take third place in Miss Universe 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6618262",
@@ -21692,7 +19227,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Haiti take second place in Miss Universe 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6618264",
@@ -21705,7 +19240,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will the Dominican Republic take third place in Miss Universe 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6618265",
@@ -21718,7 +19253,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Serbia win Miss Universe 2026?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6618266",
@@ -21731,7 +19266,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Ecuador take third place in Miss Universe 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6618267",
@@ -21744,7 +19279,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will India take second place in Miss Universe 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6618268",
@@ -21757,7 +19292,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will South Africa win Miss Universe 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6618269",
@@ -21770,7 +19305,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Jamaica take second place in Miss Universe 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6618270",
@@ -21783,7 +19318,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Egypt take third place in Miss Universe 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6618271",
@@ -21796,7 +19331,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Spain win Miss Universe 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6618272",
@@ -21809,7 +19344,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Japan take second place in Miss Universe 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6618273",
@@ -21822,7 +19357,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will El Salvador take third place in Miss Universe 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6618274",
@@ -21835,7 +19370,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Trinidad and Tobago win Miss Universe 2026?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6618275",
@@ -21848,7 +19383,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Finland take third place in Miss Universe 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6618276",
@@ -21861,7 +19396,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Malta take second place in Miss Universe 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6618277",
@@ -21874,7 +19409,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will the United States win Miss Universe 2026?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6618281",
@@ -21887,7 +19422,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Guadeloupe take third place in Miss Universe 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6618282",
@@ -21900,7 +19435,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Zimbabwe win Miss Universe 2026?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6618283",
@@ -21913,7 +19448,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Namibia take second place in Miss Universe 2026?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6618284",
@@ -21926,7 +19461,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Guatemala take third place in Miss Universe 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6618286",
@@ -21939,7 +19474,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Nepal take second place in Miss Universe 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6618287",
@@ -21952,7 +19487,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Haiti take third place in Miss Universe 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6618289",
@@ -21965,7 +19500,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will the Netherlands take second place in Miss Universe 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6618290",
@@ -21978,7 +19513,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will India take third place in Miss Universe 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6618293",
@@ -21991,7 +19526,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Jamaica take third place in Miss Universe 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6618295",
@@ -22004,7 +19539,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Nigeria take second place in Miss Universe 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6618296",
@@ -22017,7 +19552,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Japan take third place in Miss Universe 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6618298",
@@ -22030,7 +19565,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Pakistan take second place in Miss Universe 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6618299",
@@ -22043,7 +19578,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Malta take third place in Miss Universe 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6618301",
@@ -22056,7 +19591,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Peru take second place in Miss Universe 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6618302",
@@ -22069,7 +19604,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Mexico take third place in Miss Universe 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6618305",
@@ -22082,7 +19617,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Namibia take third place in Miss Universe 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6618307",
@@ -22095,7 +19630,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Portugal take second place in Miss Universe 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6618308",
@@ -22108,7 +19643,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Nepal take third place in Miss Universe 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6618310",
@@ -22121,7 +19656,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will the Netherlands take third place in Miss Universe 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6618313",
@@ -22134,7 +19669,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Nicaragua take third place in Miss Universe 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6618316",
@@ -22147,7 +19682,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Nigeria take third place in Miss Universe 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6618317",
@@ -22160,7 +19695,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Serbia take second place in Miss Universe 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6618319",
@@ -22173,7 +19708,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Pakistan take third place in Miss Universe 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6618320",
@@ -22186,7 +19721,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will South Africa take second place in Miss Universe 2026?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6618322",
@@ -22199,7 +19734,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Peru take third place in Miss Universe 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6618323",
@@ -22212,7 +19747,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Spain take second place in Miss Universe 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6618326",
@@ -22225,7 +19760,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Trinidad and Tobago take second place in Miss Universe 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6618328",
@@ -22238,7 +19773,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Portugal take third place in Miss Universe 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6618335",
@@ -22251,7 +19786,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Zimbabwe take second place in Miss Universe 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6618337",
@@ -22264,7 +19799,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Serbia take third place in Miss Universe 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6618339",
@@ -22277,7 +19812,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will South Africa take third place in Miss Universe 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6618342",
@@ -22290,7 +19825,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Spain take third place in Miss Universe 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6618345",
@@ -22303,7 +19838,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Trinidad and Tobago take third place in Miss Universe 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6618349",
@@ -22316,7 +19851,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will the United States take third place in Miss Universe 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6618355",
@@ -22329,7 +19864,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will Zimbabwe take third place in Miss Universe 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7029433",
@@ -22342,7 +19877,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will the next Gemini Carbon model (4.1+) be released on November 24, 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7130014",
@@ -22355,7 +19890,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will \"Taken: Natalee Holloway: Season 1\" be the top US Netflix show this week?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7130015",
@@ -22368,7 +19903,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will \"The Body: Season 1\" be the top US Netflix show this week?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7130017",
@@ -22381,7 +19916,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will \"Raw: 2026\" be the top US Netflix show this week?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7130018",
@@ -22394,7 +19929,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will \"Black Doves: Season 2\" be the top US Netflix show this week?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7130019",
@@ -22407,7 +19942,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will \"From: Season 1\" be the top US Netflix show this week?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7130020",
@@ -22420,7 +19955,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will \"The Altruists: Season 1\" be the top US Netflix show this week?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7130021",
@@ -22433,7 +19968,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will \"Win the Mall: Season 1\" be the top US Netflix show this week?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7130034",
@@ -22446,7 +19981,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will \"The Body: Season 1\" be the #2 US Netflix show this week?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7130036",
@@ -22459,7 +19994,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will \"Raw: 2026 - November 16, 2026\" be the #2 US Netflix show this week?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7130037",
@@ -22472,7 +20007,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will \"Black Doves: Season 2\" be the #2 US Netflix show this week?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7130038",
@@ -22485,7 +20020,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will \"From: Season 1\" be the #2 US Netflix show this week?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7130039",
@@ -22498,7 +20033,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will \"The Altruists: Limited Series\" be the #2 US Netflix show this week?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7130040",
@@ -22511,7 +20046,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will \"Win the Mall: Season 1\" be the #2 US Netflix show this week?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7130052",
@@ -22524,7 +20059,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will \"Taken: Natalee Holloway: Season 1\" be the top global Netflix show this week?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7130053",
@@ -22537,7 +20072,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will \"Black Doves: Season 2\" be the top global Netflix show this week?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7130054",
@@ -22550,7 +20085,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will \"The Body: Season 1\" be the top global Netflix show this week?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7130056",
@@ -22563,7 +20098,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will \"Black Doves: Season 1\" be the top global Netflix show this week?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7130057",
@@ -22576,7 +20111,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will \"Power: Season 1\" be the top global Netflix show this week?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7130058",
@@ -22589,7 +20124,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will \"The Altruists\" be the top global Netflix show this week?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7130059",
@@ -22602,7 +20137,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will \"Raw: 2026 - November 16, 2026\" be the top global Netflix show this week?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7130060",
@@ -22615,7 +20150,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will \"Win the Mall: Season 1\" be the top global Netflix show this week?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7130072",
@@ -22628,7 +20163,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will \"Taken: Natalee Holloway: Season 1\" be the #2 global Netflix show this week?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7130074",
@@ -22641,7 +20176,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will \"The Body: Season 1\" be the #2 global Netflix show this week?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7130076",
@@ -22654,7 +20189,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will \"Black Doves: Season 1\" be the #2 global Netflix show this week?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7130077",
@@ -22667,7 +20202,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will \"The Altruists: Season 1\" be the #2 global Netflix show this week?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7130078",
@@ -22680,7 +20215,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will \"Power: Season 1\" be the #2 global Netflix show this week?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7130081",
@@ -22693,7 +20228,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will \"Raw: 2026 - November 16, 2026\" be the #2 global Netflix show this week?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7130083",
@@ -22706,7 +20241,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will \"Funny Money: The Dane Cook Story\" be the top US Netflix movie this week?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7130084",
@@ -22719,7 +20254,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will \"Win the Mall: Season 1\" be the #2 global Netflix show this week?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7130085",
@@ -22732,7 +20267,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will \"A Dog's Perfect Christmas\" be the top US Netflix movie this week?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7130086",
@@ -22745,7 +20280,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will \"Carolina Caroline\" be the top US Netflix movie this week?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7130088",
@@ -22758,7 +20293,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will \"Never Surrender\" be the top US Netflix movie this week?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7130092",
@@ -22771,7 +20306,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will \"Russell Brand: Open Secret\" be the top US Netflix movie this week?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7130093",
@@ -22784,7 +20319,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will \"Steps\" be the top US Netflix movie this week?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7130095",
@@ -22797,7 +20332,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will \"Guarding Stars\" be the top US Netflix movie this week?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7130097",
@@ -22810,7 +20345,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will \"Insidious: Out of the Further\" be the top US Netflix movie this week?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7130099",
@@ -22823,7 +20358,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will \"Obsession\" be the top US Netflix movie this week?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7130123",
@@ -22836,7 +20371,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will \"Heartland\" be the top global Netflix movie this week?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7130124",
@@ -22849,7 +20384,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will \"Steps\" be the #2 global Netflix movie this week?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7130125",
@@ -22862,7 +20397,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will \"A Dog's Perfect Christmas\" be the top global Netflix movie this week?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7130127",
@@ -22875,7 +20410,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will \"The Gospel of Christmas\" be the top global Netflix movie this week?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7130129",
@@ -22888,7 +20423,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will \"Reminders of Him\" be the top global Netflix movie this week?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7130131",
@@ -22901,7 +20436,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will \"Allen\" be the top global Netflix movie this week?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7130133",
@@ -22914,7 +20449,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will \"Sing 2\" be the top global Netflix movie this week?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7130135",
@@ -22927,7 +20462,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will \"Steps\" be the top global Netflix movie this week?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7130137",
@@ -22940,7 +20475,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will \"Guarding Stars\" be the top global Netflix movie this week?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7130139",
@@ -22953,7 +20488,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will \"Insidious: Out of the Further\" be the top global Netflix movie this week?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7130141",
@@ -22966,7 +20501,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will \"Reminders of Him\" be the #2 US Netflix movie this week?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7130142",
@@ -22979,7 +20514,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will \"Obsession\" be the top global Netflix movie this week?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7130145",
@@ -22992,7 +20527,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will \"The Gospel of Christmas\" be the #2 US Netflix movie this week?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7130150",
@@ -23005,7 +20540,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will \"Heartland\" be the #2 US Netflix movie this week?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7130153",
@@ -23018,7 +20553,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will \"Funny Money: The Dane Cook Story\" be the #2 US Netflix movie this week?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7130157",
@@ -23031,7 +20566,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will \"A Dog's Perfect Christmas\" be the #2 US Netflix movie this week?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7130159",
@@ -23044,7 +20579,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will \"Carolina Caroline\" be the #2 US Netflix movie this week?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7130162",
@@ -23057,7 +20592,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will \"Never Surrender\" be the #2 US Netflix movie this week?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7130164",
@@ -23070,7 +20605,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will \"The Christmas Switch\" be the #2 US Netflix movie this week?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7130166",
@@ -23083,7 +20618,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will \"Russell Brand: Open Secret\" be the #2 US Netflix movie this week?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7130167",
@@ -23096,7 +20631,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will \"Guarding Stars\" be the #2 US Netflix movie this week?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7130168",
@@ -23109,7 +20644,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will \"Steps\" be the #2 US Netflix movie this week?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7130169",
@@ -23122,7 +20657,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will \"Insidious: Out of the Further\" be the #2 US Netflix movie this week?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7147736",
@@ -23135,7 +20670,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will HoneyMad finish GTA VI by November 24?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7147737",
@@ -23148,7 +20683,7 @@
    "ts": 1795323723,
    "end_ts": 1795582740,
    "q": "Will xQc finish GTA VI by November 24?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6884632",
@@ -40321,6 +37856,513 @@
    "ts": 1795410106,
    "end_ts": 1795669140,
    "q": "Next Z.ai GLM (5.4+) released by November 25, 2026?",
+   "touched": null
+  },
+  {
+   "id": "6962568",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "17813342410665219692554160305009344209843412831505980373303012489085707982533",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795413695,
+   "end_ts": 1795453200,
+   "q": "NK Slaven Belupo vs. NK Osijek: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "7244037",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "66720722431494819450526806880056526543611357594272313422570068598347548696060",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795413695,
+   "end_ts": 1795449600,
+   "q": "Spread: Esteghlal FC Tehran (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "6923753",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "101890114635361568193196506502149836826417055081398916554814418495748966504468",
+   "px": 0.991,
+   "tick": 0.001,
+   "ts": 1795413695,
+   "end_ts": 1795463100,
+   "q": "AC Monza vs. ACF Fiorentina: ACF Fiorentina O/U 5.5",
+   "touched": null
+  },
+  {
+   "id": "7244691",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "82953890236177796570012365590118468807422453360543918146751847945893444231657",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795413695,
+   "end_ts": 1795457700,
+   "q": "Spread: Al Gharafa SC (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "6961944",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "16646945019960952192873046961400141150332837699343225492088126868305090670686",
+   "px": 0.991,
+   "tick": 0.001,
+   "ts": 1795413695,
+   "end_ts": 1795478400,
+   "q": "Santos FC vs. Grêmio FBPA: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6961978",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "6402948899103153636220267921627652686130438955010401561123741843031615993611",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795413695,
+   "end_ts": 1795474800,
+   "q": "Spread: São Paulo FC (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "6962023",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "85901149181264106581224563174048710042767531998558384393153765301944422709038",
+   "px": 0.95,
+   "tick": 0.01,
+   "ts": 1795413695,
+   "end_ts": 1795473000,
+   "q": "Spread: SC Internacional (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "7274565",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "103646788277889281464393554086682746641880673919922763225614501784546918647572",
+   "px": 0.986,
+   "tick": 0.001,
+   "ts": 1795413695,
+   "end_ts": 1795478400,
+   "q": "Spread: Grizzlies (-26.5)",
+   "touched": null
+  },
+  {
+   "id": "7274580",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "26624272191566754767311599814618414687541091551970713657618660769057474062257",
+   "px": 0.97,
+   "tick": 0.01,
+   "ts": 1795413695,
+   "end_ts": 1795478400,
+   "q": "Grizzlies vs. Hornets: O/U 188.5",
+   "touched": null
+  },
+  {
+   "id": "7273249",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "56162461412005195583811875776751906936905548880789867429237439107215696767468",
+   "px": 0.96,
+   "tick": 0.01,
+   "ts": 1795413695,
+   "end_ts": 1795483800,
+   "q": "Spread: Rockets (-34.5)",
+   "touched": null
+  },
+  {
+   "id": "7274569",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "30125509939474556133464108685102953566696856404299191804860727009613104100940",
+   "px": 0.97,
+   "tick": 0.01,
+   "ts": 1795413695,
+   "end_ts": 1795480200,
+   "q": "Bucks vs. Raptors: O/U 196.5",
+   "touched": null
+  },
+  {
+   "id": "7274570",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "63746001078851132351191334577252606701319324667345079796148293738727260869122",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1795413695,
+   "end_ts": 1795480200,
+   "q": "Nets vs. Timberwolves: O/U 195.5",
+   "touched": null
+  },
+  {
+   "id": "7274582",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "28112203986183091068963024336539773361840749701891716007191795825593858261072",
+   "px": 0.97,
+   "tick": 0.01,
+   "ts": 1795413695,
+   "end_ts": 1795480200,
+   "q": "Nets vs. Timberwolves: O/U 193.5",
+   "touched": null
+  },
+  {
+   "id": "7274837",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "107146810437883612469745732108233801598436398026998929438371662921038743591061",
+   "px": 0.96,
+   "tick": 0.01,
+   "ts": 1795413695,
+   "end_ts": 1795489200,
+   "q": "Spread: Spurs (-33.5)",
+   "touched": null
+  },
+  {
+   "id": "7274848",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "64166413483694156634396691042366494952636170804645984858705458663932454438439",
+   "px": 0.96,
+   "tick": 0.01,
+   "ts": 1795413695,
+   "end_ts": 1795489200,
+   "q": "Spurs vs. Kings: O/U 197.5",
+   "touched": null
+  },
+  {
+   "id": "7275786",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "5523516622199290392696317767416435601426472476432045337889009384281504655917",
+   "px": 0.96,
+   "tick": 0.01,
+   "ts": 1795413695,
+   "end_ts": 1795489200,
+   "q": "Jazz vs. Lakers: O/U 256.5",
+   "touched": null
+  },
+  {
+   "id": "7254941",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "38235980959669266770305780322108832880089545237328574112652975061291931413282",
+   "px": 0.961,
+   "tick": 0.001,
+   "ts": 1795413695,
+   "end_ts": 1795496340,
+   "q": "Will TheBurntPeanut finish GTA VI by November 23?",
+   "touched": null
+  },
+  {
+   "id": "7279387",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "14553700706663455007222067198310394500971487805434916106001625430773775187238",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795413695,
+   "end_ts": 1795496400,
+   "q": "Will Bitcoin reach $67,000 on November 23?",
+   "touched": null
+  },
+  {
+   "id": "7279392",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "115608749060875426748715876221757069470460767986475531362391791676262563263282",
+   "px": 0.957,
+   "tick": 0.001,
+   "ts": 1795413695,
+   "end_ts": 1795496400,
+   "q": "Will Bitcoin reach $66,000 on November 23?",
+   "touched": null
+  },
+  {
+   "id": "7279422",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "113316605209661819094061553016402582686140887758999916099652483695014516127270",
+   "px": 0.95,
+   "tick": 0.01,
+   "ts": 1795413695,
+   "end_ts": 1795496400,
+   "q": "Will Bitcoin dip to $57,000 on November 23?",
+   "touched": null
+  },
+  {
+   "id": "7279424",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "40780614298565692074390138717263306338244962440413639074420236131290463114967",
+   "px": 0.976,
+   "tick": 0.001,
+   "ts": 1795413695,
+   "end_ts": 1795496400,
+   "q": "Will Bitcoin dip to $56,000 on November 23?",
+   "touched": null
+  },
+  {
+   "id": "7279425",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "105390869745533780221875969192961721454097760338316283081234930516689961589605",
+   "px": 0.987,
+   "tick": 0.001,
+   "ts": 1795413695,
+   "end_ts": 1795496400,
+   "q": "Will Bitcoin dip to $55,000 on November 23?",
+   "touched": null
+  },
+  {
+   "id": "7279426",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "87431229406356083956144605801632389951541761078444825343222450340240860092883",
+   "px": 0.996,
+   "tick": 0.001,
+   "ts": 1795413695,
+   "end_ts": 1795496400,
+   "q": "Will Bitcoin dip to $54,000 on November 23?",
+   "touched": null
+  },
+  {
+   "id": "7279436",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "95099541809242492775806999837998079538282925859135789805820087760429163748904",
+   "px": 0.991,
+   "tick": 0.001,
+   "ts": 1795413695,
+   "end_ts": 1795496400,
+   "q": "Will Ethereum reach $1,900 on November 23?",
+   "touched": null
+  },
+  {
+   "id": "7279450",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "73433732348648299856200009912914302246047899613192262638691171801427216517306",
+   "px": 0.981,
+   "tick": 0.001,
+   "ts": 1795413695,
+   "end_ts": 1795496400,
+   "q": "Will Ethereum dip to $1,550 on November 23?",
+   "touched": null
+  },
+  {
+   "id": "7279452",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "2024323769747231307296392819060026769020923669771089725096541071465267836873",
+   "px": 0.993,
+   "tick": 0.001,
+   "ts": 1795413695,
+   "end_ts": 1795496400,
+   "q": "Will Ethereum dip to $1,500 on November 23?",
+   "touched": null
+  },
+  {
+   "id": "7279453",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "35507656031900867500934400843102048474402031742563010308511458844781129263894",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795413695,
+   "end_ts": 1795496400,
+   "q": "Will Ethereum dip to $1,450 on November 23?",
+   "touched": null
+  },
+  {
+   "id": "7247196",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "68444493081479108044440282936845352929037918111544290957730448710399510867461",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795413695,
+   "end_ts": 1795521600,
+   "q": "Will the highest temperature in Seoul (Incheon) be 9°C on November 24?",
+   "touched": null
+  },
+  {
+   "id": "7247197",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "52722722185795175210383436589591395606722076524888513268352037739923742915101",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795413695,
+   "end_ts": 1795521600,
+   "q": "Will the highest temperature in Seoul (Incheon) be 10°C or higher on November 24?",
+   "touched": null
+  },
+  {
+   "id": "7247365",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "75237658626703024704785258385914428294372576687369859924555570830298433103597",
+   "px": 0.968,
+   "tick": 0.001,
+   "ts": 1795413695,
+   "end_ts": 1795521600,
+   "q": "Will the highest temperature in Wuhan be 15°C on November 24?",
+   "touched": null
+  },
+  {
+   "id": "7249577",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "65503413674865361061004134397002554553021887182579041890082888363721004618384",
+   "px": 0.993,
+   "tick": 0.001,
+   "ts": 1795413695,
+   "end_ts": 1795521600,
+   "q": "Will the highest temperature in Atlanta be between 56-57°F on November 24?",
+   "touched": null
+  },
+  {
+   "id": "7251748",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "1261681853630190277905143758479147744726409937029137761429171753594777383996",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795413695,
+   "end_ts": 1795521600,
+   "q": "Will the highest temperature in Sao Paulo be 26°C or below on November 24?",
+   "touched": null
+  },
+  {
+   "id": "7251749",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "115773818498547553353285861733326814437296668932719535503281159607687281081835",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795413695,
+   "end_ts": 1795521600,
+   "q": "Will the highest temperature in Sao Paulo be 27°C on November 24?",
+   "touched": null
+  },
+  {
+   "id": "6942903",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "87795006023388573053209854520881334997426395804321178959677385700809873062276",
+   "px": 0.991,
+   "tick": 0.001,
+   "ts": 1795413695,
+   "end_ts": 1795542300,
+   "q": "Galatasaray SK vs. Aston Villa FC: O/U 8.5",
+   "touched": null
+  },
+  {
+   "id": "7121516",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "54253790168831246992634308640986892327955059652138760079440215503853704736764",
+   "px": 0.959,
+   "tick": 0.001,
+   "ts": 1795413695,
+   "end_ts": 1795539600,
+   "q": "Will the price of Bitcoin be between $56,000 and $58,000 on November 24?",
+   "touched": null
+  },
+  {
+   "id": "7121592",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "75768274958494792642766013198628689101870676157446593795729931413436106491409",
+   "px": 0.973,
+   "tick": 0.001,
+   "ts": 1795413695,
+   "end_ts": 1795539600,
+   "q": "Will the price of Solana be above $65 on November 24?",
+   "touched": null
+  },
+  {
+   "id": "4751173",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "44068219239786448040214666285929695776762199956809725368504601750065087341995",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1795413695,
+   "end_ts": 1795549500,
+   "q": "Spread: Blackpool FC (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "7150180",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "35131024518989690141379506666506783747797171571273732394295024306618699872759",
+   "px": 0.961,
+   "tick": 0.001,
+   "ts": 1795413695,
+   "end_ts": 1795626000,
+   "q": "Will the price of Bitcoin be above $56,000 on November 25?",
+   "touched": null
+  },
+  {
+   "id": "6993374",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "58000423062077379498348074868539327229100013902821947299579470083272622910616",
+   "px": 0.996,
+   "tick": 0.001,
+   "ts": 1795413695,
+   "end_ts": 1795636800,
+   "q": "Spread: Sporting CP (-3.5)",
    "touched": null
   }
  ]
