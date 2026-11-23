@@ -2,8 +2,8 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 10.3 de 28 | corridas: 228
-- Capital inicial: $1,000.00 | valor actual: $906.46 | P&L: $-93.54 (-9.35%)
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 10.3 de 28 | corridas: 229
+- Capital inicial: $1,000.00 | valor actual: $907.36 | P&L: $-92.64 (-9.26%)
 - Efectivo libre: $0.00 | en ordenes abiertas: $90.14 (1) | en posiciones: $832.44 (11)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $91.77 en 1 posiciones
 - Ordenes virtuales: 459 colocadas, 209 llenadas, 199 tocadas sin llenarse (sorteo 30%), 50 expiradas
@@ -31,7 +31,7 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
-| $91.77 | 99.8c | 88.5c | otros_cierre | si | Pakistan military action against Afghanistan by November 15, 2026? |
+| $91.77 | 99.8c | 89.0c | otros_cierre | si | Pakistan military action against Afghanistan by November 15, 2026? |
 | $35.36 | 99.8c | 97.4c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $4.5m and $5.5m at auction? |
 | $87.27 | 99.8c | 98.3c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
 | $90.05 | 97.9c | 97.9c | deportes_previo |  | Spread: Al Gharafa SC (-2.5) |
@@ -40,29 +40,29 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 | $90.52 | 96.8c | 96.8c | deportes_previo |  | Spread: UD Almería (-3.5) |
 | $17.67 | 99.8c | 99.7c | deportes_previo |  | Virginia Tech Hokies vs. UT Martin Skyhawks (W) |
 | $90.05 | 98.9c | 97.5c | cripto_cierre |  | Microsoft (MSFT) Up or Down on November 23? |
-| $90.52 | 97.9c | 97.5c | cripto_cierre |  | Apple (AAPL) Up or Down on November 23? |
-| $75.36 | 98.9c | 97.0c | cripto_cierre |  | Amazon (AMZN) Up or Down on November 23? |
+| $90.52 | 97.9c | 97.6c | cripto_cierre |  | Apple (AAPL) Up or Down on November 23? |
+| $75.36 | 98.9c | 97.5c | cripto_cierre |  | Amazon (AMZN) Up or Down on November 23? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 12038 | abiertas: 2289 | abiertas mas de 7 dias despues de su fecha de fin: 1
+- Resueltas: 12057 | abiertas: 2288 | abiertas mas de 7 dias despues de su fecha de fin: 1
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
 | clima_cierre | todas | 3241 | 98.83c | 98.98% | +0.15 pts | -0.19 a +0.50 | 33 |
 | clima_cierre | tocadas | 2999 | 98.85c | 98.90% | +0.05 pts | -0.32 a +0.42 | 33 |
-| cripto_cierre | todas | 1587 | 98.69c | 98.17% | -0.52 pts | -1.17 a +0.13 | 29 |
-| cripto_cierre | tocadas | 1445 | 98.74c | 97.99% | -0.75 pts | -1.46 a -0.03 | 29 |
-| deportes_previo | todas | 5741 | 98.04c | 97.43% | -0.61 pts | -1.01 a -0.20 | 150 |
-| deportes_previo | tocadas | 5609 | 98.07c | 97.41% | -0.67 pts | -1.08 a -0.25 | 148 |
-| otros_cierre | todas | 1259 | 99.00c | 97.06% | -1.93 pts | -2.86 a -1.01 | 37 |
-| otros_cierre | tocadas | 1174 | 98.96c | 96.85% | -2.11 pts | -3.11 a -1.12 | 37 |
-| post_fin_90_97 | todas | 210 | 94.06c | 92.38% | -1.68 pts | -5.22 a +1.87 | 16 |
-| post_fin_90_97 | tocadas | 178 | 94.16c | 91.01% | -3.15 pts | -7.30 a +1.00 | 16 |
-| TOTAL | todas | 12038 | 98.37c | 97.82% | -0.55 pts | -0.81 a -0.29 | 265 |
-| TOTAL | tocadas | 11405 | 98.39c | 97.72% | -0.68 pts | -0.95 a -0.41 | 263 |
+| cripto_cierre | todas | 1588 | 98.69c | 98.17% | -0.52 pts | -1.17 a +0.13 | 29 |
+| cripto_cierre | tocadas | 1446 | 98.74c | 97.99% | -0.75 pts | -1.46 a -0.03 | 29 |
+| deportes_previo | todas | 5756 | 98.04c | 97.42% | -0.62 pts | -1.03 a -0.21 | 151 |
+| deportes_previo | tocadas | 5623 | 98.07c | 97.39% | -0.68 pts | -1.09 a -0.27 | 149 |
+| otros_cierre | todas | 1261 | 98.99c | 97.07% | -1.93 pts | -2.85 a -1.00 | 37 |
+| otros_cierre | tocadas | 1176 | 98.96c | 96.85% | -2.11 pts | -3.10 a -1.12 | 37 |
+| post_fin_90_97 | todas | 211 | 94.05c | 92.42% | -1.63 pts | -5.17 a +1.90 | 16 |
+| post_fin_90_97 | tocadas | 179 | 94.16c | 91.06% | -3.10 pts | -7.22 a +1.03 | 16 |
+| TOTAL | todas | 12057 | 98.37c | 97.81% | -0.55 pts | -0.81 a -0.29 | 266 |
+| TOTAL | tocadas | 11423 | 98.39c | 97.71% | -0.68 pts | -0.95 a -0.41 | 264 |
 
 Peores casos del registro sombra:
 

@@ -151,27 +151,6 @@
    "liq": 2966
   },
   {
-   "oid": "7196048-1795456866",
-   "id": "7196048",
-   "q": "NVIDIA (NVDA) Up or Down on November 23?",
-   "cat": "cripto",
-   "rule": "cripto_cierre",
-   "event": "1431388",
-   "side": 0,
-   "token": "106255629812962024828012154009940601189229493261173660738965202264945833727203",
-   "px": 0.998,
-   "tick": 0.001,
-   "mid": 0.9985,
-   "bid": 0.997,
-   "ask": 1,
-   "shares": 46.1915,
-   "cost": 46.0991,
-   "ts": 1795456866.832403,
-   "end_ts": 1795467600.0,
-   "hours": 2.98,
-   "liq": 16958
-  },
-  {
    "oid": "7196056-1795456866",
    "id": "7196056",
    "q": "Will Google (GOOGL) close above $260 on November 23?",
@@ -311,7 +290,32 @@
    "hours": -7.02,
    "liq": 1051,
    "fill_ts": 1795464065.018116,
-   "mark": 0.96
+   "mark": 0.96,
+   "stuck": false,
+   "disputed": false
+  },
+  {
+   "oid": "7196048-1795456866",
+   "id": "7196048",
+   "q": "NVIDIA (NVDA) Up or Down on November 23?",
+   "cat": "cripto",
+   "rule": "cripto_cierre",
+   "event": "1431388",
+   "side": 0,
+   "token": "106255629812962024828012154009940601189229493261173660738965202264945833727203",
+   "px": 0.998,
+   "tick": 0.001,
+   "mid": 0.9985,
+   "bid": 0.997,
+   "ask": 1,
+   "shares": 46.1915,
+   "cost": 46.0991,
+   "ts": 1795456866.832403,
+   "end_ts": 1795467600.0,
+   "hours": 2.98,
+   "liq": 16958,
+   "fill_ts": 1795465036.107361,
+   "mark": 0.998
   }
  ],
  "closed": [
@@ -6813,12 +6817,25 @@
    "placed": 0,
    "shadow_open": 461,
    "shadow_closed": 30
+  },
+  {
+   "ts": "2026-11-23T20:17:55Z",
+   "equity": 1027.3,
+   "cash": 360.62,
+   "orders": 9,
+   "positions": 5,
+   "closed": 103,
+   "scanned": 10485,
+   "candidates": 138,
+   "placed": 0,
+   "shadow_open": 459,
+   "shadow_closed": 6
   }
  ],
  "halted": false,
  "stats": {
   "placed": 454,
-  "filled": 107,
+  "filled": 108,
   "expired": 102,
   "touched_not_filled": 235
  },
@@ -6899,19 +6916,6 @@
    "ts": 1795197675,
    "end_ts": 1795305600,
    "q": "Will Max Greyserman win the 2026 The RSM Classic?",
-   "touched": 1
-  },
-  {
-   "id": "7042955",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "89722340840875608992102216679521683712946965509105181315504413827805874298651",
-   "px": 0.986,
-   "tick": 0.001,
-   "ts": 1795204867,
-   "end_ts": 1795305600,
-   "q": "Will Brooks Koepka win the 2026 The RSM Classic?",
    "touched": 1
   },
   {
@@ -7654,19 +7658,6 @@
    "end_ts": 1795464000,
    "q": "Levante UD vs. Elche CF: O/U 6.5",
    "touched": 0
-  },
-  {
-   "id": "7244848",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "91088936954321528475673612361116167857007160421630676910515625085387163182101",
-   "px": 0.982,
-   "tick": 0.001,
-   "ts": 1795366869,
-   "end_ts": 1795449600,
-   "q": "Tractor Tabriz vs. Al Wasl FC: O/U 6.5",
-   "touched": 1
   },
   {
    "id": "6923716",
@@ -8433,45 +8424,6 @@
    "ts": 1795410068,
    "end_ts": 1795453200,
    "q": "Spread: NK Osijek (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "7096580",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "91227126310703746770490898645042176412538593809028498420002436757872104705658",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795410068,
-   "end_ts": 1795449600,
-   "q": "Spread: FC Dunav Ruse (-2.5)",
-   "touched": 1
-  },
-  {
-   "id": "7096582",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "72767372539694556812126508837324843192863106279311867795070734735511828972968",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795410068,
-   "end_ts": 1795449600,
-   "q": "Spread: FC Dunav Ruse (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "7096594",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "76964975989174434476519823068767855325752231909261203403184737796554703623398",
-   "px": 0.987,
-   "tick": 0.001,
-   "ts": 1795410068,
-   "end_ts": 1795449600,
-   "q": "PFC Ludogorets 1945 Razgrad vs. FC Dunav Ruse: O/U 7.5",
    "touched": 1
   },
   {
@@ -9291,20 +9243,7 @@
    "ts": 1795420875,
    "end_ts": 1795409940,
    "q": "Will 8+ ships transit the Strait of Hormuz on any day week of November 16?",
-   "touched": null
-  },
-  {
-   "id": "7258087",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "105115132513380216493206606091332644195615569575806376804981920460989869096867",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795420875,
-   "end_ts": 1795446000,
-   "q": "Will the US national average gas price be between $3.6200 and $3.6299 on November 23?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7101516",
@@ -9317,7 +9256,7 @@
    "ts": 1795420875,
    "end_ts": 1795463100,
    "q": "Spread: AC Lumezzane (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6364893",
@@ -9330,7 +9269,7 @@
    "ts": 1795420875,
    "end_ts": 1795496340,
    "q": "Will the next Claude Opus model (5.6+) be released on November 23, 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7244642",
@@ -9343,7 +9282,7 @@
    "ts": 1795420875,
    "end_ts": 1795506300,
    "q": "Spread: Newcastle United Jets (-2.5)",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6931120",
@@ -12814,6 +12753,58 @@
    "ts": 1795464065,
    "end_ts": 1795570200,
    "q": "San Jose State Spartans vs. Arizona State Sun Devils (W)",
+   "touched": null
+  },
+  {
+   "id": "7196057",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "10613985113495004304274735094957519960319058718701352513241856430136602764943",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795465036,
+   "end_ts": 1795467600,
+   "q": "Will Google (GOOGL) close above $265 on November 23?",
+   "touched": null
+  },
+  {
+   "id": "7121588",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "42016002975924415410286341536676615716940601097500246502631679750791948243696",
+   "px": 0.999,
+   "tick": 0.001,
+   "ts": 1795465036,
+   "end_ts": 1795539600,
+   "q": "Will the price of Solana be above $55 on November 24?",
+   "touched": null
+  },
+  {
+   "id": "4750581",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "52478076928714702351776690228052226925943452748147349332921846257798395576666",
+   "px": 0.99,
+   "tick": 0.001,
+   "ts": 1795465036,
+   "end_ts": 1795549500,
+   "q": "Bromley FC vs. Wycombe Wanderers FC: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6960076",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "78879749593497464777904315137413989240869621354923674204566285705154929352282",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1795465036,
+   "end_ts": 1795549500,
+   "q": "Middlesbrough FC vs. Swansea City AFC: O/U 8.5",
    "touched": null
   }
  ]
