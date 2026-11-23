@@ -2,21 +2,21 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-11T22:05:26Z | dias corridos: 11.2 de 28 | corridas: 247
-- Capital inicial: $1,000.00 | valor actual: $1,024.53 | P&L: $+24.53 (+2.45%)
-- Efectivo libre: $409.06 | en ordenes abiertas: $407.25 (10) | en posiciones: $207.24 (5)
+- Inicio: 2026-11-11T22:05:26Z | dias corridos: 11.2 de 28 | corridas: 248
+- Capital inicial: $1,000.00 | valor actual: $1,024.61 | P&L: $+24.61 (+2.46%)
+- Efectivo libre: $409.08 | en ordenes abiertas: $414.65 (11) | en posiciones: $199.92 (4)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 420 colocadas, 99 llenadas, 219 tocadas sin llenarse (sorteo 30%), 92 expiradas
+- Ordenes virtuales: 421 colocadas, 99 llenadas, 219 tocadas sin llenarse (sorteo 30%), 92 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
 | Regla | n | Precio medio | Pago real | IC95 del pago | Edge | P&L | Dias medios |
 |---|---|---|---|---|---|---|---|
 | cripto_cierre | 26 | 98.90c | 100.00% | 87.1-100.0% | +1.10 pts | $+15.05 | 0.28 |
-| deportes_previo | 35 | 98.23c | 100.00% | 90.1-100.0% | +1.77 pts | $+32.51 | 0.34 |
+| deportes_previo | 36 | 98.23c | 100.00% | 90.4-100.0% | +1.77 pts | $+32.61 | 0.34 |
 | otros_cierre | 24 | 99.02c | 100.00% | 86.2-100.0% | +0.98 pts | $+12.21 | 0.44 |
 | post_fin_95_97 | 9 | 95.96c | 88.56% | 56.5-98.0% | -7.40 pts | $-36.21 | 0.38 |
-| TOTAL | 94 | 98.40c | 98.89% | 94.2-99.8% | +0.49 pts | $+23.55 | 0.35 |
+| TOTAL | 95 | 98.40c | 98.89% | 94.3-99.8% | +0.50 pts | $+23.65 | 0.35 |
 
 ## Peores casos
 
@@ -29,29 +29,28 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
 | $51.82 | 98.5c | 98.3c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
-| $7.32 | 98.6c | 98.7c | deportes_previo |  | Spread: CF Cruz Azul (-3.5) |
 | $53.71 | 99.0c | 99.8c | cripto_cierre |  | Will Bitcoin reach $66,000 November 16-22? |
 | $43.20 | 99.8c | 99.8c | cripto_cierre |  | Will Bitcoin reach $72,000 November 16-22? |
-| $51.18 | 98.5c | 99.8c | cripto_cierre |  | Will Ethereum reach $1,900 November 16-22? |
+| $51.18 | 98.5c | 99.7c | cripto_cierre |  | Will Ethereum reach $1,900 November 16-22? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 3933 | abiertas: 349 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 3958 | abiertas: 354 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
-| cripto_cierre | todas | 1064 | 98.73c | 99.06% | +0.33 pts | -0.25 a +0.91 | 10 |
+| cripto_cierre | todas | 1066 | 98.73c | 99.06% | +0.33 pts | -0.25 a +0.91 | 10 |
 | cripto_cierre | tocadas | 728 | 98.56c | 98.63% | +0.07 pts | -0.77 a +0.92 | 10 |
-| deportes_previo | todas | 2259 | 98.30c | 98.94% | +0.63 pts | +0.22 a +1.05 | 25 |
-| deportes_previo | tocadas | 1926 | 98.28c | 98.86% | +0.58 pts | +0.11 a +1.05 | 23 |
-| otros_cierre | todas | 538 | 98.81c | 99.26% | +0.45 pts | -0.28 a +1.18 | 4 |
+| deportes_previo | todas | 2281 | 98.30c | 98.95% | +0.64 pts | +0.23 a +1.06 | 25 |
+| deportes_previo | tocadas | 1945 | 98.28c | 98.87% | +0.59 pts | +0.13 a +1.06 | 23 |
+| otros_cierre | todas | 539 | 98.81c | 99.26% | +0.45 pts | -0.28 a +1.18 | 4 |
 | otros_cierre | tocadas | 361 | 98.70c | 98.89% | +0.20 pts | -0.89 a +1.28 | 4 |
 | post_fin_95_97 | todas | 72 | 95.91c | 91.67% | -4.25 pts | -10.68 a +2.18 | 6 |
 | post_fin_95_97 | tocadas | 64 | 95.93c | 90.62% | -5.30 pts | -12.50 a +1.89 | 6 |
-| TOTAL | todas | 3933 | 98.44c | 98.88% | +0.44 pts | +0.11 a +0.76 | 45 |
-| TOTAL | tocadas | 3079 | 98.34c | 98.64% | +0.29 pts | -0.11 a +0.70 | 43 |
+| TOTAL | todas | 3958 | 98.44c | 98.89% | +0.44 pts | +0.12 a +0.77 | 45 |
+| TOTAL | tocadas | 3098 | 98.34c | 98.64% | +0.30 pts | -0.10 a +0.70 | 43 |
 
 Peores casos del registro sombra:
 
@@ -68,4 +67,4 @@ Peores casos del registro sombra:
 
 ## Veredicto
 
-Aun no hay veredicto: van 94 operaciones cerradas en 11.2 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
+Aun no hay veredicto: van 95 operaciones cerradas en 11.2 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
