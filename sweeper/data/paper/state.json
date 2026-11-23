@@ -1,6 +1,6 @@
 {
  "capital0": 1000.0,
- "cash": 409.4343,
+ "cash": 409.2956,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
   {
@@ -44,27 +44,6 @@
    "end_ts": 1795409940.0,
    "hours": 11.96,
    "liq": 3126
-  },
-  {
-   "oid": "6998514-1795369943",
-   "id": "6998514",
-   "q": "Delaware Fightin' Blue Hens vs. UCLA Bruins",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1374654",
-   "side": 1,
-   "token": "66297135950564193331848254149398705571569128565921703452300680822275160771994",
-   "px": 0.985,
-   "tick": 0.001,
-   "mid": 0.9855,
-   "bid": 0.982,
-   "ask": 0.989,
-   "shares": 51.8756,
-   "cost": 51.0975,
-   "ts": 1795369943.420457,
-   "end_ts": 1795392000.0,
-   "hours": 6.13,
-   "liq": 8212
   },
   {
    "oid": "7085194-1795370470",
@@ -193,25 +172,46 @@
    "liq": 51455
   },
   {
-   "oid": "5763815-1795392071",
-   "id": "5763815",
-   "q": "Will OpenRouter process between 725T and 775T tokens from Oct 26 to Nov 22?",
+   "oid": "6655556-1795395661",
+   "id": "6655556",
+   "q": "Will the next Meta Muse Spark model be released on November 22, 2026?",
    "cat": "otros",
    "rule": "otros_cierre",
-   "event": "1196989",
+   "event": "1310057",
    "side": 1,
-   "token": "69361310336830576230613545878669264146295166638950702624315653157292183550426",
-   "px": 0.993,
+   "token": "41674128350358729737243088341075694767803203701689991535454401046579147026325",
+   "px": 0.998,
    "tick": 0.001,
-   "mid": 0.993,
-   "bid": 0.991,
-   "ask": 0.995,
-   "shares": 51.5427,
-   "cost": 51.1819,
-   "ts": 1795392071.593131,
+   "mid": 0.9985,
+   "bid": 0.998,
+   "ask": 0.999,
+   "shares": 51.3123,
+   "cost": 51.2096,
+   "ts": 1795395661.80255,
    "end_ts": 1795409940.0,
-   "hours": 4.96,
-   "liq": 1293
+   "hours": 3.97,
+   "liq": 6045
+  },
+  {
+   "oid": "6931073-1795395661",
+   "id": "6931073",
+   "q": "El Gouna SC vs. Zamalek SC: O/U 5.5",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1356657",
+   "side": 1,
+   "token": "108033664845176567481903321796680464513789873557440204687030376809961492728700",
+   "px": 0.97,
+   "tick": 0.001,
+   "mid": 0.9705,
+   "bid": 0.961,
+   "ask": 0.98,
+   "shares": 52.7922,
+   "cost": 51.2085,
+   "ts": 1795395661.80255,
+   "end_ts": 1795446000.0,
+   "hours": 13.98,
+   "liq": 4403
   }
  ],
  "positions": [
@@ -261,7 +261,7 @@
    "hours": 22.98,
    "liq": 62011,
    "fill_ts": 1795330863.301342,
-   "mark": 0.9935,
+   "mark": 0.9975,
    "stuck": false,
    "disputed": false
   },
@@ -336,7 +336,9 @@
    "hours": 5.36,
    "liq": 42141,
    "fill_ts": 1795392071.593131,
-   "mark": 0.985
+   "mark": 0.9915,
+   "stuck": false,
+   "disputed": false
   }
  ],
  "closed": [
@@ -6297,14 +6299,27 @@
    "placed": 1,
    "shadow_open": 372,
    "shadow_closed": 13
+  },
+  {
+   "ts": "2026-11-23T01:01:26Z",
+   "equity": 1024.19,
+   "cash": 409.3,
+   "orders": 10,
+   "positions": 5,
+   "closed": 94,
+   "scanned": 9503,
+   "candidates": 137,
+   "placed": 2,
+   "shadow_open": 370,
+   "shadow_closed": 13
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 415,
+  "placed": 417,
   "filled": 99,
   "expired": 91,
-  "touched_not_filled": 215
+  "touched_not_filled": 217
  },
  "shadow": [
   {
@@ -7127,19 +7142,6 @@
    "touched": 0
   },
   {
-   "id": "7016001",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "61059161460229705733599187712853087405530768101726349825120395492410052272419",
-   "px": 0.987,
-   "tick": 0.001,
-   "ts": 1795269667,
-   "end_ts": 1795377600,
-   "q": "Alabama A&M Bulldogs vs. Ole Miss Rebels (W)",
-   "touched": 1
-  },
-  {
    "id": "7175711",
    "rule": "otros_cierre",
    "cat": "otros",
@@ -7151,19 +7153,6 @@
    "end_ts": 1795348800,
    "q": "Will \"Ebenezer\" 2nd Weekend Box Office be between 10.5m and 12m?",
    "touched": 0
-  },
-  {
-   "id": "7016007",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "47167152131240800444164383988322658554850178127804128671866042876278969043275",
-   "px": 0.987,
-   "tick": 0.001,
-   "ts": 1795273270,
-   "end_ts": 1795379400,
-   "q": "Utah State Aggies vs. TCU Horned Frogs (W)",
-   "touched": 1
   },
   {
    "id": "7097448",
@@ -7413,19 +7402,6 @@
    "touched": 1
   },
   {
-   "id": "6924093",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "46393385382843156864920462649360399748840495332290645239428175175334080536221",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795320067,
-   "end_ts": 1795375800,
-   "q": "Spread: Leça FC (-3.5)",
-   "touched": 1
-  },
-  {
    "id": "6930586",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -7476,45 +7452,6 @@
    "end_ts": 1795381200,
    "q": "CSD Colo-Colo vs. CD Universidad Católica: O/U 7.5",
    "touched": 1
-  },
-  {
-   "id": "7079268",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "35479699831793465041926158499464832510620529952538277654624924422205201986921",
-   "px": 0.981,
-   "tick": 0.001,
-   "ts": 1795320067,
-   "end_ts": 1795381200,
-   "q": "Spread: Sportivo Trinidense (-2.5)",
-   "touched": 1
-  },
-  {
-   "id": "7170957",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "100880231898081795429804332844892600683893120033927796103187479668322069923081",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795320067,
-   "end_ts": 1795384800,
-   "q": "Spread: CA Lanús (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "7170967",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "32627370743620172503817983178068689070302895568908735662709161573815079203487",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1795320067,
-   "end_ts": 1795384800,
-   "q": "CA River Plate vs. CA Lanús: O/U 5.5",
-   "touched": 0
   },
   {
    "id": "7173972",
@@ -7696,58 +7633,6 @@
    "ts": 1795323667,
    "end_ts": 1795381200,
    "q": "Spread: CD Universidad Católica (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "7079270",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "54686108159189275849165167175392893970341263377373386538377029069970975262469",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795323667,
-   "end_ts": 1795381200,
-   "q": "Spread: Sportivo Trinidense (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "7079281",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "4052325394821504314780650404422837340221076221483160757362666485188065098173",
-   "px": 0.98,
-   "tick": 0.001,
-   "ts": 1795323667,
-   "end_ts": 1795381200,
-   "q": "Club Olimpia vs. Sportivo Trinidense: O/U 6.5",
-   "touched": 1
-  },
-  {
-   "id": "7079304",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "79827060836774207914328759381104952601427986237991530764270779547258169518081",
-   "px": 0.98,
-   "tick": 0.001,
-   "ts": 1795323667,
-   "end_ts": 1795381200,
-   "q": "Spread: Rubio Nu (-2.5)",
-   "touched": 1
-  },
-  {
-   "id": "7079318",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "79854440978229557355594954420240812249823122803980589633439790257424220539036",
-   "px": 0.977,
-   "tick": 0.001,
-   "ts": 1795323667,
-   "end_ts": 1795381200,
-   "q": "Rubio Nu vs. Libertad Asuncion: O/U 6.5",
    "touched": 1
   },
   {
@@ -8492,19 +8377,6 @@
    "touched": 1
   },
   {
-   "id": "6924104",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "3197006360705807455454404670018493844246766170816493067612947448528389549871",
-   "px": 0.971,
-   "tick": 0.001,
-   "ts": 1795327264,
-   "end_ts": 1795375800,
-   "q": "UD Leiria vs. Leça FC: O/U 6.5",
-   "touched": 1
-  },
-  {
    "id": "6930692",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -9246,19 +9118,6 @@
    "touched": 1
   },
   {
-   "id": "7170955",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "37371607162119384096137144037786478716197452764604566112807730953775272123582",
-   "px": 0.99,
-   "tick": 0.001,
-   "ts": 1795341103,
-   "end_ts": 1795384800,
-   "q": "Spread: CA Lanús (-2.5)",
-   "touched": 1
-  },
-  {
    "id": "7234701",
    "rule": "cripto_cierre",
    "cat": "cripto",
@@ -9412,19 +9271,6 @@
    "ts": 1795345267,
    "end_ts": 1795383000,
    "q": "Fluminense FC vs. Mirassol FC: O/U 7.5",
-   "touched": 1
-  },
-  {
-   "id": "7170969",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "107631848541315440386962835046865192900525150785403509128742095233490304146555",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1795345267,
-   "end_ts": 1795384800,
-   "q": "CA River Plate vs. CA Lanús: O/U 7.5",
    "touched": 1
   },
   {
@@ -11141,6 +10987,149 @@
    "ts": 1795392071,
    "end_ts": 1795446000,
    "q": "Will \"The Hunger Games: Sunrise on the Reaping\" score at least 70 on the Rotten Tomatoes T",
+   "touched": null
+  },
+  {
+   "id": "7234698",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "86673286683086072298970575008122970664844630216930580375260953992142858956778",
+   "px": 0.984,
+   "tick": 0.001,
+   "ts": 1795395661,
+   "end_ts": 1795410000,
+   "q": "Will Bitcoin dip to $58,000 November 16-22?",
+   "touched": null
+  },
+  {
+   "id": "7234702",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "73802530559573073628210471298795569304012656882997912938800316042657035760412",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795395661,
+   "end_ts": 1795410000,
+   "q": "Will Ethereum dip to $1,600 November 16-22?",
+   "touched": null
+  },
+  {
+   "id": "7246809",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "104307897770120798273320778511013805360976609380395156668708537065073772512369",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795395661,
+   "end_ts": 1795410000,
+   "q": "Will Bitcoin dip to $58,000 on November 22?",
+   "touched": null
+  },
+  {
+   "id": "7246824",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "63189979950677843300487498583971756299028631892241373091372960121830183001513",
+   "px": 0.975,
+   "tick": 0.001,
+   "ts": 1795395661,
+   "end_ts": 1795410000,
+   "q": "Will Ethereum dip to $1,600 on November 22?",
+   "touched": null
+  },
+  {
+   "id": "6962407",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "87041426680910674909989026216211385625406391521739074101590645447109139771725",
+   "px": 0.973,
+   "tick": 0.001,
+   "ts": 1795395661,
+   "end_ts": 1795446000,
+   "q": "Wadi Degla SC vs. El Ittihad SC El Iskandary: O/U 5.5",
+   "touched": null
+  },
+  {
+   "id": "7097196",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "45962788987016372441485328872598854942229999379453728948210227022754637353043",
+   "px": 0.975,
+   "tick": 0.001,
+   "ts": 1795395661,
+   "end_ts": 1795453200,
+   "q": "Will the price of Solana be above $65 on November 23?",
+   "touched": null
+  },
+  {
+   "id": "7097210",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "32297959832017082639995651973499422748532165058932907329177161527428370083509",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795395661,
+   "end_ts": 1795453200,
+   "q": "Will the price of Solana be between $110 and $120 on November 23?",
+   "touched": null
+  },
+  {
+   "id": "6961930",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "112274349615932538674401650045489707466155556268559574161642005032574050864050",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795395661,
+   "end_ts": 1795478400,
+   "q": "Spread: Grêmio FBPA (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "7259940",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "54855287103814306325498024679765610488043785948202426337294987658942489353978",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795395661,
+   "end_ts": 1795480200,
+   "q": "Maple Leafs vs. Islanders: O/U 2.5",
+   "touched": null
+  },
+  {
+   "id": "7259950",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "53947075749181223058665526569526103816175744795837012551446178710097759440888",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795395661,
+   "end_ts": 1795480200,
+   "q": "Flames vs. Senators: O/U 2.5",
+   "touched": null
+  },
+  {
+   "id": "7259920",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "55110336197318450545063087982755665970616676887568464157749481242287847620959",
+   "px": 0.971,
+   "tick": 0.001,
+   "ts": 1795395661,
+   "end_ts": 1795488000,
+   "q": "Ducks vs. Kraken: O/U 2.5",
    "touched": null
   }
  ]
