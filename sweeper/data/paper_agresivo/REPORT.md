@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 9.8 de 28 | corridas: 215
-- Capital inicial: $1,000.00 | valor actual: $898.83 | P&L: $-101.17 (-10.12%)
-- Efectivo libre: $-0.00 | en ordenes abiertas: $516.57 (7) | en posiciones: $394.07 (5)
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 9.8 de 28 | corridas: 216
+- Capital inicial: $1,000.00 | valor actual: $898.47 | P&L: $-101.53 (-10.15%)
+- Efectivo libre: $0.07 | en ordenes abiertas: $516.50 (7) | en posiciones: $394.07 (5)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $91.77 en 1 posiciones
-- Ordenes virtuales: 437 colocadas, 195 llenadas, 189 tocadas sin llenarse (sorteo 30%), 46 expiradas
+- Ordenes virtuales: 439 colocadas, 195 llenadas, 191 tocadas sin llenarse (sorteo 30%), 46 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -35,13 +35,13 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 | $35.36 | 99.8c | 96.9c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $4.5m and $5.5m at auction? |
 | $87.27 | 99.8c | 98.5c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
 | $89.82 | 99.0c | 98.6c | deportes_previo |  | Spread: FK LNZ Cherkasy (-2.5) |
-| $89.85 | 98.4c | 98.4c | deportes_previo |  | Spread: FK Polissia (-3.5) |
+| $89.85 | 98.4c | 98.0c | deportes_previo |  | Spread: FK Polissia (-3.5) |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 11497 | abiertas: 2119 | abiertas mas de 7 dias despues de su fecha de fin: 1
+- Resueltas: 11497 | abiertas: 2133 | abiertas mas de 7 dias despues de su fecha de fin: 1
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
