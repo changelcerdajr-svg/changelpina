@@ -1,6 +1,6 @@
 {
  "capital0": 1000.0,
- "cash": 412.0214,
+ "cash": 360.6188,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
   {
@@ -130,27 +130,6 @@
    "liq": 2141
   },
   {
-   "oid": "7196021-1795456866",
-   "id": "7196021",
-   "q": "Microsoft (MSFT) Up or Down on November 23?",
-   "cat": "cripto",
-   "rule": "cripto_cierre",
-   "event": "1431369",
-   "side": 0,
-   "token": "14152126511909217842429521076886138030612455384185842270208163448035915536247",
-   "px": 0.989,
-   "tick": 0.001,
-   "mid": 0.989,
-   "bid": 0.988,
-   "ask": 0.99,
-   "shares": 51.9743,
-   "cost": 51.4026,
-   "ts": 1795456866.832403,
-   "end_ts": 1795467600.0,
-   "hours": 2.98,
-   "liq": 2347
-  },
-  {
    "oid": "7196040-1795456866",
    "id": "7196040",
    "q": "Will Microsoft (MSFT) close above $470 on November 23?",
@@ -233,6 +212,27 @@
    "end_ts": 1795480200.0,
    "hours": 6.48,
    "liq": 1359
+  },
+  {
+   "oid": "7219930-1795460469",
+   "id": "7219930",
+   "q": "Will the highest temperature in Austin be between 56-57°F on November 23?",
+   "cat": "clima",
+   "rule": "post_fin_95_97",
+   "event": "1435852",
+   "side": 1,
+   "token": "15383936413342176505147248470923759710742458714854438678840200600779944165630",
+   "px": 0.96,
+   "tick": 0.001,
+   "mid": 0.96,
+   "bid": 0.95,
+   "ask": 0.97,
+   "shares": 53.5443,
+   "cost": 51.4026,
+   "ts": 1795460469.567723,
+   "end_ts": 1795435200.0,
+   "hours": -7.02,
+   "liq": 1051
   }
  ],
  "positions": [
@@ -285,6 +285,29 @@
    "mark": 0.9885,
    "stuck": false,
    "disputed": false
+  },
+  {
+   "oid": "7196021-1795456866",
+   "id": "7196021",
+   "q": "Microsoft (MSFT) Up or Down on November 23?",
+   "cat": "cripto",
+   "rule": "cripto_cierre",
+   "event": "1431369",
+   "side": 0,
+   "token": "14152126511909217842429521076886138030612455384185842270208163448035915536247",
+   "px": 0.989,
+   "tick": 0.001,
+   "mid": 0.989,
+   "bid": 0.988,
+   "ask": 0.99,
+   "shares": 51.9743,
+   "cost": 51.4026,
+   "ts": 1795456866.832403,
+   "end_ts": 1795467600.0,
+   "hours": 2.98,
+   "liq": 2347,
+   "fill_ts": 1795460469.567723,
+   "mark": 0.989
   }
  ],
  "closed": [
@@ -6760,12 +6783,25 @@
    "placed": 5,
    "shadow_open": 473,
    "shadow_closed": 68
+  },
+  {
+   "ts": "2026-11-23T19:02:19Z",
+   "equity": 1028.05,
+   "cash": 360.62,
+   "orders": 11,
+   "positions": 3,
+   "closed": 103,
+   "scanned": 12133,
+   "candidates": 178,
+   "placed": 1,
+   "shadow_open": 482,
+   "shadow_closed": 15
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 453,
-  "filled": 105,
+  "placed": 454,
+  "filled": 106,
   "expired": 102,
   "touched_not_filled": 235
  },
@@ -6834,19 +6870,6 @@
    "end_ts": 1794977940,
    "q": "Will Mark Rothko's “Untitled” sell for at least $6.5m at auction?",
    "touched": 0
-  },
-  {
-   "id": "7042793",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "31203304404081413116820952698046526590764051706372746161193363122306318360820",
-   "px": 0.976,
-   "tick": 0.001,
-   "ts": 1795197675,
-   "end_ts": 1795305600,
-   "q": "Will Michael Brennan win the 2026 The RSM Classic?",
-   "touched": 1
   },
   {
    "id": "7042873",
@@ -6940,19 +6963,6 @@
    "touched": 1
   },
   {
-   "id": "7042823",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "55997500040189054245779354703776298192265673441134277086031026178131713650265",
-   "px": 0.975,
-   "tick": 0.001,
-   "ts": 1795199927,
-   "end_ts": 1795305600,
-   "q": "Will Joel Dahmen win the 2026 The RSM Classic?",
-   "touched": 1
-  },
-  {
    "id": "7043012",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -6976,19 +6986,6 @@
    "ts": 1795204867,
    "end_ts": 1795305600,
    "q": "Will Brooks Koepka win the 2026 The RSM Classic?",
-   "touched": 1
-  },
-  {
-   "id": "7042945",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "106031003695418986829243762589320020999523127362235838714221803430674073005976",
-   "px": 0.979,
-   "tick": 0.001,
-   "ts": 1795208469,
-   "end_ts": 1795305600,
-   "q": "Will Chris Kirk win the 2026 The RSM Classic?",
    "touched": 1
   },
   {
@@ -7122,19 +7119,6 @@
    "touched": 1
   },
   {
-   "id": "7042974",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "25645459061125028583103526276551512951847993902612163552069684417342974449479",
-   "px": 0.987,
-   "tick": 0.001,
-   "ts": 1795212066,
-   "end_ts": 1795305600,
-   "q": "Will Henry Lebioda win the 2026 The RSM Classic?",
-   "touched": 1
-  },
-  {
    "id": "7043019",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -7174,32 +7158,6 @@
    "touched": 0
   },
   {
-   "id": "7043037",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "44363514300371128831921493285194368081533852884102954240845211991003634946140",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795212066,
-   "end_ts": 1795305600,
-   "q": "Will Chandler Phillips win the 2026 The RSM Classic?",
-   "touched": 1
-  },
-  {
-   "id": "7043041",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "48897743216546241135198437606123585290187991262997380466386350073492071978671",
-   "px": 0.989,
-   "tick": 0.001,
-   "ts": 1795212066,
-   "end_ts": 1795305600,
-   "q": "Will Davis Riley win the 2026 The RSM Classic?",
-   "touched": 1
-  },
-  {
    "id": "7042911",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -7211,32 +7169,6 @@
    "end_ts": 1795305600,
    "q": "Will Ryo Hisatsune win the 2026 The RSM Classic?",
    "touched": 1
-  },
-  {
-   "id": "7042951",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "34033929806609477883898265354929863878112182855494535956430737709416701467750",
-   "px": 0.991,
-   "tick": 0.001,
-   "ts": 1795215668,
-   "end_ts": 1795305600,
-   "q": "Will Patton Kizzire win the 2026 The RSM Classic?",
-   "touched": 1
-  },
-  {
-   "id": "7042817",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "90217219285143653889474604245469890760519865844817103888669807553252189319841",
-   "px": 0.991,
-   "tick": 0.001,
-   "ts": 1795219267,
-   "end_ts": 1795305600,
-   "q": "Will Pierceson Coody win the 2026 The RSM Classic?",
-   "touched": 0
   },
   {
    "id": "7042832",
@@ -8214,19 +8146,6 @@
    "touched": 1
   },
   {
-   "id": "6931073",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "108033664845176567481903321796680464513789873557440204687030376809961492728700",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1795390710,
-   "end_ts": 1795446000,
-   "q": "El Gouna SC vs. Zamalek SC: O/U 5.5",
-   "touched": 0
-  },
-  {
    "id": "6962022",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -8432,19 +8351,6 @@
    "ts": 1795402873,
    "end_ts": 1795480200,
    "q": "Utah vs. Jets: O/U 2.5",
-   "touched": 1
-  },
-  {
-   "id": "7096045",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "83558578651190309406429070576814708659747208154468415988021556037810147853272",
-   "px": 0.971,
-   "tick": 0.001,
-   "ts": 1795406467,
-   "end_ts": 1795446000,
-   "q": "Spread: Asteras Tripolis (-2.5)",
    "touched": 1
   },
   {
@@ -8835,32 +8741,6 @@
    "ts": 1795410068,
    "end_ts": 1795453200,
    "q": "Spread: NK Osijek (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "7096048",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "57630868515156735803027532007416626718333042396988865274598810570544770791928",
-   "px": 0.979,
-   "tick": 0.001,
-   "ts": 1795410068,
-   "end_ts": 1795446000,
-   "q": "Spread: Aris Thessaloniki (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "7096059",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "110255414638561978322593454186175263332245952435801556980099993868901527327336",
-   "px": 0.986,
-   "tick": 0.001,
-   "ts": 1795410068,
-   "end_ts": 1795446000,
-   "q": "Asteras Tripolis vs. Aris Thessaloniki: O/U 6.5",
    "touched": 1
   },
   {
@@ -9485,20 +9365,7 @@
    "ts": 1795413672,
    "end_ts": 1795453200,
    "q": "NK Slaven Belupo vs. NK Osijek: O/U 7.5",
-   "touched": null
-  },
-  {
-   "id": "7097171",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 0,
-   "token": "67397490898536884002679913194604995658232454196870278893305998066648227767702",
-   "px": 0.983,
-   "tick": 0.001,
-   "ts": 1795413672,
-   "end_ts": 1795453200,
-   "q": "Will the price of Bitcoin be above $58,000 on November 23?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7112425",
@@ -9511,7 +9378,7 @@
    "ts": 1795413672,
    "end_ts": 1795456800,
    "q": "Hammarby IF vs. IFK Goteborg: O/U 0.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7244037",
@@ -9524,7 +9391,7 @@
    "ts": 1795413672,
    "end_ts": 1795449600,
    "q": "Spread: Esteghlal FC Tehran (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7016040",
@@ -9537,7 +9404,7 @@
    "ts": 1795413672,
    "end_ts": 1795462200,
    "q": "Virginia Tech Hokies vs. UT Martin Skyhawks (W)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7101529",
@@ -9550,7 +9417,7 @@
    "ts": 1795413672,
    "end_ts": 1795463100,
    "q": "Calcio Lecco 1912 vs. AC Lumezzane: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7244691",
@@ -9563,7 +9430,7 @@
    "ts": 1795413672,
    "end_ts": 1795457700,
    "q": "Spread: Al Gharafa SC (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6961944",
@@ -9576,7 +9443,7 @@
    "ts": 1795413672,
    "end_ts": 1795478400,
    "q": "Santos FC vs. Grêmio FBPA: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6961978",
@@ -9589,7 +9456,7 @@
    "ts": 1795413672,
    "end_ts": 1795474800,
    "q": "Spread: São Paulo FC (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6655557",
@@ -9602,7 +9469,7 @@
    "ts": 1795413672,
    "end_ts": 1795496340,
    "q": "Will the next Meta Muse Spark model be released on November 23, 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6949222",
@@ -9615,7 +9482,7 @@
    "ts": 1795413672,
    "end_ts": 1795496340,
    "q": "Will gemini-4-argon-high be the best AI model on November 23, 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7275149",
@@ -9628,7 +9495,7 @@
    "ts": 1795413672,
    "end_ts": 1795496340,
    "q": "Will xQc finish GTA VI by November 23, 3:59 AM ET?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7279387",
@@ -9641,7 +9508,7 @@
    "ts": 1795413672,
    "end_ts": 1795496400,
    "q": "Will Bitcoin reach $67,000 on November 23?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7279424",
@@ -9654,7 +9521,7 @@
    "ts": 1795413672,
    "end_ts": 1795496400,
    "q": "Will Bitcoin dip to $56,000 on November 23?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7279425",
@@ -9667,7 +9534,7 @@
    "ts": 1795413672,
    "end_ts": 1795496400,
    "q": "Will Bitcoin dip to $55,000 on November 23?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7279426",
@@ -9680,7 +9547,7 @@
    "ts": 1795413672,
    "end_ts": 1795496400,
    "q": "Will Bitcoin dip to $54,000 on November 23?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7279436",
@@ -9693,7 +9560,7 @@
    "ts": 1795413672,
    "end_ts": 1795496400,
    "q": "Will Ethereum reach $1,900 on November 23?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7279452",
@@ -9706,7 +9573,7 @@
    "ts": 1795413672,
    "end_ts": 1795496400,
    "q": "Will Ethereum dip to $1,500 on November 23?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7279453",
@@ -9719,7 +9586,7 @@
    "ts": 1795413672,
    "end_ts": 1795496400,
    "q": "Will Ethereum dip to $1,450 on November 23?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6962396",
@@ -9732,33 +9599,7 @@
    "ts": 1795417266,
    "end_ts": 1795446000,
    "q": "Spread: Wadi Degla SC (-3.5)",
-   "touched": null
-  },
-  {
-   "id": "7244880",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "42914478150784147260897099376101319177108148774773087615792906795331702548730",
-   "px": 0.992,
-   "tick": 0.001,
-   "ts": 1795417266,
-   "end_ts": 1795441500,
-   "q": "Spread: FK Neftchi Fargona (-2.5)",
-   "touched": null
-  },
-  {
-   "id": "7245164",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "84835986025901823956435250853835523344656303234580889598163948605233651106113",
-   "px": 0.973,
-   "tick": 0.001,
-   "ts": 1795417266,
-   "end_ts": 1795441500,
-   "q": "FK Neftchi Fargona vs. Al Hilal SFC: Neither team to score first?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7279383",
@@ -9771,7 +9612,7 @@
    "ts": 1795417266,
    "end_ts": 1795496400,
    "q": "Will Bitcoin reach $68,000 on November 23?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7279392",
@@ -9784,7 +9625,7 @@
    "ts": 1795417266,
    "end_ts": 1795496400,
    "q": "Will Bitcoin reach $66,000 on November 23?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7179164",
@@ -12917,6 +12758,318 @@
    "ts": 1795456866,
    "end_ts": 1795564800,
    "q": "Louisiana-Monroe Warhawks vs. Alabama Crimson Tide (W)",
+   "touched": null
+  },
+  {
+   "id": "7219930",
+   "rule": "post_fin_95_97",
+   "cat": "clima",
+   "side": 1,
+   "token": "15383936413342176505147248470923759710742458714854438678840200600779944165630",
+   "px": 0.96,
+   "tick": 0.001,
+   "ts": 1795460469,
+   "end_ts": 1795435200,
+   "q": "Will the highest temperature in Austin be between 56-57°F on November 23?",
+   "touched": null
+  },
+  {
+   "id": "7196020",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "13916029225684522720317569873102362784872814410838989008874142893524874688808",
+   "px": 0.977,
+   "tick": 0.001,
+   "ts": 1795460469,
+   "end_ts": 1795467600,
+   "q": "Apple (AAPL) Up or Down on November 23?",
+   "touched": null
+  },
+  {
+   "id": "7196024",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "34316702189450705620850006710308308467019841466143174687615375136717841465864",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795460469,
+   "end_ts": 1795467600,
+   "q": "Will Apple (AAPL) close above $340 on November 23?",
+   "touched": null
+  },
+  {
+   "id": "7196080",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "57139158381086612422503721826734450348956964726605666382916668857652125519418",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795460469,
+   "end_ts": 1795467600,
+   "q": "Will NVIDIA (NVDA) close above $140 on November 23?",
+   "touched": null
+  },
+  {
+   "id": "7196081",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "99567040069294256427292751080235368954236291610043551446694400232617781429555",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795460469,
+   "end_ts": 1795467600,
+   "q": "Will NVIDIA (NVDA) close above $145 on November 23?",
+   "touched": null
+  },
+  {
+   "id": "6962445",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "69641850290505905906063195871677381352040909974146307163558266340864409731320",
+   "px": 0.98,
+   "tick": 0.001,
+   "ts": 1795460469,
+   "end_ts": 1795543200,
+   "q": "El Masry SC vs. Asyut Petroleum SC: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "7121570",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "34761345987960929417895708160113991542542238938977883792918168447688734438913",
+   "px": 0.981,
+   "tick": 0.001,
+   "ts": 1795460469,
+   "end_ts": 1795539600,
+   "q": "Will the price of Ethereum be between $1,500 and $1,600 on November 24?",
+   "touched": null
+  },
+  {
+   "id": "7121578",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "107846588468697041811416242341871800299737458927528768349604400652559681909817",
+   "px": 0.978,
+   "tick": 0.001,
+   "ts": 1795460469,
+   "end_ts": 1795539600,
+   "q": "Will the price of Ethereum be between $1,900 and $2,000 on November 24?",
+   "touched": null
+  },
+  {
+   "id": "7121593",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "88083342032176550325620777001688201395823936576662627866319696904715830481552",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795460469,
+   "end_ts": 1795539600,
+   "q": "Will the price of Solana be between $50 and $60 on November 24?",
+   "touched": null
+  },
+  {
+   "id": "7121599",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "46472261993967431663522303672252586569268594438738323030184500521651465219655",
+   "px": 0.979,
+   "tick": 0.001,
+   "ts": 1795460469,
+   "end_ts": 1795539600,
+   "q": "Will the price of Solana be between $80 and $90 on November 24?",
+   "touched": null
+  },
+  {
+   "id": "7121609",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "71864438533104553071239554600421590486980327071295017981297966467383243148481",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795460469,
+   "end_ts": 1795539600,
+   "q": "Will the price of XRP be above $0.70 on November 24?",
+   "touched": null
+  },
+  {
+   "id": "7121612",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "113758827812392059565408162282517028790491875544537087303984526620786665182196",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795460469,
+   "end_ts": 1795539600,
+   "q": "Will the price of XRP be between $0.50 and $0.60 on November 24?",
+   "touched": null
+  },
+  {
+   "id": "7121614",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "50075669764658825478213275850182711494003478916187019697811454350206433462377",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795460469,
+   "end_ts": 1795539600,
+   "q": "Will the price of XRP be between $0.60 and $0.70 on November 24?",
+   "touched": null
+  },
+  {
+   "id": "7121616",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "49339596123454708590623077450752241219872715817550811373612582168252612342773",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795460469,
+   "end_ts": 1795539600,
+   "q": "Will the price of XRP be between $0.70 and $0.80 on November 24?",
+   "touched": null
+  },
+  {
+   "id": "7121617",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "75243612938087608752199397671504388871738118666247973129055989090300679233850",
+   "px": 0.988,
+   "tick": 0.001,
+   "ts": 1795460469,
+   "end_ts": 1795539600,
+   "q": "Will the price of XRP be above $1.10 on November 24?",
+   "touched": null
+  },
+  {
+   "id": "7121619",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "85098843913954121815890729980287920412020715295738630848461324276934423775260",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795460469,
+   "end_ts": 1795539600,
+   "q": "Will the price of XRP be above $1.20 on November 24?",
+   "touched": null
+  },
+  {
+   "id": "7121624",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "61877219309637524367291272821325575622069860598093817916273733742039671617296",
+   "px": 0.988,
+   "tick": 0.001,
+   "ts": 1795460469,
+   "end_ts": 1795539600,
+   "q": "Will the price of XRP be between $1.10 and $1.20 on November 24?",
+   "touched": null
+  },
+  {
+   "id": "7121626",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "23349523481236388049466158489909200889261505487024153847249128498138892574238",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795460469,
+   "end_ts": 1795539600,
+   "q": "Will the price of XRP be between $1.20 and $1.30 on November 24?",
+   "touched": null
+  },
+  {
+   "id": "7121627",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "96667372338470550843494379615491510901292672277467455311318609821293139821012",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795460469,
+   "end_ts": 1795539600,
+   "q": "Will the price of XRP be between $1.30 and $1.40 on November 24?",
+   "touched": null
+  },
+  {
+   "id": "7245672",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "98774751879996554917777479910332804764774192081689063435732941426253549941907",
+   "px": 0.977,
+   "tick": 0.001,
+   "ts": 1795460469,
+   "end_ts": 1795544100,
+   "q": "Al Nassr Club vs. Al Sadd SC: O/U 0.5",
+   "touched": null
+  },
+  {
+   "id": "6986646",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "7078105399087463003219344584258884829735249533511080823405499425713979321433",
+   "px": 0.972,
+   "tick": 0.001,
+   "ts": 1795460469,
+   "end_ts": 1795554000,
+   "q": "Associação Chapecoense de Futebol vs. SE Palmeiras: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "6986647",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "100035928296663327357525547498530525450405207977415439921394536128869086893464",
+   "px": 0.99,
+   "tick": 0.001,
+   "ts": 1795460469,
+   "end_ts": 1795554000,
+   "q": "Associação Chapecoense de Futebol vs. SE Palmeiras: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6998615",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "101822985494330195469720026316276249721743935653248087808876505049940600610744",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795460469,
+   "end_ts": 1795568400,
+   "q": "Lipscomb Bisons vs. Auburn Tigers",
+   "touched": null
+  },
+  {
+   "id": "7016108",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "108449920868306333254392058848865650674787026721998038797708858078849596091244",
+   "px": 0.987,
+   "tick": 0.001,
+   "ts": 1795460469,
+   "end_ts": 1795568400,
+   "q": "Kansas City Roos vs. Nebraska Cornhuskers (W)",
    "touched": null
   }
  ]

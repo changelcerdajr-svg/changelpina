@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-11T22:05:26Z | dias corridos: 11.8 de 28 | corridas: 263
+- Inicio: 2026-11-11T22:05:26Z | dias corridos: 11.9 de 28 | corridas: 264
 - Capital inicial: $1,000.00 | valor actual: $1,028.05 | P&L: $+28.05 (+2.81%)
-- Efectivo libre: $412.02 | en ordenes abiertas: $513.12 (11) | en posiciones: $102.94 (2)
+- Efectivo libre: $360.62 | en ordenes abiertas: $513.12 (11) | en posiciones: $154.34 (3)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 453 colocadas, 105 llenadas, 235 tocadas sin llenarse (sorteo 30%), 102 expiradas
+- Ordenes virtuales: 454 colocadas, 106 llenadas, 235 tocadas sin llenarse (sorteo 30%), 102 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -30,25 +30,26 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 |---|---|---|---|---|---|
 | $51.82 | 98.5c | 98.3c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
 | $51.12 | 98.7c | 98.9c | deportes_previo |  | Alcorn State Braves vs. Michigan State Spartans (W) |
+| $51.40 | 98.9c | 98.9c | cripto_cierre |  | Microsoft (MSFT) Up or Down on November 23? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 4159 | abiertas: 473 | abiertas mas de 7 dias despues de su fecha de fin: 1
+- Resueltas: 4174 | abiertas: 482 | abiertas mas de 7 dias despues de su fecha de fin: 1
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
-| cripto_cierre | todas | 1211 | 98.73c | 99.17% | +0.45 pts | -0.06 a +0.96 | 10 |
-| cripto_cierre | tocadas | 838 | 98.56c | 98.81% | +0.25 pts | -0.49 a +0.98 | 10 |
-| deportes_previo | todas | 2293 | 98.30c | 98.95% | +0.65 pts | +0.24 a +1.06 | 25 |
-| deportes_previo | tocadas | 1954 | 98.28c | 98.87% | +0.60 pts | +0.14 a +1.06 | 23 |
+| cripto_cierre | todas | 1212 | 98.73c | 99.17% | +0.45 pts | -0.06 a +0.96 | 10 |
+| cripto_cierre | tocadas | 839 | 98.56c | 98.81% | +0.25 pts | -0.48 a +0.98 | 10 |
+| deportes_previo | todas | 2307 | 98.30c | 98.96% | +0.66 pts | +0.25 a +1.07 | 25 |
+| deportes_previo | tocadas | 1966 | 98.28c | 98.88% | +0.60 pts | +0.14 a +1.06 | 23 |
 | otros_cierre | todas | 572 | 98.82c | 99.30% | +0.48 pts | -0.20 a +1.17 | 4 |
 | otros_cierre | tocadas | 374 | 98.69c | 98.93% | +0.24 pts | -0.81 a +1.29 | 4 |
 | post_fin_95_97 | todas | 83 | 95.88c | 92.77% | -3.11 pts | -8.72 a +2.50 | 6 |
 | post_fin_95_97 | tocadas | 74 | 95.91c | 91.89% | -4.01 pts | -10.28 a +2.25 | 6 |
-| TOTAL | todas | 4159 | 98.45c | 98.94% | +0.49 pts | +0.18 a +0.80 | 45 |
-| TOTAL | tocadas | 3240 | 98.34c | 98.70% | +0.36 pts | -0.03 a +0.75 | 43 |
+| TOTAL | todas | 4174 | 98.45c | 98.95% | +0.50 pts | +0.19 a +0.80 | 45 |
+| TOTAL | tocadas | 3253 | 98.34c | 98.71% | +0.37 pts | -0.02 a +0.75 | 43 |
 
 Peores casos del registro sombra:
 
@@ -65,4 +66,4 @@ Peores casos del registro sombra:
 
 ## Veredicto
 
-Aun no hay veredicto: van 103 operaciones cerradas en 11.8 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
+Aun no hay veredicto: van 103 operaciones cerradas en 11.9 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
