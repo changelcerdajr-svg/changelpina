@@ -212,27 +212,6 @@
    "end_ts": 1795480200.0,
    "hours": 6.48,
    "liq": 1359
-  },
-  {
-   "oid": "7219930-1795460469",
-   "id": "7219930",
-   "q": "Will the highest temperature in Austin be between 56-57°F on November 23?",
-   "cat": "clima",
-   "rule": "post_fin_95_97",
-   "event": "1435852",
-   "side": 1,
-   "token": "15383936413342176505147248470923759710742458714854438678840200600779944165630",
-   "px": 0.96,
-   "tick": 0.001,
-   "mid": 0.96,
-   "bid": 0.95,
-   "ask": 0.97,
-   "shares": 53.5443,
-   "cost": 51.4026,
-   "ts": 1795460469.567723,
-   "end_ts": 1795435200.0,
-   "hours": -7.02,
-   "liq": 1051
   }
  ],
  "positions": [
@@ -307,7 +286,32 @@
    "hours": 2.98,
    "liq": 2347,
    "fill_ts": 1795460469.567723,
-   "mark": 0.989
+   "mark": 0.9745,
+   "stuck": false,
+   "disputed": false
+  },
+  {
+   "oid": "7219930-1795460469",
+   "id": "7219930",
+   "q": "Will the highest temperature in Austin be between 56-57°F on November 23?",
+   "cat": "clima",
+   "rule": "post_fin_95_97",
+   "event": "1435852",
+   "side": 1,
+   "token": "15383936413342176505147248470923759710742458714854438678840200600779944165630",
+   "px": 0.96,
+   "tick": 0.001,
+   "mid": 0.96,
+   "bid": 0.95,
+   "ask": 0.97,
+   "shares": 53.5443,
+   "cost": 51.4026,
+   "ts": 1795460469.567723,
+   "end_ts": 1795435200.0,
+   "hours": -7.02,
+   "liq": 1051,
+   "fill_ts": 1795464065.018116,
+   "mark": 0.96
   }
  ],
  "closed": [
@@ -6796,12 +6800,25 @@
    "placed": 1,
    "shadow_open": 482,
    "shadow_closed": 15
+  },
+  {
+   "ts": "2026-11-23T20:01:47Z",
+   "equity": 1027.3,
+   "cash": 360.62,
+   "orders": 10,
+   "positions": 4,
+   "closed": 103,
+   "scanned": 10430,
+   "candidates": 132,
+   "placed": 0,
+   "shadow_open": 461,
+   "shadow_closed": 30
   }
  ],
  "halted": false,
  "stats": {
   "placed": 454,
-  "filled": 106,
+  "filled": 107,
   "expired": 102,
   "touched_not_filled": 235
  },
@@ -6872,19 +6889,6 @@
    "touched": 0
   },
   {
-   "id": "7042873",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "46370411279432175940772757559844288775887177539297679029953624914856666525352",
-   "px": 0.99,
-   "tick": 0.001,
-   "ts": 1795197675,
-   "end_ts": 1795305600,
-   "q": "Will Doug Ghim win the 2026 The RSM Classic?",
-   "touched": 1
-  },
-  {
    "id": "7042880",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -6895,84 +6899,6 @@
    "ts": 1795197675,
    "end_ts": 1795305600,
    "q": "Will Max Greyserman win the 2026 The RSM Classic?",
-   "touched": 1
-  },
-  {
-   "id": "7042937",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "74409121363597129650170458164018281165568506542000872928684383421413795477486",
-   "px": 0.976,
-   "tick": 0.001,
-   "ts": 1795197675,
-   "end_ts": 1795305600,
-   "q": "Will Ben James win the 2026 The RSM Classic?",
-   "touched": 0
-  },
-  {
-   "id": "7042959",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "47872995453437112922437637361018305751605747631635061056777347619953071080852",
-   "px": 0.99,
-   "tick": 0.001,
-   "ts": 1795197675,
-   "end_ts": 1795305600,
-   "q": "Will Ben Kohles win the 2026 The RSM Classic?",
-   "touched": 1
-  },
-  {
-   "id": "7043002",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "47299269624565660852701393374142074418074047619381577328463183533061997217909",
-   "px": 0.986,
-   "tick": 0.001,
-   "ts": 1795197675,
-   "end_ts": 1795305600,
-   "q": "Will Denny McCarthy win the 2026 The RSM Classic?",
-   "touched": 1
-  },
-  {
-   "id": "7043038",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "67129501226519818862504894664734280294091408079338525962761493847789555977044",
-   "px": 0.975,
-   "tick": 0.001,
-   "ts": 1795197675,
-   "end_ts": 1795305600,
-   "q": "Will JT Poston win the 2026 The RSM Classic?",
-   "touched": 1
-  },
-  {
-   "id": "7042774",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "44271791142884521881613501892179891083556083183972574249535312831818826700494",
-   "px": 0.99,
-   "tick": 0.001,
-   "ts": 1795199927,
-   "end_ts": 1795305600,
-   "q": "Will Zac Blair win the 2026 The RSM Classic?",
-   "touched": 1
-  },
-  {
-   "id": "7043012",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "101910646353495839805901049716112635456824224614163408690226943242368553554520",
-   "px": 0.987,
-   "tick": 0.001,
-   "ts": 1795201268,
-   "end_ts": 1795305600,
-   "q": "Will Keith Mitchell win the 2026 The RSM Classic?",
    "touched": 1
   },
   {
@@ -6989,19 +6915,6 @@
    "touched": 1
   },
   {
-   "id": "7043005",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "394566106309346988642268770235270789740767805757936722168214291597641532799",
-   "px": 0.978,
-   "tick": 0.001,
-   "ts": 1795208469,
-   "end_ts": 1795305600,
-   "q": "Will Maverick McNealy win the 2026 The RSM Classic?",
-   "touched": 0
-  },
-  {
    "id": "6925894",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -7015,97 +6928,6 @@
    "touched": 1
   },
   {
-   "id": "7042761",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "113162192439792372657148770588714981040825975527477428875795355673962324947320",
-   "px": 0.989,
-   "tick": 0.001,
-   "ts": 1795212066,
-   "end_ts": 1795305600,
-   "q": "Will Christiaan Bezuidenhout win the 2026 The RSM Classic?",
-   "touched": 0
-  },
-  {
-   "id": "7042787",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "16835665942476904444916561351605147144106336241968044028761463227714419387307",
-   "px": 0.992,
-   "tick": 0.001,
-   "ts": 1795212066,
-   "end_ts": 1795305600,
-   "q": "Will Keegan Bradley win the 2026 The RSM Classic?",
-   "touched": 1
-  },
-  {
-   "id": "7042810",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "84948672766929936419185852716611959458951862611141373256947161443723703663617",
-   "px": 0.991,
-   "tick": 0.001,
-   "ts": 1795212066,
-   "end_ts": 1795305600,
-   "q": "Will Davis Chatfield win the 2026 The RSM Classic?",
-   "touched": 1
-  },
-  {
-   "id": "7042828",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "111365756489737006741005535931900673907766371722776372275011980530130103730756",
-   "px": 0.992,
-   "tick": 0.001,
-   "ts": 1795212066,
-   "end_ts": 1795305600,
-   "q": "Will Ze-Cheng Dou win the 2026 The RSM Classic?",
-   "touched": 1
-  },
-  {
-   "id": "7042867",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "22539481080852109579905764385979281563954375045290519895953948854828750606843",
-   "px": 0.988,
-   "tick": 0.001,
-   "ts": 1795212066,
-   "end_ts": 1795305600,
-   "q": "Will David Ford win the 2026 The RSM Classic?",
-   "touched": 1
-  },
-  {
-   "id": "7042883",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "12488073072178314955997749294646060249128172665825911997190149519407495868797",
-   "px": 0.993,
-   "tick": 0.001,
-   "ts": 1795212066,
-   "end_ts": 1795305600,
-   "q": "Will Emiliano Grillo win the 2026 The RSM Classic?",
-   "touched": 1
-  },
-  {
-   "id": "7042895",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "83561595239415637872659869272633334916609227811159826441159244788106018898457",
-   "px": 0.99,
-   "tick": 0.001,
-   "ts": 1795212066,
-   "end_ts": 1795305600,
-   "q": "Will Garrick Higgo win the 2026 The RSM Classic?",
-   "touched": 1
-  },
-  {
    "id": "7042963",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -7116,58 +6938,6 @@
    "ts": 1795212066,
    "end_ts": 1795305600,
    "q": "Will Jackson Koivun win the 2026 The RSM Classic?",
-   "touched": 1
-  },
-  {
-   "id": "7043019",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "23354687292694038719113404283187558390300274388049517999784396096379059901503",
-   "px": 0.987,
-   "tick": 0.001,
-   "ts": 1795212066,
-   "end_ts": 1795305600,
-   "q": "Will S.Y. Noh win the 2026 The RSM Classic?",
-   "touched": 0
-  },
-  {
-   "id": "7043021",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "81840260973647122692104630880201774635585210973769638301743323825585419327693",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795212066,
-   "end_ts": 1795305600,
-   "q": "Will Andrew Novak win the 2026 The RSM Classic?",
-   "touched": 1
-  },
-  {
-   "id": "7043029",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "110311872229955963337977026563195969093291209532947585870114486039469802900190",
-   "px": 0.989,
-   "tick": 0.001,
-   "ts": 1795212066,
-   "end_ts": 1795305600,
-   "q": "Will Matthieu Pavon win the 2026 The RSM Classic?",
-   "touched": 0
-  },
-  {
-   "id": "7042911",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "110301391543045382197653732993329731800636833137843616175947477882985361414798",
-   "px": 0.991,
-   "tick": 0.001,
-   "ts": 1795215668,
-   "end_ts": 1795305600,
-   "q": "Will Ryo Hisatsune win the 2026 The RSM Classic?",
    "touched": 1
   },
   {
@@ -7194,19 +6964,6 @@
    "ts": 1795233676,
    "end_ts": 1795305600,
    "q": "Will Hao-Tong Li win the 2026 The RSM Classic?",
-   "touched": 1
-  },
-  {
-   "id": "7043027",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "29804902215347844545258402831333276951791527303634128126511207465631298202951",
-   "px": 0.993,
-   "tick": 0.001,
-   "ts": 1795251664,
-   "end_ts": 1795305600,
-   "q": "Will Jeremy Paul win the 2026 The RSM Classic?",
    "touched": 1
   },
   {
@@ -7584,19 +7341,6 @@
    "ts": 1795316463,
    "end_ts": 1795305600,
    "q": "Will Harris English win the 2026 The RSM Classic?",
-   "touched": 1
-  },
-  {
-   "id": "7042889",
-   "rule": "post_fin_95_97",
-   "cat": "deportes",
-   "side": 1,
-   "token": "86317060941087568590271312397766878711145947225022397297757231600535449789485",
-   "px": 0.955,
-   "tick": 0.001,
-   "ts": 1795316463,
-   "end_ts": 1795305600,
-   "q": "Will Harry Hall win the 2026 The RSM Classic?",
    "touched": 1
   },
   {
@@ -8198,19 +7942,6 @@
    "touched": 0
   },
   {
-   "id": "6962407",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "87041426680910674909989026216211385625406391521739074101590645447109139771725",
-   "px": 0.973,
-   "tick": 0.001,
-   "ts": 1795395661,
-   "end_ts": 1795446000,
-   "q": "Wadi Degla SC vs. El Ittihad SC El Iskandary: O/U 5.5",
-   "touched": 0
-  },
-  {
    "id": "6961930",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -8352,19 +8083,6 @@
    "end_ts": 1795480200,
    "q": "Utah vs. Jets: O/U 2.5",
    "touched": 1
-  },
-  {
-   "id": "7244788",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "79529825370250583091445572029792324953667568272827244635986531199589560907738",
-   "px": 0.972,
-   "tick": 0.001,
-   "ts": 1795406467,
-   "end_ts": 1795449600,
-   "q": "Spread: Al-Shamal (-2.5)",
-   "touched": 0
   },
   {
    "id": "6933093",
@@ -8692,32 +8410,6 @@
    "touched": 1
   },
   {
-   "id": "6962395",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "52362169894571810817712248936640233574126152919728091574195699115012643300475",
-   "px": 0.975,
-   "tick": 0.001,
-   "ts": 1795410068,
-   "end_ts": 1795446000,
-   "q": "Spread: El Ittihad SC El Iskandary (-2.5)",
-   "touched": 1
-  },
-  {
-   "id": "6962397",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "85738582277232254462809555699223404768383694718088747405530779366109993112382",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795410068,
-   "end_ts": 1795446000,
-   "q": "Spread: El Ittihad SC El Iskandary (-3.5)",
-   "touched": 1
-  },
-  {
    "id": "6962555",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -8820,32 +8512,6 @@
    "end_ts": 1795453200,
    "q": "Bodrum FK vs. Van Spor FK: O/U 6.5",
    "touched": 0
-  },
-  {
-   "id": "7244039",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "22562841297582447804294479230222897750950293237192565006569771140196170489169",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795410068,
-   "end_ts": 1795449600,
-   "q": "Spread: Esteghlal FC Tehran (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "7244050",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "44300365318035113120244435531506458349911824882685376012511905628041105394734",
-   "px": 0.977,
-   "tick": 0.001,
-   "ts": 1795410068,
-   "end_ts": 1795449600,
-   "q": "Al Ain FC vs. Esteghlal FC Tehran: O/U 6.5",
-   "touched": 1
   },
   {
    "id": "6930825",
@@ -9381,19 +9047,6 @@
    "touched": 0
   },
   {
-   "id": "7244037",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "66720722431494819450526806880056526543611357594272313422570068598347548696060",
-   "px": 0.992,
-   "tick": 0.001,
-   "ts": 1795413672,
-   "end_ts": 1795449600,
-   "q": "Spread: Esteghlal FC Tehran (-2.5)",
-   "touched": 1
-  },
-  {
    "id": "7016040",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -9589,19 +9242,6 @@
    "touched": 1
   },
   {
-   "id": "6962396",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "55444842983502341879069981072950125963674135667799999206910325081611413347179",
-   "px": 0.985,
-   "tick": 0.001,
-   "ts": 1795417266,
-   "end_ts": 1795446000,
-   "q": "Spread: Wadi Degla SC (-3.5)",
-   "touched": 1
-  },
-  {
    "id": "7279383",
    "rule": "cripto_cierre",
    "cat": "cripto",
@@ -9628,19 +9268,6 @@
    "touched": 1
   },
   {
-   "id": "7179164",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 0,
-   "token": "63596794978894272301103901201115731241040182774407013353331292859135480001025",
-   "px": 0.983,
-   "tick": 0.001,
-   "ts": 1795420026,
-   "end_ts": 1795446000,
-   "q": "Will \"I Play Rocky\" score at least 89 on the Rotten Tomatoes Tomatometer?",
-   "touched": null
-  },
-  {
    "id": "7279450",
    "rule": "cripto_cierre",
    "cat": "cripto",
@@ -9651,7 +9278,7 @@
    "ts": 1795420026,
    "end_ts": 1795496400,
    "q": "Will Ethereum dip to $1,550 on November 23?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7029659",
@@ -13070,6 +12697,123 @@
    "ts": 1795460469,
    "end_ts": 1795568400,
    "q": "Kansas City Roos vs. Nebraska Cornhuskers (W)",
+   "touched": null
+  },
+  {
+   "id": "7196058",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "34384373908139259039278742139169747146789172507285218458658834931459061943665",
+   "px": 0.983,
+   "tick": 0.001,
+   "ts": 1795464065,
+   "end_ts": 1795467600,
+   "q": "Will Google (GOOGL) close above $270 on November 23?",
+   "touched": null
+  },
+  {
+   "id": "7260671",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "28221916233084499477900141489695053236854573346281053487036639501885828554911",
+   "px": 0.981,
+   "tick": 0.001,
+   "ts": 1795464065,
+   "end_ts": 1795467600,
+   "q": "Bitcoin Up or Down - November 23, 12:00PM-4:00PM ET",
+   "touched": null
+  },
+  {
+   "id": "7260694",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "36932091754165521348992162103027168313278948682316824642070326623135669900996",
+   "px": 0.986,
+   "tick": 0.001,
+   "ts": 1795464065,
+   "end_ts": 1795467600,
+   "q": "Ethereum Up or Down - November 23, 12:00PM-4:00PM ET",
+   "touched": null
+  },
+  {
+   "id": "7086710",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "38328737181386222127196507077415367230421347000317954133899684574586259192891",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1795464065,
+   "end_ts": 1795496400,
+   "q": "Will Microstrategy announce a Bitcoin purchase November 17-23?",
+   "touched": null
+  },
+  {
+   "id": "7087404",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "45287790721031711885815364008884088065250619340046511928005926743549753046204",
+   "px": 0.984,
+   "tick": 0.001,
+   "ts": 1795464065,
+   "end_ts": 1795496400,
+   "q": "MicroStrategy announces >1000 BTC purchase November 17-23?",
+   "touched": null
+  },
+  {
+   "id": "7121575",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "97341116867302144298880072870052219474376312646922883164269486134073279025004",
+   "px": 0.977,
+   "tick": 0.001,
+   "ts": 1795464065,
+   "end_ts": 1795539600,
+   "q": "Will the price of Bitcoin be above $66,000 on November 24?",
+   "touched": null
+  },
+  {
+   "id": "6998586",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "37371054002496135617301777117937124623893051871468421149131394786987807412973",
+   "px": 0.975,
+   "tick": 0.001,
+   "ts": 1795464065,
+   "end_ts": 1795572000,
+   "q": "UNC Asheville Bulldogs vs. Florida State Seminoles",
+   "touched": null
+  },
+  {
+   "id": "6998589",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "76094982076413938391560114168103754270843889770504501069411911636876793188358",
+   "px": 0.992,
+   "tick": 0.001,
+   "ts": 1795464065,
+   "end_ts": 1795564800,
+   "q": "Milwaukee Panthers vs. Florida Gators",
+   "touched": null
+  },
+  {
+   "id": "7016111",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "97280710268414979760795593688447959162886133289964937828758107080147614425588",
+   "px": 0.986,
+   "tick": 0.001,
+   "ts": 1795464065,
+   "end_ts": 1795570200,
+   "q": "San Jose State Spartans vs. Arizona State Sun Devils (W)",
    "touched": null
   }
  ]

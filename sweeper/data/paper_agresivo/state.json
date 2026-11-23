@@ -47,7 +47,7 @@
    "hours": 3.96,
    "liq": 1095,
    "fill_ts": 1794791170.442568,
-   "mark": 0.8505,
+   "mark": 0.885,
    "stuck": true,
    "disputed": false
   },
@@ -172,7 +172,7 @@
    "hours": 3.96,
    "liq": 2498,
    "fill_ts": 1795456909.743771,
-   "mark": 0.973,
+   "mark": 0.9745,
    "stuck": false,
    "disputed": false
   },
@@ -197,7 +197,9 @@
    "hours": 1.47,
    "liq": 13941,
    "fill_ts": 1795460539.255327,
-   "mark": 0.976
+   "mark": 0.976,
+   "stuck": false,
+   "disputed": false
   },
   {
    "oid": "6943557-1795456909",
@@ -220,7 +222,9 @@
    "hours": 1.47,
    "liq": 14260,
    "fill_ts": 1795460539.255327,
-   "mark": 0.968
+   "mark": 0.968,
+   "stuck": false,
+   "disputed": false
   },
   {
    "oid": "7016040-1795456909",
@@ -243,7 +247,9 @@
    "hours": 1.47,
    "liq": 2989,
    "fill_ts": 1795460539.255327,
-   "mark": 0.998
+   "mark": 0.9965,
+   "stuck": false,
+   "disputed": false
   },
   {
    "oid": "7196020-1795456909",
@@ -266,7 +272,9 @@
    "hours": 2.97,
    "liq": 17091,
    "fill_ts": 1795460539.255327,
-   "mark": 0.979
+   "mark": 0.9755,
+   "stuck": false,
+   "disputed": false
   },
   {
    "oid": "7196022-1795456909",
@@ -289,7 +297,9 @@
    "hours": 2.97,
    "liq": 2107,
    "fill_ts": 1795460539.255327,
-   "mark": 0.989
+   "mark": 0.97,
+   "stuck": false,
+   "disputed": false
   }
  ],
  "closed": [
@@ -9097,6 +9107,19 @@
    "placed": 0,
    "shadow_open": 2277,
    "shadow_closed": 55
+  },
+  {
+   "ts": "2026-11-23T20:02:49Z",
+   "equity": 906.46,
+   "cash": 0.0,
+   "orders": 1,
+   "positions": 11,
+   "closed": 198,
+   "scanned": 17153,
+   "candidates": 911,
+   "placed": 0,
+   "shadow_open": 2289,
+   "shadow_closed": 33
   }
  ],
  "halted": false,
@@ -9173,32 +9196,6 @@
    "touched": 1
   },
   {
-   "id": "7042873",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "46370411279432175940772757559844288775887177539297679029953624914856666525352",
-   "px": 0.974,
-   "tick": 0.001,
-   "ts": 1795046522,
-   "end_ts": 1795305600,
-   "q": "Will Doug Ghim win the 2026 The RSM Classic?",
-   "touched": 1
-  },
-  {
-   "id": "7042937",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "74409121363597129650170458164018281165568506542000872928684383421413795477486",
-   "px": 0.965,
-   "tick": 0.001,
-   "ts": 1795046522,
-   "end_ts": 1795305600,
-   "q": "Will Ben James win the 2026 The RSM Classic?",
-   "touched": 1
-  },
-  {
    "id": "7042963",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -9209,97 +9206,6 @@
    "ts": 1795046522,
    "end_ts": 1795305600,
    "q": "Will Jackson Koivun win the 2026 The RSM Classic?",
-   "touched": 1
-  },
-  {
-   "id": "7043002",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "47299269624565660852701393374142074418074047619381577328463183533061997217909",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795046522,
-   "end_ts": 1795305600,
-   "q": "Will Denny McCarthy win the 2026 The RSM Classic?",
-   "touched": 1
-  },
-  {
-   "id": "7043012",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "101910646353495839805901049716112635456824224614163408690226943242368553554520",
-   "px": 0.996,
-   "tick": 0.001,
-   "ts": 1795046522,
-   "end_ts": 1795305600,
-   "q": "Will Keith Mitchell win the 2026 The RSM Classic?",
-   "touched": 1
-  },
-  {
-   "id": "7043038",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "67129501226519818862504894664734280294091408079338525962761493847789555977044",
-   "px": 0.99,
-   "tick": 0.001,
-   "ts": 1795046522,
-   "end_ts": 1795305600,
-   "q": "Will JT Poston win the 2026 The RSM Classic?",
-   "touched": 1
-  },
-  {
-   "id": "7042774",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "44271791142884521881613501892179891083556083183972574249535312831818826700494",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795050112,
-   "end_ts": 1795305600,
-   "q": "Will Zac Blair win the 2026 The RSM Classic?",
-   "touched": 1
-  },
-  {
-   "id": "7042828",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "111365756489737006741005535931900673907766371722776372275011980530130103730756",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795050112,
-   "end_ts": 1795305600,
-   "q": "Will Ze-Cheng Dou win the 2026 The RSM Classic?",
-   "touched": 1
-  },
-  {
-   "id": "7042959",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "47872995453437112922437637361018305751605747631635061056777347619953071080852",
-   "px": 0.982,
-   "tick": 0.001,
-   "ts": 1795050112,
-   "end_ts": 1795305600,
-   "q": "Will Ben Kohles win the 2026 The RSM Classic?",
-   "touched": 1
-  },
-  {
-   "id": "7043005",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "394566106309346988642268770235270789740767805757936722168214291597641532799",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795050112,
-   "end_ts": 1795305600,
-   "q": "Will Maverick McNealy win the 2026 The RSM Classic?",
    "touched": 1
   },
   {
@@ -9628,19 +9534,6 @@
    "touched": 1
   },
   {
-   "id": "7042915",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "6580357860302773271500535855989020579332453246756847325277762992206995880508",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795114914,
-   "end_ts": 1795305600,
-   "q": "Will Lee Hodges win the 2026 The RSM Classic?",
-   "touched": 1
-  },
-  {
    "id": "7152886",
    "rule": "otros_cierre",
    "cat": "otros",
@@ -9651,32 +9544,6 @@
    "ts": 1795114914,
    "end_ts": 1795348800,
    "q": "Will \"The Hunger Games: Sunrise on the Reaping\" Opening Weekend Box Office be between 130m",
-   "touched": 1
-  },
-  {
-   "id": "7042883",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "12488073072178314955997749294646060249128172665825911997190149519407495868797",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795118508,
-   "end_ts": 1795305600,
-   "q": "Will Emiliano Grillo win the 2026 The RSM Classic?",
-   "touched": 1
-  },
-  {
-   "id": "7042889",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "86317060941087568590271312397766878711145947225022397297757231600535449789485",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795121045,
-   "end_ts": 1795305600,
-   "q": "Will Harry Hall win the 2026 The RSM Classic?",
    "touched": 1
   },
   {
@@ -9703,19 +9570,6 @@
    "ts": 1795125703,
    "end_ts": 1795305600,
    "q": "Will Max Greyserman win the 2026 The RSM Classic?",
-   "touched": 1
-  },
-  {
-   "id": "7042895",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "83561595239415637872659869272633334916609227811159826441159244788106018898457",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795125703,
-   "end_ts": 1795305600,
-   "q": "Will Garrick Higgo win the 2026 The RSM Classic?",
    "touched": 1
   },
   {
@@ -10005,19 +9859,6 @@
    "touched": 1
   },
   {
-   "id": "7042787",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "16835665942476904444916561351605147144106336241968044028761463227714419387307",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795179769,
-   "end_ts": 1795305600,
-   "q": "Will Keegan Bradley win the 2026 The RSM Classic?",
-   "touched": 1
-  },
-  {
    "id": "7042808",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -10041,32 +9882,6 @@
    "ts": 1795179769,
    "end_ts": 1795305600,
    "q": "Will Adrien Dumont De Chassart win the 2026 The RSM Classic?",
-   "touched": 1
-  },
-  {
-   "id": "7042867",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "22539481080852109579905764385979281563954375045290519895953948854828750606843",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795179769,
-   "end_ts": 1795305600,
-   "q": "Will David Ford win the 2026 The RSM Classic?",
-   "touched": 1
-  },
-  {
-   "id": "7042907",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "15673786962462768244707462789249560126515316767700617189749691008652882103824",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795179769,
-   "end_ts": 1795305600,
-   "q": "Will Kensei Hirata win the 2026 The RSM Classic?",
    "touched": 1
   },
   {
@@ -10109,45 +9924,6 @@
    "touched": 1
   },
   {
-   "id": "7043019",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "23354687292694038719113404283187558390300274388049517999784396096379059901503",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795179769,
-   "end_ts": 1795305600,
-   "q": "Will S.Y. Noh win the 2026 The RSM Classic?",
-   "touched": 1
-  },
-  {
-   "id": "7043021",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "81840260973647122692104630880201774635585210973769638301743323825585419327693",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795179769,
-   "end_ts": 1795305600,
-   "q": "Will Andrew Novak win the 2026 The RSM Classic?",
-   "touched": 1
-  },
-  {
-   "id": "7043029",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "110311872229955963337977026563195969093291209532947585870114486039469802900190",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795179769,
-   "end_ts": 1795305600,
-   "q": "Will Matthieu Pavon win the 2026 The RSM Classic?",
-   "touched": 1
-  },
-  {
    "id": "7043033",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -10158,19 +9934,6 @@
    "ts": 1795179769,
    "end_ts": 1795305600,
    "q": "Will Marco Penge win the 2026 The RSM Classic?",
-   "touched": 1
-  },
-  {
-   "id": "7043040",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "92147580570760457675686919398345071833851696896562077573981977936226873908729",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795179769,
-   "end_ts": 1795305600,
-   "q": "Will Chad Ramey win the 2026 The RSM Classic?",
    "touched": 1
   },
   {
@@ -10434,32 +10197,6 @@
    "touched": 1
   },
   {
-   "id": "7042761",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "113162192439792372657148770588714981040825975527477428875795355673962324947320",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795212166,
-   "end_ts": 1795305600,
-   "q": "Will Christiaan Bezuidenhout win the 2026 The RSM Classic?",
-   "touched": 1
-  },
-  {
-   "id": "7042810",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "84948672766929936419185852716611959458951862611141373256947161443723703663617",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795212166,
-   "end_ts": 1795305600,
-   "q": "Will Davis Chatfield win the 2026 The RSM Classic?",
-   "touched": 1
-  },
-  {
    "id": "7023031",
    "rule": "otros_cierre",
    "cat": "otros",
@@ -10496,19 +10233,6 @@
    "ts": 1795212166,
    "end_ts": 1795467600,
    "q": "Will Tesla (TSLA) close above $390 on November 23?",
-   "touched": 1
-  },
-  {
-   "id": "7042911",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "110301391543045382197653732993329731800636833137843616175947477882985361414798",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795215740,
-   "end_ts": 1795305600,
-   "q": "Will Ryo Hisatsune win the 2026 The RSM Classic?",
    "touched": 1
   },
   {
@@ -11068,19 +10792,6 @@
    "ts": 1795262526,
    "end_ts": 1795435200,
    "q": "Will the highest temperature in Jeddah be 38°C on November 23?",
-   "touched": 1
-  },
-  {
-   "id": "7218413",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "32385450399768546607592370605749392297256999354563179437208904231653022373396",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795262526,
-   "end_ts": 1795435200,
-   "q": "Will the highest temperature in Karachi be 26°C or below on November 23?",
    "touched": 1
   },
   {
@@ -14620,32 +14331,6 @@
    "touched": 1
   },
   {
-   "id": "7218430",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "92724795327169179159706867647788079800752557756116345897101888873294525806022",
-   "px": 0.993,
-   "tick": 0.001,
-   "ts": 1795312918,
-   "end_ts": 1795435200,
-   "q": "Will the highest temperature in Karachi be 34°C on November 23?",
-   "touched": 1
-  },
-  {
-   "id": "7218432",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "50222490941848340825084114801048841518715434066513920074189706215215844418746",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795312918,
-   "end_ts": 1795435200,
-   "q": "Will the highest temperature in Karachi be 35°C on November 23?",
-   "touched": 1
-  },
-  {
    "id": "7219898",
    "rule": "clima_cierre",
    "cat": "clima",
@@ -14877,19 +14562,6 @@
    "ts": 1795316538,
    "end_ts": 1795435200,
    "q": "Will the highest temperature in Cape Town be 25°C on November 23?",
-   "touched": 1
-  },
-  {
-   "id": "7218428",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "88981627207454164243113079619869203087335676409946661712204137493492509650627",
-   "px": 0.978,
-   "tick": 0.001,
-   "ts": 1795316538,
-   "end_ts": 1795435200,
-   "q": "Will the highest temperature in Karachi be 33°C on November 23?",
    "touched": 1
   },
   {
@@ -17402,19 +17074,6 @@
    "touched": 1
   },
   {
-   "id": "7218417",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "49670754487033106192495249582225836739373974941463394212747188380949270807823",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1795327304,
-   "end_ts": 1795435200,
-   "q": "Will the highest temperature in Karachi be 28°C on November 23?",
-   "touched": 1
-  },
-  {
    "id": "7221091",
    "rule": "clima_cierre",
    "cat": "clima",
@@ -17451,19 +17110,6 @@
    "ts": 1795327304,
    "end_ts": 1795456800,
    "q": "Spread: El Ahly SC (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "7245250",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "103385402461189150397560891631181805718553949335146592868054458612703489667480",
-   "px": 0.97,
-   "tick": 0.01,
-   "ts": 1795327304,
-   "end_ts": 1795449600,
-   "q": "Al-Shamal vs. Al Ahli Saudi FC: Neither team to score first?",
    "touched": 1
   },
   {
@@ -17659,19 +17305,6 @@
    "ts": 1795334534,
    "end_ts": 1795409940,
    "q": "Will 3+ ships transit the Strait of Hormuz on any day week of November 16?",
-   "touched": 1
-  },
-  {
-   "id": "7218420",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "114640458519671126583101540934490266123024867031123725491906225866794464548321",
-   "px": 0.978,
-   "tick": 0.001,
-   "ts": 1795334534,
-   "end_ts": 1795435200,
-   "q": "Will the highest temperature in Karachi be 29°C on November 23?",
    "touched": 1
   },
   {
@@ -18998,19 +18631,6 @@
    "ts": 1795352504,
    "end_ts": 1795435200,
    "q": "Will the highest temperature in Mexico City be 20°C on November 23?",
-   "touched": 1
-  },
-  {
-   "id": "7244796",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "112525651475192300854176686467384607018170987781441485329222848621957964242363",
-   "px": 0.97,
-   "tick": 0.01,
-   "ts": 1795352504,
-   "end_ts": 1795449600,
-   "q": "Al-Shamal vs. Al Ahli Saudi FC: O/U 0.5",
    "touched": 1
   },
   {
@@ -20561,19 +20181,6 @@
    "touched": 0
   },
   {
-   "id": "7244788",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "79529825370250583091445572029792324953667568272827244635986531199589560907738",
-   "px": 0.979,
-   "tick": 0.001,
-   "ts": 1795366946,
-   "end_ts": 1795449600,
-   "q": "Spread: Al-Shamal (-2.5)",
-   "touched": 1
-  },
-  {
    "id": "7244847",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -21741,19 +21348,6 @@
    "ts": 1795369994,
    "end_ts": 1795453200,
    "q": "Bodrum FK vs. Van Spor FK: O/U 5.5",
-   "touched": 1
-  },
-  {
-   "id": "7244044",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "98994252425221526957803962856468223048751270182803406065021940754373637158543",
-   "px": 0.97,
-   "tick": 0.01,
-   "ts": 1795369994,
-   "end_ts": 1795449600,
-   "q": "Al Ain FC vs. Esteghlal FC Tehran: O/U 0.5",
    "touched": 1
   },
   {
@@ -38706,6 +38300,591 @@
    "ts": 1795460539,
    "end_ts": 1795712400,
    "q": "Will the price of XRP be greater than $1.40 on November 26?",
+   "touched": null
+  },
+  {
+   "id": "6961991",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "2748566566048105293588801649466291973398465655237919058690028223309659049435",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795464107,
+   "end_ts": 1795474800,
+   "q": "Botafogo FR vs. São Paulo FC: O/U 8.5",
+   "touched": null
+  },
+  {
+   "id": "7196025",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "64156990404331843470376345002505252847219174537945483499453688281859278322802",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795464107,
+   "end_ts": 1795467600,
+   "q": "Will Apple (AAPL) close above $345 on November 23?",
+   "touched": null
+  },
+  {
+   "id": "7201875",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "15258702130400315635794616807083980448134766292503522881559038976007439297516",
+   "px": 0.999,
+   "tick": 0.001,
+   "ts": 1795464107,
+   "end_ts": 1795469400,
+   "q": "Counter-Strike: SINQU vs RoundsGG (BO3) - Elisa Open Suomi Group Stage",
+   "touched": null
+  },
+  {
+   "id": "7260671",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "28221916233084499477900141489695053236854573346281053487036639501885828554911",
+   "px": 0.988,
+   "tick": 0.001,
+   "ts": 1795464107,
+   "end_ts": 1795467600,
+   "q": "Bitcoin Up or Down - November 23, 12:00PM-4:00PM ET",
+   "touched": null
+  },
+  {
+   "id": "7260684",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "40913850969461019010735690724235908107545879881671389563771084551569778719725",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1795464107,
+   "end_ts": 1795467600,
+   "q": "Solana Up or Down - November 23, 12:00PM-4:00PM ET",
+   "touched": null
+  },
+  {
+   "id": "7260694",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "36932091754165521348992162103027168313278948682316824642070326623135669900996",
+   "px": 0.986,
+   "tick": 0.001,
+   "ts": 1795464107,
+   "end_ts": 1795467600,
+   "q": "Ethereum Up or Down - November 23, 12:00PM-4:00PM ET",
+   "touched": null
+  },
+  {
+   "id": "7273304",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "2077289168838147827307918220540040660251347488807417356517729072933135037866",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795464107,
+   "end_ts": 1795483800,
+   "q": "Spread: Clippers (-15.5)",
+   "touched": null
+  },
+  {
+   "id": "7274574",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "100959737795902826371768880341295266550040541642410996135080379024673076021572",
+   "px": 0.96,
+   "tick": 0.01,
+   "ts": 1795464107,
+   "end_ts": 1795478400,
+   "q": "Grizzlies vs. Hornets: O/U 242.5",
+   "touched": null
+  },
+  {
+   "id": "7086710",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "38328737181386222127196507077415367230421347000317954133899684574586259192891",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795464107,
+   "end_ts": 1795496400,
+   "q": "Will Microstrategy announce a Bitcoin purchase November 17-23?",
+   "touched": null
+  },
+  {
+   "id": "7087404",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "45287790721031711885815364008884088065250619340046511928005926743549753046204",
+   "px": 0.988,
+   "tick": 0.001,
+   "ts": 1795464107,
+   "end_ts": 1795496400,
+   "q": "MicroStrategy announces >1000 BTC purchase November 17-23?",
+   "touched": null
+  },
+  {
+   "id": "7276004",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "91156989486664287990126938981758368859593674860762845725029159537858770030907",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795464107,
+   "end_ts": 1795489200,
+   "q": "Spread: Lakers (-42.5)",
+   "touched": null
+  },
+  {
+   "id": "7282929",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "16903989555237206405911186349537890548136532610302288768882480748771806772762",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1795464107,
+   "end_ts": 1795489200,
+   "q": "Zach LaVine: Rebounds O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "7287594",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "84823339592627163628436015767747753086859619801660070782989131898993925695420",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1795464107,
+   "end_ts": 1795489200,
+   "q": "Keyonte George: 3-Pointers Made O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "7290972",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "99753421841814382971723552515470801696623322885735390075211587072521230489709",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1795464107,
+   "end_ts": 1795489200,
+   "q": "Matisse Thybulle: 3-Pointers Made O/U 4.5",
+   "touched": null
+  },
+  {
+   "id": "7249568",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "114717164178238820457411229598718519368133444857423531921354900147820617715620",
+   "px": 0.973,
+   "tick": 0.001,
+   "ts": 1795464107,
+   "end_ts": 1795521600,
+   "q": "Will the highest temperature in Dallas be between 52-53°F on November 24?",
+   "touched": null
+  },
+  {
+   "id": "7251784",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "22240896886456546229341104248578094620495684365975313130037303754272518115983",
+   "px": 0.993,
+   "tick": 0.001,
+   "ts": 1795464107,
+   "end_ts": 1795521600,
+   "q": "Will the highest temperature in Seattle be between 46-47°F on November 24?",
+   "touched": null
+  },
+  {
+   "id": "7251804",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "8011230671976533704022658992363944114106073659800827155791441091876027629946",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795464107,
+   "end_ts": 1795521600,
+   "q": "Will the highest temperature in Denver be between 44-45°F on November 24?",
+   "touched": null
+  },
+  {
+   "id": "4750558",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "78381624162763417989987699808160295761955650821533458262347130043298282182780",
+   "px": 0.96,
+   "tick": 0.01,
+   "ts": 1795464107,
+   "end_ts": 1795549500,
+   "q": "Spread: Wycombe Wanderers FC (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "6953865",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "8098899788969778759118172578037560732537522219043310305815243769931017973332",
+   "px": 0.96,
+   "tick": 0.01,
+   "ts": 1795464107,
+   "end_ts": 1795549500,
+   "q": "Portsmouth FC vs. West Ham United FC: Neither team to score first?",
+   "touched": null
+  },
+  {
+   "id": "6986635",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "99101728842563270696239117202050963257616726168214485926540776478918480799361",
+   "px": 0.979,
+   "tick": 0.001,
+   "ts": 1795464107,
+   "end_ts": 1795554000,
+   "q": "Spread: SE Palmeiras (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "6986647",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "100035928296663327357525547498530525450405207977415439921394536128869086893464",
+   "px": 0.992,
+   "tick": 0.001,
+   "ts": 1795464107,
+   "end_ts": 1795554000,
+   "q": "Associação Chapecoense de Futebol vs. SE Palmeiras: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "7284575",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "110684519939518474322096813326616606575121766270967328390262289639062147860700",
+   "px": 0.97,
+   "tick": 0.01,
+   "ts": 1795464107,
+   "end_ts": 1795554000,
+   "q": "Will Tesla (TSLA) close above $360 on November 24?",
+   "touched": null
+  },
+  {
+   "id": "7284585",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "93268532709808881075253313932932288425849090143430658500474034168397771070417",
+   "px": 0.996,
+   "tick": 0.001,
+   "ts": 1795464107,
+   "end_ts": 1795554000,
+   "q": "Will NVIDIA (NVDA) close above $145 on November 24?",
+   "touched": null
+  },
+  {
+   "id": "7280036",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "88449874543448656457066908250979320870526135992747396828934367664185035346415",
+   "px": 0.975,
+   "tick": 0.001,
+   "ts": 1795464107,
+   "end_ts": 1795608000,
+   "q": "Will the highest temperature in Milan be 6°C on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7280042",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "21740468227749520933718305593042893407123278984849386164227880451861282812548",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795464107,
+   "end_ts": 1795608000,
+   "q": "Will the highest temperature in Milan be 12°C or higher on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7280248",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "65302693073379560026202551216534073297866315783575487477155338900346755465004",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795464107,
+   "end_ts": 1795608000,
+   "q": "Will the lowest temperature in Seoul (Incheon) be -7°C or below on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7280249",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "1011570382532258064667203819422405023477134309451307309364939623084681815218",
+   "px": 0.996,
+   "tick": 0.001,
+   "ts": 1795464107,
+   "end_ts": 1795608000,
+   "q": "Will the lowest temperature in Seoul (Incheon) be -6°C on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7280255",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "55243375452012324695365903353643778015831742083156023319547857167115156111133",
+   "px": 0.96,
+   "tick": 0.01,
+   "ts": 1795464107,
+   "end_ts": 1795608000,
+   "q": "Will the lowest temperature in Seoul (Incheon) be 0°C on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7280257",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "35611108984254685122507418054659086006536158109667220345128299359156871495063",
+   "px": 0.993,
+   "tick": 0.001,
+   "ts": 1795464107,
+   "end_ts": 1795608000,
+   "q": "Will the lowest temperature in Seoul (Incheon) be 2°C on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7283564",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "110248340629821188850941979604216048072834448023380979052478643590691237422450",
+   "px": 0.996,
+   "tick": 0.001,
+   "ts": 1795464107,
+   "end_ts": 1795608000,
+   "q": "Will the highest temperature in Seattle be between 62-63°F on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7283583",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "86295753622680125546135281309495421585376984215705711448018256642111797049204",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795464107,
+   "end_ts": 1795608000,
+   "q": "Will the highest temperature in Los Angeles be between 66-67°F on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7283593",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "91374550133645141968018061085204677446220302604843807486957001276733205204322",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795464107,
+   "end_ts": 1795608000,
+   "q": "Will the highest temperature in San Francisco be between 54-55°F on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7176624",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "68216444210174777810007052811758574820900684613489232412391353879223442060869",
+   "px": 0.957,
+   "tick": 0.001,
+   "ts": 1795464107,
+   "end_ts": 1795712400,
+   "q": "Will the price of Ethereum be above $1,900 on November 26?",
+   "touched": null
+  },
+  {
+   "id": "7176625",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "24975778934358861596124287665334475629329729621419256584293237544421260413528",
+   "px": 0.954,
+   "tick": 0.001,
+   "ts": 1795464107,
+   "end_ts": 1795712400,
+   "q": "Will the price of Bitcoin be between $66,000 and $68,000 on November 26?",
+   "touched": null
+  },
+  {
+   "id": "7176648",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "83058151604295502946448060656210599273782779868066380556927511987426295094677",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795464107,
+   "end_ts": 1795712400,
+   "q": "Will the price of Ethereum be between $1,900 and $2,000 on November 26?",
+   "touched": null
+  },
+  {
+   "id": "7176661",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "11036516607248574784665266405692253308218021730808782658387861624231195456867",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795464107,
+   "end_ts": 1795712400,
+   "q": "Will the price of Solana be between $30 and $40 on November 26?",
+   "touched": null
+  },
+  {
+   "id": "7176663",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "84640712689834091784993662320071144873869398189876735593385717589681553662933",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795464107,
+   "end_ts": 1795712400,
+   "q": "Will the price of Solana be between $40 and $50 on November 26?",
+   "touched": null
+  },
+  {
+   "id": "7176665",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "79697998336345096394681616216491043791782611815165657314233973857278144413829",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795464107,
+   "end_ts": 1795712400,
+   "q": "Will the price of Solana be between $50 and $60 on November 26?",
+   "touched": null
+  },
+  {
+   "id": "7176673",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "56911769236702014492570359256137816962051571220144842480945468683976346710010",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795464107,
+   "end_ts": 1795712400,
+   "q": "Will the price of Solana be between $90 and $100 on November 26?",
+   "touched": null
+  },
+  {
+   "id": "7176674",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "7664909443557613032584908627307497251069326107783762293130753053818027727212",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795464107,
+   "end_ts": 1795712400,
+   "q": "Will the price of Solana be between $100 and $110 on November 26?",
+   "touched": null
+  },
+  {
+   "id": "7176675",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "4447596419360101139457801815077055396791927902352238334867662862689749889321",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795464107,
+   "end_ts": 1795712400,
+   "q": "Will the price of Solana be between $110 and $120 on November 26?",
+   "touched": null
+  },
+  {
+   "id": "6995080",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "49083863456707061532566141531423836749110541374759498861834336014408187280275",
+   "px": 0.979,
+   "tick": 0.001,
+   "ts": 1795464107,
+   "end_ts": 1795715100,
+   "q": "RU Saint-Gilloise vs. KKS Lech Poznań: O/U 0.5",
+   "touched": null
+  },
+  {
+   "id": "6995896",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "85252437798000682058905688300556370036849152556460615437436588546072120501904",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795464107,
+   "end_ts": 1795723200,
+   "q": "Will Kuopion PS win on 2026-11-26?",
+   "touched": null
+  },
+  {
+   "id": "7102409",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "10307676551298478198666274170212964253564009198796915283538539095052877433887",
+   "px": 0.96,
+   "tick": 0.01,
+   "ts": 1795464107,
+   "end_ts": 1795723200,
+   "q": "SC União Torreense vs. Celtic FC: O/U 0.5",
+   "touched": null
+  },
+  {
+   "id": "7102460",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "69657889909696971524745703829806280998986031913851568393850008106237271727007",
+   "px": 0.97,
+   "tick": 0.01,
+   "ts": 1795464107,
+   "end_ts": 1795723200,
+   "q": "TSG 1899 Hoffenheim vs. SK Puntigamer Sturm Graz: O/U 0.5",
    "touched": null
   }
  ]
