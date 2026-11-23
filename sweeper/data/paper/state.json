@@ -1,29 +1,8 @@
 {
  "capital0": 1000.0,
- "cash": 410.3029,
+ "cash": 410.2324,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
-  {
-   "oid": "7090821-1795384864",
-   "id": "7090821",
-   "q": "Will Atthaya Thitikul win the 2026 CME Group Tour Championship?",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1401140",
-   "side": 0,
-   "token": "28438320150046181889228608866243280783280120772877489532814847505744399580089",
-   "px": 0.996,
-   "tick": 0.001,
-   "mid": 0.996,
-   "bid": 0.992,
-   "ask": 1,
-   "shares": 51.3929,
-   "cost": 51.1873,
-   "ts": 1795384864.649778,
-   "end_ts": 1795409940.0,
-   "hours": 6.97,
-   "liq": 1461
-  },
   {
    "oid": "6655556-1795395661",
    "id": "6655556",
@@ -214,7 +193,28 @@
    "liq": 38914
   },
   {
-   "oid": "7097114-1795424474",
+   "oid": "7106941-1795428068",
+   "id": "7106941",
+   "q": "Spread: Aluminij Kidricevo (-2.5)",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1405722",
+   "side": 1,
+   "token": "15412723226729537858233063998596177592087203618706849255465807653352131083090",
+   "px": 0.985,
+   "tick": 0.001,
+   "mid": 0.985,
+   "bid": 0.981,
+   "ask": 0.989,
+   "shares": 52.0384,
+   "cost": 51.2578,
+   "ts": 1795428068.827555,
+   "end_ts": 1795451400.0,
+   "hours": 6.48,
+   "liq": 2993
+  },
+  {
+   "oid": "7097114-1795428068",
    "id": "7097114",
    "q": "Will the price of Bitcoin be between $56,000 and $58,000 on November 23?",
    "cat": "cripto",
@@ -222,17 +222,17 @@
    "event": "1403122",
    "side": 1,
    "token": "29918433845064835341157451015670308303517101903902136348946712177124246875449",
-   "px": 0.983,
+   "px": 0.981,
    "tick": 0.001,
-   "mid": 0.9835,
-   "bid": 0.98,
-   "ask": 0.987,
-   "shares": 52.1443,
+   "mid": 0.9815,
+   "bid": 0.979,
+   "ask": 0.984,
+   "shares": 52.2506,
    "cost": 51.2578,
-   "ts": 1795424474.537583,
+   "ts": 1795428068.827555,
    "end_ts": 1795453200.0,
-   "hours": 7.98,
-   "liq": 37778
+   "hours": 6.98,
+   "liq": 36401
   }
  ],
  "positions": [
@@ -6520,14 +6520,27 @@
    "placed": 1,
    "shadow_open": 368,
    "shadow_closed": 2
+  },
+  {
+   "ts": "2026-11-23T10:01:43Z",
+   "equity": 1025.16,
+   "cash": 410.23,
+   "orders": 11,
+   "positions": 3,
+   "closed": 98,
+   "scanned": 8862,
+   "candidates": 189,
+   "placed": 2,
+   "shadow_open": 371,
+   "shadow_closed": 2
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 432,
+  "placed": 434,
   "filled": 101,
-  "expired": 95,
-  "touched_not_filled": 225
+  "expired": 96,
+  "touched_not_filled": 226
  },
  "shadow": [
   {
@@ -8650,32 +8663,6 @@
    "touched": 0
   },
   {
-   "id": "7147734",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "40584263552117211803209478493073490892783196261343968667706331021909142949117",
-   "px": 0.98,
-   "tick": 0.001,
-   "ts": 1795384864,
-   "end_ts": 1795409940,
-   "q": "Will HoneyMad finish GTA VI by November 22?",
-   "touched": null
-  },
-  {
-   "id": "7147750",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "87549852841557174795644056495903069549880123470494195046072214384491122131798",
-   "px": 0.983,
-   "tick": 0.001,
-   "ts": 1795384864,
-   "end_ts": 1795409940,
-   "q": "Will Alanzoka finish GTA VI by November 22?",
-   "touched": null
-  },
-  {
    "id": "7097183",
    "rule": "cripto_cierre",
    "cat": "cripto",
@@ -8686,7 +8673,7 @@
    "ts": 1795384864,
    "end_ts": 1795453200,
    "q": "Will the price of Bitcoin be above $70,000 on November 23?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7112394",
@@ -8699,7 +8686,7 @@
    "ts": 1795384864,
    "end_ts": 1795456800,
    "q": "Orgryte IS vs. Kalmar FF: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7175722",
@@ -11312,6 +11299,71 @@
    "ts": 1795424474,
    "end_ts": 1795522500,
    "q": "Shanghai Port FC vs. Buriram United: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "7097135",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "10658523559314934617360732722094145230564578596269001092300826205386157426372",
+   "px": 0.971,
+   "tick": 0.001,
+   "ts": 1795428068,
+   "end_ts": 1795453200,
+   "q": "Will the price of Ethereum be above $1,800 on November 23?",
+   "touched": null
+  },
+  {
+   "id": "6962036",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "112409930392055796299745854186074930607534048825704236414959046441895691727576",
+   "px": 0.992,
+   "tick": 0.001,
+   "ts": 1795428068,
+   "end_ts": 1795473000,
+   "q": "SC Internacional vs. EC Vitória: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "7279482",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "38550434418001382350821598353710003583264483840877193637861449107081326921775",
+   "px": 0.984,
+   "tick": 0.001,
+   "ts": 1795428068,
+   "end_ts": 1795496400,
+   "q": "Will XRP reach $1.05 on November 23?",
+   "touched": null
+  },
+  {
+   "id": "7245870",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "25022383995476195359122505578747345384487830198383721761575182094483734106321",
+   "px": 0.981,
+   "tick": 0.001,
+   "ts": 1795428068,
+   "end_ts": 1795514400,
+   "q": "Kyoto Sanga FC vs. FC Pohang Steelers: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "7245756",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "102188264196725264918118243076867928867554529366712749117724939760535806781896",
+   "px": 0.973,
+   "tick": 0.001,
+   "ts": 1795428068,
+   "end_ts": 1795522500,
+   "q": "Spread: Cong An Ha Noi FC (-2.5)",
    "touched": null
   }
  ]
