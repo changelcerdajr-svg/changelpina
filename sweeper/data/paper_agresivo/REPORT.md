@@ -2,8 +2,8 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 10.0 de 28 | corridas: 221
-- Capital inicial: $1,000.00 | valor actual: $847.55 | P&L: $-152.45 (-15.25%)
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 10.0 de 28 | corridas: 222
+- Capital inicial: $1,000.00 | valor actual: $840.18 | P&L: $-159.82 (-15.98%)
 - Efectivo libre: $2.01 | en ordenes abiertas: $274.66 (4) | en posiciones: $636.85 (10)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $91.77 en 1 posiciones
 - Ordenes virtuales: 447 colocadas, 201 llenadas, 195 tocadas sin llenarse (sorteo 30%), 47 expiradas
@@ -31,22 +31,22 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
-| $91.77 | 99.8c | 90.0c | otros_cierre | si | Pakistan military action against Afghanistan by November 15, 2026? |
-| $35.36 | 99.8c | 97.3c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $4.5m and $5.5m at auction? |
+| $91.77 | 99.8c | 82.2c | otros_cierre | si | Pakistan military action against Afghanistan by November 15, 2026? |
+| $35.36 | 99.8c | 95.8c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $4.5m and $5.5m at auction? |
 | $87.27 | 99.8c | 98.3c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
 | $89.82 | 99.0c | 87.7c | deportes_previo |  | Spread: FK LNZ Cherkasy (-2.5) |
 | $89.85 | 98.4c | 52.8c | deportes_previo |  | Spread: FK Polissia (-3.5) |
 | $72.13 | 95.0c | 91.2c | deportes_previo |  | Spread: FK Epitsentr Dunaivtsi (-2.5) |
 | $18.63 | 99.3c | 99.6c | deportes_previo |  | Spread: FK Neftchi Fargona (-2.5) |
-| $88.14 | 97.1c | 97.1c | deportes_previo |  | Spread: FK Neftchi Fargona (-1.5) |
+| $88.14 | 97.1c | 97.5c | deportes_previo |  | Spread: FK Neftchi Fargona (-1.5) |
 | $56.03 | 99.8c | 99.7c | otros_cierre |  | Will "I Play Rocky" score at least 60 on the Rotten Tomatoes Tomatometer? |
-| $7.85 | 99.7c | 99.7c | cripto_cierre |  | Will the price of Bitcoin be less than $56,000 on November 23? |
+| $7.85 | 99.7c | 99.1c | cripto_cierre |  | Will the price of Bitcoin be less than $56,000 on November 23? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 11686 | abiertas: 2152 | abiertas mas de 7 dias despues de su fecha de fin: 1
+- Resueltas: 11686 | abiertas: 2204 | abiertas mas de 7 dias despues de su fecha de fin: 1
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
