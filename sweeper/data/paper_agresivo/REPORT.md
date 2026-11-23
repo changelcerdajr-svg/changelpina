@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 9.4 de 28 | corridas: 206
-- Capital inicial: $1,000.00 | valor actual: $895.25 | P&L: $-104.75 (-10.48%)
-- Efectivo libre: $2.07 | en ordenes abiertas: $401.13 (8) | en posiciones: $501.56 (7)
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 9.4 de 28 | corridas: 207
+- Capital inicial: $1,000.00 | valor actual: $895.29 | P&L: $-104.71 (-10.47%)
+- Efectivo libre: $0.00 | en ordenes abiertas: $224.15 (4) | en posiciones: $680.61 (9)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 414 colocadas, 186 llenadas, 178 tocadas sin llenarse (sorteo 30%), 42 expiradas
+- Ordenes virtuales: 416 colocadas, 188 llenadas, 178 tocadas sin llenarse (sorteo 30%), 46 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -37,28 +37,30 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 | $26.13 | 95.0c | 100.0c | post_fin_90_97 |  | Will the highest temperature in Chicago be between 58-59°F on November 22? |
 | $88.88 | 99.8c | 99.8c | deportes_previo |  | David Njoku: 2+ Touchdowns |
 | $88.97 | 97.3c | 97.2c | deportes_previo |  | Spread: Antigua GFC (-1.5) |
+| $89.52 | 99.9c | 99.9c | cripto_cierre |  | Bitcoin Up or Down - November 22, 6:35PM-6:40PM ET |
+| $89.52 | 99.9c | 99.9c | cripto_cierre |  | BNB Up or Down - November 22, 6:35PM-6:40PM ET |
 | $83.18 | 99.8c | 99.8c | cripto_cierre |  | Will Bitcoin reach $72,000 November 16-22? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 10597 | abiertas: 2695 | abiertas mas de 7 dias despues de su fecha de fin: 0
+- Resueltas: 10627 | abiertas: 2686 | abiertas mas de 7 dias despues de su fecha de fin: 0
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
-| clima_cierre | todas | 2892 | 98.83c | 99.07% | +0.24 pts | -0.11 a +0.59 | 27 |
-| clima_cierre | tocadas | 2682 | 98.85c | 98.99% | +0.14 pts | -0.23 a +0.52 | 27 |
+| clima_cierre | todas | 2915 | 98.83c | 99.07% | +0.25 pts | -0.10 a +0.59 | 27 |
+| clima_cierre | tocadas | 2702 | 98.85c | 99.00% | +0.15 pts | -0.22 a +0.52 | 27 |
 | cripto_cierre | todas | 1401 | 98.71c | 98.07% | -0.64 pts | -1.35 a +0.07 | 27 |
 | cripto_cierre | tocadas | 1275 | 98.75c | 97.88% | -0.87 pts | -1.65 a -0.09 | 27 |
-| deportes_previo | todas | 4939 | 98.00c | 97.38% | -0.62 pts | -1.06 a -0.18 | 132 |
-| deportes_previo | tocadas | 4815 | 98.04c | 97.35% | -0.69 pts | -1.13 a -0.24 | 130 |
+| deportes_previo | todas | 4946 | 98.00c | 97.38% | -0.62 pts | -1.06 a -0.18 | 132 |
+| deportes_previo | tocadas | 4822 | 98.04c | 97.36% | -0.68 pts | -1.13 a -0.23 | 130 |
 | otros_cierre | todas | 1210 | 99.01c | 97.27% | -1.73 pts | -2.64 a -0.82 | 33 |
 | otros_cierre | tocadas | 1130 | 98.97c | 97.08% | -1.89 pts | -2.87 a -0.92 | 33 |
 | post_fin_90_97 | todas | 155 | 94.12c | 93.55% | -0.57 pts | -4.40 a +3.26 | 10 |
 | post_fin_90_97 | tocadas | 132 | 94.14c | 92.42% | -1.71 pts | -6.18 a +2.76 | 10 |
-| TOTAL | todas | 10597 | 98.38c | 97.86% | -0.52 pts | -0.79 a -0.24 | 229 |
-| TOTAL | tocadas | 10034 | 98.40c | 97.76% | -0.64 pts | -0.92 a -0.35 | 227 |
+| TOTAL | todas | 10627 | 98.38c | 97.87% | -0.51 pts | -0.78 a -0.24 | 229 |
+| TOTAL | tocadas | 10061 | 98.40c | 97.77% | -0.63 pts | -0.92 a -0.35 | 227 |
 
 Peores casos del registro sombra:
 
