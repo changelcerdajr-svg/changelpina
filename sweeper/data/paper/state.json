@@ -1,6 +1,6 @@
 {
  "capital0": 1000.0,
- "cash": 409.0789,
+ "cash": 409.0631,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
   {
@@ -109,27 +109,6 @@
    "liq": 71424
   },
   {
-   "oid": "6364957-1795388466",
-   "id": "6364957",
-   "q": "Will the next Grok model (4.8+) be released on November 22, 2026?",
-   "cat": "otros",
-   "rule": "otros_cierre",
-   "event": "1274171",
-   "side": 1,
-   "token": "99790803598418063284274268531617254554619060036404903137408929238168693875310",
-   "px": 0.987,
-   "tick": 0.001,
-   "mid": 0.987,
-   "bid": 0.983,
-   "ask": 0.991,
-   "shares": 46.139,
-   "cost": 45.5392,
-   "ts": 1795388466.758807,
-   "end_ts": 1795409940.0,
-   "hours": 5.96,
-   "liq": 1194
-  },
-  {
    "oid": "6655556-1795395661",
    "id": "6655556",
    "q": "Will the next Meta Muse Spark model be released on November 22, 2026?",
@@ -212,6 +191,27 @@
    "end_ts": 1795410000.0,
    "hours": 2.98,
    "liq": 59656
+  },
+  {
+   "oid": "6364957-1795402873",
+   "id": "6364957",
+   "q": "Will the next Grok model (4.8+) be released on November 22, 2026?",
+   "cat": "otros",
+   "rule": "otros_cierre",
+   "event": "1274171",
+   "side": 1,
+   "token": "99790803598418063284274268531617254554619060036404903137408929238168693875310",
+   "px": 0.985,
+   "tick": 0.001,
+   "mid": 0.9855,
+   "bid": 0.98,
+   "ask": 0.991,
+   "shares": 46.2488,
+   "cost": 45.555,
+   "ts": 1795402873.871928,
+   "end_ts": 1795409940.0,
+   "hours": 1.96,
+   "liq": 1199
   }
  ],
  "positions": [
@@ -261,7 +261,7 @@
    "hours": 22.98,
    "liq": 62011,
    "fill_ts": 1795330863.301342,
-   "mark": 0.9975,
+   "mark": 0.998,
    "stuck": false,
    "disputed": false
   },
@@ -336,7 +336,7 @@
    "hours": 5.36,
    "liq": 42141,
    "fill_ts": 1795392071.593131,
-   "mark": 0.9965,
+   "mark": 0.9975,
    "stuck": false,
    "disputed": false
   }
@@ -6325,14 +6325,27 @@
    "placed": 2,
    "shadow_open": 355,
    "shadow_closed": 26
+  },
+  {
+   "ts": "2026-11-23T03:01:51Z",
+   "equity": 1024.53,
+   "cash": 409.06,
+   "orders": 10,
+   "positions": 5,
+   "closed": 94,
+   "scanned": 8094,
+   "candidates": 138,
+   "placed": 1,
+   "shadow_open": 349,
+   "shadow_closed": 13
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 419,
+  "placed": 420,
   "filled": 99,
   "expired": 92,
-  "touched_not_filled": 218
+  "touched_not_filled": 219
  },
  "shadow": [
   {
@@ -7194,19 +7207,6 @@
    "touched": 1
   },
   {
-   "id": "6643677",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "70423603472895001074797741236726130912891158987014698095298638803560467763632",
-   "px": 0.975,
-   "tick": 0.001,
-   "ts": 1795305666,
-   "end_ts": 1795396800,
-   "q": "Vikings vs. 49ers: O/U 24.5",
-   "touched": 1
-  },
-  {
    "id": "6764604",
    "rule": "otros_cierre",
    "cat": "otros",
@@ -7272,19 +7272,6 @@
    "touched": 1
   },
   {
-   "id": "6998499",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "25293956501190455856732098462272220080189570939144265706010010961161918936022",
-   "px": 0.971,
-   "tick": 0.001,
-   "ts": 1795316463,
-   "end_ts": 1795384800,
-   "q": "NJIT Highlanders vs. Boston College Eagles",
-   "touched": 1
-  },
-  {
    "id": "7244414",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -7308,32 +7295,6 @@
    "ts": 1795316463,
    "end_ts": 1795397400,
    "q": "Vancouver Whitecaps FC vs. Real Salt Lake: O/U 0.5",
-   "touched": 1
-  },
-  {
-   "id": "6930541",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "91000871002609287690481851230815086734038942339449003623803853374136612772947",
-   "px": 0.984,
-   "tick": 0.001,
-   "ts": 1795320067,
-   "end_ts": 1795386600,
-   "q": "Spread: Red Bull Bragantino (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "6930542",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "84076643363821066655596174177137762384256397747100559288814056130244350662887",
-   "px": 0.979,
-   "tick": 0.001,
-   "ts": 1795320067,
-   "end_ts": 1795386600,
-   "q": "Spread: CR Vasco da Gama (-3.5)",
    "touched": 1
   },
   {
@@ -7425,32 +7386,6 @@
    "ts": 1795320067,
    "end_ts": 1795397400,
    "q": "Vancouver Whitecaps FC vs. Real Salt Lake: O/U 7.5",
-   "touched": 1
-  },
-  {
-   "id": "6899190",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "49971185013808384107434633968903405182325464510061672394441019616990196579142",
-   "px": 0.975,
-   "tick": 0.001,
-   "ts": 1795323667,
-   "end_ts": 1795384800,
-   "q": "Spread: Sporting FC (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "6899201",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "53936448910323621048966988164029394752115455916608914979810063056625648991768",
-   "px": 0.98,
-   "tick": 0.001,
-   "ts": 1795323667,
-   "end_ts": 1795384800,
-   "q": "Inter San Carlos vs. Sporting FC: O/U 6.5",
    "touched": 1
   },
   {
@@ -8234,19 +8169,6 @@
    "touched": 1
   },
   {
-   "id": "6899189",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "3720394423453031129179564167082060339559601460198196036699581445011290342402",
-   "px": 0.987,
-   "tick": 0.001,
-   "ts": 1795330863,
-   "end_ts": 1795384800,
-   "q": "Spread: Inter San Carlos (-3.5)",
-   "touched": 1
-  },
-  {
    "id": "6930921",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -8871,45 +8793,6 @@
    "touched": 1
   },
   {
-   "id": "7015954",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "20786837973591319441629012323569386800600476683535760291223438173796733361713",
-   "px": 0.985,
-   "tick": 0.001,
-   "ts": 1795341663,
-   "end_ts": 1795384800,
-   "q": "Wichita State Shockers vs. Oklahoma State Cowboys (W)",
-   "touched": 1
-  },
-  {
-   "id": "7229978",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "110562308558266081785901127746731780343840932334556453930512601311830784013641",
-   "px": 0.971,
-   "tick": 0.001,
-   "ts": 1795341663,
-   "end_ts": 1795395600,
-   "q": "Blackhawks vs. Canucks: O/U 2.5",
-   "touched": 1
-  },
-  {
-   "id": "7229988",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "62904791570733367782146445129860314189390525580329745074215389914863586027033",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1795341663,
-   "end_ts": 1795392000,
-   "q": "Penguins vs. Stars: O/U 2.5",
-   "touched": 1
-  },
-  {
    "id": "7085137",
    "rule": "cripto_cierre",
    "cat": "cripto",
@@ -8934,19 +8817,6 @@
    "end_ts": 1795410000,
    "q": "Will Bitcoin reach $74,000 November 16-22?",
    "touched": 0
-  },
-  {
-   "id": "6930554",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "75678700442916483079618340401249376597963927834714793901186362217308905554622",
-   "px": 0.989,
-   "tick": 0.001,
-   "ts": 1795345267,
-   "end_ts": 1795386600,
-   "q": "Red Bull Bragantino vs. CR Vasco da Gama: O/U 7.5",
-   "touched": 1
   },
   {
    "id": "6928075",
@@ -9076,7 +8946,7 @@
    "ts": 1795356062,
    "end_ts": 1795390200,
    "q": "CD San Antonio Bulo Bulo vs. Club Always Ready: O/U 0.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7170902",
@@ -9089,7 +8959,7 @@
    "ts": 1795356062,
    "end_ts": 1795395600,
    "q": "Instituto AC Córdoba vs. CA Huracán: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7170903",
@@ -9102,20 +8972,7 @@
    "ts": 1795356062,
    "end_ts": 1795395600,
    "q": "Instituto AC Córdoba vs. CA Huracán: O/U 7.5",
-   "touched": null
-  },
-  {
-   "id": "7230008",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "43958533623693416283502440094486139673534511472950453290183949562181928984225",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1795356062,
-   "end_ts": 1795392000,
-   "q": "Oilers vs. Blues: O/U 2.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7153566",
@@ -9128,7 +8985,7 @@
    "ts": 1795356062,
    "end_ts": 1795409940,
    "q": "Will N3on finish GTA VI by November 22?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6923683",
@@ -9141,7 +8998,7 @@
    "ts": 1795356062,
    "end_ts": 1795463100,
    "q": "Spread: AC Monza (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6923689",
@@ -9154,7 +9011,7 @@
    "ts": 1795356062,
    "end_ts": 1795464000,
    "q": "Spread: Brentford FC (-3.5)",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6923691",
@@ -9167,7 +9024,7 @@
    "ts": 1795356062,
    "end_ts": 1795464000,
    "q": "Spread: Everton FC (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6923711",
@@ -9180,7 +9037,7 @@
    "ts": 1795356062,
    "end_ts": 1795463100,
    "q": "AC Monza vs. ACF Fiorentina: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6923714",
@@ -9193,7 +9050,7 @@
    "ts": 1795356062,
    "end_ts": 1795464000,
    "q": "Brentford FC vs. Everton FC: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6927235",
@@ -9206,7 +9063,7 @@
    "ts": 1795356062,
    "end_ts": 1795464000,
    "q": "Spread: Elche CF (-3.5)",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6927251",
@@ -9219,7 +9076,7 @@
    "ts": 1795356062,
    "end_ts": 1795464000,
    "q": "Levante UD vs. Elche CF: O/U 6.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7193313",
@@ -9232,20 +9089,7 @@
    "ts": 1795359662,
    "end_ts": 1795348800,
    "q": "Will the highest temperature in Austin be between 76-77°F on November 22?",
-   "touched": null
-  },
-  {
-   "id": "7170968",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "79259743178301321505697137257241499694708427828148527862815273122406988432412",
-   "px": 0.989,
-   "tick": 0.001,
-   "ts": 1795359662,
-   "end_ts": 1795384800,
-   "q": "CA River Plate vs. CA Lanús: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6998527",
@@ -9258,7 +9102,7 @@
    "ts": 1795359662,
    "end_ts": 1795395600,
    "q": "Louisiana-Lafayette Ragin' Cajuns vs. USC Trojans",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6596309",
@@ -9271,7 +9115,7 @@
    "ts": 1795359662,
    "end_ts": 1795409940,
    "q": "Will Donald Trump publicly insult someone on November 22, 2026?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "5420123",
@@ -9284,7 +9128,7 @@
    "ts": 1795359662,
    "end_ts": 1795446000,
    "q": "Will \"The Hunger Games: Sunrise on the Reaping\" score at least 50 on the Rotten Tomatoes T",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "5420124",
@@ -9297,7 +9141,7 @@
    "ts": 1795359662,
    "end_ts": 1795446000,
    "q": "Will \"The Hunger Games: Sunrise on the Reaping\" score at least 60 on the Rotten Tomatoes T",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6279941",
@@ -9310,7 +9154,7 @@
    "ts": 1795359662,
    "end_ts": 1795446000,
    "q": "Will \"I Play Rocky\" score at least 60 on the Rotten Tomatoes Tomatometer?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6279942",
@@ -9323,7 +9167,7 @@
    "ts": 1795359662,
    "end_ts": 1795446000,
    "q": "Will \"I Play Rocky\" score at least 70 on the Rotten Tomatoes Tomatometer?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6279943",
@@ -9336,7 +9180,7 @@
    "ts": 1795359662,
    "end_ts": 1795446000,
    "q": "Will \"I Play Rocky\" score at least 75 on the Rotten Tomatoes Tomatometer?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6279944",
@@ -9349,7 +9193,7 @@
    "ts": 1795359662,
    "end_ts": 1795446000,
    "q": "Will \"I Play Rocky\" score at least 80 on the Rotten Tomatoes Tomatometer?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6279945",
@@ -9362,7 +9206,7 @@
    "ts": 1795359662,
    "end_ts": 1795446000,
    "q": "Will \"I Play Rocky\" score at least 85 on the Rotten Tomatoes Tomatometer?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6991668",
@@ -9375,7 +9219,7 @@
    "ts": 1795359662,
    "end_ts": 1795446000,
    "q": "Will \"The Hunger Games: Sunrise on the Reaping\" score at least 75 on the Rotten Tomatoes T",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6991671",
@@ -9388,7 +9232,7 @@
    "ts": 1795359662,
    "end_ts": 1795446000,
    "q": "Will \"I Play Rocky\" score at least 83 on the Rotten Tomatoes Tomatometer?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7107427",
@@ -9401,7 +9245,7 @@
    "ts": 1795359662,
    "end_ts": 1795446000,
    "q": "Will \"I Play Rocky\" score at least 88 on the Rotten Tomatoes Tomatometer?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7241889",
@@ -10948,6 +10792,97 @@
    "ts": 1795399261,
    "end_ts": 1795506300,
    "q": "Newcastle United Jets vs. Kashiwa Reysol: O/U 0.5",
+   "touched": null
+  },
+  {
+   "id": "7246833",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "27509044071478321792197910165357333003888483185574220804179818946881835122368",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795402873,
+   "end_ts": 1795410000,
+   "q": "Will Solana reach $75 on November 22?",
+   "touched": null
+  },
+  {
+   "id": "7246846",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "19479958367462602096977816366912280222048788778120825632492447666724156911237",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795402873,
+   "end_ts": 1795410000,
+   "q": "Will XRP dip to $0.85 on November 22?",
+   "touched": null
+  },
+  {
+   "id": "7258086",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "65361316170197705159778826064659638394263180953023820194618903863499606949168",
+   "px": 0.988,
+   "tick": 0.001,
+   "ts": 1795402873,
+   "end_ts": 1795446000,
+   "q": "Will the US national average gas price be less than $3.6200 on November 23?",
+   "touched": null
+  },
+  {
+   "id": "7097136",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "28391656510917990471954001714393700335742554538175566598194928721605841882208",
+   "px": 0.977,
+   "tick": 0.001,
+   "ts": 1795402873,
+   "end_ts": 1795453200,
+   "q": "Will the price of Bitcoin be between $64,000 and $66,000 on November 23?",
+   "touched": null
+  },
+  {
+   "id": "6945140",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "3672706177498264954271603245585050770314297840545273438405556954273981024584",
+   "px": 0.981,
+   "tick": 0.001,
+   "ts": 1795402873,
+   "end_ts": 1795463100,
+   "q": "Spread: USL Dunkerque (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "7259970",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "108114598020958770699643229693562975253047901116068948411876260739150812886814",
+   "px": 0.971,
+   "tick": 0.001,
+   "ts": 1795402873,
+   "end_ts": 1795478400,
+   "q": "Blue Jackets vs. Devils: O/U 2.5",
+   "touched": null
+  },
+  {
+   "id": "7259960",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "82425046507721933306082146004818748221205925219598629160490808297687468643544",
+   "px": 0.971,
+   "tick": 0.001,
+   "ts": 1795402873,
+   "end_ts": 1795480200,
+   "q": "Utah vs. Jets: O/U 2.5",
    "touched": null
   }
  ]
