@@ -2,8 +2,8 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-11T22:05:26Z | dias corridos: 12.2 de 28 | corridas: 272
-- Capital inicial: $1,000.00 | valor actual: $1,030.18 | P&L: $+30.18 (+3.02%)
+- Inicio: 2026-11-11T22:05:26Z | dias corridos: 12.2 de 28 | corridas: 273
+- Capital inicial: $1,000.00 | valor actual: $1,030.20 | P&L: $+30.20 (+3.02%)
 - Efectivo libre: $362.80 | en ordenes abiertas: $512.21 (10) | en posiciones: $154.70 (3)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
 - Ordenes virtuales: 463 colocadas, 111 llenadas, 239 tocadas sin llenarse (sorteo 30%), 103 expiradas
@@ -30,26 +30,26 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 |---|---|---|---|---|---|
 | $51.82 | 98.5c | 98.3c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
 | $51.40 | 96.0c | 96.0c | post_fin_95_97 |  | Will the highest temperature in Austin be between 56-57°F on November 23? |
-| $51.48 | 98.5c | 99.6c | otros_cierre |  | Will the next Meta Muse Spark model be released on November 23, 2026? |
+| $51.48 | 98.5c | 99.7c | otros_cierre |  | Will the next Meta Muse Spark model be released on November 23, 2026? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 4356 | abiertas: 338 | abiertas mas de 7 dias despues de su fecha de fin: 1
+- Resueltas: 4372 | abiertas: 326 | abiertas mas de 7 dias despues de su fecha de fin: 1
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
-| cripto_cierre | todas | 1217 | 98.72c | 99.18% | +0.45 pts | -0.05 a +0.96 | 10 |
-| cripto_cierre | tocadas | 844 | 98.55c | 98.82% | +0.26 pts | -0.47 a +0.99 | 10 |
-| deportes_previo | todas | 2444 | 98.31c | 98.94% | +0.63 pts | +0.23 a +1.03 | 27 |
-| deportes_previo | tocadas | 2081 | 98.28c | 98.89% | +0.61 pts | +0.17 a +1.06 | 24 |
+| cripto_cierre | todas | 1219 | 98.72c | 99.18% | +0.46 pts | -0.05 a +0.96 | 10 |
+| cripto_cierre | tocadas | 846 | 98.55c | 98.82% | +0.27 pts | -0.46 a +1.00 | 10 |
+| deportes_previo | todas | 2458 | 98.30c | 98.86% | +0.56 pts | +0.14 a +0.97 | 29 |
+| deportes_previo | tocadas | 2093 | 98.28c | 98.85% | +0.57 pts | +0.12 a +1.02 | 25 |
 | otros_cierre | todas | 606 | 98.83c | 99.34% | +0.51 pts | -0.14 a +1.16 | 4 |
 | otros_cierre | tocadas | 395 | 98.71c | 98.99% | +0.28 pts | -0.71 a +1.27 | 4 |
 | post_fin_95_97 | todas | 89 | 95.88c | 93.26% | -2.62 pts | -7.86 a +2.62 | 6 |
 | post_fin_95_97 | tocadas | 80 | 95.90c | 92.50% | -3.40 pts | -9.21 a +2.41 | 6 |
-| TOTAL | todas | 4356 | 98.45c | 98.94% | +0.50 pts | +0.20 a +0.80 | 47 |
-| TOTAL | tocadas | 3400 | 98.34c | 98.74% | +0.39 pts | +0.02 a +0.76 | 44 |
+| TOTAL | todas | 4372 | 98.44c | 98.90% | +0.46 pts | +0.15 a +0.76 | 49 |
+| TOTAL | tocadas | 3414 | 98.34c | 98.71% | +0.37 pts | -0.01 a +0.74 | 45 |
 
 Peores casos del registro sombra:
 
