@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 10.6 de 28 | corridas: 236
-- Capital inicial: $1,000.00 | valor actual: $923.99 | P&L: $-76.01 (-7.60%)
-- Efectivo libre: $3.59 | en ordenes abiertas: $200.71 (3) | en posiciones: $732.78 (9)
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 10.6 de 28 | corridas: 237
+- Capital inicial: $1,000.00 | valor actual: $925.67 | P&L: $-74.33 (-7.43%)
+- Efectivo libre: $3.26 | en ordenes abiertas: $201.05 (3) | en posiciones: $732.78 (9)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $91.77 en 1 posiciones
-- Ordenes virtuales: 471 colocadas, 216 llenadas, 201 tocadas sin llenarse (sorteo 30%), 51 expiradas
+- Ordenes virtuales: 473 colocadas, 216 llenadas, 203 tocadas sin llenarse (sorteo 30%), 51 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -31,36 +31,36 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
-| $91.77 | 99.8c | 83.0c | otros_cierre | si | Pakistan military action against Afghanistan by November 15, 2026? |
+| $91.77 | 99.8c | 83.8c | otros_cierre | si | Pakistan military action against Afghanistan by November 15, 2026? |
 | $35.36 | 99.8c | 97.4c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $4.5m and $5.5m at auction? |
 | $87.27 | 99.8c | 98.3c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
 | $91.33 | 96.1c | 99.4c | deportes_previo |  | Texas A&M-Corpus Christi Islanders vs. Wichita State Shockers |
 | $91.47 | 95.3c | 98.9c | deportes_previo |  | Spread: Commanders (-14.5) |
 | $91.47 | 99.8c | 99.8c | deportes_previo |  | Drew Sample: 2+ Touchdowns |
-| $61.22 | 99.2c | 97.5c | otros_cierre |  | Will the next Claude Opus model (5.6+) be released on November 23, 2026? |
+| $61.22 | 99.2c | 99.0c | otros_cierre |  | Will the next Claude Opus model (5.6+) be released on November 23, 2026? |
 | $91.44 | 99.8c | 99.5c | cripto_cierre |  | Will Microstrategy announce a Bitcoin purchase November 17-23? |
-| $91.44 | 99.7c | 98.9c | cripto_cierre |  | MicroStrategy announces >1000 BTC purchase November 17-23? |
+| $91.44 | 99.7c | 99.0c | cripto_cierre |  | MicroStrategy announces >1000 BTC purchase November 17-23? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 12425 | abiertas: 2148 | abiertas mas de 7 dias despues de su fecha de fin: 1
+- Resueltas: 12520 | abiertas: 2116 | abiertas mas de 7 dias despues de su fecha de fin: 1
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
-| clima_cierre | todas | 3374 | 98.83c | 98.99% | +0.16 pts | -0.17 a +0.50 | 34 |
-| clima_cierre | tocadas | 3123 | 98.85c | 98.91% | +0.06 pts | -0.30 a +0.42 | 34 |
-| cripto_cierre | todas | 1609 | 98.68c | 98.20% | -0.48 pts | -1.13 a +0.16 | 29 |
-| cripto_cierre | tocadas | 1465 | 98.73c | 98.02% | -0.71 pts | -1.42 a -0.01 | 29 |
-| deportes_previo | todas | 5896 | 98.04c | 97.40% | -0.64 pts | -1.05 a -0.24 | 156 |
-| deportes_previo | tocadas | 5758 | 98.07c | 97.37% | -0.71 pts | -1.12 a -0.30 | 154 |
-| otros_cierre | todas | 1302 | 98.98c | 97.16% | -1.82 pts | -2.72 a -0.93 | 37 |
-| otros_cierre | tocadas | 1216 | 98.95c | 96.96% | -1.99 pts | -2.95 a -1.03 | 37 |
+| clima_cierre | todas | 3387 | 98.83c | 99.00% | +0.17 pts | -0.16 a +0.50 | 34 |
+| clima_cierre | tocadas | 3136 | 98.85c | 98.92% | +0.07 pts | -0.29 a +0.43 | 34 |
+| cripto_cierre | todas | 1611 | 98.68c | 98.20% | -0.48 pts | -1.12 a +0.16 | 29 |
+| cripto_cierre | tocadas | 1467 | 98.73c | 98.02% | -0.71 pts | -1.41 a -0.00 | 29 |
+| deportes_previo | todas | 5968 | 98.04c | 97.43% | -0.61 pts | -1.01 a -0.21 | 156 |
+| deportes_previo | tocadas | 5829 | 98.07c | 97.40% | -0.67 pts | -1.08 a -0.27 | 154 |
+| otros_cierre | todas | 1310 | 98.97c | 97.18% | -1.80 pts | -2.69 a -0.91 | 37 |
+| otros_cierre | tocadas | 1222 | 98.94c | 96.97% | -1.96 pts | -2.92 a -1.01 | 37 |
 | post_fin_90_97 | todas | 244 | 94.01c | 93.44% | -0.57 pts | -3.64 a +2.51 | 16 |
 | post_fin_90_97 | tocadas | 207 | 94.13c | 92.27% | -1.86 pts | -5.46 a +1.73 | 16 |
-| TOTAL | todas | 12425 | 98.36c | 97.83% | -0.53 pts | -0.78 a -0.27 | 272 |
-| TOTAL | tocadas | 11769 | 98.38c | 97.73% | -0.66 pts | -0.92 a -0.39 | 270 |
+| TOTAL | todas | 12520 | 98.35c | 97.85% | -0.51 pts | -0.76 a -0.25 | 272 |
+| TOTAL | tocadas | 11861 | 98.38c | 97.74% | -0.63 pts | -0.90 a -0.37 | 270 |
 
 Peores casos del registro sombra:
 
