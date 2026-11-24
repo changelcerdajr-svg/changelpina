@@ -1,6 +1,6 @@
 {
  "capital0": 1000.0,
- "cash": 415.3133,
+ "cash": 415.0997,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
   {
@@ -88,27 +88,6 @@
    "liq": 29490
   },
   {
-   "oid": "7245857-1795478475",
-   "id": "7245857",
-   "q": "Spread: FC Pohang Steelers (-2.5)",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1440420",
-   "side": 1,
-   "token": "47659797196664861621665024375916793755454951076281331697347003760199173159406",
-   "px": 0.986,
-   "tick": 0.001,
-   "mid": 0.986,
-   "bid": 0.98,
-   "ask": 0.992,
-   "shares": 52.2111,
-   "cost": 51.4802,
-   "ts": 1795478475.001499,
-   "end_ts": 1795514400.0,
-   "hours": 9.98,
-   "liq": 1137
-  },
-  {
    "oid": "7279418-1795492866",
    "id": "7279418",
    "q": "Will Bitcoin dip to $59,000 on November 23?",
@@ -172,27 +151,6 @@
    "liq": 2996
   },
   {
-   "oid": "6618181-1795507270",
-   "id": "6618181",
-   "q": "Will Brazil win Miss Universe 2026?",
-   "cat": "otros",
-   "rule": "otros_cierre",
-   "event": "1305123",
-   "side": 1,
-   "token": "58226271878401535512606534394992945337662572898324126762992855304249846760817",
-   "px": 0.993,
-   "tick": 0.001,
-   "mid": 0.993,
-   "bid": 0.991,
-   "ask": 0.995,
-   "shares": 52.0582,
-   "cost": 51.6938,
-   "ts": 1795507270.357229,
-   "end_ts": 1795582740.0,
-   "hours": 20.96,
-   "liq": 5451
-  },
-  {
    "oid": "6618182-1795507270",
    "id": "6618182",
    "q": "Will Cambodia win Miss Universe 2026?",
@@ -212,6 +170,48 @@
    "end_ts": 1795582740.0,
    "hours": 20.96,
    "liq": 5511
+  },
+  {
+   "oid": "7245713-1795510868",
+   "id": "7245713",
+   "q": "Spread: Al Qadsiah (-3.5)",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1440409",
+   "side": 1,
+   "token": "75955789609369724308740751619397527422034364921809746805020650879545583940472",
+   "px": 0.977,
+   "tick": 0.001,
+   "mid": 0.9775,
+   "bid": 0.97,
+   "ask": 0.985,
+   "shares": 52.9108,
+   "cost": 51.6938,
+   "ts": 1795510868.35251,
+   "end_ts": 1795536000.0,
+   "hours": 6.98,
+   "liq": 4425
+  },
+  {
+   "oid": "6618179-1795510868",
+   "id": "6618179",
+   "q": "Will Australia win Miss Universe 2026?",
+   "cat": "otros",
+   "rule": "otros_cierre",
+   "event": "1305123",
+   "side": 1,
+   "token": "55216798932375869901423563250198919530183006746763709292783305252045226649325",
+   "px": 0.998,
+   "tick": 0.001,
+   "mid": 0.9985,
+   "bid": 0.998,
+   "ask": 0.999,
+   "shares": 51.7974,
+   "cost": 51.6938,
+   "ts": 1795510868.35251,
+   "end_ts": 1795582740.0,
+   "hours": 19.96,
+   "liq": 4876
   }
  ],
  "positions": [
@@ -7153,14 +7153,27 @@
    "placed": 3,
    "shadow_open": 382,
    "shadow_closed": 15
+  },
+  {
+   "ts": "2026-11-24T09:01:50Z",
+   "equity": 1033.88,
+   "cash": 415.1,
+   "orders": 10,
+   "positions": 2,
+   "closed": 110,
+   "scanned": 9779,
+   "candidates": 215,
+   "placed": 2,
+   "shadow_open": 388,
+   "shadow_closed": 7
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 469,
+  "placed": 471,
   "filled": 112,
   "expired": 105,
-  "touched_not_filled": 242
+  "touched_not_filled": 244
  },
  "shadow": [
   {
@@ -7240,58 +7253,6 @@
    "end_ts": 1795258800,
    "q": "FK Kryvbas Kryvyi Rih vs. FK Kudrivka: O/U 6.5",
    "touched": 1
-  },
-  {
-   "id": "7023029",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "81936143954882841995585617797884041466854695974942642912847455127795550888654",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795323667,
-   "end_ts": 1795409940,
-   "q": "Will there be 1 earthquake of 6.5 or above magnitude worldwide?",
-   "touched": 0
-  },
-  {
-   "id": "7023030",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "39059687388441141870441844187775310743638937597952832868935971723886327644971",
-   "px": 0.996,
-   "tick": 0.001,
-   "ts": 1795323667,
-   "end_ts": 1795409940,
-   "q": "Will there be 2 earthquakes of 6.5 or above magnitude worldwide?",
-   "touched": 0
-  },
-  {
-   "id": "7023033",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "70906827907380665926893700686084240649630455386618312730295210884004733129957",
-   "px": 0.987,
-   "tick": 0.001,
-   "ts": 1795323667,
-   "end_ts": 1795409940,
-   "q": "Will there be 5 earthquakes of 6.5 or above magnitude worldwide?",
-   "touched": 1
-  },
-  {
-   "id": "7023034",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "25754190108678950665431336986041549034097349447244059410999915441851408985212",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1795323667,
-   "end_ts": 1795409940,
-   "q": "Will there be more than 5 earthquakes of 6.5 or above magnitude worldwide?",
-   "touched": 0
   },
   {
    "id": "7023051",
@@ -7383,19 +7344,6 @@
    "end_ts": 1795506300,
    "q": "Spread: Newcastle United Jets (-2.5)",
    "touched": 0
-  },
-  {
-   "id": "7254941",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "38235980959669266770305780322108832880089545237328574112652975061291931413282",
-   "px": 0.972,
-   "tick": 0.001,
-   "ts": 1795424474,
-   "end_ts": 1795496340,
-   "q": "Will TheBurntPeanut finish GTA VI by November 23?",
-   "touched": 1
   },
   {
    "id": "7249257",
@@ -9413,19 +9361,6 @@
    "touched": 0
   },
   {
-   "id": "7086710",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 0,
-   "token": "38328737181386222127196507077415367230421347000317954133899684574586259192891",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795464065,
-   "end_ts": 1795496400,
-   "q": "Will Microstrategy announce a Bitcoin purchase November 17-23?",
-   "touched": 0
-  },
-  {
    "id": "7121575",
    "rule": "cripto_cierre",
    "cat": "cripto",
@@ -9478,19 +9413,6 @@
    "touched": 0
   },
   {
-   "id": "7196057",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 0,
-   "token": "10613985113495004304274735094957519960319058718701352513241856430136602764943",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1795465036,
-   "end_ts": 1795467600,
-   "q": "Will Google (GOOGL) close above $265 on November 23?",
-   "touched": null
-  },
-  {
    "id": "7121588",
    "rule": "cripto_cierre",
    "cat": "cripto",
@@ -9501,7 +9423,7 @@
    "ts": 1795465036,
    "end_ts": 1795539600,
    "q": "Will the price of Solana be above $55 on November 24?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "4750581",
@@ -9514,7 +9436,7 @@
    "ts": 1795465036,
    "end_ts": 1795549500,
    "q": "Bromley FC vs. Wycombe Wanderers FC: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6960076",
@@ -9527,7 +9449,7 @@
    "ts": 1795465036,
    "end_ts": 1795549500,
    "q": "Middlesbrough FC vs. Swansea City AFC: O/U 8.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6962430",
@@ -12127,6 +12049,175 @@
    "ts": 1795507270,
    "end_ts": 1795582740,
    "q": "Will Cuba win Miss Universe 2026?",
+   "touched": null
+  },
+  {
+   "id": "7289493",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "58078937460057939628156721210875292294256628268994361265020818041325386963701",
+   "px": 0.984,
+   "tick": 0.001,
+   "ts": 1795510868,
+   "end_ts": 1795536000,
+   "q": "Al-Seeb vs. Al Shorta SC: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "6959919",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "44911377237780168269219992672231572152662986450488840044023883895462241749440",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795510868,
+   "end_ts": 1795550400,
+   "q": "Wolverhampton Wanderers FC vs. Derby County FC: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "7016114",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "60200850936768674532708749946432920127061452769355165725030894658167897807619",
+   "px": 0.981,
+   "tick": 0.001,
+   "ts": 1795510868,
+   "end_ts": 1795572000,
+   "q": "Virginia Cavaliers vs. UAB Blazers (W)",
+   "touched": null
+  },
+  {
+   "id": "7147751",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "97870803652316626147965108835058955950714283972957595224835005144515039483284",
+   "px": 0.979,
+   "tick": 0.001,
+   "ts": 1795510868,
+   "end_ts": 1795582740,
+   "q": "Will Alanzoka finish GTA VI by November 24?",
+   "touched": null
+  },
+  {
+   "id": "7301879",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "86433755976158590958853617529674415165680225175259315770288046606164149836084",
+   "px": 0.978,
+   "tick": 0.001,
+   "ts": 1795510868,
+   "end_ts": 1795582800,
+   "q": "Will Bitcoin reach $64,000 on November 24?",
+   "touched": null
+  },
+  {
+   "id": "7301895",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "40087818614231293104989565993109092884370627770879795867863288114195359984665",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795510868,
+   "end_ts": 1795582800,
+   "q": "Will Bitcoin dip to $60,000 on November 24?",
+   "touched": null
+  },
+  {
+   "id": "7301965",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "28874883295452010601093916227836311367200749222260545816932468794995818327010",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795510868,
+   "end_ts": 1795582800,
+   "q": "Will Ethereum reach $2,000 on November 24?",
+   "touched": null
+  },
+  {
+   "id": "7302058",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "14877653930093418133081438895649738468572190570557489975842840256430151312047",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795510868,
+   "end_ts": 1795582800,
+   "q": "Will Ethereum dip to $1,350 on November 24?",
+   "touched": null
+  },
+  {
+   "id": "7302096",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "70649673463852063013634088418965318766526596576370721117811753271995657825767",
+   "px": 0.996,
+   "tick": 0.001,
+   "ts": 1795510868,
+   "end_ts": 1795582800,
+   "q": "Will Solana reach $95 on November 24?",
+   "touched": null
+  },
+  {
+   "id": "7302101",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "75448108747210080798991313671423592750346787510615013241955404985396230738200",
+   "px": 0.996,
+   "tick": 0.001,
+   "ts": 1795510868,
+   "end_ts": 1795582800,
+   "q": "Will Solana reach $90 on November 24?",
+   "touched": null
+  },
+  {
+   "id": "7302107",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "8541864842599216887852283739175638006222341834965518856233864208909348235776",
+   "px": 0.986,
+   "tick": 0.001,
+   "ts": 1795510868,
+   "end_ts": 1795582800,
+   "q": "Will Solana reach $85 on November 24?",
+   "touched": null
+  },
+  {
+   "id": "7302134",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "79164648890656826457125815596514396459034665251732286090553367408028805066533",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1795510868,
+   "end_ts": 1795582800,
+   "q": "Will Solana dip to $55 on November 24?",
+   "touched": null
+  },
+  {
+   "id": "7302137",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "23484531553776909427051825832028846306000283415966792113449013115284902172224",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795510868,
+   "end_ts": 1795582800,
+   "q": "Will Solana dip to $50 on November 24?",
    "touched": null
   }
  ]
