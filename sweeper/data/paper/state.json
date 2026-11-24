@@ -1,6 +1,6 @@
 {
  "capital0": 1000.0,
- "cash": 362.8733,
+ "cash": 362.7958,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
   {
@@ -46,27 +46,6 @@
    "liq": 2966
   },
   {
-   "oid": "7242899-1795456866",
-   "id": "7242899",
-   "q": "Spread: Boca Juniors de Cali (-2.5)",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1439806",
-   "side": 1,
-   "token": "29889860059826970769798926560657936948523694213587981389445484554245270773539",
-   "px": 0.972,
-   "tick": 0.001,
-   "mid": 0.9725,
-   "bid": 0.965,
-   "ask": 0.98,
-   "shares": 52.8833,
-   "cost": 51.4026,
-   "ts": 1795456866.832403,
-   "end_ts": 1795480200.0,
-   "hours": 6.48,
-   "liq": 1359
-  },
-  {
    "oid": "6364958-1795467673",
    "id": "6364958",
    "q": "Will the next Grok model (4.8+) be released on November 23, 2026?",
@@ -107,27 +86,6 @@
    "end_ts": 1795506300.0,
    "hours": 10.73,
    "liq": 1101
-  },
-  {
-   "oid": "6655557-1795471264",
-   "id": "6655557",
-   "q": "Will the next Meta Muse Spark model be released on November 23, 2026?",
-   "cat": "otros",
-   "rule": "otros_cierre",
-   "event": "1310057",
-   "side": 1,
-   "token": "37397845141190072962993450139187234465446848955643270683227551266659277693829",
-   "px": 0.985,
-   "tick": 0.001,
-   "mid": 0.985,
-   "bid": 0.974,
-   "ask": 0.996,
-   "shares": 52.2641,
-   "cost": 51.4802,
-   "ts": 1795471264.09375,
-   "end_ts": 1795496340.0,
-   "hours": 6.97,
-   "liq": 2621
   },
   {
    "oid": "7086710-1795471264",
@@ -233,6 +191,27 @@
    "end_ts": 1795514400.0,
    "hours": 9.98,
    "liq": 1137
+  },
+  {
+   "oid": "7245870-1795482062",
+   "id": "7245870",
+   "q": "Kyoto Sanga FC vs. FC Pohang Steelers: O/U 6.5",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1440420",
+   "side": 1,
+   "token": "25022383995476195359122505578747345384487830198383721761575182094483734106321",
+   "px": 0.98,
+   "tick": 0.001,
+   "mid": 0.9805,
+   "bid": 0.974,
+   "ask": 0.987,
+   "shares": 52.5307,
+   "cost": 51.4801,
+   "ts": 1795482062.092334,
+   "end_ts": 1795514400.0,
+   "hours": 8.98,
+   "liq": 1882
   }
  ],
  "positions": [
@@ -285,6 +264,29 @@
    "mark": 0.96,
    "stuck": false,
    "disputed": false
+  },
+  {
+   "oid": "6655557-1795471264",
+   "id": "6655557",
+   "q": "Will the next Meta Muse Spark model be released on November 23, 2026?",
+   "cat": "otros",
+   "rule": "otros_cierre",
+   "event": "1310057",
+   "side": 1,
+   "token": "37397845141190072962993450139187234465446848955643270683227551266659277693829",
+   "px": 0.985,
+   "tick": 0.001,
+   "mid": 0.985,
+   "bid": 0.974,
+   "ask": 0.996,
+   "shares": 52.2641,
+   "cost": 51.4802,
+   "ts": 1795471264.09375,
+   "end_ts": 1795496340.0,
+   "hours": 6.97,
+   "liq": 2621,
+   "fill_ts": 1795482062.092334,
+   "mark": 0.985
   }
  ],
  "closed": [
@@ -6997,14 +6999,27 @@
    "placed": 1,
    "shadow_open": 344,
    "shadow_closed": 25
+  },
+  {
+   "ts": "2026-11-24T01:01:39Z",
+   "equity": 1029.6,
+   "cash": 362.8,
+   "orders": 10,
+   "positions": 3,
+   "closed": 108,
+   "scanned": 9841,
+   "candidates": 137,
+   "placed": 1,
+   "shadow_open": 339,
+   "shadow_closed": 8
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 462,
-  "filled": 110,
+  "placed": 463,
+  "filled": 111,
   "expired": 103,
-  "touched_not_filled": 238
+  "touched_not_filled": 239
  },
  "shadow": [
   {
@@ -7294,19 +7309,6 @@
    "touched": 1
   },
   {
-   "id": "7104596",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "108375331521564487143365721880618080727528253642217237555234792710985107233287",
-   "px": 0.981,
-   "tick": 0.001,
-   "ts": 1795390710,
-   "end_ts": 1795467600,
-   "q": "Spread: Sportivo San Lorenzo (-2.5)",
-   "touched": 0
-  },
-  {
    "id": "6998539",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -7411,19 +7413,6 @@
    "touched": 1
   },
   {
-   "id": "7259970",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "108114598020958770699643229693562975253047901116068948411876260739150812886814",
-   "px": 0.971,
-   "tick": 0.001,
-   "ts": 1795402873,
-   "end_ts": 1795478400,
-   "q": "Blue Jackets vs. Devils: O/U 2.5",
-   "touched": 1
-  },
-  {
    "id": "7259960",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -7489,45 +7478,6 @@
    "touched": 1
   },
   {
-   "id": "6930825",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "19286898706021454958482348350045715126908354547301016068308077985202111950507",
-   "px": 0.974,
-   "tick": 0.001,
-   "ts": 1795410068,
-   "end_ts": 1795460400,
-   "q": "Spread: Club Guabirá (-2.5)",
-   "touched": 1
-  },
-  {
-   "id": "6930833",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "96858662584193415530980153444026345464170339422029490239327420330210220562325",
-   "px": 0.974,
-   "tick": 0.001,
-   "ts": 1795410068,
-   "end_ts": 1795460400,
-   "q": "CDT Real Oruro vs. Club Guabirá: O/U 0.5",
-   "touched": 1
-  },
-  {
-   "id": "6930850",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "39942907821100377915117598667837230654995254083856939441677899601389522617398",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1795410068,
-   "end_ts": 1795460400,
-   "q": "CDT Real Oruro vs. Club Guabirá: O/U 7.5",
-   "touched": 1
-  },
-  {
    "id": "6962258",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -7551,32 +7501,6 @@
    "ts": 1795410068,
    "end_ts": 1795468500,
    "q": "Spread: GV CD San José (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "7104598",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "37479032003644644720147183310752648214421590498791854338215907814634215089924",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795410068,
-   "end_ts": 1795467600,
-   "q": "Spread: Sportivo San Lorenzo (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "7104609",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "23258861604530863346297674315102384730788885815151116676692067438722136791044",
-   "px": 0.978,
-   "tick": 0.001,
-   "ts": 1795410068,
-   "end_ts": 1795467600,
-   "q": "CS 2 de Mayo vs. Sportivo San Lorenzo: O/U 6.5",
    "touched": 1
   },
   {
@@ -8423,19 +8347,6 @@
    "end_ts": 1795522500,
    "q": "Spread: Ratchaburi FC (-2.5)",
    "touched": 0
-  },
-  {
-   "id": "6930851",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "77069328596353941039681888050066943144678230471614374956650262230829992831555",
-   "px": 0.987,
-   "tick": 0.001,
-   "ts": 1795435270,
-   "end_ts": 1795460400,
-   "q": "CDT Real Oruro vs. Club Guabirá: O/U 8.5",
-   "touched": 1
   },
   {
    "id": "6998536",
@@ -11477,6 +11388,45 @@
    "ts": 1795478475,
    "end_ts": 1795562400,
    "q": "Millonarios FC vs. CA Bucaramanga: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "7279418",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "101824184829701843325082468180285694391932276129550541058809287882207699692510",
+   "px": 0.982,
+   "tick": 0.001,
+   "ts": 1795482062,
+   "end_ts": 1795496400,
+   "q": "Will Bitcoin dip to $59,000 on November 23?",
+   "touched": null
+  },
+  {
+   "id": "6974031",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "47513878829265315185165449238603920573170306882092556433695651927708023807922",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795482062,
+   "end_ts": 1795546800,
+   "q": "L.R. Vicenza vs. Carrarese Calcio: O/U 8.5",
+   "touched": null
+  },
+  {
+   "id": "7121586",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "55792145890360481230090908478541086132961770606052584799302270487832618293935",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795482062,
+   "end_ts": 1795539600,
+   "q": "Will the price of Solana be above $50 on November 24?",
    "touched": null
   }
  ]
