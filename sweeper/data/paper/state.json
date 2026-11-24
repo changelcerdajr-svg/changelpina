@@ -1,6 +1,6 @@
 {
  "capital0": 1000.0,
- "cash": 413.8555,
+ "cash": 413.8616,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
   {
@@ -130,25 +130,25 @@
    "liq": 2098
   },
   {
-   "oid": "6986634-1795528868",
-   "id": "6986634",
-   "q": "Spread: Associação Chapecoense de Futebol (-3.5)",
+   "oid": "6998646-1795532469",
+   "id": "6998646",
+   "q": "Sacred Heart Pioneers vs. Rutgers Scarlet Knights",
    "cat": "deportes",
    "rule": "deportes_previo",
-   "event": "1371625",
+   "event": "1374786",
    "side": 1,
-   "token": "102564477298695943278974762915003712993510732726078490474409670804977842826091",
-   "px": 0.988,
+   "token": "91153783150772277210967673279872044355731855444279218562015134849635807618577",
+   "px": 0.977,
    "tick": 0.001,
-   "mid": 0.9885,
-   "bid": 0.985,
-   "ask": 0.992,
-   "shares": 52.3125,
-   "cost": 51.6847,
-   "ts": 1795528868.90221,
-   "end_ts": 1795554000.0,
-   "hours": 6.98,
-   "liq": 12060
+   "mid": 0.977,
+   "bid": 0.97,
+   "ask": 0.984,
+   "shares": 52.8952,
+   "cost": 51.6786,
+   "ts": 1795532469.730013,
+   "end_ts": 1795561200.0,
+   "hours": 7.98,
+   "liq": 3427
   }
  ],
  "positions": [
@@ -223,7 +223,7 @@
    "hours": 5.98,
    "liq": 30648,
    "fill_ts": 1795521669.100406,
-   "mark": 0.99,
+   "mark": 0.9955,
    "stuck": false,
    "disputed": false
   },
@@ -248,7 +248,9 @@
    "hours": 7.73,
    "liq": 9253,
    "fill_ts": 1795528868.90221,
-   "mark": 0.983
+   "mark": 0.9845,
+   "stuck": false,
+   "disputed": false
   },
   {
    "oid": "4520698-1795525269",
@@ -271,7 +273,9 @@
    "hours": 6.73,
    "liq": 2624,
    "fill_ts": 1795528868.90221,
-   "mark": 0.977
+   "mark": 0.9695,
+   "stuck": false,
+   "disputed": false
   }
  ],
  "closed": [
@@ -7269,14 +7273,27 @@
    "placed": 2,
    "shadow_open": 448,
    "shadow_closed": 6
+  },
+  {
+   "ts": "2026-11-24T15:02:17Z",
+   "equity": 1033.87,
+   "cash": 413.86,
+   "orders": 7,
+   "positions": 5,
+   "closed": 111,
+   "scanned": 12035,
+   "candidates": 185,
+   "placed": 1,
+   "shadow_open": 462,
+   "shadow_closed": 0
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 484,
+  "placed": 485,
   "filled": 116,
   "expired": 109,
-  "touched_not_filled": 252
+  "touched_not_filled": 253
  },
  "shadow": [
   {
@@ -9734,7 +9751,7 @@
    "ts": 1795489267,
    "end_ts": 1795539600,
    "q": "Will the price of Bitcoin be between $64,000 and $66,000 on November 24?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7121573",
@@ -9747,7 +9764,7 @@
    "ts": 1795489267,
    "end_ts": 1795539600,
    "q": "Will the price of Bitcoin be above $64,000 on November 24?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7245725",
@@ -9760,7 +9777,7 @@
    "ts": 1795489267,
    "end_ts": 1795536000,
    "q": "Shabab Al Ahli Dubai vs. Al Qadsiah: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7287476",
@@ -9773,7 +9790,7 @@
    "ts": 1795489267,
    "end_ts": 1795568400,
    "q": "Golden Knights vs. Oilers: O/U 2.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6962518",
@@ -13101,6 +13118,188 @@
    "ts": 1795528868,
    "end_ts": 1795629600,
    "q": "US Cremonese vs. US Avellino 1912: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "7121567",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "78646907758874136828831208064938784348397033501811480700478158971534547474778",
+   "px": 0.971,
+   "tick": 0.001,
+   "ts": 1795532469,
+   "end_ts": 1795539600,
+   "q": "Will the price of Bitcoin be above $58,000 on November 24?",
+   "touched": null
+  },
+  {
+   "id": "7260680",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "110201228071147093432427668362657789405049607597569116931842031992677304735330",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795532469,
+   "end_ts": 1795539600,
+   "q": "Ethereum Up or Down on November 24?",
+   "touched": null
+  },
+  {
+   "id": "6998639",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "72338893645683741588065703542090079214678300587822598647032021368130164440320",
+   "px": 0.99,
+   "tick": 0.001,
+   "ts": 1795532469,
+   "end_ts": 1795564800,
+   "q": "Coppin State Eagles vs. Villanova Wildcats",
+   "touched": null
+  },
+  {
+   "id": "6985674",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "39165398765112557546032721938863754547013349831371563908201214799481592288118",
+   "px": 0.972,
+   "tick": 0.001,
+   "ts": 1795532469,
+   "end_ts": 1795635900,
+   "q": "Bolton Wanderers FC vs. West Bromwich Albion FC: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "6985675",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "54924460315952452097698899473161512006295739414750146587485002105166358429380",
+   "px": 0.988,
+   "tick": 0.001,
+   "ts": 1795532469,
+   "end_ts": 1795635900,
+   "q": "Bolton Wanderers FC vs. West Bromwich Albion FC: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6985720",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "56111759859469380032918610943655947884393571752508114266608254063161324555232",
+   "px": 0.974,
+   "tick": 0.001,
+   "ts": 1795532469,
+   "end_ts": 1795635900,
+   "q": "Burnley FC vs. Birmingham City FC: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "6985721",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "76857161136151677055633367688358591254765590919865710637571109924713873144854",
+   "px": 0.99,
+   "tick": 0.001,
+   "ts": 1795532469,
+   "end_ts": 1795635900,
+   "q": "Burnley FC vs. Birmingham City FC: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6985766",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "37480440653326049510053664032887174303075209106357861359928712691147951749197",
+   "px": 0.977,
+   "tick": 0.001,
+   "ts": 1795532469,
+   "end_ts": 1795635900,
+   "q": "Watford FC vs. Blackburn Rovers FC: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "6985767",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "8261785533400869921929483248574766473321219507374835366244062754842287373715",
+   "px": 0.992,
+   "tick": 0.001,
+   "ts": 1795532469,
+   "end_ts": 1795635900,
+   "q": "Watford FC vs. Blackburn Rovers FC: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6993595",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "106519508236626338786318440739734207453444609195806133337396024232175592252778",
+   "px": 0.986,
+   "tick": 0.001,
+   "ts": 1795532469,
+   "end_ts": 1795636800,
+   "q": "Paris Saint-Germain FC vs. AS Roma: O/U 8.5",
+   "touched": null
+  },
+  {
+   "id": "7240294",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "103576100487600522473513317405126826276974443552546038299493709758801221751179",
+   "px": 0.975,
+   "tick": 0.001,
+   "ts": 1795532469,
+   "end_ts": 1795633200,
+   "q": "Pisa SC vs. Modena FC 2018: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "7240295",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "23319190612365304679742099866132948093507450804621642341310378823085283628353",
+   "px": 0.991,
+   "tick": 0.001,
+   "ts": 1795532469,
+   "end_ts": 1795633200,
+   "q": "Pisa SC vs. Modena FC 2018: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "7240368",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "62769704005833800937138519111565608051970822122339858078228545284926491977351",
+   "px": 0.974,
+   "tick": 0.001,
+   "ts": 1795532469,
+   "end_ts": 1795633200,
+   "q": "Mantova 1911 vs. SS Arezzo: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "7240369",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "50695643253805338842605276765491995326060659574561422656117493280952331632643",
+   "px": 0.991,
+   "tick": 0.001,
+   "ts": 1795532469,
+   "end_ts": 1795633200,
+   "q": "Mantova 1911 vs. SS Arezzo: O/U 7.5",
    "touched": null
   }
  ]

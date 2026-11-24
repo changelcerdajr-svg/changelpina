@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 11.0 de 28 | corridas: 248
-- Capital inicial: $1,000.00 | valor actual: $927.24 | P&L: $-72.76 (-7.28%)
-- Efectivo libre: $4.89 | en ordenes abiertas: $95.01 (2) | en posiciones: $851.90 (12)
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 11.1 de 28 | corridas: 249
+- Capital inicial: $1,000.00 | valor actual: $932.35 | P&L: $-67.65 (-6.77%)
+- Efectivo libre: $0.00 | en ordenes abiertas: $165.03 (3) | en posiciones: $787.03 (11)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $91.77 en 1 posiciones
-- Ordenes virtuales: 492 colocadas, 231 llenadas, 208 tocadas sin llenarse (sorteo 30%), 51 expiradas
+- Ordenes virtuales: 493 colocadas, 231 llenadas, 208 tocadas sin llenarse (sorteo 30%), 51 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -15,9 +15,9 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 | clima_cierre | 5 | 98.28c | 100.00% | 56.6-100.0% | +1.72 pts | $+7.94 | 0.97 |
 | cripto_cierre | 64 | 98.85c | 100.00% | 94.3-100.0% | +1.15 pts | $+50.74 | 0.18 |
 | deportes_previo | 109 | 98.00c | 96.62% | 92.2-99.1% | -1.38 pts | $-121.73 | 0.26 |
-| otros_cierre | 38 | 99.65c | 100.00% | 90.8-100.0% | +0.35 pts | $+9.19 | 0.35 |
+| otros_cierre | 39 | 99.65c | 100.00% | 91.0-100.0% | +0.35 pts | $+9.45 | 0.34 |
 | post_fin_90_97 | 3 | 95.67c | 100.00% | 43.8-100.0% | +4.33 pts | $+5.65 | 0.68 |
-| TOTAL | 219 | 98.48c | 98.20% | 96.1-99.5% | -0.28 pts | $-48.20 | 0.27 |
+| TOTAL | 220 | 98.49c | 98.21% | 96.1-99.5% | -0.28 pts | $-47.94 | 0.27 |
 
 ## Peores casos
 
@@ -31,24 +31,23 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
-| $91.77 | 99.8c | 87.2c | otros_cierre | si | Pakistan military action against Afghanistan by November 15, 2026? |
+| $91.77 | 99.8c | 88.5c | otros_cierre | si | Pakistan military action against Afghanistan by November 15, 2026? |
 | $35.36 | 99.8c | 97.4c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $4.5m and $5.5m at auction? |
 | $87.27 | 99.8c | 98.3c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
 | $93.01 | 98.8c | 90.5c | deportes_previo |  | Spread: Cong An Ha Noi FC (-2.5) |
 | $72.26 | 98.3c | 99.2c | deportes_previo |  | Cong An Ha Noi FC vs. Vissel Kobe: O/U 6.5 |
 | $93.00 | 98.3c | 98.3c | deportes_previo |  | Spread: SC Delhi (-2.5) |
-| $20.72 | 96.1c | 91.3c | deportes_previo |  | North East United FC vs. SC Delhi: O/U 0.5 |
-| $64.87 | 99.6c | 97.5c | otros_cierre |  | Will DICK'S Sporting Goods Q3 Dick's business comparable sales growth be below 1 |
-| $92.78 | 98.8c | 97.7c | otros_cierre |  | Will the US national average gas price be less than $3.6200 on November 24? |
+| $20.72 | 96.1c | 100.0c | deportes_previo |  | North East United FC vs. SC Delhi: O/U 0.5 |
+| $92.78 | 98.8c | 97.6c | otros_cierre |  | Will the US national average gas price be less than $3.6200 on November 24? |
 | $92.96 | 99.1c | 99.1c | deportes_previo |  | Spread: Abo Qir Semad SC (-2.5) |
-| $93.01 | 99.3c | 99.0c | cripto_cierre |  | Will the price of Bitcoin be between $54,000 and $56,000 on November 24? |
-| $14.87 | 99.6c | 99.9c | cripto_cierre |  | Will the price of Ethereum be above $1,500 on November 24? |
+| $93.01 | 99.3c | 99.6c | cripto_cierre |  | Will the price of Bitcoin be between $54,000 and $56,000 on November 24? |
+| $14.87 | 99.6c | 99.8c | cripto_cierre |  | Will the price of Ethereum be above $1,500 on November 24? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 12913 | abiertas: 2166 | abiertas mas de 7 dias despues de su fecha de fin: 1
+- Resueltas: 12914 | abiertas: 2199 | abiertas mas de 7 dias despues de su fecha de fin: 1
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
@@ -58,12 +57,12 @@ Cada mercado que cumple una regla se anota una vez al precio limite que se habri
 | cripto_cierre | tocadas | 1517 | 98.72c | 98.02% | -0.70 pts | -1.39 a -0.00 | 30 |
 | deportes_previo | todas | 6168 | 98.04c | 97.45% | -0.60 pts | -0.99 a -0.21 | 160 |
 | deportes_previo | tocadas | 6027 | 98.08c | 97.42% | -0.66 pts | -1.05 a -0.26 | 158 |
-| otros_cierre | todas | 1331 | 98.96c | 97.15% | -1.81 pts | -2.70 a -0.93 | 38 |
-| otros_cierre | tocadas | 1242 | 98.92c | 96.94% | -1.98 pts | -2.93 a -1.03 | 38 |
+| otros_cierre | todas | 1332 | 98.96c | 97.15% | -1.81 pts | -2.70 a -0.92 | 38 |
+| otros_cierre | tocadas | 1243 | 98.92c | 96.94% | -1.98 pts | -2.93 a -1.03 | 38 |
 | post_fin_90_97 | todas | 244 | 94.01c | 93.44% | -0.57 pts | -3.64 a +2.51 | 16 |
 | post_fin_90_97 | tocadas | 207 | 94.13c | 92.27% | -1.86 pts | -5.46 a +1.73 | 16 |
-| TOTAL | todas | 12913 | 98.35c | 97.84% | -0.52 pts | -0.77 a -0.27 | 282 |
-| TOTAL | tocadas | 12242 | 98.38c | 97.73% | -0.65 pts | -0.91 a -0.39 | 280 |
+| TOTAL | todas | 12914 | 98.35c | 97.84% | -0.52 pts | -0.77 a -0.27 | 282 |
+| TOTAL | tocadas | 12243 | 98.38c | 97.73% | -0.65 pts | -0.91 a -0.38 | 280 |
 
 Peores casos del registro sombra:
 
@@ -80,4 +79,4 @@ Peores casos del registro sombra:
 
 ## Veredicto
 
-Aun no hay veredicto: van 219 operaciones cerradas en 11.0 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
+Aun no hay veredicto: van 220 operaciones cerradas en 11.1 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
