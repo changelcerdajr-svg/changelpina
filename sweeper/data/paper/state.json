@@ -1,6 +1,6 @@
 {
  "capital0": 1000.0,
- "cash": 414.0417,
+ "cash": 413.845,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
   {
@@ -23,27 +23,6 @@
    "end_ts": 1795496400.0,
    "hours": 0.98,
    "liq": 21086
-  },
-  {
-   "oid": "7245756-1795492866",
-   "id": "7245756",
-   "q": "Spread: Cong An Ha Noi FC (-2.5)",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1440410",
-   "side": 1,
-   "token": "102188264196725264918118243076867928867554529366712749117724939760535806781896",
-   "px": 0.972,
-   "tick": 0.001,
-   "mid": 0.9725,
-   "bid": 0.965,
-   "ask": 0.98,
-   "shares": 52.9927,
-   "cost": 51.5089,
-   "ts": 1795492866.778485,
-   "end_ts": 1795522500.0,
-   "hours": 8.23,
-   "liq": 1517
   },
   {
    "oid": "6618182-1795507270",
@@ -191,6 +170,27 @@
    "end_ts": 1795549500.0,
    "hours": 7.73,
    "liq": 9253
+  },
+  {
+   "oid": "4520698-1795525269",
+   "id": "4520698",
+   "q": "Spread: Northampton Town FC (-2.5)",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1015994",
+   "side": 1,
+   "token": "82189303596255987025656956891673167545148575384190411698906577047935342895215",
+   "px": 0.977,
+   "tick": 0.001,
+   "mid": 0.977,
+   "bid": 0.97,
+   "ask": 0.984,
+   "shares": 52.9228,
+   "cost": 51.7056,
+   "ts": 1795525269.974909,
+   "end_ts": 1795549500.0,
+   "hours": 6.73,
+   "liq": 2624
   }
  ],
  "positions": [
@@ -240,7 +240,9 @@
    "hours": 6.98,
    "liq": 21048,
    "fill_ts": 1795521669.100406,
-   "mark": 0.998
+   "mark": 0.998,
+   "stuck": false,
+   "disputed": false
   },
   {
    "oid": "7121510-1795518068",
@@ -263,7 +265,9 @@
    "hours": 5.98,
    "liq": 30648,
    "fill_ts": 1795521669.100406,
-   "mark": 0.99
+   "mark": 0.994,
+   "stuck": false,
+   "disputed": false
   }
  ],
  "closed": [
@@ -7235,14 +7239,27 @@
    "placed": 5,
    "shadow_open": 410,
    "shadow_closed": 4
+  },
+  {
+   "ts": "2026-11-24T13:02:12Z",
+   "equity": 1034.11,
+   "cash": 413.85,
+   "orders": 9,
+   "positions": 3,
+   "closed": 111,
+   "scanned": 11291,
+   "candidates": 212,
+   "placed": 1,
+   "shadow_open": 414,
+   "shadow_closed": 2
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 481,
+  "placed": 482,
   "filled": 114,
   "expired": 109,
-  "touched_not_filled": 249
+  "touched_not_filled": 250
  },
  "shadow": [
   {
@@ -9664,19 +9681,6 @@
    "touched": 1
   },
   {
-   "id": "7275277",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "39477834596396195357377183773527417970655049148819003711611604772201055476203",
-   "px": 0.971,
-   "tick": 0.001,
-   "ts": 1795478475,
-   "end_ts": 1795496340,
-   "q": "Will Ludwig finish GTA VI by November 23?",
-   "touched": null
-  },
-  {
    "id": "7121601",
    "rule": "cripto_cierre",
    "cat": "cripto",
@@ -9687,7 +9691,7 @@
    "ts": 1795478475,
    "end_ts": 1795539600,
    "q": "Will the price of Solana be between $90 and $100 on November 24?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "4676899",
@@ -9700,7 +9704,7 @@
    "ts": 1795478475,
    "end_ts": 1795549500,
    "q": "Stevenage FC vs. Sheffield Wednesday FC: O/U 8.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7224420",
@@ -9713,7 +9717,7 @@
    "ts": 1795478475,
    "end_ts": 1795562400,
    "q": "Millonarios FC vs. CA Bucaramanga: O/U 6.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7224422",
@@ -9726,20 +9730,7 @@
    "ts": 1795478475,
    "end_ts": 1795562400,
    "q": "Millonarios FC vs. CA Bucaramanga: O/U 7.5",
-   "touched": null
-  },
-  {
-   "id": "7279418",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "101824184829701843325082468180285694391932276129550541058809287882207699692510",
-   "px": 0.982,
-   "tick": 0.001,
-   "ts": 1795482062,
-   "end_ts": 1795496400,
-   "q": "Will Bitcoin dip to $59,000 on November 23?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6974031",
@@ -9752,7 +9743,7 @@
    "ts": 1795482062,
    "end_ts": 1795546800,
    "q": "L.R. Vicenza vs. Carrarese Calcio: O/U 8.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7121586",
@@ -9765,7 +9756,7 @@
    "ts": 1795482062,
    "end_ts": 1795539600,
    "q": "Will the price of Solana be above $50 on November 24?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7245919",
@@ -12573,6 +12564,84 @@
    "ts": 1795521669,
    "end_ts": 1795629600,
    "q": "Mississippi Valley State Delta Devils vs. Louisiana Tech Bulldogs (W)",
+   "touched": null
+  },
+  {
+   "id": "5730349",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "103960101194082828181666107239340590438416938079524375393869736127532680043335",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795525269,
+   "end_ts": 1795530600,
+   "q": "Will Analog Devices' Q4 Industrial revenue be above $2.1B?",
+   "touched": null
+  },
+  {
+   "id": "6959968",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "48349034850021337077460244647315954320120166033582360280039771739074793942978",
+   "px": 0.992,
+   "tick": 0.001,
+   "ts": 1795525269,
+   "end_ts": 1795549500,
+   "q": "Portsmouth FC vs. West Ham United FC: O/U 8.5",
+   "touched": null
+  },
+  {
+   "id": "6969853",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "17542954648264869708616087954769751530954502582262659322141111767419869150565",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1795525269,
+   "end_ts": 1795628700,
+   "q": "SK Slavia Praha vs. Villarreal CF: O/U 8.5",
+   "touched": null
+  },
+  {
+   "id": "6969888",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "74325523049127367512558395372190447801626290876740254993376149520297313565672",
+   "px": 0.993,
+   "tick": 0.001,
+   "ts": 1795525269,
+   "end_ts": 1795628700,
+   "q": "Spread: Sabah FK (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "7016145",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "108666495767709141067536684700608491478219460086912699581748220407210618107020",
+   "px": 0.986,
+   "tick": 0.001,
+   "ts": 1795525269,
+   "end_ts": 1795631400,
+   "q": "Toledo Rockets vs. Michigan Wolverines (W)",
+   "touched": null
+  },
+  {
+   "id": "7240405",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "112172989802643721489880337590382560715705677425163067931871792620081920386926",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795525269,
+   "end_ts": 1795629600,
+   "q": "US Cremonese vs. US Avellino 1912: O/U 6.5",
    "touched": null
   }
  ]
