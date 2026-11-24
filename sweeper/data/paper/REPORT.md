@@ -2,21 +2,21 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-11T22:05:26Z | dias corridos: 13.0 de 28 | corridas: 294
-- Capital inicial: $1,000.00 | valor actual: $1,036.14 | P&L: $+36.14 (+3.61%)
-- Efectivo libre: $414.89 | en ordenes abiertas: $517.45 (10) | en posiciones: $103.51 (2)
+- Inicio: 2026-11-11T22:05:26Z | dias corridos: 13.0 de 28 | corridas: 295
+- Capital inicial: $1,000.00 | valor actual: $1,036.64 | P&L: $+36.64 (+3.66%)
+- Efectivo libre: $415.65 | en ordenes abiertas: $569.28 (11) | en posiciones: $51.82 (1)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 501 colocadas, 116 llenadas, 263 tocadas sin llenarse (sorteo 30%), 112 expiradas
+- Ordenes virtuales: 502 colocadas, 116 llenadas, 263 tocadas sin llenarse (sorteo 30%), 112 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
 | Regla | n | Precio medio | Pago real | IC95 del pago | Edge | P&L | Dias medios |
 |---|---|---|---|---|---|---|---|
 | cripto_cierre | 36 | 99.00c | 100.00% | 90.4-100.0% | +1.00 pts | $+18.23 | 0.29 |
-| deportes_previo | 40 | 98.18c | 100.00% | 91.2-100.0% | +1.82 pts | $+37.41 | 0.35 |
+| deportes_previo | 41 | 98.18c | 100.00% | 91.4-100.0% | +1.82 pts | $+38.30 | 0.35 |
 | otros_cierre | 28 | 99.02c | 100.00% | 87.9-100.0% | +0.98 pts | $+14.29 | 0.40 |
 | post_fin_95_97 | 10 | 95.96c | 89.69% | 59.6-98.2% | -6.27 pts | $-34.07 | 0.39 |
-| TOTAL | 114 | 98.44c | 99.07% | 95.2-99.8% | +0.62 pts | $+35.85 | 0.34 |
+| TOTAL | 115 | 98.44c | 99.08% | 95.2-99.8% | +0.63 pts | $+36.75 | 0.34 |
 
 ## Peores casos
 
@@ -29,26 +29,25 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
 | $51.82 | 98.5c | 98.3c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
-| $51.70 | 98.3c | 99.1c | deportes_previo |  | Stevenage FC vs. Sheffield Wednesday FC: O/U 6.5 |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 4619 | abiertas: 496 | abiertas mas de 7 dias despues de su fecha de fin: 1
+- Resueltas: 4698 | abiertas: 431 | abiertas mas de 7 dias despues de su fecha de fin: 1
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
-| cripto_cierre | todas | 1338 | 98.73c | 99.25% | +0.52 pts | +0.06 a +0.98 | 10 |
-| cripto_cierre | tocadas | 938 | 98.57c | 98.93% | +0.36 pts | -0.29 a +1.02 | 10 |
-| deportes_previo | todas | 2551 | 98.30c | 98.86% | +0.56 pts | +0.16 a +0.97 | 30 |
-| deportes_previo | tocadas | 2163 | 98.28c | 98.84% | +0.57 pts | +0.12 a +1.01 | 26 |
-| otros_cierre | todas | 638 | 98.84c | 99.37% | +0.54 pts | -0.08 a +1.15 | 4 |
-| otros_cierre | tocadas | 414 | 98.71c | 99.03% | +0.33 pts | -0.62 a +1.28 | 4 |
+| cripto_cierre | todas | 1340 | 98.73c | 99.25% | +0.52 pts | +0.06 a +0.98 | 10 |
+| cripto_cierre | tocadas | 940 | 98.57c | 98.94% | +0.37 pts | -0.29 a +1.02 | 10 |
+| deportes_previo | todas | 2627 | 98.31c | 98.86% | +0.55 pts | +0.15 a +0.95 | 31 |
+| deportes_previo | tocadas | 2206 | 98.28c | 98.87% | +0.58 pts | +0.15 a +1.02 | 26 |
+| otros_cierre | todas | 639 | 98.84c | 99.37% | +0.54 pts | -0.08 a +1.15 | 4 |
+| otros_cierre | tocadas | 415 | 98.71c | 99.04% | +0.33 pts | -0.62 a +1.28 | 4 |
 | post_fin_95_97 | todas | 92 | 95.89c | 93.48% | -2.41 pts | -7.48 a +2.67 | 6 |
 | post_fin_95_97 | tocadas | 83 | 95.91c | 92.77% | -3.14 pts | -8.74 a +2.47 | 6 |
-| TOTAL | todas | 4619 | 98.45c | 98.94% | +0.49 pts | +0.19 a +0.78 | 50 |
-| TOTAL | tocadas | 3598 | 98.35c | 98.75% | +0.40 pts | +0.04 a +0.76 | 46 |
+| TOTAL | todas | 4698 | 98.45c | 98.94% | +0.48 pts | +0.19 a +0.77 | 51 |
+| TOTAL | tocadas | 3644 | 98.35c | 98.77% | +0.41 pts | +0.06 a +0.77 | 46 |
 
 Peores casos del registro sombra:
 
@@ -65,4 +64,4 @@ Peores casos del registro sombra:
 
 ## Veredicto
 
-Aun no hay veredicto: van 114 operaciones cerradas en 13.0 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
+Aun no hay veredicto: van 115 operaciones cerradas en 13.0 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
