@@ -1,6 +1,6 @@
 {
  "capital0": 1000.0,
- "cash": 414.1555,
+ "cash": 414.0819,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
   {
@@ -65,27 +65,6 @@
    "end_ts": 1795539600.0,
    "hours": 4.98,
    "liq": 32320
-  },
-  {
-   "oid": "4676624-1795521669",
-   "id": "4676624",
-   "q": "Bradford City AFC vs. Barnsley FC: O/U 7.5",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1015717",
-   "side": 1,
-   "token": "108957021223429940293382446877228954524328507318529158685277601439950763665263",
-   "px": 0.982,
-   "tick": 0.001,
-   "mid": 0.9825,
-   "bid": 0.976,
-   "ask": 0.989,
-   "shares": 52.6427,
-   "cost": 51.6951,
-   "ts": 1795521669.100406,
-   "end_ts": 1795549500.0,
-   "hours": 7.73,
-   "liq": 2262
   },
   {
    "oid": "5730349-1795528868",
@@ -191,6 +170,27 @@
    "end_ts": 1795582800.0,
    "hours": 9.98,
    "liq": 27240
+  },
+  {
+   "oid": "6968866-1795550467",
+   "id": "6968866",
+   "q": "Spread: Houston Dynamo (-2.5)",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1365346",
+   "side": 1,
+   "token": "101177662190587018017279780771887660378742839767789563569809944198769674138537",
+   "px": 0.972,
+   "tick": 0.001,
+   "mid": 0.9725,
+   "bid": 0.97,
+   "ask": 0.975,
+   "shares": 53.2599,
+   "cost": 51.7687,
+   "ts": 1795550467.127995,
+   "end_ts": 1795575600.0,
+   "hours": 6.98,
+   "liq": 9911
   }
  ],
  "positions": [
@@ -240,7 +240,7 @@
    "hours": 7.73,
    "liq": 9253,
    "fill_ts": 1795528868.90221,
-   "mark": 0.985,
+   "mark": 0.9905,
    "stuck": false,
    "disputed": false
   },
@@ -265,7 +265,7 @@
    "hours": 6.73,
    "liq": 2624,
    "fill_ts": 1795528868.90221,
-   "mark": 0.977,
+   "mark": 0.9855,
    "stuck": false,
    "disputed": false
   }
@@ -7403,14 +7403,27 @@
    "placed": 1,
    "shadow_open": 489,
    "shadow_closed": 1
+  },
+  {
+   "ts": "2026-11-24T20:01:45Z",
+   "equity": 1035.37,
+   "cash": 414.08,
+   "orders": 9,
+   "positions": 3,
+   "closed": 113,
+   "scanned": 13291,
+   "candidates": 209,
+   "placed": 1,
+   "shadow_open": 495,
+   "shadow_closed": 19
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 494,
+  "placed": 495,
   "filled": 116,
   "expired": 110,
-  "touched_not_filled": 259
+  "touched_not_filled": 260
  },
  "shadow": [
   {
@@ -7528,97 +7541,6 @@
    "ts": 1795338065,
    "end_ts": 1795409940,
    "q": "Will there be 8 earthquakes of 5.5 or above magnitude worldwide?",
-   "touched": 0
-  },
-  {
-   "id": "6942837",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "93934192214916126665785878100272230898559278219183559117831293204264023481084",
-   "px": 0.977,
-   "tick": 0.001,
-   "ts": 1795435270,
-   "end_ts": 1795542300,
-   "q": "Spread: LASK Linz (-2.5)",
-   "touched": 1
-  },
-  {
-   "id": "6942839",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "9452370674934371109175151299895310953707178257395036515937608247728225017336",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1795435270,
-   "end_ts": 1795542300,
-   "q": "Spread: LASK Linz (-3.5)",
-   "touched": 0
-  },
-  {
-   "id": "6942844",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "69316640720578130689989000003676007835367556149773477143074139371906657632109",
-   "px": 0.979,
-   "tick": 0.001,
-   "ts": 1795435270,
-   "end_ts": 1795542300,
-   "q": "FK Bodø/Glimt vs. LASK Linz: O/U 0.5",
-   "touched": 0
-  },
-  {
-   "id": "6942852",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "103301895945044666418161811749591991314826806446434203118830808843911470013538",
-   "px": 0.98,
-   "tick": 0.001,
-   "ts": 1795435270,
-   "end_ts": 1795542300,
-   "q": "FK Bodø/Glimt vs. LASK Linz: O/U 8.5",
-   "touched": 1
-  },
-  {
-   "id": "6942889",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "59644111992346333328291929284314298532526120493008056947063276999739827744450",
-   "px": 0.977,
-   "tick": 0.001,
-   "ts": 1795435270,
-   "end_ts": 1795542300,
-   "q": "Spread: Galatasaray SK (-3.5)",
-   "touched": 0
-  },
-  {
-   "id": "6942895",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "17356282165579347602753521323100255019294367159044157250452699702971268115835",
-   "px": 0.974,
-   "tick": 0.001,
-   "ts": 1795435270,
-   "end_ts": 1795542300,
-   "q": "Galatasaray SK vs. Aston Villa FC: O/U 0.5",
-   "touched": 1
-  },
-  {
-   "id": "6942903",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "87795006023388573053209854520881334997426395804321178959677385700809873062276",
-   "px": 0.989,
-   "tick": 0.001,
-   "ts": 1795435270,
-   "end_ts": 1795542300,
-   "q": "Galatasaray SK vs. Aston Villa FC: O/U 8.5",
    "touched": 0
   },
   {
@@ -8246,19 +8168,6 @@
    "touched": 0
   },
   {
-   "id": "6962469",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "76903341363711429164603957029127673354443638249177271168748003694200179116409",
-   "px": 0.981,
-   "tick": 0.001,
-   "ts": 1795449668,
-   "end_ts": 1795532400,
-   "q": "Spread: Abo Qir Semad SC (-2.5)",
-   "touched": 0
-  },
-  {
    "id": "6973903",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -8480,19 +8389,6 @@
    "touched": 0
   },
   {
-   "id": "7245724",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "5549357615763837832431130442009968680653426041435962363695675554634368095104",
-   "px": 0.976,
-   "tick": 0.001,
-   "ts": 1795453270,
-   "end_ts": 1795536000,
-   "q": "Shabab Al Ahli Dubai vs. Al Qadsiah: O/U 6.5",
-   "touched": 1
-  },
-  {
    "id": "4676898",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -8503,19 +8399,6 @@
    "ts": 1795453270,
    "end_ts": 1795549500,
    "q": "Stevenage FC vs. Sheffield Wednesday FC: O/U 7.5",
-   "touched": 1
-  },
-  {
-   "id": "6942902",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "20200620580937497703659697548353741356171581573662807094321687444382170856206",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1795453270,
-   "end_ts": 1795542300,
-   "q": "Galatasaray SK vs. Aston Villa FC: O/U 7.5",
    "touched": 1
   },
   {
@@ -8542,19 +8425,6 @@
    "ts": 1795453270,
    "end_ts": 1795561200,
    "q": "Sacred Heart Pioneers vs. Rutgers Scarlet Knights",
-   "touched": 1
-  },
-  {
-   "id": "6756523",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "51774213279942921264391362220123253663276808481213553391905700937381668199582",
-   "px": 0.984,
-   "tick": 0.001,
-   "ts": 1795456866,
-   "end_ts": 1795542300,
-   "q": "FK Bodø/Glimt vs. LASK Linz: Neither team to score first?",
    "touched": 1
   },
   {
@@ -9026,19 +8896,6 @@
    "touched": 1
   },
   {
-   "id": "7245725",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "107277235007171962880177113289812111363937505651287193541224934516572902216491",
-   "px": 0.991,
-   "tick": 0.001,
-   "ts": 1795489267,
-   "end_ts": 1795536000,
-   "q": "Shabab Al Ahli Dubai vs. Al Qadsiah: O/U 7.5",
-   "touched": 1
-  },
-  {
    "id": "7287476",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -9049,19 +8906,6 @@
    "ts": 1795489267,
    "end_ts": 1795568400,
    "q": "Golden Knights vs. Oilers: O/U 2.5",
-   "touched": 1
-  },
-  {
-   "id": "6962518",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "113113486526599385755220521968189134149594502086852325593335886836988301965080",
-   "px": 0.982,
-   "tick": 0.001,
-   "ts": 1795492866,
-   "end_ts": 1795532400,
-   "q": "Smouha SC vs. National Bank of Egypt Club: O/U 5.5",
    "touched": 1
   },
   {
@@ -9466,58 +9310,6 @@
    "end_ts": 1795570200,
    "q": "América de Cali vs. AD Cali: O/U 7.5",
    "touched": 0
-  },
-  {
-   "id": "6962470",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "104629191953020954032632369094339330439910712751844222530856363416230444085555",
-   "px": 0.972,
-   "tick": 0.001,
-   "ts": 1795495764,
-   "end_ts": 1795532400,
-   "q": "Spread: ZED FC (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "6962471",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "301574715737386299823632910953000500615199008490983642943002134607533688729",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795495764,
-   "end_ts": 1795532400,
-   "q": "Spread: Abo Qir Semad SC (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "6962481",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "31116682111450122815230009830448638686536258477954704123644706860856409306722",
-   "px": 0.974,
-   "tick": 0.001,
-   "ts": 1795495764,
-   "end_ts": 1795532400,
-   "q": "ZED FC vs. Abo Qir Semad SC: O/U 5.5",
-   "touched": 1
-  },
-  {
-   "id": "7245713",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "75955789609369724308740751619397527422034364921809746805020650879545583940472",
-   "px": 0.977,
-   "tick": 0.001,
-   "ts": 1795495764,
-   "end_ts": 1795536000,
-   "q": "Spread: Al Qadsiah (-3.5)",
-   "touched": 1
   },
   {
    "id": "4520698",
@@ -10482,19 +10274,6 @@
    "touched": 1
   },
   {
-   "id": "7289492",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "99776962799483217346792026424666246945996603365498291108491483924523777858829",
-   "px": 0.973,
-   "tick": 0.001,
-   "ts": 1795500065,
-   "end_ts": 1795536000,
-   "q": "Al-Seeb vs. Al Shorta SC: O/U 5.5",
-   "touched": 1
-  },
-  {
    "id": "6618258",
    "rule": "otros_cierre",
    "cat": "otros",
@@ -10817,19 +10596,6 @@
    "ts": 1795500065,
    "end_ts": 1795600800,
    "q": "Kashima Antlers vs. Jeonbuk FC: O/U 6.5",
-   "touched": 1
-  },
-  {
-   "id": "7289482",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "86472023253444611195358026960642636615296623351556838519540105452089701736574",
-   "px": 0.987,
-   "tick": 0.001,
-   "ts": 1795503668,
-   "end_ts": 1795536000,
-   "q": "Spread: Al Shorta SC (-3.5)",
    "touched": 1
   },
   {
@@ -13768,6 +13534,331 @@
    "ts": 1795546868,
    "end_ts": 1795648800,
    "q": "Independiente Santa Fe vs. Once Caldas: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "7284547",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "102352898127662171073609460808382085004241079539661551782501337841276380856173",
+   "px": 0.99,
+   "tick": 0.001,
+   "ts": 1795550467,
+   "end_ts": 1795554000,
+   "q": "NVIDIA (NVDA) Up or Down on November 24?",
+   "touched": null
+  },
+  {
+   "id": "7284548",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "56775980727993806012159596853068325275846987756302099008258724198959661505777",
+   "px": 0.987,
+   "tick": 0.001,
+   "ts": 1795550467,
+   "end_ts": 1795554000,
+   "q": "Will Microsoft (MSFT) close above $500 on November 24?",
+   "touched": null
+  },
+  {
+   "id": "7284549",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "107611739334292545399586944192099516029515296981036129748676824394073664008807",
+   "px": 0.986,
+   "tick": 0.001,
+   "ts": 1795550467,
+   "end_ts": 1795554000,
+   "q": "Will Microsoft (MSFT) close above $510 on November 24?",
+   "touched": null
+  },
+  {
+   "id": "7284565",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "82688013461383758589889199362867880892522894280440639622048333524839557616460",
+   "px": 0.999,
+   "tick": 0.001,
+   "ts": 1795550467,
+   "end_ts": 1795554000,
+   "q": "Will Meta (META) close above $560 on November 24?",
+   "touched": null
+  },
+  {
+   "id": "7284567",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "10833466078892595028440954988134668081485017235862479833099329541411732531011",
+   "px": 0.984,
+   "tick": 0.001,
+   "ts": 1795550467,
+   "end_ts": 1795554000,
+   "q": "Will Meta (META) close above $580 on November 24?",
+   "touched": null
+  },
+  {
+   "id": "7284570",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "97425236123933222899081517499621804669609434191509878131052418115064216636714",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795550467,
+   "end_ts": 1795554000,
+   "q": "Will Meta (META) close above $600 on November 24?",
+   "touched": null
+  },
+  {
+   "id": "7284574",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "94207622299682373954833786000636871290897930145595517173969312737702245380874",
+   "px": 0.986,
+   "tick": 0.001,
+   "ts": 1795550467,
+   "end_ts": 1795554000,
+   "q": "S&P 500 (SPX) Up or Down on November 24?",
+   "touched": null
+  },
+  {
+   "id": "7284589",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "26095467507260563987328117110619483236179070366791825108338292976619163857795",
+   "px": 0.988,
+   "tick": 0.001,
+   "ts": 1795550467,
+   "end_ts": 1795554000,
+   "q": "SPY (SPY) Up or Down on November 24?",
+   "touched": null
+  },
+  {
+   "id": "7284637",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "103685590470242990843878894909118136412926623717158705799319938585365801860773",
+   "px": 0.977,
+   "tick": 0.001,
+   "ts": 1795550467,
+   "end_ts": 1795557600,
+   "q": "Gold (XAUUSD) Up or Down on November 24?",
+   "touched": null
+  },
+  {
+   "id": "7211307",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "45300405549307474773275660374385388692762153074825929893406157527494386758658",
+   "px": 0.996,
+   "tick": 0.001,
+   "ts": 1795550467,
+   "end_ts": 1795564740,
+   "q": "Will Trump or Melania say \"Bean\" during the Thanksgiving Turkey Pardon on November 24?",
+   "touched": null
+  },
+  {
+   "id": "7211315",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "6195658823635589346026697412225326622894679105166643567944443982597651404228",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795550467,
+   "end_ts": 1795564740,
+   "q": "Will Trump or Melania say \"West Virginia\" during the Thanksgiving Turkey Pardon on Novembe",
+   "touched": null
+  },
+  {
+   "id": "7211316",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "19894516295765420290086864746975438601635084057752256642128231960624447041807",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795550467,
+   "end_ts": 1795564740,
+   "q": "Will Trump or Melania say \"Border\" during the Thanksgiving Turkey Pardon on November 24?",
+   "touched": null
+  },
+  {
+   "id": "7211317",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "56033689428222195184917918259474152001352500953808450823208298734520925438475",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795550467,
+   "end_ts": 1795564740,
+   "q": "Will Trump or Melania say \"Poultry\" during the Thanksgiving Turkey Pardon on November 24?",
+   "touched": null
+  },
+  {
+   "id": "7229965",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "90927672478552982989716614903743527660184291127638657204239371091427548864226",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795550467,
+   "end_ts": 1795564740,
+   "q": "Will Trump or Melania say \"Drone\" or \"Helipad\" during the Thanksgiving Turkey Pardon on No",
+   "touched": null
+  },
+  {
+   "id": "6596311",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "101591895027592921321944215289420738628668541037332155756443093202426795484619",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795550467,
+   "end_ts": 1795582740,
+   "q": "Will Donald Trump publicly insult someone on November 24, 2026?",
+   "touched": null
+  },
+  {
+   "id": "6618187",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "35986429378171118723009080680898677471057393353495781720571688210994620894376",
+   "px": 0.971,
+   "tick": 0.001,
+   "ts": 1795550467,
+   "end_ts": 1795582740,
+   "q": "Will Colombia win Miss Universe 2026?",
+   "touched": null
+  },
+  {
+   "id": "7130036",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "20668736476565089193458876114743007891257168205164915471029981207712777982025",
+   "px": 0.993,
+   "tick": 0.001,
+   "ts": 1795550467,
+   "end_ts": 1795582740,
+   "q": "Will \"Raw: 2026 - November 16, 2026\" be the #2 US Netflix show this week?",
+   "touched": null
+  },
+  {
+   "id": "6990040",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "75490089362099422878365781731042044248962338892735951023091104968031398502465",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795550467,
+   "end_ts": 1795600800,
+   "q": "Avispa Fukuoka vs. Yokohama F·Marinos: O/U 8.5",
+   "touched": null
+  },
+  {
+   "id": "6990069",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "71843100716762158707546830843627531679573921798951629440950574286393443702558",
+   "px": 0.972,
+   "tick": 0.001,
+   "ts": 1795550467,
+   "end_ts": 1795600800,
+   "q": "Spread: FC Mito Holly Hock (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "7150227",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "109707186165265266084452420485301236280484283885985970487817803173293607106358",
+   "px": 0.988,
+   "tick": 0.001,
+   "ts": 1795550467,
+   "end_ts": 1795626000,
+   "q": "Will the price of XRP be above $1.00 on November 25?",
+   "touched": null
+  },
+  {
+   "id": "6985614",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "30359767472084426900702162208896396764299829446151187295025253690658244434727",
+   "px": 0.996,
+   "tick": 0.001,
+   "ts": 1795550467,
+   "end_ts": 1795636800,
+   "q": "Stoke City FC vs. Millwall FC: O/U 8.5",
+   "touched": null
+  },
+  {
+   "id": "6985768",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "73150366371523793215234644500894912670992177343115421789267954770604201896326",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795550467,
+   "end_ts": 1795635900,
+   "q": "Watford FC vs. Blackburn Rovers FC: O/U 8.5",
+   "touched": null
+  },
+  {
+   "id": "7240333",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "46802675759548833579947881940219261726671469592762841177708590981030035003392",
+   "px": 0.993,
+   "tick": 0.001,
+   "ts": 1795550467,
+   "end_ts": 1795633200,
+   "q": "Calcio Padova vs. UC Sampdoria: O/U 8.5",
+   "touched": null
+  },
+  {
+   "id": "7160930",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "39227859068650180257056518334388176338364540255090757956069424766377082647200",
+   "px": 0.982,
+   "tick": 0.001,
+   "ts": 1795550467,
+   "end_ts": 1795644000,
+   "q": "Sportivo San Lorenzo vs. Sportivo Ameliano: Draw at halftime?",
+   "touched": null
+  },
+  {
+   "id": "7160931",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "48740999414732761076800216238652463446998800686913576385247453231795714563419",
+   "px": 0.986,
+   "tick": 0.001,
+   "ts": 1795550467,
+   "end_ts": 1795644000,
+   "q": "Sportivo Ameliano leading at halftime?",
    "touched": null
   }
  ]

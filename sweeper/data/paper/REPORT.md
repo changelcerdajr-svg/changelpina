@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-11T22:05:26Z | dias corridos: 12.9 de 28 | corridas: 291
-- Capital inicial: $1,000.00 | valor actual: $1,034.63 | P&L: $+34.63 (+3.46%)
-- Efectivo libre: $414.16 | en ordenes abiertas: $465.26 (9) | en posiciones: $155.22 (3)
+- Inicio: 2026-11-11T22:05:26Z | dias corridos: 12.9 de 28 | corridas: 292
+- Capital inicial: $1,000.00 | valor actual: $1,035.37 | P&L: $+35.37 (+3.54%)
+- Efectivo libre: $414.08 | en ordenes abiertas: $465.33 (9) | en posiciones: $155.22 (3)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 494 colocadas, 116 llenadas, 259 tocadas sin llenarse (sorteo 30%), 110 expiradas
+- Ordenes virtuales: 495 colocadas, 116 llenadas, 260 tocadas sin llenarse (sorteo 30%), 110 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -29,27 +29,27 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
 | $51.82 | 98.5c | 98.3c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
-| $51.70 | 98.3c | 98.5c | deportes_previo |  | Stevenage FC vs. Sheffield Wednesday FC: O/U 6.5 |
-| $51.71 | 97.7c | 97.7c | deportes_previo |  | Spread: Northampton Town FC (-2.5) |
+| $51.70 | 98.3c | 99.1c | deportes_previo |  | Stevenage FC vs. Sheffield Wednesday FC: O/U 6.5 |
+| $51.71 | 97.7c | 98.6c | deportes_previo |  | Spread: Northampton Town FC (-2.5) |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 4581 | abiertas: 489 | abiertas mas de 7 dias despues de su fecha de fin: 1
+- Resueltas: 4600 | abiertas: 495 | abiertas mas de 7 dias despues de su fecha de fin: 1
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
 | cripto_cierre | todas | 1338 | 98.73c | 99.25% | +0.52 pts | +0.06 a +0.98 | 10 |
 | cripto_cierre | tocadas | 938 | 98.57c | 98.93% | +0.36 pts | -0.29 a +1.02 | 10 |
-| deportes_previo | todas | 2513 | 98.30c | 98.89% | +0.59 pts | +0.18 a +0.99 | 29 |
-| deportes_previo | tocadas | 2133 | 98.28c | 98.87% | +0.60 pts | +0.15 a +1.04 | 25 |
+| deportes_previo | todas | 2532 | 98.30c | 98.85% | +0.56 pts | +0.15 a +0.97 | 30 |
+| deportes_previo | tocadas | 2147 | 98.28c | 98.84% | +0.56 pts | +0.11 a +1.01 | 26 |
 | otros_cierre | todas | 638 | 98.84c | 99.37% | +0.54 pts | -0.08 a +1.15 | 4 |
 | otros_cierre | tocadas | 414 | 98.71c | 99.03% | +0.33 pts | -0.62 a +1.28 | 4 |
 | post_fin_95_97 | todas | 92 | 95.89c | 93.48% | -2.41 pts | -7.48 a +2.67 | 6 |
 | post_fin_95_97 | tocadas | 83 | 95.91c | 92.77% | -3.14 pts | -8.74 a +2.47 | 6 |
-| TOTAL | todas | 4581 | 98.45c | 98.95% | +0.50 pts | +0.21 a +0.79 | 49 |
-| TOTAL | tocadas | 3568 | 98.35c | 98.77% | +0.42 pts | +0.06 a +0.78 | 45 |
+| TOTAL | todas | 4600 | 98.45c | 98.93% | +0.48 pts | +0.19 a +0.78 | 50 |
+| TOTAL | tocadas | 3582 | 98.35c | 98.74% | +0.40 pts | +0.03 a +0.76 | 46 |
 
 Peores casos del registro sombra:
 
