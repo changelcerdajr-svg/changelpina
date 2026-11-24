@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 10.7 de 28 | corridas: 240
-- Capital inicial: $1,000.00 | valor actual: $927.84 | P&L: $-72.16 (-7.22%)
-- Efectivo libre: $0.03 | en ordenes abiertas: $280.42 (4) | en posiciones: $665.22 (9)
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 10.7 de 28 | corridas: 241
+- Capital inicial: $1,000.00 | valor actual: $929.04 | P&L: $-70.96 (-7.10%)
+- Efectivo libre: $0.03 | en ordenes abiertas: $187.64 (3) | en posiciones: $758.00 (10)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $91.77 en 1 posiciones
-- Ordenes virtuales: 479 colocadas, 220 llenadas, 204 tocadas sin llenarse (sorteo 30%), 51 expiradas
+- Ordenes virtuales: 479 colocadas, 221 llenadas, 204 tocadas sin llenarse (sorteo 30%), 51 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -31,36 +31,37 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
-| $91.77 | 99.8c | 84.8c | otros_cierre | si | Pakistan military action against Afghanistan by November 15, 2026? |
+| $91.77 | 99.8c | 85.8c | otros_cierre | si | Pakistan military action against Afghanistan by November 15, 2026? |
 | $35.36 | 99.8c | 97.4c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $4.5m and $5.5m at auction? |
 | $87.27 | 99.8c | 98.3c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
 | $61.22 | 99.2c | 99.4c | otros_cierre |  | Will the next Claude Opus model (5.6+) be released on November 23, 2026? |
 | $92.57 | 99.7c | 99.1c | otros_cierre |  | Will the next Grok model (4.8+) be released on November 23, 2026? |
-| $91.44 | 99.8c | 99.5c | cripto_cierre |  | Will Microstrategy announce a Bitcoin purchase November 17-23? |
+| $91.44 | 99.8c | 99.6c | cripto_cierre |  | Will Microstrategy announce a Bitcoin purchase November 17-23? |
 | $91.44 | 99.7c | 99.0c | cripto_cierre |  | MicroStrategy announces >1000 BTC purchase November 17-23? |
-| $92.63 | 99.2c | 99.0c | deportes_previo |  | Spread: Newcastle United Jets (-2.5) |
-| $21.52 | 99.1c | 98.4c | deportes_previo |  | Newcastle United Jets vs. Kashiwa Reysol: Neither team to score first? |
+| $92.63 | 99.2c | 99.2c | deportes_previo |  | Spread: Newcastle United Jets (-2.5) |
+| $21.52 | 99.1c | 98.2c | deportes_previo |  | Newcastle United Jets vs. Kashiwa Reysol: Neither team to score first? |
+| $92.78 | 99.9c | 99.9c | deportes_previo |  | Map Handicap: VIL (-1.5) vs Wanted Goons (+1.5) |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 12626 | abiertas: 2147 | abiertas mas de 7 dias despues de su fecha de fin: 1
+- Resueltas: 12683 | abiertas: 2133 | abiertas mas de 7 dias despues de su fecha de fin: 1
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
-| clima_cierre | todas | 3398 | 98.83c | 99.00% | +0.17 pts | -0.16 a +0.51 | 34 |
-| clima_cierre | tocadas | 3145 | 98.85c | 98.92% | +0.07 pts | -0.29 a +0.43 | 34 |
-| cripto_cierre | todas | 1621 | 98.68c | 98.21% | -0.46 pts | -1.10 a +0.17 | 29 |
-| cripto_cierre | tocadas | 1477 | 98.72c | 98.04% | -0.69 pts | -1.39 a +0.01 | 29 |
-| deportes_previo | todas | 6053 | 98.04c | 97.45% | -0.59 pts | -0.98 a -0.19 | 157 |
-| deportes_previo | tocadas | 5912 | 98.07c | 97.42% | -0.65 pts | -1.05 a -0.25 | 155 |
+| clima_cierre | todas | 3439 | 98.83c | 98.95% | +0.13 pts | -0.21 a +0.47 | 36 |
+| clima_cierre | tocadas | 3185 | 98.85c | 98.87% | +0.02 pts | -0.34 a +0.39 | 36 |
+| cripto_cierre | todas | 1623 | 98.67c | 98.21% | -0.46 pts | -1.10 a +0.18 | 29 |
+| cripto_cierre | tocadas | 1479 | 98.72c | 98.04% | -0.68 pts | -1.38 a +0.02 | 29 |
+| deportes_previo | todas | 6067 | 98.04c | 97.45% | -0.58 pts | -0.98 a -0.19 | 157 |
+| deportes_previo | tocadas | 5926 | 98.07c | 97.43% | -0.64 pts | -1.04 a -0.24 | 155 |
 | otros_cierre | todas | 1310 | 98.97c | 97.18% | -1.80 pts | -2.69 a -0.91 | 37 |
 | otros_cierre | tocadas | 1222 | 98.94c | 96.97% | -1.96 pts | -2.92 a -1.01 | 37 |
 | post_fin_90_97 | todas | 244 | 94.01c | 93.44% | -0.57 pts | -3.64 a +2.51 | 16 |
 | post_fin_90_97 | tocadas | 207 | 94.13c | 92.27% | -1.86 pts | -5.46 a +1.73 | 16 |
-| TOTAL | todas | 12626 | 98.35c | 97.86% | -0.49 pts | -0.74 a -0.24 | 273 |
-| TOTAL | tocadas | 11963 | 98.38c | 97.76% | -0.62 pts | -0.88 a -0.36 | 271 |
+| TOTAL | todas | 12683 | 98.35c | 97.85% | -0.50 pts | -0.75 a -0.25 | 275 |
+| TOTAL | tocadas | 12019 | 98.38c | 97.75% | -0.63 pts | -0.89 a -0.36 | 273 |
 
 Peores casos del registro sombra:
 

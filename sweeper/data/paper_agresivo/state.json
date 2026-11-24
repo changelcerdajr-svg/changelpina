@@ -65,27 +65,6 @@
    "end_ts": 1795506300.0,
    "hours": 2.91,
    "liq": 4014
-  },
-  {
-   "oid": "7208979-1795500114",
-   "id": "7208979",
-   "q": "Map Handicap: VIL (-1.5) vs Wanted Goons (+1.5)",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1433926",
-   "side": 0,
-   "token": "99825315877643948968371675296064301571168102304284408180887099333519426911769",
-   "px": 0.999,
-   "tick": 0.001,
-   "mid": 0.996,
-   "bid": 0.992,
-   "ask": 1,
-   "shares": 92.8772,
-   "cost": 92.7843,
-   "ts": 1795500114.33988,
-   "end_ts": 1795507200.0,
-   "hours": 1.97,
-   "liq": 1525
   }
  ],
  "positions": [
@@ -110,7 +89,7 @@
    "hours": 3.96,
    "liq": 1095,
    "fill_ts": 1794791170.442568,
-   "mark": 0.8475,
+   "mark": 0.8575,
    "stuck": true,
    "disputed": false
   },
@@ -210,7 +189,7 @@
    "hours": 6.97,
    "liq": 1857,
    "fill_ts": 1795474909.536201,
-   "mark": 0.9945,
+   "mark": 0.996,
    "stuck": false,
    "disputed": false
   },
@@ -285,7 +264,7 @@
    "hours": 2.91,
    "liq": 4668,
    "fill_ts": 1795496493.344251,
-   "mark": 0.9895,
+   "mark": 0.9915,
    "stuck": false,
    "disputed": false
   },
@@ -310,9 +289,32 @@
    "hours": 2.91,
    "liq": 2929,
    "fill_ts": 1795496493.344251,
-   "mark": 0.984,
+   "mark": 0.982,
    "stuck": false,
    "disputed": false
+  },
+  {
+   "oid": "7208979-1795500114",
+   "id": "7208979",
+   "q": "Map Handicap: VIL (-1.5) vs Wanted Goons (+1.5)",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1433926",
+   "side": 0,
+   "token": "99825315877643948968371675296064301571168102304284408180887099333519426911769",
+   "px": 0.999,
+   "tick": 0.001,
+   "mid": 0.996,
+   "bid": 0.992,
+   "ask": 1,
+   "shares": 92.8772,
+   "cost": 92.7843,
+   "ts": 1795500114.33988,
+   "end_ts": 1795507200.0,
+   "hours": 1.97,
+   "liq": 1525,
+   "fill_ts": 1795503698.764887,
+   "mark": 0.999
   }
  ],
  "closed": [
@@ -9677,12 +9679,25 @@
    "placed": 1,
    "shadow_open": 2147,
    "shadow_closed": 88
+  },
+  {
+   "ts": "2026-11-24T07:02:34Z",
+   "equity": 929.04,
+   "cash": 0.03,
+   "orders": 3,
+   "positions": 10,
+   "closed": 211,
+   "scanned": 16974,
+   "candidates": 790,
+   "placed": 0,
+   "shadow_open": 2133,
+   "shadow_closed": 57
   }
  ],
  "halted": false,
  "stats": {
   "placed": 479,
-  "filled": 220,
+  "filled": 221,
   "expired": 51,
   "touched_not_filled": 204
  },
@@ -10260,58 +10275,6 @@
    "touched": 1
   },
   {
-   "id": "7219725",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "21579641134700905474770720375009442807021080074476709939008415955456571906852",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795262526,
-   "end_ts": 1795435200,
-   "q": "Will the lowest temperature in Miami be 80°F or higher on November 23?",
-   "touched": 1
-  },
-  {
-   "id": "7219768",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "101718987322681289908477090079685155412940836282066178807503715507288442781117",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795262526,
-   "end_ts": 1795435200,
-   "q": "Will the highest temperature in New York City be 55°F or below on November 23?",
-   "touched": 1
-  },
-  {
-   "id": "7219769",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "85695184560931512087098270458670516076193314287313952992745510293918014648436",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795262526,
-   "end_ts": 1795435200,
-   "q": "Will the highest temperature in New York City be between 56-57°F on November 23?",
-   "touched": 1
-  },
-  {
-   "id": "7219770",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "77855459638804237275098760545325370912595742789873959750142979781039880643898",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795262526,
-   "end_ts": 1795435200,
-   "q": "Will the highest temperature in New York City be between 58-59°F on November 23?",
-   "touched": 1
-  },
-  {
    "id": "7219880",
    "rule": "clima_cierre",
    "cat": "clima",
@@ -10351,84 +10314,6 @@
    "touched": 1
   },
   {
-   "id": "7219724",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "17874202119585939745445864637671000048291122168915941967110378291853106242952",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795269724,
-   "end_ts": 1795435200,
-   "q": "Will the lowest temperature in Miami be between 78-79°F on November 23?",
-   "touched": 1
-  },
-  {
-   "id": "7219777",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "87246468944901667684985668392270307042610303239328906128527221510284026921158",
-   "px": 0.989,
-   "tick": 0.001,
-   "ts": 1795269724,
-   "end_ts": 1795435200,
-   "q": "Will the highest temperature in New York City be between 72-73°F on November 23?",
-   "touched": 1
-  },
-  {
-   "id": "7219891",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "78800979170736951358537663179851135859360934776152898281441745005369157374700",
-   "px": 0.992,
-   "tick": 0.001,
-   "ts": 1795269724,
-   "end_ts": 1795435200,
-   "q": "Will the highest temperature in Atlanta be 61°F or below on November 23?",
-   "touched": 1
-  },
-  {
-   "id": "7219899",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "42658055095984063931246104242292700393476268208753377478301873711238245111139",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795269724,
-   "end_ts": 1795435200,
-   "q": "Will the highest temperature in Atlanta be between 76-77°F on November 23?",
-   "touched": 1
-  },
-  {
-   "id": "7219900",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "26818207649639907870598678364391317003087835826013305000480873002049154823643",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795269724,
-   "end_ts": 1795435200,
-   "q": "Will the highest temperature in Atlanta be between 78-79°F on November 23?",
-   "touched": 1
-  },
-  {
-   "id": "7219901",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "38432773327076341392663298431034586686271179543800346538671315460633613400072",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795269724,
-   "end_ts": 1795435200,
-   "q": "Will the highest temperature in Atlanta be 80°F or higher on November 23?",
-   "touched": 1
-  },
-  {
    "id": "7219944",
    "rule": "clima_cierre",
    "cat": "clima",
@@ -10439,45 +10324,6 @@
    "ts": 1795269724,
    "end_ts": 1795435200,
    "q": "Will the highest temperature in Houston be between 60-61°F on November 23?",
-   "touched": 1
-  },
-  {
-   "id": "7219771",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "89948587155384287791008626859264310980832157026282298842849387388662640829774",
-   "px": 0.992,
-   "tick": 0.001,
-   "ts": 1795273326,
-   "end_ts": 1795435200,
-   "q": "Will the highest temperature in New York City be between 60-61°F on November 23?",
-   "touched": 1
-  },
-  {
-   "id": "7219772",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "104520247655873789310988741403380585874571333766664814306010706743283283268521",
-   "px": 0.968,
-   "tick": 0.001,
-   "ts": 1795273326,
-   "end_ts": 1795435200,
-   "q": "Will the highest temperature in New York City be between 62-63°F on November 23?",
-   "touched": 1
-  },
-  {
-   "id": "7219778",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "66501275811946882922930796466968634920916471966543922688698185925678959208323",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795273326,
-   "end_ts": 1795435200,
-   "q": "Will the highest temperature in New York City be 74°F or higher on November 23?",
    "touched": 1
   },
   {
@@ -10582,71 +10428,6 @@
    "ts": 1795280532,
    "end_ts": 1795435200,
    "q": "Will the highest temperature in Dallas be between 54-55°F on November 23?",
-   "touched": 1
-  },
-  {
-   "id": "7219903",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "63662867995482372930890795535964863684686839537397207453257126827412539508380",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795280532,
-   "end_ts": 1795435200,
-   "q": "Will the highest temperature in Miami be between 72-73°F on November 23?",
-   "touched": 1
-  },
-  {
-   "id": "7219905",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "63189612750480717331112642566658651780423518793139153497130055989716082218826",
-   "px": 0.951,
-   "tick": 0.001,
-   "ts": 1795280532,
-   "end_ts": 1795435200,
-   "q": "Will the highest temperature in Miami be between 76-77°F on November 23?",
-   "touched": 1
-  },
-  {
-   "id": "7219909",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "85768079274093196559472674833552239465925443052829803854890127337815301777266",
-   "px": 0.98,
-   "tick": 0.001,
-   "ts": 1795280532,
-   "end_ts": 1795435200,
-   "q": "Will the highest temperature in Miami be between 84-85°F on November 23?",
-   "touched": 0
-  },
-  {
-   "id": "7219910",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "106586823247673290635180333578429415751180072581594725049364336141909320363852",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795280532,
-   "end_ts": 1795435200,
-   "q": "Will the highest temperature in Miami be between 86-87°F on November 23?",
-   "touched": 1
-  },
-  {
-   "id": "7219912",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "44317487303327430406670315716468580388483406404575295274011999181548638917588",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795280532,
-   "end_ts": 1795435200,
-   "q": "Will the highest temperature in Miami be 90°F or higher on November 23?",
    "touched": 1
   },
   {
@@ -11274,32 +11055,6 @@
    "touched": 1
   },
   {
-   "id": "7219902",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "86995236874003510538722824954864274908926356501401894526982987485629982319139",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795284151,
-   "end_ts": 1795435200,
-   "q": "Will the highest temperature in Miami be 71°F or below on November 23?",
-   "touched": 1
-  },
-  {
-   "id": "7219911",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "12154787021377684596707018038040079623417094741359763872217032489298945403807",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795284151,
-   "end_ts": 1795435200,
-   "q": "Will the highest temperature in Miami be between 88-89°F on November 23?",
-   "touched": 1
-  },
-  {
    "id": "7219930",
    "rule": "clima_cierre",
    "cat": "clima",
@@ -11833,32 +11588,6 @@
    "touched": 1
   },
   {
-   "id": "7219776",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "2738636195352698189935092133292225493503628609377814130820554965747347125109",
-   "px": 0.95,
-   "tick": 0.01,
-   "ts": 1795287764,
-   "end_ts": 1795435200,
-   "q": "Will the highest temperature in New York City be between 70-71°F on November 23?",
-   "touched": 1
-  },
-  {
-   "id": "7219897",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "5494051699560144642275593804928697281953734664503275065554916491895851315906",
-   "px": 0.975,
-   "tick": 0.001,
-   "ts": 1795287764,
-   "end_ts": 1795435200,
-   "q": "Will the highest temperature in Atlanta be between 72-73°F on November 23?",
-   "touched": 1
-  },
-  {
    "id": "7088840",
    "rule": "otros_cierre",
    "cat": "otros",
@@ -12259,19 +11988,6 @@
    "ts": 1795291315,
    "end_ts": 1795550400,
    "q": "Como 1907 vs. AEK: O/U 0.5",
-   "touched": 1
-  },
-  {
-   "id": "7219904",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "96679914197250079774408023158913186478696105994029862673875372381136083550292",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795294929,
-   "end_ts": 1795435200,
-   "q": "Will the highest temperature in Miami be between 74-75°F on November 23?",
    "touched": 1
   },
   {
@@ -12691,19 +12407,6 @@
    "touched": 1
   },
   {
-   "id": "7219898",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "19972282288049940302119331653708695874445163846832649525015527008374682921165",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795312918,
-   "end_ts": 1795435200,
-   "q": "Will the highest temperature in Atlanta be between 74-75°F on November 23?",
-   "touched": 1
-  },
-  {
    "id": "7219913",
    "rule": "clima_cierre",
    "cat": "clima",
@@ -12727,32 +12430,6 @@
    "ts": 1795312918,
    "end_ts": 1795435200,
    "q": "Will the highest temperature in Los Angeles be between 62-63°F on November 23?",
-   "touched": 1
-  },
-  {
-   "id": "7221172",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "88644330722011818925001528067492022197006818234040111083467892205835201121493",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1795312918,
-   "end_ts": 1795435200,
-   "q": "Will the highest temperature in Panama City be 36°C on November 23?",
-   "touched": 1
-  },
-  {
-   "id": "7219892",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "1905595350374991420286801257761460102614559101842812778989203120146850746098",
-   "px": 0.96,
-   "tick": 0.01,
-   "ts": 1795313932,
-   "end_ts": 1795435200,
-   "q": "Will the highest temperature in Atlanta be between 62-63°F on November 23?",
    "touched": 1
   },
   {
@@ -15434,19 +15111,6 @@
    "touched": 1
   },
   {
-   "id": "7016055",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "37572963886982972863464343909982908480153496462794002424499743730503357799559",
-   "px": 0.989,
-   "tick": 0.001,
-   "ts": 1795341168,
-   "end_ts": 1795489200,
-   "q": "Northern Arizona Lumberjacks vs. USC Trojans (W)",
-   "touched": 1
-  },
-  {
    "id": "7121510",
    "rule": "cripto_cierre",
    "cat": "cripto",
@@ -15499,58 +15163,6 @@
    "touched": 1
   },
   {
-   "id": "7219704",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "101015710265228764536020113308777469557904175569687510377540824326361496297955",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795345334,
-   "end_ts": 1795435200,
-   "q": "Will the lowest temperature in New York City be 43°F or below on November 23?",
-   "touched": 1
-  },
-  {
-   "id": "7219712",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "46156337510750146335017247951704514734435026318303667388777047734623945650896",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795345334,
-   "end_ts": 1795435200,
-   "q": "Will the lowest temperature in New York City be between 58-59°F on November 23?",
-   "touched": 1
-  },
-  {
-   "id": "7219713",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "92619246174541134556465198432681370499226602759708327585582338103606901734604",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795345334,
-   "end_ts": 1795435200,
-   "q": "Will the lowest temperature in New York City be between 60-61°F on November 23?",
-   "touched": 1
-  },
-  {
-   "id": "7219714",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "14201456064753427742374400113579395402950164915924037320938457507182117886503",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795345334,
-   "end_ts": 1795435200,
-   "q": "Will the lowest temperature in New York City be 62°F or higher on November 23?",
-   "touched": 1
-  },
-  {
    "id": "7221141",
    "rule": "clima_cierre",
    "cat": "clima",
@@ -15600,58 +15212,6 @@
    "ts": 1795345334,
    "end_ts": 1795582740,
    "q": "Will Cuba win Miss Universe 2026?",
-   "touched": 1
-  },
-  {
-   "id": "7219705",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "32780555799579726342245187101665225914223031961209670554044840092168478498999",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1795348902,
-   "end_ts": 1795435200,
-   "q": "Will the lowest temperature in New York City be between 44-45°F on November 23?",
-   "touched": 1
-  },
-  {
-   "id": "7219711",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "34194935046954122780258017461704521590007840911672489148978680569353531561908",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795348902,
-   "end_ts": 1795435200,
-   "q": "Will the lowest temperature in New York City be between 56-57°F on November 23?",
-   "touched": 1
-  },
-  {
-   "id": "7221166",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "103304861568563722602589062709058859972904857169028448180018728737299576560081",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795348902,
-   "end_ts": 1795435200,
-   "q": "Will the highest temperature in Panama City be 30°C on November 23?",
-   "touched": 1
-  },
-  {
-   "id": "7221167",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "15099314393962225729540530985293227282014922577742402255065225179501590435545",
-   "px": 0.983,
-   "tick": 0.001,
-   "ts": 1795348902,
-   "end_ts": 1795435200,
-   "q": "Will the highest temperature in Panama City be 31°C on November 23?",
    "touched": 1
   },
   {
@@ -17241,32 +16801,6 @@
    "touched": 1
   },
   {
-   "id": "7219773",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "36609467332283066943335848549468498391951080391606394173610157734258178447850",
-   "px": 0.95,
-   "tick": 0.01,
-   "ts": 1795363351,
-   "end_ts": 1795435200,
-   "q": "Will the highest temperature in New York City be between 64-65°F on November 23?",
-   "touched": 1
-  },
-  {
-   "id": "7219893",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "63400026995475544156750778439814937031859856629170069790081136691952780808672",
-   "px": 0.96,
-   "tick": 0.01,
-   "ts": 1795363351,
-   "end_ts": 1795435200,
-   "q": "Will the highest temperature in Atlanta be between 64-65°F on November 23?",
-   "touched": 1
-  },
-  {
    "id": "7219948",
    "rule": "clima_cierre",
    "cat": "clima",
@@ -17550,19 +17084,6 @@
    "ts": 1795363351,
    "end_ts": 1795582740,
    "q": "Will \"Taken: Natalee Holloway: Season 1\" be the #2 US Netflix show this week?",
-   "touched": 1
-  },
-  {
-   "id": "7219908",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "10376683540127101551601292606632577041746231358790698510099286206096043823818",
-   "px": 0.965,
-   "tick": 0.001,
-   "ts": 1795366946,
-   "end_ts": 1795435200,
-   "q": "Will the highest temperature in Miami be between 82-83°F on November 23?",
    "touched": 1
   },
   {
@@ -19841,45 +19362,6 @@
    "touched": 1
   },
   {
-   "id": "7219715",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "48381619953281828374585314150077675457003689234494670947417241743721280777171",
-   "px": 0.993,
-   "tick": 0.001,
-   "ts": 1795381307,
-   "end_ts": 1795435200,
-   "q": "Will the lowest temperature in Miami be 61°F or below on November 23?",
-   "touched": 1
-  },
-  {
-   "id": "7219721",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "32979406584862709871233922450116942450151831805907110424174137108518793078618",
-   "px": 0.993,
-   "tick": 0.001,
-   "ts": 1795381307,
-   "end_ts": 1795435200,
-   "q": "Will the lowest temperature in Miami be between 72-73°F on November 23?",
-   "touched": 1
-  },
-  {
-   "id": "7219722",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "114779618034764873980518787590505769834907789366135279766163613597562683728866",
-   "px": 0.996,
-   "tick": 0.001,
-   "ts": 1795381307,
-   "end_ts": 1795435200,
-   "q": "Will the lowest temperature in Miami be between 74-75°F on November 23?",
-   "touched": 1
-  },
-  {
    "id": "7221112",
    "rule": "clima_cierre",
    "cat": "clima",
@@ -20998,19 +20480,6 @@
    "touched": 1
   },
   {
-   "id": "7219716",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "77385960304748558755482616377096831395344923198594264117595115000092233735558",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795395686,
-   "end_ts": 1795435200,
-   "q": "Will the lowest temperature in Miami be between 62-63°F on November 23?",
-   "touched": 1
-  },
-  {
    "id": "7221129",
    "rule": "clima_cierre",
    "cat": "clima",
@@ -21518,19 +20987,6 @@
    "touched": 1
   },
   {
-   "id": "6927819",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "94334991482126312425103437711165610486442244353428711893196554403547806928426",
-   "px": 0.989,
-   "tick": 0.001,
-   "ts": 1795406490,
-   "end_ts": 1795485600,
-   "q": "LD Alajuelense vs. CS Cartaginés: O/U 6.5",
-   "touched": 1
-  },
-  {
    "id": "7247405",
    "rule": "clima_cierre",
    "cat": "clima",
@@ -21724,45 +21180,6 @@
    "end_ts": 1795435200,
    "q": "Will the highest temperature in Seattle be between 48-49°F on November 23?",
    "touched": 0
-  },
-  {
-   "id": "6927804",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "57454272338287173763584338065797200814226985320718254026367096311764662778263",
-   "px": 0.95,
-   "tick": 0.01,
-   "ts": 1795410106,
-   "end_ts": 1795485600,
-   "q": "Spread: CS Cartaginés (-1.5)",
-   "touched": 1
-  },
-  {
-   "id": "6927806",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "34051057957278656258043531573093280112033247500139622197364584782064741097730",
-   "px": 0.99,
-   "tick": 0.001,
-   "ts": 1795410106,
-   "end_ts": 1795485600,
-   "q": "Spread: CS Cartaginés (-2.5)",
-   "touched": 1
-  },
-  {
-   "id": "6927808",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "72369400158207819919611409325907138137023852231247511643628143379857998346343",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795410106,
-   "end_ts": 1795485600,
-   "q": "Spread: CS Cartaginés (-3.5)",
-   "touched": 1
   },
   {
    "id": "6907475",
@@ -22064,149 +21481,6 @@
    "touched": 1
   },
   {
-   "id": "6962396",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "55444842983502341879069981072950125963674135667799999206910325081611413347179",
-   "px": 0.989,
-   "tick": 0.001,
-   "ts": 1795417297,
-   "end_ts": 1795446000,
-   "q": "Spread: Wadi Degla SC (-3.5)",
-   "touched": null
-  },
-  {
-   "id": "7244880",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "42914478150784147260897099376101319177108148774773087615792906795331702548730",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795417297,
-   "end_ts": 1795441500,
-   "q": "Spread: FK Neftchi Fargona (-2.5)",
-   "touched": null
-  },
-  {
-   "id": "7274558",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "18557425483872425046096654389598406699276879080829483175586703049833910805351",
-   "px": 0.96,
-   "tick": 0.01,
-   "ts": 1795417297,
-   "end_ts": 1795480200,
-   "q": "Nets vs. Timberwolves: O/U 197.5",
-   "touched": null
-  },
-  {
-   "id": "7274581",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "40963021233007597285963702705220796897545803690512998832768033952703162559154",
-   "px": 0.983,
-   "tick": 0.001,
-   "ts": 1795417297,
-   "end_ts": 1795480200,
-   "q": "Bucks vs. Raptors: O/U 194.5",
-   "touched": null
-  },
-  {
-   "id": "7274586",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "14140010570443731272234216328172823066738950063493715545166738709537425495960",
-   "px": 0.96,
-   "tick": 0.01,
-   "ts": 1795417297,
-   "end_ts": 1795478400,
-   "q": "Grizzlies vs. Hornets: O/U 244.5",
-   "touched": null
-  },
-  {
-   "id": "7277300",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "2063695691278490646581423677943714437619937327621633100504125682873113469938",
-   "px": 0.96,
-   "tick": 0.01,
-   "ts": 1795417297,
-   "end_ts": 1795480200,
-   "q": "Spread: Thunder (-27.5)",
-   "touched": null
-  },
-  {
-   "id": "7278882",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "34213658710618933957947002231962730000638250738292792223068923850655428904046",
-   "px": 0.989,
-   "tick": 0.001,
-   "ts": 1795417297,
-   "end_ts": 1795480200,
-   "q": "Julius Randle: 3-Pointers Made O/U 4.5",
-   "touched": null
-  },
-  {
-   "id": "6998538",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "78688146114522182308249618596781717347639143392213741945397605334155420069549",
-   "px": 0.969,
-   "tick": 0.001,
-   "ts": 1795417297,
-   "end_ts": 1795489200,
-   "q": "Alabama State Hornets vs. California Golden Bears",
-   "touched": null
-  },
-  {
-   "id": "7274850",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "51102066977716704149994457750121459295316001185643236479541870101879834373399",
-   "px": 0.97,
-   "tick": 0.01,
-   "ts": 1795417297,
-   "end_ts": 1795489200,
-   "q": "Spurs vs. Kings: O/U 253.5",
-   "touched": null
-  },
-  {
-   "id": "7279383",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "76244063212803050859417926292809253901459841657729966413811531312041640751676",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795417297,
-   "end_ts": 1795496400,
-   "q": "Will Bitcoin reach $68,000 on November 23?",
-   "touched": null
-  },
-  {
-   "id": "7279438",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "16749987962996406365830731428398467831961673240324568108832191400742374486461",
-   "px": 0.95,
-   "tick": 0.01,
-   "ts": 1795417297,
-   "end_ts": 1795496400,
-   "q": "Will Ethereum reach $1,850 on November 23?",
-   "touched": null
-  },
-  {
    "id": "7247547",
    "rule": "clima_cierre",
    "cat": "clima",
@@ -22217,7 +21491,7 @@
    "ts": 1795417297,
    "end_ts": 1795521600,
    "q": "Will the highest temperature in Guangzhou be 20°C on November 24?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7247673",
@@ -22230,7 +21504,7 @@
    "ts": 1795417297,
    "end_ts": 1795521600,
    "q": "Will the lowest temperature in Tokyo be 15°C on November 24?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7249569",
@@ -22243,7 +21517,7 @@
    "ts": 1795417297,
    "end_ts": 1795521600,
    "q": "Will the highest temperature in Dallas be between 54-55°F on November 24?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7249598",
@@ -22256,7 +21530,7 @@
    "ts": 1795417297,
    "end_ts": 1795521600,
    "q": "Will the highest temperature in Chicago be between 34-35°F on November 24?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7249599",
@@ -22269,7 +21543,7 @@
    "ts": 1795417297,
    "end_ts": 1795521600,
    "q": "Will the highest temperature in Chicago be between 36-37°F on November 24?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7249603",
@@ -22282,7 +21556,7 @@
    "ts": 1795417297,
    "end_ts": 1795521600,
    "q": "Will the highest temperature in Chicago be between 44-45°F on November 24?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7251777",
@@ -22295,7 +21569,7 @@
    "ts": 1795417297,
    "end_ts": 1795521600,
    "q": "Will the highest temperature in Toronto be 6°C on November 24?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6973949",
@@ -22308,7 +21582,7 @@
    "ts": 1795417297,
    "end_ts": 1795546800,
    "q": "Benevento Calcio vs. Empoli FC: O/U 0.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7253543",
@@ -22321,7 +21595,7 @@
    "ts": 1795417297,
    "end_ts": 1795546800,
    "q": "Will it rain in Denver, CO on November 23?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6959966",
@@ -22334,7 +21608,7 @@
    "ts": 1795417297,
    "end_ts": 1795549500,
    "q": "Portsmouth FC vs. West Ham United FC: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6968868",
@@ -22347,7 +21621,7 @@
    "ts": 1795417297,
    "end_ts": 1795575600,
    "q": "Spread: Houston Dynamo (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7150203",
@@ -22360,7 +21634,7 @@
    "ts": 1795417297,
    "end_ts": 1795626000,
    "q": "Will the price of Solana be above $65 on November 25?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7246897",
@@ -37596,6 +36870,565 @@
    "ts": 1795500114,
    "end_ts": 1795715100,
    "q": "RC Celta de Vigo vs. AFC Bournemouth: O/U 5.5",
+   "touched": null
+  },
+  {
+   "id": "6928143",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "115657453607943908069426330788201880767814645177297240042564908335476746240093",
+   "px": 0.996,
+   "tick": 0.001,
+   "ts": 1795503698,
+   "end_ts": 1795523100,
+   "q": "Counter-Strike: PVISION vs DENDELE CS (BO1) - PGL Major Singapore Stage 1",
+   "touched": null
+  },
+  {
+   "id": "7289479",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "37756501198391501403344734125566196309485766626857296068737708564697439237904",
+   "px": 0.95,
+   "tick": 0.01,
+   "ts": 1795503698,
+   "end_ts": 1795536000,
+   "q": "Spread: Al-Seeb (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "7289480",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "47787376772778660755578750136551481436808128801351229344873129232295890163430",
+   "px": 0.96,
+   "tick": 0.01,
+   "ts": 1795503698,
+   "end_ts": 1795536000,
+   "q": "Spread: Al Shorta SC (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "7289482",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "86472023253444611195358026960642636615296623351556838519540105452089701736574",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1795503698,
+   "end_ts": 1795536000,
+   "q": "Spread: Al Shorta SC (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "6973944",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "35097923048998321379902905741595774373335973374784764297126291732589825700853",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795503698,
+   "end_ts": 1795546800,
+   "q": "Spread: Empoli FC (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "7121596",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "32417913218547292211903961079332527323086353242527474318829594441176679780015",
+   "px": 0.95,
+   "tick": 0.01,
+   "ts": 1795503698,
+   "end_ts": 1795539600,
+   "q": "Will the price of Solana be above $75 on November 24?",
+   "touched": null
+  },
+  {
+   "id": "7121622",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "112333535693229803008920680043288668094749499675212197759452582898165798893033",
+   "px": 0.96,
+   "tick": 0.01,
+   "ts": 1795503698,
+   "end_ts": 1795539600,
+   "q": "Will the price of XRP be between $1.00 and $1.10 on November 24?",
+   "touched": null
+  },
+  {
+   "id": "7245680",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "20605317078549661845005368153552335026403495966031891490172444653794316015124",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795503698,
+   "end_ts": 1795544100,
+   "q": "Al Nassr Club vs. Al Sadd SC: O/U 8.5",
+   "touched": null
+  },
+  {
+   "id": "6960245",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "75220676781457495120205922989442046399443817177181355272630576609363317973983",
+   "px": 0.956,
+   "tick": 0.001,
+   "ts": 1795503698,
+   "end_ts": 1795549500,
+   "q": "Spread: Lincoln City FC (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "6961056",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "67837564882958816416113792841674940265214842264838505672335636547585694973421",
+   "px": 0.986,
+   "tick": 0.001,
+   "ts": 1795503698,
+   "end_ts": 1795549500,
+   "q": "Spread: Hornchurch FC (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "6998576",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "12584291778459527350144366348073853951004830194317755118619304498981707900909",
+   "px": 0.95,
+   "tick": 0.01,
+   "ts": 1795503698,
+   "end_ts": 1795564800,
+   "q": "Stetson Hatters vs. South Florida Bulls",
+   "touched": null
+  },
+  {
+   "id": "7291868",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "81181416800154679666232196852263818095657759497135227638613240163733061641906",
+   "px": 0.96,
+   "tick": 0.01,
+   "ts": 1795503698,
+   "end_ts": 1795568400,
+   "q": "Celtics vs. Wizards: O/U 191.5",
+   "touched": null
+  },
+  {
+   "id": "7291880",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "13502756205035021770110059461614674898034861115781928912079354581842940808122",
+   "px": 0.979,
+   "tick": 0.001,
+   "ts": 1795503698,
+   "end_ts": 1795568400,
+   "q": "Celtics vs. Wizards: O/U 189.5",
+   "touched": null
+  },
+  {
+   "id": "7291896",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "63533812687379629411154958701863268633473288302748692347567820344224915100560",
+   "px": 0.97,
+   "tick": 0.01,
+   "ts": 1795503698,
+   "end_ts": 1795575600,
+   "q": "Spread: Mavericks (-13.5)",
+   "touched": null
+  },
+  {
+   "id": "7302498",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "107693770992834430902058556730969187677084148896944382384457046241032631416294",
+   "px": 0.984,
+   "tick": 0.001,
+   "ts": 1795503698,
+   "end_ts": 1795575600,
+   "q": "Spread: FC Ryukyu (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "7302499",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "30248869113501955798983160501136069892110583635420170320115169811847272184394",
+   "px": 0.984,
+   "tick": 0.001,
+   "ts": 1795503698,
+   "end_ts": 1795575600,
+   "q": "Spread: Roasso Kumamoto (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "7302510",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "37081597967099245390821365852142775109054887226665629703715414916050275402159",
+   "px": 0.979,
+   "tick": 0.001,
+   "ts": 1795503698,
+   "end_ts": 1795575600,
+   "q": "FC Ryukyu vs. Roasso Kumamoto: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "7301910",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "15074847281251298707473478447654714310079968927439560932529118306068736066166",
+   "px": 0.95,
+   "tick": 0.01,
+   "ts": 1795503698,
+   "end_ts": 1795582800,
+   "q": "Will Bitcoin dip to $56,000 on November 24?",
+   "touched": null
+  },
+  {
+   "id": "7301971",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "72366099477691406030506456531640887195109192779333704357252930596452163483342",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795503698,
+   "end_ts": 1795582800,
+   "q": "Will Ethereum reach $1,950 on November 24?",
+   "touched": null
+  },
+  {
+   "id": "7301977",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "105723443090377605080706794074048707978912893781413889246754814120137986982817",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795503698,
+   "end_ts": 1795582800,
+   "q": "Will Ethereum reach $1,900 on November 24?",
+   "touched": null
+  },
+  {
+   "id": "7301983",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "48576903850846517492872991039682582873975895220462069392020864930542446536813",
+   "px": 0.98,
+   "tick": 0.001,
+   "ts": 1795503698,
+   "end_ts": 1795582800,
+   "q": "Will Ethereum reach $1,850 on November 24?",
+   "touched": null
+  },
+  {
+   "id": "7302038",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "7932696011219920175791123092372273848781813956923371530280283540353445223293",
+   "px": 0.964,
+   "tick": 0.001,
+   "ts": 1795503698,
+   "end_ts": 1795582800,
+   "q": "Will Ethereum dip to $1,550 on November 24?",
+   "touched": null
+  },
+  {
+   "id": "7302043",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "52947398395318163122687133764696243027506925603456172948139449670676541700101",
+   "px": 0.987,
+   "tick": 0.001,
+   "ts": 1795503698,
+   "end_ts": 1795582800,
+   "q": "Will Ethereum dip to $1,500 on November 24?",
+   "touched": null
+  },
+  {
+   "id": "7302048",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "103537739589650051159953419911266185703975789588838853667165325209055415000291",
+   "px": 0.991,
+   "tick": 0.001,
+   "ts": 1795503698,
+   "end_ts": 1795582800,
+   "q": "Will Ethereum dip to $1,450 on November 24?",
+   "touched": null
+  },
+  {
+   "id": "7302053",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "39719376070415381566522488640752003352545900535985814987341669040116018818739",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795503698,
+   "end_ts": 1795582800,
+   "q": "Will Ethereum dip to $1,400 on November 24?",
+   "touched": null
+  },
+  {
+   "id": "6974944",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "110709277968115199430723138514061666892194148687230245776556015818399397611710",
+   "px": 0.988,
+   "tick": 0.001,
+   "ts": 1795503698,
+   "end_ts": 1795600800,
+   "q": "Montedio Yamagata vs. Júbilo Iwata: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "6989845",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "98073232022160566926464046580847082075757661381666238874872541694807396635970",
+   "px": 0.981,
+   "tick": 0.001,
+   "ts": 1795503698,
+   "end_ts": 1795600800,
+   "q": "Spread: Shimizu S-Pulse (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "6989889",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "101969688331921327219388271391448264889192233349993729359400076566146212094192",
+   "px": 0.96,
+   "tick": 0.01,
+   "ts": 1795503698,
+   "end_ts": 1795600800,
+   "q": "Spread: V-Varen Nagasaki (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "6989979",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "109912046112162692553917525866701427657594172543980593514008931374579590784719",
+   "px": 0.96,
+   "tick": 0.01,
+   "ts": 1795503698,
+   "end_ts": 1795600800,
+   "q": "Spread: JEF United Ichihara Chiba (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "7253309",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "100861354766477086468634163517039170183338379519045517588476346526562080801337",
+   "px": 0.96,
+   "tick": 0.01,
+   "ts": 1795503698,
+   "end_ts": 1795600800,
+   "q": "Spread: Port FC (-1.5)",
+   "touched": null
+  },
+  {
+   "id": "7253371",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "11147282731901798396790393492137933751845431538019644902149529939113769558975",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1795503698,
+   "end_ts": 1795600800,
+   "q": "Kashima Antlers vs. Jeonbuk FC: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "7280217",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "39022005781089582290357886017595172616956183250499349467759758038264766202717",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795503698,
+   "end_ts": 1795608000,
+   "q": "Will the highest temperature in Jeddah be 30°C on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7280219",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "9440502344547025273609299698347625427856479537014741396942115503989603195057",
+   "px": 0.979,
+   "tick": 0.001,
+   "ts": 1795503698,
+   "end_ts": 1795608000,
+   "q": "Will the highest temperature in Jeddah be 32°C on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7280223",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "32874664874501484141210672656055854938558160134918507042453574559525558608442",
+   "px": 0.95,
+   "tick": 0.01,
+   "ts": 1795503698,
+   "end_ts": 1795608000,
+   "q": "Will the highest temperature in Jeddah be 36°C on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7280237",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "21525588454861539754478888621189764252380180237971860991712991763290622019814",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795503698,
+   "end_ts": 1795608000,
+   "q": "Will the highest temperature in Cape Town be 19°C or below on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7280247",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "22523405990896940593294438186113428711155305000806492192305757502466023234477",
+   "px": 0.992,
+   "tick": 0.001,
+   "ts": 1795503698,
+   "end_ts": 1795608000,
+   "q": "Will the highest temperature in Cape Town be 29°C or higher on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7282524",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "96199331637188843547493382326967520214419824638882363946900798406673956466132",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795503698,
+   "end_ts": 1795608000,
+   "q": "Will the highest temperature in Chicago be between 36-37°F on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7282525",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "7805025105931709882536873246436740441787517810403345860910530830228781501981",
+   "px": 0.992,
+   "tick": 0.001,
+   "ts": 1795503698,
+   "end_ts": 1795608000,
+   "q": "Will the highest temperature in Chicago be between 38-39°F on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7282549",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "27104174781674563076704933700275930943917679841744778031584351373224241887656",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795503698,
+   "end_ts": 1795608000,
+   "q": "Will the highest temperature in Houston be between 52-53°F on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7282550",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "83177111931214226627332290080506775871543246706539988719314496711792270887611",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1795503698,
+   "end_ts": 1795608000,
+   "q": "Will the highest temperature in Houston be between 54-55°F on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7282554",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "19833830094583981020463701051652643473258437144185734144649417552378529584242",
+   "px": 0.95,
+   "tick": 0.01,
+   "ts": 1795503698,
+   "end_ts": 1795608000,
+   "q": "Will the highest temperature in Houston be between 62-63°F on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7282555",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "107566870405270824079032717436501643525795751526524347596023981398956732850742",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1795503698,
+   "end_ts": 1795608000,
+   "q": "Will the highest temperature in Houston be between 64-65°F on November 25?",
+   "touched": null
+  },
+  {
+   "id": "6985612",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "33613307731372367832385531888894135463198657131544517653631528300541617172478",
+   "px": 0.991,
+   "tick": 0.001,
+   "ts": 1795503698,
+   "end_ts": 1795636800,
+   "q": "Stoke City FC vs. Millwall FC: O/U 6.5",
    "touched": null
   }
  ]

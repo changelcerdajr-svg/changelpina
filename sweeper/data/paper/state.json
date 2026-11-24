@@ -1,29 +1,8 @@
 {
  "capital0": 1000.0,
- "cash": 362.499,
+ "cash": 362.3649,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
-  {
-   "oid": "7196040-1795456866",
-   "id": "7196040",
-   "q": "Will Microsoft (MSFT) close above $470 on November 23?",
-   "cat": "otros",
-   "rule": "otros_cierre",
-   "event": "1431384",
-   "side": 0,
-   "token": "33911900923129028790089242634032124099976780325694420777175145191276316463307",
-   "px": 0.995,
-   "tick": 0.001,
-   "mid": 0.995,
-   "bid": 0.991,
-   "ask": 0.999,
-   "shares": 51.6609,
-   "cost": 51.4026,
-   "ts": 1795456866.832403,
-   "end_ts": 1795467600.0,
-   "hours": 2.98,
-   "liq": 2966
-  },
   {
    "oid": "6364958-1795467673",
    "id": "6364958",
@@ -191,6 +170,27 @@
    "end_ts": 1795522500.0,
    "hours": 8.23,
    "liq": 1517
+  },
+  {
+   "oid": "6364894-1795503668",
+   "id": "6364894",
+   "q": "Will the next Claude Opus model (5.6+) be released on November 24, 2026?",
+   "cat": "otros",
+   "rule": "otros_cierre",
+   "event": "1274168",
+   "side": 1,
+   "token": "36652911116760252941233478851915596504672427266223864307592753101753556644932",
+   "px": 0.982,
+   "tick": 0.001,
+   "mid": 0.982,
+   "bid": 0.968,
+   "ask": 0.996,
+   "shares": 52.4813,
+   "cost": 51.5367,
+   "ts": 1795503668.059187,
+   "end_ts": 1795582740.0,
+   "hours": 21.96,
+   "liq": 1245
   }
  ],
  "positions": [
@@ -290,7 +290,7 @@
    "hours": 8.73,
    "liq": 1737,
    "fill_ts": 1795495764.316771,
-   "mark": 0.9785,
+   "mark": 0.9845,
    "stuck": false,
    "disputed": false
   }
@@ -7096,13 +7096,26 @@
    "placed": 0,
    "shadow_open": 377,
    "shadow_closed": 47
+  },
+  {
+   "ts": "2026-11-24T07:01:38Z",
+   "equity": 1030.73,
+   "cash": 362.36,
+   "orders": 9,
+   "positions": 4,
+   "closed": 108,
+   "scanned": 9734,
+   "candidates": 247,
+   "placed": 1,
+   "shadow_open": 395,
+   "shadow_closed": 7
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 465,
+  "placed": 466,
   "filled": 112,
-  "expired": 104,
+  "expired": 105,
   "touched_not_filled": 240
  },
  "shadow": [
@@ -7289,19 +7302,6 @@
    "touched": 0
   },
   {
-   "id": "7016055",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "37572963886982972863464343909982908480153496462794002424499743730503357799559",
-   "px": 0.987,
-   "tick": 0.001,
-   "ts": 1795381263,
-   "end_ts": 1795489200,
-   "q": "Northern Arizona Lumberjacks vs. USC Trojans (W)",
-   "touched": 0
-  },
-  {
    "id": "7244650",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -7312,45 +7312,6 @@
    "ts": 1795399261,
    "end_ts": 1795506300,
    "q": "Newcastle United Jets vs. Kashiwa Reysol: O/U 0.5",
-   "touched": 1
-  },
-  {
-   "id": "6927806",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "34051057957278656258043531573093280112033247500139622197364584782064741097730",
-   "px": 0.985,
-   "tick": 0.001,
-   "ts": 1795410068,
-   "end_ts": 1795485600,
-   "q": "Spread: CS Cartaginés (-2.5)",
-   "touched": 1
-  },
-  {
-   "id": "6927808",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "72369400158207819919611409325907138137023852231247511643628143379857998346343",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795410068,
-   "end_ts": 1795485600,
-   "q": "Spread: CS Cartaginés (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "6927819",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "94334991482126312425103437711165610486442244353428711893196554403547806928426",
-   "px": 0.972,
-   "tick": 0.001,
-   "ts": 1795410068,
-   "end_ts": 1795485600,
-   "q": "LD Alajuelense vs. CS Cartaginés: O/U 6.5",
    "touched": 1
   },
   {
@@ -7989,19 +7950,6 @@
    "end_ts": 1795550400,
    "q": "Manchester City FC vs. SSC Napoli: O/U 0.5",
    "touched": 0
-  },
-  {
-   "id": "7219897",
-   "rule": "post_fin_95_97",
-   "cat": "clima",
-   "side": 1,
-   "token": "5494051699560144642275593804928697281953734664503275065554916491895851315906",
-   "px": 0.968,
-   "tick": 0.001,
-   "ts": 1795446074,
-   "end_ts": 1795435200,
-   "q": "Will the highest temperature in Atlanta be between 72-73°F on November 23?",
-   "touched": 1
   },
   {
    "id": "6974102",
@@ -9070,32 +9018,6 @@
    "touched": 1
   },
   {
-   "id": "7196021",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 0,
-   "token": "14152126511909217842429521076886138030612455384185842270208163448035915536247",
-   "px": 0.989,
-   "tick": 0.001,
-   "ts": 1795456866,
-   "end_ts": 1795467600,
-   "q": "Microsoft (MSFT) Up or Down on November 23?",
-   "touched": null
-  },
-  {
-   "id": "6949221",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 0,
-   "token": "106975052373117809618115386148571887571571299002841674047293277739889964108357",
-   "px": 0.992,
-   "tick": 0.001,
-   "ts": 1795456866,
-   "end_ts": 1795496340,
-   "q": "Will gemini-4-carbon-high be the best AI model on November 23, 2026?",
-   "touched": null
-  },
-  {
    "id": "6756523",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -9106,7 +9028,7 @@
    "ts": 1795456866,
    "end_ts": 1795542300,
    "q": "FK Bodø/Glimt vs. LASK Linz: Neither team to score first?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7121538",
@@ -9119,7 +9041,7 @@
    "ts": 1795456866,
    "end_ts": 1795539600,
    "q": "Will the price of Bitcoin be between $66,000 and $68,000 on November 24?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7121598",
@@ -9132,7 +9054,7 @@
    "ts": 1795456866,
    "end_ts": 1795539600,
    "q": "Will the price of Solana be above $80 on November 24?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7121600",
@@ -9145,7 +9067,7 @@
    "ts": 1795456866,
    "end_ts": 1795539600,
    "q": "Will the price of Solana be above $85 on November 24?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7121607",
@@ -9158,7 +9080,7 @@
    "ts": 1795456866,
    "end_ts": 1795539600,
    "q": "Will the price of XRP be above $0.50 on November 24?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7121608",
@@ -9171,7 +9093,7 @@
    "ts": 1795456866,
    "end_ts": 1795539600,
    "q": "Will the price of XRP be above $0.60 on November 24?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7121621",
@@ -9184,7 +9106,7 @@
    "ts": 1795456866,
    "end_ts": 1795539600,
    "q": "Will the price of XRP be above $1.30 on November 24?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7121623",
@@ -9197,7 +9119,7 @@
    "ts": 1795456866,
    "end_ts": 1795539600,
    "q": "Will the price of XRP be above $1.40 on November 24?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7121625",
@@ -9210,7 +9132,7 @@
    "ts": 1795456866,
    "end_ts": 1795539600,
    "q": "Will the price of XRP be above $1.50 on November 24?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6970130",
@@ -9223,7 +9145,7 @@
    "ts": 1795456866,
    "end_ts": 1795550400,
    "q": "Manchester City FC vs. SSC Napoli: O/U 8.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6998580",
@@ -9236,7 +9158,7 @@
    "ts": 1795456866,
    "end_ts": 1795564800,
    "q": "Jacksonville Dolphins vs. Indiana Hoosiers",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6998614",
@@ -9249,7 +9171,7 @@
    "ts": 1795456866,
    "end_ts": 1795564800,
    "q": "UMBC Retrievers vs. Iowa Hawkeyes",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7016057",
@@ -9262,7 +9184,7 @@
    "ts": 1795456866,
    "end_ts": 1795564800,
    "q": "Gardner-Webb Runnin' Bulldogs vs. North Carolina Tar Heels (W)",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7016062",
@@ -9275,7 +9197,7 @@
    "ts": 1795456866,
    "end_ts": 1795564800,
    "q": "Louisiana-Monroe Warhawks vs. Alabama Crimson Tide (W)",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7219930",
@@ -12005,6 +11927,331 @@
    "ts": 1795500065,
    "end_ts": 1795600800,
    "q": "Kashima Antlers vs. Jeonbuk FC: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "7289482",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "86472023253444611195358026960642636615296623351556838519540105452089701736574",
+   "px": 0.987,
+   "tick": 0.001,
+   "ts": 1795503668,
+   "end_ts": 1795536000,
+   "q": "Spread: Al Shorta SC (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "6973906",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "40041785648179195039911464336994300405538463204701083404078914890421006943812",
+   "px": 0.979,
+   "tick": 0.001,
+   "ts": 1795503668,
+   "end_ts": 1795546800,
+   "q": "Spread: Hellas Verona FC (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "6973944",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "35097923048998321379902905741595774373335973374784764297126291732589825700853",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1795503668,
+   "end_ts": 1795546800,
+   "q": "Spread: Empoli FC (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "6974015",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "34048728582611352723776842028749749338485001466342406952393333055118309495415",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795503668,
+   "end_ts": 1795546800,
+   "q": "Spread: L.R. Vicenza (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "6974078",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "84448102951473211907929673029223078695733187803591562557443862624859094990368",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795503668,
+   "end_ts": 1795546800,
+   "q": "Palermo FC vs. FC Südtirol: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "7121576",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "64154660554801262759335550409245329658286210187940611228861598998594257844789",
+   "px": 0.983,
+   "tick": 0.001,
+   "ts": 1795503668,
+   "end_ts": 1795539600,
+   "q": "Will the price of Ethereum be between $1,800 and $1,900 on November 24?",
+   "touched": null
+  },
+  {
+   "id": "7245667",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "68066819025227930573548441971962014062992486444650925365383108579227655471925",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1795503668,
+   "end_ts": 1795544100,
+   "q": "Spread: Al Sadd SC (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "7245680",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "20605317078549661845005368153552335026403495966031891490172444653794316015124",
+   "px": 0.987,
+   "tick": 0.001,
+   "ts": 1795503668,
+   "end_ts": 1795544100,
+   "q": "Al Nassr Club vs. Al Sadd SC: O/U 8.5",
+   "touched": null
+  },
+  {
+   "id": "7285752",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "19844612043057692264817124531678454722338623914557224000125025092681585263960",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1795503668,
+   "end_ts": 1795541400,
+   "q": "Spread: Lamontville Golden Arrows (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "7285754",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "36869821139092821770666760826186084719816342039355040600452284250030043151074",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1795503668,
+   "end_ts": 1795541400,
+   "q": "Spread: Lamontville Golden Arrows (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "7285765",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "50006419451712349312194858249089353772718982278574263792825438006711955604595",
+   "px": 0.984,
+   "tick": 0.001,
+   "ts": 1795503668,
+   "end_ts": 1795541400,
+   "q": "Orlando Pirates FC vs. Lamontville Golden Arrows: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "6961056",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "67837564882958816416113792841674940265214842264838505672335636547585694973421",
+   "px": 0.978,
+   "tick": 0.001,
+   "ts": 1795503668,
+   "end_ts": 1795549500,
+   "q": "Spread: Hornchurch FC (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "6961255",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "63177632030811193445359246208552690819129195217506002505323771924961412728853",
+   "px": 0.977,
+   "tick": 0.001,
+   "ts": 1795503668,
+   "end_ts": 1795549500,
+   "q": "Spread: Boston United FC (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "7302498",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "107693770992834430902058556730969187677084148896944382384457046241032631416294",
+   "px": 0.98,
+   "tick": 0.001,
+   "ts": 1795503668,
+   "end_ts": 1795575600,
+   "q": "Spread: FC Ryukyu (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "7302499",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "30248869113501955798983160501136069892110583635420170320115169811847272184394",
+   "px": 0.98,
+   "tick": 0.001,
+   "ts": 1795503668,
+   "end_ts": 1795575600,
+   "q": "Spread: Roasso Kumamoto (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "7302510",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "37081597967099245390821365852142775109054887226665629703715414916050275402159",
+   "px": 0.972,
+   "tick": 0.001,
+   "ts": 1795503668,
+   "end_ts": 1795575600,
+   "q": "FC Ryukyu vs. Roasso Kumamoto: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "7301875",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "4832836506259101066327399063132424372315927625948894328991219014772441343166",
+   "px": 0.978,
+   "tick": 0.001,
+   "ts": 1795503668,
+   "end_ts": 1795582800,
+   "q": "Will Bitcoin reach $65,000 on November 24?",
+   "touched": null
+  },
+  {
+   "id": "7301971",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "72366099477691406030506456531640887195109192779333704357252930596452163483342",
+   "px": 0.992,
+   "tick": 0.001,
+   "ts": 1795503668,
+   "end_ts": 1795582800,
+   "q": "Will Ethereum reach $1,950 on November 24?",
+   "touched": null
+  },
+  {
+   "id": "7301977",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "105723443090377605080706794074048707978912893781413889246754814120137986982817",
+   "px": 0.99,
+   "tick": 0.001,
+   "ts": 1795503668,
+   "end_ts": 1795582800,
+   "q": "Will Ethereum reach $1,900 on November 24?",
+   "touched": null
+  },
+  {
+   "id": "7301983",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "48576903850846517492872991039682582873975895220462069392020864930542446536813",
+   "px": 0.975,
+   "tick": 0.001,
+   "ts": 1795503668,
+   "end_ts": 1795582800,
+   "q": "Will Ethereum reach $1,850 on November 24?",
+   "touched": null
+  },
+  {
+   "id": "7302043",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "52947398395318163122687133764696243027506925603456172948139449670676541700101",
+   "px": 0.979,
+   "tick": 0.001,
+   "ts": 1795503668,
+   "end_ts": 1795582800,
+   "q": "Will Ethereum dip to $1,500 on November 24?",
+   "touched": null
+  },
+  {
+   "id": "7302048",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "103537739589650051159953419911266185703975789588838853667165325209055415000291",
+   "px": 0.986,
+   "tick": 0.001,
+   "ts": 1795503668,
+   "end_ts": 1795582800,
+   "q": "Will Ethereum dip to $1,450 on November 24?",
+   "touched": null
+  },
+  {
+   "id": "7302053",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "39719376070415381566522488640752003352545900535985814987341669040116018818739",
+   "px": 0.993,
+   "tick": 0.001,
+   "ts": 1795503668,
+   "end_ts": 1795582800,
+   "q": "Will Ethereum dip to $1,400 on November 24?",
+   "touched": null
+  },
+  {
+   "id": "6974944",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "110709277968115199430723138514061666892194148687230245776556015818399397611710",
+   "px": 0.974,
+   "tick": 0.001,
+   "ts": 1795503668,
+   "end_ts": 1795600800,
+   "q": "Montedio Yamagata vs. Júbilo Iwata: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "6989949",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "39384480729350538215849393709017138585430296262165250784232509198631897310594",
+   "px": 0.99,
+   "tick": 0.001,
+   "ts": 1795503668,
+   "end_ts": 1795600800,
+   "q": "FC Tōkyō vs. Sanfrecce Hiroshima: O/U 7.5",
    "touched": null
   }
  ]
