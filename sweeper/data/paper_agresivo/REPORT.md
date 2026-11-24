@@ -2,8 +2,8 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 11.1 de 28 | corridas: 250
-- Capital inicial: $1,000.00 | valor actual: $929.55 | P&L: $-70.45 (-7.04%)
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 11.1 de 28 | corridas: 251
+- Capital inicial: $1,000.00 | valor actual: $929.28 | P&L: $-70.72 (-7.07%)
 - Efectivo libre: $0.00 | en ordenes abiertas: $165.03 (3) | en posiciones: $787.03 (11)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $91.77 en 1 posiciones
 - Ordenes virtuales: 493 colocadas, 231 llenadas, 208 tocadas sin llenarse (sorteo 30%), 51 expiradas
@@ -31,7 +31,7 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
-| $91.77 | 99.8c | 82.7c | otros_cierre | si | Pakistan military action against Afghanistan by November 15, 2026? |
+| $91.77 | 99.8c | 82.4c | otros_cierre | si | Pakistan military action against Afghanistan by November 15, 2026? |
 | $35.36 | 99.8c | 97.4c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $4.5m and $5.5m at auction? |
 | $87.27 | 99.8c | 98.3c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
 | $93.01 | 98.8c | 90.5c | deportes_previo |  | Spread: Cong An Ha Noi FC (-2.5) |
@@ -47,22 +47,22 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 12972 | abiertas: 2197 | abiertas mas de 7 dias despues de su fecha de fin: 1
+- Resueltas: 13028 | abiertas: 2160 | abiertas mas de 7 dias despues de su fecha de fin: 1
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
-| clima_cierre | todas | 3536 | 98.82c | 98.90% | +0.08 pts | -0.27 a +0.42 | 39 |
-| clima_cierre | tocadas | 3277 | 98.85c | 98.81% | -0.04 pts | -0.40 a +0.33 | 39 |
-| cripto_cierre | todas | 1669 | 98.67c | 98.20% | -0.47 pts | -1.10 a +0.17 | 30 |
-| cripto_cierre | tocadas | 1522 | 98.72c | 98.03% | -0.69 pts | -1.38 a +0.00 | 30 |
-| deportes_previo | todas | 6186 | 98.04c | 97.45% | -0.59 pts | -0.98 a -0.20 | 160 |
-| deportes_previo | tocadas | 6045 | 98.08c | 97.43% | -0.65 pts | -1.05 a -0.25 | 158 |
-| otros_cierre | todas | 1336 | 98.96c | 97.16% | -1.80 pts | -2.69 a -0.92 | 38 |
-| otros_cierre | tocadas | 1247 | 98.92c | 96.95% | -1.97 pts | -2.92 a -1.02 | 38 |
-| post_fin_90_97 | todas | 245 | 94.02c | 93.47% | -0.55 pts | -3.61 a +2.51 | 16 |
-| post_fin_90_97 | tocadas | 207 | 94.13c | 92.27% | -1.86 pts | -5.46 a +1.73 | 16 |
-| TOTAL | todas | 12972 | 98.35c | 97.84% | -0.52 pts | -0.76 a -0.27 | 283 |
-| TOTAL | tocadas | 12298 | 98.38c | 97.74% | -0.64 pts | -0.91 a -0.38 | 281 |
+| clima_cierre | todas | 3537 | 98.82c | 98.90% | +0.08 pts | -0.26 a +0.42 | 39 |
+| clima_cierre | tocadas | 3278 | 98.84c | 98.81% | -0.03 pts | -0.40 a +0.33 | 39 |
+| cripto_cierre | todas | 1679 | 98.67c | 98.21% | -0.46 pts | -1.08 a +0.17 | 30 |
+| cripto_cierre | tocadas | 1531 | 98.72c | 98.04% | -0.68 pts | -1.36 a +0.01 | 30 |
+| deportes_previo | todas | 6196 | 98.04c | 97.46% | -0.58 pts | -0.97 a -0.19 | 160 |
+| deportes_previo | tocadas | 6055 | 98.07c | 97.43% | -0.64 pts | -1.04 a -0.25 | 158 |
+| otros_cierre | todas | 1370 | 98.97c | 97.23% | -1.74 pts | -2.61 a -0.88 | 38 |
+| otros_cierre | tocadas | 1264 | 98.92c | 96.99% | -1.93 pts | -2.87 a -1.00 | 38 |
+| post_fin_90_97 | todas | 246 | 94.02c | 93.50% | -0.52 pts | -3.57 a +2.53 | 16 |
+| post_fin_90_97 | tocadas | 208 | 94.13c | 92.31% | -1.83 pts | -5.40 a +1.75 | 16 |
+| TOTAL | todas | 13028 | 98.36c | 97.85% | -0.51 pts | -0.76 a -0.26 | 283 |
+| TOTAL | tocadas | 12336 | 98.38c | 97.74% | -0.64 pts | -0.90 a -0.38 | 281 |
 
 Peores casos del registro sombra:
 

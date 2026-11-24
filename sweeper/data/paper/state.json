@@ -1,29 +1,8 @@
 {
  "capital0": 1000.0,
- "cash": 413.8563,
+ "cash": 413.6705,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
-  {
-   "oid": "7279418-1795492866",
-   "id": "7279418",
-   "q": "Will Bitcoin dip to $59,000 on November 23?",
-   "cat": "cripto",
-   "rule": "cripto_cierre",
-   "event": "1446095",
-   "side": 1,
-   "token": "101824184829701843325082468180285694391932276129550541058809287882207699692510",
-   "px": 0.985,
-   "tick": 0.001,
-   "mid": 0.9855,
-   "bid": 0.981,
-   "ask": 0.99,
-   "shares": 52.2933,
-   "cost": 51.5089,
-   "ts": 1795492866.778485,
-   "end_ts": 1795496400.0,
-   "hours": 0.98,
-   "liq": 21086
-  },
   {
    "oid": "6618182-1795507270",
    "id": "6618182",
@@ -149,6 +128,27 @@
    "end_ts": 1795561200.0,
    "hours": 7.06,
    "liq": 2952
+  },
+  {
+   "oid": "7121520-1795536068",
+   "id": "7121520",
+   "q": "Will the price of Ethereum be above $1,600 on November 24?",
+   "cat": "cripto",
+   "rule": "cripto_cierre",
+   "event": "1410634",
+   "side": 0,
+   "token": "34360290472443215354360265096474395549129260452543236115129437612976376557479",
+   "px": 0.994,
+   "tick": 0.001,
+   "mid": 0.9945,
+   "bid": 0.994,
+   "ask": 0.995,
+   "shares": 52.0067,
+   "cost": 51.6947,
+   "ts": 1795536068.06962,
+   "end_ts": 1795539600.0,
+   "hours": 0.98,
+   "liq": 33314
   }
  ],
  "positions": [
@@ -7299,13 +7299,26 @@
    "placed": 1,
    "shadow_open": 484,
    "shadow_closed": 0
+  },
+  {
+   "ts": "2026-11-24T16:01:48Z",
+   "equity": 1033.9,
+   "cash": 413.67,
+   "orders": 7,
+   "positions": 5,
+   "closed": 111,
+   "scanned": 13198,
+   "candidates": 203,
+   "placed": 1,
+   "shadow_open": 495,
+   "shadow_closed": 0
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 486,
+  "placed": 487,
   "filled": 116,
-  "expired": 109,
+  "expired": 110,
   "touched_not_filled": 254
  },
  "shadow": [
@@ -9816,7 +9829,7 @@
    "ts": 1795492866,
    "end_ts": 1795532400,
    "q": "Smouha SC vs. National Bank of Egypt Club: O/U 5.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6962434",
@@ -9829,7 +9842,7 @@
    "ts": 1795492866,
    "end_ts": 1795543200,
    "q": "Spread: Asyut Petroleum SC (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6973980",
@@ -9842,7 +9855,7 @@
    "ts": 1795492866,
    "end_ts": 1795546800,
    "q": "Spread: Cesena FC (-3.5)",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6974017",
@@ -9855,7 +9868,7 @@
    "ts": 1795492866,
    "end_ts": 1795546800,
    "q": "Spread: L.R. Vicenza (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6974018",
@@ -9868,7 +9881,7 @@
    "ts": 1795492866,
    "end_ts": 1795546800,
    "q": "Spread: Carrarese Calcio (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6974067",
@@ -9881,7 +9894,7 @@
    "ts": 1795492866,
    "end_ts": 1795546800,
    "q": "Spread: FC Südtirol (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6974104",
@@ -9894,7 +9907,7 @@
    "ts": 1795492866,
    "end_ts": 1795543200,
    "q": "Spread: US Catanzaro 1929 (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7245663",
@@ -9907,7 +9920,7 @@
    "ts": 1795492866,
    "end_ts": 1795544100,
    "q": "Spread: Al Sadd SC (-1.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7245665",
@@ -9920,7 +9933,7 @@
    "ts": 1795492866,
    "end_ts": 1795544100,
    "q": "Spread: Al Sadd SC (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "4751173",
@@ -9933,7 +9946,7 @@
    "ts": 1795492866,
    "end_ts": 1795549500,
    "q": "Spread: Blackpool FC (-2.5)",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6959907",
@@ -9946,7 +9959,7 @@
    "ts": 1795492866,
    "end_ts": 1795550400,
    "q": "Spread: Derby County FC (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6960000",
@@ -9959,7 +9972,7 @@
    "ts": 1795492866,
    "end_ts": 1795549500,
    "q": "Spread: Sheffield United FC (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6960001",
@@ -9972,7 +9985,7 @@
    "ts": 1795492866,
    "end_ts": 1795549500,
    "q": "Spread: Southampton FC (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6960055",
@@ -9985,7 +9998,7 @@
    "ts": 1795492866,
    "end_ts": 1795549500,
    "q": "Spread: Swansea City AFC (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6960063",
@@ -9998,7 +10011,7 @@
    "ts": 1795492866,
    "end_ts": 1795549500,
    "q": "Spread: Swansea City AFC (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6960154",
@@ -10011,7 +10024,7 @@
    "ts": 1795492866,
    "end_ts": 1795549500,
    "q": "Spread: Bristol City FC (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6960155",
@@ -10024,7 +10037,7 @@
    "ts": 1795492866,
    "end_ts": 1795549500,
    "q": "Spread: Wrexham AFC (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6960201",
@@ -10037,7 +10050,7 @@
    "ts": 1795492866,
    "end_ts": 1795549500,
    "q": "Spread: Preston North End FC (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6960246",
@@ -10050,7 +10063,7 @@
    "ts": 1795492866,
    "end_ts": 1795549500,
    "q": "Spread: Charlton Athletic FC (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6960247",
@@ -10063,7 +10076,7 @@
    "ts": 1795492866,
    "end_ts": 1795549500,
    "q": "Spread: Lincoln City FC (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6961019",
@@ -10076,7 +10089,7 @@
    "ts": 1795492866,
    "end_ts": 1795549500,
    "q": "Spread: Southend United FC (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6961068",
@@ -10089,7 +10102,7 @@
    "ts": 1795492866,
    "end_ts": 1795549500,
    "q": "Hornchurch FC vs. Sutton United FC: O/U 6.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6961187",
@@ -10102,7 +10115,7 @@
    "ts": 1795492866,
    "end_ts": 1795549500,
    "q": "Carlisle United FC vs. Tamworth FC: O/U 0.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6961194",
@@ -10115,7 +10128,7 @@
    "ts": 1795492866,
    "end_ts": 1795549500,
    "q": "Carlisle United FC vs. Tamworth FC: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6961217",
@@ -10128,7 +10141,7 @@
    "ts": 1795492866,
    "end_ts": 1795549500,
    "q": "Spread: Wealdstone FC (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6961343",
@@ -10141,7 +10154,7 @@
    "ts": 1795492866,
    "end_ts": 1795549500,
    "q": "Scunthorpe United FC vs. Gateshead FC: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7016089",
@@ -10154,7 +10167,7 @@
    "ts": 1795492866,
    "end_ts": 1795561200,
    "q": "Niagara Purple Eagles vs. Duquesne Dukes (W)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7016097",
@@ -10167,7 +10180,7 @@
    "ts": 1795492866,
    "end_ts": 1795564800,
    "q": "Monmouth Hawks vs. Maryland Terrapins (W)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7224395",
@@ -10180,7 +10193,7 @@
    "ts": 1795492866,
    "end_ts": 1795562400,
    "q": "Spread: CA Bucaramanga (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7224304",
@@ -10193,7 +10206,7 @@
    "ts": 1795492866,
    "end_ts": 1795570200,
    "q": "Spread: AD Cali (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7224308",
@@ -10206,7 +10219,7 @@
    "ts": 1795492866,
    "end_ts": 1795570200,
    "q": "Spread: AD Cali (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7224331",
@@ -10219,7 +10232,7 @@
    "ts": 1795492866,
    "end_ts": 1795570200,
    "q": "América de Cali vs. AD Cali: O/U 7.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7278784",
@@ -13599,6 +13612,149 @@
    "ts": 1795535791,
    "end_ts": 1795636800,
    "q": "FK Shakhtar Donetsk vs. Fenerbahçe SK: O/U 8.5",
+   "touched": null
+  },
+  {
+   "id": "7284655",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "81828094563613391690420291793119183351868294431396003472026387540763699359449",
+   "px": 0.972,
+   "tick": 0.001,
+   "ts": 1795536068,
+   "end_ts": 1795539600,
+   "q": "Solana Up or Down - November 24, 8:00AM-12:00PM ET",
+   "touched": null
+  },
+  {
+   "id": "7159024",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "27732131326120036083547189561985524657139899244107245779893226022752938364229",
+   "px": 0.983,
+   "tick": 0.001,
+   "ts": 1795536068,
+   "end_ts": 1795644000,
+   "q": "Will Recoleta FC win on 2026-11-25?",
+   "touched": null
+  },
+  {
+   "id": "7159025",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "12836383508158914801302170243065003636847007985771570086009120833916793325210",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795536068,
+   "end_ts": 1795644000,
+   "q": "Will Libertad Asuncion win on 2026-11-25?",
+   "touched": null
+  },
+  {
+   "id": "7159026",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "38949245291969561599487162903745966621937252999696996821928498307007607817011",
+   "px": 0.974,
+   "tick": 0.001,
+   "ts": 1795536068,
+   "end_ts": 1795644000,
+   "q": "Will Libertad Asuncion vs. CS 2 de Mayo end in a draw?",
+   "touched": null
+  },
+  {
+   "id": "7159027",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "61741146610053391982169903768370525321886737675570708348029474075096787454547",
+   "px": 0.986,
+   "tick": 0.001,
+   "ts": 1795536068,
+   "end_ts": 1795644000,
+   "q": "Will CS 2 de Mayo win on 2026-11-25?",
+   "touched": null
+  },
+  {
+   "id": "7159028",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "94496047228282392496056360052161911596359771284389183318283418539824670313456",
+   "px": 0.979,
+   "tick": 0.001,
+   "ts": 1795536068,
+   "end_ts": 1795644000,
+   "q": "Will Cerro Porteno win on 2026-11-25?",
+   "touched": null
+  },
+  {
+   "id": "7159029",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "81510652708172138105593459790833626773108266049673672397878820230670933312543",
+   "px": 0.978,
+   "tick": 0.001,
+   "ts": 1795536068,
+   "end_ts": 1795644000,
+   "q": "Will Cerro Porteno vs. Club Guarani Asuncion end in a draw?",
+   "touched": null
+  },
+  {
+   "id": "7159030",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "97663521096792423743505920109110265533646957342862944017141294891737756106337",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795536068,
+   "end_ts": 1795644000,
+   "q": "Will Club Guarani Asuncion win on 2026-11-25?",
+   "touched": null
+  },
+  {
+   "id": "7159034",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "44477412120214953123109668966860538354702167746513261985212075654697467069744",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795536068,
+   "end_ts": 1795644000,
+   "q": "Will Sportivo San Lorenzo win on 2026-11-25?",
+   "touched": null
+  },
+  {
+   "id": "7159035",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "6041389101549597188143490526138034262575421196538001309284135445347986086895",
+   "px": 0.975,
+   "tick": 0.001,
+   "ts": 1795536068,
+   "end_ts": 1795644000,
+   "q": "Will Sportivo San Lorenzo vs. Sportivo Ameliano end in a draw?",
+   "touched": null
+  },
+  {
+   "id": "7159036",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "36526628712811761690694700812459529278757497336350961877261904816520794250456",
+   "px": 0.979,
+   "tick": 0.001,
+   "ts": 1795536068,
+   "end_ts": 1795644000,
+   "q": "Will Sportivo Ameliano win on 2026-11-25?",
    "touched": null
   }
  ]
