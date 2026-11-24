@@ -286,7 +286,9 @@
    "hours": 6.97,
    "liq": 2621,
    "fill_ts": 1795482062.092334,
-   "mark": 0.985
+   "mark": 0.996,
+   "stuck": false,
+   "disputed": false
   }
  ],
  "closed": [
@@ -7012,6 +7014,19 @@
    "placed": 1,
    "shadow_open": 339,
    "shadow_closed": 8
+  },
+  {
+   "ts": "2026-11-24T02:01:59Z",
+   "equity": 1030.18,
+   "cash": 362.8,
+   "orders": 10,
+   "positions": 3,
+   "closed": 108,
+   "scanned": 8735,
+   "candidates": 107,
+   "placed": 0,
+   "shadow_open": 338,
+   "shadow_closed": 3
   }
  ],
  "halted": false,
@@ -7410,19 +7425,6 @@
    "ts": 1795399261,
    "end_ts": 1795506300,
    "q": "Newcastle United Jets vs. Kashiwa Reysol: O/U 0.5",
-   "touched": 1
-  },
-  {
-   "id": "7259960",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "82425046507721933306082146004818748221205925219598629160490808297687468643544",
-   "px": 0.971,
-   "tick": 0.001,
-   "ts": 1795402873,
-   "end_ts": 1795480200,
-   "q": "Utah vs. Jets: O/U 2.5",
    "touched": 1
   },
   {
@@ -8479,32 +8481,6 @@
    "touched": 0
   },
   {
-   "id": "7097177",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "85004320037810974632511857212416307320817469819343609593099749034548225561275",
-   "px": 0.976,
-   "tick": 0.001,
-   "ts": 1795438870,
-   "end_ts": 1795453200,
-   "q": "Will the price of Bitcoin be above $64,000 on November 23?",
-   "touched": null
-  },
-  {
-   "id": "6945155",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "81828064034577342470815844104376751307505683464664635672594860422826713143352",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1795438870,
-   "end_ts": 1795463100,
-   "q": "FC Sochaux-Montbéliard vs. USL Dunkerque: O/U 8.5",
-   "touched": null
-  },
-  {
    "id": "7106748",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -8515,7 +8491,7 @@
    "ts": 1795438870,
    "end_ts": 1795475700,
    "q": "Nacional Asuncion vs. Cerro Porteno: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7259930",
@@ -8528,7 +8504,7 @@
    "ts": 1795438870,
    "end_ts": 1795480200,
    "q": "Kings vs. Canadiens: O/U 2.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6907475",
@@ -8541,7 +8517,7 @@
    "ts": 1795438870,
    "end_ts": 1795496340,
    "q": "Next Grok Model (4.8+) released by November 23, 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7279397",
@@ -8554,7 +8530,7 @@
    "ts": 1795438870,
    "end_ts": 1795496400,
    "q": "Will Bitcoin reach $65,000 on November 23?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7279490",
@@ -8567,7 +8543,7 @@
    "ts": 1795438870,
    "end_ts": 1795496400,
    "q": "Will XRP dip to $0.85 on November 23?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7245778",
@@ -8580,7 +8556,7 @@
    "ts": 1795438870,
    "end_ts": 1795522500,
    "q": "Cong An Ha Noi FC vs. Vissel Kobe: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7245779",
@@ -8593,7 +8569,7 @@
    "ts": 1795438870,
    "end_ts": 1795522500,
    "q": "Cong An Ha Noi FC vs. Vissel Kobe: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7245825",
@@ -8606,7 +8582,7 @@
    "ts": 1795438870,
    "end_ts": 1795522500,
    "q": "Ratchaburi FC vs. Johor Darul Ta'zim: O/U 7.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7249258",
@@ -8619,7 +8595,7 @@
    "ts": 1795438870,
    "end_ts": 1795522500,
    "q": "Shanghai Port FC vs. Buriram United: O/U 7.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6974115",
@@ -8632,7 +8608,7 @@
    "ts": 1795438870,
    "end_ts": 1795543200,
    "q": "SS Juve Stabia vs. US Catanzaro 1929: O/U 6.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7097119",
@@ -11427,6 +11403,32 @@
    "ts": 1795482062,
    "end_ts": 1795539600,
    "q": "Will the price of Solana be above $50 on November 24?",
+   "touched": null
+  },
+  {
+   "id": "7245919",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "24795097538292271442466498937052822100188087784570504577958429597351263289664",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795485667,
+   "end_ts": 1795514400,
+   "q": "Daejeon Citizen FC vs. Beijing Guoan: O/U 8.5",
+   "touched": null
+  },
+  {
+   "id": "7224329",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "49598387020333183117890664951528340201130892211428003525439747610282860963672",
+   "px": 0.991,
+   "tick": 0.001,
+   "ts": 1795485667,
+   "end_ts": 1795570200,
+   "q": "América de Cali vs. AD Cali: O/U 6.5",
    "touched": null
   }
  ]
