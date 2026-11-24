@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 10.4 de 28 | corridas: 232
-- Capital inicial: $1,000.00 | valor actual: $913.27 | P&L: $-86.73 (-8.67%)
-- Efectivo libre: $0.00 | en ordenes abiertas: $272.64 (4) | en posiciones: $657.23 (9)
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 10.4 de 28 | corridas: 233
+- Capital inicial: $1,000.00 | valor actual: $914.75 | P&L: $-85.25 (-8.53%)
+- Efectivo libre: $4.81 | en ordenes abiertas: $471.81 (6) | en posiciones: $458.51 (6)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $91.77 en 1 posiciones
-- Ordenes virtuales: 466 colocadas, 212 llenadas, 200 tocadas sin llenarse (sorteo 30%), 50 expiradas
+- Ordenes virtuales: 469 colocadas, 212 llenadas, 201 tocadas sin llenarse (sorteo 30%), 50 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -14,10 +14,10 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 |---|---|---|---|---|---|---|---|
 | clima_cierre | 5 | 98.28c | 100.00% | 56.6-100.0% | +1.72 pts | $+7.94 | 0.97 |
 | cripto_cierre | 61 | 98.78c | 100.00% | 94.1-100.0% | +1.22 pts | $+50.10 | 0.17 |
-| deportes_previo | 98 | 98.03c | 96.24% | 91.4-99.0% | -1.79 pts | $-142.24 | 0.27 |
+| deportes_previo | 101 | 98.02c | 96.33% | 91.6-99.0% | -1.68 pts | $-136.99 | 0.27 |
 | otros_cierre | 36 | 99.66c | 100.00% | 90.4-100.0% | +0.34 pts | $+8.42 | 0.35 |
 | post_fin_90_97 | 3 | 95.67c | 100.00% | 43.8-100.0% | +4.33 pts | $+5.65 | 0.68 |
-| TOTAL | 203 | 98.50c | 98.04% | 95.7-99.5% | -0.45 pts | $-70.13 | 0.28 |
+| TOTAL | 206 | 98.48c | 98.07% | 95.8-99.5% | -0.41 pts | $-64.88 | 0.28 |
 
 ## Peores casos
 
@@ -31,36 +31,33 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
-| $91.77 | 99.8c | 82.2c | otros_cierre | si | Pakistan military action against Afghanistan by November 15, 2026? |
+| $91.77 | 99.8c | 82.3c | otros_cierre | si | Pakistan military action against Afghanistan by November 15, 2026? |
 | $35.36 | 99.8c | 97.4c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $4.5m and $5.5m at auction? |
 | $87.27 | 99.8c | 98.3c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
-| $90.52 | 97.6c | 99.4c | deportes_previo |  | Spread: AD Ceuta FC (-2.5) |
-| $90.52 | 96.8c | 96.8c | deportes_previo |  | Spread: UD Almería (-3.5) |
-| $17.67 | 99.8c | 100.0c | deportes_previo |  | Virginia Tech Hokies vs. UT Martin Skyhawks (W) |
-| $61.22 | 99.2c | 99.2c | otros_cierre |  | Will the next Claude Opus model (5.6+) be released on November 23, 2026? |
-| $91.44 | 99.8c | 99.8c | cripto_cierre |  | Will Microstrategy announce a Bitcoin purchase November 17-23? |
-| $91.44 | 99.7c | 99.7c | cripto_cierre |  | MicroStrategy announces >1000 BTC purchase November 17-23? |
+| $61.22 | 99.2c | 97.4c | otros_cierre |  | Will the next Claude Opus model (5.6+) be released on November 23, 2026? |
+| $91.44 | 99.8c | 99.5c | cripto_cierre |  | Will Microstrategy announce a Bitcoin purchase November 17-23? |
+| $91.44 | 99.7c | 98.9c | cripto_cierre |  | MicroStrategy announces >1000 BTC purchase November 17-23? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 12277 | abiertas: 2178 | abiertas mas de 7 dias despues de su fecha de fin: 1
+- Resueltas: 12361 | abiertas: 2129 | abiertas mas de 7 dias despues de su fecha de fin: 1
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
-| clima_cierre | todas | 3297 | 98.83c | 99.00% | +0.17 pts | -0.17 a +0.51 | 33 |
-| clima_cierre | tocadas | 3053 | 98.85c | 98.92% | +0.07 pts | -0.30 a +0.43 | 33 |
-| cripto_cierre | todas | 1596 | 98.68c | 98.18% | -0.50 pts | -1.15 a +0.15 | 29 |
-| cripto_cierre | tocadas | 1453 | 98.73c | 98.00% | -0.73 pts | -1.44 a -0.02 | 29 |
-| deportes_previo | todas | 5850 | 98.04c | 97.41% | -0.63 pts | -1.03 a -0.23 | 154 |
-| deportes_previo | tocadas | 5714 | 98.07c | 97.38% | -0.69 pts | -1.10 a -0.28 | 152 |
+| clima_cierre | todas | 3344 | 98.83c | 98.98% | +0.16 pts | -0.18 a +0.49 | 34 |
+| clima_cierre | tocadas | 3098 | 98.85c | 98.90% | +0.05 pts | -0.31 a +0.42 | 34 |
+| cripto_cierre | todas | 1606 | 98.68c | 98.19% | -0.49 pts | -1.13 a +0.15 | 29 |
+| cripto_cierre | tocadas | 1462 | 98.74c | 98.02% | -0.72 pts | -1.43 a -0.01 | 29 |
+| deportes_previo | todas | 5868 | 98.04c | 97.42% | -0.62 pts | -1.03 a -0.22 | 154 |
+| deportes_previo | tocadas | 5732 | 98.08c | 97.39% | -0.68 pts | -1.09 a -0.28 | 152 |
 | otros_cierre | todas | 1299 | 98.98c | 97.15% | -1.83 pts | -2.72 a -0.93 | 37 |
 | otros_cierre | tocadas | 1213 | 98.94c | 96.95% | -1.99 pts | -2.95 a -1.03 | 37 |
-| post_fin_90_97 | todas | 235 | 94.00c | 93.19% | -0.81 pts | -4.00 a +2.37 | 16 |
-| post_fin_90_97 | tocadas | 198 | 94.13c | 91.92% | -2.21 pts | -5.96 a +1.54 | 16 |
-| TOTAL | todas | 12277 | 98.36c | 97.83% | -0.53 pts | -0.78 a -0.27 | 269 |
-| TOTAL | tocadas | 11631 | 98.38c | 97.73% | -0.66 pts | -0.93 a -0.39 | 267 |
+| post_fin_90_97 | todas | 244 | 94.01c | 93.44% | -0.57 pts | -3.64 a +2.51 | 16 |
+| post_fin_90_97 | tocadas | 207 | 94.13c | 92.27% | -1.86 pts | -5.46 a +1.73 | 16 |
+| TOTAL | todas | 12361 | 98.36c | 97.84% | -0.52 pts | -0.77 a -0.27 | 270 |
+| TOTAL | tocadas | 11712 | 98.38c | 97.73% | -0.65 pts | -0.92 a -0.38 | 268 |
 
 Peores casos del registro sombra:
 
@@ -77,4 +74,4 @@ Peores casos del registro sombra:
 
 ## Veredicto
 
-Aun no hay veredicto: van 203 operaciones cerradas en 10.4 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
+Aun no hay veredicto: van 206 operaciones cerradas en 10.4 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
