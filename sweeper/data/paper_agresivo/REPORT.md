@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 10.7 de 28 | corridas: 238
-- Capital inicial: $1,000.00 | valor actual: $926.30 | P&L: $-73.70 (-7.37%)
-- Efectivo libre: $0.00 | en ordenes abiertas: $394.41 (6) | en posiciones: $551.07 (7)
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 10.7 de 28 | corridas: 239
+- Capital inicial: $1,000.00 | valor actual: $926.89 | P&L: $-73.11 (-7.31%)
+- Efectivo libre: $0.00 | en ordenes abiertas: $187.64 (3) | en posiciones: $757.85 (10)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $91.77 en 1 posiciones
-- Ordenes virtuales: 478 colocadas, 217 llenadas, 204 tocadas sin llenarse (sorteo 30%), 51 expiradas
+- Ordenes virtuales: 478 colocadas, 220 llenadas, 204 tocadas sin llenarse (sorteo 30%), 51 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -31,19 +31,22 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
-| $91.77 | 99.8c | 82.2c | otros_cierre | si | Pakistan military action against Afghanistan by November 15, 2026? |
+| $91.77 | 99.8c | 83.5c | otros_cierre | si | Pakistan military action against Afghanistan by November 15, 2026? |
 | $35.36 | 99.8c | 97.4c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $4.5m and $5.5m at auction? |
 | $87.27 | 99.8c | 98.3c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
 | $61.22 | 99.2c | 99.4c | otros_cierre |  | Will the next Claude Opus model (5.6+) be released on November 23, 2026? |
-| $92.57 | 99.7c | 99.7c | otros_cierre |  | Will the next Grok model (4.8+) be released on November 23, 2026? |
+| $92.57 | 99.7c | 99.1c | otros_cierre |  | Will the next Grok model (4.8+) be released on November 23, 2026? |
 | $91.44 | 99.8c | 99.5c | cripto_cierre |  | Will Microstrategy announce a Bitcoin purchase November 17-23? |
 | $91.44 | 99.7c | 99.0c | cripto_cierre |  | MicroStrategy announces >1000 BTC purchase November 17-23? |
+| $92.63 | 99.8c | 99.8c | cripto_cierre |  | XRP Up or Down - November 23, 8:00PM-12:00AM ET |
+| $92.63 | 99.2c | 99.2c | deportes_previo |  | Spread: Newcastle United Jets (-2.5) |
+| $21.52 | 99.1c | 99.1c | deportes_previo |  | Newcastle United Jets vs. Kashiwa Reysol: Neither team to score first? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 12535 | abiertas: 2164 | abiertas mas de 7 dias despues de su fecha de fin: 1
+- Resueltas: 12538 | abiertas: 2179 | abiertas mas de 7 dias despues de su fecha de fin: 1
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
@@ -51,14 +54,14 @@ Cada mercado que cumple una regla se anota una vez al precio limite que se habri
 | clima_cierre | tocadas | 3136 | 98.85c | 98.92% | +0.07 pts | -0.29 a +0.43 | 34 |
 | cripto_cierre | todas | 1611 | 98.68c | 98.20% | -0.48 pts | -1.12 a +0.16 | 29 |
 | cripto_cierre | tocadas | 1467 | 98.73c | 98.02% | -0.71 pts | -1.41 a -0.00 | 29 |
-| deportes_previo | todas | 5983 | 98.04c | 97.43% | -0.60 pts | -1.00 a -0.21 | 156 |
-| deportes_previo | tocadas | 5843 | 98.07c | 97.41% | -0.66 pts | -1.07 a -0.26 | 154 |
+| deportes_previo | todas | 5986 | 98.04c | 97.44% | -0.60 pts | -1.00 a -0.21 | 156 |
+| deportes_previo | tocadas | 5846 | 98.07c | 97.41% | -0.66 pts | -1.07 a -0.26 | 154 |
 | otros_cierre | todas | 1310 | 98.97c | 97.18% | -1.80 pts | -2.69 a -0.91 | 37 |
 | otros_cierre | tocadas | 1222 | 98.94c | 96.97% | -1.96 pts | -2.92 a -1.01 | 37 |
 | post_fin_90_97 | todas | 244 | 94.01c | 93.44% | -0.57 pts | -3.64 a +2.51 | 16 |
 | post_fin_90_97 | tocadas | 207 | 94.13c | 92.27% | -1.86 pts | -5.46 a +1.73 | 16 |
-| TOTAL | todas | 12535 | 98.35c | 97.85% | -0.50 pts | -0.75 a -0.25 | 272 |
-| TOTAL | tocadas | 11875 | 98.38c | 97.75% | -0.63 pts | -0.90 a -0.37 | 270 |
+| TOTAL | todas | 12538 | 98.35c | 97.85% | -0.50 pts | -0.75 a -0.25 | 272 |
+| TOTAL | tocadas | 11878 | 98.38c | 97.75% | -0.63 pts | -0.89 a -0.37 | 270 |
 
 Peores casos del registro sombra:
 
