@@ -151,27 +151,6 @@
    "liq": 4876
   },
   {
-   "oid": "7286970-1795514470",
-   "id": "7286970",
-   "q": "Will the US national average gas price be less than $3.6200 on November 24?",
-   "cat": "otros",
-   "rule": "otros_cierre",
-   "event": "1448064",
-   "side": 0,
-   "token": "28130374506802703376640106259561706884041879266343712912188385380353628473363",
-   "px": 0.992,
-   "tick": 0.001,
-   "mid": 0.9925,
-   "bid": 0.986,
-   "ask": 0.999,
-   "shares": 51.9842,
-   "cost": 51.5683,
-   "ts": 1795514470.311024,
-   "end_ts": 1795532400.0,
-   "hours": 4.98,
-   "liq": 1026
-  },
-  {
    "oid": "7121503-1795514470",
    "id": "7121503",
    "q": "Will the price of Bitcoin be less than $54,000 on November 24?",
@@ -193,7 +172,28 @@
    "liq": 21048
   },
   {
-   "oid": "7121510-1795514470",
+   "oid": "7286970-1795518068",
+   "id": "7286970",
+   "q": "Will the US national average gas price be less than $3.6200 on November 24?",
+   "cat": "otros",
+   "rule": "otros_cierre",
+   "event": "1448064",
+   "side": 0,
+   "token": "28130374506802703376640106259561706884041879266343712912188385380353628473363",
+   "px": 0.993,
+   "tick": 0.001,
+   "mid": 0.993,
+   "bid": 0.987,
+   "ask": 0.999,
+   "shares": 51.9319,
+   "cost": 51.5683,
+   "ts": 1795518068.043931,
+   "end_ts": 1795532400.0,
+   "hours": 3.98,
+   "liq": 1080
+  },
+  {
+   "oid": "7121510-1795518068",
    "id": "7121510",
    "q": "Will the price of Bitcoin be between $54,000 and $56,000 on November 24?",
    "cat": "cripto",
@@ -201,17 +201,17 @@
    "event": "1410633",
    "side": 1,
    "token": "53470004765058576196956610520402513969108012699800051814690779148849308573192",
-   "px": 0.991,
+   "px": 0.99,
    "tick": 0.001,
-   "mid": 0.9915,
+   "mid": 0.9905,
    "bid": 0.989,
-   "ask": 0.994,
-   "shares": 52.1633,
+   "ask": 0.992,
+   "shares": 52.216,
    "cost": 51.6938,
-   "ts": 1795514470.311024,
+   "ts": 1795518068.043931,
    "end_ts": 1795539600.0,
-   "hours": 6.98,
-   "liq": 19198
+   "hours": 5.98,
+   "liq": 30648
   }
  ],
  "positions": [
@@ -7179,14 +7179,27 @@
    "placed": 3,
    "shadow_open": 398,
    "shadow_closed": 0
+  },
+  {
+   "ts": "2026-11-24T11:02:03Z",
+   "equity": 1033.88,
+   "cash": 413.11,
+   "orders": 10,
+   "positions": 2,
+   "closed": 110,
+   "scanned": 9715,
+   "candidates": 196,
+   "placed": 2,
+   "shadow_open": 403,
+   "shadow_closed": 0
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 474,
+  "placed": 476,
   "filled": 112,
   "expired": 108,
-  "touched_not_filled": 244
+  "touched_not_filled": 246
  },
  "shadow": [
   {
@@ -12361,6 +12374,71 @@
    "ts": 1795514470,
    "end_ts": 1795622400,
    "q": "Navy Midshipmen vs. Iowa Hawkeyes (W)",
+   "touched": null
+  },
+  {
+   "id": "4678160",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "1763926789986553919353210316811481252369785575776742003459268770034826305497",
+   "px": 0.982,
+   "tick": 0.001,
+   "ts": 1795518068,
+   "end_ts": 1795549500,
+   "q": "Crawley Town FC vs. Barnet FC: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6998719",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "82183154571663061331948097305084169397594072470072837746347677889706097147899",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1795518068,
+   "end_ts": 1795582800,
+   "q": "Mississippi Valley State Delta Devils vs. New Mexico Lobos",
+   "touched": null
+  },
+  {
+   "id": "7147756",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "75093270407328792233669852636732860777618311355835549130114081582282000467664",
+   "px": 0.992,
+   "tick": 0.001,
+   "ts": 1795518068,
+   "end_ts": 1795582740,
+   "q": "Will Adin Ross finish GTA VI by November 24?",
+   "touched": null
+  },
+  {
+   "id": "6989845",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "98073232022160566926464046580847082075757661381666238874872541694807396635970",
+   "px": 0.975,
+   "tick": 0.001,
+   "ts": 1795518068,
+   "end_ts": 1795600800,
+   "q": "Spread: Shimizu S-Pulse (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "7253371",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "11147282731901798396790393492137933751845431538019644902149529939113769558975",
+   "px": 0.99,
+   "tick": 0.001,
+   "ts": 1795518068,
+   "end_ts": 1795600800,
+   "q": "Kashima Antlers vs. Jeonbuk FC: O/U 7.5",
    "touched": null
   }
  ]
