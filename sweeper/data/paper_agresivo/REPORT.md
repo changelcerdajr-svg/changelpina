@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 10.8 de 28 | corridas: 243
-- Capital inicial: $1,000.00 | valor actual: $930.13 | P&L: $-69.87 (-6.99%)
-- Efectivo libre: $-0.00 | en ordenes abiertas: $433.04 (7) | en posiciones: $513.96 (7)
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 10.9 de 28 | corridas: 244
+- Capital inicial: $1,000.00 | valor actual: $930.14 | P&L: $-69.86 (-6.99%)
+- Efectivo libre: $-0.00 | en ordenes abiertas: $95.01 (2) | en posiciones: $851.99 (12)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $91.77 en 1 posiciones
-- Ordenes virtuales: 488 colocadas, 223 llenadas, 207 tocadas sin llenarse (sorteo 30%), 51 expiradas
+- Ordenes virtuales: 488 colocadas, 228 llenadas, 207 tocadas sin llenarse (sorteo 30%), 51 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -31,34 +31,39 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
-| $91.77 | 99.8c | 83.6c | otros_cierre | si | Pakistan military action against Afghanistan by November 15, 2026? |
+| $91.77 | 99.8c | 82.8c | otros_cierre | si | Pakistan military action against Afghanistan by November 15, 2026? |
 | $35.36 | 99.8c | 97.4c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $4.5m and $5.5m at auction? |
 | $87.27 | 99.8c | 98.3c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
 | $92.63 | 99.2c | 99.2c | deportes_previo |  | Spread: Newcastle United Jets (-2.5) |
 | $21.52 | 99.1c | 98.2c | deportes_previo |  | Newcastle United Jets vs. Kashiwa Reysol: Neither team to score first? |
 | $92.63 | 96.0c | 96.5c | deportes_previo |  | Spread: Newcastle United Jets (-1.5) |
-| $92.78 | 98.8c | 98.8c | otros_cierre |  | Will the US national average gas price be less than $3.6200 on November 24? |
+| $93.01 | 98.8c | 98.8c | deportes_previo |  | Spread: Cong An Ha Noi FC (-2.5) |
+| $72.26 | 98.3c | 98.3c | deportes_previo |  | Cong An Ha Noi FC vs. Vissel Kobe: O/U 6.5 |
+| $64.87 | 99.6c | 99.6c | otros_cierre |  | Will DICK'S Sporting Goods Q3 Dick's business comparable sales growth be below 1 |
+| $92.78 | 98.8c | 99.6c | otros_cierre |  | Will the US national average gas price be less than $3.6200 on November 24? |
+| $93.01 | 99.3c | 99.3c | cripto_cierre |  | Will the price of Bitcoin be between $54,000 and $56,000 on November 24? |
+| $14.87 | 99.6c | 99.6c | cripto_cierre |  | Will the price of Ethereum be above $1,500 on November 24? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 12811 | abiertas: 2105 | abiertas mas de 7 dias despues de su fecha de fin: 1
+- Resueltas: 12846 | abiertas: 2090 | abiertas mas de 7 dias despues de su fecha de fin: 1
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
-| clima_cierre | todas | 3478 | 98.82c | 98.94% | +0.11 pts | -0.23 a +0.45 | 37 |
-| clima_cierre | tocadas | 3223 | 98.85c | 98.85% | +0.01 pts | -0.36 a +0.37 | 37 |
-| cripto_cierre | todas | 1646 | 98.68c | 98.24% | -0.44 pts | -1.07 a +0.19 | 29 |
-| cripto_cierre | tocadas | 1502 | 98.73c | 98.07% | -0.66 pts | -1.35 a +0.03 | 29 |
-| deportes_previo | todas | 6117 | 98.04c | 97.46% | -0.58 pts | -0.97 a -0.19 | 158 |
-| deportes_previo | tocadas | 5976 | 98.07c | 97.43% | -0.64 pts | -1.04 a -0.24 | 156 |
+| clima_cierre | todas | 3500 | 98.82c | 98.91% | +0.09 pts | -0.25 a +0.43 | 38 |
+| clima_cierre | tocadas | 3243 | 98.85c | 98.83% | -0.02 pts | -0.39 a +0.35 | 38 |
+| cripto_cierre | todas | 1647 | 98.68c | 98.24% | -0.44 pts | -1.07 a +0.19 | 29 |
+| cripto_cierre | tocadas | 1503 | 98.73c | 98.07% | -0.66 pts | -1.35 a +0.03 | 29 |
+| deportes_previo | todas | 6129 | 98.04c | 97.46% | -0.58 pts | -0.97 a -0.19 | 158 |
+| deportes_previo | tocadas | 5988 | 98.07c | 97.44% | -0.64 pts | -1.03 a -0.24 | 156 |
 | otros_cierre | todas | 1326 | 98.97c | 97.13% | -1.83 pts | -2.72 a -0.94 | 38 |
 | otros_cierre | tocadas | 1237 | 98.93c | 96.93% | -2.00 pts | -2.96 a -1.05 | 38 |
 | post_fin_90_97 | todas | 244 | 94.01c | 93.44% | -0.57 pts | -3.64 a +2.51 | 16 |
 | post_fin_90_97 | tocadas | 207 | 94.13c | 92.27% | -1.86 pts | -5.46 a +1.73 | 16 |
-| TOTAL | todas | 12811 | 98.35c | 97.85% | -0.50 pts | -0.75 a -0.26 | 278 |
-| TOTAL | tocadas | 12145 | 98.38c | 97.75% | -0.63 pts | -0.89 a -0.37 | 276 |
+| TOTAL | todas | 12846 | 98.35c | 97.85% | -0.51 pts | -0.75 a -0.26 | 279 |
+| TOTAL | tocadas | 12178 | 98.38c | 97.75% | -0.63 pts | -0.89 a -0.37 | 277 |
 
 Peores casos del registro sombra:
 
@@ -75,4 +80,4 @@ Peores casos del registro sombra:
 
 ## Veredicto
 
-Aun no hay veredicto: van 216 operaciones cerradas en 10.8 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
+Aun no hay veredicto: van 216 operaciones cerradas en 10.9 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.

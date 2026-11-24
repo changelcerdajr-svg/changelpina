@@ -1,71 +1,8 @@
 {
  "capital0": 1000.0,
- "cash": 415.0997,
+ "cash": 413.1055,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
-  {
-   "oid": "6364958-1795467673",
-   "id": "6364958",
-   "q": "Will the next Grok model (4.8+) be released on November 23, 2026?",
-   "cat": "otros",
-   "rule": "otros_cierre",
-   "event": "1274171",
-   "side": 1,
-   "token": "63329325105755212580366957083679546412116764662719324431035700958181135443552",
-   "px": 0.99,
-   "tick": 0.001,
-   "mid": 0.9905,
-   "bid": 0.985,
-   "ask": 0.996,
-   "shares": 50.5064,
-   "cost": 50.0013,
-   "ts": 1795467673.266404,
-   "end_ts": 1795496340.0,
-   "hours": 7.96,
-   "liq": 1658
-  },
-  {
-   "oid": "7086710-1795471264",
-   "id": "7086710",
-   "q": "Will Microstrategy announce a Bitcoin purchase November 17-23?",
-   "cat": "cripto",
-   "rule": "cripto_cierre",
-   "event": "1399910",
-   "side": 0,
-   "token": "38328737181386222127196507077415367230421347000317954133899684574586259192891",
-   "px": 0.994,
-   "tick": 0.001,
-   "mid": 0.9945,
-   "bid": 0.99,
-   "ask": 0.999,
-   "shares": 51.7909,
-   "cost": 51.4802,
-   "ts": 1795471264.09375,
-   "end_ts": 1795496400.0,
-   "hours": 6.98,
-   "liq": 1857
-  },
-  {
-   "oid": "7087404-1795471264",
-   "id": "7087404",
-   "q": "MicroStrategy announces >1000 BTC purchase November 17-23?",
-   "cat": "cripto",
-   "rule": "cripto_cierre",
-   "event": "1399933",
-   "side": 1,
-   "token": "45287790721031711885815364008884088065250619340046511928005926743549753046204",
-   "px": 0.989,
-   "tick": 0.001,
-   "mid": 0.989,
-   "bid": 0.98,
-   "ask": 0.998,
-   "shares": 52.0527,
-   "cost": 51.4802,
-   "ts": 1795471264.09375,
-   "end_ts": 1795496400.0,
-   "hours": 6.98,
-   "liq": 1424
-  },
   {
    "oid": "7279383-1795474871",
    "id": "7279383",
@@ -212,6 +149,69 @@
    "end_ts": 1795582740.0,
    "hours": 19.96,
    "liq": 4876
+  },
+  {
+   "oid": "7286970-1795514470",
+   "id": "7286970",
+   "q": "Will the US national average gas price be less than $3.6200 on November 24?",
+   "cat": "otros",
+   "rule": "otros_cierre",
+   "event": "1448064",
+   "side": 0,
+   "token": "28130374506802703376640106259561706884041879266343712912188385380353628473363",
+   "px": 0.992,
+   "tick": 0.001,
+   "mid": 0.9925,
+   "bid": 0.986,
+   "ask": 0.999,
+   "shares": 51.9842,
+   "cost": 51.5683,
+   "ts": 1795514470.311024,
+   "end_ts": 1795532400.0,
+   "hours": 4.98,
+   "liq": 1026
+  },
+  {
+   "oid": "7121503-1795514470",
+   "id": "7121503",
+   "q": "Will the price of Bitcoin be less than $54,000 on November 24?",
+   "cat": "cripto",
+   "rule": "cripto_cierre",
+   "event": "1410633",
+   "side": 1,
+   "token": "31446179461639199095506105131278485509047883774201719721488207049880908842303",
+   "px": 0.998,
+   "tick": 0.001,
+   "mid": 0.998,
+   "bid": 0.997,
+   "ask": 0.999,
+   "shares": 51.7974,
+   "cost": 51.6938,
+   "ts": 1795514470.311024,
+   "end_ts": 1795539600.0,
+   "hours": 6.98,
+   "liq": 21048
+  },
+  {
+   "oid": "7121510-1795514470",
+   "id": "7121510",
+   "q": "Will the price of Bitcoin be between $54,000 and $56,000 on November 24?",
+   "cat": "cripto",
+   "rule": "cripto_cierre",
+   "event": "1410633",
+   "side": 1,
+   "token": "53470004765058576196956610520402513969108012699800051814690779148849308573192",
+   "px": 0.991,
+   "tick": 0.001,
+   "mid": 0.9915,
+   "bid": 0.989,
+   "ask": 0.994,
+   "shares": 52.1633,
+   "cost": 51.6938,
+   "ts": 1795514470.311024,
+   "end_ts": 1795539600.0,
+   "hours": 6.98,
+   "liq": 19198
   }
  ],
  "positions": [
@@ -7166,13 +7166,26 @@
    "placed": 2,
    "shadow_open": 388,
    "shadow_closed": 7
+  },
+  {
+   "ts": "2026-11-24T10:02:06Z",
+   "equity": 1033.88,
+   "cash": 413.11,
+   "orders": 10,
+   "positions": 2,
+   "closed": 110,
+   "scanned": 10338,
+   "candidates": 265,
+   "placed": 3,
+   "shadow_open": 398,
+   "shadow_closed": 0
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 471,
+  "placed": 474,
   "filled": 112,
-  "expired": 105,
+  "expired": 108,
   "touched_not_filled": 244
  },
  "shadow": [
@@ -9462,7 +9475,7 @@
    "ts": 1795467673,
    "end_ts": 1795543200,
    "q": "Spread: Asyut Petroleum SC (-1.5)",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "4519252",
@@ -9475,7 +9488,7 @@
    "ts": 1795467673,
    "end_ts": 1795549500,
    "q": "Spread: Barnsley FC (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "4750579",
@@ -9488,7 +9501,7 @@
    "ts": 1795467673,
    "end_ts": 1795549500,
    "q": "Bromley FC vs. Wycombe Wanderers FC: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6756569",
@@ -9501,7 +9514,7 @@
    "ts": 1795467673,
    "end_ts": 1795550400,
    "q": "Como 1907 vs. AEK: Neither team to score first?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6756666",
@@ -9514,7 +9527,7 @@
    "ts": 1795467673,
    "end_ts": 1795550400,
    "q": "ŠK Slovan Bratislava vs. Real Betis Balompié: Neither team to score first?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6756712",
@@ -9527,7 +9540,7 @@
    "ts": 1795467673,
    "end_ts": 1795550400,
    "q": "Manchester City FC vs. SSC Napoli: Neither team to score first?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6968868",
@@ -9540,7 +9553,7 @@
    "ts": 1795467673,
    "end_ts": 1795575600,
    "q": "Spread: Houston Dynamo (-3.5)",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6968880",
@@ -9553,7 +9566,7 @@
    "ts": 1795467673,
    "end_ts": 1795575600,
    "q": "San Jose Earthquakes vs. Houston Dynamo: O/U 6.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6998638",
@@ -9566,7 +9579,7 @@
    "ts": 1795467673,
    "end_ts": 1795572000,
    "q": "Evansville Purple Aces vs. Missouri Tigers",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6973981",
@@ -9579,7 +9592,7 @@
    "ts": 1795471264,
    "end_ts": 1795546800,
    "q": "Spread: Ascoli Calcio 1898 FC (-3.5)",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6974065",
@@ -9592,7 +9605,7 @@
    "ts": 1795471264,
    "end_ts": 1795546800,
    "q": "Spread: FC Südtirol (-2.5)",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6960168",
@@ -9605,7 +9618,7 @@
    "ts": 1795471264,
    "end_ts": 1795549500,
    "q": "Bristol City FC vs. Wrexham AFC: O/U 8.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6960260",
@@ -9618,7 +9631,7 @@
    "ts": 1795471264,
    "end_ts": 1795549500,
    "q": "Charlton Athletic FC vs. Lincoln City FC: O/U 8.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6986648",
@@ -12218,6 +12231,136 @@
    "ts": 1795510868,
    "end_ts": 1795582800,
    "q": "Will Solana dip to $50 on November 24?",
+   "touched": null
+  },
+  {
+   "id": "7286970",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "28130374506802703376640106259561706884041879266343712912188385380353628473363",
+   "px": 0.992,
+   "tick": 0.001,
+   "ts": 1795514470,
+   "end_ts": 1795532400,
+   "q": "Will the US national average gas price be less than $3.6200 on November 24?",
+   "touched": null
+  },
+  {
+   "id": "7121596",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "32417913218547292211903961079332527323086353242527474318829594441176679780015",
+   "px": 0.979,
+   "tick": 0.001,
+   "ts": 1795514470,
+   "end_ts": 1795539600,
+   "q": "Will the price of Solana be above $75 on November 24?",
+   "touched": null
+  },
+  {
+   "id": "7121615",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "102885758039620331189945375898944298872769711846990485158215862465511791097806",
+   "px": 0.98,
+   "tick": 0.001,
+   "ts": 1795514470,
+   "end_ts": 1795539600,
+   "q": "Will the price of XRP be above $1.00 on November 24?",
+   "touched": null
+  },
+  {
+   "id": "4750555",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "34227016168280291184652390004520499818912882637424482338434382827528936519347",
+   "px": 0.971,
+   "tick": 0.001,
+   "ts": 1795514470,
+   "end_ts": 1795549500,
+   "q": "Spread: Bromley FC (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "6961024",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "40961142795954652191655409166548205553914055448837346651873070589840185941962",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795514470,
+   "end_ts": 1795549500,
+   "q": "Forest Green Rovers FC vs. Southend United FC: O/U 0.5",
+   "touched": null
+  },
+  {
+   "id": "6961093",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "105705687095443813880532650894591597664859266468095083352292264786012380874084",
+   "px": 0.981,
+   "tick": 0.001,
+   "ts": 1795514470,
+   "end_ts": 1795549500,
+   "q": "Spread: Eastleigh FC (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "6961106",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "45748657518472021327400435504260657298460236141615626541501708181907187625357",
+   "px": 0.986,
+   "tick": 0.001,
+   "ts": 1795514470,
+   "end_ts": 1795549500,
+   "q": "Eastleigh FC vs. Yeovil Town FC: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6961269",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "878788591505353584313848026327836743426469872243811717612285365137436814367",
+   "px": 0.986,
+   "tick": 0.001,
+   "ts": 1795514470,
+   "end_ts": 1795549500,
+   "q": "Boston United FC vs. Barrow AFC: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6364959",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "72532265390100034427266815980341077427856790260791045078178545097511281953475",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1795514470,
+   "end_ts": 1795582740,
+   "q": "Will the next Grok model (4.8+) be released on November 24, 2026?",
+   "touched": null
+  },
+  {
+   "id": "7016133",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "25516293484923380370134302444172524093517407458799802855504922501009481027745",
+   "px": 0.986,
+   "tick": 0.001,
+   "ts": 1795514470,
+   "end_ts": 1795622400,
+   "q": "Navy Midshipmen vs. Iowa Hawkeyes (W)",
    "touched": null
   }
  ]
