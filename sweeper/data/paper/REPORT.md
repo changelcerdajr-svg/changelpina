@@ -2,21 +2,21 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-11T22:05:26Z | dias corridos: 13.0 de 28 | corridas: 293
-- Capital inicial: $1,000.00 | valor actual: $1,035.37 | P&L: $+35.37 (+3.54%)
-- Efectivo libre: $414.01 | en ordenes abiertas: $465.41 (9) | en posiciones: $155.22 (3)
+- Inicio: 2026-11-11T22:05:26Z | dias corridos: 13.0 de 28 | corridas: 294
+- Capital inicial: $1,000.00 | valor actual: $1,036.14 | P&L: $+36.14 (+3.61%)
+- Efectivo libre: $414.89 | en ordenes abiertas: $517.45 (10) | en posiciones: $103.51 (2)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
-- Ordenes virtuales: 497 colocadas, 116 llenadas, 261 tocadas sin llenarse (sorteo 30%), 111 expiradas
+- Ordenes virtuales: 501 colocadas, 116 llenadas, 263 tocadas sin llenarse (sorteo 30%), 112 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
 | Regla | n | Precio medio | Pago real | IC95 del pago | Edge | P&L | Dias medios |
 |---|---|---|---|---|---|---|---|
 | cripto_cierre | 36 | 99.00c | 100.00% | 90.4-100.0% | +1.00 pts | $+18.23 | 0.29 |
-| deportes_previo | 39 | 98.19c | 100.00% | 91.0-100.0% | +1.81 pts | $+36.19 | 0.35 |
+| deportes_previo | 40 | 98.18c | 100.00% | 91.2-100.0% | +1.82 pts | $+37.41 | 0.35 |
 | otros_cierre | 28 | 99.02c | 100.00% | 87.9-100.0% | +0.98 pts | $+14.29 | 0.40 |
 | post_fin_95_97 | 10 | 95.96c | 89.69% | 59.6-98.2% | -6.27 pts | $-34.07 | 0.39 |
-| TOTAL | 113 | 98.45c | 99.06% | 95.2-99.8% | +0.61 pts | $+34.63 | 0.34 |
+| TOTAL | 114 | 98.44c | 99.07% | 95.2-99.8% | +0.62 pts | $+35.85 | 0.34 |
 
 ## Peores casos
 
@@ -30,26 +30,25 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 |---|---|---|---|---|---|
 | $51.82 | 98.5c | 98.3c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
 | $51.70 | 98.3c | 99.1c | deportes_previo |  | Stevenage FC vs. Sheffield Wednesday FC: O/U 6.5 |
-| $51.71 | 97.7c | 98.6c | deportes_previo |  | Spread: Northampton Town FC (-2.5) |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 4601 | abiertas: 507 | abiertas mas de 7 dias despues de su fecha de fin: 1
+- Resueltas: 4619 | abiertas: 496 | abiertas mas de 7 dias despues de su fecha de fin: 1
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
 | cripto_cierre | todas | 1338 | 98.73c | 99.25% | +0.52 pts | +0.06 a +0.98 | 10 |
 | cripto_cierre | tocadas | 938 | 98.57c | 98.93% | +0.36 pts | -0.29 a +1.02 | 10 |
-| deportes_previo | todas | 2533 | 98.30c | 98.86% | +0.56 pts | +0.15 a +0.97 | 30 |
-| deportes_previo | tocadas | 2148 | 98.28c | 98.84% | +0.56 pts | +0.11 a +1.01 | 26 |
+| deportes_previo | todas | 2551 | 98.30c | 98.86% | +0.56 pts | +0.16 a +0.97 | 30 |
+| deportes_previo | tocadas | 2163 | 98.28c | 98.84% | +0.57 pts | +0.12 a +1.01 | 26 |
 | otros_cierre | todas | 638 | 98.84c | 99.37% | +0.54 pts | -0.08 a +1.15 | 4 |
 | otros_cierre | tocadas | 414 | 98.71c | 99.03% | +0.33 pts | -0.62 a +1.28 | 4 |
 | post_fin_95_97 | todas | 92 | 95.89c | 93.48% | -2.41 pts | -7.48 a +2.67 | 6 |
 | post_fin_95_97 | tocadas | 83 | 95.91c | 92.77% | -3.14 pts | -8.74 a +2.47 | 6 |
-| TOTAL | todas | 4601 | 98.45c | 98.94% | +0.48 pts | +0.19 a +0.78 | 50 |
-| TOTAL | tocadas | 3583 | 98.35c | 98.74% | +0.40 pts | +0.03 a +0.76 | 46 |
+| TOTAL | todas | 4619 | 98.45c | 98.94% | +0.49 pts | +0.19 a +0.78 | 50 |
+| TOTAL | tocadas | 3598 | 98.35c | 98.75% | +0.40 pts | +0.04 a +0.76 | 46 |
 
 Peores casos del registro sombra:
 
@@ -66,4 +65,4 @@ Peores casos del registro sombra:
 
 ## Veredicto
 
-Aun no hay veredicto: van 113 operaciones cerradas en 13.0 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
+Aun no hay veredicto: van 114 operaciones cerradas en 13.0 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
