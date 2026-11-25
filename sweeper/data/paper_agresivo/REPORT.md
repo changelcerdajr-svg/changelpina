@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 11.6 de 28 | corridas: 263
-- Capital inicial: $1,000.00 | valor actual: $944.82 | P&L: $-55.18 (-5.52%)
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 11.6 de 28 | corridas: 264
+- Capital inicial: $1,000.00 | valor actual: $947.90 | P&L: $-52.10 (-5.21%)
 - Efectivo libre: $0.00 | en ordenes abiertas: $422.80 (7) | en posiciones: $542.10 (7)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $91.77 en 1 posiciones
-- Ordenes virtuales: 526 colocadas, 242 llenadas, 223 tocadas sin llenarse (sorteo 30%), 54 expiradas
+- Ordenes virtuales: 527 colocadas, 242 llenadas, 224 tocadas sin llenarse (sorteo 30%), 54 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -31,11 +31,11 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
-| $91.77 | 99.8c | 81.0c | otros_cierre | si | Pakistan military action against Afghanistan by November 15, 2026? |
+| $91.77 | 99.8c | 84.4c | otros_cierre | si | Pakistan military action against Afghanistan by November 15, 2026? |
 | $35.36 | 99.8c | 97.4c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $4.5m and $5.5m at auction? |
 | $87.27 | 99.8c | 98.3c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
-| $94.67 | 99.9c | 99.6c | deportes_previo |  | Game Handicap: ICxI (-1.5) vs Power Rangers (+1.5) |
-| $95.27 | 99.7c | 99.6c | otros_cierre |  | Will the next Grok model (4.8+) be released on November 24, 2026? |
+| $94.67 | 99.9c | 99.5c | deportes_previo |  | Game Handicap: ICxI (-1.5) vs Power Rangers (+1.5) |
+| $95.27 | 99.7c | 99.5c | otros_cierre |  | Will the next Grok model (4.8+) be released on November 24, 2026? |
 | $95.27 | 99.8c | 99.8c | cripto_cierre |  | Will Bitcoin reach $64,000 on November 24? |
 | $42.49 | 99.5c | 99.2c | cripto_cierre |  | Will Bitcoin reach $63,000 on November 24? |
 
@@ -43,22 +43,22 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 13723 | abiertas: 2198 | abiertas mas de 7 dias despues de su fecha de fin: 1
+- Resueltas: 13896 | abiertas: 2124 | abiertas mas de 7 dias despues de su fecha de fin: 1
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
-| clima_cierre | todas | 3773 | 98.81c | 98.86% | +0.05 pts | -0.28 a +0.39 | 43 |
-| clima_cierre | tocadas | 3497 | 98.83c | 98.77% | -0.06 pts | -0.42 a +0.30 | 43 |
-| cripto_cierre | todas | 1770 | 98.66c | 98.08% | -0.58 pts | -1.21 a +0.05 | 34 |
-| cripto_cierre | tocadas | 1619 | 98.70c | 97.90% | -0.80 pts | -1.49 a -0.11 | 34 |
-| deportes_previo | todas | 6501 | 98.05c | 97.38% | -0.67 pts | -1.06 a -0.29 | 173 |
-| deportes_previo | tocadas | 6347 | 98.09c | 97.35% | -0.74 pts | -1.13 a -0.35 | 171 |
-| otros_cierre | todas | 1426 | 98.96c | 97.34% | -1.63 pts | -2.46 a -0.80 | 38 |
-| otros_cierre | tocadas | 1314 | 98.92c | 97.11% | -1.81 pts | -2.71 a -0.91 | 38 |
+| clima_cierre | todas | 3796 | 98.81c | 98.87% | +0.06 pts | -0.27 a +0.40 | 43 |
+| clima_cierre | tocadas | 3519 | 98.83c | 98.78% | -0.05 pts | -0.41 a +0.31 | 43 |
+| cripto_cierre | todas | 1772 | 98.66c | 98.08% | -0.58 pts | -1.21 a +0.06 | 34 |
+| cripto_cierre | tocadas | 1621 | 98.70c | 97.90% | -0.80 pts | -1.49 a -0.11 | 34 |
+| deportes_previo | todas | 6578 | 98.05c | 97.36% | -0.69 pts | -1.08 a -0.31 | 176 |
+| deportes_previo | tocadas | 6421 | 98.09c | 97.33% | -0.76 pts | -1.15 a -0.37 | 174 |
+| otros_cierre | todas | 1497 | 98.98c | 97.39% | -1.59 pts | -2.39 a -0.78 | 39 |
+| otros_cierre | tocadas | 1380 | 98.94c | 97.17% | -1.76 pts | -2.63 a -0.89 | 39 |
 | post_fin_90_97 | todas | 253 | 94.03c | 93.68% | -0.35 pts | -3.32 a +2.62 | 16 |
 | post_fin_90_97 | tocadas | 215 | 94.14c | 92.56% | -1.58 pts | -5.05 a +1.89 | 16 |
-| TOTAL | todas | 13723 | 98.36c | 97.80% | -0.55 pts | -0.80 a -0.31 | 304 |
-| TOTAL | tocadas | 12992 | 98.38c | 97.69% | -0.69 pts | -0.94 a -0.43 | 302 |
+| TOTAL | todas | 13896 | 98.36c | 97.80% | -0.56 pts | -0.80 a -0.32 | 308 |
+| TOTAL | tocadas | 13156 | 98.39c | 97.69% | -0.69 pts | -0.95 a -0.44 | 306 |
 
 Peores casos del registro sombra:
 
