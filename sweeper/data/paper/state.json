@@ -1,29 +1,8 @@
 {
  "capital0": 1000.0,
- "cash": 415.3779,
+ "cash": 415.1195,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
-  {
-   "oid": "5730349-1795528868",
-   "id": "5730349",
-   "q": "Will Analog Devices' Q4 Industrial revenue be above $2.1B?",
-   "cat": "otros",
-   "rule": "otros_cierre",
-   "event": "1194149",
-   "side": 0,
-   "token": "103960101194082828181666107239340590438416938079524375393869736127532680043335",
-   "px": 0.998,
-   "tick": 0.001,
-   "mid": 0.998,
-   "bid": 0.996,
-   "ask": 1,
-   "shares": 51.677,
-   "cost": 51.5736,
-   "ts": 1795528868.90221,
-   "end_ts": 1795530600.0,
-   "hours": 0.48,
-   "liq": 2098
-  },
   {
    "oid": "7301875-1795543268",
    "id": "7301875",
@@ -151,27 +130,6 @@
    "liq": 1932
   },
   {
-   "oid": "6974797-1795561269",
-   "id": "6974797",
-   "q": "RB Ōmiya Ardija vs. Tokushima Vortis: O/U 6.5",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1367235",
-   "side": 1,
-   "token": "113924037057088950430538837043617762276181979523516880044808337238368779148069",
-   "px": 0.976,
-   "tick": 0.001,
-   "mid": 0.9765,
-   "bid": 0.97,
-   "ask": 0.983,
-   "shares": 53.1066,
-   "cost": 51.832,
-   "ts": 1795561269.59685,
-   "end_ts": 1795600800.0,
-   "hours": 10.98,
-   "liq": 2306
-  },
-  {
    "oid": "6989858-1795568463",
    "id": "6989858",
    "q": "Fagiano Okayama vs. Shimizu S-Pulse: O/U 6.5",
@@ -212,6 +170,48 @@
    "end_ts": 1795600800.0,
    "hours": 7.98,
    "liq": 1764
+  },
+  {
+   "oid": "6364894-1795575664",
+   "id": "6364894",
+   "q": "Will the next Claude Opus model (5.6+) be released on November 24, 2026?",
+   "cat": "otros",
+   "rule": "otros_cierre",
+   "event": "1274168",
+   "side": 1,
+   "token": "36652911116760252941233478851915596504672427266223864307592753101753556644932",
+   "px": 0.997,
+   "tick": 0.001,
+   "mid": 0.9975,
+   "bid": 0.997,
+   "ask": 0.998,
+   "shares": 51.988,
+   "cost": 51.832,
+   "ts": 1795575664.753486,
+   "end_ts": 1795582740.0,
+   "hours": 1.97,
+   "liq": 2086
+  },
+  {
+   "oid": "6974797-1795575664",
+   "id": "6974797",
+   "q": "RB Ōmiya Ardija vs. Tokushima Vortis: O/U 6.5",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1367235",
+   "side": 1,
+   "token": "113924037057088950430538837043617762276181979523516880044808337238368779148069",
+   "px": 0.977,
+   "tick": 0.001,
+   "mid": 0.977,
+   "bid": 0.97,
+   "ask": 0.984,
+   "shares": 53.0522,
+   "cost": 51.832,
+   "ts": 1795575664.753486,
+   "end_ts": 1795600800.0,
+   "hours": 6.98,
+   "liq": 12186
   }
  ],
  "positions": [
@@ -261,7 +261,9 @@
    "hours": 3.98,
    "liq": 28754,
    "fill_ts": 1795572065.142391,
-   "mark": 0.994
+   "mark": 0.994,
+   "stuck": false,
+   "disputed": false
   }
  ],
  "closed": [
@@ -7561,14 +7563,27 @@
    "placed": 1,
    "shadow_open": 381,
    "shadow_closed": 2
+  },
+  {
+   "ts": "2026-11-25T03:01:37Z",
+   "equity": 1036.64,
+   "cash": 415.12,
+   "orders": 10,
+   "positions": 2,
+   "closed": 115,
+   "scanned": 11732,
+   "candidates": 187,
+   "placed": 2,
+   "shadow_open": 387,
+   "shadow_closed": 3
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 506,
+  "placed": 508,
   "filled": 117,
-  "expired": 113,
-  "touched_not_filled": 266
+  "expired": 114,
+  "touched_not_filled": 267
  },
  "shadow": [
   {
@@ -7687,19 +7702,6 @@
    "end_ts": 1795409940,
    "q": "Will there be 8 earthquakes of 5.5 or above magnitude worldwide?",
    "touched": 0
-  },
-  {
-   "id": "6998646",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "91153783150772277210967673279872044355731855444279218562015134849635807618577",
-   "px": 0.975,
-   "tick": 0.001,
-   "ts": 1795453270,
-   "end_ts": 1795561200,
-   "q": "Sacred Heart Pioneers vs. Rutgers Scarlet Knights",
-   "touched": 1
   },
   {
    "id": "6998580",
@@ -7920,19 +7922,6 @@
    "ts": 1795489267,
    "end_ts": 1795568400,
    "q": "Golden Knights vs. Oilers: O/U 2.5",
-   "touched": 1
-  },
-  {
-   "id": "7016089",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "17483891219536620650603384332204828040557566303328729728911332307576615237539",
-   "px": 0.976,
-   "tick": 0.001,
-   "ts": 1795492866,
-   "end_ts": 1795561200,
-   "q": "Niagara Purple Eagles vs. Duquesne Dukes (W)",
    "touched": 1
   },
   {
@@ -9418,19 +9407,6 @@
    "touched": 0
   },
   {
-   "id": "7284591",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "50639424770455213821361439652955477654586384529345702189923557747510002993467",
-   "px": 0.991,
-   "tick": 0.001,
-   "ts": 1795528868,
-   "end_ts": 1795554000,
-   "q": "S&P 500 (SPX) Opens Up or Down on November 24?",
-   "touched": null
-  },
-  {
    "id": "7292061",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -9441,7 +9417,7 @@
    "ts": 1795528868,
    "end_ts": 1795568400,
    "q": "Spread: Celtics (-36.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6968866",
@@ -9454,7 +9430,7 @@
    "ts": 1795528868,
    "end_ts": 1795575600,
    "q": "Spread: Houston Dynamo (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7291917",
@@ -9467,7 +9443,7 @@
    "ts": 1795528868,
    "end_ts": 1795575600,
    "q": "Spread: Mavericks (-17.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6390042",
@@ -9480,7 +9456,7 @@
    "ts": 1795528868,
    "end_ts": 1795613400,
    "q": "Will Core PCE MoM be 0.0% or less in October?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6390043",
@@ -9493,7 +9469,7 @@
    "ts": 1795528868,
    "end_ts": 1795613400,
    "q": "Will Core PCE MoM be 0.1% in October?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6390053",
@@ -9506,7 +9482,7 @@
    "ts": 1795528868,
    "end_ts": 1795613400,
    "q": "Will Core PCE MoM be 0.5% in October?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6390063",
@@ -9519,7 +9495,7 @@
    "ts": 1795528868,
    "end_ts": 1795613400,
    "q": "Will Core PCE YoY be 2.8% or less in October?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6390064",
@@ -9532,7 +9508,7 @@
    "ts": 1795528868,
    "end_ts": 1795613400,
    "q": "Will Core PCE YoY be 2.9% in October?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6390065",
@@ -9545,7 +9521,7 @@
    "ts": 1795528868,
    "end_ts": 1795613400,
    "q": "Will Core PCE YoY be 3.0% in October?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6390066",
@@ -9558,7 +9534,7 @@
    "ts": 1795528868,
    "end_ts": 1795613400,
    "q": "Will Core PCE YoY be 3.1% in October?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6390069",
@@ -9571,7 +9547,7 @@
    "ts": 1795528868,
    "end_ts": 1795613400,
    "q": "Will Core PCE YoY be 3.4% or more in October?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6757457",
@@ -9584,7 +9560,7 @@
    "ts": 1795528868,
    "end_ts": 1795636800,
    "q": "Club Atlético de Madrid vs. Viking FK: Neither team to score first?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6985612",
@@ -9597,7 +9573,7 @@
    "ts": 1795528868,
    "end_ts": 1795636800,
    "q": "Stoke City FC vs. Millwall FC: O/U 6.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6993374",
@@ -9610,7 +9586,7 @@
    "ts": 1795528868,
    "end_ts": 1795636800,
    "q": "Spread: Sporting CP (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6993375",
@@ -9623,7 +9599,7 @@
    "ts": 1795528868,
    "end_ts": 1795636800,
    "q": "Spread: Manchester United FC (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6993390",
@@ -9636,7 +9612,7 @@
    "ts": 1795528868,
    "end_ts": 1795636800,
    "q": "Sporting CP vs. Manchester United FC: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6993427",
@@ -9649,7 +9625,7 @@
    "ts": 1795528868,
    "end_ts": 1795636800,
    "q": "Spread: VfB Stuttgart (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6993429",
@@ -9662,7 +9638,7 @@
    "ts": 1795528868,
    "end_ts": 1795636800,
    "q": "Spread: VfB Stuttgart (-3.5)",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6993434",
@@ -9675,7 +9651,7 @@
    "ts": 1795528868,
    "end_ts": 1795636800,
    "q": "FC Internazionale Milano vs. VfB Stuttgart: O/U 0.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6993442",
@@ -9688,7 +9664,7 @@
    "ts": 1795528868,
    "end_ts": 1795636800,
    "q": "FC Internazionale Milano vs. VfB Stuttgart: O/U 8.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6993479",
@@ -9701,7 +9677,7 @@
    "ts": 1795528868,
    "end_ts": 1795636800,
    "q": "Spread: Club Brugge KV (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6993485",
@@ -9714,7 +9690,7 @@
    "ts": 1795528868,
    "end_ts": 1795636800,
    "q": "Club Brugge KV vs. Liverpool FC: O/U 0.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6993493",
@@ -9727,7 +9703,7 @@
    "ts": 1795528868,
    "end_ts": 1795636800,
    "q": "Club Brugge KV vs. Liverpool FC: O/U 8.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6993528",
@@ -9740,7 +9716,7 @@
    "ts": 1795528868,
    "end_ts": 1795636800,
    "q": "Spread: Lille OSC (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6993543",
@@ -9753,7 +9729,7 @@
    "ts": 1795528868,
    "end_ts": 1795636800,
    "q": "Lille OSC vs. FC Bayern München: O/U 7.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6993580",
@@ -9766,7 +9742,7 @@
    "ts": 1795528868,
    "end_ts": 1795636800,
    "q": "Spread: AS Roma (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6993582",
@@ -9779,7 +9755,7 @@
    "ts": 1795528868,
    "end_ts": 1795636800,
    "q": "Spread: AS Roma (-3.5)",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6993587",
@@ -9792,7 +9768,7 @@
    "ts": 1795528868,
    "end_ts": 1795636800,
    "q": "Paris Saint-Germain FC vs. AS Roma: O/U 0.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6993629",
@@ -9805,7 +9781,7 @@
    "ts": 1795528868,
    "end_ts": 1795636800,
    "q": "Spread: Viking FK (-1.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6993631",
@@ -9818,7 +9794,7 @@
    "ts": 1795528868,
    "end_ts": 1795636800,
    "q": "Spread: Viking FK (-2.5)",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6993633",
@@ -9831,7 +9807,7 @@
    "ts": 1795528868,
    "end_ts": 1795636800,
    "q": "Spread: Viking FK (-3.5)",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6993638",
@@ -9844,7 +9820,7 @@
    "ts": 1795528868,
    "end_ts": 1795636800,
    "q": "Club Atlético de Madrid vs. Viking FK: O/U 0.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6993646",
@@ -9857,7 +9833,7 @@
    "ts": 1795528868,
    "end_ts": 1795636800,
    "q": "Club Atlético de Madrid vs. Viking FK: O/U 8.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6993691",
@@ -9870,7 +9846,7 @@
    "ts": 1795528868,
    "end_ts": 1795636800,
    "q": "Spread: FK Shakhtar Donetsk (-3.5)",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6993692",
@@ -9883,7 +9859,7 @@
    "ts": 1795528868,
    "end_ts": 1795636800,
    "q": "Spread: Fenerbahçe SK (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6993707",
@@ -9896,7 +9872,7 @@
    "ts": 1795528868,
    "end_ts": 1795636800,
    "q": "FK Shakhtar Donetsk vs. Fenerbahçe SK: O/U 6.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6993708",
@@ -9909,7 +9885,7 @@
    "ts": 1795528868,
    "end_ts": 1795636800,
    "q": "FK Shakhtar Donetsk vs. Fenerbahçe SK: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7240331",
@@ -9922,7 +9898,7 @@
    "ts": 1795528868,
    "end_ts": 1795633200,
    "q": "Calcio Padova vs. UC Sampdoria: O/U 6.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7240406",
@@ -9935,7 +9911,7 @@
    "ts": 1795528868,
    "end_ts": 1795629600,
    "q": "US Cremonese vs. US Avellino 1912: O/U 7.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7121567",
@@ -12522,6 +12498,123 @@
    "ts": 1795572065,
    "end_ts": 1795644000,
    "q": "Sportivo Trinidense vs. Recoleta FC: Draw at halftime?",
+   "touched": null
+  },
+  {
+   "id": "6982255",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "10900570215655544348028383535110669163312492879037051768834862706130728532461",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795575664,
+   "end_ts": 1795604400,
+   "q": "FK Kryvbas Kryvyi Rih vs. FK Kharkiv: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "6998680",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "27116731036175591774659777010086952531632858408692327857226520995096086559755",
+   "px": 0.992,
+   "tick": 0.001,
+   "ts": 1795575664,
+   "end_ts": 1795636800,
+   "q": "Jackson State Tigers vs. Oklahoma State Cowboys",
+   "touched": null
+  },
+  {
+   "id": "6998689",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "81308397036050530701923467273649845882666158188322319924145896893894318288942",
+   "px": 0.975,
+   "tick": 0.001,
+   "ts": 1795575664,
+   "end_ts": 1795647600,
+   "q": "Albany Great Danes vs. Syracuse Orange",
+   "touched": null
+  },
+  {
+   "id": "7303299",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "24737314203946418734459363976248533734770359133483759056989313122981781013617",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795575664,
+   "end_ts": 1795644000,
+   "q": "Spread: 76ers (-25.5)",
+   "touched": null
+  },
+  {
+   "id": "7313000",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "72430134847012899552341644920269572610861418051472530346114897853293725205317",
+   "px": 0.971,
+   "tick": 0.001,
+   "ts": 1795575664,
+   "end_ts": 1795651200,
+   "q": "Flyers vs. Capitals: O/U 2.5",
+   "touched": null
+  },
+  {
+   "id": "7312877",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "55496950519706676564025374008097605694254892838073078746134122541397605487219",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795575664,
+   "end_ts": 1795660200,
+   "q": "Canadiens vs. Avalanche: O/U 2.5",
+   "touched": null
+  },
+  {
+   "id": "7312930",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "43339637402042583338472200113751205499955472038761970985348928484101129085747",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795575664,
+   "end_ts": 1795653000,
+   "q": "Canucks vs. Red Wings: O/U 2.5",
+   "touched": null
+  },
+  {
+   "id": "7333272",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "111163928363712382523458304661960021590278898214180445802572080156297522177546",
+   "px": 0.984,
+   "tick": 0.001,
+   "ts": 1795575664,
+   "end_ts": 1795654800,
+   "q": "Spread: Atlas FC (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "7333286",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "113818046916579556079942377071541573661971846970832657093499892177553113117809",
+   "px": 0.982,
+   "tick": 0.001,
+   "ts": 1795575664,
+   "end_ts": 1795654800,
+   "q": "Deportivo Toluca FC vs. Atlas FC: O/U 7.5",
    "touched": null
   }
  ]
