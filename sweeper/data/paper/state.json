@@ -1,6 +1,6 @@
 {
  "capital0": 1000.0,
- "cash": 415.2251,
+ "cash": 415.2065,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
   {
@@ -130,27 +130,6 @@
    "liq": 31840
   },
   {
-   "oid": "6390043-1795593666",
-   "id": "6390043",
-   "q": "Will Core PCE MoM be 0.1% in October?",
-   "cat": "otros",
-   "rule": "otros_cierre",
-   "event": "1278380",
-   "side": 1,
-   "token": "67272487825538728795001660644390584249157772005647204195063711475543660638426",
-   "px": 0.998,
-   "tick": 0.001,
-   "mid": 0.998,
-   "bid": 0.997,
-   "ask": 0.999,
-   "shares": 51.962,
-   "cost": 51.8581,
-   "ts": 1795593666.788173,
-   "end_ts": 1795613400.0,
-   "hours": 5.48,
-   "liq": 1976
-  },
-  {
    "oid": "7150129-1795593666",
    "id": "7150129",
    "q": "Will the price of Ethereum be above $1,400 on November 25?",
@@ -172,25 +151,25 @@
    "liq": 32145
   },
   {
-   "oid": "6390046-1795597268",
-   "id": "6390046",
-   "q": "Will Core PCE MoM be 0.4% in October?",
+   "oid": "6390053-1795600414",
+   "id": "6390053",
+   "q": "Will Core PCE MoM be 0.5% in October?",
    "cat": "otros",
    "rule": "otros_cierre",
    "event": "1278380",
    "side": 1,
-   "token": "86578988987367793307604580755868524681470533465332729319811082378113735611270",
-   "px": 0.974,
+   "token": "73747421083566151191879076764546091557037769626720566661749053559369796746260",
+   "px": 0.982,
    "tick": 0.001,
-   "mid": 0.974,
-   "bid": 0.961,
-   "ask": 0.987,
-   "shares": 53.2423,
-   "cost": 51.858,
-   "ts": 1795597268.876121,
+   "mid": 0.9825,
+   "bid": 0.972,
+   "ask": 0.993,
+   "shares": 52.8275,
+   "cost": 51.8766,
+   "ts": 1795600414.831584,
    "end_ts": 1795613400.0,
-   "hours": 4.48,
-   "liq": 2013
+   "hours": 3.61,
+   "liq": 1639
   }
  ],
  "positions": [
@@ -240,7 +219,9 @@
    "hours": 6.98,
    "liq": 12186,
    "fill_ts": 1795597268.876121,
-   "mark": 0.977
+   "mark": 0.9825,
+   "stuck": false,
+   "disputed": false
   },
   {
    "oid": "7150118-1795593666",
@@ -263,7 +244,32 @@
    "hours": 8.98,
    "liq": 32858,
    "fill_ts": 1795597268.876121,
-   "mark": 0.987
+   "mark": 0.9885,
+   "stuck": false,
+   "disputed": false
+  },
+  {
+   "oid": "6390043-1795593666",
+   "id": "6390043",
+   "q": "Will Core PCE MoM be 0.1% in October?",
+   "cat": "otros",
+   "rule": "otros_cierre",
+   "event": "1278380",
+   "side": 1,
+   "token": "67272487825538728795001660644390584249157772005647204195063711475543660638426",
+   "px": 0.998,
+   "tick": 0.001,
+   "mid": 0.998,
+   "bid": 0.997,
+   "ask": 0.999,
+   "shares": 51.962,
+   "cost": 51.8581,
+   "ts": 1795593666.788173,
+   "end_ts": 1795613400.0,
+   "hours": 5.48,
+   "liq": 1976,
+   "fill_ts": 1795600414.831584,
+   "mark": 0.998
   }
  ],
  "closed": [
@@ -7714,14 +7720,27 @@
    "placed": 1,
    "shadow_open": 328,
    "shadow_closed": 27
+  },
+  {
+   "ts": "2026-11-25T09:54:05Z",
+   "equity": 1037.53,
+   "cash": 415.21,
+   "orders": 8,
+   "positions": 4,
+   "closed": 117,
+   "scanned": 11459,
+   "candidates": 209,
+   "placed": 1,
+   "shadow_open": 335,
+   "shadow_closed": 0
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 517,
-  "filled": 120,
+  "placed": 518,
+  "filled": 121,
   "expired": 117,
-  "touched_not_filled": 271
+  "touched_not_filled": 272
  },
  "shadow": [
   {
@@ -11986,6 +12005,97 @@
    "ts": 1795597268,
    "end_ts": 1795644000,
    "q": "Club Guarani Asuncion leading at halftime?",
+   "touched": null
+  },
+  {
+   "id": "6390055",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "81205375273140805540895392470953770072122776085028479233633656887547340911243",
+   "px": 0.988,
+   "tick": 0.001,
+   "ts": 1795600414,
+   "end_ts": 1795613400,
+   "q": "Will Core PCE MoM be 0.6% or more in October?",
+   "touched": null
+  },
+  {
+   "id": "7150186",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "14347916583664897231158927427150752569739380999308579297902791367140477503444",
+   "px": 0.971,
+   "tick": 0.001,
+   "ts": 1795600414,
+   "end_ts": 1795626000,
+   "q": "Will the price of Bitcoin be above $62,000 on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7319653",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "12836532269440796200702232005011881475877168722376117239126969128055079145498",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1795600414,
+   "end_ts": 1795622400,
+   "q": "Spread: Al Faisaly (JOR) (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "7319654",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "71304354771656712062314561948295066456478086941752255739696648468569042632328",
+   "px": 0.977,
+   "tick": 0.001,
+   "ts": 1795600414,
+   "end_ts": 1795622400,
+   "q": "Spread: Al Rayyan SC (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "7326572",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "32455297052541921178821093885202576706111342048283155898426205263534972792374",
+   "px": 0.987,
+   "tick": 0.001,
+   "ts": 1795600414,
+   "end_ts": 1795630500,
+   "q": "Spread: Al Nahda (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "7326576",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "78004954003768749016939608722862333721901515477434907631461147528234583621180",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1795600414,
+   "end_ts": 1795630500,
+   "q": "Spread: Al Nahda (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "7326598",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "84511830793025918261796437388407506682910496399663498573798927521487070344067",
+   "px": 0.975,
+   "tick": 0.001,
+   "ts": 1795600414,
+   "end_ts": 1795630500,
+   "q": "Al-Taawoun FC vs. Al Nahda: O/U 6.5",
    "touched": null
   }
  ]
