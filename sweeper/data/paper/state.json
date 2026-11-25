@@ -1,6 +1,6 @@
 {
  "capital0": 1000.0,
- "cash": 415.4029,
+ "cash": 415.3779,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
   {
@@ -151,27 +151,6 @@
    "liq": 1932
   },
   {
-   "oid": "6989845-1795557669",
-   "id": "6989845",
-   "q": "Spread: Shimizu S-Pulse (-2.5)",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1372455",
-   "side": 1,
-   "token": "98073232022160566926464046580847082075757661381666238874872541694807396635970",
-   "px": 0.978,
-   "tick": 0.001,
-   "mid": 0.9785,
-   "bid": 0.974,
-   "ask": 0.983,
-   "shares": 52.9724,
-   "cost": 51.807,
-   "ts": 1795557669.839699,
-   "end_ts": 1795600800.0,
-   "hours": 11.98,
-   "liq": 2591
-  },
-  {
    "oid": "6974797-1795561269",
    "id": "6974797",
    "q": "RB Ōmiya Ardija vs. Tokushima Vortis: O/U 6.5",
@@ -193,27 +172,6 @@
    "liq": 2306
   },
   {
-   "oid": "7301998-1795568463",
-   "id": "7301998",
-   "q": "Will Ethereum reach $1,800 on November 24?",
-   "cat": "cripto",
-   "rule": "cripto_cierre",
-   "event": "1451178",
-   "side": 1,
-   "token": "67932914160244321607682800515604638897814646768996897562334195649256215688459",
-   "px": 0.994,
-   "tick": 0.001,
-   "mid": 0.9945,
-   "bid": 0.99,
-   "ask": 0.999,
-   "shares": 52.1449,
-   "cost": 51.832,
-   "ts": 1795568463.330185,
-   "end_ts": 1795582800.0,
-   "hours": 3.98,
-   "liq": 28754
-  },
-  {
    "oid": "6989858-1795568463",
    "id": "6989858",
    "q": "Fagiano Okayama vs. Shimizu S-Pulse: O/U 6.5",
@@ -233,6 +191,27 @@
    "end_ts": 1795600800.0,
    "hours": 8.98,
    "liq": 3841
+  },
+  {
+   "oid": "6989845-1795572065",
+   "id": "6989845",
+   "q": "Spread: Shimizu S-Pulse (-2.5)",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1372455",
+   "side": 1,
+   "token": "98073232022160566926464046580847082075757661381666238874872541694807396635970",
+   "px": 0.976,
+   "tick": 0.001,
+   "mid": 0.9765,
+   "bid": 0.97,
+   "ask": 0.983,
+   "shares": 53.1066,
+   "cost": 51.832,
+   "ts": 1795572065.142391,
+   "end_ts": 1795600800.0,
+   "hours": 7.98,
+   "liq": 1764
   }
  ],
  "positions": [
@@ -260,6 +239,29 @@
    "mark": 0.983,
    "stuck": false,
    "disputed": false
+  },
+  {
+   "oid": "7301998-1795568463",
+   "id": "7301998",
+   "q": "Will Ethereum reach $1,800 on November 24?",
+   "cat": "cripto",
+   "rule": "cripto_cierre",
+   "event": "1451178",
+   "side": 1,
+   "token": "67932914160244321607682800515604638897814646768996897562334195649256215688459",
+   "px": 0.994,
+   "tick": 0.001,
+   "mid": 0.9945,
+   "bid": 0.99,
+   "ask": 0.999,
+   "shares": 52.1449,
+   "cost": 51.832,
+   "ts": 1795568463.330185,
+   "end_ts": 1795582800.0,
+   "hours": 3.98,
+   "liq": 28754,
+   "fill_ts": 1795572065.142391,
+   "mark": 0.994
   }
  ],
  "closed": [
@@ -7546,14 +7548,27 @@
    "placed": 2,
    "shadow_open": 381,
    "shadow_closed": 5
+  },
+  {
+   "ts": "2026-11-25T02:01:49Z",
+   "equity": 1036.64,
+   "cash": 415.38,
+   "orders": 10,
+   "positions": 2,
+   "closed": 115,
+   "scanned": 11568,
+   "candidates": 177,
+   "placed": 1,
+   "shadow_open": 381,
+   "shadow_closed": 2
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 505,
-  "filled": 116,
+  "placed": 506,
+  "filled": 117,
   "expired": 113,
-  "touched_not_filled": 265
+  "touched_not_filled": 266
  },
  "shadow": [
   {
@@ -9351,32 +9366,6 @@
    "touched": 1
   },
   {
-   "id": "5730349",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 0,
-   "token": "103960101194082828181666107239340590438416938079524375393869736127532680043335",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795525269,
-   "end_ts": 1795530600,
-   "q": "Will Analog Devices' Q4 Industrial revenue be above $2.1B?",
-   "touched": null
-  },
-  {
-   "id": "6959968",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "48349034850021337077460244647315954320120166033582360280039771739074793942978",
-   "px": 0.992,
-   "tick": 0.001,
-   "ts": 1795525269,
-   "end_ts": 1795549500,
-   "q": "Portsmouth FC vs. West Ham United FC: O/U 8.5",
-   "touched": null
-  },
-  {
    "id": "6969853",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -9387,7 +9376,7 @@
    "ts": 1795525269,
    "end_ts": 1795628700,
    "q": "SK Slavia Praha vs. Villarreal CF: O/U 8.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6969888",
@@ -9400,7 +9389,7 @@
    "ts": 1795525269,
    "end_ts": 1795628700,
    "q": "Spread: Sabah FK (-2.5)",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7016145",
@@ -9413,7 +9402,7 @@
    "ts": 1795525269,
    "end_ts": 1795631400,
    "q": "Toledo Rockets vs. Michigan Wolverines (W)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7240405",
@@ -9426,7 +9415,7 @@
    "ts": 1795525269,
    "end_ts": 1795629600,
    "q": "US Cremonese vs. US Avellino 1912: O/U 6.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7284591",
@@ -12507,6 +12496,32 @@
    "ts": 1795568463,
    "end_ts": 1795651200,
    "q": "Flames vs. Penguins: O/U 2.5",
+   "touched": null
+  },
+  {
+   "id": "6989798",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "36697790852894334502922836078209696486839154893082989212703082993278503022290",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795572065,
+   "end_ts": 1795602600,
+   "q": "Urawa Red Diamonds vs. Cerezo Ōsaka: O/U 8.5",
+   "touched": null
+  },
+  {
+   "id": "7160770",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "20864587229216087949291466343354944962865492517873054664414255367177562872711",
+   "px": 0.972,
+   "tick": 0.001,
+   "ts": 1795572065,
+   "end_ts": 1795644000,
+   "q": "Sportivo Trinidense vs. Recoleta FC: Draw at halftime?",
    "touched": null
   }
  ]
