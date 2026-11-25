@@ -1,29 +1,8 @@
 {
  "capital0": 1000.0,
- "cash": 415.6466,
+ "cash": 415.5098,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
-  {
-   "oid": "7121515-1795521669",
-   "id": "7121515",
-   "q": "Will the price of Ethereum be above $1,500 on November 24?",
-   "cat": "cripto",
-   "rule": "cripto_cierre",
-   "event": "1410634",
-   "side": 0,
-   "token": "107680225057604451346078434072671575727903660165269023556701883192503989603725",
-   "px": 0.996,
-   "tick": 0.001,
-   "mid": 0.9965,
-   "bid": 0.996,
-   "ask": 0.997,
-   "shares": 51.9028,
-   "cost": 51.6952,
-   "ts": 1795521669.100406,
-   "end_ts": 1795539600.0,
-   "hours": 4.98,
-   "liq": 32320
-  },
   {
    "oid": "5730349-1795528868",
    "id": "5730349",
@@ -233,6 +212,27 @@
    "end_ts": 1795600800.0,
    "hours": 10.98,
    "liq": 2306
+  },
+  {
+   "oid": "7297211-1795567775",
+   "id": "7297211",
+   "q": "Ethereum Up or Down - November 24, 7:00PM-8:00PM ET",
+   "cat": "cripto",
+   "rule": "cripto_cierre",
+   "event": "1450291",
+   "side": 1,
+   "token": "30330860469753949767314416276084218649370406522536803423925919756336078323664",
+   "px": 0.98,
+   "tick": 0.001,
+   "mid": 0.9805,
+   "bid": 0.98,
+   "ask": 0.981,
+   "shares": 52.8898,
+   "cost": 51.832,
+   "ts": 1795567775.838037,
+   "end_ts": 1795568400.0,
+   "hours": 0.17,
+   "liq": 2504
   }
  ],
  "positions": [
@@ -7520,13 +7520,26 @@
    "placed": 0,
    "shadow_open": 382,
    "shadow_closed": 60
+  },
+  {
+   "ts": "2026-11-25T00:50:16Z",
+   "equity": 1036.64,
+   "cash": 415.51,
+   "orders": 11,
+   "positions": 1,
+   "closed": 115,
+   "scanned": 11282,
+   "candidates": 194,
+   "placed": 1,
+   "shadow_open": 383,
+   "shadow_closed": 7
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 502,
+  "placed": 503,
   "filled": 116,
-  "expired": 112,
+  "expired": 113,
   "touched_not_filled": 263
  },
  "shadow": [
@@ -7931,32 +7944,6 @@
    "ts": 1795489267,
    "end_ts": 1795568400,
    "q": "Golden Knights vs. Oilers: O/U 2.5",
-   "touched": 1
-  },
-  {
-   "id": "6961019",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "55842286922732548062203325105764825985181003044456296596496731603331070346734",
-   "px": 0.973,
-   "tick": 0.001,
-   "ts": 1795492866,
-   "end_ts": 1795549500,
-   "q": "Spread: Southend United FC (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "6961187",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "5867490555336662909815550927724354988159791119022707539723101486684907662417",
-   "px": 0.974,
-   "tick": 0.001,
-   "ts": 1795492866,
-   "end_ts": 1795549500,
-   "q": "Carlisle United FC vs. Tamworth FC: O/U 0.5",
    "touched": 1
   },
   {
@@ -9273,19 +9260,6 @@
    "touched": 1
   },
   {
-   "id": "4678160",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "1763926789986553919353210316811481252369785575776742003459268770034826305497",
-   "px": 0.982,
-   "tick": 0.001,
-   "ts": 1795518068,
-   "end_ts": 1795549500,
-   "q": "Crawley Town FC vs. Barnet FC: O/U 7.5",
-   "touched": 1
-  },
-  {
    "id": "6998719",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -9338,58 +9312,6 @@
    "touched": 0
   },
   {
-   "id": "7260693",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "74846799642359836867701907481541680329467709979855211555997047748429355230818",
-   "px": 0.973,
-   "tick": 0.001,
-   "ts": 1795521669,
-   "end_ts": 1795539600,
-   "q": "Solana Up or Down on November 24?",
-   "touched": null
-  },
-  {
-   "id": "7288932",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "75174204924826930907058615997359456690504934794808670849822055874095831301317",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795521669,
-   "end_ts": 1795539540,
-   "q": "Will Ludwig finish GTA VI by November 24, 11:59 AM ET?",
-   "touched": null
-  },
-  {
-   "id": "5866055",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "87611339492887940761730005730172351784651483180634078255823748793968188113097",
-   "px": 0.98,
-   "tick": 0.001,
-   "ts": 1795521669,
-   "end_ts": 1795550400,
-   "q": "Rangers FC vs. Aberdeen FC: Neither team to score first?",
-   "touched": null
-  },
-  {
-   "id": "6960214",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "72184646650133668477825209727734317917024856053017883004365040934888030243969",
-   "px": 0.991,
-   "tick": 0.001,
-   "ts": 1795521669,
-   "end_ts": 1795549500,
-   "q": "Cardiff City FC vs. Preston North End FC: O/U 8.5",
-   "touched": null
-  },
-  {
    "id": "7130124",
    "rule": "otros_cierre",
    "cat": "otros",
@@ -9400,7 +9322,7 @@
    "ts": 1795521669,
    "end_ts": 1795582740,
    "q": "Will \"Steps\" be the #2 global Netflix movie this week?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7253357",
@@ -9413,7 +9335,7 @@
    "ts": 1795521669,
    "end_ts": 1795600800,
    "q": "Spread: Jeonbuk FC (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6969839",
@@ -9426,7 +9348,7 @@
    "ts": 1795521669,
    "end_ts": 1795628700,
    "q": "Spread: SK Slavia Praha (-3.5)",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6969852",
@@ -9439,7 +9361,7 @@
    "ts": 1795521669,
    "end_ts": 1795628700,
    "q": "SK Slavia Praha vs. Villarreal CF: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6969886",
@@ -9452,7 +9374,7 @@
    "ts": 1795521669,
    "end_ts": 1795628700,
    "q": "Spread: Sabah FK (-1.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6969896",
@@ -9465,7 +9387,7 @@
    "ts": 1795521669,
    "end_ts": 1795628700,
    "q": "Sabah FK vs. FC Barcelona: O/U 0.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7016141",
@@ -9478,7 +9400,7 @@
    "ts": 1795521669,
    "end_ts": 1795629600,
    "q": "Mississippi Valley State Delta Devils vs. Louisiana Tech Bulldogs (W)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "5730349",
@@ -12494,6 +12416,110 @@
    "ts": 1795564866,
    "end_ts": 1795651200,
    "q": "CA Boca Juniors vs. CS Independiente Rivadavia: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "7297211",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "30330860469753949767314416276084218649370406522536803423925919756336078323664",
+   "px": 0.98,
+   "tick": 0.001,
+   "ts": 1795567775,
+   "end_ts": 1795568400,
+   "q": "Ethereum Up or Down - November 24, 7:00PM-8:00PM ET",
+   "touched": null
+  },
+  {
+   "id": "7297216",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "43378150211783553888126362116428200430452298650592304961623989908137566989218",
+   "px": 0.978,
+   "tick": 0.001,
+   "ts": 1795567775,
+   "end_ts": 1795568400,
+   "q": "Bitcoin Up or Down - November 24, 7:00PM-8:00PM ET",
+   "touched": null
+  },
+  {
+   "id": "6618229",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "25192682707165229035848718925193055557501062853402267861905515075030235321513",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795567775,
+   "end_ts": 1795582740,
+   "q": "Will Mexico win Miss Universe 2026?",
+   "touched": null
+  },
+  {
+   "id": "7302169",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "65313901467969693178482589571965921275312044831697279180196354470294835522960",
+   "px": 0.984,
+   "tick": 0.001,
+   "ts": 1795567775,
+   "end_ts": 1795582800,
+   "q": "Will XRP reach $1.00 on November 24?",
+   "touched": null
+  },
+  {
+   "id": "7312940",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "30052435271230839376477288941201441510698908247955264910322417544664910740285",
+   "px": 0.971,
+   "tick": 0.001,
+   "ts": 1795567775,
+   "end_ts": 1795651200,
+   "q": "Jets vs. Bruins: O/U 2.5",
+   "touched": null
+  },
+  {
+   "id": "7312950",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "21624929472867918099068298953455216979936161999048439997034270349014787228935",
+   "px": 0.971,
+   "tick": 0.001,
+   "ts": 1795567775,
+   "end_ts": 1795651200,
+   "q": "Rangers vs. Sabres: O/U 2.5",
+   "touched": null
+  },
+  {
+   "id": "7312960",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "69368910453948102558126392841798008128843944352154021429241328082401841196683",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795567775,
+   "end_ts": 1795651200,
+   "q": "Blues vs. Islanders: O/U 2.5",
+   "touched": null
+  },
+  {
+   "id": "7256070",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "63035885498862302735085958091329548273746399038721434550775664537526286766472",
+   "px": 0.992,
+   "tick": 0.001,
+   "ts": 1795567775,
+   "end_ts": 1795656600,
+   "q": "Atlético Nacional vs. Independiente Medellín: O/U 7.5",
    "touched": null
   }
  ]
