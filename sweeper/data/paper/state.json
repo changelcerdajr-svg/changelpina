@@ -1,6 +1,6 @@
 {
  "capital0": 1000.0,
- "cash": 417.5307,
+ "cash": 366.4755,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
   {
@@ -44,27 +44,6 @@
    "end_ts": 1795626000.0,
    "hours": 4.98,
    "liq": 35779
-  },
-  {
-   "oid": "7150129-1795611666",
-   "id": "7150129",
-   "q": "Will the price of Ethereum be above $1,400 on November 25?",
-   "cat": "cripto",
-   "rule": "cripto_cierre",
-   "event": "1417819",
-   "side": 0,
-   "token": "62354363260308361538744692954489640712431017694681557375034622126414701569606",
-   "px": 0.999,
-   "tick": 0.001,
-   "mid": 0.999,
-   "bid": 0.998,
-   "ask": 1,
-   "shares": 51.8131,
-   "cost": 51.7613,
-   "ts": 1795611666.278589,
-   "end_ts": 1795626000.0,
-   "hours": 3.98,
-   "liq": 35950
   },
   {
    "oid": "6985674-1795611666",
@@ -151,7 +130,28 @@
    "liq": 3613
   },
   {
-   "oid": "7150146-1795615271",
+   "oid": "7150129-1795618875",
+   "id": "7150129",
+   "q": "Will the price of Ethereum be above $1,400 on November 25?",
+   "cat": "cripto",
+   "rule": "cripto_cierre",
+   "event": "1417819",
+   "side": 0,
+   "token": "62354363260308361538744692954489640712431017694681557375034622126414701569606",
+   "px": 0.997,
+   "tick": 0.001,
+   "mid": 0.9975,
+   "bid": 0.996,
+   "ask": 0.999,
+   "shares": 52.0931,
+   "cost": 51.9368,
+   "ts": 1795618875.576959,
+   "end_ts": 1795626000.0,
+   "hours": 1.98,
+   "liq": 33849
+  },
+  {
+   "oid": "7150146-1795618875",
    "id": "7150146",
    "q": "Will the price of Bitcoin be between $62,000 and $64,000 on November 25?",
    "cat": "cripto",
@@ -159,17 +159,59 @@
    "event": "1417820",
    "side": 1,
    "token": "55128199670513052794223835956088053666964060358367882612546907685353022830134",
-   "px": 0.988,
+   "px": 0.992,
    "tick": 0.001,
-   "mid": 0.9885,
-   "bid": 0.987,
-   "ask": 0.99,
-   "shares": 52.5086,
-   "cost": 51.8785,
-   "ts": 1795615271.377233,
+   "mid": 0.9925,
+   "bid": 0.988,
+   "ask": 0.997,
+   "shares": 52.3556,
+   "cost": 51.9368,
+   "ts": 1795618875.576959,
    "end_ts": 1795626000.0,
-   "hours": 2.98,
-   "liq": 27510
+   "hours": 1.98,
+   "liq": 7869
+  },
+  {
+   "oid": "7282526-1795618875",
+   "id": "7282526",
+   "q": "Will the highest temperature in Chicago be between 40-41°F on November 25?",
+   "cat": "clima",
+   "rule": "post_fin_95_97",
+   "event": "1446611",
+   "side": 1,
+   "token": "46268577224228132201130756643837609203593597369677030185878533678428915762649",
+   "px": 0.965,
+   "tick": 0.001,
+   "mid": 0.9655,
+   "bid": 0.951,
+   "ask": 0.98,
+   "shares": 53.8205,
+   "cost": 51.9368,
+   "ts": 1795618875.576959,
+   "end_ts": 1795608000.0,
+   "hours": -3.02,
+   "liq": 1465
+  },
+  {
+   "oid": "6998726-1795618875",
+   "id": "6998726",
+   "q": "Alcorn State Braves vs. Texas State Bobcats",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1374858",
+   "side": 1,
+   "token": "67674986458814654203798372065064702908963677410967800710174672789342436525419",
+   "px": 0.979,
+   "tick": 0.001,
+   "mid": 0.9795,
+   "bid": 0.978,
+   "ask": 0.981,
+   "shares": 53.0509,
+   "cost": 51.9368,
+   "ts": 1795618875.576959,
+   "end_ts": 1795644000.0,
+   "hours": 6.98,
+   "liq": 24033
   }
  ],
  "positions": [
@@ -199,31 +241,6 @@
    "disputed": false
   },
   {
-   "oid": "6974797-1795575664",
-   "id": "6974797",
-   "q": "RB Ōmiya Ardija vs. Tokushima Vortis: O/U 6.5",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1367235",
-   "side": 1,
-   "token": "113924037057088950430538837043617762276181979523516880044808337238368779148069",
-   "px": 0.977,
-   "tick": 0.001,
-   "mid": 0.977,
-   "bid": 0.97,
-   "ask": 0.984,
-   "shares": 53.0522,
-   "cost": 51.832,
-   "ts": 1795575664.753486,
-   "end_ts": 1795600800.0,
-   "hours": 6.98,
-   "liq": 12186,
-   "fill_ts": 1795597268.876121,
-   "mark": 0.981,
-   "stuck": false,
-   "disputed": false
-  },
-  {
    "oid": "7150118-1795593666",
    "id": "7150118",
    "q": "Will the price of Bitcoin be less than $54,000 on November 25?",
@@ -244,7 +261,7 @@
    "hours": 8.98,
    "liq": 32858,
    "fill_ts": 1795597268.876121,
-   "mark": 0.982,
+   "mark": 0.985,
    "stuck": false,
    "disputed": false
   },
@@ -3804,6 +3821,36 @@
    "result": 1.0,
    "closed_ts": "2026-11-25T14:01:12Z",
    "days": 0.04
+  },
+  {
+   "oid": "6974797-1795575664",
+   "id": "6974797",
+   "q": "RB Ōmiya Ardija vs. Tokushima Vortis: O/U 6.5",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1367235",
+   "side": 1,
+   "token": "113924037057088950430538837043617762276181979523516880044808337238368779148069",
+   "px": 0.977,
+   "tick": 0.001,
+   "mid": 0.977,
+   "bid": 0.97,
+   "ask": 0.984,
+   "shares": 53.0522,
+   "cost": 51.832,
+   "ts": 1795575664.753486,
+   "end_ts": 1795600800.0,
+   "hours": 6.98,
+   "liq": 12186,
+   "fill_ts": 1795597268.876121,
+   "mark": 0.981,
+   "stuck": false,
+   "disputed": false,
+   "payout": 53.0522,
+   "pnl": 1.2202,
+   "result": 1.0,
+   "closed_ts": "2026-11-25T15:01:16Z",
+   "days": 0.25
   }
  ],
  "runs": [
@@ -7858,14 +7905,27 @@
    "placed": 1,
    "shadow_open": 395,
    "shadow_closed": 10
+  },
+  {
+   "ts": "2026-11-25T15:01:52Z",
+   "equity": 1038.74,
+   "cash": 366.48,
+   "orders": 10,
+   "positions": 3,
+   "closed": 120,
+   "scanned": 13108,
+   "candidates": 189,
+   "placed": 4,
+   "shadow_open": 403,
+   "shadow_closed": 2
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 533,
+  "placed": 537,
   "filled": 123,
   "expired": 119,
-  "touched_not_filled": 283
+  "touched_not_filled": 285
  },
  "shadow": [
   {
@@ -7932,19 +7992,6 @@
    "end_ts": 1794977940,
    "q": "Will Mark Rothko's “Untitled” sell for at least $6.5m at auction?",
    "touched": 0
-  },
-  {
-   "id": "6974854",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "47522229377388507202462456534832935585464105800796840461058043374671060418931",
-   "px": 0.975,
-   "tick": 0.001,
-   "ts": 1795495764,
-   "end_ts": 1795600800,
-   "q": "Yokohama FC vs. Vegalta Sendai: O/U 6.5",
-   "touched": 1
   },
   {
    "id": "7016133",
@@ -9858,19 +9905,6 @@
    "touched": 1
   },
   {
-   "id": "6974797",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "113924037057088950430538837043617762276181979523516880044808337238368779148069",
-   "px": 0.976,
-   "tick": 0.001,
-   "ts": 1795561269,
-   "end_ts": 1795600800,
-   "q": "RB Ōmiya Ardija vs. Tokushima Vortis: O/U 6.5",
-   "touched": 1
-  },
-  {
    "id": "7150239",
    "rule": "cripto_cierre",
    "cat": "cripto",
@@ -10245,7 +10279,7 @@
    "ts": 1795575664,
    "end_ts": 1795604400,
    "q": "FK Kryvbas Kryvyi Rih vs. FK Kharkiv: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6998680",
@@ -10258,7 +10292,7 @@
    "ts": 1795575664,
    "end_ts": 1795636800,
    "q": "Jackson State Tigers vs. Oklahoma State Cowboys",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6998689",
@@ -10271,7 +10305,7 @@
    "ts": 1795575664,
    "end_ts": 1795647600,
    "q": "Albany Great Danes vs. Syracuse Orange",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7303299",
@@ -10284,7 +10318,7 @@
    "ts": 1795575664,
    "end_ts": 1795644000,
    "q": "Spread: 76ers (-25.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7313000",
@@ -10297,7 +10331,7 @@
    "ts": 1795575664,
    "end_ts": 1795651200,
    "q": "Flyers vs. Capitals: O/U 2.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7312877",
@@ -10310,7 +10344,7 @@
    "ts": 1795575664,
    "end_ts": 1795660200,
    "q": "Canadiens vs. Avalanche: O/U 2.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7312930",
@@ -10323,7 +10357,7 @@
    "ts": 1795575664,
    "end_ts": 1795653000,
    "q": "Canucks vs. Red Wings: O/U 2.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7333272",
@@ -10336,7 +10370,7 @@
    "ts": 1795575664,
    "end_ts": 1795654800,
    "q": "Spread: Atlas FC (-2.5)",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7333286",
@@ -10349,7 +10383,7 @@
    "ts": 1795575664,
    "end_ts": 1795654800,
    "q": "Deportivo Toluca FC vs. Atlas FC: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6618288",
@@ -13001,6 +13035,136 @@
    "ts": 1795615271,
    "end_ts": 1795723200,
    "q": "Sunderland AFC vs. Jagiellonia Białystok: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "7282526",
+   "rule": "post_fin_95_97",
+   "cat": "clima",
+   "side": 1,
+   "token": "46268577224228132201130756643837609203593597369677030185878533678428915762649",
+   "px": 0.965,
+   "tick": 0.001,
+   "ts": 1795618875,
+   "end_ts": 1795608000,
+   "q": "Will the highest temperature in Chicago be between 40-41°F on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7303303",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "81089662633052506709252427816318888185749102242437978527153587204804347961427",
+   "px": 0.977,
+   "tick": 0.001,
+   "ts": 1795618875,
+   "end_ts": 1795644000,
+   "q": "Spread: 76ers (-27.5)",
+   "touched": null
+  },
+  {
+   "id": "7304081",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "114668217876222509723485544996315760387978659491126308510785938424965164746096",
+   "px": 0.975,
+   "tick": 0.001,
+   "ts": 1795618875,
+   "end_ts": 1795656600,
+   "q": "Spread: Suns (-15.5)",
+   "touched": null
+  },
+  {
+   "id": "7326688",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "88058863967083257916123795649781605691773924623995244969461548788754292876419",
+   "px": 0.976,
+   "tick": 0.001,
+   "ts": 1795618875,
+   "end_ts": 1795654800,
+   "q": "Spread: Grizzlies (-32.5)",
+   "touched": null
+  },
+  {
+   "id": "7098556",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "56094223236266123001723995205739684654190666395323151067518851523846237933123",
+   "px": 0.983,
+   "tick": 0.001,
+   "ts": 1795618875,
+   "end_ts": 1795715100,
+   "q": "Heart of Midlothian FC vs. AS Monaco FC: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "7098797",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "15641036011027721140991579115466356213732335663672216937223428065886702741781",
+   "px": 0.986,
+   "tick": 0.001,
+   "ts": 1795618875,
+   "end_ts": 1795715100,
+   "q": "KF Egnatia Rrogozhinë vs. Lincoln Red Imps FC: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "7098843",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "90181433289001143142162629374648972079510396634526807561054193068269398562957",
+   "px": 0.986,
+   "tick": 0.001,
+   "ts": 1795618875,
+   "end_ts": 1795715100,
+   "q": "Páfos FC vs. FC Midtjylland: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "7102830",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "109234013085297157502971529355300421828676143398030785413440953385709826117881",
+   "px": 0.991,
+   "tick": 0.001,
+   "ts": 1795618875,
+   "end_ts": 1795723200,
+   "q": "Spread: NK Celje (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "7102832",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "109460197288734649035674185844086731224269262315750303343819285658745324129534",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795618875,
+   "end_ts": 1795723200,
+   "q": "Spread: NK Celje (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "7102856",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "49921856066083199231916024670183744333524709844681623805235183023972319294757",
+   "px": 0.983,
+   "tick": 0.001,
+   "ts": 1795618875,
+   "end_ts": 1795723200,
+   "q": "Ferencvárosi TC vs. NK Celje: O/U 7.5",
    "touched": null
   }
  ]
