@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 11.7 de 28 | corridas: 266
-- Capital inicial: $1,000.00 | valor actual: $946.73 | P&L: $-53.27 (-5.33%)
-- Efectivo libre: $0.00 | en ordenes abiertas: $549.33 (8) | en posiciones: $416.08 (6)
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 11.7 de 28 | corridas: 267
+- Capital inicial: $1,000.00 | valor actual: $954.65 | P&L: $-45.35 (-4.54%)
+- Efectivo libre: $0.00 | en ordenes abiertas: $513.33 (7) | en posiciones: $452.07 (7)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $214.40 en 3 posiciones
-- Ordenes virtuales: 533 colocadas, 244 llenadas, 226 tocadas sin llenarse (sorteo 30%), 55 expiradas
+- Ordenes virtuales: 534 colocadas, 245 llenadas, 227 tocadas sin llenarse (sorteo 30%), 55 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -31,33 +31,34 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
-| $91.77 | 99.8c | 82.0c | otros_cierre | si | Pakistan military action against Afghanistan by November 15, 2026? |
+| $91.77 | 99.8c | 91.4c | otros_cierre | si | Pakistan military action against Afghanistan by November 15, 2026? |
 | $35.36 | 99.8c | 97.4c | otros_cierre | si | Will Mark Rothko's “Untitled” sell for between $4.5m and $5.5m at auction? |
 | $87.27 | 99.8c | 98.3c | otros_cierre | si | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
 | $95.27 | 99.7c | 99.5c | otros_cierre |  | Will the next Grok model (4.8+) be released on November 24, 2026? |
 | $17.68 | 95.0c | 95.0c | deportes_previo |  | Spread: Giravanz Kitakyushu (-2.5) |
-| $88.72 | 98.2c | 98.2c | deportes_previo |  | Spread: Tokushima Vortis (-2.5) |
+| $88.72 | 98.2c | 97.5c | deportes_previo |  | Spread: Tokushima Vortis (-2.5) |
+| $35.99 | 99.4c | 99.4c | cripto_cierre |  | Will the price of Bitcoin be less than $54,000 on November 25? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 14098 | abiertas: 2048 | abiertas mas de 7 dias despues de su fecha de fin: 5
+- Resueltas: 14189 | abiertas: 2039 | abiertas mas de 7 dias despues de su fecha de fin: 5
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
-| clima_cierre | todas | 3811 | 98.81c | 98.87% | +0.07 pts | -0.27 a +0.40 | 43 |
-| clima_cierre | tocadas | 3534 | 98.83c | 98.78% | -0.05 pts | -0.41 a +0.31 | 43 |
-| cripto_cierre | todas | 1778 | 98.66c | 98.09% | -0.57 pts | -1.20 a +0.06 | 34 |
-| cripto_cierre | tocadas | 1624 | 98.70c | 97.91% | -0.79 pts | -1.48 a -0.10 | 34 |
-| deportes_previo | todas | 6646 | 98.05c | 97.37% | -0.68 pts | -1.06 a -0.30 | 177 |
-| deportes_previo | tocadas | 6486 | 98.09c | 97.34% | -0.75 pts | -1.14 a -0.36 | 175 |
-| otros_cierre | todas | 1610 | 99.00c | 97.58% | -1.42 pts | -2.16 a -0.67 | 39 |
-| otros_cierre | tocadas | 1466 | 98.95c | 97.34% | -1.61 pts | -2.43 a -0.79 | 39 |
+| clima_cierre | todas | 3844 | 98.80c | 98.86% | +0.05 pts | -0.28 a +0.39 | 44 |
+| clima_cierre | tocadas | 3567 | 98.83c | 98.77% | -0.06 pts | -0.42 a +0.30 | 44 |
+| cripto_cierre | todas | 1795 | 98.65c | 98.11% | -0.55 pts | -1.17 a +0.08 | 34 |
+| cripto_cierre | tocadas | 1638 | 98.69c | 97.92% | -0.77 pts | -1.45 a -0.09 | 34 |
+| deportes_previo | todas | 6684 | 98.05c | 97.34% | -0.71 pts | -1.09 a -0.33 | 180 |
+| deportes_previo | tocadas | 6523 | 98.09c | 97.31% | -0.78 pts | -1.17 a -0.39 | 178 |
+| otros_cierre | todas | 1613 | 98.99c | 97.52% | -1.47 pts | -2.23 a -0.72 | 40 |
+| otros_cierre | tocadas | 1469 | 98.94c | 97.28% | -1.67 pts | -2.49 a -0.84 | 40 |
 | post_fin_90_97 | todas | 253 | 94.03c | 93.68% | -0.35 pts | -3.32 a +2.62 | 16 |
 | post_fin_90_97 | tocadas | 215 | 94.14c | 92.56% | -1.58 pts | -5.05 a +1.89 | 16 |
-| TOTAL | todas | 14098 | 98.37c | 97.83% | -0.54 pts | -0.78 a -0.30 | 309 |
-| TOTAL | tocadas | 13325 | 98.39c | 97.71% | -0.68 pts | -0.93 a -0.42 | 307 |
+| TOTAL | todas | 14189 | 98.37c | 97.80% | -0.56 pts | -0.80 a -0.32 | 314 |
+| TOTAL | tocadas | 13412 | 98.39c | 97.69% | -0.70 pts | -0.95 a -0.45 | 312 |
 
 Peores casos del registro sombra:
 
