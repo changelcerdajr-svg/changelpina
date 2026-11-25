@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 11.9 de 28 | corridas: 270
-- Capital inicial: $1,000.00 | valor actual: $946.53 | P&L: $-53.47 (-5.35%)
-- Efectivo libre: $0.00 | en ordenes abiertas: $431.88 (6) | en posiciones: $534.74 (8)
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 11.9 de 28 | corridas: 271
+- Capital inicial: $1,000.00 | valor actual: $945.21 | P&L: $-54.79 (-5.48%)
+- Efectivo libre: $0.00 | en ordenes abiertas: $337.61 (5) | en posiciones: $629.01 (9)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $214.40 en 3 posiciones
-- Ordenes virtuales: 542 colocadas, 248 llenadas, 232 tocadas sin llenarse (sorteo 30%), 56 expiradas
+- Ordenes virtuales: 543 colocadas, 249 llenadas, 233 tocadas sin llenarse (sorteo 30%), 56 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -31,20 +31,21 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
-| $91.77 | 99.8c | 81.7c | otros_cierre | si | Pakistan military action against Afghanistan by November 15, 2026? |
+| $91.77 | 99.8c | 81.8c | otros_cierre | si | Pakistan military action against Afghanistan by November 15, 2026? |
 | $35.36 | 99.8c | 97.4c | otros_cierre | si | Will Mark Rothko's “Untitled” sell for between $4.5m and $5.5m at auction? |
 | $87.27 | 99.8c | 98.3c | otros_cierre | si | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
 | $94.67 | 95.0c | 95.0c | deportes_previo |  | Spread: Reilac Shiga FC (-2.5) |
-| $88.72 | 98.2c | 97.0c | deportes_previo |  | Spread: Tokushima Vortis (-2.5) |
-| $95.06 | 97.9c | 97.9c | deportes_previo |  | Spread: Cerezo Ōsaka (-2.5) |
-| $5.89 | 99.6c | 99.6c | deportes_previo |  | Spread: Cerezo Ōsaka (-3.5) |
-| $35.99 | 99.4c | 98.9c | cripto_cierre |  | Will the price of Bitcoin be less than $54,000 on November 25? |
+| $88.72 | 98.2c | 95.6c | deportes_previo |  | Spread: Tokushima Vortis (-2.5) |
+| $95.06 | 97.9c | 97.8c | deportes_previo |  | Spread: Cerezo Ōsaka (-2.5) |
+| $5.89 | 99.6c | 99.5c | deportes_previo |  | Spread: Cerezo Ōsaka (-3.5) |
+| $94.27 | 97.0c | 97.0c | deportes_previo |  | Spread: FK Kryvbas Kryvyi Rih (-1.5) |
+| $35.99 | 99.4c | 98.8c | cripto_cierre |  | Will the price of Bitcoin be less than $54,000 on November 25? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 14285 | abiertas: 2035 | abiertas mas de 7 dias despues de su fecha de fin: 5
+- Resueltas: 14285 | abiertas: 2040 | abiertas mas de 7 dias despues de su fecha de fin: 5
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|

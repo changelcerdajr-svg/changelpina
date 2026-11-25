@@ -88,28 +88,7 @@
    "liq": 1501
   },
   {
-   "oid": "4111723-1795600445",
-   "id": "4111723",
-   "q": "Spread: FK Kryvbas Kryvyi Rih (-1.5)",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "952108",
-   "side": 1,
-   "token": "47299498023285560004732526802544934268241767090890080727317279209778815825267",
-   "px": 0.97,
-   "tick": 0.001,
-   "mid": 0.964,
-   "bid": 0.957,
-   "ask": 0.971,
-   "shares": 97.1848,
-   "cost": 94.2692,
-   "ts": 1795600445.358807,
-   "end_ts": 1795604400.0,
-   "hours": 1.1,
-   "liq": 2176
-  },
-  {
-   "oid": "6390043-1795600445",
+   "oid": "6390043-1795600896",
    "id": "6390043",
    "q": "Will Core PCE MoM be 0.1% in October?",
    "cat": "otros",
@@ -124,10 +103,10 @@
    "ask": 0.998,
    "shares": 20.2709,
    "cost": 20.2101,
-   "ts": 1795600445.358807,
+   "ts": 1795600896.799953,
    "end_ts": 1795613400.0,
-   "hours": 3.6,
-   "liq": 1777
+   "hours": 3.47,
+   "liq": 1652
   }
  ],
  "positions": [
@@ -152,7 +131,7 @@
    "hours": 3.96,
    "liq": 1095,
    "fill_ts": 1794791170.442568,
-   "mark": 0.8165,
+   "mark": 0.818,
    "stuck": true,
    "disputed": false
   },
@@ -227,7 +206,7 @@
    "hours": 4.97,
    "liq": 564,
    "fill_ts": 1795586503.249588,
-   "mark": 0.9705,
+   "mark": 0.956,
    "stuck": false,
    "disputed": false
   },
@@ -252,7 +231,7 @@
    "hours": 10.97,
    "liq": 40023,
    "fill_ts": 1795590098.145542,
-   "mark": 0.9885,
+   "mark": 0.9875,
    "stuck": false,
    "disputed": false
   },
@@ -302,7 +281,9 @@
    "hours": 1.47,
    "liq": 16433,
    "fill_ts": 1795600445.358807,
-   "mark": 0.979
+   "mark": 0.978,
+   "stuck": false,
+   "disputed": false
   },
   {
    "oid": "6989783-1795597301",
@@ -325,7 +306,32 @@
    "hours": 1.47,
    "liq": 12161,
    "fill_ts": 1795600445.358807,
-   "mark": 0.996
+   "mark": 0.9945,
+   "stuck": false,
+   "disputed": false
+  },
+  {
+   "oid": "4111723-1795600445",
+   "id": "4111723",
+   "q": "Spread: FK Kryvbas Kryvyi Rih (-1.5)",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "952108",
+   "side": 1,
+   "token": "47299498023285560004732526802544934268241767090890080727317279209778815825267",
+   "px": 0.97,
+   "tick": 0.001,
+   "mid": 0.964,
+   "bid": 0.957,
+   "ask": 0.971,
+   "shares": 97.1848,
+   "cost": 94.2692,
+   "ts": 1795600445.358807,
+   "end_ts": 1795604400.0,
+   "hours": 1.1,
+   "liq": 2176,
+   "fill_ts": 1795600896.799953,
+   "mark": 0.97
   }
  ],
  "closed": [
@@ -10946,14 +10952,27 @@
    "placed": 2,
    "shadow_open": 2035,
    "shadow_closed": 41
+  },
+  {
+   "ts": "2026-11-25T10:02:33Z",
+   "equity": 945.21,
+   "cash": 0.0,
+   "orders": 5,
+   "positions": 9,
+   "closed": 240,
+   "scanned": 18714,
+   "candidates": 841,
+   "placed": 1,
+   "shadow_open": 2040,
+   "shadow_closed": 0
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 542,
-  "filled": 248,
+  "placed": 543,
+  "filled": 249,
   "expired": 56,
-  "touched_not_filled": 232
+  "touched_not_filled": 233
  },
  "shadow": [
   {
@@ -37409,6 +37428,71 @@
    "ts": 1795600445,
    "end_ts": 1795841940,
    "q": "Will the Fear & Greed Index be 76 or above on November 27?",
+   "touched": null
+  },
+  {
+   "id": "7303536",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "66350395060502099442562225223558580071482874022226369708542820012117711140460",
+   "px": 0.96,
+   "tick": 0.01,
+   "ts": 1795600896,
+   "end_ts": 1795653000,
+   "q": "Cavaliers vs. Knicks: O/U 248.5",
+   "touched": null
+  },
+  {
+   "id": "7302935",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "108367714104100960469652681015480722881857746980080511241910125573539687151859",
+   "px": 0.979,
+   "tick": 0.001,
+   "ts": 1795600896,
+   "end_ts": 1795694400,
+   "q": "Will the highest temperature in Cape Town be 23°C on November 26?",
+   "touched": null
+  },
+  {
+   "id": "7303076",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "107138133355549005134826028944906248602410322119590205816999727943082862794115",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795600896,
+   "end_ts": 1795694400,
+   "q": "Will the lowest temperature in Shanghai be 5°C on November 26?",
+   "touched": null
+  },
+  {
+   "id": "7307973",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "77010780070975983525356821338250313221577020030658128512718580741830245137084",
+   "px": 0.979,
+   "tick": 0.001,
+   "ts": 1795600896,
+   "end_ts": 1795694400,
+   "q": "Will the highest temperature in Sao Paulo be 20°C on November 26?",
+   "touched": null
+  },
+  {
+   "id": "7210286",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "109303213850030523759081201694622846802262782704688830346331108858750982546156",
+   "px": 0.95,
+   "tick": 0.01,
+   "ts": 1795600896,
+   "end_ts": 1795813200,
+   "q": "Will Amazon.com, Inc. (AMZN) hit (HIGH) $264 Week of November 23 2026?",
    "touched": null
   }
  ]

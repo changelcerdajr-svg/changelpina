@@ -46,27 +46,6 @@
    "liq": 28836
   },
   {
-   "oid": "6989858-1795568463",
-   "id": "6989858",
-   "q": "Fagiano Okayama vs. Shimizu S-Pulse: O/U 6.5",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1372455",
-   "side": 1,
-   "token": "82926639656880016209914991060965007705903754547665869939704824079133071995750",
-   "px": 0.988,
-   "tick": 0.001,
-   "mid": 0.9885,
-   "bid": 0.983,
-   "ask": 0.994,
-   "shares": 52.4615,
-   "cost": 51.832,
-   "ts": 1795568463.330185,
-   "end_ts": 1795600800.0,
-   "hours": 8.98,
-   "liq": 3841
-  },
-  {
    "oid": "6989845-1795572065",
    "id": "6989845",
    "q": "Spread: Shimizu S-Pulse (-2.5)",
@@ -219,7 +198,7 @@
    "hours": 6.98,
    "liq": 12186,
    "fill_ts": 1795597268.876121,
-   "mark": 0.9825,
+   "mark": 0.981,
    "stuck": false,
    "disputed": false
   },
@@ -244,7 +223,7 @@
    "hours": 8.98,
    "liq": 32858,
    "fill_ts": 1795597268.876121,
-   "mark": 0.9885,
+   "mark": 0.9875,
    "stuck": false,
    "disputed": false
   },
@@ -269,7 +248,32 @@
    "hours": 5.48,
    "liq": 1976,
    "fill_ts": 1795600414.831584,
-   "mark": 0.998
+   "mark": 0.986,
+   "stuck": false,
+   "disputed": false
+  },
+  {
+   "oid": "6989858-1795568463",
+   "id": "6989858",
+   "q": "Fagiano Okayama vs. Shimizu S-Pulse: O/U 6.5",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1372455",
+   "side": 1,
+   "token": "82926639656880016209914991060965007705903754547665869939704824079133071995750",
+   "px": 0.988,
+   "tick": 0.001,
+   "mid": 0.9885,
+   "bid": 0.983,
+   "ask": 0.994,
+   "shares": 52.4615,
+   "cost": 51.832,
+   "ts": 1795568463.330185,
+   "end_ts": 1795600800.0,
+   "hours": 8.98,
+   "liq": 3841,
+   "fill_ts": 1795600865.489073,
+   "mark": 0.988
   }
  ],
  "closed": [
@@ -7733,12 +7737,25 @@
    "placed": 1,
    "shadow_open": 335,
    "shadow_closed": 0
+  },
+  {
+   "ts": "2026-11-25T10:01:36Z",
+   "equity": 1036.78,
+   "cash": 415.21,
+   "orders": 7,
+   "positions": 5,
+   "closed": 117,
+   "scanned": 10756,
+   "candidates": 196,
+   "placed": 0,
+   "shadow_open": 336,
+   "shadow_closed": 0
   }
  ],
  "halted": false,
  "stats": {
   "placed": 518,
-  "filled": 121,
+  "filled": 122,
   "expired": 117,
   "touched_not_filled": 272
  },
@@ -12096,6 +12113,19 @@
    "ts": 1795600414,
    "end_ts": 1795630500,
    "q": "Al-Taawoun FC vs. Al Nahda: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "6998682",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "57746462785921904549209176407088775455755175879752386201920093610974482744342",
+   "px": 0.984,
+   "tick": 0.001,
+   "ts": 1795600865,
+   "end_ts": 1795651200,
+   "q": "Norfolk State Spartans vs. North Carolina State Wolfpack",
    "touched": null
   }
  ]
