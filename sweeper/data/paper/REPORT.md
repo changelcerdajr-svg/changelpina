@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-11T22:05:26Z | dias corridos: 13.5 de 28 | corridas: 309
-- Capital inicial: $1,000.00 | valor actual: $1,036.65 | P&L: $+36.65 (+3.66%)
-- Efectivo libre: $415.28 | en ordenes abiertas: $362.79 (7) | en posiciones: $259.20 (5)
+- Inicio: 2026-11-11T22:05:26Z | dias corridos: 13.6 de 28 | corridas: 310
+- Capital inicial: $1,000.00 | valor actual: $1,036.49 | P&L: $+36.49 (+3.65%)
+- Efectivo libre: $415.37 | en ordenes abiertas: $362.69 (7) | en posiciones: $259.20 (5)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $51.82 en 1 posiciones
-- Ordenes virtuales: 522 colocadas, 122 llenadas, 274 tocadas sin llenarse (sorteo 30%), 119 expiradas
+- Ordenes virtuales: 527 colocadas, 122 llenadas, 279 tocadas sin llenarse (sorteo 30%), 119 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -31,14 +31,14 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 | $51.82 | 98.5c | 98.3c | otros_cierre | si | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
 | $51.83 | 97.7c | 98.1c | deportes_previo |  | RB Ōmiya Ardija vs. Tokushima Vortis: O/U 6.5 |
 | $51.83 | 98.8c | 98.8c | deportes_previo |  | Fagiano Okayama vs. Shimizu S-Pulse: O/U 6.5 |
-| $51.86 | 99.8c | 98.4c | otros_cierre |  | Will Core PCE MoM be 0.1% in October? |
-| $51.86 | 98.7c | 98.7c | cripto_cierre |  | Will the price of Bitcoin be less than $54,000 on November 25? |
+| $51.86 | 99.8c | 98.7c | otros_cierre |  | Will Core PCE MoM be 0.1% in October? |
+| $51.86 | 98.7c | 98.2c | cripto_cierre |  | Will the price of Bitcoin be less than $54,000 on November 25? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 4941 | abiertas: 332 | abiertas mas de 7 dias despues de su fecha de fin: 5
+- Resueltas: 4941 | abiertas: 364 | abiertas mas de 7 dias despues de su fecha de fin: 5
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
@@ -68,4 +68,4 @@ Peores casos del registro sombra:
 
 ## Veredicto
 
-Aun no hay veredicto: van 117 operaciones cerradas en 13.5 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
+Aun no hay veredicto: van 117 operaciones cerradas en 13.6 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
