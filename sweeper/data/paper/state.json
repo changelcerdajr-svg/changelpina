@@ -1,29 +1,8 @@
 {
  "capital0": 1000.0,
- "cash": 417.5345,
+ "cash": 418.4585,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
-  {
-   "oid": "6390053-1795600414",
-   "id": "6390053",
-   "q": "Will Core PCE MoM be 0.5% in October?",
-   "cat": "otros",
-   "rule": "otros_cierre",
-   "event": "1278380",
-   "side": 1,
-   "token": "73747421083566151191879076764546091557037769626720566661749053559369796746260",
-   "px": 0.982,
-   "tick": 0.001,
-   "mid": 0.9825,
-   "bid": 0.972,
-   "ask": 0.993,
-   "shares": 52.8275,
-   "cost": 51.8766,
-   "ts": 1795600414.831584,
-   "end_ts": 1795613400.0,
-   "hours": 3.61,
-   "liq": 1639
-  },
   {
    "oid": "7150123-1795608067",
    "id": "7150123",
@@ -191,6 +170,48 @@
    "end_ts": 1795662000.0,
    "hours": 7.02,
    "liq": 9578
+  },
+  {
+   "oid": "3940930-1795644073",
+   "id": "3940930",
+   "q": "Will the Bank of Korea hold at the November 2026 meeting?",
+   "cat": "otros",
+   "rule": "otros_cierre",
+   "event": "923209",
+   "side": 1,
+   "token": "84537702406657264713035352772617152057003806753102711636097395706753042176612",
+   "px": 0.992,
+   "tick": 0.001,
+   "mid": 0.9925,
+   "bid": 0.989,
+   "ask": 0.996,
+   "shares": 52.5489,
+   "cost": 52.1285,
+   "ts": 1795644073.818532,
+   "end_ts": 1795651200.0,
+   "hours": 1.98,
+   "liq": 5128
+  },
+  {
+   "oid": "3940931-1795644073",
+   "id": "3940931",
+   "q": "Will the Bank of Korea hike by 25 bps at the November 2026 meeting?",
+   "cat": "otros",
+   "rule": "otros_cierre",
+   "event": "923209",
+   "side": 0,
+   "token": "34183803759521638854989783568100642156381706019491238689667182981181837714629",
+   "px": 0.993,
+   "tick": 0.001,
+   "mid": 0.9935,
+   "bid": 0.99,
+   "ask": 0.997,
+   "shares": 52.496,
+   "cost": 52.1285,
+   "ts": 1795644073.818532,
+   "end_ts": 1795651200.0,
+   "hours": 1.98,
+   "liq": 4180
   }
  ],
  "positions": [
@@ -220,31 +241,6 @@
    "disputed": false
   },
   {
-   "oid": "7309766-1795626072",
-   "id": "7309766",
-   "q": "Will Amazon (AMZN) close above $250 on November 25?",
-   "cat": "otros",
-   "rule": "otros_cierre",
-   "event": "1452872",
-   "side": 1,
-   "token": "62003236009999428545681461203286918907663228377949811030722050066933456581931",
-   "px": 0.976,
-   "tick": 0.001,
-   "mid": 0.976,
-   "bid": 0.962,
-   "ask": 0.99,
-   "shares": 53.3044,
-   "cost": 52.0251,
-   "ts": 1795626072.91454,
-   "end_ts": 1795640400.0,
-   "hours": 3.98,
-   "liq": 2981,
-   "fill_ts": 1795629666.045628,
-   "mark": 0.9765,
-   "stuck": false,
-   "disputed": false
-  },
-  {
    "oid": "7312867-1795636720",
    "id": "7312867",
    "q": "Blackhawks vs. Kraken: O/U 2.5",
@@ -265,7 +261,9 @@
    "hours": 6.69,
    "liq": 9274,
    "fill_ts": 1795640467.513413,
-   "mark": 0.971
+   "mark": 0.971,
+   "stuck": false,
+   "disputed": false
   }
  ],
  "closed": [
@@ -3888,6 +3886,36 @@
    "result": 1.0,
    "closed_ts": "2026-11-25T18:01:06Z",
    "days": 0.37
+  },
+  {
+   "oid": "7309766-1795626072",
+   "id": "7309766",
+   "q": "Will Amazon (AMZN) close above $250 on November 25?",
+   "cat": "otros",
+   "rule": "otros_cierre",
+   "event": "1452872",
+   "side": 1,
+   "token": "62003236009999428545681461203286918907663228377949811030722050066933456581931",
+   "px": 0.976,
+   "tick": 0.001,
+   "mid": 0.976,
+   "bid": 0.962,
+   "ask": 0.99,
+   "shares": 53.3044,
+   "cost": 52.0251,
+   "ts": 1795626072.91454,
+   "end_ts": 1795640400.0,
+   "hours": 3.98,
+   "liq": 2981,
+   "fill_ts": 1795629666.045628,
+   "mark": 0.9765,
+   "stuck": false,
+   "disputed": false,
+   "payout": 53.3044,
+   "pnl": 1.2793,
+   "result": 1.0,
+   "closed_ts": "2026-11-25T22:01:15Z",
+   "days": 0.17
   }
  ],
  "runs": [
@@ -8020,13 +8048,26 @@
    "placed": 0,
    "shadow_open": 421,
    "shadow_closed": 5
+  },
+  {
+   "ts": "2026-11-25T22:02:23Z",
+   "equity": 1042.57,
+   "cash": 418.46,
+   "orders": 10,
+   "positions": 2,
+   "closed": 123,
+   "scanned": 14095,
+   "candidates": 185,
+   "placed": 2,
+   "shadow_open": 412,
+   "shadow_closed": 12
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 550,
+  "placed": 552,
   "filled": 125,
-  "expired": 119,
+  "expired": 120,
   "touched_not_filled": 297
  },
  "shadow": [
@@ -8133,19 +8174,6 @@
    "end_ts": 1795631400,
    "q": "Toledo Rockets vs. Michigan Wolverines (W)",
    "touched": 1
-  },
-  {
-   "id": "7240405",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "112172989802643721489880337590382560715705677425163067931871792620081920386926",
-   "px": 0.985,
-   "tick": 0.001,
-   "ts": 1795525269,
-   "end_ts": 1795629600,
-   "q": "US Cremonese vs. US Avellino 1912: O/U 6.5",
-   "touched": 0
   },
   {
    "id": "6757457",
@@ -8496,19 +8524,6 @@
    "ts": 1795528868,
    "end_ts": 1795633200,
    "q": "Calcio Padova vs. UC Sampdoria: O/U 6.5",
-   "touched": 0
-  },
-  {
-   "id": "7240406",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "10318170767272191480006710767955576246505525090310519595703563709211107335845",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795528868,
-   "end_ts": 1795629600,
-   "q": "US Cremonese vs. US Avellino 1912: O/U 7.5",
    "touched": 0
   },
   {
@@ -8876,19 +8891,6 @@
    "touched": 1
   },
   {
-   "id": "7240392",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "108304143633181029463364610112636698053852813329241876747832551041391781997616",
-   "px": 0.976,
-   "tick": 0.001,
-   "ts": 1795543268,
-   "end_ts": 1795629600,
-   "q": "Spread: US Avellino 1912 (-2.5)",
-   "touched": 0
-  },
-  {
    "id": "7240355",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -8964,19 +8966,6 @@
    "ts": 1795546868,
    "end_ts": 1795629600,
    "q": "Ghazl El Mahalla SC vs. Montakhab Suez Petrojet: O/U 5.5",
-   "touched": 1
-  },
-  {
-   "id": "6993500",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "35824936559761813237995615084881709321125895029491738671580476001976773402286",
-   "px": 0.971,
-   "tick": 0.001,
-   "ts": 1795546868,
-   "end_ts": 1795636800,
-   "q": "Club Brugge KV vs. Liverpool FC: 1st Half O/U 4.5",
    "touched": 1
   },
   {
@@ -9172,19 +9161,6 @@
    "ts": 1795561269,
    "end_ts": 1795636800,
    "q": "Spread: Lille OSC (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "7240407",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "13679967498675059398575385389608449335091090692616668734577229852626119939414",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1795561269,
-   "end_ts": 1795629600,
-   "q": "US Cremonese vs. US Avellino 1912: O/U 8.5",
    "touched": 1
   },
   {
@@ -9575,32 +9551,6 @@
    "ts": 1795579277,
    "end_ts": 1795633200,
    "q": "Spread: SS Arezzo (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "7240393",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "96390678911087800167579184018687429964444643600285585573649585473269476538677",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1795579277,
-   "end_ts": 1795629600,
-   "q": "Spread: US Cremonese (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "7240394",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "42339103063108262192201320038357768688552504030335655228954214627433552878733",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795579277,
-   "end_ts": 1795629600,
-   "q": "Spread: US Avellino 1912 (-3.5)",
    "touched": 1
   },
   {
@@ -10384,19 +10334,6 @@
    "touched": 1
   },
   {
-   "id": "7319793",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "68741214714786139515183874673078818018620400339622703063452017686136567973822",
-   "px": 0.983,
-   "tick": 0.001,
-   "ts": 1795597268,
-   "end_ts": 1795622400,
-   "q": "Kuwait SC vs. Al Wahda FC (UAE): O/U 7.5",
-   "touched": null
-  },
-  {
    "id": "6985598",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -10407,7 +10344,7 @@
    "ts": 1795597268,
    "end_ts": 1795636800,
    "q": "Spread: Millwall FC (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7160849",
@@ -10420,7 +10357,7 @@
    "ts": 1795597268,
    "end_ts": 1795644000,
    "q": "Cerro Porteno leading at halftime?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7160850",
@@ -10433,7 +10370,7 @@
    "ts": 1795597268,
    "end_ts": 1795644000,
    "q": "Cerro Porteno vs. Club Guarani Asuncion: Draw at halftime?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7160851",
@@ -10446,59 +10383,7 @@
    "ts": 1795597268,
    "end_ts": 1795644000,
    "q": "Club Guarani Asuncion leading at halftime?",
-   "touched": null
-  },
-  {
-   "id": "6390055",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "81205375273140805540895392470953770072122776085028479233633656887547340911243",
-   "px": 0.988,
-   "tick": 0.001,
-   "ts": 1795600414,
-   "end_ts": 1795613400,
-   "q": "Will Core PCE MoM be 0.6% or more in October?",
-   "touched": null
-  },
-  {
-   "id": "7150186",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "14347916583664897231158927427150752569739380999308579297902791367140477503444",
-   "px": 0.971,
-   "tick": 0.001,
-   "ts": 1795600414,
-   "end_ts": 1795626000,
-   "q": "Will the price of Bitcoin be above $62,000 on November 25?",
-   "touched": null
-  },
-  {
-   "id": "7319653",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "12836532269440796200702232005011881475877168722376117239126969128055079145498",
-   "px": 0.989,
-   "tick": 0.001,
-   "ts": 1795600414,
-   "end_ts": 1795622400,
-   "q": "Spread: Al Faisaly (JOR) (-3.5)",
-   "touched": null
-  },
-  {
-   "id": "7319654",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "71304354771656712062314561948295066456478086941752255739696648468569042632328",
-   "px": 0.977,
-   "tick": 0.001,
-   "ts": 1795600414,
-   "end_ts": 1795622400,
-   "q": "Spread: Al Rayyan SC (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7326572",
@@ -10511,7 +10396,7 @@
    "ts": 1795600414,
    "end_ts": 1795630500,
    "q": "Spread: Al Nahda (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7326576",
@@ -10524,7 +10409,7 @@
    "ts": 1795600414,
    "end_ts": 1795630500,
    "q": "Spread: Al Nahda (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7326598",
@@ -10537,7 +10422,7 @@
    "ts": 1795600414,
    "end_ts": 1795630500,
    "q": "Al-Taawoun FC vs. Al Nahda: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6998682",
@@ -10550,7 +10435,7 @@
    "ts": 1795600865,
    "end_ts": 1795651200,
    "q": "Norfolk State Spartans vs. North Carolina State Wolfpack",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6986274",
@@ -13501,6 +13386,45 @@
    "ts": 1795640467,
    "end_ts": 1795723200,
    "q": "Spread: Doncaster Rovers FC (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "7309834",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "37093614436272976323362854272973046712106693163346869444053701864011065217345",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795644073,
+   "end_ts": 1795647600,
+   "q": "Natural Gas (NG) Up or Down on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7335826",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "49310825364758083563170118110425104263350132027327935967286372644324507892488",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795644073,
+   "end_ts": 1795669200,
+   "q": "Will Solana dip to $65 on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7176651",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "112558790211163463223133794813091266440021839983701813023852542647834859424791",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795644073,
+   "end_ts": 1795712400,
+   "q": "Will the price of Bitcoin be above $70,000 on November 26?",
    "touched": null
   }
  ]
