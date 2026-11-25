@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 11.6 de 28 | corridas: 264
-- Capital inicial: $1,000.00 | valor actual: $947.90 | P&L: $-52.10 (-5.21%)
-- Efectivo libre: $0.00 | en ordenes abiertas: $422.80 (7) | en posiciones: $542.10 (7)
-- Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $91.77 en 1 posiciones
-- Ordenes virtuales: 527 colocadas, 242 llenadas, 224 tocadas sin llenarse (sorteo 30%), 54 expiradas
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 11.7 de 28 | corridas: 265
+- Capital inicial: $1,000.00 | valor actual: $946.35 | P&L: $-53.65 (-5.36%)
+- Efectivo libre: $0.00 | en ordenes abiertas: $499.88 (6) | en posiciones: $465.11 (7)
+- Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $214.40 en 3 posiciones
+- Ordenes virtuales: 529 colocadas, 243 llenadas, 225 tocadas sin llenarse (sorteo 30%), 55 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -14,10 +14,10 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 |---|---|---|---|---|---|---|---|
 | clima_cierre | 5 | 98.28c | 100.00% | 56.6-100.0% | +1.72 pts | $+7.94 | 0.97 |
 | cripto_cierre | 68 | 98.84c | 100.00% | 94.7-100.0% | +1.16 pts | $+53.87 | 0.18 |
-| deportes_previo | 117 | 98.05c | 96.86% | 92.7-99.1% | -1.19 pts | $-113.47 | 0.26 |
+| deportes_previo | 118 | 98.07c | 96.89% | 92.8-99.1% | -1.18 pts | $-113.37 | 0.26 |
 | otros_cierre | 42 | 99.63c | 100.00% | 91.6-100.0% | +0.37 pts | $+10.90 | 0.33 |
 | post_fin_90_97 | 3 | 95.67c | 100.00% | 43.8-100.0% | +4.33 pts | $+5.65 | 0.68 |
-| TOTAL | 235 | 98.52c | 98.33% | 96.3-99.6% | -0.19 pts | $-35.10 | 0.27 |
+| TOTAL | 236 | 98.52c | 98.34% | 96.3-99.6% | -0.19 pts | $-35.00 | 0.27 |
 
 ## Peores casos
 
@@ -31,34 +31,34 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
-| $91.77 | 99.8c | 84.4c | otros_cierre | si | Pakistan military action against Afghanistan by November 15, 2026? |
-| $35.36 | 99.8c | 97.4c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $4.5m and $5.5m at auction? |
-| $87.27 | 99.8c | 98.3c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
-| $94.67 | 99.9c | 99.5c | deportes_previo |  | Game Handicap: ICxI (-1.5) vs Power Rangers (+1.5) |
+| $91.77 | 99.8c | 82.2c | otros_cierre | si | Pakistan military action against Afghanistan by November 15, 2026? |
+| $35.36 | 99.8c | 97.4c | otros_cierre | si | Will Mark Rothko's “Untitled” sell for between $4.5m and $5.5m at auction? |
+| $87.27 | 99.8c | 98.3c | otros_cierre | si | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
 | $95.27 | 99.7c | 99.5c | otros_cierre |  | Will the next Grok model (4.8+) be released on November 24, 2026? |
 | $95.27 | 99.8c | 99.8c | cripto_cierre |  | Will Bitcoin reach $64,000 on November 24? |
 | $42.49 | 99.5c | 99.2c | cripto_cierre |  | Will Bitcoin reach $63,000 on November 24? |
+| $17.68 | 95.0c | 95.0c | deportes_previo |  | Spread: Giravanz Kitakyushu (-2.5) |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 13896 | abiertas: 2124 | abiertas mas de 7 dias despues de su fecha de fin: 1
+- Resueltas: 14061 | abiertas: 1988 | abiertas mas de 7 dias despues de su fecha de fin: 5
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
-| clima_cierre | todas | 3796 | 98.81c | 98.87% | +0.06 pts | -0.27 a +0.40 | 43 |
-| clima_cierre | tocadas | 3519 | 98.83c | 98.78% | -0.05 pts | -0.41 a +0.31 | 43 |
-| cripto_cierre | todas | 1772 | 98.66c | 98.08% | -0.58 pts | -1.21 a +0.06 | 34 |
-| cripto_cierre | tocadas | 1621 | 98.70c | 97.90% | -0.80 pts | -1.49 a -0.11 | 34 |
-| deportes_previo | todas | 6578 | 98.05c | 97.36% | -0.69 pts | -1.08 a -0.31 | 176 |
-| deportes_previo | tocadas | 6421 | 98.09c | 97.33% | -0.76 pts | -1.15 a -0.37 | 174 |
-| otros_cierre | todas | 1497 | 98.98c | 97.39% | -1.59 pts | -2.39 a -0.78 | 39 |
-| otros_cierre | tocadas | 1380 | 98.94c | 97.17% | -1.76 pts | -2.63 a -0.89 | 39 |
+| clima_cierre | todas | 3800 | 98.81c | 98.87% | +0.06 pts | -0.27 a +0.40 | 43 |
+| clima_cierre | tocadas | 3523 | 98.83c | 98.78% | -0.05 pts | -0.41 a +0.31 | 43 |
+| cripto_cierre | todas | 1778 | 98.66c | 98.09% | -0.57 pts | -1.20 a +0.06 | 34 |
+| cripto_cierre | tocadas | 1624 | 98.70c | 97.91% | -0.79 pts | -1.48 a -0.10 | 34 |
+| deportes_previo | todas | 6631 | 98.05c | 97.37% | -0.68 pts | -1.07 a -0.30 | 177 |
+| deportes_previo | tocadas | 6472 | 98.09c | 97.33% | -0.75 pts | -1.14 a -0.36 | 175 |
+| otros_cierre | todas | 1599 | 99.01c | 97.56% | -1.44 pts | -2.20 a -0.69 | 39 |
+| otros_cierre | tocadas | 1456 | 98.96c | 97.32% | -1.63 pts | -2.46 a -0.81 | 39 |
 | post_fin_90_97 | todas | 253 | 94.03c | 93.68% | -0.35 pts | -3.32 a +2.62 | 16 |
 | post_fin_90_97 | tocadas | 215 | 94.14c | 92.56% | -1.58 pts | -5.05 a +1.89 | 16 |
-| TOTAL | todas | 13896 | 98.36c | 97.80% | -0.56 pts | -0.80 a -0.32 | 308 |
-| TOTAL | tocadas | 13156 | 98.39c | 97.69% | -0.69 pts | -0.95 a -0.44 | 306 |
+| TOTAL | todas | 14061 | 98.37c | 97.82% | -0.55 pts | -0.79 a -0.31 | 309 |
+| TOTAL | tocadas | 13290 | 98.39c | 97.71% | -0.68 pts | -0.93 a -0.43 | 307 |
 
 Peores casos del registro sombra:
 
@@ -75,4 +75,4 @@ Peores casos del registro sombra:
 
 ## Veredicto
 
-Aun no hay veredicto: van 235 operaciones cerradas en 11.6 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
+Aun no hay veredicto: van 236 operaciones cerradas en 11.7 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
