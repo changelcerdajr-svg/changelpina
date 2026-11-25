@@ -1,6 +1,6 @@
 {
  "capital0": 1000.0,
- "cash": 0.0,
+ "cash": 0.4893,
  "started": "2026-11-13T13:15:42Z",
  "orders": [
   {
@@ -88,27 +88,6 @@
    "liq": 2010
   },
   {
-   "oid": "7292611-1795567816",
-   "id": "7292611",
-   "q": "Solana Up or Down - November 24, 4:00PM-8:00PM ET",
-   "cat": "cripto",
-   "rule": "cripto_cierre",
-   "event": "1449704",
-   "side": 0,
-   "token": "99277047092681446292100649102825719749552713606646465172052136926835812054018",
-   "px": 0.995,
-   "tick": 0.001,
-   "mid": 0.9845,
-   "bid": 0.973,
-   "ask": 0.996,
-   "shares": 95.6388,
-   "cost": 95.1606,
-   "ts": 1795567816.274287,
-   "end_ts": 1795568400.0,
-   "hours": 0.16,
-   "liq": 543
-  },
-  {
    "oid": "7292619-1795567816",
    "id": "7292619",
    "q": "XRP Up or Down - November 24, 4:00PM-8:00PM ET",
@@ -149,6 +128,27 @@
    "end_ts": 1795572000.0,
    "hours": 1.16,
    "liq": 21346
+  },
+  {
+   "oid": "7291970-1795568493",
+   "id": "7291970",
+   "q": "Game Handicap: ICxI (-1.5) vs Power Rangers (+1.5)",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1449071",
+   "side": 0,
+   "token": "20647299224232117386263297094558652669081510773438520322920264692540920256541",
+   "px": 0.999,
+   "tick": 0.001,
+   "mid": 0.9955,
+   "bid": 0.991,
+   "ask": 1,
+   "shares": 94.766,
+   "cost": 94.6713,
+   "ts": 1795568493.089703,
+   "end_ts": 1795573800.0,
+   "hours": 1.47,
+   "liq": 1147
   }
  ],
  "positions": [
@@ -173,7 +173,7 @@
    "hours": 3.96,
    "liq": 1095,
    "fill_ts": 1794791170.442568,
-   "mark": 0.88,
+   "mark": 0.829,
    "stuck": true,
    "disputed": false
   },
@@ -248,7 +248,7 @@
    "hours": 1.46,
    "liq": 1342,
    "fill_ts": 1795564925.197754,
-   "mark": 0.997,
+   "mark": 0.998,
    "stuck": false,
    "disputed": false
   },
@@ -273,7 +273,9 @@
    "hours": 4.95,
    "liq": 1009,
    "fill_ts": 1795567816.274287,
-   "mark": 0.997
+   "mark": 0.995,
+   "stuck": false,
+   "disputed": false
   },
   {
    "oid": "7301879-1795564925",
@@ -296,7 +298,9 @@
    "hours": 4.97,
    "liq": 37695,
    "fill_ts": 1795567816.274287,
-   "mark": 0.998
+   "mark": 0.998,
+   "stuck": false,
+   "disputed": false
   },
   {
    "oid": "7301883-1795564925",
@@ -319,7 +323,9 @@
    "hours": 4.97,
    "liq": 36439,
    "fill_ts": 1795567816.274287,
-   "mark": 0.995
+   "mark": 0.9925,
+   "stuck": false,
+   "disputed": false
   }
  ],
  "closed": [
@@ -10630,14 +10636,27 @@
    "placed": 3,
    "shadow_open": 2151,
    "shadow_closed": 16
+  },
+  {
+   "ts": "2026-11-25T01:02:24Z",
+   "equity": 946.71,
+   "cash": 0.49,
+   "orders": 7,
+   "positions": 7,
+   "closed": 234,
+   "scanned": 18943,
+   "candidates": 909,
+   "placed": 1,
+   "shadow_open": 2150,
+   "shadow_closed": 7
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 523,
+  "placed": 524,
   "filled": 241,
   "expired": 54,
-  "touched_not_filled": 221
+  "touched_not_filled": 222
  },
  "shadow": [
   {
@@ -13163,19 +13182,6 @@
    "touched": 1
   },
   {
-   "id": "6971117",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "37504529302885587980697482008462509914322418008981857417094217646470337327544",
-   "px": 0.989,
-   "tick": 0.001,
-   "ts": 1795327304,
-   "end_ts": 1795554000,
-   "q": "Associação Chapecoense de Futebol vs. SE Palmeiras: Neither team to score first?",
-   "touched": 1
-  },
-  {
    "id": "7130073",
    "rule": "otros_cierre",
    "cat": "otros",
@@ -15282,32 +15288,6 @@
    "touched": 1
   },
   {
-   "id": "6986640",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "95558606990185170218562976898027624453770479148739942124155887885299909235928",
-   "px": 0.97,
-   "tick": 0.01,
-   "ts": 1795388505,
-   "end_ts": 1795554000,
-   "q": "Associação Chapecoense de Futebol vs. SE Palmeiras: O/U 0.5",
-   "touched": 1
-  },
-  {
-   "id": "6986646",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "7078105399087463003219344584258884829735249533511080823405499425713979321433",
-   "px": 0.984,
-   "tick": 0.001,
-   "ts": 1795388505,
-   "end_ts": 1795554000,
-   "q": "Associação Chapecoense de Futebol vs. SE Palmeiras: O/U 6.5",
-   "touched": 1
-  },
-  {
    "id": "6947007",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -16787,19 +16767,6 @@
    "ts": 1795442513,
    "end_ts": 1795521600,
    "q": "Will the highest temperature in Buenos Aires be 31°C on November 24?",
-   "touched": 1
-  },
-  {
-   "id": "6986632",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "92458056280135128746472768220905486407633577036317738239482914403595376415083",
-   "px": 0.99,
-   "tick": 0.001,
-   "ts": 1795442513,
-   "end_ts": 1795554000,
-   "q": "Spread: Associação Chapecoense de Futebol (-2.5)",
    "touched": 1
   },
   {
@@ -19728,32 +19695,6 @@
    "touched": 1
   },
   {
-   "id": "6986635",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "99101728842563270696239117202050963257616726168214485926540776478918480799361",
-   "px": 0.979,
-   "tick": 0.001,
-   "ts": 1795464107,
-   "end_ts": 1795554000,
-   "q": "Spread: SE Palmeiras (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "6986647",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "100035928296663327357525547498530525450405207977415439921394536128869086893464",
-   "px": 0.992,
-   "tick": 0.001,
-   "ts": 1795464107,
-   "end_ts": 1795554000,
-   "q": "Associação Chapecoense de Futebol vs. SE Palmeiras: O/U 7.5",
-   "touched": 1
-  },
-  {
    "id": "7280036",
    "rule": "clima_cierre",
    "cat": "clima",
@@ -20609,19 +20550,6 @@
    "ts": 1795474909,
    "end_ts": 1795521600,
    "q": "Will the highest temperature in Hong Kong be 23°C on November 24?",
-   "touched": 1
-  },
-  {
-   "id": "6986648",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "61615722738811111475619991804543968905255347482709547564907819362391984792673",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795474909,
-   "end_ts": 1795554000,
-   "q": "Associação Chapecoense de Futebol vs. SE Palmeiras: O/U 8.5",
    "touched": 1
   },
   {
@@ -38601,6 +38529,84 @@
    "ts": 1795567816,
    "end_ts": 1795823940,
    "q": "Will \"All I Want For Christmas Is You - Mariah Carey\" be the #2 song this week?",
+   "touched": null
+  },
+  {
+   "id": "7311430",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "83353369878685164742388487038625534080503860795073154919366164986923525404305",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1795568493,
+   "end_ts": 1795575600,
+   "q": "Naji Marshall: 3-Pointers Made O/U 3.5",
+   "touched": null
+  },
+  {
+   "id": "7319040",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "108309444295904822841788833311204665822216155220498213541868973860704169852096",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1795568493,
+   "end_ts": 1795575600,
+   "q": "Caleb Martin: 3-Pointers Made O/U 3.5",
+   "touched": null
+  },
+  {
+   "id": "7280193",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "95927148775921633798319016683163920031220552515123503235420022662157397074817",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795568493,
+   "end_ts": 1795608000,
+   "q": "Will the highest temperature in Kuala Lumpur be 27°C or below on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7302809",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "94150027930325804175619053226772552060771296649935346591749256218463056126959",
+   "px": 0.969,
+   "tick": 0.001,
+   "ts": 1795568493,
+   "end_ts": 1795694400,
+   "q": "Will the highest temperature in Wuhan be 21°C on November 26?",
+   "touched": null
+  },
+  {
+   "id": "7305045",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "63096395619108220398999233171868673799986490000575161104928825557278680445428",
+   "px": 0.967,
+   "tick": 0.001,
+   "ts": 1795568493,
+   "end_ts": 1795694400,
+   "q": "Will the highest temperature in Dallas be between 50-51°F on November 26?",
+   "touched": null
+  },
+  {
+   "id": "7210306",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "13557153726954031173702880490462365907577941784805816461123916379837105439554",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795568493,
+   "end_ts": 1795813200,
+   "q": "Will Amazon (AMZN) finish week of November 23 above $280?",
    "touched": null
   }
  ]
