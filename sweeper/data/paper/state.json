@@ -172,27 +172,6 @@
    "liq": 12122
   },
   {
-   "oid": "7312867-1795636720",
-   "id": "7312867",
-   "q": "Blackhawks vs. Kraken: O/U 2.5",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1278260",
-   "side": 0,
-   "token": "59272674597882191280931704311156080749081246689562724433342837994558360267254",
-   "px": 0.971,
-   "tick": 0.001,
-   "mid": 0.9715,
-   "bid": 0.963,
-   "ask": 0.98,
-   "shares": 53.6209,
-   "cost": 52.0659,
-   "ts": 1795636720.030941,
-   "end_ts": 1795660800.0,
-   "hours": 6.69,
-   "liq": 9274
-  },
-  {
    "oid": "7312887-1795636720",
    "id": "7312887",
    "q": "Sharks vs. Ducks: O/U 2.5",
@@ -264,6 +243,29 @@
    "mark": 0.9765,
    "stuck": false,
    "disputed": false
+  },
+  {
+   "oid": "7312867-1795636720",
+   "id": "7312867",
+   "q": "Blackhawks vs. Kraken: O/U 2.5",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1278260",
+   "side": 0,
+   "token": "59272674597882191280931704311156080749081246689562724433342837994558360267254",
+   "px": 0.971,
+   "tick": 0.001,
+   "mid": 0.9715,
+   "bid": 0.963,
+   "ask": 0.98,
+   "shares": 53.6209,
+   "cost": 52.0659,
+   "ts": 1795636720.030941,
+   "end_ts": 1795660800.0,
+   "hours": 6.69,
+   "liq": 9274,
+   "fill_ts": 1795640467.513413,
+   "mark": 0.971
   }
  ],
  "closed": [
@@ -8005,12 +8007,25 @@
    "placed": 4,
    "shadow_open": 414,
    "shadow_closed": 17
+  },
+  {
+   "ts": "2026-11-25T21:01:51Z",
+   "equity": 1041.32,
+   "cash": 417.53,
+   "orders": 9,
+   "positions": 3,
+   "closed": 122,
+   "scanned": 14222,
+   "candidates": 188,
+   "placed": 0,
+   "shadow_open": 421,
+   "shadow_closed": 5
   }
  ],
  "halted": false,
  "stats": {
   "placed": 550,
-  "filled": 124,
+  "filled": 125,
   "expired": 119,
   "touched_not_filled": 297
  },
@@ -9836,19 +9851,6 @@
    "touched": 1
   },
   {
-   "id": "7319744",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "84237189796301524161859080791352399330896017145270934147744416241548069348991",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795586469,
-   "end_ts": 1795622400,
-   "q": "Spread: Gol Gohar Sirjan FC (-3.5)",
-   "touched": 1
-  },
-  {
    "id": "6986211",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -10226,32 +10228,6 @@
    "touched": 1
   },
   {
-   "id": "7319738",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "65474938847495504203307219365106081794692537595095183045591013493500828160845",
-   "px": 0.992,
-   "tick": 0.001,
-   "ts": 1795590065,
-   "end_ts": 1795622400,
-   "q": "Spread: Gol Gohar Sirjan FC (-2.5)",
-   "touched": 1
-  },
-  {
-   "id": "7319755",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "113775479571253826806200972819528933304932699362152982532870932395298539399804",
-   "px": 0.975,
-   "tick": 0.001,
-   "ts": 1795590065,
-   "end_ts": 1795622400,
-   "q": "Al Jazira (UAE) vs. Gol Gohar Sirjan FC: O/U 6.5",
-   "touched": 1
-  },
-  {
    "id": "6986299",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -10369,32 +10345,6 @@
    "touched": 1
   },
   {
-   "id": "6987555",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "5133871475661219124414567277718199191737682284059730286926949608531711972970",
-   "px": 0.992,
-   "tick": 0.001,
-   "ts": 1795593666,
-   "end_ts": 1795618800,
-   "q": "Spread: Tala'ea El Gaish SC (-3.5)",
-   "touched": null
-  },
-  {
-   "id": "7150146",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "55128199670513052794223835956088053666964060358367882612546907685353022830134",
-   "px": 0.974,
-   "tick": 0.001,
-   "ts": 1795593666,
-   "end_ts": 1795626000,
-   "q": "Will the price of Bitcoin be between $62,000 and $64,000 on November 25?",
-   "touched": null
-  },
-  {
    "id": "6985600",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -10405,7 +10355,7 @@
    "ts": 1795593666,
    "end_ts": 1795636800,
    "q": "Spread: Millwall FC (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7335169",
@@ -10418,7 +10368,7 @@
    "ts": 1795593666,
    "end_ts": 1795662600,
    "q": "CF Monterrey vs. CF América: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7335820",
@@ -10431,7 +10381,7 @@
    "ts": 1795593666,
    "end_ts": 1795669200,
    "q": "Will Solana reach $80 on November 25?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7319793",
@@ -13395,6 +13345,162 @@
    "ts": 1795636720,
    "end_ts": 1795715100,
    "q": "KF Egnatia Rrogozhinë vs. Lincoln Red Imps FC: O/U 8.5",
+   "touched": null
+  },
+  {
+   "id": "7335807",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "94077981109277556987379932342380986242675160719636202340711050521576208076516",
+   "px": 0.973,
+   "tick": 0.001,
+   "ts": 1795640467,
+   "end_ts": 1795669200,
+   "q": "Will Ethereum dip to $1,600 on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7347340",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "99035071809991914922957624922430728908269712249461861788680133366226152783837",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795640467,
+   "end_ts": 1795705200,
+   "q": "Will the US national average gas price be between $3.5900 and $3.5999 on November 26?",
+   "touched": null
+  },
+  {
+   "id": "6994330",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "22549537875426813914751091087680344993719582200953822052883568902552732170448",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795640467,
+   "end_ts": 1795715100,
+   "q": "Beşiktaş JK vs. MH Hapoel Be'er Sheva: Neither team to score first?",
+   "touched": null
+  },
+  {
+   "id": "6994972",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "40657318390095209288689267432630548487295005198593126960935428740668111093237",
+   "px": 0.991,
+   "tick": 0.001,
+   "ts": 1795640467,
+   "end_ts": 1795715100,
+   "q": "Spread: RC Celta de Vigo (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "6995801",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "64633305126123103192073310355209414971805741795231012603756131708095721354280",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795640467,
+   "end_ts": 1795715100,
+   "q": "Brighton & Hove Albion FC vs. Universitatea Craiova CS: Neither team to score first?",
+   "touched": null
+  },
+  {
+   "id": "7095992",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "36407767404403615454598649242998087107766730528901749070486833452084267477540",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795640467,
+   "end_ts": 1795707000,
+   "q": "Qairat FK vs. Mjällby AIF: O/U 8.5",
+   "touched": null
+  },
+  {
+   "id": "7101655",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "33862281728487155956536728225534955211767860617047582930097226644816152314181",
+   "px": 0.991,
+   "tick": 0.001,
+   "ts": 1795640467,
+   "end_ts": 1795723200,
+   "q": "HNK Hajduk Split vs. K. Sint-Truidense VV: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "7101778",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "22323883766794983514031755878141732278676883465894557327275606145487364902056",
+   "px": 0.986,
+   "tick": 0.001,
+   "ts": 1795640467,
+   "end_ts": 1795723200,
+   "q": "Spread: FK Borac Banja Luka (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "7101885",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "44632141779912414732047935222597957930877906047360460019449637807610889182810",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795640467,
+   "end_ts": 1795723200,
+   "q": "PFK CSKA Sofia vs. Trabzonspor: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "7104006",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "105961575063186090220648907584077765172098865223912806788630955595388329147342",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795640467,
+   "end_ts": 1795723200,
+   "q": "Juventus FC vs. AS Omónoia Leukosías: Neither team to score first?",
+   "touched": null
+  },
+  {
+   "id": "7104049",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "53426820631582025466713778319825566573786637191516269664251629436990011063956",
+   "px": 0.971,
+   "tick": 0.001,
+   "ts": 1795640467,
+   "end_ts": 1795723200,
+   "q": "Olympique Lyonnais vs. Lillestrøm SK: Neither team to score first?",
+   "touched": null
+  },
+  {
+   "id": "7194401",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "38702691300979305244016937414040563116030043829543676407144883057123079169357",
+   "px": 0.971,
+   "tick": 0.001,
+   "ts": 1795640467,
+   "end_ts": 1795723200,
+   "q": "Spread: Doncaster Rovers FC (-2.5)",
    "touched": null
   }
  ]
