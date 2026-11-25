@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 12.4 de 28 | corridas: 282
-- Capital inicial: $1,000.00 | valor actual: $967.86 | P&L: $-32.14 (-3.21%)
-- Efectivo libre: $-0.00 | en ordenes abiertas: $579.54 (7) | en posiciones: $405.79 (6)
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 12.4 de 28 | corridas: 283
+- Capital inicial: $1,000.00 | valor actual: $968.95 | P&L: $-31.05 (-3.10%)
+- Efectivo libre: $-0.00 | en ordenes abiertas: $579.54 (6) | en posiciones: $405.79 (6)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $214.40 en 3 posiciones
-- Ordenes virtuales: 574 colocadas, 260 llenadas, 247 tocadas sin llenarse (sorteo 30%), 60 expiradas
+- Ordenes virtuales: 577 colocadas, 260 llenadas, 251 tocadas sin llenarse (sorteo 30%), 60 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -31,33 +31,33 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
-| $91.77 | 99.8c | 81.5c | otros_cierre | si | Pakistan military action against Afghanistan by November 15, 2026? |
+| $91.77 | 99.8c | 83.5c | otros_cierre | si | Pakistan military action against Afghanistan by November 15, 2026? |
 | $35.36 | 99.8c | 98.1c | otros_cierre | si | Will Mark Rothko's “Untitled” sell for between $4.5m and $5.5m at auction? |
 | $87.27 | 99.8c | 98.3c | otros_cierre | si | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
 | $96.02 | 98.0c | 99.2c | deportes_previo |  | Spread: Aldershot Town FC (-1.5) |
 | $85.70 | 99.8c | 99.8c | deportes_previo |  | Spread: Aldershot Town FC (-2.5) |
-| $9.67 | 97.9c | 97.9c | deportes_previo |  | Oral Roberts Golden Eagles vs. Butler Bulldogs (W) |
+| $9.67 | 97.9c | 91.2c | deportes_previo |  | Oral Roberts Golden Eagles vs. Butler Bulldogs (W) |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 14831 | abiertas: 2360 | abiertas mas de 7 dias despues de su fecha de fin: 5
+- Resueltas: 14911 | abiertas: 2329 | abiertas mas de 7 dias despues de su fecha de fin: 5
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
-| clima_cierre | todas | 4061 | 98.80c | 98.87% | +0.07 pts | -0.25 a +0.39 | 46 |
-| clima_cierre | tocadas | 3777 | 98.82c | 98.78% | -0.04 pts | -0.38 a +0.31 | 46 |
+| clima_cierre | todas | 4080 | 98.80c | 98.87% | +0.08 pts | -0.25 a +0.40 | 46 |
+| clima_cierre | tocadas | 3795 | 98.82c | 98.79% | -0.03 pts | -0.38 a +0.32 | 46 |
 | cripto_cierre | todas | 1923 | 98.64c | 98.18% | -0.46 pts | -1.05 a +0.13 | 35 |
 | cripto_cierre | tocadas | 1759 | 98.68c | 98.01% | -0.67 pts | -1.32 a -0.03 | 35 |
-| deportes_previo | todas | 6912 | 98.05c | 97.35% | -0.70 pts | -1.08 a -0.33 | 188 |
-| deportes_previo | tocadas | 6737 | 98.09c | 97.31% | -0.78 pts | -1.16 a -0.40 | 186 |
+| deportes_previo | todas | 6973 | 98.05c | 97.37% | -0.69 pts | -1.06 a -0.31 | 188 |
+| deportes_previo | tocadas | 6796 | 98.09c | 97.33% | -0.76 pts | -1.14 a -0.38 | 186 |
 | otros_cierre | todas | 1677 | 99.00c | 97.61% | -1.38 pts | -2.11 a -0.66 | 40 |
 | otros_cierre | tocadas | 1529 | 98.95c | 97.38% | -1.57 pts | -2.36 a -0.77 | 40 |
 | post_fin_90_97 | todas | 258 | 94.02c | 93.80% | -0.22 pts | -3.13 a +2.69 | 16 |
 | post_fin_90_97 | tocadas | 219 | 94.13c | 92.69% | -1.44 pts | -4.84 a +1.97 | 16 |
-| TOTAL | todas | 14831 | 98.37c | 97.84% | -0.53 pts | -0.76 a -0.30 | 325 |
-| TOTAL | tocadas | 14021 | 98.39c | 97.73% | -0.66 pts | -0.91 a -0.42 | 323 |
+| TOTAL | todas | 14911 | 98.37c | 97.85% | -0.52 pts | -0.75 a -0.29 | 325 |
+| TOTAL | tocadas | 14098 | 98.39c | 97.74% | -0.65 pts | -0.90 a -0.41 | 323 |
 
 Peores casos del registro sombra:
 

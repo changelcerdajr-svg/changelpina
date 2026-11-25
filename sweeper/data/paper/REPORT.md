@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-11T22:05:26Z | dias corridos: 14.0 de 28 | corridas: 319
-- Capital inicial: $1,000.00 | valor actual: $1,042.57 | P&L: $+42.57 (+4.26%)
-- Efectivo libre: $418.46 | en ordenes abiertas: $520.33 (10) | en posiciones: $103.89 (2)
+- Inicio: 2026-11-11T22:05:26Z | dias corridos: 14.0 de 28 | corridas: 320
+- Capital inicial: $1,000.00 | valor actual: $1,042.60 | P&L: $+42.60 (+4.26%)
+- Efectivo libre: $418.39 | en ordenes abiertas: $468.46 (9) | en posiciones: $155.82 (3)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $51.82 en 1 posiciones
-- Ordenes virtuales: 552 colocadas, 125 llenadas, 297 tocadas sin llenarse (sorteo 30%), 120 expiradas
+- Ordenes virtuales: 555 colocadas, 126 llenadas, 300 tocadas sin llenarse (sorteo 30%), 120 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -29,26 +29,27 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
 | $51.82 | 98.5c | 98.3c | otros_cierre | si | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
-| $52.07 | 97.1c | 97.1c | deportes_previo |  | Blackhawks vs. Kraken: O/U 2.5 |
+| $51.94 | 97.9c | 97.9c | deportes_previo |  | Alcorn State Braves vs. Texas State Bobcats |
+| $52.07 | 97.1c | 97.2c | deportes_previo |  | Blackhawks vs. Kraken: O/U 2.5 |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 5086 | abiertas: 412 | abiertas mas de 7 dias despues de su fecha de fin: 5
+- Resueltas: 5140 | abiertas: 359 | abiertas mas de 7 dias despues de su fecha de fin: 5
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
 | cripto_cierre | todas | 1454 | 98.73c | 99.31% | +0.59 pts | +0.16 a +1.01 | 10 |
 | cripto_cierre | tocadas | 1019 | 98.56c | 99.02% | +0.46 pts | -0.14 a +1.07 | 10 |
-| deportes_previo | todas | 2807 | 98.31c | 98.74% | +0.43 pts | +0.02 a +0.84 | 37 |
-| deportes_previo | tocadas | 2339 | 98.28c | 98.74% | +0.46 pts | +0.02 a +0.91 | 31 |
+| deportes_previo | todas | 2861 | 98.31c | 98.76% | +0.45 pts | +0.05 a +0.85 | 37 |
+| deportes_previo | tocadas | 2374 | 98.28c | 98.76% | +0.48 pts | +0.04 a +0.92 | 31 |
 | otros_cierre | todas | 733 | 98.88c | 99.45% | +0.57 pts | +0.03 a +1.11 | 4 |
 | otros_cierre | tocadas | 460 | 98.71c | 99.13% | +0.42 pts | -0.44 a +1.27 | 4 |
 | post_fin_95_97 | todas | 92 | 95.89c | 93.48% | -2.41 pts | -7.48 a +2.67 | 6 |
 | post_fin_95_97 | tocadas | 83 | 95.91c | 92.77% | -3.14 pts | -8.74 a +2.47 | 6 |
-| TOTAL | todas | 5086 | 98.47c | 98.91% | +0.44 pts | +0.16 a +0.73 | 57 |
-| TOTAL | tocadas | 3901 | 98.35c | 98.73% | +0.38 pts | +0.03 a +0.73 | 51 |
+| TOTAL | todas | 5140 | 98.47c | 98.92% | +0.45 pts | +0.18 a +0.73 | 57 |
+| TOTAL | tocadas | 3936 | 98.35c | 98.74% | +0.39 pts | +0.04 a +0.73 | 51 |
 
 Peores casos del registro sombra:
 
