@@ -1,29 +1,8 @@
 {
  "capital0": 1000.0,
- "cash": 415.0945,
+ "cash": 415.2691,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
-  {
-   "oid": "7301875-1795543268",
-   "id": "7301875",
-   "q": "Will Bitcoin reach $65,000 on November 24?",
-   "cat": "cripto",
-   "rule": "cripto_cierre",
-   "event": "1451172",
-   "side": 1,
-   "token": "4832836506259101066327399063132424372315927625948894328991219014772441343166",
-   "px": 0.995,
-   "tick": 0.001,
-   "mid": 0.9955,
-   "bid": 0.994,
-   "ask": 0.997,
-   "shares": 51.985,
-   "cost": 51.7251,
-   "ts": 1795543268.293842,
-   "end_ts": 1795582800.0,
-   "hours": 10.98,
-   "liq": 27479
-  },
   {
    "oid": "7301879-1795546868",
    "id": "7301879",
@@ -191,6 +170,48 @@
    "end_ts": 1795622400.0,
    "hours": 10.98,
    "liq": 2394
+  },
+  {
+   "oid": "7150118-1795586469",
+   "id": "7150118",
+   "q": "Will the price of Bitcoin be less than $54,000 on November 25?",
+   "cat": "cripto",
+   "rule": "cripto_cierre",
+   "event": "1417820",
+   "side": 1,
+   "token": "108209882408920726677202232943142787354312277852125609225549668779494039211466",
+   "px": 0.989,
+   "tick": 0.001,
+   "mid": 0.989,
+   "bid": 0.983,
+   "ask": 0.995,
+   "shares": 52.4243,
+   "cost": 51.8477,
+   "ts": 1795586469.114322,
+   "end_ts": 1795626000.0,
+   "hours": 10.98,
+   "liq": 40023
+  },
+  {
+   "oid": "7150123-1795586469",
+   "id": "7150123",
+   "q": "Will the price of Ethereum be above $1,300 on November 25?",
+   "cat": "cripto",
+   "rule": "cripto_cierre",
+   "event": "1417819",
+   "side": 0,
+   "token": "88494853276898610892871553155446094364789886874437313570089691425869062464763",
+   "px": 0.998,
+   "tick": 0.001,
+   "mid": 0.9985,
+   "bid": 0.997,
+   "ask": 1,
+   "shares": 51.9516,
+   "cost": 51.8477,
+   "ts": 1795586469.114322,
+   "end_ts": 1795626000.0,
+   "hours": 10.98,
+   "liq": 31840
   }
  ],
  "positions": [
@@ -220,31 +241,6 @@
    "disputed": false
   },
   {
-   "oid": "7301998-1795568463",
-   "id": "7301998",
-   "q": "Will Ethereum reach $1,800 on November 24?",
-   "cat": "cripto",
-   "rule": "cripto_cierre",
-   "event": "1451178",
-   "side": 1,
-   "token": "67932914160244321607682800515604638897814646768996897562334195649256215688459",
-   "px": 0.994,
-   "tick": 0.001,
-   "mid": 0.9945,
-   "bid": 0.99,
-   "ask": 0.999,
-   "shares": 52.1449,
-   "cost": 51.832,
-   "ts": 1795568463.330185,
-   "end_ts": 1795582800.0,
-   "hours": 3.98,
-   "liq": 28754,
-   "fill_ts": 1795572065.142391,
-   "mark": 0.994,
-   "stuck": false,
-   "disputed": false
-  },
-  {
    "oid": "6364894-1795579277",
    "id": "6364894",
    "q": "Will the next Claude Opus model (5.6+) be released on November 24, 2026?",
@@ -265,7 +261,9 @@
    "hours": 0.96,
    "liq": 1860,
    "fill_ts": 1795582869.444098,
-   "mark": 0.996
+   "mark": 0.996,
+   "stuck": false,
+   "disputed": false
   }
  ],
  "closed": [
@@ -3680,6 +3678,36 @@
    "result": 1.0,
    "closed_ts": "2026-11-24T23:01:10Z",
    "days": 0.38
+  },
+  {
+   "oid": "7301998-1795568463",
+   "id": "7301998",
+   "q": "Will Ethereum reach $1,800 on November 24?",
+   "cat": "cripto",
+   "rule": "cripto_cierre",
+   "event": "1451178",
+   "side": 1,
+   "token": "67932914160244321607682800515604638897814646768996897562334195649256215688459",
+   "px": 0.994,
+   "tick": 0.001,
+   "mid": 0.9945,
+   "bid": 0.99,
+   "ask": 0.999,
+   "shares": 52.1449,
+   "cost": 51.832,
+   "ts": 1795568463.330185,
+   "end_ts": 1795582800.0,
+   "hours": 3.98,
+   "liq": 28754,
+   "fill_ts": 1795572065.142391,
+   "mark": 0.994,
+   "stuck": false,
+   "disputed": false,
+   "payout": 52.1449,
+   "pnl": 0.3129,
+   "result": 1.0,
+   "closed_ts": "2026-11-25T06:01:10Z",
+   "days": 0.17
   }
  ],
  "runs": [
@@ -7604,13 +7632,26 @@
    "placed": 1,
    "shadow_open": 354,
    "shadow_closed": 29
+  },
+  {
+   "ts": "2026-11-25T06:01:43Z",
+   "equity": 1036.95,
+   "cash": 415.27,
+   "orders": 10,
+   "positions": 2,
+   "closed": 116,
+   "scanned": 10505,
+   "candidates": 206,
+   "placed": 2,
+   "shadow_open": 347,
+   "shadow_closed": 50
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 511,
+  "placed": 513,
   "filled": 118,
-  "expired": 114,
+  "expired": 115,
   "touched_not_filled": 270
  },
  "shadow": [
@@ -7745,45 +7786,6 @@
    "touched": 1
   },
   {
-   "id": "7016111",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "97280710268414979760795593688447959162886133289964937828758107080147614425588",
-   "px": 0.986,
-   "tick": 0.001,
-   "ts": 1795464065,
-   "end_ts": 1795570200,
-   "q": "San Jose State Spartans vs. Arizona State Sun Devils (W)",
-   "touched": 0
-  },
-  {
-   "id": "6968868",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "54728398851163300398643871570769752751815557092017083032832310281809349070158",
-   "px": 0.99,
-   "tick": 0.001,
-   "ts": 1795467673,
-   "end_ts": 1795575600,
-   "q": "Spread: Houston Dynamo (-3.5)",
-   "touched": 0
-  },
-  {
-   "id": "6968880",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "97254925454019260863799322519756058469264345242268545003296587617415592875613",
-   "px": 0.972,
-   "tick": 0.001,
-   "ts": 1795467673,
-   "end_ts": 1795575600,
-   "q": "San Jose Earthquakes vs. Houston Dynamo: O/U 6.5",
-   "touched": 0
-  },
-  {
    "id": "6998638",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -7795,97 +7797,6 @@
    "end_ts": 1795572000,
    "q": "Evansville Purple Aces vs. Missouri Tigers",
    "touched": 1
-  },
-  {
-   "id": "7224329",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "49598387020333183117890664951528340201130892211428003525439747610282860963672",
-   "px": 0.991,
-   "tick": 0.001,
-   "ts": 1795485667,
-   "end_ts": 1795570200,
-   "q": "América de Cali vs. AD Cali: O/U 6.5",
-   "touched": 1
-  },
-  {
-   "id": "7224304",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "98342007669657373836083669822937923159344719298790964234775127329777981994345",
-   "px": 0.98,
-   "tick": 0.001,
-   "ts": 1795492866,
-   "end_ts": 1795570200,
-   "q": "Spread: AD Cali (-2.5)",
-   "touched": 1
-  },
-  {
-   "id": "7224308",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "48374676961521820561125715720835156815747183203221551175421427573769412083981",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795492866,
-   "end_ts": 1795570200,
-   "q": "Spread: AD Cali (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "7224331",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "30629982993711015294159286217293457797743258509387478934351306766477205277303",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1795492866,
-   "end_ts": 1795570200,
-   "q": "América de Cali vs. AD Cali: O/U 7.5",
-   "touched": 0
-  },
-  {
-   "id": "7224306",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "45069375499121602191785560379108475655808730157315227489127272953516796485002",
-   "px": 0.98,
-   "tick": 0.001,
-   "ts": 1795495764,
-   "end_ts": 1795570200,
-   "q": "Spread: América de Cali (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "7224327",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "36787621821831066013534519437529030286225309205638728127374398819593065295536",
-   "px": 0.98,
-   "tick": 0.001,
-   "ts": 1795495764,
-   "end_ts": 1795570200,
-   "q": "América de Cali vs. AD Cali: O/U 5.5",
-   "touched": 1
-  },
-  {
-   "id": "6968881",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "16140769914407141991050436608302515874767204649294815030717842531940422536240",
-   "px": 0.99,
-   "tick": 0.001,
-   "ts": 1795495764,
-   "end_ts": 1795575600,
-   "q": "San Jose Earthquakes vs. Houston Dynamo: O/U 7.5",
-   "touched": 0
   },
   {
    "id": "6974854",
@@ -7924,19 +7835,6 @@
    "ts": 1795496467,
    "end_ts": 1795582740,
    "q": "Will the next Claude Opus model (5.6+) be released on November 24, 2026?",
-   "touched": 1
-  },
-  {
-   "id": "6618277",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "18501818079859705225770062114041656996737060843792567277993602318997650445741",
-   "px": 0.99,
-   "tick": 0.001,
-   "ts": 1795496467,
-   "end_ts": 1795582740,
-   "q": "Will the United States win Miss Universe 2026?",
    "touched": 1
   },
   {
@@ -7989,84 +7887,6 @@
    "ts": 1795496467,
    "end_ts": 1795600800,
    "q": "FC Tōkyō vs. Sanfrecce Hiroshima: O/U 6.5",
-   "touched": 1
-  },
-  {
-   "id": "7301869",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "34090920109993468648734067447106821117651014777201057994725165033677016980474",
-   "px": 0.996,
-   "tick": 0.001,
-   "ts": 1795500065,
-   "end_ts": 1795582800,
-   "q": "Will Bitcoin reach $68,000 on November 24?",
-   "touched": 1
-  },
-  {
-   "id": "7301872",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "63441451616537963538322717183762214956449282489400894620614236422335789965818",
-   "px": 0.993,
-   "tick": 0.001,
-   "ts": 1795500065,
-   "end_ts": 1795582800,
-   "q": "Will Bitcoin reach $67,000 on November 24?",
-   "touched": 0
-  },
-  {
-   "id": "7301873",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "20725924787833571981210713579568391607282608774081207482692628909087607801380",
-   "px": 0.983,
-   "tick": 0.001,
-   "ts": 1795500065,
-   "end_ts": 1795582800,
-   "q": "Will Bitcoin reach $66,000 on November 24?",
-   "touched": 0
-  },
-  {
-   "id": "7301914",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "92887153918937855486460769911517612769550940661118427277370323752422276385807",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1795500065,
-   "end_ts": 1795582800,
-   "q": "Will Bitcoin dip to $55,000 on November 24?",
-   "touched": 1
-  },
-  {
-   "id": "7301916",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "4787235323334400342150973319622230382704086389429796516524836901459655704242",
-   "px": 0.981,
-   "tick": 0.001,
-   "ts": 1795500065,
-   "end_ts": 1795582800,
-   "q": "Will Bitcoin dip to $54,000 on November 24?",
-   "touched": 1
-  },
-  {
-   "id": "7301920",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "1855210277038381109024457966769814521676340555725900117170039466854029311168",
-   "px": 0.996,
-   "tick": 0.001,
-   "ts": 1795500065,
-   "end_ts": 1795582800,
-   "q": "Will Bitcoin dip to $53,000 on November 24?",
    "touched": 1
   },
   {
@@ -8278,97 +8098,6 @@
    "touched": 1
   },
   {
-   "id": "7301875",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "4832836506259101066327399063132424372315927625948894328991219014772441343166",
-   "px": 0.978,
-   "tick": 0.001,
-   "ts": 1795503668,
-   "end_ts": 1795582800,
-   "q": "Will Bitcoin reach $65,000 on November 24?",
-   "touched": 1
-  },
-  {
-   "id": "7301971",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "72366099477691406030506456531640887195109192779333704357252930596452163483342",
-   "px": 0.992,
-   "tick": 0.001,
-   "ts": 1795503668,
-   "end_ts": 1795582800,
-   "q": "Will Ethereum reach $1,950 on November 24?",
-   "touched": 1
-  },
-  {
-   "id": "7301977",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "105723443090377605080706794074048707978912893781413889246754814120137986982817",
-   "px": 0.99,
-   "tick": 0.001,
-   "ts": 1795503668,
-   "end_ts": 1795582800,
-   "q": "Will Ethereum reach $1,900 on November 24?",
-   "touched": 1
-  },
-  {
-   "id": "7301983",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "48576903850846517492872991039682582873975895220462069392020864930542446536813",
-   "px": 0.975,
-   "tick": 0.001,
-   "ts": 1795503668,
-   "end_ts": 1795582800,
-   "q": "Will Ethereum reach $1,850 on November 24?",
-   "touched": 1
-  },
-  {
-   "id": "7302043",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "52947398395318163122687133764696243027506925603456172948139449670676541700101",
-   "px": 0.979,
-   "tick": 0.001,
-   "ts": 1795503668,
-   "end_ts": 1795582800,
-   "q": "Will Ethereum dip to $1,500 on November 24?",
-   "touched": 1
-  },
-  {
-   "id": "7302048",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "103537739589650051159953419911266185703975789588838853667165325209055415000291",
-   "px": 0.986,
-   "tick": 0.001,
-   "ts": 1795503668,
-   "end_ts": 1795582800,
-   "q": "Will Ethereum dip to $1,450 on November 24?",
-   "touched": 1
-  },
-  {
-   "id": "7302053",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "39719376070415381566522488640752003352545900535985814987341669040116018818739",
-   "px": 0.993,
-   "tick": 0.001,
-   "ts": 1795503668,
-   "end_ts": 1795582800,
-   "q": "Will Ethereum dip to $1,400 on November 24?",
-   "touched": 1
-  },
-  {
    "id": "6974944",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -8395,32 +8124,6 @@
    "touched": 1
   },
   {
-   "id": "6618190",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "62104636130493350633733635622676597406360683281759181675753703639989578585108",
-   "px": 0.984,
-   "tick": 0.001,
-   "ts": 1795507270,
-   "end_ts": 1795582740,
-   "q": "Will Cuba win Miss Universe 2026?",
-   "touched": 1
-  },
-  {
-   "id": "7016114",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "60200850936768674532708749946432920127061452769355165725030894658167897807619",
-   "px": 0.981,
-   "tick": 0.001,
-   "ts": 1795510868,
-   "end_ts": 1795572000,
-   "q": "Virginia Cavaliers vs. UAB Blazers (W)",
-   "touched": 1
-  },
-  {
    "id": "7147751",
    "rule": "otros_cierre",
    "cat": "otros",
@@ -8431,110 +8134,6 @@
    "ts": 1795510868,
    "end_ts": 1795582740,
    "q": "Will Alanzoka finish GTA VI by November 24?",
-   "touched": 1
-  },
-  {
-   "id": "7301879",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "86433755976158590958853617529674415165680225175259315770288046606164149836084",
-   "px": 0.978,
-   "tick": 0.001,
-   "ts": 1795510868,
-   "end_ts": 1795582800,
-   "q": "Will Bitcoin reach $64,000 on November 24?",
-   "touched": 1
-  },
-  {
-   "id": "7301965",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "28874883295452010601093916227836311367200749222260545816932468794995818327010",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795510868,
-   "end_ts": 1795582800,
-   "q": "Will Ethereum reach $2,000 on November 24?",
-   "touched": 1
-  },
-  {
-   "id": "7302058",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "14877653930093418133081438895649738468572190570557489975842840256430151312047",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795510868,
-   "end_ts": 1795582800,
-   "q": "Will Ethereum dip to $1,350 on November 24?",
-   "touched": 1
-  },
-  {
-   "id": "7302096",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "70649673463852063013634088418965318766526596576370721117811753271995657825767",
-   "px": 0.996,
-   "tick": 0.001,
-   "ts": 1795510868,
-   "end_ts": 1795582800,
-   "q": "Will Solana reach $95 on November 24?",
-   "touched": 1
-  },
-  {
-   "id": "7302101",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "75448108747210080798991313671423592750346787510615013241955404985396230738200",
-   "px": 0.996,
-   "tick": 0.001,
-   "ts": 1795510868,
-   "end_ts": 1795582800,
-   "q": "Will Solana reach $90 on November 24?",
-   "touched": 1
-  },
-  {
-   "id": "7302107",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "8541864842599216887852283739175638006222341834965518856233864208909348235776",
-   "px": 0.986,
-   "tick": 0.001,
-   "ts": 1795510868,
-   "end_ts": 1795582800,
-   "q": "Will Solana reach $85 on November 24?",
-   "touched": 1
-  },
-  {
-   "id": "7302134",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "79164648890656826457125815596514396459034665251732286090553367408028805066533",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795510868,
-   "end_ts": 1795582800,
-   "q": "Will Solana dip to $55 on November 24?",
-   "touched": 1
-  },
-  {
-   "id": "7302137",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "23484531553776909427051825832028846306000283415966792113449013115284902172224",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1795510868,
-   "end_ts": 1795582800,
-   "q": "Will Solana dip to $50 on November 24?",
    "touched": 1
   },
   {
@@ -8744,32 +8343,6 @@
    "end_ts": 1795629600,
    "q": "US Cremonese vs. US Avellino 1912: O/U 6.5",
    "touched": 0
-  },
-  {
-   "id": "6968866",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "101177662190587018017279780771887660378742839767789563569809944198769674138537",
-   "px": 0.973,
-   "tick": 0.001,
-   "ts": 1795528868,
-   "end_ts": 1795575600,
-   "q": "Spread: Houston Dynamo (-2.5)",
-   "touched": 1
-  },
-  {
-   "id": "7291917",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "32999495172751082077639998900293291917175431406548129553638566626154204930739",
-   "px": 0.973,
-   "tick": 0.001,
-   "ts": 1795528868,
-   "end_ts": 1795575600,
-   "q": "Spread: Mavericks (-17.5)",
-   "touched": 1
   },
   {
    "id": "6390042",
@@ -9383,19 +8956,6 @@
    "touched": 0
   },
   {
-   "id": "7292057",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "51305881599241312220049142681204720790625187265138602584426379062152777675549",
-   "px": 0.979,
-   "tick": 0.001,
-   "ts": 1795535791,
-   "end_ts": 1795575600,
-   "q": "Spread: Nuggets (-34.5)",
-   "touched": 1
-  },
-  {
    "id": "6618200",
    "rule": "otros_cierre",
    "cat": "otros",
@@ -9406,110 +8966,6 @@
    "ts": 1795535791,
    "end_ts": 1795582740,
    "q": "Will the Dominican Republic win Miss Universe 2026?",
-   "touched": 1
-  },
-  {
-   "id": "6618242",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "22777414764214699695668806315690646014835370428152539405750258246352974330440",
-   "px": 0.976,
-   "tick": 0.001,
-   "ts": 1795535791,
-   "end_ts": 1795582740,
-   "q": "Will Nicaragua win Miss Universe 2026?",
-   "touched": 1
-  },
-  {
-   "id": "7301883",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "109234770555482378503553521931439037798920421293614701621586839226854976926370",
-   "px": 0.973,
-   "tick": 0.001,
-   "ts": 1795535791,
-   "end_ts": 1795582800,
-   "q": "Will Bitcoin reach $63,000 on November 24?",
-   "touched": 1
-  },
-  {
-   "id": "7301998",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "67932914160244321607682800515604638897814646768996897562334195649256215688459",
-   "px": 0.973,
-   "tick": 0.001,
-   "ts": 1795535791,
-   "end_ts": 1795582800,
-   "q": "Will Ethereum reach $1,800 on November 24?",
-   "touched": 1
-  },
-  {
-   "id": "7302111",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "110216743054957399612046054273065856936022597006652105622563775918803063164862",
-   "px": 0.984,
-   "tick": 0.001,
-   "ts": 1795535791,
-   "end_ts": 1795582800,
-   "q": "Will Solana reach $80 on November 24?",
-   "touched": 1
-  },
-  {
-   "id": "7302158",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "20918325284772181657403262162821116996925115835886436700004756710981107235668",
-   "px": 0.985,
-   "tick": 0.001,
-   "ts": 1795535791,
-   "end_ts": 1795582800,
-   "q": "Will XRP reach $1.15 on November 24?",
-   "touched": 1
-  },
-  {
-   "id": "7302162",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "6688723443690606412102278166432187253928072634444986496028626172849742158706",
-   "px": 0.984,
-   "tick": 0.001,
-   "ts": 1795535791,
-   "end_ts": 1795582800,
-   "q": "Will XRP reach $1.10 on November 24?",
-   "touched": 1
-  },
-  {
-   "id": "7302183",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "35587728761491695121555977277691189470622709157978909231000437515417642504951",
-   "px": 0.984,
-   "tick": 0.001,
-   "ts": 1795535791,
-   "end_ts": 1795582800,
-   "q": "Will XRP dip to $0.75 on November 24?",
-   "touched": 1
-  },
-  {
-   "id": "7302186",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "108838080460808421025117721702174810357186259543643490008830021326084882446109",
-   "px": 0.985,
-   "tick": 0.001,
-   "ts": 1795535791,
-   "end_ts": 1795582800,
-   "q": "Will XRP dip to $0.70 on November 24?",
    "touched": 1
   },
   {
@@ -9721,32 +9177,6 @@
    "touched": 0
   },
   {
-   "id": "7284556",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "71076296733004396957370418227063595317138505576627772739024214413661305378932",
-   "px": 0.985,
-   "tick": 0.001,
-   "ts": 1795539679,
-   "end_ts": 1795554000,
-   "q": "Will Amazon (AMZN) close above $265 on November 24?",
-   "touched": null
-  },
-  {
-   "id": "7284578",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "82041991791816213555177356761296769981431623624239812936563024724324505645838",
-   "px": 0.974,
-   "tick": 0.001,
-   "ts": 1795539679,
-   "end_ts": 1795554000,
-   "q": "Robinhood (HOOD) Up or Down on November 24?",
-   "touched": null
-  },
-  {
    "id": "7254942",
    "rule": "otros_cierre",
    "cat": "otros",
@@ -9757,7 +9187,7 @@
    "ts": 1795539679,
    "end_ts": 1795582740,
    "q": "Will TheBurntPeanut finish GTA VI by November 24?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6975053",
@@ -9770,7 +9200,7 @@
    "ts": 1795539679,
    "end_ts": 1795600800,
    "q": "Spread: Fujieda MYFC (-2.5)",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7150118",
@@ -9783,7 +9213,7 @@
    "ts": 1795539679,
    "end_ts": 1795626000,
    "q": "Will the price of Bitcoin be less than $54,000 on November 25?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7150123",
@@ -9796,7 +9226,7 @@
    "ts": 1795539679,
    "end_ts": 1795626000,
    "q": "Will the price of Ethereum be above $1,300 on November 25?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7150129",
@@ -9809,7 +9239,7 @@
    "ts": 1795539679,
    "end_ts": 1795626000,
    "q": "Will the price of Ethereum be above $1,400 on November 25?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7150135",
@@ -9822,7 +9252,7 @@
    "ts": 1795539679,
    "end_ts": 1795626000,
    "q": "Will the price of Ethereum be above $1,500 on November 25?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7150149",
@@ -9835,7 +9265,7 @@
    "ts": 1795539679,
    "end_ts": 1795626000,
    "q": "Will the price of Ethereum be above $1,800 on November 25?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7150152",
@@ -9848,7 +9278,7 @@
    "ts": 1795539679,
    "end_ts": 1795626000,
    "q": "Will the price of Bitcoin be between $64,000 and $66,000 on November 25?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7150154",
@@ -9861,7 +9291,7 @@
    "ts": 1795539679,
    "end_ts": 1795626000,
    "q": "Will the price of Ethereum be above $1,900 on November 25?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7150156",
@@ -9874,7 +9304,7 @@
    "ts": 1795539679,
    "end_ts": 1795626000,
    "q": "Will the price of Bitcoin be between $66,000 and $68,000 on November 25?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7150159",
@@ -9887,7 +9317,7 @@
    "ts": 1795539679,
    "end_ts": 1795626000,
    "q": "Will the price of Ethereum be above $2,000 on November 25?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7150161",
@@ -9900,7 +9330,7 @@
    "ts": 1795539679,
    "end_ts": 1795626000,
    "q": "Will the price of Bitcoin be between $68,000 and $70,000 on November 25?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7150178",
@@ -9913,7 +9343,7 @@
    "ts": 1795539679,
    "end_ts": 1795626000,
    "q": "Will the price of Bitcoin be above $52,000 on November 25?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7150179",
@@ -9926,7 +9356,7 @@
    "ts": 1795539679,
    "end_ts": 1795626000,
    "q": "Will the price of Bitcoin be above $54,000 on November 25?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7150183",
@@ -9939,7 +9369,7 @@
    "ts": 1795539679,
    "end_ts": 1795626000,
    "q": "Will the price of Ethereum be between $1,300 and $1,400 on November 25?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7150188",
@@ -9952,7 +9382,7 @@
    "ts": 1795539679,
    "end_ts": 1795626000,
    "q": "Will the price of Bitcoin be above $64,000 on November 25?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7150190",
@@ -9965,7 +9395,7 @@
    "ts": 1795539679,
    "end_ts": 1795626000,
    "q": "Will the price of Bitcoin be above $66,000 on November 25?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7150193",
@@ -9978,7 +9408,7 @@
    "ts": 1795539679,
    "end_ts": 1795626000,
    "q": "Will the price of Ethereum be between $1,800 and $1,900 on November 25?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7150195",
@@ -9991,7 +9421,7 @@
    "ts": 1795539679,
    "end_ts": 1795626000,
    "q": "Will the price of Ethereum be between $1,900 and $2,000 on November 25?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7150197",
@@ -10004,7 +9434,7 @@
    "ts": 1795539679,
    "end_ts": 1795626000,
    "q": "Will the price of Ethereum be between $2,000 and $2,100 on November 25?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7150200",
@@ -10017,7 +9447,7 @@
    "ts": 1795539679,
    "end_ts": 1795626000,
    "q": "Will the price of Solana be above $50 on November 25?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7150201",
@@ -10030,7 +9460,7 @@
    "ts": 1795539679,
    "end_ts": 1795626000,
    "q": "Will the price of Solana be above $55 on November 25?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7150202",
@@ -10043,7 +9473,7 @@
    "ts": 1795539679,
    "end_ts": 1795626000,
    "q": "Will the price of Solana be above $60 on November 25?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7150210",
@@ -10056,7 +9486,7 @@
    "ts": 1795539679,
    "end_ts": 1795626000,
    "q": "Will the price of Solana be above $85 on November 25?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7150212",
@@ -10069,7 +9499,7 @@
    "ts": 1795539679,
    "end_ts": 1795626000,
    "q": "Will the price of Solana be above $90 on November 25?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7150214",
@@ -10082,7 +9512,7 @@
    "ts": 1795539679,
    "end_ts": 1795626000,
    "q": "Will the price of Solana be above $95 on November 25?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7150222",
@@ -10095,7 +9525,7 @@
    "ts": 1795539679,
    "end_ts": 1795626000,
    "q": "Will the price of XRP be above $0.50 on November 25?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7150223",
@@ -10108,7 +9538,7 @@
    "ts": 1795539679,
    "end_ts": 1795626000,
    "q": "Will the price of XRP be above $0.60 on November 25?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7150224",
@@ -10121,7 +9551,7 @@
    "ts": 1795539679,
    "end_ts": 1795626000,
    "q": "Will the price of XRP be above $0.70 on November 25?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7150225",
@@ -10134,7 +9564,7 @@
    "ts": 1795539679,
    "end_ts": 1795626000,
    "q": "Will the price of XRP be above $0.80 on November 25?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7150228",
@@ -10147,7 +9577,7 @@
    "ts": 1795539679,
    "end_ts": 1795626000,
    "q": "Will the price of XRP be above $1.10 on November 25?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7150230",
@@ -10160,7 +9590,7 @@
    "ts": 1795539679,
    "end_ts": 1795626000,
    "q": "Will the price of XRP be above $1.20 on November 25?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7150232",
@@ -10173,7 +9603,7 @@
    "ts": 1795539679,
    "end_ts": 1795626000,
    "q": "Will the price of XRP be above $1.30 on November 25?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7150235",
@@ -10186,7 +9616,7 @@
    "ts": 1795539679,
    "end_ts": 1795626000,
    "q": "Will the price of XRP be above $1.40 on November 25?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7150237",
@@ -10199,7 +9629,7 @@
    "ts": 1795539679,
    "end_ts": 1795626000,
    "q": "Will the price of XRP be above $1.50 on November 25?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7240332",
@@ -10212,7 +9642,7 @@
    "ts": 1795539679,
    "end_ts": 1795633200,
    "q": "Calcio Padova vs. UC Sampdoria: O/U 7.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7160929",
@@ -10225,46 +9655,7 @@
    "ts": 1795539679,
    "end_ts": 1795644000,
    "q": "Sportivo San Lorenzo leading at halftime?",
-   "touched": null
-  },
-  {
-   "id": "7284638",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "72936266992228433437518523540417768860561716399224439222984053057250090629726",
-   "px": 0.986,
-   "tick": 0.001,
-   "ts": 1795543268,
-   "end_ts": 1795557600,
-   "q": "Silver (XAGUSD) Up or Down on November 24?",
-   "touched": null
-  },
-  {
-   "id": "7301910",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "15074847281251298707473478447654714310079968927439560932529118306068736066166",
-   "px": 0.982,
-   "tick": 0.001,
-   "ts": 1795543268,
-   "end_ts": 1795582800,
-   "q": "Will Bitcoin dip to $56,000 on November 24?",
-   "touched": null
-  },
-  {
-   "id": "7302038",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "7932696011219920175791123092372273848781813956923371530280283540353445223293",
-   "px": 0.975,
-   "tick": 0.001,
-   "ts": 1795543268,
-   "end_ts": 1795582800,
-   "q": "Will Ethereum dip to $1,550 on November 24?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7150124",
@@ -10277,7 +9668,7 @@
    "ts": 1795543268,
    "end_ts": 1795626000,
    "q": "Will the price of Bitcoin be between $54,000 and $56,000 on November 25?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7150185",
@@ -10290,7 +9681,7 @@
    "ts": 1795543268,
    "end_ts": 1795626000,
    "q": "Will the price of Ethereum be between $1,400 and $1,500 on November 25?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7150208",
@@ -10303,7 +9694,7 @@
    "ts": 1795543268,
    "end_ts": 1795626000,
    "q": "Will the price of Solana be above $80 on November 25?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7150211",
@@ -10316,7 +9707,7 @@
    "ts": 1795543268,
    "end_ts": 1795626000,
    "q": "Will the price of Solana be between $50 and $60 on November 25?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7150217",
@@ -10329,7 +9720,7 @@
    "ts": 1795543268,
    "end_ts": 1795626000,
    "q": "Will the price of Solana be between $80 and $90 on November 25?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7150218",
@@ -10342,7 +9733,7 @@
    "ts": 1795543268,
    "end_ts": 1795626000,
    "q": "Will the price of Solana be between $90 and $100 on November 25?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7150229",
@@ -10355,7 +9746,7 @@
    "ts": 1795543268,
    "end_ts": 1795626000,
    "q": "Will the price of XRP be less than $0.50 on November 25?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7150231",
@@ -10368,7 +9759,7 @@
    "ts": 1795543268,
    "end_ts": 1795626000,
    "q": "Will the price of XRP be between $0.50 and $0.60 on November 25?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7150233",
@@ -10381,7 +9772,7 @@
    "ts": 1795543268,
    "end_ts": 1795626000,
    "q": "Will the price of XRP be between $0.60 and $0.70 on November 25?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7150240",
@@ -10394,7 +9785,7 @@
    "ts": 1795543268,
    "end_ts": 1795626000,
    "q": "Will the price of XRP be between $1.10 and $1.20 on November 25?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7150241",
@@ -10407,7 +9798,7 @@
    "ts": 1795543268,
    "end_ts": 1795626000,
    "q": "Will the price of XRP be between $1.20 and $1.30 on November 25?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7240392",
@@ -10420,7 +9811,7 @@
    "ts": 1795543268,
    "end_ts": 1795629600,
    "q": "Spread: US Avellino 1912 (-2.5)",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7240355",
@@ -10433,7 +9824,7 @@
    "ts": 1795543268,
    "end_ts": 1795633200,
    "q": "Spread: SS Arezzo (-2.5)",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7016122",
@@ -10446,7 +9837,7 @@
    "ts": 1795543268,
    "end_ts": 1795651200,
    "q": "Samford Bulldogs vs. Alabama Crimson Tide (W)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7016185",
@@ -10459,7 +9850,7 @@
    "ts": 1795543268,
    "end_ts": 1795649400,
    "q": "Vanderbilt Commodores vs. Oregon State Beavers (W)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7016187",
@@ -10472,7 +9863,7 @@
    "ts": 1795543268,
    "end_ts": 1795651200,
    "q": "Southeastern Louisiana Lions vs. Texas Longhorns (W)",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7159022",
@@ -10485,7 +9876,7 @@
    "ts": 1795543268,
    "end_ts": 1795644000,
    "q": "Will Sportivo Trinidense win on 2026-11-25?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7302116",
@@ -12214,6 +11605,565 @@
    "ts": 1795582869,
    "end_ts": 1795662600,
    "q": "CF Monterrey vs. CF América: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "6987554",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "67156290471465393568976407281153273564737062154802655698500593673457895969165",
+   "px": 0.972,
+   "tick": 0.001,
+   "ts": 1795586469,
+   "end_ts": 1795618800,
+   "q": "Spread: Modern SC (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "6987556",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "74387035078253317860277211756872189829136303969671501628350956675770446247223",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1795586469,
+   "end_ts": 1795618800,
+   "q": "Spread: Modern SC (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "7311268",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "61940814591085222128096793159995460254711932132607538756209927155095324642848",
+   "px": 0.972,
+   "tick": 0.001,
+   "ts": 1795586469,
+   "end_ts": 1795608900,
+   "q": "Persib Bandung vs. FC Seoul: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "7312827",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "35742800528875396521846545171370576586183300429029945943748276837365202622679",
+   "px": 0.98,
+   "tick": 0.001,
+   "ts": 1795586469,
+   "end_ts": 1795614300,
+   "q": "Spread: AL-Khaldiya SC (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "7312829",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "115790173317559258258545490085029454240064138699295039991930175732174348472763",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1795586469,
+   "end_ts": 1795614300,
+   "q": "Spread: AL-Khaldiya SC (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "7312840",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "62375626313477321310607269743156455831917711460513578902106332481165703958233",
+   "px": 0.984,
+   "tick": 0.001,
+   "ts": 1795586469,
+   "end_ts": 1795614300,
+   "q": "PFC Nasaf vs. AL-Khaldiya SC: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "7324963",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "65523283819006965125885904397341731193355985225773544744775458643408215097645",
+   "px": 0.972,
+   "tick": 0.001,
+   "ts": 1795586469,
+   "end_ts": 1795613400,
+   "q": "Spread: Inter Milano U23 (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "6987445",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "79933742335679289448296918704288830890464960519987274761841509839437634010771",
+   "px": 0.977,
+   "tick": 0.001,
+   "ts": 1795586469,
+   "end_ts": 1795629600,
+   "q": "Spread: Ceramica Cleopatra Club (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "6987482",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "15076521156506955443690403076802435159868439378569647421378765263353319118062",
+   "px": 0.99,
+   "tick": 0.001,
+   "ts": 1795586469,
+   "end_ts": 1795629600,
+   "q": "Spread: Montakhab Suez Petrojet (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "7319665",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "110733945676683060510662246610247640766365546984463329869017528981716879364290",
+   "px": 0.974,
+   "tick": 0.001,
+   "ts": 1795586469,
+   "end_ts": 1795622400,
+   "q": "Al Faisaly (JOR) vs. Al Rayyan SC: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "7319692",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "20984762800113349319750809647433606164886218727735809846403135460648936151679",
+   "px": 0.982,
+   "tick": 0.001,
+   "ts": 1795586469,
+   "end_ts": 1795622400,
+   "q": "Spread: Arkadag FK (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "7319694",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "52489735346163710420129571217848858852693116006895331931256867173403355582211",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1795586469,
+   "end_ts": 1795622400,
+   "q": "Spread: Arkadag FK (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "7319705",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "70565599767440564930991572999976964388260647819987865550255791564532182279777",
+   "px": 0.984,
+   "tick": 0.001,
+   "ts": 1795586469,
+   "end_ts": 1795622400,
+   "q": "Al-Muharraq SC vs. Arkadag FK: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "7319744",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "84237189796301524161859080791352399330896017145270934147744416241548069348991",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1795586469,
+   "end_ts": 1795622400,
+   "q": "Spread: Gol Gohar Sirjan FC (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "6986211",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "106516839742898747906251352674867673006587974790833822107211679142658122416662",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1795586469,
+   "end_ts": 1795635900,
+   "q": "Spread: Kidderminster Harriers FC (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "6986222",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "28167001379850363490848906276891652310144454285609336717575814861081257292700",
+   "px": 0.973,
+   "tick": 0.001,
+   "ts": 1795586469,
+   "end_ts": 1795635900,
+   "q": "Harrogate Town AFC vs. Kidderminster Harriers FC: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "6986261",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "79311127291201267285537637897960218529703476721822591620093031491753692382468",
+   "px": 0.971,
+   "tick": 0.001,
+   "ts": 1795586469,
+   "end_ts": 1795635900,
+   "q": "Spread: Hartlepool United FC (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "6986262",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "70543395079648009050679700011992946456927111734749815569505700218043056873357",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795586469,
+   "end_ts": 1795635900,
+   "q": "Spread: Solihull Moors FC (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "6986273",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "24452469928079968588518714048327016961063301610199125710991305970814371152469",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795586469,
+   "end_ts": 1795635900,
+   "q": "Hartlepool United FC vs. Solihull Moors FC: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "6986297",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "57183477544513131998026048033871257756399410380098600990236657946374536030881",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1795586469,
+   "end_ts": 1795633200,
+   "q": "Spread: Aldershot Town FC (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "7240282",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "22965424597192698670741732360384394448152472541251817245493110580626576875133",
+   "px": 0.977,
+   "tick": 0.001,
+   "ts": 1795586469,
+   "end_ts": 1795633200,
+   "q": "Spread: Pisa SC (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "7312920",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "86877499377773435683208601343995380390801386329009965576167641034328581330902",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795586469,
+   "end_ts": 1795654800,
+   "q": "Utah vs. Wild: O/U 2.5",
+   "touched": null
+  },
+  {
+   "id": "7333274",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "15803793457324135700610921904018153441891931562213859211096612931306152034773",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1795586469,
+   "end_ts": 1795654800,
+   "q": "Spread: Atlas FC (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "7335156",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "86199338684188903377203042869014098866634242954703511615876114379522955781332",
+   "px": 0.98,
+   "tick": 0.001,
+   "ts": 1795586469,
+   "end_ts": 1795662600,
+   "q": "Spread: CF Monterrey (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "7335157",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "109633297325519658069159125476399513810280257091990149141668724271391693405331",
+   "px": 0.99,
+   "tick": 0.001,
+   "ts": 1795586469,
+   "end_ts": 1795662600,
+   "q": "Spread: CF América (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "7335760",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "85080954116473132101053618208802879300511028424904629789881109557288720886890",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1795586469,
+   "end_ts": 1795669200,
+   "q": "Will Bitcoin reach $67,000 on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7335763",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "85558728450800891969810319716893459940587549253168609193191242084811693689038",
+   "px": 0.987,
+   "tick": 0.001,
+   "ts": 1795586469,
+   "end_ts": 1795669200,
+   "q": "Will Bitcoin reach $66,000 on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7335765",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "66153577784956055779161642824161622697665730759281761167360314829989457635809",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795586469,
+   "end_ts": 1795669200,
+   "q": "Will Bitcoin reach $65,000 on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7335767",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "113669549298505607968427282671266333132940754142064784871037830516085259187017",
+   "px": 0.973,
+   "tick": 0.001,
+   "ts": 1795586469,
+   "end_ts": 1795669200,
+   "q": "Will Bitcoin reach $64,000 on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7335788",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "27272536718874313888129164348971530734234256360822679166804878503938675291917",
+   "px": 0.979,
+   "tick": 0.001,
+   "ts": 1795586469,
+   "end_ts": 1795669200,
+   "q": "Will Bitcoin dip to $53,000 on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7335789",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "44126019022554975599794093419535186067812954558326102803696218469655516670863",
+   "px": 0.99,
+   "tick": 0.001,
+   "ts": 1795586469,
+   "end_ts": 1795669200,
+   "q": "Will Bitcoin dip to $52,000 on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7335791",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "64347696083679867086619409510457554363562113822362457056027664203370267442230",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795586469,
+   "end_ts": 1795669200,
+   "q": "Will Ethereum reach $2,000 on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7335793",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "16752646166111702312428633540904614151848181717842850139154733780923629619660",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795586469,
+   "end_ts": 1795669200,
+   "q": "Will Ethereum reach $1,950 on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7335795",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "71939633074773887602917541837803533159421076051354422404994368152677578311511",
+   "px": 0.991,
+   "tick": 0.001,
+   "ts": 1795586469,
+   "end_ts": 1795669200,
+   "q": "Will Ethereum reach $1,900 on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7335797",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "77127607939339078378774774210821291248662985936384719800781858199862851479376",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1795586469,
+   "end_ts": 1795669200,
+   "q": "Will Ethereum reach $1,850 on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7335799",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "109634970822544911315845643376625034884803589270799879804988982596801726869555",
+   "px": 0.98,
+   "tick": 0.001,
+   "ts": 1795586469,
+   "end_ts": 1795669200,
+   "q": "Will Ethereum reach $1,800 on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7335813",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "64361885864625410594989973791515310136746293685884882403085791916752874966262",
+   "px": 0.984,
+   "tick": 0.001,
+   "ts": 1795586469,
+   "end_ts": 1795669200,
+   "q": "Will Ethereum dip to $1,450 on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7335815",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "102669249718936629487918893669275881228647945889909686028761435419487310011486",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795586469,
+   "end_ts": 1795669200,
+   "q": "Will Ethereum dip to $1,400 on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7335817",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "25436775700264570524401693139582498720923539691041722325543210523694327122260",
+   "px": 0.993,
+   "tick": 0.001,
+   "ts": 1795586469,
+   "end_ts": 1795669200,
+   "q": "Will Ethereum dip to $1,350 on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7335818",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "17085088225373550328207093280829619192911514243165369264497061058888353166525",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795586469,
+   "end_ts": 1795669200,
+   "q": "Will Solana reach $90 on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7335819",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "57125932611516104110011220402758855436232514277950250926079259448243806980233",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795586469,
+   "end_ts": 1795669200,
+   "q": "Will Solana reach $85 on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7335830",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "111307411416933755975717196030916227637834303511140869125453153422845366590927",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795586469,
+   "end_ts": 1795669200,
+   "q": "Will Solana dip to $55 on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7335832",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "11141245455160931830316516985691386568403993140157572846605388573014793082702",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795586469,
+   "end_ts": 1795669200,
+   "q": "Will Solana dip to $50 on November 25?",
    "touched": null
   }
  ]
