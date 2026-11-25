@@ -2,7 +2,7 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-11T22:05:26Z | dias corridos: 13.0 de 28 | corridas: 295
+- Inicio: 2026-11-11T22:05:26Z | dias corridos: 13.1 de 28 | corridas: 296
 - Capital inicial: $1,000.00 | valor actual: $1,036.64 | P&L: $+36.64 (+3.66%)
 - Efectivo libre: $415.65 | en ordenes abiertas: $569.28 (11) | en posiciones: $51.82 (1)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $0.00 en 0 posiciones
@@ -34,24 +34,25 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 4698 | abiertas: 431 | abiertas mas de 7 dias despues de su fecha de fin: 1
+- Resueltas: 4758 | abiertas: 382 | abiertas mas de 7 dias despues de su fecha de fin: 1
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
 | cripto_cierre | todas | 1340 | 98.73c | 99.25% | +0.52 pts | +0.06 a +0.98 | 10 |
 | cripto_cierre | tocadas | 940 | 98.57c | 98.94% | +0.37 pts | -0.29 a +1.02 | 10 |
-| deportes_previo | todas | 2627 | 98.31c | 98.86% | +0.55 pts | +0.15 a +0.95 | 31 |
-| deportes_previo | tocadas | 2206 | 98.28c | 98.87% | +0.58 pts | +0.15 a +1.02 | 26 |
+| deportes_previo | todas | 2687 | 98.31c | 98.77% | +0.47 pts | +0.05 a +0.88 | 34 |
+| deportes_previo | tocadas | 2251 | 98.28c | 98.80% | +0.52 pts | +0.07 a +0.96 | 28 |
 | otros_cierre | todas | 639 | 98.84c | 99.37% | +0.54 pts | -0.08 a +1.15 | 4 |
 | otros_cierre | tocadas | 415 | 98.71c | 99.04% | +0.33 pts | -0.62 a +1.28 | 4 |
 | post_fin_95_97 | todas | 92 | 95.89c | 93.48% | -2.41 pts | -7.48 a +2.67 | 6 |
 | post_fin_95_97 | tocadas | 83 | 95.91c | 92.77% | -3.14 pts | -8.74 a +2.47 | 6 |
-| TOTAL | todas | 4698 | 98.45c | 98.94% | +0.48 pts | +0.19 a +0.77 | 51 |
-| TOTAL | tocadas | 3644 | 98.35c | 98.77% | +0.41 pts | +0.06 a +0.77 | 46 |
+| TOTAL | todas | 4758 | 98.45c | 98.89% | +0.44 pts | +0.14 a +0.73 | 54 |
+| TOTAL | tocadas | 3689 | 98.35c | 98.73% | +0.38 pts | +0.02 a +0.74 | 48 |
 
 Peores casos del registro sombra:
 
 - 99.4c -> pago 0.0 | otros_cierre | tocada | Will Paul Cézanne's “Arlequin” sell for between $110m and $120m at auction?
+- 99.4c -> pago 0.0 | deportes_previo | tocada | Spread: Preston North End FC (-3.5)
 - 99.2c -> pago 0.0 | deportes_previo | tocada | FC UTA Arad vs. Universitatea Craiova CS: O/U 7.5
 - 99.1c -> pago 0.0 | cripto_cierre | tocada | Will Bitcoin dip to $69,000 on November 12?
 - 99.1c -> pago 0.0 | otros_cierre | tocada | Will Microsoft (MSFT) close above $500 on November 19?
@@ -59,9 +60,8 @@ Peores casos del registro sombra:
 - 98.9c -> pago 0.0 | deportes_previo | tocada | Dundee FC vs. Heart of Midlothian FC: O/U 7.5
 - 98.8c -> pago 0.0 | deportes_previo | no tocada | Milton Keynes Dons FC vs. Burton Albion FC: O/U 7.5
 - 98.8c -> pago 0.0 | cripto_cierre | tocada | Will Bitcoin dip to $57,000 on November 20?
-- 98.7c -> pago 0.0 | otros_cierre | tocada | Will Google (GOOGL) close above $280 on November 19?
-- 98.6c -> pago 0.0 | cripto_cierre | tocada | Will Bitcoin dip to $56,000 on November 20?
+- 98.8c -> pago 0.0 | deportes_previo | tocada | Spread: Charlton Athletic FC (-3.5)
 
 ## Veredicto
 
-Aun no hay veredicto: van 115 operaciones cerradas en 13.0 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
+Aun no hay veredicto: van 115 operaciones cerradas en 13.1 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.

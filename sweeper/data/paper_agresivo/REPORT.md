@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 11.4 de 28 | corridas: 258
-- Capital inicial: $1,000.00 | valor actual: $944.29 | P&L: $-55.71 (-5.57%)
-- Efectivo libre: $-0.00 | en ordenes abiertas: $655.81 (9) | en posiciones: $308.52 (4)
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 11.4 de 28 | corridas: 259
+- Capital inicial: $1,000.00 | valor actual: $952.66 | P&L: $-47.34 (-4.73%)
+- Efectivo libre: $0.00 | en ordenes abiertas: $561.38 (8) | en posiciones: $402.95 (5)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $91.77 en 1 posiciones
-- Ordenes virtuales: 516 colocadas, 237 llenadas, 217 tocadas sin llenarse (sorteo 30%), 53 expiradas
+- Ordenes virtuales: 520 colocadas, 238 llenadas, 220 tocadas sin llenarse (sorteo 30%), 54 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -31,31 +31,32 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
-| $91.77 | 99.8c | 82.1c | otros_cierre | si | Pakistan military action against Afghanistan by November 15, 2026? |
+| $91.77 | 99.8c | 91.2c | otros_cierre | si | Pakistan military action against Afghanistan by November 15, 2026? |
 | $35.36 | 99.8c | 97.4c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $4.5m and $5.5m at auction? |
 | $87.27 | 99.8c | 98.3c | otros_cierre |  | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
 | $94.12 | 99.5c | 97.8c | deportes_previo |  | Bradford City AFC vs. Barnsley FC: Neither team to score first? |
+| $94.43 | 99.9c | 99.9c | deportes_previo |  | Games Total: O/U 2.5 |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 13560 | abiertas: 2153 | abiertas mas de 7 dias despues de su fecha de fin: 1
+- Resueltas: 13669 | abiertas: 2122 | abiertas mas de 7 dias despues de su fecha de fin: 1
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
-| clima_cierre | todas | 3698 | 98.82c | 98.95% | +0.13 pts | -0.20 a +0.46 | 39 |
-| clima_cierre | tocadas | 3428 | 98.84c | 98.86% | +0.02 pts | -0.33 a +0.38 | 39 |
+| clima_cierre | todas | 3744 | 98.81c | 98.93% | +0.12 pts | -0.21 a +0.45 | 40 |
+| clima_cierre | tocadas | 3471 | 98.84c | 98.85% | +0.01 pts | -0.34 a +0.36 | 40 |
 | cripto_cierre | todas | 1768 | 98.66c | 98.08% | -0.59 pts | -1.22 a +0.05 | 34 |
 | cripto_cierre | tocadas | 1617 | 98.71c | 97.90% | -0.81 pts | -1.50 a -0.12 | 34 |
-| deportes_previo | todas | 6416 | 98.05c | 97.44% | -0.61 pts | -1.00 a -0.23 | 167 |
-| deportes_previo | tocadas | 6262 | 98.09c | 97.40% | -0.68 pts | -1.07 a -0.29 | 165 |
+| deportes_previo | todas | 6479 | 98.05c | 97.40% | -0.65 pts | -1.04 a -0.27 | 171 |
+| deportes_previo | tocadas | 6325 | 98.09c | 97.37% | -0.72 pts | -1.11 a -0.33 | 169 |
 | otros_cierre | todas | 1425 | 98.96c | 97.33% | -1.63 pts | -2.46 a -0.80 | 38 |
 | otros_cierre | tocadas | 1313 | 98.92c | 97.11% | -1.81 pts | -2.71 a -0.91 | 38 |
 | post_fin_90_97 | todas | 253 | 94.03c | 93.68% | -0.35 pts | -3.32 a +2.62 | 16 |
 | post_fin_90_97 | tocadas | 215 | 94.14c | 92.56% | -1.58 pts | -5.05 a +1.89 | 16 |
-| TOTAL | todas | 13560 | 98.36c | 97.85% | -0.51 pts | -0.75 a -0.27 | 294 |
-| TOTAL | tocadas | 12835 | 98.38c | 97.74% | -0.64 pts | -0.89 a -0.39 | 292 |
+| TOTAL | todas | 13669 | 98.36c | 97.83% | -0.53 pts | -0.77 a -0.29 | 299 |
+| TOTAL | tocadas | 12941 | 98.38c | 97.72% | -0.66 pts | -0.91 a -0.41 | 297 |
 
 Peores casos del registro sombra:
 
