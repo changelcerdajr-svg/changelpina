@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-11T22:05:26Z | dias corridos: 13.5 de 28 | corridas: 308
-- Capital inicial: $1,000.00 | valor actual: $1,036.78 | P&L: $+36.78 (+3.68%)
-- Efectivo libre: $415.21 | en ordenes abiertas: $362.86 (7) | en posiciones: $259.20 (5)
+- Inicio: 2026-11-11T22:05:26Z | dias corridos: 13.5 de 28 | corridas: 309
+- Capital inicial: $1,000.00 | valor actual: $1,036.65 | P&L: $+36.65 (+3.66%)
+- Efectivo libre: $415.28 | en ordenes abiertas: $362.79 (7) | en posiciones: $259.20 (5)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $51.82 en 1 posiciones
-- Ordenes virtuales: 518 colocadas, 122 llenadas, 272 tocadas sin llenarse (sorteo 30%), 117 expiradas
+- Ordenes virtuales: 522 colocadas, 122 llenadas, 274 tocadas sin llenarse (sorteo 30%), 119 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -31,27 +31,27 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 | $51.82 | 98.5c | 98.3c | otros_cierre | si | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
 | $51.83 | 97.7c | 98.1c | deportes_previo |  | RB Ōmiya Ardija vs. Tokushima Vortis: O/U 6.5 |
 | $51.83 | 98.8c | 98.8c | deportes_previo |  | Fagiano Okayama vs. Shimizu S-Pulse: O/U 6.5 |
-| $51.86 | 99.8c | 98.6c | otros_cierre |  | Will Core PCE MoM be 0.1% in October? |
-| $51.86 | 98.7c | 98.8c | cripto_cierre |  | Will the price of Bitcoin be less than $54,000 on November 25? |
+| $51.86 | 99.8c | 98.4c | otros_cierre |  | Will Core PCE MoM be 0.1% in October? |
+| $51.86 | 98.7c | 98.7c | cripto_cierre |  | Will the price of Bitcoin be less than $54,000 on November 25? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 4932 | abiertas: 336 | abiertas mas de 7 dias despues de su fecha de fin: 5
+- Resueltas: 4941 | abiertas: 332 | abiertas mas de 7 dias despues de su fecha de fin: 5
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
-| cripto_cierre | todas | 1394 | 98.73c | 99.28% | +0.56 pts | +0.11 a +1.00 | 10 |
-| cripto_cierre | tocadas | 980 | 98.56c | 98.98% | +0.42 pts | -0.21 a +1.05 | 10 |
+| cripto_cierre | todas | 1397 | 98.72c | 99.28% | +0.56 pts | +0.12 a +1.00 | 10 |
+| cripto_cierre | tocadas | 983 | 98.56c | 98.98% | +0.42 pts | -0.20 a +1.05 | 10 |
 | deportes_previo | todas | 2736 | 98.30c | 98.72% | +0.42 pts | -0.00 a +0.83 | 36 |
 | deportes_previo | tocadas | 2288 | 98.28c | 98.73% | +0.45 pts | +0.00 a +0.91 | 30 |
-| otros_cierre | todas | 710 | 98.89c | 99.44% | +0.55 pts | -0.00 a +1.11 | 4 |
-| otros_cierre | tocadas | 445 | 98.72c | 99.10% | +0.38 pts | -0.50 a +1.26 | 4 |
+| otros_cierre | todas | 716 | 98.88c | 99.44% | +0.56 pts | +0.01 a +1.11 | 4 |
+| otros_cierre | tocadas | 449 | 98.71c | 99.11% | +0.40 pts | -0.48 a +1.27 | 4 |
 | post_fin_95_97 | todas | 92 | 95.89c | 93.48% | -2.41 pts | -7.48 a +2.67 | 6 |
 | post_fin_95_97 | tocadas | 83 | 95.91c | 92.77% | -3.14 pts | -8.74 a +2.47 | 6 |
-| TOTAL | todas | 4932 | 98.46c | 98.88% | +0.42 pts | +0.13 a +0.71 | 56 |
-| TOTAL | tocadas | 3796 | 98.35c | 98.71% | +0.36 pts | +0.00 a +0.71 | 50 |
+| TOTAL | todas | 4941 | 98.46c | 98.89% | +0.43 pts | +0.13 a +0.72 | 56 |
+| TOTAL | tocadas | 3803 | 98.35c | 98.71% | +0.36 pts | +0.01 a +0.72 | 50 |
 
 Peores casos del registro sombra:
 
