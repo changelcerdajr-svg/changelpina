@@ -1,6 +1,6 @@
 {
  "capital0": 1000.0,
- "cash": 418.2592,
+ "cash": 418.3562,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
   {
@@ -130,48 +130,6 @@
    "liq": 24033
   },
   {
-   "oid": "7309752-1795626072",
-   "id": "7309752",
-   "q": "Will Apple (AAPL) close above $340 on November 25?",
-   "cat": "otros",
-   "rule": "otros_cierre",
-   "event": "1452867",
-   "side": 0,
-   "token": "115501919164044378342914084973235528703425012373190500560439940792898624488945",
-   "px": 0.978,
-   "tick": 0.001,
-   "mid": 0.9785,
-   "bid": 0.966,
-   "ask": 0.991,
-   "shares": 53.1954,
-   "cost": 52.0251,
-   "ts": 1795626072.91454,
-   "end_ts": 1795640400.0,
-   "hours": 3.98,
-   "liq": 2857
-  },
-  {
-   "oid": "7309794-1795629666",
-   "id": "7309794",
-   "q": "Micron (MU) Up or Down on November 25?",
-   "cat": "cripto",
-   "rule": "cripto_cierre",
-   "event": "1452885",
-   "side": 1,
-   "token": "38298211860184895965784242668178260346875372939305321545894078681723373446013",
-   "px": 0.985,
-   "tick": 0.001,
-   "mid": 0.985,
-   "bid": 0.971,
-   "ask": 0.999,
-   "shares": 52.8574,
-   "cost": 52.0645,
-   "ts": 1795629666.045628,
-   "end_ts": 1795640400.0,
-   "hours": 2.98,
-   "liq": 17201
-  },
-  {
    "oid": "7335763-1795629666",
    "id": "7335763",
    "q": "Will Bitcoin reach $66,000 on November 25?",
@@ -212,6 +170,48 @@
    "end_ts": 1795669200.0,
    "hours": 10.98,
    "liq": 36597
+  },
+  {
+   "oid": "7309767-1795633267",
+   "id": "7309767",
+   "q": "Will Amazon (AMZN) close above $255 on November 25?",
+   "cat": "otros",
+   "rule": "otros_cierre",
+   "event": "1452872",
+   "side": 1,
+   "token": "35877334522463737410483365287899229042081418065665968168158830761758165631362",
+   "px": 0.99,
+   "tick": 0.001,
+   "mid": 0.99,
+   "bid": 0.982,
+   "ask": 0.998,
+   "shares": 52.5118,
+   "cost": 51.9867,
+   "ts": 1795633267.886332,
+   "end_ts": 1795640400.0,
+   "hours": 1.98,
+   "liq": 16216
+  },
+  {
+   "oid": "7335791-1795633267",
+   "id": "7335791",
+   "q": "Will Ethereum reach $2,000 on November 25?",
+   "cat": "cripto",
+   "rule": "cripto_cierre",
+   "event": "1456662",
+   "side": 1,
+   "token": "64347696083679867086619409510457554363562113822362457056027664203370267442230",
+   "px": 0.995,
+   "tick": 0.001,
+   "mid": 0.9955,
+   "bid": 0.992,
+   "ask": 0.999,
+   "shares": 52.2672,
+   "cost": 52.0059,
+   "ts": 1795633267.886332,
+   "end_ts": 1795669200.0,
+   "hours": 9.98,
+   "liq": 25564
   }
  ],
  "positions": [
@@ -261,7 +261,9 @@
    "hours": 3.98,
    "liq": 2981,
    "fill_ts": 1795629666.045628,
-   "mark": 0.976
+   "mark": 0.954,
+   "stuck": false,
+   "disputed": false
   }
  ],
  "closed": [
@@ -7977,14 +7979,27 @@
    "placed": 3,
    "shadow_open": 418,
    "shadow_closed": 54
+  },
+  {
+   "ts": "2026-11-25T19:02:00Z",
+   "equity": 1040.12,
+   "cash": 418.36,
+   "orders": 10,
+   "positions": 2,
+   "closed": 122,
+   "scanned": 13537,
+   "candidates": 162,
+   "placed": 2,
+   "shadow_open": 418,
+   "shadow_closed": 9
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 544,
+  "placed": 546,
   "filled": 124,
   "expired": 119,
-  "touched_not_filled": 291
+  "touched_not_filled": 293
  },
  "shadow": [
   {
@@ -9600,19 +9615,6 @@
    "touched": 1
   },
   {
-   "id": "6987566",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "24112966683910043479797403133269897555104831958037876492453980823291971837887",
-   "px": 0.984,
-   "tick": 0.001,
-   "ts": 1795579277,
-   "end_ts": 1795618800,
-   "q": "Tala'ea El Gaish SC vs. Modern SC: O/U 5.5",
-   "touched": 1
-  },
-  {
    "id": "6986304",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -9938,97 +9940,6 @@
    "touched": 0
   },
   {
-   "id": "6987554",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "67156290471465393568976407281153273564737062154802655698500593673457895969165",
-   "px": 0.972,
-   "tick": 0.001,
-   "ts": 1795586469,
-   "end_ts": 1795618800,
-   "q": "Spread: Modern SC (-2.5)",
-   "touched": null
-  },
-  {
-   "id": "6987556",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "74387035078253317860277211756872189829136303969671501628350956675770446247223",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795586469,
-   "end_ts": 1795618800,
-   "q": "Spread: Modern SC (-3.5)",
-   "touched": null
-  },
-  {
-   "id": "7311268",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "61940814591085222128096793159995460254711932132607538756209927155095324642848",
-   "px": 0.972,
-   "tick": 0.001,
-   "ts": 1795586469,
-   "end_ts": 1795608900,
-   "q": "Persib Bandung vs. FC Seoul: O/U 6.5",
-   "touched": null
-  },
-  {
-   "id": "7312827",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "35742800528875396521846545171370576586183300429029945943748276837365202622679",
-   "px": 0.98,
-   "tick": 0.001,
-   "ts": 1795586469,
-   "end_ts": 1795614300,
-   "q": "Spread: AL-Khaldiya SC (-2.5)",
-   "touched": null
-  },
-  {
-   "id": "7312829",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "115790173317559258258545490085029454240064138699295039991930175732174348472763",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795586469,
-   "end_ts": 1795614300,
-   "q": "Spread: AL-Khaldiya SC (-3.5)",
-   "touched": null
-  },
-  {
-   "id": "7312840",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "62375626313477321310607269743156455831917711460513578902106332481165703958233",
-   "px": 0.984,
-   "tick": 0.001,
-   "ts": 1795586469,
-   "end_ts": 1795614300,
-   "q": "PFC Nasaf vs. AL-Khaldiya SC: O/U 6.5",
-   "touched": null
-  },
-  {
-   "id": "7324963",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "65523283819006965125885904397341731193355985225773544744775458643408215097645",
-   "px": 0.972,
-   "tick": 0.001,
-   "ts": 1795586469,
-   "end_ts": 1795613400,
-   "q": "Spread: Inter Milano U23 (-2.5)",
-   "touched": null
-  },
-  {
    "id": "6987445",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -10039,7 +9950,7 @@
    "ts": 1795586469,
    "end_ts": 1795629600,
    "q": "Spread: Ceramica Cleopatra Club (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6987482",
@@ -10052,7 +9963,7 @@
    "ts": 1795586469,
    "end_ts": 1795629600,
    "q": "Spread: Montakhab Suez Petrojet (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7319665",
@@ -10065,7 +9976,7 @@
    "ts": 1795586469,
    "end_ts": 1795622400,
    "q": "Al Faisaly (JOR) vs. Al Rayyan SC: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7319692",
@@ -10078,7 +9989,7 @@
    "ts": 1795586469,
    "end_ts": 1795622400,
    "q": "Spread: Arkadag FK (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7319694",
@@ -10091,7 +10002,7 @@
    "ts": 1795586469,
    "end_ts": 1795622400,
    "q": "Spread: Arkadag FK (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7319705",
@@ -10104,7 +10015,7 @@
    "ts": 1795586469,
    "end_ts": 1795622400,
    "q": "Al-Muharraq SC vs. Arkadag FK: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7319744",
@@ -10117,7 +10028,7 @@
    "ts": 1795586469,
    "end_ts": 1795622400,
    "q": "Spread: Gol Gohar Sirjan FC (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6986211",
@@ -10130,7 +10041,7 @@
    "ts": 1795586469,
    "end_ts": 1795635900,
    "q": "Spread: Kidderminster Harriers FC (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6986222",
@@ -10143,7 +10054,7 @@
    "ts": 1795586469,
    "end_ts": 1795635900,
    "q": "Harrogate Town AFC vs. Kidderminster Harriers FC: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6986261",
@@ -10156,7 +10067,7 @@
    "ts": 1795586469,
    "end_ts": 1795635900,
    "q": "Spread: Hartlepool United FC (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6986262",
@@ -10169,7 +10080,7 @@
    "ts": 1795586469,
    "end_ts": 1795635900,
    "q": "Spread: Solihull Moors FC (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6986273",
@@ -10182,7 +10093,7 @@
    "ts": 1795586469,
    "end_ts": 1795635900,
    "q": "Hartlepool United FC vs. Solihull Moors FC: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6986297",
@@ -10195,7 +10106,7 @@
    "ts": 1795586469,
    "end_ts": 1795633200,
    "q": "Spread: Aldershot Town FC (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7240282",
@@ -10208,7 +10119,7 @@
    "ts": 1795586469,
    "end_ts": 1795633200,
    "q": "Spread: Pisa SC (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7312920",
@@ -10221,7 +10132,7 @@
    "ts": 1795586469,
    "end_ts": 1795654800,
    "q": "Utah vs. Wild: O/U 2.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7333274",
@@ -10234,7 +10145,7 @@
    "ts": 1795586469,
    "end_ts": 1795654800,
    "q": "Spread: Atlas FC (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7335156",
@@ -10247,7 +10158,7 @@
    "ts": 1795586469,
    "end_ts": 1795662600,
    "q": "Spread: CF Monterrey (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7335157",
@@ -10260,7 +10171,7 @@
    "ts": 1795586469,
    "end_ts": 1795662600,
    "q": "Spread: CF América (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7335760",
@@ -10273,7 +10184,7 @@
    "ts": 1795586469,
    "end_ts": 1795669200,
    "q": "Will Bitcoin reach $67,000 on November 25?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7335763",
@@ -10286,7 +10197,7 @@
    "ts": 1795586469,
    "end_ts": 1795669200,
    "q": "Will Bitcoin reach $66,000 on November 25?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7335765",
@@ -10299,7 +10210,7 @@
    "ts": 1795586469,
    "end_ts": 1795669200,
    "q": "Will Bitcoin reach $65,000 on November 25?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7335767",
@@ -10312,7 +10223,7 @@
    "ts": 1795586469,
    "end_ts": 1795669200,
    "q": "Will Bitcoin reach $64,000 on November 25?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7335788",
@@ -10325,7 +10236,7 @@
    "ts": 1795586469,
    "end_ts": 1795669200,
    "q": "Will Bitcoin dip to $53,000 on November 25?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7335789",
@@ -10338,7 +10249,7 @@
    "ts": 1795586469,
    "end_ts": 1795669200,
    "q": "Will Bitcoin dip to $52,000 on November 25?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7335791",
@@ -10351,7 +10262,7 @@
    "ts": 1795586469,
    "end_ts": 1795669200,
    "q": "Will Ethereum reach $2,000 on November 25?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7335793",
@@ -10364,7 +10275,7 @@
    "ts": 1795586469,
    "end_ts": 1795669200,
    "q": "Will Ethereum reach $1,950 on November 25?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7335795",
@@ -10377,7 +10288,7 @@
    "ts": 1795586469,
    "end_ts": 1795669200,
    "q": "Will Ethereum reach $1,900 on November 25?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7335797",
@@ -10390,7 +10301,7 @@
    "ts": 1795586469,
    "end_ts": 1795669200,
    "q": "Will Ethereum reach $1,850 on November 25?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7335799",
@@ -10403,7 +10314,7 @@
    "ts": 1795586469,
    "end_ts": 1795669200,
    "q": "Will Ethereum reach $1,800 on November 25?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7335813",
@@ -10416,7 +10327,7 @@
    "ts": 1795586469,
    "end_ts": 1795669200,
    "q": "Will Ethereum dip to $1,450 on November 25?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7335815",
@@ -10429,7 +10340,7 @@
    "ts": 1795586469,
    "end_ts": 1795669200,
    "q": "Will Ethereum dip to $1,400 on November 25?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7335817",
@@ -10442,7 +10353,7 @@
    "ts": 1795586469,
    "end_ts": 1795669200,
    "q": "Will Ethereum dip to $1,350 on November 25?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7335818",
@@ -10455,7 +10366,7 @@
    "ts": 1795586469,
    "end_ts": 1795669200,
    "q": "Will Solana reach $90 on November 25?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7335819",
@@ -10468,7 +10379,7 @@
    "ts": 1795586469,
    "end_ts": 1795669200,
    "q": "Will Solana reach $85 on November 25?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7335830",
@@ -10481,7 +10392,7 @@
    "ts": 1795586469,
    "end_ts": 1795669200,
    "q": "Will Solana dip to $55 on November 25?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7335832",
@@ -10494,20 +10405,7 @@
    "ts": 1795586469,
    "end_ts": 1795669200,
    "q": "Will Solana dip to $50 on November 25?",
-   "touched": null
-  },
-  {
-   "id": "6390046",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "86578988987367793307604580755868524681470533465332729319811082378113735611270",
-   "px": 0.972,
-   "tick": 0.001,
-   "ts": 1795590065,
-   "end_ts": 1795613400,
-   "q": "Will Core PCE MoM be 0.4% in October?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7319738",
@@ -10520,7 +10418,7 @@
    "ts": 1795590065,
    "end_ts": 1795622400,
    "q": "Spread: Gol Gohar Sirjan FC (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7319755",
@@ -10533,7 +10431,7 @@
    "ts": 1795590065,
    "end_ts": 1795622400,
    "q": "Al Jazira (UAE) vs. Gol Gohar Sirjan FC: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7319780",
@@ -10546,7 +10444,7 @@
    "ts": 1795590065,
    "end_ts": 1795622400,
    "q": "Spread: Kuwait SC (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6757103",
@@ -10559,7 +10457,7 @@
    "ts": 1795590065,
    "end_ts": 1795628700,
    "q": "Will Sabah FK win on 2026-11-25?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6986299",
@@ -10572,7 +10470,7 @@
    "ts": 1795590065,
    "end_ts": 1795633200,
    "q": "Spread: Aldershot Town FC (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6935902",
@@ -10585,7 +10483,7 @@
    "ts": 1795590065,
    "end_ts": 1795654800,
    "q": "Spread: Packers (-20.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7256147",
@@ -10598,7 +10496,7 @@
    "ts": 1795590065,
    "end_ts": 1795648800,
    "q": "Spread: Independiente Santa Fe (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7256149",
@@ -10611,7 +10509,7 @@
    "ts": 1795590065,
    "end_ts": 1795648800,
    "q": "Spread: Once Caldas (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7256029",
@@ -10624,7 +10522,7 @@
    "ts": 1795590065,
    "end_ts": 1795656600,
    "q": "Spread: Independiente Medellín (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7335842",
@@ -10637,7 +10535,7 @@
    "ts": 1795590065,
    "end_ts": 1795669200,
    "q": "Will XRP reach $1.15 on November 25?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7335851",
@@ -10650,7 +10548,7 @@
    "ts": 1795590065,
    "end_ts": 1795669200,
    "q": "Will XRP dip to $0.80 on November 25?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7335853",
@@ -10663,7 +10561,7 @@
    "ts": 1795590065,
    "end_ts": 1795669200,
    "q": "Will XRP dip to $0.75 on November 25?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7335855",
@@ -10676,7 +10574,7 @@
    "ts": 1795590065,
    "end_ts": 1795669200,
    "q": "Will XRP dip to $0.70 on November 25?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6987555",
@@ -13419,6 +13317,123 @@
    "ts": 1795629666,
    "end_ts": 1795723200,
    "q": "Doncaster Rovers FC vs. Huddersfield Town AFC: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "7325775",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "18748736310758606350187371980368307868123393247330566054563202342860628755047",
+   "px": 0.974,
+   "tick": 0.001,
+   "ts": 1795633267,
+   "end_ts": 1795662000,
+   "q": "Spread: Kings (-18.5)",
+   "touched": null
+  },
+  {
+   "id": "7335849",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "95397980597258251538693657478674409722791522972712206994124111426302830361714",
+   "px": 0.988,
+   "tick": 0.001,
+   "ts": 1795633267,
+   "end_ts": 1795669200,
+   "q": "Will XRP dip to $0.85 on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7347342",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "101369636213025472716627529802268583117923596183173801930186115349232392367665",
+   "px": 0.984,
+   "tick": 0.001,
+   "ts": 1795633267,
+   "end_ts": 1795705200,
+   "q": "Will the US national average gas price be between $3.6000 and $3.6099 on November 26?",
+   "touched": null
+  },
+  {
+   "id": "6994164",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "78027718207249038455679498976878192788285811232040142934242007962619229402815",
+   "px": 0.983,
+   "tick": 0.001,
+   "ts": 1795633267,
+   "end_ts": 1795715100,
+   "q": "FC Red Bull Salzburg vs. Ararat-Armenia FA: Neither team to score first?",
+   "touched": null
+  },
+  {
+   "id": "7176637",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "35984939332431983690784416308352599406506456331187453128518204566102818734705",
+   "px": 0.971,
+   "tick": 0.001,
+   "ts": 1795633267,
+   "end_ts": 1795712400,
+   "q": "Will the price of Bitcoin be above $56,000 on November 26?",
+   "touched": null
+  },
+  {
+   "id": "7176657",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "100954938451019748797143337946573303761422480641162850506623641214183268186324",
+   "px": 0.981,
+   "tick": 0.001,
+   "ts": 1795633267,
+   "end_ts": 1795712400,
+   "q": "Will the price of Solana be above $60 on November 26?",
+   "touched": null
+  },
+  {
+   "id": "7102721",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "74344284554937484358350612442247852596772498613099801044106755715310041362166",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795633267,
+   "end_ts": 1795723200,
+   "q": "AC Sparta Praha vs. AZ: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "7025511",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "1737973220836151958825340670557191355461294858763006837988950980097533197164",
+   "px": 0.975,
+   "tick": 0.001,
+   "ts": 1795633267,
+   "end_ts": 1795741200,
+   "q": "Spread: TCU (-13.5)",
+   "touched": null
+  },
+  {
+   "id": "7025512",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "58170903727990241227004071322085708694432085600660490268727432254370969732880",
+   "px": 0.973,
+   "tick": 0.001,
+   "ts": 1795633267,
+   "end_ts": 1795741200,
+   "q": "Spread: TCU (-10.5)",
    "touched": null
   }
  ]
