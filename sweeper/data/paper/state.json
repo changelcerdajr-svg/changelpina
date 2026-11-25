@@ -1,29 +1,8 @@
 {
  "capital0": 1000.0,
- "cash": 415.3144,
+ "cash": 415.2251,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
-  {
-   "oid": "7211309-1795554066",
-   "id": "7211309",
-   "q": "Will Trump or Melania say \"Tomato\" during the Thanksgiving Turkey Pardon on November 24?",
-   "cat": "otros",
-   "rule": "otros_cierre",
-   "event": "1434437",
-   "side": 1,
-   "token": "19223754964014465857615384465698560244275735978057745403511679759560605810492",
-   "px": 0.99,
-   "tick": 0.001,
-   "mid": 0.9905,
-   "bid": 0.982,
-   "ask": 0.999,
-   "shares": 52.2916,
-   "cost": 51.7687,
-   "ts": 1795554066.22047,
-   "end_ts": 1795564740.0,
-   "hours": 2.96,
-   "liq": 2067
-  },
   {
    "oid": "5730363-1795557669",
    "id": "5730363",
@@ -109,27 +88,6 @@
    "liq": 1764
   },
   {
-   "oid": "6974797-1795575664",
-   "id": "6974797",
-   "q": "RB Ōmiya Ardija vs. Tokushima Vortis: O/U 6.5",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1367235",
-   "side": 1,
-   "token": "113924037057088950430538837043617762276181979523516880044808337238368779148069",
-   "px": 0.977,
-   "tick": 0.001,
-   "mid": 0.977,
-   "bid": 0.97,
-   "ask": 0.984,
-   "shares": 53.0522,
-   "cost": 51.832,
-   "ts": 1795575664.753486,
-   "end_ts": 1795600800.0,
-   "hours": 6.98,
-   "liq": 12186
-  },
-  {
    "oid": "7016133-1795582869",
    "id": "7016133",
    "q": "Navy Midshipmen vs. Iowa Hawkeyes (W)",
@@ -193,27 +151,6 @@
    "liq": 1976
   },
   {
-   "oid": "7150118-1795593666",
-   "id": "7150118",
-   "q": "Will the price of Bitcoin be less than $54,000 on November 25?",
-   "cat": "cripto",
-   "rule": "cripto_cierre",
-   "event": "1417820",
-   "side": 1,
-   "token": "108209882408920726677202232943142787354312277852125609225549668779494039211466",
-   "px": 0.987,
-   "tick": 0.001,
-   "mid": 0.987,
-   "bid": 0.982,
-   "ask": 0.992,
-   "shares": 52.5411,
-   "cost": 51.8581,
-   "ts": 1795593666.788173,
-   "end_ts": 1795626000.0,
-   "hours": 8.98,
-   "liq": 32858
-  },
-  {
    "oid": "7150129-1795593666",
    "id": "7150129",
    "q": "Will the price of Ethereum be above $1,400 on November 25?",
@@ -233,6 +170,27 @@
    "end_ts": 1795626000.0,
    "hours": 8.98,
    "liq": 32145
+  },
+  {
+   "oid": "6390046-1795597268",
+   "id": "6390046",
+   "q": "Will Core PCE MoM be 0.4% in October?",
+   "cat": "otros",
+   "rule": "otros_cierre",
+   "event": "1278380",
+   "side": 1,
+   "token": "86578988987367793307604580755868524681470533465332729319811082378113735611270",
+   "px": 0.974,
+   "tick": 0.001,
+   "mid": 0.974,
+   "bid": 0.961,
+   "ask": 0.987,
+   "shares": 53.2423,
+   "cost": 51.858,
+   "ts": 1795597268.876121,
+   "end_ts": 1795613400.0,
+   "hours": 4.48,
+   "liq": 2013
   }
  ],
  "positions": [
@@ -260,6 +218,52 @@
    "mark": 0.983,
    "stuck": true,
    "disputed": false
+  },
+  {
+   "oid": "6974797-1795575664",
+   "id": "6974797",
+   "q": "RB Ōmiya Ardija vs. Tokushima Vortis: O/U 6.5",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1367235",
+   "side": 1,
+   "token": "113924037057088950430538837043617762276181979523516880044808337238368779148069",
+   "px": 0.977,
+   "tick": 0.001,
+   "mid": 0.977,
+   "bid": 0.97,
+   "ask": 0.984,
+   "shares": 53.0522,
+   "cost": 51.832,
+   "ts": 1795575664.753486,
+   "end_ts": 1795600800.0,
+   "hours": 6.98,
+   "liq": 12186,
+   "fill_ts": 1795597268.876121,
+   "mark": 0.977
+  },
+  {
+   "oid": "7150118-1795593666",
+   "id": "7150118",
+   "q": "Will the price of Bitcoin be less than $54,000 on November 25?",
+   "cat": "cripto",
+   "rule": "cripto_cierre",
+   "event": "1417820",
+   "side": 1,
+   "token": "108209882408920726677202232943142787354312277852125609225549668779494039211466",
+   "px": 0.987,
+   "tick": 0.001,
+   "mid": 0.987,
+   "bid": 0.982,
+   "ask": 0.992,
+   "shares": 52.5411,
+   "cost": 51.8581,
+   "ts": 1795593666.788173,
+   "end_ts": 1795626000.0,
+   "hours": 8.98,
+   "liq": 32858,
+   "fill_ts": 1795597268.876121,
+   "mark": 0.987
   }
  ],
  "closed": [
@@ -7697,13 +7701,26 @@
    "placed": 3,
    "shadow_open": 350,
    "shadow_closed": 10
+  },
+  {
+   "ts": "2026-11-25T09:01:41Z",
+   "equity": 1037.16,
+   "cash": 415.23,
+   "orders": 9,
+   "positions": 3,
+   "closed": 117,
+   "scanned": 11015,
+   "candidates": 206,
+   "placed": 1,
+   "shadow_open": 328,
+   "shadow_closed": 27
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 516,
-  "filled": 118,
-  "expired": 116,
+  "placed": 517,
+  "filled": 120,
+  "expired": 117,
   "touched_not_filled": 271
  },
  "shadow": [
@@ -9853,227 +9870,6 @@
    "touched": 1
   },
   {
-   "id": "7284547",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "102352898127662171073609460808382085004241079539661551782501337841276380856173",
-   "px": 0.99,
-   "tick": 0.001,
-   "ts": 1795550467,
-   "end_ts": 1795554000,
-   "q": "NVIDIA (NVDA) Up or Down on November 24?",
-   "touched": null
-  },
-  {
-   "id": "7284548",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "56775980727993806012159596853068325275846987756302099008258724198959661505777",
-   "px": 0.987,
-   "tick": 0.001,
-   "ts": 1795550467,
-   "end_ts": 1795554000,
-   "q": "Will Microsoft (MSFT) close above $500 on November 24?",
-   "touched": null
-  },
-  {
-   "id": "7284549",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "107611739334292545399586944192099516029515296981036129748676824394073664008807",
-   "px": 0.986,
-   "tick": 0.001,
-   "ts": 1795550467,
-   "end_ts": 1795554000,
-   "q": "Will Microsoft (MSFT) close above $510 on November 24?",
-   "touched": null
-  },
-  {
-   "id": "7284565",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 0,
-   "token": "82688013461383758589889199362867880892522894280440639622048333524839557616460",
-   "px": 0.999,
-   "tick": 0.001,
-   "ts": 1795550467,
-   "end_ts": 1795554000,
-   "q": "Will Meta (META) close above $560 on November 24?",
-   "touched": null
-  },
-  {
-   "id": "7284567",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 0,
-   "token": "10833466078892595028440954988134668081485017235862479833099329541411732531011",
-   "px": 0.984,
-   "tick": 0.001,
-   "ts": 1795550467,
-   "end_ts": 1795554000,
-   "q": "Will Meta (META) close above $580 on November 24?",
-   "touched": null
-  },
-  {
-   "id": "7284570",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "97425236123933222899081517499621804669609434191509878131052418115064216636714",
-   "px": 0.985,
-   "tick": 0.001,
-   "ts": 1795550467,
-   "end_ts": 1795554000,
-   "q": "Will Meta (META) close above $600 on November 24?",
-   "touched": null
-  },
-  {
-   "id": "7284574",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "94207622299682373954833786000636871290897930145595517173969312737702245380874",
-   "px": 0.986,
-   "tick": 0.001,
-   "ts": 1795550467,
-   "end_ts": 1795554000,
-   "q": "S&P 500 (SPX) Up or Down on November 24?",
-   "touched": null
-  },
-  {
-   "id": "7284589",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "26095467507260563987328117110619483236179070366791825108338292976619163857795",
-   "px": 0.988,
-   "tick": 0.001,
-   "ts": 1795550467,
-   "end_ts": 1795554000,
-   "q": "SPY (SPY) Up or Down on November 24?",
-   "touched": null
-  },
-  {
-   "id": "7284637",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "103685590470242990843878894909118136412926623717158705799319938585365801860773",
-   "px": 0.977,
-   "tick": 0.001,
-   "ts": 1795550467,
-   "end_ts": 1795557600,
-   "q": "Gold (XAUUSD) Up or Down on November 24?",
-   "touched": null
-  },
-  {
-   "id": "7211307",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "45300405549307474773275660374385388692762153074825929893406157527494386758658",
-   "px": 0.996,
-   "tick": 0.001,
-   "ts": 1795550467,
-   "end_ts": 1795564740,
-   "q": "Will Trump or Melania say \"Bean\" during the Thanksgiving Turkey Pardon on November 24?",
-   "touched": null
-  },
-  {
-   "id": "7211315",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 0,
-   "token": "6195658823635589346026697412225326622894679105166643567944443982597651404228",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795550467,
-   "end_ts": 1795564740,
-   "q": "Will Trump or Melania say \"West Virginia\" during the Thanksgiving Turkey Pardon on Novembe",
-   "touched": null
-  },
-  {
-   "id": "7211316",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 0,
-   "token": "19894516295765420290086864746975438601635084057752256642128231960624447041807",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1795550467,
-   "end_ts": 1795564740,
-   "q": "Will Trump or Melania say \"Border\" during the Thanksgiving Turkey Pardon on November 24?",
-   "touched": null
-  },
-  {
-   "id": "7211317",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 0,
-   "token": "56033689428222195184917918259474152001352500953808450823208298734520925438475",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1795550467,
-   "end_ts": 1795564740,
-   "q": "Will Trump or Melania say \"Poultry\" during the Thanksgiving Turkey Pardon on November 24?",
-   "touched": null
-  },
-  {
-   "id": "7229965",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 0,
-   "token": "90927672478552982989716614903743527660184291127638657204239371091427548864226",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1795550467,
-   "end_ts": 1795564740,
-   "q": "Will Trump or Melania say \"Drone\" or \"Helipad\" during the Thanksgiving Turkey Pardon on No",
-   "touched": null
-  },
-  {
-   "id": "6596311",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 0,
-   "token": "101591895027592921321944215289420738628668541037332155756443093202426795484619",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1795550467,
-   "end_ts": 1795582740,
-   "q": "Will Donald Trump publicly insult someone on November 24, 2026?",
-   "touched": null
-  },
-  {
-   "id": "6618187",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "35986429378171118723009080680898677471057393353495781720571688210994620894376",
-   "px": 0.971,
-   "tick": 0.001,
-   "ts": 1795550467,
-   "end_ts": 1795582740,
-   "q": "Will Colombia win Miss Universe 2026?",
-   "touched": null
-  },
-  {
-   "id": "7130036",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 0,
-   "token": "20668736476565089193458876114743007891257168205164915471029981207712777982025",
-   "px": 0.993,
-   "tick": 0.001,
-   "ts": 1795550467,
-   "end_ts": 1795582740,
-   "q": "Will \"Raw: 2026 - November 16, 2026\" be the #2 US Netflix show this week?",
-   "touched": null
-  },
-  {
    "id": "6990040",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -10084,7 +9880,7 @@
    "ts": 1795550467,
    "end_ts": 1795600800,
    "q": "Avispa Fukuoka vs. Yokohama F·Marinos: O/U 8.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6990069",
@@ -10097,7 +9893,7 @@
    "ts": 1795550467,
    "end_ts": 1795600800,
    "q": "Spread: FC Mito Holly Hock (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7150227",
@@ -10110,7 +9906,7 @@
    "ts": 1795550467,
    "end_ts": 1795626000,
    "q": "Will the price of XRP be above $1.00 on November 25?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6985614",
@@ -10123,7 +9919,7 @@
    "ts": 1795550467,
    "end_ts": 1795636800,
    "q": "Stoke City FC vs. Millwall FC: O/U 8.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6985768",
@@ -10136,7 +9932,7 @@
    "ts": 1795550467,
    "end_ts": 1795635900,
    "q": "Watford FC vs. Blackburn Rovers FC: O/U 8.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7240333",
@@ -10149,7 +9945,7 @@
    "ts": 1795550467,
    "end_ts": 1795633200,
    "q": "Calcio Padova vs. UC Sampdoria: O/U 8.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7160930",
@@ -10162,7 +9958,7 @@
    "ts": 1795550467,
    "end_ts": 1795644000,
    "q": "Sportivo San Lorenzo vs. Sportivo Ameliano: Draw at halftime?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7160931",
@@ -10175,137 +9971,7 @@
    "ts": 1795550467,
    "end_ts": 1795644000,
    "q": "Sportivo Ameliano leading at halftime?",
-   "touched": null
-  },
-  {
-   "id": "7211309",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "19223754964014465857615384465698560244275735978057745403511679759560605810492",
-   "px": 0.99,
-   "tick": 0.001,
-   "ts": 1795554066,
-   "end_ts": 1795564740,
-   "q": "Will Trump or Melania say \"Tomato\" during the Thanksgiving Turkey Pardon on November 24?",
-   "touched": null
-  },
-  {
-   "id": "7211310",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 0,
-   "token": "110435129160276506311819758923645143373717536705559812665301121058608944313290",
-   "px": 0.99,
-   "tick": 0.001,
-   "ts": 1795554066,
-   "end_ts": 1795564740,
-   "q": "Will Trump or Melania say \"Chicken\" or \"Egg\" during the Thanksgiving Turkey Pardon on Nove",
-   "touched": null
-  },
-  {
-   "id": "7211312",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "97652039535050106917982070792967482885885168001225552673820543653481371346004",
-   "px": 0.99,
-   "tick": 0.001,
-   "ts": 1795554066,
-   "end_ts": 1795564740,
-   "q": "Will Trump or Melania say \"Joe\" or \"Biden\" during the Thanksgiving Turkey Pardon on Novemb",
-   "touched": null
-  },
-  {
-   "id": "7211314",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 0,
-   "token": "54437602844724643109880205686445638074457480165150200476346021866704071565913",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1795554066,
-   "end_ts": 1795564740,
-   "q": "Will Trump or Melania say \"Ballroom\" during the Thanksgiving Turkey Pardon on November 24?",
-   "touched": null
-  },
-  {
-   "id": "7130054",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 0,
-   "token": "8058211150705208727825307338574841820196825051330338403013758354789541570998",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795554066,
-   "end_ts": 1795582740,
-   "q": "Will \"The Body: Season 1\" be the top global Netflix show this week?",
-   "touched": null
-  },
-  {
-   "id": "7130137",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 0,
-   "token": "70089975903133357943931936459489564448820318129052202315007842074891287381198",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795554066,
-   "end_ts": 1795582740,
-   "q": "Will \"Guarding Stars\" be the top global Netflix movie this week?",
-   "touched": null
-  },
-  {
-   "id": "7300188",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 0,
-   "token": "25751015674845171952233569104035157179666868248914705720946248825423457161694",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1795554066,
-   "end_ts": 1795582740,
-   "q": "Which turkey will Trump pardon?",
-   "touched": null
-  },
-  {
-   "id": "7302005",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "73623793298845550300782550247094602479626992064931642996774885340000720750733",
-   "px": 0.972,
-   "tick": 0.001,
-   "ts": 1795554066,
-   "end_ts": 1795582800,
-   "q": "Will Ethereum reach $1,750 on November 24?",
-   "touched": null
-  },
-  {
-   "id": "7302130",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "2943338974854079550749344257034739719651276677905830224000104787777630753672",
-   "px": 0.987,
-   "tick": 0.001,
-   "ts": 1795554066,
-   "end_ts": 1795582800,
-   "q": "Will Solana dip to $60 on November 24?",
-   "touched": null
-  },
-  {
-   "id": "7302180",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "45927222542870061792594396536635120651053775365350450238176102301316272070501",
-   "px": 0.985,
-   "tick": 0.001,
-   "ts": 1795554066,
-   "end_ts": 1795582800,
-   "q": "Will XRP dip to $0.80 on November 24?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7321154",
@@ -10318,7 +9984,7 @@
    "ts": 1795554066,
    "end_ts": 1795602600,
    "q": "Will Taichung Rock FC win on 2026-11-25?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6757649",
@@ -10331,7 +9997,7 @@
    "ts": 1795554066,
    "end_ts": 1795636800,
    "q": "FC Internazionale Milano vs. VfB Stuttgart: Neither team to score first?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7256173",
@@ -10344,7 +10010,7 @@
    "ts": 1795554066,
    "end_ts": 1795648800,
    "q": "Independiente Santa Fe vs. Once Caldas: O/U 8.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "5730363",
@@ -12255,6 +11921,71 @@
    "ts": 1795593666,
    "end_ts": 1795669200,
    "q": "Will Solana reach $80 on November 25?",
+   "touched": null
+  },
+  {
+   "id": "7319793",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "68741214714786139515183874673078818018620400339622703063452017686136567973822",
+   "px": 0.983,
+   "tick": 0.001,
+   "ts": 1795597268,
+   "end_ts": 1795622400,
+   "q": "Kuwait SC vs. Al Wahda FC (UAE): O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "6985598",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "23025111105501419841128194121095323751261120147601333191293133774742806925185",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795597268,
+   "end_ts": 1795636800,
+   "q": "Spread: Millwall FC (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "7160849",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "108459985075252154440416832235998944044929421587997647888612861661773357637096",
+   "px": 0.986,
+   "tick": 0.001,
+   "ts": 1795597268,
+   "end_ts": 1795644000,
+   "q": "Cerro Porteno leading at halftime?",
+   "touched": null
+  },
+  {
+   "id": "7160850",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "62072802335569727692140510813995404699344349653765598577477588996000597851409",
+   "px": 0.987,
+   "tick": 0.001,
+   "ts": 1795597268,
+   "end_ts": 1795644000,
+   "q": "Cerro Porteno vs. Club Guarani Asuncion: Draw at halftime?",
+   "touched": null
+  },
+  {
+   "id": "7160851",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "114533199725134091758713402728810380162367419117541808594024656124972825659696",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795597268,
+   "end_ts": 1795644000,
+   "q": "Club Guarani Asuncion leading at halftime?",
    "touched": null
   }
  ]
