@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 13.0 de 28 | corridas: 299
-- Capital inicial: $1,000.00 | valor actual: $953.98 | P&L: $-46.02 (-4.60%)
-- Efectivo libre: $3.18 | en ordenes abiertas: $580.10 (7) | en posiciones: $417.62 (6)
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 13.0 de 28 | corridas: 300
+- Capital inicial: $1,000.00 | valor actual: $989.64 | P&L: $-10.36 (-1.04%)
+- Efectivo libre: $-0.00 | en ordenes abiertas: $676.07 (8) | en posiciones: $326.10 (5)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $214.40 en 3 posiciones
-- Ordenes virtuales: 601 colocadas, 270 llenadas, 259 tocadas sin llenarse (sorteo 30%), 65 expiradas
+- Ordenes virtuales: 604 colocadas, 271 llenadas, 260 tocadas sin llenarse (sorteo 30%), 65 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -14,10 +14,10 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 |---|---|---|---|---|---|---|---|
 | clima_cierre | 5 | 98.28c | 100.00% | 56.6-100.0% | +1.72 pts | $+7.94 | 0.97 |
 | cripto_cierre | 77 | 98.82c | 100.00% | 95.2-100.0% | +1.18 pts | $+63.13 | 0.18 |
-| deportes_previo | 134 | 98.05c | 97.24% | 93.6-99.2% | -0.81 pts | $-88.07 | 0.25 |
+| deportes_previo | 136 | 98.07c | 97.29% | 93.7-99.2% | -0.78 pts | $-86.81 | 0.25 |
 | otros_cierre | 45 | 99.61c | 100.00% | 92.1-100.0% | +0.39 pts | $+12.25 | 0.32 |
 | post_fin_90_97 | 3 | 95.67c | 100.00% | 43.8-100.0% | +4.33 pts | $+5.65 | 0.68 |
-| TOTAL | 264 | 98.50c | 98.52% | 96.7-99.6% | +0.01 pts | $+0.91 | 0.26 |
+| TOTAL | 266 | 98.51c | 98.53% | 96.7-99.6% | +0.02 pts | $+2.17 | 0.26 |
 
 ## Peores casos
 
@@ -31,18 +31,17 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
-| $91.77 | 99.8c | 88.3c | otros_cierre | si | Pakistan military action against Afghanistan by November 15, 2026? |
+| $91.77 | 99.8c | 88.5c | otros_cierre | si | Pakistan military action against Afghanistan by November 15, 2026? |
 | $35.36 | 99.8c | 98.1c | otros_cierre | si | Will Mark Rothko's “Untitled” sell for between $4.5m and $5.5m at auction? |
 | $87.27 | 99.8c | 98.3c | otros_cierre | si | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
-| $97.47 | 98.9c | 64.5c | deportes_previo |  | Spread: Phnom Penh Crown FC (-2.5) |
-| $89.45 | 99.8c | 99.5c | deportes_previo |  | Spread: Phnom Penh Crown FC (-3.5) |
-| $16.29 | 99.9c | 98.3c | otros_cierre |  | Will the US national average gas price be less than $3.5700 on November 26? |
+| $16.29 | 99.9c | 98.2c | otros_cierre |  | Will the US national average gas price be less than $3.5700 on November 26? |
+| $95.40 | 97.3c | 97.3c | deportes_previo |  | Spread: Mjällby AIF (-2.5) |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 15563 | abiertas: 2310 | abiertas mas de 7 dias despues de su fecha de fin: 8
+- Resueltas: 15563 | abiertas: 2355 | abiertas mas de 7 dias despues de su fecha de fin: 8
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
@@ -74,4 +73,4 @@ Peores casos del registro sombra:
 
 ## Veredicto
 
-Aun no hay veredicto: van 264 operaciones cerradas en 13.0 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
+Aun no hay veredicto: van 266 operaciones cerradas en 13.0 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.

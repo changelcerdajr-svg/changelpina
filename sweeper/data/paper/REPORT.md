@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-11T22:05:26Z | dias corridos: 14.6 de 28 | corridas: 336
+- Inicio: 2026-11-11T22:05:26Z | dias corridos: 14.7 de 28 | corridas: 337
 - Capital inicial: $1,000.00 | valor actual: $1,047.47 | P&L: $+47.47 (+4.75%)
-- Efectivo libre: $419.84 | en ordenes abiertas: $575.92 (11) | en posiciones: $51.82 (1)
+- Efectivo libre: $419.65 | en ordenes abiertas: $523.74 (10) | en posiciones: $104.19 (2)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $51.82 en 1 posiciones
-- Ordenes virtuales: 579 colocadas, 129 llenadas, 312 tocadas sin llenarse (sorteo 30%), 127 expiradas
+- Ordenes virtuales: 580 colocadas, 130 llenadas, 312 tocadas sin llenarse (sorteo 30%), 128 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -29,12 +29,13 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
 | $51.82 | 98.5c | 98.3c | otros_cierre | si | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
+| $52.37 | 99.2c | 99.2c | deportes_previo |  | Spread: K. Sint-Truidense VV (-3.5) |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 5298 | abiertas: 347 | abiertas mas de 7 dias despues de su fecha de fin: 5
+- Resueltas: 5298 | abiertas: 370 | abiertas mas de 7 dias despues de su fecha de fin: 5
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
@@ -64,4 +65,4 @@ Peores casos del registro sombra:
 
 ## Veredicto
 
-Aun no hay veredicto: van 128 operaciones cerradas en 14.6 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
+Aun no hay veredicto: van 128 operaciones cerradas en 14.7 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.

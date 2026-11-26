@@ -1,29 +1,8 @@
 {
  "capital0": 1000.0,
- "cash": 419.8352,
+ "cash": 419.6473,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
-  {
-   "oid": "7095991-1795658460",
-   "id": "7095991",
-   "q": "Qairat FK vs. Mjällby AIF: O/U 7.5",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1402735",
-   "side": 1,
-   "token": "60222431665495643173094845834998474140747345008339942704303350657092343318409",
-   "px": 0.992,
-   "tick": 0.001,
-   "mid": 0.992,
-   "bid": 0.988,
-   "ask": 0.996,
-   "shares": 52.6064,
-   "cost": 52.1856,
-   "ts": 1795658460.592486,
-   "end_ts": 1795707000.0,
-   "hours": 13.48,
-   "liq": 1961
-  },
   {
    "oid": "7176613-1795676464",
    "id": "7176613",
@@ -172,27 +151,6 @@
    "liq": 13818
   },
   {
-   "oid": "7101643-1795697076",
-   "id": "7101643",
-   "q": "Spread: K. Sint-Truidense VV (-3.5)",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1404476",
-   "side": 1,
-   "token": "73493270264626590355320536490342218661026461235559672901537940242581124402578",
-   "px": 0.992,
-   "tick": 0.001,
-   "mid": 0.992,
-   "bid": 0.985,
-   "ask": 0.999,
-   "shares": 52.7959,
-   "cost": 52.3735,
-   "ts": 1795697076.016961,
-   "end_ts": 1795723200.0,
-   "hours": 7.26,
-   "liq": 3461
-  },
-  {
    "oid": "6655560-1795697076",
    "id": "6655560",
    "q": "Will the next Meta Muse Spark model be released on November 26, 2026?",
@@ -233,6 +191,27 @@
    "end_ts": 1795755540.0,
    "hours": 16.24,
    "liq": 3203
+  },
+  {
+   "oid": "6936789-1795701666",
+   "id": "6936789",
+   "q": "Spread: Eagles (-13.5)",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1324977",
+   "side": 1,
+   "token": "104079461000952864195414987712791398338631676695182927984298051676986764826858",
+   "px": 0.974,
+   "tick": 0.001,
+   "mid": 0.9745,
+   "bid": 0.966,
+   "ask": 0.983,
+   "shares": 53.7716,
+   "cost": 52.3735,
+   "ts": 1795701666.5232,
+   "end_ts": 1795728600.0,
+   "hours": 7.48,
+   "liq": 19975
   }
  ],
  "positions": [
@@ -260,6 +239,29 @@
    "mark": 0.983,
    "stuck": true,
    "disputed": false
+  },
+  {
+   "oid": "7101643-1795697076",
+   "id": "7101643",
+   "q": "Spread: K. Sint-Truidense VV (-3.5)",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1404476",
+   "side": 1,
+   "token": "73493270264626590355320536490342218661026461235559672901537940242581124402578",
+   "px": 0.992,
+   "tick": 0.001,
+   "mid": 0.992,
+   "bid": 0.985,
+   "ask": 0.999,
+   "shares": 52.7959,
+   "cost": 52.3735,
+   "ts": 1795697076.016961,
+   "end_ts": 1795723200.0,
+   "hours": 7.26,
+   "liq": 3461,
+   "fill_ts": 1795701666.5232,
+   "mark": 0.992
   }
  ],
  "closed": [
@@ -8426,13 +8428,26 @@
    "placed": 0,
    "shadow_open": 347,
    "shadow_closed": 0
+  },
+  {
+   "ts": "2026-11-26T14:01:52Z",
+   "equity": 1047.47,
+   "cash": 419.65,
+   "orders": 10,
+   "positions": 2,
+   "closed": 128,
+   "scanned": 10371,
+   "candidates": 100,
+   "placed": 1,
+   "shadow_open": 370,
+   "shadow_closed": 0
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 579,
-  "filled": 129,
-  "expired": 127,
+  "placed": 580,
+  "filled": 130,
+  "expired": 128,
   "touched_not_filled": 312
  },
  "shadow": [
@@ -11112,7 +11127,7 @@
    "ts": 1795658460,
    "end_ts": 1795712400,
    "q": "Will the price of Ethereum be above $1,600 on November 26?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7176640",
@@ -11125,7 +11140,7 @@
    "ts": 1795658460,
    "end_ts": 1795712400,
    "q": "Will the price of Ethereum be between $1,500 and $1,600 on November 26?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6994833",
@@ -11138,7 +11153,7 @@
    "ts": 1795658460,
    "end_ts": 1795715100,
    "q": "Olympique de Marseille vs. PFK Levski Sofia: O/U 8.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7098890",
@@ -11151,7 +11166,7 @@
    "ts": 1795658460,
    "end_ts": 1795715100,
    "q": "AFC Ajax vs. FC Thun: O/U 8.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7334506",
@@ -12945,6 +12960,305 @@
    "ts": 1795698069,
    "end_ts": 1795798800,
    "q": "NK Radomlje vs. Nafta 1903 Lendava: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "7312058",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "25407898664451607472627975095925183987683954392965882551264893915560582590749",
+   "px": 0.972,
+   "tick": 0.001,
+   "ts": 1795701666,
+   "end_ts": 1795798800,
+   "q": "Çaykur Rizespor vs. Kasımpaşa SK: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "7016275",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "93243555045357114001464329064294527176530804558238471771147793106032003015371",
+   "px": 0.988,
+   "tick": 0.001,
+   "ts": 1795701666,
+   "end_ts": 1795809600,
+   "q": "Delaware Fightin' Blue Hens vs. California Golden Bears (W)",
+   "touched": null
+  },
+  {
+   "id": "7179040",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "53540732622802240235260011003331967498391213511507234413256902632208418249212",
+   "px": 0.975,
+   "tick": 0.001,
+   "ts": 1795701666,
+   "end_ts": 1795807800,
+   "q": "Spread: Borussia Mönchengladbach (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "7179042",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "84317536565458181178459661364655748511328023682521796150382038460290256136004",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795701666,
+   "end_ts": 1795807800,
+   "q": "Spread: Borussia Mönchengladbach (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "7179061",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "104577742053970594387783262801099284033340270968547485384310527862594188565825",
+   "px": 0.986,
+   "tick": 0.001,
+   "ts": 1795701666,
+   "end_ts": 1795807800,
+   "q": "SV Werder Bremen vs. Borussia Mönchengladbach: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "7179216",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "11877166150651265799825166492489141274747718896547124677745146434028594031058",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795701666,
+   "end_ts": 1795809600,
+   "q": "Spread: Real Racing Club (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "7179228",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "108935679967090831732769440897803296098761267105389734086258433233111965813578",
+   "px": 0.979,
+   "tick": 0.001,
+   "ts": 1795701666,
+   "end_ts": 1795809600,
+   "q": "Levante UD vs. Real Racing Club: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "7179470",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "69646663684399604748037992629159382887906379069368533302443143877836309117824",
+   "px": 0.98,
+   "tick": 0.001,
+   "ts": 1795701666,
+   "end_ts": 1795808700,
+   "q": "Stade Brestois 29 vs. Paris FC: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "7179920",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "35293248944025024120579623439776220911790482020097248094652717842112195832077",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795701666,
+   "end_ts": 1795808700,
+   "q": "Spread: Venezia FC (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "7179922",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "62086699132830523942589309231407861031195078013142988597886593815992180985474",
+   "px": 0.992,
+   "tick": 0.001,
+   "ts": 1795701666,
+   "end_ts": 1795808700,
+   "q": "Spread: Venezia FC (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "7179923",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "89685686441446558292161363152293586232478011583416277579770685815220422894047",
+   "px": 0.98,
+   "tick": 0.001,
+   "ts": 1795701666,
+   "end_ts": 1795808700,
+   "q": "Spread: Bologna FC 1909 (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "7179938",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "83355708009491636734867989007113212235341967616871872686539627030298302848663",
+   "px": 0.987,
+   "tick": 0.001,
+   "ts": 1795701666,
+   "end_ts": 1795808700,
+   "q": "Venezia FC vs. Bologna FC 1909: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "7180091",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "12757314661136447307501617753381481821326026025328108675265256098297392888430",
+   "px": 0.98,
+   "tick": 0.001,
+   "ts": 1795701666,
+   "end_ts": 1795809600,
+   "q": "Spread: Nottingham Forest FC (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "7180092",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "3485625048510942581838879557932541287461762186657288404338994147229933799534",
+   "px": 0.987,
+   "tick": 0.001,
+   "ts": 1795701666,
+   "end_ts": 1795809600,
+   "q": "Spread: Chelsea FC (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "7180103",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "3236415223887679146760306948749610868977954888462303049015198793982574970291",
+   "px": 0.977,
+   "tick": 0.001,
+   "ts": 1795701666,
+   "end_ts": 1795809600,
+   "q": "Nottingham Forest FC vs. Chelsea FC: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "7228112",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "80258262584140116468233149475853197006830757633561188895353595468022219555714",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795701666,
+   "end_ts": 1795800600,
+   "q": "Spread: SV Darmstadt 98 (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "7228126",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "67560966876120995391225321944671528382414647338671871345188457117547400020075",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795701666,
+   "end_ts": 1795800600,
+   "q": "VfL Bochum vs. SV Darmstadt 98: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "7237994",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "58362037420531318565903542552767329614500438234320812316444511543584185632594",
+   "px": 0.981,
+   "tick": 0.001,
+   "ts": 1795701666,
+   "end_ts": 1795804200,
+   "q": "Grazer AK 1902 vs. SCR Altach: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "7273787",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "55991606370305739508324320639444310886391321776804667211924659576124968360170",
+   "px": 0.991,
+   "tick": 0.001,
+   "ts": 1795701666,
+   "end_ts": 1795802400,
+   "q": "CD Feirense vs. Portimonense SAD: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "7318664",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "81346461885377606088748595397562880180959831926193871838090687804538963055051",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795701666,
+   "end_ts": 1795802400,
+   "q": "Sønderjyske Fodbold vs. Brøndby IF: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "7360830",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "8433108995353563803896414933113490964503632398746771208546325071034649444047",
+   "px": 0.971,
+   "tick": 0.001,
+   "ts": 1795701666,
+   "end_ts": 1795809600,
+   "q": "Canucks vs. Flyers: O/U 2.5",
+   "touched": null
+  },
+  {
+   "id": "7360840",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "14284596436198031957639793135942087837836474688421890625452592204634510804969",
+   "px": 0.971,
+   "tick": 0.001,
+   "ts": 1795701666,
+   "end_ts": 1795809600,
+   "q": "Panthers vs. Capitals: O/U 2.5",
+   "touched": null
+  },
+  {
+   "id": "7361040",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "47096896835966555099353952847407875449942145257816945889386152035969417516555",
+   "px": 0.971,
+   "tick": 0.001,
+   "ts": 1795701666,
+   "end_ts": 1795809600,
+   "q": "Senators vs. Lightning: O/U 2.5",
    "touched": null
   }
  ]
