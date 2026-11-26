@@ -1,6 +1,6 @@
 {
  "capital0": 1000.0,
- "cash": 420.9,
+ "cash": 420.8783,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
   {
@@ -109,27 +109,6 @@
    "liq": 3203
   },
   {
-   "oid": "6936789-1795701666",
-   "id": "6936789",
-   "q": "Spread: Eagles (-13.5)",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1324977",
-   "side": 1,
-   "token": "104079461000952864195414987712791398338631676695182927984298051676986764826858",
-   "px": 0.974,
-   "tick": 0.001,
-   "mid": 0.9745,
-   "bid": 0.966,
-   "ask": 0.983,
-   "shares": 53.7716,
-   "cost": 52.3735,
-   "ts": 1795701666.5232,
-   "end_ts": 1795728600.0,
-   "hours": 7.48,
-   "liq": 19975
-  },
-  {
    "oid": "7147757-1795708867",
    "id": "7147757",
    "q": "Will Adin Ross finish GTA VI by November 26?",
@@ -191,6 +170,27 @@
    "end_ts": 1795755600.0,
    "hours": 9.98,
    "liq": 34385
+  },
+  {
+   "oid": "7362810-1795723265",
+   "id": "7362810",
+   "q": "Spread: CF Cruz Azul (-3.5)",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1461783",
+   "side": 1,
+   "token": "20537380886449017889073638372454809370582738449305891773361264827064515579957",
+   "px": 0.97,
+   "tick": 0.001,
+   "mid": 0.97,
+   "bid": 0.965,
+   "ask": 0.975,
+   "shares": 54.0157,
+   "cost": 52.3952,
+   "ts": 1795723265.745264,
+   "end_ts": 1795749000.0,
+   "hours": 7.15,
+   "liq": 12644
   }
  ],
  "positions": [
@@ -265,7 +265,7 @@
    "hours": 7.73,
    "liq": 13818,
    "fill_ts": 1795716065.320875,
-   "mark": 0.8595,
+   "mark": 0.9805,
    "stuck": false,
    "disputed": false
   }
@@ -8512,14 +8512,27 @@
    "placed": 1,
    "shadow_open": 396,
    "shadow_closed": 1
+  },
+  {
+   "ts": "2026-11-26T20:01:44Z",
+   "equity": 1047.9,
+   "cash": 420.88,
+   "orders": 9,
+   "positions": 3,
+   "closed": 128,
+   "scanned": 12744,
+   "candidates": 127,
+   "placed": 1,
+   "shadow_open": 400,
+   "shadow_closed": 5
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 584,
+  "placed": 585,
   "filled": 131,
   "expired": 129,
-  "touched_not_filled": 315
+  "touched_not_filled": 316
  },
  "shadow": [
   {
@@ -8833,32 +8846,6 @@
    "end_ts": 1795644000,
    "q": "Club Guarani Asuncion leading at halftime?",
    "touched": 1
-  },
-  {
-   "id": "7095990",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "69747985175902918244776804430410310670278309783319595594041825881711353583044",
-   "px": 0.982,
-   "tick": 0.001,
-   "ts": 1795604474,
-   "end_ts": 1795707000,
-   "q": "Qairat FK vs. Mjällby AIF: O/U 6.5",
-   "touched": 1
-  },
-  {
-   "id": "7095991",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "60222431665495643173094845834998474140747345008339942704303350657092343318409",
-   "px": 0.992,
-   "tick": 0.001,
-   "ts": 1795604474,
-   "end_ts": 1795707000,
-   "q": "Qairat FK vs. Mjällby AIF: O/U 7.5",
-   "touched": 0
   },
   {
    "id": "6994710",
@@ -10460,19 +10447,6 @@
    "touched": 0
   },
   {
-   "id": "7095992",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "36407767404403615454598649242998087107766730528901749070486833452084267477540",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1795640467,
-   "end_ts": 1795707000,
-   "q": "Qairat FK vs. Mjällby AIF: O/U 8.5",
-   "touched": 1
-  },
-  {
    "id": "7101655",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -10837,19 +10811,6 @@
    "touched": 1
   },
   {
-   "id": "7095978",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "1727308512887727480731159913748625296935070731940618317944762467713477142577",
-   "px": 0.974,
-   "tick": 0.001,
-   "ts": 1795669265,
-   "end_ts": 1795707000,
-   "q": "Spread: Qairat FK (-3.5)",
-   "touched": 1
-  },
-  {
    "id": "7016200",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -11069,19 +11030,6 @@
    "end_ts": 1795755600,
    "q": "Will Bitcoin reach $61,000 on November 26?",
    "touched": 0
-  },
-  {
-   "id": "7016198",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "16049856702589239994069683893912296729008741174811699029151450441359653449136",
-   "px": 0.985,
-   "tick": 0.001,
-   "ts": 1795672864,
-   "end_ts": 1795708800,
-   "q": "Clemson Tigers vs. Robert Morris Colonials (W)",
-   "touched": 1
   },
   {
    "id": "7101919",
@@ -13668,6 +13616,123 @@
    "ts": 1795719666,
    "end_ts": 1795827600,
    "q": "Kraken vs. Oilers: O/U 2.5",
+   "touched": null
+  },
+  {
+   "id": "7061902",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "88318651111070416599216787485404745043936313020697631679903875189560590306412",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795723265,
+   "end_ts": 1795777200,
+   "q": "FK Livyi Bereh vs. FK Kolos Kovalivka: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "7203502",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "22189839044699134861100887150402716874698873768841666213912097641638050349703",
+   "px": 0.974,
+   "tick": 0.001,
+   "ts": 1795723265,
+   "end_ts": 1795798800,
+   "q": "Will the price of Bitcoin be between $56,000 and $58,000 on November 27?",
+   "touched": null
+  },
+  {
+   "id": "7203504",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "22713798912394333546326349487308679978667865288205978183455727489794814425547",
+   "px": 0.971,
+   "tick": 0.001,
+   "ts": 1795723265,
+   "end_ts": 1795798800,
+   "q": "Will the price of Ethereum be above $1,600 on November 27?",
+   "touched": null
+  },
+  {
+   "id": "7179064",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "107868120169003615366260697709651376100580788952881448603833000546612251043646",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1795723265,
+   "end_ts": 1795807800,
+   "q": "SV Werder Bremen vs. Borussia Mönchengladbach: O/U 8.5",
+   "touched": null
+  },
+  {
+   "id": "7237995",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "51866892561097718809449469327669454760606029041592457556384559363432705700280",
+   "px": 0.992,
+   "tick": 0.001,
+   "ts": 1795723265,
+   "end_ts": 1795804200,
+   "q": "Grazer AK 1902 vs. SCR Altach: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "7273773",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "55975358139320574681300812283429054228239585199719715590909119435100593371800",
+   "px": 0.973,
+   "tick": 0.001,
+   "ts": 1795723265,
+   "end_ts": 1795802400,
+   "q": "Spread: CD Feirense (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "7276067",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "50368794853431543846323741652262943878674829407138423040545081670529231133519",
+   "px": 0.972,
+   "tick": 0.001,
+   "ts": 1795723265,
+   "end_ts": 1795802400,
+   "q": "Hansa Rostock vs. TSV Havelse: O/U 0.5",
+   "touched": null
+  },
+  {
+   "id": "7016220",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "94449231739584183896166279230272085081883781282653685915590153811181205783056",
+   "px": 0.983,
+   "tick": 0.001,
+   "ts": 1795723265,
+   "end_ts": 1795815000,
+   "q": "Villanova Wildcats vs. LSU Tigers (W)",
+   "touched": null
+  },
+  {
+   "id": "7050126",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "12855746944729938625862282262032400858579466006173028663590632654736730378772",
+   "px": 0.973,
+   "tick": 0.001,
+   "ts": 1795723265,
+   "end_ts": 1795831200,
+   "q": "Spread: West Virginia (-3.5)",
    "touched": null
   }
  ]
