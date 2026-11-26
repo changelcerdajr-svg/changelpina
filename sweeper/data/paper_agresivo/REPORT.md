@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 13.2 de 28 | corridas: 304
-- Capital inicial: $1,000.00 | valor actual: $975.48 | P&L: $-24.52 (-2.45%)
-- Efectivo libre: $-0.00 | en ordenes abiertas: $422.12 (6) | en posiciones: $580.11 (7)
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 13.2 de 28 | corridas: 305
+- Capital inicial: $1,000.00 | valor actual: $970.42 | P&L: $-29.58 (-2.96%)
+- Efectivo libre: $-0.00 | en ordenes abiertas: $378.34 (4) | en posiciones: $623.89 (9)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $214.40 en 3 posiciones
-- Ordenes virtuales: 610 colocadas, 275 llenadas, 263 tocadas sin llenarse (sorteo 30%), 66 expiradas
+- Ordenes virtuales: 610 colocadas, 277 llenadas, 263 tocadas sin llenarse (sorteo 30%), 66 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -31,24 +31,26 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
-| $91.77 | 99.8c | 88.2c | otros_cierre | si | Pakistan military action against Afghanistan by November 15, 2026? |
+| $91.77 | 99.8c | 82.7c | otros_cierre | si | Pakistan military action against Afghanistan by November 15, 2026? |
 | $35.36 | 99.8c | 98.1c | otros_cierre | si | Will Mark Rothko's “Untitled” sell for between $4.5m and $5.5m at auction? |
 | $87.27 | 99.8c | 98.3c | otros_cierre | si | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
+| $19.30 | 95.9c | 95.9c | post_fin_90_97 |  | Will the highest temperature in Dallas be between 56-57°F on November 26? |
 | $95.40 | 97.3c | 97.0c | deportes_previo |  | Spread: Mjällby AIF (-2.5) |
 | $98.96 | 97.8c | 88.2c | deportes_previo |  | Spread: Qairat FK (-3.5) |
 | $98.96 | 98.9c | 100.0c | deportes_previo |  | Oregon Ducks vs. Maryland Eastern Shore Hawks (W) |
 | $72.38 | 96.6c | 89.5c | deportes_previo |  | RU Saint-Gilloise vs. KKS Lech Poznań: Neither team to score first? |
+| $24.48 | 96.1c | 96.1c | deportes_previo |  | Will Kuopion PS win on 2026-11-26? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 15845 | abiertas: 2421 | abiertas mas de 7 dias despues de su fecha de fin: 8
+- Resueltas: 15853 | abiertas: 2468 | abiertas mas de 7 dias despues de su fecha de fin: 8
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
-| clima_cierre | todas | 4387 | 98.80c | 98.91% | +0.11 pts | -0.20 a +0.41 | 48 |
-| clima_cierre | tocadas | 4083 | 98.82c | 98.82% | +0.00 pts | -0.32 a +0.33 | 48 |
+| clima_cierre | todas | 4395 | 98.80c | 98.91% | +0.11 pts | -0.20 a +0.41 | 48 |
+| clima_cierre | tocadas | 4090 | 98.82c | 98.83% | +0.00 pts | -0.32 a +0.33 | 48 |
 | cripto_cierre | todas | 2068 | 98.62c | 98.07% | -0.56 pts | -1.14 a +0.03 | 40 |
 | cripto_cierre | tocadas | 1892 | 98.67c | 97.89% | -0.79 pts | -1.43 a -0.14 | 40 |
 | deportes_previo | todas | 7403 | 98.05c | 97.44% | -0.61 pts | -0.97 a -0.26 | 194 |
@@ -57,8 +59,8 @@ Cada mercado que cumple una regla se anota una vez al precio limite que se habri
 | otros_cierre | tocadas | 1567 | 98.95c | 97.32% | -1.63 pts | -2.42 a -0.83 | 42 |
 | post_fin_90_97 | todas | 268 | 94.05c | 94.03% | -0.02 pts | -2.83 a +2.79 | 16 |
 | post_fin_90_97 | tocadas | 227 | 94.15c | 92.95% | -1.20 pts | -4.49 a +2.09 | 16 |
-| TOTAL | todas | 15845 | 98.37c | 97.88% | -0.49 pts | -0.71 a -0.26 | 340 |
-| TOTAL | tocadas | 14981 | 98.39c | 97.77% | -0.62 pts | -0.85 a -0.39 | 338 |
+| TOTAL | todas | 15853 | 98.37c | 97.88% | -0.49 pts | -0.71 a -0.26 | 340 |
+| TOTAL | tocadas | 14988 | 98.40c | 97.77% | -0.62 pts | -0.85 a -0.39 | 338 |
 
 Peores casos del registro sombra:
 

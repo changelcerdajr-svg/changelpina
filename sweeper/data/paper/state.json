@@ -1,29 +1,8 @@
 {
  "capital0": 1000.0,
- "cash": 419.6803,
+ "cash": 420.9,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
-  {
-   "oid": "7176613-1795676464",
-   "id": "7176613",
-   "q": "Will the price of Ethereum be above $1,400 on November 26?",
-   "cat": "cripto",
-   "rule": "cripto_cierre",
-   "event": "1425702",
-   "side": 0,
-   "token": "78139870690538144379822208756649234194188989921676078464444625704785496952684",
-   "px": 0.997,
-   "tick": 0.001,
-   "mid": 0.9975,
-   "bid": 0.995,
-   "ask": 1,
-   "shares": 52.5311,
-   "cost": 52.3735,
-   "ts": 1795676464.794495,
-   "end_ts": 1795712400.0,
-   "hours": 9.98,
-   "liq": 31595
-  },
   {
    "oid": "7176610-1795680066",
    "id": "7176610",
@@ -191,6 +170,27 @@
    "end_ts": 1795741200.0,
    "hours": 6.98,
    "liq": 16148
+  },
+  {
+   "oid": "7363479-1795719666",
+   "id": "7363479",
+   "q": "Will Bitcoin reach $66,000 on November 26?",
+   "cat": "cripto",
+   "rule": "cripto_cierre",
+   "event": "1461958",
+   "side": 1,
+   "token": "83725685102934876777987130098665721903291354794233076046383233539845061111223",
+   "px": 0.998,
+   "tick": 0.001,
+   "mid": 0.9985,
+   "bid": 0.998,
+   "ask": 0.999,
+   "shares": 51.2564,
+   "cost": 51.1538,
+   "ts": 1795719666.93342,
+   "end_ts": 1795755600.0,
+   "hours": 9.98,
+   "liq": 34385
   }
  ],
  "positions": [
@@ -265,7 +265,9 @@
    "hours": 7.73,
    "liq": 13818,
    "fill_ts": 1795716065.320875,
-   "mark": 0.97
+   "mark": 0.8595,
+   "stuck": false,
+   "disputed": false
   }
  ],
  "closed": [
@@ -8497,13 +8499,26 @@
    "placed": 1,
    "shadow_open": 371,
    "shadow_closed": 52
+  },
+  {
+   "ts": "2026-11-26T19:01:49Z",
+   "equity": 1041.37,
+   "cash": 420.9,
+   "orders": 9,
+   "positions": 3,
+   "closed": 128,
+   "scanned": 13427,
+   "candidates": 128,
+   "placed": 1,
+   "shadow_open": 396,
+   "shadow_closed": 1
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 583,
+  "placed": 584,
   "filled": 131,
-  "expired": 128,
+  "expired": 129,
   "touched_not_filled": 315
  },
  "shadow": [
@@ -11261,20 +11276,7 @@
    "ts": 1795676464,
    "end_ts": 1795715100,
    "q": "Spread: FC Lugano (-3.5)",
-   "touched": null
-  },
-  {
-   "id": "7176662",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "59256106141899777355930189730692980881467042375998113534535794488466503689337",
-   "px": 0.976,
-   "tick": 0.001,
-   "ts": 1795676464,
-   "end_ts": 1795712400,
-   "q": "Will the price of Solana be above $75 on November 26?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7101687",
@@ -11287,7 +11289,7 @@
    "ts": 1795676464,
    "end_ts": 1795723200,
    "q": "Spread: FC Twente (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7363477",
@@ -11300,7 +11302,7 @@
    "ts": 1795676464,
    "end_ts": 1795755600,
    "q": "Will Bitcoin reach $68,000 on November 26?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7363491",
@@ -11313,7 +11315,7 @@
    "ts": 1795676464,
    "end_ts": 1795755600,
    "q": "Will Bitcoin dip to $54,000 on November 26?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7363492",
@@ -11326,7 +11328,7 @@
    "ts": 1795676464,
    "end_ts": 1795755600,
    "q": "Will Bitcoin dip to $53,000 on November 26?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7363505",
@@ -11339,7 +11341,7 @@
    "ts": 1795676464,
    "end_ts": 1795755600,
    "q": "Will Ethereum dip to $1,450 on November 26?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7016197",
@@ -13328,6 +13330,344 @@
    "ts": 1795716065,
    "end_ts": 1795824000,
    "q": "Army Black Knights vs. North Carolina Tar Heels (W)",
+   "touched": null
+  },
+  {
+   "id": "7363482",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "34736196014748028843249007587588589361493818118692502422493304533469615904249",
+   "px": 0.971,
+   "tick": 0.001,
+   "ts": 1795719666,
+   "end_ts": 1795755600,
+   "q": "Will Bitcoin reach $63,000 on November 26?",
+   "touched": null
+  },
+  {
+   "id": "7363513",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "90896794944326109573932560484968740565803916347606525536256887102247200648933",
+   "px": 0.99,
+   "tick": 0.001,
+   "ts": 1795719666,
+   "end_ts": 1795755600,
+   "q": "Will Solana dip to $65 on November 26?",
+   "touched": null
+  },
+  {
+   "id": "7363520",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "33548370453838536965628621030942752898914973248203824757596321974563070161672",
+   "px": 0.99,
+   "tick": 0.001,
+   "ts": 1795719666,
+   "end_ts": 1795755600,
+   "q": "Will XRP reach $1.05 on November 26?",
+   "touched": null
+  },
+  {
+   "id": "7363523",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "67972256540302493982545106570673722250068933085478627161477484682518584406489",
+   "px": 0.986,
+   "tick": 0.001,
+   "ts": 1795719666,
+   "end_ts": 1795755600,
+   "q": "Will XRP dip to $0.90 on November 26?",
+   "touched": null
+  },
+  {
+   "id": "7342460",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "104292516994317115940848100267482906812622596256159281434126515746007795092106",
+   "px": 0.971,
+   "tick": 0.001,
+   "ts": 1795719666,
+   "end_ts": 1795784400,
+   "q": "Spread: Al-Sailiya SC (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "7203567",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "72196393304592192577504643225798569922087296338461315127396802192811333629080",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795719666,
+   "end_ts": 1795798800,
+   "q": "Will the price of XRP be less than $0.50 on November 27?",
+   "touched": null
+  },
+  {
+   "id": "7203571",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "18595953247854260780991898239967912684265928864024064747750207885080900248998",
+   "px": 0.996,
+   "tick": 0.001,
+   "ts": 1795719666,
+   "end_ts": 1795798800,
+   "q": "Will the price of XRP be between $0.60 and $0.70 on November 27?",
+   "touched": null
+  },
+  {
+   "id": "7203573",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "63001049467084192670589070114445319965463691278942343939810993215244118886951",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795719666,
+   "end_ts": 1795798800,
+   "q": "Will the price of XRP be between $0.70 and $0.80 on November 27?",
+   "touched": null
+  },
+  {
+   "id": "7203578",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "55037613371474978744718827307057108588625421812196082412756293621231500879268",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795719666,
+   "end_ts": 1795798800,
+   "q": "Will the price of XRP be between $1.10 and $1.20 on November 27?",
+   "touched": null
+  },
+  {
+   "id": "7203579",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "25515761848151171321192225153539505133784273762334613627078015809138565838079",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1795719666,
+   "end_ts": 1795798800,
+   "q": "Will the price of XRP be between $1.20 and $1.30 on November 27?",
+   "touched": null
+  },
+  {
+   "id": "7203580",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "54084400600840866802799100342413595000435425024407197505146156029706570129794",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1795719666,
+   "end_ts": 1795798800,
+   "q": "Will the price of XRP be between $1.30 and $1.40 on November 27?",
+   "touched": null
+  },
+  {
+   "id": "7226395",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "65282438017319608165109973578360347318782387143877953450740960176416629599940",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795719666,
+   "end_ts": 1795798800,
+   "q": "NK Istra 1961 vs. NK Varaždin: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "7226396",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "4256215006129776496648225494774331296165230174465002708720277738517636388303",
+   "px": 0.99,
+   "tick": 0.001,
+   "ts": 1795719666,
+   "end_ts": 1795798800,
+   "q": "NK Istra 1961 vs. NK Varaždin: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "7265755",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "83578418289651751758124038809043122073255495886652545785559534595942203021294",
+   "px": 0.983,
+   "tick": 0.001,
+   "ts": 1795719666,
+   "end_ts": 1795804200,
+   "q": "WKW ETO FC Gyor vs. Debreceni VSC: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "7267020",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "53292836122367383443476248143212683737070653487267163812045115997838442701548",
+   "px": 0.974,
+   "tick": 0.001,
+   "ts": 1795719666,
+   "end_ts": 1795797000,
+   "q": "Spread: PFC Slavia Sofia (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "7267033",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "114779833447241598601645397564602910146174042907901844144981091140876181768515",
+   "px": 0.983,
+   "tick": 0.001,
+   "ts": 1795719666,
+   "end_ts": 1795797000,
+   "q": "FC Lokomotiv 1929 Sofia vs. PFC Slavia Sofia: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "7267034",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "60934421210515530661072507123573021847540089920051856289394944343116897692171",
+   "px": 0.993,
+   "tick": 0.001,
+   "ts": 1795719666,
+   "end_ts": 1795797000,
+   "q": "FC Lokomotiv 1929 Sofia vs. PFC Slavia Sofia: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "7273788",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "106354949417124973257556152796646684041947138801314499234930703778195537360408",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795719666,
+   "end_ts": 1795802400,
+   "q": "CD Feirense vs. Portimonense SAD: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "7290990",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "54286396432865329033971693334091215656236228235680648249948139262931556333412",
+   "px": 0.983,
+   "tick": 0.001,
+   "ts": 1795719666,
+   "end_ts": 1795798800,
+   "q": "RKS Rakow Czestochowa vs. GKS Piast Gliwice: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "7304625",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "73452809294184126747346135662582560325792255814670257114647362229570782011085",
+   "px": 0.971,
+   "tick": 0.001,
+   "ts": 1795719666,
+   "end_ts": 1795806000,
+   "q": "FC Dordrecht vs. Vitesse Arnhem: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "7318630",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "107691390675787463812428147921703618852589936981785839127475849137853173604447",
+   "px": 0.972,
+   "tick": 0.001,
+   "ts": 1795719666,
+   "end_ts": 1795802400,
+   "q": "Spread: Sønderjyske Fodbold (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "7050064",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "83520750501051869384983541486301465004673448350866439915907003984572714595860",
+   "px": 0.973,
+   "tick": 0.001,
+   "ts": 1795719666,
+   "end_ts": 1795825800,
+   "q": "Spread: Minnesota (-17.5)",
+   "touched": null
+  },
+  {
+   "id": "7310354",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "47546383933641619310035832521892517849170068540036531688313530186303848616411",
+   "px": 0.971,
+   "tick": 0.001,
+   "ts": 1795719666,
+   "end_ts": 1795820400,
+   "q": "Fluminense FC vs. Cruzeiro EC: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "7361375",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "101583957297465910433239842075014226784780991240968329138991978051321959435572",
+   "px": 0.971,
+   "tick": 0.001,
+   "ts": 1795719666,
+   "end_ts": 1795825800,
+   "q": "Jets vs. Islanders: O/U 2.5",
+   "touched": null
+  },
+  {
+   "id": "7361708",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "35051436182801816664732143043444670446319259386330439352711211682804956816817",
+   "px": 0.973,
+   "tick": 0.001,
+   "ts": 1795719666,
+   "end_ts": 1795827600,
+   "q": "Penguins vs. Sabres: O/U 2.5",
+   "touched": null
+  },
+  {
+   "id": "7361718",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "7309384734153437823749622610281288196412657185724167243687108032188754688460",
+   "px": 0.972,
+   "tick": 0.001,
+   "ts": 1795719666,
+   "end_ts": 1795827600,
+   "q": "Kraken vs. Oilers: O/U 2.5",
    "touched": null
   }
  ]
