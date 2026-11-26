@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 12.9 de 28 | corridas: 295
-- Capital inicial: $1,000.00 | valor actual: $955.24 | P&L: $-44.76 (-4.48%)
-- Efectivo libre: $2.51 | en ordenes abiertas: $403.10 (6) | en posiciones: $590.47 (7)
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 12.9 de 28 | corridas: 296
+- Capital inicial: $1,000.00 | valor actual: $947.38 | P&L: $-52.62 (-5.26%)
+- Efectivo libre: $0.00 | en ordenes abiertas: $405.60 (6) | en posiciones: $590.47 (7)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $214.40 en 3 posiciones
-- Ordenes virtuales: 592 colocadas, 269 llenadas, 255 tocadas sin llenarse (sorteo 30%), 62 expiradas
+- Ordenes virtuales: 595 colocadas, 269 llenadas, 257 tocadas sin llenarse (sorteo 30%), 63 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -31,7 +31,7 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
-| $91.77 | 99.8c | 91.5c | otros_cierre | si | Pakistan military action against Afghanistan by November 15, 2026? |
+| $91.77 | 99.8c | 83.0c | otros_cierre | si | Pakistan military action against Afghanistan by November 15, 2026? |
 | $35.36 | 99.8c | 98.1c | otros_cierre | si | Will Mark Rothko's “Untitled” sell for between $4.5m and $5.5m at auction? |
 | $87.27 | 99.8c | 98.3c | otros_cierre | si | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
 | $96.90 | 97.8c | 98.8c | deportes_previo |  | Spread: Persita Tangerang (-2.5) |
@@ -43,7 +43,7 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 15524 | abiertas: 2125 | abiertas mas de 7 dias despues de su fecha de fin: 5
+- Resueltas: 15524 | abiertas: 2152 | abiertas mas de 7 dias despues de su fecha de fin: 5
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
