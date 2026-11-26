@@ -1,29 +1,8 @@
 {
  "capital0": 1000.0,
- "cash": 421.8928,
+ "cash": 421.5838,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
-  {
-   "oid": "7335763-1795629666",
-   "id": "7335763",
-   "q": "Will Bitcoin reach $66,000 on November 25?",
-   "cat": "cripto",
-   "rule": "cripto_cierre",
-   "event": "1456659",
-   "side": 1,
-   "token": "85558728450800891969810319716893459940587549253168609193191242084811693689038",
-   "px": 0.998,
-   "tick": 0.001,
-   "mid": 0.998,
-   "bid": 0.997,
-   "ask": 0.999,
-   "shares": 52.1689,
-   "cost": 52.0645,
-   "ts": 1795629666.045628,
-   "end_ts": 1795669200.0,
-   "hours": 10.98,
-   "liq": 34707
-  },
   {
    "oid": "7309767-1795633267",
    "id": "7309767",
@@ -193,7 +172,7 @@
    "liq": 1602
   },
   {
-   "oid": "7176610-1795672864",
+   "oid": "7176610-1795676464",
    "id": "7176610",
    "q": "Will the price of Bitcoin be less than $54,000 on November 26?",
    "cat": "cripto",
@@ -201,20 +180,20 @@
    "event": "1425701",
    "side": 1,
    "token": "80703594087200498392035483106572452287632438783460579169172000190873123224028",
-   "px": 0.997,
+   "px": 0.998,
    "tick": 0.001,
-   "mid": 0.9975,
-   "bid": 0.996,
+   "mid": 0.9985,
+   "bid": 0.998,
    "ask": 0.999,
-   "shares": 52.5311,
+   "shares": 52.4785,
    "cost": 52.3735,
-   "ts": 1795672864.205817,
+   "ts": 1795676464.794495,
    "end_ts": 1795712400.0,
-   "hours": 10.98,
-   "liq": 31161
+   "hours": 9.98,
+   "liq": 15468
   },
   {
-   "oid": "7176612-1795672864",
+   "oid": "7176612-1795676464",
    "id": "7176612",
    "q": "Will the price of Bitcoin be between $54,000 and $56,000 on November 26?",
    "cat": "cripto",
@@ -224,15 +203,36 @@
    "token": "94760067960489262092216928325043374605452354385099491462736497646071619710046",
    "px": 0.994,
    "tick": 0.001,
-   "mid": 0.9945,
-   "bid": 0.993,
+   "mid": 0.994,
+   "bid": 0.992,
    "ask": 0.996,
    "shares": 52.6896,
    "cost": 52.3735,
-   "ts": 1795672864.205817,
+   "ts": 1795676464.794495,
    "end_ts": 1795712400.0,
-   "hours": 10.98,
-   "liq": 35956
+   "hours": 9.98,
+   "liq": 33952
+  },
+  {
+   "oid": "7176613-1795676464",
+   "id": "7176613",
+   "q": "Will the price of Ethereum be above $1,400 on November 26?",
+   "cat": "cripto",
+   "rule": "cripto_cierre",
+   "event": "1425702",
+   "side": 0,
+   "token": "78139870690538144379822208756649234194188989921676078464444625704785496952684",
+   "px": 0.997,
+   "tick": 0.001,
+   "mid": 0.9975,
+   "bid": 0.995,
+   "ask": 1,
+   "shares": 52.5311,
+   "cost": 52.3735,
+   "ts": 1795676464.794495,
+   "end_ts": 1795712400.0,
+   "hours": 9.98,
+   "liq": 31595
   }
  ],
  "positions": [
@@ -8322,14 +8322,27 @@
    "placed": 3,
    "shadow_open": 307,
    "shadow_closed": 49
+  },
+  {
+   "ts": "2026-11-26T07:01:51Z",
+   "equity": 1047.47,
+   "cash": 421.58,
+   "orders": 11,
+   "positions": 1,
+   "closed": 128,
+   "scanned": 9136,
+   "candidates": 209,
+   "placed": 3,
+   "shadow_open": 309,
+   "shadow_closed": 5
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 565,
+  "placed": 568,
   "filled": 129,
-  "expired": 121,
-  "touched_not_filled": 304
+  "expired": 122,
+  "touched_not_filled": 306
  },
  "shadow": [
   {
@@ -10556,71 +10569,6 @@
    "touched": 1
   },
   {
-   "id": "7335783",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "114306884033157582386687467017401618089884623836235570096159440996966541886983",
-   "px": 0.977,
-   "tick": 0.001,
-   "ts": 1795629666,
-   "end_ts": 1795669200,
-   "q": "Will Bitcoin dip to $56,000 on November 25?",
-   "touched": null
-  },
-  {
-   "id": "7335785",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "67573659013079009948449592829821528186385409914500050619483291622109469599933",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795629666,
-   "end_ts": 1795669200,
-   "q": "Will Bitcoin dip to $55,000 on November 25?",
-   "touched": null
-  },
-  {
-   "id": "7335808",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "90728231525558621916870775496831088188894884406127144038660064236682346841147",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1795629666,
-   "end_ts": 1795669200,
-   "q": "Will Ethereum dip to $1,550 on November 25?",
-   "touched": null
-  },
-  {
-   "id": "7335811",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "17612712314778934858006502756282193533708424588443156303403215715886758321041",
-   "px": 0.977,
-   "tick": 0.001,
-   "ts": 1795629666,
-   "end_ts": 1795669200,
-   "q": "Will Ethereum dip to $1,500 on November 25?",
-   "touched": null
-  },
-  {
-   "id": "7335828",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "89510443561375448903760877159646976115591007812549228571089546661770433986692",
-   "px": 0.988,
-   "tick": 0.001,
-   "ts": 1795629666,
-   "end_ts": 1795669200,
-   "q": "Will Solana dip to $60 on November 25?",
-   "touched": null
-  },
-  {
    "id": "7347337",
    "rule": "otros_cierre",
    "cat": "otros",
@@ -10631,7 +10579,7 @@
    "ts": 1795629666,
    "end_ts": 1795705200,
    "q": "Will the US national average gas price be between $3.5700 and $3.5799 on November 26?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6995571",
@@ -10644,7 +10592,7 @@
    "ts": 1795629666,
    "end_ts": 1795715100,
    "q": "AFC Ajax vs. FC Thun: Neither team to score first?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7176610",
@@ -10657,7 +10605,7 @@
    "ts": 1795629666,
    "end_ts": 1795712400,
    "q": "Will the price of Bitcoin be less than $54,000 on November 26?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7176612",
@@ -10670,7 +10618,7 @@
    "ts": 1795629666,
    "end_ts": 1795712400,
    "q": "Will the price of Bitcoin be between $54,000 and $56,000 on November 26?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7176629",
@@ -10683,7 +10631,7 @@
    "ts": 1795629666,
    "end_ts": 1795712400,
    "q": "Will the price of Bitcoin be between $70,000 and $72,000 on November 26?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7176635",
@@ -10696,7 +10644,7 @@
    "ts": 1795629666,
    "end_ts": 1795712400,
    "q": "Will the price of Bitcoin be above $54,000 on November 26?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7176638",
@@ -10709,7 +10657,7 @@
    "ts": 1795629666,
    "end_ts": 1795712400,
    "q": "Will the price of Ethereum be between $1,400 and $1,500 on November 26?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7176680",
@@ -10722,7 +10670,7 @@
    "ts": 1795629666,
    "end_ts": 1795712400,
    "q": "Will the price of XRP be above $0.80 on November 26?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7176682",
@@ -10735,7 +10683,7 @@
    "ts": 1795629666,
    "end_ts": 1795712400,
    "q": "Will the price of XRP be above $1.00 on November 26?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7101748",
@@ -10748,7 +10696,7 @@
    "ts": 1795629666,
    "end_ts": 1795723200,
    "q": "Inter Club d'Escaldes vs. FC København: O/U 8.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7101793",
@@ -10761,7 +10709,7 @@
    "ts": 1795629666,
    "end_ts": 1795723200,
    "q": "FK Borac Banja Luka vs. Atalanta BC: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7101794",
@@ -10774,7 +10722,7 @@
    "ts": 1795629666,
    "end_ts": 1795723200,
    "q": "FK Borac Banja Luka vs. Atalanta BC: O/U 8.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7102722",
@@ -10787,7 +10735,7 @@
    "ts": 1795629666,
    "end_ts": 1795723200,
    "q": "AC Sparta Praha vs. AZ: O/U 7.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7102774",
@@ -10800,7 +10748,7 @@
    "ts": 1795629666,
    "end_ts": 1795723200,
    "q": "Sunderland AFC vs. Jagiellonia Białystok: O/U 8.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7102858",
@@ -10813,7 +10761,7 @@
    "ts": 1795629666,
    "end_ts": 1795723200,
    "q": "Ferencvárosi TC vs. NK Celje: O/U 8.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7194416",
@@ -10826,7 +10774,7 @@
    "ts": 1795629666,
    "end_ts": 1795723200,
    "q": "Doncaster Rovers FC vs. Huddersfield Town AFC: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7325775",
@@ -12321,6 +12269,97 @@
    "ts": 1795672864,
    "end_ts": 1795768800,
    "q": "Macarthur FC vs. Melbourne City FC: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "7098601",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "92374855284452974675521721727613998850210956799221918136025549408154089071914",
+   "px": 0.972,
+   "tick": 0.001,
+   "ts": 1795676464,
+   "end_ts": 1795715100,
+   "q": "Spread: FC Lugano (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "7176662",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "59256106141899777355930189730692980881467042375998113534535794488466503689337",
+   "px": 0.976,
+   "tick": 0.001,
+   "ts": 1795676464,
+   "end_ts": 1795712400,
+   "q": "Will the price of Solana be above $75 on November 26?",
+   "touched": null
+  },
+  {
+   "id": "7101687",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "86329334551871051353425556123832250122266706582130352622584184944014309428019",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795676464,
+   "end_ts": 1795723200,
+   "q": "Spread: FC Twente (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "7363477",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "37307814689307085066765412148683745838310526921195799095064607966542768151112",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1795676464,
+   "end_ts": 1795755600,
+   "q": "Will Bitcoin reach $68,000 on November 26?",
+   "touched": null
+  },
+  {
+   "id": "7363491",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "75660064530191109327113967797300720550397049084022899414373740826233499211070",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795676464,
+   "end_ts": 1795755600,
+   "q": "Will Bitcoin dip to $54,000 on November 26?",
+   "touched": null
+  },
+  {
+   "id": "7363492",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "25670871371348272796635115060734119600659108192820836734363490701143316103083",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795676464,
+   "end_ts": 1795755600,
+   "q": "Will Bitcoin dip to $53,000 on November 26?",
+   "touched": null
+  },
+  {
+   "id": "7363505",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "37706505377500420210505440812097290579328975339607129879422374756406753880493",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1795676464,
+   "end_ts": 1795755600,
+   "q": "Will Ethereum dip to $1,450 on November 26?",
    "touched": null
   }
  ]
