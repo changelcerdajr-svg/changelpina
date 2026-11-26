@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 12.9 de 28 | corridas: 296
-- Capital inicial: $1,000.00 | valor actual: $947.38 | P&L: $-52.62 (-5.26%)
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 12.9 de 28 | corridas: 297
+- Capital inicial: $1,000.00 | valor actual: $945.86 | P&L: $-54.14 (-5.41%)
 - Efectivo libre: $0.00 | en ordenes abiertas: $405.60 (6) | en posiciones: $590.47 (7)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $214.40 en 3 posiciones
-- Ordenes virtuales: 595 colocadas, 269 llenadas, 257 tocadas sin llenarse (sorteo 30%), 63 expiradas
+- Ordenes virtuales: 599 colocadas, 269 llenadas, 259 tocadas sin llenarse (sorteo 30%), 65 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -31,7 +31,7 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
-| $91.77 | 99.8c | 83.0c | otros_cierre | si | Pakistan military action against Afghanistan by November 15, 2026? |
+| $91.77 | 99.8c | 81.3c | otros_cierre | si | Pakistan military action against Afghanistan by November 15, 2026? |
 | $35.36 | 99.8c | 98.1c | otros_cierre | si | Will Mark Rothko's “Untitled” sell for between $4.5m and $5.5m at auction? |
 | $87.27 | 99.8c | 98.3c | otros_cierre | si | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
 | $96.90 | 97.8c | 98.8c | deportes_previo |  | Spread: Persita Tangerang (-2.5) |
@@ -43,22 +43,22 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 15524 | abiertas: 2152 | abiertas mas de 7 dias despues de su fecha de fin: 5
+- Resueltas: 15546 | abiertas: 2259 | abiertas mas de 7 dias despues de su fecha de fin: 5
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
-| clima_cierre | todas | 4273 | 98.80c | 98.90% | +0.10 pts | -0.21 a +0.41 | 47 |
-| clima_cierre | tocadas | 3979 | 98.82c | 98.82% | -0.00 pts | -0.34 a +0.33 | 47 |
+| clima_cierre | todas | 4279 | 98.80c | 98.90% | +0.10 pts | -0.21 a +0.41 | 47 |
+| clima_cierre | tocadas | 3985 | 98.82c | 98.82% | -0.00 pts | -0.34 a +0.33 | 47 |
 | cripto_cierre | todas | 1969 | 98.63c | 98.22% | -0.41 pts | -0.99 a +0.17 | 35 |
 | cripto_cierre | tocadas | 1797 | 98.68c | 98.05% | -0.63 pts | -1.26 a +0.00 | 35 |
-| deportes_previo | todas | 7324 | 98.05c | 97.44% | -0.61 pts | -0.97 a -0.25 | 192 |
-| deportes_previo | tocadas | 7138 | 98.09c | 97.40% | -0.69 pts | -1.05 a -0.32 | 190 |
-| otros_cierre | todas | 1693 | 98.99c | 97.64% | -1.36 pts | -2.08 a -0.64 | 40 |
-| otros_cierre | tocadas | 1541 | 98.95c | 97.40% | -1.54 pts | -2.33 a -0.75 | 40 |
+| deportes_previo | todas | 7339 | 98.05c | 97.43% | -0.62 pts | -0.98 a -0.26 | 193 |
+| deportes_previo | tocadas | 7152 | 98.09c | 97.39% | -0.70 pts | -1.06 a -0.33 | 191 |
+| otros_cierre | todas | 1694 | 99.00c | 97.64% | -1.36 pts | -2.08 a -0.64 | 40 |
+| otros_cierre | tocadas | 1542 | 98.95c | 97.41% | -1.54 pts | -2.33 a -0.75 | 40 |
 | post_fin_90_97 | todas | 265 | 94.04c | 93.96% | -0.07 pts | -2.91 a +2.76 | 16 |
 | post_fin_90_97 | tocadas | 225 | 94.15c | 92.89% | -1.26 pts | -4.57 a +2.06 | 16 |
-| TOTAL | todas | 15524 | 98.37c | 97.90% | -0.46 pts | -0.69 a -0.24 | 330 |
-| TOTAL | tocadas | 14680 | 98.39c | 97.80% | -0.59 pts | -0.83 a -0.36 | 328 |
+| TOTAL | todas | 15546 | 98.37c | 97.90% | -0.47 pts | -0.69 a -0.24 | 331 |
+| TOTAL | tocadas | 14701 | 98.39c | 97.79% | -0.60 pts | -0.83 a -0.36 | 329 |
 
 Peores casos del registro sombra:
 
