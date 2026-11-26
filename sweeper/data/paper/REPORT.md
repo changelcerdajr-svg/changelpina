@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-11T22:05:26Z | dias corridos: 14.8 de 28 | corridas: 340
-- Capital inicial: $1,000.00 | valor actual: $1,047.47 | P&L: $+47.47 (+4.75%)
-- Efectivo libre: $419.65 | en ordenes abiertas: $523.73 (10) | en posiciones: $104.19 (2)
+- Inicio: 2026-11-11T22:05:26Z | dias corridos: 14.8 de 28 | corridas: 341
+- Capital inicial: $1,000.00 | valor actual: $1,047.34 | P&L: $+47.34 (+4.73%)
+- Efectivo libre: $419.68 | en ordenes abiertas: $471.33 (9) | en posiciones: $156.57 (3)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $51.82 en 1 posiciones
-- Ordenes virtuales: 582 colocadas, 130 llenadas, 314 tocadas sin llenarse (sorteo 30%), 128 expiradas
+- Ordenes virtuales: 583 colocadas, 131 llenadas, 315 tocadas sin llenarse (sorteo 30%), 128 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -29,26 +29,27 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
 | $51.82 | 98.5c | 98.3c | otros_cierre | si | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
-| $52.37 | 99.2c | 99.2c | deportes_previo |  | Spread: K. Sint-Truidense VV (-3.5) |
+| $52.37 | 97.0c | 97.0c | deportes_previo |  | Beşiktaş JK vs. MH Hapoel Be'er Sheva: Neither team to score first? |
+| $52.37 | 99.2c | 99.0c | deportes_previo |  | Spread: K. Sint-Truidense VV (-3.5) |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 5313 | abiertas: 418 | abiertas mas de 7 dias despues de su fecha de fin: 5
+- Resueltas: 5365 | abiertas: 371 | abiertas mas de 7 dias despues de su fecha de fin: 5
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
-| cripto_cierre | todas | 1506 | 98.72c | 99.27% | +0.55 pts | +0.12 a +0.98 | 11 |
-| cripto_cierre | tocadas | 1056 | 98.55c | 98.96% | +0.40 pts | -0.21 a +1.02 | 11 |
+| cripto_cierre | todas | 1553 | 98.72c | 99.29% | +0.57 pts | +0.15 a +0.99 | 11 |
+| cripto_cierre | tocadas | 1081 | 98.56c | 98.98% | +0.42 pts | -0.17 a +1.02 | 11 |
 | deportes_previo | todas | 2961 | 98.30c | 98.77% | +0.46 pts | +0.07 a +0.86 | 38 |
 | deportes_previo | tocadas | 2447 | 98.27c | 98.75% | +0.48 pts | +0.05 a +0.91 | 32 |
-| otros_cierre | todas | 747 | 98.88c | 99.33% | +0.45 pts | -0.13 a +1.04 | 5 |
-| otros_cierre | tocadas | 472 | 98.71c | 98.94% | +0.24 pts | -0.69 a +1.16 | 5 |
+| otros_cierre | todas | 752 | 98.87c | 99.34% | +0.46 pts | -0.12 a +1.05 | 5 |
+| otros_cierre | tocadas | 476 | 98.70c | 98.95% | +0.25 pts | -0.67 a +1.17 | 5 |
 | post_fin_95_97 | todas | 99 | 95.90c | 93.94% | -1.96 pts | -6.69 a +2.77 | 6 |
 | post_fin_95_97 | tocadas | 87 | 95.92c | 93.10% | -2.81 pts | -8.17 a +2.54 | 6 |
-| TOTAL | todas | 5313 | 98.46c | 98.90% | +0.44 pts | +0.16 a +0.72 | 60 |
-| TOTAL | tocadas | 4062 | 98.35c | 98.71% | +0.36 pts | +0.02 a +0.71 | 54 |
+| TOTAL | todas | 5365 | 98.46c | 98.91% | +0.45 pts | +0.17 a +0.73 | 60 |
+| TOTAL | tocadas | 4091 | 98.35c | 98.72% | +0.37 pts | +0.03 a +0.71 | 54 |
 
 Peores casos del registro sombra:
 
