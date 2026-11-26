@@ -1,6 +1,6 @@
 {
  "capital0": 1000.0,
- "cash": -0.0,
+ "cash": 0.0367,
  "started": "2026-11-13T13:15:42Z",
  "orders": [
   {
@@ -109,46 +109,25 @@
    "liq": 1439
   },
   {
-   "oid": "7256021-1795651306",
-   "id": "7256021",
-   "q": "Spread: Independiente Medellín (-2.5)",
+   "oid": "7312877-1795654901",
+   "id": "7312877",
+   "q": "Canadiens vs. Avalanche: O/U 2.5",
    "cat": "deportes",
    "rule": "deportes_previo",
-   "event": "1442482",
-   "side": 1,
-   "token": "74659452138583314581703036978714119063228651366407601731631862864455032693610",
-   "px": 0.989,
+   "event": "1278259",
+   "side": 0,
+   "token": "55496950519706676564025374008097605694254892838073078746134122541397605487219",
+   "px": 0.979,
    "tick": 0.001,
-   "mid": 0.985,
-   "bid": 0.98,
-   "ask": 0.99,
-   "shares": 97.9902,
-   "cost": 96.9123,
-   "ts": 1795651306.187414,
-   "end_ts": 1795656600.0,
+   "mid": 0.975,
+   "bid": 0.97,
+   "ask": 0.98,
+   "shares": 98.9536,
+   "cost": 96.8756,
+   "ts": 1795654901.722072,
+   "end_ts": 1795660200.0,
    "hours": 1.47,
-   "liq": 7091
-  },
-  {
-   "oid": "7256025-1795651306",
-   "id": "7256025",
-   "q": "Spread: Atlético Nacional (-3.5)",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1442482",
-   "side": 1,
-   "token": "19696777843082736461330760014150278388720001867875986343687694534212622317936",
-   "px": 0.964,
-   "tick": 0.001,
-   "mid": 0.96,
-   "bid": 0.955,
-   "ask": 0.965,
-   "shares": 90.1833,
-   "cost": 86.9367,
-   "ts": 1795651306.187414,
-   "end_ts": 1795656600.0,
-   "hours": 1.47,
-   "liq": 5942
+   "liq": 15311
   }
  ],
  "positions": [
@@ -173,7 +152,7 @@
    "hours": 3.96,
    "liq": 1095,
    "fill_ts": 1794791170.442568,
-   "mark": 0.8265,
+   "mark": 0.8225,
    "stuck": true,
    "disputed": false
   },
@@ -273,7 +252,32 @@
    "hours": 0.97,
    "liq": 6470,
    "fill_ts": 1795651306.187414,
-   "mark": 0.991
+   "mark": 0.991,
+   "stuck": false,
+   "disputed": false
+  },
+  {
+   "oid": "7256025-1795651306",
+   "id": "7256025",
+   "q": "Spread: Atlético Nacional (-3.5)",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1442482",
+   "side": 1,
+   "token": "19696777843082736461330760014150278388720001867875986343687694534212622317936",
+   "px": 0.964,
+   "tick": 0.001,
+   "mid": 0.96,
+   "bid": 0.955,
+   "ask": 0.965,
+   "shares": 90.1833,
+   "cost": 86.9367,
+   "ts": 1795651306.187414,
+   "end_ts": 1795656600.0,
+   "hours": 1.47,
+   "liq": 5942,
+   "fill_ts": 1795654901.722072,
+   "mark": 0.964
   }
  ],
  "closed": [
@@ -11548,14 +11552,27 @@
    "placed": 2,
    "shadow_open": 2275,
    "shadow_closed": 85
+  },
+  {
+   "ts": "2026-11-26T01:03:09Z",
+   "equity": 968.76,
+   "cash": 0.04,
+   "orders": 6,
+   "positions": 6,
+   "closed": 256,
+   "scanned": 23702,
+   "candidates": 877,
+   "placed": 1,
+   "shadow_open": 2265,
+   "shadow_closed": 47
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 579,
-  "filled": 261,
+  "placed": 580,
+  "filled": 262,
   "expired": 60,
-  "touched_not_filled": 251
+  "touched_not_filled": 252
  },
  "shadow": [
   {
@@ -11806,97 +11823,6 @@
    "touched": 1
   },
   {
-   "id": "7279899",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "19907437128037498786882268155560581831759248151411880647728437883473166900232",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795435297,
-   "end_ts": 1795608000,
-   "q": "Will the highest temperature in London be 3°C on November 25?",
-   "touched": 1
-  },
-  {
-   "id": "7279900",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "41704246363729413130015588282716640529135057193744163975938058270786789773433",
-   "px": 0.996,
-   "tick": 0.001,
-   "ts": 1795435297,
-   "end_ts": 1795608000,
-   "q": "Will the highest temperature in London be 4°C on November 25?",
-   "touched": 1
-  },
-  {
-   "id": "7279901",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "115100534010569689716567643254443140255413951770852099576689722959278888114837",
-   "px": 0.983,
-   "tick": 0.001,
-   "ts": 1795435297,
-   "end_ts": 1795608000,
-   "q": "Will the highest temperature in London be 5°C on November 25?",
-   "touched": 1
-  },
-  {
-   "id": "7279904",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "4532909712620852314297640233330173397551395840386428047351807299965089287384",
-   "px": 0.978,
-   "tick": 0.001,
-   "ts": 1795435297,
-   "end_ts": 1795608000,
-   "q": "Will the highest temperature in London be 8°C on November 25?",
-   "touched": 1
-  },
-  {
-   "id": "7279905",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "43936181791198959988805393404999239106462702039250687129554589877408217904643",
-   "px": 0.992,
-   "tick": 0.001,
-   "ts": 1795435297,
-   "end_ts": 1795608000,
-   "q": "Will the highest temperature in London be 9°C on November 25?",
-   "touched": 1
-  },
-  {
-   "id": "7279906",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "101247440724041336400769334935435195515575488520155592554024735929795090778537",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1795435297,
-   "end_ts": 1795608000,
-   "q": "Will the highest temperature in London be 10°C on November 25?",
-   "touched": 1
-  },
-  {
-   "id": "7279907",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "115576606264876963494861974745789079675804582706029809584987088820816900259068",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795435297,
-   "end_ts": 1795608000,
-   "q": "Will the highest temperature in London be 11°C or higher on November 25?",
-   "touched": 0
-  },
-  {
    "id": "7282161",
    "rule": "clima_cierre",
    "cat": "clima",
@@ -11998,19 +11924,6 @@
    "ts": 1795453336,
    "end_ts": 1795608000,
    "q": "Will the highest temperature in Hong Kong be 16°C on November 25?",
-   "touched": 1
-  },
-  {
-   "id": "7280214",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "90603946407201986938197839315075293054385066310695992347665681052285393773234",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795453336,
-   "end_ts": 1795608000,
-   "q": "Will the lowest temperature in London be 8°C or higher on November 25?",
    "touched": 1
   },
   {
@@ -12651,71 +12564,6 @@
    "touched": 1
   },
   {
-   "id": "7280203",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "91286741327080514314663427501408437496233058094481825552250306982556283148748",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795460539,
-   "end_ts": 1795608000,
-   "q": "Will the lowest temperature in London be -2°C or below on November 25?",
-   "touched": 1
-  },
-  {
-   "id": "7280205",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "76493825521103507923636104526450477009107686257443481295593413085793158057306",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795460539,
-   "end_ts": 1795608000,
-   "q": "Will the lowest temperature in London be -1°C on November 25?",
-   "touched": 1
-  },
-  {
-   "id": "7280206",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "2217308276614677115648319325274922526946521242796543079731318986209091286395",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795460539,
-   "end_ts": 1795608000,
-   "q": "Will the lowest temperature in London be 0°C on November 25?",
-   "touched": 1
-  },
-  {
-   "id": "7280212",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "46080868130790252022876431513185690873924240491803392479384184529282975078323",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795460539,
-   "end_ts": 1795608000,
-   "q": "Will the lowest temperature in London be 6°C on November 25?",
-   "touched": 1
-  },
-  {
-   "id": "7280213",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "75765375216330414536860705768730574911846590153268762939270007456937460044717",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795460539,
-   "end_ts": 1795608000,
-   "q": "Will the lowest temperature in London be 7°C on November 25?",
-   "touched": 1
-  },
-  {
    "id": "7282159",
    "rule": "clima_cierre",
    "cat": "clima",
@@ -13272,19 +13120,6 @@
    "ts": 1795465076,
    "end_ts": 1795723200,
    "q": "Juventus FC vs. AS Omónoia Leukosías: O/U 0.5",
-   "touched": 1
-  },
-  {
-   "id": "6998680",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "27116731036175591774659777010086952531632858408692327857226520995096086559755",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1795467702,
-   "end_ts": 1795636800,
-   "q": "Jackson State Tigers vs. Oklahoma State Cowboys",
    "touched": 1
   },
   {
@@ -17526,19 +17361,6 @@
    "touched": 0
   },
   {
-   "id": "7312940",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "30052435271230839376477288941201441510698908247955264910322417544664910740285",
-   "px": 0.96,
-   "tick": 0.01,
-   "ts": 1795546922,
-   "end_ts": 1795651200,
-   "q": "Jets vs. Bruins: O/U 2.5",
-   "touched": 0
-  },
-  {
    "id": "7312950",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -18043,19 +17865,6 @@
    "ts": 1795546922,
    "end_ts": 1795806000,
    "q": "FC Groningen vs. Willem II Tilburg: Neither team to score first?",
-   "touched": 1
-  },
-  {
-   "id": "7321154",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "87195132470043684006436753983981000871403413207986227567636551860942402886485",
-   "px": 0.979,
-   "tick": 0.001,
-   "ts": 1795550506,
-   "end_ts": 1795602600,
-   "q": "Will Taichung Rock FC win on 2026-11-25?",
    "touched": 1
   },
   {
@@ -20347,32 +20156,6 @@
    "touched": 1
   },
   {
-   "id": "7303299",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "24737314203946418734459363976248533734770359133483759056989313122981781013617",
-   "px": 0.96,
-   "tick": 0.01,
-   "ts": 1795561344,
-   "end_ts": 1795644000,
-   "q": "Spread: 76ers (-25.5)",
-   "touched": 1
-  },
-  {
-   "id": "7303306",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "61841164507559472746174089164752887788878284134679471563909517994900237552341",
-   "px": 0.989,
-   "tick": 0.001,
-   "ts": 1795561344,
-   "end_ts": 1795644000,
-   "q": "Spread: 76ers (-29.5)",
-   "touched": 1
-  },
-  {
    "id": "7256070",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -20880,123 +20663,6 @@
    "touched": 1
   },
   {
-   "id": "7292062",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "64655940516262879337582564719585543807409037251059306665478513357542183991792",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795564925,
-   "end_ts": 1795575600,
-   "q": "Spread: Mavericks (-19.5)",
-   "touched": null
-  },
-  {
-   "id": "7292909",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "28292572942430884140058204813210172657355136588345317469716347200998297230238",
-   "px": 0.999,
-   "tick": 0.001,
-   "ts": 1795564925,
-   "end_ts": 1795569600,
-   "q": "Counter-Strike: TTG Esports vs aimers - Map 2 Winner",
-   "touched": null
-  },
-  {
-   "id": "7308173",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "109413044760150909563026364622375870622237758067254008221244387997347455085493",
-   "px": 0.989,
-   "tick": 0.001,
-   "ts": 1795564925,
-   "end_ts": 1795575600,
-   "q": "Nikola Jokić: 3-Pointers Made O/U 4.5",
-   "touched": null
-  },
-  {
-   "id": "7310256",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "32867204903736593257407030411572872137136586290341367485179354687905020441289",
-   "px": 0.977,
-   "tick": 0.001,
-   "ts": 1795564925,
-   "end_ts": 1795582800,
-   "q": "Spread: Zweigen Kanazawa (-3.5)",
-   "touched": null
-  },
-  {
-   "id": "6982257",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "102969593450132758732259127932986908274454980457601721504119191026606255984261",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795564925,
-   "end_ts": 1795604400,
-   "q": "FK Kryvbas Kryvyi Rih vs. FK Kharkiv: O/U 7.5",
-   "touched": null
-  },
-  {
-   "id": "7279916",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "67727392124633057929125147954254812058533903278378254651134689463468793280074",
-   "px": 0.95,
-   "tick": 0.01,
-   "ts": 1795564925,
-   "end_ts": 1795608000,
-   "q": "Will the highest temperature in Paris be 8°C on November 25?",
-   "touched": null
-  },
-  {
-   "id": "7280076",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "78937400091042690330199033653739299179158455089118563689792376419393274626903",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795564925,
-   "end_ts": 1795608000,
-   "q": "Will the highest temperature in Beijing be 3°C or below on November 25?",
-   "touched": null
-  },
-  {
-   "id": "7280077",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "95717938573255795268947306601457646193588854594293460835563649653711611710365",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795564925,
-   "end_ts": 1795608000,
-   "q": "Will the highest temperature in Beijing be 4°C on November 25?",
-   "touched": null
-  },
-  {
-   "id": "7280314",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "102633234809605426074564679410356896560290900639662137494207596368331759826516",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795564925,
-   "end_ts": 1795608000,
-   "q": "Will the highest temperature in Manila be 28°C or below on November 25?",
-   "touched": null
-  },
-  {
    "id": "7282522",
    "rule": "clima_cierre",
    "cat": "clima",
@@ -21007,7 +20673,7 @@
    "ts": 1795564925,
    "end_ts": 1795608000,
    "q": "Will the highest temperature in Chicago be 33°F or below on November 25?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7283579",
@@ -21020,7 +20686,7 @@
    "ts": 1795564925,
    "end_ts": 1795608000,
    "q": "Will the highest temperature in Denver be between 60-61°F on November 25?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7283580",
@@ -21033,111 +20699,7 @@
    "ts": 1795564925,
    "end_ts": 1795608000,
    "q": "Will the highest temperature in Denver be 62°F or higher on November 25?",
-   "touched": null
-  },
-  {
-   "id": "7311996",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 0,
-   "token": "16036282577496106387736395205829222942903803153376174614207912565825686599996",
-   "px": 0.979,
-   "tick": 0.001,
-   "ts": 1795564925,
-   "end_ts": 1795618800,
-   "q": "Will the US national average gas price be less than $3.5900 on November 25?",
-   "touched": null
-  },
-  {
-   "id": "7311998",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "26996846391517279724386858331712016221147409053701178878843764999941087488282",
-   "px": 0.979,
-   "tick": 0.001,
-   "ts": 1795564925,
-   "end_ts": 1795618800,
-   "q": "Will the US national average gas price be between $3.5900 and $3.5999 on November 25?",
-   "touched": null
-  },
-  {
-   "id": "7312002",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "88343117531798271111630240546977286402377554279173329731324706135740170722834",
-   "px": 0.996,
-   "tick": 0.001,
-   "ts": 1795564925,
-   "end_ts": 1795618800,
-   "q": "Will the US national average gas price be between $3.6100 and $3.6199 on November 25?",
-   "touched": null
-  },
-  {
-   "id": "7312003",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "11516881092843458618203723369787175676697732916719508910518616967588160568185",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1795564925,
-   "end_ts": 1795618800,
-   "q": "Will the US national average gas price be between $3.6200 and $3.6299 on November 25?",
-   "touched": null
-  },
-  {
-   "id": "6969871",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "73499865398724601548300321174599656039318283672488820654770402312889160034567",
-   "px": 0.969,
-   "tick": 0.001,
-   "ts": 1795564925,
-   "end_ts": 1795628700,
-   "q": "SK Slavia Praha vs. Villarreal CF: Villarreal CF O/U 4.5",
-   "touched": null
-  },
-  {
-   "id": "7016135",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "112444373836407209214197959171061023338500752645404596182004520359399701983519",
-   "px": 0.96,
-   "tick": 0.01,
-   "ts": 1795564925,
-   "end_ts": 1795622400,
-   "q": "Southern Jaguars vs. Syracuse Orange (W)",
-   "touched": null
-  },
-  {
-   "id": "6993512",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "23468110613664033983534262039161904399643840323140519796560894436773646793890",
-   "px": 0.96,
-   "tick": 0.01,
-   "ts": 1795564925,
-   "end_ts": 1795636800,
-   "q": "Club Brugge KV vs. Liverpool FC: Liverpool FC O/U 5.5",
-   "touched": null
-  },
-  {
-   "id": "6993612",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "28939584186425932575540104395946798868658739715193877381475116078459687679176",
-   "px": 0.969,
-   "tick": 0.001,
-   "ts": 1795564925,
-   "end_ts": 1795636800,
-   "q": "Paris Saint-Germain FC vs. AS Roma: AS Roma O/U 3.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6998689",
@@ -21150,7 +20712,7 @@
    "ts": 1795564925,
    "end_ts": 1795647600,
    "q": "Albany Great Danes vs. Syracuse Orange",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7253056",
@@ -21163,7 +20725,7 @@
    "ts": 1795564925,
    "end_ts": 1795651200,
    "q": "CA Boca Juniors vs. CS Independiente Rivadavia: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7304081",
@@ -21176,7 +20738,7 @@
    "ts": 1795564925,
    "end_ts": 1795656600,
    "q": "Spread: Suns (-15.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7302669",
@@ -21189,7 +20751,7 @@
    "ts": 1795564925,
    "end_ts": 1795694400,
    "q": "Will the highest temperature in Lucknow be 27°C on November 26?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7305110",
@@ -21202,7 +20764,7 @@
    "ts": 1795564925,
    "end_ts": 1795694400,
    "q": "Will the highest temperature in Houston be between 68-69°F on November 26?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6936516",
@@ -21215,7 +20777,7 @@
    "ts": 1795564925,
    "end_ts": 1795716000,
    "q": "Spread: Bears (-21.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7102353",
@@ -21228,7 +20790,7 @@
    "ts": 1795564925,
    "end_ts": 1795723200,
    "q": "Spread: Real Sociedad de Fútbol (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7102365",
@@ -21241,7 +20803,7 @@
    "ts": 1795564925,
    "end_ts": 1795723200,
    "q": "Crystal Palace FC vs. Real Sociedad de Fútbol: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7102416",
@@ -21254,7 +20816,7 @@
    "ts": 1795564925,
    "end_ts": 1795723200,
    "q": "SC União Torreense vs. Celtic FC: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7102453",
@@ -21267,7 +20829,7 @@
    "ts": 1795564925,
    "end_ts": 1795723200,
    "q": "Spread: SK Puntigamer Sturm Graz (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7102455",
@@ -21280,7 +20842,7 @@
    "ts": 1795564925,
    "end_ts": 1795723200,
    "q": "Spread: SK Puntigamer Sturm Graz (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7102505",
@@ -21293,7 +20855,7 @@
    "ts": 1795564925,
    "end_ts": 1795723200,
    "q": "Spread: NEC (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7102606",
@@ -21306,7 +20868,7 @@
    "ts": 1795564925,
    "end_ts": 1795723200,
    "q": "Spread: Lillestrøm SK (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7102608",
@@ -21319,7 +20881,7 @@
    "ts": 1795564925,
    "end_ts": 1795723200,
    "q": "Spread: Lillestrøm SK (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7102657",
@@ -21332,7 +20894,7 @@
    "ts": 1795564925,
    "end_ts": 1795723200,
    "q": "Spread: AS Omónoia Leukosías (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7102659",
@@ -21345,7 +20907,7 @@
    "ts": 1795564925,
    "end_ts": 1795723200,
    "q": "Spread: AS Omónoia Leukosías (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7102707",
@@ -21358,7 +20920,7 @@
    "ts": 1795564925,
    "end_ts": 1795723200,
    "q": "Spread: AC Sparta Praha (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7102710",
@@ -21371,7 +20933,7 @@
    "ts": 1795564925,
    "end_ts": 1795723200,
    "q": "Spread: AZ (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7102715",
@@ -21384,7 +20946,7 @@
    "ts": 1795564925,
    "end_ts": 1795723200,
    "q": "AC Sparta Praha vs. AZ: O/U 0.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7102721",
@@ -21397,7 +20959,7 @@
    "ts": 1795564925,
    "end_ts": 1795723200,
    "q": "AC Sparta Praha vs. AZ: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7102757",
@@ -21410,7 +20972,7 @@
    "ts": 1795564925,
    "end_ts": 1795723200,
    "q": "Spread: Jagiellonia Białystok (-1.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7102759",
@@ -21423,7 +20985,7 @@
    "ts": 1795564925,
    "end_ts": 1795723200,
    "q": "Spread: Jagiellonia Białystok (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7102761",
@@ -21436,7 +20998,7 @@
    "ts": 1795564925,
    "end_ts": 1795723200,
    "q": "Spread: Jagiellonia Białystok (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7102773",
@@ -21449,7 +21011,7 @@
    "ts": 1795564925,
    "end_ts": 1795723200,
    "q": "Sunderland AFC vs. Jagiellonia Białystok: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7102832",
@@ -21462,7 +21024,7 @@
    "ts": 1795564925,
    "end_ts": 1795723200,
    "q": "Spread: NK Celje (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7102854",
@@ -21475,7 +21037,7 @@
    "ts": 1795564925,
    "end_ts": 1795723200,
    "q": "Ferencvárosi TC vs. NK Celje: O/U 6.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7102856",
@@ -21488,7 +21050,7 @@
    "ts": 1795564925,
    "end_ts": 1795723200,
    "q": "Ferencvárosi TC vs. NK Celje: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6936957",
@@ -21501,7 +21063,7 @@
    "ts": 1795564925,
    "end_ts": 1795728600,
    "q": "Eagles vs. Cowboys: O/U 24.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6936959",
@@ -21514,7 +21076,7 @@
    "ts": 1795564925,
    "end_ts": 1795728600,
    "q": "Eagles vs. Cowboys: O/U 28.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7210421",
@@ -21527,7 +21089,7 @@
    "ts": 1795564925,
    "end_ts": 1795813200,
    "q": "Will Tesla, Inc. (TSLA) hit (LOW) $315 Week of November 23 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7210461",
@@ -21540,7 +21102,7 @@
    "ts": 1795564925,
    "end_ts": 1795813200,
    "q": "Will NVIDIA (NVDA) hit (LOW) $112 Week of November 23 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7210477",
@@ -21553,7 +21115,7 @@
    "ts": 1795564925,
    "end_ts": 1795813200,
    "q": "Will Netflix (NFLX) close at >$100 on the final day of trading of the week of Nov 23 – Nov",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7210489",
@@ -21566,7 +21128,7 @@
    "ts": 1795564925,
    "end_ts": 1795813200,
    "q": "Will Netflix, Inc. (NFLX) hit (HIGH) $62.50 Week of November 23 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7210661",
@@ -21579,7 +21141,7 @@
    "ts": 1795564925,
    "end_ts": 1795813200,
    "q": "Will Robinhood Markets, Inc. (HOOD) hit (HIGH) $75 Week of November 23 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7210779",
@@ -21592,7 +21154,7 @@
    "ts": 1795564925,
    "end_ts": 1795816800,
    "q": "Will Gold (XAUUSD) hit (HIGH) $3,850 Week of November 23 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7210791",
@@ -21605,7 +21167,7 @@
    "ts": 1795564925,
    "end_ts": 1795816800,
    "q": "Will Gold (XAUUSD) hit (LOW) $3,250 Week of November 23 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7210793",
@@ -21618,7 +21180,7 @@
    "ts": 1795564925,
    "end_ts": 1795816800,
    "q": "Will Silver (XAGUSD) hit (HIGH) $48 Week of November 23 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7210794",
@@ -21631,7 +21193,7 @@
    "ts": 1795564925,
    "end_ts": 1795816800,
    "q": "Will Silver (XAGUSD) hit (HIGH) $47 Week of November 23 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7210795",
@@ -21644,7 +21206,7 @@
    "ts": 1795564925,
    "end_ts": 1795816800,
    "q": "Will Silver (XAGUSD) hit (HIGH) $46 Week of November 23 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7212428",
@@ -21657,7 +21219,7 @@
    "ts": 1795564925,
    "end_ts": 1795823940,
    "q": "Will \"Nicole Kidman - ADÉLA\" be the #2 US song this week?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7212429",
@@ -21670,7 +21232,7 @@
    "ts": 1795564925,
    "end_ts": 1795823940,
    "q": "Will \"Stop The Wedding! - Ashe\" be the #2 US song this week?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7212430",
@@ -21683,7 +21245,7 @@
    "ts": 1795564925,
    "end_ts": 1795823940,
    "q": "Will \"stupid song - Olivia Rodrigo\" be the #2 US song this week?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7212431",
@@ -21696,7 +21258,7 @@
    "ts": 1795564925,
    "end_ts": 1795823940,
    "q": "Will \"AHH YEA - Playboi Carti\" be the #2 US song this week?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7212438",
@@ -21709,7 +21271,7 @@
    "ts": 1795564925,
    "end_ts": 1795823940,
    "q": "Will \"Stop The Wedding! - Ashe\" be the #1 US song this week?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7212444",
@@ -21722,7 +21284,7 @@
    "ts": 1795564925,
    "end_ts": 1795823940,
    "q": "Will \"AHH YEA - Playboi Carti\" be the #1 US song this week?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7212446",
@@ -21735,7 +21297,7 @@
    "ts": 1795564925,
    "end_ts": 1795823940,
    "q": "Will \"All I Want For Christmas Is You - Mariah Carey\" be the #1 US song this week?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7212447",
@@ -21748,7 +21310,7 @@
    "ts": 1795564925,
    "end_ts": 1795823940,
    "q": "Will \"Last Christmas - Wham!\" be the #1 US song this week?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7212459",
@@ -21761,7 +21323,7 @@
    "ts": 1795564925,
    "end_ts": 1795823940,
    "q": "Will \"BbY WOW - KAROL G, Judeline, rusowsky\" be the #1 song this week?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7212464",
@@ -21774,7 +21336,7 @@
    "ts": 1795564925,
    "end_ts": 1795823940,
    "q": "Will \"Nicole Kidman - ADÉLA\" be the #1 song this week?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7212465",
@@ -21787,7 +21349,7 @@
    "ts": 1795564925,
    "end_ts": 1795823940,
    "q": "Will \"the cure - Olivia Rodrigo\" be the #1 song this week?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7212466",
@@ -21800,7 +21362,7 @@
    "ts": 1795564925,
    "end_ts": 1795823940,
    "q": "Will \"Go Easy - Dua Lipa\" be the #1 song this week?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7212467",
@@ -21813,7 +21375,7 @@
    "ts": 1795564925,
    "end_ts": 1795823940,
    "q": "Will \"All I Want For Christmas Is You - Mariah Carey\" be the #1 song this week?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7212468",
@@ -21826,7 +21388,7 @@
    "ts": 1795564925,
    "end_ts": 1795823940,
    "q": "Will \"BbY WOW - KAROL G, Judeline, rusowsky\" be the #2 song this week?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7212469",
@@ -21839,7 +21401,7 @@
    "ts": 1795564925,
    "end_ts": 1795823940,
    "q": "Will \"Last Christmas - Wham!\" be the #1 song this week?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7212473",
@@ -21852,7 +21414,7 @@
    "ts": 1795564925,
    "end_ts": 1795823940,
    "q": "Will \"Nicole Kidman - ADÉLA\" be the #2 song this week?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7212474",
@@ -21865,7 +21427,7 @@
    "ts": 1795564925,
    "end_ts": 1795823940,
    "q": "Will \"the cure - Olivia Rodrigo\" be the #2 song this week?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7212476",
@@ -21878,7 +21440,7 @@
    "ts": 1795564925,
    "end_ts": 1795823940,
    "q": "Will \"Go Easy - Dua Lipa\" be the #2 song this week?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7289075",
@@ -21891,124 +21453,7 @@
    "ts": 1795564925,
    "end_ts": 1795816800,
    "q": "Will Gold (XAUUSD) hit (HIGH) $3,950 Week of November 23 2026?",
-   "touched": null
-  },
-  {
-   "id": "7292611",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 0,
-   "token": "99277047092681446292100649102825719749552713606646465172052136926835812054018",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1795567816,
-   "end_ts": 1795568400,
-   "q": "Solana Up or Down - November 24, 4:00PM-8:00PM ET",
-   "touched": null
-  },
-  {
-   "id": "7292619",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 0,
-   "token": "4585492995963799949471631379921462367250094862029594369771012085467645134069",
-   "px": 0.96,
-   "tick": 0.01,
-   "ts": 1795567816,
-   "end_ts": 1795568400,
-   "q": "XRP Up or Down - November 24, 4:00PM-8:00PM ET",
-   "touched": null
-  },
-  {
-   "id": "7297211",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "30330860469753949767314416276084218649370406522536803423925919756336078323664",
-   "px": 0.98,
-   "tick": 0.001,
-   "ts": 1795567816,
-   "end_ts": 1795568400,
-   "q": "Ethereum Up or Down - November 24, 7:00PM-8:00PM ET",
-   "touched": null
-  },
-  {
-   "id": "7297216",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "43378150211783553888126362116428200430452298650592304961623989908137566989218",
-   "px": 0.98,
-   "tick": 0.001,
-   "ts": 1795567816,
-   "end_ts": 1795568400,
-   "q": "Bitcoin Up or Down - November 24, 7:00PM-8:00PM ET",
-   "touched": null
-  },
-  {
-   "id": "7308172",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "107491498882793576792823097019645891868732740636808531209450814850504475053802",
-   "px": 0.989,
-   "tick": 0.001,
-   "ts": 1795567816,
-   "end_ts": 1795575600,
-   "q": "Christian Braun: 3-Pointers Made O/U 4.5",
-   "touched": null
-  },
-  {
-   "id": "7310249",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "108988047448453939808367436415964634016359688112568609818025479462855238619395",
-   "px": 0.95,
-   "tick": 0.01,
-   "ts": 1795567816,
-   "end_ts": 1795582800,
-   "q": "Spread: Giravanz Kitakyushu (-2.5)",
-   "touched": null
-  },
-  {
-   "id": "7280362",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 0,
-   "token": "35409479042498732787376458033688787007914482633177838903778177488869121380729",
-   "px": 0.999,
-   "tick": 0.001,
-   "ts": 1795567816,
-   "end_ts": 1795608000,
-   "q": "Will the lowest temperature in Shanghai be 3°C on November 25?",
-   "touched": null
-  },
-  {
-   "id": "6993653",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "41729232827214822908003945716402344894975290520870023417140540325386861501148",
-   "px": 0.96,
-   "tick": 0.01,
-   "ts": 1795567816,
-   "end_ts": 1795636800,
-   "q": "Club Atlético de Madrid vs. Viking FK: 1st Half O/U 4.5",
-   "touched": null
-  },
-  {
-   "id": "6993688",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "65585798855334228875037201835586612471192919376599355947023156837519164019149",
-   "px": 0.95,
-   "tick": 0.01,
-   "ts": 1795567816,
-   "end_ts": 1795636800,
-   "q": "Spread: FK Shakhtar Donetsk (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7253042",
@@ -22021,7 +21466,7 @@
    "ts": 1795567816,
    "end_ts": 1795651200,
    "q": "Spread: CS Independiente Rivadavia (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7253043",
@@ -22034,7 +21479,7 @@
    "ts": 1795567816,
    "end_ts": 1795651200,
    "q": "Spread: CA Boca Juniors (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7302648",
@@ -22047,7 +21492,7 @@
    "ts": 1795567816,
    "end_ts": 1795694400,
    "q": "Will the highest temperature in Ankara be 11°C on November 26?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7302736",
@@ -22060,7 +21505,7 @@
    "ts": 1795567816,
    "end_ts": 1795694400,
    "q": "Will the highest temperature in Singapore be 30°C on November 26?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7302766",
@@ -22073,7 +21518,7 @@
    "ts": 1795567816,
    "end_ts": 1795694400,
    "q": "Will the highest temperature in Taipei be 19°C on November 26?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7302773",
@@ -22086,7 +21531,7 @@
    "ts": 1795567816,
    "end_ts": 1795694400,
    "q": "Will the highest temperature in Taipei be 26°C on November 26?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7302959",
@@ -22099,7 +21544,7 @@
    "ts": 1795567816,
    "end_ts": 1795694400,
    "q": "Will the lowest temperature in London be 0°C on November 26?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7302973",
@@ -22112,7 +21557,7 @@
    "ts": 1795567816,
    "end_ts": 1795694400,
    "q": "Will the highest temperature in Qingdao be 20°C on November 26?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7302975",
@@ -22125,7 +21570,7 @@
    "ts": 1795567816,
    "end_ts": 1795694400,
    "q": "Will the lowest temperature in Paris be -6°C or below on November 26?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7302984",
@@ -22138,7 +21583,7 @@
    "ts": 1795567816,
    "end_ts": 1795694400,
    "q": "Will the lowest temperature in Paris be 2°C on November 26?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7302985",
@@ -22151,7 +21596,7 @@
    "ts": 1795567816,
    "end_ts": 1795694400,
    "q": "Will the lowest temperature in Paris be 3°C on November 26?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7302986",
@@ -22164,7 +21609,7 @@
    "ts": 1795567816,
    "end_ts": 1795694400,
    "q": "Will the lowest temperature in Paris be 4°C or higher on November 26?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7302989",
@@ -22177,7 +21622,7 @@
    "ts": 1795567816,
    "end_ts": 1795694400,
    "q": "Will the highest temperature in Karachi be 27°C on November 26?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7302996",
@@ -22190,7 +21635,7 @@
    "ts": 1795567816,
    "end_ts": 1795694400,
    "q": "Will the highest temperature in Karachi be 34°C on November 26?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7303084",
@@ -22203,7 +21648,7 @@
    "ts": 1795567816,
    "end_ts": 1795694400,
    "q": "Will the lowest temperature in Shanghai be 13°C on November 26?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7305076",
@@ -22216,7 +21661,7 @@
    "ts": 1795567816,
    "end_ts": 1795694400,
    "q": "Will the highest temperature in Chicago be 37°F or below on November 26?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7305077",
@@ -22229,7 +21674,7 @@
    "ts": 1795567816,
    "end_ts": 1795694400,
    "q": "Will the highest temperature in Chicago be between 38-39°F on November 26?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7305078",
@@ -22242,7 +21687,7 @@
    "ts": 1795567816,
    "end_ts": 1795694400,
    "q": "Will the highest temperature in Chicago be between 40-41°F on November 26?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7305082",
@@ -22255,7 +21700,7 @@
    "ts": 1795567816,
    "end_ts": 1795694400,
    "q": "Will the highest temperature in Chicago be between 48-49°F on November 26?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7305083",
@@ -22268,7 +21713,7 @@
    "ts": 1795567816,
    "end_ts": 1795694400,
    "q": "Will the highest temperature in Chicago be between 50-51°F on November 26?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7305084",
@@ -22281,7 +21726,7 @@
    "ts": 1795567816,
    "end_ts": 1795694400,
    "q": "Will the highest temperature in Chicago be between 52-53°F on November 26?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7307970",
@@ -22294,7 +21739,7 @@
    "ts": 1795567816,
    "end_ts": 1795694400,
    "q": "Will the highest temperature in Sao Paulo be 17°C or below on November 26?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7307971",
@@ -22307,7 +21752,7 @@
    "ts": 1795567816,
    "end_ts": 1795694400,
    "q": "Will the highest temperature in Sao Paulo be 18°C on November 26?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6936671",
@@ -22320,7 +21765,7 @@
    "ts": 1795567816,
    "end_ts": 1795716000,
    "q": "Bears vs. Lions: O/U 26.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6936672",
@@ -22333,7 +21778,7 @@
    "ts": 1795567816,
    "end_ts": 1795716000,
    "q": "Bears vs. Lions: O/U 28.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7176622",
@@ -22346,7 +21791,7 @@
    "ts": 1795567816,
    "end_ts": 1795712400,
    "q": "Will the price of Ethereum be above $1,800 on November 26?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7309313",
@@ -22359,7 +21804,7 @@
    "ts": 1795567816,
    "end_ts": 1795719600,
    "q": "Will it rain in Miami, FL on November 25?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7210428",
@@ -22372,7 +21817,7 @@
    "ts": 1795567816,
    "end_ts": 1795813200,
    "q": "Will NVIDIA (NVDA) close at $120-$125 on the final day of trading of the week of Nov 23 – ",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7050036",
@@ -22385,7 +21830,7 @@
    "ts": 1795567816,
    "end_ts": 1795825800,
    "q": "Spread: Texas A&M (-13.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7050037",
@@ -22398,7 +21843,7 @@
    "ts": 1795567816,
    "end_ts": 1795825800,
    "q": "Spread: Texas A&M (-14.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7050064",
@@ -22411,7 +21856,7 @@
    "ts": 1795567816,
    "end_ts": 1795825800,
    "q": "Spread: Minnesota (-17.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7050065",
@@ -22424,7 +21869,7 @@
    "ts": 1795567816,
    "end_ts": 1795825800,
    "q": "Spread: Minnesota (-16.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7050066",
@@ -22437,7 +21882,7 @@
    "ts": 1795567816,
    "end_ts": 1795825800,
    "q": "Spread: Minnesota (-14.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7210781",
@@ -22450,7 +21895,7 @@
    "ts": 1795567816,
    "end_ts": 1795816800,
    "q": "Will Gold (XAUUSD) hit (HIGH) $3,750 Week of November 23 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7212435",
@@ -22463,7 +21908,7 @@
    "ts": 1795567816,
    "end_ts": 1795823940,
    "q": "Will \"Last Christmas - Wham!\" be the #2 US song this week?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7212478",
@@ -22476,46 +21921,7 @@
    "ts": 1795567816,
    "end_ts": 1795823940,
    "q": "Will \"All I Want For Christmas Is You - Mariah Carey\" be the #2 song this week?",
-   "touched": null
-  },
-  {
-   "id": "7311430",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "83353369878685164742388487038625534080503860795073154919366164986923525404305",
-   "px": 0.989,
-   "tick": 0.001,
-   "ts": 1795568493,
-   "end_ts": 1795575600,
-   "q": "Naji Marshall: 3-Pointers Made O/U 3.5",
-   "touched": null
-  },
-  {
-   "id": "7319040",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "108309444295904822841788833311204665822216155220498213541868973860704169852096",
-   "px": 0.989,
-   "tick": 0.001,
-   "ts": 1795568493,
-   "end_ts": 1795575600,
-   "q": "Caleb Martin: 3-Pointers Made O/U 3.5",
-   "touched": null
-  },
-  {
-   "id": "7280193",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "95927148775921633798319016683163920031220552515123503235420022662157397074817",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795568493,
-   "end_ts": 1795608000,
-   "q": "Will the highest temperature in Kuala Lumpur be 27°C or below on November 25?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7302809",
@@ -22528,7 +21934,7 @@
    "ts": 1795568493,
    "end_ts": 1795694400,
    "q": "Will the highest temperature in Wuhan be 21°C on November 26?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7305045",
@@ -22541,7 +21947,7 @@
    "ts": 1795568493,
    "end_ts": 1795694400,
    "q": "Will the highest temperature in Dallas be between 50-51°F on November 26?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7210306",
@@ -22554,7 +21960,7 @@
    "ts": 1795568493,
    "end_ts": 1795813200,
    "q": "Will Amazon (AMZN) finish week of November 23 above $280?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7299607",
@@ -41131,6 +40537,487 @@
    "ts": 1795651306,
    "end_ts": 1795910400,
    "q": "Spread: Vanderbilt (-13.5)",
+   "touched": null
+  },
+  {
+   "id": "6998693",
+   "rule": "post_fin_90_97",
+   "cat": "deportes",
+   "side": 0,
+   "token": "32427333411778100942732248550704575872930232804543641938446804046668343099328",
+   "px": 0.9,
+   "tick": 0.01,
+   "ts": 1795654901,
+   "end_ts": 1795644000,
+   "q": "Memphis Tigers vs. Penn State Nittany Lions",
+   "touched": null
+  },
+  {
+   "id": "7326264",
+   "rule": "post_fin_90_97",
+   "cat": "deportes",
+   "side": 1,
+   "token": "93070881651117058227311366812900276462984255180071488376798476569793182343276",
+   "px": 0.91,
+   "tick": 0.01,
+   "ts": 1795654901,
+   "end_ts": 1795644000,
+   "q": "Spread: Penn State Nittany Lions (-1.5)",
+   "touched": null
+  },
+  {
+   "id": "7329211",
+   "rule": "post_fin_90_97",
+   "cat": "deportes",
+   "side": 0,
+   "token": "26004245198188958654939982639097831403690819825845206398271737309817101558859",
+   "px": 0.94,
+   "tick": 0.01,
+   "ts": 1795654901,
+   "end_ts": 1795644000,
+   "q": "Memphis Tigers vs. Penn State Nittany Lions: O/U 155.5",
+   "touched": null
+  },
+  {
+   "id": "7329222",
+   "rule": "post_fin_90_97",
+   "cat": "deportes",
+   "side": 1,
+   "token": "51968536106187624354694846493074299575938536698642690473637584377159469602352",
+   "px": 0.93,
+   "tick": 0.01,
+   "ts": 1795654901,
+   "end_ts": 1795644000,
+   "q": "Memphis Tigers vs. Penn State Nittany Lions: O/U 190.5",
+   "touched": null
+  },
+  {
+   "id": "7326757",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "21578601132921974145568361454129003656232067857324000829435098184293309809646",
+   "px": 0.96,
+   "tick": 0.01,
+   "ts": 1795654901,
+   "end_ts": 1795662000,
+   "q": "Spurs vs. Trail Blazers: O/U 198.5",
+   "touched": null
+  },
+  {
+   "id": "7341654",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "99377992232818546867428126807746872556975269476102106665329671003314819495295",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1795654901,
+   "end_ts": 1795662000,
+   "q": "Damian Lillard: Rebounds O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "7349304",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "16952187630596704825830855626282401317861726165934078550239730732293800516657",
+   "px": 0.984,
+   "tick": 0.001,
+   "ts": 1795654901,
+   "end_ts": 1795667400,
+   "q": "Counter-Strike: TTG Esports vs AXE (BO3) - CCT Europe Contenders #11 Playoffs",
+   "touched": null
+  },
+  {
+   "id": "7302658",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 0,
+   "token": "15736923181701964979944847778407677815237650889720537455873106406897998707627",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1795654901,
+   "end_ts": 1795694400,
+   "q": "Will the highest temperature in Wellington be 21°C on November 26?",
+   "touched": null
+  },
+  {
+   "id": "7302877",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "26644901921103562778092714281195590466089695002994878738646210381126048906965",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795654901,
+   "end_ts": 1795694400,
+   "q": "Will the highest temperature in Busan be 11°C or below on November 26?",
+   "touched": null
+  },
+  {
+   "id": "7303056",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "92367070233261282949319269354284977239287239226545571715303713576374150009626",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795654901,
+   "end_ts": 1795694400,
+   "q": "Will the lowest temperature in Tokyo be 5°C on November 26?",
+   "touched": null
+  },
+  {
+   "id": "6995617",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "75173761501494871149925539626585116298146385762782800072592625329513282304013",
+   "px": 0.97,
+   "tick": 0.01,
+   "ts": 1795654901,
+   "end_ts": 1795715100,
+   "q": "Páfos FC vs. FC Midtjylland: Neither team to score first?",
+   "touched": null
+  },
+  {
+   "id": "6996085",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "84009752299329046375257977232780084182727452908580883030125441643425402562238",
+   "px": 0.96,
+   "tick": 0.01,
+   "ts": 1795654901,
+   "end_ts": 1795723200,
+   "q": "FC Nordsjælland vs. Panathinaikós AO: Neither team to score first?",
+   "touched": null
+  },
+  {
+   "id": "6996223",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "22178513382852981172776338011083557873471498955688238393050695176180386162545",
+   "px": 0.969,
+   "tick": 0.001,
+   "ts": 1795654901,
+   "end_ts": 1795723200,
+   "q": "SC Freiburg vs. FC Twente: Neither team to score first?",
+   "touched": null
+  },
+  {
+   "id": "6996269",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "110228297583182436020384967215581510684489635172132986377685857676136399140520",
+   "px": 0.96,
+   "tick": 0.01,
+   "ts": 1795654901,
+   "end_ts": 1795723200,
+   "q": "HNK Hajduk Split vs. K. Sint-Truidense VV: Neither team to score first?",
+   "touched": null
+  },
+  {
+   "id": "7101826",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "20691356368377959530700475888012573832391454697498453634195312770364778599231",
+   "px": 0.991,
+   "tick": 0.001,
+   "ts": 1795654901,
+   "end_ts": 1795723200,
+   "q": "Spread: FC Nordsjælland (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "7101994",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "91756276768732532211139995299730710003481793394229418946596099974352097988295",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795654901,
+   "end_ts": 1795723200,
+   "q": "SC Braga vs. Kuopion PS: Kuopion PS O/U 2.5",
+   "touched": null
+  },
+  {
+   "id": "7102383",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "31345752497265127056896921446534735668969794623700334013339003614467486403057",
+   "px": 0.96,
+   "tick": 0.01,
+   "ts": 1795654901,
+   "end_ts": 1795723200,
+   "q": "Crystal Palace FC vs. Real Sociedad de Fútbol: Real Sociedad de Fútbol O/U 3.5",
+   "touched": null
+  },
+  {
+   "id": "7103963",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "16074682017983379715258870149500921487535627006481005921244368852614659836290",
+   "px": 0.97,
+   "tick": 0.01,
+   "ts": 1795654901,
+   "end_ts": 1795723200,
+   "q": "AC Sparta Praha vs. AZ: Neither team to score first?",
+   "touched": null
+  },
+  {
+   "id": "7104092",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "71759708427195330863726682840530523482814849671303831865679527632333470906890",
+   "px": 0.96,
+   "tick": 0.01,
+   "ts": 1795654901,
+   "end_ts": 1795723200,
+   "q": "OFI vs. RSC Anderlecht: Neither team to score first?",
+   "touched": null
+  },
+  {
+   "id": "7025510",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "8247890883218198458987780850903041967578952471283354678588374998702399011060",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795654901,
+   "end_ts": 1795741200,
+   "q": "Spread: TCU (-14.5)",
+   "touched": null
+  },
+  {
+   "id": "7336951",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "103034410118239299661730647317901650107556592750953425224018934923013368209162",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795654901,
+   "end_ts": 1795780800,
+   "q": "Will the highest temperature in Cape Town be 19°C on November 27?",
+   "touched": null
+  },
+  {
+   "id": "7337030",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "2794860336382601419640681097932912446489446731093922701608979368639059133391",
+   "px": 0.96,
+   "tick": 0.01,
+   "ts": 1795654901,
+   "end_ts": 1795780800,
+   "q": "Will the highest temperature in Manila be 32°C on November 27?",
+   "touched": null
+  },
+  {
+   "id": "7337068",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "40611812590220721104016739243846738584147394101302721152659092835937297026750",
+   "px": 0.996,
+   "tick": 0.001,
+   "ts": 1795654901,
+   "end_ts": 1795780800,
+   "q": "Will the lowest temperature in Hong Kong be 22°C on November 27?",
+   "touched": null
+  },
+  {
+   "id": "7338468",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "26268667598386841611914325215307741272871237252365955974207300758633104838082",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795654901,
+   "end_ts": 1795780800,
+   "q": "Will the highest temperature in Dallas be 55°F or below on November 27?",
+   "touched": null
+  },
+  {
+   "id": "7338469",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "79314844453453874889502212659529091668496830020191643017596437746356285219120",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795654901,
+   "end_ts": 1795780800,
+   "q": "Will the highest temperature in Dallas be between 56-57°F on November 27?",
+   "touched": null
+  },
+  {
+   "id": "7338538",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "103439409537691947782635635699617066137652178221391821159575220172037210505389",
+   "px": 0.96,
+   "tick": 0.01,
+   "ts": 1795654901,
+   "end_ts": 1795780800,
+   "q": "Will the lowest temperature in New York City be between 42-43°F on November 27?",
+   "touched": null
+  },
+  {
+   "id": "7340896",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "94394506250943728401767412841786107872545421032814569398777618763834595568193",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795654901,
+   "end_ts": 1795780800,
+   "q": "Will the highest temperature in Seattle be 39°F or below on November 27?",
+   "touched": null
+  },
+  {
+   "id": "7340927",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "35107630158073327647994182236110244450839514003260088794763832702328213793140",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795654901,
+   "end_ts": 1795780800,
+   "q": "Will the highest temperature in Los Angeles be between 88-89°F on November 27?",
+   "touched": null
+  },
+  {
+   "id": "7340928",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "40774111524802851748405155498781063066073511880103920499562065396214380619707",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795654901,
+   "end_ts": 1795780800,
+   "q": "Will the highest temperature in Los Angeles be 90°F or higher on November 27?",
+   "touched": null
+  },
+  {
+   "id": "7341329",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "113919717445412445412542903779169260018697135778814784985003844329731635833025",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1795654901,
+   "end_ts": 1795780800,
+   "q": "Will the highest temperature in Buenos Aires be 36°C on November 27?",
+   "touched": null
+  },
+  {
+   "id": "7343191",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "70039675617001135436177715038610513384164751554606388869449694662157201708424",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795654901,
+   "end_ts": 1795806000,
+   "q": "Will it rain in Dallas, TX on November 26?",
+   "touched": null
+  },
+  {
+   "id": "7050131",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "16830515513946231564415894472356799357114219747100838991042066937978203277259",
+   "px": 0.96,
+   "tick": 0.01,
+   "ts": 1795654901,
+   "end_ts": 1795831200,
+   "q": "Spread: Utah (-1.5)",
+   "touched": null
+  },
+  {
+   "id": "7233241",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "84615679204249240557526474909007563776825667795033135699141222004704400861041",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1795654901,
+   "end_ts": 1795885200,
+   "q": "Will the price of Bitcoin be between $68,000 and $70,000 on November 28?",
+   "touched": null
+  },
+  {
+   "id": "7050914",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "45940135670898491432301197072492051059784705191222815139994691486848801306735",
+   "px": 0.984,
+   "tick": 0.001,
+   "ts": 1795654901,
+   "end_ts": 1795912200,
+   "q": "Spread: Washington (-10.5)",
+   "touched": null
+  },
+  {
+   "id": "7050916",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "36050224523835870650158699332316726940245377473860796462348951569536951844725",
+   "px": 0.97,
+   "tick": 0.01,
+   "ts": 1795654901,
+   "end_ts": 1795912200,
+   "q": "Spread: Washington (-7.5)",
+   "touched": null
+  },
+  {
+   "id": "7051184",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "108326105306697275807417956715334931580909879423497844818463971559808344431664",
+   "px": 0.977,
+   "tick": 0.001,
+   "ts": 1795654901,
+   "end_ts": 1795912200,
+   "q": "Spread: Auburn (-7.5)",
+   "touched": null
+  },
+  {
+   "id": "7052460",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "43207496149843996462350227939543122990444325105682330597477326573730567484316",
+   "px": 0.96,
+   "tick": 0.01,
+   "ts": 1795654901,
+   "end_ts": 1795910400,
+   "q": "Spread: Vanderbilt (-7.5)",
    "touched": null
   }
  ]
