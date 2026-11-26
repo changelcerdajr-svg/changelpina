@@ -2,21 +2,21 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-11T22:05:26Z | dias corridos: 15.0 de 28 | corridas: 346
-- Capital inicial: $1,000.00 | valor actual: $1,047.90 | P&L: $+47.90 (+4.79%)
-- Efectivo libre: $420.81 | en ordenes abiertas: $470.20 (9) | en posiciones: $156.57 (3)
+- Inicio: 2026-11-11T22:05:26Z | dias corridos: 15.0 de 28 | corridas: 347
+- Capital inicial: $1,000.00 | valor actual: $1,048.96 | P&L: $+48.96 (+4.90%)
+- Efectivo libre: $421.01 | en ordenes abiertas: $523.99 (10) | en posiciones: $104.19 (2)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $51.82 en 1 posiciones
-- Ordenes virtuales: 588 colocadas, 131 llenadas, 316 tocadas sin llenarse (sorteo 30%), 132 expiradas
+- Ordenes virtuales: 591 colocadas, 131 llenadas, 318 tocadas sin llenarse (sorteo 30%), 132 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
 | Regla | n | Precio medio | Pago real | IC95 del pago | Edge | P&L | Dias medios |
 |---|---|---|---|---|---|---|---|
 | cripto_cierre | 41 | 98.97c | 100.00% | 91.4-100.0% | +1.03 pts | $+21.56 | 0.28 |
-| deportes_previo | 46 | 98.14c | 100.00% | 92.3-100.0% | +1.86 pts | $+44.21 | 0.33 |
+| deportes_previo | 47 | 98.11c | 100.00% | 92.4-100.0% | +1.89 pts | $+45.83 | 0.33 |
 | otros_cierre | 31 | 99.02c | 100.00% | 89.0-100.0% | +0.98 pts | $+15.88 | 0.38 |
 | post_fin_95_97 | 10 | 95.96c | 89.69% | 59.6-98.2% | -6.27 pts | $-34.07 | 0.39 |
-| TOTAL | 128 | 98.44c | 99.17% | 95.7-99.9% | +0.73 pts | $+47.58 | 0.33 |
+| TOTAL | 129 | 98.43c | 99.18% | 95.7-99.9% | +0.75 pts | $+49.20 | 0.33 |
 
 ## Peores casos
 
@@ -29,27 +29,26 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
 | $51.82 | 98.5c | 98.3c | otros_cierre | si | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
-| $52.37 | 97.0c | 98.0c | deportes_previo |  | Beşiktaş JK vs. MH Hapoel Be'er Sheva: Neither team to score first? |
 | $52.37 | 99.2c | 99.0c | deportes_previo |  | Spread: K. Sint-Truidense VV (-3.5) |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 5458 | abiertas: 342 | abiertas mas de 7 dias despues de su fecha de fin: 5
+- Resueltas: 5459 | abiertas: 347 | abiertas mas de 7 dias despues de su fecha de fin: 5
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
 | cripto_cierre | todas | 1559 | 98.72c | 99.29% | +0.57 pts | +0.16 a +0.99 | 11 |
 | cripto_cierre | tocadas | 1087 | 98.56c | 98.99% | +0.43 pts | -0.16 a +1.03 | 11 |
-| deportes_previo | todas | 3048 | 98.31c | 98.77% | +0.46 pts | +0.08 a +0.85 | 39 |
-| deportes_previo | tocadas | 2508 | 98.28c | 98.74% | +0.47 pts | +0.04 a +0.90 | 33 |
+| deportes_previo | todas | 3049 | 98.31c | 98.77% | +0.46 pts | +0.08 a +0.85 | 39 |
+| deportes_previo | tocadas | 2509 | 98.28c | 98.74% | +0.47 pts | +0.04 a +0.90 | 33 |
 | otros_cierre | todas | 752 | 98.87c | 99.34% | +0.46 pts | -0.12 a +1.05 | 5 |
 | otros_cierre | tocadas | 476 | 98.70c | 98.95% | +0.25 pts | -0.67 a +1.17 | 5 |
 | post_fin_95_97 | todas | 99 | 95.90c | 93.94% | -1.96 pts | -6.69 a +2.77 | 6 |
 | post_fin_95_97 | tocadas | 87 | 95.92c | 93.10% | -2.81 pts | -8.17 a +2.54 | 6 |
-| TOTAL | todas | 5458 | 98.46c | 98.91% | +0.45 pts | +0.18 a +0.72 | 61 |
-| TOTAL | tocadas | 4158 | 98.35c | 98.71% | +0.36 pts | +0.03 a +0.70 | 55 |
+| TOTAL | todas | 5459 | 98.46c | 98.91% | +0.45 pts | +0.18 a +0.72 | 61 |
+| TOTAL | tocadas | 4159 | 98.35c | 98.71% | +0.37 pts | +0.03 a +0.70 | 55 |
 
 Peores casos del registro sombra:
 
@@ -66,4 +65,4 @@ Peores casos del registro sombra:
 
 ## Veredicto
 
-Aun no hay veredicto: van 128 operaciones cerradas en 15.0 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
+Aun no hay veredicto: van 129 operaciones cerradas en 15.0 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
