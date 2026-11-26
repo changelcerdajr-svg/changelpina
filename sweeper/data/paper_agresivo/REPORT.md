@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 13.1 de 28 | corridas: 301
-- Capital inicial: $1,000.00 | valor actual: $987.01 | P&L: $-12.99 (-1.30%)
-- Efectivo libre: $0.00 | en ordenes abiertas: $478.15 (7) | en posiciones: $524.02 (7)
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 13.1 de 28 | corridas: 302
+- Capital inicial: $1,000.00 | valor actual: $978.86 | P&L: $-21.14 (-2.11%)
+- Efectivo libre: $0.00 | en ordenes abiertas: $461.69 (6) | en posiciones: $540.48 (8)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $214.40 en 3 posiciones
-- Ordenes virtuales: 606 colocadas, 273 llenadas, 261 tocadas sin llenarse (sorteo 30%), 65 expiradas
+- Ordenes virtuales: 607 colocadas, 274 llenadas, 262 tocadas sin llenarse (sorteo 30%), 65 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -31,24 +31,25 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
-| $91.77 | 99.8c | 85.7c | otros_cierre | si | Pakistan military action against Afghanistan by November 15, 2026? |
+| $91.77 | 99.8c | 86.5c | otros_cierre | si | Pakistan military action against Afghanistan by November 15, 2026? |
 | $35.36 | 99.8c | 98.1c | otros_cierre | si | Will Mark Rothko's “Untitled” sell for between $4.5m and $5.5m at auction? |
 | $87.27 | 99.8c | 98.3c | otros_cierre | si | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
-| $16.29 | 99.9c | 100.0c | otros_cierre |  | Will the US national average gas price be less than $3.5700 on November 26? |
+| $16.29 | 99.9c | 99.9c | otros_cierre |  | Will the US national average gas price be less than $3.5700 on November 26? |
 | $95.40 | 97.3c | 97.0c | deportes_previo |  | Spread: Mjällby AIF (-2.5) |
-| $98.96 | 97.8c | 97.8c | deportes_previo |  | Spread: Qairat FK (-3.5) |
-| $98.96 | 98.9c | 98.9c | deportes_previo |  | Oregon Ducks vs. Maryland Eastern Shore Hawks (W) |
+| $98.96 | 97.8c | 88.2c | deportes_previo |  | Spread: Qairat FK (-3.5) |
+| $98.96 | 98.9c | 99.7c | deportes_previo |  | Oregon Ducks vs. Maryland Eastern Shore Hawks (W) |
+| $16.46 | 99.7c | 99.7c | cripto_cierre |  | Will the price of Bitcoin be between $56,000 and $58,000 on November 26? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 15601 | abiertas: 2409 | abiertas mas de 7 dias despues de su fecha de fin: 8
+- Resueltas: 15627 | abiertas: 2422 | abiertas mas de 7 dias despues de su fecha de fin: 8
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
-| clima_cierre | todas | 4279 | 98.80c | 98.90% | +0.10 pts | -0.21 a +0.41 | 47 |
-| clima_cierre | tocadas | 3985 | 98.82c | 98.82% | -0.00 pts | -0.34 a +0.33 | 47 |
+| clima_cierre | todas | 4305 | 98.80c | 98.91% | +0.11 pts | -0.20 a +0.42 | 47 |
+| clima_cierre | tocadas | 4009 | 98.82c | 98.83% | +0.00 pts | -0.33 a +0.34 | 47 |
 | cripto_cierre | todas | 1984 | 98.62c | 98.08% | -0.54 pts | -1.13 a +0.06 | 38 |
 | cripto_cierre | tocadas | 1810 | 98.67c | 97.90% | -0.77 pts | -1.42 a -0.12 | 38 |
 | deportes_previo | todas | 7371 | 98.05c | 97.44% | -0.61 pts | -0.96 a -0.25 | 193 |
@@ -57,8 +58,8 @@ Cada mercado que cumple una regla se anota una vez al precio limite que se habri
 | otros_cierre | tocadas | 1550 | 98.94c | 97.35% | -1.59 pts | -2.38 a -0.79 | 41 |
 | post_fin_90_97 | todas | 265 | 94.04c | 93.96% | -0.07 pts | -2.91 a +2.76 | 16 |
 | post_fin_90_97 | tocadas | 225 | 94.15c | 92.89% | -1.26 pts | -4.57 a +2.06 | 16 |
-| TOTAL | todas | 15601 | 98.36c | 97.88% | -0.48 pts | -0.71 a -0.26 | 335 |
-| TOTAL | tocadas | 14751 | 98.39c | 97.77% | -0.62 pts | -0.85 a -0.38 | 333 |
+| TOTAL | todas | 15627 | 98.36c | 97.89% | -0.48 pts | -0.70 a -0.26 | 335 |
+| TOTAL | tocadas | 14775 | 98.39c | 97.78% | -0.61 pts | -0.85 a -0.38 | 333 |
 
 Peores casos del registro sombra:
 
