@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 12.8 de 28 | corridas: 293
-- Capital inicial: $1,000.00 | valor actual: $977.58 | P&L: $-22.42 (-2.24%)
-- Efectivo libre: $4.21 | en ordenes abiertas: $399.30 (5) | en posiciones: $590.47 (7)
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 12.8 de 28 | corridas: 294
+- Capital inicial: $1,000.00 | valor actual: $979.03 | P&L: $-20.97 (-2.10%)
+- Efectivo libre: $4.21 | en ordenes abiertas: $301.54 (4) | en posiciones: $688.23 (8)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $214.40 en 3 posiciones
-- Ordenes virtuales: 590 colocadas, 268 llenadas, 255 tocadas sin llenarse (sorteo 30%), 62 expiradas
+- Ordenes virtuales: 590 colocadas, 269 llenadas, 255 tocadas sin llenarse (sorteo 30%), 62 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -31,34 +31,35 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
-| $91.77 | 99.8c | 85.4c | otros_cierre | si | Pakistan military action against Afghanistan by November 15, 2026? |
+| $91.77 | 99.8c | 84.0c | otros_cierre | si | Pakistan military action against Afghanistan by November 15, 2026? |
 | $35.36 | 99.8c | 98.1c | otros_cierre | si | Will Mark Rothko's “Untitled” sell for between $4.5m and $5.5m at auction? |
 | $87.27 | 99.8c | 98.3c | otros_cierre | si | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
-| $96.90 | 97.8c | 96.5c | deportes_previo |  | Spread: Persita Tangerang (-2.5) |
-| $92.23 | 97.2c | 97.2c | deportes_previo |  | Spread: Borneo Samarinda (-3.5) |
-| $97.47 | 98.9c | 98.9c | deportes_previo |  | Spread: Phnom Penh Crown FC (-2.5) |
-| $89.45 | 99.8c | 99.8c | deportes_previo |  | Spread: Phnom Penh Crown FC (-3.5) |
+| $97.76 | 97.9c | 97.9c | cripto_cierre |  | XRP Up or Down - November 26, 3:00AM-3:05AM ET |
+| $96.90 | 97.8c | 98.8c | deportes_previo |  | Spread: Persita Tangerang (-2.5) |
+| $92.23 | 97.2c | 99.0c | deportes_previo |  | Spread: Borneo Samarinda (-3.5) |
+| $97.47 | 98.9c | 98.0c | deportes_previo |  | Spread: Phnom Penh Crown FC (-2.5) |
+| $89.45 | 99.8c | 99.5c | deportes_previo |  | Spread: Phnom Penh Crown FC (-3.5) |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 15476 | abiertas: 2096 | abiertas mas de 7 dias despues de su fecha de fin: 5
+- Resueltas: 15490 | abiertas: 2139 | abiertas mas de 7 dias despues de su fecha de fin: 5
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
-| clima_cierre | todas | 4248 | 98.80c | 98.89% | +0.09 pts | -0.22 a +0.41 | 47 |
-| clima_cierre | tocadas | 3956 | 98.82c | 98.81% | -0.01 pts | -0.35 a +0.32 | 47 |
-| cripto_cierre | todas | 1963 | 98.64c | 98.22% | -0.42 pts | -1.00 a +0.16 | 35 |
-| cripto_cierre | tocadas | 1795 | 98.68c | 98.05% | -0.63 pts | -1.27 a -0.00 | 35 |
-| deportes_previo | todas | 7308 | 98.05c | 97.43% | -0.62 pts | -0.98 a -0.26 | 192 |
-| deportes_previo | tocadas | 7122 | 98.09c | 97.40% | -0.70 pts | -1.06 a -0.33 | 190 |
+| clima_cierre | todas | 4254 | 98.80c | 98.90% | +0.09 pts | -0.22 a +0.41 | 47 |
+| clima_cierre | tocadas | 3960 | 98.82c | 98.81% | -0.01 pts | -0.34 a +0.32 | 47 |
+| cripto_cierre | todas | 1968 | 98.63c | 98.22% | -0.41 pts | -0.99 a +0.17 | 35 |
+| cripto_cierre | tocadas | 1796 | 98.68c | 98.05% | -0.63 pts | -1.26 a -0.00 | 35 |
+| deportes_previo | todas | 7311 | 98.05c | 97.44% | -0.62 pts | -0.97 a -0.26 | 192 |
+| deportes_previo | tocadas | 7125 | 98.09c | 97.40% | -0.69 pts | -1.06 a -0.33 | 190 |
 | otros_cierre | todas | 1692 | 99.00c | 97.64% | -1.36 pts | -2.08 a -0.64 | 40 |
 | otros_cierre | tocadas | 1540 | 98.95c | 97.40% | -1.55 pts | -2.34 a -0.76 | 40 |
 | post_fin_90_97 | todas | 265 | 94.04c | 93.96% | -0.07 pts | -2.91 a +2.76 | 16 |
 | post_fin_90_97 | tocadas | 225 | 94.15c | 92.89% | -1.26 pts | -4.57 a +2.06 | 16 |
-| TOTAL | todas | 15476 | 98.37c | 97.90% | -0.47 pts | -0.69 a -0.25 | 330 |
-| TOTAL | tocadas | 14638 | 98.39c | 97.79% | -0.60 pts | -0.84 a -0.37 | 328 |
+| TOTAL | todas | 15490 | 98.37c | 97.90% | -0.47 pts | -0.69 a -0.24 | 330 |
+| TOTAL | tocadas | 14646 | 98.39c | 97.79% | -0.60 pts | -0.84 a -0.36 | 328 |
 
 Peores casos del registro sombra:
 

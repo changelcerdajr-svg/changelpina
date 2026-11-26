@@ -1,6 +1,6 @@
 {
  "capital0": 1000.0,
- "cash": 420.8894,
+ "cash": 420.5702,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
   {
@@ -88,48 +88,6 @@
    "liq": 1961
   },
   {
-   "oid": "7347464-1795669265",
-   "id": "7347464",
-   "q": "Spread: Tai Po FC (-1.5)",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1458789",
-   "side": 1,
-   "token": "94165037963357073151428582986266224348861238885962569996572270733594700092903",
-   "px": 0.975,
-   "tick": 0.001,
-   "mid": 0.975,
-   "bid": 0.97,
-   "ask": 0.98,
-   "shares": 53.389,
-   "cost": 52.0543,
-   "ts": 1795669265.58778,
-   "end_ts": 1795695300.0,
-   "hours": 7.23,
-   "liq": 2628
-  },
-  {
-   "oid": "7347474-1795672864",
-   "id": "7347474",
-   "q": "Tai Po FC vs. Adelaide United FC: O/U 0.5",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1458789",
-   "side": 0,
-   "token": "40857682487505692712272034225165631525968972923819936156879890464909543660569",
-   "px": 0.972,
-   "tick": 0.001,
-   "mid": 0.9725,
-   "bid": 0.965,
-   "ask": 0.98,
-   "shares": 53.8822,
-   "cost": 52.3735,
-   "ts": 1795672864.205817,
-   "end_ts": 1795695300.0,
-   "hours": 6.23,
-   "liq": 1602
-  },
-  {
    "oid": "7176613-1795676464",
    "id": "7176613",
    "q": "Will the price of Ethereum be above $1,400 on November 26?",
@@ -149,27 +107,6 @@
    "end_ts": 1795712400.0,
    "hours": 9.98,
    "liq": 31595
-  },
-  {
-   "oid": "7347337-1795680066",
-   "id": "7347337",
-   "q": "Will the US national average gas price be between $3.5700 and $3.5799 on November 26?",
-   "cat": "otros",
-   "rule": "otros_cierre",
-   "event": "1458764",
-   "side": 1,
-   "token": "45588484555742519743176860156317374555798744657470163520976321338778840392356",
-   "px": 0.991,
-   "tick": 0.001,
-   "mid": 0.991,
-   "bid": 0.986,
-   "ask": 0.996,
-   "shares": 52.8491,
-   "cost": 52.3735,
-   "ts": 1795680066.930602,
-   "end_ts": 1795705200.0,
-   "hours": 6.98,
-   "liq": 1564
   },
   {
    "oid": "7176610-1795680066",
@@ -233,6 +170,69 @@
    "end_ts": 1795712400.0,
    "hours": 8.98,
    "liq": 36341
+  },
+  {
+   "oid": "7016197-1795683669",
+   "id": "7016197",
+   "q": "Auburn Tigers vs. Southern Jaguars (W)",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1380128",
+   "side": 0,
+   "token": "108414503407295371189680221858514708358554605038393463234554435207941450284002",
+   "px": 0.986,
+   "tick": 0.001,
+   "mid": 0.9865,
+   "bid": 0.983,
+   "ask": 0.99,
+   "shares": 53.1171,
+   "cost": 52.3735,
+   "ts": 1795683669.297591,
+   "end_ts": 1795708800.0,
+   "hours": 6.98,
+   "liq": 4391
+  },
+  {
+   "oid": "6994164-1795683669",
+   "id": "6994164",
+   "q": "FC Red Bull Salzburg vs. Ararat-Armenia FA: Neither team to score first?",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1373511",
+   "side": 1,
+   "token": "78027718207249038455679498976878192788285811232040142934242007962619229402815",
+   "px": 0.98,
+   "tick": 0.001,
+   "mid": 0.9805,
+   "bid": 0.976,
+   "ask": 0.985,
+   "shares": 53.4423,
+   "cost": 52.3735,
+   "ts": 1795683669.297591,
+   "end_ts": 1795715100.0,
+   "hours": 8.73,
+   "liq": 4723
+  },
+  {
+   "oid": "6364896-1795683669",
+   "id": "6364896",
+   "q": "Will the next Claude Opus model (5.6+) be released on November 26, 2026?",
+   "cat": "otros",
+   "rule": "otros_cierre",
+   "event": "1274168",
+   "side": 1,
+   "token": "65904389697380003839214312579684090708489614338697876195538515603103955364310",
+   "px": 0.981,
+   "tick": 0.001,
+   "mid": 0.9815,
+   "bid": 0.973,
+   "ask": 0.99,
+   "shares": 53.3879,
+   "cost": 52.3735,
+   "ts": 1795683669.297591,
+   "end_ts": 1795755540.0,
+   "hours": 19.96,
+   "liq": 1423
   }
  ],
  "positions": [
@@ -8348,14 +8348,27 @@
    "placed": 4,
    "shadow_open": 297,
    "shadow_closed": 20
+  },
+  {
+   "ts": "2026-11-26T09:01:51Z",
+   "equity": 1047.47,
+   "cash": 420.57,
+   "orders": 11,
+   "positions": 1,
+   "closed": 128,
+   "scanned": 9333,
+   "candidates": 224,
+   "placed": 3,
+   "shadow_open": 315,
+   "shadow_closed": 1
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 572,
+  "placed": 575,
   "filled": 129,
   "expired": 124,
-  "touched_not_filled": 308
+  "touched_not_filled": 311
  },
  "shadow": [
   {
@@ -10816,19 +10829,6 @@
    "touched": 1
   },
   {
-   "id": "7335807",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "94077981109277556987379932342380986242675160719636202340711050521576208076516",
-   "px": 0.973,
-   "tick": 0.001,
-   "ts": 1795640467,
-   "end_ts": 1795669200,
-   "q": "Will Ethereum dip to $1,600 on November 25?",
-   "touched": null
-  },
-  {
    "id": "7347340",
    "rule": "otros_cierre",
    "cat": "otros",
@@ -10839,7 +10839,7 @@
    "ts": 1795640467,
    "end_ts": 1795705200,
    "q": "Will the US national average gas price be between $3.5900 and $3.5999 on November 26?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6994330",
@@ -10852,7 +10852,7 @@
    "ts": 1795640467,
    "end_ts": 1795715100,
    "q": "Beşiktaş JK vs. MH Hapoel Be'er Sheva: Neither team to score first?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6994972",
@@ -10865,7 +10865,7 @@
    "ts": 1795640467,
    "end_ts": 1795715100,
    "q": "Spread: RC Celta de Vigo (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6995801",
@@ -10878,7 +10878,7 @@
    "ts": 1795640467,
    "end_ts": 1795715100,
    "q": "Brighton & Hove Albion FC vs. Universitatea Craiova CS: Neither team to score first?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7095992",
@@ -10891,7 +10891,7 @@
    "ts": 1795640467,
    "end_ts": 1795707000,
    "q": "Qairat FK vs. Mjällby AIF: O/U 8.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7101655",
@@ -10904,7 +10904,7 @@
    "ts": 1795640467,
    "end_ts": 1795723200,
    "q": "HNK Hajduk Split vs. K. Sint-Truidense VV: O/U 7.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7101778",
@@ -10917,7 +10917,7 @@
    "ts": 1795640467,
    "end_ts": 1795723200,
    "q": "Spread: FK Borac Banja Luka (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7101885",
@@ -10930,7 +10930,7 @@
    "ts": 1795640467,
    "end_ts": 1795723200,
    "q": "PFK CSKA Sofia vs. Trabzonspor: O/U 7.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7104006",
@@ -10943,7 +10943,7 @@
    "ts": 1795640467,
    "end_ts": 1795723200,
    "q": "Juventus FC vs. AS Omónoia Leukosías: Neither team to score first?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7104049",
@@ -10956,7 +10956,7 @@
    "ts": 1795640467,
    "end_ts": 1795723200,
    "q": "Olympique Lyonnais vs. Lillestrøm SK: Neither team to score first?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7194401",
@@ -10969,7 +10969,7 @@
    "ts": 1795640467,
    "end_ts": 1795723200,
    "q": "Spread: Doncaster Rovers FC (-2.5)",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7309834",
@@ -12217,6 +12217,253 @@
    "ts": 1795680066,
    "end_ts": 1795755600,
    "q": "Will Ethereum reach $1,800 on November 26?",
+   "touched": null
+  },
+  {
+   "id": "7176691",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "82098852640333950325461066059849383196387123672288912208469140047714952926257",
+   "px": 0.978,
+   "tick": 0.001,
+   "ts": 1795683669,
+   "end_ts": 1795712400,
+   "q": "Will the price of XRP be between $0.80 and $0.90 on November 26?",
+   "touched": null
+  },
+  {
+   "id": "7176694",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "5636690685531541462358360915726086226631260015692924805494002858614254898611",
+   "px": 0.976,
+   "tick": 0.001,
+   "ts": 1795683669,
+   "end_ts": 1795712400,
+   "q": "Will the price of XRP be between $1.00 and $1.10 on November 26?",
+   "touched": null
+  },
+  {
+   "id": "7102403",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "82759082237261010953658398595263274768841664671793288372924242215132389653539",
+   "px": 0.991,
+   "tick": 0.001,
+   "ts": 1795683669,
+   "end_ts": 1795723200,
+   "q": "Spread: SC União Torreense (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "7104178",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "82728354880346766371926852750563613691724889838182244651510297909553313850298",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795683669,
+   "end_ts": 1795723200,
+   "q": "TSG 1899 Hoffenheim vs. SK Puntigamer Sturm Graz: Neither team to score first?",
+   "touched": null
+  },
+  {
+   "id": "7016208",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "7469500644845620192352868035086025632284471404389650924457333412165422774087",
+   "px": 0.972,
+   "tick": 0.001,
+   "ts": 1795683669,
+   "end_ts": 1795732200,
+   "q": "Air Force Falcons vs. Texas Tech Red Raiders (W)",
+   "touched": null
+  },
+  {
+   "id": "7254943",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "10438476766697940007840617807041032388803189557593809648678675696448305929697",
+   "px": 0.992,
+   "tick": 0.001,
+   "ts": 1795683669,
+   "end_ts": 1795755540,
+   "q": "Will TheBurntPeanut finish GTA VI by November 26?",
+   "touched": null
+  },
+  {
+   "id": "7363506",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "7504020362206035066314119421443410837443459172254778794107126885283035992155",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795683669,
+   "end_ts": 1795755600,
+   "q": "Will Ethereum dip to $1,400 on November 26?",
+   "touched": null
+  },
+  {
+   "id": "7363507",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "40113905419708331408785124341838534623815967340595386093044459233870313514887",
+   "px": 0.986,
+   "tick": 0.001,
+   "ts": 1795683669,
+   "end_ts": 1795755600,
+   "q": "Will Solana reach $95 on November 26?",
+   "touched": null
+  },
+  {
+   "id": "7363508",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "17433909306503711455154887408230825434039232988372893956521314559566738546053",
+   "px": 0.986,
+   "tick": 0.001,
+   "ts": 1795683669,
+   "end_ts": 1795755600,
+   "q": "Will Solana reach $90 on November 26?",
+   "touched": null
+  },
+  {
+   "id": "7363509",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "101501802131270092036185088112821083081635085991652804666399775093388774533636",
+   "px": 0.986,
+   "tick": 0.001,
+   "ts": 1795683669,
+   "end_ts": 1795755600,
+   "q": "Will Solana reach $85 on November 26?",
+   "touched": null
+  },
+  {
+   "id": "7363514",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "102698563330520597840113102225237342434116301611442487674302124551871922454178",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795683669,
+   "end_ts": 1795755600,
+   "q": "Will Solana dip to $60 on November 26?",
+   "touched": null
+  },
+  {
+   "id": "7363515",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "18939488933431446502252777567725545728728389723879894244453668792006235261224",
+   "px": 0.987,
+   "tick": 0.001,
+   "ts": 1795683669,
+   "end_ts": 1795755600,
+   "q": "Will Solana dip to $55 on November 26?",
+   "touched": null
+  },
+  {
+   "id": "7363516",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "42231422658826089732540318663228054982146371034500679760533977379417004329247",
+   "px": 0.987,
+   "tick": 0.001,
+   "ts": 1795683669,
+   "end_ts": 1795755600,
+   "q": "Will Solana dip to $50 on November 26?",
+   "touched": null
+  },
+  {
+   "id": "7363517",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "83264885438036770423993786376502868931422073060985128585934614405171366706691",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795683669,
+   "end_ts": 1795755600,
+   "q": "Will XRP reach $1.20 on November 26?",
+   "touched": null
+  },
+  {
+   "id": "7363518",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "109683397445738474005630996839119670343936880660764330917100322124194323633442",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795683669,
+   "end_ts": 1795755600,
+   "q": "Will XRP reach $1.15 on November 26?",
+   "touched": null
+  },
+  {
+   "id": "7363519",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "65797292508815639843714771453571191165501261315025007007780259778079541980731",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795683669,
+   "end_ts": 1795755600,
+   "q": "Will XRP reach $1.10 on November 26?",
+   "touched": null
+  },
+  {
+   "id": "7363524",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "46837649474815536825545598107985215800546969729965500020970121654705657015597",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795683669,
+   "end_ts": 1795755600,
+   "q": "Will XRP dip to $0.85 on November 26?",
+   "touched": null
+  },
+  {
+   "id": "7363525",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "95243401584481831012878642631562059419250607699236371805795914595020835395057",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795683669,
+   "end_ts": 1795755600,
+   "q": "Will XRP dip to $0.80 on November 26?",
+   "touched": null
+  },
+  {
+   "id": "7363526",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "93159756126839483492821523891007510055952186119120449500534151731004130151129",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795683669,
+   "end_ts": 1795755600,
+   "q": "Will XRP dip to $0.75 on November 26?",
    "touched": null
   }
  ]
