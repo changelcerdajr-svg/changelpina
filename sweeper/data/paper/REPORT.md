@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-11T22:05:26Z | dias corridos: 14.5 de 28 | corridas: 331
+- Inicio: 2026-11-11T22:05:26Z | dias corridos: 14.5 de 28 | corridas: 332
 - Capital inicial: $1,000.00 | valor actual: $1,047.47 | P&L: $+47.47 (+4.75%)
 - Efectivo libre: $420.57 | en ordenes abiertas: $575.19 (11) | en posiciones: $51.82 (1)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $51.82 en 1 posiciones
-- Ordenes virtuales: 575 colocadas, 129 llenadas, 311 tocadas sin llenarse (sorteo 30%), 124 expiradas
+- Ordenes virtuales: 576 colocadas, 129 llenadas, 312 tocadas sin llenarse (sorteo 30%), 124 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -34,7 +34,7 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 5295 | abiertas: 315 | abiertas mas de 7 dias despues de su fecha de fin: 5
+- Resueltas: 5295 | abiertas: 322 | abiertas mas de 7 dias despues de su fecha de fin: 5
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|

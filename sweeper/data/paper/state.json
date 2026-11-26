@@ -172,27 +172,6 @@
    "liq": 36341
   },
   {
-   "oid": "7016197-1795683669",
-   "id": "7016197",
-   "q": "Auburn Tigers vs. Southern Jaguars (W)",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1380128",
-   "side": 0,
-   "token": "108414503407295371189680221858514708358554605038393463234554435207941450284002",
-   "px": 0.986,
-   "tick": 0.001,
-   "mid": 0.9865,
-   "bid": 0.983,
-   "ask": 0.99,
-   "shares": 53.1171,
-   "cost": 52.3735,
-   "ts": 1795683669.297591,
-   "end_ts": 1795708800.0,
-   "hours": 6.98,
-   "liq": 4391
-  },
-  {
    "oid": "6994164-1795683669",
    "id": "6994164",
    "q": "FC Red Bull Salzburg vs. Ararat-Armenia FA: Neither team to score first?",
@@ -233,6 +212,27 @@
    "end_ts": 1795755540.0,
    "hours": 19.96,
    "liq": 1423
+  },
+  {
+   "oid": "6994330-1795687267",
+   "id": "6994330",
+   "q": "Beşiktaş JK vs. MH Hapoel Be'er Sheva: Neither team to score first?",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1373523",
+   "side": 1,
+   "token": "22549537875426813914751091087680344993719582200953822052883568902552732170448",
+   "px": 0.97,
+   "tick": 0.001,
+   "mid": 0.97,
+   "bid": 0.962,
+   "ask": 0.978,
+   "shares": 53.9933,
+   "cost": 52.3735,
+   "ts": 1795687267.772214,
+   "end_ts": 1795715100.0,
+   "hours": 7.73,
+   "liq": 13818
   }
  ],
  "positions": [
@@ -8361,14 +8361,27 @@
    "placed": 3,
    "shadow_open": 315,
    "shadow_closed": 1
+  },
+  {
+   "ts": "2026-11-26T10:01:57Z",
+   "equity": 1047.47,
+   "cash": 420.57,
+   "orders": 11,
+   "positions": 1,
+   "closed": 128,
+   "scanned": 8694,
+   "candidates": 223,
+   "placed": 1,
+   "shadow_open": 322,
+   "shadow_closed": 0
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 575,
+  "placed": 576,
   "filled": 129,
   "expired": 124,
-  "touched_not_filled": 311
+  "touched_not_filled": 312
  },
  "shadow": [
   {
@@ -12464,6 +12477,97 @@
    "ts": 1795683669,
    "end_ts": 1795755600,
    "q": "Will XRP dip to $0.75 on November 26?",
+   "touched": null
+  },
+  {
+   "id": "6936673",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "89719390995830998835988106926449141529660098506165171869183311827014696292063",
+   "px": 0.975,
+   "tick": 0.001,
+   "ts": 1795687267,
+   "end_ts": 1795716000,
+   "q": "Bears vs. Lions: O/U 30.5",
+   "touched": null
+  },
+  {
+   "id": "6994727",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "30163799968655785031001758919860519701621055190778846698198664020912331913372",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1795687267,
+   "end_ts": 1795715100,
+   "q": "Beşiktaş JK vs. MH Hapoel Be'er Sheva: O/U 8.5",
+   "touched": null
+  },
+  {
+   "id": "7098660",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "95393653607141772137266202896368136798383806964069048383969003070621463934006",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1795687267,
+   "end_ts": 1795715100,
+   "q": "Brighton & Hove Albion FC vs. Universitatea Craiova CS: O/U 8.5",
+   "touched": null
+  },
+  {
+   "id": "7098690",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "108565876648947929201027800964251148206623140601834947014554696517932841398525",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795687267,
+   "end_ts": 1795715100,
+   "q": "Spread: FK Kauno Žalgiris (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "7101746",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "86120908089285669639770143992641797350035129021514714958499211566553184268656",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795687267,
+   "end_ts": 1795723200,
+   "q": "Inter Club d'Escaldes vs. FC København: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "7102451",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "91147784106011808673051432592725140971342355111209349532759336214579703020787",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795687267,
+   "end_ts": 1795723200,
+   "q": "Spread: SK Puntigamer Sturm Graz (-1.5)",
+   "touched": null
+  },
+  {
+   "id": "7363510",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "24938386361327340079602478608879385128438680341600341634156419441778522202034",
+   "px": 0.984,
+   "tick": 0.001,
+   "ts": 1795687267,
+   "end_ts": 1795755600,
+   "q": "Will Solana reach $80 on November 26?",
    "touched": null
   }
  ]
