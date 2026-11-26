@@ -1,6 +1,6 @@
 {
  "capital0": 1000.0,
- "cash": 419.6473,
+ "cash": 419.6539,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
   {
@@ -109,27 +109,6 @@
    "liq": 4723
   },
   {
-   "oid": "6364896-1795683669",
-   "id": "6364896",
-   "q": "Will the next Claude Opus model (5.6+) be released on November 26, 2026?",
-   "cat": "otros",
-   "rule": "otros_cierre",
-   "event": "1274168",
-   "side": 1,
-   "token": "65904389697380003839214312579684090708489614338697876195538515603103955364310",
-   "px": 0.981,
-   "tick": 0.001,
-   "mid": 0.9815,
-   "bid": 0.973,
-   "ask": 0.99,
-   "shares": 53.3879,
-   "cost": 52.3735,
-   "ts": 1795683669.297591,
-   "end_ts": 1795755540.0,
-   "hours": 19.96,
-   "liq": 1423
-  },
-  {
    "oid": "6994330-1795687267",
    "id": "6994330",
    "q": "Beşiktaş JK vs. MH Hapoel Be'er Sheva: Neither team to score first?",
@@ -212,6 +191,27 @@
    "end_ts": 1795728600.0,
    "hours": 7.48,
    "liq": 19975
+  },
+  {
+   "oid": "6364896-1795705270",
+   "id": "6364896",
+   "q": "Will the next Claude Opus model (5.6+) be released on November 26, 2026?",
+   "cat": "otros",
+   "rule": "otros_cierre",
+   "event": "1274168",
+   "side": 1,
+   "token": "65904389697380003839214312579684090708489614338697876195538515603103955364310",
+   "px": 0.98,
+   "tick": 0.001,
+   "mid": 0.98,
+   "bid": 0.971,
+   "ask": 0.989,
+   "shares": 53.4356,
+   "cost": 52.3669,
+   "ts": 1795705270.686716,
+   "end_ts": 1795755540.0,
+   "hours": 13.96,
+   "liq": 2712
   }
  ],
  "positions": [
@@ -261,7 +261,9 @@
    "hours": 7.26,
    "liq": 3461,
    "fill_ts": 1795701666.5232,
-   "mark": 0.992
+   "mark": 0.9895,
+   "stuck": false,
+   "disputed": false
   }
  ],
  "closed": [
@@ -8441,14 +8443,27 @@
    "placed": 1,
    "shadow_open": 370,
    "shadow_closed": 0
+  },
+  {
+   "ts": "2026-11-26T15:01:55Z",
+   "equity": 1047.34,
+   "cash": 419.65,
+   "orders": 10,
+   "positions": 2,
+   "closed": 128,
+   "scanned": 12159,
+   "candidates": 108,
+   "placed": 1,
+   "shadow_open": 380,
+   "shadow_closed": 1
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 580,
+  "placed": 581,
   "filled": 130,
   "expired": 128,
-  "touched_not_filled": 312
+  "touched_not_filled": 313
  },
  "shadow": [
   {
@@ -11169,19 +11184,6 @@
    "touched": 1
   },
   {
-   "id": "7334506",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "97904619391921783619043857839433971159410585576889509881092143977684575174429",
-   "px": 0.975,
-   "tick": 0.001,
-   "ts": 1795661579,
-   "end_ts": 1795661700,
-   "q": "Bitcoin Up or Down - November 25, 9:50PM-9:55PM ET",
-   "touched": null
-  },
-  {
    "id": "7101838",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -11192,7 +11194,7 @@
    "ts": 1795661579,
    "end_ts": 1795723200,
    "q": "FC Nordsjælland vs. Panathinaikós AO: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7101886",
@@ -11205,7 +11207,7 @@
    "ts": 1795661579,
    "end_ts": 1795723200,
    "q": "PFK CSKA Sofia vs. Trabzonspor: O/U 8.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7194417",
@@ -11218,7 +11220,7 @@
    "ts": 1795661579,
    "end_ts": 1795723200,
    "q": "Doncaster Rovers FC vs. Huddersfield Town AFC: O/U 8.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7361930",
@@ -11231,7 +11233,7 @@
    "ts": 1795661579,
    "end_ts": 1795741200,
    "q": "CF Pachuca vs. CD Guadalajara: O/U 6.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7361931",
@@ -11244,7 +11246,7 @@
    "ts": 1795661579,
    "end_ts": 1795741200,
    "q": "CF Pachuca vs. CD Guadalajara: O/U 7.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6935852",
@@ -13259,6 +13261,149 @@
    "ts": 1795701666,
    "end_ts": 1795809600,
    "q": "Senators vs. Lightning: O/U 2.5",
+   "touched": null
+  },
+  {
+   "id": "7315626",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "47547553957347614212624378108471564555694081491473057180567680175408901775499",
+   "px": 0.983,
+   "tick": 0.001,
+   "ts": 1795705270,
+   "end_ts": 1795712400,
+   "q": "Bitcoin Up or Down on November 26?",
+   "touched": null
+  },
+  {
+   "id": "7363481",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "66574343150314364190298265485683727401767215151159417540147247995363653475308",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795705270,
+   "end_ts": 1795755600,
+   "q": "Will Bitcoin reach $64,000 on November 26?",
+   "touched": null
+  },
+  {
+   "id": "7179471",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "30937960302818771066476164904681961582770576990075214842117148938514576309487",
+   "px": 0.992,
+   "tick": 0.001,
+   "ts": 1795705270,
+   "end_ts": 1795808700,
+   "q": "Stade Brestois 29 vs. Paris FC: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "7179472",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "68591126703217794341662738232971264673952833171210456394100623814773082534508",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795705270,
+   "end_ts": 1795808700,
+   "q": "Stade Brestois 29 vs. Paris FC: O/U 8.5",
+   "touched": null
+  },
+  {
+   "id": "7179939",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "48093459802884376742083621227738491374985063395713343869455867191474846415558",
+   "px": 0.993,
+   "tick": 0.001,
+   "ts": 1795705270,
+   "end_ts": 1795808700,
+   "q": "Venezia FC vs. Bologna FC 1909: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "7179940",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "53233195333887116741828443702465032084664094845216770044670103569290686082170",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795705270,
+   "end_ts": 1795808700,
+   "q": "Venezia FC vs. Bologna FC 1909: O/U 8.5",
+   "touched": null
+  },
+  {
+   "id": "7180104",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "8748030142621459232926605267206246485488304212840312487887240450921573114434",
+   "px": 0.99,
+   "tick": 0.001,
+   "ts": 1795705270,
+   "end_ts": 1795809600,
+   "q": "Nottingham Forest FC vs. Chelsea FC: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "7291480",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "28553527885914769800046725662803648132637352905591504897639902784437433791993",
+   "px": 0.972,
+   "tick": 0.001,
+   "ts": 1795705270,
+   "end_ts": 1795807800,
+   "q": "CD Leganés vs. CE Sabadell FC: O/U 5.5",
+   "touched": null
+  },
+  {
+   "id": "7361010",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "17501238221803943864794681938729716330047469500359210787407006112853294884130",
+   "px": 0.973,
+   "tick": 0.001,
+   "ts": 1795705270,
+   "end_ts": 1795813200,
+   "q": "Golden Knights vs. Sharks: O/U 2.5",
+   "touched": null
+  },
+  {
+   "id": "7361020",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "26084503904001659636401755359726055410289192733337539127223763277827960772144",
+   "px": 0.972,
+   "tick": 0.001,
+   "ts": 1795705270,
+   "end_ts": 1795813200,
+   "q": "Kings vs. Ducks: O/U 2.5",
+   "touched": null
+  },
+  {
+   "id": "7361030",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "69054602291420202360664338136441189305751725816815987342259022868757903517613",
+   "px": 0.971,
+   "tick": 0.001,
+   "ts": 1795705270,
+   "end_ts": 1795813200,
+   "q": "Avalanche vs. Wild: O/U 2.5",
    "touched": null
   }
  ]
