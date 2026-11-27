@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-11T22:05:26Z | dias corridos: 15.6 de 28 | corridas: 362
-- Capital inicial: $1,000.00 | valor actual: $998.82 | P&L: $-1.18 (-0.12%)
-- Efectivo libre: $406.41 | en ordenes abiertas: $349.61 (7) | en posiciones: $243.13 (5)
+- Inicio: 2026-11-11T22:05:26Z | dias corridos: 15.7 de 28 | corridas: 363
+- Capital inicial: $1,000.00 | valor actual: $998.91 | P&L: $-1.09 (-0.11%)
+- Efectivo libre: $406.41 | en ordenes abiertas: $299.70 (6) | en posiciones: $293.04 (6)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $51.82 en 1 posiciones
-- Ordenes virtuales: 612 colocadas, 138 llenadas, 329 tocadas sin llenarse (sorteo 30%), 138 expiradas
+- Ordenes virtuales: 612 colocadas, 139 llenadas, 329 tocadas sin llenarse (sorteo 30%), 138 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -33,13 +33,14 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 | $52.30 | 98.8c | 98.8c | deportes_previo |  | FK Livyi Bereh vs. FK Kolos Kovalivka: O/U 6.5 |
 | $44.49 | 97.7c | 97.0c | deportes_previo |  | Spread: Sisaket United FC (-2.5) |
 | $49.95 | 98.1c | 98.2c | deportes_previo |  | Spread: Zira FK (-2.5) |
-| $44.57 | 98.5c | 98.6c | otros_cierre |  | Will Alphabet Inc. (GOOGL) hit (LOW) $235 Week of November 23 2026? |
+| $49.90 | 99.5c | 99.5c | cripto_cierre |  | Will the price of Bitcoin be between $54,000 and $56,000 on November 27? |
+| $44.57 | 98.5c | 98.8c | otros_cierre |  | Will Alphabet Inc. (GOOGL) hit (LOW) $235 Week of November 23 2026? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 5626 | abiertas: 557 | abiertas mas de 7 dias despues de su fecha de fin: 5
+- Resueltas: 5626 | abiertas: 578 | abiertas mas de 7 dias despues de su fecha de fin: 5
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
@@ -69,4 +70,4 @@ Peores casos del registro sombra:
 
 ## Veredicto
 
-Aun no hay veredicto: van 133 operaciones cerradas en 15.6 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
+Aun no hay veredicto: van 133 operaciones cerradas en 15.7 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
