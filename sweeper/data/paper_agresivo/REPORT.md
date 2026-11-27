@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 14.1 de 28 | corridas: 327
-- Capital inicial: $1,000.00 | valor actual: $916.26 | P&L: $-83.74 (-8.37%)
-- Efectivo libre: $-0.00 | en ordenes abiertas: $394.31 (6) | en posiciones: $536.01 (8)
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 14.1 de 28 | corridas: 328
+- Capital inicial: $1,000.00 | valor actual: $913.47 | P&L: $-86.53 (-8.65%)
+- Efectivo libre: $-0.00 | en ordenes abiertas: $167.33 (3) | en posiciones: $762.99 (11)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $214.40 en 3 posiciones
-- Ordenes virtuales: 655 colocadas, 299 llenadas, 277 tocadas sin llenarse (sorteo 30%), 73 expiradas
+- Ordenes virtuales: 655 colocadas, 302 llenadas, 277 tocadas sin llenarse (sorteo 30%), 73 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -38,14 +38,17 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 | $88.56 | 98.3c | 98.7c | deportes_previo |  | Spread: Al-Sailiya SC (-2.5) |
 | $88.11 | 96.2c | 100.0c | deportes_previo |  | Al-Sailiya SC vs. Al Gharafa SC: O/U 0.5 |
 | $45.26 | 98.8c | 98.5c | deportes_previo |  | Spread: Zira FK (-2.5) |
-| $88.73 | 99.8c | 99.8c | cripto_cierre |  | Will the price of Bitcoin be between $54,000 and $56,000 on November 27? |
-| $10.94 | 99.7c | 99.7c | cripto_cierre |  | Will the price of Bitcoin be between $56,000 and $58,000 on November 27? |
+| $91.63 | 97.9c | 97.9c | deportes_previo |  | Spread: PFC Slavia Sofia (-2.5) |
+| $52.95 | 97.3c | 97.3c | deportes_previo |  | Spread: FC Lokomotiv 1929 Sofia (-3.5) |
+| $88.73 | 99.8c | 98.6c | cripto_cierre |  | Will the price of Bitcoin be between $54,000 and $56,000 on November 27? |
+| $10.94 | 99.7c | 83.5c | cripto_cierre |  | Will the price of Bitcoin be between $56,000 and $58,000 on November 27? |
+| $82.41 | 99.8c | 99.8c | cripto_cierre |  | Will the price of Bitcoin be between $52,000 and $54,000 on November 27? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 16692 | abiertas: 2878 | abiertas mas de 7 dias despues de su fecha de fin: 8
+- Resueltas: 16692 | abiertas: 2884 | abiertas mas de 7 dias despues de su fecha de fin: 8
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
