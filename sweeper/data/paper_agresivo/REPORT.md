@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 13.6 de 28 | corridas: 315
-- Capital inicial: $1,000.00 | valor actual: $992.69 | P&L: $-7.31 (-0.73%)
-- Efectivo libre: $0.00 | en ordenes abiertas: $488.65 (7) | en posiciones: $529.46 (9)
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 13.7 de 28 | corridas: 316
+- Capital inicial: $1,000.00 | valor actual: $916.42 | P&L: $-83.58 (-8.36%)
+- Efectivo libre: $-0.00 | en ordenes abiertas: $313.20 (6) | en posiciones: $704.91 (11)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $214.40 en 3 posiciones
-- Ordenes virtuales: 633 colocadas, 287 llenadas, 270 tocadas sin llenarse (sorteo 30%), 69 expiradas
+- Ordenes virtuales: 635 colocadas, 289 llenadas, 270 tocadas sin llenarse (sorteo 30%), 70 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -31,36 +31,38 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
-| $91.77 | 99.8c | 84.4c | otros_cierre | si | Pakistan military action against Afghanistan by November 15, 2026? |
+| $91.77 | 99.8c | 86.0c | otros_cierre | si | Pakistan military action against Afghanistan by November 15, 2026? |
 | $35.36 | 99.8c | 98.1c | otros_cierre | si | Will Mark Rothko's “Untitled” sell for between $4.5m and $5.5m at auction? |
 | $87.27 | 99.8c | 98.3c | otros_cierre | si | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
 | $19.30 | 95.9c | 99.4c | post_fin_90_97 |  | Will the highest temperature in Dallas be between 56-57°F on November 26? |
-| $99.67 | 97.3c | 87.8c | deportes_previo |  | Spread: CF Cruz Azul (-3.5) |
+| $99.67 | 97.3c | 15.0c | deportes_previo |  | Spread: CF Cruz Azul (-3.5) |
 | $14.19 | 99.9c | 100.0c | deportes_previo |  | Games Total: O/U 2.5 |
-| $12.22 | 96.0c | 94.5c | deportes_previo |  | Spread: Gonzaga Bulldogs (-20.5) |
-| $99.87 | 96.0c | 96.0c | deportes_previo |  | Spread: Baylor Bears (-14.5) |
+| $12.22 | 96.0c | 97.1c | deportes_previo |  | Spread: Gonzaga Bulldogs (-20.5) |
+| $99.87 | 96.0c | 92.5c | deportes_previo |  | Spread: Baylor Bears (-14.5) |
 | $69.81 | 99.5c | 99.5c | otros_cierre |  | Will the next Grok model (4.8+) be released on November 26, 2026? |
+| $99.27 | 99.7c | 99.7c | otros_cierre |  | Will the next Claude Opus model (5.6+) be released on November 26, 2026? |
+| $76.19 | 99.7c | 99.7c | cripto_cierre |  | Solana Up or Down - November 26, 8:00PM-12:00AM ET |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 16376 | abiertas: 2446 | abiertas mas de 7 dias despues de su fecha de fin: 8
+- Resueltas: 16421 | abiertas: 2545 | abiertas mas de 7 dias despues de su fecha de fin: 8
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
-| clima_cierre | todas | 4550 | 98.80c | 98.95% | +0.15 pts | -0.15 a +0.44 | 48 |
-| clima_cierre | tocadas | 4236 | 98.82c | 98.87% | +0.05 pts | -0.27 a +0.36 | 48 |
-| cripto_cierre | todas | 2093 | 98.61c | 98.09% | -0.52 pts | -1.11 a +0.06 | 40 |
-| cripto_cierre | tocadas | 1906 | 98.66c | 97.90% | -0.76 pts | -1.40 a -0.13 | 40 |
-| deportes_previo | todas | 7732 | 98.05c | 97.43% | -0.61 pts | -0.96 a -0.26 | 203 |
-| deportes_previo | tocadas | 7522 | 98.09c | 97.39% | -0.70 pts | -1.06 a -0.35 | 201 |
+| clima_cierre | todas | 4555 | 98.80c | 98.95% | +0.15 pts | -0.15 a +0.44 | 48 |
+| clima_cierre | tocadas | 4239 | 98.82c | 98.87% | +0.05 pts | -0.27 a +0.36 | 48 |
+| cripto_cierre | todas | 2097 | 98.61c | 98.09% | -0.52 pts | -1.10 a +0.06 | 40 |
+| cripto_cierre | tocadas | 1909 | 98.67c | 97.90% | -0.76 pts | -1.40 a -0.12 | 40 |
+| deportes_previo | todas | 7764 | 98.05c | 97.39% | -0.65 pts | -1.00 a -0.30 | 207 |
+| deportes_previo | tocadas | 7554 | 98.09c | 97.35% | -0.74 pts | -1.10 a -0.39 | 205 |
 | otros_cierre | todas | 1727 | 98.99c | 97.57% | -1.43 pts | -2.15 a -0.70 | 42 |
 | otros_cierre | tocadas | 1575 | 98.95c | 97.33% | -1.61 pts | -2.40 a -0.82 | 42 |
-| post_fin_90_97 | todas | 274 | 94.03c | 93.80% | -0.23 pts | -3.06 a +2.60 | 17 |
-| post_fin_90_97 | tocadas | 232 | 94.14c | 92.67% | -1.47 pts | -4.78 a +1.85 | 17 |
-| TOTAL | todas | 16376 | 98.36c | 97.89% | -0.47 pts | -0.69 a -0.25 | 350 |
-| TOTAL | tocadas | 15471 | 98.39c | 97.78% | -0.61 pts | -0.84 a -0.38 | 348 |
+| post_fin_90_97 | todas | 278 | 94.00c | 93.88% | -0.11 pts | -2.90 a +2.68 | 17 |
+| post_fin_90_97 | tocadas | 235 | 94.10c | 92.77% | -1.34 pts | -4.61 a +1.94 | 17 |
+| TOTAL | todas | 16421 | 98.36c | 97.87% | -0.49 pts | -0.70 a -0.27 | 354 |
+| TOTAL | tocadas | 15512 | 98.39c | 97.76% | -0.63 pts | -0.86 a -0.40 | 352 |
 
 Peores casos del registro sombra:
 
@@ -77,4 +79,4 @@ Peores casos del registro sombra:
 
 ## Veredicto
 
-Aun no hay veredicto: van 278 operaciones cerradas en 13.6 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
+Aun no hay veredicto: van 278 operaciones cerradas en 13.7 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.

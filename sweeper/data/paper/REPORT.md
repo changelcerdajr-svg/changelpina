@@ -2,21 +2,21 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-11T22:05:26Z | dias corridos: 15.2 de 28 | corridas: 352
-- Capital inicial: $1,000.00 | valor actual: $1,040.99 | P&L: $+40.99 (+4.10%)
-- Efectivo libre: $423.08 | en ordenes abiertas: $417.50 (8) | en posiciones: $209.04 (4)
+- Inicio: 2026-11-11T22:05:26Z | dias corridos: 15.3 de 28 | corridas: 353
+- Capital inicial: $1,000.00 | valor actual: $1,006.72 | P&L: $+6.72 (+0.67%)
+- Efectivo libre: $440.13 | en ordenes abiertas: $454.20 (9) | en posiciones: $156.69 (3)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $51.82 en 1 posiciones
-- Ordenes virtuales: 602 colocadas, 134 llenadas, 326 tocadas sin llenarse (sorteo 30%), 134 expiradas
+- Ordenes virtuales: 604 colocadas, 134 llenadas, 326 tocadas sin llenarse (sorteo 30%), 135 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
 | Regla | n | Precio medio | Pago real | IC95 del pago | Edge | P&L | Dias medios |
 |---|---|---|---|---|---|---|---|
 | cripto_cierre | 41 | 98.97c | 100.00% | 91.4-100.0% | +1.03 pts | $+21.56 | 0.28 |
-| deportes_previo | 48 | 98.13c | 100.00% | 92.6-100.0% | +1.87 pts | $+46.25 | 0.33 |
+| deportes_previo | 49 | 98.12c | 100.00% | 92.7-100.0% | +1.88 pts | $+47.65 | 0.33 |
 | otros_cierre | 31 | 99.02c | 100.00% | 89.0-100.0% | +0.98 pts | $+15.88 | 0.38 |
 | post_fin_95_97 | 10 | 95.96c | 89.69% | 59.6-98.2% | -6.27 pts | $-34.07 | 0.39 |
-| TOTAL | 130 | 98.44c | 99.19% | 95.8-99.9% | +0.75 pts | $+49.62 | 0.33 |
+| TOTAL | 131 | 98.43c | 99.19% | 95.8-99.9% | +0.76 pts | $+51.01 | 0.33 |
 
 ## Peores casos
 
@@ -29,28 +29,27 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
 | $51.82 | 98.5c | 98.3c | otros_cierre | si | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
-| $52.35 | 97.4c | 90.7c | deportes_previo |  | Spread: TCU (-13.5) |
-| $52.40 | 97.0c | 87.8c | deportes_previo |  | Spread: CF Cruz Azul (-3.5) |
+| $52.40 | 97.0c | 15.0c | deportes_previo |  | Spread: CF Cruz Azul (-3.5) |
 | $52.48 | 99.0c | 99.2c | otros_cierre |  | Will the next Claude Opus model (5.6+) be released on November 26, 2026? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 5554 | abiertas: 346 | abiertas mas de 7 dias despues de su fecha de fin: 5
+- Resueltas: 5560 | abiertas: 432 | abiertas mas de 7 dias despues de su fecha de fin: 5
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
-| cripto_cierre | todas | 1569 | 98.72c | 99.30% | +0.58 pts | +0.17 a +0.99 | 11 |
-| cripto_cierre | tocadas | 1090 | 98.55c | 98.99% | +0.44 pts | -0.16 a +1.03 | 11 |
-| deportes_previo | todas | 3133 | 98.31c | 98.71% | +0.40 pts | +0.01 a +0.79 | 42 |
+| cripto_cierre | todas | 1573 | 98.72c | 99.30% | +0.58 pts | +0.17 a +0.99 | 11 |
+| cripto_cierre | tocadas | 1094 | 98.55c | 98.99% | +0.44 pts | -0.15 a +1.03 | 11 |
+| deportes_previo | todas | 3135 | 98.31c | 98.71% | +0.40 pts | +0.01 a +0.79 | 42 |
 | deportes_previo | tocadas | 2572 | 98.28c | 98.66% | +0.38 pts | -0.06 a +0.82 | 36 |
 | otros_cierre | todas | 753 | 98.87c | 99.34% | +0.46 pts | -0.12 a +1.05 | 5 |
 | otros_cierre | tocadas | 477 | 98.70c | 98.95% | +0.25 pts | -0.67 a +1.17 | 5 |
 | post_fin_95_97 | todas | 99 | 95.90c | 93.94% | -1.96 pts | -6.69 a +2.77 | 6 |
 | post_fin_95_97 | tocadas | 87 | 95.92c | 93.10% | -2.81 pts | -8.17 a +2.54 | 6 |
-| TOTAL | todas | 5554 | 98.46c | 98.87% | +0.42 pts | +0.14 a +0.69 | 64 |
-| TOTAL | tocadas | 4226 | 98.35c | 98.66% | +0.31 pts | -0.03 a +0.66 | 58 |
+| TOTAL | todas | 5560 | 98.46c | 98.88% | +0.42 pts | +0.14 a +0.69 | 64 |
+| TOTAL | tocadas | 4230 | 98.35c | 98.66% | +0.32 pts | -0.03 a +0.66 | 58 |
 
 Peores casos del registro sombra:
 
@@ -67,4 +66,4 @@ Peores casos del registro sombra:
 
 ## Veredicto
 
-Aun no hay veredicto: van 130 operaciones cerradas en 15.2 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
+Aun no hay veredicto: van 131 operaciones cerradas en 15.3 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
