@@ -2,21 +2,21 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-11T22:05:26Z | dias corridos: 15.8 de 28 | corridas: 367
-- Capital inicial: $1,000.00 | valor actual: $1,000.56 | P&L: $+0.56 (+0.06%)
-- Efectivo libre: $405.94 | en ordenes abiertas: $393.13 (8) | en posiciones: $201.76 (5)
+- Inicio: 2026-11-11T22:05:26Z | dias corridos: 15.8 de 28 | corridas: 368
+- Capital inicial: $1,000.00 | valor actual: $1,001.26 | P&L: $+1.26 (+0.13%)
+- Efectivo libre: $405.88 | en ordenes abiertas: $443.35 (9) | en posiciones: $151.85 (4)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $51.82 en 1 posiciones
-- Ordenes virtuales: 626 colocadas, 140 llenadas, 338 tocadas sin llenarse (sorteo 30%), 140 expiradas
+- Ordenes virtuales: 629 colocadas, 140 llenadas, 340 tocadas sin llenarse (sorteo 30%), 140 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
 | Regla | n | Precio medio | Pago real | IC95 del pago | Edge | P&L | Dias medios |
 |---|---|---|---|---|---|---|---|
-| cripto_cierre | 41 | 98.97c | 100.00% | 91.4-100.0% | +1.03 pts | $+21.56 | 0.28 |
+| cripto_cierre | 42 | 98.98c | 100.00% | 91.6-100.0% | +1.02 pts | $+21.81 | 0.28 |
 | deportes_previo | 52 | 98.10c | 98.00% | 89.9-99.7% | -0.10 pts | $-3.06 | 0.32 |
 | otros_cierre | 32 | 99.02c | 100.00% | 89.3-100.0% | +0.98 pts | $+16.41 | 0.37 |
 | post_fin_95_97 | 10 | 95.96c | 89.69% | 59.6-98.2% | -6.27 pts | $-34.07 | 0.39 |
-| TOTAL | 135 | 98.42c | 98.45% | 94.8-99.6% | +0.03 pts | $+0.83 | 0.33 |
+| TOTAL | 136 | 98.43c | 98.46% | 94.8-99.6% | +0.03 pts | $+1.08 | 0.32 |
 
 ## Peores casos
 
@@ -31,28 +31,27 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 |---|---|---|---|---|---|
 | $51.82 | 98.5c | 98.3c | otros_cierre | si | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
 | $49.95 | 98.1c | 98.5c | deportes_previo |  | Spread: Zira FK (-2.5) |
-| $49.90 | 99.5c | 98.6c | cripto_cierre |  | Will the price of Bitcoin be between $54,000 and $56,000 on November 27? |
 | $44.57 | 98.5c | 98.7c | otros_cierre |  | Will Alphabet Inc. (GOOGL) hit (LOW) $235 Week of November 23 2026? |
-| $5.51 | 98.5c | 98.9c | deportes_previo |  | Spread: Manta FC (-2.5) |
+| $5.51 | 98.5c | 98.7c | deportes_previo |  | Spread: Manta FC (-2.5) |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 5643 | abiertas: 614 | abiertas mas de 7 dias despues de su fecha de fin: 5
+- Resueltas: 5708 | abiertas: 606 | abiertas mas de 7 dias despues de su fecha de fin: 5
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
-| cripto_cierre | todas | 1623 | 98.71c | 99.32% | +0.61 pts | +0.21 a +1.01 | 11 |
-| cripto_cierre | tocadas | 1135 | 98.55c | 99.03% | +0.48 pts | -0.09 a +1.05 | 11 |
-| deportes_previo | todas | 3152 | 98.31c | 98.68% | +0.37 pts | -0.02 a +0.77 | 43 |
-| deportes_previo | tocadas | 2586 | 98.28c | 98.63% | +0.35 pts | -0.09 a +0.79 | 37 |
-| otros_cierre | todas | 762 | 98.88c | 99.34% | +0.47 pts | -0.11 a +1.05 | 5 |
+| cripto_cierre | todas | 1681 | 98.72c | 99.35% | +0.63 pts | +0.24 a +1.01 | 11 |
+| cripto_cierre | tocadas | 1166 | 98.55c | 99.06% | +0.51 pts | -0.05 a +1.06 | 11 |
+| deportes_previo | todas | 3157 | 98.31c | 98.69% | +0.38 pts | -0.02 a +0.77 | 43 |
+| deportes_previo | tocadas | 2590 | 98.28c | 98.63% | +0.35 pts | -0.09 a +0.79 | 37 |
+| otros_cierre | todas | 764 | 98.88c | 99.35% | +0.47 pts | -0.11 a +1.04 | 5 |
 | otros_cierre | tocadas | 484 | 98.71c | 98.97% | +0.26 pts | -0.65 a +1.17 | 5 |
 | post_fin_95_97 | todas | 106 | 95.91c | 91.51% | -4.40 pts | -9.73 a +0.94 | 9 |
 | post_fin_95_97 | tocadas | 94 | 95.92c | 90.43% | -5.50 pts | -11.48 a +0.48 | 9 |
-| TOTAL | todas | 5643 | 98.46c | 98.82% | +0.36 pts | +0.09 a +0.64 | 68 |
-| TOTAL | tocadas | 4299 | 98.35c | 98.59% | +0.25 pts | -0.10 a +0.59 | 62 |
+| TOTAL | todas | 5708 | 98.46c | 98.83% | +0.37 pts | +0.10 a +0.65 | 68 |
+| TOTAL | tocadas | 4334 | 98.35c | 98.60% | +0.26 pts | -0.09 a +0.60 | 62 |
 
 Peores casos del registro sombra:
 
@@ -69,4 +68,4 @@ Peores casos del registro sombra:
 
 ## Veredicto
 
-Aun no hay veredicto: van 135 operaciones cerradas en 15.8 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
+Aun no hay veredicto: van 136 operaciones cerradas en 15.8 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
