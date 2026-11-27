@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-11T22:05:26Z | dias corridos: 15.6 de 28 | corridas: 361
-- Capital inicial: $1,000.00 | valor actual: $998.91 | P&L: $-1.09 (-0.11%)
-- Efectivo libre: $403.86 | en ordenes abiertas: $352.16 (7) | en posiciones: $243.13 (5)
+- Inicio: 2026-11-11T22:05:26Z | dias corridos: 15.6 de 28 | corridas: 362
+- Capital inicial: $1,000.00 | valor actual: $998.82 | P&L: $-1.18 (-0.12%)
+- Efectivo libre: $406.41 | en ordenes abiertas: $349.61 (7) | en posiciones: $243.13 (5)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $51.82 en 1 posiciones
-- Ordenes virtuales: 610 colocadas, 138 llenadas, 328 tocadas sin llenarse (sorteo 30%), 137 expiradas
+- Ordenes virtuales: 612 colocadas, 138 llenadas, 329 tocadas sin llenarse (sorteo 30%), 138 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -33,26 +33,26 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 | $52.30 | 98.8c | 98.8c | deportes_previo |  | FK Livyi Bereh vs. FK Kolos Kovalivka: O/U 6.5 |
 | $44.49 | 97.7c | 97.0c | deportes_previo |  | Spread: Sisaket United FC (-2.5) |
 | $49.95 | 98.1c | 98.2c | deportes_previo |  | Spread: Zira FK (-2.5) |
-| $44.57 | 98.5c | 98.8c | otros_cierre |  | Will Alphabet Inc. (GOOGL) hit (LOW) $235 Week of November 23 2026? |
+| $44.57 | 98.5c | 98.6c | otros_cierre |  | Will Alphabet Inc. (GOOGL) hit (LOW) $235 Week of November 23 2026? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 5620 | abiertas: 556 | abiertas mas de 7 dias despues de su fecha de fin: 5
+- Resueltas: 5626 | abiertas: 557 | abiertas mas de 7 dias despues de su fecha de fin: 5
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
-| cripto_cierre | todas | 1617 | 98.71c | 99.32% | +0.61 pts | +0.21 a +1.01 | 11 |
-| cripto_cierre | tocadas | 1131 | 98.55c | 99.03% | +0.48 pts | -0.09 a +1.05 | 11 |
-| deportes_previo | todas | 3140 | 98.31c | 98.68% | +0.37 pts | -0.03 a +0.76 | 43 |
-| deportes_previo | tocadas | 2575 | 98.28c | 98.62% | +0.34 pts | -0.10 a +0.79 | 37 |
+| cripto_cierre | todas | 1619 | 98.71c | 99.32% | +0.61 pts | +0.21 a +1.01 | 11 |
+| cripto_cierre | tocadas | 1133 | 98.55c | 99.03% | +0.48 pts | -0.09 a +1.05 | 11 |
+| deportes_previo | todas | 3142 | 98.31c | 98.68% | +0.37 pts | -0.02 a +0.77 | 43 |
+| deportes_previo | tocadas | 2577 | 98.28c | 98.62% | +0.34 pts | -0.10 a +0.79 | 37 |
 | otros_cierre | todas | 762 | 98.88c | 99.34% | +0.47 pts | -0.11 a +1.05 | 5 |
 | otros_cierre | tocadas | 484 | 98.71c | 98.97% | +0.26 pts | -0.65 a +1.17 | 5 |
-| post_fin_95_97 | todas | 101 | 95.90c | 94.06% | -1.84 pts | -6.47 a +2.80 | 6 |
-| post_fin_95_97 | tocadas | 89 | 95.91c | 93.26% | -2.66 pts | -7.89 a +2.58 | 6 |
-| TOTAL | todas | 5620 | 98.46c | 98.87% | +0.41 pts | +0.14 a +0.69 | 65 |
-| TOTAL | tocadas | 4279 | 98.35c | 98.66% | +0.31 pts | -0.03 a +0.65 | 59 |
+| post_fin_95_97 | todas | 103 | 95.90c | 94.17% | -1.73 pts | -6.28 a +2.82 | 6 |
+| post_fin_95_97 | tocadas | 91 | 95.92c | 93.41% | -2.52 pts | -7.64 a +2.61 | 6 |
+| TOTAL | todas | 5626 | 98.46c | 98.87% | +0.41 pts | +0.14 a +0.69 | 65 |
+| TOTAL | tocadas | 4285 | 98.35c | 98.66% | +0.31 pts | -0.03 a +0.65 | 59 |
 
 Peores casos del registro sombra:
 

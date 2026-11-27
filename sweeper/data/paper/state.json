@@ -1,29 +1,8 @@
 {
  "capital0": 1000.0,
- "cash": 403.8566,
+ "cash": 406.4092,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
-  {
-   "oid": "6364964-1795741263",
-   "id": "6364964",
-   "q": "Will the next Grok model (4.8+) be released on November 26, 2026?",
-   "cat": "otros",
-   "rule": "otros_cierre",
-   "event": "1274171",
-   "side": 1,
-   "token": "112623847700564839464311573178389253561453324178991651454619732598488671697556",
-   "px": 0.99,
-   "tick": 0.001,
-   "mid": 0.9905,
-   "bid": 0.985,
-   "ask": 0.996,
-   "shares": 53.0057,
-   "cost": 52.4756,
-   "ts": 1795741263.061038,
-   "end_ts": 1795755540.0,
-   "hours": 3.97,
-   "liq": 1088
-  },
   {
    "oid": "7363501-1795748465",
    "id": "7363501",
@@ -130,7 +109,7 @@
    "liq": 14529
   },
   {
-   "oid": "7203499-1795780870",
+   "oid": "7203499-1795784469",
    "id": "7203499",
    "q": "Will the price of Bitcoin be between $54,000 and $56,000 on November 27?",
    "cat": "cripto",
@@ -138,17 +117,38 @@
    "event": "1432561",
    "side": 1,
    "token": "721561186802060315705924153117130819245493288236287312790884811323586905004",
-   "px": 0.996,
+   "px": 0.995,
    "tick": 0.001,
-   "mid": 0.996,
-   "bid": 0.993,
+   "mid": 0.995,
+   "bid": 0.991,
    "ask": 0.999,
-   "shares": 50.1234,
-   "cost": 49.9229,
-   "ts": 1795780870.298237,
+   "shares": 50.1556,
+   "cost": 49.9048,
+   "ts": 1795784469.295931,
    "end_ts": 1795798800.0,
-   "hours": 4.98,
-   "liq": 40406
+   "hours": 3.98,
+   "liq": 40199
+  },
+  {
+   "oid": "7210233-1795784469",
+   "id": "7210233",
+   "q": "Will Apple (AAPL) hit (LOW) $320 Week of November 23 2026?",
+   "cat": "otros",
+   "rule": "otros_cierre",
+   "event": "1434206",
+   "side": 1,
+   "token": "30322901814837067496396458407876773126167015888660418095430078253743779444602",
+   "px": 0.984,
+   "tick": 0.001,
+   "mid": 0.9845,
+   "bid": 0.971,
+   "ask": 0.998,
+   "shares": 50.7531,
+   "cost": 49.9411,
+   "ts": 1795784469.295931,
+   "end_ts": 1795813200.0,
+   "hours": 7.98,
+   "liq": 1132
   }
  ],
  "positions": [
@@ -198,7 +198,7 @@
    "hours": 15.98,
    "liq": 1075,
    "fill_ts": 1795755955.885589,
-   "mark": 0.988,
+   "mark": 0.986,
    "stuck": false,
    "disputed": false
   },
@@ -8917,14 +8917,27 @@
    "placed": 1,
    "shadow_open": 556,
    "shadow_closed": 2
+  },
+  {
+   "ts": "2026-11-27T13:02:46Z",
+   "equity": 998.82,
+   "cash": 406.41,
+   "orders": 7,
+   "positions": 5,
+   "closed": 133,
+   "scanned": 17833,
+   "candidates": 260,
+   "placed": 2,
+   "shadow_open": 557,
+   "shadow_closed": 6
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 610,
+  "placed": 612,
   "filled": 138,
-  "expired": 137,
-  "touched_not_filled": 328
+  "expired": 138,
+  "touched_not_filled": 329
  },
  "shadow": [
   {
@@ -9276,32 +9289,6 @@
    "ts": 1795615271,
    "end_ts": 1795644000,
    "q": "CS 2 de Mayo leading at halftime?",
-   "touched": 1
-  },
-  {
-   "id": "7044232",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "33719541873747459617455402049687235814919065786394535949077789803926547124146",
-   "px": 0.99,
-   "tick": 0.001,
-   "ts": 1795665668,
-   "end_ts": 1795768800,
-   "q": "Macarthur FC vs. Melbourne City FC: O/U 7.5",
-   "touched": 1
-  },
-  {
-   "id": "7044231",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "22543754243569404245823183255764438224554345292931049355443145237610225081628",
-   "px": 0.971,
-   "tick": 0.001,
-   "ts": 1795672864,
-   "end_ts": 1795768800,
-   "q": "Macarthur FC vs. Melbourne City FC: O/U 6.5",
    "touched": 1
   },
   {
@@ -11554,58 +11541,6 @@
    "touched": 0
   },
   {
-   "id": "6936808",
-   "rule": "post_fin_95_97",
-   "cat": "deportes",
-   "side": 1,
-   "token": "33968383349881907613784229191350608966409939821021102118360409256408760053000",
-   "px": 0.964,
-   "tick": 0.001,
-   "ts": 1795741263,
-   "end_ts": 1795728600,
-   "q": "Spread: Cowboys (-16.5)",
-   "touched": null
-  },
-  {
-   "id": "6936809",
-   "rule": "post_fin_95_97",
-   "cat": "deportes",
-   "side": 1,
-   "token": "99576646957224626451632856507202858954507992347025224643490649495306450671142",
-   "px": 0.963,
-   "tick": 0.001,
-   "ts": 1795741263,
-   "end_ts": 1795728600,
-   "q": "Spread: Cowboys (-17.5)",
-   "touched": null
-  },
-  {
-   "id": "7363486",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "99530683753510765482710058195573301009443021994912429117128384253294328469306",
-   "px": 0.973,
-   "tick": 0.001,
-   "ts": 1795741263,
-   "end_ts": 1795755600,
-   "q": "Will Bitcoin dip to $59,000 on November 26?",
-   "touched": null
-  },
-  {
-   "id": "7363501",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "115407538860449363316581965628822700760126108944876514250699304701794228478880",
-   "px": 0.977,
-   "tick": 0.001,
-   "ts": 1795741263,
-   "end_ts": 1795755600,
-   "q": "Will Ethereum dip to $1,650 on November 26?",
-   "touched": null
-  },
-  {
    "id": "7180186",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -11616,7 +11551,7 @@
    "ts": 1795741263,
    "end_ts": 1795809600,
    "q": "Levante UD vs. Real Racing Club: Neither team to score first?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7210643",
@@ -11629,7 +11564,7 @@
    "ts": 1795741263,
    "end_ts": 1795813200,
    "q": "Will Airbnb, Inc. (ABNB) hit (LOW) $158 Week of November 23 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7329630",
@@ -11642,7 +11577,7 @@
    "ts": 1795741263,
    "end_ts": 1795815000,
    "q": "Spread: Manta FC (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7230779",
@@ -11655,7 +11590,7 @@
    "ts": 1795741263,
    "end_ts": 1795842000,
    "q": "Shimizu S-Pulse vs. Urawa Red Diamonds: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7230824",
@@ -11668,7 +11603,7 @@
    "ts": 1795741263,
    "end_ts": 1795842000,
    "q": "Kyōto Sanga FC vs. Cerezo Ōsaka: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7230825",
@@ -11681,7 +11616,7 @@
    "ts": 1795741263,
    "end_ts": 1795842000,
    "q": "Kyōto Sanga FC vs. Cerezo Ōsaka: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7329346",
@@ -11694,7 +11629,7 @@
    "ts": 1795741263,
    "end_ts": 1795842000,
    "q": "FC Seoul vs. Daejeon Hana Citizen FC: O/U 7.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7329413",
@@ -11707,7 +11642,7 @@
    "ts": 1795741263,
    "end_ts": 1795842000,
    "q": "FC Anyang vs. Jeju SK FC: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7329414",
@@ -11720,7 +11655,7 @@
    "ts": 1795741263,
    "end_ts": 1795842000,
    "q": "FC Anyang vs. Jeju SK FC: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7006479",
@@ -16153,6 +16088,97 @@
    "ts": 1795780870,
    "end_ts": 1795887000,
    "q": "Elche CF vs. Club Atlético de Madrid: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "7207176",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "19650551681971033990098213526121963506042247306872292717989920211570069883649",
+   "px": 0.981,
+   "tick": 0.001,
+   "ts": 1795784469,
+   "end_ts": 1795807800,
+   "q": "Cavese 1919 vs. Scafatese Calcio 1922: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "7363252",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "54844993392519536331254506475814325563957198608002719450355017437785838813251",
+   "px": 0.974,
+   "tick": 0.001,
+   "ts": 1795784469,
+   "end_ts": 1795824000,
+   "q": "Spread: Heat (-21.5)",
+   "touched": null
+  },
+  {
+   "id": "7364738",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "115182093251812610927220362778417343734386164236854654232173478133189672094091",
+   "px": 0.976,
+   "tick": 0.001,
+   "ts": 1795784469,
+   "end_ts": 1795827600,
+   "q": "Spread: Hawks (-16.5)",
+   "touched": null
+  },
+  {
+   "id": "7228038",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "77418785613019819519785739808567999770694874919091511795912297773267700218457",
+   "px": 0.982,
+   "tick": 0.001,
+   "ts": 1795784469,
+   "end_ts": 1795867200,
+   "q": "Spread: Karlsruher SC (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "7252928",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "32099675195114955325569741484328843844944359235912561511232214726145482307584",
+   "px": 0.974,
+   "tick": 0.001,
+   "ts": 1795784469,
+   "end_ts": 1795869000,
+   "q": "Exeter City FC vs. Crawley Town FC: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "7031233",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "33653199960597531490109152220578108760685841961940865823994146799941156378720",
+   "px": 0.977,
+   "tick": 0.001,
+   "ts": 1795784469,
+   "end_ts": 1795892400,
+   "q": "Eastern Illinois Panthers vs. Green Bay Phoenix (W)",
+   "touched": null
+  },
+  {
+   "id": "7050492",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "65319053455402762965739301107680210577571409828237463690786686021339063663255",
+   "px": 0.978,
+   "tick": 0.001,
+   "ts": 1795784469,
+   "end_ts": 1795892400,
+   "q": "Spread: Coastal Carolina (-10.5)",
    "touched": null
   }
  ]
