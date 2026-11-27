@@ -1,6 +1,6 @@
 {
  "capital0": 1000.0,
- "cash": 403.8264,
+ "cash": 403.8566,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
   {
@@ -88,27 +88,6 @@
    "liq": 1809
   },
   {
-   "oid": "7203499-1795777270",
-   "id": "7203499",
-   "q": "Will the price of Bitcoin be between $54,000 and $56,000 on November 27?",
-   "cat": "cripto",
-   "rule": "cripto_cierre",
-   "event": "1432561",
-   "side": 1,
-   "token": "721561186802060315705924153117130819245493288236287312790884811323586905004",
-   "px": 0.996,
-   "tick": 0.001,
-   "mid": 0.996,
-   "bid": 0.993,
-   "ask": 0.999,
-   "shares": 50.1538,
-   "cost": 49.9531,
-   "ts": 1795777270.643919,
-   "end_ts": 1795798800.0,
-   "hours": 5.98,
-   "liq": 39095
-  },
-  {
    "oid": "7203501-1795777270",
    "id": "7203501",
    "q": "Will the price of Ethereum be above $1,500 on November 27?",
@@ -149,6 +128,27 @@
    "end_ts": 1795800600.0,
    "hours": 6.48,
    "liq": 14529
+  },
+  {
+   "oid": "7203499-1795780870",
+   "id": "7203499",
+   "q": "Will the price of Bitcoin be between $54,000 and $56,000 on November 27?",
+   "cat": "cripto",
+   "rule": "cripto_cierre",
+   "event": "1432561",
+   "side": 1,
+   "token": "721561186802060315705924153117130819245493288236287312790884811323586905004",
+   "px": 0.996,
+   "tick": 0.001,
+   "mid": 0.996,
+   "bid": 0.993,
+   "ask": 0.999,
+   "shares": 50.1234,
+   "cost": 49.9229,
+   "ts": 1795780870.298237,
+   "end_ts": 1795798800.0,
+   "hours": 4.98,
+   "liq": 40406
   }
  ],
  "positions": [
@@ -198,7 +198,7 @@
    "hours": 15.98,
    "liq": 1075,
    "fill_ts": 1795755955.885589,
-   "mark": 0.986,
+   "mark": 0.988,
    "stuck": false,
    "disputed": false
   },
@@ -223,7 +223,7 @@
    "hours": 6.98,
    "liq": 2012,
    "fill_ts": 1795762864.397494,
-   "mark": 0.9725,
+   "mark": 0.97,
    "stuck": false,
    "disputed": false
   },
@@ -248,7 +248,7 @@
    "hours": 6.98,
    "liq": 1634,
    "fill_ts": 1795773665.138923,
-   "mark": 0.9845,
+   "mark": 0.982,
    "stuck": false,
    "disputed": false
   },
@@ -273,7 +273,9 @@
    "hours": 7.98,
    "liq": 1032,
    "fill_ts": 1795777270.643919,
-   "mark": 0.988
+   "mark": 0.988,
+   "stuck": false,
+   "disputed": false
   }
  ],
  "closed": [
@@ -8902,14 +8904,27 @@
    "placed": 3,
    "shadow_open": 537,
    "shadow_closed": 4
+  },
+  {
+   "ts": "2026-11-27T12:01:56Z",
+   "equity": 998.91,
+   "cash": 403.86,
+   "orders": 7,
+   "positions": 5,
+   "closed": 133,
+   "scanned": 16548,
+   "candidates": 289,
+   "placed": 1,
+   "shadow_open": 556,
+   "shadow_closed": 2
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 609,
+  "placed": 610,
   "filled": 138,
   "expired": 137,
-  "touched_not_filled": 327
+  "touched_not_filled": 328
  },
  "shadow": [
   {
@@ -11357,32 +11372,6 @@
    "touched": 1
   },
   {
-   "id": "7357266",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "11164001836743206361993791509975632002167740420151777295816921766073737149657",
-   "px": 0.978,
-   "tick": 0.001,
-   "ts": 1795737667,
-   "end_ts": 1795741200,
-   "q": "XRP Up or Down - November 26, 4:00PM-8:00PM ET",
-   "touched": null
-  },
-  {
-   "id": "7357267",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "55498206590582787251922547407795859463116173008956909366159086174776678453418",
-   "px": 0.979,
-   "tick": 0.001,
-   "ts": 1795737667,
-   "end_ts": 1795741200,
-   "q": "Ethereum Up or Down - November 26, 4:00PM-8:00PM ET",
-   "touched": null
-  },
-  {
    "id": "7228127",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -11393,7 +11382,7 @@
    "ts": 1795737667,
    "end_ts": 1795800600,
    "q": "VfL Bochum vs. SV Darmstadt 98: O/U 8.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7276753",
@@ -11406,7 +11395,7 @@
    "ts": 1795737667,
    "end_ts": 1795798800,
    "q": "NK Radomlje vs. Nafta 1903 Lendava: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7312010",
@@ -11419,7 +11408,7 @@
    "ts": 1795737667,
    "end_ts": 1795798800,
    "q": "Spread: Konyaspor (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7006448",
@@ -11432,7 +11421,7 @@
    "ts": 1795737667,
    "end_ts": 1795813200,
    "q": "UMBC Retrievers vs. George Washington Revolutionaries",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7006465",
@@ -11445,7 +11434,7 @@
    "ts": 1795737667,
    "end_ts": 1795813200,
    "q": "Arkansas-Pine Bluff Golden Lions vs. Missouri Tigers",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7016210",
@@ -11458,7 +11447,7 @@
    "ts": 1795737667,
    "end_ts": 1795804200,
    "q": "Maryland Eastern Shore Hawks vs. Georgia Bulldogs (W)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7210780",
@@ -11471,7 +11460,7 @@
    "ts": 1795737667,
    "end_ts": 1795816800,
    "q": "Will Gold (XAUUSD) hit (HIGH) $3,800 Week of November 23 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7212432",
@@ -11484,7 +11473,7 @@
    "ts": 1795737667,
    "end_ts": 1795823940,
    "q": "Will \"Choosin' Texas - Ella Langley\" be the #1 US song this week?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7212447",
@@ -11497,7 +11486,7 @@
    "ts": 1795737667,
    "end_ts": 1795823940,
    "q": "Will \"Last Christmas - Wham!\" be the #1 US song this week?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7212463",
@@ -11510,7 +11499,7 @@
    "ts": 1795737667,
    "end_ts": 1795823940,
    "q": "Will \"Stop The Wedding! - Ashe\" be the #1 song this week?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7212468",
@@ -11523,7 +11512,7 @@
    "ts": 1795737667,
    "end_ts": 1795823940,
    "q": "Will \"BbY WOW - KAROL G, Judeline, rusowsky\" be the #2 song this week?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7310355",
@@ -11536,7 +11525,7 @@
    "ts": 1795737667,
    "end_ts": 1795820400,
    "q": "Fluminense FC vs. Cruzeiro EC: O/U 7.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7310632",
@@ -11549,7 +11538,7 @@
    "ts": 1795737667,
    "end_ts": 1795822500,
    "q": "AD Cali vs. CA Bucaramanga: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7310634",
@@ -11562,7 +11551,7 @@
    "ts": 1795737667,
    "end_ts": 1795822500,
    "q": "AD Cali vs. CA Bucaramanga: O/U 7.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6936808",
@@ -15891,6 +15880,279 @@
    "ts": 1795777270,
    "end_ts": 1795885200,
    "q": "Torino FC vs. SS Lazio: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "7248454",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "109281676355544201441692986057307336833402353888591050345859030235276550724369",
+   "px": 0.977,
+   "tick": 0.001,
+   "ts": 1795780870,
+   "end_ts": 1795806000,
+   "q": "Will VVV Venlo win on 2026-11-27?",
+   "touched": null
+  },
+  {
+   "id": "7248455",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "13303827344367911057585278753098635197867213668783332944347616022042966089069",
+   "px": 0.982,
+   "tick": 0.001,
+   "ts": 1795780870,
+   "end_ts": 1795806000,
+   "q": "Will VVV Venlo vs. RKC Waalwijk end in a draw?",
+   "touched": null
+  },
+  {
+   "id": "7249678",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "58819029163874146609933600934471596718325059246916762246115437667697620633727",
+   "px": 0.982,
+   "tick": 0.001,
+   "ts": 1795780870,
+   "end_ts": 1795806000,
+   "q": "VVV Venlo vs. RKC Waalwijk: Draw at halftime?",
+   "touched": null
+  },
+  {
+   "id": "7249679",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "91060082871081168623169261757213841957396202011732549817016422237617952903921",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1795780870,
+   "end_ts": 1795806000,
+   "q": "RKC Waalwijk leading at halftime?",
+   "touched": null
+  },
+  {
+   "id": "7210792",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "68323214833345451410898395412010195146340173270377830589573881218923229110707",
+   "px": 0.987,
+   "tick": 0.001,
+   "ts": 1795780870,
+   "end_ts": 1795816800,
+   "q": "Will Gold (XAUUSD) hit (LOW) $3,200 Week of November 23 2026?",
+   "touched": null
+  },
+  {
+   "id": "7212429",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "58415750826425451252939658117472743738482289774156926090693624570066478809494",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795780870,
+   "end_ts": 1795823940,
+   "q": "Will \"Stop The Wedding! - Ashe\" be the #2 US song this week?",
+   "touched": null
+  },
+  {
+   "id": "7289069",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "28090694258308744414955178731912299725934251813766278979533464627549777458429",
+   "px": 0.975,
+   "tick": 0.001,
+   "ts": 1795780870,
+   "end_ts": 1795816800,
+   "q": "Will Gold (XAUUSD) hit (HIGH) $3,900 Week of November 23 2026?",
+   "touched": null
+  },
+  {
+   "id": "7307194",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "11244302815312140267463836636778534448188517111431645604824188167458197812012",
+   "px": 0.978,
+   "tick": 0.001,
+   "ts": 1795780870,
+   "end_ts": 1795824000,
+   "q": "Spread: CSD Tristan Suarez (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "7386791",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "99718315797897371057223420129458437712607834589712293798993678276102579938215",
+   "px": 0.973,
+   "tick": 0.001,
+   "ts": 1795780870,
+   "end_ts": 1795842000,
+   "q": "Will Bitcoin dip to $58,000 on November 27?",
+   "touched": null
+  },
+  {
+   "id": "7221594",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "66005437974397518735275043164795872745225408337492698462137920589633207687647",
+   "px": 0.974,
+   "tick": 0.001,
+   "ts": 1795780870,
+   "end_ts": 1795860000,
+   "q": "Will Naftan Novopolotsk win on 2026-11-28?",
+   "touched": null
+  },
+  {
+   "id": "7243967",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "108835638600130964351131497924987729488696657341407602305043095320912796065113",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795780870,
+   "end_ts": 1795862700,
+   "q": "PFC Lokomotiv Plovdiv vs. FK Spartak 1918 Varna: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "7343280",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "73573425954771176267490034111753638400844330001033797378197497100721131580843",
+   "px": 0.981,
+   "tick": 0.001,
+   "ts": 1795780870,
+   "end_ts": 1795863600,
+   "q": "AVS Futebol SAD vs. Leixoes SC: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "7343281",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "25007126831120236343900014495503700610748613469796683083129923699362229261300",
+   "px": 0.992,
+   "tick": 0.001,
+   "ts": 1795780870,
+   "end_ts": 1795863600,
+   "q": "AVS Futebol SAD vs. Leixoes SC: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "7204643",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "5275841581297958257145764289262410265780004997959492937249480643411193486062",
+   "px": 0.991,
+   "tick": 0.001,
+   "ts": 1795780870,
+   "end_ts": 1795887000,
+   "q": "Spread: Ipswich Town FC (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "7204656",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "101774780280112487436222031758677307520923709587095976782917651375201758427983",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795780870,
+   "end_ts": 1795887000,
+   "q": "Ipswich Town FC vs. Aston Villa FC: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "7204657",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "76192979194149413937599313135397756077842799365802943128377430688227231061368",
+   "px": 0.992,
+   "tick": 0.001,
+   "ts": 1795780870,
+   "end_ts": 1795887000,
+   "q": "Ipswich Town FC vs. Aston Villa FC: O/U 8.5",
+   "touched": null
+  },
+  {
+   "id": "7204783",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "64236254720522622623751582265353128743693726625963683279809635396251212417049",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795780870,
+   "end_ts": 1795887000,
+   "q": "Spread: Eintracht Frankfurt (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "7204793",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "13580880130633035983558226824460123913147145484743619360846241267850684212494",
+   "px": 0.982,
+   "tick": 0.001,
+   "ts": 1795780870,
+   "end_ts": 1795887000,
+   "q": "VfB Stuttgart vs. Eintracht Frankfurt: O/U 0.5",
+   "touched": null
+  },
+  {
+   "id": "7204810",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "104784907214675267321381812032885559350681273484681556982745116079709412246037",
+   "px": 0.983,
+   "tick": 0.001,
+   "ts": 1795780870,
+   "end_ts": 1795887000,
+   "q": "VfB Stuttgart vs. Eintracht Frankfurt: O/U 8.5",
+   "touched": null
+  },
+  {
+   "id": "7204887",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "70500475108127074024745861127957237500081924686561769582856982977550216998389",
+   "px": 0.991,
+   "tick": 0.001,
+   "ts": 1795780870,
+   "end_ts": 1795887000,
+   "q": "Spread: Elche CF (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "7204902",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "22729143072681456678537491969559894486950438784765648062423718138965663927931",
+   "px": 0.987,
+   "tick": 0.001,
+   "ts": 1795780870,
+   "end_ts": 1795887000,
+   "q": "Elche CF vs. Club Atlético de Madrid: O/U 7.5",
    "touched": null
   }
  ]
