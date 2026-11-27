@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-11T22:05:26Z | dias corridos: 15.5 de 28 | corridas: 359
-- Capital inicial: $1,000.00 | valor actual: $999.02 | P&L: $-0.98 (-0.10%)
-- Efectivo libre: $393.24 | en ordenes abiertas: $415.08 (8) | en posiciones: $190.83 (4)
+- Inicio: 2026-11-11T22:05:26Z | dias corridos: 15.5 de 28 | corridas: 360
+- Capital inicial: $1,000.00 | valor actual: $999.06 | P&L: $-0.94 (-0.09%)
+- Efectivo libre: $403.83 | en ordenes abiertas: $352.19 (7) | en posiciones: $243.13 (5)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $51.82 en 1 posiciones
-- Ordenes virtuales: 606 colocadas, 137 llenadas, 326 tocadas sin llenarse (sorteo 30%), 135 expiradas
+- Ordenes virtuales: 609 colocadas, 138 llenadas, 327 tocadas sin llenarse (sorteo 30%), 137 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -30,28 +30,29 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
 | $51.82 | 98.5c | 98.3c | otros_cierre | si | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
+| $52.30 | 98.8c | 98.8c | deportes_previo |  | FK Livyi Bereh vs. FK Kolos Kovalivka: O/U 6.5 |
 | $44.49 | 97.7c | 97.2c | deportes_previo |  | Spread: Sisaket United FC (-2.5) |
-| $49.95 | 98.1c | 98.1c | deportes_previo |  | Spread: Zira FK (-2.5) |
-| $44.57 | 98.5c | 98.9c | otros_cierre |  | Will Alphabet Inc. (GOOGL) hit (LOW) $235 Week of November 23 2026? |
+| $49.95 | 98.1c | 98.5c | deportes_previo |  | Spread: Zira FK (-2.5) |
+| $44.57 | 98.5c | 98.6c | otros_cierre |  | Will Alphabet Inc. (GOOGL) hit (LOW) $235 Week of November 23 2026? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 5614 | abiertas: 519 | abiertas mas de 7 dias despues de su fecha de fin: 5
+- Resueltas: 5618 | abiertas: 537 | abiertas mas de 7 dias despues de su fecha de fin: 5
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
-| cripto_cierre | todas | 1612 | 98.72c | 99.32% | +0.60 pts | +0.20 a +1.00 | 11 |
-| cripto_cierre | tocadas | 1126 | 98.55c | 99.02% | +0.47 pts | -0.10 a +1.05 | 11 |
+| cripto_cierre | todas | 1615 | 98.71c | 99.32% | +0.60 pts | +0.20 a +1.00 | 11 |
+| cripto_cierre | tocadas | 1129 | 98.55c | 99.03% | +0.48 pts | -0.10 a +1.05 | 11 |
 | deportes_previo | todas | 3140 | 98.31c | 98.68% | +0.37 pts | -0.03 a +0.76 | 43 |
 | deportes_previo | tocadas | 2575 | 98.28c | 98.62% | +0.34 pts | -0.10 a +0.79 | 37 |
-| otros_cierre | todas | 761 | 98.88c | 99.34% | +0.47 pts | -0.11 a +1.04 | 5 |
-| otros_cierre | tocadas | 483 | 98.71c | 98.96% | +0.26 pts | -0.65 a +1.17 | 5 |
+| otros_cierre | todas | 762 | 98.88c | 99.34% | +0.47 pts | -0.11 a +1.05 | 5 |
+| otros_cierre | tocadas | 484 | 98.71c | 98.97% | +0.26 pts | -0.65 a +1.17 | 5 |
 | post_fin_95_97 | todas | 101 | 95.90c | 94.06% | -1.84 pts | -6.47 a +2.80 | 6 |
 | post_fin_95_97 | tocadas | 89 | 95.91c | 93.26% | -2.66 pts | -7.89 a +2.58 | 6 |
-| TOTAL | todas | 5614 | 98.46c | 98.87% | +0.41 pts | +0.14 a +0.68 | 65 |
-| TOTAL | tocadas | 4273 | 98.35c | 98.65% | +0.31 pts | -0.04 a +0.65 | 59 |
+| TOTAL | todas | 5618 | 98.46c | 98.87% | +0.41 pts | +0.14 a +0.68 | 65 |
+| TOTAL | tocadas | 4277 | 98.35c | 98.66% | +0.31 pts | -0.04 a +0.65 | 59 |
 
 Peores casos del registro sombra:
 
