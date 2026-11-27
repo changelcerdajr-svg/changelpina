@@ -1,6 +1,6 @@
 {
  "capital0": 1000.0,
- "cash": 440.1265,
+ "cash": 393.2368,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
   {
@@ -149,6 +149,48 @@
    "end_ts": 1795755600.0,
    "hours": 0.98,
    "liq": 2995
+  },
+  {
+   "oid": "7349659-1795766467",
+   "id": "7349659",
+   "q": "Spread: Zira FK (-2.5)",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1459200",
+   "side": 1,
+   "token": "54264465884253522949825878795803507052045805379535955115451075196802660515854",
+   "px": 0.981,
+   "tick": 0.001,
+   "mid": 0.981,
+   "bid": 0.975,
+   "ask": 0.987,
+   "shares": 50.915,
+   "cost": 49.9477,
+   "ts": 1795766467.520215,
+   "end_ts": 1795791600.0,
+   "hours": 6.98,
+   "liq": 1634
+  },
+  {
+   "oid": "7371235-1795766467",
+   "id": "7371235",
+   "q": "Will the US national average gas price be less than $3.5400 on November 27?",
+   "cat": "otros",
+   "rule": "otros_cierre",
+   "event": "1463972",
+   "side": 1,
+   "token": "73587876547842172225993297696484285193710311360288850711770995803225397953830",
+   "px": 0.997,
+   "tick": 0.001,
+   "mid": 0.9975,
+   "bid": 0.996,
+   "ask": 0.999,
+   "shares": 50.098,
+   "cost": 49.9477,
+   "ts": 1795766467.520215,
+   "end_ts": 1795791600.0,
+   "hours": 6.98,
+   "liq": 1809
   }
  ],
  "positions": [
@@ -178,56 +220,6 @@
    "disputed": false
   },
   {
-   "oid": "6364896-1795741263",
-   "id": "6364896",
-   "q": "Will the next Claude Opus model (5.6+) be released on November 26, 2026?",
-   "cat": "otros",
-   "rule": "otros_cierre",
-   "event": "1274168",
-   "side": 1,
-   "token": "65904389697380003839214312579684090708489614338697876195538515603103955364310",
-   "px": 0.99,
-   "tick": 0.001,
-   "mid": 0.99,
-   "bid": 0.984,
-   "ask": 0.996,
-   "shares": 53.0057,
-   "cost": 52.4756,
-   "ts": 1795741263.061038,
-   "end_ts": 1795755540.0,
-   "hours": 3.97,
-   "liq": 2516,
-   "fill_ts": 1795744862.528972,
-   "mark": 0.9915,
-   "stuck": false,
-   "disputed": false
-  },
-  {
-   "oid": "7362810-1795723265",
-   "id": "7362810",
-   "q": "Spread: CF Cruz Azul (-3.5)",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1461783",
-   "side": 1,
-   "token": "20537380886449017889073638372454809370582738449305891773361264827064515579957",
-   "px": 0.97,
-   "tick": 0.001,
-   "mid": 0.97,
-   "bid": 0.965,
-   "ask": 0.975,
-   "shares": 54.0157,
-   "cost": 52.3952,
-   "ts": 1795723265.745264,
-   "end_ts": 1795749000.0,
-   "hours": 7.15,
-   "liq": 12644,
-   "fill_ts": 1795748465.125591,
-   "mark": 0.0005,
-   "stuck": false,
-   "disputed": false
-  },
-  {
    "oid": "7210347-1795755666",
    "id": "7210347",
    "q": "Will Alphabet Inc. (GOOGL) hit (LOW) $235 Week of November 23 2026?",
@@ -248,7 +240,7 @@
    "hours": 15.98,
    "liq": 1075,
    "fill_ts": 1795755955.885589,
-   "mark": 0.984,
+   "mark": 0.985,
    "stuck": false,
    "disputed": false
   },
@@ -273,7 +265,9 @@
    "hours": 6.98,
    "liq": 2012,
    "fill_ts": 1795762864.397494,
-   "mark": 0.977
+   "mark": 0.975,
+   "stuck": false,
+   "disputed": false
   }
  ],
  "closed": [
@@ -4164,6 +4158,66 @@
    "result": 1.0,
    "closed_ts": "2026-11-27T05:01:07Z",
    "days": 0.17
+  },
+  {
+   "oid": "6364896-1795741263",
+   "id": "6364896",
+   "q": "Will the next Claude Opus model (5.6+) be released on November 26, 2026?",
+   "cat": "otros",
+   "rule": "otros_cierre",
+   "event": "1274168",
+   "side": 1,
+   "token": "65904389697380003839214312579684090708489614338697876195538515603103955364310",
+   "px": 0.99,
+   "tick": 0.001,
+   "mid": 0.99,
+   "bid": 0.984,
+   "ask": 0.996,
+   "shares": 53.0057,
+   "cost": 52.4756,
+   "ts": 1795741263.061038,
+   "end_ts": 1795755540.0,
+   "hours": 3.97,
+   "liq": 2516,
+   "fill_ts": 1795744862.528972,
+   "mark": 0.9915,
+   "stuck": false,
+   "disputed": false,
+   "payout": 53.0057,
+   "pnl": 0.5301,
+   "result": 1.0,
+   "closed_ts": "2026-11-27T08:01:08Z",
+   "days": 0.25
+  },
+  {
+   "oid": "7362810-1795723265",
+   "id": "7362810",
+   "q": "Spread: CF Cruz Azul (-3.5)",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1461783",
+   "side": 1,
+   "token": "20537380886449017889073638372454809370582738449305891773361264827064515579957",
+   "px": 0.97,
+   "tick": 0.001,
+   "mid": 0.97,
+   "bid": 0.965,
+   "ask": 0.975,
+   "shares": 54.0157,
+   "cost": 52.3952,
+   "ts": 1795723265.745264,
+   "end_ts": 1795749000.0,
+   "hours": 7.15,
+   "liq": 12644,
+   "fill_ts": 1795748465.125591,
+   "mark": 0.0005,
+   "stuck": false,
+   "disputed": false,
+   "payout": 0.0,
+   "pnl": -52.3952,
+   "result": 0.0,
+   "closed_ts": "2026-11-27T08:01:08Z",
+   "days": 0.21
   }
  ],
  "runs": [
@@ -8790,11 +8844,24 @@
    "placed": 0,
    "shadow_open": 452,
    "shadow_closed": 0
+  },
+  {
+   "ts": "2026-11-27T08:01:49Z",
+   "equity": 998.95,
+   "cash": 393.24,
+   "orders": 9,
+   "positions": 3,
+   "closed": 133,
+   "scanned": 14055,
+   "candidates": 296,
+   "placed": 2,
+   "shadow_open": 456,
+   "shadow_closed": 13
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 604,
+  "placed": 606,
   "filled": 136,
   "expired": 135,
   "touched_not_filled": 326
@@ -9165,45 +9232,6 @@
    "touched": 1
   },
   {
-   "id": "6364896",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "65904389697380003839214312579684090708489614338697876195538515603103955364310",
-   "px": 0.981,
-   "tick": 0.001,
-   "ts": 1795669265,
-   "end_ts": 1795755540,
-   "q": "Will the next Claude Opus model (5.6+) be released on November 26, 2026?",
-   "touched": 1
-  },
-  {
-   "id": "6655560",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "75565718371755580479189727641382538955563783220957325824515291183623487311033",
-   "px": 0.996,
-   "tick": 0.001,
-   "ts": 1795669265,
-   "end_ts": 1795755540,
-   "q": "Will the next Meta Muse Spark model be released on November 26, 2026?",
-   "touched": 0
-  },
-  {
-   "id": "7029435",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "74183833943481821563697773390737779158411132382606922220889255142168539374231",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795669265,
-   "end_ts": 1795755540,
-   "q": "Will the next Gemini Carbon model (4.1+) be released on November 26, 2026?",
-   "touched": 0
-  },
-  {
    "id": "7147752",
    "rule": "otros_cierre",
    "cat": "otros",
@@ -9214,19 +9242,6 @@
    "ts": 1795669265,
    "end_ts": 1795755540,
    "q": "Will Alanzoka finish GTA VI by November 26?",
-   "touched": 1
-  },
-  {
-   "id": "7147757",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "19498944663601541281960994597542460726537300602431208573056866598919145806034",
-   "px": 0.985,
-   "tick": 0.001,
-   "ts": 1795669265,
-   "end_ts": 1795755540,
-   "q": "Will Adin Ross finish GTA VI by November 26?",
    "touched": 1
   },
   {
@@ -9243,45 +9258,6 @@
    "touched": 1
   },
   {
-   "id": "7362810",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "20537380886449017889073638372454809370582738449305891773361264827064515579957",
-   "px": 0.972,
-   "tick": 0.001,
-   "ts": 1795669265,
-   "end_ts": 1795749000,
-   "q": "Spread: CF Cruz Azul (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "7362821",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "54831717547173052287745325728150847704053332852585940105793038054135393451368",
-   "px": 0.975,
-   "tick": 0.001,
-   "ts": 1795669265,
-   "end_ts": 1795749000,
-   "q": "Club León FC vs. CF Cruz Azul: O/U 6.5",
-   "touched": 1
-  },
-  {
-   "id": "7362822",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "52643490776585476900987498351881970177276829755232784303525207721863531903759",
-   "px": 0.99,
-   "tick": 0.001,
-   "ts": 1795669265,
-   "end_ts": 1795749000,
-   "q": "Club León FC vs. CF Cruz Azul: O/U 7.5",
-   "touched": 1
-  },
-  {
    "id": "7044231",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -9292,19 +9268,6 @@
    "ts": 1795672864,
    "end_ts": 1795768800,
    "q": "Macarthur FC vs. Melbourne City FC: O/U 6.5",
-   "touched": 1
-  },
-  {
-   "id": "7153568",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "35371840926007986719543393136636218837693852554442178694824455685925161468077",
-   "px": 0.985,
-   "tick": 0.001,
-   "ts": 1795694464,
-   "end_ts": 1795755540,
-   "q": "Will N3on finish GTA VI by November 26?",
    "touched": 1
   },
   {
@@ -9929,19 +9892,6 @@
    "ts": 1795705270,
    "end_ts": 1795813200,
    "q": "Avalanche vs. Wild: O/U 2.5",
-   "touched": 1
-  },
-  {
-   "id": "7254821",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "18461836266805656705219328181119286242477705432435230963604762539467616179732",
-   "px": 0.99,
-   "tick": 0.001,
-   "ts": 1795708867,
-   "end_ts": 1795755540,
-   "q": "Will Jynxzi finish GTA VI by November 26?",
    "touched": 1
   },
   {
@@ -10608,58 +10558,6 @@
    "touched": 1
   },
   {
-   "id": "7363482",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "34736196014748028843249007587588589361493818118692502422493304533469615904249",
-   "px": 0.971,
-   "tick": 0.001,
-   "ts": 1795719666,
-   "end_ts": 1795755600,
-   "q": "Will Bitcoin reach $63,000 on November 26?",
-   "touched": null
-  },
-  {
-   "id": "7363513",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "90896794944326109573932560484968740565803916347606525536256887102247200648933",
-   "px": 0.99,
-   "tick": 0.001,
-   "ts": 1795719666,
-   "end_ts": 1795755600,
-   "q": "Will Solana dip to $65 on November 26?",
-   "touched": null
-  },
-  {
-   "id": "7363520",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "33548370453838536965628621030942752898914973248203824757596321974563070161672",
-   "px": 0.99,
-   "tick": 0.001,
-   "ts": 1795719666,
-   "end_ts": 1795755600,
-   "q": "Will XRP reach $1.05 on November 26?",
-   "touched": null
-  },
-  {
-   "id": "7363523",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "67972256540302493982545106570673722250068933085478627161477484682518584406489",
-   "px": 0.986,
-   "tick": 0.001,
-   "ts": 1795719666,
-   "end_ts": 1795755600,
-   "q": "Will XRP dip to $0.90 on November 26?",
-   "touched": null
-  },
-  {
    "id": "7342460",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -10670,7 +10568,7 @@
    "ts": 1795719666,
    "end_ts": 1795784400,
    "q": "Spread: Al-Sailiya SC (-2.5)",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7203567",
@@ -10683,7 +10581,7 @@
    "ts": 1795719666,
    "end_ts": 1795798800,
    "q": "Will the price of XRP be less than $0.50 on November 27?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7203571",
@@ -10696,7 +10594,7 @@
    "ts": 1795719666,
    "end_ts": 1795798800,
    "q": "Will the price of XRP be between $0.60 and $0.70 on November 27?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7203573",
@@ -10709,7 +10607,7 @@
    "ts": 1795719666,
    "end_ts": 1795798800,
    "q": "Will the price of XRP be between $0.70 and $0.80 on November 27?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7203578",
@@ -10722,7 +10620,7 @@
    "ts": 1795719666,
    "end_ts": 1795798800,
    "q": "Will the price of XRP be between $1.10 and $1.20 on November 27?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7203579",
@@ -10735,7 +10633,7 @@
    "ts": 1795719666,
    "end_ts": 1795798800,
    "q": "Will the price of XRP be between $1.20 and $1.30 on November 27?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7203580",
@@ -10748,7 +10646,7 @@
    "ts": 1795719666,
    "end_ts": 1795798800,
    "q": "Will the price of XRP be between $1.30 and $1.40 on November 27?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7226395",
@@ -10761,7 +10659,7 @@
    "ts": 1795719666,
    "end_ts": 1795798800,
    "q": "NK Istra 1961 vs. NK Varaždin: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7226396",
@@ -10774,7 +10672,7 @@
    "ts": 1795719666,
    "end_ts": 1795798800,
    "q": "NK Istra 1961 vs. NK Varaždin: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7265755",
@@ -10787,7 +10685,7 @@
    "ts": 1795719666,
    "end_ts": 1795804200,
    "q": "WKW ETO FC Gyor vs. Debreceni VSC: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7267020",
@@ -10800,7 +10698,7 @@
    "ts": 1795719666,
    "end_ts": 1795797000,
    "q": "Spread: PFC Slavia Sofia (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7267033",
@@ -10813,7 +10711,7 @@
    "ts": 1795719666,
    "end_ts": 1795797000,
    "q": "FC Lokomotiv 1929 Sofia vs. PFC Slavia Sofia: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7267034",
@@ -10826,7 +10724,7 @@
    "ts": 1795719666,
    "end_ts": 1795797000,
    "q": "FC Lokomotiv 1929 Sofia vs. PFC Slavia Sofia: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7273788",
@@ -10839,7 +10737,7 @@
    "ts": 1795719666,
    "end_ts": 1795802400,
    "q": "CD Feirense vs. Portimonense SAD: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7290990",
@@ -10852,7 +10750,7 @@
    "ts": 1795719666,
    "end_ts": 1795798800,
    "q": "RKS Rakow Czestochowa vs. GKS Piast Gliwice: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7304625",
@@ -10865,7 +10763,7 @@
    "ts": 1795719666,
    "end_ts": 1795806000,
    "q": "FC Dordrecht vs. Vitesse Arnhem: O/U 6.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7318630",
@@ -10878,7 +10776,7 @@
    "ts": 1795719666,
    "end_ts": 1795802400,
    "q": "Spread: Sønderjyske Fodbold (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7050064",
@@ -10891,7 +10789,7 @@
    "ts": 1795719666,
    "end_ts": 1795825800,
    "q": "Spread: Minnesota (-17.5)",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7310354",
@@ -10904,7 +10802,7 @@
    "ts": 1795719666,
    "end_ts": 1795820400,
    "q": "Fluminense FC vs. Cruzeiro EC: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7361375",
@@ -10917,7 +10815,7 @@
    "ts": 1795719666,
    "end_ts": 1795825800,
    "q": "Jets vs. Islanders: O/U 2.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7361708",
@@ -10930,7 +10828,7 @@
    "ts": 1795719666,
    "end_ts": 1795827600,
    "q": "Penguins vs. Sabres: O/U 2.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7361718",
@@ -10943,7 +10841,7 @@
    "ts": 1795719666,
    "end_ts": 1795827600,
    "q": "Kraken vs. Oilers: O/U 2.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7061902",
@@ -10956,7 +10854,7 @@
    "ts": 1795723265,
    "end_ts": 1795777200,
    "q": "FK Livyi Bereh vs. FK Kolos Kovalivka: O/U 7.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7203502",
@@ -10969,7 +10867,7 @@
    "ts": 1795723265,
    "end_ts": 1795798800,
    "q": "Will the price of Bitcoin be between $56,000 and $58,000 on November 27?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7203504",
@@ -10982,7 +10880,7 @@
    "ts": 1795723265,
    "end_ts": 1795798800,
    "q": "Will the price of Ethereum be above $1,600 on November 27?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7179064",
@@ -10995,7 +10893,7 @@
    "ts": 1795723265,
    "end_ts": 1795807800,
    "q": "SV Werder Bremen vs. Borussia Mönchengladbach: O/U 8.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7237995",
@@ -11008,7 +10906,7 @@
    "ts": 1795723265,
    "end_ts": 1795804200,
    "q": "Grazer AK 1902 vs. SCR Altach: O/U 7.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7273773",
@@ -11021,7 +10919,7 @@
    "ts": 1795723265,
    "end_ts": 1795802400,
    "q": "Spread: CD Feirense (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7276067",
@@ -11034,7 +10932,7 @@
    "ts": 1795723265,
    "end_ts": 1795802400,
    "q": "Hansa Rostock vs. TSV Havelse: O/U 0.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7016220",
@@ -11047,7 +10945,7 @@
    "ts": 1795723265,
    "end_ts": 1795815000,
    "q": "Villanova Wildcats vs. LSU Tigers (W)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7050126",
@@ -11060,7 +10958,7 @@
    "ts": 1795723265,
    "end_ts": 1795831200,
    "q": "Spread: West Virginia (-3.5)",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "6936503",
@@ -14674,6 +14572,227 @@
    "ts": 1795762864,
    "end_ts": 1795870800,
    "q": "Real Betis Balompié vs. Rayo Vallecano de Madrid: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "7210340",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "29386649099677486860877448451911790331821594670835846806111493693207518282830",
+   "px": 0.975,
+   "tick": 0.001,
+   "ts": 1795766467,
+   "end_ts": 1795813200,
+   "q": "Will Alphabet Inc. (GOOGL) hit (LOW) $260 Week of November 23 2026?",
+   "touched": null
+  },
+  {
+   "id": "7210455",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "10116325923188947938442641056540142411582417916992441937612066939886791864330",
+   "px": 0.991,
+   "tick": 0.001,
+   "ts": 1795766467,
+   "end_ts": 1795813200,
+   "q": "Will NVIDIA (NVDA) hit (LOW) $128 Week of November 23 2026?",
+   "touched": null
+  },
+  {
+   "id": "7210462",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "66528738076403406111093149916494035144509803999168390737485327971014276655600",
+   "px": 0.986,
+   "tick": 0.001,
+   "ts": 1795766467,
+   "end_ts": 1795813200,
+   "q": "Will NVIDIA (NVDA) hit (LOW) $108 Week of November 23 2026?",
+   "touched": null
+  },
+  {
+   "id": "7210779",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "84189796709312356375762817520724712651850038291083546575289051162121958803182",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795766467,
+   "end_ts": 1795816800,
+   "q": "Will Gold (XAUUSD) hit (HIGH) $3,850 Week of November 23 2026?",
+   "touched": null
+  },
+  {
+   "id": "7343571",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "46938633271614010065355306448851842013501842729495459265536624867415864323385",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795766467,
+   "end_ts": 1795813200,
+   "q": "S&P 500 (SPX) Opens Up or Down on November 27?",
+   "touched": null
+  },
+  {
+   "id": "7386809",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "64225108864046059022327968932723826914571158276609069432244945800605659292583",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1795766467,
+   "end_ts": 1795842000,
+   "q": "Will Ethereum dip to $1,400 on November 27?",
+   "touched": null
+  },
+  {
+   "id": "7201082",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "10802720120456641247371520117664726288502957254487422571191919349214228650244",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795766467,
+   "end_ts": 1795874400,
+   "q": "Spread: Parma Calcio 1913 (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "7201084",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "52677574752109076851548827805697676716727072060429976222469976658844956433527",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1795766467,
+   "end_ts": 1795874400,
+   "q": "Spread: Parma Calcio 1913 (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "7201094",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "10002833379265223260073009641707783863284129747773293763716297505294531878446",
+   "px": 0.974,
+   "tick": 0.001,
+   "ts": 1795766467,
+   "end_ts": 1795874400,
+   "q": "Frosinone Calcio vs. Parma Calcio 1913: O/U 0.5",
+   "touched": null
+  },
+  {
+   "id": "7201104",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "103707563584041053932560682454897781131501733675513782965865771398007759881851",
+   "px": 0.975,
+   "tick": 0.001,
+   "ts": 1795766467,
+   "end_ts": 1795874400,
+   "q": "Frosinone Calcio vs. Parma Calcio 1913: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "7227977",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "26479318871444935076098685198673623122358855078369178194249539078286317768405",
+   "px": 0.973,
+   "tick": 0.001,
+   "ts": 1795766467,
+   "end_ts": 1795867200,
+   "q": "Holstein Kiel vs. 1. FC Kaiserslautern: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "7227978",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "67544921964343213903150030320314530125172033912180925709798377799220422336107",
+   "px": 0.988,
+   "tick": 0.001,
+   "ts": 1795766467,
+   "end_ts": 1795867200,
+   "q": "Holstein Kiel vs. 1. FC Kaiserslautern: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "7228014",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "56331902992123376820038852527382952560727648499006973789069320341201244251035",
+   "px": 0.971,
+   "tick": 0.001,
+   "ts": 1795766467,
+   "end_ts": 1795867200,
+   "q": "SG Dynamo Dresden vs. FC St. Pauli 1910: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "7228015",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "70328090696067320796708210753849871909174882388379507744678618067147795202435",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1795766467,
+   "end_ts": 1795867200,
+   "q": "SG Dynamo Dresden vs. FC St. Pauli 1910: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "7251651",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "48258999145513895427786207012941194900370954642040834115451568515702632609074",
+   "px": 0.987,
+   "tick": 0.001,
+   "ts": 1795766467,
+   "end_ts": 1795869000,
+   "q": "Peterborough United FC vs. Cambridge United FC: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "7276114",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "93867644397965392545791914684104705085046834398807128015657305139504201762420",
+   "px": 0.986,
+   "tick": 0.001,
+   "ts": 1795766467,
+   "end_ts": 1795869000,
+   "q": "Vasas FC vs. Budapest Honved FC: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "7324276",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "35281655356218921200888805379365131459277053101829021248550522596168465573641",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795766467,
+   "end_ts": 1795870800,
+   "q": "UD Las Palmas vs. FC Andorra: O/U 6.5",
    "touched": null
   }
  ]
