@@ -1,29 +1,8 @@
 {
  "capital0": 1000.0,
- "cash": -0.0,
+ "cash": 0.0,
  "started": "2026-11-13T13:15:42Z",
  "orders": [
-  {
-   "oid": "7029435-1795752108",
-   "id": "7029435",
-   "q": "Will the next Gemini Carbon model (4.1+) be released on November 26, 2026?",
-   "cat": "otros",
-   "rule": "otros_cierre",
-   "event": "1383747",
-   "side": 1,
-   "token": "74183833943481821563697773390737779158411132382606922220889255142168539374231",
-   "px": 0.998,
-   "tick": 0.001,
-   "mid": 0.998,
-   "bid": 0.997,
-   "ask": 0.999,
-   "shares": 13.6195,
-   "cost": 13.5922,
-   "ts": 1795752108.221952,
-   "end_ts": 1795755540.0,
-   "hours": 0.95,
-   "liq": 3612
-  },
   {
    "oid": "7363577-1795755710",
    "id": "7363577",
@@ -65,6 +44,27 @@
    "end_ts": 1795766700.0,
    "hours": 0.05,
    "liq": 1400
+  },
+  {
+   "oid": "7210194-1795798966",
+   "id": "7210194",
+   "q": "Will Apple (AAPL) hit (HIGH) $372 Week of November 23 2026?",
+   "cat": "otros",
+   "rule": "otros_cierre",
+   "event": "1434206",
+   "side": 1,
+   "token": "40077033131901309628565905343529670359045917170207494888235325021497259740233",
+   "px": 0.996,
+   "tick": 0.001,
+   "mid": 0.9735,
+   "bid": 0.95,
+   "ask": 0.997,
+   "shares": 13.6468,
+   "cost": 13.5922,
+   "ts": 1795798966.972947,
+   "end_ts": 1795813200.0,
+   "hours": 3.95,
+   "liq": 2005
   }
  ],
  "positions": [
@@ -89,7 +89,7 @@
    "hours": 3.96,
    "liq": 1095,
    "fill_ts": 1794791170.442568,
-   "mark": 0.8135,
+   "mark": 0.814,
    "stuck": true,
    "disputed": false
   },
@@ -13243,13 +13243,26 @@
    "placed": 0,
    "shadow_open": 2887,
    "shadow_closed": 37
+  },
+  {
+   "ts": "2026-11-27T17:05:17Z",
+   "equity": 913.26,
+   "cash": 0.0,
+   "orders": 3,
+   "positions": 11,
+   "closed": 291,
+   "scanned": 28601,
+   "candidates": 1071,
+   "placed": 1,
+   "shadow_open": 2915,
+   "shadow_closed": 86
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 655,
+  "placed": 656,
   "filled": 302,
-  "expired": 73,
+  "expired": 74,
   "touched_not_filled": 277
  },
  "shadow": [
@@ -16920,45 +16933,6 @@
    "touched": 1
   },
   {
-   "id": "7336776",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "33185147929777962087781089588144194182234742628944894584949381569071754613447",
-   "px": 0.988,
-   "tick": 0.001,
-   "ts": 1795608133,
-   "end_ts": 1795780800,
-   "q": "Will the highest temperature in Beijing be 14°C on November 27?",
-   "touched": 1
-  },
-  {
-   "id": "7336781",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "52029060898399136822099222033105151988537458277520576586613789802588925389732",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795608133,
-   "end_ts": 1795780800,
-   "q": "Will the highest temperature in Wuhan be 13°C or below on November 27?",
-   "touched": 1
-  },
-  {
-   "id": "7336806",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "100886263452507456418600239239801523984492471107438350812754953306191324786141",
-   "px": 0.986,
-   "tick": 0.001,
-   "ts": 1795608133,
-   "end_ts": 1795780800,
-   "q": "Will the highest temperature in Chengdu be 23°C on November 27?",
-   "touched": 1
-  },
-  {
    "id": "7336877",
    "rule": "clima_cierre",
    "cat": "clima",
@@ -18493,32 +18467,6 @@
    "touched": 1
   },
   {
-   "id": "7336708",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "38059298239158814992066374805388707648699178199597066395159582924773765008778",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795626110,
-   "end_ts": 1795780800,
-   "q": "Will the highest temperature in Singapore be 27°C on November 27?",
-   "touched": 1
-  },
-  {
-   "id": "7336717",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "103231761323351471582982941673525724587255648949501826957522791717100200851208",
-   "px": 0.996,
-   "tick": 0.001,
-   "ts": 1795626110,
-   "end_ts": 1795780800,
-   "q": "Will the highest temperature in Singapore be 36°C or higher on November 27?",
-   "touched": 1
-  },
-  {
    "id": "7336739",
    "rule": "clima_cierre",
    "cat": "clima",
@@ -18529,136 +18477,6 @@
    "ts": 1795626110,
    "end_ts": 1795780800,
    "q": "Will the highest temperature in Madrid be 14°C or higher on November 27?",
-   "touched": 1
-  },
-  {
-   "id": "7336749",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "75549289113689063006990815815216433928154819510795423905541385228107845124534",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795626110,
-   "end_ts": 1795780800,
-   "q": "Will the highest temperature in Taipei be 30°C on November 27?",
-   "touched": 1
-  },
-  {
-   "id": "7336762",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "109402575894936292836918990331444980850411251877778990841943168817952691137232",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795626110,
-   "end_ts": 1795780800,
-   "q": "Will the highest temperature in Chongqing be 22°C on November 27?",
-   "touched": 1
-  },
-  {
-   "id": "7336771",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "4412906570883060893956896907144736680687777302604361320351097490086762989020",
-   "px": 0.983,
-   "tick": 0.001,
-   "ts": 1795626110,
-   "end_ts": 1795780800,
-   "q": "Will the highest temperature in Beijing be 9°C on November 27?",
-   "touched": 1
-  },
-  {
-   "id": "7336775",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "45647059288306365016892155674581242927730975774804904346639378190617099972512",
-   "px": 0.978,
-   "tick": 0.001,
-   "ts": 1795626110,
-   "end_ts": 1795780800,
-   "q": "Will the highest temperature in Beijing be 13°C on November 27?",
-   "touched": 1
-  },
-  {
-   "id": "7336782",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "98991742672644256480504780182154332681497819143515951826314690028913270204034",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795626110,
-   "end_ts": 1795780800,
-   "q": "Will the highest temperature in Wuhan be 14°C on November 27?",
-   "touched": 0
-  },
-  {
-   "id": "7336797",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "59631212942237242002875183288479588302608478946161151742304793956972365442684",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795626110,
-   "end_ts": 1795780800,
-   "q": "Will the highest temperature in Chengdu be 15°C on November 27?",
-   "touched": 1
-  },
-  {
-   "id": "7336799",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "45307983569459637761299964079268525275562913629713777842033899911690281162759",
-   "px": 0.984,
-   "tick": 0.001,
-   "ts": 1795626110,
-   "end_ts": 1795780800,
-   "q": "Will the highest temperature in Chengdu be 17°C on November 27?",
-   "touched": 1
-  },
-  {
-   "id": "7336808",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "67340133491080889580054934543627805059728952252831600347369199603921028573384",
-   "px": 0.996,
-   "tick": 0.001,
-   "ts": 1795626110,
-   "end_ts": 1795780800,
-   "q": "Will the highest temperature in Chengdu be 24°C or higher on November 27?",
-   "touched": 1
-  },
-  {
-   "id": "7336812",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "9541581488389117321714590763489688696469661186041728315108097708515949994511",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1795626110,
-   "end_ts": 1795780800,
-   "q": "Will the highest temperature in Shenzhen be 21°C on November 27?",
-   "touched": 1
-  },
-  {
-   "id": "7336820",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "74103841184803594699543146350506377448949754116472686944418119378023041613424",
-   "px": 0.989,
-   "tick": 0.001,
-   "ts": 1795626110,
-   "end_ts": 1795780800,
-   "q": "Will the highest temperature in Shenzhen be 28°C on November 27?",
    "touched": 1
   },
   {
@@ -19663,227 +19481,6 @@
    "touched": 1
   },
   {
-   "id": "7336697",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "10393378791649227658836841945279354767675582211465058293861892065392138396624",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795629701,
-   "end_ts": 1795780800,
-   "q": "Will the highest temperature in Shanghai be 16°C on November 27?",
-   "touched": 1
-  },
-  {
-   "id": "7336698",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "98307227157207360324552034266270516090473079089769615723100902604263759930097",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795629701,
-   "end_ts": 1795780800,
-   "q": "Will the highest temperature in Shanghai be 17°C on November 27?",
-   "touched": 1
-  },
-  {
-   "id": "7336700",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "115537081052540623024159267443609852618403043494891508168590411641419461301920",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1795629701,
-   "end_ts": 1795780800,
-   "q": "Will the highest temperature in Shanghai be 19°C on November 27?",
-   "touched": 1
-  },
-  {
-   "id": "7336704",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "58790114505997150554593580327717816775309670740589051589051361079148967055629",
-   "px": 0.985,
-   "tick": 0.001,
-   "ts": 1795629701,
-   "end_ts": 1795780800,
-   "q": "Will the highest temperature in Shanghai be 23°C on November 27?",
-   "touched": 1
-  },
-  {
-   "id": "7336705",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "11282877747863504510718206447512718526810441570496421117427259812369133557411",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795629701,
-   "end_ts": 1795780800,
-   "q": "Will the highest temperature in Shanghai be 24°C on November 27?",
-   "touched": 1
-  },
-  {
-   "id": "7336709",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "90925459227252297979320647910433626704403642045345629441132231712156832887066",
-   "px": 0.996,
-   "tick": 0.001,
-   "ts": 1795629701,
-   "end_ts": 1795780800,
-   "q": "Will the highest temperature in Singapore be 28°C on November 27?",
-   "touched": 1
-  },
-  {
-   "id": "7336710",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "108565164801679158958510282261798710351400953444789656002081679858792837415402",
-   "px": 0.988,
-   "tick": 0.001,
-   "ts": 1795629701,
-   "end_ts": 1795780800,
-   "q": "Will the highest temperature in Singapore be 29°C on November 27?",
-   "touched": 1
-  },
-  {
-   "id": "7336715",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "24630445711549859278383652756969704397807495905452187632809827658613572161808",
-   "px": 0.987,
-   "tick": 0.001,
-   "ts": 1795629701,
-   "end_ts": 1795780800,
-   "q": "Will the highest temperature in Singapore be 34°C on November 27?",
-   "touched": 1
-  },
-  {
-   "id": "7336716",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "7215181413786167007315643092536533668160704768482297874021547194973081157227",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795629701,
-   "end_ts": 1795780800,
-   "q": "Will the highest temperature in Singapore be 35°C on November 27?",
-   "touched": 1
-  },
-  {
-   "id": "7336752",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "5745073165366836344019607739877023066505537057362082333749437393250322399069",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1795629701,
-   "end_ts": 1795780800,
-   "q": "Will the highest temperature in Chongqing be 14°C on November 27?",
-   "touched": 1
-  },
-  {
-   "id": "7336753",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "39578433700704702746950347903171948032548033281469202904996483526852922421099",
-   "px": 0.996,
-   "tick": 0.001,
-   "ts": 1795629701,
-   "end_ts": 1795780800,
-   "q": "Will the highest temperature in Chongqing be 15°C on November 27?",
-   "touched": 1
-  },
-  {
-   "id": "7336756",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "81857436089958214846443834635363776393824923871554400961814970503561913910630",
-   "px": 0.96,
-   "tick": 0.01,
-   "ts": 1795629701,
-   "end_ts": 1795780800,
-   "q": "Will the highest temperature in Chongqing be 17°C on November 27?",
-   "touched": 1
-  },
-  {
-   "id": "7336763",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "64742325257078126099859576928245394516003306916457538171587350118023491986987",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1795629701,
-   "end_ts": 1795780800,
-   "q": "Will the highest temperature in Chongqing be 23°C or higher on November 27?",
-   "touched": 1
-  },
-  {
-   "id": "7336768",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "27186963530816320224161913008248396462573776677947722251432522782848445961933",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795629701,
-   "end_ts": 1795780800,
-   "q": "Will the highest temperature in Beijing be 7°C on November 27?",
-   "touched": 1
-  },
-  {
-   "id": "7336769",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "63170034407613851874833356009550111790447553404572640982932115497900444186697",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1795629701,
-   "end_ts": 1795780800,
-   "q": "Will the highest temperature in Beijing be 8°C on November 27?",
-   "touched": 1
-  },
-  {
-   "id": "7336778",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "62571127151065255673579169520716819671443289991024522114770895913546733548231",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795629701,
-   "end_ts": 1795780800,
-   "q": "Will the highest temperature in Beijing be 15°C or higher on November 27?",
-   "touched": 1
-  },
-  {
-   "id": "7336819",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "91637376174564559251539329645158382861621859676375241842107794603506931960246",
-   "px": 0.984,
-   "tick": 0.001,
-   "ts": 1795629701,
-   "end_ts": 1795780800,
-   "q": "Will the highest temperature in Shenzhen be 27°C on November 27?",
-   "touched": 1
-  },
-  {
    "id": "7336880",
    "rule": "clima_cierre",
    "cat": "clima",
@@ -19920,32 +19517,6 @@
    "ts": 1795629701,
    "end_ts": 1795780800,
    "q": "Will the highest temperature in Amsterdam be 3°C on November 27?",
-   "touched": 1
-  },
-  {
-   "id": "7336977",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "51387172488102899577031750435262615165513416001138208348063492733551060789419",
-   "px": 0.988,
-   "tick": 0.001,
-   "ts": 1795629701,
-   "end_ts": 1795780800,
-   "q": "Will the highest temperature in Guangzhou be 23°C on November 27?",
-   "touched": 1
-  },
-  {
-   "id": "7337040",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "48379739247129650092835260951142749189339383331753808046322550191893050703770",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795629701,
-   "end_ts": 1795780800,
-   "q": "Will the highest temperature in Manila be 37°C on November 27?",
    "touched": 1
   },
   {
@@ -20820,19 +20391,6 @@
    "touched": 1
   },
   {
-   "id": "7336699",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "91833886823478261632956673983396175706759168437080488550003465071294558527938",
-   "px": 0.991,
-   "tick": 0.001,
-   "ts": 1795633320,
-   "end_ts": 1795780800,
-   "q": "Will the highest temperature in Shanghai be 18°C on November 27?",
-   "touched": 1
-  },
-  {
    "id": "7336722",
    "rule": "clima_cierre",
    "cat": "clima",
@@ -20843,110 +20401,6 @@
    "ts": 1795633320,
    "end_ts": 1795780800,
    "q": "Will the highest temperature in Milan be 7°C on November 27?",
-   "touched": 1
-  },
-  {
-   "id": "7336742",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "69395352008931077019601757594447303434045775215849803356752399089682802935118",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795633320,
-   "end_ts": 1795780800,
-   "q": "Will the highest temperature in Taipei be 23°C on November 27?",
-   "touched": 1
-  },
-  {
-   "id": "7336748",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "24905778319853388963102324776305233956746386488812174136259218403943430042331",
-   "px": 0.988,
-   "tick": 0.001,
-   "ts": 1795633320,
-   "end_ts": 1795780800,
-   "q": "Will the highest temperature in Taipei be 29°C on November 27?",
-   "touched": 1
-  },
-  {
-   "id": "7336750",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "56662845035374651856092059718230596781098117995879046075462822676572338679339",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795633320,
-   "end_ts": 1795780800,
-   "q": "Will the highest temperature in Taipei be 31°C or higher on November 27?",
-   "touched": 0
-  },
-  {
-   "id": "7336754",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "73506099497613237206259065912710082006347063183321200438379322587824185840823",
-   "px": 0.989,
-   "tick": 0.001,
-   "ts": 1795633320,
-   "end_ts": 1795780800,
-   "q": "Will the highest temperature in Chongqing be 16°C on November 27?",
-   "touched": 1
-  },
-  {
-   "id": "7336760",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "66512078658064035180667572193616959525168098078930823442291077015490291058508",
-   "px": 0.975,
-   "tick": 0.001,
-   "ts": 1795633320,
-   "end_ts": 1795780800,
-   "q": "Will the highest temperature in Chongqing be 21°C on November 27?",
-   "touched": 1
-  },
-  {
-   "id": "7336784",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "28072284873010317122278596810244721661256602288954117224961813801053651444822",
-   "px": 0.993,
-   "tick": 0.001,
-   "ts": 1795633320,
-   "end_ts": 1795780800,
-   "q": "Will the highest temperature in Wuhan be 16°C on November 27?",
-   "touched": 1
-  },
-  {
-   "id": "7336787",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "86515698340881086191536920607580593548732495351345903174921834960070368808420",
-   "px": 0.96,
-   "tick": 0.01,
-   "ts": 1795633320,
-   "end_ts": 1795780800,
-   "q": "Will the highest temperature in Wuhan be 18°C on November 27?",
-   "touched": 1
-  },
-  {
-   "id": "7336798",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "47100332919640909004622922001749452804813566864138008585166658926452510070243",
-   "px": 0.991,
-   "tick": 0.001,
-   "ts": 1795633320,
-   "end_ts": 1795780800,
-   "q": "Will the highest temperature in Chengdu be 16°C on November 27?",
    "touched": 1
   },
   {
@@ -21002,19 +20456,6 @@
    "touched": 1
   },
   {
-   "id": "7336919",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "103994007765505423570067718544945540362571694008661518311357059806512471627949",
-   "px": 0.988,
-   "tick": 0.001,
-   "ts": 1795633320,
-   "end_ts": 1795780800,
-   "q": "Will the highest temperature in Kuala Lumpur be 35°C on November 27?",
-   "touched": 1
-  },
-  {
    "id": "7336949",
    "rule": "clima_cierre",
    "cat": "clima",
@@ -21025,19 +20466,6 @@
    "ts": 1795633320,
    "end_ts": 1795780800,
    "q": "Will the lowest temperature in Paris be 3°C or higher on November 27?",
-   "touched": 1
-  },
-  {
-   "id": "7336976",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "25799110597237459440121076504619449907151125054610751896580904014614542807779",
-   "px": 0.993,
-   "tick": 0.001,
-   "ts": 1795633320,
-   "end_ts": 1795780800,
-   "q": "Will the highest temperature in Guangzhou be 22°C on November 27?",
    "touched": 1
   },
   {
@@ -21704,58 +21132,6 @@
    "touched": 1
   },
   {
-   "id": "7336783",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "71730433820654452415845997296109611044878634024150473059193546262537605181614",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795636778,
-   "end_ts": 1795780800,
-   "q": "Will the highest temperature in Wuhan be 15°C on November 27?",
-   "touched": 1
-  },
-  {
-   "id": "7336786",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "7462188022935328512523241150387021433661759140478237552702248630537648730082",
-   "px": 0.993,
-   "tick": 0.001,
-   "ts": 1795636778,
-   "end_ts": 1795780800,
-   "q": "Will the highest temperature in Wuhan be 17°C on November 27?",
-   "touched": 1
-  },
-  {
-   "id": "7336792",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "35434225348240858285022076720124926176016911923245133694762904267513317758492",
-   "px": 0.984,
-   "tick": 0.001,
-   "ts": 1795636778,
-   "end_ts": 1795780800,
-   "q": "Will the highest temperature in Wuhan be 22°C on November 27?",
-   "touched": 1
-  },
-  {
-   "id": "7336793",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "60235905104399411637316072518460906743705096720124724213865077078818161891186",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795636778,
-   "end_ts": 1795780800,
-   "q": "Will the highest temperature in Wuhan be 23°C or higher on November 27?",
-   "touched": 1
-  },
-  {
    "id": "7336841",
    "rule": "clima_cierre",
    "cat": "clima",
@@ -21805,110 +21181,6 @@
    "ts": 1795636778,
    "end_ts": 1795780800,
    "q": "Will the highest temperature in Jeddah be 37°C on November 27?",
-   "touched": 1
-  },
-  {
-   "id": "7336974",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "82562187182966554250322056539583311497662457694822924310562663078972060792703",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795636778,
-   "end_ts": 1795780800,
-   "q": "Will the highest temperature in Guangzhou be 20°C on November 27?",
-   "touched": 1
-  },
-  {
-   "id": "7336975",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "19370115038723323134072978619009968120627596189571190857220218464797753864595",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795636778,
-   "end_ts": 1795780800,
-   "q": "Will the highest temperature in Guangzhou be 21°C on November 27?",
-   "touched": 1
-  },
-  {
-   "id": "7336982",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "97131972616439914086219183362417280625136897434197023075659803527107624167972",
-   "px": 0.96,
-   "tick": 0.01,
-   "ts": 1795636778,
-   "end_ts": 1795780800,
-   "q": "Will the highest temperature in Guangzhou be 28°C or higher on November 27?",
-   "touched": 1
-  },
-  {
-   "id": "7336996",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "111093775388663667257341478424943564523084897965873271530078949764483083914546",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1795636778,
-   "end_ts": 1795780800,
-   "q": "Will the highest temperature in Qingdao be 16°C on November 27?",
-   "touched": 1
-  },
-  {
-   "id": "7336998",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "6142955685666148303764800174261721738347405044199361144456472265294350188856",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795636778,
-   "end_ts": 1795780800,
-   "q": "Will the highest temperature in Qingdao be 17°C on November 27?",
-   "touched": 1
-  },
-  {
-   "id": "7337028",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "78585402655297945696064412713426476534077369596549312388921318293405640705100",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1795636778,
-   "end_ts": 1795780800,
-   "q": "Will the highest temperature in Manila be 30°C on November 27?",
-   "touched": 1
-  },
-  {
-   "id": "7337029",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "100048330263360400827809777461976384282337202181320948320372325775785220477560",
-   "px": 0.991,
-   "tick": 0.001,
-   "ts": 1795636778,
-   "end_ts": 1795780800,
-   "q": "Will the highest temperature in Manila be 31°C on November 27?",
-   "touched": 1
-  },
-  {
-   "id": "7337038",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "64526704875280267388037662922658538352927031546565028796356013071586963465683",
-   "px": 0.992,
-   "tick": 0.001,
-   "ts": 1795636778,
-   "end_ts": 1795780800,
-   "q": "Will the highest temperature in Manila be 36°C on November 27?",
    "touched": 1
   },
   {
@@ -22364,32 +21636,6 @@
    "ts": 1795640511,
    "end_ts": 1795780800,
    "q": "Will the highest temperature in Milan be 13°C or higher on November 27?",
-   "touched": 1
-  },
-  {
-   "id": "7336740",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "90365399362971022368616581184593189111945246441106249246115222733608851385190",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795640511,
-   "end_ts": 1795780800,
-   "q": "Will the highest temperature in Taipei be 21°C or below on November 27?",
-   "touched": 1
-  },
-  {
-   "id": "7336741",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "34867010702776993398678746091748560235595497043372710328779375437727118594874",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1795640511,
-   "end_ts": 1795780800,
-   "q": "Will the highest temperature in Taipei be 22°C on November 27?",
    "touched": 1
   },
   {
@@ -22952,19 +22198,6 @@
    "touched": 1
   },
   {
-   "id": "7337036",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "67670850876314170008846134250860651553488921904518138964133455164824553073604",
-   "px": 0.96,
-   "tick": 0.01,
-   "ts": 1795644143,
-   "end_ts": 1795780800,
-   "q": "Will the highest temperature in Manila be 35°C on November 27?",
-   "touched": 0
-  },
-  {
    "id": "7338476",
    "rule": "clima_cierre",
    "cat": "clima",
@@ -23108,32 +22341,6 @@
    "touched": 1
   },
   {
-   "id": "7336813",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "110002363254646288848891112175795840296978227434920199156032571086398747547474",
-   "px": 0.99,
-   "tick": 0.001,
-   "ts": 1795647704,
-   "end_ts": 1795780800,
-   "q": "Will the highest temperature in Shenzhen be 22°C on November 27?",
-   "touched": 1
-  },
-  {
-   "id": "7336822",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "97954463019451449338667987914983436924016167906129663623355136571613501985093",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1795647704,
-   "end_ts": 1795780800,
-   "q": "Will the highest temperature in Shenzhen be 29°C on November 27?",
-   "touched": 1
-  },
-  {
    "id": "7336833",
    "rule": "clima_cierre",
    "cat": "clima",
@@ -23184,71 +22391,6 @@
    "end_ts": 1795780800,
    "q": "Will the highest temperature in Moscow be 0°C on November 27?",
    "touched": 1
-  },
-  {
-   "id": "7336908",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "45668460760379963403026592866181994158538173216454465675815164318159947501838",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795647704,
-   "end_ts": 1795780800,
-   "q": "Will the highest temperature in Kuala Lumpur be 28°C on November 27?",
-   "touched": 1
-  },
-  {
-   "id": "7336909",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "43053803720588124624477482341942108498827877765873150346938787048690271848702",
-   "px": 0.976,
-   "tick": 0.001,
-   "ts": 1795647704,
-   "end_ts": 1795780800,
-   "q": "Will the highest temperature in Kuala Lumpur be 29°C on November 27?",
-   "touched": 1
-  },
-  {
-   "id": "7336917",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "58711900270239970278642325691014880804954151683446498375076868633865900799102",
-   "px": 0.974,
-   "tick": 0.001,
-   "ts": 1795647704,
-   "end_ts": 1795780800,
-   "q": "Will the highest temperature in Kuala Lumpur be 34°C on November 27?",
-   "touched": 1
-  },
-  {
-   "id": "7336983",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "29173395394555076430833037480640772293771349945998962231132390811812582818236",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795647704,
-   "end_ts": 1795780800,
-   "q": "Will the highest temperature in Qingdao be 8°C or below on November 27?",
-   "touched": 0
-  },
-  {
-   "id": "7336988",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "7642535500157661256881655433184646906888322621357525121294613099342848291819",
-   "px": 0.96,
-   "tick": 0.01,
-   "ts": 1795647704,
-   "end_ts": 1795780800,
-   "q": "Will the highest temperature in Qingdao be 12°C on November 27?",
-   "touched": 0
   },
   {
    "id": "7337067",
@@ -23485,58 +22627,6 @@
    "touched": 1
   },
   {
-   "id": "7336984",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "86561167839214121141270747086485326462893610078733711615281147293919288040950",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795651306,
-   "end_ts": 1795780800,
-   "q": "Will the highest temperature in Qingdao be 9°C on November 27?",
-   "touched": 1
-  },
-  {
-   "id": "7336985",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "26265027321954067834131299156523615231881825466375840450598649234650747323672",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1795651306,
-   "end_ts": 1795780800,
-   "q": "Will the highest temperature in Qingdao be 10°C on November 27?",
-   "touched": 1
-  },
-  {
-   "id": "7336986",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "89862667207016026189343170244471824803819881272339795803265542526167865081133",
-   "px": 0.992,
-   "tick": 0.001,
-   "ts": 1795651306,
-   "end_ts": 1795780800,
-   "q": "Will the highest temperature in Qingdao be 11°C on November 27?",
-   "touched": 1
-  },
-  {
-   "id": "7337074",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "23570341327723027280085629792924327198132303453876512342535381066663236812626",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795651306,
-   "end_ts": 1795780800,
-   "q": "Will the lowest temperature in Shanghai be 5°C on November 27?",
-   "touched": 1
-  },
-  {
    "id": "7338487",
    "rule": "clima_cierre",
    "cat": "clima",
@@ -23690,19 +22780,6 @@
    "ts": 1795654901,
    "end_ts": 1795780800,
    "q": "Will the highest temperature in Cape Town be 19°C on November 27?",
-   "touched": 1
-  },
-  {
-   "id": "7337030",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "2794860336382601419640681097932912446489446731093922701608979368639059133391",
-   "px": 0.96,
-   "tick": 0.01,
-   "ts": 1795654901,
-   "end_ts": 1795780800,
-   "q": "Will the highest temperature in Manila be 32°C on November 27?",
    "touched": 1
   },
   {
@@ -24405,32 +23482,6 @@
    "ts": 1795665725,
    "end_ts": 1795924800,
    "q": "Spread: Sacramento State (-7.5)",
-   "touched": 1
-  },
-  {
-   "id": "7336743",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "255015140145067050369035679400967212958468369165960744923700658885966804065",
-   "px": 0.95,
-   "tick": 0.01,
-   "ts": 1795669311,
-   "end_ts": 1795780800,
-   "q": "Will the highest temperature in Taipei be 24°C on November 27?",
-   "touched": 0
-  },
-  {
-   "id": "7336800",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "110054842699188247405632122893825204349095539392066551325834859003883886802942",
-   "px": 0.95,
-   "tick": 0.01,
-   "ts": 1795669311,
-   "end_ts": 1795780800,
-   "q": "Will the highest temperature in Chengdu be 18°C on November 27?",
    "touched": 1
   },
   {
@@ -26342,19 +25393,6 @@
    "ts": 1795694503,
    "end_ts": 1795780800,
    "q": "Will the highest temperature in Cape Town be 26°C on November 27?",
-   "touched": 1
-  },
-  {
-   "id": "7336978",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "26693481371106471071258071167329301943737124487584899018899194346497627250140",
-   "px": 0.96,
-   "tick": 0.01,
-   "ts": 1795694503,
-   "end_ts": 1795780800,
-   "q": "Will the highest temperature in Guangzhou be 24°C on November 27?",
    "touched": 1
   },
   {
@@ -28555,19 +27593,6 @@
    "touched": 1
   },
   {
-   "id": "7337088",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "6736647298466497303887555674131117412385394079331753911858834207621410010594",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795701712,
-   "end_ts": 1795780800,
-   "q": "Will the lowest temperature in Shanghai be 12°C on November 27?",
-   "touched": 1
-  },
-  {
    "id": "7340905",
    "rule": "clima_cierre",
    "cat": "clima",
@@ -30076,19 +29101,6 @@
    "touched": 1
   },
   {
-   "id": "7337091",
-   "rule": "clima_cierre",
-   "cat": "clima",
-   "side": 1,
-   "token": "76455489645765956671242385491674088349135082787214828499953269604101159705220",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795708936,
-   "end_ts": 1795780800,
-   "q": "Will the lowest temperature in Shanghai be 14°C or higher on November 27?",
-   "touched": 1
-  },
-  {
    "id": "7338429",
    "rule": "clima_cierre",
    "cat": "clima",
@@ -30125,19 +29137,6 @@
    "ts": 1795708936,
    "end_ts": 1795793400,
    "q": "Spread: Lusail SC (-2.5)",
-   "touched": 1
-  },
-  {
-   "id": "7371240",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "75039600805777631927330690121198943552731069337421147423888277984005199206289",
-   "px": 0.978,
-   "tick": 0.001,
-   "ts": 1795708936,
-   "end_ts": 1795791600,
-   "q": "Will the US national average gas price be between $3.5600 and $3.5699 on November 27?",
    "touched": 1
   },
   {
@@ -30414,58 +29413,6 @@
    "touched": 0
   },
   {
-   "id": "7305057",
-   "rule": "post_fin_90_97",
-   "cat": "clima",
-   "side": 0,
-   "token": "1914520962414658004635379317370238965649702907696247743871744186899510847661",
-   "px": 0.95,
-   "tick": 0.01,
-   "ts": 1795712503,
-   "end_ts": 1795694400,
-   "q": "Will the highest temperature in Atlanta be between 48-49°F on November 26?",
-   "touched": null
-  },
-  {
-   "id": "7305058",
-   "rule": "post_fin_90_97",
-   "cat": "clima",
-   "side": 1,
-   "token": "22595741359262059374375490008350923704485595564127658624610295336652540541607",
-   "px": 0.96,
-   "tick": 0.01,
-   "ts": 1795712503,
-   "end_ts": 1795694400,
-   "q": "Will the highest temperature in Atlanta be between 50-51°F on November 26?",
-   "touched": null
-  },
-  {
-   "id": "7285187",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "89529135589337390839334206438657261378492850068811176836093618818110353566679",
-   "px": 0.998,
-   "tick": 0.001,
-   "ts": 1795712503,
-   "end_ts": 1795734000,
-   "q": "São Paulo FC vs. Clube do Remo: Clube do Remo O/U 2.5",
-   "touched": null
-  },
-  {
-   "id": "7347455",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "63172829288040122337763959546598963884037451363915334523146167457457949945247",
-   "px": 0.999,
-   "tick": 0.001,
-   "ts": 1795712503,
-   "end_ts": 1795727400,
-   "q": "Map Handicap: BAKS (-1.5) vs Nordic Partners Gaming  (+1.5)",
-   "touched": null
-  },
-  {
    "id": "7349490",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -30476,7 +29423,7 @@
    "ts": 1795712503,
    "end_ts": 1795730400,
    "q": "Spread: Deportes Recoleta (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7349491",
@@ -30489,7 +29436,7 @@
    "ts": 1795712503,
    "end_ts": 1795730400,
    "q": "Spread: Santiago Wanderers (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7349492",
@@ -30502,7 +29449,7 @@
    "ts": 1795712503,
    "end_ts": 1795730400,
    "q": "Spread: Deportes Recoleta (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7349506",
@@ -30515,59 +29462,7 @@
    "ts": 1795712503,
    "end_ts": 1795730400,
    "q": "Santiago Wanderers vs. Deportes Recoleta: O/U 6.5",
-   "touched": null
-  },
-  {
-   "id": "7358781",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "73240603263891307805865330141917687329528788547087393704899924281415311037791",
-   "px": 0.999,
-   "tick": 0.001,
-   "ts": 1795712503,
-   "end_ts": 1795730400,
-   "q": "Valorant: Enterprise Esports vs UCAM Esports Club - Map 1 Winner",
-   "touched": null
-  },
-  {
-   "id": "7358799",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "76029767785767813445420869151155525308129320202701085589042171326313912369034",
-   "px": 0.979,
-   "tick": 0.001,
-   "ts": 1795712503,
-   "end_ts": 1795730400,
-   "q": "Valorant: CGN Esports vs xXxMasterProMegaTeamxXx (BO3) - VCT EMEA Kickoff: Europe - Qualif",
-   "touched": null
-  },
-  {
-   "id": "7363482",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "34736196014748028843249007587588589361493818118692502422493304533469615904249",
-   "px": 0.959,
-   "tick": 0.001,
-   "ts": 1795712503,
-   "end_ts": 1795755600,
-   "q": "Will Bitcoin reach $63,000 on November 26?",
-   "touched": null
-  },
-  {
-   "id": "7195922",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "43999591665668781651603059759486745098855405676047117169497285285604735124831",
-   "px": 0.96,
-   "tick": 0.01,
-   "ts": 1795712503,
-   "end_ts": 1795780800,
-   "q": "Maccabi Petah Tikva FC vs. Hapoel Tel Aviv FC: O/U 0.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7336644",
@@ -30580,7 +29475,7 @@
    "ts": 1795712503,
    "end_ts": 1795780800,
    "q": "Will the highest temperature in Lucknow be 23°C on November 27?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7340907",
@@ -30593,7 +29488,7 @@
    "ts": 1795712503,
    "end_ts": 1795780800,
    "q": "Will the highest temperature in Denver be 53°F or below on November 27?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7248761",
@@ -30606,7 +29501,7 @@
    "ts": 1795712503,
    "end_ts": 1795798800,
    "q": "Sariyer SK vs. Istanbulspor AS: O/U 5.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7304625",
@@ -30619,7 +29514,7 @@
    "ts": 1795712503,
    "end_ts": 1795806000,
    "q": "FC Dordrecht vs. Vitesse Arnhem: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7050123",
@@ -30632,7 +29527,7 @@
    "ts": 1795712503,
    "end_ts": 1795831200,
    "q": "Spread: West Virginia (-6.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7194760",
@@ -30645,7 +29540,7 @@
    "ts": 1795712503,
    "end_ts": 1795841940,
    "q": "Will Trump's approval rating be between 38.0 and 38.4 on November 27, 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7329345",
@@ -30658,7 +29553,7 @@
    "ts": 1795712503,
    "end_ts": 1795842000,
    "q": "FC Seoul vs. Daejeon Hana Citizen FC: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7329271",
@@ -30671,7 +29566,7 @@
    "ts": 1795712503,
    "end_ts": 1795851000,
    "q": "Bucheon FC 1995 vs. Gimcheon Sangmu FC: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7196794",
@@ -30684,7 +29579,7 @@
    "ts": 1795712503,
    "end_ts": 1795870800,
    "q": "Spread: Rayo Vallecano de Madrid (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7196806",
@@ -30697,7 +29592,7 @@
    "ts": 1795712503,
    "end_ts": 1795870800,
    "q": "Real Betis Balompié vs. Rayo Vallecano de Madrid: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7201084",
@@ -30710,7 +29605,7 @@
    "ts": 1795712503,
    "end_ts": 1795874400,
    "q": "Spread: Parma Calcio 1913 (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7243033",
@@ -30723,7 +29618,7 @@
    "ts": 1795712503,
    "end_ts": 1795870800,
    "q": "SC Preussen 06 Munster vs. SC Verl: O/U 0.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7329958",
@@ -30736,7 +29631,7 @@
    "ts": 1795712503,
    "end_ts": 1795872600,
    "q": "PFK CSKA Moskva vs. FK Zenit: O/U 0.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7345935",
@@ -30749,7 +29644,7 @@
    "ts": 1795712503,
    "end_ts": 1795874400,
    "q": "FK Mladá Boleslav vs. SK Sigma Olomouc: O/U 0.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7348730",
@@ -30762,7 +29657,7 @@
    "ts": 1795712503,
    "end_ts": 1795867200,
    "q": "Bjarg vs. Sogndal Fotball: O/U 0.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7363785",
@@ -30775,7 +29670,7 @@
    "ts": 1795712503,
    "end_ts": 1795867200,
    "q": "Will the highest temperature in Seoul (Incheon) be 7°C on November 28?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7363790",
@@ -30788,7 +29683,7 @@
    "ts": 1795712503,
    "end_ts": 1795867200,
    "q": "Will the highest temperature in Seoul (Incheon) be 12°C on November 28?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7363865",
@@ -30801,7 +29696,7 @@
    "ts": 1795712503,
    "end_ts": 1795867200,
    "q": "Will the highest temperature in Hong Kong be 23°C on November 28?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7363870",
@@ -30814,7 +29709,7 @@
    "ts": 1795712503,
    "end_ts": 1795867200,
    "q": "Will the highest temperature in Hong Kong be 28°C on November 28?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7363871",
@@ -30827,7 +29722,7 @@
    "ts": 1795712503,
    "end_ts": 1795867200,
    "q": "Will the highest temperature in Hong Kong be 29°C on November 28?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7363875",
@@ -30840,7 +29735,7 @@
    "ts": 1795712503,
    "end_ts": 1795867200,
    "q": "Will the highest temperature in Shanghai be 12°C on November 28?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7363912",
@@ -30853,7 +29748,7 @@
    "ts": 1795712503,
    "end_ts": 1795867200,
    "q": "Will the highest temperature in Madrid be 9°C on November 28?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7363922",
@@ -30866,7 +29761,7 @@
    "ts": 1795712503,
    "end_ts": 1795867200,
    "q": "Will the highest temperature in Taipei be 21°C on November 28?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7363924",
@@ -30879,7 +29774,7 @@
    "ts": 1795712503,
    "end_ts": 1795867200,
    "q": "Will the highest temperature in Taipei be 23°C on November 28?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7363928",
@@ -30892,7 +29787,7 @@
    "ts": 1795712503,
    "end_ts": 1795867200,
    "q": "Will the highest temperature in Taipei be 27°C on November 28?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7363983",
@@ -30905,7 +29800,7 @@
    "ts": 1795712503,
    "end_ts": 1795867200,
    "q": "Will the highest temperature in Chengdu be 22°C on November 28?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7364079",
@@ -30918,7 +29813,7 @@
    "ts": 1795712503,
    "end_ts": 1795867200,
    "q": "Will the lowest temperature in London be 10°C or higher on November 28?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7364103",
@@ -30931,7 +29826,7 @@
    "ts": 1795712503,
    "end_ts": 1795867200,
    "q": "Will the highest temperature in Jeddah be 30°C on November 28?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7364104",
@@ -30944,7 +29839,7 @@
    "ts": 1795712503,
    "end_ts": 1795867200,
    "q": "Will the highest temperature in Jeddah be 31°C on November 28?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7364105",
@@ -30957,7 +29852,7 @@
    "ts": 1795712503,
    "end_ts": 1795867200,
    "q": "Will the highest temperature in Jeddah be 32°C on November 28?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7364110",
@@ -30970,7 +29865,7 @@
    "ts": 1795712503,
    "end_ts": 1795867200,
    "q": "Will the highest temperature in Jeddah be 36°C on November 28?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7364112",
@@ -30983,7 +29878,7 @@
    "ts": 1795712503,
    "end_ts": 1795867200,
    "q": "Will the highest temperature in Jeddah be 37°C on November 28?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7364146",
@@ -30996,7 +29891,7 @@
    "ts": 1795712503,
    "end_ts": 1795867200,
    "q": "Will the highest temperature in Guangzhou be 25°C on November 28?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7364161",
@@ -31009,7 +29904,7 @@
    "ts": 1795712503,
    "end_ts": 1795867200,
    "q": "Will the highest temperature in Qingdao be 4°C or below on November 28?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7364249",
@@ -31022,7 +29917,7 @@
    "ts": 1795712503,
    "end_ts": 1795867200,
    "q": "Will the highest temperature in Manila be 29°C on November 28?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7364251",
@@ -31035,7 +29930,7 @@
    "ts": 1795712503,
    "end_ts": 1795867200,
    "q": "Will the highest temperature in Manila be 30°C on November 28?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7364252",
@@ -31048,7 +29943,7 @@
    "ts": 1795712503,
    "end_ts": 1795867200,
    "q": "Will the highest temperature in Manila be 31°C on November 28?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7364264",
@@ -31061,7 +29956,7 @@
    "ts": 1795712503,
    "end_ts": 1795867200,
    "q": "Will the highest temperature in Manila be 35°C on November 28?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7364267",
@@ -31074,7 +29969,7 @@
    "ts": 1795712503,
    "end_ts": 1795867200,
    "q": "Will the highest temperature in Manila be 36°C on November 28?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7364270",
@@ -31087,7 +29982,7 @@
    "ts": 1795712503,
    "end_ts": 1795867200,
    "q": "Will the highest temperature in Manila be 37°C on November 28?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7365285",
@@ -31100,7 +29995,7 @@
    "ts": 1795712503,
    "end_ts": 1795867200,
    "q": "Will the highest temperature in Dallas be between 76-77°F on November 28?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7365298",
@@ -31113,7 +30008,7 @@
    "ts": 1795712503,
    "end_ts": 1795867200,
    "q": "Will the highest temperature in Miami be 63°F or below on November 28?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7365299",
@@ -31126,7 +30021,7 @@
    "ts": 1795712503,
    "end_ts": 1795867200,
    "q": "Will the highest temperature in Miami be between 64-65°F on November 28?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7365300",
@@ -31139,7 +30034,7 @@
    "ts": 1795712503,
    "end_ts": 1795867200,
    "q": "Will the highest temperature in Miami be between 66-67°F on November 28?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7365332",
@@ -31152,7 +30047,7 @@
    "ts": 1795712503,
    "end_ts": 1795867200,
    "q": "Will the highest temperature in Austin be between 80-81°F on November 28?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7365343",
@@ -31165,7 +30060,7 @@
    "ts": 1795712503,
    "end_ts": 1795867200,
    "q": "Will the highest temperature in Houston be between 80-81°F on November 28?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7366767",
@@ -31178,7 +30073,7 @@
    "ts": 1795712503,
    "end_ts": 1795867200,
    "q": "Will the highest temperature in Buenos Aires be 29°C on November 28?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7030703",
@@ -31191,7 +30086,7 @@
    "ts": 1795712503,
    "end_ts": 1795885200,
    "q": "Elon Phoenix vs. North Carolina State Wolfpack",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7233234",
@@ -31204,7 +30099,7 @@
    "ts": 1795712503,
    "end_ts": 1795885200,
    "q": "Will the price of Ethereum be above $1,800 on November 28?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7233261",
@@ -31217,7 +30112,7 @@
    "ts": 1795712503,
    "end_ts": 1795885200,
    "q": "Will the price of Ethereum be between $1,800 and $1,900 on November 28?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7233272",
@@ -31230,7 +30125,7 @@
    "ts": 1795712503,
    "end_ts": 1795885200,
    "q": "Will the price of Solana be above $65 on November 28?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7287728",
@@ -31243,7 +30138,7 @@
    "ts": 1795712503,
    "end_ts": 1795953600,
    "q": "Will \"The Hunger Games: Sunrise on the Reaping\" 2nd Weekend Box Office be less than 50m?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7358131",
@@ -31256,7 +30151,7 @@
    "ts": 1795712503,
    "end_ts": 1795960800,
    "q": "Modena FC 2018 vs. Calcio Padova: O/U 0.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7233336",
@@ -31269,7 +30164,7 @@
    "ts": 1795712503,
    "end_ts": 1795969800,
    "q": "Spread: Manchester City FC (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7233337",
@@ -31282,7 +30177,7 @@
    "ts": 1795712503,
    "end_ts": 1795969800,
    "q": "Spread: Arsenal FC (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7233338",
@@ -31295,7 +30190,7 @@
    "ts": 1795712503,
    "end_ts": 1795969800,
    "q": "Spread: Manchester City FC (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7233349",
@@ -31308,7 +30203,7 @@
    "ts": 1795712503,
    "end_ts": 1795969800,
    "q": "Arsenal FC vs. Manchester City FC: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7233509",
@@ -31321,7 +30216,7 @@
    "ts": 1795712503,
    "end_ts": 1795969800,
    "q": "TSG 1899 Hoffenheim vs. FC Augsburg: O/U 0.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7234597",
@@ -31334,7 +30229,7 @@
    "ts": 1795712503,
    "end_ts": 1795971600,
    "q": "AS Roma vs. AC Monza: O/U 0.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7260530",
@@ -31347,7 +30242,7 @@
    "ts": 1795712503,
    "end_ts": 1795971600,
    "q": "Will the price of Bitcoin be less than $52,000 on November 29?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7260531",
@@ -31360,7 +30255,7 @@
    "ts": 1795712503,
    "end_ts": 1795971600,
    "q": "Will the price of Ethereum be above $1,200 on November 29?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7260532",
@@ -31373,7 +30268,7 @@
    "ts": 1795712503,
    "end_ts": 1795971600,
    "q": "Will the price of Ethereum be above $1,300 on November 29?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7260533",
@@ -31386,7 +30281,7 @@
    "ts": 1795712503,
    "end_ts": 1795971600,
    "q": "Will the price of Bitcoin be between $52,000 and $54,000 on November 29?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7260534",
@@ -31399,7 +30294,7 @@
    "ts": 1795712503,
    "end_ts": 1795971600,
    "q": "Will the price of Bitcoin be between $54,000 and $56,000 on November 29?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7260535",
@@ -31412,7 +30307,7 @@
    "ts": 1795712503,
    "end_ts": 1795971600,
    "q": "Will the price of Ethereum be above $1,400 on November 29?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7260536",
@@ -31425,7 +30320,7 @@
    "ts": 1795712503,
    "end_ts": 1795971600,
    "q": "Will the price of Ethereum be above $1,500 on November 29?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7260544",
@@ -31438,7 +30333,7 @@
    "ts": 1795712503,
    "end_ts": 1795971600,
    "q": "Will the price of Bitcoin be between $64,000 and $66,000 on November 29?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7260545",
@@ -31451,7 +30346,7 @@
    "ts": 1795712503,
    "end_ts": 1795971600,
    "q": "Will the price of Ethereum be above $1,900 on November 29?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7260546",
@@ -31464,7 +30359,7 @@
    "ts": 1795712503,
    "end_ts": 1795971600,
    "q": "Will the price of Bitcoin be between $66,000 and $68,000 on November 29?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7260548",
@@ -31477,7 +30372,7 @@
    "ts": 1795712503,
    "end_ts": 1795971600,
    "q": "Will the price of Bitcoin be between $68,000 and $70,000 on November 29?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7260549",
@@ -31490,7 +30385,7 @@
    "ts": 1795712503,
    "end_ts": 1795971600,
    "q": "Will the price of Ethereum be above $2,100 on November 29?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7260550",
@@ -31503,7 +30398,7 @@
    "ts": 1795712503,
    "end_ts": 1795971600,
    "q": "Will the price of Bitcoin be greater than $70,000 on November 29?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7260551",
@@ -31516,7 +30411,7 @@
    "ts": 1795712503,
    "end_ts": 1795971600,
    "q": "Will the price of Ethereum be above $2,200 on November 29?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7260552",
@@ -31529,7 +30424,7 @@
    "ts": 1795712503,
    "end_ts": 1795971600,
    "q": "Will the price of Bitcoin be above $52,000 on November 29?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7260553",
@@ -31542,7 +30437,7 @@
    "ts": 1795712503,
    "end_ts": 1795971600,
    "q": "Will the price of Ethereum be less than $1,300 on November 29?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7260554",
@@ -31555,7 +30450,7 @@
    "ts": 1795712503,
    "end_ts": 1795971600,
    "q": "Will the price of Bitcoin be above $54,000 on November 29?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7260555",
@@ -31568,7 +30463,7 @@
    "ts": 1795712503,
    "end_ts": 1795971600,
    "q": "Will the price of Ethereum be between $1,300 and $1,400 on November 29?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7260556",
@@ -31581,7 +30476,7 @@
    "ts": 1795712503,
    "end_ts": 1795971600,
    "q": "Will the price of Bitcoin be above $56,000 on November 29?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7260566",
@@ -31594,7 +30489,7 @@
    "ts": 1795712503,
    "end_ts": 1795971600,
    "q": "Will the price of Bitcoin be above $66,000 on November 29?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7260568",
@@ -31607,7 +30502,7 @@
    "ts": 1795712503,
    "end_ts": 1795971600,
    "q": "Will the price of Bitcoin be above $68,000 on November 29?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7260569",
@@ -31620,7 +30515,7 @@
    "ts": 1795712503,
    "end_ts": 1795971600,
    "q": "Will the price of Ethereum be between $2,000 and $2,100 on November 29?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7260570",
@@ -31633,7 +30528,7 @@
    "ts": 1795712503,
    "end_ts": 1795971600,
    "q": "Will the price of Ethereum be between $2,100 and $2,200 on November 29?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7260571",
@@ -31646,7 +30541,7 @@
    "ts": 1795712503,
    "end_ts": 1795971600,
    "q": "Will the price of Bitcoin be above $70,000 on November 29?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7260572",
@@ -31659,7 +30554,7 @@
    "ts": 1795712503,
    "end_ts": 1795971600,
    "q": "Will the price of Bitcoin be above $72,000 on November 29?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7260573",
@@ -31672,7 +30567,7 @@
    "ts": 1795712503,
    "end_ts": 1795971600,
    "q": "Will the price of Ethereum be greater than $2,200 on November 29?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7260576",
@@ -31685,7 +30580,7 @@
    "ts": 1795712503,
    "end_ts": 1795971600,
    "q": "Will the price of Solana be above $50 on November 29?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7260578",
@@ -31698,7 +30593,7 @@
    "ts": 1795712503,
    "end_ts": 1795971600,
    "q": "Will the price of Solana be above $55 on November 29?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7260579",
@@ -31711,7 +30606,7 @@
    "ts": 1795712503,
    "end_ts": 1795971600,
    "q": "Will the price of Solana be between $40 and $50 on November 29?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7260580",
@@ -31724,7 +30619,7 @@
    "ts": 1795712503,
    "end_ts": 1795971600,
    "q": "Will the price of Solana be above $60 on November 29?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7260588",
@@ -31737,7 +30632,7 @@
    "ts": 1795712503,
    "end_ts": 1795971600,
    "q": "Will the price of Solana be above $80 on November 29?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7260589",
@@ -31750,7 +30645,7 @@
    "ts": 1795712503,
    "end_ts": 1795971600,
    "q": "Will the price of Solana be between $90 and $100 on November 29?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7260590",
@@ -31763,7 +30658,7 @@
    "ts": 1795712503,
    "end_ts": 1795971600,
    "q": "Will the price of Solana be above $85 on November 29?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7260591",
@@ -31776,7 +30671,7 @@
    "ts": 1795712503,
    "end_ts": 1795971600,
    "q": "Will the price of Solana be between $100 and $110 on November 29?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7260592",
@@ -31789,7 +30684,7 @@
    "ts": 1795712503,
    "end_ts": 1795971600,
    "q": "Will the price of Solana be above $90 on November 29?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7260594",
@@ -31802,7 +30697,7 @@
    "ts": 1795712503,
    "end_ts": 1795971600,
    "q": "Will the price of Solana be greater than $120 on November 29?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7260595",
@@ -31815,7 +30710,7 @@
    "ts": 1795712503,
    "end_ts": 1795971600,
    "q": "Will the price of Solana be above $95 on November 29?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7260596",
@@ -31828,7 +30723,7 @@
    "ts": 1795712503,
    "end_ts": 1795971600,
    "q": "Will the price of XRP be above $0.40 on November 29?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7260597",
@@ -31841,7 +30736,7 @@
    "ts": 1795712503,
    "end_ts": 1795971600,
    "q": "Will the price of XRP be above $0.50 on November 29?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7260599",
@@ -31854,7 +30749,7 @@
    "ts": 1795712503,
    "end_ts": 1795971600,
    "q": "Will the price of XRP be above $0.60 on November 29?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7260601",
@@ -31867,7 +30762,7 @@
    "ts": 1795712503,
    "end_ts": 1795971600,
    "q": "Will the price of XRP be above $0.70 on November 29?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7260603",
@@ -31880,7 +30775,7 @@
    "ts": 1795712503,
    "end_ts": 1795971600,
    "q": "Will the price of XRP be above $0.80 on November 29?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7260609",
@@ -31893,7 +30788,7 @@
    "ts": 1795712503,
    "end_ts": 1795971600,
    "q": "Will the price of XRP be above $1.10 on November 29?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7260612",
@@ -31906,7 +30801,7 @@
    "ts": 1795712503,
    "end_ts": 1795971600,
    "q": "Will the price of XRP be above $1.30 on November 29?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7260615",
@@ -31919,7 +30814,7 @@
    "ts": 1795712503,
    "end_ts": 1795971600,
    "q": "Will the price of XRP be above $1.40 on November 29?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7260617",
@@ -31932,7 +30827,7 @@
    "ts": 1795712503,
    "end_ts": 1795971600,
    "q": "Will the price of XRP be greater than $1.40 on November 29?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7305048",
@@ -50782,6 +49677,1488 @@
    "ts": 1795795351,
    "end_ts": 1796050800,
    "q": "Will \"Hexed\" score at least 55 on the Rotten Tomatoes Tomatometer?",
+   "touched": null
+  },
+  {
+   "id": "7338495",
+   "rule": "post_fin_90_97",
+   "cat": "clima",
+   "side": 1,
+   "token": "94586466489918713591026445459012455043123109035700521817840399843291541555344",
+   "px": 0.95,
+   "tick": 0.01,
+   "ts": 1795798966,
+   "end_ts": 1795780800,
+   "q": "Will the highest temperature in Miami be between 72-73°F on November 27?",
+   "touched": null
+  },
+  {
+   "id": "7340925",
+   "rule": "post_fin_90_97",
+   "cat": "clima",
+   "side": 1,
+   "token": "83575392595686940898442460910630558393469554394488952177316412711125422074113",
+   "px": 0.93,
+   "tick": 0.01,
+   "ts": 1795798966,
+   "end_ts": 1795780800,
+   "q": "Will the highest temperature in Los Angeles be between 84-85°F on November 27?",
+   "touched": null
+  },
+  {
+   "id": "7016223",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "111856338145267752730194292769847428331203699951807835090425487583077343165851",
+   "px": 0.96,
+   "tick": 0.01,
+   "ts": 1795798966,
+   "end_ts": 1795813200,
+   "q": "Lamar Cardinals vs. Rice Owls (W)",
+   "touched": null
+  },
+  {
+   "id": "7025829",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "79200242817630723853930361705967786725584018185537580414512647647655408234966",
+   "px": 0.95,
+   "tick": 0.01,
+   "ts": 1795798966,
+   "end_ts": 1795811400,
+   "q": "Spread: Temple (-4.5)",
+   "touched": null
+  },
+  {
+   "id": "7210667",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "24022090126888593600861507362496286748710696009433665851590620059039948445278",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1795813200,
+   "q": "Will Robinhood Markets, Inc. (HOOD) hit (LOW) $60 Week of November 23 2026?",
+   "touched": null
+  },
+  {
+   "id": "7310806",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "38796579744215292221149329824601067036534727148860493204812055459801865044750",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1795820400,
+   "q": "Spread: CDT Real Oruro (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "7343517",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "66694280443946049278847060708198377113098507031367909769736083977691992561261",
+   "px": 0.96,
+   "tick": 0.01,
+   "ts": 1795798966,
+   "end_ts": 1795813200,
+   "q": "Apple (AAPL) Up or Down on November 27?",
+   "touched": null
+  },
+  {
+   "id": "7343522",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "93114183603183048643021438287737793840837677204381983195425688628229989536103",
+   "px": 0.979,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1795813200,
+   "q": "Meta (META) Up or Down on November 27?",
+   "touched": null
+  },
+  {
+   "id": "7343523",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "98559866878146646416875441218891692697224685003340423856714180836759265705175",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1795813200,
+   "q": "Will Apple (AAPL) close above $345 on November 27?",
+   "touched": null
+  },
+  {
+   "id": "7343528",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "31437043790838346224628448409329825241447981870353683743790859771536810542701",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1795813200,
+   "q": "Will Microsoft (MSFT) close above $460 on November 27?",
+   "touched": null
+  },
+  {
+   "id": "7343530",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "29126326526474016867435769400211871177940670239555969344052937899951234017221",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1795813200,
+   "q": "Will Microsoft (MSFT) close above $480 on November 27?",
+   "touched": null
+  },
+  {
+   "id": "7343536",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "97362446968308425022704070545871398084730616642893902343097334525931671349516",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1795813200,
+   "q": "Will Amazon (AMZN) close above $240 on November 27?",
+   "touched": null
+  },
+  {
+   "id": "7343537",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "30300673863838784930766491988359646672438782850110670184284122796025477842874",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1795813200,
+   "q": "Will Amazon (AMZN) close above $245 on November 27?",
+   "touched": null
+  },
+  {
+   "id": "7343546",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "84745892553043320256389314401589555938260008323295659863361859458046996901349",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1795813200,
+   "q": "Will Google (GOOGL) close above $280 on November 27?",
+   "touched": null
+  },
+  {
+   "id": "7343560",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "12774589913050445190185259883295032131686837497743736452179713414003989384212",
+   "px": 0.996,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1795813200,
+   "q": "Will Tesla (TSLA) close above $380 on November 27?",
+   "touched": null
+  },
+  {
+   "id": "7343568",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "79590831519234111408687044834875226417646877683868208555194404677716249768205",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1795813200,
+   "q": "Will NVIDIA (NVDA) close above $155 on November 27?",
+   "touched": null
+  },
+  {
+   "id": "7343570",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "89236790168889178113514406007514463682423467186685807084306428764703982185402",
+   "px": 0.978,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1795813200,
+   "q": "Micron (MU) Up or Down on November 27?",
+   "touched": null
+  },
+  {
+   "id": "7343590",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "78121360172932978146255892883867739142240182421007726925457118402556500492086",
+   "px": 0.96,
+   "tick": 0.01,
+   "ts": 1795798966,
+   "end_ts": 1795813200,
+   "q": "Russell 2000 (RUT) Up or Down on November 27?",
+   "touched": null
+  },
+  {
+   "id": "7343591",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "6080898991144374433546537831969797866441904131598570273170238028124580093702",
+   "px": 0.988,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1795813200,
+   "q": "EWY (EWY) Up or Down on November 27?",
+   "touched": null
+  },
+  {
+   "id": "7351078",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "24258555418826871808525613897815303531912942604926922360263260137461271399959",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1795813200,
+   "q": "Will NVIDIA (NVDA) hit (LOW) $136 Week of November 23 2026?",
+   "touched": null
+  },
+  {
+   "id": "7380957",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "60998794952137706079216618493065418940354270040328057218297990677437030374421",
+   "px": 0.988,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1795816800,
+   "q": "Spread: Texas A&M Aggies (-19.5)",
+   "touched": null
+  },
+  {
+   "id": "7380966",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "114480163897950240010838700123858441147216733553691819608936163180581226357314",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1795816800,
+   "q": "Spread: Marquette Golden Eagles (-24.5)",
+   "touched": null
+  },
+  {
+   "id": "7016240",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "62438636706713294159145127317901781485912304878999964728574113512038223599878",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1795822200,
+   "q": "UNC Asheville Bulldogs vs. Appalachian State Mountaineers (W)",
+   "touched": null
+  },
+  {
+   "id": "7194759",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "52900729026701300959897531349785747065012416893479411221595206828124452306218",
+   "px": 0.981,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1795841940,
+   "q": "Will Trump's approval rating be between 37.5 and 37.9 on November 27, 2026?",
+   "touched": null
+  },
+  {
+   "id": "7375644",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "95245509755891212412570207350718760556689882321624875611015245786892945212794",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1795833000,
+   "q": "Spread: Clippers (-31.5)",
+   "touched": null
+  },
+  {
+   "id": "7385273",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "56816119215258024022621768864422124831272177310956425925610814440640735309748",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1795833000,
+   "q": "Brandon Ingram: 3-Pointers Made O/U 4.5",
+   "touched": null
+  },
+  {
+   "id": "7390617",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "21229931209083942314700290860007090126808570884404472108458206066908833520858",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1795833000,
+   "q": "Donovan Clingan: Assists O/U 5.5",
+   "touched": null
+  },
+  {
+   "id": "7230633",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "12819222266690774370002843905414862316531958139372419468161566525867353261768",
+   "px": 0.975,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1795849200,
+   "q": "Spread: Sanfrecce Hiroshima (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "7306683",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "45037211486378673440063425617467970716617088407751186386649286197181185950259",
+   "px": 0.974,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1795871700,
+   "q": "Spread: POFC Botev Vratsa (-1.5)",
+   "touched": null
+  },
+  {
+   "id": "7306699",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "54247295362003697785014862498651038791695826950674065064897187078710735971381",
+   "px": 0.974,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1795871700,
+   "q": "POFC Botev Vratsa vs. PFC Ludogorets 1945 Razgrad: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "7307270",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "84448701309947374551579523253677581813896493048418651596117115004472096401464",
+   "px": 0.96,
+   "tick": 0.01,
+   "ts": 1795798966,
+   "end_ts": 1795874400,
+   "q": "Bravo Ljubljana vs. Aluminij Kidricevo: O/U 0.5",
+   "touched": null
+  },
+  {
+   "id": "7201559",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "107091891653255213268885399389898880369543994663584023129866451917053192533214",
+   "px": 0.96,
+   "tick": 0.01,
+   "ts": 1795798966,
+   "end_ts": 1795876200,
+   "q": "Hamburger SV vs. FC Bayern München: FC Bayern München O/U 0.5",
+   "touched": null
+  },
+  {
+   "id": "7202825",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "8975865057423959791217676044461726943224140953618816884853992384851720012010",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1795882500,
+   "q": "Angers SCO vs. Racing Club de Lens: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "7203336",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "83180587815945543313719449491417106436530869927271030612940391854269353649292",
+   "px": 0.974,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1795878900,
+   "q": "1st Half Spread: Málaga CF (-1.5)",
+   "touched": null
+  },
+  {
+   "id": "7230271",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "108659037977045000016673844745381578599337474955616827293441138687170440924492",
+   "px": 0.968,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1795878000,
+   "q": "Spread: Asteras Tripolis (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "7050220",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "9864483712705800368900673356874027060072222776349762032430125617952825414443",
+   "px": 0.96,
+   "tick": 0.01,
+   "ts": 1795798966,
+   "end_ts": 1795897800,
+   "q": "UMass vs. Bowling Green: O/U 65.5",
+   "touched": null
+  },
+  {
+   "id": "7395857",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "43076661470059396958745491101447221706521414770590489158753495958131831108820",
+   "px": 0.96,
+   "tick": 0.01,
+   "ts": 1795798966,
+   "end_ts": 1795906800,
+   "q": "Lightning vs. Panthers: O/U 2.5",
+   "touched": null
+  },
+  {
+   "id": "7395867",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "98350063144922699995940914309297679907726592289747785607324445973162756122350",
+   "px": 0.96,
+   "tick": 0.01,
+   "ts": 1795798966,
+   "end_ts": 1795899600,
+   "q": "Canadiens vs. Golden Knights: O/U 2.5",
+   "touched": null
+  },
+  {
+   "id": "7395811",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "82486344322466049138015864287617141023584771527685747010981351462434269517011",
+   "px": 0.96,
+   "tick": 0.01,
+   "ts": 1795798966,
+   "end_ts": 1795910400,
+   "q": "Predators vs. Red Wings: O/U 2.5",
+   "touched": null
+  },
+  {
+   "id": "7395821",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 0,
+   "token": "111551191374677053658780136245772847224686437933070716042967047066975875049719",
+   "px": 0.96,
+   "tick": 0.01,
+   "ts": 1795798966,
+   "end_ts": 1795910400,
+   "q": "Senators vs. Hurricanes: O/U 2.5",
+   "touched": null
+  },
+  {
+   "id": "7395831",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "91355990685215005514536605653209863047017261555303007143942395941885131959333",
+   "px": 0.96,
+   "tick": 0.01,
+   "ts": 1795798966,
+   "end_ts": 1795910400,
+   "q": "Jets vs. Devils: O/U 2.5",
+   "touched": null
+  },
+  {
+   "id": "7395847",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "68028943682259510537150404529180160120474477208860118173737928774638543844100",
+   "px": 0.96,
+   "tick": 0.01,
+   "ts": 1795798966,
+   "end_ts": 1795910400,
+   "q": "Flames vs. Rangers: O/U 2.5",
+   "touched": null
+  },
+  {
+   "id": "7228898",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "76078610541774326127605951086634861882540437556195454171007756548594751235813",
+   "px": 0.996,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1795960800,
+   "q": "US Sassuolo Calcio vs. SSC Napoli: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "7387284",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "67869337543864169494528156501742817577711107147690846834980102035563412550000",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1795953600,
+   "q": "Will the highest temperature in Tokyo be 12°C on November 29?",
+   "touched": null
+  },
+  {
+   "id": "7387296",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "52081666746146708699282128669762178811461025252541661043226319136559361582815",
+   "px": 0.96,
+   "tick": 0.01,
+   "ts": 1795798966,
+   "end_ts": 1795953600,
+   "q": "Will the highest temperature in Hong Kong be 21°C on November 29?",
+   "touched": null
+  },
+  {
+   "id": "7387595",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "69397137963790141655390185572583750308716254212242508266679191054865809493739",
+   "px": 0.95,
+   "tick": 0.01,
+   "ts": 1795798966,
+   "end_ts": 1795953600,
+   "q": "Will the highest temperature in Manila be 31°C on November 29?",
+   "touched": null
+  },
+  {
+   "id": "7388655",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "66166286457142761356148700919204692970914529885844992747544680909191711290725",
+   "px": 0.996,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1795953600,
+   "q": "Will the highest temperature in Miami be between 72-73°F on November 29?",
+   "touched": null
+  },
+  {
+   "id": "7388656",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "83426771632382703185906157405313851144806109876975695031351903950765570854612",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1795953600,
+   "q": "Will the highest temperature in Miami be between 74-75°F on November 29?",
+   "touched": null
+  },
+  {
+   "id": "7388662",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "45840101780692723334445100245750220925447919749083826293339620968164725110554",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1795953600,
+   "q": "Will the highest temperature in Miami be between 86-87°F on November 29?",
+   "touched": null
+  },
+  {
+   "id": "7389830",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "74476451397014172281671136071887541292662298031627769365210893666228287233554",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1795953600,
+   "q": "Will the highest temperature in Sao Paulo be 31°C on November 29?",
+   "touched": null
+  },
+  {
+   "id": "7389835",
+   "rule": "clima_cierre",
+   "cat": "clima",
+   "side": 1,
+   "token": "72518269934885065102661566336534111046300807849196969646170957743488592968100",
+   "px": 0.96,
+   "tick": 0.01,
+   "ts": 1795798966,
+   "end_ts": 1795953600,
+   "q": "Will the highest temperature in Buenos Aires be 33°C on November 29?",
+   "touched": null
+  },
+  {
+   "id": "7233503",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "54130862161259992765228161863324018895849704542758687417266577166348789496495",
+   "px": 0.996,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1795969800,
+   "q": "Spread: FC Augsburg (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "7234608",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "36619039948755007990210892362581644045777599940315127563790487143034278360413",
+   "px": 0.991,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1795971600,
+   "q": "AS Roma vs. AC Monza: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "7236743",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "89090499226071059257525626629458553556088802287242056712481279634567710674880",
+   "px": 0.988,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1795977000,
+   "q": "Spread: Bayer 04 Leverkusen (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "7231264",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "98248503032430304170607707580896254031598065609670991765481158570858071322373",
+   "px": 0.96,
+   "tick": 0.01,
+   "ts": 1795798966,
+   "end_ts": 1795996740,
+   "q": "Will there be more than 13 earthquakes of 5.5 or above magnitude worldwide?",
+   "touched": null
+  },
+  {
+   "id": "5154688",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "28028971449891055705833459664136954673921304533356332870051267200826791835969",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1796058000,
+   "q": "Will OpenAI’s valuation be less than $600B at the end of November 2026?",
+   "touched": null
+  },
+  {
+   "id": "5154689",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "39626509503733161577191287416312607847788467119408495864522590985999487118320",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1796058000,
+   "q": "Will OpenAI’s valuation be between $600B and $700B at the end of November 2026?",
+   "touched": null
+  },
+  {
+   "id": "5154691",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "99076322539258255609363514429793829078739041275990179214699214660287712848126",
+   "px": 0.988,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1796058000,
+   "q": "Will OpenAI’s valuation be between $800B and $900B at the end of November 2026?",
+   "touched": null
+  },
+  {
+   "id": "5154692",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "60145875628808548557717496566673712472246278096800435986010714047147560811509",
+   "px": 0.996,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1796058000,
+   "q": "Will OpenAI’s valuation be between $900B and $1.00T at the end of November 2026?",
+   "touched": null
+  },
+  {
+   "id": "5154693",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "85497778449809111893898648663912620518427954153180005552181986881205170647625",
+   "px": 0.996,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1796058000,
+   "q": "Will OpenAI’s valuation be between $1.00T and $1.10T at the end of November 2026?",
+   "touched": null
+  },
+  {
+   "id": "5154716",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "48564050961197832056336151914766711013763173052725363508298061708465381365630",
+   "px": 0.996,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1796058000,
+   "q": "Will Alphabet’s market capitalization be between $4.00T and $4.50T at the end of November ",
+   "touched": null
+  },
+  {
+   "id": "5154717",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "66208935479262996839626058824867101596181322362190479482044954365884015952244",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1796058000,
+   "q": "Will Alphabet’s market capitalization be between $4.50T and $5.00T at the end of November ",
+   "touched": null
+  },
+  {
+   "id": "5154718",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "37194229818408641621043445674273777435900539647733866682608032206991479437456",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1796058000,
+   "q": "Will Alphabet’s market capitalization be between $5.00T and $5.50T at the end of November ",
+   "touched": null
+  },
+  {
+   "id": "5154719",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "110660997580253284234973985080665110530747250139006393393547904624108668462985",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1796058000,
+   "q": "Will Alphabet’s market capitalization be at least $5.50T at the end of November 2026?",
+   "touched": null
+  },
+  {
+   "id": "6367285",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "34108545906461196184844315117823233621199545761593665145473221637958471065504",
+   "px": 0.99,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1796058000,
+   "q": "Will Bruno Mars have the greatest number of monthly Spotify listeners this month?",
+   "touched": null
+  },
+  {
+   "id": "6367287",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "73541289368620945729181200324140591653757627293571435729884089871146930262841",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1796058000,
+   "q": "Will Bad Bunny have the greatest number of monthly Spotify listeners this month?",
+   "touched": null
+  },
+  {
+   "id": "6367295",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "103238066561298696971062270159566051739598828541700439015552231907702785208529",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1796058000,
+   "q": "Will Rihanna have the greatest number of monthly Spotify listeners this month?",
+   "touched": null
+  },
+  {
+   "id": "6367313",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "96963494649531654945560660480732648075356108638547238116034498817904718949545",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1796058000,
+   "q": "Will Bruno Mars have the second-greatest number of monthly Spotify listeners this month?",
+   "touched": null
+  },
+  {
+   "id": "6367316",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "75980047076064940926819490284402877328171600350744188629326512878954407073204",
+   "px": 0.986,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1796058000,
+   "q": "Will The Weeknd have the second-greatest number of monthly Spotify listeners this month?",
+   "touched": null
+  },
+  {
+   "id": "6367323",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "58723861213747880665929967964566348926634787996266379398999610126111251053311",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1796058000,
+   "q": "Will Rihanna have the second-greatest number of monthly Spotify listeners this month?",
+   "touched": null
+  },
+  {
+   "id": "6367326",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "89997394476464635784733491415474889400036933744120875116214451730398918754761",
+   "px": 0.993,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1796058000,
+   "q": "Will Justin Bieber have the second-greatest number of monthly Spotify listeners this month",
+   "touched": null
+  },
+  {
+   "id": "6659479",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "89985546410983155459165083220016782894236112831718700452425959588496015264270",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1796058000,
+   "q": "Ossoff ahead of Newsom on November 30?",
+   "touched": null
+  },
+  {
+   "id": "6659480",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "47914678097912011208990181434571274698689681247895603401225734584955650381757",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1796058000,
+   "q": "Gavin Newsom Democratic nomination odds leader on November 30?",
+   "touched": null
+  },
+  {
+   "id": "6659481",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "99982482289882576692466750944957451340802278657541419066056209999371665715278",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1796058000,
+   "q": "Jon Ossoff Democratic nomination odds leader on November 30?",
+   "touched": null
+  },
+  {
+   "id": "6659482",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "29828085152054163582434531747930261616186962487481182180136005356340973294262",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1796058000,
+   "q": "Alexandria Ocasio-Cortez Democratic nomination odds leader on November 30?",
+   "touched": null
+  },
+  {
+   "id": "6659483",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "15958069553435110989669436208987005597378550730705249315262693931540797138311",
+   "px": 0.993,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1796058000,
+   "q": "Kamala Harris Democratic nomination odds leader on November 30?",
+   "touched": null
+  },
+  {
+   "id": "6659489",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "20259724397285454446200863134106763285163240293413961743885830692266697835289",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1796058000,
+   "q": "Pete Buttigieg Democratic nomination odds leader on November 30?",
+   "touched": null
+  },
+  {
+   "id": "6659491",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "31597872087745338131706480147420388031459864412626706633781395251272369736819",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1796058000,
+   "q": "Josh Shapiro Democratic nomination odds leader on November 30?",
+   "touched": null
+  },
+  {
+   "id": "7128501",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "70998113151685215090250629788540859673431495822372309292412272004805588493441",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1796050800,
+   "q": "Will \"The Further Mis-Adventures of Cliff Booth\" score at least 85 on the Rotten Tomatoes ",
+   "touched": null
+  },
+  {
+   "id": "7147895",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "10979911994677243863069412706283563033316042710402014704697321459098720824964",
+   "px": 0.974,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1796050800,
+   "q": "Will US gas hit $3.80 (High) in November?",
+   "touched": null
+  },
+  {
+   "id": "7288585",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "12415296897849822013829711115307270149783280607903087745761865573389163775670",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1796058000,
+   "q": "Will the price of Ethereum be above $1,300 on November 30?",
+   "touched": null
+  },
+  {
+   "id": "7288586",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "112192412474718188709246120412327248469428392642284555679813439651549243057280",
+   "px": 0.968,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1796058000,
+   "q": "Will the price of Bitcoin be between $54,000 and $56,000 on November 30?",
+   "touched": null
+  },
+  {
+   "id": "7288587",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "14631531419004320537918234967445172235667550912286117918706422384350981623281",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1796058000,
+   "q": "Will the price of Ethereum be above $1,400 on November 30?",
+   "touched": null
+  },
+  {
+   "id": "7288589",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "21953388795699367652202004440528089345933219269344463700396075755176091462163",
+   "px": 0.969,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1796058000,
+   "q": "Will the price of Ethereum be above $1,500 on November 30?",
+   "touched": null
+  },
+  {
+   "id": "7288596",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "21684061733834882949600220737474494659114079994260349308896397315220711900256",
+   "px": 0.976,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1796058000,
+   "q": "Will the price of Bitcoin be between $64,000 and $66,000 on November 30?",
+   "touched": null
+  },
+  {
+   "id": "7288597",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "113841701679701566294220505285241144088595626014463492578267093563627209466846",
+   "px": 0.99,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1796058000,
+   "q": "Will the price of Ethereum be above $1,900 on November 30?",
+   "touched": null
+  },
+  {
+   "id": "7288599",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "89905385796464040266312830673963224921619793532149924088635704623514817966351",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1796058000,
+   "q": "Will the price of Ethereum be above $2,000 on November 30?",
+   "touched": null
+  },
+  {
+   "id": "7288600",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "15327239949876859781093992900309290933369363247700166211637759178797367188324",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1796058000,
+   "q": "Will the price of Bitcoin be between $68,000 and $70,000 on November 30?",
+   "touched": null
+  },
+  {
+   "id": "7288601",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "55527566473886608433081536764445278820934608371860443702670206192489605734946",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1796058000,
+   "q": "Will the price of Ethereum be above $2,100 on November 30?",
+   "touched": null
+  },
+  {
+   "id": "7288602",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "72112654697114320410025431087037441251874937905719534999671153606691016035322",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1796058000,
+   "q": "Will the price of Bitcoin be between $70,000 and $72,000 on November 30?",
+   "touched": null
+  },
+  {
+   "id": "7288603",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "74173495753215196552745324058784693911801670525790904206195284063374471694492",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1796058000,
+   "q": "Will the price of Ethereum be above $2,200 on November 30?",
+   "touched": null
+  },
+  {
+   "id": "7288604",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "911401201769701618228732655236628368888801759992020143979316555774671986119",
+   "px": 0.993,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1796058000,
+   "q": "Will the price of Bitcoin be greater than $72,000 on November 30?",
+   "touched": null
+  },
+  {
+   "id": "7288605",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "108258743422926755673978167600980805210631864074195657922195425625381361118746",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1796058000,
+   "q": "Will the price of Ethereum be above $2,300 on November 30?",
+   "touched": null
+  },
+  {
+   "id": "7288606",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "35609891426893885102732068031693780454029189376841355599307732059761345386709",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1796058000,
+   "q": "Will the price of Bitcoin be above $52,000 on November 30?",
+   "touched": null
+  },
+  {
+   "id": "7288608",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "113693628918972543211861576611625337023971603840169595438134113467699901968253",
+   "px": 0.984,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1796058000,
+   "q": "Will the price of Bitcoin be above $54,000 on November 30?",
+   "touched": null
+  },
+  {
+   "id": "7288609",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "66013676638032228318081372530296193739185950488928457062512113282587003266848",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1796058000,
+   "q": "Will the price of Ethereum be between $1,300 and $1,400 on November 30?",
+   "touched": null
+  },
+  {
+   "id": "7288610",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "107875041781484556745493649368274641625230721725013782236288187680887530589690",
+   "px": 0.958,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1796058000,
+   "q": "Will the price of Bitcoin be above $56,000 on November 30?",
+   "touched": null
+  },
+  {
+   "id": "7288619",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "88065098603284727307450473682553638885687192859743734702785490391772160485356",
+   "px": 0.95,
+   "tick": 0.01,
+   "ts": 1795798966,
+   "end_ts": 1796058000,
+   "q": "Will the price of Bitcoin be above $64,000 on November 30?",
+   "touched": null
+  },
+  {
+   "id": "7288620",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "46406885786700062172589054169554711377717467013108386525330573389371777476536",
+   "px": 0.979,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1796058000,
+   "q": "Will the price of Bitcoin be above $66,000 on November 30?",
+   "touched": null
+  },
+  {
+   "id": "7288622",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "59886675109631399450036153670725924275454738177534823140356407013439307362425",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1796058000,
+   "q": "Will the price of Bitcoin be above $68,000 on November 30?",
+   "touched": null
+  },
+  {
+   "id": "7288623",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "4145981619014270153800545481077408628738036650792190719249675882823119284003",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1796058000,
+   "q": "Will the price of Ethereum be between $2,000 and $2,100 on November 30?",
+   "touched": null
+  },
+  {
+   "id": "7288624",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "112343045086140405630027101258611924006984600693431648698999974423756800376973",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1796058000,
+   "q": "Will the price of Bitcoin be above $70,000 on November 30?",
+   "touched": null
+  },
+  {
+   "id": "7288625",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "79966961965068508987595427900376806794196081435527086369048143543762266179163",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1796058000,
+   "q": "Will the price of Ethereum be between $2,100 and $2,200 on November 30?",
+   "touched": null
+  },
+  {
+   "id": "7288626",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "26753033690963273509086991801375351701656165479351768356638617267357400187497",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1796058000,
+   "q": "Will the price of Bitcoin be above $72,000 on November 30?",
+   "touched": null
+  },
+  {
+   "id": "7288628",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "36347632421188042907014121419501162473591933126773446116957460265715401621673",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1796058000,
+   "q": "Will the price of Solana be above $50 on November 30?",
+   "touched": null
+  },
+  {
+   "id": "7288629",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "73524850273016528955763308136735016133914843242681865440326582824380884093799",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1796058000,
+   "q": "Will the price of Solana be above $55 on November 30?",
+   "touched": null
+  },
+  {
+   "id": "7288631",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "110492801788469284707108341683148437397773855337458723879648003861807498340041",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1796058000,
+   "q": "Will the price of Solana be above $60 on November 30?",
+   "touched": null
+  },
+  {
+   "id": "7288634",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "39802000238524754795723527290525169290491033320945935078037833499632649786948",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1796058000,
+   "q": "Will the price of Solana be between $40 and $50 on November 30?",
+   "touched": null
+  },
+  {
+   "id": "7288639",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "11591912684895026841347803082718050545933245683205511000129625948711221595273",
+   "px": 0.98,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1796058000,
+   "q": "Will the price of Solana be above $80 on November 30?",
+   "touched": null
+  },
+  {
+   "id": "7288641",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "70520349897487562492064151002347036914063305813016951263193520614094381697056",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1796058000,
+   "q": "Will the price of Solana be above $85 on November 30?",
+   "touched": null
+  },
+  {
+   "id": "7288645",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "90593687369333675457562651631859223724481348474821152468586597182704117666556",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1796058000,
+   "q": "Will the price of Solana be above $95 on November 30?",
+   "touched": null
+  },
+  {
+   "id": "7288647",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "87076983156829558734741213492872456045153441688335167777726638653793557402845",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1796058000,
+   "q": "Will the price of Solana be above $100 on November 30?",
+   "touched": null
+  },
+  {
+   "id": "7288649",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "52367185646219262241666457193022321609995117473528579355951983457332596666186",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1796058000,
+   "q": "Will the price of Solana be greater than $120 on November 30?",
+   "touched": null
+  },
+  {
+   "id": "7288665",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "75761532842220563958388038340231492235147475931515543479373900414854600256313",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795798966,
+   "end_ts": 1796058000,
+   "q": "Will the price of XRP be above $1.40 on November 30?",
    "touched": null
   }
  ]

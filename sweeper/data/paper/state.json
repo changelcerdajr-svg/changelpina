@@ -1,6 +1,6 @@
 {
  "capital0": 1000.0,
- "cash": 405.9627,
+ "cash": 405.9408,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
   {
@@ -23,27 +23,6 @@
    "end_ts": 1795791600.0,
    "hours": 6.98,
    "liq": 1809
-  },
-  {
-   "oid": "7016220-1795791670",
-   "id": "7016220",
-   "q": "Villanova Wildcats vs. LSU Tigers (W)",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1380151",
-   "side": 1,
-   "token": "94449231739584183896166279230272085081883781282653685915590153811181205783056",
-   "px": 0.98,
-   "tick": 0.001,
-   "mid": 0.9805,
-   "bid": 0.971,
-   "ask": 0.99,
-   "shares": 50.9883,
-   "cost": 49.9686,
-   "ts": 1795791670.755231,
-   "end_ts": 1795815000.0,
-   "hours": 6.48,
-   "liq": 11434
   },
   {
    "oid": "7203509-1795792283",
@@ -130,46 +109,67 @@
    "liq": 1219
   },
   {
-   "oid": "7203502-1795795272",
-   "id": "7203502",
-   "q": "Will the price of Bitcoin be between $56,000 and $58,000 on November 27?",
+   "oid": "7343553-1795798871",
+   "id": "7343553",
+   "q": "S&P 500 (SPX) Up or Down on November 27?",
    "cat": "cripto",
    "rule": "cripto_cierre",
-   "event": "1432561",
+   "event": "1458316",
+   "side": 0,
+   "token": "33024761118488608419805447582303706914503593014670106528804858237702714437725",
+   "px": 0.992,
+   "tick": 0.001,
+   "mid": 0.9925,
+   "bid": 0.99,
+   "ask": 0.995,
+   "shares": 50.4316,
+   "cost": 50.0282,
+   "ts": 1795798871.522495,
+   "end_ts": 1795813200.0,
+   "hours": 3.98,
+   "liq": 21490
+  },
+  {
+   "oid": "7277123-1795798871",
+   "id": "7277123",
+   "q": "Spread: Liverpool Montevideo (-3.5)",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1445678",
    "side": 1,
-   "token": "22189839044699134861100887150402716874698873768841666213912097641638050349703",
+   "token": "1736333339245525606592188631505462682323107056867002165565552643815165140993",
    "px": 0.989,
    "tick": 0.001,
    "mid": 0.9895,
-   "bid": 0.989,
-   "ask": 0.99,
-   "shares": 50.5802,
-   "cost": 50.0238,
-   "ts": 1795795272.02562,
-   "end_ts": 1795798800.0,
-   "hours": 0.98,
-   "liq": 15503
+   "bid": 0.985,
+   "ask": 0.994,
+   "shares": 50.5846,
+   "cost": 50.0282,
+   "ts": 1795798871.522495,
+   "end_ts": 1795822200.0,
+   "hours": 6.48,
+   "liq": 3420
   },
   {
-   "oid": "7016235-1795795272",
-   "id": "7016235",
-   "q": "Penn State Nittany Lions vs. Baylor Bears (W)",
+   "oid": "7277133-1795798871",
+   "id": "7277133",
+   "q": "Racing Club Montevideo vs. Liverpool Montevideo: O/U 5.5",
    "cat": "deportes",
    "rule": "deportes_previo",
-   "event": "1380166",
+   "event": "1445678",
    "side": 1,
-   "token": "4234892341718301637390993064834396335662640281741024819906927048203686306235",
-   "px": 0.983,
+   "token": "1622580655314045118797900611831198924714520785496155003440414718868432780300",
+   "px": 0.971,
    "tick": 0.001,
-   "mid": 0.9835,
-   "bid": 0.977,
-   "ask": 0.99,
-   "shares": 45.5964,
-   "cost": 44.8212,
-   "ts": 1795795272.02562,
-   "end_ts": 1795818600.0,
+   "mid": 0.971,
+   "bid": 0.966,
+   "ask": 0.976,
+   "shares": 46.1164,
+   "cost": 44.7791,
+   "ts": 1795798871.522495,
+   "end_ts": 1795822200.0,
    "hours": 6.48,
-   "liq": 7348
+   "liq": 4776
   }
  ],
  "positions": [
@@ -219,7 +219,7 @@
    "hours": 15.98,
    "liq": 1075,
    "fill_ts": 1795755955.885589,
-   "mark": 0.986,
+   "mark": 0.987,
    "stuck": false,
    "disputed": false
   },
@@ -294,7 +294,7 @@
    "hours": 6.48,
    "liq": 2740,
    "fill_ts": 1795792283.721679,
-   "mark": 0.981,
+   "mark": 0.9885,
    "stuck": false,
    "disputed": false
   }
@@ -9063,14 +9063,27 @@
    "placed": 2,
    "shadow_open": 603,
    "shadow_closed": 7
+  },
+  {
+   "ts": "2026-11-27T17:02:46Z",
+   "equity": 1000.56,
+   "cash": 405.94,
+   "orders": 8,
+   "positions": 5,
+   "closed": 135,
+   "scanned": 18370,
+   "candidates": 191,
+   "placed": 3,
+   "shadow_open": 614,
+   "shadow_closed": 8
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 623,
+  "placed": 626,
   "filled": 140,
   "expired": 140,
-  "touched_not_filled": 335
+  "touched_not_filled": 338
  },
  "shadow": [
   {
@@ -12529,7 +12542,7 @@
    "ts": 1795755666,
    "end_ts": 1795788000,
    "q": "Spread: Inter Kashi FC (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7023107",
@@ -12542,7 +12555,7 @@
    "ts": 1795755666,
    "end_ts": 1795788000,
    "q": "Inter Kashi FC vs. Churchill Brothers SC: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7023109",
@@ -12555,7 +12568,7 @@
    "ts": 1795755666,
    "end_ts": 1795788000,
    "q": "Inter Kashi FC vs. Churchill Brothers SC: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7342475",
@@ -12568,111 +12581,7 @@
    "ts": 1795755666,
    "end_ts": 1795784400,
    "q": "Al-Sailiya SC vs. Al Gharafa SC: O/U 7.5",
-   "touched": null
-  },
-  {
-   "id": "7369671",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "51055646668293945304524316497695497258253690912757453483440709690224508513837",
-   "px": 0.977,
-   "tick": 0.001,
-   "ts": 1795755666,
-   "end_ts": 1795780800,
-   "q": "Spread: Sisaket United FC (-2.5)",
-   "touched": null
-  },
-  {
-   "id": "7369673",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "20580151618116009138261914336432919235763664685911102345362224558829584568417",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795755666,
-   "end_ts": 1795780800,
-   "q": "Spread: Sisaket United FC (-3.5)",
-   "touched": null
-  },
-  {
-   "id": "7369685",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "26642792867122057542384821157654196745724751341208429234399953254413020030126",
-   "px": 0.987,
-   "tick": 0.001,
-   "ts": 1795755666,
-   "end_ts": 1795780800,
-   "q": "Uthai Thani FC vs. Sisaket United FC: O/U 7.5",
-   "touched": null
-  },
-  {
-   "id": "7370277",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "52967545976384529343721862042578838609963352401131070650343581487065119960788",
-   "px": 0.985,
-   "tick": 0.001,
-   "ts": 1795755666,
-   "end_ts": 1795780800,
-   "q": "Spread: PFK Mash AL Mubarek (-1.5)",
-   "touched": null
-  },
-  {
-   "id": "7370279",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "114612868608776129590503821967349985205724247068624094863663529031718585636907",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795755666,
-   "end_ts": 1795780800,
-   "q": "Spread: PFK Mash AL Mubarek (-2.5)",
-   "touched": null
-  },
-  {
-   "id": "7370281",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "103325410309725723253169715052944217038013445102347689031954579321848430699883",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795755666,
-   "end_ts": 1795780800,
-   "q": "Spread: PFK Mash AL Mubarek (-3.5)",
-   "touched": null
-  },
-  {
-   "id": "7370292",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "39998639806088209160566320878798739539593250677646790474266677158196899086710",
-   "px": 0.975,
-   "tick": 0.001,
-   "ts": 1795755666,
-   "end_ts": 1795780800,
-   "q": "FK Buxoro vs. PFK Mash AL Mubarek: O/U 6.5",
-   "touched": null
-  },
-  {
-   "id": "7370317",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "20318026194226048678718277699580683493354910613005840180906663917208643260287",
-   "px": 0.977,
-   "tick": 0.001,
-   "ts": 1795755666,
-   "end_ts": 1795780800,
-   "q": "Spread: FK Kokand 1912 (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7226383",
@@ -12685,7 +12594,7 @@
    "ts": 1795755666,
    "end_ts": 1795798800,
    "q": "Spread: NK Istra 1961 (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7226384",
@@ -12698,7 +12607,7 @@
    "ts": 1795755666,
    "end_ts": 1795798800,
    "q": "Spread: NK Varaždin (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7248749",
@@ -12711,7 +12620,7 @@
    "ts": 1795755666,
    "end_ts": 1795798800,
    "q": "Spread: Istanbulspor AS (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7248751",
@@ -12724,7 +12633,7 @@
    "ts": 1795755666,
    "end_ts": 1795798800,
    "q": "Spread: Istanbulspor AS (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7248762",
@@ -12737,7 +12646,7 @@
    "ts": 1795755666,
    "end_ts": 1795798800,
    "q": "Sariyer SK vs. Istanbulspor AS: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7267022",
@@ -12750,7 +12659,7 @@
    "ts": 1795755666,
    "end_ts": 1795797000,
    "q": "Spread: PFC Slavia Sofia (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7269328",
@@ -12763,7 +12672,7 @@
    "ts": 1795755666,
    "end_ts": 1795798800,
    "q": "Spread: Umraniyespor (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7269329",
@@ -12776,7 +12685,7 @@
    "ts": 1795755666,
    "end_ts": 1795798800,
    "q": "Spread: Manisa Futbol Kulubu (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7269340",
@@ -12789,7 +12698,7 @@
    "ts": 1795755666,
    "end_ts": 1795798800,
    "q": "Umraniyespor vs. Manisa Futbol Kulubu: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7276741",
@@ -12802,7 +12711,7 @@
    "ts": 1795755666,
    "end_ts": 1795798800,
    "q": "Spread: Nafta 1903 Lendava (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7308319",
@@ -12815,7 +12724,7 @@
    "ts": 1795755666,
    "end_ts": 1795793400,
    "q": "Spread: Lusail SC (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7308334",
@@ -12828,7 +12737,7 @@
    "ts": 1795755666,
    "end_ts": 1795793400,
    "q": "Lusail SC vs. Al Arabi Doha SC: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7310971",
@@ -12841,7 +12750,7 @@
    "ts": 1795755666,
    "end_ts": 1795798800,
    "q": "Spread: SK Artis Brno (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7310972",
@@ -12854,7 +12763,7 @@
    "ts": 1795755666,
    "end_ts": 1795798800,
    "q": "Spread: 1. FC Slovácko (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7311093",
@@ -12867,7 +12776,7 @@
    "ts": 1795755666,
    "end_ts": 1795793400,
    "q": "Spread: Sepsi OSK (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7312045",
@@ -12880,7 +12789,7 @@
    "ts": 1795755666,
    "end_ts": 1795798800,
    "q": "Spread: Kasımpaşa SK (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7319078",
@@ -12893,7 +12802,7 @@
    "ts": 1795755666,
    "end_ts": 1795795200,
    "q": "Spread: FK Macva Sabac (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7349659",
@@ -12906,7 +12815,7 @@
    "ts": 1795755666,
    "end_ts": 1795791600,
    "q": "Spread: Zira FK (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7349661",
@@ -12919,7 +12828,7 @@
    "ts": 1795755666,
    "end_ts": 1795791600,
    "q": "Spread: Zira FK (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7349672",
@@ -12932,7 +12841,7 @@
    "ts": 1795755666,
    "end_ts": 1795791600,
    "q": "Neftchi Baku PFC vs. Zira FK: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7179458",
@@ -12945,7 +12854,7 @@
    "ts": 1795755666,
    "end_ts": 1795808700,
    "q": "Spread: Stade Brestois 29 (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7179459",
@@ -12958,7 +12867,7 @@
    "ts": 1795755666,
    "end_ts": 1795808700,
    "q": "Spread: Paris FC (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7207163",
@@ -12971,7 +12880,7 @@
    "ts": 1795755666,
    "end_ts": 1795807800,
    "q": "Spread: Scafatese Calcio 1922 (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7207165",
@@ -12984,7 +12893,7 @@
    "ts": 1795755666,
    "end_ts": 1795807800,
    "q": "Spread: Scafatese Calcio 1922 (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7223123",
@@ -12997,7 +12906,7 @@
    "ts": 1795755666,
    "end_ts": 1795808700,
    "q": "Spread: Wealdstone FC (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7223135",
@@ -13010,7 +12919,7 @@
    "ts": 1795755666,
    "end_ts": 1795808700,
    "q": "Scunthorpe United FC vs. Wealdstone FC: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7228114",
@@ -13023,7 +12932,7 @@
    "ts": 1795755666,
    "end_ts": 1795800600,
    "q": "Spread: SV Darmstadt 98 (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7237983",
@@ -13036,7 +12945,7 @@
    "ts": 1795755666,
    "end_ts": 1795804200,
    "q": "Spread: SCR Altach (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7248874",
@@ -13049,7 +12958,7 @@
    "ts": 1795755666,
    "end_ts": 1795806000,
    "q": "Spread: FC Den Bosch (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7248889",
@@ -13062,7 +12971,7 @@
    "ts": 1795755666,
    "end_ts": 1795806000,
    "q": "NAC Breda vs. FC Den Bosch: O/U 0.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7248898",
@@ -13075,7 +12984,7 @@
    "ts": 1795755666,
    "end_ts": 1795806000,
    "q": "NAC Breda vs. FC Den Bosch: O/U 8.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7264991",
@@ -13088,7 +12997,7 @@
    "ts": 1795755666,
    "end_ts": 1795808700,
    "q": "Spread: KV Kortrijk (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7264993",
@@ -13101,7 +13010,7 @@
    "ts": 1795755666,
    "end_ts": 1795808700,
    "q": "Spread: KV Kortrijk (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7265727",
@@ -13114,7 +13023,7 @@
    "ts": 1795755666,
    "end_ts": 1795804200,
    "q": "Spread: WKW ETO FC Gyor (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7265728",
@@ -13127,7 +13036,7 @@
    "ts": 1795755666,
    "end_ts": 1795804200,
    "q": "Spread: Debreceni VSC (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7272622",
@@ -13140,7 +13049,7 @@
    "ts": 1795755666,
    "end_ts": 1795806000,
    "q": "Royal Francs Borains vs. KAS Eupen: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7273776",
@@ -13153,7 +13062,7 @@
    "ts": 1795755666,
    "end_ts": 1795802400,
    "q": "Spread: Portimonense SAD (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7276062",
@@ -13166,7 +13075,7 @@
    "ts": 1795755666,
    "end_ts": 1795802400,
    "q": "Spread: TSV Havelse (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7276075",
@@ -13179,7 +13088,7 @@
    "ts": 1795755666,
    "end_ts": 1795802400,
    "q": "Hansa Rostock vs. TSV Havelse: O/U 8.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7291470",
@@ -13192,7 +13101,7 @@
    "ts": 1795755666,
    "end_ts": 1795807800,
    "q": "Spread: CE Sabadell FC (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7292847",
@@ -13205,7 +13114,7 @@
    "ts": 1795755666,
    "end_ts": 1795807800,
    "q": "Spread: Wisla Plock (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7303356",
@@ -13218,7 +13127,7 @@
    "ts": 1795755666,
    "end_ts": 1795806000,
    "q": "Spread: Jong FC Utrecht (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7303362",
@@ -13231,7 +13140,7 @@
    "ts": 1795755666,
    "end_ts": 1795806000,
    "q": "Jong FC Utrecht vs. Almere City FC: O/U 0.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7159561",
@@ -13244,7 +13153,7 @@
    "ts": 1795755666,
    "end_ts": 1795820400,
    "q": "Spread: Sportivo Luqueno (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7159575",
@@ -13257,7 +13166,7 @@
    "ts": 1795755666,
    "end_ts": 1795820400,
    "q": "Sportivo Luqueno vs. Club Olimpia: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7159636",
@@ -13270,7 +13179,7 @@
    "ts": 1795755666,
    "end_ts": 1795811400,
    "q": "Spread: Rubio Nu (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7159638",
@@ -13283,7 +13192,7 @@
    "ts": 1795755666,
    "end_ts": 1795811400,
    "q": "Spread: Rubio Nu (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7159649",
@@ -13296,7 +13205,7 @@
    "ts": 1795755666,
    "end_ts": 1795811400,
    "q": "Nacional Asuncion vs. Rubio Nu: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7194583",
@@ -13309,7 +13218,7 @@
    "ts": 1795755666,
    "end_ts": 1795810500,
    "q": "Spread: CS Marítimo (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7194584",
@@ -13322,7 +13231,7 @@
    "ts": 1795755666,
    "end_ts": 1795810500,
    "q": "Spread: CD Nacional (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7194594",
@@ -13335,7 +13244,7 @@
    "ts": 1795755666,
    "end_ts": 1795810500,
    "q": "CS Marítimo vs. CD Nacional: O/U 5.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7311151",
@@ -13348,7 +13257,7 @@
    "ts": 1795755666,
    "end_ts": 1795820400,
    "q": "Spread: Vila Nova FC (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7311152",
@@ -13361,7 +13270,7 @@
    "ts": 1795755666,
    "end_ts": 1795820400,
    "q": "Spread: AC Goianiense (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7329632",
@@ -13374,7 +13283,7 @@
    "ts": 1795755666,
    "end_ts": 1795815000,
    "q": "Spread: Manta FC (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7329643",
@@ -13387,7 +13296,7 @@
    "ts": 1795755666,
    "end_ts": 1795815000,
    "q": "CD Cuenca vs. Manta FC: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7330580",
@@ -13400,7 +13309,7 @@
    "ts": 1795755666,
    "end_ts": 1795816800,
    "q": "Spread: CA Atlanta (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7330581",
@@ -13413,7 +13322,7 @@
    "ts": 1795755666,
    "end_ts": 1795816800,
    "q": "Spread: Club Ciudad de Bolivar (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7330591",
@@ -13426,7 +13335,7 @@
    "ts": 1795755666,
    "end_ts": 1795816800,
    "q": "CA Atlanta vs. Club Ciudad de Bolivar: O/U 5.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7331517",
@@ -13439,7 +13348,7 @@
    "ts": 1795755666,
    "end_ts": 1795810500,
    "q": "Spread: Hercules de Alicante CF (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7006472",
@@ -13452,7 +13361,7 @@
    "ts": 1795755666,
    "end_ts": 1795825800,
    "q": "Oakland Golden Grizzlies vs. Houston Cougars",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7277123",
@@ -13465,7 +13374,7 @@
    "ts": 1795755666,
    "end_ts": 1795822200,
    "q": "Spread: Liverpool Montevideo (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7277133",
@@ -13478,7 +13387,7 @@
    "ts": 1795755666,
    "end_ts": 1795822200,
    "q": "Racing Club Montevideo vs. Liverpool Montevideo: O/U 5.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7307195",
@@ -13491,7 +13400,7 @@
    "ts": 1795755666,
    "end_ts": 1795824000,
    "q": "Spread: Gimnasia Y Tiro de Salta (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7310519",
@@ -13504,7 +13413,7 @@
    "ts": 1795755666,
    "end_ts": 1795830000,
    "q": "Spread: América de Cali (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7310611",
@@ -13517,7 +13426,7 @@
    "ts": 1795755666,
    "end_ts": 1795822500,
    "q": "Spread: CA Bucaramanga (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6364897",
@@ -13530,7 +13439,7 @@
    "ts": 1795755666,
    "end_ts": 1795841940,
    "q": "Will the next Claude Opus model (5.6+) be released on November 27, 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6655561",
@@ -13543,7 +13452,7 @@
    "ts": 1795755666,
    "end_ts": 1795841940,
    "q": "Will the next Meta Muse Spark model be released on November 27, 2026?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7029436",
@@ -13556,7 +13465,7 @@
    "ts": 1795755666,
    "end_ts": 1795841940,
    "q": "Will the next Gemini Carbon model (4.1+) be released on November 27, 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7030779",
@@ -13569,7 +13478,7 @@
    "ts": 1795755666,
    "end_ts": 1795842000,
    "q": "Prairie View A&M Panthers vs. Iowa Hawkeyes",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7194753",
@@ -13582,7 +13491,7 @@
    "ts": 1795755666,
    "end_ts": 1795841940,
    "q": "Will Trump's approval rating be at least 38.0 on November 27, 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7194754",
@@ -13595,7 +13504,7 @@
    "ts": 1795755666,
    "end_ts": 1795841940,
    "q": "Will Trump's approval rating be at least 39.0 on November 27, 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7194755",
@@ -13608,7 +13517,7 @@
    "ts": 1795755666,
    "end_ts": 1795841940,
    "q": "Will Trump's approval rating be at least 40.0 on November 27, 2026?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7194757",
@@ -13621,7 +13530,7 @@
    "ts": 1795755666,
    "end_ts": 1795841940,
    "q": "Will Trump's approval rating be less than 37.0 on November 27, 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7194760",
@@ -13634,7 +13543,7 @@
    "ts": 1795755666,
    "end_ts": 1795841940,
    "q": "Will Trump's approval rating be between 38.0 and 38.4 on November 27, 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7194761",
@@ -13647,7 +13556,7 @@
    "ts": 1795755666,
    "end_ts": 1795841940,
    "q": "Will Trump's approval rating be between 38.5 and 38.9 on November 27, 2026?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7194762",
@@ -13660,7 +13569,7 @@
    "ts": 1795755666,
    "end_ts": 1795841940,
    "q": "Will Trump's approval rating be 39.0 or higher on November 27, 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7206323",
@@ -13673,7 +13582,7 @@
    "ts": 1795755666,
    "end_ts": 1795841940,
    "q": "Will Quince: Luxury Essentials be #1 Free App in the US Apple App Store on November 27?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7326923",
@@ -13686,7 +13595,7 @@
    "ts": 1795755666,
    "end_ts": 1795841940,
    "q": "Will NVIDIA close below its pre-Jensen return closing low by November 27, 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7330421",
@@ -13699,7 +13608,7 @@
    "ts": 1795755666,
    "end_ts": 1795841940,
    "q": "Will the Fear & Greed Index be between 45 and 55 on November 27?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7365020",
@@ -13712,7 +13621,7 @@
    "ts": 1795755666,
    "end_ts": 1795833000,
    "q": "Spread: Nuggets (-35.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7276740",
@@ -16910,6 +16819,253 @@
    "ts": 1795795272,
    "end_ts": 1795895100,
    "q": "Le Havre AC vs. RC Strasbourg Alsace: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "7210258",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "74088658013652937989910476555445590178494288417878800661364384833333426007791",
+   "px": 0.984,
+   "tick": 0.001,
+   "ts": 1795798871,
+   "end_ts": 1795813200,
+   "q": "Will Microsoft (MSFT) finish week of November 23 above $510?",
+   "touched": null
+  },
+  {
+   "id": "7210260",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "70999555423260942595693213407126857314386849797222809896215026249170228826878",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795798871,
+   "end_ts": 1795813200,
+   "q": "Will Microsoft Corporation (MSFT) hit (LOW) $472.50 Week of November 23 2026?",
+   "touched": null
+  },
+  {
+   "id": "7210532",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "6188162228180259922390900220256938455232306203382041851480640966022371830156",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795798871,
+   "end_ts": 1795813200,
+   "q": "Will Palantir Technologies Inc. (PLTR) hit (LOW) $141 Week of November 23 2026?",
+   "touched": null
+  },
+  {
+   "id": "7210667",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "24022090126888593600861507362496286748710696009433665851590620059039948445278",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1795798871,
+   "end_ts": 1795813200,
+   "q": "Will Robinhood Markets, Inc. (HOOD) hit (LOW) $60 Week of November 23 2026?",
+   "touched": null
+  },
+  {
+   "id": "7210682",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "59720120244441899045666435804981245778299147944154450782469594970727512963133",
+   "px": 0.984,
+   "tick": 0.001,
+   "ts": 1795798871,
+   "end_ts": 1795813200,
+   "q": "Will Micron Technology, Inc. (MU) hit (LOW) $540 Week of November 23 2026?",
+   "touched": null
+  },
+  {
+   "id": "7343528",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "31437043790838346224628448409329825241447981870353683743790859771536810542701",
+   "px": 0.986,
+   "tick": 0.001,
+   "ts": 1795798871,
+   "end_ts": 1795813200,
+   "q": "Will Microsoft (MSFT) close above $460 on November 27?",
+   "touched": null
+  },
+  {
+   "id": "7343529",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "81917408953508775099507343877340018725548445080981547110433033686015395990899",
+   "px": 0.99,
+   "tick": 0.001,
+   "ts": 1795798871,
+   "end_ts": 1795813200,
+   "q": "Will Microsoft (MSFT) close above $470 on November 27?",
+   "touched": null
+  },
+  {
+   "id": "7343530",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "29126326526474016867435769400211871177940670239555969344052937899951234017221",
+   "px": 0.991,
+   "tick": 0.001,
+   "ts": 1795798871,
+   "end_ts": 1795813200,
+   "q": "Will Microsoft (MSFT) close above $480 on November 27?",
+   "touched": null
+  },
+  {
+   "id": "7343553",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "33024761118488608419805447582303706914503593014670106528804858237702714437725",
+   "px": 0.992,
+   "tick": 0.001,
+   "ts": 1795798871,
+   "end_ts": 1795813200,
+   "q": "S&P 500 (SPX) Up or Down on November 27?",
+   "touched": null
+  },
+  {
+   "id": "7343560",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "12774589913050445190185259883295032131686837497743736452179713414003989384212",
+   "px": 0.983,
+   "tick": 0.001,
+   "ts": 1795798871,
+   "end_ts": 1795813200,
+   "q": "Will Tesla (TSLA) close above $380 on November 27?",
+   "touched": null
+  },
+  {
+   "id": "7343568",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "79590831519234111408687044834875226417646877683868208555194404677716249768205",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795798871,
+   "end_ts": 1795813200,
+   "q": "Will NVIDIA (NVDA) close above $155 on November 27?",
+   "touched": null
+  },
+  {
+   "id": "7343589",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "106105025206071134653066382269290950671543288291936752770696618540789461955215",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795798871,
+   "end_ts": 1795813200,
+   "q": "SPY (SPY) Up or Down on November 27?",
+   "touched": null
+  },
+  {
+   "id": "7343591",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "6080898991144374433546537831969797866441904131598570273170238028124580093702",
+   "px": 0.98,
+   "tick": 0.001,
+   "ts": 1795798871,
+   "end_ts": 1795813200,
+   "q": "EWY (EWY) Up or Down on November 27?",
+   "touched": null
+  },
+  {
+   "id": "7351078",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "24258555418826871808525613897815303531912942604926922360263260137461271399959",
+   "px": 0.984,
+   "tick": 0.001,
+   "ts": 1795798871,
+   "end_ts": 1795813200,
+   "q": "Will NVIDIA (NVDA) hit (LOW) $136 Week of November 23 2026?",
+   "touched": null
+  },
+  {
+   "id": "7364729",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "111011000515366400285588109184172679077088946651354003366414620181539905112782",
+   "px": 0.972,
+   "tick": 0.001,
+   "ts": 1795798871,
+   "end_ts": 1795827600,
+   "q": "Spread: Hawks (-14.5)",
+   "touched": null
+  },
+  {
+   "id": "7375497",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "5096631002680182001500333871432288865886786628624262342687845208033082218630",
+   "px": 0.971,
+   "tick": 0.001,
+   "ts": 1795798871,
+   "end_ts": 1795825800,
+   "q": "Spread: Bucks (-15.5)",
+   "touched": null
+  },
+  {
+   "id": "7375498",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "4868319979687595402429227317266270237982819806071984597093558341552348841792",
+   "px": 0.979,
+   "tick": 0.001,
+   "ts": 1795798871,
+   "end_ts": 1795825800,
+   "q": "Spread: Nets (-17.5)",
+   "touched": null
+  },
+  {
+   "id": "7375484",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "5053129417322315992347902175844494690287450256649984266946590443898234214404",
+   "px": 0.972,
+   "tick": 0.001,
+   "ts": 1795798871,
+   "end_ts": 1795833000,
+   "q": "Spread: Warriors (-15.5)",
+   "touched": null
+  },
+  {
+   "id": "7328386",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "57300157472643599670334704365000847094645023198208357664361781011863775652973",
+   "px": 0.972,
+   "tick": 0.001,
+   "ts": 1795798871,
+   "end_ts": 1795874400,
+   "q": "Spread: Virtus Entella (-2.5)",
    "touched": null
   }
  ]
