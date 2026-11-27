@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 14.4 de 28 | corridas: 335
-- Capital inicial: $1,000.00 | valor actual: $926.47 | P&L: $-73.53 (-7.35%)
-- Efectivo libre: $1.29 | en ordenes abiertas: $467.60 (6) | en posiciones: $473.05 (7)
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 14.4 de 28 | corridas: 336
+- Capital inicial: $1,000.00 | valor actual: $922.29 | P&L: $-77.71 (-7.77%)
+- Efectivo libre: $0.00 | en ordenes abiertas: $468.89 (7) | en posiciones: $473.05 (7)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $214.40 en 3 posiciones
-- Ordenes virtuales: 673 colocadas, 309 llenadas, 282 tocadas sin llenarse (sorteo 30%), 76 expiradas
+- Ordenes virtuales: 676 colocadas, 309 llenadas, 284 tocadas sin llenarse (sorteo 30%), 76 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -32,34 +32,34 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
-| $91.77 | 99.8c | 85.0c | otros_cierre | si | Pakistan military action against Afghanistan by November 15, 2026? |
+| $91.77 | 99.8c | 81.5c | otros_cierre | si | Pakistan military action against Afghanistan by November 15, 2026? |
 | $35.36 | 99.8c | 98.1c | otros_cierre | si | Will Mark Rothko's “Untitled” sell for between $4.5m and $5.5m at auction? |
 | $87.27 | 99.8c | 98.3c | otros_cierre | si | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
 | $36.42 | 98.9c | 98.9c | deportes_previo |  | Villanova Wildcats vs. LSU Tigers (W) |
 | $92.43 | 98.9c | 98.9c | deportes_previo |  | Penn State Nittany Lions vs. Baylor Bears (W) |
-| $92.43 | 98.2c | 98.2c | otros_cierre |  | Will the next Claude Opus model (5.6+) be released on November 27, 2026? |
-| $37.36 | 97.4c | 97.4c | otros_cierre |  | Will the next Grok model (4.8+) be released on November 27, 2026? |
+| $92.43 | 98.2c | 97.5c | otros_cierre |  | Will the next Claude Opus model (5.6+) be released on November 27, 2026? |
+| $37.36 | 97.4c | 96.8c | otros_cierre |  | Will the next Grok model (4.8+) be released on November 27, 2026? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 17365 | abiertas: 2673 | abiertas mas de 7 dias despues de su fecha de fin: 8
+- Resueltas: 17459 | abiertas: 2634 | abiertas mas de 7 dias despues de su fecha de fin: 8
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
-| clima_cierre | todas | 4809 | 98.80c | 98.98% | +0.18 pts | -0.10 a +0.46 | 49 |
-| clima_cierre | tocadas | 4481 | 98.83c | 98.91% | +0.08 pts | -0.22 a +0.38 | 49 |
-| cripto_cierre | todas | 2238 | 98.59c | 98.17% | -0.42 pts | -0.97 a +0.13 | 41 |
-| cripto_cierre | tocadas | 2035 | 98.65c | 97.99% | -0.66 pts | -1.27 a -0.06 | 41 |
-| deportes_previo | todas | 8053 | 98.05c | 97.44% | -0.61 pts | -0.96 a -0.27 | 211 |
-| deportes_previo | tocadas | 7839 | 98.09c | 97.39% | -0.70 pts | -1.05 a -0.35 | 209 |
-| otros_cierre | todas | 1975 | 98.92c | 97.72% | -1.20 pts | -1.85 a -0.54 | 45 |
-| otros_cierre | tocadas | 1821 | 98.87c | 97.53% | -1.34 pts | -2.05 a -0.63 | 45 |
+| clima_cierre | todas | 4835 | 98.80c | 98.99% | +0.18 pts | -0.10 a +0.47 | 49 |
+| clima_cierre | tocadas | 4506 | 98.83c | 98.91% | +0.09 pts | -0.21 a +0.39 | 49 |
+| cripto_cierre | todas | 2239 | 98.58c | 98.17% | -0.41 pts | -0.97 a +0.14 | 41 |
+| cripto_cierre | tocadas | 2036 | 98.65c | 97.99% | -0.66 pts | -1.26 a -0.06 | 41 |
+| deportes_previo | todas | 8096 | 98.05c | 97.44% | -0.61 pts | -0.95 a -0.27 | 212 |
+| deportes_previo | tocadas | 7881 | 98.09c | 97.39% | -0.70 pts | -1.05 a -0.35 | 210 |
+| otros_cierre | todas | 1999 | 98.92c | 97.75% | -1.18 pts | -1.82 a -0.53 | 45 |
+| otros_cierre | tocadas | 1841 | 98.88c | 97.56% | -1.32 pts | -2.02 a -0.62 | 45 |
 | post_fin_90_97 | todas | 290 | 94.03c | 93.79% | -0.24 pts | -2.99 a +2.51 | 18 |
 | post_fin_90_97 | tocadas | 245 | 94.13c | 92.65% | -1.48 pts | -4.71 a +1.75 | 18 |
-| TOTAL | todas | 17365 | 98.36c | 97.93% | -0.43 pts | -0.64 a -0.22 | 364 |
-| TOTAL | tocadas | 16421 | 98.39c | 97.82% | -0.57 pts | -0.79 a -0.34 | 362 |
+| TOTAL | todas | 17459 | 98.36c | 97.94% | -0.42 pts | -0.63 a -0.21 | 365 |
+| TOTAL | tocadas | 16509 | 98.39c | 97.83% | -0.56 pts | -0.78 a -0.34 | 363 |
 
 Peores casos del registro sombra:
 
