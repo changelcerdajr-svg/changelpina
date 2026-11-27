@@ -151,27 +151,6 @@
    "liq": 2995
   },
   {
-   "oid": "7349659-1795766467",
-   "id": "7349659",
-   "q": "Spread: Zira FK (-2.5)",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1459200",
-   "side": 1,
-   "token": "54264465884253522949825878795803507052045805379535955115451075196802660515854",
-   "px": 0.981,
-   "tick": 0.001,
-   "mid": 0.981,
-   "bid": 0.975,
-   "ask": 0.987,
-   "shares": 50.915,
-   "cost": 49.9477,
-   "ts": 1795766467.520215,
-   "end_ts": 1795791600.0,
-   "hours": 6.98,
-   "liq": 1634
-  },
-  {
    "oid": "7371235-1795766467",
    "id": "7371235",
    "q": "Will the US national average gas price be less than $3.5400 on November 27?",
@@ -240,7 +219,7 @@
    "hours": 15.98,
    "liq": 1075,
    "fill_ts": 1795755955.885589,
-   "mark": 0.987,
+   "mark": 0.989,
    "stuck": false,
    "disputed": false
   },
@@ -265,9 +244,32 @@
    "hours": 6.98,
    "liq": 2012,
    "fill_ts": 1795762864.397494,
-   "mark": 0.975,
+   "mark": 0.9725,
    "stuck": false,
    "disputed": false
+  },
+  {
+   "oid": "7349659-1795766467",
+   "id": "7349659",
+   "q": "Spread: Zira FK (-2.5)",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1459200",
+   "side": 1,
+   "token": "54264465884253522949825878795803507052045805379535955115451075196802660515854",
+   "px": 0.981,
+   "tick": 0.001,
+   "mid": 0.981,
+   "bid": 0.975,
+   "ask": 0.987,
+   "shares": 50.915,
+   "cost": 49.9477,
+   "ts": 1795766467.520215,
+   "end_ts": 1795791600.0,
+   "hours": 6.98,
+   "liq": 1634,
+   "fill_ts": 1795773665.138923,
+   "mark": 0.981
   }
  ],
  "closed": [
@@ -8870,12 +8872,25 @@
    "placed": 0,
    "shadow_open": 484,
    "shadow_closed": 4
+  },
+  {
+   "ts": "2026-11-27T10:01:47Z",
+   "equity": 999.02,
+   "cash": 393.24,
+   "orders": 8,
+   "positions": 4,
+   "closed": 133,
+   "scanned": 15163,
+   "candidates": 353,
+   "placed": 0,
+   "shadow_open": 519,
+   "shadow_closed": 0
   }
  ],
  "halted": false,
  "stats": {
   "placed": 606,
-  "filled": 136,
+  "filled": 137,
   "expired": 135,
   "touched_not_filled": 326
  },
@@ -11153,7 +11168,7 @@
    "ts": 1795730462,
    "end_ts": 1795793400,
    "q": "Spread: Sepsi OSK (-2.5)",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7319074",
@@ -11166,7 +11181,7 @@
    "ts": 1795730462,
    "end_ts": 1795795200,
    "q": "Spread: FK Macva Sabac (-1.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7203524",
@@ -11179,7 +11194,7 @@
    "ts": 1795730462,
    "end_ts": 1795798800,
    "q": "Will the price of Bitcoin be above $58,000 on November 27?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7304574",
@@ -11192,7 +11207,7 @@
    "ts": 1795730462,
    "end_ts": 1795806000,
    "q": "Spread: Jong Ajax Amsterdam (-2.5)",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7311065",
@@ -11205,7 +11220,7 @@
    "ts": 1795730462,
    "end_ts": 1795804200,
    "q": "FC Petrolul Ploieşti vs. FC Argeș Pitești: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7311066",
@@ -11218,7 +11233,7 @@
    "ts": 1795730462,
    "end_ts": 1795804200,
    "q": "FC Petrolul Ploieşti vs. FC Argeș Pitești: O/U 7.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7210459",
@@ -11231,7 +11246,7 @@
    "ts": 1795730462,
    "end_ts": 1795813200,
    "q": "Will Netflix (NFLX) close at <$10 on the final day of trading of the week of Nov 23 – Nov ",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7210460",
@@ -11244,7 +11259,7 @@
    "ts": 1795730462,
    "end_ts": 1795813200,
    "q": "Will Netflix (NFLX) close at $10-$20 on the final day of trading of the week of Nov 23 – N",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7210670",
@@ -11257,7 +11272,7 @@
    "ts": 1795730462,
    "end_ts": 1795813200,
    "q": "Will Robinhood Markets, Inc. (HOOD) hit (LOW) $52.50 Week of November 23 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "6364964",
@@ -15170,6 +15185,461 @@
    "ts": 1795770067,
    "end_ts": 1795869000,
    "q": "FC Voluntari vs. FC CFR 1907 Cluj: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "7203489",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "85018771040504133948671693510362523238261537303634040881583814567953191533123",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795773665,
+   "end_ts": 1795798800,
+   "q": "Will the price of Bitcoin be less than $50,000 on November 27?",
+   "touched": null
+  },
+  {
+   "id": "7203545",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 0,
+   "token": "4597318503199479252874532969755476328937156218343411219470324942241728107876",
+   "px": 0.971,
+   "tick": 0.001,
+   "ts": 1795773665,
+   "end_ts": 1795798800,
+   "q": "Will the price of Solana be above $70 on November 27?",
+   "touched": null
+  },
+  {
+   "id": "7228125",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "17496573340553300673463112504369636995114862533546263578154882152412228248048",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795773665,
+   "end_ts": 1795800600,
+   "q": "VfL Bochum vs. SV Darmstadt 98: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "7249677",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "62471834156036581837833770213852795983171692645534384563167141473848807614275",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795773665,
+   "end_ts": 1795806000,
+   "q": "VVV Venlo leading at halftime?",
+   "touched": null
+  },
+  {
+   "id": "7273786",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "15091649352508135518237638207029159967653020275684596526080914396137009114663",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795773665,
+   "end_ts": 1795802400,
+   "q": "CD Feirense vs. Portimonense SAD: O/U 5.5",
+   "touched": null
+  },
+  {
+   "id": "7311054",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "13865887276344431060106804151535045737974051841610372501354539539473126322194",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1795773665,
+   "end_ts": 1795804200,
+   "q": "Spread: FC Argeș Pitești (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "7330772",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "50508881448433031947679823567022435369350189763521983460551153535649344626634",
+   "px": 0.986,
+   "tick": 0.001,
+   "ts": 1795773665,
+   "end_ts": 1795806000,
+   "q": "Spread: Delfin SC (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "7210764",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "52308828928702252273694660043278094002216236255217040138877088893254122799432",
+   "px": 0.975,
+   "tick": 0.001,
+   "ts": 1795773665,
+   "end_ts": 1795813200,
+   "q": "Will South Korea ETF (EWY) hit (LOW) $119 Week of November 23 2026?",
+   "touched": null
+  },
+  {
+   "id": "7331518",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "115164194854514006185622474570382701890910113515747959343075305829663703968794",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1795773665,
+   "end_ts": 1795810500,
+   "q": "Spread: Antequera CF (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "7310630",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "44111353818167863580495773572828450606580884820472114789597397866416084307333",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795773665,
+   "end_ts": 1795822500,
+   "q": "AD Cali vs. CA Bucaramanga: O/U 5.5",
+   "touched": null
+  },
+  {
+   "id": "7386810",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "103180194156149129951516284800384630116586058484175019279362517754990037246332",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795773665,
+   "end_ts": 1795842000,
+   "q": "Will Solana reach $95 on November 27?",
+   "touched": null
+  },
+  {
+   "id": "7386812",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "105287454975675656992317362910556434465862010917287663649214066703271125338339",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795773665,
+   "end_ts": 1795842000,
+   "q": "Will Solana reach $85 on November 27?",
+   "touched": null
+  },
+  {
+   "id": "7386818",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "106594752566818272431646800494212481373764288769762200016294264399299058083618",
+   "px": 0.99,
+   "tick": 0.001,
+   "ts": 1795773665,
+   "end_ts": 1795842000,
+   "q": "Will Solana dip to $55 on November 27?",
+   "touched": null
+  },
+  {
+   "id": "7386819",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "110965563260960603878535807365653761658783984006121727204879309119252670645761",
+   "px": 0.99,
+   "tick": 0.001,
+   "ts": 1795773665,
+   "end_ts": 1795842000,
+   "q": "Will Solana dip to $50 on November 27?",
+   "touched": null
+  },
+  {
+   "id": "7386820",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "11160088726197735588330721821969888534381720436688042249681632847530223554681",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795773665,
+   "end_ts": 1795842000,
+   "q": "Will XRP reach $1.20 on November 27?",
+   "touched": null
+  },
+  {
+   "id": "7386821",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "27830356233988664971439134891356520767360767651112416398855755067944131301504",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795773665,
+   "end_ts": 1795842000,
+   "q": "Will XRP reach $1.15 on November 27?",
+   "touched": null
+  },
+  {
+   "id": "7386822",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "15543057957049089278247372634463589036767829981233265645403281112347075515824",
+   "px": 0.984,
+   "tick": 0.001,
+   "ts": 1795773665,
+   "end_ts": 1795842000,
+   "q": "Will XRP reach $1.10 on November 27?",
+   "touched": null
+  },
+  {
+   "id": "7386827",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "34762890629266345990843775928848623484604440576351674298827774584481405245505",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795773665,
+   "end_ts": 1795842000,
+   "q": "Will XRP dip to $0.85 on November 27?",
+   "touched": null
+  },
+  {
+   "id": "7386828",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "84600696045076929487474415561661990356566372229908761852230981130551576675894",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795773665,
+   "end_ts": 1795842000,
+   "q": "Will XRP dip to $0.80 on November 27?",
+   "touched": null
+  },
+  {
+   "id": "7386829",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "28177138211918422492657297952061705471475140031470836330378180197579377263383",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795773665,
+   "end_ts": 1795842000,
+   "q": "Will XRP dip to $0.75 on November 27?",
+   "touched": null
+  },
+  {
+   "id": "7228045",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "115107242712883077799283195971005282113889679809276365733418676886692906965249",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795773665,
+   "end_ts": 1795867200,
+   "q": "Hertha BSC vs. Karlsruher SC: O/U 0.5",
+   "touched": null
+  },
+  {
+   "id": "7228052",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "100949928266659894554464976697957367349806938854770308950233121941859183873687",
+   "px": 0.971,
+   "tick": 0.001,
+   "ts": 1795773665,
+   "end_ts": 1795867200,
+   "q": "Hertha BSC vs. Karlsruher SC: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "7311023",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "51620104921189230667885552072085360727068495196819294059766905421766639420371",
+   "px": 0.992,
+   "tick": 0.001,
+   "ts": 1795773665,
+   "end_ts": 1795869000,
+   "q": "FC Voluntari vs. FC CFR 1907 Cluj: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "7311965",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "3236772140703678535399869300884093624453669711997911167194016771038061153173",
+   "px": 0.975,
+   "tick": 0.001,
+   "ts": 1795773665,
+   "end_ts": 1795870800,
+   "q": "Spread: Gençlerbirliği SK (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "7311978",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "70891855426757770302682576329334524004661841720212143793159331935017410686729",
+   "px": 0.977,
+   "tick": 0.001,
+   "ts": 1795773665,
+   "end_ts": 1795870800,
+   "q": "Samsunspor vs. Gençlerbirliği SK: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "7311979",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "78371142263395525735847052223996112175178104051889818814722928355118353172242",
+   "px": 0.992,
+   "tick": 0.001,
+   "ts": 1795773665,
+   "end_ts": 1795870800,
+   "q": "Samsunspor vs. Gençlerbirliği SK: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "7324277",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "3199307355254807257826530614767224513648197634901414657375331093861631793384",
+   "px": 0.991,
+   "tick": 0.001,
+   "ts": 1795773665,
+   "end_ts": 1795870800,
+   "q": "UD Las Palmas vs. FC Andorra: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "7201385",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "39577415789791606667539590089690424245815488130925231825440024552392149036589",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795773665,
+   "end_ts": 1795876200,
+   "q": "1. FC Köln vs. SV 07 Elversberg: O/U 8.5",
+   "touched": null
+  },
+  {
+   "id": "7201437",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "66303606403819843242499696498825912058015396230608942210820494577421706623858",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1795773665,
+   "end_ts": 1795876200,
+   "q": "1. FSV Mainz 05 vs. 1. FC Union Berlin: O/U 8.5",
+   "touched": null
+  },
+  {
+   "id": "7201493",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "95041078492077549867545074423848866346058434111347695344036285942160735938292",
+   "px": 0.99,
+   "tick": 0.001,
+   "ts": 1795773665,
+   "end_ts": 1795876200,
+   "q": "SC Paderborn 07 vs. FC Schalke 04: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "7201494",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "60352345427419788578876925428786592711485976765665193191853432081862774456548",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795773665,
+   "end_ts": 1795876200,
+   "q": "SC Paderborn 07 vs. FC Schalke 04: O/U 8.5",
+   "touched": null
+  },
+  {
+   "id": "7202563",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "21211000599545467602626260845173050316241637597821460571844506694115787834378",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1795773665,
+   "end_ts": 1795878900,
+   "q": "Spread: Málaga CF (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "7202577",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "51210832378329841316358228109080338660102790950271887873460687078447781202602",
+   "px": 0.979,
+   "tick": 0.001,
+   "ts": 1795773665,
+   "end_ts": 1795878900,
+   "q": "Málaga CF vs. Athletic Club: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "7242278",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "26283118714134346742678819854449716970366838271565134890916974573621263524872",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795773665,
+   "end_ts": 1795874400,
+   "q": "GD Chaves vs. CD Tondela: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "7312744",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "105088432151944909455686856017153427900532739085863025792467467548307113638348",
+   "px": 0.971,
+   "tick": 0.001,
+   "ts": 1795773665,
+   "end_ts": 1795878000,
+   "q": "Will KFUM-Kameratene Oslo win on 2026-11-28?",
    "touched": null
   }
  ]
