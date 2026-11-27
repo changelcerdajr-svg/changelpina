@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 13.7 de 28 | corridas: 318
-- Capital inicial: $1,000.00 | valor actual: $895.89 | P&L: $-104.11 (-10.41%)
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 13.7 de 28 | corridas: 319
+- Capital inicial: $1,000.00 | valor actual: $897.04 | P&L: $-102.96 (-10.30%)
 - Efectivo libre: $0.00 | en ordenes abiertas: $394.59 (7) | en posiciones: $623.76 (10)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $214.40 en 3 posiciones
-- Ordenes virtuales: 637 colocadas, 290 llenadas, 270 tocadas sin llenarse (sorteo 30%), 70 expiradas
+- Ordenes virtuales: 638 colocadas, 290 llenadas, 271 tocadas sin llenarse (sorteo 30%), 70 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -31,7 +31,7 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
-| $91.77 | 99.8c | 81.5c | otros_cierre | si | Pakistan military action against Afghanistan by November 15, 2026? |
+| $91.77 | 99.8c | 82.7c | otros_cierre | si | Pakistan military action against Afghanistan by November 15, 2026? |
 | $35.36 | 99.8c | 98.1c | otros_cierre | si | Will Mark Rothko's “Untitled” sell for between $4.5m and $5.5m at auction? |
 | $87.27 | 99.8c | 98.3c | otros_cierre | si | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
 | $19.30 | 95.9c | 99.4c | post_fin_90_97 |  | Will the highest temperature in Dallas be between 56-57°F on November 26? |
@@ -46,22 +46,22 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 16480 | abiertas: 2577 | abiertas mas de 7 dias despues de su fecha de fin: 8
+- Resueltas: 16505 | abiertas: 2599 | abiertas mas de 7 dias despues de su fecha de fin: 8
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
-| clima_cierre | todas | 4567 | 98.80c | 98.93% | +0.13 pts | -0.17 a +0.43 | 49 |
-| clima_cierre | tocadas | 4251 | 98.82c | 98.85% | +0.03 pts | -0.29 a +0.35 | 49 |
+| clima_cierre | todas | 4590 | 98.80c | 98.93% | +0.13 pts | -0.16 a +0.43 | 49 |
+| clima_cierre | tocadas | 4274 | 98.82c | 98.85% | +0.03 pts | -0.28 a +0.35 | 49 |
 | cripto_cierre | todas | 2116 | 98.61c | 98.06% | -0.55 pts | -1.13 a +0.04 | 41 |
 | cripto_cierre | tocadas | 1925 | 98.66c | 97.87% | -0.79 pts | -1.43 a -0.16 | 41 |
 | deportes_previo | todas | 7792 | 98.05c | 97.38% | -0.67 pts | -1.02 a -0.32 | 209 |
 | deportes_previo | tocadas | 7582 | 98.09c | 97.33% | -0.76 pts | -1.12 a -0.40 | 207 |
-| otros_cierre | todas | 1727 | 98.99c | 97.57% | -1.43 pts | -2.15 a -0.70 | 42 |
-| otros_cierre | tocadas | 1575 | 98.95c | 97.33% | -1.61 pts | -2.40 a -0.82 | 42 |
+| otros_cierre | todas | 1729 | 98.99c | 97.57% | -1.42 pts | -2.14 a -0.70 | 42 |
+| otros_cierre | tocadas | 1576 | 98.95c | 97.34% | -1.61 pts | -2.40 a -0.82 | 42 |
 | post_fin_90_97 | todas | 278 | 94.00c | 93.88% | -0.11 pts | -2.90 a +2.68 | 17 |
 | post_fin_90_97 | tocadas | 235 | 94.10c | 92.77% | -1.34 pts | -4.61 a +1.94 | 17 |
-| TOTAL | todas | 16480 | 98.36c | 97.85% | -0.50 pts | -0.72 a -0.28 | 358 |
-| TOTAL | tocadas | 15568 | 98.39c | 97.74% | -0.64 pts | -0.88 a -0.41 | 356 |
+| TOTAL | todas | 16505 | 98.36c | 97.86% | -0.50 pts | -0.72 a -0.28 | 358 |
+| TOTAL | tocadas | 15592 | 98.39c | 97.75% | -0.64 pts | -0.87 a -0.41 | 356 |
 
 Peores casos del registro sombra:
 

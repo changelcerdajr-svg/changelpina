@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-11T22:05:26Z | dias corridos: 15.3 de 28 | corridas: 355
+- Inicio: 2026-11-11T22:05:26Z | dias corridos: 15.4 de 28 | corridas: 356
 - Capital inicial: $1,000.00 | valor actual: $998.58 | P&L: $-1.42 (-0.14%)
-- Efectivo libre: $440.13 | en ordenes abiertas: $409.62 (8) | en posiciones: $201.26 (4)
+- Efectivo libre: $440.13 | en ordenes abiertas: $365.13 (7) | en posiciones: $245.76 (5)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $51.82 en 1 posiciones
-- Ordenes virtuales: 604 colocadas, 135 llenadas, 326 tocadas sin llenarse (sorteo 30%), 135 expiradas
+- Ordenes virtuales: 604 colocadas, 136 llenadas, 326 tocadas sin llenarse (sorteo 30%), 135 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -31,13 +31,14 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 | $51.82 | 98.5c | 98.3c | otros_cierre | si | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
 | $52.40 | 97.0c | 0.1c | deportes_previo |  | Spread: CF Cruz Azul (-3.5) |
 | $52.48 | 99.0c | 99.2c | otros_cierre |  | Will the next Claude Opus model (5.6+) be released on November 26, 2026? |
+| $44.49 | 97.7c | 97.7c | deportes_previo |  | Spread: Sisaket United FC (-2.5) |
 | $44.57 | 98.5c | 98.4c | otros_cierre |  | Will Alphabet Inc. (GOOGL) hit (LOW) $235 Week of November 23 2026? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 5597 | abiertas: 431 | abiertas mas de 7 dias despues de su fecha de fin: 5
+- Resueltas: 5597 | abiertas: 452 | abiertas mas de 7 dias despues de su fecha de fin: 5
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
@@ -67,4 +68,4 @@ Peores casos del registro sombra:
 
 ## Veredicto
 
-Aun no hay veredicto: van 131 operaciones cerradas en 15.3 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
+Aun no hay veredicto: van 131 operaciones cerradas en 15.4 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
