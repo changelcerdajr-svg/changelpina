@@ -1,29 +1,8 @@
 {
  "capital0": 1000.0,
- "cash": 403.9665,
+ "cash": 405.9627,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
-  {
-   "oid": "7361045-1795752066",
-   "id": "7361045",
-   "q": "Solana Up or Down - November 26, 8:00PM-12:00AM ET",
-   "cat": "cripto",
-   "rule": "cripto_cierre",
-   "event": "1461265",
-   "side": 0,
-   "token": "96239529261657134540981678353280073735714735965201674888434150545491438520731",
-   "px": 0.988,
-   "tick": 0.001,
-   "mid": 0.9885,
-   "bid": 0.983,
-   "ask": 0.994,
-   "shares": 51.9233,
-   "cost": 51.3002,
-   "ts": 1795752066.987831,
-   "end_ts": 1795755600.0,
-   "hours": 0.98,
-   "liq": 2995
-  },
   {
    "oid": "7371235-1795766467",
    "id": "7371235",
@@ -149,6 +128,48 @@
    "end_ts": 1795816800.0,
    "hours": 6.81,
    "liq": 1219
+  },
+  {
+   "oid": "7203502-1795795272",
+   "id": "7203502",
+   "q": "Will the price of Bitcoin be between $56,000 and $58,000 on November 27?",
+   "cat": "cripto",
+   "rule": "cripto_cierre",
+   "event": "1432561",
+   "side": 1,
+   "token": "22189839044699134861100887150402716874698873768841666213912097641638050349703",
+   "px": 0.989,
+   "tick": 0.001,
+   "mid": 0.9895,
+   "bid": 0.989,
+   "ask": 0.99,
+   "shares": 50.5802,
+   "cost": 50.0238,
+   "ts": 1795795272.02562,
+   "end_ts": 1795798800.0,
+   "hours": 0.98,
+   "liq": 15503
+  },
+  {
+   "oid": "7016235-1795795272",
+   "id": "7016235",
+   "q": "Penn State Nittany Lions vs. Baylor Bears (W)",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1380166",
+   "side": 1,
+   "token": "4234892341718301637390993064834396335662640281741024819906927048203686306235",
+   "px": 0.983,
+   "tick": 0.001,
+   "mid": 0.9835,
+   "bid": 0.977,
+   "ask": 0.99,
+   "shares": 45.5964,
+   "cost": 44.8212,
+   "ts": 1795795272.02562,
+   "end_ts": 1795818600.0,
+   "hours": 6.48,
+   "liq": 7348
   }
  ],
  "positions": [
@@ -198,32 +219,7 @@
    "hours": 15.98,
    "liq": 1075,
    "fill_ts": 1795755955.885589,
-   "mark": 0.9795,
-   "stuck": false,
-   "disputed": false
-  },
-  {
-   "oid": "7369671-1795755666",
-   "id": "7369671",
-   "q": "Spread: Sisaket United FC (-2.5)",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1463676",
-   "side": 1,
-   "token": "51055646668293945304524316497695497258253690912757453483440709690224508513837",
-   "px": 0.977,
-   "tick": 0.001,
-   "mid": 0.9775,
-   "bid": 0.97,
-   "ask": 0.985,
-   "shares": 45.541,
-   "cost": 44.4936,
-   "ts": 1795755666.274774,
-   "end_ts": 1795780800.0,
-   "hours": 6.98,
-   "liq": 2012,
-   "fill_ts": 1795762864.397494,
-   "mark": 0.97,
+   "mark": 0.986,
    "stuck": false,
    "disputed": false
   },
@@ -298,7 +294,9 @@
    "hours": 6.48,
    "liq": 2740,
    "fill_ts": 1795792283.721679,
-   "mark": 0.985
+   "mark": 0.981,
+   "stuck": false,
+   "disputed": false
   }
  ],
  "closed": [
@@ -4279,6 +4277,36 @@
    "result": 1.0,
    "closed_ts": "2026-11-27T15:01:12Z",
    "days": 0.17
+  },
+  {
+   "oid": "7369671-1795755666",
+   "id": "7369671",
+   "q": "Spread: Sisaket United FC (-2.5)",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1463676",
+   "side": 1,
+   "token": "51055646668293945304524316497695497258253690912757453483440709690224508513837",
+   "px": 0.977,
+   "tick": 0.001,
+   "mid": 0.9775,
+   "bid": 0.97,
+   "ask": 0.985,
+   "shares": 45.541,
+   "cost": 44.4936,
+   "ts": 1795755666.274774,
+   "end_ts": 1795780800.0,
+   "hours": 6.98,
+   "liq": 2012,
+   "fill_ts": 1795762864.397494,
+   "mark": 0.97,
+   "stuck": false,
+   "disputed": false,
+   "payout": 45.541,
+   "pnl": 1.0474,
+   "result": 1.0,
+   "closed_ts": "2026-11-27T16:01:14Z",
+   "days": 0.38
   }
  ],
  "runs": [
@@ -9022,13 +9050,26 @@
    "placed": 4,
    "shadow_open": 598,
    "shadow_closed": 0
+  },
+  {
+   "ts": "2026-11-27T16:02:31Z",
+   "equity": 1000.48,
+   "cash": 405.96,
+   "orders": 8,
+   "positions": 5,
+   "closed": 135,
+   "scanned": 17937,
+   "candidates": 210,
+   "placed": 2,
+   "shadow_open": 603,
+   "shadow_closed": 7
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 621,
+  "placed": 623,
   "filled": 140,
-  "expired": 139,
+  "expired": 140,
   "touched_not_filled": 335
  },
  "shadow": [
@@ -12179,97 +12220,6 @@
    "touched": 1
   },
   {
-   "id": "7329375",
-   "rule": "post_fin_95_97",
-   "cat": "deportes",
-   "side": 0,
-   "token": "80713121102646163962352893329868894229909217594838312798226201728145923923085",
-   "px": 0.967,
-   "tick": 0.001,
-   "ts": 1795752066,
-   "end_ts": 1795741200,
-   "q": "Spread: Texas Tech (-21.5)",
-   "touched": null
-  },
-  {
-   "id": "7329381",
-   "rule": "post_fin_95_97",
-   "cat": "deportes",
-   "side": 0,
-   "token": "15074985041289425986170273527457710063580279348457585531561093950290265399721",
-   "px": 0.953,
-   "tick": 0.001,
-   "ts": 1795752066,
-   "end_ts": 1795741200,
-   "q": "Spread: Texas Tech (-24.5)",
-   "touched": null
-  },
-  {
-   "id": "7359158",
-   "rule": "post_fin_95_97",
-   "cat": "deportes",
-   "side": 0,
-   "token": "35363477414570676358745338836265128272050798652284068234317723476963692887613",
-   "px": 0.959,
-   "tick": 0.001,
-   "ts": 1795752066,
-   "end_ts": 1795741200,
-   "q": "Spread: Texas Tech (-23.5)",
-   "touched": null
-  },
-  {
-   "id": "7361045",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 0,
-   "token": "96239529261657134540981678353280073735714735965201674888434150545491438520731",
-   "px": 0.988,
-   "tick": 0.001,
-   "ts": 1795752066,
-   "end_ts": 1795755600,
-   "q": "Solana Up or Down - November 26, 8:00PM-12:00AM ET",
-   "touched": null
-  },
-  {
-   "id": "7361050",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 0,
-   "token": "39717470055672172591711982723028755157809564233499633157648849849644667457988",
-   "px": 0.987,
-   "tick": 0.001,
-   "ts": 1795752066,
-   "end_ts": 1795755600,
-   "q": "XRP Up or Down - November 26, 8:00PM-12:00AM ET",
-   "touched": null
-  },
-  {
-   "id": "7361055",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 0,
-   "token": "92088784726946803997941588081158925852152066329419096348412484488064377627946",
-   "px": 0.985,
-   "tick": 0.001,
-   "ts": 1795752066,
-   "end_ts": 1795755600,
-   "q": "Bitcoin Up or Down - November 26, 8:00PM-12:00AM ET",
-   "touched": null
-  },
-  {
-   "id": "7361064",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 0,
-   "token": "51469913856983014622420662211115186860319209029150750391411484083186786131717",
-   "px": 0.986,
-   "tick": 0.001,
-   "ts": 1795752066,
-   "end_ts": 1795755600,
-   "q": "Ethereum Up or Down - November 26, 8:00PM-12:00AM ET",
-   "touched": null
-  },
-  {
    "id": "7203532",
    "rule": "cripto_cierre",
    "cat": "cripto",
@@ -12280,7 +12230,7 @@
    "ts": 1795752066,
    "end_ts": 1795798800,
    "q": "Will the price of Bitcoin be above $68,000 on November 27?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7203575",
@@ -12293,7 +12243,7 @@
    "ts": 1795752066,
    "end_ts": 1795798800,
    "q": "Will the price of XRP be between $0.80 and $0.90 on November 27?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7228077",
@@ -12306,7 +12256,7 @@
    "ts": 1795752066,
    "end_ts": 1795800600,
    "q": "Spread: 1. FC Nürnberg (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7248820",
@@ -12319,7 +12269,7 @@
    "ts": 1795752066,
    "end_ts": 1795806000,
    "q": "VVV Venlo vs. RKC Waalwijk: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7304503",
@@ -12332,7 +12282,7 @@
    "ts": 1795752066,
    "end_ts": 1795806000,
    "q": "Spread: Jong PSV Eindhoven (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7304515",
@@ -12345,7 +12295,7 @@
    "ts": 1795752066,
    "end_ts": 1795806000,
    "q": "MVV Maastricht vs. Jong PSV Eindhoven: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7312047",
@@ -12358,7 +12308,7 @@
    "ts": 1795752066,
    "end_ts": 1795798800,
    "q": "Spread: Kasımpaşa SK (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7210347",
@@ -12371,7 +12321,7 @@
    "ts": 1795752066,
    "end_ts": 1795813200,
    "q": "Will Alphabet Inc. (GOOGL) hit (LOW) $235 Week of November 23 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7210686",
@@ -12384,7 +12334,7 @@
    "ts": 1795752066,
    "end_ts": 1795813200,
    "q": "Will Micron Technology, Inc. (MU) hit (LOW) $420 Week of November 23 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7291468",
@@ -12397,7 +12347,7 @@
    "ts": 1795752066,
    "end_ts": 1795807800,
    "q": "Spread: CE Sabadell FC (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7291469",
@@ -12410,7 +12360,7 @@
    "ts": 1795752066,
    "end_ts": 1795807800,
    "q": "Spread: CD Leganés (-3.5)",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7330579",
@@ -12423,7 +12373,7 @@
    "ts": 1795752066,
    "end_ts": 1795816800,
    "q": "Spread: Club Ciudad de Bolivar (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7307205",
@@ -12436,7 +12386,7 @@
    "ts": 1795752066,
    "end_ts": 1795824000,
    "q": "CSD Tristan Suarez vs. Gimnasia Y Tiro de Salta: O/U 5.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7310343",
@@ -12449,7 +12399,7 @@
    "ts": 1795752066,
    "end_ts": 1795820400,
    "q": "Spread: Cruzeiro EC (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7311163",
@@ -12462,7 +12412,7 @@
    "ts": 1795752066,
    "end_ts": 1795820400,
    "q": "Vila Nova FC vs. AC Goianiense: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7310517",
@@ -12475,7 +12425,7 @@
    "ts": 1795752066,
    "end_ts": 1795830000,
    "q": "Spread: Millonarios FC (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7386250",
@@ -12488,7 +12438,7 @@
    "ts": 1795752066,
    "end_ts": 1795834800,
    "q": "Spread: Real Salt Lake (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7386251",
@@ -12501,7 +12451,7 @@
    "ts": 1795752066,
    "end_ts": 1795834800,
    "q": "Spread: Vancouver Whitecaps FC (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7386263",
@@ -12514,7 +12464,7 @@
    "ts": 1795752066,
    "end_ts": 1795834800,
    "q": "Real Salt Lake vs. Vancouver Whitecaps FC: O/U 7.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7230645",
@@ -12527,7 +12477,7 @@
    "ts": 1795752066,
    "end_ts": 1795849200,
    "q": "Kashiwa Reysol vs. Sanfrecce Hiroshima: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7075660",
@@ -12540,7 +12490,7 @@
    "ts": 1795752066,
    "end_ts": 1795855200,
    "q": "Central Coast Mariners FC vs. Auckland FC: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7329272",
@@ -12553,7 +12503,7 @@
    "ts": 1795752066,
    "end_ts": 1795851000,
    "q": "Bucheon FC 1995 vs. Gimcheon Sangmu FC: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7329309",
@@ -12566,7 +12516,7 @@
    "ts": 1795752066,
    "end_ts": 1795851000,
    "q": "Pohang Steelers FC vs. Gwangju FC: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7023079",
@@ -16804,6 +16754,162 @@
    "ts": 1795792283,
    "end_ts": 1795895100,
    "q": "Paris Saint-Germain FC vs. FC Lorient: O/U 0.5",
+   "touched": null
+  },
+  {
+   "id": "7368751",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "8735953469821902704955200616146953394163942733324866271620618040216372544451",
+   "px": 0.98,
+   "tick": 0.001,
+   "ts": 1795795272,
+   "end_ts": 1795798800,
+   "q": "Ethereum Up or Down - November 27, 8:00AM-12:00PM ET",
+   "touched": null
+  },
+  {
+   "id": "7210221",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "5778578032368594236845325318018100024682926505724794316564310839815647914161",
+   "px": 0.984,
+   "tick": 0.001,
+   "ts": 1795795272,
+   "end_ts": 1795813200,
+   "q": "Will Apple (AAPL) hit (LOW) $340 Week of November 23 2026?",
+   "touched": null
+  },
+  {
+   "id": "7210299",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "2192997075761795606738330626867583058768331866194844560103971839139197632886",
+   "px": 0.984,
+   "tick": 0.001,
+   "ts": 1795795272,
+   "end_ts": 1795813200,
+   "q": "Will Amazon (AMZN) finish week of November 23 above $265?",
+   "touched": null
+  },
+  {
+   "id": "7210669",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "70624579795923037752667171564249253109554327272446695498227336762961668074201",
+   "px": 0.983,
+   "tick": 0.001,
+   "ts": 1795795272,
+   "end_ts": 1795813200,
+   "q": "Will Robinhood Markets, Inc. (HOOD) hit (LOW) $55 Week of November 23 2026?",
+   "touched": null
+  },
+  {
+   "id": "7375482",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "67295003533356922517147316450807629019579242852057690932801510757222939455196",
+   "px": 0.974,
+   "tick": 0.001,
+   "ts": 1795795272,
+   "end_ts": 1795831200,
+   "q": "Spread: Suns (-26.5)",
+   "touched": null
+  },
+  {
+   "id": "7390792",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "103322991329709740294631773947193945858012183999527293207322981396819803254764",
+   "px": 0.972,
+   "tick": 0.001,
+   "ts": 1795795272,
+   "end_ts": 1795869000,
+   "q": "Spread: Charlton Athletic FC (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "7201544",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "97656123073810530863931886578706591167276604803434445830741262151207792582842",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795795272,
+   "end_ts": 1795876200,
+   "q": "Hamburger SV vs. FC Bayern München: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "7202114",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "53690423969066633028919754263902200889052956692355082223841440564039635983136",
+   "px": 0.973,
+   "tick": 0.001,
+   "ts": 1795795272,
+   "end_ts": 1795876200,
+   "q": "Hamburger SV vs. FC Bayern München: Neither team to score first?",
+   "touched": null
+  },
+  {
+   "id": "7243145",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "104984954545711154795787893796607134589992501626936245519436888960544661755721",
+   "px": 0.976,
+   "tick": 0.001,
+   "ts": 1795795272,
+   "end_ts": 1795879800,
+   "q": "Will FC Emmen win on 2026-11-28?",
+   "touched": null
+  },
+  {
+   "id": "7243149",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "85778869386954034950636181270420726995417170841124037534484859069467069315898",
+   "px": 0.974,
+   "tick": 0.001,
+   "ts": 1795795272,
+   "end_ts": 1795879800,
+   "q": "Will Helmond Sport win on 2026-11-28?",
+   "touched": null
+  },
+  {
+   "id": "7050494",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "19283392237147623076084065148749628307178352352592424427675506762691143901601",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795795272,
+   "end_ts": 1795892400,
+   "q": "Spread: Coastal Carolina (-7.5)",
+   "touched": null
+  },
+  {
+   "id": "7207410",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "74154821470681376843005911728655018059278133942318790408960036102645717373712",
+   "px": 0.971,
+   "tick": 0.001,
+   "ts": 1795795272,
+   "end_ts": 1795895100,
+   "q": "Le Havre AC vs. RC Strasbourg Alsace: O/U 6.5",
    "touched": null
   }
  ]
