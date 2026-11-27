@@ -2,8 +2,8 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-11T22:05:26Z | dias corridos: 15.4 de 28 | corridas: 357
-- Capital inicial: $1,000.00 | valor actual: $998.95 | P&L: $-1.05 (-0.10%)
+- Inicio: 2026-11-11T22:05:26Z | dias corridos: 15.5 de 28 | corridas: 358
+- Capital inicial: $1,000.00 | valor actual: $999.04 | P&L: $-0.96 (-0.10%)
 - Efectivo libre: $393.24 | en ordenes abiertas: $465.03 (9) | en posiciones: $140.89 (3)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $51.82 en 1 posiciones
 - Ordenes virtuales: 606 colocadas, 136 llenadas, 326 tocadas sin llenarse (sorteo 30%), 135 expiradas
@@ -31,13 +31,13 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 |---|---|---|---|---|---|
 | $51.82 | 98.5c | 98.3c | otros_cierre | si | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
 | $44.49 | 97.7c | 97.5c | deportes_previo |  | Spread: Sisaket United FC (-2.5) |
-| $44.57 | 98.5c | 98.5c | otros_cierre |  | Will Alphabet Inc. (GOOGL) hit (LOW) $235 Week of November 23 2026? |
+| $44.57 | 98.5c | 98.7c | otros_cierre |  | Will Alphabet Inc. (GOOGL) hit (LOW) $235 Week of November 23 2026? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 5610 | abiertas: 456 | abiertas mas de 7 dias despues de su fecha de fin: 5
+- Resueltas: 5614 | abiertas: 484 | abiertas mas de 7 dias despues de su fecha de fin: 5
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
@@ -45,12 +45,12 @@ Cada mercado que cumple una regla se anota una vez al precio limite que se habri
 | cripto_cierre | tocadas | 1126 | 98.55c | 99.02% | +0.47 pts | -0.10 a +1.05 | 11 |
 | deportes_previo | todas | 3140 | 98.31c | 98.68% | +0.37 pts | -0.03 a +0.76 | 43 |
 | deportes_previo | tocadas | 2575 | 98.28c | 98.62% | +0.34 pts | -0.10 a +0.79 | 37 |
-| otros_cierre | todas | 759 | 98.87c | 99.34% | +0.47 pts | -0.11 a +1.05 | 5 |
-| otros_cierre | tocadas | 481 | 98.70c | 98.96% | +0.26 pts | -0.65 a +1.17 | 5 |
-| post_fin_95_97 | todas | 99 | 95.90c | 93.94% | -1.96 pts | -6.69 a +2.77 | 6 |
-| post_fin_95_97 | tocadas | 87 | 95.92c | 93.10% | -2.81 pts | -8.17 a +2.54 | 6 |
-| TOTAL | todas | 5610 | 98.46c | 98.87% | +0.41 pts | +0.13 a +0.68 | 65 |
-| TOTAL | tocadas | 4269 | 98.35c | 98.65% | +0.30 pts | -0.04 a +0.65 | 59 |
+| otros_cierre | todas | 761 | 98.88c | 99.34% | +0.47 pts | -0.11 a +1.04 | 5 |
+| otros_cierre | tocadas | 483 | 98.71c | 98.96% | +0.26 pts | -0.65 a +1.17 | 5 |
+| post_fin_95_97 | todas | 101 | 95.90c | 94.06% | -1.84 pts | -6.47 a +2.80 | 6 |
+| post_fin_95_97 | tocadas | 89 | 95.91c | 93.26% | -2.66 pts | -7.89 a +2.58 | 6 |
+| TOTAL | todas | 5614 | 98.46c | 98.87% | +0.41 pts | +0.14 a +0.68 | 65 |
+| TOTAL | tocadas | 4273 | 98.35c | 98.65% | +0.31 pts | -0.04 a +0.65 | 59 |
 
 Peores casos del registro sombra:
 
@@ -67,4 +67,4 @@ Peores casos del registro sombra:
 
 ## Veredicto
 
-Aun no hay veredicto: van 133 operaciones cerradas en 15.4 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
+Aun no hay veredicto: van 133 operaciones cerradas en 15.5 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
