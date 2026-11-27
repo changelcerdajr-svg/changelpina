@@ -1,29 +1,8 @@
 {
  "capital0": 1000.0,
- "cash": 402.9867,
+ "cash": 402.9755,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
-  {
-   "oid": "7371235-1795766467",
-   "id": "7371235",
-   "q": "Will the US national average gas price be less than $3.5400 on November 27?",
-   "cat": "otros",
-   "rule": "otros_cierre",
-   "event": "1463972",
-   "side": 1,
-   "token": "73587876547842172225993297696484285193710311360288850711770995803225397953830",
-   "px": 0.997,
-   "tick": 0.001,
-   "mid": 0.9975,
-   "bid": 0.996,
-   "ask": 0.999,
-   "shares": 50.098,
-   "cost": 49.9477,
-   "ts": 1795766467.520215,
-   "end_ts": 1795791600.0,
-   "hours": 6.98,
-   "liq": 1809
-  },
   {
    "oid": "7203509-1795792283",
    "id": "7203509",
@@ -65,27 +44,6 @@
    "end_ts": 1795798800.0,
    "hours": 1.81,
    "liq": 1410
-  },
-  {
-   "oid": "7330579-1795792283",
-   "id": "7330579",
-   "q": "Spread: Club Ciudad de Bolivar (-2.5)",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1455813",
-   "side": 1,
-   "token": "99370626041286483030581077058717105263704394415681711781795743273730560365421",
-   "px": 0.984,
-   "tick": 0.001,
-   "mid": 0.9845,
-   "bid": 0.97,
-   "ask": 0.999,
-   "shares": 50.657,
-   "cost": 49.8465,
-   "ts": 1795792283.721679,
-   "end_ts": 1795816800.0,
-   "hours": 6.81,
-   "liq": 1219
   },
   {
    "oid": "7210299-1795802468",
@@ -151,27 +109,6 @@
    "liq": 33713
   },
   {
-   "oid": "7375481-1795806067",
-   "id": "7375481",
-   "q": "Spread: Timberwolves (-27.5)",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1377580",
-   "side": 1,
-   "token": "100080728995475291259907712714527553866417858839735775102816991783372147315842",
-   "px": 0.979,
-   "tick": 0.001,
-   "mid": 0.9795,
-   "bid": 0.966,
-   "ask": 0.993,
-   "shares": 51.2071,
-   "cost": 50.1318,
-   "ts": 1795806067.038957,
-   "end_ts": 1795829400.0,
-   "hours": 6.48,
-   "liq": 14789
-  },
-  {
    "oid": "7310515-1795806067",
    "id": "7310515",
    "q": "Spread: América de Cali (-2.5)",
@@ -193,46 +130,88 @@
    "liq": 13370
   },
   {
-   "oid": "7310517-1795806067",
-   "id": "7310517",
-   "q": "Spread: Millonarios FC (-3.5)",
+   "oid": "7025628-1795809673",
+   "id": "7025628",
+   "q": "Spread: Ole Miss (-2.5)",
    "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1453000",
-   "side": 1,
-   "token": "79420299891422292720233409404568352995955107788066329310516559829780946395480",
-   "px": 0.974,
+   "rule": "post_fin_95_97",
+   "event": "1382702",
+   "side": 0,
+   "token": "15536984343448873627657396227928291152469375430093663335311957352557614526953",
+   "px": 0.965,
    "tick": 0.001,
-   "mid": 0.9745,
-   "bid": 0.97,
-   "ask": 0.979,
-   "shares": 46.1043,
-   "cost": 44.9056,
-   "ts": 1795806067.038957,
-   "end_ts": 1795830000.0,
-   "hours": 6.65,
-   "liq": 12495
+   "mid": 0.965,
+   "bid": 0.96,
+   "ask": 0.97,
+   "shares": 51.9515,
+   "cost": 50.1332,
+   "ts": 1795809673.089229,
+   "end_ts": 1795798800.0,
+   "hours": -3.02,
+   "liq": 21000
   },
   {
-   "oid": "6364897-1795806067",
-   "id": "6364897",
-   "q": "Will the next Claude Opus model (5.6+) be released on November 27, 2026?",
+   "oid": "7025796-1795809673",
+   "id": "7025796",
+   "q": "Spread: UTSA (-20.5)",
+   "cat": "deportes",
+   "rule": "post_fin_95_97",
+   "event": "1382705",
+   "side": 1,
+   "token": "49696420093234453341519538870417006932238839007084858477184432481966263225855",
+   "px": 0.965,
+   "tick": 0.001,
+   "mid": 0.965,
+   "bid": 0.96,
+   "ask": 0.97,
+   "shares": 51.9515,
+   "cost": 50.1332,
+   "ts": 1795809673.089229,
+   "end_ts": 1795798800.0,
+   "hours": -3.02,
+   "liq": 24788
+  },
+  {
+   "oid": "7025813-1795809673",
+   "id": "7025813",
+   "q": "Tulsa vs. UTSA: O/U 67.5",
+   "cat": "deportes",
+   "rule": "post_fin_95_97",
+   "event": "1382705",
+   "side": 1,
+   "token": "99002079719510376850933034828170595359687312837934888365680835055407687786348",
+   "px": 0.955,
+   "tick": 0.001,
+   "mid": 0.955,
+   "bid": 0.943,
+   "ask": 0.967,
+   "shares": 46.7258,
+   "cost": 44.6231,
+   "ts": 1795809673.089229,
+   "end_ts": 1795798800.0,
+   "hours": -3.02,
+   "liq": 19736
+  },
+  {
+   "oid": "6655561-1795809673",
+   "id": "6655561",
+   "q": "Will the next Meta Muse Spark model be released on November 27, 2026?",
    "cat": "otros",
    "rule": "otros_cierre",
-   "event": "1274168",
+   "event": "1310057",
    "side": 1,
-   "token": "88184955951796768430320215964915485647942281303580928961174012856828818393482",
-   "px": 0.973,
+   "token": "73470016582179137803404749985905180504022686867334665397471385011633835477180",
+   "px": 0.995,
    "tick": 0.001,
-   "mid": 0.9735,
-   "bid": 0.964,
-   "ask": 0.983,
-   "shares": 50.0483,
-   "cost": 48.697,
-   "ts": 1795806067.038957,
+   "mid": 0.9955,
+   "bid": 0.993,
+   "ask": 0.998,
+   "shares": 50.2043,
+   "cost": 49.9533,
+   "ts": 1795809673.089229,
    "end_ts": 1795841940.0,
-   "hours": 9.96,
-   "liq": 1965
+   "hours": 8.96,
+   "liq": 4657
   }
  ],
  "positions": [
@@ -282,9 +261,32 @@
    "hours": 6.48,
    "liq": 2740,
    "fill_ts": 1795792283.721679,
-   "mark": 0.987,
+   "mark": 0.992,
    "stuck": false,
    "disputed": false
+  },
+  {
+   "oid": "6364897-1795806067",
+   "id": "6364897",
+   "q": "Will the next Claude Opus model (5.6+) be released on November 27, 2026?",
+   "cat": "otros",
+   "rule": "otros_cierre",
+   "event": "1274168",
+   "side": 1,
+   "token": "88184955951796768430320215964915485647942281303580928961174012856828818393482",
+   "px": 0.973,
+   "tick": 0.001,
+   "mid": 0.9735,
+   "bid": 0.964,
+   "ask": 0.983,
+   "shares": 50.0483,
+   "cost": 48.697,
+   "ts": 1795806067.038957,
+   "end_ts": 1795841940.0,
+   "hours": 9.96,
+   "liq": 1965,
+   "fill_ts": 1795809673.089229,
+   "mark": 0.973
   }
  ],
  "closed": [
@@ -9180,14 +9182,27 @@
    "placed": 4,
    "shadow_open": 615,
    "shadow_closed": 3
+  },
+  {
+   "ts": "2026-11-27T20:02:01Z",
+   "equity": 1002.66,
+   "cash": 402.98,
+   "orders": 10,
+   "positions": 3,
+   "closed": 138,
+   "scanned": 18966,
+   "candidates": 142,
+   "placed": 4,
+   "shadow_open": 586,
+   "shadow_closed": 40
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 633,
-  "filled": 140,
-  "expired": 140,
-  "touched_not_filled": 342
+  "placed": 637,
+  "filled": 141,
+  "expired": 141,
+  "touched_not_filled": 345
  },
  "shadow": [
   {
@@ -9555,45 +9570,6 @@
    "touched": 0
   },
   {
-   "id": "7311107",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "91531569928801395184928302933783876911370821152094350639205197734324217776366",
-   "px": 0.972,
-   "tick": 0.001,
-   "ts": 1795694464,
-   "end_ts": 1795793400,
-   "q": "FC Universitatea Cluj vs. Sepsi OSK: O/U 6.5",
-   "touched": 1
-  },
-  {
-   "id": "7311108",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "74125239272374219022274430961388812957579567672810430875995264411186096120315",
-   "px": 0.99,
-   "tick": 0.001,
-   "ts": 1795694464,
-   "end_ts": 1795793400,
-   "q": "FC Universitatea Cluj vs. Sepsi OSK: O/U 7.5",
-   "touched": 1
-  },
-  {
-   "id": "7319089",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "50310627561666599883333862654682321828152906930255977426020448287756844396220",
-   "px": 0.975,
-   "tick": 0.001,
-   "ts": 1795694464,
-   "end_ts": 1795795200,
-   "q": "FK IMT Novi Beograd vs. FK Macva Sabac: O/U 6.5",
-   "touched": 1
-  },
-  {
    "id": "7228082",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -9683,45 +9659,6 @@
    "end_ts": 1795798800,
    "q": "Çaykur Rizespor vs. Kasımpaşa SK: O/U 7.5",
    "touched": 0
-  },
-  {
-   "id": "7360681",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "36883735903213646103770508328237947145378955058315048988565331309932508740589",
-   "px": 0.971,
-   "tick": 0.001,
-   "ts": 1795697076,
-   "end_ts": 1795802400,
-   "q": "Maple Leafs vs. Bruins: O/U 2.5",
-   "touched": 0
-  },
-  {
-   "id": "7360691",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "59003995959228988409278978802490112788810911419712710130155608034392157963166",
-   "px": 0.971,
-   "tick": 0.001,
-   "ts": 1795697076,
-   "end_ts": 1795802400,
-   "q": "Flames vs. Devils: O/U 2.5",
-   "touched": 1
-  },
-  {
-   "id": "7360707",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 0,
-   "token": "44544103570620358257039256596618438494539968478903585878544138605512884270457",
-   "px": 0.971,
-   "tick": 0.001,
-   "ts": 1795697076,
-   "end_ts": 1795802400,
-   "q": "Utah vs. Predators: O/U 2.5",
-   "touched": 1
   },
   {
    "id": "7016258",
@@ -10530,19 +10467,6 @@
    "touched": 1
   },
   {
-   "id": "7319076",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "30169063329623973902639731747959108021402263492771868782272528589372634136096",
-   "px": 0.991,
-   "tick": 0.001,
-   "ts": 1795726866,
-   "end_ts": 1795795200,
-   "q": "Spread: FK Macva Sabac (-2.5)",
-   "touched": 0
-  },
-  {
    "id": "7194595",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -10579,32 +10503,6 @@
    "ts": 1795726866,
    "end_ts": 1795810500,
    "q": "CS Marítimo vs. CD Nacional: O/U 8.5",
-   "touched": 1
-  },
-  {
-   "id": "7210641",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "65343438309285294440826766338303063884787479800798501532619586369285936546999",
-   "px": 0.98,
-   "tick": 0.001,
-   "ts": 1795726866,
-   "end_ts": 1795813200,
-   "q": "Will Airbnb, Inc. (ABNB) hit (LOW) $162 Week of November 23 2026?",
-   "touched": 1
-  },
-  {
-   "id": "7210673",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "27508507211064960224614745318138769725540510026017419551492880997531909465883",
-   "px": 0.993,
-   "tick": 0.001,
-   "ts": 1795726866,
-   "end_ts": 1795813200,
-   "q": "Will Micron Technology, Inc. (MU) hit (HIGH) $810 Week of November 23 2026?",
    "touched": 1
   },
   {
@@ -10712,32 +10610,6 @@
    "touched": 0
   },
   {
-   "id": "7311090",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "69295000118595975403920869850266712499727924201170253038791703858831770907744",
-   "px": 0.989,
-   "tick": 0.001,
-   "ts": 1795730462,
-   "end_ts": 1795793400,
-   "q": "Spread: Sepsi OSK (-2.5)",
-   "touched": 0
-  },
-  {
-   "id": "7319074",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "11711954559831552673936659334196430506125230312990497688413459040852064242718",
-   "px": 0.971,
-   "tick": 0.001,
-   "ts": 1795730462,
-   "end_ts": 1795795200,
-   "q": "Spread: FK Macva Sabac (-1.5)",
-   "touched": 1
-  },
-  {
    "id": "7304574",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -10775,45 +10647,6 @@
    "end_ts": 1795804200,
    "q": "FC Petrolul Ploieşti vs. FC Argeș Pitești: O/U 7.5",
    "touched": 0
-  },
-  {
-   "id": "7210459",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "799744631755025733609435815501647996800980357914791540538009355869849329758",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795730462,
-   "end_ts": 1795813200,
-   "q": "Will Netflix (NFLX) close at <$10 on the final day of trading of the week of Nov 23 – Nov ",
-   "touched": 0
-  },
-  {
-   "id": "7210460",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "72635371040411230224682533298812830397584211220258287373322606184844341954907",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795730462,
-   "end_ts": 1795813200,
-   "q": "Will Netflix (NFLX) close at $10-$20 on the final day of trading of the week of Nov 23 – N",
-   "touched": 0
-  },
-  {
-   "id": "7210670",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "34790812351014136849851797393770805645166802895678603891756331167965366623746",
-   "px": 0.991,
-   "tick": 0.001,
-   "ts": 1795730462,
-   "end_ts": 1795813200,
-   "q": "Will Robinhood Markets, Inc. (HOOD) hit (LOW) $52.50 Week of November 23 2026?",
-   "touched": 1
   },
   {
    "id": "7380423",
@@ -11063,19 +10896,6 @@
    "touched": 1
   },
   {
-   "id": "7210643",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "36758651723532251631291308853705838333065886854272977141174963679849099724522",
-   "px": 0.985,
-   "tick": 0.001,
-   "ts": 1795741263,
-   "end_ts": 1795813200,
-   "q": "Will Airbnb, Inc. (ABNB) hit (LOW) $158 Week of November 23 2026?",
-   "touched": 1
-  },
-  {
    "id": "7329630",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -11177,123 +10997,6 @@
    "ts": 1795744862,
    "end_ts": 1795806000,
    "q": "Clarke Pride vs. South Dakota Coyotes",
-   "touched": 1
-  },
-  {
-   "id": "7210233",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "30322901814837067496396458407876773126167015888660418095430078253743779444602",
-   "px": 0.986,
-   "tick": 0.001,
-   "ts": 1795744862,
-   "end_ts": 1795813200,
-   "q": "Will Apple (AAPL) hit (LOW) $320 Week of November 23 2026?",
-   "touched": 1
-  },
-  {
-   "id": "7210385",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "76860985128983811129945424275827526768320731553867979789598460390502594371442",
-   "px": 0.985,
-   "tick": 0.001,
-   "ts": 1795744862,
-   "end_ts": 1795813200,
-   "q": "Will Meta Platforms, Inc. (META) hit (LOW) $500 Week of November 23 2026?",
-   "touched": 1
-  },
-  {
-   "id": "7210503",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "10415356867715027883774435641104859320988586476935802163778910685681747388637",
-   "px": 0.987,
-   "tick": 0.001,
-   "ts": 1795744862,
-   "end_ts": 1795813200,
-   "q": "Will Netflix, Inc. (NFLX) hit (LOW) $40 Week of November 23 2026?",
-   "touched": 1
-  },
-  {
-   "id": "7210538",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "95153010244852719292174058479890787988418928441137842040318466880219464551913",
-   "px": 0.983,
-   "tick": 0.001,
-   "ts": 1795744862,
-   "end_ts": 1795813200,
-   "q": "Will Palantir Technologies Inc. (PLTR) hit (LOW) $132 Week of November 23 2026?",
-   "touched": 1
-  },
-  {
-   "id": "7210596",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "83522533352295853269481719702867822550998642487418924862599450832315881642248",
-   "px": 0.984,
-   "tick": 0.001,
-   "ts": 1795744862,
-   "end_ts": 1795813200,
-   "q": "Will Rocket Lab USA, Inc. (RKLB) hit (HIGH) $54 Week of November 23 2026?",
-   "touched": 1
-  },
-  {
-   "id": "7210644",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "11554647959863590514823279216522299763706088064087714071168846239303058592679",
-   "px": 0.987,
-   "tick": 0.001,
-   "ts": 1795744862,
-   "end_ts": 1795813200,
-   "q": "Will Airbnb, Inc. (ABNB) hit (LOW) $156 Week of November 23 2026?",
-   "touched": 1
-  },
-  {
-   "id": "7210672",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "110624400829210454568642399912019463074139604193909754343330166381334671840812",
-   "px": 0.987,
-   "tick": 0.001,
-   "ts": 1795744862,
-   "end_ts": 1795813200,
-   "q": "Will Robinhood Markets, Inc. (HOOD) hit (LOW) $47.50 Week of November 23 2026?",
-   "touched": 1
-  },
-  {
-   "id": "7210683",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "112664172486499351159350234813236805409018667148017243969634009405165277882563",
-   "px": 0.986,
-   "tick": 0.001,
-   "ts": 1795744862,
-   "end_ts": 1795813200,
-   "q": "Will Micron Technology, Inc. (MU) hit (LOW) $510 Week of November 23 2026?",
-   "touched": 1
-  },
-  {
-   "id": "7210685",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "69262299788984731989392213221393330643590508320875176597386854302371514693726",
-   "px": 0.984,
-   "tick": 0.001,
-   "ts": 1795744862,
-   "end_ts": 1795813200,
-   "q": "Will Micron Technology, Inc. (MU) hit (LOW) $450 Week of November 23 2026?",
    "touched": 1
   },
   {
@@ -11427,19 +11130,6 @@
    "touched": 0
   },
   {
-   "id": "7319090",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "91784615552386103938989054064040904707755476170377149045797550526447232699375",
-   "px": 0.993,
-   "tick": 0.001,
-   "ts": 1795748465,
-   "end_ts": 1795795200,
-   "q": "FK IMT Novi Beograd vs. FK Macva Sabac: O/U 7.5",
-   "touched": 0
-  },
-  {
    "id": "7194582",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -11451,32 +11141,6 @@
    "end_ts": 1795810500,
    "q": "Spread: CD Nacional (-2.5)",
    "touched": 0
-  },
-  {
-   "id": "7210383",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "30719934296635192733063333300414837852052311934344692564877962646675947980691",
-   "px": 0.984,
-   "tick": 0.001,
-   "ts": 1795748465,
-   "end_ts": 1795813200,
-   "q": "Will Meta Platforms, Inc. (META) hit (LOW) $520 Week of November 23 2026?",
-   "touched": 1
-  },
-  {
-   "id": "7210464",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "51270773696729848099522064396792447615347884497081877894184554078220976827211",
-   "px": 0.985,
-   "tick": 0.001,
-   "ts": 1795748465,
-   "end_ts": 1795813200,
-   "q": "Will NVIDIA (NVDA) hit (LOW) $104 Week of November 23 2026?",
-   "touched": 1
   },
   {
    "id": "7016235",
@@ -11658,32 +11322,6 @@
    "ts": 1795752066,
    "end_ts": 1795798800,
    "q": "Spread: Kasımpaşa SK (-3.5)",
-   "touched": 1
-  },
-  {
-   "id": "7210347",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "10708054267370147821242989978874655598229842032023491512759097936803529244786",
-   "px": 0.985,
-   "tick": 0.001,
-   "ts": 1795752066,
-   "end_ts": 1795813200,
-   "q": "Will Alphabet Inc. (GOOGL) hit (LOW) $235 Week of November 23 2026?",
-   "touched": 1
-  },
-  {
-   "id": "7210686",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "84139826376066398237785579035934022272226392607932116445052915467763186807219",
-   "px": 0.983,
-   "tick": 0.001,
-   "ts": 1795752066,
-   "end_ts": 1795813200,
-   "q": "Will Micron Technology, Inc. (MU) hit (LOW) $420 Week of November 23 2026?",
    "touched": 1
   },
   {
@@ -11999,32 +11637,6 @@
    "touched": 1
   },
   {
-   "id": "7308319",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "91045855123294738991624565371652552824679861709122544346108988119870864794019",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1795755666,
-   "end_ts": 1795793400,
-   "q": "Spread: Lusail SC (-2.5)",
-   "touched": 1
-  },
-  {
-   "id": "7308334",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "33293165389712720759093895616195239093809454310084157496272872143353769937537",
-   "px": 0.984,
-   "tick": 0.001,
-   "ts": 1795755666,
-   "end_ts": 1795793400,
-   "q": "Lusail SC vs. Al Arabi Doha SC: O/U 7.5",
-   "touched": 1
-  },
-  {
    "id": "7310971",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -12051,19 +11663,6 @@
    "touched": 1
   },
   {
-   "id": "7311093",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "11944789464979337974435858671478087097808391673083183662731307624704143513105",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795755666,
-   "end_ts": 1795793400,
-   "q": "Spread: Sepsi OSK (-3.5)",
-   "touched": 1
-  },
-  {
    "id": "7312045",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -12074,19 +11673,6 @@
    "ts": 1795755666,
    "end_ts": 1795798800,
    "q": "Spread: Kasımpaşa SK (-2.5)",
-   "touched": 1
-  },
-  {
-   "id": "7319078",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "92525885729287239633108840231468086441088350732776867837822333044013981841852",
-   "px": 0.994,
-   "tick": 0.001,
-   "ts": 1795755666,
-   "end_ts": 1795795200,
-   "q": "Spread: FK Macva Sabac (-3.5)",
    "touched": 1
   },
   {
@@ -13130,45 +12716,6 @@
    "touched": 1
   },
   {
-   "id": "7210223",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "6975431800089387034378940853955657685737523715297605184786253072288457397320",
-   "px": 0.977,
-   "tick": 0.001,
-   "ts": 1795759267,
-   "end_ts": 1795813200,
-   "q": "Will Apple (AAPL) hit (LOW) $336 Week of November 23 2026?",
-   "touched": 1
-  },
-  {
-   "id": "7210456",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "25168491633763065359873188148277274968774732363100626006756855213153017011436",
-   "px": 0.98,
-   "tick": 0.001,
-   "ts": 1795759267,
-   "end_ts": 1795813200,
-   "q": "Will NVIDIA (NVDA) hit (LOW) $124 Week of November 23 2026?",
-   "touched": 1
-  },
-  {
-   "id": "7210457",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "71842567390773384950970824359996222233354698549163792490946269954645435159740",
-   "px": 0.983,
-   "tick": 0.001,
-   "ts": 1795759267,
-   "end_ts": 1795813200,
-   "q": "Will NVIDIA (NVDA) hit (LOW) $120 Week of November 23 2026?",
-   "touched": 1
-  },
-  {
    "id": "7230676",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -13468,19 +13015,6 @@
    "touched": 1
   },
   {
-   "id": "7210595",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "19447489009099153120196245909564610293282722064259328576936405264702431372740",
-   "px": 0.971,
-   "tick": 0.001,
-   "ts": 1795762864,
-   "end_ts": 1795813200,
-   "q": "Will Rocket Lab USA, Inc. (RKLB) hit (HIGH) $56 Week of November 23 2026?",
-   "touched": 1
-  },
-  {
    "id": "7310609",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -13585,45 +13119,6 @@
    "touched": 1
   },
   {
-   "id": "7210340",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "29386649099677486860877448451911790331821594670835846806111493693207518282830",
-   "px": 0.975,
-   "tick": 0.001,
-   "ts": 1795766467,
-   "end_ts": 1795813200,
-   "q": "Will Alphabet Inc. (GOOGL) hit (LOW) $260 Week of November 23 2026?",
-   "touched": null
-  },
-  {
-   "id": "7210455",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "10116325923188947938442641056540142411582417916992441937612066939886791864330",
-   "px": 0.991,
-   "tick": 0.001,
-   "ts": 1795766467,
-   "end_ts": 1795813200,
-   "q": "Will NVIDIA (NVDA) hit (LOW) $128 Week of November 23 2026?",
-   "touched": null
-  },
-  {
-   "id": "7210462",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 1,
-   "token": "66528738076403406111093149916494035144509803999168390737485327971014276655600",
-   "px": 0.986,
-   "tick": 0.001,
-   "ts": 1795766467,
-   "end_ts": 1795813200,
-   "q": "Will NVIDIA (NVDA) hit (LOW) $108 Week of November 23 2026?",
-   "touched": null
-  },
-  {
    "id": "7210779",
    "rule": "otros_cierre",
    "cat": "otros",
@@ -13634,7 +13129,7 @@
    "ts": 1795766467,
    "end_ts": 1795816800,
    "q": "Will Gold (XAUUSD) hit (HIGH) $3,850 Week of November 23 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7343571",
@@ -13647,7 +13142,7 @@
    "ts": 1795766467,
    "end_ts": 1795813200,
    "q": "S&P 500 (SPX) Opens Up or Down on November 27?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7386809",
@@ -13660,7 +13155,7 @@
    "ts": 1795766467,
    "end_ts": 1795842000,
    "q": "Will Ethereum dip to $1,400 on November 27?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7201082",
@@ -13673,7 +13168,7 @@
    "ts": 1795766467,
    "end_ts": 1795874400,
    "q": "Spread: Parma Calcio 1913 (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7201084",
@@ -13686,7 +13181,7 @@
    "ts": 1795766467,
    "end_ts": 1795874400,
    "q": "Spread: Parma Calcio 1913 (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7201094",
@@ -13699,7 +13194,7 @@
    "ts": 1795766467,
    "end_ts": 1795874400,
    "q": "Frosinone Calcio vs. Parma Calcio 1913: O/U 0.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7201104",
@@ -13712,7 +13207,7 @@
    "ts": 1795766467,
    "end_ts": 1795874400,
    "q": "Frosinone Calcio vs. Parma Calcio 1913: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7227977",
@@ -13725,7 +13220,7 @@
    "ts": 1795766467,
    "end_ts": 1795867200,
    "q": "Holstein Kiel vs. 1. FC Kaiserslautern: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7227978",
@@ -13738,7 +13233,7 @@
    "ts": 1795766467,
    "end_ts": 1795867200,
    "q": "Holstein Kiel vs. 1. FC Kaiserslautern: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7228014",
@@ -13751,7 +13246,7 @@
    "ts": 1795766467,
    "end_ts": 1795867200,
    "q": "SG Dynamo Dresden vs. FC St. Pauli 1910: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7228015",
@@ -13764,7 +13259,7 @@
    "ts": 1795766467,
    "end_ts": 1795867200,
    "q": "SG Dynamo Dresden vs. FC St. Pauli 1910: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7251651",
@@ -13777,7 +13272,7 @@
    "ts": 1795766467,
    "end_ts": 1795869000,
    "q": "Peterborough United FC vs. Cambridge United FC: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7276114",
@@ -13790,7 +13285,7 @@
    "ts": 1795766467,
    "end_ts": 1795869000,
    "q": "Vasas FC vs. Budapest Honved FC: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7324276",
@@ -13803,7 +13298,7 @@
    "ts": 1795766467,
    "end_ts": 1795870800,
    "q": "UD Las Palmas vs. FC Andorra: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7210345",
@@ -17183,6 +16678,149 @@
    "ts": 1795806067,
    "end_ts": 1795842000,
    "q": "Gimhae FC vs. Seongnam Ilhwa: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "7025628",
+   "rule": "post_fin_95_97",
+   "cat": "deportes",
+   "side": 0,
+   "token": "15536984343448873627657396227928291152469375430093663335311957352557614526953",
+   "px": 0.965,
+   "tick": 0.001,
+   "ts": 1795809673,
+   "end_ts": 1795798800,
+   "q": "Spread: Ole Miss (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "7025796",
+   "rule": "post_fin_95_97",
+   "cat": "deportes",
+   "side": 1,
+   "token": "49696420093234453341519538870417006932238839007084858477184432481966263225855",
+   "px": 0.965,
+   "tick": 0.001,
+   "ts": 1795809673,
+   "end_ts": 1795798800,
+   "q": "Spread: UTSA (-20.5)",
+   "touched": null
+  },
+  {
+   "id": "7025813",
+   "rule": "post_fin_95_97",
+   "cat": "deportes",
+   "side": 1,
+   "token": "99002079719510376850933034828170595359687312837934888365680835055407687786348",
+   "px": 0.955,
+   "tick": 0.001,
+   "ts": 1795809673,
+   "end_ts": 1795798800,
+   "q": "Tulsa vs. UTSA: O/U 67.5",
+   "touched": null
+  },
+  {
+   "id": "7194758",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "99326051174706000166354302745690247227528563554503707728947007133438672181118",
+   "px": 0.996,
+   "tick": 0.001,
+   "ts": 1795809673,
+   "end_ts": 1795841940,
+   "q": "Will Trump's approval rating be between 37.0 and 37.4 on November 27, 2026?",
+   "touched": null
+  },
+  {
+   "id": "7330418",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "31079049747757226776911284362611281991305070956915797196214301604027054381857",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1795809673,
+   "end_ts": 1795841940,
+   "q": "Will the Fear & Greed Index be 24 or below on November 27?",
+   "touched": null
+  },
+  {
+   "id": "7330419",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "24538884349526525868751891088997644123653598850804845787627131497174246121329",
+   "px": 0.98,
+   "tick": 0.001,
+   "ts": 1795809673,
+   "end_ts": 1795841940,
+   "q": "Will the Fear & Greed Index be between 25 and 34 on November 27?",
+   "touched": null
+  },
+  {
+   "id": "7363647",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "35883788210800721343016695124826740769130956039754800196805574351058230571949",
+   "px": 0.974,
+   "tick": 0.001,
+   "ts": 1795809673,
+   "end_ts": 1795833000,
+   "q": "Spread: Lakers (-19.5)",
+   "touched": null
+  },
+  {
+   "id": "7069047",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "42375969584094804643187911665627992188524003870783879739946564788433262218051",
+   "px": 0.972,
+   "tick": 0.001,
+   "ts": 1795809673,
+   "end_ts": 1795878000,
+   "q": "Will Troon FC win on 2026-11-28?",
+   "touched": null
+  },
+  {
+   "id": "7207229",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "106991251575472683512235477587139205129575953689255367738875908264866265598728",
+   "px": 0.98,
+   "tick": 0.001,
+   "ts": 1795809673,
+   "end_ts": 1795895100,
+   "q": "Le Mans FC vs. Lille OSC: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "7207341",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "22562535759461069393176022869055577073426238001165219824901752484927301403248",
+   "px": 0.98,
+   "tick": 0.001,
+   "ts": 1795809673,
+   "end_ts": 1795895100,
+   "q": "Spread: ES Troyes AC (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "7052123",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "104327021464559533659120565272588705784762976590028130932539175251840053944226",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795809673,
+   "end_ts": 1795897800,
+   "q": "Spread: Cincinnati (-10.5)",
    "touched": null
   }
  ]
