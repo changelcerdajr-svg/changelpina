@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 14.6 de 28 | corridas: 341
-- Capital inicial: $1,000.00 | valor actual: $930.37 | P&L: $-69.63 (-6.96%)
-- Efectivo libre: $0.00 | en ordenes abiertas: $601.16 (9) | en posiciones: $344.20 (5)
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 14.6 de 28 | corridas: 342
+- Capital inicial: $1,000.00 | valor actual: $932.83 | P&L: $-67.17 (-6.72%)
+- Efectivo libre: $0.00 | en ordenes abiertas: $322.05 (6) | en posiciones: $623.31 (8)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $214.40 en 3 posiciones
-- Ordenes virtuales: 686 colocadas, 310 llenadas, 291 tocadas sin llenarse (sorteo 30%), 76 expiradas
+- Ordenes virtuales: 687 colocadas, 313 llenadas, 292 tocadas sin llenarse (sorteo 30%), 76 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -32,32 +32,35 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
-| $91.77 | 99.8c | 86.3c | otros_cierre | si | Pakistan military action against Afghanistan by November 15, 2026? |
+| $91.77 | 99.8c | 88.8c | otros_cierre | si | Pakistan military action against Afghanistan by November 15, 2026? |
 | $35.36 | 99.8c | 98.1c | otros_cierre | si | Will Mark Rothko's “Untitled” sell for between $4.5m and $5.5m at auction? |
 | $87.27 | 99.8c | 98.3c | otros_cierre | si | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
 | $92.43 | 98.2c | 97.5c | otros_cierre |  | Will the next Claude Opus model (5.6+) be released on November 27, 2026? |
-| $37.36 | 97.4c | 97.4c | otros_cierre |  | Will the next Grok model (4.8+) be released on November 27, 2026? |
+| $37.36 | 97.4c | 97.7c | otros_cierre |  | Will the next Grok model (4.8+) be released on November 27, 2026? |
+| $93.04 | 99.8c | 99.8c | deportes_previo |  | Prairie View A&M Panthers vs. Iowa Hawkeyes |
+| $93.04 | 97.8c | 97.8c | deportes_previo |  | Spread: Shimizu S-Pulse (-2.5) |
+| $93.04 | 99.6c | 99.6c | deportes_previo |  | Spread: Shimizu S-Pulse (-3.5) |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 17626 | abiertas: 2671 | abiertas mas de 7 dias despues de su fecha de fin: 8
+- Resueltas: 17758 | abiertas: 2665 | abiertas mas de 7 dias despues de su fecha de fin: 8
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
-| clima_cierre | todas | 4902 | 98.80c | 99.00% | +0.20 pts | -0.08 a +0.48 | 49 |
-| clima_cierre | tocadas | 4569 | 98.83c | 98.93% | +0.10 pts | -0.20 a +0.40 | 49 |
-| cripto_cierre | todas | 2253 | 98.58c | 98.18% | -0.40 pts | -0.95 a +0.15 | 41 |
-| cripto_cierre | tocadas | 2044 | 98.64c | 97.99% | -0.65 pts | -1.25 a -0.05 | 41 |
-| deportes_previo | todas | 8171 | 98.05c | 97.41% | -0.63 pts | -0.97 a -0.29 | 216 |
-| deportes_previo | tocadas | 7956 | 98.09c | 97.37% | -0.72 pts | -1.07 a -0.37 | 214 |
-| otros_cierre | todas | 2004 | 98.92c | 97.75% | -1.17 pts | -1.81 a -0.52 | 45 |
-| otros_cierre | tocadas | 1846 | 98.88c | 97.56% | -1.31 pts | -2.01 a -0.61 | 45 |
-| post_fin_90_97 | todas | 296 | 94.05c | 93.24% | -0.80 pts | -3.63 a +2.02 | 20 |
-| post_fin_90_97 | tocadas | 251 | 94.14c | 92.03% | -2.11 pts | -5.42 a +1.20 | 20 |
-| TOTAL | todas | 17626 | 98.36c | 97.92% | -0.44 pts | -0.64 a -0.23 | 371 |
-| TOTAL | tocadas | 16666 | 98.39c | 97.81% | -0.57 pts | -0.79 a -0.35 | 369 |
+| clima_cierre | todas | 4918 | 98.80c | 99.00% | +0.20 pts | -0.07 a +0.48 | 49 |
+| clima_cierre | tocadas | 4582 | 98.83c | 98.93% | +0.10 pts | -0.19 a +0.40 | 49 |
+| cripto_cierre | todas | 2257 | 98.58c | 98.18% | -0.40 pts | -0.94 a +0.15 | 41 |
+| cripto_cierre | tocadas | 2048 | 98.65c | 98.00% | -0.65 pts | -1.25 a -0.05 | 41 |
+| deportes_previo | todas | 8267 | 98.04c | 97.39% | -0.65 pts | -0.99 a -0.31 | 220 |
+| deportes_previo | tocadas | 8052 | 98.09c | 97.35% | -0.74 pts | -1.09 a -0.39 | 218 |
+| otros_cierre | todas | 2019 | 98.92c | 97.77% | -1.15 pts | -1.79 a -0.51 | 45 |
+| otros_cierre | tocadas | 1860 | 98.87c | 97.58% | -1.29 pts | -1.99 a -0.60 | 45 |
+| post_fin_90_97 | todas | 297 | 94.05c | 92.93% | -1.13 pts | -4.01 a +1.76 | 21 |
+| post_fin_90_97 | tocadas | 252 | 94.15c | 91.67% | -2.48 pts | -5.86 a +0.89 | 21 |
+| TOTAL | todas | 17758 | 98.36c | 97.91% | -0.45 pts | -0.66 a -0.24 | 376 |
+| TOTAL | tocadas | 16794 | 98.38c | 97.80% | -0.58 pts | -0.80 a -0.37 | 374 |
 
 Peores casos del registro sombra:
 
