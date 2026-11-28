@@ -1,29 +1,8 @@
 {
  "capital0": 1000.0,
- "cash": 402.1678,
+ "cash": 402.1284,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
-  {
-   "oid": "7029436-1795822197",
-   "id": "7029436",
-   "q": "Will the next Gemini Carbon model (4.1+) be released on November 27, 2026?",
-   "cat": "otros",
-   "rule": "otros_cierre",
-   "event": "1383747",
-   "side": 1,
-   "token": "56962971580848419370501581292446503589847206885960053031349435174539583080011",
-   "px": 0.995,
-   "tick": 0.001,
-   "mid": 0.9955,
-   "bid": 0.992,
-   "ask": 0.999,
-   "shares": 50.2188,
-   "cost": 49.9677,
-   "ts": 1795822197.254067,
-   "end_ts": 1795841940.0,
-   "hours": 5.48,
-   "liq": 3621
-  },
   {
    "oid": "7386814-1795838468",
    "id": "7386814",
@@ -233,6 +212,27 @@
    "end_ts": 1795886100.0,
    "hours": 6.23,
    "liq": 5159
+  },
+  {
+   "oid": "3930608-1795867270",
+   "id": "3930608",
+   "q": "Will Jess Wilson be the next Premier of Victoria?",
+   "cat": "otros",
+   "rule": "otros_cierre",
+   "event": "920856",
+   "side": 0,
+   "token": "57593259232534516874272346285951657924390301252843882151928303981854791786324",
+   "px": 0.985,
+   "tick": 0.001,
+   "mid": 0.985,
+   "bid": 0.971,
+   "ask": 0.999,
+   "shares": 50.7686,
+   "cost": 50.0071,
+   "ts": 1795867270.385168,
+   "end_ts": 1795928340.0,
+   "hours": 16.96,
+   "liq": 6608
   }
  ],
  "positions": [
@@ -282,7 +282,7 @@
    "hours": 7.98,
    "liq": 12063,
    "fill_ts": 1795842071.240352,
-   "mark": 0.993,
+   "mark": 0.9935,
    "stuck": false,
    "disputed": false
   }
@@ -9491,13 +9491,26 @@
    "placed": 2,
    "shadow_open": 587,
    "shadow_closed": 2
+  },
+  {
+   "ts": "2026-11-28T12:02:05Z",
+   "equity": 1005.2,
+   "cash": 402.13,
+   "orders": 11,
+   "positions": 2,
+   "closed": 141,
+   "scanned": 19697,
+   "candidates": 263,
+   "placed": 1,
+   "shadow_open": 599,
+   "shadow_closed": 12
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 660,
+  "placed": 661,
   "filled": 143,
-  "expired": 146,
+  "expired": 147,
   "touched_not_filled": 360
  },
  "shadow": [
@@ -9606,45 +9619,6 @@
    "touched": 1
   },
   {
-   "id": "7329271",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "55597131000452300027833186147682841006818627292295655237545728079150381331602",
-   "px": 0.975,
-   "tick": 0.001,
-   "ts": 1795748465,
-   "end_ts": 1795851000,
-   "q": "Bucheon FC 1995 vs. Gimcheon Sangmu FC: O/U 6.5",
-   "touched": 1
-  },
-  {
-   "id": "7329295",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "44998664125572776592470943434649315940060203380287853257369079212197623993616",
-   "px": 0.973,
-   "tick": 0.001,
-   "ts": 1795748465,
-   "end_ts": 1795851000,
-   "q": "Spread: Gwangju FC (-2.5)",
-   "touched": 1
-  },
-  {
-   "id": "7329308",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "13143236418150748677718226843862377820341815641669553859470075204793876058052",
-   "px": 0.981,
-   "tick": 0.001,
-   "ts": 1795748465,
-   "end_ts": 1795851000,
-   "q": "Pohang Steelers FC vs. Gwangju FC: O/U 6.5",
-   "touched": 1
-  },
-  {
    "id": "7248820",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -9668,32 +9642,6 @@
    "ts": 1795752066,
    "end_ts": 1795855200,
    "q": "Central Coast Mariners FC vs. Auckland FC: O/U 6.5",
-   "touched": 1
-  },
-  {
-   "id": "7329272",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "110632558590909695277217787026268238442281927358694496310763496638528505528464",
-   "px": 0.992,
-   "tick": 0.001,
-   "ts": 1795752066,
-   "end_ts": 1795851000,
-   "q": "Bucheon FC 1995 vs. Gimcheon Sangmu FC: O/U 7.5",
-   "touched": 1
-  },
-  {
-   "id": "7329309",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "103507578943762223144082570516206144891687065816169885620576913396452588558502",
-   "px": 0.992,
-   "tick": 0.001,
-   "ts": 1795752066,
-   "end_ts": 1795851000,
-   "q": "Pohang Steelers FC vs. Gwangju FC: O/U 7.5",
    "touched": 1
   },
   {
@@ -12206,84 +12154,6 @@
    "touched": 0
   },
   {
-   "id": "7383226",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 0,
-   "token": "454344609071023922923007440314690972618431542533361294058271308608037715968",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1795822197,
-   "end_ts": 1795822200,
-   "q": "BNB Up or Down - November 27, 6:15PM-6:30PM ET",
-   "touched": null
-  },
-  {
-   "id": "7383229",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 0,
-   "token": "622612296953615321482783451346319330258329970755395954133748009246289559552",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1795822197,
-   "end_ts": 1795822200,
-   "q": "Solana Up or Down - November 27, 6:15PM-6:30PM ET",
-   "touched": null
-  },
-  {
-   "id": "7383242",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 0,
-   "token": "55086631260989666633147629385911398730880587294652912349507000330262057456125",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1795822197,
-   "end_ts": 1795822200,
-   "q": "Bitcoin Up or Down - November 27, 6:15PM-6:30PM ET",
-   "touched": null
-  },
-  {
-   "id": "7383246",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 0,
-   "token": "110182135889148990320710724149179401436215648925950069423327020203780900261681",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1795822197,
-   "end_ts": 1795822200,
-   "q": "Ethereum Up or Down - November 27, 6:15PM-6:30PM ET",
-   "touched": null
-  },
-  {
-   "id": "7383298",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 0,
-   "token": "802414494890721980343820602085824179403472368286689150358217336468998717440",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1795822197,
-   "end_ts": 1795822200,
-   "q": "Dogecoin Up or Down - November 27, 6:25PM-6:30PM ET",
-   "touched": null
-  },
-  {
-   "id": "7383299",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 0,
-   "token": "724224379730502953710711810155499048082224202165349756822698986903124836352",
-   "px": 0.995,
-   "tick": 0.001,
-   "ts": 1795822197,
-   "end_ts": 1795822200,
-   "q": "BNB Up or Down - November 27, 6:25PM-6:30PM ET",
-   "touched": null
-  },
-  {
    "id": "7088758",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -12294,7 +12164,7 @@
    "ts": 1795822197,
    "end_ts": 1795863600,
    "q": "FK Obolon Kyiv vs. FK Zorya Luhansk: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7242264",
@@ -12307,7 +12177,7 @@
    "ts": 1795822197,
    "end_ts": 1795874400,
    "q": "Spread: GD Chaves (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7256813",
@@ -12320,7 +12190,7 @@
    "ts": 1795822197,
    "end_ts": 1795874400,
    "q": "NK Lokomotiva Zagreb vs. NK Slaven Belupo: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7307276",
@@ -12333,7 +12203,7 @@
    "ts": 1795822197,
    "end_ts": 1795874400,
    "q": "Bravo Ljubljana vs. Aluminij Kidricevo: O/U 6.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7307277",
@@ -12346,20 +12216,7 @@
    "ts": 1795822197,
    "end_ts": 1795874400,
    "q": "Bravo Ljubljana vs. Aluminij Kidricevo: O/U 7.5",
-   "touched": null
-  },
-  {
-   "id": "7386814",
-   "rule": "cripto_cierre",
-   "cat": "cripto",
-   "side": 1,
-   "token": "90819694727681102594200292851818340104556089402307098999449938896324564145078",
-   "px": 0.982,
-   "tick": 0.001,
-   "ts": 1795824066,
-   "end_ts": 1795842000,
-   "q": "Will Solana reach $75 on November 27?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7202348",
@@ -12372,7 +12229,7 @@
    "ts": 1795824066,
    "end_ts": 1795878000,
    "q": "Manchester United FC vs. Brentford FC: O/U 8.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7230284",
@@ -12385,7 +12242,7 @@
    "ts": 1795824066,
    "end_ts": 1795878000,
    "q": "Volos NPS vs. Asteras Tripolis: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7031077",
@@ -12398,7 +12255,7 @@
    "ts": 1795824066,
    "end_ts": 1795881600,
    "q": "Colorado Buffaloes vs. Maryland Eastern Shore Hawks (W)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7233249",
@@ -12411,7 +12268,7 @@
    "ts": 1795824066,
    "end_ts": 1795885200,
    "q": "Will the price of Ethereum be between $1,200 and $1,300 on November 28?",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7233255",
@@ -12424,7 +12281,7 @@
    "ts": 1795824066,
    "end_ts": 1795885200,
    "q": "Will the price of Ethereum be between $1,500 and $1,600 on November 28?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7233275",
@@ -12437,7 +12294,7 @@
    "ts": 1795824066,
    "end_ts": 1795885200,
    "q": "Will the price of Solana be above $75 on November 28?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7207218",
@@ -12450,7 +12307,7 @@
    "ts": 1795824066,
    "end_ts": 1795895100,
    "q": "Spread: Lille OSC (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7330162",
@@ -12463,7 +12320,7 @@
    "ts": 1795824066,
    "end_ts": 1795908600,
    "q": "Will CD Oriente Petrolero win on 2026-11-28?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7353523",
@@ -17130,6 +16987,318 @@
    "ts": 1795863668,
    "end_ts": 1795971600,
    "q": "AS Roma vs. AC Monza: O/U 0.5",
+   "touched": null
+  },
+  {
+   "id": "7367109",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "72486861608920290020790714398326449349748523531472899260253819984243423941280",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1795867270,
+   "end_ts": 1795901400,
+   "q": "Spread: Boca Juniors de Cali (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "6648470",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 0,
+   "token": "96506516413068263598459663909245908949109185725544089564870412241716385535533",
+   "px": 0.98,
+   "tick": 0.001,
+   "ts": 1795867270,
+   "end_ts": 1795928340,
+   "q": "Will the KMT win New Taipei and the DPP win Kaohsiung?",
+   "touched": null
+  },
+  {
+   "id": "7152889",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "109754683658117375593953271959255960687209006583132392960296840065036026588887",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795867270,
+   "end_ts": 1795953600,
+   "q": "Will \"Hershey\" 5-Day Opening Weekend Box Office be less than 5m?",
+   "touched": null
+  },
+  {
+   "id": "7152896",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "113996409487169959951129590588703387181843978045685115844004232722763763842707",
+   "px": 0.979,
+   "tick": 0.001,
+   "ts": 1795867270,
+   "end_ts": 1795953600,
+   "q": "Will \"Hershey\" 5-Day Opening Weekend Box Office be between 9m and 10m?",
+   "touched": null
+  },
+  {
+   "id": "7152897",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "104546340559275088664136648029416056361795476521801499068205438365086653794566",
+   "px": 0.977,
+   "tick": 0.001,
+   "ts": 1795867270,
+   "end_ts": 1795953600,
+   "q": "Will \"Hershey\" 5-Day Opening Weekend Box Office be between 10m and 11m?",
+   "touched": null
+  },
+  {
+   "id": "7152898",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "47794458490095160870005675060711453542819350782524340043907693138966787397284",
+   "px": 0.991,
+   "tick": 0.001,
+   "ts": 1795867270,
+   "end_ts": 1795953600,
+   "q": "Will \"Hershey\" 5-Day Opening Weekend Box Office be between 11m and 12m?",
+   "touched": null
+  },
+  {
+   "id": "7152899",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "91907871985740884698224652192316075417469995558201783538920450682369205306824",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795867270,
+   "end_ts": 1795953600,
+   "q": "Will \"Hershey\" 5-Day Opening Weekend Box Office be at least 12m?",
+   "touched": null
+  },
+  {
+   "id": "7152900",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "30908768807472251897323392391422318015243585572906665547789853219894333319634",
+   "px": 0.996,
+   "tick": 0.001,
+   "ts": 1795867270,
+   "end_ts": 1795953600,
+   "q": "Will \"Hexed\" 5-Day Opening Weekend Box Office be less than 28m?",
+   "touched": null
+  },
+  {
+   "id": "7152904",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "19150982624228786280004607316754052166693732976990332796524297232153791650144",
+   "px": 0.99,
+   "tick": 0.001,
+   "ts": 1795867270,
+   "end_ts": 1795953600,
+   "q": "Will \"Hexed\" 5-Day Opening Weekend Box Office be between 40m and 44m?",
+   "touched": null
+  },
+  {
+   "id": "7152906",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "92642081666140055505263007128853311483903225643583481571611931537465016649411",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795867270,
+   "end_ts": 1795953600,
+   "q": "Will \"Hexed\" 5-Day Opening Weekend Box Office be between 44m and 48m?",
+   "touched": null
+  },
+  {
+   "id": "7152908",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "74499268408685848679319224260374098361205674030960099759305251292330918145678",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795867270,
+   "end_ts": 1795953600,
+   "q": "Will \"Hexed\" 5-Day Opening Weekend Box Office be between 48m and 52m?",
+   "touched": null
+  },
+  {
+   "id": "7152909",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "23935000325521099051944526601155441139847506640917785060755658174675764864377",
+   "px": 0.984,
+   "tick": 0.001,
+   "ts": 1795867270,
+   "end_ts": 1795953600,
+   "q": "Will \"Focker-In-Law\" 5-Day Opening Weekend Box Office be between 45m and 50m?",
+   "touched": null
+  },
+  {
+   "id": "7152911",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "950168664966378067542084146623948740947605864537095165887941186915810885407",
+   "px": 0.998,
+   "tick": 0.001,
+   "ts": 1795867270,
+   "end_ts": 1795953600,
+   "q": "Will \"Focker-In-Law\" 5-Day Opening Weekend Box Office be between 50m and 55m?",
+   "touched": null
+  },
+  {
+   "id": "7287728",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "62533246425278565356786321924852341959052077695088263281285283142009198991518",
+   "px": 0.972,
+   "tick": 0.001,
+   "ts": 1795867270,
+   "end_ts": 1795953600,
+   "q": "Will \"The Hunger Games: Sunrise on the Reaping\" 2nd Weekend Box Office be less than 50m?",
+   "touched": null
+  },
+  {
+   "id": "7287732",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "12211096735331709628043950546342055210284432142559943691477195573983132607675",
+   "px": 0.983,
+   "tick": 0.001,
+   "ts": 1795867270,
+   "end_ts": 1795953600,
+   "q": "Will \"The Hunger Games: Sunrise on the Reaping\" 2nd Weekend Box Office be between 65m and ",
+   "touched": null
+  },
+  {
+   "id": "7303915",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "66765924787862718455312467685679973591789124559175453848271727963553253882296",
+   "px": 0.995,
+   "tick": 0.001,
+   "ts": 1795867270,
+   "end_ts": 1795950900,
+   "q": "Will FC Eindhoven win on 2026-11-29?",
+   "touched": null
+  },
+  {
+   "id": "7371794",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "41078786901558152173716053183807652626917840941245054526257223464887716063989",
+   "px": 0.992,
+   "tick": 0.001,
+   "ts": 1795867270,
+   "end_ts": 1795953600,
+   "q": "Will \"Ebenezer\" 3rd Weekend Box Office be between 6.5m and 7m?",
+   "touched": null
+  },
+  {
+   "id": "7371804",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "30176100823856691203686396563651731806714196273253050704836352233880014180055",
+   "px": 0.991,
+   "tick": 0.001,
+   "ts": 1795867270,
+   "end_ts": 1795953600,
+   "q": "Will \"I Play Rocky\" 2nd Weekend Box Office be at least 8.5m?",
+   "touched": null
+  },
+  {
+   "id": "6938706",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "52215800213396605767959013418115060446727575169182479095622561527287437412722",
+   "px": 0.972,
+   "tick": 0.001,
+   "ts": 1795867270,
+   "end_ts": 1795975200,
+   "q": "Ravens vs. Texans: O/U 24.5",
+   "touched": null
+  },
+  {
+   "id": "7058358",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "24745047335429239427858676669105917691626709390911259605032599508352610564991",
+   "px": 0.977,
+   "tick": 0.001,
+   "ts": 1795867270,
+   "end_ts": 1795971600,
+   "q": "East Tennessee State Buccaneers vs. Louisville Cardinals (W)",
+   "touched": null
+  },
+  {
+   "id": "7058446",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "63833862213391484864650856157092739196067732403402587948434342570340920855705",
+   "px": 0.988,
+   "tick": 0.001,
+   "ts": 1795867270,
+   "end_ts": 1795975200,
+   "q": "Georgia State Panthers vs. Vanderbilt Commodores (W)",
+   "touched": null
+  },
+  {
+   "id": "7235241",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "46528006774905195316713825409639740813037995287724906013449591906734721159566",
+   "px": 0.986,
+   "tick": 0.001,
+   "ts": 1795867270,
+   "end_ts": 1795973400,
+   "q": "Spread: RC Celta de Vigo (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "7235242",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "115111722110662459036603692887489943162967421592538657466072249990028371177934",
+   "px": 0.98,
+   "tick": 0.001,
+   "ts": 1795867270,
+   "end_ts": 1795973400,
+   "q": "Spread: Villarreal CF (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "7235253",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "110073953419473181317535077777798905114904921359843214435173087786641706718018",
+   "px": 0.974,
+   "tick": 0.001,
+   "ts": 1795867270,
+   "end_ts": 1795973400,
+   "q": "RC Celta de Vigo vs. Villarreal CF: O/U 6.5",
    "touched": null
   }
  ]
