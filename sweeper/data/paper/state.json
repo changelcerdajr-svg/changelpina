@@ -1,6 +1,6 @@
 {
  "capital0": 1000.0,
- "cash": 402.2135,
+ "cash": 402.1678,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
   {
@@ -23,48 +23,6 @@
    "end_ts": 1795841940.0,
    "hours": 5.48,
    "liq": 3621
-  },
-  {
-   "oid": "7367380-1795834868",
-   "id": "7367380",
-   "q": "FC Kuressaare vs. Viimsi JK: O/U 6.5",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1463173",
-   "side": 1,
-   "token": "110964915292284526379092259107485579060221041880334108518326276236283349179526",
-   "px": 0.971,
-   "tick": 0.001,
-   "mid": 0.971,
-   "bid": 0.959,
-   "ask": 0.983,
-   "shares": 51.6668,
-   "cost": 50.1684,
-   "ts": 1795834868.520476,
-   "end_ts": 1795861800.0,
-   "hours": 7.48,
-   "liq": 1005
-  },
-  {
-   "oid": "7243953-1795834868",
-   "id": "7243953",
-   "q": "Spread: FK Spartak 1918 Varna (-2.5)",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1439966",
-   "side": 1,
-   "token": "39113341739931697526887528340660178594544756504944734152200556205107138327411",
-   "px": 0.975,
-   "tick": 0.001,
-   "mid": 0.9755,
-   "bid": 0.966,
-   "ask": 0.985,
-   "shares": 5.7885,
-   "cost": 5.6438,
-   "ts": 1795834868.520476,
-   "end_ts": 1795862700.0,
-   "hours": 7.73,
-   "liq": 1054
   },
   {
    "oid": "7386814-1795838468",
@@ -233,6 +191,48 @@
    "end_ts": 1795928340.0,
    "hours": 19.96,
    "liq": 8225
+  },
+  {
+   "oid": "7240570-1795863668",
+   "id": "7240570",
+   "q": "Spread: Yellow-Red KV Mechelen (-3.5)",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1439299",
+   "side": 1,
+   "token": "62413904297995614807833660492205161946690074597078108073494423449937197151443",
+   "px": 0.994,
+   "tick": 0.001,
+   "mid": 0.994,
+   "bid": 0.99,
+   "ask": 0.998,
+   "shares": 50.5623,
+   "cost": 50.2589,
+   "ts": 1795863668.430003,
+   "end_ts": 1795886100.0,
+   "hours": 6.23,
+   "liq": 3272
+  },
+  {
+   "oid": "7240581-1795863668",
+   "id": "7240581",
+   "q": "Cercle Brugge vs. Yellow-Red KV Mechelen: O/U 6.5",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1439299",
+   "side": 1,
+   "token": "105365042364367848031073479478365775215595564524346080589269012441506253212038",
+   "px": 0.973,
+   "tick": 0.001,
+   "mid": 0.9735,
+   "bid": 0.97,
+   "ask": 0.977,
+   "shares": 5.7544,
+   "cost": 5.599,
+   "ts": 1795863668.430003,
+   "end_ts": 1795886100.0,
+   "hours": 6.23,
+   "liq": 5159
   }
  ],
  "positions": [
@@ -9478,14 +9478,27 @@
    "placed": 0,
    "shadow_open": 572,
    "shadow_closed": 5
+  },
+  {
+   "ts": "2026-11-28T11:02:17Z",
+   "equity": 1005.18,
+   "cash": 402.17,
+   "orders": 11,
+   "positions": 2,
+   "closed": 141,
+   "scanned": 18084,
+   "candidates": 230,
+   "placed": 2,
+   "shadow_open": 587,
+   "shadow_closed": 2
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 658,
+  "placed": 660,
   "filled": 143,
   "expired": 146,
-  "touched_not_filled": 358
+  "touched_not_filled": 360
  },
  "shadow": [
   {
@@ -12021,7 +12034,7 @@
    "ts": 1795816867,
    "end_ts": 1795869000,
    "q": "Spread: Notts County FC (-2.5)",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7251613",
@@ -12034,7 +12047,7 @@
    "ts": 1795816867,
    "end_ts": 1795869000,
    "q": "Milton Keynes Dons FC vs. Notts County FC: O/U 6.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7208480",
@@ -12047,33 +12060,7 @@
    "ts": 1795816867,
    "end_ts": 1795896000,
    "q": "Real Madrid CF vs. Deportivo Alavés: Neither team to score first?",
-   "touched": null
-  },
-  {
-   "id": "7025870",
-   "rule": "post_fin_95_97",
-   "cat": "deportes",
-   "side": 1,
-   "token": "69030143705279062881368250841667927531466088680992588334045864542021674162741",
-   "px": 0.95,
-   "tick": 0.01,
-   "ts": 1795820466,
-   "end_ts": 1795809600,
-   "q": "Appalachian State vs. South Alabama",
-   "touched": null
-  },
-  {
-   "id": "7194759",
-   "rule": "otros_cierre",
-   "cat": "otros",
-   "side": 0,
-   "token": "52900729026701300959897531349785747065012416893479411221595206828124452306218",
-   "px": 0.997,
-   "tick": 0.001,
-   "ts": 1795820466,
-   "end_ts": 1795841940,
-   "q": "Will Trump's approval rating be between 37.5 and 37.9 on November 27, 2026?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7243953",
@@ -12086,7 +12073,7 @@
    "ts": 1795820466,
    "end_ts": 1795862700,
    "q": "Spread: FK Spartak 1918 Varna (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7201937",
@@ -12099,7 +12086,7 @@
    "ts": 1795820466,
    "end_ts": 1795874400,
    "q": "Frosinone Calcio vs. Parma Calcio 1913: Neither team to score first?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7303310",
@@ -12112,7 +12099,7 @@
    "ts": 1795820466,
    "end_ts": 1795873500,
    "q": "Spread: Zaglebie Lubin (-2.5)",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7205579",
@@ -12125,7 +12112,7 @@
    "ts": 1795820466,
    "end_ts": 1795887000,
    "q": "VfB Stuttgart vs. Eintracht Frankfurt: Neither team to score first?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7207359",
@@ -12138,7 +12125,7 @@
    "ts": 1795820466,
    "end_ts": 1795895100,
    "q": "OGC Nice vs. ES Troyes AC: O/U 6.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7031137",
@@ -12151,7 +12138,7 @@
    "ts": 1795820466,
    "end_ts": 1795899600,
    "q": "Maryland Terrapins vs. Towson Tigers (W)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7404538",
@@ -12164,7 +12151,7 @@
    "ts": 1795820466,
    "end_ts": 1795901400,
    "q": "Spread: New England Revolution (-2.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7404540",
@@ -12177,7 +12164,7 @@
    "ts": 1795820466,
    "end_ts": 1795901400,
    "q": "Spread: New England Revolution (-3.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7404552",
@@ -12190,7 +12177,7 @@
    "ts": 1795820466,
    "end_ts": 1795901400,
    "q": "Philadelphia Union vs. New England Revolution: O/U 7.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7030737",
@@ -12203,7 +12190,7 @@
    "ts": 1795820466,
    "end_ts": 1795914000,
    "q": "Stonehill Skyhawks vs. Notre Dame Fighting Irish",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7030751",
@@ -12216,7 +12203,7 @@
    "ts": 1795820466,
    "end_ts": 1795910400,
    "q": "Alcorn State Braves vs. Georgia Tech Yellow Jackets",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7383226",
@@ -16922,6 +16909,227 @@
    "ts": 1795860066,
    "end_ts": 1795965300,
    "q": "RC Deportivo A Coruña vs. FC Barcelona: O/U 8.5",
+   "touched": null
+  },
+  {
+   "id": "7237336",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "49593543957255435745907215003468975235770914650072569896620185633754509334031",
+   "px": 0.987,
+   "tick": 0.001,
+   "ts": 1795863668,
+   "end_ts": 1795889700,
+   "q": "Beitar Jerusalem FC vs. Hapoel Jerusalem FC: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "7342725",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "84031581056172048715976004061433459701765528789194734512201489237673815561877",
+   "px": 0.974,
+   "tick": 0.001,
+   "ts": 1795863668,
+   "end_ts": 1795899600,
+   "q": "Spread: CSD Xelajú MC (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "7342827",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "42951406308454525028053191611471661687208561534905801356250547379829798823654",
+   "px": 0.974,
+   "tick": 0.001,
+   "ts": 1795863668,
+   "end_ts": 1795899600,
+   "q": "Spread: CD Marquense (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "6617893",
+   "rule": "otros_cierre",
+   "cat": "otros",
+   "side": 1,
+   "token": "54710958997481971236260067613219423723480848982673683476138106690427841642779",
+   "px": 0.983,
+   "tick": 0.001,
+   "ts": 1795863668,
+   "end_ts": 1795928340,
+   "q": "Will the KMT win Taipei and the DPP win New Taipei?",
+   "touched": null
+  },
+  {
+   "id": "7253746",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "56306929556573841007441837198576380961056238319940912410183628442763272662097",
+   "px": 0.974,
+   "tick": 0.001,
+   "ts": 1795863668,
+   "end_ts": 1795928400,
+   "q": "Chungnam Asan FC vs. Busan IPark: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "7347380",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "23413505927054148946602784154103613067554289652146794230251420197891850950465",
+   "px": 0.983,
+   "tick": 0.001,
+   "ts": 1795863668,
+   "end_ts": 1795948200,
+   "q": "Çorum FK vs. Kocaelispor: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "7231643",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "80781441764191287476992202469986987582080933933621026276511493806370334015469",
+   "px": 0.97,
+   "tick": 0.001,
+   "ts": 1795863668,
+   "end_ts": 1795968900,
+   "q": "Toulouse FC vs. Stade Rennais FC 1901: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "7233338",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "32182764461680372890960223056234620855216891016125574335999694359203219114449",
+   "px": 0.994,
+   "tick": 0.001,
+   "ts": 1795863668,
+   "end_ts": 1795969800,
+   "q": "Spread: Manchester City FC (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "7233349",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "32304455811640221576767044976758169670726556527541373728395659439045514299177",
+   "px": 0.975,
+   "tick": 0.001,
+   "ts": 1795863668,
+   "end_ts": 1795969800,
+   "q": "Arsenal FC vs. Manchester City FC: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "7233350",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "57368065352833645835608604647919617833018643945832185538773358787520388925356",
+   "px": 0.991,
+   "tick": 0.001,
+   "ts": 1795863668,
+   "end_ts": 1795969800,
+   "q": "Arsenal FC vs. Manchester City FC: O/U 7.5",
+   "touched": null
+  },
+  {
+   "id": "7233503",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "54130862161259992765228161863324018895849704542758687417266577166348789496495",
+   "px": 0.989,
+   "tick": 0.001,
+   "ts": 1795863668,
+   "end_ts": 1795969800,
+   "q": "Spread: FC Augsburg (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "7233509",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "75414047286013266532723949100300657878945278088029396423350271155017166168381",
+   "px": 0.98,
+   "tick": 0.001,
+   "ts": 1795863668,
+   "end_ts": 1795969800,
+   "q": "TSG 1899 Hoffenheim vs. FC Augsburg: O/U 0.5",
+   "touched": null
+  },
+  {
+   "id": "7233526",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "22407497525077542965006400490419314261013818440411855653832237290194732564230",
+   "px": 0.986,
+   "tick": 0.001,
+   "ts": 1795863668,
+   "end_ts": 1795969800,
+   "q": "TSG 1899 Hoffenheim vs. FC Augsburg: O/U 8.5",
+   "touched": null
+  },
+  {
+   "id": "7234588",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "83589537120064402620447818984931002147127654319731734616198117541537507661462",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795863668,
+   "end_ts": 1795971600,
+   "q": "Spread: AC Monza (-1.5)",
+   "touched": null
+  },
+  {
+   "id": "7234590",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "9721002791011391456423915762203077512645294750729443626488385771931215651882",
+   "px": 0.993,
+   "tick": 0.001,
+   "ts": 1795863668,
+   "end_ts": 1795971600,
+   "q": "Spread: AC Monza (-2.5)",
+   "touched": null
+  },
+  {
+   "id": "7234592",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "36869560362279430498009608748340698202802929335316033746066974798181786575606",
+   "px": 0.997,
+   "tick": 0.001,
+   "ts": 1795863668,
+   "end_ts": 1795971600,
+   "q": "Spread: AC Monza (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "7234597",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "41770105175983407856626995333406380482324183851937608015701208286622103454132",
+   "px": 0.978,
+   "tick": 0.001,
+   "ts": 1795863668,
+   "end_ts": 1795971600,
+   "q": "AS Roma vs. AC Monza: O/U 0.5",
    "touched": null
   }
  ]

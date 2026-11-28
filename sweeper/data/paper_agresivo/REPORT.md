@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 14.9 de 28 | corridas: 348
-- Capital inicial: $1,000.00 | valor actual: $949.01 | P&L: $-50.99 (-5.10%)
-- Efectivo libre: $0.00 | en ordenes abiertas: $454.29 (7) | en posiciones: $497.20 (6)
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 14.9 de 28 | corridas: 349
+- Capital inicial: $1,000.00 | valor actual: $933.17 | P&L: $-66.83 (-6.68%)
+- Efectivo libre: $4.42 | en ordenes abiertas: $378.31 (6) | en posiciones: $568.75 (7)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $214.40 en 3 posiciones
-- Ordenes virtuales: 697 colocadas, 317 llenadas, 296 tocadas sin llenarse (sorteo 30%), 77 expiradas
+- Ordenes virtuales: 698 colocadas, 318 llenadas, 297 tocadas sin llenarse (sorteo 30%), 77 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -32,18 +32,19 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
-| $91.77 | 99.8c | 99.7c | otros_cierre | si | Pakistan military action against Afghanistan by November 15, 2026? |
+| $91.77 | 99.8c | 84.2c | otros_cierre | si | Pakistan military action against Afghanistan by November 15, 2026? |
 | $35.36 | 99.8c | 98.1c | otros_cierre | si | Will Mark Rothko's “Untitled” sell for between $4.5m and $5.5m at auction? |
 | $87.27 | 99.8c | 98.3c | otros_cierre | si | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
 | $93.04 | 99.8c | 99.3c | deportes_previo |  | Prairie View A&M Panthers vs. Iowa Hawkeyes |
-| $94.85 | 95.0c | 95.0c | deportes_previo |  | Bandirmaspor vs. Batman Petrolspor: O/U 5.5 |
-| $94.90 | 99.5c | 99.5c | deportes_previo |  | Sivasspor vs. Bodrum FK: O/U 5.5 |
+| $94.85 | 95.0c | 99.0c | deportes_previo |  | Bandirmaspor vs. Batman Petrolspor: O/U 5.5 |
+| $94.90 | 99.5c | 93.8c | deportes_previo |  | Sivasspor vs. Bodrum FK: O/U 5.5 |
+| $71.55 | 99.9c | 99.9c | cripto_cierre |  | Will the price of Ethereum be above $1,400 on November 28? |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 18156 | abiertas: 3514 | abiertas mas de 7 dias despues de su fecha de fin: 8
+- Resueltas: 18156 | abiertas: 3542 | abiertas mas de 7 dias despues de su fecha de fin: 8
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
