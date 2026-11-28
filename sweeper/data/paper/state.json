@@ -1,6 +1,6 @@
 {
  "capital0": 1000.0,
- "cash": 402.1284,
+ "cash": 402.1233,
  "started": "2026-11-11T22:05:26Z",
  "orders": [
   {
@@ -23,27 +23,6 @@
    "end_ts": 1795842000.0,
    "hours": 0.98,
    "liq": 3369
-  },
-  {
-   "oid": "7196792-1795845665",
-   "id": "7196792",
-   "q": "Spread: Rayo Vallecano de Madrid (-2.5)",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1431528",
-   "side": 1,
-   "token": "89676997650353789743449672120427628025421438414189137504065584351944457009774",
-   "px": 0.983,
-   "tick": 0.001,
-   "mid": 0.983,
-   "bid": 0.981,
-   "ask": 0.985,
-   "shares": 51.0645,
-   "cost": 50.1964,
-   "ts": 1795845665.551947,
-   "end_ts": 1795870800.0,
-   "hours": 6.98,
-   "liq": 44144
   },
   {
    "oid": "7233223-1795845665",
@@ -86,27 +65,6 @@
    "end_ts": 1795885200.0,
    "hours": 9.98,
    "liq": 34361
-  },
-  {
-   "oid": "7201082-1795852627",
-   "id": "7201082",
-   "q": "Spread: Parma Calcio 1913 (-2.5)",
-   "cat": "deportes",
-   "rule": "deportes_previo",
-   "event": "1431970",
-   "side": 1,
-   "token": "10802720120456641247371520117664726288502957254487422571191919349214228650244",
-   "px": 0.986,
-   "tick": 0.001,
-   "mid": 0.986,
-   "bid": 0.984,
-   "ask": 0.988,
-   "shares": 45.4942,
-   "cost": 44.8573,
-   "ts": 1795852627.947071,
-   "end_ts": 1795874400.0,
-   "hours": 6.05,
-   "liq": 19683
   },
   {
    "oid": "6364898-1795852627",
@@ -214,7 +172,49 @@
    "liq": 5159
   },
   {
-   "oid": "3930608-1795867270",
+   "oid": "7306581-1795870866",
+   "id": "7306581",
+   "q": "Spread: LKP Motor Lublin (-3.5)",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1451808",
+   "side": 1,
+   "token": "92588567534639402874283533191842502530813598747376414245396596287348329813833",
+   "px": 0.99,
+   "tick": 0.001,
+   "mid": 0.99,
+   "bid": 0.985,
+   "ask": 0.995,
+   "shares": 50.7679,
+   "cost": 50.2602,
+   "ts": 1795870866.21006,
+   "end_ts": 1795893300.0,
+   "hours": 6.23,
+   "liq": 2513
+  },
+  {
+   "oid": "7306593-1795870866",
+   "id": "7306593",
+   "q": "Wisla Krakow vs. LKP Motor Lublin: O/U 7.5",
+   "cat": "deportes",
+   "rule": "deportes_previo",
+   "event": "1451808",
+   "side": 1,
+   "token": "89627614195943913342395123779513335967256446620489575783191446267990130645034",
+   "px": 0.989,
+   "tick": 0.001,
+   "mid": 0.9895,
+   "bid": 0.985,
+   "ask": 0.994,
+   "shares": 45.2968,
+   "cost": 44.7986,
+   "ts": 1795870866.21006,
+   "end_ts": 1795893300.0,
+   "hours": 6.23,
+   "liq": 4503
+  },
+  {
+   "oid": "3930608-1795870866",
    "id": "3930608",
    "q": "Will Jess Wilson be the next Premier of Victoria?",
    "cat": "otros",
@@ -229,10 +229,10 @@
    "ask": 0.999,
    "shares": 50.7686,
    "cost": 50.0071,
-   "ts": 1795867270.385168,
+   "ts": 1795870866.21006,
    "end_ts": 1795928340.0,
-   "hours": 16.96,
-   "liq": 6608
+   "hours": 15.96,
+   "liq": 6490
   }
  ],
  "positions": [
@@ -9504,14 +9504,27 @@
    "placed": 1,
    "shadow_open": 599,
    "shadow_closed": 12
+  },
+  {
+   "ts": "2026-11-28T13:02:15Z",
+   "equity": 1005.2,
+   "cash": 402.12,
+   "orders": 11,
+   "positions": 2,
+   "closed": 141,
+   "scanned": 19776,
+   "candidates": 248,
+   "placed": 3,
+   "shadow_open": 603,
+   "shadow_closed": 2
   }
  ],
  "halted": false,
  "stats": {
-  "placed": 661,
+  "placed": 664,
   "filled": 143,
   "expired": 147,
-  "touched_not_filled": 360
+  "touched_not_filled": 363
  },
  "shadow": [
   {
@@ -9632,19 +9645,6 @@
    "touched": 1
   },
   {
-   "id": "7075660",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "8010264257848131834348310299793676020271935126679245979765598309835968686197",
-   "px": 0.97,
-   "tick": 0.001,
-   "ts": 1795752066,
-   "end_ts": 1795855200,
-   "q": "Central Coast Mariners FC vs. Auckland FC: O/U 6.5",
-   "touched": 1
-  },
-  {
    "id": "7303356",
    "rule": "deportes_previo",
    "cat": "deportes",
@@ -9720,19 +9720,6 @@
    "ts": 1795755955,
    "end_ts": 1795806000,
    "q": "Jong FC Utrecht vs. Almere City FC: O/U 8.5",
-   "touched": 1
-  },
-  {
-   "id": "7075662",
-   "rule": "deportes_previo",
-   "cat": "deportes",
-   "side": 1,
-   "token": "37406762702004259954563839652840443779831009440045871040029414384654058695676",
-   "px": 0.99,
-   "tick": 0.001,
-   "ts": 1795755955,
-   "end_ts": 1795855200,
-   "q": "Central Coast Mariners FC vs. Auckland FC: O/U 7.5",
    "touched": 1
   },
   {
@@ -12333,7 +12320,7 @@
    "ts": 1795827664,
    "end_ts": 1795870800,
    "q": "FK Zemun vs. FK Radnicki 1923 Kragujevac: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7221305",
@@ -12346,7 +12333,7 @@
    "ts": 1795827664,
    "end_ts": 1795879800,
    "q": "FC Arouca vs. Rio Ave FC: O/U 6.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7221306",
@@ -12359,7 +12346,7 @@
    "ts": 1795827664,
    "end_ts": 1795879800,
    "q": "FC Arouca vs. Rio Ave FC: O/U 7.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7221350",
@@ -12372,7 +12359,7 @@
    "ts": 1795827664,
    "end_ts": 1795879800,
    "q": "Moreirense FC vs. CD Santa Clara: O/U 5.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7221351",
@@ -12385,7 +12372,7 @@
    "ts": 1795827664,
    "end_ts": 1795879800,
    "q": "Moreirense FC vs. CD Santa Clara: O/U 6.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7221352",
@@ -12398,7 +12385,7 @@
    "ts": 1795827664,
    "end_ts": 1795879800,
    "q": "Moreirense FC vs. CD Santa Clara: O/U 7.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7230234",
@@ -12411,7 +12398,7 @@
    "ts": 1795827664,
    "end_ts": 1795878000,
    "q": "Spread: Panaitolikos Agrinio (-2.5)",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7230247",
@@ -12424,7 +12411,7 @@
    "ts": 1795827664,
    "end_ts": 1795878000,
    "q": "POT Iraklis vs. Panaitolikos Agrinio: O/U 6.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7230283",
@@ -12437,7 +12424,7 @@
    "ts": 1795827664,
    "end_ts": 1795878000,
    "q": "Volos NPS vs. Asteras Tripolis: O/U 5.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7230285",
@@ -12450,7 +12437,7 @@
    "ts": 1795827664,
    "end_ts": 1795878000,
    "q": "Volos NPS vs. Asteras Tripolis: O/U 7.5",
-   "touched": null
+   "touched": 0
   },
   {
    "id": "7030703",
@@ -12463,7 +12450,7 @@
    "ts": 1795827664,
    "end_ts": 1795885200,
    "q": "Elon Phoenix vs. North Carolina State Wolfpack",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7233230",
@@ -12476,7 +12463,7 @@
    "ts": 1795827664,
    "end_ts": 1795885200,
    "q": "Will the price of Ethereum be above $1,600 on November 28?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7233254",
@@ -12489,7 +12476,7 @@
    "ts": 1795827664,
    "end_ts": 1795885200,
    "q": "Will the price of Bitcoin be above $62,000 on November 28?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7051257",
@@ -12502,7 +12489,7 @@
    "ts": 1795827664,
    "end_ts": 1795897800,
    "q": "Spread: Duke (-10.5)",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7207237",
@@ -12515,7 +12502,7 @@
    "ts": 1795827664,
    "end_ts": 1795895100,
    "q": "Le Mans FC vs. Lille OSC: 1st Half O/U 3.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7208741",
@@ -12528,7 +12515,7 @@
    "ts": 1795827664,
    "end_ts": 1795895100,
    "q": "Paris Saint-Germain FC vs. FC Lorient: Neither team to score first?",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7400378",
@@ -12541,7 +12528,7 @@
    "ts": 1795827664,
    "end_ts": 1795910400,
    "q": "Capitals vs. Blues: O/U 2.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7406658",
@@ -12554,7 +12541,7 @@
    "ts": 1795827664,
    "end_ts": 1795908600,
    "q": "FC Cincinnati vs. Nashville SC: O/U 7.5",
-   "touched": null
+   "touched": 1
   },
   {
    "id": "7367380",
@@ -17299,6 +17286,84 @@
    "ts": 1795867270,
    "end_ts": 1795973400,
    "q": "RC Celta de Vigo vs. Villarreal CF: O/U 6.5",
+   "touched": null
+  },
+  {
+   "id": "7411829",
+   "rule": "cripto_cierre",
+   "cat": "cripto",
+   "side": 1,
+   "token": "87261577031948818940548562138590898865291027534346680512096934229404401295727",
+   "px": 0.996,
+   "tick": 0.001,
+   "ts": 1795870866,
+   "end_ts": 1795928400,
+   "q": "Will XRP reach $1.00 on November 28?",
+   "touched": null
+  },
+  {
+   "id": "7303913",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "64037130395927279777405859920875728447892167927531942157939871470361223228892",
+   "px": 0.985,
+   "tick": 0.001,
+   "ts": 1795870866,
+   "end_ts": 1795950900,
+   "q": "Will FC Volendam win on 2026-11-29?",
+   "touched": null
+  },
+  {
+   "id": "7303914",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 0,
+   "token": "69536483402658699069019811695177789384289955142943537239895503491624739610392",
+   "px": 0.984,
+   "tick": 0.001,
+   "ts": 1795870866,
+   "end_ts": 1795950900,
+   "q": "Will FC Volendam vs. FC Eindhoven end in a draw?",
+   "touched": null
+  },
+  {
+   "id": "7058473",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "54120572385488653930545456098306196941214598954992545972609351077366188703094",
+   "px": 0.988,
+   "tick": 0.001,
+   "ts": 1795870866,
+   "end_ts": 1795978800,
+   "q": "Eastern Michigan Eagles vs. Michigan State Spartans (W)",
+   "touched": null
+  },
+  {
+   "id": "7236743",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "89090499226071059257525626629458553556088802287242056712481279634567710674880",
+   "px": 0.984,
+   "tick": 0.001,
+   "ts": 1795870866,
+   "end_ts": 1795977000,
+   "q": "Spread: Bayer 04 Leverkusen (-3.5)",
+   "touched": null
+  },
+  {
+   "id": "7236768",
+   "rule": "deportes_previo",
+   "cat": "deportes",
+   "side": 1,
+   "token": "6350760376864401647604699052734217947740149413301701606577722038724885884967",
+   "px": 0.98,
+   "tick": 0.001,
+   "ts": 1795870866,
+   "end_ts": 1795977000,
+   "q": "BV Borussia 09 Dortmund vs. Bayer 04 Leverkusen: O/U 7.5",
    "touched": null
   }
  ]
