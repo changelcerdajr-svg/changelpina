@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 14.7 de 28 | corridas: 343
-- Capital inicial: $1,000.00 | valor actual: $883.54 | P&L: $-116.46 (-11.65%)
-- Efectivo libre: $0.00 | en ordenes abiertas: $294.10 (5) | en posiciones: $651.26 (9)
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 14.7 de 28 | corridas: 344
+- Capital inicial: $1,000.00 | valor actual: $902.72 | P&L: $-97.28 (-9.73%)
+- Efectivo libre: $0.00 | en ordenes abiertas: $276.69 (4) | en posiciones: $668.67 (10)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $214.40 en 3 posiciones
-- Ordenes virtuales: 687 colocadas, 314 llenadas, 292 tocadas sin llenarse (sorteo 30%), 76 expiradas
+- Ordenes virtuales: 687 colocadas, 315 llenadas, 292 tocadas sin llenarse (sorteo 30%), 76 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -32,36 +32,37 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
 | Costo | Precio | Marca | Regla | Inmovilizada | Mercado |
 |---|---|---|---|---|---|
-| $91.77 | 99.8c | 90.3c | otros_cierre | si | Pakistan military action against Afghanistan by November 15, 2026? |
+| $91.77 | 99.8c | 96.0c | otros_cierre | si | Pakistan military action against Afghanistan by November 15, 2026? |
 | $35.36 | 99.8c | 98.1c | otros_cierre | si | Will Mark Rothko's “Untitled” sell for between $4.5m and $5.5m at auction? |
 | $87.27 | 99.8c | 98.3c | otros_cierre | si | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
 | $92.43 | 98.2c | 97.5c | otros_cierre |  | Will the next Claude Opus model (5.6+) be released on November 27, 2026? |
 | $37.36 | 97.4c | 98.0c | otros_cierre |  | Will the next Grok model (4.8+) be released on November 27, 2026? |
 | $27.95 | 99.8c | 99.8c | otros_cierre |  | Will the next Gemini Carbon model (4.1+) be released on November 27, 2026? |
-| $93.04 | 99.8c | 86.8c | deportes_previo |  | Prairie View A&M Panthers vs. Iowa Hawkeyes |
-| $93.04 | 97.8c | 97.0c | deportes_previo |  | Spread: Shimizu S-Pulse (-2.5) |
+| $93.04 | 99.8c | 99.3c | deportes_previo |  | Prairie View A&M Panthers vs. Iowa Hawkeyes |
+| $93.04 | 97.8c | 99.4c | deportes_previo |  | Spread: Shimizu S-Pulse (-2.5) |
 | $93.04 | 99.6c | 59.1c | deportes_previo |  | Spread: Shimizu S-Pulse (-3.5) |
+| $17.41 | 95.0c | 95.0c | deportes_previo |  | Spread: Cerezo Ōsaka (-2.5) |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 17851 | abiertas: 3439 | abiertas mas de 7 dias despues de su fecha de fin: 8
+- Resueltas: 17927 | abiertas: 3519 | abiertas mas de 7 dias despues de su fecha de fin: 8
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
-| clima_cierre | todas | 4920 | 98.80c | 99.00% | +0.20 pts | -0.07 a +0.48 | 49 |
-| clima_cierre | tocadas | 4584 | 98.83c | 98.93% | +0.10 pts | -0.19 a +0.40 | 49 |
-| cripto_cierre | todas | 2260 | 98.58c | 98.19% | -0.39 pts | -0.94 a +0.15 | 41 |
-| cripto_cierre | tocadas | 2048 | 98.65c | 98.00% | -0.65 pts | -1.25 a -0.05 | 41 |
-| deportes_previo | todas | 8354 | 98.05c | 97.41% | -0.64 pts | -0.97 a -0.30 | 221 |
-| deportes_previo | tocadas | 8139 | 98.09c | 97.36% | -0.72 pts | -1.07 a -0.38 | 219 |
-| otros_cierre | todas | 2020 | 98.92c | 97.77% | -1.15 pts | -1.79 a -0.51 | 45 |
-| otros_cierre | tocadas | 1861 | 98.87c | 97.58% | -1.29 pts | -1.98 a -0.60 | 45 |
+| clima_cierre | todas | 4929 | 98.80c | 99.01% | +0.20 pts | -0.07 a +0.48 | 49 |
+| clima_cierre | tocadas | 4592 | 98.83c | 98.93% | +0.11 pts | -0.19 a +0.40 | 49 |
+| cripto_cierre | todas | 2271 | 98.58c | 98.19% | -0.38 pts | -0.93 a +0.16 | 41 |
+| cripto_cierre | tocadas | 2059 | 98.64c | 98.01% | -0.64 pts | -1.23 a -0.04 | 41 |
+| deportes_previo | todas | 8409 | 98.05c | 97.43% | -0.62 pts | -0.96 a -0.29 | 221 |
+| deportes_previo | tocadas | 8194 | 98.09c | 97.38% | -0.71 pts | -1.05 a -0.36 | 219 |
+| otros_cierre | todas | 2021 | 98.92c | 97.77% | -1.15 pts | -1.78 a -0.51 | 45 |
+| otros_cierre | tocadas | 1862 | 98.87c | 97.58% | -1.29 pts | -1.98 a -0.59 | 45 |
 | post_fin_90_97 | todas | 297 | 94.05c | 92.93% | -1.13 pts | -4.01 a +1.76 | 21 |
 | post_fin_90_97 | tocadas | 252 | 94.15c | 91.67% | -2.48 pts | -5.86 a +0.89 | 21 |
-| TOTAL | todas | 17851 | 98.35c | 97.91% | -0.44 pts | -0.65 a -0.23 | 377 |
-| TOTAL | tocadas | 16884 | 98.38c | 97.81% | -0.58 pts | -0.80 a -0.36 | 375 |
+| TOTAL | todas | 17927 | 98.35c | 97.92% | -0.43 pts | -0.64 a -0.22 | 377 |
+| TOTAL | tocadas | 16959 | 98.38c | 97.82% | -0.57 pts | -0.79 a -0.35 | 375 |
 
 Peores casos del registro sombra:
 
