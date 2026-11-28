@@ -2,11 +2,11 @@
 
 Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 
-- Inicio: 2026-11-13T13:15:42Z | dias corridos: 14.8 de 28 | corridas: 347
+- Inicio: 2026-11-13T13:15:42Z | dias corridos: 14.9 de 28 | corridas: 348
 - Capital inicial: $1,000.00 | valor actual: $949.01 | P&L: $-50.99 (-5.10%)
-- Efectivo libre: $0.00 | en ordenes abiertas: $644.04 (9) | en posiciones: $307.44 (4)
+- Efectivo libre: $0.00 | en ordenes abiertas: $454.29 (7) | en posiciones: $497.20 (6)
 - Capital inmovilizado (mercado abierto > 7 dias tras su fecha de fin): $214.40 en 3 posiciones
-- Ordenes virtuales: 695 colocadas, 315 llenadas, 294 tocadas sin llenarse (sorteo 30%), 77 expiradas
+- Ordenes virtuales: 697 colocadas, 317 llenadas, 296 tocadas sin llenarse (sorteo 30%), 77 expiradas
 
 ## Operaciones cerradas: pago real contra precio pagado
 
@@ -36,27 +36,29 @@ Dinero virtual. Ninguna orden real. Se regenera en cada corrida.
 | $35.36 | 99.8c | 98.1c | otros_cierre | si | Will Mark Rothko's “Untitled” sell for between $4.5m and $5.5m at auction? |
 | $87.27 | 99.8c | 98.3c | otros_cierre | si | Will Mark Rothko's “Untitled” sell for between $3.5m and $4.5m at auction? |
 | $93.04 | 99.8c | 99.3c | deportes_previo |  | Prairie View A&M Panthers vs. Iowa Hawkeyes |
+| $94.85 | 95.0c | 95.0c | deportes_previo |  | Bandirmaspor vs. Batman Petrolspor: O/U 5.5 |
+| $94.90 | 99.5c | 99.5c | deportes_previo |  | Sivasspor vs. Bodrum FK: O/U 5.5 |
 
 ## Registro sombra: todas las oportunidades detectadas, sin limite de capital
 
 Cada mercado que cumple una regla se anota una vez al precio limite que se habria puesto. "Tocadas" son las que el precio alcanzo en las 12h siguientes (las unicas que un maker podria llenar).
 
-- Resueltas: 18114 | abiertas: 3519 | abiertas mas de 7 dias despues de su fecha de fin: 8
+- Resueltas: 18156 | abiertas: 3514 | abiertas mas de 7 dias despues de su fecha de fin: 8
 
 | Regla | Grupo | n | Precio medio | Pago real | Edge | IC95 del edge | Perdidas |
 |---|---|---|---|---|---|---|---|
-| clima_cierre | todas | 4990 | 98.80c | 99.02% | +0.22 pts | -0.05 a +0.49 | 49 |
-| clima_cierre | tocadas | 4650 | 98.83c | 98.95% | +0.12 pts | -0.17 a +0.41 | 49 |
-| cripto_cierre | todas | 2296 | 98.58c | 98.21% | -0.37 pts | -0.91 a +0.17 | 41 |
-| cripto_cierre | tocadas | 2082 | 98.65c | 98.03% | -0.62 pts | -1.21 a -0.03 | 41 |
-| deportes_previo | todas | 8500 | 98.05c | 97.44% | -0.60 pts | -0.94 a -0.27 | 222 |
-| deportes_previo | tocadas | 8283 | 98.09c | 97.40% | -0.69 pts | -1.03 a -0.35 | 220 |
+| clima_cierre | todas | 5011 | 98.80c | 99.02% | +0.22 pts | -0.05 a +0.49 | 49 |
+| clima_cierre | tocadas | 4671 | 98.83c | 98.95% | +0.12 pts | -0.17 a +0.41 | 49 |
+| cripto_cierre | todas | 2302 | 98.58c | 98.22% | -0.36 pts | -0.90 a +0.17 | 41 |
+| cripto_cierre | tocadas | 2088 | 98.65c | 98.04% | -0.61 pts | -1.20 a -0.02 | 41 |
+| deportes_previo | todas | 8515 | 98.05c | 97.45% | -0.60 pts | -0.93 a -0.27 | 222 |
+| deportes_previo | tocadas | 8297 | 98.09c | 97.40% | -0.69 pts | -1.02 a -0.35 | 220 |
 | otros_cierre | todas | 2031 | 98.92c | 97.78% | -1.13 pts | -1.77 a -0.50 | 45 |
 | otros_cierre | tocadas | 1872 | 98.87c | 97.60% | -1.27 pts | -1.96 a -0.58 | 45 |
 | post_fin_90_97 | todas | 297 | 94.05c | 92.93% | -1.13 pts | -4.01 a +1.76 | 21 |
 | post_fin_90_97 | tocadas | 252 | 94.15c | 91.67% | -2.48 pts | -5.86 a +0.89 | 21 |
-| TOTAL | todas | 18114 | 98.35c | 97.94% | -0.42 pts | -0.62 a -0.21 | 378 |
-| TOTAL | tocadas | 17139 | 98.38c | 97.83% | -0.55 pts | -0.77 a -0.34 | 376 |
+| TOTAL | todas | 18156 | 98.35c | 97.94% | -0.41 pts | -0.62 a -0.21 | 378 |
+| TOTAL | tocadas | 17180 | 98.38c | 97.84% | -0.55 pts | -0.76 a -0.33 | 376 |
 
 Peores casos del registro sombra:
 
@@ -73,4 +75,4 @@ Peores casos del registro sombra:
 
 ## Veredicto
 
-Aun no hay veredicto: van 311 operaciones cerradas en 14.8 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
+Aun no hay veredicto: van 311 operaciones cerradas en 14.9 dias. El plan pide 4 semanas de papel y aqui se exigen al menos 100 operaciones cerradas antes de concluir.
